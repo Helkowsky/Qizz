@@ -132,3 +132,31 @@ h2{color:var(--navy);font-size:21px;margin:0 0 4px;font-weight:700}
 .resdot{width:11px;height:11px;border-radius:50%;flex:0 0 auto}
 .resdot.ok{background:var(--green)} .resdot.ko{background:var(--red)}
 .resrow .rc{color:var(--muted)}
+.resdot.na{background:#c3ccd4}
+
+/* bandeau de reprise (accueil) */
+.resume{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+        background:#fff8e6;border:1.5px solid #ecd79a;border-radius:12px;padding:14px 16px;margin:2px 0 18px}
+.resume-txt{font-size:14.5px;color:#7a5c10}
+.resume-txt b{color:#8a6a12}
+.resume-actions{display:flex;gap:10px}
+.resume .btn{padding:9px 16px;font-size:14px}
+
+/* navigation dans la série (quiz) */
+.navrow{display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.ghost.small{padding:6px 11px;font-size:13px;color:var(--navy);border-color:var(--line);background:#fff;line-height:1}
+.ghost.small:hover{border-color:var(--navy);background:#f5f8fb}
+.gotowrap{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}
+.gotoinput{width:78px;font-family:inherit;font-size:14px;font-weight:600;color:var(--navy);
+           border:1.5px solid var(--line);border-radius:8px;padding:6px 8px}
+.gotoinput:focus{outline:none;border-color:var(--navy)}
+
+/* récap par module (résultat) */
+.bymod-title{font-weight:800;color:var(--navy);font-size:14px;margin:22px 0 10px}
+.bymod{display:flex;flex-direction:column;gap:9px}
+.modrow{display:flex;align-items:center;gap:10px;font-size:13.5px}
+.mr-code{font-weight:800;color:var(--navy);min-width:30px}
+.mr-title{flex:1;min-width:110px}
+.mr-bar{flex:0 0 88px;height:7px;background:#dde4ea;border-radius:5px;overflow:hidden}
+.mr-bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--navy),#3d7ea6)}
+.mr-num{color:var(--muted);font-variant-numeric:tabular-nums;min-width:82px;text-align:right}

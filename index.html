@@ -23,6 +23,7 @@
           <select id="course" class="select"></select>
         </div>
         <h2 id="course-title"></h2>
+        <div id="resume" class="resume hidden"></div>
         <p class="sub">Choisis les modules à réviser.</p>
         <div class="mods" id="mods"></div>
         <button class="btn btn-primary" id="btn-start">Démarrer</button>
@@ -39,6 +40,14 @@
         <div class="metaline">
           <span class="chip" id="champ"></span>
           <span class="dots" id="diff"></span>
+        </div>
+        <div class="navrow">
+          <button class="ghost small" id="btn-prev" title="Question précédente">◀</button>
+          <span class="gotowrap">Aller à n°
+            <input id="goto" class="gotoinput" type="number" min="1" inputmode="numeric" aria-label="Aller à la question numéro">
+            <button class="ghost small" id="btn-goto">Aller</button>
+          </span>
+          <button class="ghost small" id="btn-next-nav" title="Question suivante">▶</button>
         </div>
         <div class="q" id="qtext"></div>
         <div class="opts" id="opts"></div>
@@ -66,6 +75,9 @@
             <div class="sub" id="score-line" style="margin:0"></div>
           </div>
         </div>
+        <div class="bymod-title">Par module</div>
+        <div class="bymod" id="bymod"></div>
+        <div class="bymod-title">Détail des questions</div>
         <div class="reslist" id="reslist"></div>
         <div class="actions" style="justify-content:flex-start">
           <button class="btn btn-primary" id="btn-restart">Recommencer</button>
