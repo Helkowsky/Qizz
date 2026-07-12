@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCMTrainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand"><span class="logo">Q</span> QCMTrainer</div>
+    <span class="spacer"></span>
+    <button class="ghost" id="btn-home">Accueil</button>
+  </div>
+
+  <div class="wrap">
+
+    <!-- ACCUEIL -->
+    <section id="scr-home">
+      <div class="card">
+        <div class="course-row">
+          <label class="lbl" for="course">Cours</label>
+          <select id="course" class="select"></select>
+        </div>
+        <h2 id="course-title"></h2>
+        <p class="sub">Choisis les modules à réviser.</p>
+        <div class="mods" id="mods"></div>
+        <button class="btn btn-primary" id="btn-start">Démarrer</button>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="scr-quiz" class="hidden">
+      <div class="card">
+        <div class="qtop">
+          <span class="count" id="count"></span>
+          <span class="bar"><i id="bar" style="width:0%"></i></span>
+        </div>
+        <div class="metaline">
+          <span class="chip" id="champ"></span>
+          <span class="dots" id="diff"></span>
+        </div>
+        <div class="q" id="qtext"></div>
+        <div class="opts" id="opts"></div>
+
+        <div class="corr hidden" id="corr">
+          <div class="verdict" id="verdict"></div>
+          <ul class="expl" id="expl"></ul>
+          <div class="tags" id="tags"></div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" id="btn-validate" disabled>Valider</button>
+          <button class="btn btn-primary hidden" id="btn-next">Suivant</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- RÉSULTAT -->
+    <section id="scr-result" class="hidden">
+      <div class="card">
+        <div class="result-top">
+          <div class="ring" id="ring"><b id="ring-txt">0/0</b></div>
+          <div class="result-txt">
+            <div class="big" id="score-pct"></div>
+            <div class="sub" id="score-line" style="margin:0"></div>
+          </div>
+        </div>
+        <div class="reslist" id="reslist"></div>
+        <div class="actions" style="justify-content:flex-start">
+          <button class="btn btn-primary" id="btn-restart">Recommencer</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="banks/_registry.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

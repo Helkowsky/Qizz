@@ -1,0 +1,134 @@
+/* QCMTrainer — design (palette charte.css) */
+:root{
+  --navy:#0f3d5c; --navy-2:#0c3049; --navy-tint:#e8eef3;
+  --green:#1b6e2a; --green-bg:#eaf6ec; --green-line:#8fbf98;
+  --red:#c0392b;   --red-bg:#fcecea;  --red-line:#e2a49d;
+  --blue:#14538c;  --gold:#d9a520;    --violet:#6b3fa0;
+  --ink:#182531; --muted:#6a7783; --line:#dfe5ea; --card:#fff;
+  --bg1:#eef2f6; --bg2:#e4eaf0;
+  --sh:0 1px 2px rgba(16,40,60,.06),0 6px 20px rgba(16,40,60,.06);
+  --r:12px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:"Segoe UI","Source Sans Pro",system-ui,sans-serif;color:var(--ink);
+     background:linear-gradient(160deg,var(--bg1),var(--bg2));min-height:100%;
+     font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+
+/* topbar */
+.topbar{background:var(--navy);color:#fff;height:56px;display:flex;align-items:center;
+        gap:12px;padding:0 22px;box-shadow:0 2px 10px rgba(16,40,60,.18);position:sticky;top:0;z-index:9}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:.2px}
+.brand .logo{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#3d7ea6,#8fd0a0);
+        display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#fff}
+.topbar .spacer{flex:1}
+.ghost{background:transparent;color:#dfe9f1;border:1px solid rgba(255,255,255,.25);
+        padding:7px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600}
+.ghost:hover{background:rgba(255,255,255,.12)}
+
+.wrap{max-width:760px;margin:30px auto;padding:0 18px}
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:26px 28px;margin-bottom:18px}
+.hidden{display:none}
+h2{color:var(--navy);font-size:21px;margin:0 0 4px;font-weight:700}
+.sub{color:var(--muted);font-size:14px;margin:0 0 18px}
+
+/* buttons */
+.btn{border:0;border-radius:10px;padding:12px 22px;cursor:pointer;font-size:15px;font-weight:700;
+     font-family:inherit;transition:.15s}
+.btn-primary{background:var(--navy);color:#fff;box-shadow:0 2px 8px rgba(15,61,92,.28)}
+.btn-primary:hover{background:var(--navy-2);transform:translateY(-1px)}
+.btn-primary:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
+.btn-ghost{background:#fff;color:var(--navy);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--navy)}
+
+/* home — sélecteur de cours */
+.course-row{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.course-row .lbl{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.select{flex:1;max-width:360px;font-family:inherit;font-size:15px;font-weight:600;color:var(--navy);
+        background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer}
+.select:hover{border-color:#9db1c2}
+.select:focus{outline:none;border-color:var(--navy)}
+
+/* home — sélection modules */
+.mods{display:flex;flex-direction:column;gap:10px;margin:6px 0 22px}
+.mod{display:flex;align-items:center;gap:14px;border:1.5px solid var(--line);border-radius:11px;
+     padding:14px 16px;cursor:pointer;transition:.15s;user-select:none}
+.mod:hover{border-color:#b9c6d1;background:#fafcfe}
+.mod input{position:absolute;opacity:0;width:0;height:0}
+.mod .box{width:22px;height:22px;border-radius:6px;border:2px solid #c3ccd4;flex:0 0 auto;
+     display:flex;align-items:center;justify-content:center;color:#fff;transition:.15s}
+.mod input:checked ~ .box{background:var(--navy);border-color:var(--navy)}
+.mod input:checked ~ .box::after{content:"✓";font-size:14px;font-weight:800}
+.mod .m-code{font-weight:800;color:var(--navy);min-width:30px}
+.mod .m-title{flex:1}
+.mod .m-n{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+
+/* quiz header */
+.qtop{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.count{font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+.bar{flex:1;height:8px;background:#dde4ea;border-radius:6px;overflow:hidden}
+.bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--navy),#3d7ea6);
+     border-radius:6px;transition:width .3s}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;
+     background:var(--navy-tint);color:var(--navy);padding:4px 10px;border-radius:20px}
+.dots{display:inline-flex;gap:3px}
+.dots i{width:8px;height:8px;border-radius:50%;background:#d3dae0}
+.dots i.on{background:var(--gold)}
+.metaline{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.q{font-size:18px;font-weight:600;line-height:1.4;margin:2px 0 20px}
+
+/* options — RADIO */
+.opts{display:flex;flex-direction:column;gap:11px}
+.opt{position:relative;display:flex;align-items:flex-start;gap:14px;border:1.5px solid var(--line);
+     border-radius:12px;padding:15px 16px;cursor:pointer;transition:.15s;background:#fff}
+.opt:hover{border-color:#9db1c2;background:#fafcfe}
+.opt input{position:absolute;opacity:0;width:0;height:0}
+.opt .mark{flex:0 0 auto;width:22px;height:22px;border-radius:50%;border:2px solid #c3ccd4;
+     margin-top:1px;position:relative;transition:.15s}
+.opt input:checked ~ .mark{border-color:var(--navy)}
+.opt input:checked ~ .mark::after{content:"";position:absolute;inset:4px;border-radius:50%;background:var(--navy)}
+.opt .txt{flex:1;font-size:15.5px}
+.opt.sel{border-color:var(--navy);background:#f2f7fb}
+/* états après validation */
+.opt.locked{cursor:default}
+.opt.locked:hover{background:#fff;border-color:var(--line)}
+.opt.correct{border-color:var(--green-line);background:var(--green-bg)}
+.opt.correct .mark{border-color:var(--green);background:var(--green)}
+.opt.correct .mark::after{content:"✓";position:absolute;inset:0;color:#fff;font-size:14px;font-weight:800;
+     display:flex;align-items:center;justify-content:center;background:none}
+.opt.wrong{border-color:var(--red-line);background:var(--red-bg)}
+.opt.wrong .mark{border-color:var(--red);background:var(--red)}
+.opt.wrong .mark::after{content:"✕";position:absolute;inset:0;color:#fff;font-size:13px;font-weight:800;
+     display:flex;align-items:center;justify-content:center;background:none}
+.opt.dim{opacity:.62}
+
+/* correction */
+.corr{margin-top:20px;border-top:1px solid var(--line);padding-top:18px}
+.verdict{font-weight:800;font-size:16px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.verdict.ok{color:var(--green)} .verdict.ko{color:var(--red)}
+.expl{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.expl li{font-size:14px;padding:10px 13px;border-radius:9px;background:#f5f7f9;border-left:3px solid #d3dae0}
+.expl li.ok{background:var(--green-bg);border-left-color:var(--green)}
+.expl li.ko{background:var(--red-bg);border-left-color:var(--red)}
+.expl li .k{font-weight:800;margin-right:7px}
+.tags{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.tag{font-size:12px;font-weight:600;padding:5px 11px;border-radius:8px}
+.tag.mem{background:#fff5e0;color:#8a6a12;border:1px solid #ecd79a}
+.tag.piege{background:#f3ecfb;color:var(--violet);border:1px solid #ddccef}
+
+.actions{display:flex;justify-content:flex-end;margin-top:22px}
+
+/* résultat */
+.result-top{display:flex;align-items:center;gap:22px}
+.ring{--p:0;width:104px;height:104px;border-radius:50%;flex:0 0 auto;
+      background:conic-gradient(var(--navy) calc(var(--p)*1%),#e2e8ee 0);
+      display:flex;align-items:center;justify-content:center}
+.ring::before{content:"";position:absolute;width:104px;height:104px}
+.ring b{background:#fff;width:80px;height:80px;border-radius:50%;display:flex;align-items:center;
+        justify-content:center;font-size:22px;font-weight:800;color:var(--navy)}
+.result-txt .big{font-size:26px;font-weight:800;color:var(--navy)}
+.reslist{margin-top:20px;display:flex;flex-direction:column;gap:8px}
+.resrow{display:flex;align-items:center;gap:12px;font-size:14px;padding:9px 13px;border-radius:9px;background:#f5f7f9}
+.resdot{width:11px;height:11px;border-radius:50%;flex:0 0 auto}
+.resdot.ok{background:var(--green)} .resdot.ko{background:var(--red)}
+.resrow .rc{color:var(--muted)}

@@ -1,0 +1,3835 @@
+{
+ "cours": "droit",
+ "module": "M6",
+ "titre": "Sûretés",
+ "questions": [
+  {
+   "id": "M6-001",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "Qu'est-ce qui caractérise juridiquement une sûreté RÉELLE ?",
+   "options": [
+    "Elle affecte un bien déterminé qui donne au créancier un rang privilégié dans la faillite du débiteur",
+    "Elle ajoute un second patrimoine (un tiers) à côté de celui du débiteur",
+    "Elle transforme la créance en un papier-valeur négociable",
+    "Elle éteint la dette dès la survenance de l'insolvabilité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la sûreté réelle affecte un bien qui répond en priorité dans la faillite du débiteur (concept clé, Tableau 1).",
+    "Faux : ajouter un second patrimoine décrit la sûreté PERSONNELLE, pas la réelle (mémento, concept clé).",
+    "Faux : la négociabilité relève des papiers-valeurs, pas de la notion de sûreté réelle.",
+    "Faux : une sûreté ne fait jamais disparaître la dette, elle en garantit le paiement (concept clé)."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-002",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 4",
+   "question": "Un créancier titulaire d'un gage sur une machine du débiteur failli obtient, sur le produit de vente de CETTE machine…",
+   "options": [
+    "un simple dividende de 3e classe comme tout créancier chirographaire",
+    "un second débiteur solidaire tenu du solde",
+    "un rang privilégié : il est payé en premier sur ce produit",
+    "la propriété automatique de la machine"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le gagiste n'est pas un chirographaire ordinaire, il a un rang privilégié sur le bien (art. 219 al. 1 LP).",
+    "Faux : un second débiteur relève de la sûreté personnelle, pas du gage.",
+    "Exact : la sûreté réelle donne un meilleur rang dans la faillite du débiteur, sur le produit du bien affecté (art. 219 al. 1 LP, Tableau 4).",
+    "Faux : le pacte commissoire est nul (art. 894 CC) ; le gagiste reçoit de l'argent, pas la propriété."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-003",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "Parmi ces affirmations sur la sûreté réelle, laquelle est CORRECTE ?",
+   "options": [
+    "Le créancier obtient un droit contre un nouveau patrimoine tiers",
+    "Le créancier renonce à tout rang particulier dans la faillite",
+    "La sûreté réelle exige toujours la signature d'un garant personne physique",
+    "Un bien déterminé répond en priorité de la dette dans la faillite du débiteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un nouveau patrimoine tiers caractérise la sûreté personnelle (concept clé).",
+    "Faux : c'est l'inverse, le titulaire d'une sûreté réelle jouit d'un rang privilégié (art. 219 LP).",
+    "Faux : la signature d'un garant caractérise la sûreté personnelle (cautionnement/porte-fort), pas la réelle.",
+    "Exact : sûreté réelle = un bien affecté répond en priorité dans la faillite du débiteur (concept clé)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-004",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "Qu'est-ce qui caractérise une sûreté PERSONNELLE ?",
+   "options": [
+    "Un bien du débiteur est affecté avec rang privilégié",
+    "Un second patrimoine (celui d'un tiers) s'ajoute à côté de la faillite du débiteur",
+    "Le créancier acquiert la propriété d'une chose du débiteur",
+    "La créance est inscrite au registre foncier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un bien affecté avec rang privilégié décrit la sûreté RÉELLE (Tableau 1).",
+    "Exact : la sûreté personnelle ajoute un patrimoine (un tiers répond), à côté de la faillite du débiteur (concept clé).",
+    "Faux : acquérir la propriété d'une chose relève de la réserve de propriété (art. 715 CC), une sûreté réelle.",
+    "Faux : l'inscription au registre foncier caractérise le gage immobilier, une sûreté réelle (art. 793 ss CC)."
+   ],
+   "piege": "D1",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-005",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "Le père se porte garant du bail de son fils insolvable. Sur le plan des patrimoines, l'opération…",
+   "options": [
+    "fait passer le bailleur de 1 patrimoine (celui du fils) à 2 patrimoines : c'est une sûreté personnelle",
+    "n'ajoute aucun patrimoine : le fils reste seul obligé",
+    "affecte un bien déterminé du fils avec rang privilégié",
+    "remplace le fils par le père comme unique débiteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le bailleur dispose désormais du patrimoine du père en plus, second patrimoine = sûreté personnelle (concept clé, exemples).",
+    "Faux : précisément un patrimoine s'ajoute (celui du père), sinon il n'y aurait pas de sûreté.",
+    "Faux : aucun bien déterminé n'est affecté, c'est un engagement personnel du père.",
+    "Faux : remplacer le débiteur serait une reprise privative (art. 176 CO), qui n'est pas une sûreté."
+   ],
+   "piege": "D10",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-006",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "Quel est le TEST unique permettant de reconnaître une sûreté personnelle ?",
+   "options": [
+    "« Un acte authentique a-t-il été passé ? »",
+    "« Le bien est-il inscrit dans un registre public ? »",
+    "« Après l'opération, le créancier a-t-il un patrimoine de plus à sa disposition ? »",
+    "« La créance a-t-elle été cédée à un tiers ? »"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la forme authentique est une condition de validité du cautionnement, pas le test de qualification (art. 493 CO).",
+    "Faux : l'inscription concerne la publicité des sûretés réelles, pas le test des patrimoines.",
+    "Exact : le test unique est « un patrimoine de plus ? » → oui = sûreté personnelle (concept clé, mémento).",
+    "Faux : céder la créance ne change que le créancier, aucun patrimoine ne s'ajoute (art. 164 CO)."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-007",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "En appliquant le test « un patrimoine de plus ? », que conclure d'une reprise CUMULATIVE de dette ?",
+   "options": [
+    "Pas de patrimoine supplémentaire, ce n'est pas une sûreté",
+    "Le créancier change : ce n'est pas une sûreté",
+    "Un bien affecté : c'est une sûreté réelle",
+    "Un patrimoine de plus (2e débiteur) : c'est une sûreté personnelle"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la reprise cumulative ajoute un débiteur, donc un patrimoine (Tableau 1).",
+    "Faux : le créancier ne change pas ; c'est un débiteur qui s'ajoute (contraire de la cession de créance).",
+    "Faux : aucun bien n'est affecté, il s'agit d'un engagement personnel d'un second débiteur.",
+    "Exact : la reprise cumulative fait passer de 1 à 2 débiteurs, un patrimoine de plus = sûreté personnelle (Tableau 1)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-008",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Concept clé",
+   "question": "Le test des patrimoines appliqué à un gage mobilier donne quel résultat ?",
+   "options": [
+    "1 → 2 patrimoines, donc sûreté personnelle",
+    "1 → 1 patrimoine, mais rang privilégié sur le bien : sûreté réelle",
+    "1 → 1 patrimoine sans aucun avantage : pas une sûreté",
+    "0 patrimoine, la dette s'éteint"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : aucun tiers ne s'engage, le patrimoine reste celui du débiteur (Tableau 1).",
+    "Exact : même patrimoine, mais le bien gagé confère un rang privilégié → sûreté réelle (art. 884 CC, Tableau 1).",
+    "Faux : il y a bien un avantage, le rang privilégié sur le bien gagé, donc c'est une sûreté.",
+    "Faux : la dette subsiste ; le gage la garantit seulement."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-009",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 1",
+   "question": "La cession de créance (art. 164 CO) est-elle une sûreté au sens du test des patrimoines ?",
+   "options": [
+    "Non, car c'est le créancier qui change, aucun patrimoine ne s'ajoute",
+    "Oui, car un nouveau patrimoine garantit la dette",
+    "Oui, car elle affecte un bien déterminé avec rang privilégié",
+    "Non, car elle éteint la dette du débiteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la cession change le créancier (1→1 côté débiteur), aucun patrimoine ajouté → pas une sûreté (art. 164 CO, Tableau 1).",
+    "Faux : aucun patrimoine débiteur ne s'ajoute ; c'est le côté créancier qui change (art. 164 CO).",
+    "Faux : la cession n'affecte aucun bien du débiteur, elle transfère la créance.",
+    "Faux : la dette n'est pas éteinte, elle est simplement transférée à un nouveau créancier."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-010",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 1",
+   "question": "Pourquoi la cession de créance n'apporte-t-elle aucune garantie supplémentaire au créancier ?",
+   "options": [
+    "Parce qu'elle exige le consentement du débiteur cédé",
+    "Parce qu'elle doit être inscrite au registre foncier",
+    "Parce que le nombre de patrimoines répondant de la dette reste inchangé : seul le titulaire change",
+    "Parce qu'elle libère le débiteur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la cession de créance ne requiert pas le consentement du débiteur cédé (art. 164 CO).",
+    "Faux : la cession de créance se fait par écrit, sans inscription au registre foncier (art. 165 CO).",
+    "Exact : le même patrimoine débiteur répond, seul le créancier change, donc pas de garantie ajoutée (Tableau 1).",
+    "Faux : le débiteur n'est pas libéré, il doit désormais payer le cessionnaire."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-011",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 1",
+   "question": "Une cession de créance transfère-t-elle un patrimoine supplémentaire au bénéfice du créancier ?",
+   "options": [
+    "Oui, celui du cessionnaire",
+    "Oui, celui d'un tiers garant",
+    "Non, car elle est nulle sans forme authentique",
+    "Non : elle ne modifie que la personne du créancier, pas le nombre de débiteurs"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le cessionnaire devient créancier, il n'apporte aucun patrimoine en garantie.",
+    "Faux : aucun tiers garant n'intervient dans une cession de créance (art. 164 CO).",
+    "Faux : la cession de créance requiert la forme écrite, pas l'acte authentique (art. 165 CO).",
+    "Exact : seule la personne du créancier change ; le débiteur reste seul obligé → pas une sûreté (art. 164 CO, Tableau 1)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-012",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 1",
+   "question": "La reprise PRIVATIVE de dette (art. 176 CO) constitue-t-elle une sûreté ?",
+   "options": [
+    "Oui, car un second débiteur s'ajoute",
+    "Non, car il s'agit d'un simple échange de débiteur (1 → 1)",
+    "Oui, car un bien est affecté avec rang privilégié",
+    "Oui, car le créancier obtient un patrimoine de plus"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : aucun débiteur ne s'ajoute ; l'ancien est libéré (art. 176 CO).",
+    "Exact : la reprise privative remplace le débiteur (1→1), aucun patrimoine ajouté → pas une sûreté (art. 176 CO, Tableau 1).",
+    "Faux : aucun bien n'est affecté, c'est un changement de débiteur.",
+    "Faux : le créancier ne gagne aucun patrimoine, il en échange un contre un autre."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-013",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 1",
+   "question": "Après une reprise privative valable, combien de patrimoines répondent de la dette envers le créancier ?",
+   "options": [
+    "Un seul : le nouveau débiteur, l'ancien étant libéré",
+    "Deux : l'ancien et le nouveau débiteur solidairement",
+    "Aucun : la dette est éteinte",
+    "Un seul, mais avec un bien gagé en garantie"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le débiteur est remplacé, seul le repreneur répond → 1 patrimoine, pas de sûreté (art. 176 CO, Tableau 1).",
+    "Faux : dans la reprise privative l'ancien débiteur est libéré, il n'est plus tenu (art. 176 CO).",
+    "Faux : la dette n'est pas éteinte, elle est due par le nouveau débiteur.",
+    "Faux : la reprise privative n'implique aucun gage ; c'est un simple changement de débiteur."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-014",
+   "champ": "6.1 Concept — réel vs personnel, test des patrimoines",
+   "memento": "M6 Tableau 1",
+   "question": "Pourquoi la reprise privative n'est-elle pas classée parmi les sûretés, contrairement à la reprise cumulative ?",
+   "options": [
+    "Parce qu'elle exige un acte authentique",
+    "Parce qu'elle porte sur un bien immobilier",
+    "Parce qu'elle libère l'ancien débiteur : on échange un patrimoine contre un autre, sans en ajouter",
+    "Parce qu'elle est réservée aux personnes morales"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la reprise privative n'exige pas d'acte authentique ; c'est sa nature, non sa forme, qui l'exclut des sûretés.",
+    "Faux : elle peut porter sur toute dette, la nature du bien est indifférente.",
+    "Exact : cumulative = 1→2 (sûreté) ; privative = 1→1 par substitution (pas de sûreté) (art. 176 CO, Tableau 1).",
+    "Faux : la reprise de dette n'est pas réservée aux personnes morales."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-015",
+   "champ": "6.2.1 Cautionnement — définition & accessoriété",
+   "memento": "M6 arbre / art. 492 CO",
+   "question": "Comment l'art. 492 CO définit-il le cautionnement ?",
+   "options": [
+    "La caution reprend la dette et libère le débiteur",
+    "La caution s'engage à exécuter sa propre prestation indépendante envers le créancier",
+    "La caution acquiert la propriété d'un bien du débiteur jusqu'au paiement",
+    "La caution s'engage envers le créancier à garantir le paiement de la dette contractée par le débiteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : reprendre la dette en libérant le débiteur est une reprise privative (art. 176 CO).",
+    "Faux : une prestation propre indépendante caractérise le porte-fort (art. 111 CO), pas le cautionnement.",
+    "Faux : acquérir la propriété d'un bien décrit la réserve de propriété (art. 715 CC).",
+    "Exact : par le cautionnement, la caution garantit envers le créancier le paiement de la dette du débiteur (art. 492 CO)."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-016",
+   "champ": "6.2.1 Cautionnement — définition & accessoriété",
+   "memento": "M6 arbre / art. 492 CO",
+   "question": "La caution garantit une dette qui est, par nature…",
+   "options": [
+    "sa propre dette née de son engagement autonome",
+    "la dette d'autrui (celle du débiteur principal)",
+    "une dette éteinte par la signature",
+    "une dette du créancier envers le débiteur"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : garantir sa PROPRE dette caractérise le porte-fort (« MA dette »), pas le cautionnement.",
+    "Exact : la caution garantit la dette d'autrui, celle du débiteur principal (« TA dette », art. 492 CO, P2).",
+    "Faux : le cautionnement ne fait pas disparaître la dette garantie, il s'y ajoute.",
+    "Faux : la dette garantie est celle du débiteur envers le créancier, pas l'inverse."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-017",
+   "champ": "6.2.1 Cautionnement — définition & accessoriété",
+   "memento": "M6 P2 / art. 502 CO",
+   "question": "En vertu de l'accessoriété du cautionnement, la caution poursuivie peut…",
+   "options": [
+    "opposer au créancier les exceptions qui appartiennent au débiteur principal",
+    "refuser tout paiement tant que sa propre faillite n'est pas ouverte",
+    "exiger que le créancier lui cède d'abord la propriété du bien gagé",
+    "invoquer uniquement des exceptions personnelles, jamais celles du débiteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'accessoriété permet à la caution d'opposer les exceptions du débiteur principal (art. 502 CO).",
+    "Faux : la caution répond dès que le débiteur est en défaut, sa propre faillite n'est pas la condition.",
+    "Faux : aucune cession de propriété d'un bien gagé n'est requise ; le cautionnement est une sûreté personnelle.",
+    "Faux : c'est l'inverse, l'accessoriété donne accès aux exceptions du débiteur (art. 502 CO)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-018",
+   "champ": "6.2.1 Cautionnement — définition & accessoriété",
+   "memento": "M6 P2 / art. 502 CO",
+   "question": "Le débiteur principal peut opposer au créancier la prescription de la dette. La caution poursuivie…",
+   "options": [
+    "ne peut invoquer cette prescription, car son engagement est autonome",
+    "doit d'abord payer puis se retourner contre le débiteur",
+    "peut opposer cette même exception de prescription, en vertu de l'accessoriété",
+    "n'est concernée que si elle a signé un porte-fort"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le cautionnement est accessoire, non autonome ; la caution accède aux exceptions du débiteur (art. 502 CO).",
+    "Faux : la caution peut refuser le paiement en soulevant l'exception, sans devoir payer d'abord.",
+    "Exact : l'accessoriété (art. 502 CO) permet à la caution d'opposer les exceptions du débiteur, dont la prescription.",
+    "Faux : le porte-fort, lui, ne bénéficie pas de l'accessoriété ; ici il s'agit bien d'un cautionnement."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-019",
+   "champ": "6.2.1 Cautionnement — définition & accessoriété",
+   "memento": "M6 P2",
+   "question": "Quelle formule distingue correctement cautionnement et porte-fort ?",
+   "options": [
+    "Cautionnement = je garantis MA dette ; porte-fort = je garantis TA dette",
+    "Cautionnement = sûreté réelle ; porte-fort = sûreté réelle",
+    "Les deux garantissent la dette d'autrui de façon identique",
+    "Cautionnement = je garantis TA dette (accessoire) ; porte-fort = je prends MA dette (indépendant)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la formule est inversée (art. 492 vs 111 CO).",
+    "Faux : ce sont deux sûretés personnelles, pas réelles (concept clé).",
+    "Faux : le cautionnement est accessoire, le porte-fort indépendant ; ils diffèrent (P2).",
+    "Exact : caution = « TA » dette, accessoire (art. 492/502) ; porte-fort = « MA » dette, indépendante (art. 111, P2)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-020",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P5 / art. 493 al. 1 CO",
+   "question": "Quelle mention est une condition de VALIDITÉ de tout cautionnement, quelle que soit la personne ?",
+   "options": [
+    "La seule signature de la caution, sans indication de montant",
+    "La forme écrite avec indication du montant maximal chiffré de la caution",
+    "L'inscription au registre du commerce",
+    "L'accord verbal confirmé par témoin"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une signature sans montant maximal chiffré rend le cautionnement nul (art. 493 al. 1 CO, P5).",
+    "Exact : le cautionnement exige la forme écrite et l'indication du montant maximal chiffré (art. 493 al. 1 CO).",
+    "Faux : aucune inscription au registre du commerce n'est requise pour un cautionnement.",
+    "Faux : le cautionnement ne peut être verbal, la forme écrite au moins est requise (art. 493 al. 1 CO)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-021",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P5 / art. 493 al. 1 CO",
+   "question": "Un cautionnement écrit indique « je me porte caution de toutes les dettes présentes et futures de X, sans limite ». Ce cautionnement est…",
+   "options": [
+    "nul, faute d'indication du montant maximal chiffré",
+    "valable, car établi par écrit",
+    "valable si le débiteur l'accepte",
+    "valable jusqu'à concurrence des dettes existantes"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : une caution « illimitée » sans montant maximal chiffré est nulle (art. 493 al. 1 CO, P5).",
+    "Faux : l'écrit ne suffit pas, il manque le montant maximal chiffré exigé (art. 493 al. 1 CO).",
+    "Faux : l'accord du débiteur ne guérit pas l'absence de montant maximal chiffré.",
+    "Faux : la nullité est totale, il n'y a pas de réduction à un montant « existant »."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-022",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P5 / art. 493 al. 1 CO",
+   "question": "Que garantit l'exigence du montant maximal chiffré dans le cautionnement ?",
+   "options": [
+    "Elle permet au créancier de saisir directement un bien",
+    "Elle transforme le cautionnement en porte-fort",
+    "Elle plafonne et rend prévisible l'engagement de la caution, à peine de nullité",
+    "Elle dispense de la forme écrite"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le cautionnement ne confère aucun droit de saisir un bien, c'est une sûreté personnelle.",
+    "Faux : le montant chiffré ne change pas la nature accessoire du cautionnement.",
+    "Exact : le montant maximal chiffré protège la caution en plafonnant l'engagement ; son absence entraîne la nullité (art. 493 al. 1 CO).",
+    "Faux : le montant chiffré s'ajoute à la forme écrite, il ne la remplace pas (art. 493 al. 1 CO)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-023",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P1 / art. 493 al. 2 CO",
+   "question": "Pierre, personne physique, cautionne un prêt bancaire de CHF 50'000. Quelle forme est requise ?",
+   "options": [
+    "La simple forme écrite suffit",
+    "La forme électronique qualifiée uniquement",
+    "Aucune forme, le cautionnement est libre",
+    "L'acte authentique (forme authentique), car personne physique et montant supérieur à CHF 2'000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : pour une personne physique au-delà de CHF 2'000, l'écrit ne suffit pas (art. 493 al. 2 CO).",
+    "Faux : la loi exige l'acte authentique, non une forme électronique particulière (art. 493 al. 2 CO).",
+    "Faux : le cautionnement n'est jamais sans forme (contrairement au porte-fort) (art. 493 CO).",
+    "Exact : personne physique et montant > CHF 2'000 → acte authentique exigé (art. 493 al. 2 CO, P1)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-024",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P1 / art. 493 al. 2 CO",
+   "question": "À partir de quel montant l'acte authentique devient-il nécessaire pour le cautionnement d'une personne physique ?",
+   "options": [
+    "Dès le premier franc",
+    "Au-delà de CHF 2'000",
+    "Au-delà de CHF 20'000",
+    "Au-delà de CHF 100'000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : en dessous ou jusqu'à CHF 2'000, la forme écrite suffit (art. 493 al. 2 CO).",
+    "Exact : au-delà de CHF 2'000, la personne physique doit passer par l'acte authentique (art. 493 al. 2 CO, P1).",
+    "Faux : le seuil légal est CHF 2'000, non CHF 20'000 (art. 493 al. 2 CO).",
+    "Faux : le seuil légal est CHF 2'000, non CHF 100'000 (art. 493 al. 2 CO)."
+   ],
+   "piege": "D3",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-025",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P1 / art. 493 al. 2 CO",
+   "question": "Une personne physique cautionne CHF 1'500. Quelle forme est requise ?",
+   "options": [
+    "La forme écrite (montant maximal chiffré), l'acte authentique n'étant exigé qu'au-delà de CHF 2'000",
+    "L'acte authentique, comme pour tout cautionnement",
+    "Aucune forme",
+    "La forme authentique uniquement si le débiteur est une société"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : jusqu'à CHF 2'000, l'écrit avec montant chiffré suffit ; au-delà, acte authentique (art. 493 al. 1 et 2 CO).",
+    "Faux : en dessous de CHF 2'000, l'acte authentique n'est pas exigé (art. 493 al. 2 CO).",
+    "Faux : la forme écrite au moins reste requise, le cautionnement n'est jamais libre (art. 493 al. 1 CO).",
+    "Faux : le seuil dépend du montant et de la qualité de personne physique, non de la forme du débiteur."
+   ],
+   "piege": "D9",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-026",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P5",
+   "question": "Un engagement de caution est rédigé sans aucun montant maximal (« caution illimitée »). Quelle est sa conséquence ?",
+   "options": [
+    "Il vaut jusqu'à concurrence du capital prêté",
+    "Il se transforme automatiquement en porte-fort",
+    "Il est nul, l'absence de montant maximal chiffré étant un vice de forme",
+    "Il est valable mais résiliable en tout temps"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : on ne « répare » pas la nullité en fixant après coup un plafond ; l'acte est nul (art. 493 al. 1 CO).",
+    "Faux : un cautionnement nul ne se convertit pas en porte-fort ; ce sont deux figures distinctes.",
+    "Exact : sans montant maximal chiffré, le cautionnement est nul (art. 493 al. 1 CO, P5).",
+    "Faux : ce n'est pas un défaut de résiliation, c'est une nullité pour vice de forme (art. 493 al. 1 CO)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-027",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P1",
+   "question": "Le formalisme du cautionnement (forme écrite/authentique) peut-il être écarté par un accord des parties ?",
+   "options": [
+    "Oui, si les deux parties y renoncent expressément",
+    "Oui, si le créancier est une banque",
+    "Oui, pour les montants inférieurs à CHF 100'000",
+    "Non, ce formalisme protège la caution et relève de l'ordre public"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les parties ne peuvent renoncer à un formalisme d'ordre public destiné à protéger la caution (P1).",
+    "Faux : la qualité de banque du créancier ne dispense pas du formalisme protecteur de la caution.",
+    "Faux : aucun seuil ne permet d'écarter le formalisme d'ordre public.",
+    "Exact : le formalisme du cautionnement est d'ordre public, il ne se contourne pas (art. 493 CO, P1)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-028",
+   "champ": "6.2.2 Cautionnement — forme (493 CO)",
+   "memento": "M6 P1",
+   "question": "Pourquoi la loi entoure-t-elle le cautionnement d'un formalisme d'ordre public ?",
+   "options": [
+    "Pour permettre au créancier de saisir un bien plus vite",
+    "Pour protéger la caution, souvent un proche, contre un engagement irréfléchi et illimité",
+    "Pour rendre la dette du débiteur inopposable",
+    "Pour transférer la propriété au créancier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le formalisme ne concerne pas la saisie de biens ; le cautionnement est une sûreté personnelle.",
+    "Exact : le formalisme d'ordre public protège la caution (souvent un proche) contre un engagement excessif (art. 493 CO, P1).",
+    "Faux : le cautionnement ne rend pas la dette inopposable, il la garantit.",
+    "Faux : aucun transfert de propriété n'intervient dans un cautionnement."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-029",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 P5 / art. 495 CO",
+   "question": "Dans un cautionnement SIMPLE, quand le créancier peut-il rechercher la caution ?",
+   "options": [
+    "Seulement après avoir vainement poursuivi le débiteur (réalisation infructueuse)",
+    "Immédiatement, avant toute poursuite du débiteur",
+    "Jamais, la caution simple n'est pas tenue",
+    "Uniquement si le débiteur y consent"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : dans le cautionnement simple, la caution n'est recherchée qu'après réalisation infructueuse contre le débiteur (art. 495 CO).",
+    "Faux : la recherche immédiate caractérise le cautionnement solidaire (art. 496 CO), pas le simple.",
+    "Faux : la caution simple est tenue, mais subsidiairement, après le débiteur (art. 495 CO).",
+    "Faux : le consentement du débiteur n'est pas la condition ; c'est l'échec de la poursuite du débiteur (art. 495 CO)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-030",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 P5 / art. 496 CO",
+   "question": "Dans un cautionnement SOLIDAIRE, le créancier peut rechercher la caution…",
+   "options": [
+    "seulement après épuisement de tous les biens du débiteur",
+    "jamais avant la faillite prononcée du débiteur",
+    "avant le débiteur, dès qu'il est en demeure ou notoirement insolvable",
+    "uniquement pour la moitié de la dette"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'épuisement préalable des biens caractérise le cautionnement simple (art. 495 CO), pas le solidaire.",
+    "Faux : nul besoin d'attendre la faillite prononcée ; la demeure ou l'insolvabilité notoire suffit (art. 496 CO).",
+    "Exact : la caution solidaire peut être recherchée avant le débiteur, dès demeure ou insolvabilité notoire (art. 496 CO).",
+    "Faux : la caution solidaire répond de tout le montant garanti, pas de la moitié."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-031",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 P5 / art. 495-496 CO",
+   "question": "Quelle différence sépare le cautionnement simple du cautionnement solidaire ?",
+   "options": [
+    "Le simple est verbal, le solidaire écrit",
+    "Le solidaire libère le débiteur, le simple non",
+    "Le simple ne comporte pas de montant maximal, le solidaire oui",
+    "Le simple suppose la réalisation infructueuse préalable contre le débiteur ; le solidaire non"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les deux exigent la même forme, la distinction porte sur le moment de la recherche (art. 493 CO).",
+    "Faux : aucun des deux ne libère le débiteur ; la caution s'ajoute au débiteur.",
+    "Faux : les deux exigent un montant maximal chiffré (art. 493 al. 1 CO).",
+    "Exact : simple = après échec de la poursuite du débiteur (art. 495) ; solidaire = avant, dès demeure (art. 496 CO)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-032",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 P5",
+   "question": "L'affirmation « le cautionnement est en pratique toujours solidaire » signifie que…",
+   "options": [
+    "la loi interdit le cautionnement simple",
+    "les créanciers stipulent presque toujours la solidarité pour pouvoir agir avant le débiteur, mais le simple reste licite",
+    "le cautionnement solidaire dispense de toute forme",
+    "la caution solidaire n'est jamais tenue au-delà de sa quote-part"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le cautionnement simple demeure licite (art. 495 CO) ; il est seulement peu utilisé.",
+    "Exact : en pratique, les créanciers exigent la solidarité (art. 496) pour agir avant le débiteur, mais le simple reste possible (P5).",
+    "Faux : le cautionnement solidaire reste soumis aux exigences de forme (art. 493 CO).",
+    "Faux : la caution solidaire répond de l'ensemble de la dette garantie, non d'une quote-part."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-033",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 P5",
+   "question": "Est-il exact de dire que « le cautionnement simple n'existe plus en droit suisse » ?",
+   "options": [
+    "Non : il subsiste (art. 495 CO), même si la pratique préfère le cautionnement solidaire",
+    "Oui, il a été abrogé",
+    "Oui, seul le solidaire est codifié",
+    "Non, mais il est réservé aux personnes morales"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le cautionnement simple existe toujours (art. 495 CO) ; c'est la pratique qui privilégie le solidaire (P5).",
+    "Faux : le cautionnement simple n'a pas été abrogé, il figure toujours à l'art. 495 CO.",
+    "Faux : simple (495) et solidaire (496) sont tous deux codifiés.",
+    "Faux : le cautionnement simple n'est pas réservé aux personnes morales."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-034",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 L1 / art. 497 CO",
+   "question": "Comment qualifier la situation où plusieurs cautions garantissent, ensemble, la même dette ?",
+   "options": [
+    "Un porte-fort collectif (art. 111 CO)",
+    "Un certificateur de caution (art. 498 CO)",
+    "Un cautionnement conjoint (art. 497 CO)",
+    "Une reprise cumulative de dette"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le porte-fort est un engagement indépendant, pas un cautionnement à plusieurs (art. 111 CO).",
+    "Faux : le certificateur cautionne l'engagement de la caution elle-même, pas la même dette au même niveau (art. 498 CO).",
+    "Exact : plusieurs cautions garantissant la même dette forment un cautionnement conjoint (art. 497 CO).",
+    "Faux : la reprise cumulative ajoute un débiteur, ce n'est pas un cautionnement (Tableau 1)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-035",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 L1 / art. 497 CO",
+   "question": "Deux amis se portent cautions solidaires de la même dette de leur société. De quelle figure s'agit-il ?",
+   "options": [
+    "D'un certificateur et d'une arrière-caution",
+    "D'une reprise privative croisée",
+    "D'un porte-fort réciproque",
+    "D'un cautionnement conjoint : plusieurs cautions pour une même dette (art. 497 CO)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : certificateur et arrière-caution garantissent d'autres engagements que la dette principale (art. 498 CO).",
+    "Faux : aucune reprise de dette n'intervient ; ils garantissent, ils ne remplacent pas le débiteur.",
+    "Faux : ils cautionnent une dette d'autrui, ce n'est pas un porte-fort indépendant (art. 111 CO).",
+    "Exact : plusieurs cautions garantissant la même dette = cautionnement conjoint (art. 497 CO)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-036",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 L2 / art. 498 CO",
+   "question": "Que garantit le CERTIFICATEUR de caution (art. 498 CO) ?",
+   "options": [
+    "La dette principale du débiteur, comme une caution ordinaire",
+    "L'engagement de la caution elle-même (il cautionne la caution)",
+    "Le recours de la caution contre le débiteur",
+    "Le prix d'un bien vendu sous réserve de propriété"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est la caution ordinaire qui garantit la dette principale ; le certificateur garantit la caution (art. 498 CO).",
+    "Exact : le certificateur cautionne l'engagement de la caution elle-même (art. 498 CO).",
+    "Faux : garantir le recours de la caution contre le débiteur décrit l'arrière-caution, pas le certificateur (art. 498 CO).",
+    "Faux : la réserve de propriété n'a aucun rapport avec le certificateur de caution (art. 715 CC)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-037",
+   "champ": "6.2.3 Cautionnement — types (495-498 CO)",
+   "memento": "M6 L2 / art. 498 CO",
+   "question": "Que garantit l'ARRIÈRE-CAUTION (art. 498 CO) ?",
+   "options": [
+    "Le recours de la caution qui a payé, contre le débiteur principal",
+    "L'engagement de la caution envers le créancier",
+    "La dette principale directement envers le créancier",
+    "La restitution de l'excédent après réalisation d'un gage"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'arrière-caution garantit le recours (remboursement) de la caution contre le débiteur (art. 498 CO).",
+    "Faux : garantir l'engagement de la caution envers le créancier décrit le certificateur, pas l'arrière-caution (art. 498 CO).",
+    "Faux : garantir directement la dette principale, c'est le rôle de la caution ordinaire (art. 492 CO).",
+    "Faux : la restitution de l'excédent concerne le gage (art. 891 CC), pas l'arrière-caution."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-038",
+   "champ": "6.2.4 Cautionnement — requalification du porte-fort déguisé",
+   "memento": "M6 P1",
+   "question": "Pourquoi un créancier peut-il être tenté d'« habiller » un cautionnement en porte-fort ?",
+   "options": [
+    "Pour bénéficier de l'accessoriété",
+    "Pour obtenir un rang privilégié dans la faillite",
+    "Pour échapper à la forme authentique exigée du cautionnement (éviter le notaire)",
+    "Pour libérer le débiteur principal"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'accessoriété profite à la caution, pas au créancier ; ce n'est pas le motif du déguisement.",
+    "Faux : ni le porte-fort ni le cautionnement ne confèrent de rang privilégié (sûretés personnelles).",
+    "Exact : le porte-fort est sans forme, le créancier l'utilise pour éviter l'acte authentique du cautionnement (art. 493, P1).",
+    "Faux : aucune de ces figures ne libère le débiteur principal."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-039",
+   "champ": "6.2.4 Cautionnement — requalification du porte-fort déguisé",
+   "memento": "M6 P1",
+   "question": "Quels sont les TROIS indices permettant au Tribunal fédéral de requalifier un « porte-fort » en cautionnement ?",
+   "options": [
+    "Personne morale, intérêt propre, prestation différente",
+    "Montant chiffré, forme écrite, inscription au registre",
+    "Personne physique, intérêt propre marqué, paiement à première demande",
+    "Personne physique, absence d'intérêt propre, prestation identique à celle du débiteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les indices visent la personne PHYSIQUE, l'ABSENCE d'intérêt propre et l'identité de prestation (P1).",
+    "Faux : ces éléments relèvent de la forme du cautionnement, non des indices de requalification.",
+    "Faux : un intérêt propre marqué et le paiement à 1re demande plaident au contraire pour un vrai porte-fort.",
+    "Exact : ① personne physique ② sans intérêt propre ③ prestation identique à celle du débiteur → requalification (P1)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-040",
+   "champ": "6.2.4 Cautionnement — requalification du porte-fort déguisé",
+   "memento": "M6 P1",
+   "question": "Un garant personne physique, sans aucun intérêt propre, promet exactement la même prestation que le débiteur, par simple écrit intitulé « porte-fort ». Quelle qualification retenir ?",
+   "options": [
+    "Un porte-fort valable, car ainsi intitulé",
+    "Un cautionnement déguisé, requalifié comme tel, donc nul faute d'acte authentique",
+    "Une reprise cumulative valable sans forme",
+    "Une garantie indépendante à première demande"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'intitulé ne lie pas le juge ; les trois indices imposent la requalification (P1).",
+    "Exact : les trois indices réunis → requalification en cautionnement, nul faute d'acte authentique (art. 493, P1).",
+    "Faux : la réunion des indices révèle un cautionnement, pas une reprise cumulative.",
+    "Faux : l'absence d'intérêt propre et la prestation identique excluent le vrai porte-fort indépendant."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-041",
+   "champ": "6.2.4 Cautionnement — requalification du porte-fort déguisé",
+   "memento": "M6 P1",
+   "question": "Parmi ces éléments, lequel N'EST PAS un indice de requalification du porte-fort en cautionnement ?",
+   "options": [
+    "Le garant s'engage à payer à première demande, sans pouvoir opposer d'exceptions",
+    "Le garant n'a aucun intérêt propre à l'opération",
+    "Le garant promet une prestation identique à celle du débiteur",
+    "Le garant est une personne physique"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le paiement à première demande sans exceptions plaide pour un VRAI porte-fort indépendant, ce n'est pas un indice de requalification (P3).",
+    "Faux (c'est bien un indice) : l'absence d'intérêt propre est l'un des trois indices (P1).",
+    "Faux (c'est bien un indice) : la prestation identique à celle du débiteur est l'un des trois indices (P1).",
+    "Faux (c'est bien un indice) : la qualité de personne physique est l'un des trois indices (P1)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-042",
+   "champ": "6.2.4 Cautionnement — requalification du porte-fort déguisé",
+   "memento": "M6 P1",
+   "question": "Quelle est la conséquence de la requalification d'un porte-fort déguisé en cautionnement ne respectant pas la forme ?",
+   "options": [
+    "La validité du porte-fort est maintenue",
+    "La conversion en reprise privative",
+    "La nullité de l'engagement pour vice de forme",
+    "Une simple réduction du montant garanti"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une fois requalifié, l'engagement suit le régime du cautionnement, dont la forme n'est pas respectée (P1).",
+    "Faux : la requalification ne convertit pas en reprise privative (art. 176 CO).",
+    "Exact : requalifié en cautionnement sans acte authentique, l'engagement est nul pour vice de forme (art. 493 CO, P1).",
+    "Faux : le vice de forme entraîne la nullité totale, non une réduction."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-043",
+   "champ": "6.2.4 Cautionnement — requalification du porte-fort déguisé",
+   "memento": "M6 P1",
+   "question": "Le déguisement du cautionnement en porte-fort échoue devant le juge parce que…",
+   "options": [
+    "l'intitulé du contrat prime toujours sur son contenu",
+    "seule la personne morale peut se porter fort",
+    "le porte-fort est interdit en droit suisse",
+    "le juge qualifie d'après le contenu réel (indices), non d'après le titre choisi par les parties"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'intitulé ne prime pas ; le juge s'attache au contenu réel (P1).",
+    "Faux : une personne physique peut se porter fort ; c'est la réunion des trois indices qui pose problème (P1).",
+    "Faux : le porte-fort est parfaitement licite (art. 111 CO) ; c'est le déguisement qui est sanctionné.",
+    "Exact : le juge qualifie selon les indices réels, pas selon l'étiquette, d'où la requalification (P1)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-044",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 P6 / art. 507 CO",
+   "question": "Que devient la caution qui a payé la dette à la place du débiteur ?",
+   "options": [
+    "Elle perd tout recours",
+    "Elle est subrogée dans les droits du créancier contre le débiteur",
+    "Elle devient propriétaire des biens du débiteur",
+    "Elle libère le débiteur sans contrepartie"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la caution qui paie dispose d'un recours ; elle n'en est pas privée (art. 507 CO).",
+    "Exact : la caution qui paie est subrogée dans les droits du créancier contre le débiteur (art. 507 CO).",
+    "Faux : la subrogation porte sur la créance, non sur la propriété des biens du débiteur.",
+    "Faux : le paiement de la caution ne libère pas gratuitement le débiteur ; elle se retourne contre lui (art. 507 CO)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-045",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 P6 / art. 507 CO",
+   "question": "La subrogation de la caution qui a payé (art. 507 CO) porte sur…",
+   "options": [
+    "les droits mêmes du créancier contre le débiteur, transmis à la caution",
+    "une créance nouvelle et distincte de celle du créancier",
+    "un droit de propriété sur la chose gagée",
+    "un privilège de premier rang dans la faillite"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la caution recueille, par subrogation, les droits du créancier contre le débiteur (art. 507 CO).",
+    "Faux : la subrogation transmet la créance du créancier, elle n'en crée pas une nouvelle (art. 507 CO).",
+    "Faux : la subrogation ne confère aucun droit de propriété sur une chose gagée.",
+    "Faux : la caution subrogée n'obtient aucun privilège ; elle vient en 3e classe (Tableau 4)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-046",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 Tableau 4 / art. 507 CO",
+   "question": "Dans la faillite du débiteur, la caution qui a payé et se trouve subrogée est colloquée…",
+   "options": [
+    "en 1re classe, avec privilège",
+    "hors classe, elle récupère le bien",
+    "en 3e classe, sans privilège",
+    "en 2e classe"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la caution subrogée ne bénéficie d'aucun privilège de 1re classe (Tableau 4).",
+    "Faux : la caution ne récupère aucun bien, elle a une créance récursoire ordinaire.",
+    "Exact : la subrogation se fait sans privilège, en 3e classe (art. 507 CO, Tableau 4).",
+    "Faux : la caution subrogée est en 3e classe, non en 2e (Tableau 4)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-047",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 Tableau 4 / art. 507 CO",
+   "question": "La subrogation de la caution lui confère-t-elle un rang privilégié dans la faillite du débiteur ?",
+   "options": [
+    "Oui, un privilège de 1re classe",
+    "Oui, un privilège de 2e classe",
+    "Oui, elle passe avant les gagistes",
+    "Non, elle vient sans privilège, en 3e classe comme un créancier ordinaire"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucun privilège de 1re classe n'est attaché à la subrogation de la caution (Tableau 4).",
+    "Faux : elle est en 3e classe, non en 2e (Tableau 4).",
+    "Faux : elle ne passe pas avant les gagistes, qui conservent leur rang réel (art. 219 LP).",
+    "Exact : la caution subrogée est traitée en 3e classe, sans privilège (art. 507 CO, Tableau 4)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-048",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 P6",
+   "question": "Le PORTE-FORT qui a payé bénéficie-t-il d'une subrogation légale comme la caution ?",
+   "options": [
+    "Oui, dans les mêmes conditions que la caution (art. 507 CO)",
+    "Non, il ne dispose d'aucune subrogation légale ; il n'a qu'un éventuel recours contractuel",
+    "Oui, mais seulement en 1re classe",
+    "Oui, la subrogation est automatique pour toute sûreté personnelle"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 507 CO vise la caution ; il ne s'applique pas au porte-fort (P6).",
+    "Exact : le porte-fort n'a aucune subrogation légale, contrairement à la caution (art. 507 CO ; P6).",
+    "Faux : le porte-fort n'a pas de subrogation légale, encore moins un rang de 1re classe.",
+    "Faux : la subrogation légale n'est pas commune à toute sûreté personnelle ; elle est propre à la caution (art. 507 CO)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-049",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 P6",
+   "question": "Deux garants ont payé : l'un était caution, l'autre porte-fort. Lequel jouit d'une subrogation légale contre le débiteur ?",
+   "options": [
+    "La caution seulement (art. 507 CO), le porte-fort n'ayant aucune subrogation légale",
+    "Le porte-fort seulement",
+    "Les deux, à parts égales",
+    "Aucun des deux"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : seule la caution est légalement subrogée (art. 507 CO) ; le porte-fort ne l'est pas (P6).",
+    "Faux : c'est l'inverse, le porte-fort n'a pas de subrogation légale (P6).",
+    "Faux : le porte-fort n'a pas de subrogation légale ; les deux ne sont pas sur le même pied.",
+    "Faux : la caution, elle, bénéficie bien de la subrogation légale (art. 507 CO)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-050",
+   "champ": "6.2.5 Cautionnement — subrogation de la caution (507 CO)",
+   "memento": "M6 Tableau 4",
+   "question": "Un banquier reproche à un candidat d'avoir dit que « la caution qui paie passe devant les autres créanciers du failli ». A-t-il raison de corriger ?",
+   "options": [
+    "Non, la caution subrogée est prioritaire",
+    "Non, elle passe avant les gagistes",
+    "Oui : la caution subrogée vient sans privilège, en 3e classe, elle ne passe pas devant les autres",
+    "Oui, mais uniquement si elle était caution simple"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la caution subrogée n'est pas prioritaire (Tableau 4).",
+    "Faux : elle ne prime pas les gagistes, qui gardent leur rang réel (art. 219 LP).",
+    "Exact : la caution subrogée est en 3e classe sans privilège, la correction est justifiée (art. 507 CO, Tableau 4).",
+    "Faux : le rang de 3e classe vaut quel que soit le type de cautionnement (Tableau 4)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-051",
+   "champ": "6.2.6 Cautionnement — art. 718b CO (contrat avec soi-même)",
+   "memento": "M6 P7 / art. 718b CO",
+   "question": "Un administrateur unique fait cautionner par sa société SA sa propre dette bancaire. Comment qualifier l'opération sous l'angle de l'art. 718b CO ?",
+   "options": [
+    "Une opération anodine, sans règle particulière",
+    "Une reprise privative de la dette de l'administrateur",
+    "Un porte-fort de la société, sans forme",
+    "Un contrat avec soi-même : l'administrateur agit des deux côtés (société garante et bénéficiaire)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le conflit d'intérêts déclenche précisément une exigence particulière (art. 718b CO).",
+    "Faux : il n'y a pas substitution de débiteur ; l'administrateur reste débiteur, la société garantit.",
+    "Faux : peu importe l'étiquette ; c'est un cautionnement de la société grevé d'un conflit d'intérêts (art. 718b CO).",
+    "Exact : l'administrateur représente la société tout en étant bénéficiaire → contrat avec soi-même (art. 718b CO, P7)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-052",
+   "champ": "6.2.6 Cautionnement — art. 718b CO (contrat avec soi-même)",
+   "memento": "M6 P7 / art. 718b CO",
+   "question": "Dans ce cas de contrat avec soi-même (art. 718b CO), quelle exigence s'impose à peine de nullité ?",
+   "options": [
+    "La simple approbation verbale du conseil",
+    "La forme écrite du contrat conclu avec la société",
+    "L'inscription au registre du commerce",
+    "Aucune exigence particulière"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une approbation verbale ne satisfait pas l'exigence de forme écrite (art. 718b CO).",
+    "Exact : le contrat que l'administrateur conclut avec « lui-même » doit être passé en la forme écrite (art. 718b CO, P7).",
+    "Faux : l'art. 718b CO impose la forme écrite, non une inscription au registre du commerce.",
+    "Faux : il existe bien une exigence, la forme écrite, sous peine de nullité (art. 718b CO)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-053",
+   "champ": "6.2.6 Cautionnement — art. 718b CO (contrat avec soi-même)",
+   "memento": "M6 P7 / art. 718b CO",
+   "question": "Le contrat avec soi-même conclu par l'administrateur au nom de la société, mais sans forme écrite, est…",
+   "options": [
+    "nul, faute de respecter la forme écrite exigée",
+    "valable, la bonne foi suffisant",
+    "valable après ratification tacite",
+    "annulable seulement par les créanciers"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sans forme écrite, le contrat avec soi-même est nul (art. 718b CO, P7).",
+    "Faux : la bonne foi ne supplée pas l'absence de forme écrite (art. 718b CO).",
+    "Faux : une ratification tacite ne guérit pas ce vice de forme (art. 718b CO).",
+    "Faux : c'est une nullité, non une simple annulabilité réservée aux créanciers."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-054",
+   "champ": "6.2.6 Cautionnement — art. 718b CO (contrat avec soi-même)",
+   "memento": "M6 P7 / art. 718b CO",
+   "question": "Quelle est la ratio de l'art. 718b CO exigeant la forme écrite pour le contrat avec soi-même ?",
+   "options": [
+    "Faciliter la saisie d'un bien",
+    "Transférer la propriété à la société",
+    "Attirer l'attention et laisser une trace, vu le conflit d'intérêts de l'administrateur",
+    "Dispenser du montant maximal chiffré"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 718b CO ne concerne pas la saisie de biens.",
+    "Faux : aucun transfert de propriété à la société n'est en jeu.",
+    "Exact : la forme écrite crée une trace et sécurise l'opération malgré le conflit d'intérêts (art. 718b CO, P7).",
+    "Faux : si l'engagement de la société est un cautionnement, les exigences de l'art. 493 CO subsistent."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-055",
+   "champ": "6.2.6 Cautionnement — art. 718b CO (contrat avec soi-même)",
+   "memento": "M6 P7 / art. 718b CO",
+   "question": "Le contrat avec soi-même (art. 718b CO) est problématique parce que…",
+   "options": [
+    "l'administrateur perd son mandat de plein droit",
+    "la société ne peut jamais garantir une dette",
+    "le cautionnement est interdit aux personnes morales",
+    "l'administrateur figure des deux côtés de l'opération, d'où un risque de conflit d'intérêts"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 718b CO n'entraîne pas la perte automatique du mandat d'administrateur.",
+    "Faux : une société peut garantir une dette ; c'est le conflit d'intérêts qui est encadré (art. 718b CO).",
+    "Faux : le cautionnement n'est pas interdit aux personnes morales.",
+    "Exact : l'administrateur représente la société et en est le bénéficiaire, d'où le contrôle par la forme écrite (art. 718b CO, P7)."
+   ],
+   "piege": "D10",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-056",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 arbre / art. 111 CO",
+   "question": "Qu'engage celui qui « se porte fort » au sens de l'art. 111 CO ?",
+   "options": [
+    "Il garantit accessoirement la dette d'autrui et peut opposer les exceptions du débiteur",
+    "Il promet le fait d'un tiers et répond du dommage si ce tiers n'exécute pas",
+    "Il transfère la propriété d'un bien au créancier",
+    "Il reprend la dette et libère le débiteur"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : opposer les exceptions du débiteur décrit le cautionnement accessoire (art. 502 CO), pas le porte-fort.",
+    "Exact : le porte-fort promet le fait d'un tiers et doit réparer le dommage si le tiers n'exécute pas (art. 111 CO).",
+    "Faux : transférer la propriété d'un bien relève des sûretés réelles (art. 715/884 CC).",
+    "Faux : reprendre la dette et libérer le débiteur est une reprise privative (art. 176 CO)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-057",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 arbre / art. 111 CO",
+   "question": "Si le tiers dont on s'est porté fort n'exécute pas, à quoi le garant est-il tenu ?",
+   "options": [
+    "À réparer le dommage subi par le créancier",
+    "À exécuter lui-même la prestation du tiers en nature",
+    "À rien, son engagement étant accessoire",
+    "À céder un bien en gage"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le porte-fort répond du dommage causé par l'inexécution du tiers (art. 111 CO).",
+    "Faux : le porte-fort ne doit pas exécuter en nature la prestation du tiers ; il répond du dommage (art. 111 CO).",
+    "Faux : l'engagement du porte-fort est indépendant, non accessoire, et il est bien tenu (art. 111 CO).",
+    "Faux : le porte-fort ne remet aucun bien en gage ; c'est une sûreté personnelle."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-058",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P2",
+   "question": "En quoi le porte-fort se distingue-t-il du cautionnement quant à sa nature ?",
+   "options": [
+    "Le porte-fort est accessoire, le cautionnement indépendant",
+    "Les deux sont accessoires",
+    "Le porte-fort est un engagement indépendant (non accessoire), le cautionnement est accessoire",
+    "Les deux exigent l'acte authentique"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : c'est inversé, le cautionnement est accessoire et le porte-fort indépendant (P2).",
+    "Faux : seul le cautionnement est accessoire ; le porte-fort ne l'est pas (P2).",
+    "Exact : le porte-fort est indépendant (art. 111), le cautionnement accessoire (art. 502, P2).",
+    "Faux : le porte-fort est sans forme, seul le cautionnement exige l'acte authentique (art. 493)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-059",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P2 / art. 111 CO",
+   "question": "Le débiteur principal peut opposer au créancier une exception tirée du contrat de base. Le garant PORTE-FORT…",
+   "options": [
+    "peut opposer cette même exception, comme une caution",
+    "est libéré automatiquement",
+    "doit d'abord obtenir l'accord du débiteur",
+    "ne peut en principe pas l'opposer : son engagement est indépendant du rapport de base"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : opposer les exceptions du débiteur est le propre du cautionnement accessoire, pas du porte-fort (art. 502).",
+    "Faux : le porte-fort n'est pas libéré par une exception du rapport de base, vu son indépendance.",
+    "Faux : l'exécution du porte-fort ne dépend pas de l'accord du débiteur.",
+    "Exact : l'engagement du porte-fort étant indépendant, il ne peut opposer les exceptions du rapport de base (art. 111 CO, P2)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-060",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P1 / cours.md",
+   "question": "Quels indices révèlent un véritable porte-fort (par opposition à un cautionnement) ?",
+   "options": [
+    "Personne physique, absence d'intérêt propre, prestation identique à celle du débiteur",
+    "Paiement à première demande, intérêt propre du garant, prestation différente de celle du débiteur",
+    "Forme écrite avec montant maximal chiffré",
+    "Accessoriété et faculté d'opposer les exceptions du débiteur"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ces éléments sont au contraire les indices de requalification EN cautionnement (P1).",
+    "Exact : paiement à 1re demande, intérêt propre du garant et prestation différente signent le porte-fort (art. 111, P1).",
+    "Faux : la forme écrite avec montant chiffré caractérise le cautionnement (art. 493), pas le porte-fort.",
+    "Faux : l'accessoriété et les exceptions du débiteur caractérisent le cautionnement (art. 502)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-061",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P1",
+   "question": "Parmi ces éléments, lequel plaide pour un porte-fort plutôt que pour un cautionnement ?",
+   "options": [
+    "Le garant a un intérêt propre marqué à l'opération et promet une prestation autonome",
+    "Le garant est un proche sans intérêt économique propre",
+    "Le garant promet exactement la même prestation que le débiteur",
+    "Le garant est une personne physique agissant par pure complaisance"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'intérêt propre marqué et la prestation autonome caractérisent le vrai porte-fort (art. 111, P1).",
+    "Faux : un proche sans intérêt propre est un indice de cautionnement (déguisé) (P1).",
+    "Faux : la prestation identique à celle du débiteur pousse vers le cautionnement (P1).",
+    "Faux : l'engagement par pure complaisance d'une personne physique évoque le cautionnement (P1)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-062",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P3",
+   "question": "Quelle est la différence entre l'INDÉPENDANCE du porte-fort et la clause « à première demande » ?",
+   "options": [
+    "Ce sont deux mots pour la même chose",
+    "L'indépendance est une modalité de paiement, la 1re demande une nature",
+    "L'indépendance dit ce que le garant ne peut PAS opposer (nature) ; la 1re demande dit ce qu'on doit lui PRÉSENTER (modalité)",
+    "Seule la 1re demande a une portée juridique"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les deux notions sont distinctes (P3).",
+    "Faux : c'est l'inverse, l'indépendance est la nature et la 1re demande la modalité (P3).",
+    "Exact : l'indépendance = nature (exceptions exclues) ; « 1re demande » = modalité (ce qu'on présente pour être payé) (P3).",
+    "Faux : l'indépendance a une portée juridique majeure (elle prive des exceptions du rapport de base) (P3)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-063",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P3",
+   "question": "L'affirmation « une garantie à première demande est nécessairement indépendante, mais l'inverse n'est pas vrai » est-elle exacte ?",
+   "options": [
+    "Non, les deux notions s'impliquent réciproquement",
+    "Oui, mais seulement pour les banques",
+    "Non, une garantie indépendante est toujours à première demande",
+    "Oui : toute garantie à 1re demande est indépendante, mais une garantie indépendante n'est pas forcément à 1re demande"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'implication n'est pas réciproque (P3).",
+    "Faux : le principe ne dépend pas de la qualité de banque du garant (P3).",
+    "Faux : une garantie peut être indépendante sans être à 1re demande (P3).",
+    "Exact : la 1re demande implique l'indépendance ; l'indépendance n'implique pas la 1re demande (P3)."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-064",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P3",
+   "question": "Une clause « à première demande » ajoute au porte-fort une exigence tenant à…",
+   "options": [
+    "la nature de l'engagement (il devient accessoire)",
+    "la modalité d'exécution (le créancier doit seulement présenter sa demande pour être payé)",
+    "la forme (acte authentique requis)",
+    "l'objet (transfert d'un bien en gage)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la clause 1re demande ne rend pas l'engagement accessoire ; il reste indépendant (P3).",
+    "Exact : « à première demande » est une modalité : le garant paie sur simple présentation de la demande (P3).",
+    "Faux : la clause 1re demande n'exige pas d'acte authentique (le porte-fort est sans forme).",
+    "Faux : aucun bien n'est mis en gage ; c'est une sûreté personnelle."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-065",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P3 / art. 2 al. 2 CC",
+   "question": "Quelle est la SEULE limite opposable par le garant d'un porte-fort indépendant appelé à payer ?",
+   "options": [
+    "L'abus de droit manifeste (art. 2 al. 2 CC)",
+    "La prescription de la dette du débiteur",
+    "La nullité du contrat de base",
+    "L'insolvabilité du tiers"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le garant indépendant ne peut opposer que l'abus de droit manifeste (art. 2 al. 2 CC, P3).",
+    "Faux : la prescription de la dette du débiteur est une exception du rapport de base, inopposable ici (art. 111, P3).",
+    "Faux : la nullité du contrat de base est une exception du rapport sous-jacent, en principe inopposable (P3).",
+    "Faux : l'insolvabilité du tiers est précisément le risque garanti, ce n'est pas une limite opposable."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-066",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P3 / art. 2 al. 2 CC",
+   "question": "Le garant d'une garantie indépendante peut-il refuser de payer au motif que le contrat de base entre débiteur et créancier serait nul ?",
+   "options": [
+    "Oui, cette nullité lui est toujours opposable",
+    "Oui, s'il l'invoque par écrit",
+    "Non, en principe, sauf abus de droit manifeste (art. 2 al. 2 CC)",
+    "Non, jamais, même en cas d'abus de droit"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la nullité du contrat de base est une exception du rapport sous-jacent, inopposable par principe (art. 111).",
+    "Faux : la forme écrite de l'invocation ne rend pas l'exception opposable.",
+    "Exact : l'indépendance ferme cette exception, seul l'abus de droit manifeste reste opposable (art. 2 al. 2 CC, P3).",
+    "Faux : l'abus de droit manifeste demeure une limite ultime opposable (art. 2 al. 2 CC, P3)."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-067",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 exemples",
+   "question": "Une banque garantit à première demande le prix d'une machine. La vente sous-jacente se révèle nulle. Que doit faire la banque ?",
+   "options": [
+    "Refuser de payer, la vente étant nulle",
+    "Consigner le prix chez un notaire",
+    "Exiger la restitution de la machine avant tout paiement",
+    "Payer d'abord sur appel de la garantie, puis se retourner éventuellement contre son client (« pay first, litigate later »)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la nullité de la vente est une exception du rapport de base, inopposable à la garantie indépendante (art. 111).",
+    "Faux : la banque doit payer sur appel conforme, pas consigner le prix.",
+    "Faux : la restitution de la machine relève du rapport de base, pas de la garantie indépendante.",
+    "Exact : la garantie indépendante impose de payer d'abord, puis de discuter ensuite (« pay first, litigate later ») (mémento, exemples)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-068",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 exemples",
+   "question": "Le principe « pay first, litigate later » signifie que le garant indépendant…",
+   "options": [
+    "ne paie qu'après décision judiciaire définitive",
+    "paie sur appel conforme de la garantie, quitte à contester ensuite le fond",
+    "n'est jamais tenu de payer si un litige existe",
+    "doit d'abord réaliser un gage"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le garant ne subordonne pas son paiement à une décision judiciaire (art. 111, exemples).",
+    "Exact : le garant paie d'abord (appel conforme), puis règle le litige au fond ensuite (mémento, exemples).",
+    "Faux : l'existence d'un litige ne suspend pas l'obligation de payer de la garantie indépendante.",
+    "Faux : aucun gage n'est en jeu ; c'est une sûreté personnelle."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-069",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P1 / art. 493 CO",
+   "question": "Quelle forme est requise pour un porte-fort ?",
+   "options": [
+    "Aucune forme particulière : le porte-fort est valable sans forme",
+    "Un acte authentique, comme le cautionnement d'une personne physique",
+    "La forme écrite avec montant maximal chiffré",
+    "L'inscription au registre du commerce"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le porte-fort ne requiert aucune forme, contrairement au cautionnement (art. 111 CO, P1).",
+    "Faux : l'acte authentique est propre au cautionnement d'une personne physique (art. 493), pas au porte-fort.",
+    "Faux : la forme écrite avec montant chiffré est l'exigence du cautionnement (art. 493 al. 1).",
+    "Faux : aucune inscription au registre du commerce n'est requise pour un porte-fort."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-070",
+   "champ": "6.3 Porte-fort (art. 111 CO)",
+   "memento": "M6 P1",
+   "question": "Un candidat affirme que « le porte-fort exige la même forme authentique que le cautionnement ». Cette affirmation est…",
+   "options": [
+    "exacte, la forme est identique",
+    "exacte, mais seulement au-delà de CHF 2'000",
+    "fausse : le porte-fort est sans forme, alors que le cautionnement d'une personne physique exige l'acte authentique",
+    "fausse, car aucune des deux figures n'a d'exigence de forme"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les régimes de forme diffèrent radicalement (art. 111 vs 493).",
+    "Faux : le seuil de CHF 2'000 concerne le cautionnement, pas le porte-fort qui reste sans forme.",
+    "Exact : le porte-fort est sans forme ; seul le cautionnement (personne physique > 2'000) exige l'acte authentique (art. 493, P1).",
+    "Faux : le cautionnement, lui, a bien une exigence de forme (art. 493)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-071",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 Tableau 1 / arbre",
+   "question": "Qu'est-ce qui caractérise la reprise CUMULATIVE de dette ?",
+   "options": [
+    "Le créancier est remplacé",
+    "L'ancien débiteur est libéré et remplacé",
+    "Un bien est affecté avec rang privilégié",
+    "Un second débiteur s'ajoute au premier, sans forme particulière requise"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le créancier ne change pas ; c'est un débiteur qui s'ajoute.",
+    "Faux : la libération/substitution du débiteur caractérise la reprise PRIVATIVE (art. 176 CO).",
+    "Faux : aucun bien n'est affecté ; c'est un engagement personnel supplémentaire.",
+    "Exact : la reprise cumulative ajoute un débiteur (2 débiteurs) sans forme requise (Tableau 1, arbre)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-072",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 Tableau 1",
+   "question": "La reprise cumulative de dette requiert-elle une forme particulière ?",
+   "options": [
+    "Oui, l'acte authentique",
+    "Non, elle est en principe sans forme (elle ajoute un débiteur solidaire)",
+    "Oui, la forme écrite avec montant maximal chiffré",
+    "Oui, l'inscription au registre foncier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'acte authentique n'est pas exigé pour la reprise cumulative (contrairement au cautionnement d'une personne physique).",
+    "Exact : la reprise cumulative est sans forme ; c'est d'ailleurs un mécanisme de contournement du cautionnement (Tableau 1, P1).",
+    "Faux : le montant maximal chiffré est une exigence du cautionnement (art. 493), pas de la reprise cumulative.",
+    "Faux : aucune inscription foncière n'est requise pour une reprise de dette."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-073",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 exemples / art. 176 CO",
+   "question": "En quoi consiste la reprise PRIVATIVE de dette (art. 176 CO) ?",
+   "options": [
+    "Le débiteur est remplacé : le repreneur prend la dette et l'ancien débiteur est libéré",
+    "Un second débiteur s'ajoute solidairement",
+    "Le créancier cède sa créance à un tiers",
+    "Un bien du débiteur est affecté en garantie"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la reprise privative substitue le repreneur au débiteur, l'ancien étant libéré (art. 176 CO).",
+    "Faux : l'ajout d'un second débiteur décrit la reprise cumulative, non la privative (Tableau 1).",
+    "Faux : la cession de créance change le créancier (art. 164), pas le débiteur.",
+    "Faux : aucun bien n'est affecté ; il s'agit d'un changement de débiteur."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-074",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 exemples / art. 176 CO",
+   "question": "Dans une reprise privative, l'ancien débiteur…",
+   "options": [
+    "reste tenu solidairement avec le repreneur",
+    "devient créancier du repreneur",
+    "est libéré de la dette",
+    "conserve la dette à titre subsidiaire pendant 5 ans"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : rester tenu solidairement décrit la reprise cumulative, non la privative (art. 176 CO).",
+    "Faux : l'ancien débiteur ne devient pas créancier du repreneur du fait de la reprise.",
+    "Exact : la reprise privative libère l'ancien débiteur, remplacé par le repreneur (art. 176 CO).",
+    "Faux : la reprise privative libère l'ancien débiteur ; le délai de 5 ans vise l'associé sortant d'une SNC (art. 591 CO)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-075",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 exemples / art. 176 CO",
+   "question": "Quelle condition est indispensable à la reprise privative de dette (art. 176 CO) ?",
+   "options": [
+    "Un acte authentique",
+    "La constitution d'un gage",
+    "L'inscription au registre du commerce",
+    "Le consentement du créancier (on ne change pas le débiteur sans son accord)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la reprise privative n'exige pas d'acte authentique ; elle exige l'accord du créancier (art. 176 CO).",
+    "Faux : aucun gage n'est nécessaire ; c'est un changement de débiteur, pas une sûreté réelle.",
+    "Faux : aucune inscription au registre du commerce n'est requise.",
+    "Exact : la reprise privative suppose le consentement du créancier, seul juge de la solvabilité du repreneur (art. 176 CO, P8)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-076",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 P8 / art. 176 CO",
+   "question": "Deux époux conviennent, dans leur convention de divorce, que l'un reprend seul le prêt hypothécaire. À l'égard de la banque…",
+   "options": [
+    "l'autre époux est automatiquement libéré",
+    "l'autre époux reste débiteur solidaire tant que la banque n'a pas donné son accord écrit à la reprise privative",
+    "la banque doit accepter la reprise",
+    "le prêt est éteint"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la convention entre époux ne lie pas la banque ; elle ne libère pas l'autre époux (art. 175/176 CO).",
+    "Exact : sans accord du créancier (banque), la reprise reste interne (art. 175) ; l'autre époux reste débiteur solidaire (P8).",
+    "Faux : la banque n'est pas obligée d'accepter la reprise privative (art. 176 CO).",
+    "Faux : le prêt subsiste ; seul le débiteur pourrait changer, avec l'accord de la banque."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-077",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 Tableau 1",
+   "question": "Pourquoi la reprise privative n'est-elle PAS une sûreté ?",
+   "options": [
+    "Parce qu'elle se borne à échanger un débiteur contre un autre (1 → 1)",
+    "Parce qu'elle ajoute un patrimoine",
+    "Parce qu'elle affecte un bien",
+    "Parce qu'elle exige l'acte authentique"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : substitution 1→1, aucun patrimoine ajouté → pas une sûreté (art. 176 CO, Tableau 1).",
+    "Faux : elle n'ajoute aucun patrimoine, elle en substitue un (art. 176 CO).",
+    "Faux : aucun bien n'est affecté par une reprise privative.",
+    "Faux : ce n'est pas une question de forme mais de nature (pas de patrimoine ajouté)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-078",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 Tableau 1",
+   "question": "La reprise privative, en libérant l'ancien débiteur, apporte-t-elle un avantage de garantie au créancier ?",
+   "options": [
+    "Oui, elle lui offre un second débiteur",
+    "Oui, elle lui confère un rang privilégié",
+    "Non, il perd l'ancien débiteur et n'en gagne pas un de plus : sa position n'est pas renforcée",
+    "Oui, elle lui transfère un bien"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la reprise privative ne donne pas un second débiteur, elle en substitue un (art. 176 CO).",
+    "Faux : aucun rang privilégié n'est conféré par une reprise de dette.",
+    "Exact : le créancier échange un débiteur contre un autre, sans garantie supplémentaire (Tableau 1).",
+    "Faux : aucun bien n'est transféré au créancier."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-079",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 P8 / art. 164 et 176 CO",
+   "question": "Quelle différence oppose la cession de créance (art. 164 CO) à la reprise de dette (art. 176 CO) quant au consentement ?",
+   "options": [
+    "Les deux exigent le consentement du débiteur",
+    "Aucune ne requiert de consentement",
+    "La cession de créance exige le consentement du créancier ; la reprise est libre",
+    "La cession de créance est libre (sans consentement du débiteur) ; la reprise privative exige le consentement du créancier"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la cession de créance ne requiert pas le consentement du débiteur cédé (art. 164 CO).",
+    "Faux : la reprise privative requiert bien le consentement du créancier (art. 176 CO).",
+    "Faux : c'est inversé ; la cession est libre et la reprise exige l'accord du créancier (P8).",
+    "Exact : cession = libre (art. 164) ; reprise privative = consentement du créancier exigé (art. 176, P8)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-080",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 P8 / art. 164 et 176 CO",
+   "question": "Pourquoi peut-on céder librement une créance mais non changer de débiteur sans l'accord du créancier ?",
+   "options": [
+    "Parce que la loi favorise toujours le débiteur",
+    "Parce que la solvabilité du nouveau débiteur importe au créancier, alors que l'identité du créancier importe peu au débiteur",
+    "Parce que la cession de créance exige l'acte authentique",
+    "Parce que la reprise de dette est interdite"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le fondement n'est pas une faveur systématique au débiteur, mais la protection de la créance (art. 164/176).",
+    "Exact : on ne change pas le débiteur « dans le dos » du créancier, car sa solvabilité compte (art. 176 CO, P8).",
+    "Faux : la cession de créance se fait par écrit simple, pas par acte authentique (art. 165 CO).",
+    "Faux : la reprise de dette est licite, à condition de l'accord du créancier (art. 176 CO)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-081",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 P1",
+   "question": "Une personne physique, sans intérêt propre, s'engage cumulativement à côté du débiteur, par simple écrit. Quel risque juridique guette cet engagement ?",
+   "options": [
+    "La requalification en cautionnement (indices réunis), d'où nullité faute d'acte authentique",
+    "Aucun, la reprise cumulative est toujours valable sans forme",
+    "La transformation en reprise privative libérant le débiteur",
+    "La conversion en porte-fort à première demande"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : personne physique, sans intérêt propre → requalification possible en cautionnement, nul faute de forme (P1).",
+    "Faux : la reprise cumulative sans forme n'est pas à l'abri d'une requalification lorsque les indices du cautionnement sont réunis (P1).",
+    "Faux : rien n'indique une libération du débiteur (reprise privative).",
+    "Faux : les indices (absence d'intérêt propre) écartent le porte-fort indépendant."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-082",
+   "champ": "6.4 Reprise de dette — cumulative vs privative",
+   "memento": "M6 P1",
+   "question": "Le mécanisme de contournement du cautionnement (porte-fort, reprise cumulative, etc.) repose sur le fait que ces figures…",
+   "options": [
+    "exigent toutes l'acte authentique",
+    "libèrent le débiteur principal",
+    "sont sans forme, contrairement au cautionnement d'une personne physique",
+    "confèrent un rang privilégié dans la faillite"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : ces figures sont précisément sans forme, à la différence du cautionnement (art. 493).",
+    "Faux : elles ne libèrent pas le débiteur principal (ce serait la reprise privative).",
+    "Exact : porte-fort et reprise cumulative sont sans forme, d'où leur usage pour éviter l'acte authentique du cautionnement (P1).",
+    "Faux : ce sont des sûretés personnelles sans rang privilégié dans la faillite (Tableau 4)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-083",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 exemples / art. 884 CC",
+   "question": "Quel est le rôle de la dépossession dans le gage mobilier (art. 884 CC) ?",
+   "options": [
+    "Elle est une sanction du défaut de paiement",
+    "Elle est facultative si un contrat écrit existe",
+    "Elle transfère la propriété au créancier",
+    "Elle est la condition de NAISSANCE (constitutive) du gage"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la dépossession n'est pas une sanction du défaut, elle intervient dès la constitution (art. 884 CC).",
+    "Faux : la dépossession est indispensable ; un écrit ne peut y suppléer (art. 884 CC).",
+    "Faux : la dépossession ne transfère pas la propriété ; le débiteur reste propriétaire (art. 884 CC).",
+    "Exact : la remise de la chose est la condition constitutive du gage mobilier (art. 884 CC)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-084",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 exemples / art. 884 CC",
+   "question": "Au mont-de-piété, on remet sa montre et l'on repart avec de l'argent, sans la montre. Cette remise immédiate montre que…",
+   "options": [
+    "la dépossession sanctionne un futur défaut",
+    "la dépossession est la condition de naissance du gage, exigée dès le jour 1",
+    "le prêteur devient propriétaire de la montre",
+    "le gage naît sans dépossession"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la remise n'est pas une sanction, elle est requise dès la constitution (art. 884 CC).",
+    "Exact : la dépossession immédiate illustre son caractère constitutif (art. 884 CC, exemples).",
+    "Faux : le client reste propriétaire de sa montre malgré la dépossession (art. 884 CC).",
+    "Faux : le gage mobilier suppose précisément la dépossession (art. 884 CC)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-085",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 Tableau 3 / art. 884 CC",
+   "question": "Après avoir remis la chose gagée au créancier, qui en reste PROPRIÉTAIRE ?",
+   "options": [
+    "Le débiteur (constituant)",
+    "Le créancier gagiste",
+    "Un tiers séquestre",
+    "L'État"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le débiteur reste propriétaire malgré la dépossession ; le créancier n'a que la possession (art. 884 CC).",
+    "Faux : le créancier a la possession, non la propriété (art. 884 CC, Tableau 3).",
+    "Faux : aucun tiers séquestre n'est requis dans le gage mobilier ordinaire.",
+    "Faux : la propriété reste au débiteur, pas à l'État."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-086",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 Tableau 3 / art. 884 CC",
+   "question": "Dans le gage mobilier, la formule exacte est :",
+   "options": [
+    "Le créancier garde la chose et devient propriétaire",
+    "Le débiteur garde la chose et la propriété",
+    "Le créancier garde la chose (possession) mais le débiteur reste propriétaire",
+    "Le créancier perd la chose et la propriété"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le créancier ne devient pas propriétaire (pacte commissoire nul, art. 894 CC).",
+    "Faux : le débiteur perd la possession de la chose (dépossession), il n'en garde que la propriété.",
+    "Exact : gage = le créancier a la chose (possession), le débiteur garde la propriété (art. 884 CC, Tableau 3).",
+    "Faux : c'est le débiteur, non le créancier, qui perd la chose (la possession)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-087",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 exemples / art. 892 CC",
+   "question": "Le créancier gagiste peut-il utiliser la chose gagée (p. ex. porter la montre) ?",
+   "options": [
+    "Oui, tant que la dette n'est pas payée",
+    "Oui, si la chose est fongible",
+    "Oui, avec l'accord d'un notaire",
+    "Non, il ne peut pas user de la chose gagée (art. 892 CC)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le gagiste conserve la chose mais n'a pas le droit d'en user (art. 892 CC).",
+    "Faux : le caractère fongible ne confère aucun droit d'usage au gagiste (art. 892 CC).",
+    "Faux : l'accord d'un notaire n'autorise pas l'usage de la chose gagée.",
+    "Exact : le créancier gagiste ne peut pas utiliser la chose gagée (art. 892 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-088",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 exemples / art. 892 CC",
+   "question": "Le débiteur peut-il exiger la restitution de la chose gagée sans avoir payé, au motif que le créancier ne s'en sert pas ?",
+   "options": [
+    "Oui, dès lors que le créancier n'en use pas",
+    "Non, le gagiste conserve la chose jusqu'au paiement ou à la réalisation ; il ne doit pas l'user (art. 892 CC)",
+    "Oui, à condition de fournir un cautionnement",
+    "Non, mais il peut la réclamer contre acte authentique"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'absence d'usage ne fonde aucun droit à restitution anticipée (art. 892 CC).",
+    "Exact : le gagiste garde la chose jusqu'au paiement/réalisation, sans droit d'usage (art. 892 CC).",
+    "Faux : un cautionnement ne libère pas la chose gagée avant paiement.",
+    "Faux : la restitution suppose le paiement ou la réalisation, pas un acte authentique."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-089",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 P4 / art. 894 CC",
+   "question": "Le débiteur ne paie pas. Le créancier gagiste peut-il conserver directement la chose gagée en pleine propriété, si le contrat le prévoit ?",
+   "options": [
+    "Non, un tel pacte commissoire est nul : il doit faire réaliser le gage (art. 894 CC)",
+    "Oui, si les parties l'ont convenu à l'avance",
+    "Oui, à concurrence de la dette",
+    "Oui, après un délai de deux mois"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le pacte commissoire est nul ; le gagiste fait réaliser la chose et restitue l'excédent (art. 894 CC, P4).",
+    "Faux : la clause d'appropriation convenue à l'avance (pacte commissoire) est nulle (art. 894 CC).",
+    "Faux : le gagiste ne s'approprie pas la chose, même à concurrence de la dette (art. 894 CC).",
+    "Faux : aucun délai ne rend valable l'appropriation directe ; le pacte commissoire reste nul (art. 894 CC)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-090",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 P4 / art. 894 CC",
+   "question": "Le « pacte commissoire » interdit par l'art. 894 CC désigne la clause par laquelle…",
+   "options": [
+    "le gagiste s'engage à restituer l'excédent",
+    "le débiteur reste propriétaire de la chose",
+    "le gagiste deviendrait automatiquement propriétaire de la chose à défaut de paiement",
+    "la chose doit être vendue aux enchères"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : restituer l'excédent est au contraire une obligation licite du gagiste (art. 891 CC).",
+    "Faux : que le débiteur reste propriétaire est la règle normale (art. 884 CC), pas le pacte prohibé.",
+    "Exact : le pacte commissoire (appropriation automatique du gage à défaut de paiement) est nul (art. 894 CC, P4).",
+    "Faux : la vente aux enchères est un mode de réalisation licite, non le pacte prohibé."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-091",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 P4 / art. 894 CC",
+   "question": "Un contrat de gage stipule qu'« en cas de défaut, la montre devient la propriété de la banque ». Cette clause est…",
+   "options": [
+    "valable, car librement convenue",
+    "valable après homologation judiciaire",
+    "valable si la montre vaut moins que la dette",
+    "nulle, comme pacte commissoire prohibé (art. 894 CC)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la liberté contractuelle ne valide pas une clause prohibée par la loi (art. 894 CC).",
+    "Faux : aucune homologation ne peut valider un pacte commissoire nul (art. 894 CC).",
+    "Faux : la valeur relative de la chose ne rend pas la clause valable (art. 894 CC).",
+    "Exact : c'est un pacte commissoire nul ; la banque doit réaliser le gage (art. 894 CC, P4)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-092",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 mémento / art. 891 CC",
+   "question": "Après réalisation de la chose gagée, si le produit dépasse la dette, le créancier gagiste doit…",
+   "options": [
+    "conserver l'intégralité du produit",
+    "restituer l'excédent au débiteur",
+    "verser l'excédent à l'État",
+    "compenser l'excédent avec une créance future"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le gagiste ne peut conserver que le montant de sa créance (art. 891 CC).",
+    "Exact : le gagiste restitue l'excédent au débiteur après réalisation (art. 891 CC, mémento).",
+    "Faux : l'excédent revient au débiteur, non à l'État.",
+    "Faux : il n'y a pas de compensation d'office avec une créance future ; l'excédent est restitué."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-093",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 mémento / art. 891 CC",
+   "question": "La montre gagée (garantissant une dette de 3'000) est réalisée pour 5'000. Que reçoit le débiteur ?",
+   "options": [
+    "L'excédent de 2'000 (5'000 − 3'000), que le gagiste doit restituer",
+    "Rien, la banque garde tout",
+    "La montre elle-même",
+    "5'000, le gagiste n'ayant droit à rien"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le produit excédant la dette (2'000) est restitué au débiteur (art. 891 CC).",
+    "Faux : le gagiste ne conserve que sa créance de 3'000 ; il ne garde pas tout (art. 891 CC).",
+    "Faux : la montre a été réalisée (vendue) ; le débiteur reçoit de l'argent, pas la chose.",
+    "Faux : le gagiste est payé sur le produit (3'000) avant restitution de l'excédent."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-094",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 cours.md / art. 884 al. 3 CC",
+   "question": "Une entreprise « met en gage » une machine tout en la gardant physiquement pour produire. Quel est l'effet ?",
+   "options": [
+    "Un gage valable, car un contrat écrit suffit",
+    "Un gage immobilier valable",
+    "Pas de gage opposable aux tiers : sans dépossession, le transfert-sûreté est inopposable (art. 884 al. 3 CC)",
+    "Une réserve de propriété"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un écrit ne remplace pas la dépossession exigée par la loi (art. 884 CC).",
+    "Faux : une machine est un meuble ; il ne s'agit pas d'un gage immobilier (art. 793 ss CC).",
+    "Exact : le gage sans dépossession (transfert-sûreté) est inopposable aux tiers (art. 884 al. 3 CC).",
+    "Faux : garder la chose sans transfert de propriété au créancier n'est pas une réserve de propriété (art. 715 CC)."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-095",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 cours.md / art. 884 al. 3 CC",
+   "question": "Pourquoi le droit suisse écarte-t-il le gage mobilier SANS dépossession (art. 884 al. 3 CC) ?",
+   "options": [
+    "Pour protéger le débiteur contre lui-même",
+    "Pour éviter la double imposition",
+    "Parce que le gage sans dépossession est réservé aux immeubles",
+    "Parce qu'un droit réel doit être visible des tiers ; sans dépossession, la garantie occulte leur est inopposable"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le fondement n'est pas la protection du débiteur, mais la publicité du droit réel (art. 884 al. 3 CC).",
+    "Faux : la règle vise l'opposabilité aux tiers, non la fiscalité.",
+    "Faux : la publicité des immeubles passe par le registre foncier, autre régime (art. 793 ss CC).",
+    "Exact : la dépossession est la publicité du gage mobilier ; sans elle, la sûreté occulte est inopposable aux tiers (art. 884 al. 3 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-096",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 L3 / art. 899 CC",
+   "question": "Peut-on constituer un gage sur une créance ou un autre droit cessible ?",
+   "options": [
+    "Non, seuls les biens corporels peuvent être gagés",
+    "Oui, le gage sur créances et autres droits cessibles est admis (art. 899 CC)",
+    "Oui, mais uniquement par inscription au registre foncier",
+    "Non, il faut une cession pure et simple"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les créances et droits cessibles peuvent être gagés (art. 899 CC).",
+    "Exact : l'art. 899 CC permet le gage sur créances et autres droits cessibles.",
+    "Faux : le registre foncier concerne les immeubles, pas le gage sur créances (art. 899 CC).",
+    "Faux : une cession pure et simple n'est pas nécessaire ; le nantissement de la créance suffit (art. 899 CC)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-097",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 L3 / art. 899 CC",
+   "question": "Pour rendre efficace un gage sur une créance (art. 899 CC), le mécanisme de « dépossession » consiste en…",
+   "options": [
+    "l'avis au débiteur cédé / la remise du titre, à défaut de chose corporelle à déplacer",
+    "la remise matérielle d'un objet corporel",
+    "l'inscription au registre du commerce",
+    "un acte authentique obligatoire"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le gage sur créance se réalise notamment par l'avis au débiteur / la remise du titre (art. 899-900 CC).",
+    "Faux : une créance n'a pas de corps à remettre ; on procède autrement (art. 899-900 CC).",
+    "Faux : l'inscription au registre du commerce n'est pas le mode de constitution du gage sur créance.",
+    "Faux : l'art. 899 CC n'impose pas d'acte authentique pour le gage sur créance."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-098",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 exemples",
+   "question": "Le « crédit lombard » (titres remis en dépôt à la banque en garantie d'un crédit) est une application de…",
+   "options": [
+    "la réserve de propriété",
+    "le cautionnement solidaire",
+    "le gage mobilier avec dépossession (ici, des titres)",
+    "le porte-fort à première demande"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la réserve de propriété suppose une vente avec propriété différée, pas un dépôt de titres en garantie (art. 715 CC).",
+    "Faux : le cautionnement est une sûreté personnelle, non un dépôt de titres.",
+    "Exact : le crédit lombard est un gage mobilier, la dépossession portant sur les titres déposés (art. 884 CC, exemples).",
+    "Faux : le porte-fort est une sûreté personnelle, sans remise de titres en gage."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-099",
+   "champ": "6.5 Gage mobilier (art. 884 CC)",
+   "memento": "M6 exemples",
+   "question": "Le prêt sur gages (mont-de-piété) et le crédit lombard illustrent tous deux…",
+   "options": [
+    "une sûreté personnelle par signature",
+    "une hypothèque inscrite au registre foncier",
+    "une reprise cumulative de dette",
+    "un gage mobilier reposant sur la dépossession du bien (montre ou titres)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ce ne sont pas des engagements personnels par signature, mais des gages sur des biens (art. 884 CC).",
+    "Faux : ces gages portent sur des meubles, non sur un immeuble inscrit au registre foncier.",
+    "Faux : il n'y a pas d'ajout de débiteur ; ce sont des sûretés réelles.",
+    "Exact : les deux sont des gages mobiliers fondés sur la dépossession (montre / titres) (art. 884 CC, exemples)."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-100",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 arbre / art. 793 CC",
+   "question": "Quelles sont les formes du gage immobilier en droit suisse ?",
+   "options": [
+    "Le nantissement et la réserve de propriété",
+    "L'hypothèque et la cédule hypothécaire",
+    "Le cautionnement et le porte-fort",
+    "Le gage mobilier et le crédit lombard"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le nantissement est un gage mobilier et la réserve de propriété une autre sûreté (art. 884/715 CC).",
+    "Exact : le gage immobilier prend la forme de l'hypothèque ou de la cédule hypothécaire (art. 793 CC).",
+    "Faux : cautionnement et porte-fort sont des sûretés personnelles, pas des gages immobiliers.",
+    "Faux : le gage mobilier et le crédit lombard portent sur des meubles (art. 884 CC)."
+   ],
+   "piege": "D4",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-101",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 L4 / art. 824 CC",
+   "question": "Que peut garantir une hypothèque quant à la créance de base (art. 824 CC) ?",
+   "options": [
+    "Une créance présente ou future sur un immeuble",
+    "Uniquement une créance déjà exigible",
+    "Une créance exclusivement commerciale",
+    "Une créance seulement contre une personne morale"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'hypothèque garantit une créance présente ou future, grevant l'immeuble (art. 824 CC).",
+    "Faux : l'hypothèque peut garantir une créance future, non seulement une créance déjà exigible (art. 824 CC).",
+    "Faux : la nature commerciale de la créance n'est pas une condition de l'hypothèque (art. 824 CC).",
+    "Faux : la qualité du débiteur (personne morale ou physique) est indifférente (art. 824 CC)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-102",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 L4 / art. 824 CC",
+   "question": "Peut-on constituer une hypothèque pour garantir une créance qui n'existe pas encore ?",
+   "options": [
+    "Non, la créance doit être née et exigible",
+    "Oui, mais seulement pour un an",
+    "Oui, l'hypothèque peut garantir une créance future (art. 824 CC)",
+    "Non, sauf accord du registre foncier"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'hypothèque peut porter sur une créance future (art. 824 CC).",
+    "Faux : aucune limite de durée d'un an ne conditionne la garantie d'une créance future.",
+    "Exact : l'art. 824 CC admet la garantie d'une créance présente OU future.",
+    "Faux : le registre foncier inscrit le gage, il n'a pas à « autoriser » la garantie d'une créance future."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-103",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples",
+   "question": "Le propriétaire qui hypothèque sa villa…",
+   "options": [
+    "doit remettre la villa à la banque (dépossession)",
+    "ne peut plus jamais la vendre",
+    "en perd la propriété au profit de la banque",
+    "conserve et habite l'immeuble, le registre foncier remplaçant la dépossession"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il n'y a pas de dépossession pour un immeuble ; la publicité passe par le registre foncier (art. 793 ss CC).",
+    "Faux : il peut vendre l'immeuble ; l'acheteur le reçoit grevé (droit de suite).",
+    "Faux : le propriétaire ne perd pas la propriété ; il grève seulement l'immeuble d'un gage.",
+    "Exact : le débiteur garde et habite l'immeuble ; le registre foncier assure la publicité (mémento, exemples)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-104",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples",
+   "question": "Le « droit de suite » en matière de gage immobilier signifie que…",
+   "options": [
+    "le gage disparaît dès la vente de l'immeuble",
+    "le gage suit l'immeuble chez l'acquéreur",
+    "le créancier peut occuper l'immeuble",
+    "le débiteur ne peut plus utiliser l'immeuble"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la vente n'éteint pas le gage ; il subsiste sur l'immeuble (droit de suite).",
+    "Exact : le gage suit l'immeuble entre les mains de l'acquéreur (droit de suite) (mémento, exemples).",
+    "Faux : le créancier hypothécaire n'occupe pas l'immeuble ; le débiteur en garde l'usage.",
+    "Faux : le débiteur conserve l'usage de l'immeuble grevé (pas de dépossession)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-105",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples",
+   "question": "L'existence d'une hypothèque interdit-elle au propriétaire de vendre son immeuble ?",
+   "options": [
+    "Non, il peut vendre ; l'acheteur reçoit un immeuble grevé et l'on purge à la vente",
+    "Oui, la vente est interdite tant que la dette subsiste",
+    "Oui, sauf accord du registre foncier",
+    "Non, mais la vente éteint le gage"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la vente reste possible ; l'acquéreur reçoit un immeuble grevé, purgé lors de la vente (mémento, exemples).",
+    "Faux : l'hypothèque n'interdit pas la vente ; elle attache le gage à l'immeuble (droit de suite).",
+    "Faux : aucun « accord du registre foncier » n'est requis pour vendre un immeuble hypothéqué.",
+    "Faux : la vente n'éteint pas le gage ; il suit l'immeuble (droit de suite)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-106",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples / art. 842 ss CC",
+   "question": "Qu'est-ce que la cédule hypothécaire (art. 842 ss CC) remise à une banque en transfert fiduciaire ?",
+   "options": [
+    "Un simple contrat de prêt sans sûreté",
+    "Une hypothèque sans inscription",
+    "Un papier-valeur remis à la banque, ce qui recrée une forme de dépossession, sur le titre",
+    "Un cautionnement de la banque"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la cédule n'est pas un simple prêt ; c'est un papier-valeur incorporant une créance garantie par gage immobilier (art. 842 CC).",
+    "Faux : le gage immobilier suppose l'inscription au registre foncier (art. 799 CC).",
+    "Exact : la cédule est un papier-valeur ; sa remise fiduciaire à la banque recrée une dépossession sur le titre (art. 842 ss CC, mémento).",
+    "Faux : la cédule n'est pas un cautionnement ; c'est un gage immobilier incorporé dans un titre (art. 842 CC)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-107",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples / art. 842 ss CC",
+   "question": "En pratique bancaire suisse, la remise de la cédule hypothécaire à la banque permet…",
+   "options": [
+    "de se dispenser de toute inscription foncière",
+    "de garantir une dette par un simple gage mobilier de meubles",
+    "de transférer la propriété de l'immeuble à la banque",
+    "de retrouver une « dépossession » portant sur le titre (papier-valeur), tout en laissant l'immeuble au débiteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la cédule repose sur une inscription au registre foncier ; la remise du titre s'y ajoute (art. 842 ss CC).",
+    "Faux : il s'agit d'un gage immobilier incorporé dans un titre, non d'un gage mobilier ordinaire.",
+    "Faux : la banque ne devient pas propriétaire de l'immeuble par la remise de la cédule.",
+    "Exact : la remise fiduciaire de la cédule recrée une dépossession sur le titre, le débiteur gardant l'immeuble (art. 842 ss CC, mémento)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-108",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 L5 / art. 799 CC",
+   "question": "Comment se constitue le gage immobilier (art. 799 CC) ?",
+   "options": [
+    "Par la simple remise des clés de l'immeuble",
+    "Par inscription au registre foncier, le contrat de base exigeant la forme authentique",
+    "Par un écrit privé sans autre formalité",
+    "Par la dépossession de l'immeuble"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la remise des clés (dépossession) ne constitue pas un gage immobilier (art. 799 CC).",
+    "Exact : le gage immobilier se constitue par inscription au registre foncier, sur contrat en la forme authentique (art. 799 CC).",
+    "Faux : un simple écrit privé ne suffit pas ; la forme authentique et l'inscription sont requises (art. 799 CC).",
+    "Faux : un immeuble ne se « déplace » pas ; il n'y a pas de dépossession (art. 799 CC)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-109",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 L5 / art. 799 CC",
+   "question": "Quelle forme le contrat constitutif d'un gage immobilier exige-t-il (art. 799 CC) ?",
+   "options": [
+    "La forme authentique (acte notarié), avec inscription au registre foncier",
+    "La forme écrite simple",
+    "Aucune forme",
+    "La forme électronique qualifiée"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le contrat exige la forme authentique et le gage naît par l'inscription au registre foncier (art. 799 CC).",
+    "Faux : l'écrit simple ne suffit pas pour le contrat constitutif du gage immobilier (art. 799 CC).",
+    "Faux : le gage immobilier est au contraire fortement formaliste (art. 799 CC).",
+    "Faux : la loi exige l'acte authentique, non une forme électronique (art. 799 CC)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-110",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 Tableau 3 / art. 715 CC",
+   "question": "Dans une vente sous réserve de propriété (art. 715 CC), qui reste propriétaire jusqu'au paiement intégral ?",
+   "options": [
+    "L'acquéreur, dès la remise de la chose",
+    "Un tiers séquestre",
+    "Le vendeur, jusqu'au paiement complet du prix",
+    "La banque de l'acquéreur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'acquéreur détient la chose mais n'en est pas encore propriétaire (art. 715 CC).",
+    "Faux : aucun tiers séquestre n'intervient dans la réserve de propriété.",
+    "Exact : le vendeur reste propriétaire jusqu'au paiement intégral du prix (art. 715 CC).",
+    "Faux : la banque de l'acquéreur n'acquiert pas la propriété du fait de la réserve."
+   ],
+   "piege": "D1",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-111",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 Tableau 3 / art. 715 CC",
+   "question": "La formule de distinction exacte entre gage et réserve de propriété est :",
+   "options": [
+    "Gage = garde la chose, perd la propriété ; réserve = garde la propriété, perd la chose",
+    "Les deux : perd la chose ET la propriété",
+    "Les deux : garde la chose ET la propriété",
+    "Gage = garde la propriété, perd la chose ; réserve = garde la chose, perd la propriété"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la formule est inversée (art. 884 vs 715 CC).",
+    "Faux : ni le gage ni la réserve ne font perdre à la fois chose et propriété au même acteur.",
+    "Faux : dans les deux cas une composante (chose ou propriété) est perdue.",
+    "Exact : gage = je garde la propriété mais perds la chose ; réserve = je garde la chose mais perds la propriété (Tableau 3)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-112",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 715 CC",
+   "question": "Où et avec quel effet la réserve de propriété doit-elle être inscrite (art. 715 CC) ?",
+   "options": [
+    "Au registre foncier du lieu de la chose, à titre déclaratif",
+    "Au registre des pactes de réserve de propriété du domicile de l'ACQUÉREUR, avec effet CONSTITUTIF",
+    "Au registre du commerce du vendeur, à titre déclaratif",
+    "Nulle part, la clause écrite suffit"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la réserve de propriété s'inscrit au registre des pactes du domicile de l'acquéreur, non au registre foncier (art. 715 CC).",
+    "Exact : inscription au registre des pactes du domicile de l'acquéreur, effet constitutif (art. 715 CC, exemples).",
+    "Faux : ce n'est pas le registre du commerce du vendeur, mais le registre des pactes du domicile de l'acquéreur.",
+    "Faux : l'inscription est constitutive ; la seule clause écrite ne suffit pas à l'opposabilité (art. 715 CC)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-113",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 715 CC",
+   "question": "Le vendeur d'une machine sous réserve de propriété omet de faire inscrire le pacte au registre du domicile de l'acquéreur. Conséquence ?",
+   "options": [
+    "Faute d'inscription constitutive, la réserve de propriété ne prend pas effet ; le vendeur perd sa protection",
+    "La réserve produit tous ses effets, l'écrit suffisant",
+    "La réserve prend effet dès la livraison",
+    "La réserve doit être inscrite au registre foncier"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sans inscription (effet constitutif), la réserve ne naît pas ; le vendeur n'est plus protégé (art. 715 CC, exemples).",
+    "Faux : la simple clause écrite ne suffit pas ; l'inscription est constitutive (art. 715 CC).",
+    "Faux : la livraison ne déclenche pas l'effet ; c'est l'inscription qui est constitutive (art. 715 CC).",
+    "Faux : la réserve s'inscrit au registre des pactes du domicile de l'acquéreur, pas au registre foncier (art. 715 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-114",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 715 al. 2 CC",
+   "question": "La réserve de propriété est-elle admise pour la vente de bétail ?",
+   "options": [
+    "Oui, sans restriction",
+    "Oui, si elle est inscrite au registre foncier",
+    "Non, le commerce du bétail est exclu de la réserve de propriété (art. 715 al. 2 CC)",
+    "Oui, uniquement entre commerçants"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la loi exclut expressément le bétail (art. 715 al. 2 CC).",
+    "Faux : aucune inscription foncière ne rétablit la réserve pour le bétail (art. 715 al. 2 CC).",
+    "Exact : le commerce du bétail est exclu de la réserve de propriété (art. 715 al. 2 CC).",
+    "Faux : l'exclusion vaut indépendamment de la qualité de commerçant des parties (art. 715 al. 2 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-115",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 726-727 CC",
+   "question": "Quelles sont les « trois causes de mort » d'une réserve de propriété ?",
+   "options": [
+    "Paiement partiel, revente, location de la chose",
+    "Perte du titre, prescription, compensation",
+    "Faillite du vendeur, décès de l'acquéreur, résiliation du contrat",
+    "Absence d'inscription, déménagement de l'acquéreur, incorporation ou transformation de la chose"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ces événements ne sont pas les causes légales d'extinction de la réserve (art. 726-727 CC).",
+    "Faux : ces mécanismes généraux ne sont pas les causes propres à la réserve de propriété (art. 726-727 CC).",
+    "Faux : ces événements ne correspondent pas aux trois causes de mort de la réserve.",
+    "Exact : pas d'inscription / déménagement de l'acquéreur / incorporation ou transformation de la chose (art. 726-727 CC, exemples)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-116",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 726 CC",
+   "question": "L'acquéreur d'une machine sous réserve de propriété l'incorpore à une chaîne de production (transformation). Qu'advient-il de la réserve ?",
+   "options": [
+    "Elle subsiste intégralement",
+    "Elle s'éteint : l'incorporation ou la transformation de la chose est une cause de « mort » de la réserve (art. 726-727 CC)",
+    "Elle se transforme en hypothèque",
+    "Elle devient un gage mobilier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'incorporation/transformation fait perdre au vendeur son droit (art. 726-727 CC).",
+    "Exact : la transformation/incorporation de la chose éteint la réserve de propriété (art. 726-727 CC, exemples).",
+    "Faux : la réserve ne se mue pas en hypothèque (gage immobilier).",
+    "Faux : la réserve ne devient pas un gage mobilier ; elle s'éteint."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-117",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 715 CC",
+   "question": "Un déménagement de l'acquéreur dans un autre canton, sans nouvelle inscription, a quel effet sur la réserve de propriété ?",
+   "options": [
+    "La réserve peut « mourir » faute de réinscription au nouveau domicile de l'acquéreur",
+    "Aucun, l'inscription initiale reste valable partout",
+    "La réserve se transforme en cautionnement",
+    "La réserve passe au registre foncier"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le déménagement de l'acquéreur est une cause de mort de la réserve, faute de réinscription (art. 715 CC, exemples).",
+    "Faux : l'inscription est liée au domicile de l'acquéreur ; le déménagement la met en péril (art. 715 CC).",
+    "Faux : la réserve ne se transforme pas en cautionnement (sûreté personnelle).",
+    "Faux : la réserve s'inscrit au registre des pactes, pas au registre foncier."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-118",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 716 CC",
+   "question": "Le vendeur reprend la chose faute de paiement. Peut-il conserver à la fois la chose ET les acomptes déjà reçus ?",
+   "options": [
+    "Oui, à titre de pénalité",
+    "Oui, si le contrat le prévoit",
+    "Non : il restitue les acomptes, sous déduction d'un loyer d'usage (art. 716 CC)",
+    "Non, il doit aussi verser des dommages-intérêts à l'acquéreur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le vendeur ne peut garder la chose ET l'argent à titre de pénalité (art. 716 CC).",
+    "Faux : une clause contraire ne permet pas de cumuler chose et acomptes (art. 716 CC).",
+    "Exact : en reprenant la chose, le vendeur restitue les acomptes sous déduction d'un loyer d'usage (art. 716 CC).",
+    "Faux : la loi prévoit la restitution des acomptes (moins un loyer d'usage), non des dommages-intérêts à l'acquéreur (art. 716 CC)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-119",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 Tableau 3",
+   "question": "Sous réserve de propriété, qui détient la CHOSE et qui en est PROPRIÉTAIRE ?",
+   "options": [
+    "Le vendeur détient la chose ; l'acquéreur est propriétaire",
+    "La chose est déposée chez un tiers ; personne n'en est propriétaire",
+    "Les deux la détiennent en commun",
+    "L'acquéreur détient la chose ; le vendeur reste propriétaire"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est l'acquéreur qui détient et utilise la chose, pas le vendeur (art. 715 CC, Tableau 3).",
+    "Faux : le vendeur reste bien propriétaire ; la chose n'est pas sans maître.",
+    "Faux : la chose est détenue par l'acquéreur, non en commun.",
+    "Exact : l'acquéreur a la chose, le vendeur en garde la propriété jusqu'au paiement (art. 715 CC, Tableau 3)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-120",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples / cours.md",
+   "question": "Comment qualifier le contrat de leasing en droit suisse ?",
+   "options": [
+    "Un contrat nommé doté d'un régime légal propre",
+    "Un contrat innommé (sui generis), sans régime légal spécifique",
+    "Un cautionnement déguisé",
+    "Un gage immobilier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le leasing n'a pas de régime légal propre ; il n'est pas un contrat nommé.",
+    "Exact : le leasing est un contrat innommé (sui generis), sans régime légal spécifique (cours.md).",
+    "Faux : le leasing n'est pas un cautionnement ; c'est un contrat de mise à disposition avec propriété du donneur.",
+    "Faux : le leasing ne porte pas sur un immeuble grevé au registre foncier (art. 793 ss CC)."
+   ],
+   "piege": "D7",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-121",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples",
+   "question": "En quoi le leasing remplit-il une fonction de sûreté ?",
+   "options": [
+    "Le donneur conserve la propriété de la chose, ce qui le garantit comme un gage",
+    "Le preneur devient propriétaire dès la conclusion",
+    "Le preneur remet un bien en gage",
+    "Un tiers cautionne le preneur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le donneur reste propriétaire, ce qui lui confère une garantie proche du gage (mémento, exemples).",
+    "Faux : le preneur n'est pas propriétaire ; c'est justement la propriété du donneur qui garantit (mémento, exemples).",
+    "Faux : le preneur ne remet pas de bien en gage ; c'est la propriété conservée par le donneur qui garantit.",
+    "Faux : la fonction de sûreté du leasing tient à la propriété du donneur, non à un cautionnement tiers."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-122",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples",
+   "question": "Kurt prend en leasing une voiture. Quel est son statut sur le véhicule ?",
+   "options": [
+    "Propriétaire, possesseur et détenteur",
+    "Simple gardien, sans possession",
+    "Possesseur et détenteur, mais NON propriétaire (le donneur reste propriétaire)",
+    "Propriétaire sous condition résolutoire"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le preneur n'est pas propriétaire ; la propriété reste au donneur (exemples).",
+    "Faux : le preneur a bien la possession et l'usage de la chose, pas une simple garde.",
+    "Exact : le preneur a la possession et la détention, mais le donneur conserve la propriété (mémento, exemples).",
+    "Faux : le preneur n'acquiert pas la propriété, même conditionnelle ; elle reste au donneur."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-123",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 L6 / cours.md",
+   "question": "Quelle différence sépare le leasing DIRECT du leasing INDIRECT ?",
+   "options": [
+    "Le direct est immobilier, l'indirect mobilier",
+    "Le direct est un cautionnement, l'indirect un porte-fort",
+    "Le direct exige une inscription, l'indirect non",
+    "Direct : le fabricant est aussi le donneur ; indirect : relation tripartite (le donneur achète la chose au fournisseur puis la met à disposition du preneur)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la distinction ne tient pas à la nature mobilière/immobilière de la chose (L6).",
+    "Faux : ni l'un ni l'autre n'est un cautionnement ou un porte-fort ; ce sont des leasings (L6).",
+    "Faux : aucune inscription n'est requise dans le leasing (sui generis) ; ce n'est pas le critère (L6).",
+    "Exact : direct = fabricant-donneur ; indirect = relation tripartite avec un donneur intermédiaire (L6, cours.md)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-124",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 L6 / cours.md",
+   "question": "Dans un leasing INDIRECT, le donneur…",
+   "options": [
+    "fabrique lui-même la chose remise au preneur",
+    "achète la chose au fournisseur, puis la met à disposition du preneur (relation tripartite)",
+    "se porte caution du preneur",
+    "cède sa créance au fournisseur"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : fabriquer soi-même la chose caractérise le leasing DIRECT (L6).",
+    "Exact : dans le leasing indirect, le donneur (souvent une société de financement) achète puis met à disposition (L6, cours.md).",
+    "Faux : le donneur n'est pas caution du preneur ; il reste propriétaire de la chose.",
+    "Faux : il n'y a pas de cession de créance au fournisseur ; le donneur achète la chose."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-125",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 L7 / art. 884 al. 3 CC",
+   "question": "Dans un sale & lease back où la chose ne quitte jamais physiquement l'entreprise, le transfert de propriété au bailleur…",
+   "options": [
+    "n'est qu'un transfert-sûreté sans dépossession, inopposable aux tiers (contournement du nantissement, art. 884 al. 3 CC)",
+    "est pleinement opposable aux tiers",
+    "vaut hypothèque",
+    "constitue une réserve de propriété valable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le bien ne bougeant pas, le transfert vise à garantir un financement = contournement du nantissement, inopposable (art. 884 al. 3 CC, L7).",
+    "Faux : sans dépossession, le transfert-sûreté n'est pas opposable aux tiers (art. 884 al. 3 CC).",
+    "Faux : il n'y a pas d'immeuble ni d'inscription foncière ; ce n'est pas une hypothèque.",
+    "Faux : ce n'est pas une réserve de propriété (pas de vente avec propriété différée au sens de l'art. 715 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-126",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 L7 / art. 242 LP",
+   "question": "Conséquence du sale & lease back requalifié en gage sans dépossession, si le preneur tombe en faillite :",
+   "options": [
+    "Le bailleur revendique la chose (art. 242 LP)",
+    "Le bailleur devient créancier de 1re classe",
+    "Pas de revendication possible : le transfert-sûreté sans dépossession est inopposable, le bien reste dans la masse (art. 884 al. 3 CC)",
+    "Le bien est restitué automatiquement au bailleur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la revendication suppose une propriété opposable, ce qui fait défaut ici (art. 884 al. 3 CC).",
+    "Faux : aucun privilège de 1re classe n'est conféré au bailleur dans ce cas.",
+    "Exact : le transfert-sûreté sans dépossession étant inopposable, pas de revendication (art. 242 LP) ; le bien reste dans la masse (L7).",
+    "Faux : le bien n'est pas restitué ; faute d'opposabilité, il reste dans la masse (art. 884 al. 3 CC)."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-127",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples / art. 715 CC",
+   "question": "Un leasing est en réalité une vente par acomptes déguisée. Quel régime lui applique-t-on ?",
+   "options": [
+    "Celui du cautionnement",
+    "Celui du porte-fort",
+    "Celui du gage immobilier",
+    "Celui de la réserve de propriété (art. 715 CC) : sans inscription, le donneur perd la chose"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une vente à tempérament déguisée ne relève pas du cautionnement.",
+    "Faux : le porte-fort est une sûreté personnelle, sans rapport avec cette requalification.",
+    "Faux : il ne s'agit pas d'un immeuble ni d'un gage immobilier (art. 793 ss CC).",
+    "Exact : requalifié en vente par acomptes, le contrat tombe sous l'art. 715 CC ; sans inscription, le donneur perd la protection (exemples)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-128",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples / art. 242 LP",
+   "question": "Le leasing financier est présenté comme « cousin » de la réserve de propriété. En quoi s'en distingue-t-il ?",
+   "options": [
+    "Il exige lui aussi une inscription au registre des pactes",
+    "Il permet la revendication en faillite (donneur propriétaire) MAIS n'exige PAS d'inscription (contrat sui generis)",
+    "Il ne permet aucune revendication en faillite",
+    "Il transfère la propriété au preneur dès le départ"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le leasing financier, sui generis, n'exige pas d'inscription (contrairement à la réserve, art. 715 CC).",
+    "Exact : comme la réserve, il permet la revendication (art. 242 LP), mais sans inscription requise (sui generis) (exemples).",
+    "Faux : le donneur restant propriétaire, il peut revendiquer en faillite du preneur (art. 242 LP).",
+    "Faux : la propriété reste au donneur ; elle n'est pas transférée au preneur au départ."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-129",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples / art. 242 LP",
+   "question": "Dans la faillite du preneur de leasing (donneur resté propriétaire), le donneur obtient…",
+   "options": [
+    "la revendication de la chose (art. 242 LP), qui sort de la masse",
+    "un dividende de 3e classe",
+    "un rang privilégié de gagiste sur le produit de vente",
+    "rien du tout"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : propriétaire, le donneur revendique la chose qui sort de la masse (art. 242 LP, Tableau 4).",
+    "Faux : le donneur propriétaire ne se contente pas d'un dividende ; il revendique la chose (art. 242 LP).",
+    "Faux : le donneur n'est pas gagiste ; il est propriétaire et revendique (art. 242 LP).",
+    "Faux : le donneur récupère la chose par revendication, il n'est pas privé de tout droit."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-130",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4 / art. 242 LP",
+   "question": "Dans la faillite du débiteur, le vendeur sous réserve de propriété (ou le donneur de leasing) obtient…",
+   "options": [
+    "un dividende de 3e classe",
+    "un rang privilégié de gagiste (argent)",
+    "la revendication (art. 242 LP) : le bien SORT de la masse, il récupère la chose",
+    "rien, faute de sûreté"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : propriétaire du bien, il ne se contente pas d'un dividende ordinaire (art. 242 LP).",
+    "Faux : il n'est pas gagiste ; il est propriétaire et revendique la chose, pas de l'argent (art. 242 LP).",
+    "Exact : il revendique le bien, qui sort de la masse ; il récupère la chose (art. 242 LP, Tableau 4).",
+    "Faux : la réserve de propriété est une sûreté ; il revendique la chose (art. 242 LP)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-131",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4 / art. 219 LP",
+   "question": "Dans la faillite du débiteur, le créancier gagiste (art. 884 / 793 ss CC) obtient…",
+   "options": [
+    "la revendication du bien, qui sort de la masse",
+    "la propriété automatique du bien gagé",
+    "un dividende ordinaire de 3e classe sur toute la masse",
+    "un paiement prioritaire sur le produit de réalisation de CE bien (art. 219 al. 1 LP) : il reçoit de l'argent"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le gagiste ne revendique pas le bien (il n'en est pas propriétaire) ; il est payé sur son produit (art. 219 LP).",
+    "Faux : le pacte commissoire étant nul (art. 894 CC), le gagiste reçoit de l'argent, non la propriété.",
+    "Faux : le gagiste a un rang privilégié sur le bien, il n'est pas un simple créancier de 3e classe.",
+    "Exact : le gagiste est payé en premier sur le produit de réalisation du bien gagé (art. 219 al. 1 LP, Tableau 4)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-132",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4",
+   "question": "Quelle différence essentielle sépare le revendiquant (réserve de propriété) du gagiste dans la faillite ?",
+   "options": [
+    "Le revendiquant reçoit de l'argent, le gagiste récupère la chose",
+    "Le revendiquant récupère la CHOSE (elle sort de la masse) ; le gagiste reçoit de l'ARGENT (produit de réalisation)",
+    "Les deux récupèrent la chose",
+    "Les deux ne reçoivent qu'un dividende de 3e classe"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est inversé ; le revendiquant récupère la chose, le gagiste de l'argent (art. 242/219 LP).",
+    "Exact : revendication = la chose sort de la masse (art. 242 LP) ; gage = argent sur le produit (art. 219 LP) (Tableau 4).",
+    "Faux : le gagiste ne récupère pas la chose, il est payé sur son produit (art. 219 LP).",
+    "Faux : le gagiste a un rang privilégié, pas un simple dividende de 3e classe (art. 219 LP)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-133",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4",
+   "question": "Si le produit de réalisation du bien gagé ne couvre pas toute la créance, le solde (découvert) du gagiste…",
+   "options": [
+    "retombe en 3e classe (créance ordinaire)",
+    "reste privilégié de 1re classe",
+    "est perdu définitivement",
+    "est garanti par l'État"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le découvert du gagiste retombe en 3e classe, comme une créance ordinaire (Tableau 4).",
+    "Faux : seul le montant couvert par le gage est privilégié ; le solde ne l'est pas (Tableau 4).",
+    "Faux : le solde n'est pas anéanti ; il devient une créance de 3e classe.",
+    "Faux : l'État ne garantit pas le découvert du gagiste."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-134",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4",
+   "question": "Le découvert du gagiste (partie non couverte par la réalisation du bien) est colloqué en…",
+   "options": [
+    "1re classe",
+    "2e classe",
+    "3e classe",
+    "hors classe (revendication)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le découvert ne conserve pas le rang privilégié de 1re classe.",
+    "Faux : le découvert n'est pas en 2e classe.",
+    "Exact : le solde non couvert du gagiste retombe en 3e classe (Tableau 4).",
+    "Faux : le gagiste ne revendique pas ; son solde devient une créance de 3e classe."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-135",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4 / erreur fréquente",
+   "question": "Dans la faillite du DÉBITEUR, que reçoivent la caution et le porte-fort ?",
+   "options": [
+    "Un rang privilégié avant les autres créanciers",
+    "Un dividende de 1re classe",
+    "La revendication d'un bien",
+    "Rien : ils ne figurent pas dans cette faillite ; ils visent un AUTRE patrimoine (le leur)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : caution et porte-fort n'ont aucun rang dans la faillite du débiteur (Tableau 4).",
+    "Faux : ils ne perçoivent aucun dividende dans la faillite du débiteur.",
+    "Faux : ils ne revendiquent aucun bien ; ce sont des sûretés personnelles.",
+    "Exact : sûretés personnelles, ils ne figurent pas dans la faillite du débiteur ; ils répondent sur un autre patrimoine (Tableau 4)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-136",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 erreur fréquente",
+   "question": "« Le cautionnement passe avant les autres créanciers dans la faillite du débiteur. » Cette affirmation est :",
+   "options": [
+    "exacte, la caution est privilégiée",
+    "fausse : la caution n'a aucun rang dans cette faillite, elle vise un autre patrimoine",
+    "exacte, mais seulement pour la caution solidaire",
+    "exacte, la caution étant subrogée de 1re classe"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la caution n'a aucun privilège dans la faillite du débiteur (Tableau 4).",
+    "Exact : erreur fréquente ; la caution ne figure pas dans la faillite du débiteur, elle vise un autre patrimoine (Tableau 4).",
+    "Faux : le type de cautionnement ne change rien à l'absence de rang dans la faillite du débiteur.",
+    "Faux : la caution qui paie est subrogée sans privilège, en 3e classe (art. 507 CO)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-137",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 erreur fréquente",
+   "question": "Pourquoi la caution ne « passe-t-elle » pas avant les créanciers dans la faillite du débiteur ?",
+   "options": [
+    "Parce qu'une sûreté personnelle ne donne aucun rang dans la faillite du débiteur ; elle porte sur un autre patrimoine",
+    "Parce qu'elle est colloquée en 4e classe",
+    "Parce qu'elle a renoncé à ses droits",
+    "Parce que le pacte commissoire est nul"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sûreté personnelle, la caution vise un autre patrimoine et n'a aucun rang dans la faillite du débiteur (Tableau 4).",
+    "Faux : la caution ne figure tout simplement pas dans cette faillite (Tableau 4).",
+    "Faux : ce n'est pas une renonciation ; c'est la nature de la sûreté personnelle.",
+    "Faux : le pacte commissoire concerne le gage (art. 894 CC), pas le rang de la caution."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-138",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4 / art. 507 CO",
+   "question": "La caution qui a payé et est subrogée figure, dans la faillite du débiteur, en…",
+   "options": [
+    "1re classe avec privilège",
+    "2e classe",
+    "3e classe, sans privilège",
+    "revendication (hors masse)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la subrogation n'apporte aucun privilège de 1re classe (art. 507 CO, Tableau 4).",
+    "Faux : elle n'est pas en 2e classe.",
+    "Exact : la caution subrogée vient sans privilège, en 3e classe (art. 507 CO, Tableau 4).",
+    "Faux : elle ne revendique pas un bien ; elle a une créance récursoire de 3e classe."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-139",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4",
+   "question": "Un créancier ordinaire, sans aucune sûreté, obtient dans la faillite du débiteur…",
+   "options": [
+    "la revendication d'un bien",
+    "la propriété d'un gage",
+    "un paiement prioritaire",
+    "un dividende de 3e classe"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : sans droit réel sur un bien, il ne peut revendiquer (art. 242 LP).",
+    "Faux : il ne détient aucun gage dont il pourrait devenir propriétaire.",
+    "Faux : sans sûreté, aucun paiement prioritaire ne lui est reconnu.",
+    "Exact : le créancier chirographaire perçoit un simple dividende de 3e classe (Tableau 4)."
+   ],
+   "piege": "D1",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-140",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 Tableau 4",
+   "question": "Le créancier chirographaire (sans sûreté) et la caution subrogée se retrouvent-ils dans la même classe ?",
+   "options": [
+    "Non, la caution est privilégiée",
+    "Oui : tous deux en 3e classe (le chirographaire par nature, la caution subrogée sans privilège)",
+    "Non, le chirographaire est en 2e classe",
+    "Oui, tous deux en 1re classe"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la caution subrogée n'est pas privilégiée (art. 507 CO, Tableau 4).",
+    "Exact : chirographaire et caution subrogée sont l'un et l'autre en 3e classe (Tableau 4).",
+    "Faux : le créancier chirographaire est en 3e classe, non en 2e.",
+    "Faux : ni l'un ni l'autre n'est en 1re classe."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-141",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 L8 / art. 242 LP",
+   "question": "La revendication (art. 242 LP) suppose que le revendiquant soit devenu PROPRIÉTAIRE avant l'ouverture de la faillite. À défaut…",
+   "options": [
+    "il n'a qu'une créance (dommages-intérêts) et ne peut revendiquer",
+    "il revendique quand même la chose",
+    "il devient gagiste privilégié",
+    "il obtient un privilège de 1re classe"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : une simple obligation de transférer ne suffit pas ; à défaut de propriété, il n'a qu'une créance en dommages-intérêts (art. 242 LP, L8).",
+    "Faux : sans propriété acquise avant la faillite, il ne peut revendiquer (art. 242 LP, L8).",
+    "Faux : il ne devient pas gagiste ; il n'a qu'une créance ordinaire.",
+    "Faux : aucun privilège de 1re classe ne lui est reconnu."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-142",
+   "champ": "6.9 Effet en faillite (art. 242 LP, art. 219 LP)",
+   "memento": "M6 L8 / art. 242 LP",
+   "question": "Un acheteur a payé mais la propriété ne lui a pas encore été transférée au moment de la faillite du vendeur. Peut-il revendiquer la chose (art. 242 LP) ?",
+   "options": [
+    "Oui, le paiement suffit à revendiquer",
+    "Oui, la revendication est de droit pour tout acheteur",
+    "Non : n'étant pas encore propriétaire, il n'a qu'une créance (dommages-intérêts), pas la revendication",
+    "Non, mais il obtient un rang de gagiste"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le paiement du prix ne vaut pas transfert de propriété ; la revendication suppose la propriété acquise (art. 242 LP, L8).",
+    "Faux : la revendication n'est pas automatique pour tout acheteur ; elle exige la qualité de propriétaire (L8).",
+    "Exact : sans propriété transférée avant la faillite, pas de revendication ; seulement une créance en dommages-intérêts (art. 242 LP, L8).",
+    "Faux : l'acheteur n'obtient pas un rang de gagiste ; il n'a qu'une créance ordinaire."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-143",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 181 al. 2 CO",
+   "question": "En cas de reprise d'entreprise (art. 181 CO), combien de temps l'ancien débiteur reste-t-il solidairement tenu ?",
+   "options": [
+    "Pendant 2 ans",
+    "De manière illimitée",
+    "Pendant 5 ans",
+    "Pendant 3 ans"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le délai de 2 ans vise le transfert de bail commercial (art. 263 al. 4 CO), non la reprise d'entreprise.",
+    "Faux : la solidarité est limitée à 3 ans, non illimitée (art. 181 al. 2 CO).",
+    "Faux : le délai de 5 ans concerne l'associé sortant d'une SNC (art. 591 CO).",
+    "Exact : la reprise d'entreprise entraîne une solidarité de l'ancien débiteur pendant 3 ans (art. 181 al. 2 CO, P8)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-144",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 75 LFus",
+   "question": "Lors d'un transfert de patrimoine (art. 75 LFus), la solidarité de l'ancien débiteur dure…",
+   "options": [
+    "2 ans",
+    "3 ans",
+    "5 ans",
+    "1 an"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 2 ans correspond au transfert de bail commercial (art. 263 al. 4 CO), pas au transfert de patrimoine.",
+    "Exact : le transfert de patrimoine emporte une solidarité de 3 ans (art. 75 LFus, P8).",
+    "Faux : 5 ans vise l'associé sortant d'une SNC (art. 591 CO).",
+    "Faux : 1 an correspond au silence du créancier en gage immobilier (art. 832 CC), pas ici."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-145",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 591 CO",
+   "question": "L'associé qui sort d'une société en nom collectif (SNC) reste solidairement tenu des dettes sociales pendant…",
+   "options": [
+    "5 ans",
+    "3 ans",
+    "2 ans",
+    "10 ans"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'associé sortant d'une SNC répond solidairement pendant 5 ans (art. 591 CO, P8).",
+    "Faux : 3 ans concerne la reprise d'entreprise (art. 181) et le transfert de patrimoine (art. 75 LFus).",
+    "Faux : 2 ans vise le transfert de bail commercial (art. 263 al. 4 CO).",
+    "Faux : le délai légal est de 5 ans, non de 10 ans (art. 591 CO)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-146",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 263 al. 4 CO",
+   "question": "Lors d'un transfert de bail commercial, l'ancien locataire reste solidairement tenu pendant…",
+   "options": [
+    "5 ans",
+    "3 ans",
+    "2 ans",
+    "1 an"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : 5 ans concerne l'associé sortant d'une SNC (art. 591 CO).",
+    "Faux : 3 ans vise la reprise d'entreprise / le transfert de patrimoine (art. 181 / 75 LFus).",
+    "Exact : le transfert de bail commercial entraîne une solidarité de 2 ans (art. 263 al. 4 CO, P8).",
+    "Faux : 1 an correspond au silence du créancier gagiste (art. 832 CC)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-147",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 47 LFus",
+   "question": "En cas de scission (art. 47 LFus), la responsabilité des sociétés participantes envers les créanciers est…",
+   "options": [
+    "une solidarité de 5 ans",
+    "inexistante",
+    "une solidarité de 2 ans",
+    "une solidarité SUBSIDIAIRE (pas une durée fixe de solidarité primaire)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la scission n'est pas caractérisée par une durée fixe de 5 ans, mais par une solidarité subsidiaire (art. 47 LFus).",
+    "Faux : une responsabilité subsidiaire existe bel et bien (art. 47 LFus).",
+    "Faux : le délai de 2 ans vise le bail commercial (art. 263 al. 4 CO), pas la scission.",
+    "Exact : la scission engendre une solidarité SUBSIDIAIRE des sociétés participantes (art. 47 LFus, P8)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-148",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 47 LFus",
+   "question": "La particularité de la scission (art. 47 LFus), par rapport aux autres cas (délais fixes), est que sa solidarité est…",
+   "options": [
+    "primaire et illimitée",
+    "subsidiaire (le créancier n'agit contre les autres sociétés qu'à défaut de la débitrice principale)",
+    "d'exactement 3 ans",
+    "d'exactement 5 ans"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la solidarité de la scission n'est ni primaire ni illimitée (art. 47 LFus).",
+    "Exact : la scission prévoit une solidarité subsidiaire, distincte des délais fixes des autres cas (art. 47 LFus, P8).",
+    "Faux : elle n'est pas exprimée par un délai fixe de 3 ans.",
+    "Faux : elle n'est pas exprimée par un délai fixe de 5 ans (art. 47 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-149",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 832 CC",
+   "question": "Un immeuble grevé d'un gage est vendu ; l'acquéreur reprend la dette. Que se passe-t-il si le créancier reste silencieux pendant un an (art. 832 CC) ?",
+   "options": [
+    "Le silence du créancier pendant 1 an vaut acceptation : le vendeur est libéré",
+    "Le vendeur reste solidairement tenu 5 ans",
+    "La reprise est nulle",
+    "Le créancier perd sa garantie"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en gage immobilier, le silence du créancier pendant 1 an vaut acceptation et libère le vendeur (art. 832 CC, P8).",
+    "Faux : ici, à l'inverse des autres cas, le vendeur peut être libéré par le silence du créancier (art. 832 CC).",
+    "Faux : la reprise n'est pas nulle ; le silence la valide au contraire (art. 832 CC).",
+    "Faux : le créancier conserve son gage sur l'immeuble ; c'est l'identité du débiteur qui change (art. 832 CC)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-150",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8 / art. 832 CC",
+   "question": "Pourquoi, en gage immobilier (art. 832 CC), le créancier peut-il plus facilement se désintéresser du changement de débiteur ?",
+   "options": [
+    "Parce que la dette est éteinte",
+    "Parce que la loi interdit tout changement de débiteur",
+    "Parce qu'il détient le gage : l'immeuble ne bouge pas, l'identité du débiteur lui importe moins",
+    "Parce que le vendeur reste toujours tenu"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la dette subsiste ; seul le débiteur peut changer (art. 832 CC).",
+    "Faux : le changement de débiteur n'est pas interdit ; il est au contraire facilité (art. 832 CC).",
+    "Exact : le créancier garde son gage sur l'immeuble, si bien que l'identité du débiteur compte moins (art. 832 CC, P8).",
+    "Faux : précisément, le silence du créancier peut libérer le vendeur (art. 832 CC)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-151",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8",
+   "question": "Pourquoi la loi impose-t-elle une solidarité temporaire de l'ancien débiteur dans les cas de reprise sans consentement du créancier ?",
+   "options": [
+    "Pour punir le repreneur",
+    "Pour éteindre la dette plus vite",
+    "Pour transférer un bien en gage",
+    "Pour compenser l'absence de consentement du créancier, imposée par la loi (lien avec l'art. 176 CO)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la solidarité ne vise pas à punir le repreneur, mais à protéger le créancier.",
+    "Faux : la solidarité prolonge la garantie du créancier ; elle n'éteint pas la dette.",
+    "Faux : aucun bien n'est mis en gage ; il s'agit d'une garantie personnelle légale temporaire.",
+    "Exact : la solidarité temporaire compense l'absence de consentement du créancier, normalement exigé (art. 176 CO, P8)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-152",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8",
+   "question": "Un candidat doit classer les délais de solidarité. Quel appariement est CORRECT ?",
+   "options": [
+    "Reprise d'entreprise = 5 ans ; SNC = 3 ans",
+    "Reprise d'entreprise (181) = 3 ans ; associé sortant SNC (591) = 5 ans",
+    "Transfert de bail (263) = 5 ans ; transfert de patrimoine (75 LFus) = 2 ans",
+    "SNC = 2 ans ; bail commercial = 3 ans"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la reprise d'entreprise est de 3 ans et la SNC de 5 ans (art. 181 / 591).",
+    "Exact : reprise d'entreprise (art. 181) = 3 ans ; associé sortant SNC (art. 591) = 5 ans (P8).",
+    "Faux : le bail commercial est de 2 ans (art. 263) et le transfert de patrimoine de 3 ans (art. 75 LFus).",
+    "Faux : la SNC est de 5 ans (art. 591) et le bail commercial de 2 ans (art. 263)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-153",
+   "champ": "6.10 Solidarité temporaire de l'ancien débiteur",
+   "memento": "M6 P8",
+   "question": "Parmi ces délais de solidarité de l'ancien débiteur, lequel est ERRONÉ ?",
+   "options": [
+    "Associé sortant d'une SNC (art. 591 CO) = 2 ans",
+    "Transfert de patrimoine (art. 75 LFus) = 3 ans",
+    "Transfert de bail commercial (art. 263 al. 4 CO) = 2 ans",
+    "Reprise d'entreprise (art. 181 al. 2 CO) = 3 ans"
+   ],
+   "correct": 0,
+   "explications": [
+    "Erroné : l'associé sortant d'une SNC répond 5 ans, non 2 ans (art. 591 CO, P8).",
+    "Correct (donc non erroné) : le transfert de patrimoine emporte 3 ans (art. 75 LFus).",
+    "Correct (donc non erroné) : le transfert de bail commercial emporte 2 ans (art. 263 al. 4 CO).",
+    "Correct (donc non erroné) : la reprise d'entreprise emporte 3 ans (art. 181 al. 2 CO)."
+   ],
+   "piege": "D3",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-154",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2",
+   "question": "Verser un « dépôt de garantie » (« payer une caution ») pour la location d'une moto correspond juridiquement à…",
+   "options": [
+    "un cautionnement (sûreté personnelle)",
+    "un porte-fort",
+    "un gage sur espèces (sûreté réelle), fourni par le débiteur lui-même : un seul patrimoine",
+    "une reprise de dette"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucun tiers ne s'engage ; ce n'est pas un cautionnement (Tableau 2).",
+    "Faux : le porte-fort suppose un tiers garant, absent ici (art. 111 CO).",
+    "Exact : le dépôt de garantie est un gage sur espèces, sûreté réelle fournie par le débiteur (1 patrimoine) (Tableau 2).",
+    "Faux : aucune reprise de dette n'intervient ; le débiteur verse une somme en garantie."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-155",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2",
+   "question": "Le dépôt de garantie met en jeu combien de patrimoines, et de quelle nature de sûreté s'agit-il ?",
+   "options": [
+    "Deux patrimoines ; sûreté personnelle",
+    "Aucun patrimoine ; ce n'est pas une sûreté",
+    "Deux patrimoines ; sûreté réelle",
+    "Un seul patrimoine (celui du débiteur) ; sûreté réelle (gage sur espèces)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le débiteur fournit lui-même la somme, il n'y a pas de second patrimoine (Tableau 2).",
+    "Faux : c'est bien une sûreté (réelle), le bien affecté étant les espèces déposées.",
+    "Faux : il n'y a qu'un patrimoine, pas deux (Tableau 2).",
+    "Exact : un seul patrimoine (le débiteur), sûreté réelle par gage sur espèces (Tableau 2)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-156",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2 / art. 492 CO",
+   "question": "Le cautionnement (art. 492 CO), à la différence du dépôt de garantie, suppose…",
+   "options": [
+    "que le débiteur verse lui-même une somme d'argent",
+    "qu'un TIERS s'engage par sa signature, sans qu'aucun argent ne soit versé au départ",
+    "un transfert de propriété d'un bien",
+    "une inscription au registre foncier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le versement d'argent par le débiteur caractérise le dépôt de garantie, pas le cautionnement (Tableau 2).",
+    "Exact : le cautionnement est une sûreté personnelle : un tiers s'engage par signature, sans versement initial (art. 492 CO, Tableau 2).",
+    "Faux : le cautionnement ne transfère aucun bien ; c'est une garantie personnelle.",
+    "Faux : aucune inscription foncière n'accompagne un cautionnement."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-157",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2 / art. 492 CO",
+   "question": "Combien de patrimoines répondent de la dette dans un cautionnement, et de quelle nature de sûreté s'agit-il ?",
+   "options": [
+    "Deux (débiteur + caution) ; sûreté personnelle",
+    "Un seul ; sûreté réelle",
+    "Aucun ; pas une sûreté",
+    "Deux ; sûreté réelle"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : cautionnement = deux patrimoines (débiteur + caution), sûreté personnelle (art. 492 CO, Tableau 2).",
+    "Faux : le cautionnement ajoute le patrimoine de la caution (deux patrimoines) (Tableau 2).",
+    "Faux : c'est bien une sûreté, personnelle, avec un patrimoine supplémentaire.",
+    "Faux : le cautionnement est une sûreté personnelle, non réelle (aucun bien affecté)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-158",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2 / art. 257e CO",
+   "question": "La garantie de loyer (art. 257e CO) versée par le locataire est-elle un cautionnement ?",
+   "options": [
+    "Oui, un cautionnement du locataire",
+    "Oui, un cautionnement solidaire",
+    "Non : c'est un dépôt de garantie (gage sur espèces), pas un cautionnement",
+    "Non, c'est un porte-fort du bailleur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la garantie de loyer n'est pas un cautionnement ; c'est le locataire lui-même qui dépose la somme (art. 257e CO).",
+    "Faux : ce n'est pas un cautionnement, encore moins solidaire (art. 257e CO).",
+    "Exact : la garantie de loyer est un dépôt de garantie (gage sur espèces), non un cautionnement (art. 257e CO, Tableau 2).",
+    "Faux : ce n'est pas un porte-fort du bailleur ; c'est une somme déposée par le locataire (art. 257e CO)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-159",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2",
+   "question": "En français courant, « la caution » désigne souvent l'argent versé. En droit suisse, « la caution » désigne…",
+   "options": [
+    "l'argent déposé en garantie",
+    "le contrat de bail",
+    "le bien mis en gage",
+    "la PERSONNE qui s'engage à garantir la dette d'autrui"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'argent versé correspond au dépôt de garantie du langage courant, pas à la « caution » juridique (Tableau 2).",
+    "Faux : la caution n'est pas le contrat de bail, mais la personne garante (art. 492 CO).",
+    "Faux : le bien mis en gage relève des sûretés réelles, pas de la « caution » personne.",
+    "Exact : en droit, la caution est la PERSONNE qui garantit la dette d'autrui (art. 492 CO, Tableau 2)."
+   ],
+   "piege": "D8",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-160",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2",
+   "question": "La confusion lexicale entre « payer une caution » (argent) et « se porter caution » (personne) recouvre en réalité…",
+   "options": [
+    "deux fois la même sûreté personnelle",
+    "deux sûretés de nature différente : réelle (gage sur espèces) d'un côté, personnelle (cautionnement) de l'autre",
+    "deux fois la même sûreté réelle",
+    "aucune sûreté dans les deux cas"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les deux ne sont pas la même sûreté personnelle ; l'une est réelle (Tableau 2).",
+    "Exact : « payer une caution » = sûreté réelle (gage sur espèces) ; « se porter caution » = sûreté personnelle (Tableau 2).",
+    "Faux : le cautionnement est une sûreté personnelle, pas réelle ; les deux diffèrent.",
+    "Faux : les deux sont bien des sûretés, de natures distinctes (Tableau 2)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-161",
+   "champ": "6.2.1 Cautionnement — définition & accessoriété",
+   "memento": "M6 P2",
+   "question": "« Je garantis TA dette » vs « je prends MA dette » : cette formule oppose…",
+   "options": [
+    "le cautionnement (dette d'autrui, accessoire) au porte-fort (dette propre, indépendant)",
+    "le gage mobilier au gage immobilier",
+    "la reprise cumulative à la reprise privative",
+    "la sûreté réelle à la sûreté personnelle"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : « TA dette » = cautionnement accessoire (art. 492) ; « MA dette » = porte-fort indépendant (art. 111, P2).",
+    "Faux : la formule ne distingue pas deux gages réels ; elle oppose caution et porte-fort (P2).",
+    "Faux : les deux reprises portent sur la dette d'autrui ; la formule vise caution vs porte-fort.",
+    "Faux : caution et porte-fort sont tous deux des sûretés personnelles ; la formule les distingue entre elles (P2)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-162",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 arbre / art. 793 CC",
+   "question": "Le nantissement (dépossession) est-il un mode de gage IMMOBILIER ?",
+   "options": [
+    "Oui, l'immeuble est remis au créancier",
+    "Oui, c'est synonyme d'hypothèque",
+    "Non : le gage immobilier prend la forme de l'hypothèque ou de la cédule, avec publicité par le registre foncier",
+    "Non, le gage immobilier se fait par simple écrit"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un immeuble ne se remet pas physiquement ; la dépossession est propre au gage mobilier (art. 884 CC).",
+    "Faux : le nantissement (gage mobilier) n'est pas synonyme d'hypothèque (art. 884 vs 793 CC).",
+    "Exact : le gage immobilier se réalise par hypothèque ou cédule, publiées au registre foncier (art. 793 CC).",
+    "Faux : le gage immobilier exige inscription au registre foncier et forme authentique du contrat (art. 799 CC)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-163",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples",
+   "question": "Contrairement au gage mobilier, le gage immobilier n'emporte pas dépossession parce que…",
+   "options": [
+    "l'immeuble est remis à un séquestre",
+    "aucune publicité n'est nécessaire",
+    "le créancier prend possession de l'immeuble",
+    "le débiteur garde et habite l'immeuble, la publicité étant assurée par le registre foncier"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucun séquestre n'intervient ; l'immeuble reste au débiteur (art. 793 ss CC).",
+    "Faux : la publicité existe bien, assurée par le registre foncier (art. 793 ss CC).",
+    "Faux : le créancier hypothécaire ne prend pas possession de l'immeuble.",
+    "Exact : le débiteur conserve l'usage de l'immeuble, le registre foncier remplaçant la dépossession (mémento, exemples)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-164",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples",
+   "question": "Grâce au droit de suite, l'acquéreur d'un immeuble hypothéqué…",
+   "options": [
+    "reçoit un immeuble libre de tout gage",
+    "reçoit un immeuble toujours grevé du gage, qui suit l'immeuble",
+    "devient personnellement débiteur du prêt",
+    "peut faire radier le gage unilatéralement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le gage ne disparaît pas à la vente ; il suit l'immeuble (droit de suite).",
+    "Exact : le droit de suite fait que le gage grève toujours l'immeuble entre les mains de l'acquéreur (mémento, exemples).",
+    "Faux : l'acquéreur reçoit l'immeuble grevé, sans devenir automatiquement débiteur personnel du prêt.",
+    "Faux : l'acquéreur ne peut pas radier unilatéralement le gage ; on purge à la vente."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-165",
+   "champ": "6.6 Gage immobilier (art. 793 ss CC)",
+   "memento": "M6 exemples",
+   "question": "Peut-on vendre un immeuble grevé d'une hypothèque ?",
+   "options": [
+    "Oui : la vente reste possible, l'acheteur recevant un immeuble grevé (purge à la vente)",
+    "Non, la vente est frappée de nullité",
+    "Non, sauf autorisation du créancier hypothécaire",
+    "Oui, mais l'hypothèque s'éteint automatiquement"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la vente est licite ; l'acheteur reçoit un immeuble grevé, purgé lors de la vente (mémento, exemples).",
+    "Faux : l'hypothèque ne rend pas la vente nulle ; elle attache le gage à l'immeuble (droit de suite).",
+    "Faux : aucune autorisation du créancier n'est requise pour vendre l'immeuble grevé.",
+    "Faux : l'hypothèque ne s'éteint pas d'elle-même ; elle suit l'immeuble (droit de suite)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-166",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 Tableau 3 / art. 715 CC",
+   "question": "Sous réserve de propriété, tant que le prix n'est pas intégralement payé, la propriété…",
+   "options": [
+    "passe à l'acquéreur dès la livraison",
+    "est transférée à un tiers financeur",
+    "demeure au vendeur",
+    "est suspendue, sans titulaire"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la livraison ne transfère pas la propriété sous réserve (art. 715 CC).",
+    "Faux : aucun tiers financeur n'acquiert la propriété du fait de la réserve.",
+    "Exact : le vendeur demeure propriétaire jusqu'au paiement intégral du prix (art. 715 CC, Tableau 3).",
+    "Faux : la propriété n'est pas sans titulaire ; elle reste au vendeur (art. 715 CC)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-167",
+   "champ": "6.7 Réserve de propriété (art. 715 CC)",
+   "memento": "M6 exemples / art. 716 CC",
+   "question": "Le vendeur reprend la machine faute de paiement. Le sort des acomptes déjà versés est :",
+   "options": [
+    "il les conserve intégralement, en plus de la chose",
+    "il les garde à titre de clause pénale automatique",
+    "il les verse à la masse en faillite",
+    "il les restitue à l'acquéreur, sous déduction d'un loyer d'usage"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le vendeur ne peut cumuler la chose ET les acomptes (art. 716 CC).",
+    "Faux : la loi impose la restitution (moins loyer d'usage), non une rétention pénale (art. 716 CC).",
+    "Faux : les acomptes reviennent à l'acquéreur, pas à une masse (art. 716 CC).",
+    "Exact : reprenant la chose, il restitue les acomptes moins un loyer d'usage (art. 716 CC)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-168",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples",
+   "question": "Ce qui donne au leasing sa fonction de garantie, c'est que…",
+   "options": [
+    "le preneur met un bien en gage",
+    "le donneur reste propriétaire de la chose louée",
+    "un tiers se porte caution du preneur",
+    "le preneur verse un dépôt de garantie"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le preneur ne met aucun bien en gage ; il n'est même pas propriétaire (exemples).",
+    "Exact : la propriété conservée par le donneur assure sa garantie, comme un gage (mémento, exemples).",
+    "Faux : la garantie du leasing tient à la propriété du donneur, non à un cautionnement tiers.",
+    "Faux : la fonction de sûreté du leasing ne repose pas sur un dépôt de garantie du preneur."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-169",
+   "champ": "6.8 Leasing (sûreté par la propriété)",
+   "memento": "M6 exemples / art. 715 CC",
+   "question": "Un « leasing » requalifié en vente par acomptes déguisée, non inscrit au registre des pactes, expose le donneur à…",
+   "options": [
+    "perdre la chose, faute d'inscription exigée par le régime de la réserve de propriété (art. 715 CC)",
+    "conserver la pleine propriété opposable",
+    "obtenir un rang de gagiste privilégié",
+    "un simple avertissement, sans conséquence"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sous l'art. 715 CC, sans inscription au registre des pactes, le donneur perd la protection (chose) (exemples).",
+    "Faux : la requalification fait tomber l'opération sous l'art. 715 CC, où l'inscription est constitutive.",
+    "Faux : le donneur n'obtient pas un rang de gagiste ; il perd sa position faute d'inscription.",
+    "Faux : la conséquence est réelle (perte de la chose), non un simple avertissement (art. 715 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M6-170",
+   "champ": "6.11 Faux ami « caution » ≠ cautionnement",
+   "memento": "M6 Tableau 2 / art. 257e CO",
+   "question": "Un locataire dépose une garantie de loyer sur un compte bloqué (art. 257e CO). De quelle sûreté s'agit-il ?",
+   "options": [
+    "D'un cautionnement du locataire envers le bailleur",
+    "D'un porte-fort de la banque",
+    "D'un dépôt de garantie (gage sur espèces), sûreté réelle fournie par le locataire lui-même",
+    "D'une reprise de dette"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le locataire n'est pas un tiers garant ; ce n'est pas un cautionnement (art. 257e CO).",
+    "Faux : la banque teneuse du compte bloqué n'est pas un porte-fort du locataire (art. 257e CO).",
+    "Exact : la garantie de loyer est un dépôt de garantie (gage sur espèces), sûreté réelle du locataire (art. 257e CO, Tableau 2).",
+    "Faux : aucune reprise de dette n'intervient ; le locataire consigne une somme."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-171",
+   "champ": "6.2.4 Cautionnement — requalification / forme (garantie personnelle d'actionnaires)",
+   "memento": "M6 P1 / art. 492-493 CO",
+   "question": "AHP SA, dont Astrid, Hans et Peter sont actionnaires (25/25/50 %), négocie un prêt de plus de CHF 200'000 avec Creditor SA. Celle-ci veut des garanties personnelles des trois. Faut-il respecter des exigences de forme ?",
+   "options": [
+    "Il existe un risque que la sûreté soit qualifiée de cautionnement de personnes physiques, ce qui nécessite une forme ; il faut donc respecter les exigences formelles du cautionnement.",
+    "Il s'agit d'une déclaration de garantie valable sans condition de forme ; aucune exigence formelle à respecter.",
+    "S'il s'agit de cautionnements, aucune exigence formelle ne doit en l'espèce être respectée.",
+    "Il n'est pas juridiquement autorisé qu'Astrid, Hans et Peter octroient la garantie personnelle souhaitée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la garantie de personnes physiques risque d'être qualifiée de cautionnement, soumis à la forme (acte authentique au-delà de CHF 2'000) (art. 492-493 CO).",
+    "Faux : présenter la garantie comme un « porte-fort » sans forme est précisément le contournement requalifié en cautionnement (art. 493 CO, P1).",
+    "Faux : le cautionnement d'une personne physique au-delà de CHF 2'000 exige l'acte authentique (art. 493 al. 2 CO).",
+    "Faux : ces garanties personnelles sont licites ; la question est celle de leur forme, non de leur autorisation (art. 492 CO)."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M6-172",
+   "champ": "6.8 Leasing — statut du preneur (contrat innommé)",
+   "memento": "M6 exemples / cours.md",
+   "question": "Kurt a conclu avec Leasing SA un contrat de leasing type sur un véhicule. Laquelle de ces assertions est correcte ?",
+   "options": [
+    "Le contrat de leasing est un contrat nommé.",
+    "Kurt est le propriétaire, le possesseur et le détenteur du véhicule.",
+    "Kurt est le possesseur et le détenteur du véhicule, mais il n'en est pas propriétaire.",
+    "Leasing SA est tenue d'assurer le véhicule."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le leasing est un contrat innommé (sui generis), sans régime légal propre (cours.md).",
+    "Faux : Kurt n'est pas propriétaire ; la propriété reste au donneur (fonction de sûreté).",
+    "Exact : le preneur a la possession et la détention, mais le donneur conserve la propriété (mémento, exemples).",
+    "Faux : rien n'impose au donneur d'assurer le véhicule ; l'entretien/assurance incombe en règle au preneur."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M6-173",
+   "champ": "6.5 Gage mobilier — condition de validité (dépossession)",
+   "memento": "M6 exemples / art. 884 CC",
+   "question": "Commercedetapis SA met en gage auprès de la banque AAA les tapis de son stock pour garantir un prêt. Quelle est la condition indispensable à la validité du droit de gage ?",
+   "options": [
+    "Le contrat de gage doit être rédigé par écrit.",
+    "La possession des biens mis en gage doit être transférée à la créancière gagiste.",
+    "Le contrat de gage doit être établi par acte authentique.",
+    "La propriété des biens mis en gage doit être transférée à la créancière gagiste."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un écrit ne suffit pas ; le gage mobilier exige la dépossession (art. 884 CC).",
+    "Exact : la remise de la possession (dépossession) à la créancière gagiste est la condition constitutive du gage (art. 884 CC).",
+    "Faux : l'acte authentique concerne le gage immobilier (art. 799 CC), non le gage mobilier.",
+    "Faux : c'est la possession, non la propriété, qui est transférée ; le débiteur reste propriétaire (art. 884 CC)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M6-174",
+   "champ": "6.x Prêt de consommation — remboursement sans terme convenu (art. 318 CO)",
+   "memento": "M6 (contexte contrats) / art. 318 CO",
+   "question": "AHP SA a contracté un prêt auprès d'un actionnaire. Le contrat écrit ne prévoit rien sur le moment du remboursement. Quelle assertion est correcte ?",
+   "options": [
+    "Un prêt dont le remboursement n'a pas été convenu doit être remboursé dans un délai de deux mois dès la première demande.",
+    "À défaut de convention, on applique les règles générales du CO : rappel, délai supplémentaire et droit de choisir.",
+    "Un prêt dont le remboursement n'a pas été convenu doit être remboursé dans un délai de six semaines dès la première réclamation.",
+    "À défaut de convention, le tribunal fixe le remboursement à sa discrétion selon les circonstances."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le délai légal supplétif n'est pas de deux mois (art. 318 CO).",
+    "Faux : le prêt a une règle spéciale de remboursement ; on n'applique pas ce mécanisme général.",
+    "Exact : à défaut de terme convenu, le prêt se rembourse dans les six semaines dès la première réclamation (art. 318 CO).",
+    "Faux : ce n'est pas au tribunal de fixer discrétionnairement le terme ; la loi prévoit le délai de six semaines (art. 318 CO)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "exam-sample"
+  }
+ ]
+}

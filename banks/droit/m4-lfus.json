@@ -1,0 +1,2955 @@
+{
+ "cours": "droit",
+ "module": "M4",
+ "titre": "Loi sur la fusion (LFus)",
+ "questions": [
+  {
+   "id": "M4-001",
+   "champ": "4.1.1 Fusion — absorption vs combinaison",
+   "memento": "M4 §Définitions-clés",
+   "question": "Deux sociétés fusionnent : A SA reprend B SA, puis seule A SA subsiste. De quelle forme de fusion s'agit-il ?",
+   "options": [
+    "Fusion par absorption, car la reprenante subsiste et aucune société nouvelle ne naît",
+    "Fusion par combinaison, car une société disparaît",
+    "Fusion simplifiée, car une société en absorbe une autre",
+    "Fusion par combinaison, car deux sociétés participent"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en fusion par absorption, la transférante disparaît et l'absorbante subsiste, sans création de société nouvelle (art. 3 al. 1 let. a LFus).",
+    "Faux : la disparition d'une société n'implique pas la combinaison ; en absorption aussi la transférante disparaît (art. 3 al. 1 let. a LFus).",
+    "Faux : la fusion simplifiée (art. 23-24 LFus) est une procédure allégée entre sociétés liées, pas une forme de fusion au sens de l'art. 3.",
+    "Faux : la combinaison suppose que toutes les sociétés disparaissent au profit d'une société nouvelle (art. 3 al. 1 let. b LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-002",
+   "champ": "4.1.1 Fusion — absorption vs combinaison",
+   "memento": "M4 §Définitions-clés",
+   "question": "Trois coopératives fusionnent : elles disparaissent toutes et une coopérative entièrement nouvelle naît de l'opération. Comment qualifie-t-on cette fusion ?",
+   "options": [
+    "Fusion par absorption",
+    "Fusion par combinaison",
+    "Scission pour fondation",
+    "Transfert de patrimoine collectif"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'absorption suppose qu'une société préexistante subsiste et reprenne les autres (art. 3 al. 1 let. a LFus).",
+    "Exact : toutes les sociétés disparaissent et une société nouvelle naît = fusion par combinaison (art. 3 al. 1 let. b LFus).",
+    "Faux : c'est une fusion (réunion en une seule), pas une scission (répartition d'un patrimoine, art. 29 LFus).",
+    "Faux : le transfert de patrimoine (art. 69 LFus) ne réunit pas les sociétés en une seule et n'entraîne pas leur dissolution."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-003",
+   "champ": "4.1.1 Fusion — absorption vs combinaison",
+   "memento": "M4 §Définitions-clés",
+   "question": "Quelle affirmation distingue correctement absorption et combinaison ?",
+   "options": [
+    "Dans les deux cas une société nouvelle naît",
+    "En absorption toutes les sociétés disparaissent ; en combinaison une seule",
+    "En absorption l'absorbante subsiste ; en combinaison toutes disparaissent et une société nouvelle naît",
+    "En combinaison aucune société ne disparaît"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : seule la combinaison fait naître une société nouvelle ; l'absorption utilise une société préexistante (art. 3 al. 1 LFus).",
+    "Faux : c'est l'inverse — en absorption seule la transférante disparaît, l'absorbante subsiste (art. 3 al. 1 let. a LFus).",
+    "Exact : absorption = la reprenante subsiste (art. 3 al. 1 let. a) ; combinaison = toutes disparaissent, société nouvelle (art. 3 al. 1 let. b LFus).",
+    "Faux : en combinaison toutes les sociétés participantes disparaissent (art. 3 al. 1 let. b LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-004",
+   "champ": "4.1.1 Fusion — succession universelle",
+   "memento": "M4 §4 opérations",
+   "question": "Quel effet caractérise le transfert du patrimoine en cas de fusion ?",
+   "options": [
+    "Transfert bien par bien, avec acte de cession pour chaque actif",
+    "Succession universelle totale, mais avec liquidation préalable de la transférante",
+    "Succession universelle partielle, limitée à un inventaire",
+    "Succession universelle totale et dissolution sans liquidation de la transférante"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la succession universelle transfère l'ensemble d'un bloc, sans acte de transfert bien par bien.",
+    "Faux : justement, il n'y a pas de liquidation — tout est transféré d'un bloc à la reprenante (art. 3 LFus).",
+    "Faux : la succession partielle sur inventaire caractérise la scission et le transfert de patrimoine, pas la fusion (art. 29, 69 LFus).",
+    "Exact : la fusion opère une succession universelle totale ; la transférante est dissoute sans liquidation (art. 3 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-005",
+   "champ": "4.1.1 Fusion — succession universelle",
+   "memento": "M4 §4 opérations",
+   "question": "Pourquoi dit-on que la transférante est dissoute « sans liquidation » ?",
+   "options": [
+    "Parce que tout son patrimoine a déjà été transféré d'un bloc à la reprenante, sans réalisation individuelle des actifs",
+    "Parce que la liquidation est reportée après l'inscription au registre du commerce",
+    "Parce qu'elle conserve une activité résiduelle après la fusion",
+    "Parce que ses actifs sont réalisés bien par bien avant sa radiation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la succession universelle ayant tout transféré d'un bloc, il n'y a rien à liquider (art. 3 LFus).",
+    "Faux : il n'y a aucune liquidation, ni immédiate ni différée (art. 3 LFus).",
+    "Faux : la transférante disparaît entièrement ; elle ne conserve aucune activité (art. 3 LFus).",
+    "Faux : c'est précisément ce qui n'a pas lieu — pas de réalisation bien par bien."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-006",
+   "champ": "4.1.1 Fusion — continuité du sociétariat",
+   "memento": "M4 §Protections a)",
+   "question": "En fusion, que reçoivent les associés de la société transférante ?",
+   "options": [
+    "Obligatoirement une somme d'argent équivalant à la valeur de leurs parts",
+    "Des parts ou droits de sociétariat équivalents dans la société reprenante",
+    "Rien tant qu'ils n'ont pas exercé leur droit d'opposition",
+    "Des parts de la reprenante uniquement s'ils détenaient plus de 10 % de la transférante"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le versement d'argent (dédommagement) est l'exception, possible seulement si le contrat le prévoit (art. 8 LFus).",
+    "Exact : continuité du sociétariat — les associés reçoivent des droits équivalents dans la reprenante (art. 7 LFus).",
+    "Faux : la continuité du sociétariat est automatique, sans condition d'opposition (art. 7 LFus).",
+    "Faux : aucun seuil de détention n'est requis ; tout associé bénéficie de la continuité (art. 7 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-007",
+   "champ": "4.1.1 Fusion — continuité du sociétariat",
+   "memento": "M4 §Protections a)",
+   "question": "L'exigence de « droits équivalents » de l'art. 7 LFus signifie que :",
+   "options": [
+    "Les associés perdent tout droit de vote dans la reprenante",
+    "Les associés doivent recevoir exactement le même nombre de parts qu'avant",
+    "Les associés reçoivent des parts d'une valeur et de droits correspondant à leur position antérieure",
+    "Seuls les associés majoritaires conservent leurs droits"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les associés conservent des droits de sociétariat équivalents, y compris de vote (art. 7 LFus).",
+    "Faux : l'équivalence porte sur la valeur et les droits, pas sur un nombre identique de parts (art. 7 LFus).",
+    "Exact : le rapport d'échange doit préserver la position économique et sociale de l'associé (art. 7 LFus).",
+    "Faux : la continuité vaut pour tous les associés, majoritaires comme minoritaires (art. 7 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-008",
+   "champ": "4.1.2 Fusions autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "Quelles entités peuvent en principe participer à une fusion selon la LFus ?",
+   "options": [
+    "Toute personne morale, y compris les fondations, sans restriction",
+    "Uniquement les sociétés de capitaux",
+    "Uniquement les sociétés anonymes entre elles",
+    "Les sociétés commerciales et les associations, dans les limites des combinaisons de l'art. 4"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les combinaisons possibles des fondations sont réglées à part et limitées (art. 4 LFus ne les traite pas sans restriction).",
+    "Faux : la fusion n'est pas réservée aux seules sociétés de capitaux (art. 4 LFus).",
+    "Faux : la fusion n'est pas limitée aux SA ; d'autres formes sont admises (art. 4 LFus).",
+    "Exact : la fusion est ouverte aux sociétés commerciales et associations, selon les combinaisons autorisées (art. 4 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-009",
+   "champ": "4.1.2 Fusions autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "L'art. 4 LFus a pour fonction de :",
+   "options": [
+    "Énumérer les combinaisons de formes juridiques admises pour fusionner",
+    "Déterminer le moment de l'effet de la fusion",
+    "Régler la protection des créanciers",
+    "Fixer le contenu obligatoire du contrat de fusion"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 4 LFus liste les combinaisons de formes autorisées à fusionner.",
+    "Faux : le moment de l'effet est fixé par l'art. 22 LFus.",
+    "Faux : la protection des créanciers relève des art. 25 ss LFus.",
+    "Faux : le contenu du contrat est réglé à l'art. 13 LFus, pas à l'art. 4."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-010",
+   "champ": "4.1.2 Fusions autorisées — piège SA/SNC",
+   "memento": "M4 §Pièges QCM",
+   "question": "Une SNC souhaite fusionner avec une SA. Dans quelle configuration est-ce autorisé ?",
+   "options": [
+    "Seulement si la SA est la société transférante et la SNC la reprenante",
+    "Seulement si la SNC est la société transférante et la SA la reprenante",
+    "Dans les deux sens, sans restriction",
+    "Jamais : une SNC et une SA ne peuvent pas fusionner"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une SNC ne peut pas reprendre une SA ; le sens inverse est requis (art. 4 al. 2 let. b LFus).",
+    "Exact : la fusion SA/SNC n'est admise que si la SNC est transférante et la société de capitaux reprenante (art. 4 al. 2 let. b LFus).",
+    "Faux : le sens compte — une SNC ne peut pas être la société reprenante d'une SA (art. 4 al. 2 let. b LFus).",
+    "Faux : la fusion est possible, mais uniquement avec la SNC comme transférante (art. 4 al. 2 let. b LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-011",
+   "champ": "4.1.2 Fusions autorisées — piège SA/SNC",
+   "memento": "M4 §Pièges QCM",
+   "question": "Pourquoi une SNC ne peut-elle pas reprendre une SA par fusion ?",
+   "options": [
+    "Parce que la SA doit d'abord se transformer en SNC",
+    "Parce qu'une SNC n'a pas la personnalité juridique",
+    "Parce que la loi n'autorise la combinaison SA/SNC que dans le sens SNC transférante vers société de capitaux reprenante",
+    "Parce qu'une SNC ne peut jamais fusionner"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucune transformation préalable de la SA n'est exigée ; c'est le sens de la fusion qui est contraint (art. 4 LFus).",
+    "Faux : la raison n'est pas l'absence de personnalité, mais la règle de sens de l'art. 4 al. 2 let. b LFus.",
+    "Exact : l'art. 4 al. 2 let. b LFus n'admet cette combinaison que dans un sens : la société de personnes est reprise, pas reprenante.",
+    "Faux : une SNC peut fusionner, notamment comme transférante vers une société de capitaux (art. 4 al. 2 let. b LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-012",
+   "champ": "4.1.2 Fusions autorisées — piège SA/SNC",
+   "memento": "M4 §Pièges QCM",
+   "question": "SNC « Meyer & Cie » (transférante) veut fusionner en étant absorbée par Alpha SA (reprenante). Cette fusion est-elle admise ?",
+   "options": [
+    "Non, il faudrait que la SA soit la transférante",
+    "Oui, mais seulement après transformation de la SNC en Sàrl",
+    "Non, une société de personnes ne peut jamais fusionner",
+    "Oui, la SNC transférante peut être absorbée par une société de capitaux"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'inverse serait interdit ; ici c'est bien la SNC qui est transférante, ce qui est admis (art. 4 al. 2 let. b LFus).",
+    "Faux : aucune transformation préalable n'est nécessaire dans ce sens de fusion (art. 4 LFus).",
+    "Faux : une société de personnes peut fusionner comme transférante (art. 4 al. 2 let. b LFus).",
+    "Exact : la SNC comme transférante absorbée par une société de capitaux est la configuration autorisée (art. 4 al. 2 let. b LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-013",
+   "champ": "4.1.3 Fusion simplifiée — seuil 100 %",
+   "memento": "M4 §Simplifiée",
+   "question": "Une société mère détient 100 % des voix de sa filiale et l'absorbe. Quel régime s'applique ?",
+   "options": [
+    "Fusion simplifiée",
+    "Transfert de patrimoine obligatoire",
+    "Scission par séparation",
+    "Fusion ordinaire complète"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : lorsque la reprenante détient 100 % des voix, la fusion simplifiée s'applique (art. 23 al. 1 LFus).",
+    "Faux : il s'agit d'une fusion, pas d'un transfert de patrimoine (art. 23 LFus).",
+    "Faux : absorber une filiale est une fusion, non une scission (art. 3, 23 LFus).",
+    "Faux : la détention de 100 % ouvre justement la procédure allégée, pas la procédure ordinaire (art. 23 al. 1 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-014",
+   "champ": "4.1.3 Fusion simplifiée — seuil 90 %",
+   "memento": "M4 §Simplifiée",
+   "question": "La société reprenante détient 92 % des voix de la société à absorber. La fusion simplifiée est-elle possible ?",
+   "options": [
+    "Non, il faut impérativement 100 % des voix",
+    "Oui, dès 90 % des voix, à condition de dédommager les minoritaires à la valeur réelle",
+    "Oui, sans aucune condition supplémentaire",
+    "Non, en dessous de 95 % la procédure ordinaire s'impose"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil de 100 % n'est pas exigé ; 90 % suffit sous condition (art. 23 al. 2 LFus).",
+    "Exact : dès 90 % des voix, la fusion simplifiée est admise si les minoritaires reçoivent un dédommagement à la valeur réelle (art. 23 al. 2 LFus).",
+    "Faux : une condition existe — le dédommagement des minoritaires à la valeur réelle (art. 23 al. 2 LFus).",
+    "Faux : le seuil pertinent est 90 %, pas 95 % (art. 23 al. 2 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-015",
+   "champ": "4.1.3 Fusion simplifiée — seuil 90 %",
+   "memento": "M4 §Simplifiée",
+   "question": "Quelle condition accompagne la fusion simplifiée fondée sur une détention d'au moins 90 % des voix ?",
+   "options": [
+    "L'accord unanime des créanciers",
+    "Une décision d'AG à la majorité qualifiée",
+    "L'offre d'un dédommagement aux associés minoritaires correspondant à la valeur réelle de leurs parts",
+    "Une attestation de solvabilité de l'organe de révision"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'accord des créanciers n'est pas une condition de la fusion simplifiée (art. 23 LFus).",
+    "Faux : la fusion simplifiée dispense justement de la décision d'AG (art. 24 LFus).",
+    "Exact : les minoritaires doivent se voir offrir un dédommagement à la valeur réelle de leurs parts (art. 23 al. 2 LFus).",
+    "Faux : aucune attestation de solvabilité n'est requise pour la fusion simplifiée entre sociétés liées (art. 23 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-016",
+   "champ": "4.1.3 Fusion simplifiée — conséquences",
+   "memento": "M4 §Simplifiée",
+   "question": "Quelle est la conséquence procédurale principale d'une fusion simplifiée ?",
+   "options": [
+    "Elle dispense de l'inscription au registre du commerce",
+    "Elle dispense de la protection des créanciers",
+    "Elle dispense du contrat de fusion",
+    "Elle dispense du rapport de fusion, de la vérification et de la décision d'AG"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'inscription au registre du commerce reste indispensable pour produire les effets (art. 21-22 LFus).",
+    "Faux : la protection des créanciers n'est pas supprimée par la fusion simplifiée (art. 25 LFus).",
+    "Faux : un contrat de fusion reste nécessaire ; ce sont d'autres étapes qui tombent (art. 24 LFus).",
+    "Exact : la fusion simplifiée permet de renoncer au rapport, à la vérification et à la décision d'AG (art. 24 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-017",
+   "champ": "4.1.3 Fusion simplifiée — conséquences",
+   "memento": "M4 §Simplifiée",
+   "question": "Dans une fusion simplifiée, l'absence de décision d'AG s'explique parce que :",
+   "options": [
+    "La reprenante contrôle déjà la totalité ou la quasi-totalité des voix, rendant le vote superflu",
+    "Le juge en a dispensé les sociétés",
+    "La fusion simplifiée est sans effet sur les associés",
+    "Les créanciers y ont renoncé"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : détenant la (quasi-)totalité des voix, la reprenante rend l'AG sans enjeu, d'où la dispense (art. 24 LFus).",
+    "Faux : la dispense découle de la loi, non d'une autorisation judiciaire (art. 24 LFus).",
+    "Faux : la fusion a des effets sur les associés, mais la structure de contrôle justifie la dispense d'AG (art. 24 LFus).",
+    "Faux : ce ne sont pas les créanciers qui décident du sort de la décision d'AG (art. 24 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-018",
+   "champ": "4.2.1 Scission — division vs séparation",
+   "memento": "M4 §Définitions-clés",
+   "question": "Dans une scission, quelle différence sépare la « division » de la « séparation » ?",
+   "options": [
+    "En division la transférante subsiste ; en séparation elle disparaît",
+    "En division la transférante disparaît ; en séparation elle subsiste et ne cède qu'une partie de son patrimoine",
+    "Les deux entraînent la disparition de la transférante",
+    "Les deux laissent subsister la transférante"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est l'inverse — la division fait disparaître la transférante (art. 29 let. a LFus).",
+    "Exact : division = la société se répartit et disparaît ; séparation = elle subsiste et cède une partie (art. 29 LFus).",
+    "Faux : en séparation la transférante subsiste (art. 29 let. b LFus).",
+    "Faux : en division la transférante disparaît (art. 29 let. a LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-019",
+   "champ": "4.2.1 Scission — reprise vs fondation",
+   "memento": "M4 §Sous-formes",
+   "question": "Une société transfère une branche à une société qu'elle crée simultanément pour l'occasion. De quelle sous-forme de scission s'agit-il ?",
+   "options": [
+    "Transfert de patrimoine",
+    "Scission pour reprise",
+    "Scission pour fondation",
+    "Scission symétrique par nature"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la question porte sur une scission, opération réservée aux sociétés de capitaux (art. 29-30 LFus).",
+    "Faux : la reprise vise une société déjà existante qui reçoit le patrimoine (art. 29 LFus).",
+    "Exact : le transfert vers une société à créer est une scission pour fondation (art. 29 LFus).",
+    "Faux : symétrique/asymétrique qualifie la répartition des parts, pas le destinataire (art. 29 LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-020",
+   "champ": "4.2.1 Scission — reprise vs fondation",
+   "memento": "M4 §Sous-formes",
+   "question": "La scission « pour reprise » se caractérise par le fait que :",
+   "options": [
+    "La transférante disparaît nécessairement",
+    "Aucun inventaire n'est requis",
+    "La société bénéficiaire est créée au moment de la scission",
+    "Le patrimoine est transféré à une ou plusieurs sociétés déjà existantes"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la disparition dépend du choix division/séparation, non du couple reprise/fondation (art. 29 LFus).",
+    "Faux : la scission suppose toujours un inventaire délimitant les valeurs transférées (art. 37 LFus).",
+    "Faux : la création simultanée caractérise la scission pour fondation (art. 29 LFus).",
+    "Exact : la scission pour reprise transfère le patrimoine à des sociétés préexistantes (art. 29 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-021",
+   "champ": "4.2.1 Scission — symétrique vs asymétrique",
+   "memento": "M4 §Sous-formes",
+   "question": "Qu'est-ce qu'une scission « asymétrique » ?",
+   "options": [
+    "Les associés reçoivent, dans les sociétés issues, des participations dans des proportions différentes de leur position initiale",
+    "Une seule société subsiste après l'opération",
+    "Aucun dédommagement n'est possible",
+    "Les associés conservent, dans les sociétés issues, les mêmes proportions qu'avant"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'asymétrie signifie que les proportions de participation changent entre associés (art. 29 LFus).",
+    "Faux : le nombre de sociétés subsistantes relève de division/séparation, non de la symétrie (art. 29 LFus).",
+    "Faux : l'absence de dédommagement vaut pour toute scission, symétrique ou non (art. 31 LFus).",
+    "Faux : le maintien des proportions décrit la scission symétrique."
+   ],
+   "piege": "D4",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-022",
+   "champ": "4.2.1 Scission — succession universelle partielle",
+   "memento": "M4 §4 opérations",
+   "question": "Quelle est l'étendue du transfert patrimonial en cas de scission ?",
+   "options": [
+    "Succession universelle totale de tous les actifs et passifs",
+    "Succession universelle partielle, limitée aux éléments figurant dans l'inventaire",
+    "Transfert individuel bien par bien avec cession de chaque créance",
+    "Aucun transfert avant l'accord des créanciers"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la succession totale caractérise la fusion, pas la scission (art. 3 vs 29 LFus).",
+    "Exact : la scission opère une succession universelle partielle, délimitée par l'inventaire (art. 37 LFus).",
+    "Faux : la scission transfère par succession universelle, non bien par bien.",
+    "Faux : le transfert opère à l'inscription, sans accord préalable des créanciers (art. 52 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-023",
+   "champ": "4.2.1 Scission — aucun dédommagement",
+   "memento": "M4 §Protections a)",
+   "question": "Un associé peut-il recevoir une somme d'argent au lieu de parts dans le cadre d'une scission ?",
+   "options": [
+    "Oui, avec l'accord de l'expert-réviseur",
+    "Oui, si le contrat de scission le prévoit",
+    "Non, aucun dédommagement n'est admis en scission",
+    "Oui, jusqu'à 10 % de la valeur des parts"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucun dédommagement n'est possible, quelle que soit l'attestation (art. 31 LFus).",
+    "Faux : la possibilité de dédommagement contractuel n'existe qu'en fusion (art. 8 LFus).",
+    "Exact : la scission n'admet aucun dédommagement ; la continuité du sociétariat est stricte (art. 31 LFus).",
+    "Faux : la soulte de 10 % est propre à la fusion (art. 7 al. 2 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-024",
+   "champ": "4.2.2 Scissions autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "Quelles formes de sociétés peuvent procéder à une scission ?",
+   "options": [
+    "Uniquement les sociétés anonymes",
+    "Les entreprises individuelles inscrites au registre du commerce",
+    "Toutes les sociétés, y compris les sociétés de personnes",
+    "Les sociétés de capitaux (SA, SCA, Sàrl) et les coopératives"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la Sàrl, la SCA et les coopératives peuvent aussi scinder, pas seulement la SA (art. 30 LFus).",
+    "Faux : l'entreprise individuelle ne peut pas scinder ; elle recourt au transfert de patrimoine (art. 30, 69 LFus).",
+    "Faux : les sociétés de personnes sont exclues de la scission (art. 30 LFus).",
+    "Exact : la scission est réservée aux sociétés de capitaux et aux coopératives (art. 30 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-025",
+   "champ": "4.2.2 Scissions autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "Une société en nom collectif veut se scinder. Que prévoit la LFus ?",
+   "options": [
+    "La scission lui est fermée ; elle doit passer par un transfert de patrimoine",
+    "La scission est possible après transformation préalable en association",
+    "La scission est possible avec l'accord unanime des créanciers",
+    "La scission lui est ouverte comme à toute société"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : exclue de la scission, la SNC recourt au transfert de patrimoine (art. 30, 69 LFus).",
+    "Faux : aucune passerelle de ce type n'est requise ; la voie est le transfert de patrimoine (art. 69 LFus).",
+    "Faux : l'accord des créanciers ne rend pas la scission accessible à une SNC (art. 30 LFus).",
+    "Faux : la scission n'est pas ouverte aux sociétés de personnes (art. 30 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-026",
+   "champ": "4.2.2 Scissions autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "Pourquoi le transfert de patrimoine est-il présenté comme la « voie de repli » de la scission ?",
+   "options": [
+    "Parce qu'il produit les mêmes effets que la fusion",
+    "Parce qu'il permet aux formes exclues de la scission (sociétés de personnes, entreprise individuelle) de céder un patrimoine",
+    "Parce qu'il ne nécessite aucun inventaire",
+    "Parce qu'il est réservé aux seules sociétés de capitaux"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ses effets diffèrent de la fusion (succession partielle sur inventaire, pas totale).",
+    "Exact : il ouvre aux formes exclues de la scission un moyen de transférer un patrimoine (art. 69 LFus).",
+    "Faux : le transfert de patrimoine suppose au contraire un inventaire (art. 71 LFus).",
+    "Faux : il est ouvert aussi aux sociétés de personnes et entreprises individuelles inscrites (art. 69 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-027",
+   "champ": "4.2.3 Scission — contrat vs projet",
+   "memento": "M4 §Pièges QCM",
+   "question": "La branche transférée va vers une société qui n'existe pas encore et sera fondée simultanément. Quel acte de base doit-on établir ?",
+   "options": [
+    "Un simple procès-verbal d'AG",
+    "Un contrat de scission avec la société bénéficiaire",
+    "Un projet de scission",
+    "Un contrat de transfert de patrimoine"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la scission exige un contrat ou un projet écrit, pas un simple PV (art. 36 LFus).",
+    "Faux : le contrat suppose une société bénéficiaire déjà existante (art. 36 LFus).",
+    "Exact : vers une société à créer, on établit un projet de scission (fondation simultanée possible) (art. 36 LFus).",
+    "Faux : l'opération reste une scission, pas un transfert de patrimoine (art. 29, 36 LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-028",
+   "champ": "4.2.3 Scission — contrat vs projet",
+   "memento": "M4 §Pièges QCM",
+   "question": "Doit-on d'abord fonder la société bénéficiaire, puis conclure un contrat de scission avec elle ?",
+   "options": [
+    "Oui, sauf en scission symétrique",
+    "Non : il faut d'abord une décision de l'AG de la société à créer",
+    "Oui, la fondation préalable est toujours obligatoire",
+    "Non : vers une société à créer, un projet de scission permet une fondation simultanée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la symétrie de la scission n'a aucune incidence sur ce point (art. 36 LFus).",
+    "Faux : une société à créer n'a pas encore d'AG ; le projet suffit (art. 36 LFus).",
+    "Faux : la fondation préalable n'est pas exigée ; le projet permet la simultanéité (art. 36 LFus).",
+    "Exact : le projet de scission autorise la fondation simultanée de la bénéficiaire (art. 36 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-029",
+   "champ": "4.2.3 Scission — contrat vs projet",
+   "memento": "M4 §Pièges QCM",
+   "question": "La branche transférée va vers B SA, société déjà existante. Quel acte de base est requis ?",
+   "options": [
+    "Un contrat de scission",
+    "Aucun acte écrit n'est requis",
+    "Un contrat de transfert de patrimoine",
+    "Un projet de scission"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : vers une société existante, on conclut un contrat de scission (art. 36 LFus).",
+    "Faux : la scission exige un acte écrit (contrat ou projet) (art. 36 LFus).",
+    "Faux : l'opération reste une scission, non un transfert de patrimoine (art. 29 LFus).",
+    "Faux : le projet vaut pour une société à créer, pas pour une société existante (art. 36 LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-030",
+   "champ": "4.2.3 Scission — inventaire",
+   "memento": "M4 §Procédure",
+   "question": "Que doit obligatoirement contenir le contrat ou projet de scission concernant les valeurs transférées ?",
+   "options": [
+    "Un simple renvoi au dernier bilan",
+    "Un inventaire désignant précisément les objets et valeurs transférés",
+    "L'accord écrit de chaque créancier concerné",
+    "La liste des seuls immeubles"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un renvoi au bilan ne suffit pas ; un inventaire précis est exigé (art. 37 LFus).",
+    "Exact : la scission requiert un inventaire délimitant les valeurs transférées (art. 37 LFus).",
+    "Faux : l'accord des créanciers n'est pas requis pour délimiter l'inventaire (art. 37 LFus).",
+    "Faux : l'inventaire couvre l'ensemble des valeurs transférées, pas seulement les immeubles (art. 37 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-031",
+   "champ": "4.2.3 Scission — valeurs non attribuées (art. 38)",
+   "memento": "M4 §Procédure",
+   "question": "Un actif n'a pas été attribué dans l'inventaire de scission. Comment la loi règle-t-elle son sort ?",
+   "options": [
+    "Il tombe dans le domaine public",
+    "Il reste la propriété exclusive de la société transférante en cas de séparation",
+    "L'art. 38 LFus règle spécialement le sort des valeurs patrimoniales non attribuées dans l'inventaire",
+    "Il est automatiquement partagé à parts égales entre toutes les sociétés"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un actif non attribué ne devient pas res nullius ; l'art. 38 LFus en règle le sort.",
+    "Faux : la règle ne se résume pas à une attribution automatique à la transférante ; l'art. 38 LFus la précise.",
+    "Exact : l'art. 38 LFus prévoit un régime spécifique pour les valeurs non attribuées par l'inventaire.",
+    "Faux : il n'y a pas de partage automatique à parts égales ; l'art. 38 LFus fixe la règle applicable."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-032",
+   "champ": "4.3.1 Transformation — principe",
+   "memento": "M4 §Définitions-clés",
+   "question": "Quel est l'effet d'une transformation sur le patrimoine de la société ?",
+   "options": [
+    "Les actifs sont réévalués obligatoirement à la valeur de marché",
+    "Seuls les passifs sont transférés",
+    "Le patrimoine est transféré à un nouveau sujet juridique",
+    "Le patrimoine reste inchangé : un seul et même sujet juridique subsiste sous une autre forme"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucune réévaluation obligatoire n'est imposée par la transformation (art. 63 LFus).",
+    "Faux : rien n'est transféré, ni actifs ni passifs — le même sujet continue (art. 63 LFus).",
+    "Faux : il n'y a pas de nouveau sujet ; la société reste la même (art. 53 LFus).",
+    "Exact : la transformation ne modifie pas les actifs et passifs ; le sujet juridique subsiste (art. 63 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-033",
+   "champ": "4.3.1 Transformation — principe",
+   "memento": "M4 §Définitions-clés",
+   "question": "Combien de sujets juridiques sont impliqués dans une transformation ?",
+   "options": [
+    "Un seul, qui change uniquement de forme juridique",
+    "Autant que d'associés",
+    "Trois : les deux sociétés et l'expert-réviseur",
+    "Deux : l'ancien et le nouveau"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la transformation implique un seul sujet juridique qui change de forme (art. 53, 63 LFus).",
+    "Faux : le nombre d'associés est sans rapport avec le nombre de sujets juridiques (art. 53 LFus).",
+    "Faux : l'expert-réviseur n'est pas un sujet de l'opération ; le sujet reste unique (art. 53 LFus).",
+    "Faux : il n'y a pas d'ancien et de nouveau sujet ; c'est le même (art. 53 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-034",
+   "champ": "4.3.1 Transformation — capital vs actifs",
+   "memento": "M4 §Pièges QCM",
+   "question": "La SNC « A, B & Co. » détient 1 mio d'actifs et se transforme en SA au capital-actions de 100 000. A-t-on « perdu » 900 000 d'actifs ?",
+   "options": [
+    "Oui, la différence est distribuée aux associés",
+    "Non : le capital-actions n'est pas le total des actifs ; tous les actifs restent dans la société",
+    "Oui, la différence doit être comblée par un apport",
+    "Non, mais seulement si les créanciers y consentent"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : rien n'est distribué ; la transformation ne touche pas aux actifs (art. 63 LFus).",
+    "Exact : le capital-actions (100 000) est un chiffre nominal ; les actifs (1 mio) restent tous dans la société (art. 63 LFus).",
+    "Faux : aucun apport n'est requis ; les actifs ne bougent pas (art. 63 LFus).",
+    "Faux : le maintien des actifs ne dépend d'aucun consentement des créanciers (art. 63 LFus)."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-035",
+   "champ": "4.3.1 Transformation — capital vs actifs",
+   "memento": "M4 §Pièges QCM",
+   "question": "Un collaborateur s'inquiète : en passant de SNC à SA à 100 000 de capital, l'entreprise perdrait sa substance. Quel argument juridique le rassure ?",
+   "options": [
+    "Les actifs excédentaires sont transférés à une société sœur",
+    "La transformation impose une augmentation de capital à hauteur des actifs",
+    "La transformation ne modifie pas l'état des actifs et passifs (art. 63 LFus) ; le capital-actions n'est pas le total des actifs",
+    "Les créanciers garantissent la différence"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucun transfert vers un tiers n'a lieu en transformation (art. 63 LFus).",
+    "Faux : aucune augmentation de capital n'est exigée par la transformation (art. 63 LFus).",
+    "Exact : l'art. 63 LFus garantit que les actifs et passifs restent inchangés ; le capital nominal ne mesure pas les actifs.",
+    "Faux : il n'y a pas de « différence » à garantir ; les actifs demeurent (art. 63 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-036",
+   "champ": "4.3.1 Transformation — maintien des parts",
+   "memento": "M4 §Protections a)",
+   "question": "Quel est le sort des parts sociales lors d'une transformation ?",
+   "options": [
+    "Elles peuvent être remplacées par un versement en espèces si le projet le prévoit",
+    "Elles sont converties en créances contre la société",
+    "Elles sont rachetées puis annulées",
+    "Elles sont maintenues avec des droits appropriés dans la nouvelle forme, sans dédommagement"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le dédommagement n'existe qu'en fusion (art. 8) ; pas en transformation (art. 56 LFus).",
+    "Faux : les parts restent des droits de sociétariat, non des créances (art. 56 LFus).",
+    "Faux : les parts ne sont pas rachetées ; la continuité du sociétariat s'applique (art. 56 LFus).",
+    "Exact : maintien des droits de sociétariat dans la nouvelle forme, sans dédommagement (art. 56 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-037",
+   "champ": "4.3.2 Transformations autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "La liste des transformations admises par la LFus (art. 54-55) est :",
+   "options": [
+    "Exhaustive : seule une transformation expressément énumérée est possible",
+    "Limitée aux seules sociétés de capitaux entre elles",
+    "Ouverte à toute forme, y compris l'entreprise individuelle",
+    "Indicative : d'autres passerelles sont admises par analogie"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la liste des transformations autorisées est exhaustive (art. 54-55 LFus).",
+    "Faux : elle inclut aussi coopératives et associations, pas seulement les sociétés de capitaux (art. 54 LFus).",
+    "Faux : l'entreprise individuelle est absente de la liste (art. 54-55 LFus).",
+    "Faux : la liste n'est pas indicative ; aucune passerelle par analogie n'est admise (art. 54-55 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-038",
+   "champ": "4.3.2 Transformations autorisées",
+   "memento": "M4 §4 opérations",
+   "question": "Une SNC souhaite se transformer en SA. Est-ce admis ?",
+   "options": [
+    "Non, aucune société de personnes ne peut se transformer",
+    "Oui, la transformation d'une société en nom collectif en société de capitaux figure dans la liste légale",
+    "Oui, mais uniquement après une fusion préalable",
+    "Non, il faut passer par un transfert de patrimoine"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la SNC figure parmi les formes pouvant se transformer (art. 54 LFus).",
+    "Exact : SNC → société de capitaux est une passerelle expressément prévue (art. 54 LFus).",
+    "Faux : aucune fusion préalable n'est nécessaire (art. 54 LFus).",
+    "Faux : la transformation directe est admise ; le transfert de patrimoine n'est pas imposé ici (art. 54 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-039",
+   "champ": "4.3.2 Transformations — entreprise individuelle",
+   "memento": "M4 §Pièges QCM",
+   "question": "Un entrepreneur individuel veut « transformer » son entreprise en SA au sens de la LFus. Que prévoit la loi ?",
+   "options": [
+    "La transformation est admise avec l'accord de l'expert-réviseur",
+    "La transformation est admise comme pour toute société",
+    "L'entreprise individuelle est absente de la liste des transformations ; il faut recourir au transfert de patrimoine (ou art. 181 CO)",
+    "La transformation est admise après inscription au registre du commerce"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucune attestation de l'expert-réviseur ne rend la transformation accessible ici (art. 54-55 LFus).",
+    "Faux : l'entreprise individuelle ne figure pas dans la liste des transformations (art. 54-55 LFus).",
+    "Exact : exclue de la liste, elle recourt au transfert de patrimoine (art. 69) ou à l'art. 181 CO si non inscrite.",
+    "Faux : même inscrite, l'entreprise individuelle ne peut pas se transformer au sens de la LFus (art. 54-55)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-040",
+   "champ": "4.3.2 Transformations — entreprise individuelle",
+   "memento": "M4 §Pièges QCM",
+   "question": "Pourquoi l'entreprise individuelle ne peut-elle pas se transformer au sens de la LFus ?",
+   "options": [
+    "Parce qu'elle n'a pas de capital",
+    "Parce que ses créanciers s'y opposeraient",
+    "Parce qu'elle n'est jamais inscrite au registre du commerce",
+    "Parce qu'elle ne figure pas dans la liste exhaustive des transformations autorisées (art. 54-55 LFus)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'absence de capital n'est pas le motif juridique ; c'est l'exclusion de la liste (art. 54-55 LFus).",
+    "Faux : l'exclusion résulte de la loi, non d'une opposition des créanciers (art. 54-55 LFus).",
+    "Faux : une entreprise individuelle peut être inscrite ; ce n'est pas la raison de l'exclusion (art. 54-55 LFus).",
+    "Exact : la liste des transformations est exhaustive et n'inclut pas l'entreprise individuelle (art. 54-55 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-041",
+   "champ": "4.4.1 Transfert de patrimoine — sujets admis",
+   "memento": "M4 §4 opérations",
+   "question": "Qui peut transférer un patrimoine (actifs et passifs) à un autre sujet par transfert de patrimoine LFus ?",
+   "options": [
+    "Les sociétés inscrites au registre du commerce et les entreprises individuelles inscrites",
+    "Toute personne physique, inscrite ou non",
+    "Uniquement les associations",
+    "Uniquement les sociétés de capitaux"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sociétés et entreprises individuelles inscrites au RC peuvent transférer un patrimoine (art. 69 LFus).",
+    "Faux : l'inscription au registre du commerce est requise ; sans elle, c'est l'art. 181 CO (art. 69 LFus).",
+    "Faux : le transfert de patrimoine est ouvert bien au-delà des associations (art. 69 LFus).",
+    "Faux : le transfert de patrimoine n'est pas réservé aux sociétés de capitaux (art. 69 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-042",
+   "champ": "4.4.1 Transfert de patrimoine — sujets admis",
+   "memento": "M4 §4 opérations",
+   "question": "Une entreprise individuelle inscrite au RC veut céder l'ensemble de son entreprise (actifs et passifs) à une SA. Quelle voie LFus est ouverte ?",
+   "options": [
+    "La scission",
+    "Le transfert de patrimoine",
+    "La transformation",
+    "La fusion par absorption"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la scission est réservée aux sociétés de capitaux et coopératives (art. 30 LFus).",
+    "Exact : inscrite au RC, l'entreprise individuelle peut recourir au transfert de patrimoine (art. 69 LFus).",
+    "Faux : l'entreprise individuelle ne figure pas dans la liste des transformations (art. 54-55 LFus).",
+    "Faux : une entreprise individuelle ne fusionne pas au sens des art. 3-4 LFus."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-043",
+   "champ": "4.4.1 Transfert de patrimoine — voie de repli",
+   "memento": "M4 §Définitions-clés",
+   "question": "Le transfert de patrimoine est décrit comme la « solution de repli ». De quoi est-il le repli ?",
+   "options": [
+    "De la liquidation ordinaire",
+    "De la fusion, pour les sociétés surendettées",
+    "De la scission, pour les formes qui en sont exclues (sociétés de personnes, entreprise individuelle)",
+    "De la transformation, pour les sociétés cotées"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : il ne remplace pas la liquidation ; il transfère un patrimoine à un autre sujet (art. 69 LFus).",
+    "Faux : le transfert de patrimoine n'est pas un substitut de la fusion pour surendettement (art. 6 LFus).",
+    "Exact : il permet aux formes exclues de la scission de transférer un patrimoine (art. 69 LFus).",
+    "Faux : il n'est pas lié au statut de société cotée ni à la transformation (art. 69 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-044",
+   "champ": "4.4.1 Transfert de patrimoine — étendue",
+   "memento": "M4 §4 opérations",
+   "question": "Quelle est l'étendue du transfert et la procédure du transfert de patrimoine ?",
+   "options": [
+    "Transfert bien par bien avec acte notarié pour chaque actif",
+    "Aucun transfert avant décision de l'AG",
+    "Succession universelle totale et procédure lourde identique à la fusion",
+    "Succession universelle partielle sur inventaire, procédure allégée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le transfert opère globalement sur inventaire, non bien par bien.",
+    "Faux : il n'y a pas de décision d'AG dans le transfert de patrimoine (art. 70 LFus).",
+    "Faux : le transfert de patrimoine n'opère pas une succession totale ni une procédure aussi lourde que la fusion (art. 69 LFus).",
+    "Exact : succession universelle partielle délimitée par l'inventaire, avec procédure allégée (art. 69, 71 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-045",
+   "champ": "4.4.2 Contrat de transfert — forme",
+   "memento": "M4 §Procédure",
+   "question": "Quelle forme doit revêtir le contrat de transfert de patrimoine ?",
+   "options": [
+    "La forme écrite ; la forme authentique est requise si des immeubles sont transférés",
+    "Toujours la forme authentique, quel que soit le contenu",
+    "Une simple décision inscrite au procès-verbal",
+    "La forme orale suffit entre commerçants"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : forme écrite en principe, forme authentique pour le transfert d'immeubles (art. 70 LFus).",
+    "Faux : la forme authentique n'est exigée que si des immeubles sont transférés (art. 70 LFus).",
+    "Faux : un simple PV ne suffit pas ; un contrat écrit est requis (art. 70 LFus).",
+    "Faux : le contrat doit être écrit ; l'oral ne suffit pas (art. 70 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-046",
+   "champ": "4.4.2 Contrat de transfert — forme",
+   "memento": "M4 §Procédure",
+   "question": "Qui conclut le contrat de transfert de patrimoine ?",
+   "options": [
+    "L'assemblée générale, en acte authentique",
+    "L'organe supérieur de direction ou d'administration des sujets participants",
+    "L'expert-réviseur agréé",
+    "Le préposé au registre du commerce"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : il n'y a pas de décision d'AG dans le transfert de patrimoine (art. 70 LFus).",
+    "Exact : le contrat est conclu par l'organe de direction/administration des sujets participants (art. 70 LFus).",
+    "Faux : l'expert-réviseur n'intervient pas ; il n'y a pas de vérification en transfert de patrimoine.",
+    "Faux : le préposé enregistre l'opération, il ne conclut pas le contrat (art. 73 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-047",
+   "champ": "4.4.2 Contrat de transfert — contenu",
+   "memento": "M4 §Procédure",
+   "question": "Que doit obligatoirement contenir le contrat de transfert de patrimoine ?",
+   "options": [
+    "Le rapport de l'organe de direction et sa vérification",
+    "Uniquement la liste des immeubles",
+    "Un inventaire des objets transférés et l'indication de la contre-prestation",
+    "L'accord écrit de tous les créanciers"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le transfert de patrimoine ne comporte ni rapport ni vérification (procédure allégée).",
+    "Faux : l'inventaire couvre l'ensemble des valeurs, pas seulement les immeubles (art. 71 LFus).",
+    "Exact : le contrat contient un inventaire délimitant les valeurs et la contre-prestation (art. 71 LFus).",
+    "Faux : l'accord des créanciers n'est pas exigé au contenu du contrat (art. 71 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-048",
+   "champ": "4.4.2 Contrat de transfert — contenu",
+   "memento": "M4 §Procédure",
+   "question": "En quoi l'inventaire est-il essentiel dans le transfert de patrimoine ?",
+   "options": [
+    "Il remplace l'inscription au registre du commerce",
+    "Il tient lieu de rapport de l'organe de direction",
+    "Il fixe le prix de vente des actions",
+    "Il délimite précisément l'étendue de la succession universelle partielle"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'inscription au RC reste nécessaire pour produire les effets (art. 73 LFus).",
+    "Faux : il n'y a pas de rapport en transfert de patrimoine ; l'inventaire ne s'y substitue pas.",
+    "Faux : l'inventaire ne fixe pas un prix d'actions ; il liste les valeurs transférées (art. 71 LFus).",
+    "Exact : l'inventaire circonscrit exactement ce qui est transféré (succession partielle) (art. 71 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-049",
+   "champ": "4.4.3 Cession hors LFus — 181 CO",
+   "memento": "M4 §181 CO",
+   "question": "Un entrepreneur individuel NON inscrit au registre du commerce cède son entreprise. Quel régime s'applique ?",
+   "options": [
+    "L'art. 181 CO, la LFus étant inapplicable",
+    "La scission (art. 30 LFus)",
+    "La transformation (art. 54 LFus)",
+    "La LFus (transfert de patrimoine, art. 69 ss)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : non inscrit, il relève de l'art. 181 CO ; la LFus ne s'applique pas (art. 69 LFus a contrario).",
+    "Faux : la scission est réservée aux sociétés de capitaux et coopératives (art. 30 LFus).",
+    "Faux : l'entreprise individuelle ne peut pas se transformer au sens de la LFus (art. 54-55).",
+    "Faux : le transfert de patrimoine LFus suppose l'inscription au RC (art. 69 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-050",
+   "champ": "4.4.3 Cession hors LFus — 181 CO",
+   "memento": "M4 §181 CO",
+   "question": "Quelle condition d'inscription détermine l'application de la LFus plutôt que de l'art. 181 CO à la cession d'une entreprise individuelle ?",
+   "options": [
+    "L'inscription au registre foncier",
+    "L'inscription au registre du commerce",
+    "L'inscription au registre des associations",
+    "Aucune inscription n'est pertinente"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est le registre du commerce, non le registre foncier, qui est déterminant (art. 69 LFus).",
+    "Exact : inscrite au RC → LFus ; non inscrite → art. 181 CO (art. 69 LFus, art. 181 al. 4 CO).",
+    "Faux : le registre des associations n'est pas en cause pour une entreprise individuelle (art. 69 LFus).",
+    "Faux : l'inscription au RC est précisément le critère décisif (art. 69 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-051",
+   "champ": "4.4.3 Cession hors LFus — 181 CO effets",
+   "memento": "M4 §181 CO",
+   "question": "Dans une cession soumise à l'art. 181 CO, comment passent les actifs et les passifs ?",
+   "options": [
+    "Ni les actifs ni les passifs ne sont transférés sans acte notarié global",
+    "Actifs et passifs par succession universelle en bloc",
+    "Passifs par succession universelle, mais actifs à titre singulier (bien par bien)",
+    "Actifs par succession universelle, passifs à titre singulier"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les passifs passent bien de par la loi ; seuls les actifs se transfèrent individuellement (art. 181 CO).",
+    "Faux : l'art. 181 CO ne transfère pas les actifs globalement ; seuls les passifs suivent ce régime.",
+    "Exact : sous l'art. 181 CO, les passifs passent par succession universelle, les actifs à titre singulier.",
+    "Faux : c'est l'inverse — ce sont les passifs, non les actifs, qui passent par succession universelle (art. 181 CO)."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-052",
+   "champ": "4.4.3 Cession hors LFus — accord des créanciers",
+   "memento": "M4 §181 CO",
+   "question": "La reprise d'une entreprise selon l'art. 181 CO exige-t-elle l'accord des créanciers ?",
+   "options": [
+    "Oui, mais seulement des créanciers privilégiés",
+    "Non, mais une autorisation du juge est requise",
+    "Oui, l'accord de chaque créancier est requis comme pour une reprise de dette ordinaire",
+    "Non : contrairement à la reprise de dette de l'art. 176 CO, l'accord des créanciers n'est pas nécessaire"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucune catégorie de créanciers ne doit consentir sous l'art. 181 CO.",
+    "Faux : aucune autorisation judiciaire n'est requise (art. 181 CO).",
+    "Faux : justement, l'art. 181 CO se distingue de l'art. 176 CO en n'exigeant pas cet accord.",
+    "Exact : la reprise de patrimoine de l'art. 181 CO ne requiert pas l'accord des créanciers (contrairement à l'art. 176 CO)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-053",
+   "champ": "4.4.3 Cession hors LFus — responsabilité 3 ans",
+   "memento": "M4 §181 CO",
+   "question": "Sous l'art. 181 CO, pendant combien de temps l'ancien débiteur reste-t-il solidairement responsable avec le nouveau ?",
+   "options": [
+    "3 ans",
+    "5 ans",
+    "10 ans",
+    "1 an"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'ancien et le nouveau débiteur répondent solidairement pendant 3 ans (art. 181 al. 2 CO).",
+    "Faux : le délai est de 3 ans, non de 5 (art. 181 al. 2 CO).",
+    "Faux : le délai est de 3 ans, non de 10 (art. 181 al. 2 CO).",
+    "Faux : le délai de responsabilité solidaire n'est pas d'un an (art. 181 al. 2 CO)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-054",
+   "champ": "4.5.1 Acte de base écrit",
+   "memento": "M4 §Procédure",
+   "question": "Quelle forme minimale la loi impose-t-elle à l'acte de base de chaque opération LFus (contrat de fusion, contrat/projet de scission, projet de transformation, contrat de transfert) ?",
+   "options": [
+    "La forme orale",
+    "La forme écrite",
+    "La forme authentique pour toutes les opérations",
+    "Aucune forme particulière"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'acte de base ne peut pas être conclu oralement (art. 12, 36, 59, 70 LFus).",
+    "Exact : la forme écrite est exigée pour l'acte de base de chaque opération (art. 12, 36, 59, 70 LFus).",
+    "Faux : la forme authentique concerne la décision d'AG, pas l'acte de base en général (art. 20 LFus).",
+    "Faux : une forme est requise — la forme écrite (art. 12, 36, 59, 70 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-055",
+   "champ": "4.5.1 Contenu du contrat de fusion",
+   "memento": "M4 §Procédure",
+   "question": "Parmi ces éléments, lequel doit figurer dans le contrat de fusion ?",
+   "options": [
+    "Le curriculum de l'expert-réviseur",
+    "Le montant des dividendes futurs de la reprenante",
+    "Les raisons sociales, le rapport d'échange des parts et la date des effets comptables",
+    "La liste nominative de tous les créanciers"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le contenu porte sur l'opération, non sur le CV de l'expert-réviseur (art. 13 LFus).",
+    "Faux : les dividendes futurs ne font pas partie du contenu obligatoire (art. 13 LFus).",
+    "Exact : raisons sociales, rapport d'échange et date des effets comptables font partie du contenu (art. 13 LFus).",
+    "Faux : la liste nominative des créanciers n'est pas exigée au contrat (art. 13 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-056",
+   "champ": "4.5.1 Contenu du contrat de fusion",
+   "memento": "M4 §Procédure",
+   "question": "Le « rapport d'échange des parts » que doit contenir le contrat de fusion sert à :",
+   "options": [
+    "Calculer l'impôt sur le bénéfice de la fusion",
+    "Répartir les sièges au conseil d'administration",
+    "Fixer le prix de rachat des actions par la société",
+    "Déterminer combien de parts de la reprenante recevront les associés de la transférante"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le rapport d'échange n'est pas un instrument fiscal (art. 13 LFus).",
+    "Faux : il porte sur l'échange des parts, non sur la composition du CA (art. 13 LFus).",
+    "Faux : il ne s'agit pas d'un rachat mais de la continuité du sociétariat (art. 7, 13 LFus).",
+    "Exact : le rapport d'échange fixe le nombre de parts de la reprenante attribuées aux associés de la transférante (art. 13 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-057",
+   "champ": "4.5.2 Rapport — opérations concernées",
+   "memento": "M4 §Procédure",
+   "question": "Pour quelles opérations un rapport de l'organe de direction est-il en principe requis ?",
+   "options": [
+    "La fusion, la scission et la transformation",
+    "Uniquement le transfert de patrimoine",
+    "Toutes les opérations sans exception",
+    "Uniquement la fusion"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : fusion (art. 14), scission (art. 39) et transformation (art. 61) supposent un rapport.",
+    "Faux : le transfert de patrimoine ne comporte justement pas de rapport (procédure allégée).",
+    "Faux : le transfert de patrimoine échappe à l'exigence de rapport (art. 69 ss LFus).",
+    "Faux : le rapport n'est pas limité à la fusion ; scission et transformation l'exigent aussi (art. 14, 39, 61 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-058",
+   "champ": "4.5.2 Rapport — absent en transfert",
+   "memento": "M4 §Procédure",
+   "question": "Dans quelle opération l'organe de direction n'établit PAS de rapport ?",
+   "options": [
+    "La fusion",
+    "Le transfert de patrimoine",
+    "La scission",
+    "La transformation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la fusion exige un rapport de l'organe de direction (art. 14 LFus).",
+    "Exact : le transfert de patrimoine est la procédure la plus légère — pas de rapport (art. 69 ss LFus).",
+    "Faux : la scission exige un rapport (art. 39 LFus).",
+    "Faux : la transformation exige un rapport (art. 61 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-059",
+   "champ": "4.5.2 Rapport — absent en transfert",
+   "memento": "M4 §Procédure",
+   "question": "Pourquoi le transfert de patrimoine se passe-t-il de rapport, de vérification et de décision d'AG ?",
+   "options": [
+    "Parce que les créanciers y renoncent expressément",
+    "Parce qu'il ne transfère aucun passif",
+    "Parce qu'il s'agit de la procédure la plus allégée, réglée par l'organe de direction sur inventaire",
+    "Parce qu'il est réservé aux sociétés cotées"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'allègement découle de la loi, non d'une renonciation des créanciers (art. 69 ss LFus).",
+    "Faux : le transfert de patrimoine transfère aussi des passifs (art. 71 LFus).",
+    "Exact : c'est la procédure la plus légère : contrat de l'organe de direction + inscription, sans rapport/vérification/AG (art. 69 ss LFus).",
+    "Faux : il n'est pas réservé aux sociétés cotées (art. 69 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-060",
+   "champ": "4.5.3 Vérification — qualité du vérificateur",
+   "memento": "M4 §Pièges QCM",
+   "question": "Qui doit vérifier le contrat, le rapport et le bilan de fusion ?",
+   "options": [
+    "Un expert-réviseur, l'agrément n'étant pas exigé",
+    "Le préposé au registre du commerce",
+    "Un réviseur (agréé ou non)",
+    "Un expert-réviseur agréé"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'agrément est requis ; « expert-réviseur » sans « agréé » est insuffisant (art. 15 LFus).",
+    "Faux : le préposé n'effectue pas cette vérification (art. 15 LFus).",
+    "Faux : un simple réviseur ne suffit pas ; il faut un expert-réviseur agréé (art. 15 LFus).",
+    "Exact : la vérification incombe à un expert-réviseur AGRÉÉ (art. 15 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-061",
+   "champ": "4.5.3 Vérification — qualité du vérificateur",
+   "memento": "M4 §Pièges QCM",
+   "question": "Une réponse d'examen indique que la vérification est faite par « un expert-réviseur ». Pourquoi est-elle fausse ?",
+   "options": [
+    "Parce qu'il manque la mention « agréé » : la loi exige un expert-réviseur agréé",
+    "Parce que la vérification n'existe pas en fusion",
+    "Parce qu'un réviseur ordinaire suffit",
+    "Parce que c'est l'AG qui vérifie"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la formulation omet « agréé », condition légale du vérificateur (art. 15 LFus).",
+    "Faux : la vérification existe bien en fusion (art. 15 LFus).",
+    "Faux : un réviseur ordinaire ne suffit pas ; il faut l'agrément d'expert-réviseur (art. 15 LFus).",
+    "Faux : l'AG ne procède pas à la vérification ; c'est l'expert-réviseur agréé (art. 15 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-062",
+   "champ": "4.5.3 Vérification — objet",
+   "memento": "M4 §Pièges QCM",
+   "question": "Sur quels éléments porte la vérification de l'expert-réviseur agréé en fusion ?",
+   "options": [
+    "Le contrat de fusion et le rapport de fusion seulement",
+    "Le contrat de fusion, le rapport de fusion et le bilan",
+    "Le rapport de fusion et le bilan seulement",
+    "Le contrat de fusion et le bilan seulement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le bilan fait aussi partie de l'objet de la vérification (art. 15 LFus).",
+    "Exact : la vérification porte cumulativement sur le contrat, le rapport et le bilan (art. 15 LFus).",
+    "Faux : le contrat de fusion doit aussi être vérifié (art. 15 LFus).",
+    "Faux : le rapport de fusion doit aussi être vérifié (art. 15 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-063",
+   "champ": "4.5.3 Vérification — objet",
+   "memento": "M4 §Pièges QCM",
+   "question": "Une variante affirme que « seuls le contrat et le rapport de fusion » doivent être vérifiés. Que manque-t-il ?",
+   "options": [
+    "L'inventaire de scission",
+    "Rien, la réponse est complète",
+    "Le bilan sur lequel se fonde la fusion",
+    "Le projet de transformation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'inventaire de scission concerne la scission, pas la fusion (art. 37 LFus).",
+    "Faux : la réponse est incomplète ; le bilan manque (art. 15 LFus).",
+    "Exact : l'objet de la vérification inclut aussi le bilan (art. 15 LFus).",
+    "Faux : le projet de transformation concerne une autre opération (art. 62 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-064",
+   "champ": "4.5.3 Vérification — absente en transfert",
+   "memento": "M4 §Procédure",
+   "question": "Dans quelle opération n'y a-t-il pas de vérification par un expert-réviseur agréé ?",
+   "options": [
+    "La transformation",
+    "La fusion",
+    "La scission",
+    "Le transfert de patrimoine"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la transformation suppose une vérification (art. 62 LFus).",
+    "Faux : la fusion suppose une vérification (art. 15 LFus).",
+    "Faux : la scission suppose une vérification (art. 40 renvoyant à l'art. 15 LFus).",
+    "Exact : le transfert de patrimoine ne comporte pas de vérification (procédure allégée, art. 69 ss LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-065",
+   "champ": "4.5.3 Vérification — absente en transfert",
+   "memento": "M4 §Procédure",
+   "question": "Quelle étape le transfert de patrimoine partage-t-il avec la fusion ?",
+   "options": [
+    "L'inscription au registre du commerce qui déclenche les effets",
+    "La décision de l'AG en acte authentique",
+    "Le rapport de l'organe de direction",
+    "La vérification par l'expert-réviseur agréé"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les deux produisent leurs effets à l'inscription au RC (art. 22 et 73 LFus).",
+    "Faux : le transfert de patrimoine ne comporte pas de décision d'AG (art. 70 LFus).",
+    "Faux : le transfert de patrimoine ne comporte pas de rapport (art. 69 ss LFus).",
+    "Faux : il n'y a pas de vérification en transfert de patrimoine (art. 69 ss LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-066",
+   "champ": "4.5.4 Consultation — délai",
+   "memento": "M4 §Procédure",
+   "question": "Combien de temps avant la décision les associés peuvent-ils exercer leur droit de consultation en fusion ?",
+   "options": [
+    "10 jours",
+    "30 jours",
+    "2 mois",
+    "3 mois"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le délai de consultation n'est pas de 10 jours (art. 16 LFus).",
+    "Exact : le droit de consultation s'exerce dans les 30 jours précédant la décision (art. 16 LFus).",
+    "Faux : 2 mois est un délai de garantie des créances en scission, non le délai de consultation (art. 46 LFus).",
+    "Faux : 3 mois est le délai de garantie des créances en fusion, non le délai de consultation (art. 25 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-067",
+   "champ": "4.5.4 Consultation — objet",
+   "memento": "M4 §Procédure",
+   "question": "Sur quels comptes porte notamment le droit de consultation des associés ?",
+   "options": [
+    "Aucun compte, seulement le contrat",
+    "Les comptes du seul dernier exercice",
+    "Les comptes annuels des trois derniers exercices",
+    "Les comptes prévisionnels des cinq prochaines années"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la consultation couvre le contrat, le rapport, le rapport de révision ET les comptes (art. 16 LFus).",
+    "Faux : la consultation ne se limite pas au dernier exercice (art. 16 LFus).",
+    "Exact : la consultation porte notamment sur les comptes annuels des trois derniers exercices (art. 16 LFus).",
+    "Faux : ce sont les comptes passés (3 ans), non des prévisions (art. 16 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-068",
+   "champ": "4.5.4 Consultation — transfert de patrimoine",
+   "memento": "M4 §Procédure",
+   "question": "En transfert de patrimoine, de quoi bénéficient les associés à la place d'un droit de consultation formel ?",
+   "options": [
+    "D'un droit d'opposition suspensif",
+    "D'aucun droit",
+    "D'un droit de veto",
+    "D'une simple information"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il n'existe pas de droit d'opposition suspensif des associés ici (art. 74 LFus).",
+    "Faux : les associés reçoivent au moins une information (art. 74 LFus).",
+    "Faux : les associés n'ont pas de droit de veto sur le transfert de patrimoine (art. 74 LFus).",
+    "Exact : en transfert de patrimoine, les associés reçoivent une simple information (art. 74 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-069",
+   "champ": "4.5.5 Décision AG — forme",
+   "memento": "M4 §Procédure",
+   "question": "Sous quelle forme la décision de l'assemblée générale doit-elle être prise en fusion, scission et transformation ?",
+   "options": [
+    "En la forme de l'acte authentique",
+    "Par simple courriel confirmé",
+    "Par décision circulaire non authentifiée",
+    "Sous seing privé"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la décision d'AG doit revêtir la forme authentique (art. 18+20, 43+44, 64+65 LFus).",
+    "Faux : un courriel ne satisfait pas à l'exigence d'acte authentique (art. 20 LFus).",
+    "Faux : une décision circulaire non authentifiée ne remplit pas la forme requise (art. 20 LFus).",
+    "Faux : le sous seing privé ne suffit pas pour la décision d'AG (art. 20 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-070",
+   "champ": "4.5.5 Décision AG — absente en transfert",
+   "memento": "M4 §Procédure",
+   "question": "Quelle opération se réalise SANS décision d'assemblée générale ?",
+   "options": [
+    "La transformation",
+    "Le transfert de patrimoine",
+    "La scission",
+    "La fusion"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la transformation suppose une décision d'AG en acte authentique (art. 64 LFus).",
+    "Exact : le transfert de patrimoine se décide par l'organe de direction, sans AG (art. 70 LFus).",
+    "Faux : la scission suppose une décision d'AG en acte authentique (art. 43 LFus).",
+    "Faux : la fusion suppose une décision d'AG en acte authentique (art. 18 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-071",
+   "champ": "4.5.5 Décision AG — ordre en scission",
+   "memento": "M4 §Procédure",
+   "question": "En scission, à quel moment la décision de l'AG (art. 43) intervient-elle par rapport à la protection des créanciers ?",
+   "options": [
+    "Il n'y a pas d'ordre imposé",
+    "Avant l'appel aux créanciers, exactement comme en fusion",
+    "Après l'éventuelle procédure de protection des créanciers",
+    "Simultanément à l'inscription au registre foncier"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un ordre est bien imposé en scission (art. 43, 45-46 LFus).",
+    "Faux : contrairement à ce distracteur, l'ordre diffère de la fusion (art. 43, 45-46 LFus).",
+    "Exact : en scission, l'AG (art. 43) décide après l'éventuelle procédure de protection des créanciers.",
+    "Faux : l'ordre concerne la protection des créanciers, non le registre foncier (art. 43 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-072",
+   "champ": "4.6.1 Fusion — appel aux créanciers",
+   "memento": "M4 §Protections b)",
+   "question": "Quel mécanisme d'information des créanciers accompagne la fusion ?",
+   "options": [
+    "Une publication unique dans un quotidien local",
+    "Aucune publicité n'est requise",
+    "Un avis individuel recommandé à chaque créancier",
+    "Un triple appel aux créanciers dans la Feuille officielle suisse du commerce (FOSC)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est un triple appel dans la FOSC, pas une simple annonce locale (art. 25 al. 2 LFus).",
+    "Faux : une publicité est requise sous forme de triple appel FOSC (art. 25 al. 2 LFus).",
+    "Faux : la loi prévoit une publication (triple appel FOSC), non un avis individuel obligatoire (art. 25 al. 2 LFus).",
+    "Exact : la fusion s'accompagne d'un triple appel aux créanciers dans la FOSC (art. 25 al. 2 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-073",
+   "champ": "4.6.1 Fusion — délai 3 mois",
+   "memento": "M4 §Protections b)",
+   "question": "Dans quel délai les créanciers peuvent-ils exiger des sûretés après une fusion, et à partir de quand ?",
+   "options": [
+    "3 mois, dès la date d'effet (inscription) de la fusion",
+    "3 mois, dès la signature du contrat de fusion",
+    "6 mois, dès la décision de l'AG",
+    "2 mois, dès la publication de l'avis"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en fusion, les créanciers disposent de 3 mois dès la date d'effet pour exiger des sûretés (art. 25 al. 1 LFus).",
+    "Faux : le point de départ est la date d'effet (inscription), non la signature (art. 25 LFus).",
+    "Faux : le délai est de 3 mois dès la date d'effet, non 6 mois dès l'AG (art. 25 LFus).",
+    "Faux : 2 mois dès la publication est le régime de la scission, non de la fusion (art. 46 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-074",
+   "champ": "4.6.1 Fusion — délai 3 mois",
+   "memento": "M4 §Protections b)",
+   "question": "Un créancier de la société issue de la fusion veut être garanti. Quel délai s'applique en fusion ?",
+   "options": [
+    "1 mois",
+    "3 mois",
+    "2 mois",
+    "1 an"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le délai de garantie en fusion n'est pas d'un mois (art. 25 LFus).",
+    "Exact : le délai de garantie des créances en fusion est de 3 mois (art. 25 al. 1 LFus).",
+    "Faux : 2 mois est le délai propre à la scission (art. 46 LFus).",
+    "Faux : le délai est de 3 mois, non d'un an (art. 25 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-075",
+   "champ": "4.6.1 Fusion — attestation expert-réviseur",
+   "memento": "M4 §Protections b)",
+   "question": "Par quoi le triple appel aux créanciers peut-il être remplacé en fusion ?",
+   "options": [
+    "Par une simple déclaration de l'organe de direction",
+    "Par une décision unanime des associés",
+    "Par une attestation d'un expert-réviseur agréé garantissant que les créances peuvent être honorées",
+    "Par un dépôt de sûretés auprès du registre du commerce"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une simple déclaration de l'organe ne suffit pas ; il faut l'attestation d'un expert-réviseur agréé (art. 25 LFus).",
+    "Faux : une décision des associés ne remplace pas l'appel aux créanciers (art. 25 al. 1 LFus).",
+    "Exact : l'appel peut être remplacé par une attestation d'un expert-réviseur agréé sur la solvabilité (art. 25 al. 1 LFus).",
+    "Faux : ce n'est pas un dépôt au RC qui remplace l'appel (art. 25 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-076",
+   "champ": "4.6.2 Scission — avis aux créanciers",
+   "memento": "M4 §Protections b)",
+   "question": "Quand, au plus tard, le triple avis aux créanciers doit-il intervenir en scission ?",
+   "options": [
+    "Le jour même de la décision de l'AG",
+    "Dans les 30 jours suivant la signature",
+    "Après l'inscription au registre du commerce",
+    "Au plus tard 2 mois avant l'assemblée générale"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'avis précède l'AG d'au moins 2 mois (art. 43 al. 1 LFus).",
+    "Faux : le repère est 2 mois avant l'AG, pas 30 jours après la signature (art. 45 LFus).",
+    "Faux : l'avis intervient avant l'AG, non après l'inscription (art. 45, 43 al. 1 LFus).",
+    "Exact : le triple avis doit paraître au plus tard 2 mois avant l'AG (art. 45, 43 al. 1 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-077",
+   "champ": "4.6.2 Scission — délai 2 mois",
+   "memento": "M4 §Protections b)",
+   "question": "Quel est le délai de garantie des créances en scission et son point de départ ?",
+   "options": [
+    "2 mois, dès la publication de l'avis",
+    "2 mois, dès la décision de l'AG",
+    "3 mois, dès la publication de l'avis",
+    "3 mois, dès la date d'effet"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en scission, le délai est de 2 mois dès la publication de l'avis (art. 46 al. 1 LFus).",
+    "Faux : le point de départ est la publication de l'avis, non la décision de l'AG (art. 46 LFus).",
+    "Faux : le délai est de 2 mois, non 3 (art. 46 LFus).",
+    "Faux : 3 mois dès la date d'effet est le régime de la fusion (art. 25 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-078",
+   "champ": "4.6.2 Scission — délai 2 mois",
+   "memento": "M4 §Protections b)",
+   "question": "En comparant fusion et scission, quelle paire de délais de garantie est correcte ?",
+   "options": [
+    "Fusion 2 mois / Scission 3 mois",
+    "Fusion 3 mois / Scission 2 mois",
+    "Fusion 3 mois / Scission 3 mois",
+    "Fusion 2 mois / Scission 2 mois"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les délais sont intervertis (art. 25 et 46 LFus).",
+    "Exact : fusion = 3 mois (art. 25) ; scission = 2 mois (art. 46 LFus).",
+    "Faux : la scission est à 2 mois, pas 3 (art. 46 LFus).",
+    "Faux : la fusion est à 3 mois, pas 2 (art. 25 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-079",
+   "champ": "4.6.2 Scission — responsabilité subsidiaire",
+   "memento": "M4 §Protections b)",
+   "question": "Quelle responsabilité pèse sur l'ensemble des sociétés participant à une scission à l'égard des créanciers ?",
+   "options": [
+    "Une responsabilité limitée aux immeubles transférés",
+    "Une responsabilité solidaire directe",
+    "Une responsabilité subsidiaire (les autres sociétés répondent si le débiteur principal fait défaut)",
+    "Aucune responsabilité au-delà de la société attributaire"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : elle n'est pas limitée aux immeubles ; elle porte sur les dettes (art. 47 LFus).",
+    "Faux : la responsabilité en scission est subsidiaire, non solidaire directe (art. 47 LFus).",
+    "Exact : les sociétés participantes répondent de manière subsidiaire si le débiteur principal fait défaut (art. 47 LFus).",
+    "Faux : la responsabilité s'étend aux autres sociétés participantes à titre subsidiaire (art. 47 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-080",
+   "champ": "4.6.2 Scission — responsabilité subsidiaire",
+   "memento": "M4 §Protections b)",
+   "question": "Un créancier d'une scission n'est pas payé par la société attributaire. Que peut-il faire ?",
+   "options": [
+    "Exiger le paiement solidaire immédiat de n'importe quelle société, au choix",
+    "Demander l'annulation de la scission",
+    "Rien, la scission éteint sa créance",
+    "Se retourner, à titre subsidiaire, contre les autres sociétés participantes"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la responsabilité est subsidiaire, pas solidaire directe au choix (art. 47 LFus).",
+    "Faux : le créancier obtient une garantie subsidiaire, non l'annulation de l'opération (art. 47 LFus).",
+    "Faux : la créance n'est pas éteinte ; une responsabilité subsidiaire existe (art. 47 LFus).",
+    "Exact : à défaut de paiement par le débiteur principal, les autres sociétés répondent subsidiairement (art. 47 LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-081",
+   "champ": "4.6.3 Transformation — pas de garantie",
+   "memento": "M4 §Protections b)",
+   "question": "Quelle protection des créances la transformation offre-t-elle aux créanciers ?",
+   "options": [
+    "Aucune garantie des créances propre à l'opération",
+    "Une garantie des créances à 2 mois",
+    "Un triple appel dans la FOSC",
+    "Une garantie des créances à 3 mois"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la transformation ne prévoit pas de garantie des créances (substrat inchangé).",
+    "Faux : la garantie à 2 mois est propre à la scission (art. 46 LFus).",
+    "Faux : il n'y a pas de triple appel FOSC en transformation.",
+    "Faux : la garantie à 3 mois est propre à la fusion, pas à la transformation (art. 25 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-082",
+   "champ": "4.6.3 Transformation — pas de garantie",
+   "memento": "M4 §Protections b)",
+   "question": "Pourquoi la transformation ne prévoit-elle aucune garantie des créances ?",
+   "options": [
+    "Parce que les créanciers y renoncent par avance",
+    "Parce que le substrat de responsabilité est inchangé : même sujet juridique, même patrimoine",
+    "Parce que les créances sont transférées à un tiers solvable",
+    "Parce que le juge l'a autorisé"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : il ne s'agit pas d'une renonciation des créanciers, mais du maintien du substrat.",
+    "Exact : le même sujet juridique conserve le même patrimoine ; la garantie des créanciers n'est pas menacée (art. 63 LFus).",
+    "Faux : rien n'est transféré à un tiers en transformation (art. 63 LFus).",
+    "Faux : l'absence de garantie découle de la nature de l'opération, non d'une autorisation judiciaire."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-083",
+   "champ": "4.6.4 Transfert — sûretés",
+   "memento": "M4 §Protections b)",
+   "question": "Quelle protection des créanciers accompagne le transfert de patrimoine ?",
+   "options": [
+    "Une décision d'AG protectrice",
+    "Aucune : la procédure allégée exclut toute protection",
+    "Le droit d'exiger des sûretés, par renvoi au régime de la scission (art. 46)",
+    "Un triple appel FOSC identique à la fusion"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : il n'y a pas de décision d'AG en transfert de patrimoine (art. 70 LFus).",
+    "Faux : les créanciers ne sont pas dépourvus de protection en transfert de patrimoine (art. 75 LFus).",
+    "Exact : les créanciers peuvent exiger des sûretés, le régime renvoyant à l'art. 46 (art. 75 LFus).",
+    "Faux : le régime renvoie à la scission (art. 46), pas au triple appel de la fusion (art. 75 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-084",
+   "champ": "4.6.4 Transfert — responsabilité solidaire",
+   "memento": "M4 §Protections b)",
+   "question": "Quelle responsabilité l'ancien et le nouveau débiteur assument-ils dans un transfert de patrimoine ?",
+   "options": [
+    "Aucune responsabilité de l'ancien débiteur",
+    "Une responsabilité limitée à la contre-prestation",
+    "Une responsabilité subsidiaire",
+    "Une responsabilité solidaire"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'ancien débiteur reste responsable solidairement (art. 75 LFus).",
+    "Faux : la responsabilité n'est pas plafonnée à la contre-prestation ; elle est solidaire (art. 75 LFus).",
+    "Faux : la responsabilité subsidiaire vaut pour la scission, non le transfert de patrimoine (art. 47 vs 75 LFus).",
+    "Exact : ancien et nouveau débiteur répondent solidairement en transfert de patrimoine (art. 75 LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-085",
+   "champ": "4.6.4 Transfert — subsidiaire vs solidaire",
+   "memento": "M4 §Protections b)",
+   "question": "Où trouve-t-on une responsabilité SUBSIDIAIRE et où une responsabilité SOLIDAIRE ?",
+   "options": [
+    "Subsidiaire en scission (art. 47) ; solidaire en transfert de patrimoine (art. 75)",
+    "Solidaire dans les deux cas",
+    "Subsidiaire dans les deux cas",
+    "Subsidiaire en transfert de patrimoine ; solidaire en scission"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : scission = responsabilité subsidiaire (art. 47) ; transfert de patrimoine = solidaire (art. 75 LFus).",
+    "Faux : la scission connaît une responsabilité subsidiaire, non solidaire (art. 47 LFus).",
+    "Faux : le transfert de patrimoine connaît une responsabilité solidaire, non subsidiaire (art. 75 LFus).",
+    "Faux : les deux régimes sont intervertis (art. 47 et 75 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-086",
+   "champ": "4.6.5 Responsabilité personnelle des associés",
+   "memento": "M4 §Protections b)",
+   "question": "Après une fusion ou une scission, que devient la responsabilité personnelle des associés pour des dettes nées AVANT l'opération ?",
+   "options": [
+    "Elle s'éteint dès l'inscription au registre du commerce",
+    "Elle subsiste pour les dettes antérieures à l'opération",
+    "Elle est reportée sur l'expert-réviseur",
+    "Elle n'a jamais existé"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'inscription n'éteint pas la responsabilité pour les dettes antérieures (art. 26/48 LFus).",
+    "Exact : la responsabilité personnelle des associés subsiste pour les dettes nées avant l'opération (art. 26/48 LFus).",
+    "Faux : la responsabilité des associés n'est pas transférée à l'expert-réviseur (art. 26/48 LFus).",
+    "Faux : cette responsabilité personnelle antérieure existe bel et bien (art. 26/48 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-087",
+   "champ": "4.6.5 Responsabilité personnelle des associés",
+   "memento": "M4 §Protections b)",
+   "question": "Un associé indéfiniment responsable d'une SNC transférée par fusion craint de rester tenu de dettes anciennes. Qu'en est-il ?",
+   "options": [
+    "Sa responsabilité devient purement subsidiaire pour toutes les dettes",
+    "Sa responsabilité disparaît avec la disparition de la SNC",
+    "Sa responsabilité personnelle subsiste pour les dettes nées avant la fusion",
+    "Sa responsabilité est reprise intégralement par la société reprenante seule"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la responsabilité antérieure subsiste directement, elle ne devient pas simplement subsidiaire (art. 26 LFus).",
+    "Faux : la disparition de la société n'efface pas sa responsabilité pour les dettes antérieures (art. 26 LFus).",
+    "Exact : la responsabilité personnelle demeure pour les dettes nées avant l'opération (art. 26 LFus).",
+    "Faux : la reprise du patrimoine n'éteint pas la responsabilité personnelle antérieure (art. 26 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-088",
+   "champ": "4.7.1 Travailleurs — transfert des rapports de travail",
+   "memento": "M4 §Protections c)",
+   "question": "Que deviennent les rapports de travail en cas de fusion ou de scission ?",
+   "options": [
+    "Ils sont maintenus uniquement si le contrat de travail le prévoit",
+    "Ils passent au repreneur sans aucun droit du travailleur",
+    "Ils prennent fin automatiquement à l'inscription",
+    "Ils passent au repreneur (art. 333 CO), le travailleur disposant d'un droit d'opposition"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le transfert opère de par la loi, sans clause contractuelle nécessaire (art. 333 CO).",
+    "Faux : le travailleur dispose précisément d'un droit d'opposition (art. 333 CO).",
+    "Faux : les rapports de travail ne prennent pas fin ; ils sont transférés (art. 333 CO).",
+    "Exact : les rapports de travail passent au repreneur avec droit d'opposition du travailleur (art. 333 CO ; art. 27/49 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-089",
+   "champ": "4.7.1 Travailleurs — droit d'opposition",
+   "memento": "M4 §Protections c)",
+   "question": "Un salarié refuse de suivre son emploi chez la société reprenante après une fusion. Le peut-il ?",
+   "options": [
+    "Oui, il dispose d'un droit d'opposition au transfert de son rapport de travail",
+    "Oui, mais seulement avec l'accord de l'employeur",
+    "Non, sauf s'il est cadre supérieur",
+    "Non, le transfert s'impose à lui sans exception"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le travailleur peut s'opposer au transfert de son rapport de travail (art. 333 CO).",
+    "Faux : le droit d'opposition appartient au travailleur, sans accord de l'employeur (art. 333 CO).",
+    "Faux : le droit d'opposition n'est pas réservé aux cadres (art. 333 CO).",
+    "Faux : le travailleur n'est pas contraint de suivre son emploi ; il peut s'opposer (art. 333 CO)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-090",
+   "champ": "4.7.1 Travailleurs — transformation exclue",
+   "memento": "M4 §Protections c)",
+   "question": "Le transfert des rapports de travail (art. 333 CO) s'applique-t-il en transformation ?",
+   "options": [
+    "Oui, comme en fusion et en scission",
+    "Non : en transformation l'employeur reste le même, il n'y a pas de transfert",
+    "Oui, mais uniquement pour les nouveaux contrats",
+    "Non, car les contrats de travail sont résiliés d'office"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la transformation ne provoque pas de transfert des rapports de travail (art. 333 CO ne s'applique pas).",
+    "Exact : même employeur en transformation → pas de transfert des rapports de travail (art. 68 LFus).",
+    "Faux : il n'y a pas de transfert du tout, l'employeur étant inchangé (art. 68 LFus).",
+    "Faux : les contrats ne sont pas résiliés ; ils continuent avec le même employeur (art. 68 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-091",
+   "champ": "4.7.2 Travailleurs — information/consultation",
+   "memento": "M4 §Protections c)",
+   "question": "Quelle obligation pèse sur l'employeur envers la représentation des travailleurs en fusion et scission ?",
+   "options": [
+    "Une obligation de verser une indemnité de départ",
+    "Aucune obligation particulière",
+    "Une obligation d'information et de consultation (renvoi à l'art. 333a CO)",
+    "Une obligation de renégocier chaque contrat de travail"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucune indemnité de départ n'est imposée par ces dispositions (art. 28/50 LFus).",
+    "Faux : une obligation existe : information et consultation (art. 28/50 LFus).",
+    "Exact : l'employeur doit informer et consulter la représentation des travailleurs (art. 28 fusion / 50 scission → 333a CO).",
+    "Faux : il n'y a pas d'obligation de renégocier les contrats (art. 333 CO les transfère tels quels)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-092",
+   "champ": "4.7.2 Travailleurs — pouvoir du juge",
+   "memento": "M4 §Protections c)",
+   "question": "Que peut faire le juge en cas de violation de l'obligation d'information/consultation des travailleurs en fusion ?",
+   "options": [
+    "Condamner l'expert-réviseur à une amende pénale",
+    "Ordonner la réintégration de tous les salariés",
+    "Annuler rétroactivement la fusion inscrite",
+    "Interdire préventivement l'inscription au registre du commerce"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 28 al. 3 LFus prévoit l'interdiction d'inscription, non une amende à l'expert-réviseur.",
+    "Faux : ce n'est pas la réintégration des salariés qui est prévue, mais l'interdiction d'inscription (art. 28 al. 3 LFus).",
+    "Faux : le juge intervient préventivement en amont, pas par annulation rétroactive (art. 28 al. 3 LFus).",
+    "Exact : le juge peut interdire préventivement l'inscription en cas de violation (art. 28 al. 3 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-093",
+   "champ": "4.7.2 Travailleurs — pouvoir du juge",
+   "memento": "M4 §Protections c)",
+   "question": "La représentation des travailleurs n'a pas été consultée avant une fusion. Quelle voie préventive existe ?",
+   "options": [
+    "Une requête au juge pour interdire l'inscription au registre du commerce",
+    "Une demande de dissolution de la société reprenante",
+    "Une opposition individuelle de chaque salarié au transfert",
+    "Une plainte pénale contre les administrateurs"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le juge peut, sur requête, interdire préventivement l'inscription (art. 28 al. 3 LFus).",
+    "Faux : la sanction n'est pas la dissolution de la reprenante (art. 28 al. 3 LFus).",
+    "Faux : l'opposition individuelle (art. 333 CO) est distincte du remède collectif d'interdiction d'inscription (art. 28 al. 3 LFus).",
+    "Faux : la voie prévue est civile et préventive, non pénale (art. 28 al. 3 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-094",
+   "champ": "4.7.3 Transformation — travailleurs",
+   "memento": "M4 §Protections c)",
+   "question": "Pourquoi n'y a-t-il pas d'obligation d'information/consultation des travailleurs à titre de transfert en transformation ?",
+   "options": [
+    "Parce que les travailleurs y renoncent",
+    "Parce que l'employeur reste le même : il n'y a pas de transfert des rapports de travail",
+    "Parce que la transformation ne concerne jamais des sociétés employeuses",
+    "Parce que le juge en a dispensé la société"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ce n'est pas une renonciation des travailleurs ; c'est l'absence de transfert.",
+    "Exact : même employeur → pas de transfert → pas d'information/consultation à ce titre (art. 68 LFus).",
+    "Faux : une société employeuse peut se transformer ; c'est l'absence de transfert qui joue (art. 68 LFus).",
+    "Faux : l'absence d'obligation découle de la nature de l'opération, non d'une dispense judiciaire (art. 68 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-095",
+   "champ": "4.7.3 Transformation — responsabilité travail",
+   "memento": "M4 §Protections c)",
+   "question": "En transformation, la responsabilité personnelle des associés pour les engagements de travail antérieurs :",
+   "options": [
+    "Est reprise par l'expert-réviseur",
+    "Disparaît entièrement",
+    "Subsiste (renvoi de l'art. 68 al. 2 à l'art. 27 al. 3)",
+    "Est transférée aux travailleurs eux-mêmes"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'expert-réviseur n'assume pas cette responsabilité (art. 68 al. 2 LFus).",
+    "Faux : la responsabilité pour les engagements de travail antérieurs ne disparaît pas (art. 68 al. 2 LFus).",
+    "Exact : elle subsiste par renvoi de l'art. 68 al. 2 à l'art. 27 al. 3 LFus.",
+    "Faux : la responsabilité reste celle des associés, pas des travailleurs (art. 68 al. 2 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-096",
+   "champ": "4.8.1 Associés — maintien des parts",
+   "memento": "M4 §Protections a)",
+   "question": "Le principe de continuité du sociétariat (droits équivalents maintenus) est ancré, selon l'opération, aux articles :",
+   "options": [
+    "art. 8 (fusion) / 37 (scission) / 63 (transformation)",
+    "art. 25 (fusion) / 46 (scission) / 68 (transformation)",
+    "art. 3 (fusion) / 29 (scission) / 53 (transformation)",
+    "art. 7 (fusion) / 31 (scission) / 56 (transformation)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ces articles visent le dédommagement, l'inventaire et l'effet, non le maintien des parts.",
+    "Faux : ces articles concernent la garantie des créances et la protection, non le maintien des parts.",
+    "Faux : ces articles définissent les opérations, pas le maintien des parts.",
+    "Exact : maintien des parts = art. 7 (fusion), 31 (scission), 56 (transformation)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-097",
+   "champ": "4.8.1 Associés — maintien des parts",
+   "memento": "M4 §Protections a)",
+   "question": "Que garantit le maintien des parts aux associés dans une opération LFus ?",
+   "options": [
+    "Des droits de sociétariat équivalents dans la structure issue de l'opération",
+    "Un rachat de leurs parts à la valeur nominale",
+    "Un siège au conseil d'administration",
+    "Un rendement minimal garanti"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les associés conservent des droits de sociétariat équivalents (art. 7/31/56 LFus).",
+    "Faux : il ne s'agit pas d'un rachat mais d'une continuité du sociétariat (art. 7/31/56 LFus).",
+    "Faux : le maintien des parts ne confère pas un siège au CA (art. 7/31/56 LFus).",
+    "Faux : la loi ne garantit aucun rendement (art. 7/31/56 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-098",
+   "champ": "4.8.2 Associés — dédommagement",
+   "memento": "M4 §Protections a)",
+   "question": "Dans quelle opération un dédommagement (argent au lieu de parts) est-il possible, et à quelle condition ?",
+   "options": [
+    "En scission, si le contrat le prévoit",
+    "En fusion, uniquement si le contrat de fusion le prévoit",
+    "En transformation, sur décision de l'AG",
+    "Dans toutes les opérations, sans condition"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la scission n'admet aucun dédommagement (art. 31 LFus).",
+    "Exact : le dédommagement n'existe qu'en fusion, et seulement si le contrat le prévoit (art. 8 LFus).",
+    "Faux : la transformation n'admet aucun dédommagement (art. 56 LFus).",
+    "Faux : le dédommagement est propre à la fusion et conditionné au contrat (art. 8 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-099",
+   "champ": "4.8.2 Associés — dédommagement",
+   "memento": "M4 §Pièges QCM",
+   "question": "Le dédommagement est-il admis en scission et en transformation ?",
+   "options": [
+    "Non en scission, oui en transformation",
+    "Oui dans les deux",
+    "Non dans les deux : le dédommagement est exclu en scission (art. 31) et en transformation (art. 56)",
+    "Oui en scission, non en transformation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la transformation exclut le dédommagement (art. 56 LFus).",
+    "Faux : ni la scission ni la transformation n'admettent le dédommagement (art. 31, 56 LFus).",
+    "Exact : le dédommagement est exclu en scission (art. 31) et en transformation (art. 56) ; il n'existe qu'en fusion (art. 8).",
+    "Faux : la scission exclut le dédommagement (art. 31 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-100",
+   "champ": "4.8.3 Associés — soulte",
+   "memento": "M4 §Protections a)",
+   "question": "La soulte (versement compensant l'arrondi du rapport d'échange) est plafonnée à :",
+   "options": [
+    "10 % du capital-actions, dans toutes les opérations",
+    "aucun plafond légal",
+    "5 % de la valeur réelle des parts, en fusion et scission",
+    "10 % de la valeur réelle des parts attribuées, en fusion uniquement"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le plafond se calcule sur la valeur réelle des parts, pas sur le capital-actions, et vaut pour la fusion (art. 7 al. 2 LFus).",
+    "Faux : un plafond de 10 % existe (art. 7 al. 2 LFus).",
+    "Faux : le plafond est de 10 %, et la soulte est propre à la fusion (art. 7 al. 2 LFus).",
+    "Exact : la soulte est plafonnée à 10 % de la valeur réelle des parts, en fusion (art. 7 al. 2 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-101",
+   "champ": "4.8.3 Associés — soulte",
+   "memento": "M4 §Protections a)",
+   "question": "Quelle affirmation distingue correctement la soulte du dédommagement en fusion ?",
+   "options": [
+    "La soulte est un simple arrondi (≤ 10 % de la valeur réelle des parts) ; le dédommagement remplace les parts par de l'argent, si le contrat le prévoit",
+    "La soulte et le dédommagement sont synonymes",
+    "La soulte n'est admise qu'en scission",
+    "La soulte remplace intégralement les parts ; le dédommagement les complète"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la soulte arrondit (≤ 10 %), le dédommagement remplace les parts par de l'argent si le contrat le prévoit (art. 7 al. 2, 8 LFus).",
+    "Faux : ce sont deux notions distinctes (art. 7 al. 2 vs art. 8 LFus).",
+    "Faux : la soulte relève de la fusion, pas de la scission (art. 7 al. 2 LFus).",
+    "Faux : c'est l'inverse — la soulte est l'accessoire, le dédommagement le remplacement (art. 7 al. 2, 8 LFus)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-102",
+   "champ": "4.8.4 Associés — squeeze-out",
+   "memento": "M4 §Protections a)",
+   "question": "L'exclusion des associés par simple dédommagement (squeeze-out) suppose l'approbation de :",
+   "options": [
+    "la majorité simple des associés votants",
+    "90 % des associés de la société transférante disposant du droit de vote",
+    "deux tiers du capital représenté",
+    "l'unanimité des associés"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une majorité simple ne suffit pas pour le squeeze-out (art. 18 al. 5 LFus).",
+    "Exact : le squeeze-out requiert l'approbation de 90 % des associés votants (art. 18 al. 5 LFus).",
+    "Faux : le seuil pertinent est 90 % des votants, non deux tiers du capital (art. 18 al. 5 LFus).",
+    "Faux : l'unanimité n'est pas exigée ; le seuil est de 90 % (art. 18 al. 5 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-103",
+   "champ": "4.8.4 Associés — squeeze-out",
+   "memento": "M4 §Protections a)",
+   "question": "Une fusion prévoit d'exclure les minoritaires en ne leur versant qu'un dédommagement. Quel quorum est requis ?",
+   "options": [
+    "51 % des associés présents",
+    "La majorité absolue des voix",
+    "90 % des associés disposant du droit de vote",
+    "Les deux tiers des voix et la majorité du capital"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : 51 % des présents est insuffisant pour un squeeze-out (art. 18 al. 5 LFus).",
+    "Faux : la majorité absolue ne suffit pas pour un squeeze-out (art. 18 al. 5 LFus).",
+    "Exact : l'exclusion par dédommagement seul exige l'accord de 90 % des associés votants (art. 18 al. 5 LFus).",
+    "Faux : le seuil spécifique du squeeze-out est de 90 % des votants (art. 18 al. 5 LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-104",
+   "champ": "4.9.1 Surendettée — condition a)",
+   "memento": "M4 §Surendettée",
+   "question": "Première condition alternative permettant à une société surendettée de fusionner :",
+   "options": [
+    "obtenir l'accord unanime des créanciers",
+    "réévaluer les actifs à la valeur de liquidation",
+    "obtenir une garantie bancaire globale",
+    "disposer de fonds propres librement disponibles à hauteur du surendettement"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'accord unanime des créanciers n'est pas la condition posée (art. 6 LFus).",
+    "Faux : aucune réévaluation à la valeur de liquidation n'est requise (art. 6 LFus).",
+    "Faux : une garantie bancaire globale n'est pas la condition légale (art. 6 LFus).",
+    "Exact : condition a) — des fonds propres librement disponibles couvrent le surendettement (art. 6 al. 1 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-105",
+   "champ": "4.9.1 Surendettée — condition b)",
+   "memento": "M4 §Surendettée",
+   "question": "Deuxième condition alternative pour la fusion d'une société surendettée :",
+   "options": [
+    "la postposition de créances à hauteur du surendettement",
+    "la distribution d'un dividende exceptionnel",
+    "la conversion obligatoire de la dette en capital",
+    "la nomination d'un curateur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : condition b) — postposition de créances à hauteur du surendettement (art. 6 al. 1bis LFus).",
+    "Faux : un dividende exceptionnel n'est pas une condition d'assainissement (art. 6 LFus).",
+    "Faux : la conversion de dette en capital n'est pas la condition posée (art. 6 LFus).",
+    "Faux : la désignation d'un curateur n'est pas prévue par l'art. 6 LFus."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-106",
+   "champ": "4.9.1 Surendettée — condition c)",
+   "memento": "M4 §Surendettée",
+   "question": "Troisième condition alternative pour la fusion d'une société surendettée :",
+   "options": [
+    "que la société soit radiée puis reconstituée",
+    "que les créances des créanciers connus soient garanties",
+    "que le capital-actions soit intégralement libéré",
+    "que les actionnaires renoncent à leurs parts"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : aucune radiation-reconstitution n'est prévue (art. 6 LFus).",
+    "Exact : condition c) — les créances des créanciers connus sont garanties (art. 6 LFus).",
+    "Faux : la libération du capital n'est pas la condition posée (art. 6 LFus).",
+    "Faux : la renonciation des actionnaires à leurs parts n'est pas exigée (art. 6 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-107",
+   "champ": "4.9.1 Surendettée — attestation",
+   "memento": "M4 §Surendettée",
+   "question": "Quel document supplémentaire la fusion d'une société surendettée requiert-elle ?",
+   "options": [
+    "Une simple déclaration du conseil d'administration",
+    "Une décision du juge du concordat",
+    "Une attestation d'un expert-réviseur agréé confirmant que l'une des conditions est remplie",
+    "Un rapport de l'autorité de surveillance"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une simple déclaration du CA ne suffit pas ; il faut l'attestation d'un expert-réviseur agréé (art. 6 al. 2 LFus).",
+    "Faux : ce n'est pas une décision du juge du concordat qui est requise (art. 6 al. 2 LFus).",
+    "Exact : une attestation d'un expert-réviseur agréé est exigée en sus (art. 6 al. 2 LFus).",
+    "Faux : aucun rapport d'une autorité de surveillance n'est requis (art. 6 al. 2 LFus)."
+   ],
+   "piege": "D7",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-108",
+   "champ": "4.9.1 Surendettée — variante la plus large",
+   "memento": "M4 §Pièges QCM",
+   "question": "B SA est surendettée et veut fusionner. Quelle formulation des conditions est correcte ?",
+   "options": [
+    "La fusion n'est possible que si des fonds propres couvrent le surendettement OU en cas de postposition",
+    "La fusion n'est possible que si les créanciers connus sont garantis",
+    "La fusion n'est possible que si des fonds propres librement disponibles couvrent le surendettement",
+    "La fusion n'est possible que si des fonds propres couvrent le surendettement OU en cas de postposition à hauteur du surendettement OU si les créances des créanciers connus sont garanties"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : cette variante omet la garantie des créanciers connus (art. 6 LFus).",
+    "Faux : c'est une variante partielle ; les trois conditions sont alternatives (art. 6 LFus).",
+    "Faux : variante partielle ne citant qu'une seule condition (art. 6 LFus).",
+    "Exact : la bonne réponse est la variante la plus large réunissant les trois alternatives (art. 6 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-109",
+   "champ": "4.9.1 Surendettée — variante la plus large",
+   "memento": "M4 §Pièges QCM",
+   "question": "Pourquoi une réponse ne citant que la postposition de créances est-elle fausse pour la fusion d'une société surendettée ?",
+   "options": [
+    "Parce que les conditions de l'art. 6 sont alternatives : la réponse correcte doit englober les trois (fonds propres OU postposition OU créances garanties)",
+    "Parce que seule la garantie des créanciers connus est admise",
+    "Parce que la fusion d'une société surendettée est toujours interdite",
+    "Parce que la postposition n'est jamais admise"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les trois conditions sont alternatives ; une variante n'en citant qu'une est incomplète (art. 6 LFus).",
+    "Faux : la garantie des créanciers connus n'est pas la seule condition ; il y en a trois alternatives (art. 6 LFus).",
+    "Faux : la fusion d'une société surendettée est possible sous conditions (art. 6 LFus).",
+    "Faux : la postposition est bien l'une des conditions admises (art. 6 al. 1bis LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-110",
+   "champ": "4.10.1 PME — renonciations",
+   "memento": "M4 §PME",
+   "question": "À quelles étapes une PME peut-elle renoncer dans une opération LFus ?",
+   "options": [
+    "Au contrat de base et à l'inscription au registre du commerce",
+    "Au rapport, à la vérification et au droit de consultation",
+    "À la protection des créanciers",
+    "À la décision de l'AG uniquement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ni le contrat de base ni l'inscription ne peuvent être écartés (art. 12, 21 LFus).",
+    "Exact : la PME peut renoncer au rapport, à la vérification et au droit de consultation (art. 14/39/61, 15/40/62, 16/41/63 al. 2 LFus).",
+    "Faux : la protection des créanciers n'est pas une étape à laquelle on renonce ainsi (art. 25 ss LFus).",
+    "Faux : les allègements PME ne se limitent pas à la décision d'AG (art. 14 ss al. 2 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-111",
+   "champ": "4.10.1 PME — renonciations",
+   "memento": "M4 §PME",
+   "question": "Les allègements PME s'appliquent-ils opération par opération avec les mêmes fondements légaux ?",
+   "options": [
+    "Oui, mais uniquement pour le transfert de patrimoine",
+    "Non, ils sont réglés par un article unique valant pour toutes les opérations",
+    "Oui, chaque opération dispose de son alinéa 2 (rapport, vérification, consultation) : fusion, scission, transformation",
+    "Non, seule la fusion connaît des allègements PME"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les allègements concernent fusion, scission, transformation (art. 14 ss al. 2 LFus).",
+    "Faux : les allègements figurent dans chaque régime opératoire, non dans un article unique (art. 14 ss al. 2 LFus).",
+    "Exact : chaque opération a son alinéa 2 (rapport 14/39/61, vérification 15/40/62, consultation 16/41/63).",
+    "Faux : la scission et la transformation connaissent aussi ces allègements (art. 39, 61 al. 2 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-112",
+   "champ": "4.10.2 PME — seuils",
+   "memento": "M4 §PME",
+   "question": "Une société est une PME au sens de la LFus si, sur les deux derniers exercices, elle ne dépasse pas :",
+   "options": [
+    "un seul des trois seuils",
+    "les seuils de bilan 10 mio et CA 20 mio",
+    "les trois seuils cumulés (bilan 20 mio, CA 40 mio, 200 EPT)",
+    "deux des trois seuils (bilan 20 mio, CA 40 mio, 200 EPT)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est le dépassement de deux seuils qui compte, pas d'un seul (art. 2 let. e LFus).",
+    "Faux : les seuils sont 20 mio / 40 mio / 200 EPT, non 10/20 (art. 2 let. e LFus).",
+    "Faux : le critère porte sur deux des trois seuils, non les trois cumulés (art. 2 let. e LFus).",
+    "Exact : ne pas dépasser deux des trois seuils (bilan 20 mio, CA 40 mio, 200 EPT) sur 2 exercices (art. 2 let. e LFus)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-113",
+   "champ": "4.10.2 PME — seuils",
+   "memento": "M4 §PME",
+   "question": "Outre les seuils chiffrés, quelles conditions négatives caractérisent une PME au sens LFus ?",
+   "options": [
+    "N'être ni cotée en bourse, ni débitrice d'un emprunt par obligations",
+    "Ne pas détenir de filiale et ne pas distribuer de dividende",
+    "Ne pas être inscrite au registre du commerce",
+    "Ne pas employer d'apprentis et ne pas exporter"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la PME n'est ni cotée, ni débitrice d'un emprunt par obligations (art. 2 let. e LFus).",
+    "Faux : la détention de filiale ou la distribution de dividende ne figurent pas parmi les critères (art. 2 let. e LFus).",
+    "Faux : une PME est au contraire inscrite au registre du commerce (art. 2 let. e LFus).",
+    "Faux : ni l'emploi d'apprentis ni l'exportation ne sont des critères (art. 2 let. e LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-114",
+   "champ": "4.10.3 PME — accord de tous",
+   "memento": "M4 §PME",
+   "question": "À quelle condition impérative les allègements PME peuvent-ils être appliqués ?",
+   "options": [
+    "à la majorité qualifiée des associés",
+    "avec l'accord de tous les associés",
+    "sur décision du seul organe de direction",
+    "avec l'accord de la majorité du capital"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une majorité qualifiée ne suffit pas ; l'unanimité est requise (art. 14 ss LFus).",
+    "Exact : les allègements PME supposent l'accord de tous les associés (art. 14 ss LFus).",
+    "Faux : l'organe de direction ne peut décider seul des allègements (art. 14 ss LFus).",
+    "Faux : la majorité du capital ne suffit pas ; il faut l'accord de tous (art. 14 ss LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-115",
+   "champ": "4.10.3 PME — accord de tous",
+   "memento": "M4 §Pièges QCM",
+   "question": "Une réponse d'examen affirme que les allègements PME « se rapportent uniquement à l'établissement du rapport de fusion ». Pourquoi est-elle fausse ?",
+   "options": [
+    "Parce que les allègements exigent l'accord de la majorité",
+    "Parce que les allègements ne concernent jamais le rapport",
+    "Parce qu'elle décrit un contenu partiel des allègements, alors que la seule assertion correcte porte sur l'accord de tous les associés",
+    "Parce que le rapport ne peut jamais faire l'objet d'une renonciation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : c'est l'accord de tous, non de la majorité, qui est requis (art. 14 ss LFus).",
+    "Faux : le rapport fait bien partie des allègements possibles (art. 14 al. 2 LFus).",
+    "Exact : la formulation décrit un contenu partiel ; l'assertion juste porte sur la condition d'accord de tous les associés (art. 14 ss LFus).",
+    "Faux : le rapport peut précisément faire l'objet d'une renonciation (art. 14 al. 2 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M4-116",
+   "champ": "4.11.1 Effet — inscription RC",
+   "memento": "M4 §Effets",
+   "question": "À quel moment une fusion, une scission, une transformation ou un transfert de patrimoine produit-il ses effets ?",
+   "options": [
+    "à la décision de l'assemblée générale",
+    "à la publication dans la FOSC",
+    "à la signature du contrat ou projet",
+    "à l'inscription au registre du commerce"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la décision de l'AG précède l'inscription et ne produit pas encore les effets (art. 22 LFus).",
+    "Faux : la publication FOSC n'est pas le fait générateur des effets (art. 22 LFus).",
+    "Faux : la signature du contrat ne suffit pas à produire les effets (art. 22/52/67/73 LFus).",
+    "Exact : les effets se produisent à l'inscription au registre du commerce (art. 22, 52, 67, 73 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-117",
+   "champ": "4.11.1 Effet — inscription RC",
+   "memento": "M4 §Effets",
+   "question": "Deux sociétés ont signé leur contrat de fusion et l'AG a voté. La succession universelle est-elle déjà réalisée ?",
+   "options": [
+    "Non : les effets ne se produisent qu'à l'inscription au registre du commerce",
+    "Oui, dès la signature du contrat",
+    "Non : il faut attendre la publication au registre foncier",
+    "Oui, dès le vote de l'AG"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la succession universelle opère à l'inscription au registre du commerce (art. 22 LFus).",
+    "Faux : la signature du contrat ne déclenche pas les effets (art. 22 LFus).",
+    "Faux : l'effet dépend du registre du commerce, non du registre foncier (art. 22 LFus).",
+    "Faux : le vote de l'AG ne réalise pas encore le transfert (art. 22 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-118",
+   "champ": "4.11.2 Immeubles — extra-tabulaire",
+   "memento": "M4 §Effets",
+   "question": "Comment les immeubles d'une société transférante passent-ils à la reprenante en fusion ?",
+   "options": [
+    "Par inscription constitutive au registre foncier",
+    "Par succession universelle, sans inscription au registre foncier (acquisition extra-tabulaire)",
+    "Par acte de vente notarié pour chaque immeuble",
+    "Ils ne sont jamais transférés automatiquement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'inscription au RF n'est pas constitutive du transfert en fusion (art. 656 al. 2 CC).",
+    "Exact : les immeubles passent par succession universelle, sans inscription au RF (acquisition extra-tabulaire) (art. 656 al. 2 CC / 104 LFus).",
+    "Faux : aucun acte de vente individuel n'est nécessaire (succession universelle) (art. 22 LFus).",
+    "Faux : les immeubles sont bien transférés automatiquement à l'inscription au RC (art. 22 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-119",
+   "champ": "4.11.2 Immeubles — extra-tabulaire",
+   "memento": "M4 §Effets",
+   "question": "B SA, propriétaire de terrains, est absorbée. Quand la propriété des terrains passe-t-elle à la reprenante ?",
+   "options": [
+    "à la conclusion du contrat de fusion",
+    "à l'inscription au registre foncier",
+    "à l'inscription au registre du commerce",
+    "à la décision de fusion de l'AG"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la conclusion du contrat ne suffit pas à transférer la propriété (art. 22 LFus).",
+    "Faux : le transfert est extra-tabulaire ; le registre foncier n'est pas constitutif (art. 656 al. 2 CC).",
+    "Exact : la propriété passe à l'inscription au registre du commerce (art. 22 LFus).",
+    "Faux : la décision d'AG ne réalise pas encore le transfert (art. 22 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-120",
+   "champ": "4.11.2 Immeubles — inscription RF pour disposer",
+   "memento": "M4 §Effets",
+   "question": "À quoi sert alors l'inscription au registre foncier après une acquisition extra-tabulaire ?",
+   "options": [
+    "À transférer enfin la propriété, restée jusque-là chez la transférante",
+    "Elle n'a aucune utilité",
+    "À valider rétroactivement la fusion",
+    "À permettre à la reprenante de disposer ensuite de l'immeuble (le vendre, le grever)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la propriété a déjà passé à l'inscription au RC ; le RF n'est pas constitutif ici (art. 22 LFus).",
+    "Faux : l'inscription RF a une utilité : disposer ultérieurement de l'immeuble (art. 656 al. 2 CC).",
+    "Faux : l'inscription RF ne valide pas la fusion (art. 656 al. 2 CC).",
+    "Exact : l'inscription au RF est requise pour que la reprenante puisse ensuite disposer de l'immeuble (art. 656 al. 2 CC)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-121",
+   "champ": "4.11.3 Rétroactivité — civile",
+   "memento": "M4 §Effets",
+   "question": "Existe-t-il une rétroactivité civile de la fusion (effets remontant avant l'inscription) ?",
+   "options": [
+    "Non : civilement, les effets ne se produisent qu'à l'inscription au registre du commerce",
+    "Oui, à la date de la décision de l'AG",
+    "Oui, à la date d'ouverture de l'exercice",
+    "Oui, à la date de signature du contrat"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : civilement, les effets naissent à l'inscription au RC, sans rétroactivité (art. 22 LFus).",
+    "Faux : la décision d'AG ne fonde pas une rétroactivité civile (art. 22 LFus).",
+    "Faux : l'ouverture de l'exercice ne déclenche pas d'effets civils rétroactifs (art. 22 LFus).",
+    "Faux : il n'y a pas de rétroactivité civile à la signature (art. 22 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-122",
+   "champ": "4.11.3 Rétroactivité — fiscale",
+   "memento": "M4 §Effets",
+   "question": "Une rétroactivité est-elle admise sur le plan fiscal ?",
+   "options": [
+    "Non, jamais",
+    "Oui, une rétroactivité fiscale est possible (circulaire AFC n° 5a)",
+    "Oui, mais uniquement pour la TVA",
+    "Non, sauf décision du registre du commerce"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une rétroactivité fiscale est admise, contrairement à la rétroactivité civile (circ. AFC n° 5a).",
+    "Exact : la rétroactivité fiscale est possible selon la circulaire AFC n° 5a.",
+    "Faux : elle ne se limite pas à la TVA ; elle concerne les restructurations (circ. AFC n° 5a).",
+    "Faux : la rétroactivité fiscale relève de l'AFC, non du registre du commerce (circ. AFC n° 5a)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-123",
+   "champ": "4.12.1 Responsabilité — art. 108",
+   "memento": "M4 §Responsabilité",
+   "question": "Quel est le fondement de la responsabilité des personnes qui s'occupent d'une opération LFus (dommage causé aux sociétés, associés, créanciers) ?",
+   "options": [
+    "art. 754 CO",
+    "art. 41 CO",
+    "art. 108 LFus",
+    "art. 39-40 LFus"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 754 CO concerne la responsabilité des organes de la SA, non le régime propre de la LFus.",
+    "Faux : la responsabilité spécifique aux opérations LFus n'est pas fondée sur l'art. 41 CO général.",
+    "Exact : l'art. 108 LFus fonde la responsabilité de toute personne s'occupant de l'opération.",
+    "Faux : les art. 39-40 LFus régissent le rapport et la vérification de scission, pas la responsabilité."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-124",
+   "champ": "4.12.1 Responsabilité — art. 108",
+   "memento": "M4 §Responsabilité",
+   "question": "À quelle condition subjective la responsabilité de l'art. 108 LFus est-elle engagée ?",
+   "options": [
+    "uniquement en cas de faute grave",
+    "sans faute (responsabilité causale)",
+    "uniquement en cas d'intention",
+    "en cas d'intention ou de négligence"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la simple négligence suffit, pas seulement la faute grave (art. 108 LFus).",
+    "Faux : ce n'est pas une responsabilité causale ; une faute (intention ou négligence) est requise (art. 108 LFus).",
+    "Faux : la responsabilité n'est pas limitée à l'intention (art. 108 LFus).",
+    "Exact : le dommage causé intentionnellement ou par négligence engage la responsabilité (art. 108 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-125",
+   "champ": "4.12.1 Responsabilité — organe de vérification",
+   "memento": "M4 §Responsabilité",
+   "question": "L'organe de vérification (expert-réviseur) peut-il voir sa responsabilité engagée au titre de l'art. 108 LFus ?",
+   "options": [
+    "Oui, l'art. 108 inclut l'organe de vérification parmi les personnes responsables",
+    "Non, seule sa responsabilité pénale peut être recherchée",
+    "Oui, mais uniquement envers les associés",
+    "Non, il est expressément exclu du champ de l'art. 108"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 108 LFus vise toute personne s'occupant de l'opération, y compris l'organe de vérification.",
+    "Faux : sa responsabilité civile (dommage) est visée, pas seulement le pénal (art. 108 LFus).",
+    "Faux : la responsabilité joue envers les sociétés, les associés et les créanciers, pas seulement les associés (art. 108 LFus).",
+    "Faux : l'expert-réviseur n'est pas exclu ; il entre dans le champ de l'art. 108 LFus."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-126",
+   "champ": "4.12.1 Responsabilité — action ouverte",
+   "memento": "M4 §Responsabilité",
+   "question": "L'action en responsabilité de l'art. 108 LFus est notamment ouverte :",
+   "options": [
+    "au seul registre du commerce",
+    "aux créanciers et aux travailleurs lésés",
+    "à l'autorité fiscale exclusivement",
+    "à aucune personne extérieure à la société"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le registre du commerce n'est pas titulaire de l'action (art. 108 LFus).",
+    "Exact : l'art. 108 LFus fonde l'action en responsabilité ouverte aux créanciers et travailleurs.",
+    "Faux : l'action n'est pas réservée à l'autorité fiscale (art. 108 LFus).",
+    "Faux : des personnes extérieures (créanciers, travailleurs) peuvent agir (art. 108 LFus)."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-127",
+   "champ": "4.7.3 Transformation — droits du travailleur",
+   "memento": "M4 §Protections c)",
+   "question": "Madame Schmid travaille pour X Sàrl. Cette société envisage de transformer sa forme juridique en une société anonyme. De quels droits Madame Schmid dispose-t-elle, en tant qu'employée, dans le cadre de la transformation?",
+   "options": [
+    "Droits d'information / de consultation",
+    "Garantie des créances",
+    "Refus du transfert du rapport de travail",
+    "Aucun"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : en transformation, l'employeur reste le même ; il n'y a pas de transfert et donc pas d'information/consultation à ce titre (art. 68 LFus).",
+    "Faux : la transformation ne prévoit pas de garantie des créances (substrat de responsabilité inchangé).",
+    "Faux : il n'y a pas de transfert du rapport de travail à refuser, l'employeur ne changeant pas (art. 68 LFus, art. 333 CO n'est pas déclenché).",
+    "Exact : la transformation ne changeant pas d'employeur, la travailleuse ne dispose d'aucun de ces droits spécifiques (art. 68 LFus)."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-128",
+   "champ": "4.1.1 Fusion — valeurs transférées",
+   "memento": "M4 §Pièges QCM",
+   "question": "Z SA souhaite fusionner avec Y SA pour devenir ZY SA. Quelles valeurs patrimoniales sont transférées à la nouvelle société ZY SA en cas de fusion?",
+   "options": [
+    "Uniquement les actifs et passifs que Y SA a mentionnés dans un inventaire de fusion",
+    "Tous les actifs et passifs qui figurent dans les bilans de Z SA et de Y SA",
+    "Les actifs et passifs que Z SA déclare prendre en charge dans le rapport de fusion",
+    "Les actifs et passifs que Z SA et Y SA mentionnent dans le contrat de fusion"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la fusion opère une succession universelle totale ; elle n'est pas délimitée par un inventaire (l'inventaire vaut pour scission/transfert, art. 37/71).",
+    "Exact : par succession universelle totale, tous les actifs et passifs des bilans passent à la société issue de la fusion (art. 3, 22 LFus).",
+    "Faux : le transfert n'est pas limité à ce que le rapport de fusion mentionne ; il est universel (art. 3 LFus).",
+    "Faux : le transfert n'est pas circonscrit aux éléments listés dans le contrat ; il porte sur l'ensemble du patrimoine (art. 3 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-129",
+   "champ": "4.2.3 Scission — contrat vs projet",
+   "memento": "M4 §Pièges QCM",
+   "question": "Il est prévu de démembrer le secteur d'activité Médecine de B SA vers la nouvelle société B Médecine SA à constituer. Quelle affirmation concernant cette transaction est correcte?",
+   "options": [
+    "Avant la séparation de la partie distincte d'exploitation «Médecine», B SA doit fonder B Médecine SA et conclure ensuite avec cette dernière un contrat de scission.",
+    "B SA ne doit pas faire d'appel aux créanciers car elle reçoit des actions de B Médecine SA en contrepartie de la séparation de la partie distincte d'exploitation «Médecine».",
+    "B SA peut fonder B Médecine SA en même temps que la séparation de la partie distincte d'exploitation «Médecine» et doit pour cela établir un projet de scission.",
+    "B SA ne doit procéder à l'appel aux créanciers qu'une fois la scission inscrite au registre du commerce. En effet, elle reçoit des actions de B Médecine SA en contrepartie de la séparation de la partie distincte d'exploitation «Médecine»."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la fondation préalable puis un contrat n'est pas exigée ; vers une société à créer, on établit un projet de scission (art. 36 LFus).",
+    "Faux : la scission n'est pas dispensée de l'appel/avis aux créanciers du fait de la remise d'actions (art. 45-46 LFus).",
+    "Exact : la société bénéficiaire peut être fondée simultanément, ce qui suppose un projet de scission (art. 36 LFus).",
+    "Faux : l'avis aux créanciers en scission intervient avant l'AG, non après l'inscription (art. 45, 43 al. 1 LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-130",
+   "champ": "4.7.3 Transformation — responsabilité résiduelle",
+   "memento": "M4 §Pièges QCM",
+   "question": "H est associé et gérant de B.+ H. Sàrl qui doit être transformée en une SA. H ne désire assumer aucune fonction de gestion ou de membre du CA dans la SA suite à la transformation. De quelles créances H répond-il encore après la transformation?",
+   "options": [
+    "Des créances envers la société pour laquelle la responsabilité personnelle de H était engagée avant la transformation",
+    "De toutes les créances envers la société pour lesquelles des créanciers ont exigé des sûretés",
+    "Des créances envers la société qui sont indiquées dans le bilan de transformation",
+    "Après la transformation, H ne répond plus d'aucune créance envers la société"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la responsabilité personnelle subsiste pour les créances pour lesquelles H était déjà personnellement engagé avant la transformation (art. 68 al. 1 → art. 26 LFus).",
+    "Faux : la responsabilité résiduelle ne se rattache pas aux sûretés exigées, mais aux engagements antérieurs (art. 68 → 26 LFus).",
+    "Faux : ce n'est pas le bilan de transformation qui délimite la responsabilité résiduelle (art. 68 → 26 LFus).",
+    "Faux : H répond encore des créances antérieures pour lesquelles sa responsabilité personnelle était engagée (art. 68 → 26 LFus)."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-131",
+   "champ": "4.5.3 Vérification — objet et qualité",
+   "memento": "M4 §Pièges QCM",
+   "question": "La société A SA souhaite reprendre B SA. Les deux sociétés sont soumises au contrôle ordinaire. Un accord a pu être trouvé avec les actionnaires de B SA; en échange de leurs actions dans cette dernière, ils obtiennent les actions de A SA émises en vue de la fusion. Une fois la reprise réalisée, seule A SA subsistera. Vous êtes chargé de l'audit en vertu du droit des fusions. Laquelle des assertions suivantes est correcte?",
+   "options": [
+    "Seul le contrat de fusion et le rapport de fusion doivent être vérifiés par un(e) expert(e)-réviseur(se) agréé(e).",
+    "Le contrat de fusion, le rapport de fusion et le bilan sur lequel se base la fusion doivent être vérifiés par un(e) expert(e)-réviseur(se).",
+    "Le contrat de fusion et le rapport de fusion doivent être vérifiés par un(e) expert(e)-réviseur(se) agréé(e).",
+    "Le contrat de fusion, le rapport de fusion et le bilan sur lequel se base la fusion doivent être vérifiés par un(e) expert(e)-réviseur(se) agréé(e)."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'objet de la vérification inclut aussi le bilan de fusion, absent ici (art. 15 LFus).",
+    "Faux : il manque l'exigence « agréé » : le vérificateur doit être un expert-réviseur agréé (art. 15 LFus).",
+    "Faux : le bilan sur lequel se base la fusion doit aussi être vérifié (art. 15 LFus).",
+    "Exact : les trois éléments (contrat, rapport, bilan) sont vérifiés par un expert-réviseur agréé (art. 15 LFus)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-132",
+   "champ": "4.9.1 Surendettée — variante la plus large",
+   "memento": "M4 §Surendettée",
+   "question": "La société A SA souhaite reprendre B SA. Un accord a pu être trouvé avec les actionnaires de B SA; en échange de leurs actions dans cette dernière, ils obtiennent les actions de A SA émises en vue de la fusion. Une fois la reprise réalisée, seule A SA subsistera. La société B SA est surendettée. La transaction peut-elle quand même être exécutée?",
+   "options": [
+    "La fusion n'est possible que lorsque les créanciers connus sont garantis.",
+    "La fusion n'est possible que lorsque des capitaux propres dont il est possible de disposer librement sont disponibles à hauteur du surendettement.",
+    "La fusion n'est possible que lorsque des capitaux propres dont il est possible de disposer librement sont disponibles à hauteur du surendettement ou en cas de postposition à hauteur du surendettement.",
+    "La fusion n'est possible que lorsque des capitaux propres dont il est possible de disposer librement sont disponibles à hauteur du surendettement ou en cas de postposition à hauteur du surendettement ou si les créances des créanciers connus sont garanties."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : variante partielle ; les conditions de l'art. 6 sont alternatives et doivent toutes être mentionnées (art. 6 LFus).",
+    "Faux : variante partielle ne citant que les fonds propres librement disponibles (art. 6 al. 1 LFus).",
+    "Faux : variante encore incomplète, omettant la garantie des créanciers connus (art. 6 LFus).",
+    "Exact : la formulation la plus large réunit les trois alternatives (fonds propres OU postposition OU créances garanties), art. 6 LFus."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-133",
+   "champ": "4.11.2 Immeubles — moment du transfert",
+   "memento": "M4 §Effets",
+   "question": "La société A SA souhaite reprendre B SA. Un accord a pu être trouvé avec les actionnaires de B SA; en échange de leurs actions dans cette dernière, ils obtiennent les actions de A SA émises en vue de la fusion. Une fois la reprise réalisée, seule A SA subsistera. La société B SA est propriétaire de plusieurs terrains. Laquelle des assertions suivantes est correcte?",
+   "options": [
+    "La propriété des terrains est automatiquement transférée avec la décision de fusion de l'assemblée générale.",
+    "La propriété des terrains est automatiquement transférée avec l'inscription au registre du commerce.",
+    "La propriété des terrains est automatiquement transférée avec l'inscription au registre foncier.",
+    "La propriété des terrains est automatiquement transférée avec la conclusion du contrat de fusion."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la décision de l'AG ne réalise pas encore le transfert (art. 22 LFus).",
+    "Exact : la propriété des immeubles passe automatiquement à l'inscription au registre du commerce (succession universelle, acquisition extra-tabulaire — art. 22 LFus, art. 656 al. 2 CC).",
+    "Faux : le transfert est extra-tabulaire ; l'inscription au registre foncier n'est pas constitutive (art. 656 al. 2 CC).",
+    "Faux : la conclusion du contrat ne transfère pas la propriété (art. 22 LFus)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M4-134",
+   "champ": "4.10.3 Allègements PME — accord de tous",
+   "memento": "M4 §Pièges QCM",
+   "question": "La société A SA souhaite reprendre B SA. Les deux sociétés sont soumises au contrôle restreint. Un accord a pu être trouvé avec les actionnaires de B SA; en échange de leurs actions dans cette dernière, ils obtiennent les actions de A SA émises en vue de la fusion. Une fois la reprise réalisée, seule A SA subsistera. Laquelle des assertions suivantes est correcte? Les allègements pour les PME dans la LFus ...",
+   "options": [
+    "... se rapportent uniquement à l'établissement du rapport de fusion.",
+    "... se rapportent uniquement à l'établissement du rapport de fusion et à la vérification du contrat de fusion, du rapport de fusion et du bilan.",
+    "... se rapportent uniquement à l'établissement du rapport de fusion et au droit à la consultation des associés.",
+    "... ne peuvent être appliqués qu'avec l'accord de tous les associés."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : cette formulation décrit un contenu partiel des allègements, pas la condition légale (art. 14 ss LFus).",
+    "Faux : idem, elle énumère des objets d'allègement sans exprimer la condition impérative (art. 14 ss LFus).",
+    "Faux : encore une description partielle du contenu, pas la condition d'application (art. 14 ss LFus).",
+    "Exact : les allègements PME supposent impérativement l'accord de tous les associés (art. 14 ss LFus)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "exam-sample"
+  }
+ ]
+}

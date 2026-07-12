@@ -1,0 +1,13 @@
+# Fichiers de travail
+.travail/
+*.tmp
+
+# Matériel de cours / calibrage — NE PAS publier (le dépôt ne contient que le quiz + les questions)
+coverage/
+
+# Outillage de build local
+build/
+
+# Divers OS / éditeurs
+Thumbs.db
+.DS_Store

@@ -1,0 +1,4187 @@
+{
+ "cours": "droit",
+ "module": "M5",
+ "titre": "Droit pénal & blanchiment",
+ "questions": [
+  {
+   "id": "M5-001",
+   "champ": "5.1 Punissabilité — ordre des 3 verrous",
+   "memento": "M5 §1",
+   "question": "Dans quel ordre le droit pénal suisse teste-t-il les trois conditions cumulatives de la punissabilité ?",
+   "options": [
+    "Typicité, puis illicéité, puis culpabilité",
+    "Illicéité, puis typicité, puis culpabilité",
+    "Culpabilité, puis typicité, puis illicéité",
+    "Typicité, puis culpabilité, puis illicéité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : typicité → illicéité → culpabilité, dans cet ordre, chaque étage supposant le précédent franchi.",
+    "Faux : on ne discute jamais l'illicéité d'un acte qui n'est pas d'abord typique (art. 10 ss CP, structure tripartite).",
+    "Faux : la culpabilité est le dernier étage, pas le premier ; inutile d'examiner le reproche d'un acte non typique.",
+    "Faux : l'illicéité précède la culpabilité (on vérifie l'absence de justification avant le reproche personnel)."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-002",
+   "champ": "5.1 Punissabilité — caractère cumulatif",
+   "memento": "M5 §1",
+   "question": "Que se passe-t-il si l'une des trois conditions de punissabilité fait défaut ?",
+   "options": [
+    "L'auteur reste punissable si les deux autres sont remplies",
+    "La peine est simplement atténuée",
+    "Il n'y a pas de peine : les trois conditions sont cumulatives",
+    "L'acte devient une simple contravention"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les conditions sont cumulatives, pas alternatives.",
+    "Faux : l'absence d'une condition exclut la peine, elle ne l'atténue pas (l'atténuation relève de la culpabilité restreinte, art. 19 al. 2 CP).",
+    "Exact : typicité, illicéité et culpabilité sont cumulatives ; une seule absente = pas de peine.",
+    "Faux : ce n'est pas un déclassement en contravention, c'est l'absence d'infraction."
+   ],
+   "piege": "D5",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-003",
+   "champ": "5.1 Punissabilité — ordre des étages",
+   "memento": "M5 §1",
+   "question": "Un acte n'est pas typique. Que peut-on en conclure sans autre examen ?",
+   "options": [
+    "Il faut encore vérifier l'illicéité pour conclure",
+    "L'analyse s'arrête : pas d'infraction, donc pas de peine",
+    "Il faut vérifier la culpabilité de l'auteur",
+    "L'acte est punissable au titre de la tentative"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : sans typicité, l'examen de l'illicéité est superflu.",
+    "Exact : la typicité est le premier verrou ; absente, l'analyse s'arrête (pas d'infraction).",
+    "Faux : la culpabilité ne se discute que pour un acte déjà typique et illicite.",
+    "Faux : la tentative suppose le commencement d'exécution d'une infraction typique (art. 22 CP)."
+   ],
+   "piege": "D10",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-004",
+   "champ": "5.1 Punissabilité — nature des verrous",
+   "memento": "M5 §1",
+   "question": "Que vérifie précisément l'étage de la « typicité » ?",
+   "options": [
+    "Que l'auteur avait l'âge et le discernement requis",
+    "Qu'aucun fait justificatif ne couvre l'acte",
+    "Que l'auteur peut personnellement se voir reprocher l'acte",
+    "Que le comportement réalise, point par point, la description légale d'une infraction"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'âge et le discernement relèvent de la culpabilité (art. 9, 19 CP).",
+    "Faux : l'absence de fait justificatif relève de l'illicéité (art. 14 ss CP).",
+    "Faux : le reproche personnel relève de la culpabilité, dernier étage.",
+    "Exact : la typicité vérifie l'adéquation du comportement à l'état de fait décrit par l'infraction."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-005",
+   "champ": "5.1 Punissabilité — typicité subjective",
+   "memento": "M5 §1",
+   "question": "La typicité comporte deux faces successives. Lesquelles ?",
+   "options": [
+    "Typicité objective (état de fait extérieur), puis typicité subjective (état d'esprit, art. 12 CP)",
+    "Typicité légale, puis typicité extralégale",
+    "Typicité matérielle, puis typicité formelle",
+    "Typicité de l'auteur, puis typicité de la victime"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : on vérifie d'abord ce qui s'est passé (objective), puis l'état d'esprit — intention ou négligence (subjective, art. 12 CP).",
+    "Faux : la distinction légal/extralégal concerne les faits justificatifs (illicéité), pas la typicité.",
+    "Faux : matérielle/formelle qualifie l'infraction selon l'exigence d'un résultat, ce n'est pas la structure de la typicité.",
+    "Faux : la typicité ne se dédouble pas en auteur/victime."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-006",
+   "champ": "5.1 Cercle d'auteurs — ordinaire vs propre pure",
+   "memento": "M5 §1",
+   "question": "Qu'est-ce qu'une infraction « propre pure » quant au cercle d'auteurs ?",
+   "options": [
+    "Une infraction que peut commettre quiconque",
+    "Une infraction qui ne se commet que par omission",
+    "Une infraction réservée à une personne dotée d'une qualité particulière",
+    "Une infraction poursuivie uniquement sur plainte"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : « quiconque » décrit l'infraction ordinaire (ex. assassinat, art. 112 CP).",
+    "Faux : le mode de commission (omission) est une autre grille d'analyse.",
+    "Exact : l'infraction propre pure exige une qualité spéciale de l'auteur (ex. infanticide réservé à la mère, art. 116 CP).",
+    "Faux : le régime de la plainte est indépendant du cercle d'auteurs."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-007",
+   "champ": "5.1 Cercle d'auteurs — exemple",
+   "memento": "M5 §1",
+   "question": "L'assassinat (art. 112 CP) illustre quel type de cercle d'auteurs ?",
+   "options": [
+    "Une infraction propre pure (qualité spéciale exigée)",
+    "Une infraction ordinaire (l'auteur peut être quiconque)",
+    "Une infraction de commission par omission",
+    "Une infraction exclusivement de négligence"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'assassinat n'exige aucune qualité particulière de l'auteur.",
+    "Exact : l'assassinat (art. 112 CP) est une infraction ordinaire — l'auteur peut être quiconque.",
+    "Faux : c'est une infraction d'action, pas de commission par omission.",
+    "Faux : l'assassinat est intentionnel, pas une infraction de négligence."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-008",
+   "champ": "5.1 Cercle d'auteurs — infanticide",
+   "memento": "M5 §1",
+   "question": "L'infanticide (art. 116 CP) est l'exemple d'école de quelle catégorie ?",
+   "options": [
+    "Infraction ordinaire",
+    "Infraction formelle sans résultat",
+    "Contravention",
+    "Infraction propre pure (réservée à la mère)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'infanticide n'est pas ouvert à quiconque.",
+    "Faux : c'est une infraction matérielle (la mort survient).",
+    "Faux : c'est un homicide, un crime/délit, pas une contravention.",
+    "Exact : l'infanticide (art. 116 CP) est réservé à la mère pendant l'accouchement ou sous l'état puerpéral : infraction propre pure."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-009",
+   "champ": "5.1 Comportement — commission par omission",
+   "memento": "M5 §1",
+   "question": "À quelle condition l'inaction d'une personne peut-elle réaliser une « commission par omission » (art. 11 CP) ?",
+   "options": [
+    "Elle doit être tenue d'un devoir particulier d'empêcher le résultat (position de garant)",
+    "Il suffit qu'un devoir général d'agir existât",
+    "Il faut qu'elle ait agi intentionnellement",
+    "Il faut que la victime ait porté plainte"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la commission par omission suppose une position de garant, un devoir juridique particulier d'empêcher le résultat (art. 11 CP).",
+    "Faux : le devoir général caractérise l'omission proprement dite (ex. art. 128 CP), pas la commission par omission.",
+    "Faux : l'intention est une question de typicité subjective, distincte de la structure omissive.",
+    "Faux : la plainte est sans rapport avec la qualification du comportement."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-010",
+   "champ": "5.1 Comportement — omission propre",
+   "memento": "M5 §1",
+   "question": "L'omission de prêter secours (art. 128 CP) illustre quel type de comportement ?",
+   "options": [
+    "Une action",
+    "Une commission par omission (position de garant)",
+    "Une omission proprement dite (violation d'un devoir général d'agir)",
+    "Une tentative inachevée"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : il n'y a pas d'acte positif, mais une passivité.",
+    "Faux : la commission par omission suppose un devoir particulier de garant (art. 11 CP), pas un devoir général.",
+    "Exact : art. 128 CP réprime la passivité face à un devoir général de porter secours : omission proprement dite.",
+    "Faux : ce n'est pas une figure de la tentative."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-011",
+   "champ": "5.1 Comportement — action",
+   "memento": "M5 §1",
+   "question": "Le meurtre (art. 111 CP) est le type même de quel comportement ?",
+   "options": [
+    "Une omission proprement dite",
+    "Une action (comportement actif)",
+    "Une commission par omission",
+    "Une infraction formelle"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'omission proprement dite est illustrée par l'art. 128 CP.",
+    "Exact : le meurtre (art. 111 CP) est réalisé par un comportement actif : c'est une action.",
+    "Faux : la commission par omission suppose une position de garant (art. 11 CP).",
+    "Faux : le meurtre est une infraction matérielle (résultat : la mort), pas formelle."
+   ],
+   "piege": "D4",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-012",
+   "champ": "5.1 Causalité — naturelle et adéquate",
+   "memento": "M5 §1",
+   "question": "Dans une infraction matérielle, quel double lien de causalité doit être établi ?",
+   "options": [
+    "Causalité naturelle uniquement",
+    "Causalité adéquate uniquement",
+    "Causalité hypothétique uniquement",
+    "Causalité naturelle (conditio sine qua non) ET adéquate (cours ordinaire des choses)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la seule causalité naturelle ne suffit pas, il faut aussi l'adéquation.",
+    "Faux : l'adéquation présuppose la causalité naturelle.",
+    "Faux : la causalité hypothétique est propre aux omissions, pas au cas général.",
+    "Exact : il faut la causalité naturelle (sans le comportement, pas de résultat) et adéquate (le comportement était propre à produire ce résultat selon le cours ordinaire des choses)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-013",
+   "champ": "5.1 Causalité — hypothétique (omission)",
+   "memento": "M5 §1",
+   "question": "En cas d'omission, quelle forme prend l'exigence de causalité ?",
+   "options": [
+    "Elle devient hypothétique : l'acte omis aurait-il, avec une vraisemblance confinant à la certitude, évité le résultat ?",
+    "Elle disparaît totalement",
+    "Elle se limite à la causalité adéquate",
+    "Elle exige une causalité directe et immédiate"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : pour l'omission, on raisonne en causalité hypothétique — l'acte attendu aurait-il, quasi certainement, évité le résultat.",
+    "Faux : la causalité n'est pas supprimée, elle se pose autrement.",
+    "Faux : l'adéquation ne remplace pas le raisonnement hypothétique propre à l'omission.",
+    "Faux : la causalité « directe et immédiate » n'est pas le critère de l'omission."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-014",
+   "champ": "5.1 Infraction matérielle vs formelle",
+   "memento": "M5 §1",
+   "question": "Qu'est-ce qui distingue une infraction matérielle d'une infraction formelle ?",
+   "options": [
+    "La matérielle est un crime, la formelle un délit",
+    "La matérielle se poursuit d'office, la formelle sur plainte",
+    "La matérielle exige un résultat distinct du comportement ; la formelle est réalisée par le seul acte",
+    "La matérielle est intentionnelle, la formelle par négligence"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la distinction crime/délit dépend de la peine-menace (art. 10 CP), pas de l'exigence d'un résultat.",
+    "Faux : le régime de poursuite est indépendant de cette distinction.",
+    "Exact : l'infraction matérielle suppose un résultat séparé (ex. la mort dans le meurtre) ; la formelle est consommée par le seul acte réprimé.",
+    "Faux : matérielle/formelle ne recoupe pas intention/négligence."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-015",
+   "champ": "5.1 Infraction matérielle vs formelle",
+   "memento": "M5 §1",
+   "question": "Pourquoi la distinction matérielle/formelle commande-t-elle l'analyse de la causalité ?",
+   "options": [
+    "Parce que la causalité ne concerne que les infractions formelles",
+    "Parce que la causalité ne s'examine que là où un résultat doit survenir (infraction matérielle)",
+    "Parce que la causalité remplace l'exigence d'intention",
+    "Parce que la causalité détermine la qualité de crime"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est l'inverse — l'infraction formelle n'exige pas de résultat, donc pas de causalité à démontrer.",
+    "Exact : il n'y a de lien de causalité à établir que dans les infractions matérielles, où un résultat distinct doit survenir.",
+    "Faux : la causalité ne se substitue pas à l'intention (typicité subjective).",
+    "Faux : la qualité de crime dépend de la peine-menace (art. 10 CP)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-016",
+   "champ": "5.1 Crime vs délit — seuil",
+   "memento": "M5 §1",
+   "question": "À partir de quelle peine-menace une infraction est-elle un « crime » au sens de l'art. 10 CP ?",
+   "options": [
+    "Peine privative de liberté de plus de 1 an",
+    "Peine privative de liberté de plus de 5 ans",
+    "Toute peine pécuniaire",
+    "Peine privative de liberté de plus de 3 ans"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le seuil n'est pas d'un an.",
+    "Faux : le seuil du crime est de 3 ans, pas 5.",
+    "Faux : une peine pécuniaire caractérise plutôt le délit/la contravention, pas le crime.",
+    "Exact : est un crime l'infraction passible d'une peine privative de liberté de plus de 3 ans (art. 10 CP)."
+   ],
+   "piege": "D3",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-017",
+   "champ": "5.1 Crime vs délit — appréciation abstraite",
+   "memento": "M5 §1",
+   "question": "Comment apprécie-t-on si une infraction est un crime (art. 10 CP) ?",
+   "options": [
+    "D'après la peine-menace abstraite (variante la plus lourde prévue par la loi)",
+    "D'après la peine effectivement prononcée dans le cas concret",
+    "D'après la gravité du dommage causé",
+    "D'après le casier judiciaire de l'auteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la qualification s'apprécie abstraitement, d'après la peine-menace de la variante la plus lourde (art. 10 CP).",
+    "Faux : ce n'est pas la peine concrète qui compte.",
+    "Faux : le montant du dommage n'entre pas dans la définition du crime.",
+    "Faux : les antécédents sont sans effet sur la qualification abstraite."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-018",
+   "champ": "5.1 Crime vs délit — enjeu blanchiment",
+   "memento": "M5 §1",
+   "question": "Pourquoi la notion abstraite de « crime » (art. 10 CP) est-elle décisive pour le blanchiment ?",
+   "options": [
+    "Parce que seuls les crimes se poursuivent sur plainte",
+    "Parce que le blanchiment n'est punissable qu'entre commerçants",
+    "Parce que seul le produit d'un crime (ou d'un délit fiscal qualifié) peut être blanchi (art. 305bis CP)",
+    "Parce que le crime supprime l'exigence d'intention"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les crimes se poursuivent en principe d'office.",
+    "Faux : le blanchiment ne suppose aucune qualité de commerçant.",
+    "Exact : l'infraction préalable au blanchiment doit être un crime (ou un délit fiscal qualifié) — d'où l'enjeu de la qualification abstraite (art. 305bis CP).",
+    "Faux : le blanchiment reste une infraction intentionnelle (art. 305bis CP)."
+   ],
+   "piege": "D9",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-019",
+   "champ": "5.1 Crime vs délit — appréciation abstraite (variante)",
+   "memento": "M5 §1",
+   "question": "Une infraction dont la variante la plus lourde est passible de 5 ans est concrètement sanctionnée d'une peine pécuniaire. Est-ce un crime ?",
+   "options": [
+    "Non, car la peine prononcée est pécuniaire",
+    "Oui, car la qualification s'apprécie abstraitement d'après la peine-menace la plus lourde (art. 10 CP)",
+    "Non, car il faut au moins une peine ferme",
+    "Cela dépend de l'existence d'une plainte"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la peine concrètement prononcée est sans effet sur la qualification.",
+    "Exact : peine-menace de 5 ans > 3 ans, appréciée abstraitement → crime, quelle que soit la peine finalement prononcée (art. 10 CP).",
+    "Faux : le caractère ferme de la peine n'entre pas dans la définition du crime.",
+    "Faux : la plainte n'influe pas sur la qualification crime/délit."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-020",
+   "champ": "5.1 Objet & bien juridique",
+   "memento": "M5 §1",
+   "question": "Dans la grille de typicité objective, que désigne le « bien juridique protégé » ?",
+   "options": [
+    "L'objet matériel physiquement atteint uniquement",
+    "La peine encourue par l'auteur",
+    "La qualité personnelle de l'auteur",
+    "La valeur ou l'intérêt que l'infraction vise à défendre (ex. le patrimoine d'autrui)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'objet matériel (ex. la chose volée) est distinct du bien juridique protégé.",
+    "Faux : la peine est la conséquence, pas le bien juridique.",
+    "Faux : la qualité de l'auteur relève du cercle d'auteurs.",
+    "Exact : le bien juridique est l'intérêt protégé par la norme (patrimoine, confiance dans les titres, administration de la justice…)."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-021",
+   "champ": "5.1 Objet & bien juridique",
+   "memento": "M5 §1",
+   "question": "Classer les infractions économiques par « bien juridique protégé » sert surtout à…",
+   "options": [
+    "Orienter immédiatement vers la bonne qualification d'un cas",
+    "Calculer la peine",
+    "Déterminer le délai de plainte",
+    "Fixer la compétence territoriale"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : identifier le bien juridique (patrimoine, secret, place économique…) oriente vers la qualification adéquate.",
+    "Faux : la peine dépend d'autres facteurs (art. 47 CP).",
+    "Faux : le délai de plainte est fixé par l'art. 31 CP indépendamment du bien juridique.",
+    "Faux : la compétence territoriale suit d'autres règles."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-022",
+   "champ": "5.1 Tentative — notion",
+   "memento": "M5 §1",
+   "question": "Quand y a-t-il tentative punissable (art. 22 CP) ?",
+   "options": [
+    "Dès la simple pensée criminelle",
+    "Uniquement lorsque le résultat est atteint",
+    "Dès que l'auteur a commencé l'exécution de l'infraction sans que le résultat survienne",
+    "Uniquement pour les contraventions"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la pensée non extériorisée n'est pas punissable.",
+    "Faux : si le résultat survient, l'infraction est consommée, pas seulement tentée.",
+    "Exact : la tentative (art. 22 CP) suppose le commencement d'exécution sans survenance du résultat.",
+    "Faux : la tentative concerne les crimes et délits, pas les contraventions."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-023",
+   "champ": "5.1 Tentative — typologie",
+   "memento": "M5 §1",
+   "question": "Comment se décline la tentative selon le cours ?",
+   "options": [
+    "Directe / indirecte / éventuelle",
+    "Inachevée / achevée / invalide",
+    "Matérielle / formelle / abstraite",
+    "Simple / aggravée / privilégiée"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : direct/éventuel qualifie le dol, pas la tentative.",
+    "Exact : tentative inachevée (geste non terminé), achevée (tout fait, résultat manquant), invalide (moyen/objet inapte) — art. 22 CP.",
+    "Faux : matérielle/formelle qualifie l'infraction, pas la tentative.",
+    "Faux : simple/aggravée/privilégiée décrit des variantes d'infractions, non la tentative."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-024",
+   "champ": "5.1 Tentative — renonciation",
+   "memento": "M5 §1",
+   "question": "Quel effet la loi attache-t-elle à la tentative (art. 22 CP) ?",
+   "options": [
+    "La peine est toujours identique à celle de l'infraction consommée",
+    "La tentative n'est jamais punissable",
+    "La tentative est punie plus sévèrement que l'infraction consommée",
+    "La peine peut être atténuée, et l'auteur peut échapper à la peine s'il renonce ou empêche le résultat"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la peine de la tentative peut être atténuée.",
+    "Faux : la tentative de crime ou de délit est punissable.",
+    "Faux : la tentative n'est pas aggravée par rapport à l'infraction consommée.",
+    "Exact : art. 22 CP — la peine peut être atténuée ; l'auteur qui renonce ou empêche le résultat peut échapper à la peine (al. 2)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-025",
+   "champ": "5.1 Participation — instigation vs complicité",
+   "memento": "M5 §1",
+   "question": "Quelle est la différence de traitement entre instigation (art. 24) et complicité (art. 25 CP) ?",
+   "options": [
+    "L'instigateur est puni comme l'auteur ; le complice voit sa peine atténuée",
+    "Le complice est puni comme l'auteur ; l'instigateur voit sa peine atténuée",
+    "Les deux sont exemptés de peine",
+    "Les deux sont punis plus sévèrement que l'auteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'instigateur (décide autrui) est puni comme l'auteur (art. 24) ; le complice (assistance secondaire) a une peine atténuée (art. 25 CP).",
+    "Faux : c'est l'inverse.",
+    "Faux : ni l'un ni l'autre n'est exempté de principe.",
+    "Faux : ils ne sont pas punis plus sévèrement que l'auteur."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-026",
+   "champ": "5.1 Participation — instigation",
+   "memento": "M5 §1",
+   "question": "En quoi consiste l'instigation (art. 24 CP) ?",
+   "options": [
+    "Prêter une assistance secondaire à l'auteur",
+    "Exécuter soi-même l'infraction",
+    "Décider intentionnellement autrui à commettre l'infraction",
+    "Omettre d'empêcher l'infraction"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'assistance secondaire est la complicité (art. 25 CP).",
+    "Faux : exécuter soi-même, c'est être auteur.",
+    "Exact : l'instigateur décide intentionnellement autrui à commettre l'infraction (art. 24 CP) et est puni comme l'auteur.",
+    "Faux : l'omission d'empêcher relève de la commission par omission (art. 11 CP)."
+   ],
+   "piege": "D4",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-027",
+   "champ": "5.1 Participation — complicité",
+   "memento": "M5 §1",
+   "question": "Le complice (art. 25 CP) est celui qui…",
+   "options": [
+    "décide autrui à commettre l'infraction",
+    "prête une assistance secondaire à la commission de l'infraction, avec une peine atténuée",
+    "commet seul l'infraction",
+    "omet de porter secours"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : décider autrui, c'est instiguer (art. 24 CP).",
+    "Exact : le complice prête une assistance secondaire ; sa peine est atténuée (art. 25 CP).",
+    "Faux : commettre seul, c'est être auteur.",
+    "Faux : l'omission de secours est l'art. 128 CP, sans lien avec la complicité."
+   ],
+   "piege": "D10",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-028",
+   "champ": "5.1 Actes préparatoires (art. 260bis)",
+   "memento": "M5 §1",
+   "question": "Les actes préparatoires délictueux (art. 260bis CP) sont réprimés…",
+   "options": [
+    "pour toute infraction du code pénal",
+    "seulement s'ils causent un dommage",
+    "seulement sur plainte de la victime",
+    "à titre exceptionnel, pour une liste limitative de crimes graves"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la répression des actes préparatoires est l'exception, non la règle.",
+    "Faux : c'est justement une répression en amont, sans dommage réalisé.",
+    "Faux : ces infractions se poursuivent d'office.",
+    "Exact : art. 260bis CP — répression exceptionnelle, limitée à une liste de crimes graves (meurtre, assassinat, brigandage, prise d'otage, génocide…)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-029",
+   "champ": "5.1 Actes préparatoires (art. 260bis)",
+   "memento": "M5 §1",
+   "question": "Lequel de ces actes NE figure PAS parmi les crimes visés par la liste limitative de l'art. 260bis CP ?",
+   "options": [
+    "Escroquerie",
+    "Assassinat",
+    "Prise d'otage",
+    "Brigandage"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'escroquerie (art. 146 CP) ne figure pas dans la liste limitative de crimes graves de l'art. 260bis CP.",
+    "Faux : l'assassinat figure dans la liste de l'art. 260bis CP.",
+    "Faux : la prise d'otage figure dans la liste.",
+    "Faux : le brigandage figure dans la liste."
+   ],
+   "piege": "D7",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-030",
+   "champ": "5.2 Illicéité — présomption",
+   "memento": "M5 §3",
+   "question": "Quel est le statut d'un acte typique du point de vue de l'illicéité ?",
+   "options": [
+    "Il est présumé licite jusqu'à preuve du contraire",
+    "Il est toujours illicite, sans exception",
+    "Il est présumé illicite ; la présomption tombe s'il existe un fait justificatif",
+    "Son illicéité dépend de la culpabilité de l'auteur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'acte typique est présumé illicite, non licite.",
+    "Faux : un fait justificatif peut rendre l'acte licite.",
+    "Exact : l'acte typique est présumé illicite ; cette présomption tombe en présence d'un fait justificatif (art. 14 ss CP).",
+    "Faux : l'illicéité s'examine avant et indépendamment de la culpabilité."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-031",
+   "champ": "5.2 Illicéité — effet du fait justificatif",
+   "memento": "M5 §3",
+   "question": "Quel est l'effet d'un fait justificatif (ex. art. 15 CP) ?",
+   "options": [
+    "Il excuse seulement l'auteur, l'acte restant illicite",
+    "Il rend l'acte licite, donc pas punissable du tout",
+    "Il atténue la peine sans supprimer l'infraction",
+    "Il transforme le crime en délit"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'excuse (culpabilité) laisse subsister l'illicéité ; le fait justificatif, lui, l'efface.",
+    "Exact : un fait justificatif rend l'acte licite (pas seulement excusé) : il n'est pas punissable.",
+    "Faux : le fait justificatif supprime l'infraction, il n'atténue pas la peine.",
+    "Faux : il ne modifie pas la qualification crime/délit."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-032",
+   "champ": "5.2 Illicéité — art. 14 CP",
+   "memento": "M5 §3",
+   "question": "Le policier qui procède à une arrestation régulière bénéficie de quel fait justificatif ?",
+   "options": [
+    "La légitime défense (art. 15 CP)",
+    "L'état de nécessité licite (art. 17 CP)",
+    "Le consentement de la victime",
+    "Les actes autorisés ou ordonnés par la loi (art. 14 CP)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il n'y a pas d'attaque à repousser.",
+    "Faux : l'état de nécessité suppose un danger imminent à écarter, non une compétence légale.",
+    "Faux : le consentement de la personne arrêtée n'est ni requis ni pertinent.",
+    "Exact : art. 14 CP — celui qui agit comme la loi l'ordonne ou l'autorise se comporte licitement."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-033",
+   "champ": "5.2 Illicéité — légitime défense",
+   "memento": "M5 §3",
+   "question": "Quelles conditions pose la légitime défense (art. 15 CP) ?",
+   "options": [
+    "Une attaque actuelle ou imminente, repoussée par une défense proportionnée",
+    "Une attaque passée et une riposte de n'importe quelle intensité",
+    "Un danger naturel imminent menaçant un bien",
+    "Un ordre de l'autorité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 15 CP — repousser par une défense proportionnée une attaque actuelle ou imminente.",
+    "Faux : la riposte à une attaque passée n'est plus une défense ; la proportionnalité est requise.",
+    "Faux : un danger (naturel) relève de l'état de nécessité (art. 17 CP), pas de la légitime défense.",
+    "Faux : l'ordre de l'autorité relève de l'art. 14 CP."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-034",
+   "champ": "5.2 Illicéité — légitime défense (attaque)",
+   "memento": "M5 §3",
+   "question": "La légitime défense (art. 15 CP) répond à…",
+   "options": [
+    "un danger (naturel ou fortuit)",
+    "une simple menace verbale future et lointaine",
+    "une attaque émanant d'une personne",
+    "un ordre illégal de l'autorité"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le danger (non une attaque) relève de l'état de nécessité (art. 17/18 CP).",
+    "Faux : une menace future et lointaine n'est pas une attaque actuelle ou imminente.",
+    "Exact : la légitime défense (art. 15/16 CP) repousse une attaque d'une personne, actuelle ou imminente.",
+    "Faux : réagir à un ordre illégal ne relève pas de la légitime défense."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-035",
+   "champ": "5.2 Illicéité — proportionnalité",
+   "memento": "M5 §3",
+   "question": "Que devient l'acte si la riposte de défense excède ce qui était proportionné ?",
+   "options": [
+    "Il reste pleinement justifié par l'art. 15 CP",
+    "L'excès sort de la légitime défense (art. 15) et se traite au niveau de la culpabilité (art. 16 CP)",
+    "Il devient automatiquement une escroquerie",
+    "Il n'est jamais punissable"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'excès n'est plus couvert par la justification de l'art. 15 CP.",
+    "Exact : l'excès de légitime défense se règle à l'étage de la culpabilité (défense excusable / absolument excusable, art. 16 CP).",
+    "Faux : aucun lien avec l'escroquerie.",
+    "Faux : l'excès non excusable reste punissable."
+   ],
+   "piege": "D3",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-036",
+   "champ": "5.2 Illicéité — état de nécessité licite",
+   "memento": "M5 §3",
+   "question": "Quelle est la condition centrale de l'état de nécessité licite (art. 17 CP) ?",
+   "options": [
+    "Repousser une attaque actuelle d'une personne",
+    "Agir sur ordre d'un supérieur hiérarchique",
+    "Obtenir le consentement du lésé",
+    "Sacrifier un bien pour en sauver un autre de valeur prépondérante, face à un danger imminent"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : repousser une attaque relève de la légitime défense (art. 15 CP).",
+    "Faux : l'ordre hiérarchique relève plutôt de l'art. 14 CP.",
+    "Faux : le consentement est un fait justificatif distinct.",
+    "Exact : art. 17 CP — préserver d'un danger imminent un bien de valeur prépondérante en sacrifiant un bien de moindre valeur, l'acte devenant licite."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-037",
+   "champ": "5.2 Illicéité — nécessité licite (exemple)",
+   "memento": "M5 §3",
+   "question": "Forcer une porte pour éteindre un début d'incendie relève de quel fait justificatif ?",
+   "options": [
+    "L'état de nécessité licite (art. 17 CP)",
+    "La légitime défense (art. 15 CP)",
+    "Les actes ordonnés par la loi (art. 14 CP)",
+    "La gestion d'affaires sans mandat"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sacrifier la porte (bien moindre) pour éviter l'incendie (bien prépondérant) = état de nécessité licite (art. 17 CP).",
+    "Faux : il n'y a pas d'attaque d'une personne à repousser.",
+    "Faux : aucune loi n'ordonne spécifiquement l'acte ici.",
+    "Faux : la gestion d'affaires sans mandat vise la gestion des intérêts d'autrui, pas ce cas d'urgence typé nécessité."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-038",
+   "champ": "5.2 Illicéité — faits justificatifs légaux",
+   "memento": "M5 §3",
+   "question": "Lequel de ces faits justificatifs est un fait justificatif LÉGAL (prévu par le code) ?",
+   "options": [
+    "Le consentement du titulaire du bien juridique",
+    "La sauvegarde d'intérêts légitimes",
+    "La légitime défense (art. 15 CP)",
+    "La gestion d'affaires sans mandat"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le consentement est un fait justificatif extralégal.",
+    "Faux : la sauvegarde d'intérêts légitimes est extralégale.",
+    "Exact : la légitime défense (art. 15 CP) est un fait justificatif légal, expressément prévu par le code.",
+    "Faux : la gestion d'affaires sans mandat est extralégale."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-039",
+   "champ": "5.2 Illicéité — faits justificatifs extralégaux",
+   "memento": "M5 §3",
+   "question": "Lequel de ces faits justificatifs est EXTRALÉGAL (dégagé par la doctrine/jurisprudence) ?",
+   "options": [
+    "Les actes autorisés par la loi (art. 14 CP)",
+    "Le consentement du titulaire du bien juridique",
+    "La légitime défense (art. 15 CP)",
+    "L'état de nécessité licite (art. 17 CP)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 14 CP est un fait justificatif légal.",
+    "Exact : le consentement du titulaire du bien juridique est un fait justificatif extralégal.",
+    "Faux : la légitime défense (art. 15 CP) est légale.",
+    "Faux : l'état de nécessité licite (art. 17 CP) est légal."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-040",
+   "champ": "5.2 Illicéité — consentement",
+   "memento": "M5 §3",
+   "question": "Le consentement du titulaire du bien juridique protégé…",
+   "options": [
+    "est sans effet sur l'illicéité",
+    "n'excuse l'auteur qu'au stade de la culpabilité",
+    "aggrave la peine",
+    "peut rendre l'acte licite (fait justificatif extralégal)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le consentement valable peut supprimer l'illicéité.",
+    "Faux : il agit sur l'illicéité, non sur la seule culpabilité.",
+    "Faux : il n'aggrave pas la peine, il peut la supprimer.",
+    "Exact : le consentement du titulaire du bien juridique est un fait justificatif extralégal rendant l'acte licite."
+   ],
+   "piege": "D1",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-041",
+   "champ": "5.2 Illicéité — sauvegarde d'intérêts légitimes",
+   "memento": "M5 §3",
+   "question": "La « sauvegarde d'intérêts légitimes » se range parmi…",
+   "options": [
+    "les faits justificatifs extralégaux",
+    "les causes d'atténuation de la culpabilité",
+    "les éléments de la typicité subjective",
+    "les circonstances aggravantes"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la sauvegarde d'intérêts légitimes est un fait justificatif extralégal (illicéité).",
+    "Faux : elle agit sur l'illicéité, pas sur la culpabilité.",
+    "Faux : elle n'a rien d'un élément subjectif de typicité.",
+    "Faux : ce n'est pas une circonstance aggravante."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-042",
+   "champ": "5.2 Illicéité — pair/impair",
+   "memento": "M5 §4",
+   "question": "Selon le repère « pair/impair », à quel étage joue chaque numéro ?",
+   "options": [
+    "Impair (15, 17) = culpabilité ; pair (16, 18) = illicéité",
+    "Tous jouent au niveau de la typicité",
+    "Impair (15, 17) = illicéité ; pair (16, 18) = culpabilité",
+    "Tous jouent au niveau de la culpabilité"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : c'est l'inverse.",
+    "Faux : ces articles ne concernent pas la typicité.",
+    "Exact : les numéros impairs (15 légitime défense, 17 nécessité licite) justifient (illicéité) ; les pairs (16, 18) excusent (culpabilité).",
+    "Faux : les impairs jouent sur l'illicéité, pas la culpabilité."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-043",
+   "champ": "5.2 Illicéité — attaque vs danger",
+   "memento": "M5 §4",
+   "question": "Comment distinguer la paire 15/16 de la paire 17/18 ?",
+   "options": [
+    "15/16 répondent à un danger ; 17/18 répondent à une attaque",
+    "15/16 répondent à une attaque ; 17/18 répondent à un danger",
+    "Les deux paires répondent à une attaque",
+    "Les deux paires répondent à un danger naturel"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est l'inverse.",
+    "Exact : 15/16 (légitime défense) répondent à une attaque d'une personne ; 17/18 (nécessité) répondent à un danger.",
+    "Faux : seule la paire 15/16 vise l'attaque.",
+    "Faux : seule la paire 17/18 vise le danger."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-044",
+   "champ": "5.2 Illicéité — nécessité 17 vs 18",
+   "memento": "M5 §4",
+   "question": "Quelle différence d'étage entre l'état de nécessité de l'art. 17 CP et celui de l'art. 18 CP ?",
+   "options": [
+    "17 = culpabilité ; 18 = illicéité",
+    "Les deux jouent au niveau de l'illicéité",
+    "Les deux jouent au niveau de la typicité",
+    "17 = illicéité (acte licite) ; 18 = culpabilité (excuse)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est l'inverse.",
+    "Faux : seul l'art. 17 CP agit sur l'illicéité.",
+    "Faux : aucun des deux ne relève de la typicité.",
+    "Exact : l'état de nécessité licite (art. 17 CP) justifie l'acte (illicéité) ; l'état de nécessité excusable (art. 18 CP) supprime le reproche (culpabilité)."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-045",
+   "champ": "5.3 Culpabilité — âge",
+   "memento": "M5 §4",
+   "question": "Quel est l'effet de l'incapacité liée à l'âge (mineur) sur la culpabilité ?",
+   "options": [
+    "Elle exclut le régime ordinaire : l'auteur relève du droit pénal des mineurs (art. 9 al. 2 CP · art. 3 DPMin)",
+    "Elle atténue seulement la peine",
+    "Elle est sans effet",
+    "Elle transforme le crime en délit"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 9 al. 2 CP et art. 3 DPMin — le mineur échappe au code pénal ordinaire et relève du droit pénal des mineurs.",
+    "Faux : ce n'est pas une simple atténuation.",
+    "Faux : l'âge a un effet déterminant sur le régime applicable.",
+    "Faux : l'âge ne modifie pas la qualification crime/délit."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-046",
+   "champ": "5.3 Culpabilité — irresponsabilité",
+   "memento": "M5 §4",
+   "question": "Quel est l'effet de l'irresponsabilité totale (art. 19 al. 1 CP) ?",
+   "options": [
+    "Elle atténue la peine",
+    "Elle est sans effet si l'acte est typique",
+    "Elle exclut la peine (pas de culpabilité)",
+    "Elle n'exclut que l'illicéité"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'irresponsabilité totale exclut, elle n'atténue pas.",
+    "Faux : l'irresponsabilité joue précisément malgré la typicité de l'acte.",
+    "Exact : art. 19 al. 1 CP — l'incapacité totale d'apprécier l'illicéité ou de se déterminer exclut la peine.",
+    "Faux : elle agit sur la culpabilité, non sur l'illicéité."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-047",
+   "champ": "5.3 Culpabilité — responsabilité restreinte",
+   "memento": "M5 §4",
+   "question": "La responsabilité restreinte (art. 19 al. 2 CP) produit quel effet ?",
+   "options": [
+    "Elle exclut toute peine",
+    "Elle atténue la peine (altération seulement partielle)",
+    "Elle aggrave la peine",
+    "Elle n'a d'effet qu'en matière de crime"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'exclusion correspond à l'irresponsabilité totale (al. 1).",
+    "Exact : art. 19 al. 2 CP — capacité partiellement altérée → peine atténuée, non supprimée.",
+    "Faux : elle réduit la peine, ne l'aggrave pas.",
+    "Faux : elle vaut pour crimes et délits."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-048",
+   "champ": "5.3 Culpabilité — erreur sur l'illicéité",
+   "memento": "M5 §4",
+   "question": "Quel effet a l'erreur sur l'illicéité selon l'art. 21 CP ?",
+   "options": [
+    "Elle exclut toujours la peine",
+    "Elle est indifférente au caractère évitable de l'erreur",
+    "Elle supprime la typicité de l'acte",
+    "Elle exclut la peine si l'erreur était inévitable ; sinon elle atténue"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : seule l'erreur inévitable exclut la peine.",
+    "Faux : le caractère évitable est précisément déterminant.",
+    "Faux : l'erreur sur l'illicéité joue sur la culpabilité, pas sur la typicité.",
+    "Exact : art. 21 CP — celui qui se croyait, pour des raisons suffisantes, en droit d'agir n'est pas punissable si l'erreur était inévitable ; sinon, peine atténuée."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-049",
+   "champ": "5.3 Culpabilité — erreur sur l'illicéité (seuil)",
+   "memento": "M5 §4",
+   "question": "Une erreur sur l'illicéité était en l'espèce évitable. Conséquence (art. 21 CP) ?",
+   "options": [
+    "La peine est atténuée, mais non supprimée",
+    "La peine est exclue",
+    "Aucun effet : l'auteur est puni normalement",
+    "L'acte devient licite"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 21 CP — erreur évitable → atténuation de la peine, sans suppression.",
+    "Faux : l'exclusion suppose une erreur inévitable.",
+    "Faux : l'erreur évitable produit tout de même une atténuation.",
+    "Faux : l'erreur sur l'illicéité ne rend pas l'acte licite (elle joue sur la culpabilité)."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-050",
+   "champ": "5.3 Culpabilité — défense excusable vs absolument excusable",
+   "memento": "M5 §4",
+   "question": "Quelle différence d'effet entre la défense excusable (art. 16 al. 1) et absolument excusable (art. 16 al. 2 CP) ?",
+   "options": [
+    "al. 1 exclut la peine ; al. 2 l'atténue",
+    "les deux excluent la peine",
+    "al. 1 atténue la peine ; al. 2 l'écarte",
+    "les deux atténuent la peine"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : c'est l'inverse des effets.",
+    "Faux : seul l'al. 2 écarte la peine.",
+    "Exact : art. 16 CP — défense excusable (al. 1) → peine atténuée ; défense absolument excusable (al. 2, excitation extrême) → peine écartée.",
+    "Faux : l'al. 2 écarte la peine, il ne l'atténue pas seulement."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-051",
+   "champ": "5.3 Culpabilité — nécessité excusable vs absolument excusable",
+   "memento": "M5 §4",
+   "question": "L'état de nécessité de l'art. 18 CP : quelle est la différence entre al. 1 et al. 2 ?",
+   "options": [
+    "al. 1 écarte la peine ; al. 2 l'atténue",
+    "al. 1 (excusable) atténue ; al. 2 (absolument excusable) écarte la peine",
+    "les deux rendent l'acte licite",
+    "les deux jouent au niveau de l'illicéité"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est l'inverse des effets.",
+    "Exact : art. 18 CP — nécessité excusable (al. 1) → atténuation ; absolument excusable (al. 2) → peine écartée ; le tout au niveau de la culpabilité.",
+    "Faux : l'art. 18 CP excuse, il ne rend pas l'acte licite (c'est l'art. 17 CP qui justifie).",
+    "Faux : l'art. 18 CP joue sur la culpabilité, pas sur l'illicéité."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-052",
+   "champ": "5.3 Culpabilité — actio libera in causa",
+   "memento": "M5 §4",
+   "question": "Que prévoit l'actio libera in causa (art. 19 al. 4 CP) ?",
+   "options": [
+    "L'irresponsabilité provoquée exclut toujours la peine",
+    "L'auteur ivre bénéficie automatiquement d'une atténuation",
+    "L'auteur est exempté s'il n'a pas prévu son ivresse",
+    "L'auteur qui s'est fautivement mis hors d'état ne peut pas se prévaloir de son irresponsabilité"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'irresponsabilité fautivement provoquée ne profite pas à l'auteur.",
+    "Faux : l'ivresse volontaire ne donne pas droit à une atténuation automatique.",
+    "Faux : ce n'est pas le critère retenu par l'art. 19 al. 4 CP.",
+    "Exact : art. 19 al. 4 CP — celui qui s'est fautivement placé en état d'irresponsabilité ne peut invoquer l'al. 1 ou 2."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-053",
+   "champ": "5.3 Culpabilité — irresponsabilité fautive (art. 263)",
+   "memento": "M5 §4",
+   "question": "L'acte commis en état d'irresponsabilité fautive (ivresse volontaire) est traité comme…",
+   "options": [
+    "une infraction distincte réprimée par l'art. 263 CP",
+    "un acte licite",
+    "une simple contravention en tous cas",
+    "un cas d'exclusion totale de responsabilité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 263 CP — l'acte commis en état d'irresponsabilité fautivement provoqué constitue une infraction propre.",
+    "Faux : il n'est pas licite.",
+    "Faux : ce n'est pas systématiquement une contravention.",
+    "Faux : l'irresponsabilité provoquée ne libère pas l'auteur (cf. art. 19 al. 4 et 263 CP)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-054",
+   "champ": "5.3 Culpabilité — exclusion vs atténuation",
+   "memento": "M5 §4",
+   "question": "Parmi ces circonstances, laquelle ATTÉNUE seulement la culpabilité (sans l'exclure) ?",
+   "options": [
+    "Irresponsabilité totale (art. 19 al. 1 CP)",
+    "Incapacité liée à l'âge (art. 9 al. 2 CP)",
+    "Responsabilité restreinte (art. 19 al. 2 CP)",
+    "Erreur sur l'illicéité inévitable (art. 21 CP)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'irresponsabilité totale exclut la peine (art. 19 al. 1 CP).",
+    "Faux : l'âge exclut le régime ordinaire (art. 9 al. 2 CP).",
+    "Exact : la responsabilité restreinte (art. 19 al. 2 CP) atténue seulement la peine.",
+    "Faux : l'erreur inévitable exclut la peine (art. 21 CP)."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-055",
+   "champ": "5.3 Culpabilité — exclusion vs atténuation",
+   "memento": "M5 §4",
+   "question": "Parmi ces circonstances, laquelle EXCLUT la peine (et non l'atténue) ?",
+   "options": [
+    "Responsabilité restreinte (art. 19 al. 2 CP)",
+    "Irresponsabilité totale (art. 19 al. 1 CP)",
+    "Défense excusable (art. 16 al. 1 CP)",
+    "État de nécessité excusable (art. 18 al. 1 CP)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la responsabilité restreinte atténue (art. 19 al. 2 CP).",
+    "Exact : l'irresponsabilité totale (art. 19 al. 1 CP) exclut la peine.",
+    "Faux : la défense excusable atténue (art. 16 al. 1 CP).",
+    "Faux : l'état de nécessité excusable atténue (art. 18 al. 1 CP)."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-056",
+   "champ": "5.3 Culpabilité — notion",
+   "memento": "M5 §4",
+   "question": "Que vérifie l'étage de la culpabilité ?",
+   "options": [
+    "Que l'acte correspond à la description légale",
+    "Qu'aucun fait justificatif ne couvre l'acte",
+    "Que le résultat s'est produit",
+    "Que l'acte peut être personnellement reproché à cet auteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la correspondance à la loi relève de la typicité.",
+    "Faux : l'absence de justification relève de l'illicéité.",
+    "Faux : la survenance du résultat relève de la typicité objective (infraction matérielle).",
+    "Exact : la culpabilité vérifie le reproche personnel (capacité de faute : âge, discernement, absence d'erreur excusable)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-057",
+   "champ": "5.3 Culpabilité — DPMin",
+   "memento": "M5 §4",
+   "question": "Quel texte fixe l'âge à partir duquel le droit pénal des mineurs s'applique ?",
+   "options": [
+    "L'art. 3 DPMin (complétant l'art. 9 CP)",
+    "L'art. 19 CP",
+    "L'art. 21 CP",
+    "L'art. 263 CP"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 3 DPMin fixe le champ d'application à raison de l'âge, en complément de l'art. 9 CP.",
+    "Faux : l'art. 19 CP vise l'irresponsabilité/responsabilité restreinte.",
+    "Faux : l'art. 21 CP vise l'erreur sur l'illicéité.",
+    "Faux : l'art. 263 CP vise l'irresponsabilité fautive."
+   ],
+   "piege": "D9",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-058",
+   "champ": "5.4 Dol direct",
+   "memento": "M5 §2",
+   "question": "Comment se caractérise le dol direct (art. 12 CP) ?",
+   "options": [
+    "L'auteur prévoit le résultat comme possible et s'en accommode",
+    "L'auteur prévoit le résultat comme possible mais espère qu'il n'arrivera pas",
+    "L'auteur prévoit le résultat comme certain/recherché/étape nécessaire et le veut",
+    "L'auteur ne prévoit pas le résultat"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : « possible + s'en accommode » décrit le dol éventuel.",
+    "Faux : « possible + espère qu'il n'arrivera pas » décrit la négligence consciente.",
+    "Exact : dol direct = conscience du résultat certain/recherché/nécessaire + volonté de le réaliser (art. 12 CP).",
+    "Faux : « ne prévoit pas » décrit la négligence inconsciente."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-059",
+   "champ": "5.4 Dol éventuel",
+   "memento": "M5 §2",
+   "question": "Le dol éventuel (art. 12 CP) suppose que l'auteur…",
+   "options": [
+    "recherche activement le résultat",
+    "tient le résultat pour possible et s'en accommode (« passe outre »)",
+    "tient le résultat pour possible mais espère qu'il ne surviendra pas",
+    "ignore totalement le risque"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : rechercher le résultat, c'est le dol direct.",
+    "Exact : dol éventuel = résultat prévu comme possible + l'auteur s'en accommode (art. 12 CP).",
+    "Faux : espérer qu'il ne surviendra pas = négligence consciente.",
+    "Faux : ignorer le risque = négligence inconsciente."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-060",
+   "champ": "5.4 Dol éventuel",
+   "memento": "M5 §2",
+   "question": "Un dirigeant vire des fonds dont il tient l'origine criminelle pour possible et se dit « tant pis, j'y vais ». Quelle forme subjective ?",
+   "options": [
+    "Négligence inconsciente",
+    "Négligence consciente",
+    "Aucune faute",
+    "Dol éventuel"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il a envisagé le risque, ce n'est pas une négligence inconsciente.",
+    "Faux : il ne s'agit pas d'espérer que le risque ne se réalise pas, mais de passer outre.",
+    "Faux : passer outre à un risque prévu est fautif (intention).",
+    "Exact : prévoir le résultat comme possible et s'en accommoder = dol éventuel (art. 12 CP) — suffisant pour l'art. 305bis CP."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-061",
+   "champ": "5.4 Négligence consciente",
+   "memento": "M5 §2",
+   "question": "La négligence consciente (art. 12 CP) se caractérise par…",
+   "options": [
+    "un résultat prévu comme possible, l'auteur espérant sincèrement qu'il ne surviendra pas",
+    "un résultat prévu comme possible, l'auteur s'en accommodant",
+    "un résultat recherché",
+    "un résultat non prévu du tout"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : négligence consciente = risque envisagé mais l'auteur compte, à tort, qu'il ne se réalisera pas (art. 12 CP).",
+    "Faux : s'en accommoder = dol éventuel.",
+    "Faux : rechercher le résultat = dol direct.",
+    "Faux : ne pas prévoir = négligence inconsciente."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-062",
+   "champ": "5.4 Négligence inconsciente",
+   "memento": "M5 §2",
+   "question": "La négligence inconsciente (art. 12 CP) désigne le cas où l'auteur…",
+   "options": [
+    "prévoit le résultat et l'accepte",
+    "recherche le résultat comme étape nécessaire",
+    "ne prévoit pas le résultat, alors qu'il aurait dû le prévoir",
+    "prévoit le résultat et espère qu'il n'arrivera pas"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : prévoir et accepter = dol éventuel.",
+    "Faux : rechercher le résultat = dol direct.",
+    "Exact : négligence inconsciente = l'auteur ne songe même pas au risque, alors qu'il aurait dû (art. 12 CP).",
+    "Faux : prévoir et espérer = négligence consciente."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-063",
+   "champ": "5.4 Principe intention / exception négligence",
+   "memento": "M5 §2",
+   "question": "Quel est le principe posé par l'art. 12 al. 1 CP ?",
+   "options": [
+    "Toute infraction est punissable même par négligence",
+    "Seule l'infraction intentionnelle est punissable ; la négligence l'est uniquement si la loi le prévoit expressément",
+    "La négligence est toujours punissable, l'intention exceptionnellement",
+    "Intention et négligence sont punies de la même peine"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la négligence n'est pas punissable par défaut.",
+    "Exact : art. 12 al. 1 CP — principe de l'intention ; la négligence n'est punissable que si la loi le prévoit expressément.",
+    "Faux : c'est l'inverse — l'intention est le principe.",
+    "Faux : les peines diffèrent généralement selon l'intention ou la négligence."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-064",
+   "champ": "5.4 Exception négligence",
+   "memento": "M5 §2",
+   "question": "Une infraction ne prévoit pas expressément la répression de la négligence. Que faut-il en déduire ?",
+   "options": [
+    "La négligence est punissable par analogie",
+    "La négligence est punissable si le dommage est important",
+    "L'infraction devient une contravention",
+    "Seule la commission intentionnelle est punissable (art. 12 al. 1 CP)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : pas d'analogie en droit pénal pour étendre la répression de la négligence.",
+    "Faux : l'ampleur du dommage ne crée pas une répression de la négligence.",
+    "Faux : l'absence de répression de la négligence ne déclasse pas l'infraction.",
+    "Exact : art. 12 al. 1 CP — sans mention expresse, seule la forme intentionnelle est punissable."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-065",
+   "champ": "5.4 Frontière dol éventuel / négligence consciente",
+   "memento": "M5 §2",
+   "question": "Qu'est-ce qui distingue le dol éventuel de la négligence consciente, tous deux prévoyant le résultat comme possible ?",
+   "options": [
+    "Le rapport de volonté : s'accommoder du résultat (dol éventuel) vs espérer qu'il n'arrivera pas (négligence consciente)",
+    "Le degré de conscience du risque",
+    "La gravité de la peine encourue",
+    "L'existence d'un dommage effectif"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la différence tient à la volonté — le dol éventuel s'accommode, la négligence consciente espère l'évitement (art. 12 CP).",
+    "Faux : dans les deux cas, la conscience du risque est la même (résultat possible).",
+    "Faux : la peine est une conséquence, pas le critère de distinction.",
+    "Faux : le dommage effectif ne distingue pas les deux formes subjectives."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-066",
+   "champ": "5.4 Frontière dol éventuel / négligence consciente",
+   "memento": "M5 §2",
+   "question": "Deux automobilistes envisagent tous deux un accident comme possible. L'un « passe outre », l'autre « compte y échapper ». Comment les qualifier ?",
+   "options": [
+    "Les deux relèvent du dol éventuel",
+    "Le premier : négligence consciente ; le second : dol éventuel",
+    "Le premier : dol éventuel ; le second : négligence consciente",
+    "Les deux relèvent de la négligence inconsciente"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : seul celui qui s'accommode relève du dol éventuel.",
+    "Faux : l'attribution est inversée.",
+    "Exact : « passer outre » = dol éventuel ; « compter échapper au risque » = négligence consciente (art. 12 CP).",
+    "Faux : les deux ont prévu le risque, ce n'est pas de la négligence inconsciente."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-067",
+   "champ": "5.4 Frontière dol éventuel / négligence consciente",
+   "memento": "M5 §2",
+   "question": "Dans le tableau croisant conscience et volonté, la case « prévoit comme possible » + « s'accommode du résultat » correspond à…",
+   "options": [
+    "la négligence consciente",
+    "le dol éventuel",
+    "le dol direct",
+    "la négligence inconsciente"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la négligence consciente correspond à « possible » + « ne souhaite pas / espère l'évitement ».",
+    "Exact : « possible » + « s'accommode » = dol éventuel (art. 12 CP).",
+    "Faux : le dol direct suppose un résultat certain/recherché.",
+    "Faux : la négligence inconsciente suppose « ne prévoit pas »."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-068",
+   "champ": "5.4 Éléments subjectifs spéciaux",
+   "memento": "M5 §2",
+   "question": "Outre l'intention, le vol (art. 139 CP) exige quels éléments subjectifs spéciaux ?",
+   "options": [
+    "Un simple mobile de vengeance",
+    "Un dessein de nuire à autrui",
+    "Aucun élément subjectif particulier",
+    "Un dessein d'appropriation ET un dessein d'enrichissement illégitime"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le mobile n'est pas un élément constitutif du vol.",
+    "Faux : le dessein de nuire n'est pas requis.",
+    "Faux : le vol exige bien des desseins spéciaux.",
+    "Exact : le vol (art. 139 CP) exige, en plus de l'intention, un dessein d'appropriation et un dessein d'enrichissement illégitime."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-069",
+   "champ": "5.4 Éléments subjectifs spéciaux",
+   "memento": "M5 §2",
+   "question": "Qu'appelle-t-on « élément subjectif spécial » d'une infraction ?",
+   "options": [
+    "Une exigence subjective supplémentaire propre à certaines infractions (ex. dessein d'enrichissement)",
+    "La conscience générale de commettre un acte",
+    "Le résultat matériel de l'infraction",
+    "La qualité personnelle de l'auteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : certains délits exigent, au-delà de l'intention, un élément subjectif spécial (ex. le dessein d'enrichissement illégitime du vol, art. 139 CP).",
+    "Faux : la conscience générale est l'intention ordinaire.",
+    "Faux : le résultat matériel relève de la typicité objective.",
+    "Faux : la qualité de l'auteur relève du cercle d'auteurs."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-070",
+   "champ": "5.5 Vol (art. 139)",
+   "memento": "M5 §5",
+   "question": "Quels sont les éléments constitutifs du vol (art. 139 CP) ?",
+   "options": [
+    "Emploi illicite de valeurs confiées + dessein d'enrichissement",
+    "Tromperie astucieuse déterminant un acte de disposition",
+    "Soustraction d'une chose mobilière d'autrui + dessein d'appropriation + d'enrichissement illégitime",
+    "Violation d'un devoir de gérer les intérêts d'autrui + dommage"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les valeurs confiées caractérisent l'abus de confiance (art. 138 CP).",
+    "Faux : la tromperie astucieuse caractérise l'escroquerie (art. 146 CP).",
+    "Exact : art. 139 CP — soustraction (bris de possession) d'une chose mobilière d'autrui, avec dessein d'appropriation et d'enrichissement illégitime.",
+    "Faux : le devoir de gérer + dommage caractérise la gestion déloyale (art. 158 CP)."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-071",
+   "champ": "5.5 Vol — qualification",
+   "memento": "M5 §5",
+   "question": "Le vol (art. 139 CP) est qualifié de…",
+   "options": [
+    "délit",
+    "crime",
+    "contravention",
+    "délit fiscal qualifié"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : sa peine-menace en fait un crime, pas un délit.",
+    "Exact : le vol (art. 139 CP) est un crime (peine-menace > 3 ans, appréciée abstraitement) — d'où son produit blanchissable.",
+    "Faux : ce n'est pas une contravention.",
+    "Faux : la notion de délit fiscal qualifié concerne la fiscalité (art. 305bis ch. 2 CP)."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-072",
+   "champ": "5.5 Vol — élément-clé",
+   "memento": "M5 §5",
+   "question": "Quel élément objectif distingue fondamentalement le vol de l'abus de confiance ?",
+   "options": [
+    "L'existence d'un dommage patrimonial",
+    "Le dessein d'enrichissement illégitime",
+    "L'intention de l'auteur",
+    "La soustraction (bris de possession), absente de l'abus de confiance"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le dommage n'est pas le critère distinctif ici.",
+    "Faux : le dessein d'enrichissement se retrouve dans les deux.",
+    "Faux : les deux sont intentionnelles.",
+    "Exact : le vol suppose une soustraction (l'auteur n'avait pas la maîtrise) ; dans l'abus de confiance, les valeurs sont déjà confiées."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-073",
+   "champ": "5.5 Abus de confiance (art. 138)",
+   "memento": "M5 §5",
+   "question": "Quels sont les éléments constitutifs de l'abus de confiance (art. 138 CP) ?",
+   "options": [
+    "Valeurs confiées (dont l'auteur a déjà la maîtrise) + emploi illicite à son profit + dessein d'enrichissement",
+    "Soustraction d'une chose d'autrui + dessein d'appropriation",
+    "Tromperie astucieuse → erreur → acte de disposition",
+    "Fabrication d'un titre faux + dessein de tromper"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 138 CP — valeurs confiées, appartenant économiquement à autrui, employées illicitement, avec dessein d'enrichissement.",
+    "Faux : la soustraction caractérise le vol (art. 139 CP).",
+    "Faux : la chaîne tromperie/erreur/disposition caractérise l'escroquerie (art. 146 CP).",
+    "Faux : le titre faux caractérise le faux dans les titres (art. 251 CP)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-074",
+   "champ": "5.5 Abus de confiance — maîtrise préalable",
+   "memento": "M5 §5",
+   "question": "Ce qui caractérise l'abus de confiance (art. 138 CP), c'est que l'auteur…",
+   "options": [
+    "n'a jamais eu accès aux valeurs avant l'acte",
+    "trompe astucieusement la victime pour qu'elle dispose",
+    "a déjà la maîtrise des valeurs, qui lui ont été confiées, et les détourne",
+    "gère les intérêts pécuniaires d'autrui sans les détenir"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'absence d'accès préalable renverrait au vol (soustraction).",
+    "Faux : la tromperie astucieuse renvoie à l'escroquerie (art. 146 CP).",
+    "Exact : art. 138 CP — l'auteur détient déjà les valeurs confiées et les emploie illicitement.",
+    "Faux : gérer sans détenir renvoie à la gestion déloyale (art. 158 CP)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-075",
+   "champ": "5.5 Abus de confiance — qualification",
+   "memento": "M5 §5",
+   "question": "L'abus de confiance sur des choses mobilières (art. 138 CP) est qualifié de…",
+   "options": [
+    "délit",
+    "crime",
+    "contravention",
+    "acte préparatoire"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est un crime, non un délit.",
+    "Exact : l'abus de confiance (art. 138 CP) est un crime.",
+    "Faux : ce n'est pas une contravention.",
+    "Faux : ce n'est pas un acte préparatoire."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-076",
+   "champ": "5.5 Gestion déloyale (art. 158)",
+   "memento": "M5 §5",
+   "question": "Quels sont les éléments de la gestion déloyale (art. 158 CP) ?",
+   "options": [
+    "Soustraction d'une chose mobilière d'autrui",
+    "Emploi de valeurs confiées à son profit",
+    "Tromperie astucieuse suivie d'un acte de disposition",
+    "Tenu de gérer les intérêts pécuniaires d'autrui + violation des devoirs + dommage"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la soustraction caractérise le vol (art. 139 CP).",
+    "Faux : l'emploi de valeurs confiées caractérise l'abus de confiance (art. 138 CP).",
+    "Faux : la tromperie astucieuse caractérise l'escroquerie (art. 146 CP).",
+    "Exact : art. 158 CP — auteur tenu de gérer les intérêts pécuniaires d'autrui, violation des devoirs (l'omission suffit), dommage patrimonial."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-077",
+   "champ": "5.5 Gestion déloyale — omission",
+   "memento": "M5 §5",
+   "question": "La gestion déloyale (art. 158 CP) peut-elle se réaliser par omission ?",
+   "options": [
+    "Oui, l'omission de préserver les intérêts confiés suffit",
+    "Non, seul un acte positif la réalise",
+    "Oui, mais seulement si l'auteur s'enrichit",
+    "Non, elle exige une soustraction"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 158 CP — la violation des devoirs peut résulter d'une omission ; le dommage patrimonial suffit.",
+    "Faux : l'omission suffit à violer le devoir de gérer.",
+    "Faux : l'enrichissement n'est pas nécessaire pour la forme de base (il transforme le délit en crime, ch. 3).",
+    "Faux : la soustraction est propre au vol (art. 139 CP)."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-078",
+   "champ": "5.5 Gestion déloyale — qualification de base",
+   "memento": "M5 §5",
+   "question": "En principe (forme de base), la gestion déloyale (art. 158 CP) est…",
+   "options": [
+    "un crime",
+    "une contravention",
+    "un délit",
+    "un délit fiscal qualifié"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la forme de base n'est pas un crime.",
+    "Faux : ce n'est pas une contravention.",
+    "Exact : art. 158 CP — la gestion déloyale est en principe un délit.",
+    "Faux : elle n'a rien de fiscal."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-079",
+   "champ": "5.5 Gestion déloyale — dessein d'enrichissement (ch. 3)",
+   "memento": "M5 §5",
+   "question": "Quand la gestion déloyale (art. 158 CP) devient-elle un crime ?",
+   "options": [
+    "Dès qu'un dommage est causé",
+    "Lorsque l'auteur agit dans un dessein d'enrichissement illégitime (ch. 3)",
+    "Lorsque la victime est une société anonyme",
+    "Jamais : c'est toujours un délit"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le dommage suffit pour la forme de base (délit), pas pour le crime.",
+    "Exact : art. 158 ch. 3 CP — le dessein d'enrichissement illégitime transforme la gestion déloyale en crime.",
+    "Faux : la qualité de la victime est indifférente.",
+    "Faux : le ch. 3 en fait un crime en cas de dessein d'enrichissement."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-080",
+   "champ": "5.5 Escroquerie (art. 146)",
+   "memento": "M5 §5",
+   "question": "Quelle est la chaîne causale complète de l'escroquerie (art. 146 CP) ?",
+   "options": [
+    "Soustraction → appropriation → enrichissement",
+    "Valeurs confiées → emploi illicite → enrichissement",
+    "Violation d'un devoir → dommage",
+    "Tromperie astucieuse → erreur → acte de disposition → préjudice → avantage"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : cette suite décrit le vol (art. 139 CP).",
+    "Faux : cette suite décrit l'abus de confiance (art. 138 CP).",
+    "Faux : cette suite décrit la gestion déloyale (art. 158 CP).",
+    "Exact : art. 146 CP — tromperie astucieuse, erreur, acte de disposition de la dupe, préjudice, avantage (enrichissement illégitime)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-081",
+   "champ": "5.5 Escroquerie — acte de disposition",
+   "memento": "M5 §5",
+   "question": "Dans une escroquerie (art. 146 CP), qui accomplit l'acte de disposition patrimonial ?",
+   "options": [
+    "La dupe (la personne trompée), déterminée par l'erreur",
+    "L'auteur, qui subtilise lui-même les valeurs",
+    "Un tiers étranger à la tromperie",
+    "L'autorité pénale"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 146 CP — c'est la dupe qui, induite en erreur, dispose de son patrimoine à son détriment.",
+    "Faux : si l'auteur subtilise lui-même, c'est un vol, non une escroquerie.",
+    "Faux : l'acte émane de la personne trompée, pas d'un tiers quelconque.",
+    "Faux : l'autorité pénale n'intervient pas dans la chaîne constitutive."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-082",
+   "champ": "5.5 Escroquerie — astuce",
+   "memento": "M5 §5",
+   "question": "Que faut-il, au-delà d'un simple mensonge, pour l'escroquerie (art. 146 CP) ?",
+   "options": [
+    "Un dommage supérieur à CHF 300'000",
+    "Une soustraction préalable",
+    "Une tromperie astucieuse (édifice de mensonges, mise en scène, manœuvres)",
+    "Une plainte de la victime"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucun seuil chiffré n'est requis.",
+    "Faux : l'escroquerie ne suppose pas de soustraction (contrairement au vol).",
+    "Exact : art. 146 CP exige l'astuce — la tromperie doit être qualifiée (manœuvres, édifice de mensonges), non un simple mensonge aisément vérifiable.",
+    "Faux : l'escroquerie se poursuit d'office."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-083",
+   "champ": "5.5 Escroquerie — qualification",
+   "memento": "M5 §5",
+   "question": "L'escroquerie (art. 146 CP) est qualifiée de…",
+   "options": [
+    "délit",
+    "crime",
+    "contravention",
+    "acte préparatoire"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est un crime.",
+    "Exact : l'escroquerie (art. 146 CP) est un crime.",
+    "Faux : ce n'est pas une contravention.",
+    "Faux : ce n'est pas un acte préparatoire."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-084",
+   "champ": "5.5 Distinction vol/abus/escroquerie",
+   "memento": "M5 §5",
+   "question": "Quelle est la clé de qualification entre vol, abus de confiance et escroquerie ?",
+   "options": [
+    "Le montant en jeu",
+    "La nationalité de la victime",
+    "L'existence d'un titre écrit",
+    "La maîtrise préalable des valeurs par l'auteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le montant n'est pas le critère de qualification.",
+    "Faux : la nationalité de la victime est indifférente.",
+    "Faux : l'existence d'un titre n'est pas le critère.",
+    "Exact : selon que l'auteur a ou non déjà la maîtrise des valeurs (confiées → abus 138 ; soustraites → vol 139 ; obtenues par tromperie → escroquerie 146)."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-085",
+   "champ": "5.5 Distinction vol/abus/escroquerie",
+   "memento": "M5 §5",
+   "question": "Un employé détient des fonds de son employeur par une procuration et les détourne. Quelle infraction ?",
+   "options": [
+    "Abus de confiance (art. 138 CP)",
+    "Vol (art. 139 CP)",
+    "Escroquerie (art. 146 CP)",
+    "Gestion d'affaires sans mandat"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les valeurs étaient confiées et l'auteur les détourne : abus de confiance (art. 138 CP).",
+    "Faux : pas de soustraction, l'auteur avait déjà la maîtrise → pas un vol.",
+    "Faux : pas de tromperie astucieuse déterminant une disposition → pas une escroquerie.",
+    "Faux : la gestion d'affaires sans mandat est un fait justificatif, pas une infraction."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-086",
+   "champ": "5.5 Distinction vol/abus/escroquerie",
+   "memento": "M5 §5",
+   "question": "Un client est trompé par de faux documents et paie volontairement une facture fictive. Quelle infraction ?",
+   "options": [
+    "Vol (art. 139 CP)",
+    "Abus de confiance (art. 138 CP)",
+    "Escroquerie (art. 146 CP)",
+    "Défaut de vigilance (art. 305ter CP)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le client dispose lui-même, il n'y a pas de soustraction.",
+    "Faux : les valeurs n'étaient pas confiées à l'auteur.",
+    "Exact : tromperie astucieuse → erreur → acte de disposition (le paiement) → préjudice : escroquerie (art. 146 CP).",
+    "Faux : le défaut de vigilance vise l'ADE en matière financière, sans rapport ici."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-087",
+   "champ": "5.5 Distinction vol/abus/escroquerie",
+   "memento": "M5 §5",
+   "question": "Un magasinier emporte des marchandises du dépôt de son employeur sans y être autorisé. Quelle infraction ?",
+   "options": [
+    "Abus de confiance (art. 138 CP)",
+    "Vol (art. 139 CP)",
+    "Escroquerie (art. 146 CP)",
+    "Gestion déloyale (art. 158 CP)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les marchandises n'étaient pas confiées à sa libre disposition ; il brise la possession.",
+    "Exact : soustraction d'une chose mobilière d'autrui avec dessein d'appropriation/enrichissement : vol (art. 139 CP).",
+    "Faux : aucune tromperie astucieuse déterminant une disposition.",
+    "Faux : le magasinier n'est pas tenu de gérer les intérêts pécuniaires de l'employeur au sens de l'art. 158 CP."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-088",
+   "champ": "5.5 Devoir de diligence civil sous-jacent",
+   "memento": "M5 §5",
+   "question": "Le manquement au devoir de diligence d'un administrateur (art. 717 CO) peut fonder…",
+   "options": [
+    "uniquement une responsabilité civile",
+    "uniquement une responsabilité pénale",
+    "aucune responsabilité tant qu'il n'y a pas plainte",
+    "à la fois une responsabilité civile (art. 717 CO) et, pénalement, la gestion déloyale (art. 158 CP) — cumul possible"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le même manquement peut aussi fonder la gestion déloyale pénale.",
+    "Faux : la responsabilité civile existe en parallèle.",
+    "Faux : la gestion déloyale se poursuit d'office.",
+    "Exact : le devoir de diligence (art. 717 CO) fonde la responsabilité civile ET, en cas de violation causant un dommage, la gestion déloyale pénale (art. 158 CP) — les deux régimes se cumulent."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-089",
+   "champ": "5.5 Devoir de diligence du travailleur",
+   "memento": "M5 §5",
+   "question": "Le devoir de fidélité du travailleur (art. 321a CO) implique notamment…",
+   "options": [
+    "l'obligation de garder les secrets de l'employeur",
+    "le droit de concurrencer librement l'employeur",
+    "l'exonération de toute responsabilité pénale",
+    "l'obligation de dénoncer l'employeur au MROS"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 321a CO — le devoir de fidélité impose au travailleur de garder les secrets de l'employeur (al. 4).",
+    "Faux : le devoir de fidélité interdit au contraire la concurrence pendant les rapports de travail.",
+    "Faux : il n'exonère d'aucune responsabilité pénale.",
+    "Faux : l'obligation de communiquer au MROS relève de la LBA, non du contrat de travail."
+   ],
+   "piege": "D10",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-090",
+   "champ": "5.5 Secret professionnel du réviseur (art. 321)",
+   "memento": "M5 §5",
+   "question": "La violation du secret professionnel du réviseur (art. 321 CP) est punissable…",
+   "options": [
+    "d'office, pour tout réviseur",
+    "seulement si le réviseur s'est enrichi",
+    "sur plainte, et vise les réviseurs des entités soumises au contrôle ordinaire (art. 727 ss CO)",
+    "uniquement si la révélation est faite à l'étranger"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 321 CP se poursuit sur plainte et vise un cercle restreint.",
+    "Faux : l'enrichissement n'est pas un élément constitutif.",
+    "Exact : art. 321 CP — révélation intentionnelle punissable sur plainte ; le cercle vise les réviseurs des entités soumises au contrôle ordinaire (art. 727 ss CO).",
+    "Faux : le lieu de la révélation n'est pas la condition (le destinataire étranger relèverait de l'art. 273 CP pour un secret d'affaires)."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-091",
+   "champ": "5.5 Secret professionnel du réviseur (art. 321)",
+   "memento": "M5 §5",
+   "question": "Un réviseur d'une entreprise individuelle non soumise à révision ordinaire révèle un secret. Tombe-t-il sous l'art. 321 CP ?",
+   "options": [
+    "Oui, tout réviseur est visé",
+    "Non : seuls les réviseurs des entités soumises au contrôle ordinaire (art. 727 ss CO) sont visés",
+    "Oui, mais seulement s'il agit par commission par omission",
+    "Non, car le secret du réviseur n'existe pas en droit suisse"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le cercle de l'art. 321 CP est restreint.",
+    "Exact : l'art. 321 CP vise les réviseurs des entités soumises au contrôle (art. 727 ss CO) — pas les réviseurs de sociétés de personnes / entreprises individuelles hors de ce champ.",
+    "Faux : la structure du comportement (action/omission) n'élargit pas le cercle.",
+    "Faux : le secret du réviseur existe bien (art. 321 CP · art. 730b CO)."
+   ],
+   "piege": "D7",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-092",
+   "champ": "5.5 Violation du secret de fabrication (art. 162)",
+   "memento": "M5 §5",
+   "question": "La violation du secret de fabrication ou commercial (art. 162 CP) réprime…",
+   "options": [
+    "la soustraction d'une chose mobilière d'autrui",
+    "la fabrication d'un titre faux",
+    "l'omission de vérifier l'ayant droit économique",
+    "la trahison d'un secret que l'auteur devait garder, ou l'exploitation de cette trahison — sur plainte"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la soustraction caractérise le vol (art. 139 CP).",
+    "Faux : le titre faux relève de l'art. 251 CP.",
+    "Faux : l'omission de vérifier l'ADE relève de l'art. 305ter CP.",
+    "Exact : art. 162 CP — trahison d'un secret de fabrication/d'affaires (obligation légale ou contractuelle) ou exploitation de cette trahison, poursuivie sur plainte."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-093",
+   "champ": "5.5 Violation du secret de fabrication (art. 162)",
+   "memento": "M5 §5",
+   "question": "Le même comportement de trahison d'un secret d'affaires change de qualification selon…",
+   "options": [
+    "le destinataire : suisse (art. 162 CP) ou étranger (art. 273 CP)",
+    "le montant du secret",
+    "la forme écrite ou orale de la révélation",
+    "l'existence d'une plainte"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : destinataire suisse → art. 162 CP ; destinataire étranger (organisme/entreprise) → service de renseignements économiques (art. 273 CP).",
+    "Faux : la valeur du secret n'est pas le critère de qualification.",
+    "Faux : la forme de la révélation n'est pas déterminante.",
+    "Faux : la plainte est une condition de poursuite (art. 162 CP), pas le critère de qualification 162/273."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-094",
+   "champ": "5.5 Portée du secret du réviseur (art. 730b CO)",
+   "memento": "M5 §5",
+   "question": "L'art. 730b CO précise notamment…",
+   "options": [
+    "le montant du délit fiscal qualifié",
+    "le délai de plainte pénale",
+    "la portée du secret du réviseur de SA et les cas où il peut ou doit communiquer",
+    "le champ d'application de la LBA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le seuil du délit fiscal qualifié relève des art. 186 LIFD / 59 LHID.",
+    "Faux : le délai de plainte relève de l'art. 31 CP.",
+    "Exact : art. 730b CO — portée du secret du réviseur de SA et cas où il peut/doit communiquer (rapport, avis au juge, information aux actionnaires).",
+    "Faux : le champ de la LBA relève de l'art. 2 LBA."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-095",
+   "champ": "5.6 Faux dans les titres (art. 251)",
+   "memento": "M5 §5",
+   "question": "Que réprime l'art. 251 CP (faux dans les titres) ?",
+   "options": [
+    "La soustraction d'un document appartenant à autrui",
+    "La fabrication d'un titre faux / falsification / constatation fausse, dans le dessein de tromper et d'obtenir un avantage illicite",
+    "L'emploi de valeurs confiées à son profit",
+    "La révélation d'un secret de fabrication"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la soustraction caractérise le vol (art. 139 CP).",
+    "Exact : art. 251 CP — créer un titre faux, falsifier un titre ou y constater faussement un fait, avec dessein de tromper et d'obtenir un avantage illicite.",
+    "Faux : l'emploi de valeurs confiées caractérise l'abus de confiance (art. 138 CP).",
+    "Faux : la révélation d'un secret relève des art. 162 / 273 / 321 CP."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-096",
+   "champ": "5.6 Faux dans les titres — qualification",
+   "memento": "M5 §5",
+   "question": "Le faux dans les titres (art. 251 CP) est qualifié de…",
+   "options": [
+    "contravention",
+    "délit",
+    "acte préparatoire",
+    "crime"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ce n'est pas une contravention.",
+    "Faux : sa peine-menace en fait un crime, non un délit.",
+    "Faux : ce n'est pas un acte préparatoire.",
+    "Exact : le faux dans les titres (art. 251 CP) est un crime."
+   ],
+   "piege": "D6",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-097",
+   "champ": "5.6 Notion de titre (art. 110 al. 4)",
+   "memento": "M5 §5",
+   "question": "Comment l'art. 110 al. 4 CP définit-il le « titre » ?",
+   "options": [
+    "Tout écrit destiné et propre à prouver un fait ayant une portée juridique",
+    "Tout document officiel émanant d'une autorité",
+    "Tout contrat signé par deux parties",
+    "Tout support comportant une signature manuscrite"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 110 al. 4 CP — un titre est un écrit destiné et propre à prouver un fait ayant une portée juridique (ex. une facture).",
+    "Faux : la notion n'est pas limitée aux documents officiels.",
+    "Faux : un contrat bilatéral n'est qu'un exemple, la définition est plus large.",
+    "Faux : la signature manuscrite n'est pas une condition de la notion de titre."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-098",
+   "champ": "5.6 Notion de titre (art. 110 al. 4)",
+   "memento": "M5 §5",
+   "question": "Une facture ordinaire peut-elle être un « titre » au sens de l'art. 110 al. 4 CP ?",
+   "options": [
+    "Non, seuls les actes authentiques sont des titres",
+    "Non, il faut une signature notariée",
+    "Oui : c'est un écrit destiné et propre à prouver un fait à portée juridique",
+    "Oui, mais uniquement si elle dépasse CHF 300'000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les titres ne se limitent pas aux actes authentiques.",
+    "Faux : aucune signature notariée n'est requise.",
+    "Exact : art. 110 al. 4 CP — une facture est un écrit propre à prouver un fait à portée juridique, donc un titre.",
+    "Faux : aucun seuil chiffré ne conditionne la notion de titre."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-099",
+   "champ": "5.6 Faux matériel vs intellectuel",
+   "memento": "M5 §5",
+   "question": "Quelle est la différence entre faux matériel et faux intellectuel (art. 251 CP) ?",
+   "options": [
+    "Le faux matériel porte sur le contenu ; le faux intellectuel sur l'auteur apparent",
+    "Le faux matériel porte sur l'auteur apparent (≠ auteur réel) ; le faux intellectuel sur un contenu mensonger",
+    "Le faux matériel concerne les documents papier, le faux intellectuel les documents électroniques",
+    "Il n'y a aucune différence"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les définitions sont inversées.",
+    "Exact : faux matériel = l'auteur apparent du titre n'est pas l'auteur réel ; faux intellectuel = le contenu du titre est mensonger (art. 251 CP).",
+    "Faux : la distinction ne tient pas au support (papier/électronique).",
+    "Faux : la distinction est bien réelle et souvent testée."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-100",
+   "champ": "5.6 Faux matériel vs intellectuel",
+   "memento": "M5 §5",
+   "question": "Un dirigeant établit une facture au nom d'un fournisseur fictif, au contenu mensonger. Quel(s) type(s) de faux ?",
+   "options": [
+    "Uniquement un faux intellectuel",
+    "Uniquement un faux matériel",
+    "Aucun faux, car la facture n'est pas un titre",
+    "À la fois un faux matériel (auteur apparent ≠ réel) et intellectuel (contenu mensonger)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le contenu est mensonger, mais l'auteur apparent est aussi faux.",
+    "Faux : il y a aussi un faux intellectuel (contenu mensonger).",
+    "Faux : une facture est bien un titre (art. 110 al. 4 CP).",
+    "Exact : facture d'un fournisseur inexistant au contenu mensonger = faux matériel + faux intellectuel (art. 251 CP)."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-101",
+   "champ": "5.7 Service de renseignements économiques (art. 273)",
+   "memento": "M5 §5",
+   "question": "Que réprime le service de renseignements économiques (art. 273 CP) ?",
+   "options": [
+    "Chercher à découvrir ou rendre accessible un secret d'affaires à un organisme/une entreprise de l'étranger",
+    "Trahir un secret de fabrication à un concurrent suisse",
+    "Fabriquer un titre faux dans le dessein de tromper",
+    "Omettre de vérifier l'ayant droit économique"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 273 CP — chercher à découvrir ou rendre accessible un secret de fabrication/d'affaires à un organisme ou une entreprise de l'étranger.",
+    "Faux : la trahison à un destinataire suisse relève de l'art. 162 CP.",
+    "Faux : le titre faux relève de l'art. 251 CP.",
+    "Faux : l'omission de vérifier l'ADE relève de l'art. 305ter CP."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-102",
+   "champ": "5.7 Renseignements économiques — bien juridique",
+   "memento": "M5 §5",
+   "question": "Quel bien juridique protège l'art. 273 CP ?",
+   "options": [
+    "Le patrimoine individuel de l'entreprise lésée",
+    "La confiance dans les titres",
+    "Les intérêts de la place économique suisse",
+    "L'administration de la justice"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 273 CP dépasse la protection du seul patrimoine privé.",
+    "Faux : la confiance dans les titres est protégée par l'art. 251 CP.",
+    "Exact : l'art. 273 CP protège les intérêts de la place économique suisse face à l'espionnage économique étranger.",
+    "Faux : l'administration de la justice est protégée par les art. 305bis/305ter CP."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-103",
+   "champ": "5.7 Distinction 162 / 273",
+   "memento": "M5 §5",
+   "question": "Le critère décisif entre l'art. 162 CP et l'art. 273 CP est…",
+   "options": [
+    "le montant du préjudice",
+    "le destinataire du secret : suisse (162) ou étranger (273)",
+    "la forme (orale/écrite) de la révélation",
+    "l'existence d'un dessein d'enrichissement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le montant n'est pas le critère.",
+    "Exact : même comportement, qualification selon le destinataire — suisse → art. 162 CP ; organisme/entreprise étranger → art. 273 CP.",
+    "Faux : la forme de la révélation n'est pas déterminante.",
+    "Faux : le dessein d'enrichissement n'est pas le critère de partage 162/273."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-104",
+   "champ": "5.7 Distinction 162 / 273",
+   "memento": "M5 §5",
+   "question": "Un cadre livre des secrets de fabrication suisses à une entreprise située en Amérique du Sud. Quelle infraction ?",
+   "options": [
+    "Violation du secret de fabrication (art. 162 CP)",
+    "Abus de confiance (art. 138 CP)",
+    "Faux dans les titres (art. 251 CP)",
+    "Service de renseignements économiques (art. 273 CP)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le destinataire étant à l'étranger, on quitte l'art. 162 CP.",
+    "Faux : il ne s'agit pas de valeurs confiées détournées.",
+    "Faux : aucun titre faux n'est en cause.",
+    "Exact : rendre accessible un secret d'affaires à une entreprise de l'étranger = art. 273 CP."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-105",
+   "champ": "5.7 Renseignements économiques — qualification",
+   "memento": "M5 §5",
+   "question": "Comment l'art. 273 CP peut-il être qualifié selon la gravité ?",
+   "options": [
+    "Crime (cas grave) ou délit",
+    "Toujours une contravention",
+    "Toujours un délit fiscal qualifié",
+    "Toujours un simple délit"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 273 CP peut être un crime (cas grave) ou un délit selon la gravité.",
+    "Faux : ce n'est pas une contravention.",
+    "Faux : il n'a rien de fiscal.",
+    "Faux : dans les cas graves, il constitue un crime, pas un simple délit."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-106",
+   "champ": "5.8 Plainte — qui",
+   "memento": "M5 §6",
+   "question": "Qui est en principe habilité à déposer plainte (art. 30 CP) ?",
+   "options": [
+    "Automatiquement le conjoint du lésé",
+    "N'importe quel témoin de l'infraction",
+    "Le lésé (titulaire du bien juridique atteint)",
+    "Uniquement le ministère public"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le conjoint n'a pas de droit de plainte automatique.",
+    "Faux : un simple témoin n'est pas habilité.",
+    "Exact : art. 30 CP — le droit de plainte appartient au lésé.",
+    "Faux : la plainte émane du lésé ; le ministère public poursuit ensuite."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-107",
+   "champ": "5.8 Plainte — forme",
+   "memento": "M5 §6",
+   "question": "Quelle est la forme exigée de la plainte pénale (art. 30 CP) ?",
+   "options": [
+    "Elle doit être écrite à peine de nullité",
+    "Aucune forme écrite n'est exigée : elle peut être orale ou écrite",
+    "Elle doit être authentifiée par un notaire",
+    "Elle doit être déposée par avocat"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la forme écrite n'est pas une condition de validité.",
+    "Exact : art. 30 CP — la plainte n'exige aucune forme particulière (orale ou écrite).",
+    "Faux : aucune authentification notariée n'est requise.",
+    "Faux : le ministère d'avocat n'est pas requis."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-108",
+   "champ": "5.8 Plainte — délai",
+   "memento": "M5 §6",
+   "question": "Quel est le délai pour déposer plainte (art. 31 CP) ?",
+   "options": [
+    "6 mois dès l'acte",
+    "6 mois dès la connaissance de l'auteur",
+    "3 mois dès l'acte",
+    "3 mois dès la connaissance de l'auteur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ni 6 mois, ni le point de départ « dès l'acte ».",
+    "Faux : le délai est de 3 mois, pas 6.",
+    "Faux : le point de départ est la connaissance de l'auteur, pas l'acte.",
+    "Exact : art. 31 CP — 3 mois dès le jour où l'ayant droit a connu l'auteur de l'infraction."
+   ],
+   "piege": "D3",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-109",
+   "champ": "5.8 Plainte — délai (point de départ)",
+   "memento": "M5 §6",
+   "question": "Le délai de plainte de l'art. 31 CP court à partir…",
+   "options": [
+    "du jour où l'ayant droit a connu l'auteur de l'infraction",
+    "du jour de l'infraction",
+    "du jour du dépôt de la plainte",
+    "du jour du jugement"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 31 CP — le délai de 3 mois court dès la connaissance de l'auteur.",
+    "Faux : le point de départ n'est pas l'acte lui-même.",
+    "Faux : le dépôt de plainte est l'aboutissement, pas le point de départ.",
+    "Faux : le jugement est postérieur."
+   ],
+   "piege": "D9",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-110",
+   "champ": "5.8 Plainte — infractions concernées",
+   "memento": "M5 §6",
+   "question": "Laquelle de ces infractions ne se poursuit, dans certains cas, que sur plainte ?",
+   "options": [
+    "L'escroquerie (art. 146 CP)",
+    "Le blanchiment (art. 305bis CP)",
+    "L'abus de confiance au préjudice d'un proche (art. 138 ch. 1 in fine CP)",
+    "Le faux dans les titres (art. 251 CP)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'escroquerie (art. 146 CP) se poursuit d'office.",
+    "Faux : le blanchiment (art. 305bis CP) se poursuit d'office.",
+    "Exact : l'abus de confiance au préjudice d'un proche (art. 138 ch. 1 in fine CP) se poursuit sur plainte ; de même le vol entre proches (art. 139 ch. 4) et la violation du secret de fabrication (art. 162 CP).",
+    "Faux : le faux dans les titres (art. 251 CP) se poursuit d'office."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-111",
+   "champ": "5.9 Blanchiment — origine des valeurs",
+   "memento": "M5 §7",
+   "question": "De quelle origine doivent provenir les valeurs pour tomber sous l'art. 305bis CP ?",
+   "options": [
+    "De n'importe quelle infraction, même une contravention",
+    "D'un crime OU d'un délit fiscal qualifié",
+    "D'un simple délit patrimonial",
+    "D'une atteinte aux biens quelconque"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une contravention ne suffit pas.",
+    "Exact : art. 305bis ch. 1/1bis CP — les valeurs doivent provenir d'un crime ou d'un délit fiscal qualifié.",
+    "Faux : un simple délit (non fiscal qualifié) ne suffit pas.",
+    "Faux : « atteinte aux biens » quelconque est un distracteur classique — il faut un crime ou un délit fiscal qualifié."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-112",
+   "champ": "5.9 Blanchiment — pas de poursuite préalable",
+   "memento": "M5 §7",
+   "question": "L'infraction préalable doit-elle avoir été jugée ou poursuivie pour qu'il y ait blanchiment ?",
+   "options": [
+    "Oui, elle doit avoir été sanctionnée",
+    "Oui, elle doit au moins avoir été poursuivie",
+    "Oui, sauf si elle a été commise à l'étranger",
+    "Non : aucune poursuite ni sanction préalable n'est requise"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucune sanction préalable n'est exigée.",
+    "Faux : aucune poursuite préalable n'est exigée.",
+    "Faux : ce n'est pas une condition ; le lieu de commission n'y change rien.",
+    "Exact : art. 305bis ch. 1 CP — l'origine criminelle suffit ; l'infraction préalable n'a pas à être jugée ni poursuivie."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-113",
+   "champ": "5.9 Blanchiment — valeurs de remplacement",
+   "memento": "M5 §7",
+   "question": "Le produit de la revente d'une chose volée (valeur de remplacement) relève-t-il du blanchiment ?",
+   "options": [
+    "Oui : l'origine criminelle peut être directe OU indirecte (produit de remplacement)",
+    "Non, car l'origine n'est qu'indirecte",
+    "Non, car le vol n'est pas un crime",
+    "Uniquement si la valeur dépasse CHF 300'000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 305bis ch. 1 CP — l'origine peut être directe ou indirecte ; les valeurs de remplacement restent contaminées.",
+    "Faux : l'origine indirecte est expressément couverte.",
+    "Faux : le vol (art. 139 CP) est un crime.",
+    "Faux : aucun seuil chiffré ne s'applique au produit d'un crime."
+   ],
+   "piege": "D1",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-114",
+   "champ": "5.9 Blanchiment — valeurs de remplacement",
+   "memento": "M5 §7",
+   "question": "Une cargaison volée est revendue ; l'argent obtenu est ensuite viré. Cet argent est-il « d'origine criminelle » ?",
+   "options": [
+    "Non, il a changé de forme",
+    "Non, sauf si l'acheteur savait le vol",
+    "Oui, l'origine criminelle indirecte suffit (valeur de remplacement)",
+    "Uniquement si le vol a été jugé"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le changement de forme ne « lave » pas l'origine.",
+    "Faux : la connaissance de l'acheteur ne conditionne pas la contamination des valeurs.",
+    "Exact : art. 305bis ch. 1 CP — l'argent issu de la revente reste d'origine criminelle (produit indirect).",
+    "Faux : aucune condition de jugement préalable (cf. ch. 1)."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-115",
+   "champ": "5.9 Blanchiment — acte d'entrave",
+   "memento": "M5 §7",
+   "question": "En quoi consiste l'acte d'entrave de l'art. 305bis CP ?",
+   "options": [
+    "Le simple fait de détenir des fonds criminels",
+    "Un comportement rendant notablement plus difficile l'identification de l'origine, la découverte ou la confiscation",
+    "L'omission de déclarer un revenu au fisc",
+    "La conclusion d'un contrat avec un tiers"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la seule détention ne constitue pas un acte d'entrave.",
+    "Exact : art. 305bis ch. 1 CP — acte propre à entraver notablement l'identification, la découverte ou la confiscation des valeurs.",
+    "Faux : l'omission de déclarer relève de la fiscalité, pas de l'entrave au sens de l'art. 305bis CP.",
+    "Faux : un contrat quelconque n'est pas en soi un acte d'entrave."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-116",
+   "champ": "5.9 Blanchiment — mise en danger abstraite",
+   "memento": "M5 §7",
+   "question": "Le blanchiment (art. 305bis CP) exige-t-il que l'entrave ait effectivement réussi ?",
+   "options": [
+    "Oui, l'échec de l'entrave exclut l'infraction",
+    "Oui, il faut que les fonds n'aient pas été retrouvés",
+    "Non, mais il faut un dommage à un tiers",
+    "Non : c'est une mise en danger abstraite, le succès de l'entrave est indifférent"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le succès de l'entrave n'est pas une condition.",
+    "Faux : l'infraction est réalisée indépendamment du fait que les fonds soient retrouvés.",
+    "Faux : aucun dommage à un tiers n'est requis.",
+    "Exact : art. 305bis CP réprime une mise en danger abstraite de l'administration de la justice ; peu importe que l'entrave ait réussi."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-117",
+   "champ": "5.9 Blanchiment — dépôt après identification",
+   "memento": "M5 §7",
+   "question": "Un simple dépôt sur un compte, après identification correcte de l'ADE, constitue-t-il du blanchiment ?",
+   "options": [
+    "Non, ce n'est pas en soi du blanchiment (ATF 124 IV 274) : il faut un acte comparable à plus qu'un simple transfert",
+    "Oui, tout dépôt de fonds criminels est du blanchiment",
+    "Oui, dès que le montant est important",
+    "Non, jamais, même en cas de dissimulation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : selon l'ATF 124 IV 274, un dépôt après identification correcte de l'ADE, comparable à un simple transfert, n'est pas du blanchiment.",
+    "Faux : le simple dépôt après identification correcte n'est pas, en soi, un acte d'entrave.",
+    "Faux : le montant n'est pas le critère.",
+    "Faux : ce n'est pas « jamais » — une procédure de dissimulation constituerait une entrave."
+   ],
+   "piege": "D7",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-118",
+   "champ": "5.9 Blanchiment — intention (dol éventuel)",
+   "memento": "M5 §7",
+   "question": "Quel degré d'intention suffit pour l'art. 305bis CP ?",
+   "options": [
+    "Le dol direct exclusivement",
+    "La négligence consciente suffit",
+    "Le dol éventuel suffit",
+    "Aucune intention n'est requise"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le dol direct n'est pas exigé.",
+    "Faux : la négligence n'est pas punissable ici (art. 12 al. 1 CP).",
+    "Exact : art. 305bis CP — le dol éventuel suffit (celui qui a de sérieux doutes et passe outre).",
+    "Faux : le blanchiment est une infraction intentionnelle."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-119",
+   "champ": "5.9 Blanchiment — objet de l'intention",
+   "memento": "M5 §7",
+   "question": "Sur quoi doit porter l'intention (dol éventuel) dans le blanchiment (art. 305bis CP) ?",
+   "options": [
+    "Uniquement sur l'origine criminelle des fonds",
+    "Sur l'origine criminelle des valeurs ET sur l'effet entravant de l'acte",
+    "Uniquement sur l'effet entravant",
+    "Sur le montant exact des fonds"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'intention ne se limite pas à l'origine.",
+    "Exact : art. 305bis CP — l'intention porte sur deux points : l'origine criminelle et le caractère entravant de l'acte.",
+    "Faux : elle ne se limite pas non plus à l'effet entravant.",
+    "Faux : la connaissance du montant exact n'est pas requise."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-120",
+   "champ": "5.9 Délit fiscal qualifié — seuil",
+   "memento": "M5 §7",
+   "question": "À partir de quel montant d'impôts soustraits par période y a-t-il « délit fiscal qualifié » pouvant fonder un blanchiment ?",
+   "options": [
+    "CHF 100'000",
+    "CHF 500'000",
+    "CHF 50'000",
+    "CHF 300'000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le seuil n'est pas de CHF 100'000.",
+    "Faux : le seuil n'est pas de CHF 500'000.",
+    "Faux : le seuil n'est pas de CHF 50'000.",
+    "Exact : art. 186 LIFD · art. 59 al. 1 LHID — délit fiscal qualifié si les impôts soustraits dépassent CHF 300'000 par période (dès le 1.1.2016)."
+   ],
+   "piege": "D3",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-121",
+   "champ": "5.9 Délit fiscal qualifié — date",
+   "memento": "M5 §7",
+   "question": "Depuis quand un délit fiscal qualifié peut-il fonder un blanchiment ?",
+   "options": [
+    "Depuis le 1er janvier 2016",
+    "Depuis toujours",
+    "Depuis le 1er janvier 2020",
+    "Depuis le 1er janvier 2009"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : depuis le 1er janvier 2016, le délit fiscal qualifié (art. 305bis ch. 1bis CP · art. 186 LIFD · art. 59 LHID) peut fonder un blanchiment.",
+    "Faux : cette possibilité est postérieure à 2016, pas de tout temps.",
+    "Faux : ce n'est pas 2020.",
+    "Faux : ce n'est pas 2009."
+   ],
+   "piege": "D9",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-122",
+   "champ": "5.9 Délit fiscal qualifié — nature",
+   "memento": "M5 §7",
+   "question": "Quelle infraction fiscale peut « contaminer » des fonds au sens du blanchiment ?",
+   "options": [
+    "Toute soustraction d'impôt, quel qu'en soit le montant",
+    "La simple omission de déposer une déclaration",
+    "Seulement le délit fiscal qualifié (usage de faux / fraude, impôts soustraits > CHF 300'000 par période)",
+    "Toute contravention fiscale"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une soustraction simple ne suffit pas.",
+    "Faux : la simple omission déclarative ne suffit pas.",
+    "Exact : art. 305bis ch. 1bis CP — seul le délit fiscal qualifié (fraude/usage de faux, > CHF 300'000 par période) contamine les fonds.",
+    "Faux : une contravention fiscale ne suffit pas."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-123",
+   "champ": "5.9 Blanchiment — imputation à l'entreprise",
+   "memento": "M5 §7",
+   "question": "Le blanchiment peut-il être imputé à la personne morale elle-même ?",
+   "options": [
+    "Non, jamais",
+    "Oui, l'entreprise peut être sanctionnée (art. 102 CP)",
+    "Oui, mais seulement pour une banque",
+    "Non, seul l'organe physique répond"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'imputation à l'entreprise est possible.",
+    "Exact : art. 102 CP — le blanchiment figure parmi les infractions imputables à l'entreprise.",
+    "Faux : l'imputation n'est pas réservée aux banques.",
+    "Faux : la responsabilité de l'entreprise peut s'ajouter à celle de la personne physique."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-124",
+   "champ": "5.9 Blanchiment — notion de valeur patrimoniale",
+   "memento": "M5 §7",
+   "question": "Comment s'entend la notion de « valeur patrimoniale » pour le blanchiment ?",
+   "options": [
+    "Uniquement de l'argent liquide",
+    "Uniquement des avoirs bancaires",
+    "Uniquement des biens immobiliers",
+    "Largement : argent, papiers-valeurs, titres, pierres précieuses, métaux (même notion que pour la confiscation, art. 70 CP)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la notion ne se limite pas aux espèces.",
+    "Faux : elle ne se limite pas aux avoirs bancaires.",
+    "Faux : elle ne se limite pas aux immeubles.",
+    "Exact : la valeur patrimoniale se comprend largement (argent, papiers-valeurs, titres, pierres précieuses, métaux), comme pour la confiscation (art. 70 CP référence)."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-125",
+   "champ": "5.9 Blanchiment — exemples d'entrave",
+   "memento": "M5 §7",
+   "question": "Lequel de ces actes est un exemple typique d'entrave au sens de l'art. 305bis CP ?",
+   "options": [
+    "Souscrire une assurance-vie à prime unique avec des fonds criminels",
+    "Déposer des espèces après identification correcte de l'ADE",
+    "Établir une facture conforme",
+    "Déclarer ses revenus au fisc"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'assurance-vie à prime unique est un exemple classique d'entrave, au même titre qu'un virement à l'étranger ou la dissimulation d'espèces.",
+    "Faux : un simple dépôt après identification correcte n'est pas une entrave (ATF 124 IV 274).",
+    "Faux : une facture conforme n'entrave rien.",
+    "Faux : déclarer ses revenus est l'inverse d'une entrave."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-126",
+   "champ": "5.9 Blanchiment — bien juridique",
+   "memento": "M5 §7",
+   "question": "Quel bien juridique protège l'art. 305bis CP ?",
+   "options": [
+    "Le patrimoine de la victime de l'infraction préalable",
+    "La confiance dans les titres",
+    "L'administration de la justice",
+    "La place économique suisse"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le blanchiment ne protège pas directement le patrimoine du lésé initial.",
+    "Faux : la confiance dans les titres est protégée par l'art. 251 CP.",
+    "Exact : l'art. 305bis CP protège l'administration de la justice (traçabilité et confiscation des valeurs).",
+    "Faux : la place économique suisse est protégée par l'art. 273 CP."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-127",
+   "champ": "5.9 Blanchiment — auteur",
+   "memento": "M5 §7",
+   "question": "Qui peut être auteur de blanchiment (art. 305bis CP) ?",
+   "options": [
+    "Uniquement un intermédiaire financier",
+    "Quiconque (infraction ordinaire)",
+    "Uniquement le professionnel de la gestion de fortune",
+    "Uniquement l'auteur de l'infraction préalable"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'auteur n'est pas limité aux intermédiaires financiers.",
+    "Exact : l'art. 305bis CP vise quiconque (infraction ordinaire) — à la différence de l'art. 305ter CP (cercle restreint).",
+    "Faux : le cercle restreint caractérise l'art. 305ter CP.",
+    "Faux : l'auteur du blanchiment peut être un tiers (voire l'auteur de l'infraction préalable)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-128",
+   "champ": "5.10 Défaut de vigilance — auteur",
+   "memento": "M5 §8",
+   "question": "Qui peut être auteur du défaut de vigilance (art. 305ter al. 1 CP) ?",
+   "options": [
+    "Quiconque",
+    "Uniquement une banque",
+    "Uniquement l'auteur de l'infraction préalable",
+    "Un cercle restreint : le professionnel de la gestion de fortune (et activités similaires)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : « quiconque » caractérise le blanchiment (art. 305bis CP), pas l'art. 305ter CP.",
+    "Faux : le cercle ne se limite pas aux banques.",
+    "Faux : l'art. 305ter CP ne vise pas l'auteur d'une infraction préalable.",
+    "Exact : art. 305ter al. 1 CP — cercle restreint : professionnels de la gestion de fortune et activités similaires."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-129",
+   "champ": "5.10 Défaut de vigilance — auteur (distinction)",
+   "memento": "M5 §8",
+   "question": "Quelle différence de cercle d'auteurs entre 305bis et 305ter CP ?",
+   "options": [
+    "305bis : quiconque ; 305ter : cercle restreint (professionnel)",
+    "305bis : cercle restreint ; 305ter : quiconque",
+    "Les deux : quiconque",
+    "Les deux : cercle restreint"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 305bis vise quiconque ; 305ter vise un cercle restreint (professionnel de la gestion de fortune).",
+    "Faux : c'est l'inverse.",
+    "Faux : 305ter est limité à un cercle restreint.",
+    "Faux : 305bis vise quiconque."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-130",
+   "champ": "5.10 Défaut de vigilance — acte",
+   "memento": "M5 §8",
+   "question": "En quoi consiste l'acte réprimé par l'art. 305ter al. 1 CP ?",
+   "options": [
+    "Entraver la traçabilité de fonds criminels",
+    "Fabriquer un titre faux",
+    "Omettre de vérifier l'identité de l'ayant droit économique",
+    "Communiquer au MROS sans motif"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : entraver la traçabilité de fonds criminels caractérise l'art. 305bis CP.",
+    "Faux : le titre faux relève de l'art. 251 CP.",
+    "Exact : art. 305ter al. 1 CP — omettre de vérifier l'identité de l'ayant droit économique, en violation du devoir de diligence.",
+    "Faux : la communication au MROS relève de la LBA (art. 9)."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-131",
+   "champ": "5.10 Défaut de vigilance — origine des fonds",
+   "memento": "M5 §8",
+   "question": "L'origine criminelle des fonds est-elle exigée pour l'art. 305ter al. 1 CP ?",
+   "options": [
+    "Oui, comme pour le blanchiment",
+    "Non : l'origine des fonds est indifférente (seule compte la violation de l'obligation de vérifier)",
+    "Oui, mais seulement s'il s'agit d'un délit fiscal qualifié",
+    "Oui, l'origine doit être un crime"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : contrairement au blanchiment, l'origine n'est pas requise.",
+    "Exact : art. 305ter al. 1 CP — mise en danger abstraite ; peu importe l'origine réelle des fonds, seule la violation du devoir de vérification compte.",
+    "Faux : aucune condition de délit fiscal qualifié.",
+    "Faux : l'origine criminelle n'est pas exigée (différence avec 305bis)."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-132",
+   "champ": "5.10 Défaut de vigilance — distinction origine",
+   "memento": "M5 §8",
+   "question": "Sur le point de l'origine des fonds, comment 305bis et 305ter CP se distinguent-ils ?",
+   "options": [
+    "305bis est indifférent à l'origine ; 305ter exige une origine criminelle",
+    "Les deux exigent une origine criminelle",
+    "Les deux sont indifférents à l'origine",
+    "305bis exige une origine criminelle ; 305ter est indifférent à l'origine"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est l'inverse.",
+    "Faux : 305ter n'exige pas d'origine criminelle.",
+    "Faux : 305bis exige une origine criminelle.",
+    "Exact : 305bis exige des fonds d'origine criminelle ; 305ter punit le défaut de vérification, quelle que soit l'origine."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-133",
+   "champ": "5.10 Défaut de vigilance — type subjectif",
+   "memento": "M5 §8",
+   "question": "Quel est le type subjectif du défaut de vigilance (art. 305ter al. 1 CP) ?",
+   "options": [
+    "Intentionnel, le dol éventuel suffisant",
+    "Négligence uniquement",
+    "Aucune faute requise (responsabilité objective)",
+    "Dol direct exclusivement"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 305ter al. 1 CP — seule la violation intentionnelle est punissable, le dol éventuel suffisant.",
+    "Faux : ce n'est pas une infraction de négligence.",
+    "Faux : ce n'est pas une responsabilité objective.",
+    "Faux : le dol éventuel suffit, le dol direct n'est pas exigé."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-134",
+   "champ": "5.10 Défaut de vigilance — identification fortuite",
+   "memento": "M5 §8",
+   "question": "Un professionnel, sans respecter son obligation, identifie tout de même « par hasard » le bon ayant droit économique. Est-il punissable au titre de l'art. 305ter CP ?",
+   "options": [
+    "Oui, la seule violation de la procédure suffit",
+    "Oui, mais la peine est atténuée",
+    "Non : l'art. 305ter CP ne s'applique pas s'il a identifié la bonne personne, fût-ce fortuitement",
+    "Non, car l'origine des fonds était licite"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'identification correcte, même fortuite, fait échec à l'infraction.",
+    "Faux : il n'y a pas de peine atténuée, l'infraction n'est pas réalisée.",
+    "Exact : l'art. 305ter CP ne s'applique pas à celui qui identifie tout de même la bonne personne comme ADE, même « par hasard ».",
+    "Faux : le motif tient à l'identification correcte, non à l'origine des fonds (indifférente)."
+   ],
+   "piege": "D7",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-135",
+   "champ": "5.10 Droit de communiquer (al. 2)",
+   "memento": "M5 §9",
+   "question": "Que prévoit l'art. 305ter al. 2 CP (droit de communiquer) ?",
+   "options": [
+    "Une obligation de communiquer au MROS",
+    "Un droit (faculté) de signaler aux autorités de poursuite pénale les indices d'origine criminelle",
+    "Une obligation de bloquer les avoirs",
+    "Une interdiction de communiquer"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'obligation de communiquer relève de l'art. 9 LBA (vers le MROS).",
+    "Exact : art. 305ter al. 2 CP — droit (faculté) de communiquer aux autorités de poursuite pénale les indices que des valeurs proviennent d'un crime/délit fiscal qualifié.",
+    "Faux : le blocage relève de l'art. 10 LBA.",
+    "Faux : l'interdiction d'informer relève de l'art. 10a LBA."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-136",
+   "champ": "5.10 Droit de communiquer — destinataire",
+   "memento": "M5 §9",
+   "question": "À qui s'adresse le droit de communiquer de l'art. 305ter al. 2 CP ?",
+   "options": [
+    "Au MROS",
+    "À la FINMA",
+    "À l'organisme d'autorégulation",
+    "Aux autorités de poursuite pénale"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le MROS est le destinataire de l'obligation LBA (art. 9), pas du droit du CP.",
+    "Faux : la FINMA n'est pas le destinataire visé.",
+    "Faux : l'organisme d'autorégulation n'est pas le destinataire de cette communication.",
+    "Exact : art. 305ter al. 2 CP — le droit de communiquer vise les autorités de poursuite pénale."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-137",
+   "champ": "5.10 Droit (CP) vs obligation (LBA)",
+   "memento": "M5 §9",
+   "question": "Quelle distinction essentielle entre l'art. 305ter al. 2 CP et l'art. 9 LBA ?",
+   "options": [
+    "Le CP accorde un droit (indices → autorités pénales) ; la LBA impose une obligation (soupçons fondés → MROS)",
+    "Le CP impose une obligation ; la LBA accorde un simple droit",
+    "Les deux imposent une obligation identique",
+    "Les deux accordent une simple faculté"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 305ter al. 2 CP = droit (indices, autorités pénales) ; art. 9 LBA = obligation (soupçons fondés, MROS).",
+    "Faux : c'est l'inverse — le CP accorde un droit, la LBA une obligation.",
+    "Faux : le CP n'impose pas d'obligation ici.",
+    "Faux : l'art. 9 LBA impose une obligation, non une simple faculté."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-138",
+   "champ": "5.10 Droit (CP) vs obligation (LBA)",
+   "memento": "M5 §9",
+   "question": "Le déclenchement diffère : quel seuil pour le droit du CP et pour l'obligation LBA ?",
+   "options": [
+    "CP : soupçons fondés ; LBA : simples indices",
+    "Les deux : soupçons fondés",
+    "CP : simples indices ; LBA : soupçons fondés",
+    "Les deux : simples indices"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les seuils sont inversés.",
+    "Faux : le seuil du CP est plus bas (indices).",
+    "Exact : le droit du CP (art. 305ter al. 2) se déclenche sur de simples indices ; l'obligation LBA (art. 9) suppose des soupçons fondés (plus strict).",
+    "Faux : le seuil LBA est plus élevé (soupçons fondés)."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-139",
+   "champ": "5.10 305bis/305ter — bien juridique commun",
+   "memento": "M5 §8",
+   "question": "Que sont, au regard du bien juridique, le blanchiment (305bis) et le défaut de vigilance (305ter) ?",
+   "options": [
+    "Des infractions contre le patrimoine",
+    "Des délits contre l'administration de la justice",
+    "Des crimes contre la place économique suisse",
+    "Des infractions contre la foi publique"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ils ne protègent pas directement le patrimoine.",
+    "Exact : les art. 305bis et 305ter CP sont tous deux des délits contre l'administration de la justice (réponse fréquente aux QCM).",
+    "Faux : la place économique suisse relève de l'art. 273 CP.",
+    "Faux : la foi publique/confiance dans les titres relève de l'art. 251 CP."
+   ],
+   "piege": "D2",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-140",
+   "champ": "5.10 305bis/305ter — points communs",
+   "memento": "M5 §8",
+   "question": "Quelle affirmation est correcte pour les deux infractions (305bis et 305ter CP) ?",
+   "options": [
+    "Toutes deux supposent que l'auteur se soit vu confier des valeurs d'autrui",
+    "Toutes deux supposent l'omission de vérifier l'ADE",
+    "Toutes deux supposent une origine criminelle des fonds",
+    "Toutes deux sont des délits contre l'administration de la justice"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la remise de valeurs confiées n'est requise par aucune des deux.",
+    "Faux : l'omission de vérifier l'ADE caractérise seulement l'art. 305ter CP.",
+    "Faux : l'origine criminelle n'est exigée que pour l'art. 305bis CP.",
+    "Exact : les deux sont des délits contre l'administration de la justice."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-141",
+   "champ": "5.11 Intermédiaire financier (art. 2)",
+   "memento": "M5 §9",
+   "question": "Le conseiller en placement pur (qui n'exécute pas les transactions) est-il soumis à la LBA ?",
+   "options": [
+    "Oui, il est un intermédiaire financier soumis à la LBA (art. 2)",
+    "Non, il n'exécute pas les transactions",
+    "Non, sauf s'il crée une SA",
+    "Oui, mais uniquement s'il gère plus de CHF 300'000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 2 LBA — même le conseiller en placement pur est un intermédiaire financier soumis à la LBA.",
+    "Faux : le champ de l'art. 2 LBA est large et inclut le conseiller en placement pur.",
+    "Faux : la création d'une SA n'est pas une condition d'assujettissement.",
+    "Faux : aucun seuil chiffré ne conditionne l'assujettissement."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-142",
+   "champ": "5.11 Intermédiaire financier — champ",
+   "memento": "M5 §9",
+   "question": "Le champ d'application de la LBA (art. 2) est-il…",
+   "options": [
+    "limité aux seules banques",
+    "limité aux établissements soumis à la FINMA",
+    "large : banques, directions de fonds, assurances-vie, maisons de titres/jeu ET toute personne acceptant/gardant/aidant à transférer des valeurs de tiers à titre professionnel",
+    "limité aux professions notariales"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le champ dépasse largement les banques.",
+    "Faux : le champ ne se limite pas aux assujettis FINMA.",
+    "Exact : art. 2 LBA — champ large incluant, au-delà des établissements financiers, toute personne acceptant/gardant/aidant à transférer des valeurs de tiers à titre professionnel.",
+    "Faux : il ne se limite pas aux notaires."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-143",
+   "champ": "5.11 Vérifier l'identité du cocontractant (art. 3)",
+   "memento": "M5 §9",
+   "question": "Que doit faire l'intermédiaire au titre de l'art. 3 LBA ?",
+   "options": [
+    "Vérifier l'identité seulement en cas de soupçon",
+    "Vérifier l'identité du cocontractant, sur pièce, avant d'entrer en relation",
+    "Identifier l'ayant droit économique uniquement",
+    "Communiquer au MROS toute relation d'affaires"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la vérification n'est pas subordonnée à un soupçon préalable.",
+    "Exact : art. 3 LBA — vérifier l'identité du cocontractant sur pièce justificative avant d'établir la relation d'affaires.",
+    "Faux : l'identification de l'ADE relève de l'art. 4 LBA, distincte.",
+    "Faux : la communication au MROS n'est requise qu'en cas de soupçons fondés (art. 9 LBA)."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-144",
+   "champ": "5.11 Identifier l'ADE (art. 4)",
+   "memento": "M5 §9",
+   "question": "Comment s'identifie l'ayant droit économique selon l'art. 4 LBA ?",
+   "options": [
+    "Par l'inscription au registre du commerce",
+    "Par une déclaration orale, consignée dans une note",
+    "Par les justificatifs du registre du commerce uniquement",
+    "Par une déclaration écrite du cocontractant"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le registre du commerce n'est pas le moyen d'identification de l'ADE.",
+    "Faux : une déclaration orale ne suffit pas.",
+    "Faux : les justificatifs du registre du commerce ne suffisent pas.",
+    "Exact : art. 4 LBA — l'ADE s'identifie par déclaration écrite du cocontractant."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-145",
+   "champ": "5.11 Identifier l'ADE (art. 4)",
+   "memento": "M5 §9",
+   "question": "Une déclaration orale du cocontractant, consignée au dossier, suffit-elle à identifier l'ADE (art. 4 LBA) ?",
+   "options": [
+    "Non : l'identification de l'ADE requiert une déclaration écrite",
+    "Oui, si elle est notée au dossier",
+    "Oui, si le montant est faible",
+    "Oui, si le cocontractant est une personne physique"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 4 LBA — la déclaration doit être écrite.",
+    "Faux : la consignation d'une déclaration orale ne remplit pas l'exigence.",
+    "Faux : le montant est indifférent.",
+    "Faux : la qualité du cocontractant ne dispense pas de la forme écrite."
+   ],
+   "piege": "D7",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-146",
+   "champ": "5.11 Renouveler l'identification (art. 5)",
+   "memento": "M5 §9",
+   "question": "Quand faut-il renouveler l'identification (art. 5 LBA) ?",
+   "options": [
+    "Chaque année, systématiquement",
+    "Jamais, une fois la relation ouverte",
+    "Lorsque des doutes surviennent en cours de relation d'affaires",
+    "Uniquement à la clôture de la relation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : ce n'est pas une périodicité annuelle systématique.",
+    "Faux : l'obligation subsiste en cas de doute.",
+    "Exact : art. 5 LBA — renouveler l'identification en cas de doutes survenant en cours de relation.",
+    "Faux : le renouvellement intervient sur doute, pas seulement à la clôture."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-147",
+   "champ": "5.11 Clarifier l'arrière-plan (art. 6)",
+   "memento": "M5 §9",
+   "question": "Que vise l'obligation de clarification de l'art. 6 LBA ?",
+   "options": [
+    "Vérifier l'identité du cocontractant à l'ouverture",
+    "Clarifier l'arrière-plan économique et le but des transactions inhabituelles (« connaître son client »)",
+    "Bloquer les avoirs suspects",
+    "Communiquer au MROS"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la vérification d'identité à l'ouverture relève de l'art. 3 LBA.",
+    "Exact : art. 6 LBA — clarifier l'arrière-plan économique et le but des transactions inhabituelles/suspectes.",
+    "Faux : le blocage relève de l'art. 10 LBA.",
+    "Faux : la communication relève de l'art. 9 LBA."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-148",
+   "champ": "5.11 Documenter (art. 7)",
+   "memento": "M5 §9",
+   "question": "Que prévoit l'art. 7 LBA ?",
+   "options": [
+    "L'obligation de communiquer au MROS",
+    "L'interdiction d'informer le client",
+    "Le blocage des avoirs",
+    "L'obligation d'établir et de conserver les pièces permettant de reconstituer les transactions"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la communication relève de l'art. 9 LBA.",
+    "Faux : l'interdiction d'informer relève de l'art. 10a LBA.",
+    "Faux : le blocage relève de l'art. 10 LBA.",
+    "Exact : art. 7 LBA — documenter et conserver les pièces permettant de reconstituer les transactions."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-149",
+   "champ": "5.11 Mesures organisationnelles (art. 8)",
+   "memento": "M5 §9",
+   "question": "Que vise l'art. 8 LBA ?",
+   "options": [
+    "Les mesures organisationnelles (formation, contrôles internes) propres à prévenir le blanchiment",
+    "La vérification de l'identité du cocontractant",
+    "L'identification de l'ayant droit économique",
+    "La reconnaissance des organismes d'autorégulation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 8 LBA — mesures organisationnelles : formation du personnel et contrôles internes.",
+    "Faux : la vérification d'identité relève de l'art. 3 LBA.",
+    "Faux : l'identification de l'ADE relève de l'art. 4 LBA.",
+    "Faux : la reconnaissance des OAR relève de l'art. 24 LBA."
+   ],
+   "piege": "D5",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-150",
+   "champ": "5.11 Communiquer au MROS (art. 9)",
+   "memento": "M5 §9",
+   "question": "À quelle condition l'intermédiaire doit-il communiquer au MROS (art. 9 LBA) ?",
+   "options": [
+    "Dès de simples doutes",
+    "Seulement après un jugement pénal",
+    "En cas de soupçons fondés",
+    "Uniquement si le client y consent"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : de simples doutes appellent d'abord des clarifications (art. 6 LBA), pas une communication.",
+    "Faux : aucun jugement préalable n'est requis.",
+    "Exact : art. 9 LBA — obligation de communiquer au MROS en cas de soupçons fondés.",
+    "Faux : le consentement du client n'est pas requis (et l'art. 10a interdit de l'informer)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-151",
+   "champ": "5.11 Communiquer au MROS — doutes vs soupçons",
+   "memento": "M5 §9",
+   "question": "De simples doutes suffisent-ils à déclencher l'obligation de communiquer de l'art. 9 LBA ?",
+   "options": [
+    "Oui, tout doute déclenche l'obligation",
+    "Non : il faut des soupçons fondés ; les simples doutes appellent d'abord des clarifications (art. 6 LBA)",
+    "Oui, mais uniquement pour les banques",
+    "Non, il faut la certitude d'un blanchiment"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le simple doute ne suffit pas.",
+    "Exact : art. 9 LBA — l'obligation suppose des soupçons fondés ; les doutes appellent d'abord les clarifications de l'art. 6 LBA.",
+    "Faux : la condition vaut pour tous les intermédiaires, pas seulement les banques.",
+    "Faux : la certitude n'est pas exigée, des soupçons fondés suffisent."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-152",
+   "champ": "5.11 Bloquer les avoirs (art. 10)",
+   "memento": "M5 §9",
+   "question": "Après communication au MROS, quelle obligation peut peser sur l'intermédiaire (art. 10 LBA) ?",
+   "options": [
+    "Restituer immédiatement les avoirs au client",
+    "Informer immédiatement le client",
+    "Saisir directement le tribunal pénal",
+    "Bloquer les avoirs faisant l'objet de la communication"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : restituer les avoirs irait à l'encontre du dispositif.",
+    "Faux : informer le client est interdit (art. 10a LBA).",
+    "Faux : l'intermédiaire n'a pas à saisir le tribunal pénal.",
+    "Exact : art. 10 LBA — blocage des avoirs faisant l'objet de la communication, pour éviter leur fuite."
+   ],
+   "piege": "D1",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-153",
+   "champ": "5.11 Interdiction d'informer (art. 10a)",
+   "memento": "M5 §9",
+   "question": "Que prévoit l'art. 10a LBA (« tipping off ») ?",
+   "options": [
+    "L'interdiction d'informer le client ou des tiers de la communication au MROS",
+    "L'obligation d'informer immédiatement le client de la communication",
+    "L'obligation d'informer le tribunal pénal",
+    "Le droit de communiquer aux autorités pénales"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 10a LBA — interdiction d'informer le client ou des tiers de la communication faite au MROS.",
+    "Faux : c'est l'inverse — informer le client est interdit.",
+    "Faux : aucune obligation d'informer le tribunal pénal.",
+    "Faux : le droit de communiquer aux autorités pénales relève de l'art. 305ter al. 2 CP."
+   ],
+   "piege": "D7",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-154",
+   "champ": "5.11 Blocage vs interdiction d'informer",
+   "memento": "M5 §9",
+   "question": "Après avoir communiqué au MROS, l'intermédiaire A peut avoir quelle autre obligation ?",
+   "options": [
+    "Informer immédiatement son client concerné",
+    "Informer immédiatement le tribunal pénal",
+    "Bloquer, dans certaines circonstances, les avoirs concernés",
+    "Restituer les fonds au cocontractant"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : informer le client est interdit (art. 10a LBA).",
+    "Faux : il n'a pas à informer le tribunal pénal.",
+    "Exact : art. 10 LBA — outre la communication, l'intermédiaire peut devoir bloquer les avoirs.",
+    "Faux : restituer les fonds contredirait le blocage."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-155",
+   "champ": "5.11 Exclusion de responsabilité (art. 11)",
+   "memento": "M5 §9",
+   "question": "Quelle protection l'art. 11 LBA offre-t-il à l'intermédiaire ?",
+   "options": [
+    "Une immunité générale contre toute poursuite",
+    "Une exclusion de responsabilité pénale et civile pour la communication faite de bonne foi",
+    "Une prime versée par la Confédération",
+    "Une exonération fiscale"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ce n'est pas une immunité générale, elle est liée à la communication de bonne foi.",
+    "Exact : art. 11 LBA — la communication de bonne foi exclut la responsabilité pénale et civile (ni violation du secret).",
+    "Faux : aucune prime n'est prévue.",
+    "Faux : aucune exonération fiscale n'est prévue."
+   ],
+   "piege": "D2",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-156",
+   "champ": "5.11 MROS (art. 23)",
+   "memento": "M5 §9",
+   "question": "Que désigne le MROS (art. 23 LBA) ?",
+   "options": [
+    "L'organisme d'autorégulation de la branche",
+    "L'autorité de surveillance des marchés financiers",
+    "Le tribunal pénal fédéral",
+    "Le Bureau de communication en matière de blanchiment d'argent"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les OAR relèvent de l'art. 24 LBA.",
+    "Faux : l'autorité de surveillance des marchés est la FINMA.",
+    "Faux : le MROS n'est pas une juridiction.",
+    "Exact : art. 23 LBA — le MROS est le Bureau de communication en matière de blanchiment d'argent, destinataire des communications."
+   ],
+   "piege": "D8",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-157",
+   "champ": "5.11 Reconnaissance des OAR (art. 24)",
+   "memento": "M5 §9",
+   "question": "Que régit l'art. 24 LBA ?",
+   "options": [
+    "La reconnaissance des organismes d'autorégulation",
+    "L'obligation de communiquer au MROS",
+    "Le blocage des avoirs",
+    "L'identification de l'ADE"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 24 LBA — reconnaissance des organismes d'autorégulation, pièce maîtresse du système d'autorégulation.",
+    "Faux : la communication relève de l'art. 9 LBA.",
+    "Faux : le blocage relève de l'art. 10 LBA.",
+    "Faux : l'identification de l'ADE relève de l'art. 4 LBA."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-158",
+   "champ": "5.11 Objet de la LBA (art. 1)",
+   "memento": "M5 §9",
+   "question": "Quel est l'objet de la LBA (art. 1) ?",
+   "options": [
+    "Réprimer pénalement le blanchiment à la place du CP",
+    "Fixer le seuil du délit fiscal qualifié",
+    "Lutter contre le blanchiment, en complément de l'art. 305bis CP, et assurer la vigilance dans les opérations financières",
+    "Organiser la confiscation des valeurs"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la LBA complète le CP, elle ne le remplace pas (la répression pénale reste dans le CP).",
+    "Faux : le seuil du délit fiscal qualifié relève des art. 186 LIFD / 59 LHID.",
+    "Exact : art. 1 LBA — lutter contre le blanchiment en complément de l'art. 305bis CP et assurer la diligence dans les opérations financières.",
+    "Faux : la confiscation relève de l'art. 70 CP."
+   ],
+   "piege": "D2",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-159",
+   "champ": "5.11 Droit (CP) vs obligation (LBA) — synthèse",
+   "memento": "M5 §9",
+   "question": "Quel énoncé résume correctement les deux régimes de communication ?",
+   "options": [
+    "Droit (art. 9 LBA) : indices → MROS ; obligation (art. 305ter al. 2 CP) : soupçons → autorités pénales",
+    "Droit (art. 305ter al. 2 CP) : indices → autorités pénales ; obligation (art. 9 LBA) : soupçons fondés → MROS",
+    "Les deux sont des obligations vers le MROS",
+    "Les deux sont des droits vers les autorités pénales"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les articles et les seuils sont intervertis.",
+    "Exact : art. 305ter al. 2 CP = droit (indices → autorités pénales) ; art. 9 LBA = obligation (soupçons fondés → MROS).",
+    "Faux : le CP institue un droit, pas une obligation.",
+    "Faux : la LBA institue une obligation, pas un droit."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-160",
+   "champ": "5.11 Cascade des obligations",
+   "memento": "M5 §9",
+   "question": "Dans quel ordre logique se présentent certaines obligations de diligence LBA ?",
+   "options": [
+    "Communiquer au MROS, puis vérifier l'identité du cocontractant",
+    "Bloquer les avoirs, puis identifier l'ADE",
+    "Interdire d'informer, puis vérifier l'identité",
+    "Vérifier l'identité du cocontractant (art. 3), identifier l'ADE (art. 4), puis clarifier l'arrière-plan des transactions inhabituelles (art. 6)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la communication (art. 9) intervient en aval, sur soupçons fondés.",
+    "Faux : le blocage (art. 10) est postérieur à une communication.",
+    "Faux : l'interdiction d'informer (art. 10a) suppose une communication déjà faite.",
+    "Exact : la diligence LBA forme une cascade — vérifier l'identité (art. 3), identifier l'ADE (art. 4), clarifier l'arrière-plan des transactions inhabituelles (art. 6)."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-161",
+   "champ": "5.11 LBA — système d'autorégulation",
+   "memento": "M5 §9",
+   "question": "Sur quel mécanisme repose largement le dispositif de la LBA ?",
+   "options": [
+    "L'autorégulation : affiliation à des organismes reconnus (art. 24 LBA) qui édictent et contrôlent les règles",
+    "La supervision directe et exclusive par le juge pénal",
+    "Une déclaration fiscale annuelle",
+    "Le contrôle par les seules banques centrales étrangères"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la LBA repose sur l'autorégulation — les intermédiaires s'affilient à des OAR reconnus (art. 24 LBA) qui édictent et contrôlent les règles de diligence.",
+    "Faux : le juge pénal n'assure pas la supervision préventive du dispositif.",
+    "Faux : le dispositif ne repose pas sur une déclaration fiscale.",
+    "Faux : le contrôle n'est pas confié à des banques centrales étrangères."
+   ],
+   "piege": "D1",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-162",
+   "champ": "5.5 Distinction vol/abus/escroquerie",
+   "memento": "M5 §5",
+   "question": "L’agent fiduciaire T dispose d’une procuration sur le compte bancaire de sa cliente K. Conformément à la convention contractuelle entre K et T, ce dernier est autorisé à payer les impôts dus par K à l’administration fiscale par virement bancaire à partir dudit compte bancaire. Un jour, T transfère CHF 20 000 de ce compte à sa connaissance B sur la base de sa procuration. Quels sont les éléments constitutifs de l’infraction commise par T?",
+   "options": [
+    "Escroquerie",
+    "Vol.",
+    "Soustraction d’une chose mobilière.",
+    "Abus de confiance."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucune tromperie astucieuse déterminant un acte de disposition (art. 146 CP).",
+    "Faux : pas de soustraction, T avait déjà la maîtrise des fonds via la procuration (art. 139 CP).",
+    "Faux : il n’y a pas de bris de possession d’une chose mobilière.",
+    "Exact : T détourne des valeurs qui lui étaient confiées (procuration) — abus de confiance (art. 138 CP)."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-163",
+   "champ": "5.9 Blanchiment — valeurs de remplacement",
+   "memento": "M5 §7",
+   "question": "Hans travaille pour AHP SA en tant que magasinier. Il a volé à cette dernière des marchandises livrées qu’il a vendues au prix de CHF 100 000. Laquelle des assertions suivantes est correcte?",
+   "options": [
+    "Le produit de CHF 100 000 n’est pas un actif financier provenant d’un crime au sens de la norme sur le blanchiment d’argent, parce qu’il ne provient qu’indirectement du vol.",
+    "Le produit de CHF 100 000 n’est pas un actif financier provenant d’un crime au sens de la norme sur le blanchiment d’argent, parce que le vol n’est pas qualifié de crime.",
+    "Le produit de CHF 100 000 relève de la norme sur le blanchiment d’argent, parce que même les valeurs de remplacement provenant d’un crime en relèvent selon l’opinion dominante.",
+    "Le produit de CHF 100 000 est quantitativement trop faible pour être pertinent au sens de la norme sur le blanchiment d’argent."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l’origine indirecte est expressément couverte (art. 305bis ch. 1 CP).",
+    "Faux : le vol (art. 139 CP) est un crime.",
+    "Exact : le vol est un crime et les valeurs de remplacement (produit indirect) relèvent du blanchiment (art. 305bis ch. 1 CP).",
+    "Faux : aucun seuil quantitatif ne s’applique au produit d’un crime."
+   ],
+   "piege": "D1",
+   "difficulte": 5,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-164",
+   "champ": "5.9 Blanchiment — infraction préalable",
+   "memento": "M5 §7",
+   "question": "Vous prenez en charge la révision de AHP SA. Pendant l’entretien final, certaines questions liées au blanchiment d’argent apparaissent. Laquelle des assertions suivantes est correcte?",
+   "options": [
+    "Une infraction préalable à un blanchiment d’argent doit être un crime ou un délit fiscal qualifié, sous réserve que cette infraction préalable ait été juridiquement sanctionnée ou ait au moins été poursuivie.",
+    "Une infraction préalable à un blanchiment d’argent doit être un crime ou une atteinte aux biens, sous réserve que cette infraction préalable ait été juridiquement poursuivie ou sanctionnée.",
+    "Une infraction préalable à un blanchiment d’argent doit être un crime commis ou un délit fiscal qualifié en Suisse, sans qu’il soit nécessaire que cette infraction préalable ait été juridiquement poursuivie ou sanctionnée.",
+    "Une infraction préalable à un blanchiment d’argent doit être un crime ou un délit fiscal qualifié, sans qu’il soit nécessaire que cette infraction préalable ait été juridiquement poursuivie ou sanctionnée."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucune poursuite ni sanction préalable n’est requise (art. 305bis ch. 1 CP).",
+    "Faux : ce n’est pas « une atteinte aux biens », mais un crime ou un délit fiscal qualifié ; et aucune poursuite préalable n’est requise.",
+    "Faux : l’infraction préalable ne doit pas nécessairement avoir été commise en Suisse.",
+    "Exact : crime ou délit fiscal qualifié, sans exigence de poursuite ou sanction préalable (art. 305bis ch. 1 CP)."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-165",
+   "champ": "5.11 Intermédiaire financier (art. 2)",
+   "memento": "M5 §9",
+   "question": "Kurt travaille comme conseiller en placement. Il est un conseiller en placement pur, il ne participe pas à l’exécution des transactions. Laquelle des assertions suivantes est correcte?",
+   "options": [
+    "Kurt ne peut travailler comme conseiller en placement que s’il crée une SA avant d’exercer cette activité.",
+    "Les conseillers en placement purs, qui ne participent pas à l’exécution des transactions, ne sont pas soumis à la LBA.",
+    "Même les conseillers en placement purs, qui ne participent pas à l’exécution des transactions, sont soumis à la LBA.",
+    "Kurt ne peut pas être responsable selon les règles du droit du mandat."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la création d’une SA n’est pas une condition (art. 2 LBA).",
+    "Faux : le conseiller en placement pur est bien soumis à la LBA.",
+    "Exact : même le conseiller en placement pur est un intermédiaire financier soumis à la LBA (art. 2 LBA).",
+    "Faux : la responsabilité selon le droit du mandat n’est pas exclue."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-166",
+   "champ": "5.11 Identifier l'ADE (art. 4)",
+   "memento": "M5 §9",
+   "question": "Vous prenez en charge la révision de AHP SA. Pendant l’entretien final, certaines questions liées au blanchiment d’argent apparaissent. Il vous est demandé quelle méthode permet d’identifier l’ayant droit économique. L’identification de l’ayant droit économique s’effectue par ...",
+   "options": [
+    "... l’inscription au registre du commerce.",
+    "... les justificatifs du registre du commerce.",
+    "... la déclaration orale des parties contractantes sur laquelle une note au dossier doit être préparée.",
+    "... la déclaration écrite des parties contractantes."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le registre du commerce n’identifie pas l’ADE (art. 4 LBA).",
+    "Faux : les justificatifs du registre du commerce ne suffisent pas.",
+    "Faux : une déclaration orale, même consignée, ne suffit pas.",
+    "Exact : l’ADE s’identifie par déclaration écrite du cocontractant (art. 4 LBA)."
+   ],
+   "piege": "D8",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-167",
+   "champ": "5.10 305bis/305ter — bien juridique commun",
+   "memento": "M5 §8",
+   "question": "Les infractions relevant du code pénal de blanchiment d’argent, d’une part, et de défaut de vigilance en matière d’opérations financières, d’autre part, ont certaines caractéristiques communes, mais il existe également des différences entre les deux. Laquelle des quatre assertions suivantes concernant ces infractions relevant du code pénal est correcte?",
+   "options": [
+    "Les deux infractions relevant du code pénal supposent que l’auteur s’occupe à titre professionnel de la réception, de la conservation, du placement ou du transfert de valeurs patrimoniales appartenant à un tiers.",
+    "Les deux infractions relevant du code pénal supposent que l’auteur se soit vu confier des valeurs patrimoniales appartenant à un tiers.",
+    "Les deux infractions relevant du code pénal supposent que l’auteur omette d’établir l’identité de l’ayant droit économique.",
+    "Les deux infractions relevant du code pénal sont des délits contre l’administration de la justice."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la qualité professionnelle ne vaut que pour l’art. 305ter CP, pas pour l’art. 305bis CP (quiconque).",
+    "Faux : ni l’art. 305bis ni l’art. 305ter CP n’exigent des valeurs confiées.",
+    "Faux : l’omission de vérifier l’ADE caractérise seulement l’art. 305ter CP.",
+    "Exact : les art. 305bis et 305ter CP sont tous deux des délits contre l’administration de la justice."
+   ],
+   "piege": "D6",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-168",
+   "champ": "5.11 Blocage vs interdiction d'informer",
+   "memento": "M5 §9",
+   "question": "A est un intermédiaire financier au sens de la législation contre le blanchiment d’argent. Il soupçonne que des valeurs patrimoniales concrètes qui lui ont été confiées sont liées à un acte de blanchiment d’argent et en informe immédiatement le Bureau de communication en matière de blanchiment d’argent. Quelle autre obligation A peut-il avoir en rapport avec cette communication?",
+   "options": [
+    "A n’a aucune autre obligation.",
+    "Outre le devoir de notification, A a également dans certaines circonstances une obligation de blocage immédiat des avoirs.",
+    "Outre le devoir de notification, A a également l’obligation d’informer immédiatement son client concerné.",
+    "Outre le devoir de notification, A a également l’obligation d’informer immédiatement le tribunal pénal."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : A peut être tenu de bloquer les avoirs (art. 10 LBA).",
+    "Exact : outre la communication, A peut devoir bloquer les avoirs concernés (art. 10 LBA).",
+    "Faux : informer le client est interdit (art. 10a LBA).",
+    "Faux : A n’a pas à informer le tribunal pénal."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-169",
+   "champ": "5.8 Plainte pénale",
+   "memento": "M5 §6",
+   "question": "Pierre a entendu dire qu’un abus de confiance commis au préjudice d’un proche ou d’un membre de la famille n’est poursuivi que sur plainte. Il méconnaît cependant les implications des exigences requises concernant la plainte. Laquelle des assertions suivantes concernant la plainte est correcte?",
+   "options": [
+    "Une plainte doit être déposée par écrit.",
+    "Une plainte doit être déposée dans un délai de trois mois à compter de la date à laquelle l’auteur de l’infraction est connu de la personne habilitée à déposer une plainte.",
+    "Une plainte doit être déposée dans un délai de six mois à compter de la date à laquelle l’auteur de l’infraction est connu de la personne habilitée à déposer la plainte.",
+    "Une plainte peut être déposée soit par la personne lésée capable d’agir soit par son conjoint."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la plainte n’exige aucune forme écrite (art. 30 CP).",
+    "Exact : délai de 3 mois dès la connaissance de l’auteur (art. 31 CP).",
+    "Faux : le délai est de 3 mois, pas 6 (art. 31 CP).",
+    "Faux : le conjoint n’a pas de droit de plainte automatique ; le droit appartient au lésé (art. 30 CP)."
+   ],
+   "piege": "D3",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-170",
+   "champ": "5.5 Escroquerie (art. 146)",
+   "memento": "M5 §5",
+   "question": "Quels sont les éléments constitutifs objectifs de l’escroquerie au sens du Code pénal?",
+   "options": [
+    "(i) tromperie astucieuse;(ii) ce faisant, induction en erreur de la personne trompée ou confortation astucieuse dans l’erreur;(iii) transfert d’actifs;(iv) préjudice;(v) avantage en tant que contrepartie du préjudice.",
+    "(i) tromperie astucieuse;(ii) décision par la personne trompée de confier des actifs à l’auteur de l’escroquerie;(iii) préjudice;(iv) avantage comme contrepartie du préjudice.",
+    "(i) subtilisation par l’auteur de l’escroquerie d’actifs appartenant à la victime;(ii) préjudice;(iii) avantage en contrepartie du préjudice.",
+    "(i) tromperie astucieuse;(ii) subtilisation par l’auteur de l’escroquerie d’actifs appartenant à la victime;(iii) préjudice;(iv) avantage en contrepartie du préjudice."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : tromperie astucieuse → erreur → acte de disposition (transfert d’actifs) → préjudice → avantage (art. 146 CP).",
+    "Faux : la victime dispose de son patrimoine, elle ne « confie » pas les actifs à l’auteur (ce serait un abus de confiance).",
+    "Faux : la subtilisation par l’auteur décrit un vol, pas une escroquerie.",
+    "Faux : la subtilisation par l’auteur (au lieu d’un acte de disposition de la dupe) décrit un vol, pas une escroquerie."
+   ],
+   "piege": "D4",
+   "difficulte": 4,
+   "source": "exam-sample"
+  },
+  {
+   "id": "M5-171",
+   "champ": "5.1 Ordre des 3 verrous",
+   "memento": "M5 §1",
+   "question": "Un acte est typique et illicite, mais son auteur était totalement irresponsable au moment des faits. Est-il punissable ?",
+   "options": [
+    "Oui, la typicité et l'illicéité suffisent",
+    "Oui, mais la peine est seulement atténuée",
+    "Non : la culpabilité, troisième verrou, fait défaut (art. 19 al. 1 CP)",
+    "Non, car l'acte n'était pas typique"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les trois conditions sont cumulatives ; deux ne suffisent pas.",
+    "Faux : l'irresponsabilité totale exclut la peine, ne l'atténue pas.",
+    "Exact : la culpabilité manque (irresponsabilité totale, art. 19 al. 1 CP) → pas de peine.",
+    "Faux : l'acte est bien typique ; c'est la culpabilité qui manque."
+   ],
+   "piege": "D5",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-172",
+   "champ": "5.1 Crime vs délit — seuil",
+   "memento": "M5 §1",
+   "question": "Une infraction est passible d'une peine privative de liberté maximale de 3 ans. Crime ou délit (art. 10 CP) ?",
+   "options": [
+    "Crime, car elle atteint 3 ans",
+    "Délit, car le crime suppose une peine de PLUS de 3 ans",
+    "Contravention",
+    "Cela dépend de la peine prononcée"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil du crime est strictement supérieur à 3 ans.",
+    "Exact : art. 10 CP — est un crime l'infraction passible de plus de 3 ans ; 3 ans pile = délit.",
+    "Faux : ce n'est pas une contravention.",
+    "Faux : la qualification est abstraite, indépendante de la peine prononcée."
+   ],
+   "piege": "D3",
+   "difficulte": 4,
+   "source": "generated"
+  },
+  {
+   "id": "M5-173",
+   "champ": "5.2 Distinction 15/17",
+   "memento": "M5 §4",
+   "question": "Une personne repousse une agression physique par une riposte proportionnée. Quel article la justifie ?",
+   "options": [
+    "L'état de nécessité licite (art. 17 CP)",
+    "L'état de nécessité excusable (art. 18 CP)",
+    "La défense excusable (art. 16 CP)",
+    "La légitime défense (art. 15 CP)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 17 CP vise un danger, non une attaque d'une personne.",
+    "Faux : l'art. 18 CP (nécessité excusable) joue sur la culpabilité et vise un danger.",
+    "Faux : l'art. 16 CP concerne l'excès de défense, au niveau de la culpabilité.",
+    "Exact : repousser une attaque actuelle par une défense proportionnée = légitime défense (art. 15 CP), au niveau de l'illicéité."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-174",
+   "champ": "5.3 Nécessité 17 vs 18",
+   "memento": "M5 §4",
+   "question": "Une personne, sous l'empire d'une détresse qu'on ne pouvait raisonnablement lui demander de surmonter, sacrifie un bien d'égale valeur. Quel article, à quel étage ?",
+   "options": [
+    "Art. 18 CP, au niveau de la culpabilité",
+    "Art. 17 CP, au niveau de l'illicéité",
+    "Art. 15 CP, au niveau de l'illicéité",
+    "Art. 21 CP, au niveau de la typicité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la détresse excusable relève de l'état de nécessité excusable (art. 18 CP), au niveau de la culpabilité.",
+    "Faux : l'art. 17 CP suppose un bien de valeur prépondérante et justifie l'acte (illicéité).",
+    "Faux : l'art. 15 CP vise une attaque, pas un danger/détresse.",
+    "Faux : l'art. 21 CP vise l'erreur sur l'illicéité et joue sur la culpabilité, pas la typicité."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-175",
+   "champ": "5.4 Frontière dol éventuel / négligence consciente",
+   "memento": "M5 §2",
+   "question": "Conscience identique (résultat possible), volonté différente : quel élément fait basculer vers le dol éventuel plutôt que la négligence consciente ?",
+   "options": [
+    "L'auteur espère sincèrement que le résultat ne surviendra pas",
+    "L'auteur ne prévoit pas le résultat",
+    "L'auteur s'accommode du résultat et passe outre",
+    "L'auteur recherche activement le résultat"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : espérer l'évitement caractérise la négligence consciente.",
+    "Faux : ne pas prévoir = négligence inconsciente.",
+    "Exact : s'accommoder du résultat (« passer outre ») fait basculer vers le dol éventuel (art. 12 CP).",
+    "Faux : rechercher le résultat = dol direct, pas éventuel."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-176",
+   "champ": "5.4 Dol éventuel — blanchiment",
+   "memento": "M5 §2",
+   "question": "Un intermédiaire a de sérieux doutes sur l'origine des fonds et effectue tout de même le virement. Élément subjectif de l'art. 305bis CP rempli ?",
+   "options": [
+    "Non, il faut un dol direct",
+    "Oui : le dol éventuel suffit et porte sur l'origine et l'effet entravant",
+    "Non, les doutes relèvent de la négligence non punissable",
+    "Oui, mais seulement si le virement échoue"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le dol direct n'est pas requis (art. 305bis CP).",
+    "Exact : passer outre à de sérieux doutes = dol éventuel, suffisant, portant sur l'origine et l'effet entravant (art. 305bis CP).",
+    "Faux : passer outre à des doutes sérieux n'est pas une simple négligence.",
+    "Faux : le succès de l'entrave est indifférent (mise en danger abstraite)."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-177",
+   "champ": "5.5 Distinction vol/abus/escroquerie",
+   "memento": "M5 §5",
+   "question": "Ce qui départage vol, abus de confiance et escroquerie tient d'abord à savoir…",
+   "options": [
+    "le montant total du préjudice",
+    "si la victime a porté plainte dans les 3 mois",
+    "si l'auteur est un professionnel de la finance",
+    "si l'auteur avait déjà la maîtrise des valeurs et comment il a obtenu la disposition"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le montant n'est pas le critère de qualification.",
+    "Faux : la plainte est une condition de poursuite dans certains cas, pas le critère de qualification.",
+    "Faux : la qualité de professionnel n'entre pas dans ces qualifications patrimoniales.",
+    "Exact : la maîtrise préalable et le mode d'obtention distinguent abus (confié), vol (soustrait) et escroquerie (par tromperie) — art. 138/139/146 CP."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-178",
+   "champ": "5.5 Abus de confiance (art. 138)",
+   "memento": "M5 §5",
+   "question": "Un gérant à qui des fonds ont été confiés les emploie à son profit personnel. À défaut de soustraction et de tromperie, quelle infraction ?",
+   "options": [
+    "Abus de confiance (art. 138 CP)",
+    "Vol (art. 139 CP)",
+    "Escroquerie (art. 146 CP)",
+    "Faux dans les titres (art. 251 CP)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : emploi illicite de valeurs confiées avec dessein d'enrichissement = abus de confiance (art. 138 CP).",
+    "Faux : pas de soustraction, il avait déjà la maîtrise.",
+    "Faux : pas de tromperie astucieuse déterminant une disposition.",
+    "Faux : aucun titre faux n'est en cause."
+   ],
+   "piege": "D1",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-179",
+   "champ": "5.6 Notion de titre (art. 110 al. 4)",
+   "memento": "M5 §5",
+   "question": "Pourquoi une facture émise dans le cadre des affaires constitue-t-elle un « titre » (art. 110 al. 4 CP) ?",
+   "options": [
+    "Parce qu'elle porte un tampon officiel",
+    "Parce qu'elle est signée par un notaire",
+    "Parce qu'elle est un écrit destiné et propre à prouver un fait à portée juridique",
+    "Parce qu'elle dépasse un certain montant"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucun tampon officiel n'est requis.",
+    "Faux : aucune signature notariée n'est requise.",
+    "Exact : art. 110 al. 4 CP — écrit destiné et propre à prouver un fait ayant une portée juridique.",
+    "Faux : aucun seuil de montant n'entre en jeu."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-180",
+   "champ": "5.6 Faux matériel vs intellectuel",
+   "memento": "M5 §5",
+   "question": "Un comptable inscrit dans une facture authentique, émanant bien de lui, un fait mensonger. De quel faux s'agit-il (art. 251 CP) ?",
+   "options": [
+    "Un faux matériel (auteur apparent ≠ réel)",
+    "Un faux intellectuel (contenu mensonger, auteur véritable)",
+    "Aucun faux, la facture est authentique",
+    "Un vol de document"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'auteur apparent est bien le réel, il n'y a pas de faux matériel.",
+    "Exact : le titre émane de son véritable auteur mais son contenu est mensonger = faux intellectuel (art. 251 CP).",
+    "Faux : un contenu mensonger dans un titre réalise le faux intellectuel.",
+    "Faux : il n'y a pas de soustraction d'un document."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-181",
+   "champ": "5.7 Distinction 162 / 273",
+   "memento": "M5 §5",
+   "question": "Un même secret d'affaires est livré, dans un cas à un concurrent bernois, dans l'autre à une entreprise étrangère. Quelles qualifications respectives ?",
+   "options": [
+    "Art. 273 CP dans les deux cas",
+    "Art. 162 CP dans les deux cas",
+    "Art. 251 CP dans les deux cas",
+    "Art. 162 CP (destinataire suisse) et art. 273 CP (destinataire étranger)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 273 CP ne vaut que pour le destinataire étranger.",
+    "Faux : l'art. 162 CP ne couvre pas le destinataire étranger.",
+    "Faux : le faux dans les titres (art. 251 CP) est sans rapport.",
+    "Exact : destinataire suisse → art. 162 CP ; organisme/entreprise de l'étranger → art. 273 CP."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-182",
+   "champ": "5.8 Plainte — délai",
+   "memento": "M5 §6",
+   "question": "Un lésé apprend l'identité de l'auteur d'un abus de confiance entre proches. De combien de temps dispose-t-il pour porter plainte (art. 31 CP) ?",
+   "options": [
+    "3 mois dès la connaissance de l'auteur",
+    "6 mois dès la connaissance de l'auteur",
+    "3 mois dès la commission de l'acte",
+    "1 an dès la connaissance de l'auteur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 31 CP — 3 mois dès la connaissance de l'auteur.",
+    "Faux : le délai est de 3 mois, pas 6.",
+    "Faux : le point de départ est la connaissance de l'auteur, pas l'acte.",
+    "Faux : le délai n'est pas d'un an."
+   ],
+   "piege": "D3",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-183",
+   "champ": "5.9 Blanchiment — pas de poursuite préalable",
+   "memento": "M5 §7",
+   "question": "L'infraction préalable (un crime) n'a fait l'objet d'aucune poursuite. Le blanchiment du produit est-il pour autant exclu ?",
+   "options": [
+    "Oui, faute de poursuite de l'infraction préalable",
+    "Oui, tant que l'auteur préalable n'est pas identifié",
+    "Non : le blanchiment est réalisable sans poursuite ni sanction préalable (art. 305bis ch. 1 CP)",
+    "Non, mais seulement pour un délit fiscal qualifié"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucune poursuite préalable n'est requise.",
+    "Faux : l'identification de l'auteur préalable n'est pas une condition.",
+    "Exact : art. 305bis ch. 1 CP — l'origine criminelle suffit, sans poursuite ni sanction préalable.",
+    "Faux : la règle vaut aussi pour un crime, pas seulement le délit fiscal qualifié."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-184",
+   "champ": "5.9 Délit fiscal qualifié — seuil",
+   "memento": "M5 §7",
+   "question": "Une fraude fiscale porte sur CHF 250'000 d'impôts soustraits par période. Peut-elle fonder un blanchiment ?",
+   "options": [
+    "Oui, toute fraude fiscale contamine les fonds",
+    "Non : le seuil du délit fiscal qualifié est de CHF 300'000 par période (art. 186 LIFD · 59 al. 1 LHID)",
+    "Oui, dès CHF 100'000",
+    "Non, seul un crime de droit commun peut fonder un blanchiment"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : toute fraude ne suffit pas, il faut le seuil qualifié.",
+    "Exact : le délit fiscal qualifié suppose des impôts soustraits > CHF 300'000 par période (art. 186 LIFD · 59 al. 1 LHID) ; 250'000 est en deçà.",
+    "Faux : le seuil n'est pas de CHF 100'000.",
+    "Faux : un délit fiscal qualifié peut aussi fonder un blanchiment (art. 305bis ch. 1bis CP)."
+   ],
+   "piege": "D3",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-185",
+   "champ": "5.10 Droit (CP) vs obligation (LBA)",
+   "memento": "M5 §9",
+   "question": "Un intermédiaire dispose de simples indices d'origine criminelle. De quelle prérogative dispose-t-il selon le CP ?",
+   "options": [
+    "Une obligation de communiquer au MROS",
+    "Une obligation de bloquer immédiatement les avoirs",
+    "Une interdiction d'agir tant qu'il n'a pas de soupçons fondés",
+    "Un droit de communiquer aux autorités de poursuite pénale (art. 305ter al. 2 CP)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'obligation vers le MROS suppose des soupçons fondés (art. 9 LBA).",
+    "Faux : le blocage (art. 10 LBA) suit une communication au MROS.",
+    "Faux : le CP lui reconnaît au contraire une faculté d'agir dès les indices.",
+    "Exact : art. 305ter al. 2 CP — sur de simples indices, droit (faculté) de communiquer aux autorités de poursuite pénale."
+   ],
+   "piege": "D10",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-186",
+   "champ": "5.10 Défaut de vigilance — origine des fonds",
+   "memento": "M5 §8",
+   "question": "Un gérant de fortune omet de vérifier l'ADE ; les fonds se révèlent finalement d'origine parfaitement licite. L'art. 305ter CP peut-il s'appliquer ?",
+   "options": [
+    "Oui : l'origine des fonds est indifférente, seule compte la violation du devoir de vérifier",
+    "Non, puisque les fonds étaient licites",
+    "Non, faute de crime préalable",
+    "Oui, mais requalifié en blanchiment (art. 305bis CP)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 305ter al. 1 CP — mise en danger abstraite ; l'origine des fonds est indifférente, la violation du devoir de vérifier suffit.",
+    "Faux : l'origine licite n'exclut pas l'art. 305ter CP.",
+    "Faux : aucun crime préalable n'est requis pour l'art. 305ter CP.",
+    "Faux : le défaut de vigilance ne se requalifie pas en blanchiment (qui exige une origine criminelle)."
+   ],
+   "piege": "D4",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-187",
+   "champ": "5.11 Identifier l'ADE (art. 4)",
+   "memento": "M5 §9",
+   "question": "Pour identifier l'ayant droit économique, l'intermédiaire se fonde sur un extrait du registre du commerce. Est-ce conforme à l'art. 4 LBA ?",
+   "options": [
+    "Oui, le registre du commerce fait foi",
+    "Oui, à condition d'y joindre une note orale",
+    "Non : l'ADE s'identifie par une déclaration écrite du cocontractant",
+    "Non, il faut une décision judiciaire"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le registre du commerce n'est pas le moyen prévu pour identifier l'ADE.",
+    "Faux : une note orale ne satisfait pas l'exigence de forme écrite.",
+    "Exact : art. 4 LBA — l'ADE s'identifie par déclaration écrite du cocontractant.",
+    "Faux : aucune décision judiciaire n'est requise."
+   ],
+   "piege": "D8",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-188",
+   "champ": "5.11 Intermédiaire financier (art. 2)",
+   "memento": "M5 §9",
+   "question": "Un professionnel se borne à conseiller des placements sans jamais exécuter d'ordre. Échappe-t-il à la LBA ?",
+   "options": [
+    "Oui, faute d'exécuter des transactions",
+    "Non : le conseiller en placement pur est soumis à la LBA (art. 2)",
+    "Oui, sauf s'il détient une procuration",
+    "Non, mais seulement s'il est employé d'une banque"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'absence d'exécution ne l'exempte pas.",
+    "Exact : art. 2 LBA — le conseiller en placement pur est un intermédiaire financier soumis à la LBA.",
+    "Faux : l'assujettissement ne dépend pas d'une procuration.",
+    "Faux : il est soumis même sans être employé d'une banque."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-189",
+   "champ": "5.11 Communiquer au MROS (art. 9)",
+   "memento": "M5 §9",
+   "question": "Un intermédiaire n'a que de vagues doutes, non des soupçons fondés. Doit-il déjà communiquer au MROS (art. 9 LBA) ?",
+   "options": [
+    "Oui, tout doute impose la communication",
+    "Oui, mais seulement par oral",
+    "Non, il doit d'abord bloquer les avoirs",
+    "Non : il procède d'abord aux clarifications (art. 6 LBA) ; l'obligation naît des soupçons fondés"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un simple doute ne déclenche pas la communication.",
+    "Faux : la forme orale n'est pas le sujet ; l'obligation elle-même n'est pas encore née.",
+    "Faux : le blocage (art. 10 LBA) suit une communication, il ne la précède pas.",
+    "Exact : art. 9 LBA — l'obligation suppose des soupçons fondés ; les doutes appellent d'abord les clarifications de l'art. 6 LBA."
+   ],
+   "piege": "D6",
+   "difficulte": 5,
+   "source": "generated"
+  },
+  {
+   "id": "M5-190",
+   "champ": "5.11 Interdiction d'informer (art. 10a)",
+   "memento": "M5 §9",
+   "question": "Après avoir communiqué au MROS, l'intermédiaire peut-il prévenir son client pour préserver la relation ?",
+   "options": [
+    "Non : l'art. 10a LBA interdit d'informer le client ou des tiers de la communication",
+    "Oui, la transparence envers le client prime",
+    "Oui, s'il obtient l'accord du MROS oralement",
+    "Oui, à condition de ne pas bloquer les avoirs"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 10a LBA — interdiction d'informer le client ou des tiers de la communication au MROS (« tipping off »).",
+    "Faux : la transparence cède devant l'interdiction légale.",
+    "Faux : aucun accord oral du MROS ne lève cette interdiction.",
+    "Faux : l'interdiction d'informer est indépendante du blocage (art. 10 LBA)."
+   ],
+   "piege": "D5",
+   "difficulte": 5,
+   "source": "generated"
+  }
+ ]
+}

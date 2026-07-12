@@ -1,0 +1,13 @@
+{
+  "cours": "droit",
+  "titre": "Droit — Module 7 (ExpertSuisse)",
+  "modules": [
+    { "id": "M1", "titre": "Méthode & formes de sociétés", "bank": "m1-formes.json", "memento": "m1-formes.pdf" },
+    { "id": "M2", "titre": "Société anonyme (SA)", "bank": "m2-sa.json", "memento": "m2-sa.pdf" },
+    { "id": "M3", "titre": "Droit des contrats", "bank": "m3-contrats.json", "memento": "m3-contrats.pdf" },
+    { "id": "M4", "titre": "Loi sur la fusion (LFus)", "bank": "m4-lfus.json", "memento": "m4-lfus.pdf" },
+    { "id": "M5", "titre": "Droit pénal & blanchiment", "bank": "m5-penal.json", "memento": "m5-penal.pdf" },
+    { "id": "M6", "titre": "Sûretés", "bank": "m6-suretes.json", "memento": "m6-suretes.pdf" }
+  ],
+  "note": "Banques complètes (Phase 4). Bundle chargé : banks/droit/_bundle.js (généré par build/build_bundle.py)."
+}
