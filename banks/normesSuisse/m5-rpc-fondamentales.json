@@ -22,7 +22,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.2",
-   "piege": "Les trois critères ne doivent pas tous être respectés : il en suffit de 2 sur 3, mais sur deux exercices consécutifs.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -44,7 +44,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.6 §6.2",
-   "piege": "Le CA de 22/21 mio dépasse le seuil, mais bilan et EPT restent sous les seuils : 2 sur 3 suffisent. Un groupe = + RPC 30.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -66,7 +66,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.2",
-   "piege": "Les fondamentales s'arrêtent à la RPC 6 ; la RPC 31 est pour les cotées, pas comprise dans les fondamentales.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -88,7 +88,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.6 §6.1",
-   "piege": "Reconnues par l'ONCR ne signifie pas « valeur de loi » : ce sont des recommandations privées.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -110,7 +110,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.6 §6.1",
-   "piege": "« Reconnues » et « facultatives » : les RPC ne remplacent pas le droit comptable du CO.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -132,7 +132,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.4",
-   "piege": "Piège classique : substance sur forme = base (CC 9-14), pas exigence qualitative (CC 29-33).",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -154,7 +154,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.4",
-   "piege": "Ne pas mélanger les bases (CC 9-14) et les exigences qualitatives (CC 29-33).",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -176,7 +176,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.1",
-   "piege": "Contrairement au CO, le RPC (image fidèle) interdit toute réserve latente.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -198,7 +198,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.1",
-   "piege": "Chacune de ces pratiques crée une réserve latente : toutes interdites sous RPC.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -220,7 +220,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.5",
-   "piege": "Juste valeur pour titres et immeubles de rendement ; jamais pour les stocks (valeur la plus basse).",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -242,7 +242,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.5",
-   "piege": "« Nette » = après déduction des coûts de mise à disposition (transport, commissions, taxes).",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -264,7 +264,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.9",
-   "piege": "Postes monétaires du bilan → cours du jour ; une transaction déjà dénouée (dividende encaissé) → cours historique.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -286,7 +286,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.6 §6.9",
-   "piege": "Postes monétaires du bilan = cours de clôture, sans option de prudence.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -308,7 +308,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.6 §6.6",
-   "piege": "Les trois (résultat d'exploitation, EBITDA, EBIT) sont admis, pas un seul.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -330,7 +330,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.6",
-   "piege": "Agent = comptabilisation nette : seule la commission est un chiffre d'affaires.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -352,7 +352,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.7",
-   "piege": "La marche normale des affaires (commandes courantes) échappe à la publication hors bilan.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -374,7 +374,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.6 §6.7",
-   "piege": "Commande de la marche normale des affaires = hors champ de la publication hors bilan.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -396,7 +396,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.6 §6.9",
-   "piege": "Trois sections ; méthode directe OU indirecte ; équivalents de trésorerie ≤ 90 jours.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -418,7 +418,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.9",
-   "piege": "Free cash flow = exploitation − investissements de maintien (le financement reste hors du calcul).",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -440,7 +440,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.6 §6.3",
-   "piege": "Cinq éléments : le TFT et la variation des CP s'ajoutent au trio bilan/résultat/annexe.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -462,7 +462,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.8",
-   "piege": "L'annexe (RPC 6) inclut les événements postérieurs au bilan (CC 28), pas le TFT ni le rapport de révision.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -484,8 +484,844 @@
    ],
    "difficulte": 2,
    "memento": "ch.6 §6.4",
-   "piege": "Question ouverte → cadre conceptuel + image fidèle (RPC 1/4), pas libre arbitre ni copie d'un autre référentiel.",
+   "piege": "QUAL",
    "source": "original"
+  },
+  {
+   "id": "M5-023",
+   "champ": "Conception modulaire & critères de taille",
+   "question": "Une organisation (non un groupe) présentant ses comptes selon les Swiss GAAP RPC affiche : année n — bilan 9 mio, CA 22 mio, 63 EPT ; année n-1 — bilan 8 mio, CA 19 mio, 60 EPT. Quelles RPC doit-elle appliquer au minimum ?",
+   "options": [
+    "L'ensemble du référentiel",
+    "RPC fondamentales uniquement",
+    "RPC fondamentales et Swiss GAAP RPC 30",
+    "RPC fondamentales, Swiss GAAP RPC 30 et Swiss GAAP RPC 31"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. En n, deux critères sont dépassés (CA 22 et 63 EPT) : un seul reste sous les seuils, la limitation aux fondamentales est impossible dès qu'un des deux exercices échoue. (conception modulaire RPC, SECONDAIRE)",
+    "Faux. En n, seul le bilan (9 mio) est sous le seuil : 2 des 3 critères sont dépassés, la limitation n'est pas admise. (conception modulaire RPC)",
+    "Faux. La RPC 30 ne vise que les groupes ; il s'agit ici d'une organisation isolée, et de toute façon le référentiel complet s'applique. (RPC 30)",
+    "Faux. La RPC 31 ne concerne que les sociétés cotées. (RPC 31)"
+   ],
+   "difficulte": 3,
+   "memento": "ch.6 §6.2",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M5-024",
+   "champ": "Conception modulaire & recommandations complémentaires",
+   "question": "Une organisation d'utilité publique à but non lucratif établit ses comptes selon les Swiss GAAP RPC. Quelle recommandation de branche s'ajoute au cadre fondamental ?",
+   "options": [
+    "Swiss GAAP RPC 26 (institutions de prévoyance)",
+    "Swiss GAAP RPC 40 (compagnies d'assurances)",
+    "Swiss GAAP RPC 21 (organisations d'utilité publique)",
+    "Swiss GAAP RPC 31 (sociétés cotées)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La RPC 26 vise les institutions de prévoyance, pas les OBNL. (RPC 26)",
+    "Faux. La RPC 40 vise les compagnies d'assurances. (RPC 40)",
+    "Vrai. La RPC 21 est la recommandation de branche des organisations d'utilité publique à but non lucratif. (RPC 21, SECONDAIRE)",
+    "Faux. La RPC 31 vise les sociétés cotées, non les OBNL. (RPC 31)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-025",
+   "champ": "Conception modulaire & critères de taille",
+   "question": "Une SA (entité isolée) sous RPC présente : année n — bilan 11 mio, CA 18 mio, 40 EPT ; année n-1 — bilan 9 mio, CA 19 mio, 48 EPT. Quelles RPC doit-elle appliquer au minimum ?",
+   "options": [
+    "RPC fondamentales uniquement",
+    "L'ensemble du référentiel",
+    "RPC fondamentales et Swiss GAAP RPC 30",
+    "RPC fondamentales et Swiss GAAP RPC 31"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. En n seul le bilan (11 mio) dépasse son seuil, en n-1 aucun : sur les deux exercices 2 des 3 critères restent sous les seuils, la limitation aux fondamentales est admise. (conception modulaire RPC, SECONDAIRE)",
+    "Faux. Le référentiel complet n'est requis que si 2 des 3 critères sont dépassés sur deux exercices, ce qui n'est pas le cas. (conception modulaire RPC)",
+    "Faux. La RPC 30 ne s'ajoute que pour un groupe ; ici c'est une entité isolée. (RPC 30)",
+    "Faux. La RPC 31 ne vise que les sociétés cotées. (RPC 31)"
+   ],
+   "difficulte": 3,
+   "memento": "ch.6 §6.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-026",
+   "champ": "Conception modulaire & critères de taille",
+   "question": "Un groupe privé sous RPC affiche : année n — bilan 8 mio, CA 15 mio, 55 EPT ; année n-1 — bilan 9 mio, CA 16 mio, 52 EPT. Quelles RPC doit-il appliquer au minimum ?",
+   "options": [
+    "RPC fondamentales uniquement",
+    "RPC fondamentales et Swiss GAAP RPC 30",
+    "L'ensemble du référentiel",
+    "RPC fondamentales, Swiss GAAP RPC 30 et Swiss GAAP RPC 31"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Un groupe ajoute toujours la RPC 30 (comptes consolidés) aux fondamentales. (RPC 30)",
+    "Vrai. Sur les deux exercices seul le nombre d'EPT dépasse le seuil : 2 des 3 critères restent sous les seuils, donc fondamentales ; mais un groupe ajoute la RPC 30. (conception modulaire RPC / RPC 30, SECONDAIRE)",
+    "Faux. 2 des 3 critères ne sont pas dépassés : la limitation aux fondamentales reste possible, le référentiel complet n'est pas exigé. (conception modulaire RPC)",
+    "Faux. La RPC 31 vise les seules sociétés cotées ; ce groupe est privé. (RPC 31)"
+   ],
+   "difficulte": 3,
+   "memento": "ch.6 §6.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-027",
+   "champ": "Réserves latentes interdites",
+   "question": "Pourquoi les états financiers selon les Swiss GAAP RPC ne peuvent-ils comporter de réserves latentes, contrairement au CO ?",
+   "options": [
+    "Parce que la RPC impose le principe de l'image fidèle (true and fair view)",
+    "Parce que la RPC interdit la constitution de toute provision",
+    "Parce que la RPC applique un principe de prudence renforcé par rapport au CO",
+    "Parce que l'AFC l'exige pour établir la base d'imposition"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'image fidèle exclut toute sous-évaluation d'actif ou sur-évaluation de dette, donc toute réserve latente. (Swiss GAAP RPC / CC, SECONDAIRE)",
+    "Faux. Les provisions justifiées restent admises ; ce sont les réserves latentes qui sont interdites. (Swiss GAAP RPC)",
+    "Faux. La prudence reste une base, mais elle ne va pas jusqu'à créer des réserves latentes sous RPC. (CC 9-14)",
+    "Faux. L'interdiction découle de l'image fidèle, non d'une exigence fiscale de l'AFC. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 1,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M5-028",
+   "champ": "Réserves latentes interdites",
+   "question": "Sous RPC, une société constitue un ducroire forfaitaire de 10 % sur l'ensemble de ses créances, sans lien avec le risque réel de défaut. Ce traitement est-il admis ?",
+   "options": [
+    "Oui, c'est une pratique de prudence courante",
+    "Oui, à condition de le mentionner en annexe",
+    "Non : il crée une réserve latente arbitraire, interdite",
+    "Oui, mais uniquement pour les créances envers l'étranger"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Un abattement forfaitaire sans lien avec le risque sous-évalue les créances : réserve latente interdite. (Swiss GAAP RPC / CC)",
+    "Faux. Une mention en annexe ne répare pas la violation ; le ducroire doit refléter le risque réel. (Swiss GAAP RPC)",
+    "Vrai. Un ducroire forfaitaire déconnecté du risque crée une réserve latente arbitraire, exclue par l'image fidèle. (Swiss GAAP RPC / CC, SECONDAIRE)",
+    "Faux. L'origine géographique de la créance ne légitime pas un forfait arbitraire. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M5-029",
+   "champ": "Réserves latentes interdites",
+   "question": "Une entreprise sous RPC amortit intégralement, en une fois, une machine encore en service afin de lisser son résultat. Quel principe est enfreint ?",
+   "options": [
+    "Aucun : l'amortissement accéléré est autorisé par prudence",
+    "L'interdiction des réserves latentes (image fidèle)",
+    "Le principe brut (non-compensation)",
+    "La délimitation matérielle entre exercices"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Amortir un actif encore utilisé au-delà de sa dépréciation réelle n'est pas admis sous RPC. (Swiss GAAP RPC / CC)",
+    "Vrai. Sous-évaluer un actif encore en service crée une réserve latente arbitraire, contraire à l'image fidèle. (Swiss GAAP RPC / CC, SECONDAIRE)",
+    "Faux. Le principe brut vise la non-compensation de postes, pas l'amortissement excessif. (CC 9-14)",
+    "Faux. La délimitation matérielle concerne l'affectation des charges/produits, pas la sous-évaluation d'actif. (CC 9-14)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M5-030",
+   "champ": "Exigences qualitatives vs bases",
+   "question": "Lequel de ces principes figure parmi les BASES des états financiers (CC 9-14) et non parmi les exigences qualitatives ?",
+   "options": [
+    "Comparabilité",
+    "Clarté",
+    "Délimitation périodique",
+    "Fiabilité"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La comparabilité est une exigence qualitative (CC 29-33). (CC 29-33)",
+    "Faux. La clarté est une exigence qualitative (CC 29-33). (CC 29-33)",
+    "Vrai. La délimitation périodique est une base des états financiers (CC 9-14). (CC 9-14, SECONDAIRE)",
+    "Faux. La fiabilité est une exigence qualitative (CC 29-33). (CC 29-33)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M5-031",
+   "champ": "Exigences qualitatives vs bases",
+   "question": "Lequel de ces éléments ne fait PAS partie des bases des états financiers (CC 9-14) ?",
+   "options": [
+    "Continuité d'exploitation",
+    "Principe brut (non-compensation)",
+    "Prudence",
+    "Caractère significatif"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La continuité d'exploitation est une base (CC 9-14). (CC 9-14)",
+    "Faux. Le principe brut est une base (CC 9-14). (CC 9-14)",
+    "Faux. La prudence est une base (CC 9-14). (CC 9-14)",
+    "Vrai. Le caractère significatif est une exigence qualitative (CC 29-33), pas une base. (CC 29-33, SECONDAIRE)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M5-032",
+   "champ": "Exigences qualitatives vs bases",
+   "question": "Un candidat affirme que « la prééminence de la substance sur la forme » est une exigence qualitative garantissant la comparabilité. Que faut-il corriger ?",
+   "options": [
+    "Rien, l'affirmation est exacte",
+    "C'est un principe de base (CC 9-14), pas une exigence qualitative",
+    "C'est une exigence qualitative, mais elle garantit la fiabilité et non la comparabilité",
+    "C'est un concept d'évaluation relevant de la RPC 2"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'affirmation confond base et exigence qualitative. (CC 9-14 / CC 29-33)",
+    "Vrai. La prééminence de la substance sur la forme est une base des états financiers (CC 9-14). (CC 9-14, SECONDAIRE)",
+    "Faux. Ce n'est pas une exigence qualitative du tout, mais une base. (CC 9-14)",
+    "Faux. C'est un principe de base du cadre conceptuel, pas un concept d'évaluation. (CC 9-14)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M5-033",
+   "champ": "Justes valeurs (RPC 2)",
+   "question": "Combien de bases de « juste valeur » le cadre conceptuel prévoit-il pour les actifs, et combien pour les dettes ?",
+   "options": [
+    "4 pour les actifs (jour, marché nette, utilité, liquidation), 2 pour les dettes (jour, actuelle)",
+    "2 pour les actifs, 4 pour les dettes",
+    "3 pour les actifs, 3 pour les dettes",
+    "4 pour les actifs, 4 pour les dettes"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Actifs : valeur du jour, valeur de marché nette, valeur d'utilité, valeur de liquidation (4) ; dettes : valeur du jour, valeur actuelle (2). (RPC 2 / CC 25, SECONDAIRE)",
+    "Faux. C'est l'inverse : 4 bases pour les actifs, 2 pour les dettes. (RPC 2 / CC 25)",
+    "Faux. Les actifs en comptent 4 et les dettes 2, pas 3 chacun. (RPC 2 / CC 25)",
+    "Faux. Les dettes n'ont que 2 bases de juste valeur, pas 4. (RPC 2 / CC 25)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.5",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M5-034",
+   "champ": "Justes valeurs (RPC 2)",
+   "question": "Laquelle de ces bases de juste valeur s'applique aux DETTES et non aux actifs ?",
+   "options": [
+    "Valeur de marché nette",
+    "Valeur d'utilité",
+    "Valeur actuelle",
+    "Valeur de liquidation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La valeur de marché nette est une base propre aux actifs. (RPC 2 / CC 25)",
+    "Faux. La valeur d'utilité est une base propre aux actifs. (RPC 2 / CC 25)",
+    "Vrai. La valeur actuelle est, avec la valeur du jour, l'une des deux bases de juste valeur des dettes. (RPC 2 / CC 25, SECONDAIRE)",
+    "Faux. La valeur de liquidation est une base propre aux actifs. (RPC 2 / CC 25)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.5",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M5-035",
+   "champ": "Justes valeurs (RPC 2)",
+   "question": "Selon la RPC 2, à quelle valeur les stocks sont-ils évalués ?",
+   "options": [
+    "À la juste valeur (valeur du jour)",
+    "À la valeur la plus basse entre le coût et la valeur de marché nette",
+    "À la valeur d'utilité",
+    "À la valeur de liquidation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les stocks ne sont pas évalués à la juste valeur, contrairement aux titres et immeubles de rendement. (RPC 2)",
+    "Vrai. Les stocks suivent la valeur la plus basse entre coût et valeur de marché nette (principe de la valeur la plus basse). (RPC 2, SECONDAIRE)",
+    "Faux. La valeur d'utilité ne s'applique pas à l'évaluation des stocks. (RPC 2)",
+    "Faux. La valeur de liquidation suppose une vente contrainte et ne régit pas les stocks. (RPC 2)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.5",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M5-036",
+   "champ": "Conversion de monnaies",
+   "question": "Une machine achetée en USD figure à l'actif immobilisé d'une entreprise qui tient sa comptabilité en CHF. À quel cours est-elle maintenue au bilan de clôture ?",
+   "options": [
+    "Au cours du jour à la date du bilan",
+    "Au cours historique d'acquisition",
+    "Au cours moyen de l'exercice",
+    "Au cours le plus prudent entre historique et clôture"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le cours du jour de clôture s'applique aux postes monétaires, pas à une immobilisation. (RPC / conversion de monnaies)",
+    "Vrai. Une immobilisation est un poste non monétaire : elle reste au cours historique d'acquisition. (RPC / conversion de monnaies, SECONDAIRE)",
+    "Faux. Il n'y a pas de conversion au cours moyen pour un poste non monétaire du bilan. (RPC / conversion de monnaies)",
+    "Faux. Aucune option « prudente » : le poste non monétaire garde son cours historique. (RPC / conversion de monnaies)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.9",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M5-037",
+   "champ": "Conversion de monnaies",
+   "question": "Parmi ces postes libellés en monnaie étrangère, lequel est converti au cours du jour à la date du bilan ?",
+   "options": [
+    "Un immeuble d'exploitation acquis en EUR",
+    "Un stock de marchandises acheté en USD",
+    "Une créance client en GBP",
+    "Une immobilisation incorporelle acquise en devise"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Un immeuble est un poste non monétaire : cours historique. (RPC / conversion de monnaies)",
+    "Faux. Le stock est un poste non monétaire, évalué au coût converti au cours historique (valeur la plus basse). (RPC / conversion de monnaies)",
+    "Vrai. Une créance client est un poste monétaire : conversion au cours du jour du bilan. (RPC / conversion de monnaies, SECONDAIRE)",
+    "Faux. Une immobilisation incorporelle est un poste non monétaire : cours historique. (RPC / conversion de monnaies)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.9",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M5-038",
+   "champ": "RPC 4 — tableau des flux de trésorerie",
+   "question": "Dans la méthode indirecte du tableau des flux de trésorerie (RPC 4), quel est le point de départ du flux d'exploitation ?",
+   "options": [
+    "Le total des encaissements provenant des clients",
+    "Le résultat de l'exercice, ajusté des éléments sans incidence sur la trésorerie",
+    "Le chiffre d'affaires net de la période",
+    "Le solde de trésorerie d'ouverture"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Partir des encaissements clients relève de la méthode directe, pas de l'indirecte. (RPC 4)",
+    "Vrai. La méthode indirecte part du résultat, corrigé des charges/produits non-cash et de la variation du BFR. (RPC 4, SECONDAIRE)",
+    "Faux. Le chiffre d'affaires n'est pas le point de départ de la méthode indirecte. (RPC 4)",
+    "Faux. Le solde d'ouverture n'est pas le point de départ du calcul du flux d'exploitation. (RPC 4)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.9",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-039",
+   "champ": "RPC 4 — tableau des flux de trésorerie",
+   "question": "Quelle durée résiduelle maximale un placement doit-il avoir, à la date du bilan, pour être classé parmi les équivalents de trésorerie (fonds monétaires apparentés) du TFT ?",
+   "options": [
+    "30 jours",
+    "90 jours",
+    "180 jours",
+    "12 mois"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le seuil retenu est de 90 jours, non de 30. (RPC 4)",
+    "Vrai. Les fonds monétaires apparentés ont une durée résiduelle maximale de 90 jours à partir de la date du bilan. (RPC 4, SECONDAIRE)",
+    "Faux. 180 jours dépasse le seuil admis de 90 jours. (RPC 4)",
+    "Faux. Un placement à 12 mois n'est pas un équivalent de trésorerie. (RPC 4)"
+   ],
+   "difficulte": 1,
+   "memento": "ch.6 §6.9",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-040",
+   "champ": "RPC 4 — tableau des flux de trésorerie",
+   "question": "Une acquisition d'immobilisation réglée par émission d'actions propres (apport en nature) apparaît-elle dans le tableau des flux de trésorerie ?",
+   "options": [
+    "Oui, dans la section investissement",
+    "Oui, dans la section financement",
+    "Non : opération sans incidence sur la trésorerie, commentée en annexe",
+    "Oui, dans la section exploitation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Aucun flux de trésorerie n'est mouvementé : l'opération ne figure pas en investissement. (RPC 4)",
+    "Faux. Pas d'encaissement/décaissement : rien ne s'inscrit en financement. (RPC 4)",
+    "Vrai. Les opérations sans incidence sur les liquidités sont exclues du TFT et commentées en annexe. (RPC 4, SECONDAIRE)",
+    "Faux. L'opération n'a pas d'effet de trésorerie, elle n'entre pas dans l'exploitation. (RPC 4)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.9",
+   "piege": "NEG",
+   "source": "generated"
+  },
+  {
+   "id": "M5-041",
+   "champ": "RPC 5 — opérations hors bilan",
+   "question": "Lequel de ces éléments relève des « engagements conditionnels » à publier selon la RPC 5 ?",
+   "options": [
+    "Un cautionnement en faveur d'une société tierce",
+    "Une dette fournisseur échue",
+    "Une provision pour litige déjà comptabilisée au bilan",
+    "Le capital-actions non encore libéré"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Cautionnements, garanties et gages en faveur de tiers sont des engagements conditionnels publiés en annexe. (RPC 5, SECONDAIRE)",
+    "Faux. Une dette fournisseur figure au passif du bilan, ce n'est pas un engagement hors bilan. (RPC 5)",
+    "Faux. Une provision déjà comptabilisée est au bilan, pas un engagement conditionnel hors bilan. (RPC 5 / RPC 23)",
+    "Faux. Le capital non libéré est un poste négatif des fonds propres, pas un engagement conditionnel. (RPC 3)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.7",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-042",
+   "champ": "RPC 5 — opérations hors bilan",
+   "question": "Blip SA (comptes selon RPC) signe en 20x1 un engagement ferme et irrévocable d'achat d'une ligne de production de 2 mio, livrable en 20x3. Quel traitement au 31.12.20x1 ?",
+   "options": [
+    "Comptabiliser une dette de 2 mio au passif",
+    "Publier l'engagement d'investissement comme opération hors bilan en annexe",
+    "Ne rien mentionner : c'est une commande de la marche normale des affaires",
+    "Comptabiliser un compte de régularisation passif de 2 mio"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Un engagement ferme non encore exécuté ne génère pas de dette au bilan. (RPC 5)",
+    "Vrai. Un engagement d'investissement ferme et irrévocable est une opération hors bilan à publier en annexe. (RPC 5, SECONDAIRE)",
+    "Faux. Un engagement d'investissement exceptionnel n'est pas une simple commande courante ; il est publié. (RPC 5)",
+    "Faux. Aucune régularisation n'est requise pour un engagement non encore exécuté. (RPC 5)"
+   ],
+   "difficulte": 3,
+   "memento": "ch.6 §6.7",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-043",
+   "champ": "RPC 3 — présentation & structure",
+   "question": "Lequel de ces postes ne figure PAS dans la structure minimale de l'actif selon la RPC 3 ?",
+   "options": [
+    "Liquidités",
+    "Créances résultant de livraisons et de prestations",
+    "Installations et agencements",
+    "Immobilisations incorporelles"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les liquidités font partie de la structure minimale de l'actif circulant. (RPC 3)",
+    "Faux. Les créances résultant de livraisons et de prestations figurent dans la structure minimale. (RPC 3)",
+    "Vrai. La structure minimale retient « Immobilisations corporelles » ; « Installations et agencements » est un sous-poste plus fin, non exigé. (RPC 3, SECONDAIRE)",
+    "Faux. Les immobilisations incorporelles figurent dans la structure minimale de l'actif immobilisé. (RPC 3)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.6",
+   "piege": "NEG",
+   "source": "original"
+  },
+  {
+   "id": "M5-044",
+   "champ": "RPC 3 — présentation & structure",
+   "question": "Quel poste n'apparaît PAS directement dans un compte de résultat établi par fonction (par comparaison avec la présentation par nature) ?",
+   "options": [
+    "Produits nets des livraisons et des prestations",
+    "Charges de personnel",
+    "Charges administratives",
+    "Coût d'acquisition ou de revient des produits vendus"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les produits nets figurent en tête des deux présentations. (RPC 3)",
+    "Vrai. Les charges de personnel sont visibles par nature mais réparties par destination (donc non directement visibles) dans la méthode par fonction. (RPC 3, SECONDAIRE)",
+    "Faux. Les charges administratives sont un poste propre à la méthode par fonction. (RPC 3)",
+    "Faux. Le coût de revient des produits vendus est un poste propre à la méthode par fonction. (RPC 3)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.6",
+   "piege": "NEG",
+   "source": "original"
+  },
+  {
+   "id": "M5-045",
+   "champ": "RPC 3 — présentation & structure",
+   "question": "Quel poste caractérise la méthode par fonction et n'apparaît pas dans la méthode par nature ?",
+   "options": [
+    "Variation des stocks de produits finis et semi-finis",
+    "Charges de matières premières et consommables",
+    "Coût d'acquisition ou de revient des produits vendus",
+    "Amortissements des immobilisations corporelles"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La variation des stocks est un poste de la méthode par nature. (RPC 3)",
+    "Faux. Les charges de matières relèvent de la méthode par nature. (RPC 3)",
+    "Vrai. Le coût d'acquisition ou de revient des produits vendus est propre à la méthode par fonction. (RPC 3, SECONDAIRE)",
+    "Faux. Les amortissements sont présentés comme poste distinct dans la méthode par nature. (RPC 3)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.6",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-046",
+   "champ": "RPC 3 — transaction d'intermédiaire",
+   "question": "Une agence de voyages (comptes selon RPC) vend un forfait à 3'000 CHF pour le compte d'un voyagiste ; elle conserve une commission de 300 CHF et reverse le solde. Quel produit net comptabilise-t-elle par forfait vendu ?",
+   "options": [
+    "3'000 CHF",
+    "2'700 CHF",
+    "300 CHF",
+    "0 CHF"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Comme intermédiaire, l'agence ne comptabilise pas le prix brut de 3'000. (RPC 3)",
+    "Faux. 2'700 est le montant reversé au voyagiste, pas le produit de l'agence. (RPC 3)",
+    "Vrai. Transaction d'intermédiaire comptabilisée nette : le produit = la commission de 300 CHF. (RPC 3, SECONDAIRE)",
+    "Faux. L'agence réalise bien un produit : sa commission de 300 CHF. (RPC 3)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.6",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-047",
+   "champ": "RPC 6 — annexe",
+   "question": "Où sont mentionnés les événements importants survenus après la date du bilan selon les Swiss GAAP RPC ?",
+   "options": [
+    "Dans l'annexe (RPC 6 / CC 28)",
+    "Dans le bilan, par une provision",
+    "Dans le tableau des flux de trésorerie",
+    "Dans le tableau de variation des capitaux propres"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les événements postérieurs à la date du bilan sont présentés dans l'annexe (RPC 6, renvoi à CC 28). (RPC 6 / CC 28, SECONDAIRE)",
+    "Faux. Un événement postérieur ne se traduit pas systématiquement par une provision au bilan ; il est mentionné en annexe. (RPC 6)",
+    "Faux. Le TFT présente les flux de trésorerie, pas les événements postérieurs. (RPC 4)",
+    "Faux. Le tableau de variation des CP retrace les mouvements de fonds propres, pas les événements postérieurs. (RPC 6)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.8",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-048",
+   "champ": "RPC 6 — annexe",
+   "question": "Quelles informations relatives au compte de résultat doivent au minimum figurer dans l'annexe selon la RPC 6 ?",
+   "options": [
+    "Uniquement les charges de personnel",
+    "Uniquement les principales sources de produits",
+    "Les charges liées aux actifs (avec leur type), les principales sources de produits et leur comptabilisation, et les charges de personnel",
+    "Aucune information relative au compte de résultat n'est requise"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les charges de personnel ne sont qu'un des éléments requis. (RPC 6)",
+    "Faux. Les sources de produits ne sont qu'un des éléments requis. (RPC 6)",
+    "Vrai. La RPC 6 exige au minimum ces trois informations relatives au compte de résultat. (RPC 6, SECONDAIRE)",
+    "Faux. L'annexe doit fournir plusieurs informations sur le compte de résultat. (RPC 6)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.8",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M5-049",
+   "champ": "Champ d'application",
+   "question": "À quel titre les Swiss GAAP RPC interviennent-elles pour les sociétés cotées à la SIX Swiss Exchange ?",
+   "options": [
+    "Comme normes minimales reconnues pour certains segments de cotation",
+    "Comme référentiel unique et obligatoire pour tous les émetteurs",
+    "Comme substitut légal au Code des obligations",
+    "Comme normes édictées par la FINMA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les RPC sont reconnues comme normes minimales pour certains segments (Swiss Reporting Standard, sociétés immobilières, émetteurs de droits de créance cotés). (Swiss GAAP RPC / SIX, SECONDAIRE)",
+    "Faux. Elles ne sont pas le référentiel unique et obligatoire de tous les émetteurs cotés. (Swiss GAAP RPC / SIX)",
+    "Faux. Les RPC ne remplacent pas le CO, qui demeure le socle légal. (Swiss GAAP RPC)",
+    "Faux. Les RPC émanent de la Fondation RPC, non de la FINMA. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M5-050",
+   "champ": "Champ d'application",
+   "question": "Quel référentiel les entreprises suisses non cotées utilisent-elles le plus fréquemment pour établir leurs comptes ?",
+   "options": [
+    "Les Swiss GAAP RPC",
+    "Le Code des obligations",
+    "Les IFRS",
+    "Les US GAAP"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les RPC ne concernent qu'une minorité des non cotées ; elles ne sont pas le référentiel le plus utilisé. (Swiss GAAP RPC)",
+    "Vrai. La majorité des entreprises non cotées établissent leurs comptes exclusivement selon le CO. (CO / Swiss GAAP RPC, SECONDAIRE)",
+    "Faux. Les IFRS ne sont utilisées que par une faible part des non cotées. (Swiss GAAP RPC)",
+    "Faux. Les US GAAP sont très marginales parmi les non cotées suisses. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "original"
+  },
+  {
+   "id": "M5-051",
+   "champ": "Nature & statut juridique",
+   "question": "L'application des Swiss GAAP RPC est-elle obligatoire pour une PME suisse non cotée ?",
+   "options": [
+    "Oui, dès l'inscription au registre du commerce",
+    "Non, elle est en principe facultative",
+    "Oui, sur autorisation préalable de l'AFC",
+    "Oui, dès que le chiffre d'affaires dépasse 500'000 CHF"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'inscription au registre du commerce n'impose pas les RPC. (Swiss GAAP RPC)",
+    "Vrai. L'application des RPC est en principe facultative, orientée PME et groupes nationaux. (Swiss GAAP RPC, SECONDAIRE)",
+    "Faux. Aucune autorisation de l'AFC n'est requise ni ne rend l'application obligatoire. (Swiss GAAP RPC)",
+    "Faux. Aucun seuil de chiffre d'affaires ne rend les RPC obligatoires pour une PME non cotée. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 1,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M5-052",
+   "champ": "Composition des états financiers",
+   "question": "Quels états, exigés dès les RPC fondamentales, ne figurent pas dans des comptes établis selon le CO ordinaire ?",
+   "options": [
+    "Le bilan et le compte de résultat",
+    "Le tableau des flux de trésorerie et le tableau de variation des capitaux propres",
+    "L'annexe et le bilan",
+    "Le compte de résultat et l'annexe"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Bilan et compte de résultat existent aussi dans les comptes CO. (RPC / cadre conceptuel)",
+    "Vrai. Le TFT et le tableau de variation des capitaux propres, absents des comptes CO ordinaires, sont exigés dès les fondamentales. (RPC / cadre conceptuel, SECONDAIRE)",
+    "Faux. Annexe et bilan figurent également dans les comptes CO. (RPC / cadre conceptuel)",
+    "Faux. Compte de résultat et annexe existent aussi dans les comptes CO. (RPC / cadre conceptuel)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.3",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M5-053",
+   "champ": "Fondation & questions ouvertes",
+   "question": "Quelle affirmation sur le processus d'élaboration des recommandations au sein de la Fondation RPC est correcte ?",
+   "options": [
+    "La consultation publique est une étape fixe et les recommandations sont adoptées par le conseil de fondation",
+    "Les recommandations sont adoptées par un vote du Parlement fédéral",
+    "Aucune consultation publique n'a lieu avant l'adoption",
+    "Le premier projet est publié directement, sans procédure de vérification préalable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La consultation publique est un élément fixe du processus, et l'adoption relève du conseil de fondation des RPC. (Fondation RPC, SECONDAIRE)",
+    "Faux. Les RPC émanent d'une fondation privée ; le Parlement ne les vote pas. (Fondation RPC)",
+    "Faux. La consultation publique fait précisément partie intégrante du processus. (Fondation RPC)",
+    "Faux. Le processus comprend une procédure de vérification en amont du projet. (Fondation RPC)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "original"
+  },
+  {
+   "id": "M5-054",
+   "champ": "Fondation & questions ouvertes",
+   "question": "Laquelle de ces propositions ne constitue PAS une source de revenus de la Fondation RPC ?",
+   "options": [
+    "La vente des brochures officielles des recommandations",
+    "Les contributions de personnes privées",
+    "Les contributions d'organisations et d'entreprises",
+    "L'élaboration de recommandations spécifiques pour des groupes déterminés"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La vente des brochures officielles est une source de revenus. (Fondation RPC)",
+    "Faux. Les contributions de privés sont une source de revenus. (Fondation RPC)",
+    "Faux. Les contributions d'organisations et d'entreprises sont une source de revenus. (Fondation RPC)",
+    "Vrai. La Fondation n'élabore pas de recommandations « sur commande » pour des groupes déterminés : ce n'est pas une source de revenus. (Fondation RPC, SECONDAIRE)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "NEG",
+   "source": "original"
+  },
+  {
+   "id": "M5-055",
+   "champ": "Fondation & questions ouvertes",
+   "question": "Face à une question de présentation des comptes non expressément réglée par les RPC, quel est le principe directeur de résolution ?",
+   "options": [
+    "Reprendre automatiquement la règle correspondante des US GAAP",
+    "Se résoudre dans le sens du cadre conceptuel et de l'image fidèle (RPC 1/4)",
+    "Laisser l'utilisateur trancher librement en toute bonne foi",
+    "Renoncer à toute comptabilisation jusqu'à publication d'une norme"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. On ne reprend pas mécaniquement un autre référentiel ; on peut s'en inspirer, sans plus. (RPC 1/4)",
+    "Vrai. Les questions ouvertes se résolvent dans le sens du cadre conceptuel, guidées par l'image fidèle (RPC 1/4). (RPC 1/4, SECONDAIRE)",
+    "Faux. La résolution n'est pas discrétionnaire : elle suit le cadre conceptuel. (RPC 1/4)",
+    "Faux. L'absence de norme spécifique n'autorise pas à suspendre la comptabilisation. (RPC 1/4)"
+   ],
+   "difficulte": 1,
+   "memento": "ch.6 §6.4",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M5-056",
+   "champ": "Cas transverse — provisions",
+   "question": "B SA (comptes selon RPC) avait provisionné 9 mio pour un litige ; un jugement récent dans une affaire similaire ramène le risque probable à 5 mio. Comment traiter cette évolution ?",
+   "options": [
+    "Corriger rétroactivement l'exercice précédent (le montant initial était erroné)",
+    "Ne rien changer, par application du principe de prudence",
+    "Réduire la provision à 5 mio dans l'exercice courant : il s'agit d'un changement d'estimation (ajustement prospectif)",
+    "Réduire à 5 mio en la traitant comme une modification d'un principe de présentation (prospectif)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'estimation initiale n'était pas erronée ; il n'y a pas de correction rétroactive. (Swiss GAAP RPC / RPC 23)",
+    "Faux. La prudence n'autorise pas à maintenir une provision devenue surévaluée. (Swiss GAAP RPC)",
+    "Vrai. Une provision réévaluée à la suite d'une meilleure information est un changement d'estimation, ajusté prospectivement. (Swiss GAAP RPC / RPC 23, SECONDAIRE)",
+    "Faux. Ce n'est pas un changement de principe de présentation mais un changement d'estimation. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 3,
+   "memento": "ch.6 §6.4",
+   "piege": "CORPC",
+   "source": "original"
+  },
+  {
+   "id": "M5-057",
+   "champ": "Cas transverse — audit",
+   "question": "Quel élément du rapport de gestion ne fait PAS partie des états financiers soumis au contrôle de l'organe de révision ?",
+   "options": [
+    "Le bilan",
+    "Le compte de résultat",
+    "L'annexe",
+    "Le rapport annuel"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le bilan fait partie des états financiers contrôlés. (RPC 3 / cadre conceptuel)",
+    "Faux. Le compte de résultat fait partie des états financiers contrôlés. (RPC 3 / cadre conceptuel)",
+    "Faux. L'annexe fait partie des états financiers contrôlés. (RPC 6)",
+    "Vrai. Le rapport annuel (situation et perspectives) est un élément du rapport de gestion non soumis au contrôle des états financiers. (cadre conceptuel RPC, SECONDAIRE)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.3",
+   "piege": "NEG",
+   "source": "original"
+  },
+  {
+   "id": "M5-058",
+   "champ": "Cas transverse — non-conformité",
+   "question": "Lors d'un audit, un client applique les RPC mais utilise, pour ses contrats de longue durée, des principes non conformes au référentiel. Comment doit-il procéder ?",
+   "options": [
+    "Garantir l'image fidèle par de simples mentions dans l'annexe",
+    "Limiter les mentions en annexe afin que la non-conformité n'apparaisse pas",
+    "Ajuster les principes non conformes pour respecter le référentiel Swiss GAAP RPC",
+    "Amortir intégralement les ordres en cours pour ne pas présenter la situation de façon trop optimiste"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Une violation ne se répare pas par de simples mentions en annexe. (Swiss GAAP RPC / CC)",
+    "Faux. Masquer la non-conformité est contraire à la clarté et à l'image fidèle. (Swiss GAAP RPC / CC)",
+    "Vrai. Les principes non conformes doivent être corrigés pour respecter les RPC : pas de réparation par la publication. (Swiss GAAP RPC / CC, SECONDAIRE)",
+    "Faux. Un amortissement intégral créerait une réserve latente, elle-même interdite. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.4",
+   "piege": "CORPC",
+   "source": "original"
+  },
+  {
+   "id": "M5-059",
+   "champ": "Cas transverse — rapport au droit fiscal",
+   "question": "Quels états financiers sont déterminants sur le plan fiscal en Suisse ?",
+   "options": [
+    "Les états financiers individuels établis selon le droit commercial (CO)",
+    "Les états financiers individuels établis selon les Swiss GAAP RPC",
+    "Les comptes consolidés établis selon le CO",
+    "Les comptes consolidés établis selon les Swiss GAAP RPC"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le principe de déterminance rattache l'imposition aux comptes individuels selon le droit commercial (CO). (CO / déterminance, SECONDAIRE)",
+    "Faux. Les comptes RPC visent l'image fidèle mais ne servent pas de base fiscale. (Swiss GAAP RPC)",
+    "Faux. Les comptes consolidés ne sont jamais la base de l'imposition individuelle. (CO)",
+    "Faux. Ni la consolidation ni les RPC ne fondent la base fiscale. (Swiss GAAP RPC)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "original"
+  },
+  {
+   "id": "M5-060",
+   "champ": "Cas transverse — négatif",
+   "question": "Parmi ces affirmations sur les Swiss GAAP RPC, laquelle est FAUSSE ?",
+   "options": [
+    "Les RPC visent l'image fidèle et interdisent les réserves latentes",
+    "Les comptes RPC servent de base légale à la répartition du bénéfice et au versement du dividende",
+    "L'application des RPC est en principe facultative",
+    "L'annexe fait partie intégrante des états financiers RPC"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux (affirmation exacte). L'image fidèle interdit effectivement toute réserve latente sous RPC. (Swiss GAAP RPC / CC)",
+    "Vrai (affirmation fausse). La répartition du bénéfice et le dividende reposent sur les comptes individuels selon le CO, non sur les comptes RPC. (CO / Swiss GAAP RPC, SECONDAIRE)",
+    "Faux (affirmation exacte). L'application des RPC est bien facultative. (Swiss GAAP RPC)",
+    "Faux (affirmation exacte). L'annexe (RPC 6) fait partie intégrante des états financiers RPC. (RPC 6)"
+   ],
+   "difficulte": 2,
+   "memento": "ch.6 §6.1",
+   "piege": "CORPC",
+   "source": "generated"
   }
  ]
 }

@@ -398,6 +398,754 @@
     "Faux. L'annexe précise notamment le but des comptes intermédiaires et la saisonnalité (art. 960f al. 3 CO).",
     "Vrai. Art. 960f al. 2 CO : des simplifications sont admises si la marche des affaires reste fidèlement représentée."
    ]
+  },
+  {
+   "id": "M3-019",
+   "champ": "Prix courant observable & réserve de fluctuation (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.4",
+   "source": "original",
+   "question": "AKUS SA acquiert des actions de la société cotée TREY SA à 400 CHF pièce ; au 31.12 leur valeur de marché est de 500 CHF. Quel est le montant maximal de la réserve de fluctuation par action ?",
+   "options": [
+    "400 CHF par action",
+    "100 CHF par action",
+    "500 CHF par action",
+    "450 CHF par action"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 400 est le coût d'acquisition, plancher de la valeur, non la réserve.",
+    "Vrai. La réserve neutralise au plus la plus-value : 500 − 400 = 100 CHF/action (art. 960b al. 2 CO).",
+    "Faux. 500 est la valeur au cours du jour, pas la réserve.",
+    "Faux. 450 ne correspond à aucune limite légale."
+   ]
+  },
+  {
+   "id": "M3-020",
+   "champ": "Prix courant observable & réserve de fluctuation (CO)",
+   "difficulte": 2,
+   "piege": "NV",
+   "memento": "ch.4 §4.4",
+   "source": "generated",
+   "question": "Une société évalue au cours du jour des titres cotés dont la valeur a augmenté. Comment se constitue la réserve de fluctuation destinée à neutraliser cette plus-value ?",
+   "options": [
+    "À charge du compte de résultat, sans pouvoir ramener la valeur sous le coût d'acquisition.",
+    "Sans incidence sur le résultat, par prélèvement direct sur le capital-actions.",
+    "À charge du poste « autres charges d'exploitation » exclusivement.",
+    "Par réévaluation du poste au-dessus du cours du jour."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960b al. 2 CO : la réserve de fluctuation est constituée à charge du compte de résultat et ne peut faire descendre la valeur sous le coût d'acquisition.",
+    "Faux. C'est une charge du compte de résultat, non un mouvement direct de capital.",
+    "Faux. Elle grève les charges financières, non les autres charges d'exploitation.",
+    "Faux. La valeur ne peut dépasser le cours du jour."
+   ]
+  },
+  {
+   "id": "M3-021",
+   "champ": "Prix courant observable & réserve de fluctuation (CO)",
+   "difficulte": 2,
+   "piege": "QUAL",
+   "memento": "ch.4 §4.4",
+   "source": "generated",
+   "question": "Selon l'art. 960b CO, quelle affirmation sur l'évaluation au prix courant observable est correcte ?",
+   "options": [
+    "Elle est obligatoire pour tous les titres détenus par l'entreprise.",
+    "Elle impose des amortissements selon un plan malgré l'évaluation au cours.",
+    "Elle s'applique aussi aux immobilisations corporelles spécifiques à l'entreprise.",
+    "Elle permet, pour les actifs cotés ou à prix courant observable, une évaluation au cours du jour même supérieure au coût d'acquisition."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. C'est une faculté (« peuvent »), non une obligation (art. 960b al. 1 CO).",
+    "Faux. L'évaluation au cours du jour se substitue à l'amortissement planifié pour ces actifs.",
+    "Faux. Une immobilisation spécifique n'a pas de prix courant observable.",
+    "Vrai. Art. 960b al. 1 CO : les actifs cotés en Bourse ou à prix courant observable peuvent être évalués au cours du jour, même supérieur au coût."
+   ]
+  },
+  {
+   "id": "M3-022",
+   "champ": "Test de correction de valeur (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.2",
+   "source": "generated",
+   "question": "Alpha SA relève un indice de dépréciation sur un actif de valeur comptable 800. Sa valeur d'utilité est estimée à 700 et sa valeur nette du marché à 750. Valeur au bilan après le test ?",
+   "options": [
+    "750",
+    "800",
+    "700",
+    "50"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Valeur réalisable = max(utilité 700 ; marché 750) = 750 < VC 800 → correction à 750 (art. 960a al. 3 CO).",
+    "Faux. Maintenir 800 ignorerait l'indice de surévaluation.",
+    "Faux. 700 est la valeur d'utilité ; on retient le maximum des deux, soit 750.",
+    "Faux. 50 est le montant de la correction (800 − 750), non la nouvelle valeur."
+   ]
+  },
+  {
+   "id": "M3-023",
+   "champ": "Test de correction de valeur (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.2",
+   "source": "generated",
+   "question": "Beta SA constate un indice de dépréciation sur un actif de valeur comptable 400. Sa valeur d'utilité vaut 500 et sa valeur nette du marché 380. Valeur au bilan après le test ?",
+   "options": [
+    "380",
+    "500",
+    "400",
+    "440"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. 380 est la valeur nette du marché ; comme la valeur réalisable dépasse la VC, aucune correction.",
+    "Faux. 500 est la valeur d'utilité ; le CO interdit toute réévaluation au-dessus du coût.",
+    "Vrai. Valeur réalisable = max(500 ; 380) = 500 ≥ VC 400 → aucune correction, la valeur reste 400 (art. 960a al. 3 CO).",
+    "Faux. 440 ne correspond à aucune règle ; on ne fait pas de moyenne."
+   ]
+  },
+  {
+   "id": "M3-024",
+   "champ": "Test de correction de valeur (CO)",
+   "difficulte": 1,
+   "piege": "NEG",
+   "memento": "ch.4 §4.2",
+   "source": "generated",
+   "question": "Selon le CO, dans quel cas faut-il procéder à un test de correction de valeur d'un actif ?",
+   "options": [
+    "Systématiquement à chaque clôture, pour tous les actifs.",
+    "Uniquement si la valeur de marché a augmenté.",
+    "Jamais, le CO ne connaît pas de test de dépréciation.",
+    "Uniquement lorsque des indices laissent supposer que l'actif est surévalué."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le CO déclenche la vérification sur indices, non de façon systématique (art. 960 al. 3 CO).",
+    "Faux. Une hausse de valeur ne déclenche pas de correction (plafond du coût).",
+    "Faux. Le test existe bien (art. 960 al. 3, 960a al. 3 CO).",
+    "Vrai. Art. 960 al. 3 CO : en présence d'indices de surévaluation, les valeurs sont vérifiées et, le cas échéant, adaptées."
+   ]
+  },
+  {
+   "id": "M3-025",
+   "champ": "Principes d'évaluation (CO)",
+   "difficulte": 2,
+   "piege": "CAT",
+   "memento": "ch.4 §4.1",
+   "source": "generated",
+   "question": "Selon l'art. 960 al. 1 CO, quand une évaluation globale (par groupe) des postes est-elle admise plutôt qu'une évaluation individuelle ?",
+   "options": [
+    "Lorsque les postes sont importants et rarement regroupés.",
+    "Lorsque les postes ne sont pas importants ou sont habituellement regroupés en raison de leur similitude.",
+    "Uniquement pour les postes de l'actif immobilisé.",
+    "Jamais : l'évaluation individuelle est toujours obligatoire."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'importance et le caractère non regroupable imposent au contraire l'évaluation individuelle.",
+    "Vrai. Art. 960 al. 1 CO : l'évaluation est individuelle si les postes sont importants et pas habituellement regroupés par similitude ; sinon globale.",
+    "Faux. L'évaluation globale n'est pas réservée à l'actif immobilisé.",
+    "Faux. L'évaluation globale reste possible."
+   ]
+  },
+  {
+   "id": "M3-026",
+   "champ": "Principes d'évaluation (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.1",
+   "source": "generated",
+   "question": "Comment l'art. 960 al. 2 CO articule-t-il prudence et fiabilité dans l'évaluation ?",
+   "options": [
+    "La prudence prime toujours, quitte à rendre l'appréciation économique impossible.",
+    "La fiabilité prime, ce qui exclut toute réserve latente.",
+    "Le CO n'exige aucune prudence dans l'évaluation.",
+    "L'évaluation doit être prudente, mais sans empêcher une appréciation fiable de la situation économique."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La prudence ne doit justement pas empêcher une appréciation fiable.",
+    "Faux. Le CO admet des réserves latentes arbitraires (art. 960a al. 4 CO).",
+    "Faux. La prudence est expressément requise (art. 960 al. 2 CO).",
+    "Vrai. Art. 960 al. 2 CO : l'évaluation est prudente sans empêcher une appréciation fiable de la situation économique."
+   ]
+  },
+  {
+   "id": "M3-027",
+   "champ": "Principes d'évaluation (CO)",
+   "difficulte": 2,
+   "piege": "NEG",
+   "memento": "ch.4 §4.1",
+   "source": "generated",
+   "question": "Parmi ces assertions sur les principes d'évaluation du CO, laquelle est FAUSSE ?",
+   "options": [
+    "L'évaluation individuelle vise aussi bien les actifs que les dettes.",
+    "Des indices de provisions insuffisantes imposent de vérifier et, le cas échéant, d'augmenter les provisions.",
+    "Une surévaluation ne peut concerner que l'actif circulant, jamais l'actif immobilisé.",
+    "Les réserves latentes arbitraires sont admises par le CO."
+   ],
+   "correct": 2,
+   "explications": [
+    "Vrai (donc pas la réponse). L'évaluation individuelle concerne actifs et dettes (art. 960 al. 1 CO).",
+    "Vrai (donc pas la réponse). Art. 960 al. 3 CO : indices de provisions insuffisantes → vérification et adaptation.",
+    "Faux — c'est la réponse recherchée. La surévaluation peut concerner tout poste d'actif, circulant comme immobilisé.",
+    "Vrai (donc pas la réponse). Art. 960a al. 4 CO : réserves latentes arbitraires admises."
+   ]
+  },
+  {
+   "id": "M3-028",
+   "champ": "Stocks (art. 960c CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.5",
+   "source": "generated",
+   "question": "Gamma SA détient un stock au coût de revient de 500 000 CHF. Sa valeur vénale à la date du bilan est de 490 000 CHF et les coûts résiduels prévisibles (transport, finition) s'élèvent à 20 000 CHF. À quelle valeur le stock figure-t-il au bilan ?",
+   "options": [
+    "500 000 CHF",
+    "490 000 CHF",
+    "470 000 CHF",
+    "510 000 CHF"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Le coût 500 000 est supérieur à la valeur nette la plus basse.",
+    "Faux. 490 000 est la valeur vénale brute ; il faut déduire les coûts résiduels.",
+    "Vrai. Valeur la plus basse = min(coût 500 000 ; valeur vénale 490 000 − coûts résiduels 20 000 = 470 000) = 470 000 (art. 960c CO).",
+    "Faux. On ne réévalue jamais au-dessus du coût."
+   ]
+  },
+  {
+   "id": "M3-029",
+   "champ": "Stocks (art. 960c CO)",
+   "difficulte": 2,
+   "piege": "CAT",
+   "memento": "ch.4 §4.5",
+   "source": "generated",
+   "question": "Selon l'art. 960c CO, quelle affirmation sur l'évaluation des stocks et prestations est correcte ?",
+   "options": [
+    "Les prestations de services non facturées ne sont jamais portées au bilan.",
+    "La valeur la plus basse interdit toute réserve latente sur les stocks.",
+    "Les matières premières sont exclues de la notion de stocks.",
+    "Les stocks et les prestations de services non facturées suivent le principe de la valeur la plus basse."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les prestations de services non facturées sont évaluées comme les stocks (art. 960c CO).",
+    "Faux. Des réserves latentes arbitraires restent admises (art. 960a al. 4 CO).",
+    "Faux. Les matières premières font partie des stocks (art. 960c CO).",
+    "Vrai. Art. 960c CO : stocks et prestations de services non facturées à la valeur vénale − coûts résiduels si inférieure au coût."
+   ]
+  },
+  {
+   "id": "M3-030",
+   "champ": "Provisions (art. 960e CO)",
+   "difficulte": 2,
+   "piege": "CAT",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "À la suite d'un litige né d'un événement passé, Delta SA s'attend à devoir payer des dommages-intérêts probables de 80 000 CHF. Comment le CO traite-t-il cette situation ?",
+   "options": [
+    "Une provision obligatoire de 80 000 CHF doit être constituée à charge du compte de résultat.",
+    "Aucune provision n'est possible tant que le jugement n'est pas rendu.",
+    "Une provision facultative peut être constituée, sans obligation.",
+    "La charge n'est comptabilisée qu'au moment du paiement effectif."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960e al. 2 CO : provision obligatoire à charge du compte de résultat, au montant vraisemblablement nécessaire (80 000).",
+    "Faux. Une perte probable issue d'un événement passé impose une provision (art. 960e al. 2 CO).",
+    "Faux. Il ne s'agit pas d'une provision facultative des al. 3, mais d'une provision obligatoire.",
+    "Faux. Le CO impose la provision dès la perte probable, avant le paiement."
+   ]
+  },
+  {
+   "id": "M3-031",
+   "champ": "Provisions (art. 960e CO)",
+   "difficulte": 2,
+   "piege": "CORPC",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "Une provision constituée par Epsilon SA ne se justifie plus à la clôture suivante. Que prévoit le CO ?",
+   "options": [
+    "Elle doit obligatoirement être dissoute au compte de résultat.",
+    "Elle doit être reclassée en capital-actions.",
+    "Elle doit être transférée aux réserves légales issues du capital.",
+    "Elle n'a pas obligatoirement à être dissoute, ce qui crée une réserve latente."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La dissolution n'est pas obligatoire (art. 960e al. 4 CO).",
+    "Faux. Aucun reclassement en capital-actions n'est prévu.",
+    "Faux. Le CO ne l'impose pas.",
+    "Vrai. Art. 960e al. 4 CO : les provisions qui ne se justifient plus ne doivent pas obligatoirement être dissoutes → réserve latente."
+   ]
+  },
+  {
+   "id": "M3-032",
+   "champ": "Provisions (art. 960e CO)",
+   "difficulte": 3,
+   "piege": "NEG",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "Parmi ces provisions, laquelle N'EST PAS admise comme provision facultative par l'art. 960e al. 3 CO ?",
+   "options": [
+    "Provision pour restructuration.",
+    "Provision pour garanties.",
+    "Provision pour la distribution de dividendes futurs aux actionnaires.",
+    "Provision pour remise en état des immobilisations corporelles."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux (donc pas la réponse). Les restructurations sont visées (art. 960e al. 3 ch. 3 CO).",
+    "Faux (donc pas la réponse). Les garanties sont visées (art. 960e al. 3 ch. 1 CO).",
+    "Vrai — c'est la réponse : la distribution de dividendes n'est pas une charge probable et ne figure pas parmi les provisions facultatives de l'art. 960e al. 3 CO.",
+    "Faux (donc pas la réponse). La remise en état est visée (art. 960e al. 3 ch. 2 CO)."
+   ]
+  },
+  {
+   "id": "M3-033",
+   "champ": "Actions propres (CO)",
+   "difficulte": 3,
+   "piege": "CORPC",
+   "memento": "ch.4 §4.7",
+   "source": "generated",
+   "question": "Oméga SA a acquis 500 actions propres à 20 CHF ; elle les revend à 16 CHF pièce. Comment la perte de revente peut-elle être traitée selon le CO ?",
+   "options": [
+    "En augmentation des actions propres à l'actif immobilisé.",
+    "Au choix, en diminution des capitaux propres (réserves) ou en charge financière, pour 2 000 CHF.",
+    "Obligatoirement en charge financière, pour 4 000 CHF.",
+    "Elle n'est jamais comptabilisée, les actions propres restant au coût."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les actions propres figurent en diminution des capitaux propres, pas à l'actif.",
+    "Vrai. Par symétrie avec le gain, la perte de 500 × (20 − 16) = 2 000 va au choix en réserves (capitaux propres) ou en charge financière (résultat).",
+    "Faux. Le passage par le résultat est une option, non une obligation ; et le montant est 2 000, non 4 000.",
+    "Faux. La revente solde le poste et dégage bien un résultat de 2 000."
+   ]
+  },
+  {
+   "id": "M3-034",
+   "champ": "Actions propres (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.7",
+   "source": "original",
+   "question": "TR SA détient 1 000 actions propres acquises à 15 CHF ; au 31.12 le cours est de 17 CHF. À quelle valeur les actions propres figurent-elles au bilan ?",
+   "options": [
+    "17 000 CHF, réévaluées au cours.",
+    "15 000 CHF, à leur coût d'acquisition, en diminution des capitaux propres.",
+    "16 000 CHF, à la moyenne entre coût et cours.",
+    "2 000 CHF, seule la plus-value étant portée au bilan."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les actions propres ne sont pas réévaluées au cours (pas de plus-value comptabilisée).",
+    "Vrai. Elles restent à leur coût d'acquisition (1 000 × 15 = 15 000), en diminution des capitaux propres.",
+    "Faux. Aucune moyenne ; la valeur reste le coût.",
+    "Faux. La plus-value latente de 2 000 n'est pas comptabilisée."
+   ]
+  },
+  {
+   "id": "M3-035",
+   "champ": "Coût d'acquisition & réserves latentes (CO)",
+   "difficulte": 2,
+   "piege": "NV",
+   "memento": "ch.4 §4.3",
+   "source": "generated",
+   "question": "Selon l'art. 960a al. 1 CO, comment les actifs sont-ils évalués lors de leur première comptabilisation ?",
+   "options": [
+    "À leur valeur vénale à la date d'acquisition.",
+    "Au coût de revient composé uniquement des frais de matières.",
+    "À leur valeur d'utilité future actualisée.",
+    "À leur coût d'acquisition ou à leur coût de revient."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La première comptabilisation se fait au coût, non à la valeur vénale.",
+    "Faux. Le coût de revient inclut aussi les frais de fabrication, pas seulement les matières.",
+    "Faux. Le CO retient le coût, non une valeur d'utilité actualisée.",
+    "Vrai. Art. 960a al. 1 CO : lors de sa première comptabilisation, l'actif est évalué au plus à son coût d'acquisition ou de revient."
+   ]
+  },
+  {
+   "id": "M3-036",
+   "champ": "Coût d'acquisition & réserves latentes (CO)",
+   "difficulte": 2,
+   "piege": "NV",
+   "memento": "ch.4 §4.3",
+   "source": "generated",
+   "question": "Que permet expressément l'art. 960a al. 4 CO en matière de corrections de valeur et d'amortissements ?",
+   "options": [
+    "D'imposer la reprise des corrections de valeur dès que la valeur remonte.",
+    "De constituer des amortissements et corrections supplémentaires à des fins de remplacement ou pour assurer la prospérité durable de l'entreprise.",
+    "De réévaluer librement les actifs au-dessus de leur coût.",
+    "D'interdire toute réserve latente."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le CO n'impose pas la reprise des corrections de valeur.",
+    "Vrai. Art. 960a al. 4 CO : amortissements et corrections supplémentaires admis pour le remplacement et la prospérité durable → réserves latentes arbitraires.",
+    "Faux. L'évaluation subséquente ne dépasse pas le coût (sauf art. 960b CO).",
+    "Faux. L'al. 4 autorise au contraire les réserves latentes."
+   ]
+  },
+  {
+   "id": "M3-037",
+   "champ": "Valorisation des dettes (art. 960e CO)",
+   "difficulte": 1,
+   "piege": "NV",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "À quelle valeur les dettes sont-elles comptabilisées selon l'art. 960e al. 1 CO ?",
+   "options": [
+    "À leur valeur actualisée au taux du marché.",
+    "À leur valeur vénale à la date du bilan.",
+    "À leur valeur nominale.",
+    "À la valeur la plus élevée entre nominal et marché."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Le CO n'impose pas d'actualisation des dettes.",
+    "Faux. Ce n'est pas la valeur vénale mais la valeur nominale.",
+    "Vrai. Art. 960e al. 1 CO : les dettes sont comptabilisées à leur valeur nominale.",
+    "Faux. Le CO retient la valeur nominale, sans comparaison."
+   ]
+  },
+  {
+   "id": "M3-038",
+   "champ": "Valorisation des dettes (art. 960e CO)",
+   "difficulte": 2,
+   "piege": "NV",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "Kappa SA émet un emprunt obligataire. À quelle valeur cette dette obligataire figure-t-elle au bilan selon le CO ?",
+   "options": [
+    "À sa valeur nominale.",
+    "À son cours d'émission.",
+    "À son cours de marché à chaque clôture.",
+    "À sa valeur de remboursement actualisée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960e al. 1 CO : les dettes, y compris les emprunts obligataires, sont comptabilisées à leur valeur nominale.",
+    "Faux. Le cours d'émission n'est pas la base d'évaluation retenue par le CO.",
+    "Faux. Les dettes ne sont pas réévaluées au cours de marché.",
+    "Faux. Le CO n'exige pas d'actualisation."
+   ]
+  },
+  {
+   "id": "M3-039",
+   "champ": "Comptes intermédiaires (art. 960f CO)",
+   "difficulte": 1,
+   "piege": "CAT",
+   "memento": "ch.4 §4.8",
+   "source": "generated",
+   "question": "De quoi se composent les comptes intermédiaires selon l'art. 960f al. 1 CO ?",
+   "options": [
+    "D'un bilan, d'un compte de résultat et d'une annexe.",
+    "D'un bilan et d'un compte de résultat uniquement.",
+    "D'un tableau de flux de trésorerie uniquement.",
+    "D'un rapport annuel et d'un bilan."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960f al. 1 CO : les comptes intermédiaires comprennent bilan, compte de résultat et annexe.",
+    "Faux. L'annexe fait aussi partie des comptes intermédiaires.",
+    "Faux. Le tableau de flux de trésorerie n'est pas l'unique composant.",
+    "Faux. Le rapport annuel ne fait pas partie des comptes intermédiaires."
+   ]
+  },
+  {
+   "id": "M3-040",
+   "champ": "Comptes intermédiaires (art. 960f CO)",
+   "difficulte": 2,
+   "piege": "NEG",
+   "memento": "ch.4 §4.8",
+   "source": "generated",
+   "question": "Que doit notamment mentionner l'annexe des comptes intermédiaires selon l'art. 960f al. 3 CO ?",
+   "options": [
+    "La liste nominative de tous les actionnaires.",
+    "Le but des comptes intermédiaires et les facteurs ayant influencé la situation, notamment la saisonnalité.",
+    "Le détail des salaires individuels des dirigeants.",
+    "Rien : l'annexe des comptes intermédiaires est facultative et vide."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le CO n'exige pas la liste nominative des actionnaires dans cette annexe.",
+    "Vrai. Art. 960f al. 3 CO : l'annexe précise le but des comptes intermédiaires, les simplifications et les facteurs d'influence, notamment la saisonnalité.",
+    "Faux. Le détail des salaires individuels n'est pas requis ici.",
+    "Faux. L'annexe existe et doit contenir ces informations."
+   ]
+  },
+  {
+   "id": "M3-041",
+   "champ": "Évaluation subséquente (art. 960a CO)",
+   "difficulte": 2,
+   "piege": "NV",
+   "memento": "ch.4 §4.3",
+   "source": "generated",
+   "question": "Selon l'art. 960a al. 2 CO, quel plafond s'impose à l'évaluation subséquente d'un actif ?",
+   "options": [
+    "La valeur subséquente ne peut être supérieure au coût d'acquisition ou de revient.",
+    "La valeur subséquente doit toujours être réévaluée à la valeur de marché.",
+    "La valeur subséquente peut librement dépasser le coût en cas de hausse durable.",
+    "La valeur subséquente est plafonnée à la valeur nominale des titres."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960a al. 2 CO : lors des évaluations subséquentes, la valeur ne peut être supérieure au coût d'acquisition ou de revient.",
+    "Faux. Le CO ne prescrit pas de réévaluation à la valeur de marché (sauf art. 960b CO).",
+    "Faux. Le dépassement du coût n'est admis que pour les actifs à prix courant observable (art. 960b CO).",
+    "Faux. Le plafond est le coût, non la valeur nominale."
+   ]
+  },
+  {
+   "id": "M3-042",
+   "champ": "Évaluation subséquente (art. 960a CO)",
+   "difficulte": 2,
+   "piege": "NV",
+   "memento": "ch.4 §4.3",
+   "source": "generated",
+   "question": "Selon l'art. 960a al. 3 CO, comment la valeur d'un actif est-elle ajustée lors des évaluations subséquentes (hors réserves latentes) ?",
+   "options": [
+    "Elle est augmentée des plus-values latentes constatées.",
+    "Elle reste figée au coût d'acquisition jusqu'à la cession.",
+    "Elle est actualisée chaque année au taux sans risque.",
+    "Elle est diminuée des amortissements et corrections de valeur nécessaires du point de vue de l'activité."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les plus-values latentes ne sont pas ajoutées (plafond du coût).",
+    "Faux. La valeur est réduite par les amortissements/corrections, elle n'est pas figée.",
+    "Faux. Le CO n'impose pas d'actualisation annuelle.",
+    "Vrai. Art. 960a al. 3 CO : la valeur est diminuée des amortissements et corrections de valeur nécessaires du point de vue de l'activité de l'entreprise."
+   ]
+  },
+  {
+   "id": "M3-043",
+   "champ": "Test de correction de valeur (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.2",
+   "source": "original",
+   "question": "Sigma SA relève un indice de dépréciation sur un actif de valeur comptable 225. Sa valeur nette du marché est 10 et sa valeur d'utilité 100. Valeur au bilan après le test ?",
+   "options": [
+    "225",
+    "100",
+    "10",
+    "0"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Maintenir 225 ignorerait l'indice de surévaluation.",
+    "Vrai. Valeur réalisable = max(utilité 100 ; marché 10) = 100 < VC 225 → correction à 100 (art. 960a al. 3 CO).",
+    "Faux. 10 est la seule valeur nette du marché ; on retient le maximum des deux, soit 100.",
+    "Faux. Aucune raison de ramener l'actif à zéro."
+   ]
+  },
+  {
+   "id": "M3-044",
+   "champ": "Prix courant observable & réserve de fluctuation (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.4",
+   "source": "generated",
+   "question": "Iota SA détient 200 titres cotés acquis à 300 CHF ; au 31.12 le cours est de 340 CHF et elle évalue au cours du jour. Quel est le montant maximal de la réserve de fluctuation ?",
+   "options": [
+    "68 000 CHF",
+    "8 000 CHF",
+    "60 000 CHF",
+    "6 800 CHF"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 68 000 (200 × 340) est la valeur au cours du jour, pas la réserve.",
+    "Vrai. La réserve neutralise au plus la plus-value : 200 × (340 − 300) = 8 000 CHF (art. 960b al. 2 CO).",
+    "Faux. 60 000 (200 × 300) est le coût total, plancher de la valeur, non la réserve.",
+    "Faux. 6 800 confond les unités."
+   ]
+  },
+  {
+   "id": "M3-045",
+   "champ": "Actions propres (CO)",
+   "difficulte": 3,
+   "piege": "CORPC",
+   "memento": "ch.4 §4.7",
+   "source": "generated",
+   "question": "Parmi ces affirmations comparant le CO et les Swiss GAAP RPC pour les actions propres, laquelle est correcte ?",
+   "options": [
+    "Au CO comme en RPC 24, le gain de revente va obligatoirement en capitaux propres.",
+    "Au CO, le gain de revente va au choix en capitaux propres ou en produit financier, alors qu'en RPC 24 il reste en capitaux propres.",
+    "En RPC 24, le gain de revente va obligatoirement en produit financier.",
+    "Au CO, les actions propres sont réévaluées au cours à chaque clôture."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Au CO le passage par le résultat est une option ; l'obligation en capitaux propres est propre à la RPC 24.",
+    "Vrai. Spécificité du CO : gain de revente au choix en réserves (capitaux propres) ou en produit financier ; la RPC 24 impose les seuls capitaux propres.",
+    "Faux. La RPC 24 exclut le passage par le résultat.",
+    "Faux. Au CO, les actions propres restent au coût, sans réévaluation."
+   ]
+  },
+  {
+   "id": "M3-046",
+   "champ": "Stocks (art. 960c CO)",
+   "difficulte": 2,
+   "piege": "NEG",
+   "memento": "ch.4 §4.5",
+   "source": "generated",
+   "question": "Parmi ces assertions sur les stocks selon le CO, laquelle est FAUSSE ?",
+   "options": [
+    "Le test de la valeur la plus basse s'applique après le calcul du coût (FIFO, coût moyen).",
+    "Les produits en cours de fabrication font partie des stocks.",
+    "La valeur retenue est le minimum entre le coût et la valeur vénale diminuée des coûts résiduels.",
+    "Si la valeur vénale nette dépasse le coût, les stocks sont réévalués à la valeur vénale."
+   ],
+   "correct": 3,
+   "explications": [
+    "Vrai (donc pas la réponse). Le test intervient après le calcul du coût.",
+    "Vrai (donc pas la réponse). Les produits en cours sont des stocks (art. 960c CO).",
+    "Vrai (donc pas la réponse). C'est la définition de la valeur la plus basse (art. 960c CO).",
+    "Faux — c'est la réponse : le plafond du coût interdit toute réévaluation au-dessus (art. 960c CO)."
+   ]
+  },
+  {
+   "id": "M3-047",
+   "champ": "Provisions (art. 960e CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "Parmi ces affirmations sur les provisions du CO, laquelle est correcte ?",
+   "options": [
+    "Une provision obligatoire naît d'un événement passé impliquant une perte probable d'avantages, à charge du compte de résultat.",
+    "Une provision obligatoire suppose une probabilité de survenance d'exactement 50 %.",
+    "Les provisions doivent obligatoirement être actualisées au taux sans risque.",
+    "Les provisions se constituent sans incidence sur le résultat."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960e al. 2 CO : provision obligatoire à charge du compte de résultat, sur événement passé impliquant une perte probable d'avantages.",
+    "Faux. Le CO ne fixe aucun seuil chiffré de probabilité.",
+    "Faux. Le CO n'impose pas d'actualisation des provisions.",
+    "Faux. La provision est une charge du compte de résultat."
+   ]
+  },
+  {
+   "id": "M3-048",
+   "champ": "Prix courant observable & réserve de fluctuation (CO)",
+   "difficulte": 2,
+   "piege": "CAT",
+   "memento": "ch.4 §4.4",
+   "source": "generated",
+   "question": "Pour lequel de ces actifs une réserve de fluctuation au sens de l'art. 960b CO peut-elle être constituée ?",
+   "options": [
+    "Une machine de production spécifique à l'entreprise.",
+    "Un immeuble d'exploitation.",
+    "Un portefeuille d'actions cotées en Bourse évaluées au cours du jour.",
+    "Un stock de marchandises évalué au coût."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Une machine spécifique n'a pas de prix courant observable.",
+    "Faux. Un immeuble d'exploitation n'a pas de prix courant observable au sens de l'art. 960b CO.",
+    "Vrai. Art. 960b CO : la réserve de fluctuation ne vise que les actifs à prix courant observable, tels des actions cotées évaluées au cours du jour.",
+    "Faux. Un stock au coût relève de l'art. 960c, non du régime du prix courant observable."
+   ]
+  },
+  {
+   "id": "M3-049",
+   "champ": "Comptes intermédiaires (art. 960f CO)",
+   "difficulte": 2,
+   "piege": "NEG",
+   "memento": "ch.4 §4.8",
+   "source": "generated",
+   "question": "Parmi ces affirmations sur les comptes intermédiaires du CO, laquelle est FAUSSE ?",
+   "options": [
+    "Les dispositions applicables aux grandes entreprises et aux groupes sont réservées.",
+    "Des simplifications sont admises si la marche des affaires reste fidèlement représentée.",
+    "Ils se limitent à un bilan et à un compte de résultat, sans annexe.",
+    "L'annexe précise notamment le but des comptes intermédiaires."
+   ],
+   "correct": 2,
+   "explications": [
+    "Vrai (donc pas la réponse). Art. 960f al. 1 CO : dispositions grandes entreprises et groupes réservées.",
+    "Vrai (donc pas la réponse). Art. 960f al. 2 CO : simplifications admises.",
+    "Faux — c'est la réponse : ils comprennent aussi une annexe (art. 960f al. 1 CO).",
+    "Vrai (donc pas la réponse). Art. 960f al. 3 CO : l'annexe précise le but."
+   ]
+  },
+  {
+   "id": "M3-050",
+   "champ": "Coût d'acquisition & réserves latentes (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.3",
+   "source": "generated",
+   "question": "Mu SA acquiert une machine pour 100 000 CHF, avec 8 000 CHF de frais de transport et de montage nécessaires à sa mise en service. À quel montant l'inscrit-elle lors de la première comptabilisation ?",
+   "options": [
+    "100 000 CHF",
+    "108 000 CHF",
+    "92 000 CHF",
+    "116 000 CHF"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les frais nécessaires à la mise en service font partie du coût d'acquisition.",
+    "Vrai. Art. 960a al. 1 CO : le coût d'acquisition inclut les frais accessoires nécessaires (100 000 + 8 000 = 108 000).",
+    "Faux. On n'exclut pas les frais accessoires du coût.",
+    "Faux. 116 000 double indûment les frais accessoires."
+   ]
+  },
+  {
+   "id": "M3-051",
+   "champ": "Valorisation des dettes (art. 960e CO)",
+   "difficulte": 2,
+   "piege": "CAT",
+   "memento": "ch.4 §4.6",
+   "source": "generated",
+   "question": "Quelle différence l'art. 960e CO établit-il entre une dette et une provision ?",
+   "options": [
+    "La dette est estimée, la provision est certaine dans son montant et son échéance.",
+    "La dette et la provision sont toutes deux actualisées.",
+    "La provision est comptabilisée à la valeur nominale, la dette au montant estimé.",
+    "La dette est comptabilisée à la valeur nominale ; la provision est estimée au montant vraisemblablement nécessaire pour une perte probable."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. C'est l'inverse : la provision est incertaine, la dette est déterminée.",
+    "Faux. Le CO n'impose l'actualisation ni de l'une ni de l'autre.",
+    "Faux. C'est la dette qui est à la valeur nominale, non la provision.",
+    "Vrai. Art. 960e al. 1 et 2 CO : dette à la valeur nominale ; provision au montant vraisemblablement nécessaire pour une perte probable issue d'un événement passé."
+   ]
+  },
+  {
+   "id": "M3-052",
+   "champ": "Principes d'évaluation (CO)",
+   "difficulte": 2,
+   "piege": "VV",
+   "memento": "ch.4 §4.1",
+   "source": "generated",
+   "question": "Parmi ces affirmations transversales sur l'évaluation selon le CO, laquelle est correcte ?",
+   "options": [
+    "Les actifs à prix courant observable peuvent être évalués au cours du jour, même supérieur au coût.",
+    "L'évaluation subséquente d'un actif ordinaire peut dépasser son coût d'acquisition.",
+    "Les stocks sont toujours évalués à la valeur vénale, même supérieure au coût.",
+    "Les dettes sont comptabilisées à leur valeur de marché."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 960b al. 1 CO : les actifs à prix courant observable peuvent être évalués au cours du jour, même supérieur au coût (exception au plafond).",
+    "Faux. L'évaluation subséquente ordinaire ne dépasse pas le coût (art. 960a al. 2 CO).",
+    "Faux. Les stocks suivent la valeur la plus basse, plafonnée au coût (art. 960c CO).",
+    "Faux. Les dettes sont à la valeur nominale (art. 960e al. 1 CO)."
+   ]
   }
  ]
 }

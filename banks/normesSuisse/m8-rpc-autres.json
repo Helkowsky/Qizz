@@ -22,7 +22,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.9 §9.1",
-   "piege": "Critères ALTERNATIFS (un seul suffit), jamais cumulatifs ; ne pas exiger le transfert de propriété.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -44,7 +44,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.1",
-   "piege": "Valeur d'activation = la PLUS BASSE ; redevance scindée intérêt/remboursement (le remboursement réduit la dette, il ne passe pas en résultat).",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -66,7 +66,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.9 §9.1",
-   "piege": "Sale-and-lease-back financier : GAIN différé sur la durée ; une PERTE, elle, serait comptabilisée immédiatement.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -88,7 +88,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.2",
-   "piege": "FIFO est une méthode de stock, jamais de degré d'achèvement.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -110,7 +110,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.9 §9.2",
-   "piege": "POCM : produit = produit total × % ; charges = charges totales × %. Ne pas confondre l'assiette (produit vs charges).",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -132,7 +132,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.3",
-   "piege": "Impôt différé = écart temporaire × taux (pas l'écart brut) ; actif surévalué en RPC → PASSIF d'impôt différé.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -154,7 +154,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.9 §9.3",
-   "piege": "Seules les différences temporaires comptent ; actif → immobilisations financières, passif → provisions pour impôts.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -176,7 +176,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.4",
-   "piege": "Un instrument de capitaux propres (bon de participation, action propre) n'est jamais un dérivé.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -198,7 +198,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.4",
-   "piege": "Couverture → suit le sous-jacent ; spéculatif → valeur actuelle, variations en résultat.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -220,7 +220,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.9 §9.5",
-   "piege": "Loyer bonifié = non monétaire ET lié au résultat ; deux axes indépendants à qualifier séparément.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -242,7 +242,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.5",
-   "piege": "Monétaire = nominale ; non monétaire = valeur actuelle. Conditions : assurance raisonnable + estimation fiable.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -264,7 +264,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.6",
-   "piege": "Chez l'OBNL, le compte de résultat = « compte d'exploitation » ; rapport de performance et tableau de variation du capital obligatoires.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -286,7 +286,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.6",
-   "piege": "RPC 21 = indépendante de la forme juridique ; RPC 28 s'applique aussi aux OBNL.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -308,7 +308,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.7",
-   "piege": "EPS et information sectorielle ne sont exigés QUE par la RPC 31 (sociétés cotées) ; les parts dans les associées n'en font pas partie.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -330,7 +330,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.9 §9.7",
-   "piege": "Des droits de créance cotés (emprunt obligataire) déclenchent la RPC 31, même si les actions ne sont pas cotées.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -352,7 +352,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.10 §10.2",
-   "piege": "Trois opérations : dissoudre les réserves latentes, reclasser les réserves, comptabiliser les impôts différés.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -374,7 +374,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.10 §10.2",
-   "piege": "Réserve latente d'OUVERTURE inchangée → écriture au BILAN (réserves) ; seule la VARIATION de l'exercice passe par le résultat.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -396,7 +396,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.10 §10.3",
-   "piege": "Taux ↑ → valeur ↓ ; réserves latentes → valeur substantielle seulement (pas la valeur de rendement).",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -418,7 +418,821 @@
    ],
    "difficulte": 2,
    "memento": "ch.10 §10.3",
-   "piege": "Ne pas inverser les poids : valeur de RENDEMENT × 2, valeur substantielle × 1, le tout divisé par 3.",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M8-020",
+   "champ": "RPC 13 — Leasing (comptabilisation exploitation)",
+   "question": "Comment un leasing d'exploitation est-il traité chez le preneur selon la Swiss GAAP RPC 13 ?",
+   "options": [
+    "Le bien est activé au bilan à la valeur la plus basse, avec une dette de leasing correspondante.",
+    "Chaque redevance est scindée en une composante d'intérêt et une composante de remboursement.",
+    "Le bien reste hors bilan ; les redevances sont portées en charges et les engagements non résiliables dans l'année sont indiqués en annexe (valeur totale des versements futurs et échéances).",
+    "Un gain de cession est différé et amorti sur la durée du contrat."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'activation à la valeur la plus basse caractérise le leasing FINANCIER, pas le leasing d'exploitation. RPC 13.",
+    "Faux. La scission intérêt/remboursement s'applique au leasing financier ; en exploitation la redevance est une charge unique. RPC 13.",
+    "Vrai. Le leasing d'exploitation reste hors bilan : redevances en charges, engagements non résiliables dans l'année mentionnés en annexe. RPC 13.",
+    "Faux. Le différé d'un gain relève du sale-and-lease-back, pas du traitement courant du leasing d'exploitation. RPC 13."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.1",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-021",
+   "champ": "RPC 13 — Leasing (classification)",
+   "question": "Parmi les situations suivantes, laquelle relève d'un leasing d'EXPLOITATION selon la Swiss GAAP RPC 13 ?",
+   "options": [
+    "La durée du contrat correspond à la durée de vie économique du bien.",
+    "Le contrat prévoit une option d'achat nettement inférieure à la valeur de marché future du bien.",
+    "En fin de contrat, le preneur ne peut racheter ou renouveler qu'aux conditions du marché futur, le donneur assumant les chances et risques liés au prix du bien.",
+    "La propriété du bien est transférée au preneur à l'échéance."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Une durée ≈ durée de vie économique remplit un critère de leasing financier. RPC 13.",
+    "Faux. Une option d'achat avantageuse est un critère de leasing financier. RPC 13.",
+    "Vrai. Si le donneur conserve les chances et risques de prix (rachat/renouvellement au prix du marché futur), aucun critère financier n'est rempli → leasing d'exploitation. RPC 13.",
+    "Faux. Le transfert de propriété en fin de contrat qualifie un leasing financier. RPC 13."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.1",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-022",
+   "champ": "RPC 13 — Leasing (sale-and-lease-back, perte)",
+   "question": "Une société vend une machine (valeur comptable 4 000) pour 3 600, puis la reprend en leasing financier. Comment traiter la perte de cession de 400 selon la Swiss GAAP RPC 13 ?",
+   "options": [
+    "Différée et amortie sur la durée du leasing, soit 40 par an.",
+    "Comptabilisée immédiatement et intégralement en charge de l'exercice de la vente.",
+    "Portée directement en diminution des réserves, sans passer par le résultat.",
+    "Ajoutée à la valeur d'activation de la machine reprise en leasing."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le différé concerne le GAIN d'un sale-and-lease-back financier ; une perte n'est pas différée. RPC 13.",
+    "Vrai. Contrairement au gain (différé), une perte de sale-and-lease-back est débitée immédiatement au résultat de la période. RPC 13.",
+    "Faux. La perte transite par le résultat de la période, elle n'est pas imputée directement aux réserves. RPC 13.",
+    "Faux. La perte n'augmente pas la valeur activée ; elle est passée immédiatement en charge. RPC 13."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-023",
+   "champ": "RPC 13 — Leasing (scission de la redevance)",
+   "question": "Un leasing financier est activé pour un engagement de 8 000 (IRR 5 %) ; la redevance annuelle postnumerando est de 2 000. Comment se décompose la première redevance selon la Swiss GAAP RPC 13 ?",
+   "options": [
+    "Intérêt 400 (charge) et remboursement 1 600 (en déduction de la dette de leasing).",
+    "Intérêt 100 et remboursement 1 900.",
+    "La totalité des 2 000 est portée en charge d'intérêt.",
+    "Intérêt 1 600 et remboursement 400."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Intérêt = IRR × engagement = 5 % × 8 000 = 400 ; remboursement = redevance − intérêt = 2 000 − 400 = 1 600, qui réduit la dette. RPC 13.",
+    "Faux. L'intérêt est 5 % × 8 000 = 400, pas 100. RPC 13.",
+    "Faux. Seule la part d'intérêt (400) est une charge ; le solde rembourse la dette. RPC 13.",
+    "Faux. Les composantes sont inversées : intérêt 400, remboursement 1 600. RPC 13."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-024",
+   "champ": "RPC 13 — Leasing (valeur d'activation)",
+   "question": "À la conclusion d'un leasing financier, le coût/valeur de marché du bien est de 105 000, la valeur actualisée des paiements futurs de 100 000 et les frais de contrat immédiatement exigibles de 2 500. À quelle valeur le bien est-il activé selon la Swiss GAAP RPC 13 ?",
+   "options": [
+    "105 000, la valeur la plus élevée.",
+    "100 000 uniquement, sans les frais de contrat.",
+    "107 500, soit 105 000 + 2 500.",
+    "102 500, soit la valeur la plus basse 100 000 plus les frais d'acquisition 2 500."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. On retient la valeur la plus BASSE (100 000), pas la plus élevée. RPC 13.",
+    "Faux. Les frais d'acquisition immédiatement exigibles s'ajoutent à la valeur activée. RPC 13.",
+    "Faux. La base d'activation est la valeur la plus basse (100 000), pas 105 000. RPC 13.",
+    "Vrai. Valeur activée = min(105 000 ; 100 000) + frais d'acquisition 2 500 = 102 500 ; l'engagement, lui, reste à 100 000. RPC 13."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-025",
+   "champ": "RPC 22 — Contrats à long terme (définition)",
+   "question": "Selon la Swiss GAAP RPC 22, quels critères caractérisent un contrat à long terme ?",
+   "options": [
+    "Une durée contractuelle supérieure à douze mois, seuil fixé par la norme.",
+    "La réalisation d'un travail ou d'une prestation spécifique pour un tiers, sur une longue période, et un contrat important pour l'organisation.",
+    "Un montant dépassant un seuil chiffré défini par la RPC 22.",
+    "Un contrat portant obligatoirement sur un ouvrage immobilier."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La RPC 22 ne fixe AUCUN seuil chiffré de durée ; la « longue période » est appréciée qualitativement. RPC 22.",
+    "Vrai. Trois critères cumulatifs : prestation spécifique pour un tiers, longue période, importance pour l'organisation. RPC 22.",
+    "Faux. Aucun seuil chiffré de montant n'est prévu ; l'« importance » reste qualitative. RPC 22.",
+    "Faux. Le contrat peut porter sur un bien ou un service quelconque, pas seulement un ouvrage immobilier. RPC 22."
+   ],
+   "difficulte": 1,
+   "memento": "ch.9 §9.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M8-026",
+   "champ": "RPC 22 — Contrats à long terme (POCM / CCM / RCM)",
+   "question": "Quelle affirmation décrit correctement les trois méthodes de la Swiss GAAP RPC 22 ?",
+   "options": [
+    "La POCM reconnaît produits et bénéfice à l'avancement ; la CCM (par défaut) ne reconnaît rien avant le transfert des risques ; la RCM reconnaît des produits égaux aux coûts recouvrables, sans bénéfice avant la fin.",
+    "La CCM reconnaît le bénéfice à l'avancement ; la POCM ne reconnaît rien avant la fin.",
+    "La RCM reconnaît le bénéfice à l'avancement, comme la POCM.",
+    "Les trois méthodes reconnaissent le bénéfice uniquement à la clôture du projet."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. POCM = produits + bénéfice à l'avancement ; CCM (méthode par défaut) = rien avant le transfert des risques ; RCM = produits égaux aux coûts recouvrables, sans bénéfice avant la fin. RPC 22.",
+    "Faux. Les rôles sont inversés : c'est la POCM qui reconnaît à l'avancement, la CCM à l'achèvement. RPC 22.",
+    "Faux. La RCM ne reconnaît PAS de bénéfice avant la clôture (produits = coûts seulement). RPC 22.",
+    "Faux. La POCM reconnaît le bénéfice au fil de l'avancement, pas seulement à la clôture. RPC 22."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-027",
+   "champ": "RPC 22 — Contrats à long terme (cas POCM)",
+   "question": "Un contrat à long terme prévoit un produit total de 2 000 et des charges totales estimées à 1 600 ; à la clôture, le degré d'achèvement est de 25 % et les conditions de la POCM sont réunies. Quelles écritures récapitulatives passer ?",
+   "options": [
+    "Travaux en cours / Chiffre d'affaires 400 ; Charges de fabrication / Liquidités 500.",
+    "Travaux en cours / Liquidités 500.",
+    "Charges de fabrication / Liquidités 400 ; Travaux en cours / Chiffre d'affaires 500.",
+    "Charges de fabrication / Chiffre d'affaires 400 ; Travaux en cours / Liquidités 500."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les comptes sont inversés : les charges (400) vont contre Liquidités, le produit (500) contre Chiffre d'affaires. RPC 22.",
+    "Faux. La POCM reconnaît charges ET produits à l'avancement, pas une simple sortie de liquidités. RPC 22.",
+    "Vrai. Charges = 1 600 × 25 % = 400 (Charges de fabrication / Liquidités) ; produit = 2 000 × 25 % = 500 (Travaux en cours / Chiffre d'affaires). RPC 22.",
+    "Faux. Les comptes sont mal appariés : charges contre Liquidités, produit contre Chiffre d'affaires. RPC 22."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.2",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-028",
+   "champ": "RPC 22 — Contrats à long terme (méthodes de degré d'achèvement)",
+   "question": "Parmi les méthodes de détermination du degré d'achèvement de la Swiss GAAP RPC 22, laquelle est une méthode fondée sur la production (output) ?",
+   "options": [
+    "Cost-to-cost (coûts encourus rapportés aux coûts totaux).",
+    "Efforts expended (efforts fournis).",
+    "First-in-first-out (FIFO).",
+    "Units of delivery (unités livrées)."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le cost-to-cost est une méthode fondée sur les entrées (input), pas sur la production. RPC 22.",
+    "Faux. La mesure des efforts fournis est également une méthode input. RPC 22.",
+    "Faux. FIFO est une méthode de valorisation des stocks, jamais une méthode de degré d'achèvement. RPC 22.",
+    "Vrai. Les units of delivery (unités livrées) mesurent l'avancement par la production réalisée : c'est une méthode output. RPC 22."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.2",
+   "piege": "NEG",
+   "source": "generated"
+  },
+  {
+   "id": "M8-029",
+   "champ": "RPC 22 — Contrats à long terme (pertes attendues)",
+   "question": "Comment une perte attendue sur un contrat à long terme est-elle comptabilisée selon la Swiss GAAP RPC 22 ?",
+   "options": [
+    "Au prorata du degré d'achèvement atteint.",
+    "Immédiatement et intégralement, quelle que soit la méthode et indépendamment du degré d'achèvement.",
+    "Uniquement à la clôture du projet, sous la méthode CCM.",
+    "Étalée sur la durée résiduelle du contrat."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La perte attendue n'est pas proratisée : elle est reconnue en totalité et immédiatement. RPC 22.",
+    "Vrai. Les pertes attendues (corrections de valeur, provisions) sont comptabilisées immédiatement et intégralement, indépendamment de l'avancement et de la méthode. RPC 22.",
+    "Faux. La reconnaissance immédiate vaut pour toutes les méthodes, y compris hors CCM. RPC 22.",
+    "Faux. Aucun étalement : la perte est intégralement comptabilisée dès qu'elle est attendue. RPC 22."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.2",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-030",
+   "champ": "RPC 11 — Impôts différés (formule)",
+   "question": "Comment un impôt différé se calcule-t-il selon la Swiss GAAP RPC 11 ?",
+   "options": [
+    "Différence d'évaluation temporaire (valeur RPC − valeur imposable) × taux d'imposition applicable.",
+    "Différence d'évaluation temporaire × 100 %.",
+    "Bénéfice comptable RPC × taux d'imposition.",
+    "Différence d'évaluation permanente × taux d'imposition."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'impôt différé = écart d'évaluation TEMPORAIRE entre valeur RPC et valeur imposable, multiplié par le taux applicable. RPC 11.",
+    "Faux. On applique le taux d'imposition, pas l'écart brut (× 100 %). RPC 11.",
+    "Faux. L'impôt courant se base sur le bénéfice ; l'impôt différé provient des écarts d'évaluation temporaires. RPC 11.",
+    "Faux. Les différences permanentes ne génèrent AUCUN impôt différé. RPC 11."
+   ],
+   "difficulte": 1,
+   "memento": "ch.9 §9.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-031",
+   "champ": "RPC 11 — Impôts différés (cas provision)",
+   "question": "Une provision figure pour 200 dans les comptes statutaires (CO) et pour 140 dans les comptes RPC (sur-dotation dissoute) ; le taux d'imposition est de 25 %. Quel impôt différé en résulte ?",
+   "options": [
+    "Aucun impôt différé.",
+    "Impôt différé passif de 60.",
+    "Impôt différé passif de 15.",
+    "Impôt différé actif de 15."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La dissolution d'une réserve latente sur provision crée un écart temporaire, donc un impôt différé. RPC 11.",
+    "Faux. 60 est l'écart d'évaluation ; l'impôt différé est l'écart × taux, pas l'écart brut. RPC 11.",
+    "Vrai. Écart 200 − 140 = 60 ; la provision RPC plus basse augmente l'actif net → impôt différé PASSIF = 60 × 25 % = 15. RPC 11.",
+    "Faux. La réduction de la provision augmente l'actif net imposable à terme → impôt différé PASSIF, pas actif. RPC 11."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-032",
+   "champ": "RPC 11 — Impôts différés (différences permanentes)",
+   "question": "Une charge définitivement non déductible fiscalement crée une différence permanente entre le résultat CO et le résultat RPC. Quel en est l'effet sur les impôts différés selon la Swiss GAAP RPC 11 ?",
+   "options": [
+    "Elle génère un impôt différé actif.",
+    "Elle génère un impôt différé passif.",
+    "Elle génère un impôt courant supplémentaire à différer.",
+    "Elle ne génère aucun impôt différé."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Seules les différences temporaires génèrent des impôts différés. RPC 11.",
+    "Faux. Une différence permanente ne donne lieu à aucune délimitation d'impôt différé. RPC 11.",
+    "Faux. Une différence permanente n'engendre aucun report d'impôt à différer. RPC 11.",
+    "Vrai. Les différences PERMANENTES (illimitées dans le temps) ne génèrent aucun impôt différé ; seules les différences temporaires en produisent. RPC 11."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.3",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M8-033",
+   "champ": "RPC 11 — Impôts différés (rubriques au bilan)",
+   "question": "Sous quelles rubriques du bilan les impôts différés figurent-ils selon la Swiss GAAP RPC 11 ?",
+   "options": [
+    "Actif sous actifs de régularisation ; passif sous dettes à court terme.",
+    "Actif sous immobilisations financières ; passif sous provisions pour impôts.",
+    "Actif sous provisions pour impôts ; passif sous immobilisations financières.",
+    "Actif et passif tous deux au sein des capitaux propres."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Ce sont les rubriques des impôts COURANTS, pas des impôts différés. RPC 11.",
+    "Vrai. L'impôt différé actif figure sous immobilisations financières, l'impôt différé passif sous provisions pour impôts. RPC 11.",
+    "Faux. Les rubriques sont inversées : actif → immobilisations financières, passif → provisions pour impôts. RPC 11.",
+    "Faux. Les impôts différés figurent à l'actif et au passif, non en capitaux propres. RPC 11."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.3",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-034",
+   "champ": "RPC 11 — Impôts différés (constitution)",
+   "question": "Comment les impôts différés sont-ils constitués selon la Swiss GAAP RPC 11 ?",
+   "options": [
+    "Avec ou sans incidence sur le résultat, selon la nature de la différence d'évaluation.",
+    "Toujours avec incidence sur le résultat.",
+    "Uniquement sans incidence sur le résultat.",
+    "Ils ne concernent que les comptes statutaires."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les impôts différés peuvent être constitués avec incidence sur le résultat (variation de l'exercice) ou sans incidence (écarts d'ouverture imputés aux réserves). RPC 11.",
+    "Faux. Certaines constitutions passent directement par les capitaux propres, sans incidence résultat. RPC 11.",
+    "Faux. La variation de l'exercice a bien une incidence sur le résultat. RPC 11.",
+    "Faux. Les impôts différés naissent précisément de l'écart entre comptes statutaires et comptes RPC. RPC 11."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.3",
+   "piege": "CORPC",
+   "source": "original"
+  },
+  {
+   "id": "M8-035",
+   "champ": "RPC 27 — Instruments dérivés (définition)",
+   "question": "Quelles sont les trois conditions cumulatives définissant un instrument dérivé selon la Swiss GAAP RPC 27 ?",
+   "options": [
+    "Une valeur nominale élevée, un règlement immédiat et l'absence de sous-jacent.",
+    "Une valeur dépendant d'un sous-jacent, une mise de fonds initiale faible et un règlement dans le futur.",
+    "Une cotation en bourse, une échéance annuelle et un versement de dividende.",
+    "Un sous-jacent, un investissement initial élevé et un règlement au comptant immédiat."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Un dérivé requiert au contraire un sous-jacent et une faible mise initiale. RPC 27.",
+    "Vrai. Les trois conditions cumulatives : valeur liée à un sous-jacent, investissement initial faible, règlement futur. RPC 27.",
+    "Faux. Ni la cotation ni un dividende ne caractérisent un dérivé. RPC 27.",
+    "Faux. L'investissement initial d'un dérivé est FAIBLE, et le règlement a lieu dans le futur. RPC 27."
+   ],
+   "difficulte": 1,
+   "memento": "ch.9 §9.4",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-036",
+   "champ": "RPC 27 — Instruments dérivés (options achetées/émises)",
+   "question": "Comment une option est-elle inscrite lors de sa comptabilisation initiale selon la Swiss GAAP RPC 27 ?",
+   "options": [
+    "Option achetée comme émise : la prime figure toujours au passif.",
+    "Option achetée → prime au passif ; option émise → prime à l'actif.",
+    "Option achetée → prime à l'actif ; option émise → prime au passif.",
+    "Aucune inscription au bilan : les primes figurent uniquement en annexe."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La prime d'une option achetée est un actif, pas un passif. RPC 27.",
+    "Faux. Les sens sont inversés : achetée → actif, émise → passif. RPC 27.",
+    "Vrai. La prime d'une option achetée est inscrite à l'actif, celle d'une option émise au passif. RPC 27.",
+    "Faux. Un dérivé est inscrit au bilan dès qu'il constitue un actif ou un passif. RPC 27."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.4",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-037",
+   "champ": "RPC 27 — Instruments dérivés (spéculatif)",
+   "question": "Comment un dérivé de spéculation (hors couverture) est-il évalué après sa comptabilisation initiale selon la Swiss GAAP RPC 27 ?",
+   "options": [
+    "À la valeur actuelle, les variations de valeur étant portées au résultat de la période.",
+    "Au coût d'acquisition historique, sans réévaluation.",
+    "Selon les principes d'évaluation du sous-jacent, comme un dérivé de couverture.",
+    "Uniquement en annexe, sans inscription au bilan."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Un dérivé spéculatif est évalué à la valeur actuelle, ses variations de valeur passant par le résultat de la période. RPC 27.",
+    "Faux. Un dérivé n'est pas figé au coût historique. RPC 27.",
+    "Faux. Suivre le sous-jacent caractérise le dérivé de COUVERTURE, pas le dérivé spéculatif. RPC 27.",
+    "Faux. Un dérivé est inscrit au bilan dès qu'il constitue un actif ou un passif. RPC 27."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.4",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-038",
+   "champ": "RPC 27 — Instruments dérivés (inscription au bilan)",
+   "question": "À quel moment un instrument dérivé est-il inscrit au bilan selon la Swiss GAAP RPC 27 ?",
+   "options": [
+    "Uniquement à son échéance, lors du règlement.",
+    "Jamais : il figure exclusivement en annexe.",
+    "Seulement s'il est détenu à des fins de spéculation.",
+    "Dès qu'il répond à la définition d'un actif ou d'un passif, même si un contrat à terme vaut initialement zéro."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. L'inscription intervient dès que le dérivé constitue un actif/passif, pas seulement à l'échéance. RPC 27.",
+    "Faux. Un dérivé constituant un actif ou un passif figure au bilan, pas seulement en annexe. RPC 27.",
+    "Faux. L'inscription vaut aussi bien pour les dérivés de couverture que spéculatifs. RPC 27.",
+    "Vrai. Un dérivé est porté au bilan dès qu'il répond à la définition d'un actif ou d'un passif, même si un forward peut valoir 0 à l'origine. RPC 27."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.4",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-039",
+   "champ": "RPC 28 — Subventions publiques (deux axes)",
+   "question": "Selon la Swiss GAAP RPC 28, sur quels axes une subvention des pouvoirs publics est-elle classée ?",
+   "options": [
+    "Deux axes indépendants : monétaire / non monétaire et liée aux actifs / liée au résultat.",
+    "Un seul axe : monétaire ou non monétaire.",
+    "Un seul axe : liée aux actifs ou liée au résultat.",
+    "Trois axes : monétaire, non monétaire et mixte."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Une subvention se qualifie sur deux axes indépendants : monétaire/non monétaire et liée aux actifs/liée au résultat. RPC 28.",
+    "Faux. Il existe un second axe : liée aux actifs / liée au résultat. RPC 28.",
+    "Faux. Il existe un second axe : monétaire / non monétaire. RPC 28.",
+    "Faux. Il y a deux axes, chacun à deux modalités (quatre cases), pas trois axes. RPC 28."
+   ],
+   "difficulte": 1,
+   "memento": "ch.9 §9.5",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-040",
+   "champ": "RPC 28 — Subventions publiques (cas monétaire)",
+   "question": "Un canton verse 500 000 en espèces à une entreprise pour financer l'acquisition d'une machine de production. De quel type de subvention s'agit-il selon la Swiss GAAP RPC 28 ?",
+   "options": [
+    "Non monétaire liée au résultat.",
+    "Non monétaire liée à des actifs.",
+    "Monétaire liée à des actifs.",
+    "Monétaire liée au résultat."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Il y a un versement en espèces (monétaire) et le but est l'acquisition d'un actif. RPC 28.",
+    "Faux. Un versement en espèces est monétaire, pas non monétaire. RPC 28.",
+    "Vrai. Un versement en espèces (monétaire) destiné à financer une immobilisation est une subvention monétaire liée à des actifs. RPC 28.",
+    "Faux. La subvention finance l'acquisition d'un actif, elle n'est pas liée au résultat. RPC 28."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.5",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-041",
+   "champ": "RPC 28 — Subventions publiques (méthode nette/brute)",
+   "question": "Pour une subvention liée à un actif, en quoi consiste la méthode nette selon la Swiss GAAP RPC 28 ?",
+   "options": [
+    "Comptabiliser la subvention en produit immédiat, sans toucher à l'actif.",
+    "Déduire la subvention de la valeur de l'actif, ce qui réduit les amortissements futurs.",
+    "Inscrire la subvention en compte de régularisation passif, dissous sur la durée d'utilisation.",
+    "Porter la subvention directement en augmentation des réserves."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La méthode nette réduit la valeur de l'actif ; elle ne comptabilise pas un produit immédiat. RPC 28.",
+    "Vrai. La méthode nette compense l'actif (subvention en déduction) → amortissements réduits sur la durée. RPC 28.",
+    "Faux. La régularisation passif dissoute sur la durée décrit la méthode BRUTE, pas la nette. RPC 28.",
+    "Faux. La subvention n'est pas imputée directement aux réserves. RPC 28."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.5",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-042",
+   "champ": "RPC 28 — Subventions publiques (champ et entrée en vigueur)",
+   "question": "Laquelle de ces affirmations sur la Swiss GAAP RPC 28 est correcte ?",
+   "options": [
+    "Elle est en vigueur depuis 2010 et ne vise que les subventions monétaires.",
+    "Elle ne s'applique jamais aux organisations à but non lucratif.",
+    "Elle impose la comptabilisation dès l'annonce de la subvention par les pouvoirs publics.",
+    "En vigueur depuis le 1er janvier 2024, elle vise la compensation, par une institution publique, de prestations ou charges liées à l'exploitation."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Elle est en vigueur depuis le 1.1.2024 et couvre aussi les subventions non monétaires. RPC 28.",
+    "Faux. La RPC 28 s'applique aussi aux OBNL, souvent soutenues par les pouvoirs publics. RPC 28.",
+    "Faux. La comptabilisation exige une assurance raisonnable et une estimation fiable, pas la seule annonce. RPC 28.",
+    "Vrai. Entrée en vigueur le 1.1.2024, la RPC 28 vise la compensation par une institution publique de prestations ou charges d'exploitation. RPC 28."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.5",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M8-043",
+   "champ": "RPC 21 — OBNL (capital des fonds)",
+   "question": "Comment le passif du bilan d'une organisation à but non lucratif (OBNL) distingue-t-il les composantes de son capital selon la Swiss GAAP RPC 21 ?",
+   "options": [
+    "Il sépare le capital des fonds (moyens affectés) du capital de l'organisation (moyens libres).",
+    "Il regroupe tous les moyens en un capital unique indivis.",
+    "Il présente le capital des fonds au sein des dettes à court terme.",
+    "Il classe le capital de l'organisation parmi les provisions."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le bilan d'une OBNL distingue le capital des fonds (affectés par les donateurs) du capital de l'organisation (libre). RPC 21.",
+    "Faux. La RPC 21 impose précisément de distinguer capital des fonds et capital de l'organisation. RPC 21.",
+    "Faux. Le capital des fonds est une composante des capitaux propres, pas une dette à court terme. RPC 21.",
+    "Faux. Le capital de l'organisation est un fonds propre, non une provision. RPC 21."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.6",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-044",
+   "champ": "RPC 21 — OBNL (compte d'exploitation)",
+   "question": "Où figure la variation du capital des fonds dans le compte d'exploitation d'une organisation à but non lucratif selon la Swiss GAAP RPC 21 ?",
+   "options": [
+    "En tête du compte, avant le résultat d'exploitation.",
+    "Après le résultat avant variation du capital des fonds, pour aboutir au résultat de l'exercice.",
+    "Uniquement au bilan, jamais dans le compte d'exploitation.",
+    "Elle n'apparaît pas, la RPC 21 l'interdisant."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La variation du capital des fonds intervient en bas de la cascade, pas avant le résultat d'exploitation. RPC 21.",
+    "Vrai. La cascade aboutit au résultat avant variation du capital des fonds, puis intègre cette variation pour donner le résultat de l'exercice. RPC 21.",
+    "Faux. Elle figure bien dans le compte d'exploitation, après le résultat avant variation. RPC 21.",
+    "Faux. La RPC 21 exige au contraire de présenter cette variation. RPC 21."
+   ],
+   "difficulte": 3,
+   "memento": "ch.9 §9.6",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M8-045",
+   "champ": "RPC 21 — OBNL (cas fonds affecté)",
+   "question": "Une OBNL reçoit un don en espèces de 60 000 affecté à un projet précis ; elle en dépense 25 000 durant l'exercice. Comment traiter les 35 000 non consommés selon la Swiss GAAP RPC 21 ?",
+   "options": [
+    "Les comptabiliser intégralement en produit de l'exercice.",
+    "Les porter au capital de l'organisation (moyens libres).",
+    "Les affecter au capital des fonds, puis les dissoudre au fur et à mesure de leur utilisation ultérieure.",
+    "Les rembourser immédiatement au donateur."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La part non consommée d'un don affecté n'est pas reconnue en produit libre de l'exercice. RPC 21.",
+    "Faux. Un don affecté alimente le capital des FONDS, pas le capital libre de l'organisation. RPC 21.",
+    "Vrai. La part non utilisée (35 000) est affectée au capital des fonds, puis dissoute au rythme de son utilisation future. RPC 21.",
+    "Faux. Aucun remboursement n'est requis ; les moyens restent affectés au projet. RPC 21."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.6",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-046",
+   "champ": "RPC 31 — Sociétés cotées (portée)",
+   "question": "Quelle est la portée de la Swiss GAAP RPC 31 pour les sociétés cotées ?",
+   "options": [
+    "Une recommandation complémentaire obligatoire couvrant huit domaines, apportant surtout des informations supplémentaires (transparence, comparabilité).",
+    "Une norme qui remplace les RPC fondamentales pour les sociétés cotées.",
+    "Une recommandation limitée à l'établissement des comptes consolidés.",
+    "Une norme fixant de nouvelles règles de comptabilisation de fond."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La RPC 31 est une recommandation complémentaire obligatoire (8 domaines) apportant essentiellement des informations supplémentaires. RPC 31.",
+    "Faux. Elle complète les RPC, elle ne les remplace pas. RPC 31.",
+    "Faux. Son application dépend de la cotation des titres, pas de l'existence de comptes consolidés. RPC 31.",
+    "Faux. Elle apporte surtout des informations complémentaires, pas de nouvelles règles de comptabilisation de fond. RPC 31."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.7",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-047",
+   "champ": "RPC 31 — Sociétés cotées (rapport intermédiaire)",
+   "question": "Concernant le rapport intermédiaire prévu par la Swiss GAAP RPC 31, quelle affirmation est correcte ?",
+   "options": [
+    "Il n'est obligatoire pour aucune société.",
+    "Seules les sociétés non cotées doivent l'établir.",
+    "Il remplace les comptes annuels de l'exercice.",
+    "Les sociétés dont les participations et/ou les droits de créance sont cotés doivent établir un rapport intermédiaire (semestriel)."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le rapport intermédiaire fait partie des huit domaines et s'impose aux sociétés cotées. RPC 31.",
+    "Faux. Ce sont les sociétés COTÉES (participations ou droits de créance) qui l'établissent. RPC 31.",
+    "Faux. Le rapport intermédiaire complète, il ne remplace pas les comptes annuels. RPC 31.",
+    "Vrai. Les entités dont les participations et/ou droits de créance sont cotés établissent un rapport intermédiaire, l'un des huit domaines de la RPC 31. RPC 31."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.7",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M8-048",
+   "champ": "RPC 31 — Sociétés cotées (surveillance)",
+   "question": "Qui contrôle l'application des Swiss GAAP RPC par les sociétés cotées à la SIX, selon le dispositif lié à la RPC 31 ?",
+   "options": [
+    "L'Administration fédérale des contributions (AFC).",
+    "SIX Exchange Regulation, par l'examen annuel d'un échantillon de comptes ; elle n'établit pas d'interprétations.",
+    "Le conseil de la Fondation pour les recommandations RPC lui-même.",
+    "L'organe de révision de chaque société, sans instance de marché."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le contrôle relève de SIX Exchange Regulation, non de l'AFC. RPC 31.",
+    "Vrai. SIX Exchange Regulation examine chaque année un échantillon de comptes de sociétés cotées ; elle surveille mais n'établit pas d'interprétations. RPC 31.",
+    "Faux. La Fondation édicte les normes ; la surveillance des cotées incombe à SIX Exchange Regulation. RPC 31.",
+    "Faux. Au-delà de la révision, SIX Exchange Regulation assure un contrôle de marché. RPC 31."
+   ],
+   "difficulte": 2,
+   "memento": "ch.9 §9.7",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M8-049",
+   "champ": "Rapprochement CO ↔ RPC (différences d'évaluation)",
+   "question": "Comment les stocks sont-ils évalués au passage des comptes CO aux comptes Swiss GAAP RPC ?",
+   "options": [
+    "Identiquement : le CO et les RPC retiennent la même valeur.",
+    "Le CO impose la valeur réelle ; les RPC autorisent une sous-évaluation.",
+    "Le CO admet une sous-évaluation (réserves latentes, LIFO) ; les RPC exigent la valeur réelle, sans réserve latente.",
+    "Les deux référentiels interdisent toute réserve latente sur les stocks."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les valeurs divergent : le CO tolère des réserves latentes que les RPC dissolvent. Rapprochement CO → RPC.",
+    "Faux. C'est l'inverse : la sous-évaluation est permise par le CO, pas par les RPC. Rapprochement CO → RPC.",
+    "Vrai. Le CO permet une sous-évaluation (réserves latentes, LIFO admis) ; les RPC exigent la valeur réelle sans réserve latente. Rapprochement CO → RPC.",
+    "Faux. Le CO admet précisément des réserves latentes ; seules les RPC les interdisent. Rapprochement CO → RPC."
+   ],
+   "difficulte": 2,
+   "memento": "ch.10 §10.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M8-050",
+   "champ": "Rapprochement CO ↔ RPC (variation de l'exercice)",
+   "question": "Au 1er janvier, une société n'a aucune réserve latente ; durant l'exercice, elle constitue 250 de réserves latentes sur marchandises (taux 10 %). Quelle écriture de passage aux Swiss GAAP RPC est correcte ?",
+   "options": [
+    "Stocks / Provisions pour impôts différés 25 et Stocks / Résultat de l'exercice 225, la variation de l'année ayant une incidence sur le résultat.",
+    "Stocks / Réserves issues du bénéfice 225 et Stocks / Provisions pour impôts différés 25, sans incidence résultat.",
+    "Stocks / Résultat de l'exercice 250, sans impôt différé.",
+    "Aucune écriture : une réserve latente constituée dans l'exercice n'est pas retraitée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La VARIATION de la réserve latente de l'exercice passe par le résultat : impôt différé 250 × 10 % = 25, part nette 225 au résultat de l'exercice. Rapprochement CO → RPC.",
+    "Faux. Une réserve constituée DANS l'exercice affecte le résultat ; l'imputation aux réserves vise une réserve d'ouverture inchangée. Rapprochement CO → RPC.",
+    "Faux. Un taux de 10 % génère un impôt différé de 25 ; on ne peut porter 250 entièrement au résultat. Rapprochement CO → RPC.",
+    "Faux. La constitution d'une réserve latente doit être retraitée au passage aux RPC. Rapprochement CO → RPC."
+   ],
+   "difficulte": 3,
+   "memento": "ch.10 §10.2",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M8-051",
+   "champ": "Rapprochement CO ↔ RPC (taux 0 %)",
+   "question": "Au 1er janvier, une société présente une réserve latente sur provisions de 300, inchangée durant l'exercice ; le taux d'imposition est de 0 %. Quelle écriture de passage aux Swiss GAAP RPC est correcte ?",
+   "options": [
+    "Provisions / Réserves issues du bénéfice 270 et Provisions / Provisions pour impôts différés 30.",
+    "Provisions / Provisions pour impôts différés 300.",
+    "Aucune écriture n'est nécessaire.",
+    "Provisions / Réserves issues du bénéfice 300, sans aucun impôt différé."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Au taux de 0 %, aucun impôt différé n'est constitué ; il n'y a pas de scission 270/30. Rapprochement CO → RPC.",
+    "Faux. Au taux de 0 %, il n'y a pas de provision pour impôts différés. Rapprochement CO → RPC.",
+    "Faux. La réserve latente d'ouverture doit être dissoute au bilan, contre les réserves. Rapprochement CO → RPC.",
+    "Vrai. Réserve latente d'ouverture inchangée → écriture au bilan ; taux 0 % → aucun impôt différé, la totalité (300) va aux réserves issues du bénéfice. Rapprochement CO → RPC."
+   ],
+   "difficulte": 2,
+   "memento": "ch.10 §10.2",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M8-052",
+   "champ": "Rapprochement CO ↔ RPC (reclassement des réserves)",
+   "question": "En quoi consiste le reclassement des réserves lors du passage des comptes CO aux Swiss GAAP RPC ?",
+   "options": [
+    "Toutes les réserves sont fusionnées avec le capital-actions.",
+    "La réserve légale issue du capital devient réserve de primes ; les réserves légales et facultatives issues du bénéfice deviennent réserves de bénéfices — un mouvement intra-capitaux propres sans effet sur leur total.",
+    "Les réserves sont transférées au résultat de l'exercice.",
+    "Toutes les réserves sont supprimées du bilan."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le reclassement ne fusionne pas les réserves avec le capital-actions. Rapprochement CO → RPC.",
+    "Vrai. Réserve légale de capital → réserves de primes ; réserves légales/facultatives de bénéfice → réserves de bénéfices : mouvement intra-capitaux propres, sans effet sur le total. Rapprochement CO → RPC.",
+    "Faux. Le reclassement reste au sein des capitaux propres, il ne passe pas par le résultat. Rapprochement CO → RPC.",
+    "Faux. Les réserves sont reclassées, non supprimées. Rapprochement CO → RPC."
+   ],
+   "difficulte": 2,
+   "memento": "ch.10 §10.2",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M8-053",
+   "champ": "Évaluation d'entreprises (valeur substantielle)",
+   "question": "Comment se détermine la valeur substantielle (patrimoniale) d'une entreprise ?",
+   "options": [
+    "Actif net réévalué aux valeurs de marché, diminué des impôts différés ; elle constitue une valeur plancher.",
+    "Bénéfice normalisé divisé par le taux de capitalisation.",
+    "Moyenne pondérée (2 × valeur de rendement + valeur substantielle) / 3.",
+    "Multiple de marché appliqué à l'EBITDA de sociétés comparables."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La valeur substantielle correspond à l'actif net réévalué aux valeurs économiques, net des impôts différés ; c'est un prix plancher. Évaluation d'entreprises.",
+    "Faux. Bénéfice / taux définit la valeur de RENDEMENT, pas la valeur substantielle. Évaluation d'entreprises.",
+    "Faux. Cette pondération est la méthode des praticiens, pas la valeur substantielle. Évaluation d'entreprises.",
+    "Faux. Les multiples relèvent des méthodes relatives, non de l'approche patrimoniale. Évaluation d'entreprises."
+   ],
+   "difficulte": 2,
+   "memento": "ch.10 §10.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-054",
+   "champ": "Évaluation d'entreprises (valeur de rendement)",
+   "question": "Une entreprise dégage un bénéfice normalisé de 600 ; le taux de capitalisation est de 12 % et la croissance durable g de 2 %. Quelle est sa valeur de rendement ?",
+   "options": [
+    "5 000, soit 600 / 12 %.",
+    "30 000, soit 600 × 50.",
+    "6 000, soit 600 / (12 % − 2 %).",
+    "7 200, soit 600 × 12."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Cette formule ignore la croissance ; avec g, le dénominateur est (taux − g). Évaluation d'entreprises.",
+    "Faux. Ce calcul n'a aucun fondement dans la formule de la valeur de rendement. Évaluation d'entreprises.",
+    "Vrai. Valeur de rendement avec croissance = bénéfice / (taux − g) = 600 / (0,12 − 0,02) = 6 000. Évaluation d'entreprises.",
+    "Faux. On divise le bénéfice par (taux − g), on ne le multiplie pas par le taux. Évaluation d'entreprises."
+   ],
+   "difficulte": 3,
+   "memento": "ch.10 §10.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-055",
+   "champ": "Évaluation d'entreprises (méthode des praticiens)",
+   "question": "Une entreprise présente une valeur substantielle de 8 000 et une valeur de rendement de 20 000. Quelle est sa valeur selon la méthode des praticiens (« méthode suisse ») ?",
+   "options": [
+    "14 000, moyenne arithmétique simple des deux valeurs.",
+    "16 000, soit (2 × 20 000 + 8 000) / 3.",
+    "12 000, soit (2 × 8 000 + 20 000) / 3.",
+    "28 000, somme des deux valeurs."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La méthode des praticiens n'est pas une moyenne simple : elle pondère la valeur de rendement deux fois. Évaluation d'entreprises.",
+    "Vrai. Valeur = (2 × valeur de rendement + valeur substantielle) / 3 = (2 × 20 000 + 8 000) / 3 = 16 000. Évaluation d'entreprises.",
+    "Faux. Les poids sont inversés : c'est la valeur de rendement (20 000) qui compte double. Évaluation d'entreprises.",
+    "Faux. On calcule une moyenne pondérée, pas une somme. Évaluation d'entreprises."
+   ],
+   "difficulte": 2,
+   "memento": "ch.10 §10.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M8-056",
+   "champ": "Évaluation d'entreprises (valeur de rendement, conditions)",
+   "question": "Laquelle de ces affirmations sur la méthode de la valeur de rendement est correcte ?",
+   "options": [
+    "Elle s'applique même à une société en perte durable.",
+    "Elle intègre les réserves latentes figurant au bilan.",
+    "Elle fournit systématiquement une valeur plancher.",
+    "Elle ne s'applique qu'aux sociétés à bénéfice positif et repose sur un bénéfice normalisé (charges et produits extraordinaires retirés)."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La valeur de rendement suppose un bénéfice net positif ; elle est inadaptée en perte durable. Évaluation d'entreprises.",
+    "Faux. Elle ne dépend que du bénéfice normalisé et du taux ; les réserves latentes relèvent de la valeur substantielle. Évaluation d'entreprises.",
+    "Faux. La valeur plancher est fournie par la méthode substantielle, pas par la valeur de rendement. Évaluation d'entreprises.",
+    "Vrai. La valeur de rendement ne vaut que pour un bénéfice positif et capitalise un bénéfice normalisé, après retrait des éléments extraordinaires. Évaluation d'entreprises."
+   ],
+   "difficulte": 2,
+   "memento": "ch.10 §10.3",
+   "piege": "QUAL",
    "source": "generated"
   }
  ]

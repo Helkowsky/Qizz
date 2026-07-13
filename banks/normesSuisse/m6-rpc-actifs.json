@@ -22,7 +22,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.7 §7.1",
-   "piege": "La valeur de marché nette n'est pas le prix du marché : on en retranche les charges de vente et d'administration avant de comparer au coût.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -44,7 +44,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.7 §7.1",
-   "piege": "Piège fiscal vs RPC : le « Warendrittel » est toléré fiscalement mais interdit sous RPC 17 car il constitue une réserve latente.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -66,7 +66,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.7 §7.1",
-   "piege": "Un directeur financier cherchant à maximiser le résultat voudrait classer l'escompte en produit financier : RPC 17 l'interdit.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -88,7 +88,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.7 §7.2",
-   "piege": "L'amortissement dégressif s'applique chaque année à la valeur nette comptable résiduelle, non au coût d'origine ; frais d'installation et de transport entrent dans la base.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -110,7 +110,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.7 §7.2",
-   "piege": "Ne pas amortir un immeuble de rendement : il suit la valeur actuelle. L'amortissement planifié ne concerne que les immobilisations d'exploitation.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -132,7 +132,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.7 §7.2",
-   "piege": "Distinguer terrain (jamais amorti) et construction (amortie) : un poste « terrains et constructions » doit être ventilé, seule la construction s'amortit.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -154,7 +154,7 @@
    ],
    "difficulte": 1,
    "memento": "ch.7 §7.3",
-   "piege": "Recherche = charge (toujours) ; développement = activable (sous conditions). Ne jamais activer des frais de recherche.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -176,7 +176,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.7 §7.3",
-   "piege": "Double étape : la valeur réalisable est un MAXIMUM (utilité vs marché net), mais l'évaluation initiale la retient comme PLAFOND (min avec le coût).",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -198,7 +198,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.7 §7.3",
-   "piege": "Contrairement aux IFRS, RPC 10 n'admet pas de durée d'utilité indéterminée : durée indéterminable → 5 ans (max 20). Marque acquise activable, marque créée en interne non.",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -220,7 +220,7 @@
    ],
    "difficulte": 2,
    "memento": "ch.7 §7.4",
-   "piege": "Valeur réalisable = MAXIMUM (jamais un minimum). Confondre avec un min sous-évaluerait l'actif et surestimerait la dépréciation.",
+   "piege": "QUAL",
    "source": "generated"
   },
   {
@@ -242,7 +242,7 @@
    ],
    "difficulte": 3,
    "memento": "ch.7 §7.4",
-   "piege": "La reprise est plafonnée à la valeur comptable qu'on aurait eue avec les seuls amortissements planifiés (270 000) — jamais jusqu'à la valeur réalisable si elle est plus haute (330 000).",
+   "piege": "QUAL",
    "source": "original"
   },
   {
@@ -264,7 +264,711 @@
    ],
    "difficulte": 2,
    "memento": "ch.7 §7.4",
-   "piege": "La RPC 20 s'applique aux actifs SANS règle de dépréciation propre ; les stocks (RPC 17, valeur la plus basse) en sont exclus.",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-013",
+   "champ": "RPC 17 — Stocks",
+   "question": "Selon la Swiss GAAP RPC 17, le principe de la valeur la plus basse impose d'évaluer les stocks à quelle valeur ?",
+   "options": [
+    "Au minimum entre le coût d'acquisition ou de revient et la valeur de marché nette",
+    "Au maximum entre le coût d'acquisition ou de revient et la valeur de marché nette",
+    "À la valeur de marché nette dans tous les cas",
+    "Au coût d'acquisition ou de revient dans tous les cas"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Valeur la plus basse = min(coût d'acquisition ou de revient ; valeur de marché nette) ; si la valeur de marché nette est inférieure, une correction de valeur est constituée (RPC 17).",
+    "Faux. Retenir le maximum surévaluerait le stock et contredirait le principe de prudence de la valeur la plus basse (RPC 17).",
+    "Faux. La valeur de marché nette n'est retenue que si elle est inférieure au coût ; sinon on garde le coût (RPC 17).",
+    "Faux. Le coût est plafonné par la valeur de marché nette lorsque celle-ci est plus basse (RPC 17)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-014",
+   "champ": "RPC 17 — Stocks",
+   "question": "V SA (entreprise commerciale, comptes RPC) achète une marchandise : prix d'acquisition CHF 800/unité, frais de transport à l'achat CHF 40, rabais obtenu CHF 60. À la clôture, la valeur de marché nette ressort à CHF 830. À quelle valeur unitaire le stock est-il évalué ?",
+   "options": [
+    "CHF 830",
+    "CHF 800",
+    "CHF 780",
+    "CHF 840"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. CHF 830 est la valeur de marché nette ; elle est ici supérieure au coût d'acquisition, donc non retenue (RPC 17).",
+    "Faux. CHF 800 est le seul prix d'achat, sans les frais annexes ni le rabais (RPC 17).",
+    "Vrai. Coût d'acquisition = 800 + 40 − 60 = 780 ; min(780 ; valeur de marché nette 830) = CHF 780 (RPC 17).",
+    "Faux. CHF 840 ajoute le transport sans déduire le rabais ; le coût correct est 780 (RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-015",
+   "champ": "RPC 17 — Stocks",
+   "question": "W SA (production, RPC) évalue un produit fini : coût de revient CHF 145. Prix du marché hors TVA CHF 160, rabais consentis CHF 5, charges de vente et d'administration CHF 18. Quelle est la valeur de marché nette et à quelle valeur le stock est-il évalué ?",
+   "options": [
+    "Valeur de marché nette 142 ; stock à 142",
+    "Valeur de marché nette 155 ; stock à 145",
+    "Valeur de marché nette 137 ; stock à 145",
+    "Valeur de marché nette 137 ; stock à 137"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. 142 = 160 − 18 oublie de déduire le rabais de 5 ; la valeur de marché nette correcte est 137 (RPC 17/14).",
+    "Faux. 155 = 160 − 5 oublie les charges de vente et d'administration ; on retiendrait alors le coût 145, mais le calcul de départ est erroné (RPC 17/14).",
+    "Faux. La valeur de marché nette (137) est correcte, mais elle est inférieure au coût : c'est elle, et non 145, qu'il faut retenir (RPC 17).",
+    "Vrai. Valeur de marché nette = 160 − 5 − 18 = 137 ; min(coût 145 ; 137) = CHF 137 (RPC 17/14)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-016",
+   "champ": "RPC 17 — Stocks",
+   "question": "M SA (RPC) achète pour CHF 50 000 de marchandises, bénéficie d'un escompte de CHF 1 000 pour paiement rapide et paie CHF 500 de frais de transport à l'achat. À quel montant le coût d'acquisition du stock est-il inscrit ?",
+   "options": [
+    "CHF 50 500 (escompte comptabilisé en produit financier)",
+    "CHF 51 000",
+    "CHF 50 000",
+    "CHF 49 500"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. L'escompte n'est pas un produit financier : il réduit le prix d'acquisition (RPC 17).",
+    "Faux. CHF 51 000 ajoute le transport sans déduire l'escompte (RPC 17).",
+    "Faux. CHF 50 000 ignore à la fois l'escompte et les frais de transport (RPC 17).",
+    "Vrai. Coût d'acquisition = 50 000 − 1 000 (escompte, réduction du prix) + 500 (transport) = CHF 49 500 (RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.1",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-017",
+   "champ": "RPC 17 — Stocks",
+   "question": "K SA (commerce, RPC) distribue le produit A au prix de vente unitaire brut de CHF 1 200 ; la marge brute est de 20 %. Elle détermine ses coûts d'acquisition par la méthode rétrograde (prix de vente − marge). Les coûts d'acquisition effectifs sont de CHF 970. Quel coût d'acquisition unitaire retient-elle ?",
+   "options": [
+    "CHF 960",
+    "CHF 1 000",
+    "CHF 1 440",
+    "CHF 970"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Méthode rétrograde : coût = prix de vente − marge = 1 200 − (20 % × 1 200 = 240) = CHF 960 (RPC 17).",
+    "Faux. CHF 1 000 calcule la marge sur le coût (1 200 / 1,2) et non sur le prix de vente (RPC 17).",
+    "Faux. CHF 1 440 ajoute la marge au prix de vente au lieu de la retrancher (RPC 17).",
+    "Faux. CHF 970 est le coût d'acquisition effectif ; la méthode rétrograde donne 960 (RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.1",
+   "piege": "VV",
+   "source": "original"
+  },
+  {
+   "id": "M6-018",
+   "champ": "RPC 17 — Stocks",
+   "question": "Dans quel contexte la méthode LIFO peut-elle conduire à surévaluer le stock au bilan par rapport au FIFO ou au coût moyen pondéré ?",
+   "options": [
+    "Jamais",
+    "Toujours",
+    "En période de baisse des prix d'achat",
+    "En période de hausse des prix d'achat"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Selon l'évolution des prix, LIFO peut effectivement s'écarter des autres méthodes (RPC 17).",
+    "Faux. L'effet dépend du sens d'évolution des prix, il n'est pas systématique (RPC 17).",
+    "Vrai. En baisse des prix, LIFO sort les derniers achats (bon marché) et laisse au stock les anciens coûts plus élevés → stock surévalué (RPC 17).",
+    "Faux. En hausse des prix, LIFO laisse au stock les anciens coûts plus bas → stock plutôt sous-évalué (RPC 17)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.1",
+   "piege": "VV",
+   "source": "original"
+  },
+  {
+   "id": "M6-019",
+   "champ": "RPC 17 — Stocks",
+   "question": "Après une correction de valeur passée les années précédentes, la valeur d'un stock remonte. Jusqu'à quel montant la reprise (réévaluation) est-elle admise selon la RPC 17 ?",
+   "options": [
+    "Jusqu'à la valeur de marché nette, même si elle dépasse le coût d'origine",
+    "Jusqu'au coût d'acquisition ou de revient d'origine, au maximum",
+    "Aucune reprise n'est admise une fois la correction comptabilisée",
+    "Jusqu'à un tiers au-dessus du coût d'origine (règle du Warendrittel)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La réévaluation ne peut jamais porter le stock au-dessus de son coût d'origine, même si la valeur de marché nette est plus haute (RPC 17).",
+    "Vrai. Les corrections de valeur sont dissoutes avec incidence sur le résultat, mais la réévaluation est plafonnée au coût d'acquisition ou de revient d'origine (RPC 17).",
+    "Faux. La dissolution d'une correction de valeur est prévue, avec incidence sur le résultat, dans la limite du coût d'origine (RPC 17).",
+    "Faux. Le « Warendrittel » est une pratique fiscale, non une règle RPC ; réévaluer au-dessus du coût est interdit (RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-020",
+   "champ": "RPC 17 — Stocks",
+   "question": "Les produits en cours de fabrication (en-cours) et les prestations de services non encore facturées relèvent de quelle catégorie selon les RPC ?",
+   "options": [
+    "Des immobilisations corporelles (RPC 18)",
+    "Des valeurs incorporelles (RPC 10)",
+    "Des stocks (RPC 17)",
+    "Des comptes de régularisation actifs"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Un en-cours n'est pas une immobilisation d'exploitation destinée à un usage durable (RPC 18).",
+    "Faux. Un en-cours a une substance et un usage de stock, ce n'est pas une valeur incorporelle (RPC 10).",
+    "Vrai. Les en-cours et les prestations de services non facturées sont des stocks, évalués à la valeur la plus basse (RPC 17).",
+    "Faux. Un compte de régularisation actif concerne des charges payées d'avance ou produits à recevoir, pas des biens en production (RPC 17)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.1",
+   "piege": "CORPC",
+   "source": "generated"
+  },
+  {
+   "id": "M6-021",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "Selon la RPC 18, lequel des éléments suivants n'est PAS une condition d'activation d'une immobilisation corporelle ?",
+   "options": [
+    "Une durée d'utilisation supérieure à un an",
+    "Une valeur dépassant la limite minimale d'activation",
+    "Une distribution de dividende prévue sur l'exercice",
+    "Pour une production propre, des charges mesurables séparément"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'utilisation sur plus d'un an est bien un critère cumulatif d'activation (RPC 18).",
+    "Faux. Le dépassement du seuil minimal d'activation est un critère cumulatif (RPC 18).",
+    "Vrai. Une distribution de dividende n'a aucun lien avec l'activation d'un actif ; ce n'est pas un critère (RPC 18).",
+    "Faux. Pour une immobilisation produite en interne, la mesurabilité séparée des charges est requise (RPC 18)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.2",
+   "piege": "NEG",
+   "source": "generated"
+  },
+  {
+   "id": "M6-022",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "À durée d'utilisation identique, où se situent les amortissements des premières années en méthode dégressive par rapport à la méthode linéaire ?",
+   "options": [
+    "Plus élevés en dégressif",
+    "Plus faibles en dégressif",
+    "Identiques dans les deux méthodes",
+    "Impossible à dire sans connaître le coût d'acquisition"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le dégressif applique le taux à une valeur nette comptable décroissante : la charge est plus forte au début, plus faible ensuite (RPC 18).",
+    "Faux. C'est l'inverse : le dégressif charge davantage les premières années que le linéaire (RPC 18).",
+    "Faux. Seul le total sur la durée peut converger ; la répartition annuelle diffère nettement (RPC 18).",
+    "Faux. Le sens de l'écart (dégressif plus lourd au début) ne dépend pas du montant du coût d'acquisition (RPC 18)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.2",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-023",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "N SA (RPC) acquiert le 01.01.20x1 une installation : prix CHF 200 000, frais d'installation CHF 8 000, transport CHF 2 000. Amortissement dégressif au taux de 25 %. Quel est l'amortissement de l'exercice 20x2 ?",
+   "options": [
+    "CHF 52 500",
+    "CHF 50 000",
+    "CHF 39 375",
+    "CHF 37 500"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. CHF 52 500 est l'amortissement de 20x1 (base 210 000 × 25 %), pas de 20x2 (RPC 18).",
+    "Faux. CHF 50 000 applique 25 % au seul prix de 200 000, sans les frais et sans passer par la valeur nette comptable (RPC 18).",
+    "Vrai. Base = 200 000 + 8 000 + 2 000 = 210 000. 20x1 : 52 500 → VNC 157 500 ; 20x2 : 157 500 × 25 % = CHF 39 375 (RPC 18).",
+    "Faux. CHF 37 500 applique le taux à 150 000 au lieu de la VNC de 157 500 (RPC 18)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.2",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-024",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "P SA (RPC) achète un bien immobilier d'exploitation pour CHF 3 000 000, dont CHF 1 200 000 pour le terrain et CHF 1 800 000 pour la construction (durée 40 ans, linéaire). Quel amortissement annuel comptabilise-t-elle ?",
+   "options": [
+    "CHF 75 000 (sur la valeur totale de 3 000 000)",
+    "CHF 45 000",
+    "CHF 30 000 (sur le terrain)",
+    "CHF 0 (un immeuble ne s'amortit pas)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Amortir sur 3 000 000 inclut le terrain, qui n'est jamais amorti (RPC 18).",
+    "Vrai. Seule la construction s'amortit : 1 800 000 / 40 = CHF 45 000 ; le terrain (1 200 000) n'est pas amorti (RPC 18).",
+    "Faux. Le terrain n'est jamais amorti ; l'amortissement porte sur la construction (RPC 18).",
+    "Faux. La construction s'amortit sur sa durée d'utilisation ; seul le terrain ne s'amortit pas (RPC 18)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.2",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-025",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "Q SA vend l'un de ses immeubles de rendement (placement), évalué à la valeur actuelle. Où le résultat de cette vente est-il présenté selon la RPC 18 ?",
+   "options": [
+    "Dans le résultat d'exploitation (autres produits d'exploitation)",
+    "Directement dans les capitaux propres, sans passer par le résultat",
+    "En diminution du coût d'acquisition des autres immeubles",
+    "Dans le résultat hors exploitation"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le résultat d'exploitation reçoit la vente d'immeubles à usage d'exploitation, pas de rendement (RPC 18).",
+    "Faux. Le résultat de vente transite par le compte de résultat, pas directement par les capitaux propres (RPC 18).",
+    "Faux. Le résultat de vente est un produit/charge de la période, pas une correction du coût d'autres actifs (RPC 18).",
+    "Vrai. La vente d'un immeuble de rendement (placement) est présentée dans le résultat hors exploitation (RPC 18)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.2",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-026",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "Lequel de ces investissements sur un immeuble existant peut être porté à l'actif selon la RPC 18 ?",
+   "options": [
+    "La réparation d'une vitre brisée",
+    "Le remplacement d'un chauffage à mazout par des sondes géothermiques, augmentant durablement la valeur",
+    "Le remplacement à l'identique d'une porte d'entrée défectueuse",
+    "Le nettoyage annuel de la façade"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Une réparation rétablit l'état existant : c'est une charge, non une activation (RPC 18).",
+    "Vrai. Un investissement procurant une plus-value durable (ou allongeant notoirement la durée de vie) est activable (RPC 18).",
+    "Faux. Un remplacement à l'identique est de l'entretien : charge de la période (RPC 18).",
+    "Faux. Le nettoyage courant est une charge d'entretien, non activable (RPC 18)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.2",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-027",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "À quelle condition les charges d'intérêts de la phase de construction peuvent-elles être activées dans le coût d'une immobilisation produite par l'entité (RPC 18) ?",
+   "options": [
+    "Sans condition : elles sont toujours activées",
+    "Uniquement si le compte de résultat est établi par fonction",
+    "Jamais : les intérêts sont toujours passés en charge",
+    "Si la valeur comptable intérêts inclus ne dépasse pas la valeur réalisable et qu'il s'agit d'intérêts encore à courir sur la production propre"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. L'activation des intérêts de construction est encadrée par des conditions, elle n'est pas automatique (RPC 18).",
+    "Faux. Le mode de présentation du compte de résultat (par nature ou par fonction) est sans rapport avec cette activation (RPC 18).",
+    "Faux. L'activation est possible pour une production propre lorsque les conditions sont réunies (RPC 18).",
+    "Vrai. Les intérêts de construction sont activables si la valeur comptable (intérêts inclus) reste sous la valeur réalisable et qu'ils sont encore à courir sur la production propre (RPC 18)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.2",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-028",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "Selon la RPC 18, à quelle condition les acomptes versés doivent-ils être présentés distinctement en immobilisations en cours de construction ?",
+   "options": [
+    "Toujours, quel que soit le montant",
+    "Lorsqu'ils sont importants",
+    "Jamais : ils restent en charges",
+    "Uniquement après l'achèvement de la construction"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La présentation distincte est requise en fonction de l'importance des acomptes, pas systématiquement (RPC 18).",
+    "Vrai. Les acomptes (et immobilisations en cours) sont présentés séparément lorsqu'ils sont importants (RPC 18).",
+    "Faux. Un acompte sur immobilisation est un actif, pas une charge (RPC 18).",
+    "Faux. C'est précisément avant l'achèvement, en cours de construction, que la présentation distincte a un sens (RPC 18)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.2",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-029",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Quelle condition doit être remplie pour activer des frais de développement selon la RPC 10 ?",
+   "options": [
+    "La faisabilité technique ET commerciale, des avantages futurs probables et les ressources pour achever doivent être réunies",
+    "Il suffit que le projet relève de la recherche fondamentale",
+    "Une simple intention de la direction d'activer les coûts suffit",
+    "Le projet doit avoir déjà généré un chiffre d'affaires sur l'exercice"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les frais de développement s'activent si les conditions cumulatives sont réunies : faisabilité technique et commerciale, avantages futurs probables, ressources pour achever (RPC 10).",
+    "Faux. La recherche est toujours une charge ; elle n'est jamais activable (RPC 10).",
+    "Faux. L'intention de la direction ne suffit pas ; les conditions cumulatives doivent être objectivement remplies (RPC 10).",
+    "Faux. Un chiffre d'affaires déjà réalisé n'est pas exigé ; ce sont des avantages futurs probables qui sont requis (RPC 10)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M6-030",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Une marque développée en interne par l'entreprise peut-elle être portée à l'actif selon la RPC 10 ?",
+   "options": [
+    "Oui, comme une marque acquise, dès qu'elle a de la valeur",
+    "Non ; seules les marques acquises sont activables",
+    "Oui, mais amortie obligatoirement sur 20 ans",
+    "Oui, si sa valeur de marché est attestée par un expert"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Une marque créée en interne n'est pas activable, contrairement à une marque acquise (RPC 10).",
+    "Vrai. Seules les marques (et droits assimilés) acquises sont activables ; les marques générées en interne ne le sont pas (RPC 10).",
+    "Faux. La question de la durée ne se pose pas : une marque interne n'est pas activable (RPC 10).",
+    "Faux. Une attestation d'expert ne rend pas activable une marque générée en interne (RPC 10)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M6-031",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Un brevet acquis (RPC 10) a une durée d'utilisation impossible à déterminer de façon fiable. Sur quelle durée doit-il être amorti ?",
+   "options": [
+    "Sur une durée indéterminée, avec test de valeur annuel et sans amortissement",
+    "Sur 20 ans obligatoirement",
+    "Sur 5 ans en principe, 20 ans au maximum",
+    "Sur 40 ans, comme un immeuble administratif"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La durée d'utilité indéterminée (sans amortissement) est admise en IFRS mais non en RPC 10 (RPC 10).",
+    "Faux. 20 ans est un plafond, pas la durée par défaut : à défaut de durée déterminable on retient 5 ans (RPC 10).",
+    "Vrai. Durée indéterminable → amortissement par défaut sur 5 ans, au maximum 20 ans (RPC 10).",
+    "Faux. 40 ans relève des immeubles administratifs (RPC 18), sans rapport avec un brevet (RPC 10)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-032",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Parmi ces prestations acquises auprès de tiers, laquelle NE peut PAS être portée à l'actif selon la RPC 10 ?",
+   "options": [
+    "Une redevance de licence pour l'utilisation d'un logiciel",
+    "Des frais de formation et de perfectionnement du personnel",
+    "Un droit d'utilisation d'une marque",
+    "L'acquisition d'une liste de clients"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Une licence de logiciel acquise, identifiable et procurant des avantages futurs, est activable (RPC 10).",
+    "Vrai. Les frais de formation et de perfectionnement ne sont pas un actif identifiable et contrôlable : ils sont passés en charge (RPC 10).",
+    "Faux. Un droit d'utilisation d'une marque acquis est une valeur incorporelle activable (RPC 10).",
+    "Faux. Une liste (base de données) de clients acquise est activable si les conditions sont réunies (RPC 10)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "NEG",
+   "source": "original"
+  },
+  {
+   "id": "M6-033",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Un brevet développé en interne remplit les conditions d'activation. Coût de revient KCHF 480 ; valeur d'utilité KCHF 500 ; valeur de marché nette KCHF 460. À quelle valeur l'inscrire au bilan ?",
+   "options": [
+    "KCHF 500",
+    "KCHF 460",
+    "KCHF 520",
+    "KCHF 480"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. 500 est la valeur réalisable (plafond) ; elle est ici supérieure au coût, donc non retenue (RPC 10/7).",
+    "Faux. 460 n'est que la valeur de marché nette ; la valeur réalisable est le maximum entre marché net et utilité, soit 500 (RPC 10/7).",
+    "Faux. 520 ne correspond à aucune des valeurs de l'énoncé (RPC 10).",
+    "Vrai. Valeur réalisable = max(500 ; 460) = 500 ; évaluation initiale = min(coût 480 ; 500) = KCHF 480 (RPC 10/7)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-034",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Dans l'évaluation initiale d'une immobilisation incorporelle (RPC 10), à quoi correspond la « valeur réalisable » qui plafonne le coût ?",
+   "options": [
+    "Au minimum entre la valeur de marché nette et la valeur d'utilité",
+    "Au maximum entre la valeur de marché nette et la valeur d'utilité",
+    "À la seule valeur de marché nette",
+    "Au coût de revient majoré d'une marge"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. C'est un maximum, pas un minimum ; retenir le min sous-estimerait le plafond (RPC 10/7).",
+    "Vrai. Valeur réalisable = max(valeur de marché nette ; valeur d'utilité) ; elle plafonne le coût lors de l'évaluation initiale (RPC 10/7).",
+    "Faux. La valeur d'utilité intervient aussi ; on retient la plus élevée des deux (RPC 10/7).",
+    "Faux. La valeur réalisable ne se déduit pas d'une marge sur le coût (RPC 10/7)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-035",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "AI Boost SA (RPC) veut activer un maximum de coûts de développement de logiciels jusqu'ici passés en charge, afin de réduire ses pertes. Quelle affirmation est correcte ?",
+   "options": [
+    "Les charges de développement des exercices antérieurs peuvent être réactivées rétroactivement",
+    "Les valeurs créées en interne ne sont jamais activables selon les RPC",
+    "L'activation suppose des conditions cumulatives (dont des ressources suffisantes pour achever et des avantages futurs mesurables) ; les charges déjà passées ne se réactivent pas",
+    "Il suffit que les charges soient saisies séparément, sans exigence d'avantages futurs mesurables"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les charges des périodes antérieures déjà comptabilisées ne peuvent pas être réactivées rétroactivement (RPC 10).",
+    "Faux. Les valeurs créées en interne sont activables si les conditions cumulatives sont remplies (RPC 10/4).",
+    "Vrai. L'activation exige des conditions cumulatives (identifiable, mesurable, avantages futurs mesurables, ressources pour achever) et ne permet pas de réactiver les charges déjà passées (RPC 10/4).",
+    "Faux. La mesurabilité séparée des charges ne suffit pas : les avantages économiques futurs doivent aussi être mesurables (RPC 10/4)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.3",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-036",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Lequel de ces coûts ne relève PAS du coût de revient d'une immobilisation incorporelle générée en interne selon la RPC 10 ?",
+   "options": [
+    "Les coûts salariaux directement imputables",
+    "Les frais de vente",
+    "Les prestations de tiers directement imputables",
+    "Les charges de gestion de projet directement imputables"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les coûts salariaux directement imputables font partie du coût de revient (RPC 10).",
+    "Vrai. Les frais de vente ne concourent pas à la création de l'actif : ils sont exclus du coût de revient (RPC 10).",
+    "Faux. Les prestations de tiers directement imputables entrent dans le coût de revient (RPC 10).",
+    "Faux. Les charges de gestion de projet directement imputables font partie du coût de revient (RPC 10)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M6-037",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Pour un actif (RPC 20), la valeur de marché nette est de CHF 210 000 et la valeur d'utilité de CHF 245 000, pour une valeur comptable de CHF 260 000. Quelle est la valeur réalisable et y a-t-il dépréciation ?",
+   "options": [
+    "Valeur réalisable 210 000 ; dépréciation de 50 000",
+    "Valeur réalisable 245 000 ; dépréciation de 15 000",
+    "Valeur réalisable 245 000 ; aucune dépréciation",
+    "Valeur réalisable 260 000 ; aucune dépréciation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La valeur réalisable est le maximum (245 000), pas la valeur de marché nette (210 000) (RPC 20).",
+    "Vrai. Valeur réalisable = max(210 000 ; 245 000) = 245 000 ; VC 260 000 > 245 000 → dépréciation de 15 000 (RPC 20).",
+    "Faux. Comme la VC (260 000) dépasse la valeur réalisable (245 000), une dépréciation s'impose (RPC 20).",
+    "Faux. La valeur réalisable n'est pas la valeur comptable ; elle vaut 245 000, d'où une dépréciation (RPC 20)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-038",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Laquelle de ces évolutions constitue un indice de dépréciation d'une division produisant des cellules photovoltaïques (RPC 20) ?",
+   "options": [
+    "Un concurrent produit des cellules comparables bien moins chères grâce à un nouveau procédé",
+    "L'Union européenne subventionne massivement l'installation de cellules photovoltaïques",
+    "L'opinion publique juge les énergies renouvelables indispensables",
+    "La demande mondiale de panneaux solaires progresse fortement"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Un concurrent capable de produire bien moins cher détériore les perspectives : c'est un indice externe de dépréciation (RPC 20).",
+    "Faux. Des subventions massives à l'installation soutiennent la demande : évolution favorable, pas un indice de dépréciation (RPC 20).",
+    "Faux. Une perception publique favorable aux renouvelables ne signale pas une perte de valeur (RPC 20).",
+    "Faux. Une demande mondiale en hausse est un facteur favorable, non un indice de dépréciation (RPC 20)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-039",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Un actif (RPC 20) a une valeur comptable de CHF 400 000. Des indices de dépréciation apparaissent : valeur de marché nette CHF 280 000, valeur d'utilité CHF 310 000. Quel montant de dépréciation comptabiliser ?",
+   "options": [
+    "CHF 120 000",
+    "CHF 90 000",
+    "Aucune : la valeur d'utilité dépasse la valeur de marché nette",
+    "CHF 400 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. CHF 120 000 utilise la valeur de marché nette (400 000 − 280 000) alors que la valeur réalisable est la plus élevée des deux (RPC 20).",
+    "Vrai. Valeur réalisable = max(280 000 ; 310 000) = 310 000 ; dépréciation = 400 000 − 310 000 = CHF 90 000 (RPC 20).",
+    "Faux. La VC (400 000) dépasse la valeur réalisable (310 000) : une dépréciation est nécessaire (RPC 20).",
+    "Faux. On ramène la VC à la valeur réalisable (310 000), on ne déprécie pas la totalité (RPC 20)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-040",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Machine achetée CHF 600 000, amortie linéairement sur 10 ans (60 000/an). Fin année 4, dépréciation : valeur réalisable ramenée à CHF 200 000. Fin année 6, les indices disparaissent et la valeur réalisable remonte à CHF 300 000. À quel montant maximal la reprise peut-elle porter l'actif ?",
+   "options": [
+    "CHF 300 000 (valeur réalisable retrouvée)",
+    "CHF 200 000 (valeur au moment de la dépréciation)",
+    "CHF 360 000 (valeur comptable avant dépréciation)",
+    "CHF 240 000 (valeur comptable hors dépréciation)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La reprise est plafonnée : elle ne peut pas porter l'actif à 300 000 même si la valeur réalisable l'atteint (RPC 20).",
+    "Faux. 200 000 était la valeur réalisable de l'année 4, sans lien avec le plafond de reprise de l'année 6 (RPC 20).",
+    "Faux. 360 000 était la VC avant dépréciation (fin année 4), pas le plafond de reprise en année 6 (RPC 20).",
+    "Vrai. Nouvelle VC = min(valeur réalisable 300 000 ; VC hors dépréciation 600 000 − 6 × 60 000 = 240 000) = CHF 240 000 (RPC 20)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.4",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-041",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Une unité génératrice de trésorerie (UGT) subit une dépréciation globale de CHF 90 000 à répartir sur trois actifs sans valeur réalisable propre, de valeurs comptables CHF 200 000, 100 000 et 60 000. Comment répartir la perte selon la RPC 20 ?",
+   "options": [
+    "À parts égales : 30 000 par actif",
+    "Au prorata des valeurs comptables : 50 000 / 25 000 / 15 000",
+    "Intégralement sur l'actif de plus faible valeur comptable",
+    "Aucune répartition : la RPC 20 interdit le regroupement en UGT"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La répartition n'est pas égalitaire mais proportionnelle aux valeurs comptables (RPC 20).",
+    "Vrai. Total VC = 360 000 ; taux 90 000 / 360 000 = 25 % → 50 000, 25 000 et 15 000 (RPC 20).",
+    "Faux. La perte n'est pas imputée à un seul actif mais répartie au prorata des VC (RPC 20).",
+    "Faux. À défaut d'évaluation individuelle, la RPC 20 prévoit précisément le recours à l'UGT (RPC 20)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.4",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M6-042",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Selon la RPC 20, que faire lorsque la valeur réalisable d'un actif ressort négative ?",
+   "options": [
+    "Ramener la valeur comptable de l'actif à zéro et s'arrêter là",
+    "Reclasser l'actif en stock (RPC 17)",
+    "Constituer une provision (au passif)",
+    "Ne rien comptabiliser : une valeur réalisable négative est ignorée"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Ramener l'actif à zéro ne suffit pas : la partie négative doit être provisionnée (RPC 20).",
+    "Faux. Le reclassement en stock n'a aucun fondement ; c'est une provision qu'il faut constituer (RPC 20 / RPC 17).",
+    "Vrai. Lorsque la valeur réalisable est négative, une provision est constituée au passif (RPC 20).",
+    "Faux. Une valeur réalisable négative ne s'ignore pas : elle entraîne une provision (RPC 20)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "NEG",
+   "source": "original"
+  },
+  {
+   "id": "M6-043",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Selon la RPC 20, à quel moment la valeur réalisable d'un actif doit-elle être déterminée ?",
+   "options": [
+    "Systématiquement à chaque date de bilan, pour tous les actifs",
+    "Lorsqu'il existe des indices de dépréciation",
+    "Uniquement lorsque l'auditeur l'exige",
+    "Une seule fois, à l'acquisition de l'actif"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. À chaque date de bilan on recherche des indices ; la valeur réalisable n'est déterminée que si des indices existent (RPC 20).",
+    "Vrai. La valeur réalisable est déterminée lorsqu'il existe des indices (internes ou externes) de dépréciation (RPC 20).",
+    "Faux. C'est une exigence normative, indépendante d'une demande de l'auditeur (RPC 20).",
+    "Faux. L'appréciation est récurrente (à chaque date de bilan en présence d'indices), pas limitée à l'acquisition (RPC 20)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.4",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M6-044",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Selon la RPC 20, à quoi correspond la valeur d'utilité d'un actif ?",
+   "options": [
+    "Au prix réalisable entre tiers indépendants diminué des charges de vente",
+    "À la valeur comptable diminuée des amortissements planifiés",
+    "Au coût d'acquisition d'origine réévalué de l'inflation",
+    "À la valeur actuelle des flux de trésorerie nets futurs de l'utilisation ultérieure (y compris ceux de fin d'utilisation)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Cette définition est celle de la valeur de marché nette, l'autre composante de la valeur réalisable (RPC 20).",
+    "Faux. C'est la valeur comptable après amortissements, à laquelle la valeur réalisable est comparée (RPC 20).",
+    "Faux. La valeur d'utilité ne se calcule pas par réévaluation du coût selon l'inflation (RPC 20).",
+    "Vrai. La valeur d'utilité est la valeur actuelle des flux de trésorerie nets futurs de l'utilisation ultérieure, y compris ceux de fin d'utilisation (RPC 20)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "NV",
    "source": "original"
   }
  ]

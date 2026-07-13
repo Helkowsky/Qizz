@@ -106,7 +106,7 @@
     "Faux. Les dettes résultant d'achats B&S sont un poste des capitaux étrangers à court terme (art. 959a al. 2 ch. 1 CO).",
     "Faux. La réserve légale issue du capital est un poste des capitaux propres (art. 959a al. 2 ch. 3 CO).",
     "Faux. Les autres dettes à long terme sont un poste des capitaux étrangers à long terme (art. 959a al. 2 ch. 2 CO).",
-    "Vrai. Les dettes envers des institutions de prévoyance relèvent d'une information de l'annexe, non d'un poste de la structure minimale du bilan (art. 959c al. 2 ch. 10 CO)."
+    "Vrai. Les dettes envers des institutions de prévoyance relèvent d'une information de l'annexe, non d'un poste de la structure minimale du bilan (art. 959c al. 2 ch. 7 CO)."
    ],
    "difficulte": 3,
    "memento": "ch.3 §3.2",
@@ -398,6 +398,754 @@
    "memento": "ch.3 §3.2",
    "piege": "CAT",
    "source": "original"
+  },
+  {
+   "id": "M2-019",
+   "champ": "Structure minimale du bilan",
+   "question": "Parmi ces postes, lequel relève de l'actif circulant et non de l'actif immobilisé (art. 959a al. 1 CO) ?",
+   "options": [
+    "Stocks et prestations de services non facturées",
+    "Immobilisations financières",
+    "Participations",
+    "Immobilisations incorporelles"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les stocks et prestations de services non facturées sont un poste de l'actif circulant (art. 959a al. 1 ch. 1 CO).",
+    "Faux. Les immobilisations financières relèvent de l'actif immobilisé (art. 959a al. 1 ch. 2 CO).",
+    "Faux. Les participations relèvent de l'actif immobilisé (art. 959a al. 1 ch. 2 CO).",
+    "Faux. Les immobilisations incorporelles relèvent de l'actif immobilisé (art. 959a al. 1 ch. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-020",
+   "champ": "Structure minimale du bilan",
+   "question": "Lequel de ces postes figure parmi les capitaux étrangers à LONG terme dans la structure minimale du passif (art. 959a al. 2 CO) ?",
+   "options": [
+    "Dettes résultant de l'achat de biens et de prestations de services",
+    "Passifs de régularisation",
+    "Dettes à court terme portant intérêt",
+    "Provisions"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les dettes résultant d'achats de B&S sont un poste des capitaux étrangers à court terme (art. 959a al. 2 ch. 1 CO).",
+    "Faux. Les passifs de régularisation sont un poste des capitaux étrangers à court terme (art. 959a al. 2 ch. 1 CO).",
+    "Faux. Les dettes à court terme portant intérêt sont un poste des capitaux étrangers à court terme (art. 959a al. 2 ch. 1 CO).",
+    "Vrai. Les provisions figurent parmi les capitaux étrangers à long terme (art. 959a al. 2 ch. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-021",
+   "champ": "Structure minimale du bilan",
+   "question": "Lequel de ces postes figure parmi les capitaux propres de la structure minimale du bilan (art. 959a al. 2 ch. 3 CO) ?",
+   "options": [
+    "Passifs de régularisation",
+    "Réserve légale issue du capital",
+    "Provisions",
+    "Dettes à long terme portant intérêt"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les passifs de régularisation sont un poste des capitaux étrangers à court terme (art. 959a al. 2 ch. 1 CO).",
+    "Vrai. La réserve légale issue du capital est un poste des capitaux propres (art. 959a al. 2 ch. 3 CO).",
+    "Faux. Les provisions relèvent des capitaux étrangers à long terme (art. 959a al. 2 ch. 2 CO).",
+    "Faux. Les dettes à long terme portant intérêt relèvent des capitaux étrangers à long terme (art. 959a al. 2 ch. 2 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.3 §3.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-022",
+   "champ": "Structure minimale du bilan",
+   "question": "Lequel des postes suivants ne figure PAS à l'actif du bilan selon la structure minimale (art. 959a al. 1 CO) ?",
+   "options": [
+    "Trésorerie et actifs cotés en bourse détenus à court terme",
+    "Créances résultant de la vente de biens et de prestations de services",
+    "Provisions",
+    "Immobilisations corporelles"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La trésorerie et les actifs cotés détenus à court terme sont un poste de l'actif circulant (art. 959a al. 1 ch. 1 CO).",
+    "Faux. Les créances résultant de ventes de B&S sont un poste de l'actif circulant (art. 959a al. 1 ch. 1 CO).",
+    "Vrai. Les provisions sont un poste du passif (capitaux étrangers à long terme), non de l'actif (art. 959a al. 2 ch. 2 CO).",
+    "Faux. Les immobilisations corporelles sont un poste de l'actif immobilisé (art. 959a al. 1 ch. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "NEG",
+   "source": "generated"
+  },
+  {
+   "id": "M2-023",
+   "champ": "Structure minimale du compte de résultat",
+   "question": "Lequel de ces postes est propre à la présentation du compte de résultat par NATURE (art. 959b al. 2 CO) et non à la présentation par fonction ?",
+   "options": [
+    "Charges d'administration et de distribution",
+    "Coûts d'acquisition et de production des biens vendus",
+    "Produits nets des ventes de biens et de prestations de services",
+    "Charges de personnel"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les charges d'administration et de distribution relèvent de la présentation par fonction (art. 959b al. 3 ch. 3 CO).",
+    "Faux. Les coûts d'acquisition et de production des biens vendus relèvent de la présentation par fonction (art. 959b al. 3 ch. 2 CO).",
+    "Faux. Les produits nets des ventes figurent en tête des deux présentations (art. 959b al. 2 ch. 1 et al. 3 ch. 1 CO).",
+    "Vrai. Les charges de personnel sont un poste distinct de la présentation par nature (art. 959b al. 2 ch. 4 CO), invisible en présentation par fonction."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.3",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-024",
+   "champ": "Structure minimale du compte de résultat",
+   "question": "Lequel de ces postes doit figurer dans le compte de résultat présenté par FONCTION (art. 959b al. 3 CO) ?",
+   "options": [
+    "Charges de matériel",
+    "Variation des stocks de produits finis et semi-finis",
+    "Coûts d'acquisition et de production des biens vendus",
+    "Amortissements et corrections de valeur sur les postes de l'actif immobilisé"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les charges de matériel relèvent de la présentation par nature (art. 959b al. 2 ch. 3 CO).",
+    "Faux. La variation des stocks de produits finis et semi-finis relève de la présentation par nature (art. 959b al. 2 ch. 2 CO).",
+    "Vrai. Les coûts d'acquisition et de production des biens vendus sont un poste de la présentation par fonction (art. 959b al. 3 ch. 2 CO).",
+    "Faux. Les amortissements et corrections de valeur sont un poste de la présentation par nature (art. 959b al. 2 ch. 6 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.3",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-025",
+   "champ": "Structure minimale du compte de résultat",
+   "question": "Les amortissements et corrections de valeur sont-ils directement identifiables au compte de résultat selon la méthode retenue (art. 959b CO) ?",
+   "options": [
+    "Ils sont directement identifiables au compte de résultat présenté par nature.",
+    "Ils ne sont jamais identifiables, quelle que soit la méthode.",
+    "Ils n'apparaissent qu'au bilan.",
+    "Ils constituent un poste des capitaux propres."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. En présentation par nature, les amortissements et corrections de valeur forment un poste distinct du compte de résultat (art. 959b al. 2 ch. 6 CO), donc directement identifiables.",
+    "Faux. Ils sont identifiables en présentation par nature (art. 959b al. 2 ch. 6 CO) ; seule la présentation par fonction les renvoie à l'annexe (art. 959b al. 4 CO).",
+    "Faux. Il s'agit d'un poste du compte de résultat, non du bilan (art. 959b al. 2 ch. 6 CO).",
+    "Faux. Les amortissements sont une charge, non un poste des capitaux propres (art. 959b al. 2 ch. 6 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.3",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-026",
+   "champ": "Structure minimale du compte de résultat",
+   "question": "Quelle affirmation relative à la structure minimale du compte de résultat (art. 959b CO) est correcte ?",
+   "options": [
+    "Un total intermédiaire tel que le résultat d'exploitation est expressément imposé par le CO.",
+    "Les charges et produits exceptionnels, uniques ou hors période constituent un poste distinct du compte de résultat.",
+    "Le bénéfice ou la perte de l'exercice ne figure pas au compte de résultat.",
+    "Les charges de matériel doivent être ventilées client par client."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le CO n'impose aucun total intermédiaire dans la structure minimale (art. 959b CO).",
+    "Vrai. Les charges et produits exceptionnels, uniques ou hors période forment un poste distinct (art. 959b al. 2 ch. 9 et al. 3 ch. 6 CO).",
+    "Faux. Le bénéfice ou la perte de l'exercice est un poste du compte de résultat (art. 959b al. 2 ch. 11 et al. 3 ch. 8 CO).",
+    "Faux. Aucune ventilation par client n'est exigée (art. 959b CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.3",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-027",
+   "champ": "Annexe",
+   "question": "Lequel de ces éléments doit figurer dans l'annexe selon l'art. 959c al. 1 CO ?",
+   "options": [
+    "Le budget prévisionnel de l'exercice suivant.",
+    "La liste nominative de tous les clients.",
+    "Le curriculum vitae des membres du conseil d'administration.",
+    "Les principes comptables appliqués lorsqu'ils ne sont pas prescrits par la loi."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Aucun budget prévisionnel n'est exigé dans l'annexe (art. 959c al. 1 CO).",
+    "Faux. La liste des clients n'est pas une information de l'annexe (art. 959c CO).",
+    "Faux. Le curriculum vitae des administrateurs n'est pas exigé (art. 959c CO).",
+    "Vrai. Les principes comptables appliqués, lorsqu'ils ne sont pas prescrits par la loi, figurent dans l'annexe (art. 959c al. 1 ch. 1 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.3 §3.4",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-028",
+   "champ": "Annexe",
+   "question": "Concernant les participations et les propres parts dans l'annexe (art. 959c al. 2 CO), quelle affirmation est correcte ?",
+   "options": [
+    "Seules les participations conférant un contrôle exclusif sont mentionnées.",
+    "L'annexe indique les participations directes ou indirectes importantes (raison sociale, siège, part au capital et aux voix).",
+    "Le nombre de propres parts détenues n'a pas à être indiqué.",
+    "L'acquisition et l'aliénation de propres parts sont dispensées de mention."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le critère est l'importance de la participation, non le seul contrôle exclusif (art. 959c al. 2 ch. 3 CO).",
+    "Vrai. Les participations directes ou indirectes importantes sont indiquées dans l'annexe (art. 959c al. 2 ch. 3 CO).",
+    "Faux. Le nombre de propres parts détenues doit être indiqué (art. 959c al. 2 ch. 4 CO).",
+    "Faux. L'acquisition et l'aliénation de propres parts doivent être mentionnées (art. 959c al. 2 ch. 5 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-029",
+   "champ": "Annexe",
+   "question": "Où figurent les engagements conditionnels de l'entreprise (art. 959c al. 2 ch. 10 CO) ?",
+   "options": [
+    "Ils ne sont jamais mentionnés dans les comptes.",
+    "Ils figurent au bilan comme provisions.",
+    "Leur montant total est indiqué dans l'annexe.",
+    "Ils figurent au compte de résultat comme charges de l'exercice."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les engagements conditionnels doivent être indiqués (art. 959c al. 2 ch. 10 CO).",
+    "Faux. Une provision suppose une sortie de fonds probable ; l'engagement conditionnel reste en annexe (art. 959c al. 2 ch. 10 CO).",
+    "Vrai. Le montant total des engagements conditionnels figure dans l'annexe (art. 959c al. 2 ch. 10 CO).",
+    "Faux. Ce n'est pas une charge du compte de résultat mais une information de l'annexe (art. 959c al. 2 ch. 10 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-030",
+   "champ": "Annexe",
+   "question": "Comment sont traités les événements importants survenus après la date du bilan (art. 959c al. 2 ch. 13 CO) ?",
+   "options": [
+    "Ils ne sont pas mentionnés dans l'annexe.",
+    "Ils sont mentionnés dans l'annexe s'ils sont importants.",
+    "Ils entraînent toujours une correction du bilan de l'exercice clos.",
+    "Ils ne concernent que les grandes entreprises."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les événements importants postérieurs sont une information obligatoire de l'annexe (art. 959c al. 2 ch. 13 CO).",
+    "Vrai. Les événements importants survenus après la date du bilan figurent dans l'annexe (art. 959c al. 2 ch. 13 CO).",
+    "Faux. Il s'agit d'une information d'annexe, non d'une correction systématique du bilan (art. 959c al. 2 ch. 13 CO).",
+    "Faux. Cette information n'est pas réservée aux grandes entreprises (art. 959c al. 2 ch. 13 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.3 §3.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-031",
+   "champ": "Annexe",
+   "question": "La dissolution nette de réserves latentes à indiquer dans l'annexe (art. 959c al. 1 ch. 3 CO) porte sur…",
+   "options": [
+    "uniquement les réserves de remplacement.",
+    "uniquement les réserves latentes supplémentaires.",
+    "la constitution de nouvelles réserves latentes.",
+    "la dissolution nette des réserves de remplacement et des réserves latentes supplémentaires, si le résultat s'en trouve sensiblement amélioré."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les deux catégories sont visées, pas seulement les réserves de remplacement (art. 959c al. 1 ch. 3 CO).",
+    "Faux. Les deux catégories sont visées, pas seulement les réserves latentes supplémentaires (art. 959c al. 1 ch. 3 CO).",
+    "Faux. La constitution de réserves latentes n'est pas soumise à cette obligation de mention (art. 959c al. 1 ch. 3 CO).",
+    "Vrai. La dissolution nette des réserves de remplacement et des réserves latentes supplémentaires est indiquée si le résultat économique s'en trouve sensiblement amélioré (art. 959c al. 1 ch. 3 CO)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.3 §3.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-032",
+   "champ": "Principes de régularité",
+   "question": "Lequel de ces éléments figure parmi les sept principes de régularité (art. 958c al. 1 CO) ?",
+   "options": [
+    "La clarté et l'intelligibilité.",
+    "L'évaluation systématique à la juste valeur.",
+    "La continuité de l'exploitation.",
+    "Le rattachement des charges aux produits."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La clarté et l'intelligibilité sont l'un des sept principes de régularité (art. 958c al. 1 ch. 1 CO).",
+    "Faux. Le CO ne pose pas de principe d'évaluation à la juste valeur (art. 958c CO).",
+    "Faux. La continuité de l'exploitation relève de l'art. 958a CO, non des principes de l'art. 958c CO.",
+    "Faux. Le rattachement des charges aux produits relève de l'art. 958b CO."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-033",
+   "champ": "Principes de régularité",
+   "question": "Quel principe de régularité impose de conserver d'un exercice à l'autre la présentation et les méthodes d'évaluation (art. 958c al. 1 CO) ?",
+   "options": [
+    "L'importance relative.",
+    "La prudence.",
+    "La permanence de la présentation et des méthodes d'évaluation.",
+    "La fiabilité."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'importance relative vise la prise en compte des informations significatives (art. 958c al. 1 ch. 4 CO), non la constance dans le temps.",
+    "Faux. La prudence impose une appréciation mesurée (art. 958c al. 1 ch. 5 CO), non la constance de présentation.",
+    "Vrai. La permanence impose de conserver d'un exercice à l'autre la présentation et les méthodes d'évaluation (art. 958c al. 1 ch. 6 CO).",
+    "Faux. La fiabilité vise l'exactitude des informations (art. 958c al. 1 ch. 3 CO), non leur constance dans le temps."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-034",
+   "champ": "Principes de régularité",
+   "question": "Le principe d'importance relative (matérialité) au sens de l'art. 958c al. 1 CO signifie que…",
+   "options": [
+    "tout montant, même insignifiant, doit être présenté séparément.",
+    "les informations importantes pour l'appréciation de la situation doivent être prises en compte.",
+    "l'entreprise peut compenser librement charges et produits.",
+    "la présentation peut être modifiée chaque année sans justification."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les postes nuls ou insignifiants ne sont pas présentés séparément (art. 958d al. 1 CO) — l'inverse de ce principe.",
+    "Vrai. L'importance relative impose de tenir compte des informations significatives pour l'appréciation (art. 958c al. 1 ch. 4 CO).",
+    "Faux. La compensation est interdite : présentation brute (art. 958c al. 1 ch. 7 CO).",
+    "Faux. La permanence impose au contraire une présentation constante (art. 958c al. 1 ch. 6 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-035",
+   "champ": "Bases de la présentation",
+   "question": "Lorsque la cessation de tout ou partie de l'activité est envisagée dans les 12 mois (art. 958a al. 2 CO), sur quelle base les postes concernés sont-ils évalués ?",
+   "options": [
+    "Aux valeurs de continuité d'exploitation, sans changement.",
+    "Au coût historique, sans aucun ajustement.",
+    "À la juste valeur de marché, dans tous les cas.",
+    "Aux valeurs de liquidation pour les parties concernées, avec mention dans l'annexe."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La continuité étant abandonnée pour ces parties, les valeurs de continuité ne sont pas retenues (art. 958a al. 2 CO).",
+    "Faux. Le maintien du coût historique n'est pas la règle en cas de cessation envisagée (art. 958a al. 2 CO).",
+    "Faux. Le CO ne prescrit pas une juste valeur systématique ; il vise les valeurs de liquidation (art. 958a al. 2 CO).",
+    "Vrai. Si la cessation est envisagée, les postes concernés sont évalués aux valeurs de liquidation, avec mention dans l'annexe (art. 958a al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.1",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-036",
+   "champ": "Bases de la présentation",
+   "question": "Le seuil de 100 000 CHF permettant de renoncer à la délimitation périodique (art. 958b al. 2 CO) se calcule sur…",
+   "options": [
+    "le total du bilan.",
+    "les produits nets des ventes de biens et de prestations de services ou les produits financiers.",
+    "le bénéfice net de l'exercice.",
+    "la somme des charges d'exploitation."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le seuil ne se calcule pas sur le total du bilan (art. 958b al. 2 CO).",
+    "Vrai. Le seuil de 100 000 CHF se lit sur les produits nets des ventes de B&S ou sur les produits financiers (art. 958b al. 2 CO).",
+    "Faux. Le seuil ne porte pas sur le bénéfice net (art. 958b al. 2 CO).",
+    "Faux. Le seuil ne porte pas sur les charges d'exploitation (art. 958b al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.1",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M2-037",
+   "champ": "Bases de la présentation",
+   "question": "Quelle affirmation relative aux bases de la présentation des comptes (art. 958a et 958b CO) est correcte ?",
+   "options": [
+    "La continuité de l'exploitation suppose un horizon d'au moins 5 ans.",
+    "Le rattachement des charges aux produits n'existe pas en droit comptable suisse.",
+    "Les comptes sont établis dans l'hypothèse de la continuité de l'exploitation, avec rattachement des charges aux produits et délimitation périodique.",
+    "La délimitation périodique s'applique quel que soit le montant des produits, sans dérogation possible."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'horizon de continuité est d'au moins 12 mois, non 5 ans (art. 958a al. 1 CO).",
+    "Faux. Le rattachement des charges aux produits est une base de la présentation (art. 958b al. 1 CO).",
+    "Vrai. Les bases sont la continuité de l'exploitation (art. 958a CO) et le rattachement des charges aux produits avec délimitation périodique (art. 958b CO).",
+    "Faux. Une dérogation existe sous le seuil de 100 000 CHF (art. 958b al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.1",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-038",
+   "champ": "Comptes annuels & délai",
+   "question": "Qui signe les comptes annuels (art. 958 al. 3 CO) ?",
+   "options": [
+    "Uniquement l'organe de révision.",
+    "Tous les actionnaires.",
+    "Aucune signature n'est requise.",
+    "Le président de l'organe supérieur de direction ou d'administration et la personne chargée de l'établissement des comptes."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Ce n'est pas l'organe de révision qui signe les comptes annuels (art. 958 al. 3 CO).",
+    "Faux. La signature de tous les actionnaires n'est pas requise (art. 958 al. 3 CO).",
+    "Faux. Une signature est bien exigée (art. 958 al. 3 CO).",
+    "Vrai. Les comptes annuels sont signés par le président de l'organe supérieur de direction ou d'administration et par la personne responsable de leur établissement (art. 958 al. 3 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.3",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M2-039",
+   "champ": "Comptes annuels & délai",
+   "question": "Une SA clôture son exercice au 31 décembre. Jusqu'à quand le rapport de gestion doit-il être établi et soumis à l'organe compétent (art. 958 al. 3 CO) ?",
+   "options": [
+    "Jusqu'au 30 juin de l'année suivante (dans les 6 mois).",
+    "Jusqu'au 15 février (dans les 6 semaines).",
+    "Jusqu'au 31 mars (dans les 3 mois).",
+    "Jusqu'au 31 décembre suivant (dans les 12 mois)."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le rapport de gestion est établi et soumis dans les 6 mois suivant la clôture, soit au 30 juin pour un exercice clos au 31 décembre (art. 958 al. 3 CO).",
+    "Faux. Le délai est de 6 mois, non de 6 semaines (art. 958 al. 3 CO).",
+    "Faux. Le délai est de 6 mois, non de 3 mois (art. 958 al. 3 CO).",
+    "Faux. Le délai est de 6 mois, non de 12 mois (art. 958 al. 3 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.2 §2.3",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M2-040",
+   "champ": "Capital-actions non libéré (cas chiffré)",
+   "question": "Le capital-actions de D SA s'élève à CHF 200 000, libéré à hauteur de 60 %. Comment présenter la part non libérée (art. 959a al. 1 ch. 2 CO) ?",
+   "options": [
+    "Un poste négatif de CHF 80 000 dans les capitaux propres.",
+    "Une dette de CHF 80 000 au passif.",
+    "Un poste « capital-actions non libéré » de CHF 80 000 à l'actif immobilisé.",
+    "Un poste de CHF 120 000 à l'actif circulant."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La part non libérée s'inscrit à l'actif, non en diminution des capitaux propres (art. 959a al. 1 ch. 2 CO).",
+    "Faux. Il ne s'agit pas d'une dette au passif (art. 959a al. 1 ch. 2 CO).",
+    "Vrai. La part non libérée (40 % de 200 000 = 80 000) figure comme capital social non libéré à l'actif immobilisé (art. 959a al. 1 ch. 2 CO).",
+    "Faux. Le montant non libéré est de 80 000 et figure à l'actif immobilisé, non 120 000 à l'actif circulant (art. 959a al. 1 ch. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-041",
+   "champ": "Capital-actions non libéré (cas chiffré)",
+   "question": "Pourquoi le capital social non libéré figure-t-il à l'actif et non en déduction des capitaux propres (art. 959a al. 1 ch. 2 CO) ?",
+   "options": [
+    "Parce que le CO retient une présentation brute : le capital social figure à son nominal aux capitaux propres et la part non libérée à l'actif.",
+    "Parce qu'il s'agit d'une charge de l'exercice.",
+    "Parce que le CO impose une présentation nette des capitaux propres.",
+    "Parce que la part non libérée est un produit financier."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le CO retient une présentation brute : le capital social reste inscrit à son nominal aux capitaux propres et la part non libérée figure à l'actif immobilisé (art. 959a al. 1 ch. 2 CO).",
+    "Faux. La part non libérée n'est pas une charge (art. 959a al. 1 ch. 2 CO).",
+    "Faux. La présentation est brute, non nette (art. 959a al. 1 ch. 2 CO).",
+    "Faux. Ce n'est pas un produit financier (art. 959a al. 1 ch. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-042",
+   "champ": "Conditions de comptabilisation (art. 959)",
+   "question": "Quelles sont les trois conditions cumulatives d'inscription d'un ACTIF au bilan (art. 959 al. 2 CO) ?",
+   "options": [
+    "Propriété juridique, usage exclusif et absence de dette.",
+    "Détention depuis plus de 12 mois, valeur supérieure à 10 000 CHF et amortissement possible.",
+    "Inscription au registre du commerce, approbation de l'assemblée et cotation en bourse.",
+    "Pouvoir de disposer de l'élément suite à un événement passé, flux d'avantages économiques attendu et valeur estimable de façon fiable."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les conditions ne sont pas la propriété juridique et l'absence de dette (art. 959 al. 2 CO).",
+    "Faux. Aucun seuil de durée ou de valeur n'est posé (art. 959 al. 2 CO).",
+    "Faux. Ni l'inscription au registre du commerce ni la cotation ne sont des conditions (art. 959 al. 2 CO).",
+    "Vrai. Un actif est inscrit s'il résulte d'un événement passé permettant d'en disposer, si un flux d'avantages économiques est attendu et si sa valeur est estimable de façon fiable (art. 959 al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.1",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-043",
+   "champ": "Conditions de comptabilisation (art. 959)",
+   "question": "À quelles conditions une dette (capitaux étrangers) doit-elle être portée au bilan (art. 959 al. 5 CO) ?",
+   "options": [
+    "Lorsqu'elle résulte d'un fait passé, qu'un flux d'avantages à la charge de l'entreprise est probable et que sa valeur est estimable de façon fiable.",
+    "Uniquement lorsqu'elle devient exigible dans le mois suivant la date du bilan.",
+    "Uniquement si elle est garantie par une sûreté réelle.",
+    "Lorsqu'elle a été approuvée par l'organe de révision."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Une dette est portée au bilan si elle résulte d'un fait passé, qu'un flux d'avantages à la charge de l'entreprise est probable et que sa valeur est estimable de façon fiable (art. 959 al. 5 CO).",
+    "Faux. L'exigibilité sous un mois n'est pas la condition d'inscription (art. 959 al. 5 CO).",
+    "Faux. Aucune sûreté réelle n'est exigée (art. 959 al. 5 CO).",
+    "Faux. Aucune approbation de l'organe de révision n'est requise (art. 959 al. 5 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.1",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-044",
+   "champ": "Conditions de comptabilisation (art. 959)",
+   "question": "Parmi ces affirmations sur les conditions de comptabilisation (art. 959 CO), laquelle est correcte ?",
+   "options": [
+    "Un actif remplissant les trois conditions peut, au choix, être comptabilisé ou non.",
+    "Les valeurs patrimoniales dont l'entreprise ne peut pas disposer en raison d'événements passés ne peuvent pas être portées à l'actif.",
+    "Une dette peut être inscrite même si sa valeur n'est pas estimable de façon fiable.",
+    "Les actifs ne remplissant pas les trois conditions doivent tout de même être portés au bilan."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Il n'existe pas de droit d'option : l'actif remplissant les conditions doit être comptabilisé (art. 959 al. 2 CO).",
+    "Vrai. Faute de pouvoir en disposer suite à un événement passé, la valeur ne peut être portée à l'actif (art. 959 al. 2 CO).",
+    "Faux. Une valeur non estimable de façon fiable ne peut être inscrite (art. 959 al. 5 CO).",
+    "Faux. Les actifs ne remplissant pas les trois conditions ne peuvent être portés au bilan (art. 959 al. 2 CO)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.3 §3.1",
+   "piege": "NEG",
+   "source": "generated"
+  },
+  {
+   "id": "M2-045",
+   "champ": "Forme de présentation (art. 958d)",
+   "question": "Comment traiter un poste affichant un montant nul ou insignifiant (art. 958d al. 1 CO) ?",
+   "options": [
+    "Il doit toujours être présenté séparément.",
+    "Il doit figurer à la fois à l'actif et dans l'annexe.",
+    "Il entraîne le rejet des comptes annuels.",
+    "Il n'est pas présenté séparément."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Un poste nul ou insignifiant n'a pas à être présenté séparément (art. 958d al. 1 CO).",
+    "Faux. Aucune double présentation n'est imposée (art. 958d al. 1 CO).",
+    "Faux. Un poste nul n'entraîne aucun rejet des comptes (art. 958d al. 1 CO).",
+    "Vrai. Les postes affichant un montant nul ou insignifiant ne sont pas présentés séparément (art. 958d al. 1 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.2 §2.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-046",
+   "champ": "Forme de présentation (art. 958d)",
+   "question": "Que doivent indiquer le bilan et le compte de résultat, outre les chiffres de l'exercice sous revue (art. 958d al. 2 CO) ?",
+   "options": [
+    "Les chiffres prévisionnels de l'exercice suivant.",
+    "Les valeurs de l'exercice précédent (N-1).",
+    "Les chiffres des cinq derniers exercices.",
+    "Aucune donnée comparative n'est requise."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Ce ne sont pas des chiffres prévisionnels qui figurent en regard (art. 958d al. 2 CO).",
+    "Vrai. Les valeurs de l'exercice précédent figurent en regard de celles de l'exercice sous revue (art. 958d al. 2 CO).",
+    "Faux. Seul l'exercice précédent est requis, non les cinq derniers (art. 958d al. 2 CO).",
+    "Faux. Une donnée comparative (N-1) est bien exigée (art. 958d al. 2 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.2 §2.4",
+   "piege": "NV",
+   "source": "generated"
+  },
+  {
+   "id": "M2-047",
+   "champ": "Structure minimale du bilan",
+   "question": "L'entreprise peut-elle présenter des postes non prévus par la structure minimale du bilan (art. 959a al. 3 CO) ?",
+   "options": [
+    "Non, seuls les postes de la structure minimale sont admis.",
+    "Oui, mais uniquement dans l'annexe et jamais au bilan.",
+    "Oui, d'autres postes sont présentés séparément s'ils sont importants pour l'appréciation par des tiers ou usuels dans la branche.",
+    "Non, sauf autorisation préalable de l'organe de révision."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La structure minimale est un minimum, non un maximum (art. 959a al. 3 CO).",
+    "Faux. Ces postes peuvent figurer au bilan lui-même (art. 959a al. 3 CO).",
+    "Vrai. D'autres postes sont présentés séparément s'ils sont importants pour l'appréciation par des tiers ou usuels dans la branche (art. 959a al. 3 CO).",
+    "Faux. Aucune autorisation de l'organe de révision n'est requise (art. 959a al. 3 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-048",
+   "champ": "Structure minimale du bilan",
+   "question": "Comment présenter les créances et dettes envers les sociétés dans lesquelles l'entreprise détient une participation, ainsi qu'envers les organes (art. 959a al. 4 CO) ?",
+   "options": [
+    "Elles ne sont jamais présentées séparément.",
+    "Elles sont présentées uniquement au compte de résultat.",
+    "Elles doivent être compensées avec les autres créances.",
+    "Elles sont présentées séparément, dans le bilan ou dans l'annexe."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Elles doivent au contraire être présentées séparément (art. 959a al. 4 CO).",
+    "Faux. Il ne s'agit pas d'un poste du compte de résultat (art. 959a al. 4 CO).",
+    "Faux. La compensation est exclue ; la présentation est séparée (art. 959a al. 4 CO).",
+    "Vrai. Les créances et dettes envers les participations, les organes et les sociétés liées sont présentées séparément, dans le bilan ou dans l'annexe (art. 959a al. 4 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-049",
+   "champ": "Structure minimale du compte de résultat",
+   "question": "Les charges pour lesquelles aucune présentation distincte n'est exigée par la structure minimale du compte de résultat par nature (art. 959b al. 2 CO)…",
+   "options": [
+    "ne peuvent pas être comptabilisées.",
+    "sont regroupées dans le poste « autres charges d'exploitation ».",
+    "doivent obligatoirement figurer dans l'annexe.",
+    "sont portées au bilan."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Ces charges sont bien comptabilisées (art. 959b al. 2 ch. 5 CO).",
+    "Vrai. À défaut de poste distinct exigé, elles sont regroupées dans « autres charges d'exploitation » (art. 959b al. 2 ch. 5 CO).",
+    "Faux. Elles ne sont pas systématiquement renvoyées à l'annexe (art. 959b al. 2 ch. 5 CO).",
+    "Faux. Ce sont des charges du compte de résultat, non un poste du bilan (art. 959b al. 2 ch. 5 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.3",
+   "piege": "CAT",
+   "source": "generated"
+  },
+  {
+   "id": "M2-050",
+   "champ": "Structure minimale du bilan",
+   "question": "Comment un report de bénéfice et un report de perte affectent-ils les capitaux propres (art. 959a al. 2 ch. 3 CO) ?",
+   "options": [
+    "Le report de bénéfice et le report de perte augmentent tous deux les capitaux propres.",
+    "Le report de bénéfice et le report de perte diminuent tous deux les capitaux propres.",
+    "Le report de bénéfice augmente les capitaux propres ; le report de perte les diminue (poste en diminution).",
+    "Ni le report de bénéfice ni le report de perte n'affecte les capitaux propres."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Le report de perte diminue les capitaux propres (art. 959a al. 2 ch. 3 CO).",
+    "Faux. Le report de bénéfice augmente les capitaux propres (art. 959a al. 2 ch. 3 CO).",
+    "Vrai. Le report de bénéfice augmente les capitaux propres, tandis que le report de perte y figure en diminution (art. 959a al. 2 ch. 3 CO).",
+    "Faux. Les deux affectent les capitaux propres (art. 959a al. 2 ch. 3 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.2",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-051",
+   "champ": "Annexe",
+   "question": "L'annexe peut-elle compléter aussi bien le bilan que le compte de résultat (art. 959c al. 1 CO) ?",
+   "options": [
+    "Non, elle ne complète que le compte de résultat.",
+    "Non, elle ne complète que le bilan.",
+    "Non, l'annexe est un document indépendant sans lien avec les comptes.",
+    "Oui, elle complète et commente l'ensemble des comptes, bilan et compte de résultat compris."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. L'annexe ne se limite pas au compte de résultat (art. 959c al. 1 CO).",
+    "Faux. L'annexe ne se limite pas au bilan (art. 959c al. 1 CO).",
+    "Faux. L'annexe fait partie intégrante des comptes annuels (art. 958 al. 2 et 959c al. 1 CO).",
+    "Vrai. L'annexe complète et commente l'ensemble des comptes, bilan et compte de résultat compris (art. 959c al. 1 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.4",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M2-052",
+   "champ": "Annexe",
+   "question": "Selon le CO, la constitution de nouvelles réserves latentes arbitraires doit-elle être indiquée dans l'annexe (art. 959c al. 1 ch. 3 CO) ?",
+   "options": [
+    "Non ; seule la dissolution nette de réserves latentes est indiquée, et uniquement si elle améliore sensiblement le résultat.",
+    "Oui, le montant des nouvelles réserves latentes arbitraires constituées doit être indiqué.",
+    "Oui, mais uniquement pour les grandes entreprises.",
+    "Oui, dans tous les cas, la constitution comme la dissolution."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le CO n'exige pas la mention de la constitution ; seule la dissolution nette est indiquée, et uniquement si elle améliore sensiblement le résultat (art. 959c al. 1 ch. 3 CO).",
+    "Faux. Le montant des réserves latentes constituées n'a pas à être indiqué (art. 959c al. 1 ch. 3 CO).",
+    "Faux. Cette obligation ne vise pas spécifiquement les grandes entreprises et ne porte pas sur la constitution (art. 959c al. 1 ch. 3 CO).",
+    "Faux. Seule la dissolution nette, améliorant sensiblement le résultat, est visée, non la constitution (art. 959c al. 1 ch. 3 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.3 §3.4",
+   "piege": "NEG",
+   "source": "generated"
   }
  ]
 }
