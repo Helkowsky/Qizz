@@ -1,0 +1,403 @@
+{
+ "cours": "normesSuisse",
+ "module": "M4",
+ "titre": "Grandes entreprises, norme reconnue & consolidation (CO)",
+ "questions": [
+  {
+   "id": "M4-001",
+   "champ": "Grandes entreprises",
+   "question": "Qu'est-ce qui déclenche les obligations de présentation des comptes propres aux grandes entreprises (art. 961 CO) ?",
+   "options": [
+    "La cotation en bourse, à elle seule.",
+    "Un capital-actions supérieur à 20 millions de francs.",
+    "L'assujettissement au contrôle ordinaire (art. 727 CO).",
+    "Une décision volontaire de l'organe suprême."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La cotation entraîne le contrôle ordinaire (art. 727 al. 1 ch. 1 CO) mais n'est pas le seul déclencheur possible ; c'est l'assujettissement au contrôle ordinaire en tant que tel qui compte.",
+    "Faux. Aucun seuil de capital-actions ne déclenche ces obligations ; les seuils portent sur le bilan, le chiffre d'affaires et l'effectif (art. 727 al. 1 ch. 2 CO).",
+    "Vrai. Les obligations « grandes entreprises » (art. 961 CO) visent les entreprises soumises au contrôle ordinaire au sens de l'art. 727 CO.",
+    "Faux. L'assujettissement résulte de la loi (art. 727 CO), non d'une décision de l'organe suprême."
+   ],
+   "difficulte": 1,
+   "memento": "ch.5 §5.1",
+   "piege": "Déclencheur = contrôle ordinaire (art. 727), pas une taille « en soi » ni la seule cotation.",
+   "source": "generated"
+  },
+  {
+   "id": "M4-002",
+   "champ": "Grandes entreprises",
+   "question": "Laquelle des quatre entreprises suivantes n'est PAS soumise aux obligations de présentation des comptes pour les grandes entreprises ?",
+   "options": [
+    "T SA (cotée à la bourse suisse).",
+    "K (entreprise individuelle).",
+    "W SA (non cotée, total du bilan de CHF 50 mio et 300 emplois à plein temps ces dernières années).",
+    "A SA (débitrice d'un emprunt par obligations)."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Une société cotée est ouverte au public et soumise au contrôle ordinaire (art. 727 al. 1 ch. 1 CO), donc aux obligations grandes entreprises.",
+    "Vrai. K, entreprise individuelle, n'est pas soumise au contrôle ordinaire au sens de l'art. 727 CO et échappe aux obligations de l'art. 961 CO.",
+    "Faux. W SA dépasse deux des trois seuils (bilan 50 > 20 mio ; 300 > 250 EPT) sur plusieurs exercices : contrôle ordinaire (art. 727 al. 1 ch. 2 CO).",
+    "Faux. A SA, débitrice d'un emprunt par obligations, est une société ouverte au public soumise au contrôle ordinaire (art. 727 al. 1 ch. 1 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.1",
+   "piege": "L'entreprise individuelle échappe aux obligations « grandes entreprises » ; les trois autres relèvent du contrôle ordinaire.",
+   "source": "original"
+  },
+  {
+   "id": "M4-003",
+   "champ": "Grandes entreprises",
+   "question": "Quelle mention l'annexe renforcée d'une grande entreprise doit-elle contenir (art. 961a CO) ?",
+   "options": [
+    "Des informations complémentaires concernant les provisions.",
+    "Les motifs ayant conduit à la démission ou à la révocation anticipée de l'organe de révision.",
+    "La mention distincte des honoraires versés à l'organe de révision (prestations de révision / autres prestations).",
+    "Le détail des réserves latentes constituées."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les informations complémentaires sur les provisions ne relèvent pas de l'annexe renforcée de l'art. 961a CO.",
+    "Faux. Les motifs de démission de l'organe de révision ne figurent pas parmi les mentions de l'art. 961a CO.",
+    "Vrai. L'art. 961a ch. 2 CO impose d'indiquer les honoraires du réviseur, en distinguant les prestations de révision et les autres prestations de services.",
+    "Faux. La divulgation des réserves latentes n'est pas exigée à ce titre (art. 961a CO ; le droit comptable suisse admet au contraire leur maintien)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.1",
+   "piege": "L'annexe renforcée = dettes LT ventilées 1-5 ans / > 5 ans + honoraires du réviseur (art. 961a), rien sur les réserves latentes.",
+   "source": "original"
+  },
+  {
+   "id": "M4-004",
+   "champ": "Norme reconnue",
+   "question": "Laquelle de ces entités doit obligatoirement établir des états financiers selon une norme comptable reconnue (art. 962 CO) ?",
+   "options": [
+    "Une SA non cotée qui dépasse les seuils du contrôle ordinaire.",
+    "Toute fondation, quelle qu'elle soit.",
+    "Toute société débitrice d'un emprunt par obligations.",
+    "Une société coopérative comptant au moins 2 000 membres."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Une grande entreprise (contrôle ordinaire) doit une annexe renforcée, un TFT et un rapport annuel (art. 961 CO), mais n'est pas tenue d'appliquer une norme reconnue du seul fait de sa taille (art. 962 CO).",
+    "Faux. Seules les fondations soumises au contrôle ordinaire par la loi y sont tenues (art. 962 al. 1 ch. 3 CO), non toute fondation.",
+    "Faux. L'emprunt par obligations entraîne le contrôle ordinaire, mais l'obligation de norme reconnue vise les sociétés cotées si la bourse l'exige (art. 962 al. 1 ch. 1 CO), pas les simples débitrices d'emprunt.",
+    "Vrai. Les sociétés coopératives comptant au moins 2 000 membres doivent établir des comptes selon une norme reconnue (art. 962 al. 1 ch. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.2",
+   "piege": "Norme reconnue obligatoire : cotées (si la bourse l'exige) / coopératives ≥ 2 000 membres / fondations en contrôle ordinaire — pas toute grande entreprise.",
+   "source": "generated"
+  },
+  {
+   "id": "M4-005",
+   "champ": "Norme reconnue",
+   "question": "Une entreprise établit des états financiers selon une norme comptable reconnue. Quelle affirmation est correcte ?",
+   "options": [
+    "Ces états financiers doivent être approuvés par l'organe suprême lors de l'approbation des comptes annuels.",
+    "Ils doivent faire l'objet d'un contrôle restreint ou ordinaire, au choix.",
+    "Le Parlement désigne les normes comptables reconnues.",
+    "S'ils sont dressés selon une norme reconnue, ils indiquent laquelle."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Ces états financiers sont présentés à l'organe suprême mais ne nécessitent aucune approbation (art. 962a al. 4 CO).",
+    "Faux. Ils sont soumis au contrôle ordinaire par un expert-réviseur agréé, jamais à un contrôle restreint (art. 962a al. 3 CO).",
+    "Faux. C'est le Conseil fédéral, non le Parlement, qui désigne les normes reconnues (art. 962a al. 5 CO ; ONCR).",
+    "Vrai. Les états financiers indiquent la norme reconnue appliquée (art. 962a al. 1 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.2",
+   "piege": "Contrôle ordinaire (expert-réviseur agréé), désignation par le Conseil fédéral, présentation SANS approbation.",
+   "source": "original"
+  },
+  {
+   "id": "M4-006",
+   "champ": "Norme reconnue",
+   "question": "Selon les modalités de l'art. 962a CO, quelle affirmation est correcte ?",
+   "options": [
+    "L'entreprise peut n'appliquer que les parties pertinentes de la norme choisie.",
+    "Le respect de la norme est vérifié lors d'un contrôle restreint.",
+    "La norme choisie s'applique dans son intégralité et pour l'ensemble des états financiers.",
+    "Les états financiers doivent être approuvés par l'organe suprême."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La norme s'applique intégralement ; le « cherry-picking » est exclu (art. 962a al. 2 CO).",
+    "Faux. Le respect est vérifié par un expert-réviseur agréé, dans le cadre d'un contrôle ordinaire (art. 962a al. 3 CO).",
+    "Vrai. La norme choisie est appliquée dans son intégralité et pour l'ensemble des états financiers (art. 962a al. 2 CO).",
+    "Faux. Les états financiers sont présentés à l'organe suprême mais ne requièrent aucune approbation (art. 962a al. 4 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.2",
+   "piege": "Application INTÉGRALE de la norme : pas de sélection partielle.",
+   "source": "generated"
+  },
+  {
+   "id": "M4-007",
+   "champ": "Rapport annuel",
+   "question": "Parmi les assertions suivantes sur le rapport annuel (art. 961c CO), laquelle est correcte ?",
+   "options": [
+    "Le rapport annuel fait partie de l'annexe.",
+    "Le rapport annuel peut être remplacé par l'établissement d'un tableau des flux de trésorerie.",
+    "Le rapport annuel ne fait pas partie des états financiers.",
+    "Le rapport annuel ne doit pas renseigner sur les perspectives d'avenir."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Le rapport annuel ne fait pas partie de l'annexe ; c'est un document distinct qui complète les comptes (art. 961c CO).",
+    "Faux. Rapport annuel (art. 961c CO) et tableau des flux de trésorerie (art. 961b CO) sont deux obligations distinctes ; l'un ne remplace pas l'autre.",
+    "Vrai. Le rapport annuel ne fait pas partie des états financiers ; il présente la marche des affaires et les aspects non visibles dans les comptes (art. 961c CO).",
+    "Faux. Le rapport annuel renseigne notamment sur les perspectives d'avenir de l'entreprise (art. 961c al. 2 ch. 6 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.5 §5.1",
+   "piege": "Le rapport annuel n'est pas dans les états financiers ni dans l'annexe ; il renseigne bien sur les perspectives.",
+   "source": "original"
+  },
+  {
+   "id": "M4-008",
+   "champ": "Rapport annuel",
+   "question": "Laquelle de ces affirmations sur le rapport annuel (art. 961c CO) est correcte ?",
+   "options": [
+    "C'est une explication des chiffres contenus dans les états financiers.",
+    "Il fait partie de l'annexe aux comptes.",
+    "Il remplace le tableau des flux de trésorerie.",
+    "Il ne doit pas être en contradiction avec les comptes annuels."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le rapport annuel n'est pas une explication des chiffres ; il présente la marche des affaires et les aspects non visibles dans les comptes (art. 961c al. 1 CO).",
+    "Faux. Il ne fait pas partie de l'annexe (art. 961c CO).",
+    "Faux. Il ne remplace pas le tableau des flux de trésorerie (art. 961b CO).",
+    "Vrai. Le rapport annuel ne doit pas être en contradiction avec les comptes annuels (art. 961c al. 3 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.1",
+   "piege": "Le rapport annuel n'« explique » pas les chiffres ; il ne doit simplement pas contredire les comptes.",
+   "source": "generated"
+  },
+  {
+   "id": "M4-009",
+   "champ": "ONCR",
+   "question": "Laquelle des normes suivantes n'est PAS une norme de présentation des comptes reconnue au sens de l'ONCR ?",
+   "options": [
+    "Swiss GAAP RPC.",
+    "IPSAS.",
+    "Les IFRS telles qu'adoptées dans le droit de l'UE (les « IFRS de l'UE »).",
+    "Les IFRS for SMEs (IFRS pour les PME)."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Swiss GAAP RPC figure parmi les normes reconnues (art. 1 ONCR).",
+    "Faux. IPSAS figure parmi les normes reconnues (art. 1 ONCR).",
+    "Vrai. Les « IFRS de l'UE » ne sont pas une norme reconnue en droit suisse ; c'est l'IFRS de l'IASB qui est reconnue (art. 1 ONCR).",
+    "Faux. Les IFRS for SMEs figurent parmi les normes reconnues (art. 1 ONCR)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.2",
+   "piege": "Piège classique : « IFRS telles qu'adoptées par l'UE » ≠ norme reconnue ; seule l'IFRS de l'IASB l'est (art. 1 ONCR).",
+   "source": "original"
+  },
+  {
+   "id": "M4-010",
+   "champ": "ONCR",
+   "question": "Selon l'art. 1 ONCR, laquelle des propositions suivantes est bien une norme comptable reconnue ?",
+   "options": [
+    "Les US GAAP.",
+    "Les IFRS telles qu'adoptées dans le droit de l'UE.",
+    "Le référentiel comptable interne du groupe.",
+    "Les normes fiscales cantonales."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les US GAAP figurent parmi les cinq normes reconnues (art. 1 ONCR : IFRS, IFRS for SMEs, Swiss GAAP RPC, US GAAP, IPSAS).",
+    "Faux. Les « IFRS de l'UE » ne sont pas reconnues ; seule l'IFRS de l'IASB l'est (art. 1 ONCR).",
+    "Faux. Un référentiel interne n'est pas une norme comptable reconnue (art. 1 ONCR).",
+    "Faux. Les normes fiscales cantonales ne sont pas des normes comptables reconnues (art. 1 ONCR)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.5 §5.2",
+   "piege": "Liste fermée de 5 normes : IFRS (IASB), IFRS for SMEs, Swiss GAAP RPC, US GAAP, IPSAS.",
+   "source": "generated"
+  },
+  {
+   "id": "M4-011",
+   "champ": "Consolidation",
+   "question": "Laquelle de ces entités n'est JAMAIS tenue d'établir des comptes consolidés, même lorsqu'elle contrôle une autre entreprise tenue d'établir des comptes ?",
+   "options": [
+    "Les sociétés anonymes.",
+    "Les associations.",
+    "Les sociétés coopératives.",
+    "Les entreprises individuelles."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Une SA qui contrôle une entreprise tenue d'établir des comptes doit consolider (art. 963 al. 1 CO).",
+    "Faux. Une association peut être tenue de consolider si elle contrôle une telle entreprise (art. 963 al. 1 CO).",
+    "Faux. Une coopérative peut être tenue de consolider (art. 963 al. 1 CO).",
+    "Vrai. Seules les personnes morales consolident ; une entreprise individuelle n'établit jamais de comptes consolidés (art. 963 al. 1 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.5 §5.3",
+   "piege": "Seules les personnes morales consolident ; l'entreprise individuelle jamais.",
+   "source": "original"
+  },
+  {
+   "id": "M4-012",
+   "champ": "Consolidation",
+   "question": "Dans quel cas l'entreprise A doit-elle établir des comptes consolidés incluant l'entreprise B (art. 963 CO) ?",
+   "options": [
+    "Uniquement si A détient directement la majorité des voix de B.",
+    "Dès que A contrôle B — un seul critère de contrôle suffit (majorité des voix, droit de nommer la majorité de la direction, ou influence dominante).",
+    "Seulement si A exerce effectivement le contrôle, en plus de pouvoir l'exercer.",
+    "Uniquement si B est une société de droit suisse."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La détention directe de la majorité des voix n'est qu'un des critères ; un contrôle indirect suffit aussi (art. 963 al. 2 ch. 1 CO).",
+    "Vrai. L'obligation naît du contrôle ; un seul des critères de l'art. 963 al. 2 CO suffit (majorité des voix, droit de désigner la majorité de la direction, ou influence dominante).",
+    "Faux. C'est la possibilité de contrôle, non son exercice effectif, qui déclenche l'obligation (art. 963 al. 2 CO).",
+    "Faux. La nationalité de l'entreprise contrôlée est indifférente (art. 963 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.3",
+   "piege": "Trois critères de contrôle ALTERNATIFs ; le contrôle (possibilité) suffit, pas besoin d'exercice effectif ni de détention directe majoritaire.",
+   "source": "original"
+  },
+  {
+   "id": "M4-013",
+   "champ": "Dispense de consolidation",
+   "question": "À quelle condition de taille une personne morale est-elle libérée de l'obligation d'établir des comptes consolidés (art. 963a CO) ?",
+   "options": [
+    "Ne pas dépasser deux des valeurs 20 mio / 40 mio / 250 EPT pendant trois exercices consécutifs.",
+    "Ne pas dépasser, sur deux exercices successifs, deux des trois valeurs : bilan 20 mio, chiffre d'affaires 40 mio, 250 emplois à plein temps.",
+    "Ne pas dépasser, sur deux exercices, deux des valeurs 10 mio / 50 mio / 500 EPT.",
+    "Ne pas dépasser, sur deux exercices, deux des valeurs 25 mio / 50 mio / 250 EPT."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La condition porte sur deux exercices successifs, pas trois (art. 963a al. 1 ch. 1 CO).",
+    "Vrai. Libération si, sur deux exercices successifs, l'ensemble consolidé ne dépasse pas deux des trois valeurs : bilan 20 mio, CA 40 mio, 250 EPT (art. 963a al. 1 ch. 1 CO).",
+    "Faux. Les seuils sont 20 / 40 / 250, pas 10 / 50 / 500 (art. 963a al. 1 ch. 1 CO).",
+    "Faux. Les seuils sont 20 / 40 / 250, pas 25 / 50 / 250 (art. 963a al. 1 ch. 1 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.3",
+   "piege": "Seuils 20/40/250, DEUX des trois, sur DEUX exercices successifs (pas trois) — au niveau du groupe.",
+   "source": "original"
+  },
+  {
+   "id": "M4-014",
+   "champ": "Dispense de consolidation",
+   "question": "Un groupe (mère + filiales) présente, sur deux exercices successifs : total du bilan 18 mio, chiffre d'affaires 35 mio, 260 emplois à plein temps. Peut-il être dispensé de consolider (art. 963a CO) ?",
+   "options": [
+    "Non, car l'effectif (260) dépasse 250 EPT.",
+    "Oui : deux des trois seuils (bilan et chiffre d'affaires) ne sont pas dépassés, la dispense de taille est acquise (sous réserve d'une minorité qualifiée).",
+    "Non, car il faut que les trois seuils soient respectés.",
+    "Oui, mais seulement après trois exercices consécutifs."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Il suffit que deux des trois seuils ne soient pas dépassés ; le dépassement du seul effectif n'empêche pas la dispense (art. 963a al. 1 ch. 1 CO).",
+    "Vrai. Bilan (18 < 20) et CA (35 < 40) ne sont pas dépassés : deux seuils sur trois sont respectés, la dispense de taille est acquise (art. 963a al. 1 ch. 1 CO), sauf réintégration exigée par une minorité qualifiée.",
+    "Faux. Deux des trois seuils suffisent ; les trois ne doivent pas nécessairement être respectés (art. 963a al. 1 ch. 1 CO).",
+    "Faux. La condition porte sur deux exercices successifs, pas trois (art. 963a al. 1 ch. 1 CO)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.5 §5.3",
+   "piege": "« Deux des trois » : un seul seuil dépassé (ici l'effectif) n'empêche pas la dispense.",
+   "source": "generated"
+  },
+  {
+   "id": "M4-015",
+   "champ": "Dispense de consolidation",
+   "question": "Laquelle de ces entités ne peut PAS transférer l'obligation d'établir des comptes consolidés à une entreprise qu'elle contrôle (art. 963 al. 4 CO) ?",
+   "options": [
+    "Les associations.",
+    "Les fondations.",
+    "Les sociétés coopératives.",
+    "Les sociétés à responsabilité limitée."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les associations peuvent transférer l'obligation de consolider (art. 963 al. 4 CO).",
+    "Faux. Les fondations peuvent transférer l'obligation de consolider (art. 963 al. 4 CO).",
+    "Faux. Les sociétés coopératives peuvent transférer l'obligation de consolider (art. 963 al. 4 CO).",
+    "Vrai. Le transfert n'est ouvert qu'aux associations, fondations et coopératives ; une Sàrl (comme une SA) ne peut pas transférer l'obligation (art. 963 al. 4 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.3",
+   "piege": "Transfert réservé aux associations, fondations et coopératives — jamais une SA ni une Sàrl.",
+   "source": "original"
+  },
+  {
+   "id": "M4-016",
+   "champ": "Consolidation",
+   "question": "Laquelle de ces sociétés n'est PAS obligatoirement tenue d'établir ses comptes consolidés selon une norme comptable reconnue (art. 963b CO), à supposer qu'aucun minoritaire ne l'exige ?",
+   "options": [
+    "Une société dont les titres sont cotés en bourse, lorsque la bourse l'exige.",
+    "Une société coopérative comptant au moins 2 000 membres.",
+    "Une fondation légalement soumise au contrôle ordinaire.",
+    "Une SA non cotée, simplement débitrice d'un emprunt par obligations."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Une société cotée doit consolider selon une norme reconnue si la bourse l'exige (art. 963b al. 1 ch. 1 CO).",
+    "Faux. Une coopérative d'au moins 2 000 membres doit consolider selon une norme reconnue (art. 963b al. 1 ch. 2 CO).",
+    "Faux. Une fondation soumise au contrôle ordinaire doit consolider selon une norme reconnue (art. 963b al. 1 ch. 3 CO).",
+    "Vrai. Une SA non cotée simplement débitrice d'un emprunt par obligations n'entre pas dans les cas de l'art. 963b al. 1 CO ; ses comptes consolidés suivent le simple principe de régularité (art. 963b al. 3 CO)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.5 §5.3",
+   "piege": "L'emprunt par obligations rend « grande entreprise » mais ne force PAS la norme reconnue pour les consolidés (art. 963b vise cotées / coop ≥ 2 000 / fondations en contrôle ordinaire).",
+   "source": "original"
+  },
+  {
+   "id": "M4-017",
+   "champ": "Minorités",
+   "question": "Quelle minorité peut exiger des comptes complets malgré la dispense de l'art. 961d CO (renonciation à l'annexe renforcée, au TFT et au rapport annuel) ?",
+   "options": [
+    "Les associés représentant ensemble au moins 10 % du capital social.",
+    "Les associés représentant ensemble au moins 20 % du capital social.",
+    "1 000 membres d'une société coopérative.",
+    "Aucune minorité ne dispose de ce droit."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les associés représentant ensemble au moins 10 % du capital social peuvent exiger des comptes complets malgré la dispense (art. 961d al. 2 ch. 1 CO).",
+    "Faux. Le seuil est de 10 % du capital pour l'art. 961d ; 20 % du capital vise la norme reconnue (art. 962 al. 2 ch. 1 CO).",
+    "Faux. Pour les coopératives, le seuil est de 10 % des membres (art. 961d al. 2 ch. 2 CO) ; « 1 000 membres » n'est pas un seuil légal.",
+    "Faux. Une minorité qualifiée peut précisément l'exiger (art. 961d al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.5 §5.1",
+   "piege": "10 % du capital (art. 961d) pour les comptes complets — à ne pas confondre avec les 20 % de la norme reconnue (art. 962).",
+   "source": "generated"
+  },
+  {
+   "id": "M4-018",
+   "champ": "Minorités",
+   "question": "Concernant les droits des minorités d'exiger des états financiers selon une norme reconnue (art. 962 al. 2 CO), quelle affirmation est correcte ?",
+   "options": [
+    "2 000 membres d'une coopérative constituent la minorité pouvant exiger la norme reconnue.",
+    "20 % des membres d'une association peuvent exiger des états financiers selon une norme reconnue.",
+    "5 % du capital social d'une SA suffisent pour l'exiger.",
+    "En dessous de 2 000 membres, aucune minorité d'une coopérative ne peut l'exiger."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 2 000 membres est le seuil qui déclenche l'obligation pour la coopérative (art. 962 al. 1 ch. 2 CO), non un droit de minorité ; la minorité coopérative est de 10 % des membres (art. 962 al. 2 ch. 2 CO).",
+    "Vrai. 20 % des membres d'une association peuvent exiger des états financiers selon une norme reconnue (art. 962 al. 2 ch. 2 CO).",
+    "Faux. Pour le capital, le seuil est de 20 %, pas 5 % (art. 962 al. 2 ch. 1 CO).",
+    "Faux. En dessous de 2 000 membres, une minorité de 10 % des membres de la coopérative peut néanmoins l'exiger (art. 962 al. 2 ch. 2 CO)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.5 §5.2",
+   "piege": "Distinguer : 20 % du capital / 20 % des membres d'association / 10 % des membres de coopérative (minorités, art. 962 al. 2) vs 2 000 membres (seuil d'obligation, art. 962 al. 1).",
+   "source": "original"
+  }
+ ]
+}

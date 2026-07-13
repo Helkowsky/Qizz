@@ -1,0 +1,15 @@
+{
+  "cours": "normesSuisse",
+  "titre": "Normes comptables suisses — Module 3 (Expert Suisse)",
+  "modules": [
+    { "id": "M1", "titre": "Cadre juridique & obligations (CO)", "bank": "m1-cadre.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M2", "titre": "Présentation & structure minimale (CO)", "bank": "m2-structure.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M3", "titre": "Évaluation des actifs & passifs (CO)", "bank": "m3-evaluation.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M4", "titre": "Grandes entreprises, norme reconnue & consolidation (CO)", "bank": "m4-grandes-entites.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M5", "titre": "Swiss GAAP RPC — cadre & fondamentales", "bank": "m5-rpc-fondamentales.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M6", "titre": "Swiss GAAP RPC — Actifs", "bank": "m6-rpc-actifs.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M7", "titre": "Swiss GAAP RPC — Passifs & capitaux propres", "bank": "m7-rpc-passifs.json", "memento": "memento-normes-complet.pdf" },
+    { "id": "M8", "titre": "Swiss GAAP RPC — Autres normes & ponts", "bank": "m8-rpc-autres.json", "memento": "memento-normes-complet.pdf" }
+  ],
+  "note": "Mémento unique consolidé (Code des obligations + Swiss GAAP RPC). Bundle : banks/normesSuisse/_bundle.js (généré par build/build_bundle.py normesSuisse)."
+}

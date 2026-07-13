@@ -1,0 +1,271 @@
+{
+ "cours": "normesSuisse",
+ "module": "M7",
+ "titre": "Swiss GAAP RPC — Passifs & capitaux propres",
+ "questions": [
+  {
+   "id": "M7-001",
+   "champ": "RPC 23 · Classification des engagements",
+   "difficulte": 2,
+   "piege": "Provision (bilan) vs engagement conditionnel (annexe seulement)",
+   "memento": "ch.8 §8.1",
+   "source": "original",
+   "question": "Concernant les engagements, laquelle des quatre assertions suivantes est-elle correcte selon les Swiss GAAP RPC ?",
+   "options": [
+    "Les provisions sont toujours à long terme, car la date d'exécution est incertaine.",
+    "Les engagements conditionnels ne sont comptabilisés ni au bilan ni présentés en annexe.",
+    "Les engagements conditionnels ne sont pas comptabilisés au bilan, mais doivent être publiés dans l'annexe.",
+    "Les comptes de régularisation passifs comprennent par exemple les paiements d'avance versés pour les commandes."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'échéance dépend du cas (12 mois ou activité opérationnelle) ; une provision n'est pas par nature à long terme (RPC 23, RPC CC/18).",
+    "Faux. L'engagement conditionnel n'est pas au bilan mais fait précisément l'objet d'une publication en annexe (RPC 23).",
+    "Vrai. Engagement conditionnel = hors bilan, publié en annexe (montant non estimable de façon fiable OU sortie non vraisemblable) (RPC 23).",
+    "Faux. Les paiements d'avance versés sont un actif ; les comptes de régularisation passifs concernent des dépenses non encore payées/facturées (RPC 23)."
+   ]
+  },
+  {
+   "id": "M7-002",
+   "champ": "RPC 23 · Provision de restructuration",
+   "difficulte": 3,
+   "piege": "Seules les indemnités de licenciement ; dépréciation = RPC 20, reconversion = charge future",
+   "memento": "ch.8 §8.1",
+   "source": "original",
+   "question": "Le 3 décembre 20x1, le conseil d'administration de A SA a adopté et communiqué aux collaborateurs concernés un plan de restructuration : indemnités de licenciement 750 000, dépréciation des installations de production abandonnées 1 200 000, frais de reconversion 90 000 pour les collaborateurs conservés. Quel est le montant de la provision à comptabiliser au 31 décembre 20x1 selon les Swiss GAAP RPC ?",
+   "options": [
+    "CHF 750 000",
+    "CHF 1 950 000",
+    "CHF 2 040 000",
+    "CHF 840 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Seules les indemnités de licenciement (750 000) constituent une obligation ; elles seules sont provisionnées (RPC 23).",
+    "Faux. Cela ajoute la dépréciation des installations, qui relève de la RPC 20 (correction de valeur d'actif) et non d'une provision (RPC 23).",
+    "Faux. Cela ajoute dépréciation et reconversion : la reconversion des collaborateurs conservés est une charge future non provisionnable (RPC 23).",
+    "Faux. Les frais de reconversion (90 000) sont des charges futures liées à l'activité poursuivie, non un fait générateur d'obligation (RPC 23)."
+   ]
+  },
+  {
+   "id": "M7-003",
+   "champ": "RPC 23 · Obligation juridique ou implicite",
+   "difficulte": 2,
+   "piege": "L'obligation implicite suffit ; charges futures jamais un fait générateur",
+   "memento": "ch.8 §8.1",
+   "source": "original",
+   "question": "Concernant les provisions, laquelle des assertions suivantes est-elle correcte selon les Swiss GAAP RPC ?",
+   "options": [
+    "Les provisions peuvent être fondées sur une obligation juridique ou implicite.",
+    "Les provisions doivent nécessairement être fondées sur une obligation juridique.",
+    "Les provisions peuvent être fondées sur des obligations futures, dès lors que celles-ci peuvent déjà être estimées.",
+    "Les provisions doivent obligatoirement être fondées sur une obligation implicite."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le fait générateur peut être une obligation juridique OU implicite ; l'implicite suffit à lui seul (RPC 23).",
+    "Faux. Une obligation implicite (pratique, comportement créant une attente) suffit, sans obligation juridique (RPC 23).",
+    "Faux. Les charges et diminutions de marges futures ne sont jamais des faits générateurs d'obligation (RPC 23).",
+    "Faux. L'obligation implicite n'est pas exigée ; une obligation juridique constitue aussi un fondement valable (RPC 23)."
+   ]
+  },
+  {
+   "id": "M7-004",
+   "champ": "RPC 16 · Part économique de l'entité",
+   "difficulte": 3,
+   "piege": "Excédent → avantage seulement si licite et envisagé ; découvert → engagement seulement si conditions d'une provision réunies",
+   "memento": "ch.8 §8.2",
+   "source": "original",
+   "question": "Concernant la part économique de l'entité, laquelle des assertions suivantes est-elle correcte selon la Swiss GAAP RPC 16 ?",
+   "options": [
+    "En cas d'excédent de couverture, il y a un engagement économique lorsque les conditions de constitution d'une provision sont remplies.",
+    "En cas de découvert, il y a un avantage économique si la législation locale autorise et envisage le remboursement du découvert à l'employeur.",
+    "En cas de découvert, il y a un engagement économique lorsque les conditions de constitution d'un engagement conditionnel sont remplies.",
+    "En cas d'excédent de couverture, il y a par exemple un avantage économique s'il est licite et envisagé d'utiliser cet excédent pour réduire les cotisations de l'employeur."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Un excédent (> 100 %) peut donner un avantage économique, pas un engagement (RPC 16).",
+    "Faux. Un découvert ne produit jamais un avantage : il peut au plus donner un engagement économique (RPC 16).",
+    "Faux. Le seuil est celui des conditions d'une provision (obligation, sortie probable, montant estimable), non d'un engagement conditionnel (RPC 16).",
+    "Vrai. L'avantage économique n'est retenu que s'il est licite ET envisagé d'en profiter (p. ex. baisse de cotisations), à l'actif en immobilisations financières LT (RPC 16)."
+   ]
+  },
+  {
+   "id": "M7-005",
+   "champ": "RPC 16 · Écriture — injection en cas de découvert",
+   "difficulte": 3,
+   "piege": "On comptabilise le montant de l'engagement contractuel (22 mio), pas le découvert total (65 mio) ; via charges de personnel, pas charges financières",
+   "memento": "ch.8 §8.2",
+   "source": "original",
+   "question": "Le découvert de la caisse de pension de S SA atteint CHF 65 000 000 fin 20x5. S SA (comptes en Swiss GAAP RPC) s'engage contractuellement à injecter un montant unique de CHF 22 000 000 dans un délai de cinq ans, le solde du découvert étant absorbé par des baisses de prestations et des cotisations plus élevées des employés. Quelle écriture doit être passée fin 20x5 en lien avec le découvert ?",
+   "options": [
+    "Charges financières / Engagements en matière de prévoyance    CHF 65 000 000",
+    "Réserves issues du bénéfice / Engagements en matière de prévoyance    CHF 65 000 000",
+    "Charges de personnel / Engagements en matière de prévoyance    CHF 22 000 000",
+    "Charges financières / Engagements en matière de prévoyance    CHF 22 000 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. On ne comptabilise pas le découvert total : seul l'engagement contractuel de 22 mio est un engagement économique ; et l'imputation se fait en charges de personnel (RPC 16).",
+    "Faux. La contrepartie n'est pas une réserve de bénéfice : la charge de prévoyance transite par le compte de résultat (charges de personnel) (RPC 16).",
+    "Vrai. Seul l'engagement contractuel (22 mio) est comptabilisé, en charges de personnel par le crédit des engagements de prévoyance (RPC 16).",
+    "Faux. Le montant (22 mio) est correct mais l'imputation se fait en charges de personnel, non en charges financières (RPC 16)."
+   ]
+  },
+  {
+   "id": "M7-006",
+   "champ": "RPC 16 · Réserves de cotisations d'employeur (RCE)",
+   "difficulte": 2,
+   "piege": "Déductibilité fiscale chez l'EMPLOYEUR ; pas une obligation légale ; peuvent être rémunérées",
+   "memento": "ch.8 §8.2",
+   "source": "original",
+   "question": "Concernant les réserves de cotisations d'employeur (RCE), laquelle des assertions suivantes est-elle correcte selon la Swiss GAAP RPC 16 ?",
+   "options": [
+    "La mise en place d'une RCE est une obligation légale pour toutes les entreprises.",
+    "La constitution de RCE peut être fiscalement avantageuse pour l'employeur : les cotisations, fiscalement déductibles, réduisent le bénéfice imposable lors des bonnes années.",
+    "La constitution de RCE est fiscalement avantageuse pour l'institution de prévoyance, car elle neutralise ses bénéfices.",
+    "Les RCE ne peuvent en aucun cas être rémunérées par l'institution de prévoyance."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La RCE est un paiement anticipé volontaire de l'employeur, non une obligation légale (RPC 16).",
+    "Vrai. Les RCE sont fiscalement déductibles chez l'employeur et sont activées à l'actif (placements financiers LT) (RPC 16).",
+    "Faux. L'avantage fiscal joue chez l'employeur qui verse (déduction du bénéfice), non chez l'institution de prévoyance (RPC 16).",
+    "Faux. Les RCE peuvent être rémunérées, à hauteur du rendement moyen des actifs de l'institution (RPC 16)."
+   ]
+  },
+  {
+   "id": "M7-007",
+   "champ": "RPC 24 · Propres actions",
+   "difficulte": 2,
+   "piege": "Plus-value de revente SANS incidence sur le résultat (via réserves de primes) — au CO, produit financier admis",
+   "memento": "ch.8 §8.3",
+   "source": "original",
+   "question": "L'entreprise A a racheté le 24.01.20x1 ses propres actions pour CHF 240 000 et les a revendues le 24.11.20x1 pour CHF 300 000. Quel résultat est enregistré au compte de résultat en relation avec cette transaction selon la Swiss GAAP RPC 24 ?",
+   "options": [
+    "Il n'en résulte aucun bénéfice avec incidence sur le résultat.",
+    "Un bénéfice de CHF 60 000.",
+    "Une perte de CHF 60 000.",
+    "Un bénéfice de CHF 300 000."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les propres actions sont un poste négatif des FP au coût ; la plus/moins-value de revente passe par les réserves de primes, sans incidence sur le résultat (RPC 24).",
+    "Faux. La plus-value de 60 000 passe par les réserves provenant de primes, sans transiter par le compte de résultat (RPC 24). Piège : au CO, ce gain peut être un produit financier.",
+    "Faux. Il y a une plus-value (240 000 → 300 000), et de toute façon aucune incidence résultat (RPC 24).",
+    "Faux. 300 000 est le prix de vente, non un résultat ; et aucun montant n'affecte le compte de résultat (RPC 24)."
+   ]
+  },
+  {
+   "id": "M7-008",
+   "champ": "RPC 24 · Coûts de transaction des fonds propres",
+   "difficulte": 3,
+   "piege": "Réduction des réserves de PRIMES (pas de bénéfices), NETS d'impôt, sans incidence résultat",
+   "memento": "ch.8 §8.3",
+   "source": "original",
+   "question": "Une société augmente son capital ; les coûts de transaction directement liés à cette opération s'élèvent à CHF 100 000 (impôt sur le bénéfice 20 %). Comment ces coûts sont-ils comptabilisés selon la Swiss GAAP RPC 24 ?",
+   "options": [
+    "En charge du compte de résultat de la période, pour CHF 100 000.",
+    "En réduction des réserves provenant de bénéfices, pour CHF 100 000 avant impôt.",
+    "En réduction des réserves provenant de primes, nets d'impôt (soit un effet net de CHF 80 000 en fonds propres).",
+    "En augmentation du capital-actions, en diminution de l'agio à libérer."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Les coûts de transaction directement liés à une opération de capital ne passent pas par le résultat (RPC 24).",
+    "Faux. La réduction s'impute sur les réserves provenant de primes (agio), non les réserves de bénéfices, et elle se fait nette d'impôt (RPC 24).",
+    "Vrai. Coûts de transaction FP : réduction des réserves de primes, nets d'impôt, sans incidence sur le résultat (100 000 − 20 000 d'effet d'impôt = 80 000 net) (RPC 24).",
+    "Faux. Les coûts ne modifient pas le capital-actions ; ils réduisent les réserves de primes nettes d'impôt (RPC 24)."
+   ]
+  },
+  {
+   "id": "M7-009",
+   "champ": "RPC 24 · Domaine d'application",
+   "difficulte": 2,
+   "piege": "La rémunération en actions relève de la RPC 31, pas de la RPC 24",
+   "memento": "ch.8 §8.3",
+   "source": "original",
+   "question": "Lequel des thèmes suivants ne fait PAS partie du domaine d'application de la Swiss GAAP RPC 24 ?",
+   "options": [
+    "Les propres actions.",
+    "La rémunération en actions.",
+    "Les coûts de transaction des fonds propres.",
+    "La présentation de l'état et des mouvements des fonds propres."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Les propres actions (poste négatif des FP) sont expressément traitées par la RPC 24.",
+    "Vrai. La rémunération en actions est hors champ de la RPC 24 : elle relève de la RPC 31 (RPC 24).",
+    "Faux. Les coûts de transaction des fonds propres relèvent bien de la RPC 24/5-6.",
+    "Faux. La présentation de l'état et des mouvements des fonds propres est l'objet même de la RPC 24 (tableau des FP)."
+   ]
+  },
+  {
+   "id": "M7-010",
+   "champ": "RPC 15 · Définition de partie liée",
+   "difficulte": 1,
+   "piege": "Personne physique OU morale ; influence directe OU indirecte (substance over form)",
+   "memento": "ch.8 §8.4",
+   "source": "original",
+   "question": "Concernant les parties liées selon la Swiss GAAP RPC 15, laquelle des assertions suivantes est-elle correcte ?",
+   "options": [
+    "Seules les personnes physiques peuvent être des parties liées.",
+    "Seules les personnes morales peuvent être des parties liées.",
+    "Une personne n'est une partie liée que si elle exerce une influence notable de manière directe.",
+    "Les personnes physiques comme morales peuvent être des parties liées."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Une personne morale peut aussi être une partie liée (RPC 15).",
+    "Faux. Une personne physique (membre du CA, actionnaire…) peut aussi être une partie liée (RPC 15).",
+    "Faux. L'influence notable peut s'exercer directement OU indirectement (substance over form) (RPC 15).",
+    "Vrai. Une partie liée est une personne physique OU morale exerçant, directement ou indirectement, une influence notable (RPC 15)."
+   ]
+  },
+  {
+   "id": "M7-011",
+   "champ": "RPC 15 · Identification des parties liées",
+   "difficulte": 3,
+   "piege": "Filiale et caisse de pension = liées ; seuil 80 % (> 20 %) = lié ; mêmes administrateurs seuls ≠ liés",
+   "memento": "ch.8 §8.4",
+   "source": "original",
+   "question": "H SA établit ses comptes selon les Swiss GAAP RPC. Parmi les entités suivantes, laquelle n'est PAS considérée comme une partie liée de H SA selon la Swiss GAAP RPC 15 ?",
+   "options": [
+    "La société V Sàrl, détenue à 80 % par le président du conseil d'administration de H SA.",
+    "La société W SA, qui a simplement un membre du conseil d'administration en commun avec H SA.",
+    "La caisse de pension de H SA.",
+    "La société G SA, contrôlée par H SA."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Détenue à 80 % par le président du CA, V Sàrl est contrôlée indirectement par une personne exerçant une influence notable : elle est liée (RPC 15).",
+    "Vrai. Deux entités ayant seulement un administrateur commun ne sont pas, de ce seul fait, des parties liées (RPC 15).",
+    "Faux. L'institution de prévoyance (caisse de pension) de la société est expressément une partie liée (RPC 15).",
+    "Faux. Une filiale contrôlée par l'entité est une partie liée (RPC 15)."
+   ]
+  },
+  {
+   "id": "M7-012",
+   "champ": "RPC 15 · Seuil d'influence notable (20 %)",
+   "difficulte": 2,
+   "piege": "Seuil = 20 % des droits de vote ; simple client/fournisseur ≠ lié ; filiale = liée",
+   "memento": "ch.8 §8.4",
+   "source": "original",
+   "question": "L'entreprise X est la société holding du groupe X. Parmi les entités suivantes, laquelle est considérée comme une partie liée du point de vue de X selon la Swiss GAAP RPC 15 ?",
+   "options": [
+    "L'entreprise K, car il s'agit d'un fournisseur important de X.",
+    "L'entreprise Z, car X et Z ont un membre du conseil d'administration en commun.",
+    "Un actionnaire minoritaire détenant 15 % des droits de vote de X.",
+    "L'entreprise T, car il s'agit d'une filiale de X."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Un simple client ou fournisseur, même important, n'est pas de ce seul fait une partie liée (RPC 15).",
+    "Faux. Un administrateur commun ne suffit pas à créer un lien entre deux entités (RPC 15).",
+    "Faux. L'influence notable suppose au moins 20 % des droits de vote ; 15 % reste en deçà du seuil (RPC 15).",
+    "Vrai. Une filiale (organisation contrôlée) est une partie liée du groupe (RPC 15)."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "cours": "normesSuisse",
+ "module": "M1",
+ "titre": "Cadre juridique & obligations (CO)",
+ "questions": [
+  {
+   "id": "M1-001",
+   "champ": "Obligation de comptabilité",
+   "question": "Parmi les quatre assertions suivantes, laquelle est correcte ?",
+   "options": [
+    "Une société anonyme ayant réalisé un chiffre d'affaires de CHF 400 000 lors du dernier exercice ne doit pas tenir une comptabilité ni présenter les comptes conformément au CO.",
+    "Une Sàrl ayant réalisé un chiffre d'affaires de CHF 400 000 lors du dernier exercice ne doit pas tenir une comptabilité ni présenter les comptes conformément au CO.",
+    "Une entreprise individuelle ayant réalisé un chiffre d'affaires de CHF 400 000 lors du dernier exercice ne doit pas tenir une comptabilité ni présenter les comptes conformément au CO.",
+    "Une société anonyme ayant réalisé un chiffre d'affaires de CHF 40 000 lors du dernier exercice ne doit pas tenir une comptabilité ni présenter les comptes conformément au CO."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La SA est une personne morale, toujours tenue à la comptabilité et à la présentation complètes quel que soit le chiffre d'affaires (art. 957 al. 1 CO).",
+    "Faux. La Sàrl est une personne morale : l'obligation complète s'applique indépendamment du chiffre d'affaires (art. 957 al. 1 CO).",
+    "Vrai. L'entreprise individuelle dont le chiffre d'affaires est inférieur à 500 000 est dispensée de la comptabilité et de la présentation complètes ; elle ne tient qu'une comptabilité des recettes/dépenses et du patrimoine (art. 957 al. 2 CO).",
+    "Faux. Même avec un chiffre d'affaires de 40 000, la SA reste une personne morale soumise à l'obligation complète (art. 957 al. 1 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.2",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M1-002",
+   "champ": "Obligation de comptabilité",
+   "question": "Une société anonyme a réalisé un chiffre d'affaires inférieur à CHF 500 000 lors de l'exercice précédent. Parmi les quatre assertions suivantes, laquelle est correcte ?",
+   "options": [
+    "Pour cette société anonyme, la comptabilité et la présentation des comptes selon le CO sont facultatives.",
+    "Pour cette société anonyme, la comptabilité est facultative, mais pas la présentation des comptes selon le CO.",
+    "Pour cette société anonyme, ni la comptabilité ni la présentation des comptes selon le CO ne sont facultatives.",
+    "Pour cette société anonyme, la présentation des comptes selon le CO est facultative, mais pas la comptabilité."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Le seuil de 500 000 ne concerne que les entreprises individuelles et sociétés de personnes ; la SA reste pleinement soumise (art. 957 al. 1 CO).",
+    "Faux. Aucune des deux obligations n'est levée pour une personne morale, quel que soit le chiffre d'affaires (art. 957 al. 1 CO).",
+    "Vrai. La SA étant une personne morale, comptabilité et présentation des comptes sont obligatoires indépendamment du chiffre d'affaires (art. 957 al. 1 CO).",
+    "Faux. La présentation des comptes n'est pas facultative pour une personne morale (art. 957 al. 1 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.1 §1.2",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M1-003",
+   "champ": "Obligation de comptabilité",
+   "question": "Vous conseillez plusieurs entreprises quant à l'obligation de tenir une comptabilité et de présenter des comptes conformément au CO. Parmi les quatre affirmations suivantes, laquelle est correcte ?",
+   "options": [
+    "Une entreprise individuelle ayant réalisé un chiffre d'affaires de CHF 100 000 lors du dernier exercice n'est pas obligée de tenir une comptabilité et de présenter les comptes conformément au CO.",
+    "Une société en nom collectif ayant réalisé un chiffre d'affaires de CHF 100 000 lors du dernier exercice doit tenir une comptabilité et présenter les comptes conformément au CO.",
+    "Une société anonyme ayant réalisé un chiffre d'affaires de CHF 100 000 lors du dernier exercice ne doit pas tenir une comptabilité ni présenter les comptes conformément au CO.",
+    "Une entreprise individuelle ayant réalisé un résultat financier de CHF 500 000 lors du dernier exercice doit tenir une comptabilité et présenter les comptes conformément au CO."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. En dessous de 500 000 de chiffre d'affaires, l'entreprise individuelle est dispensée de la comptabilité et de la présentation complètes (elle ne tient qu'une comptabilité de caisse) (art. 957 al. 2 CO).",
+    "Faux. La SNC à 100 000 de chiffre d'affaires est sous le seuil de 500 000 : elle n'est tenue qu'à la comptabilité de caisse (art. 957 al. 2 CO).",
+    "Faux. La SA est une personne morale, toujours soumise à l'obligation complète (art. 957 al. 1 CO).",
+    "Faux. Le seuil déterminant est le chiffre d'affaires (500 000), non le résultat financier ; ce libellé qualifie mal le critère (art. 957 al. 1 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.2",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M1-004",
+   "champ": "Comptabilité de caisse",
+   "question": "Quelle entité doit, selon le CO, uniquement tenir une comptabilité des recettes et des dépenses ainsi que du patrimoine ?",
+   "options": [
+    "Une société anonyme qui a réalisé un chiffre d'affaires inférieur à CHF 500 000 lors du dernier exercice.",
+    "Une Sàrl qui a réalisé un chiffre d'affaires inférieur à CHF 500 000 lors du dernier exercice.",
+    "Une fondation tenue de s'inscrire au registre du commerce.",
+    "Une entreprise individuelle qui a réalisé un chiffre d'affaires inférieur à CHF 500 000 lors du dernier exercice."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La SA est une personne morale et tient une comptabilité complète quel que soit le chiffre d'affaires (art. 957 al. 1 CO).",
+    "Faux. La Sàrl est une personne morale, soumise à la comptabilité complète indépendamment du chiffre d'affaires (art. 957 al. 1 CO).",
+    "Faux. Une fondation tenue de s'inscrire au registre du commerce tient une comptabilité complète ; seules les fondations dispensées d'organe de révision bénéficient de la comptabilité de caisse (art. 957 al. 2 CO).",
+    "Vrai. L'entreprise individuelle sous le seuil de 500 000 ne tient qu'une comptabilité des recettes/dépenses et du patrimoine (art. 957 al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.2",
+   "piege": "CAT",
+   "source": "original"
+  },
+  {
+   "id": "M1-005",
+   "champ": "Hiérarchie des normes",
+   "question": "Un collègue britannique s'interroge sur la hiérarchie des normes juridiques en Suisse. Parmi les quatre affirmations suivantes, laquelle est correcte ?",
+   "options": [
+    "Les dispositions des ordonnances prévalent sur les dispositions de la Constitution fédérale.",
+    "Les dispositions des lois spéciales, comme la loi sur les banques, prévalent sur les dispositions du Code des obligations.",
+    "Les dispositions du Manuel suisse d'audit (MSA) prévalent sur les dispositions du Code des obligations.",
+    "Les dispositions des Swiss GAAP RPC ont une portée juridique supérieure à celle du Code des obligations."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La hiérarchie est Constitution > lois > ordonnances ; une ordonnance ne prime jamais la Constitution (Cst. ; art. 957 ss CO).",
+    "Vrai. Une loi spéciale prime le CO en vertu du principe lex specialis (loi sur les banques ; art. 957 ss CO).",
+    "Faux. Le Manuel suisse d'audit n'a aucune portée juridique et ne prime pas le CO (doctrine ; art. 957 ss CO).",
+    "Faux. Les Swiss GAAP RPC sont de simples recommandations sans portée juridique ; l'ONCR y renvoie comme norme reconnue (art. 957 ss CO ; ONCR)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.1 §1.1",
+   "piege": "NV",
+   "source": "original"
+  },
+  {
+   "id": "M1-006",
+   "champ": "Hiérarchie des normes",
+   "question": "Le Code des obligations dans le contexte juridique suisse : parmi les quatre assertions suivantes, laquelle est correcte ?",
+   "options": [
+    "Le Code des obligations, en tant que loi, est mis en œuvre par des ordonnances d'exécution.",
+    "Le CO, en tant que partie de la Constitution suisse, prime sur les règles des ordonnances.",
+    "Le CO, comme ordonnance, prime sur les règles de la Constitution suisse.",
+    "Le CO, en tant que loi, est une norme comptable reconnue."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le CO est une loi précisée et exécutée par des ordonnances (OLICO, ONCR) prises par le Conseil fédéral (art. 957 ss CO ; OLICO ; ONCR).",
+    "Faux. Le CO est une loi, non une partie de la Constitution (art. 957 ss CO).",
+    "Faux. Le CO est une loi et non une ordonnance, et aucune ordonnance ne prime la Constitution (art. 957 ss CO).",
+    "Faux. Le CO est une loi et non une « norme comptable reconnue » au sens de l'ONCR (art. 957 ss CO ; ONCR)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.1",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M1-007",
+   "champ": "Rôle des états financiers",
+   "question": "Rôle des états financiers établis selon le CO : parmi les quatre assertions suivantes, laquelle est correcte ?",
+   "options": [
+    "Les états financiers selon le CO sont déterminants pour la communication de l'entreprise sur le marché des capitaux.",
+    "Les états financiers selon le CO sont pertinents pour l'imposition de l'entreprise en raison du principe de déterminance du bilan commercial.",
+    "Les états financiers selon le CO ne servent pas de base au calcul d'une éventuelle perte de capital.",
+    "Les états financiers selon le CO peuvent être, à choix, utilisés pour le calcul de l'emploi du bénéfice au bilan."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'information du marché des capitaux relève des comptes établis selon une norme reconnue, non des comptes CO (art. 958 CO).",
+    "Vrai. Les comptes CO servent de base à l'imposition selon le principe de déterminance du bilan commercial (art. 958 CO ; principe de déterminance).",
+    "Faux. Les comptes CO servent précisément à apprécier une perte de capital ou un surendettement (art. 958 CO).",
+    "Faux. Les comptes CO constituent la base — non un choix facultatif — de l'appréciation de l'emploi du bénéfice (art. 958 CO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.1 §1.4",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M1-008",
+   "champ": "Rôle des états financiers",
+   "question": "Rôles respectifs des états financiers établis selon le CO et selon une norme reconnue, pour une société anonyme suisse. Parmi les quatre affirmations suivantes, laquelle est correcte ?",
+   "options": [
+    "Les états financiers selon le CO sont pertinents pour apprécier l'emploi du bénéfice.",
+    "Les états financiers établis selon une norme reconnue sont pertinents pour apprécier l'existence d'un surendettement.",
+    "Les états financiers établis selon une norme reconnue sont pertinents pour déterminer l'impôt sur le bénéfice.",
+    "Les états financiers selon le CO sont pertinents pour évaluer la situation économique d'après le principe de l'image fidèle."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'appréciation de l'emploi du bénéfice (dividende, réserves) relève des comptes CO (art. 958 CO).",
+    "Faux. L'appréciation d'un surendettement repose sur les comptes CO, non sur les comptes selon une norme reconnue (art. 958 CO).",
+    "Faux. La base fiscale est le bilan commercial CO (déterminance), pas les comptes selon une norme reconnue (art. 958 CO).",
+    "Faux. L'image fidèle (true & fair view) est le but des comptes selon une norme reconnue, pas des comptes CO (art. 958 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.4",
+   "piege": "QUAL",
+   "source": "original"
+  },
+  {
+   "id": "M1-009",
+   "champ": "Comptabilité (tenue)",
+   "question": "Concernant la comptabilité selon le CO, parmi les quatre affirmations suivantes, laquelle est correcte ?",
+   "options": [
+    "La justification de chaque enregistrement au moyen d'une pièce comptable ne vaut que pour les personnes morales.",
+    "La comptabilité doit être tenue en francs suisses ou en euros.",
+    "La comptabilité comprend les transactions et les autres faits nécessaires à la présentation de la situation économique de l'entreprise.",
+    "La comptabilité doit obligatoirement être établie par écrit sur support papier."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La justification par pièce comptable est un principe de régularité valable pour toute comptabilité, pas seulement les personnes morales (art. 957a al. 2 CO).",
+    "Faux. La comptabilité est tenue dans la monnaie nationale ou la monnaie fonctionnelle la plus importante, non nécessairement en francs ou en euros (art. 957a al. 4 CO).",
+    "Vrai. La comptabilité enregistre les transactions et les faits nécessaires à la présentation de la situation économique (art. 957a al. 1 CO).",
+    "Faux. Le CO n'exige pas une tenue papier ; les supports électroniques sont admis si la traçabilité est garantie (art. 957a CO ; OLICO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.3",
+   "piege": "VV",
+   "source": "original"
+  },
+  {
+   "id": "M1-010",
+   "champ": "Monnaie & langue",
+   "question": "Informations et présentation des comptes selon le CO : parmi les quatre assertions suivantes, laquelle est correcte ?",
+   "options": [
+    "La présentation des comptes selon le CO n'est possible que dans la monnaie nationale.",
+    "Le Conseil fédéral édicte les dispositions relatives aux livres à tenir dans une « Loi sur la tenue des livres comptables ».",
+    "Un exemplaire imprimé et signé du rapport de révision et de l'ensemble des documents comptables doit être conservé.",
+    "Le bilan, le compte de résultat et l'annexe doivent indiquer, outre les chiffres de l'exercice en cours, ceux de l'année précédente."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les comptes peuvent être établis dans la monnaie fonctionnelle la plus importante, avec contre-valeur en CHF et cours de conversion en annexe (art. 958d CO).",
+    "Faux. Ces dispositions figurent dans une ordonnance (OLICO) prise par le Conseil fédéral, et non dans une loi (art. 958f CO ; OLICO).",
+    "Faux. Seuls un exemplaire imprimé et signé du rapport de gestion et du rapport de révision sont exigés ; les livres et pièces peuvent rester électroniques (art. 958f CO).",
+    "Vrai. Les chiffres de l'exercice précédent doivent figurer en regard de ceux de l'exercice (art. 958d al. 2 CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.6",
+   "piege": "NV",
+   "source": "original"
+  },
+  {
+   "id": "M1-011",
+   "champ": "OLICO",
+   "question": "Concernant l'ordonnance sur la tenue et la conservation des livres de comptes (OLICO), parmi les quatre assertions suivantes, laquelle est correcte ?",
+   "options": [
+    "Selon l'OLICO, une entreprise peut se dispenser de tenir un journal si elle tient un grand livre.",
+    "Selon l'OLICO, les livres doivent être tenus et conservés de manière à ce que toute modification soit apparente.",
+    "L'OLICO étant une ordonnance, son respect est facultatif.",
+    "Selon l'OLICO, seules les personnes morales doivent tenir un grand livre et un journal."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le grand livre et le journal sont tous deux obligatoires ; seuls les livres auxiliaires le sont selon les besoins (OLICO).",
+    "Vrai. Le principe d'inaltérabilité impose que toute modification des livres soit apparente (OLICO).",
+    "Faux. L'OLICO est une ordonnance d'exécution obligatoire, non un texte facultatif (OLICO ; art. 958f CO).",
+    "Faux. L'obligation de tenir grand livre et journal ne se limite pas aux personnes morales ; elle vise les entreprises tenues à la comptabilité (OLICO)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.1 §1.5",
+   "piege": "QUAL",
+   "source": "generated"
+  },
+  {
+   "id": "M1-012",
+   "champ": "OLICO",
+   "question": "Vous expliquez à un client que d'importants aspects de la tenue des livres figurent dans l'OLICO. Laquelle des assertions suivantes est correcte concernant l'OLICO ?",
+   "options": [
+    "Conformément à l'OLICO, les consultations et accès doivent être enregistrés, ces enregistrements étant soumis à une obligation de conservation.",
+    "Conformément à l'OLICO, les supports d'information sont réputés modifiables lorsque les données qu'ils contiennent peuvent être modifiées ou effacées sans que la modification soit apparente.",
+    "Conformément à l'OLICO, seuls les supports d'information non modifiables sont autorisés pour la conservation des documents.",
+    "Conformément à l'OLICO, la tenue de livres auxiliaires n'est autorisée que si l'entreprise doit effectuer un rattachement des charges aux produits et une délimitation périodique."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'OLICO impose l'enregistrement des accès et consultations, ces enregistrements devant eux-mêmes être conservés (OLICO).",
+    "Faux. La caractérisation d'un support comme modifiable ou non repose sur les garanties techniques d'intégrité ; ce libellé dénature la définition de l'OLICO (OLICO).",
+    "Faux. Les supports modifiables sont également admis, moyennant des mesures garantissant l'intégrité et l'inaltérabilité des données (OLICO).",
+    "Faux. La tenue de livres auxiliaires dépend des besoins de l'entreprise, sans lien avec le seuil de la délimitation périodique (OLICO ; art. 958b CO)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.1 §1.5",
+   "piege": "NV",
+   "source": "original"
+  },
+  {
+   "id": "M1-013",
+   "champ": "Délimitation périodique",
+   "question": "En dessous de quel montant une entreprise peut-elle renoncer à la délimitation périodique et tenir une simple comptabilité de dépenses et de recettes (CO) ?",
+   "options": [
+    "Lorsque les produits nets des ventes ou les produits financiers ne dépassent pas 100 000 CHF",
+    "Lorsque le chiffre d'affaires ne dépasse pas 500 000 CHF",
+    "Lorsque le total du bilan ne dépasse pas 250 000 CHF",
+    "Lorsque les produits nets des ventes ne dépassent pas 40 000 CHF"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Art. 958b al. 2 CO : si les produits nets des ventes OU les produits financiers ne dépassent pas 100 000 CHF, on peut déroger à la délimitation périodique et tenir une comptabilité de dépenses et de recettes.",
+    "Faux. 500 000 CHF est le seuil de l'obligation de comptabilité complète des entreprises individuelles/sociétés de personnes (art. 957 CO), pas celui de la délimitation.",
+    "Faux. Le CO ne fixe aucun seuil de délimitation périodique fondé sur le total du bilan.",
+    "Faux. Valeur voisine erronée : le seuil est de 100 000 CHF (art. 958b CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.2 §2.1",
+   "piege": "VV",
+   "source": "generated"
+  },
+  {
+   "id": "M1-014",
+   "champ": "Conservation des livres",
+   "question": "Concernant la tenue et la conservation des livres de l'entreprise selon le CO, parmi les quatre affirmations suivantes, laquelle est correcte ?",
+   "options": [
+    "Le Conseil fédéral a édicté, dans une loi sur la tenue des livres, les principes régissant leur tenue et leur conservation.",
+    "Les livres et les pièces comptables ainsi que le rapport de gestion et le rapport de révision sont conservés pendant dix ans.",
+    "Les livres de l'entreprise et les pièces comptables doivent obligatoirement être conservés sous forme électronique.",
+    "La période de conservation commence avec la signature des états financiers par le président de l'organe supérieur de direction."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Ces principes figurent dans une ordonnance (OLICO), non dans une loi (art. 958f CO ; OLICO).",
+    "Vrai. Les livres, pièces comptables, rapport de gestion et rapport de révision se conservent dix ans (art. 958f CO).",
+    "Faux. La conservation peut se faire sur papier ou sous forme électronique ; le support électronique n'est pas imposé (art. 958f CO).",
+    "Faux. Le délai de dix ans court dès la fin de l'exercice, non dès la signature des comptes (art. 958f CO)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.1 §1.5",
+   "piege": "VV",
+   "source": "original"
+  }
+ ]
+}

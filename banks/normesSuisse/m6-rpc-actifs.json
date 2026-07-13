@@ -1,0 +1,271 @@
+{
+ "cours": "normesSuisse",
+ "module": "M6",
+ "titre": "Swiss GAAP RPC — Actifs",
+ "questions": [
+  {
+   "id": "M6-001",
+   "champ": "RPC 17 — Stocks",
+   "question": "Pour Z SA, les coûts de fabrication d'un produit s'élèvent à CHF 23/unité et les frais de vente à CHF 2/unité. Plusieurs concurrents vendent des produits identiques et indifférenciables à CHF 21/unité. À quelle valeur le produit doit-il être évalué à la clôture ? (Chiffres hors TVA.)",
+   "options": [
+    "CHF 23/unité",
+    "CHF 21/unité",
+    "CHF 19/unité",
+    "CHF 17/unité"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. CHF 23 est le coût de revient ; le principe de la valeur la plus basse impose de retenir la valeur de marché nette si elle est inférieure (RPC 17).",
+    "Faux. CHF 21 est le prix du marché brut, pas la valeur de marché nette : il faut encore déduire les charges de vente (RPC 17/14).",
+    "Vrai. Valeur de marché nette = 21 − 2 = 19 ; min(coût de revient 23 ; valeur de marché nette 19) = CHF 19 (RPC 17).",
+    "Faux. CHF 17 déduirait deux fois les frais ou une charge inexistante ; la valeur de marché nette est de 19 (RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.1",
+   "piege": "La valeur de marché nette n'est pas le prix du marché : on en retranche les charges de vente et d'administration avant de comparer au coût.",
+   "source": "original"
+  },
+  {
+   "id": "M6-002",
+   "champ": "RPC 17 — Stocks",
+   "question": "Les corrections de valeur forfaitaires (abattement d'un tiers, « Warendrittel ») sont-elles autorisées sur les stocks selon la Swiss GAAP RPC 17 ?",
+   "options": [
+    "Oui, sans restriction",
+    "Non",
+    "Cela dépend de la législation fiscale du canton du siège",
+    "Oui, mais uniquement pour les produits finis et les marchandises commerciales"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Un abattement forfaitaire non justifié crée une réserve latente contraire à l'image fidèle (RPC 17).",
+    "Vrai. Les corrections de valeur doivent être motivées et évaluées article par article ; un abattement forfaitaire d'un tiers est une pratique fiscale non admise en RPC 17.",
+    "Faux. La tolérance fiscale cantonale ne rend pas la réserve latente conforme aux RPC (RPC 17).",
+    "Faux. Aucune correction forfaitaire n'est admise, quel que soit le type de stock ; seules des corrections motivées le sont (RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.1",
+   "piege": "Piège fiscal vs RPC : le « Warendrittel » est toléré fiscalement mais interdit sous RPC 17 car il constitue une réserve latente.",
+   "source": "original"
+  },
+  {
+   "id": "M6-003",
+   "champ": "RPC 17 — Stocks",
+   "question": "T SA établit ses comptes selon les Swiss GAAP RPC. Comment les escomptes obtenus sur les achats de stocks doivent-ils être traités ?",
+   "options": [
+    "Comme des réductions du prix d'acquisition",
+    "Comme des produits financiers",
+    "Comme des charges financières négatives",
+    "Au choix, selon que le compte de résultat est présenté par nature ou par fonction"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'escompte réduit le coût d'acquisition du stock, il ne transite pas par le résultat financier (RPC 17).",
+    "Faux. Comptabiliser l'escompte en produit financier gonflerait artificiellement le résultat d'exploitation (RPC 17).",
+    "Faux. L'escompte n'est pas un élément financier : il diminue directement le prix d'acquisition (RPC 17).",
+    "Faux. Il n'existe pas de droit d'option ; le traitement en réduction du prix d'acquisition est imposé (RPC 17)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.1",
+   "piege": "Un directeur financier cherchant à maximiser le résultat voudrait classer l'escompte en produit financier : RPC 17 l'interdit.",
+   "source": "original"
+  },
+  {
+   "id": "M6-004",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "El Pony Sàrl (comptes RPC) achète le 01.01.20x1 une machine : coût d'acquisition CHF 370 000, installation CHF 15 000, transport CHF 2 000. Amortissement dégressif au taux de 30 %, durée d'utilisation 6 ans. Quel est l'amortissement de l'exercice 20x3 ?",
+   "options": [
+    "CHF 132 741",
+    "CHF 56 889",
+    "CHF 64 500",
+    "CHF 54 390"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. CHF 132 741 applique le taux à une base erronée ; la base d'activation est 387 000 (RPC 18).",
+    "Vrai. Base 387 000 (370 000 + 15 000 + 2 000). 20x1 : 116 100 → VNC 270 900 ; 20x2 : 81 270 → VNC 189 630 ; 20x3 : 189 630 × 30 % = CHF 56 889 (RPC 18).",
+    "Faux. CHF 64 500 correspondrait à un amortissement linéaire approximatif, pas au dégressif sur la VNC (RPC 18).",
+    "Faux. CHF 54 390 appliquerait le taux à une base de 181 300 au lieu de la VNC de 189 630 (RPC 18)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.2",
+   "piege": "L'amortissement dégressif s'applique chaque année à la valeur nette comptable résiduelle, non au coût d'origine ; frais d'installation et de transport entrent dans la base.",
+   "source": "original"
+  },
+  {
+   "id": "M6-005",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "R SA détient deux immeubles uniquement à des fins de rendement (placement) et établit ses comptes selon les RPC. Comment ces immeubles de rendement sont-ils évalués ?",
+   "options": [
+    "À la valeur actuelle, réévaluations et moins-values par le résultat, sans amortissement planifié",
+    "Au coût d'acquisition diminué d'amortissements linéaires sur la durée d'utilisation",
+    "À la valeur la plus basse entre le coût et la valeur de marché nette",
+    "Au coût d'acquisition, sans réévaluation ni amortissement possibles"
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les immeubles de rendement sont portés à la valeur actuelle ; les variations passent par le résultat et il n'y a pas d'amortissement planifié (RPC 18).",
+    "Faux. L'amortissement planifié vaut pour les immobilisations d'exploitation, pas pour les immeubles de rendement évalués à la valeur actuelle (RPC 18).",
+    "Faux. La valeur la plus basse est la règle des stocks (RPC 17), pas celle des immeubles de rendement (RPC 18).",
+    "Faux. La réévaluation à la valeur actuelle est précisément prévue, avec incidence sur le résultat (RPC 18)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.2",
+   "piege": "Ne pas amortir un immeuble de rendement : il suit la valeur actuelle. L'amortissement planifié ne concerne que les immobilisations d'exploitation.",
+   "source": "original"
+  },
+  {
+   "id": "M6-006",
+   "champ": "RPC 18 — Immobilisations corporelles",
+   "question": "Parmi les éléments suivants, lequel ne fait l'objet d'aucun amortissement planifié selon la RPC 18 ?",
+   "options": [
+    "Les bâtiments administratifs",
+    "Les installations techniques et machines",
+    "Les autres installations et le mobilier",
+    "Les terrains"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Un bâtiment administratif s'amortit sur sa durée d'utilisation (RPC 18).",
+    "Faux. Les installations et machines s'amortissent (linéaire, dégressif ou proportionnel) sur leur durée d'utilisation (RPC 18).",
+    "Faux. Le mobilier et les autres installations s'amortissent sur leur durée d'utilisation (RPC 18).",
+    "Vrai. Les terrains ne sont jamais amortis car leur durée d'utilisation n'est pas limitée (RPC 18)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.2",
+   "piege": "Distinguer terrain (jamais amorti) et construction (amortie) : un poste « terrains et constructions » doit être ventilé, seule la construction s'amortit.",
+   "source": "generated"
+  },
+  {
+   "id": "M6-007",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Laquelle des valeurs suivantes ne peut PAS être activée selon la Swiss GAAP RPC 10 ?",
+   "options": [
+    "Les licences acquises",
+    "Les logiciels",
+    "Les frais de recherche fondamentale",
+    "Les frais de développement remplissant les conditions cumulatives"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Une licence acquise, identifiable et procurant des avantages futurs, est activable (RPC 10).",
+    "Faux. Un logiciel acquis ou développé (sous conditions) est activable (RPC 10).",
+    "Vrai. Les frais de recherche sont toujours comptabilisés en charge immédiate ; seul le développement peut être activé sous conditions (RPC 10).",
+    "Faux. Les frais de développement sont activables lorsque les conditions cumulatives sont remplies (faisabilité technique et commerciale, avantages probables, ressources pour achever) (RPC 10)."
+   ],
+   "difficulte": 1,
+   "memento": "ch.7 §7.3",
+   "piege": "Recherche = charge (toujours) ; développement = activable (sous conditions). Ne jamais activer des frais de recherche.",
+   "source": "original"
+  },
+  {
+   "id": "M6-008",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Un logiciel développé en interne doit être inscrit à l'actif. Le coût de revient est de KCHF 322, la valeur d'utilité de KCHF 295 et la valeur de marché nette de KCHF 305. À quelle valeur le logiciel est-il comptabilisé au bilan ?",
+   "options": [
+    "L'inscription à l'actif n'est pas autorisée",
+    "KCHF 322",
+    "KCHF 295",
+    "KCHF 305"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Un logiciel développé en interne est activable si les conditions cumulatives sont réunies (RPC 10).",
+    "Faux. Le coût de revient (322) est plafonné à la valeur réalisable ; ici celle-ci est inférieure (RPC 10/7).",
+    "Faux. 295 est la seule valeur d'utilité ; la valeur réalisable est le maximum entre utilité et marché net, soit 305 (RPC 10).",
+    "Vrai. Valeur réalisable = max(295 ; 305) = 305 ; évaluation initiale = min(coût 322 ; valeur réalisable 305) = KCHF 305 (RPC 10/7)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.3",
+   "piege": "Double étape : la valeur réalisable est un MAXIMUM (utilité vs marché net), mais l'évaluation initiale la retient comme PLAFOND (min avec le coût).",
+   "source": "original"
+  },
+  {
+   "id": "M6-009",
+   "champ": "RPC 10 — Valeurs incorporelles",
+   "question": "Q SA a acquis une marque lors d'une acquisition ; sa durée d'utilisation ne peut pas être déterminée clairement. Quel traitement s'impose selon les RPC ?",
+   "options": [
+    "Les marques ne peuvent jamais être inscrites à l'actif selon les RPC",
+    "Activable si les conditions le sont ; amortie en principe sur 5 ans (durée indéterminable ; maximum 20 ans)",
+    "Activable si les conditions le sont ; amortie obligatoirement sur 20 ans",
+    "Activable, puis soumise à un simple test de valeur annuel sans amortissement planifié (durée indéterminée)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Une marque acquise est activable si les conditions d'activation des valeurs acquises sont satisfaites (RPC 10).",
+    "Vrai. Marque acquise activable ; durée d'utilisation indéterminable → amortissement par défaut sur 5 ans, au maximum 20 ans (RPC 10).",
+    "Faux. 20 ans est le plafond, pas la durée par défaut ; à défaut de durée déterminable on retient 5 ans (RPC 10).",
+    "Faux. La durée d'utilité indéterminée (sans amortissement) est admise en IFRS mais non en RPC 10, qui impose un amortissement planifié (RPC 10/17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.3",
+   "piege": "Contrairement aux IFRS, RPC 10 n'admet pas de durée d'utilité indéterminée : durée indéterminable → 5 ans (max 20). Marque acquise activable, marque créée en interne non.",
+   "source": "original"
+  },
+  {
+   "id": "M6-010",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Au sens de la RPC 20, à quoi correspond la « valeur réalisable » d'un actif ?",
+   "options": [
+    "Au minimum entre la valeur de marché nette et la valeur d'utilité",
+    "Au maximum entre la valeur de marché nette et la valeur d'utilité",
+    "À la valeur de marché nette uniquement",
+    "À la valeur comptable diminuée des amortissements planifiés"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. C'est un maximum, pas un minimum : on retient la plus favorable des deux valeurs (RPC 20).",
+    "Vrai. Valeur réalisable = max(valeur de marché nette ; valeur d'utilité) ; la dépréciation intervient si la valeur comptable la dépasse (RPC 20).",
+    "Faux. La valeur d'utilité est aussi prise en compte ; on retient le plus élevé des deux (RPC 20).",
+    "Faux. Cela décrit la valeur comptable après amortissements, à laquelle la valeur réalisable est comparée (RPC 20)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "Valeur réalisable = MAXIMUM (jamais un minimum). Confondre avec un min sous-évaluerait l'actif et surestimerait la dépréciation.",
+   "source": "generated"
+  },
+  {
+   "id": "M6-011",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Actif acheté CHF 720 000, amortissement planifié CHF 90 000/an sur 8 ans. Dépréciation fin d'année 3 : valeur réalisable ramenée à CHF 300 000 (amortissement recalculé à 60 000/an). Fin d'année 5, les indices disparaissent et la valeur réalisable est de CHF 330 000. À quelle valeur au maximum la reprise peut-elle porter l'actif ?",
+   "options": [
+    "CHF 330 000 (la valeur réalisable retrouvée)",
+    "CHF 270 000 (valeur comptable hors dépréciation)",
+    "CHF 300 000 (valeur au moment de la dépréciation)",
+    "CHF 180 000 (valeur comptable effective avant reprise)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La reprise est plafonnée : elle ne peut pas porter l'actif jusqu'à 330 000 même si la valeur réalisable l'atteint (RPC 20).",
+    "Vrai. Nouvelle VC = min(valeur réalisable 330 000 ; VC hors dépréciation 720 000 − 5 × 90 000 = 270 000) = CHF 270 000 (RPC 20).",
+    "Faux. 300 000 était la valeur réalisable de l'année 3, sans lien avec le plafond de reprise de l'année 5 (RPC 20).",
+    "Faux. 180 000 (300 000 − 2 × 60 000) est la valeur comptable effective avant reprise, soit le point de départ de la reprise et non son plafond ; le plafond est 270 000 (RPC 20)."
+   ],
+   "difficulte": 3,
+   "memento": "ch.7 §7.4",
+   "piege": "La reprise est plafonnée à la valeur comptable qu'on aurait eue avec les seuls amortissements planifiés (270 000) — jamais jusqu'à la valeur réalisable si elle est plus haute (330 000).",
+   "source": "original"
+  },
+  {
+   "id": "M6-012",
+   "champ": "RPC 20 — Dépréciation d'actifs",
+   "question": "Lequel des actifs suivants n'entre PAS dans le domaine d'application de la RPC 20 « Dépréciation d'actifs » ?",
+   "options": [
+    "Les immobilisations corporelles d'exploitation",
+    "Les immobilisations incorporelles",
+    "Les participations évaluées au coût",
+    "Les stocks (relevant de la RPC 17)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Les immobilisations corporelles sont au cœur du champ de la RPC 20 (RPC 20).",
+    "Faux. Les immobilisations incorporelles sont, avec les corporelles, les principaux actifs visés par la RPC 20 (RPC 20).",
+    "Faux. Un actif sans règle de dépréciation propre relève de la RPC 20 (RPC 20).",
+    "Vrai. Les stocks disposent de leur propre règle d'évaluation (valeur la plus basse) sous RPC 17 et sont exclus du champ de la RPC 20 (RPC 20 / RPC 17)."
+   ],
+   "difficulte": 2,
+   "memento": "ch.7 §7.4",
+   "piege": "La RPC 20 s'applique aux actifs SANS règle de dépréciation propre ; les stocks (RPC 17, valeur la plus basse) en sont exclus.",
+   "source": "original"
+  }
+ ]
+}
