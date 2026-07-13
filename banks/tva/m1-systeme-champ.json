@@ -1,0 +1,1594 @@
+{
+ "cours": "tva",
+ "module": "M1",
+ "titre": "Système & champ d'application",
+ "questions": [
+  {
+   "id": "M1-001",
+   "champ": "Système & mécanisme TVA — Autorité de perception",
+   "memento": "art. 130 Cst. · art. 1 al. 1 LTVA",
+   "question": "Quelle autorité est compétente pour percevoir la TVA en Suisse ?",
+   "options": [
+    "Les cantons",
+    "La Confédération",
+    "Les communes",
+    "Les cantons et la Confédération conjointement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les cantons ne perçoivent pas la TVA, impôt exclusivement fédéral (art. 130 Cst.).",
+    "Exact : la TVA est un impôt fédéral prélevé par la Confédération (art. 130 Cst. · art. 1 al. 1 LTVA).",
+    "Faux : les communes n'ont aucune compétence de perception de la TVA (art. 130 Cst.).",
+    "Faux : la TVA relève de la seule Confédération ; l'AFC n'est que son organe d'exécution, non un percepteur cantonal."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M1-002",
+   "champ": "Système & mécanisme TVA — Nature de l'impôt",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Comment qualifie-t-on la TVA suisse du point de vue de la technique fiscale ?",
+   "options": [
+    "Un impôt direct sur le revenu des entreprises",
+    "Un impôt direct sur la consommation",
+    "Un impôt indirect sur la consommation",
+    "Un impôt sur la fortune commerciale"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la TVA ne frappe pas le revenu des entreprises ; ce n'est pas un impôt direct (art. 1 al. 1 LTVA).",
+    "Faux : elle frappe bien la consommation, mais de façon indirecte, pas directe.",
+    "Exact : la TVA est un impôt indirect sur la consommation — celui qui la verse (l'entreprise) n'est pas celui qui la supporte (le consommateur) (art. 1 al. 1 LTVA).",
+    "Faux : la TVA ne porte pas sur la fortune commerciale."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-003",
+   "champ": "Système & mécanisme TVA — Conception du système",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Selon quel principe la TVA suisse est-elle conçue ?",
+   "options": [
+    "D'après un système multistade net avec déduction de l'impôt préalable",
+    "D'après un système multistade brut",
+    "D'après un système monostade prélevé au seul stade du détail",
+    "D'après un système multistade brut avec déduction de l'impôt préalable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la TVA suisse est un impôt multistade net avec déduction de l'impôt préalable — seule la valeur ajoutée est finalement taxée (art. 1 al. 1 LTVA).",
+    "Faux : un système brut taxerait le montant total à chaque stade (taxation en cascade), ce que la Suisse évite.",
+    "Faux : la TVA est prélevée à tous les stades, pas seulement au stade du détail.",
+    "Faux : le système suisse est net, pas brut ; « brut avec déduction » est contradictoire."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M1-004",
+   "champ": "Système & mécanisme TVA — Charge fiscale",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Selon la conception de la TVA suisse, qui supporte économiquement la charge de l'impôt ?",
+   "options": [
+    "L'Administration fédérale des contributions",
+    "Le fournisseur de prestations assujetti à la TVA",
+    "Le destinataire assujetti à la TVA (entreprise)",
+    "Le consommateur final"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'AFC encaisse l'impôt mais n'en supporte pas la charge.",
+    "Faux : le fournisseur assujetti n'est qu'un percepteur (poste neutre), il ne supporte pas la charge.",
+    "Faux : le destinataire assujetti récupère la TVA par la déduction de l'impôt préalable.",
+    "Exact : la charge fiscale doit être supportée par le consommateur final (art. 1 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M1-005",
+   "champ": "Système & mécanisme TVA — Poste neutre",
+   "memento": "art. 28 LTVA · art. 1 al. 1 LTVA",
+   "question": "Pourquoi la TVA ne constitue-t-elle en principe qu'un poste neutre (compte de passage) pour l'entreprise assujettie ?",
+   "options": [
+    "En raison du système multistade brut",
+    "En raison du système multistade net avec déduction de l'impôt préalable",
+    "En raison de l'exonération générale des entreprises",
+    "En raison de l'existence d'un taux unique"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le système brut produirait au contraire une taxation en cascade, non neutre.",
+    "Exact : le système net avec déduction de l'impôt préalable rend l'effet net sur le résultat nul — transférabilité de l'impôt (art. 28 LTVA · art. 1 al. 1 LTVA).",
+    "Faux : il n'existe pas d'exonération générale des entreprises ; la neutralité vient de la déduction.",
+    "Faux : la neutralité ne tient pas au taux, mais au mécanisme de déduction."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M1-006",
+   "champ": "Système & mécanisme TVA — Rôle de l'assujetti",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Dans le système de la TVA, quel est le rôle de l'entreprise assujettie à l'égard de l'impôt ?",
+   "options": [
+    "Elle supporte définitivement la charge de l'impôt",
+    "Elle est totalement exonérée de tout impôt",
+    "Elle agit comme simple percepteur pour le compte de la Confédération",
+    "Elle fixe elle-même le taux applicable à ses ventes"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'assujetti ne supporte pas la charge, il n'est qu'un poste neutre.",
+    "Faux : l'entreprise n'est pas exonérée, elle collecte et reverse l'impôt.",
+    "Exact : l'assujetti agit comme simple percepteur pour le compte de la Confédération (art. 1 al. 1 LTVA).",
+    "Faux : le taux est fixé par la loi (art. 25 LTVA), non par l'entreprise."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-007",
+   "champ": "Système & mécanisme TVA — Flux de fonds",
+   "memento": "art. 18 LTVA",
+   "question": "Quels flux de fonds la TVA distingue-t-elle fondamentalement ?",
+   "options": [
+    "Les contre-prestations d'opérations et les non-contre-prestations (apports de fonds)",
+    "Les chiffres d'affaires véritablement et faussement exonérés",
+    "Les opérations imposables, exonérées et exclues du champ de l'impôt",
+    "Les contre-prestations d'opérations et les valeurs non consommables"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la TVA oppose les contre-prestations d'opérations aux non-contre-prestations, apports de fonds sans contre-prestation (art. 18 al. 1 et 2 LTVA).",
+    "Faux : véritablement/faussement exonérés est une sous-distinction des exonérations, pas les flux de fonds de premier niveau.",
+    "Faux : imposable/exonérée/exclue qualifie les opérations, pas les flux de fonds.",
+    "Faux : les valeurs non consommables ne sont pas un flux de fonds ; le second flux est celui des non-contre-prestations (art. 18 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M1-008",
+   "champ": "Système & mécanisme TVA — Non-contre-prestation",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Laquelle de ces recettes constitue une non-contre-prestation (apport de fonds) ?",
+   "options": [
+    "La vente de marchandises sur le territoire suisse",
+    "Une prestation de conseil facturée à un client",
+    "La location d'une machine à un artisan",
+    "Une subvention versée sans contrepartie"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la vente de marchandises est une contre-prestation d'opération, dans le champ de l'impôt.",
+    "Faux : une prestation de conseil facturée est une contre-prestation imposable.",
+    "Faux : la location d'une machine à titre onéreux est une contre-prestation d'opération, dans le champ.",
+    "Exact : la subvention versée sans contrepartie est une non-contre-prestation, hors champ (art. 18 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-009",
+   "champ": "Système & mécanisme TVA — But du système",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Quel est le but poursuivi par la TVA suisse ?",
+   "options": [
+    "Taxer le bénéfice des entreprises",
+    "Imposer la consommation finale sur le territoire suisse",
+    "Taxer les exportations de biens et de services",
+    "Financer directement les budgets cantonaux"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la TVA ne frappe pas le bénéfice (ce serait un impôt direct).",
+    "Exact : le but légal de la TVA est d'imposer la consommation finale sur le territoire suisse (art. 1 al. 1 LTVA).",
+    "Faux : les exportations sont exonérées ; la TVA n'a pas pour but de les taxer.",
+    "Faux : la TVA alimente le budget fédéral, non directement les budgets cantonaux."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-010",
+   "champ": "Système & mécanisme TVA — Multistade net vs brut",
+   "memento": "art. 28 LTVA · art. 1 al. 1 LTVA",
+   "question": "Qu'est-ce qui distingue le système multistade NET du système multistade BRUT ?",
+   "options": [
+    "Le système net ne s'applique qu'au stade du détaillant",
+    "Le système brut prévoit systématiquement un taux réduit",
+    "Le système net permet à chaque stade de déduire l'impôt préalable, ce qui évite la taxation en cascade",
+    "Le système brut est réservé aux seules importations"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le système net s'applique à tous les stades, pas seulement au détaillant.",
+    "Faux : le système brut ne se définit pas par un taux réduit.",
+    "Exact : le système net permet à chaque stade de déduire l'impôt préalable, si bien que seule la valeur ajoutée est taxée — pas de cascade (art. 28 LTVA · art. 1 al. 1 LTVA).",
+    "Faux : le système brut n'est pas réservé aux importations ; la distinction tient à la déduction."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-011",
+   "champ": "Système & mécanisme TVA — Transférabilité de l'impôt",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Que signifie le principe de transférabilité de l'impôt en matière de TVA ?",
+   "options": [
+    "L'impôt est répercuté d'un stade au suivant jusqu'à peser sur le consommateur final",
+    "L'entreprise peut renoncer librement à percevoir la TVA",
+    "Le produit de l'impôt est transféré aux cantons",
+    "L'impôt préalable n'est jamais déductible"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la transférabilité répercute l'impôt de stade en stade pour peser finalement sur le consommateur final ; elle rend la TVA neutre pour l'entreprise (art. 1 al. 1 LTVA).",
+    "Faux : l'entreprise ne peut pas renoncer librement à percevoir la TVA.",
+    "Faux : le produit de l'impôt n'est pas transféré aux cantons (impôt fédéral).",
+    "Faux : l'impôt préalable est au contraire déductible (art. 28 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-012",
+   "champ": "Système & mécanisme TVA — Ruptures du système",
+   "memento": "art. 21 LTVA",
+   "question": "Laquelle de ces situations constitue une « rupture » du système de la TVA (là où la neutralité de la déduction est brisée) ?",
+   "options": [
+    "La règle du lieu de la prestation de services (art. 8 LTVA)",
+    "Les exclusions du champ de l'impôt (art. 21 LTVA)",
+    "Les exonérations de l'impôt (art. 23 LTVA)",
+    "L'application du taux normal"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la règle du lieu de la prestation de services (art. 8 LTVA) ne rompt pas la neutralité de la déduction.",
+    "Exact : les exclusions du champ (art. 21 LTVA) suppriment la déduction et rompent le système.",
+    "Faux : les exonérations (art. 23 LTVA) maintiennent la déduction — fausse exonération, pas une rupture.",
+    "Faux : l'application du taux normal ne brise pas la neutralité du système."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M1-013",
+   "champ": "Système & mécanisme TVA — Base légale des non-contre-prestations",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Quel article énumère, à titre d'exemple, les éléments ne faisant pas partie de la contre-prestation (non-contre-prestations) ?",
+   "options": [
+    "art. 21 LTVA",
+    "art. 24 LTVA",
+    "art. 10 LTVA",
+    "art. 18 al. 2 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 21 LTVA vise les opérations exclues du champ, non les non-contre-prestations.",
+    "Faux : l'art. 24 LTVA fixe la base de calcul, pas la liste des non-contre-prestations.",
+    "Faux : l'art. 10 LTVA règle l'assujettissement.",
+    "Exact : l'art. 18 al. 2 LTVA dresse la liste exemplative des flux ne constituant pas une contre-prestation (subventions, dons, dividendes, apports…)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-014",
+   "champ": "Système & mécanisme TVA — Base légale de l'objet de l'impôt",
+   "memento": "art. 18 al. 1 LTVA",
+   "question": "Quel article pose le principe de l'objet de l'impôt, en soumettant à la TVA les prestations fournies à titre onéreux sur le territoire suisse ?",
+   "options": [
+    "art. 21 LTVA",
+    "art. 23 LTVA",
+    "art. 25 LTVA",
+    "art. 18 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 21 LTVA vise les prestations exclues du champ.",
+    "Faux : l'art. 23 LTVA vise les prestations exonérées.",
+    "Faux : l'art. 25 LTVA fixe les taux.",
+    "Exact : l'art. 18 al. 1 LTVA pose le principe : sont imposables les prestations fournies à titre onéreux sur le territoire suisse, si elles ne sont pas exclues."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-015",
+   "champ": "Système & mécanisme TVA — Mécanisme en chiffres",
+   "memento": "art. 28 LTVA · art. 25 al. 1 LTVA",
+   "question": "Une usine vend des montres 100 000 CHF à un commerçant, qui les revend 200 000 CHF au consommateur (TVA 8,1 %). Quel montant total de TVA l'État encaisse-t-il finalement sur cette chaîne ?",
+   "options": [
+    "16 200 CHF (soit 8,1 % de 200 000)",
+    "24 300 CHF (8 100 + 16 200)",
+    "8 100 CHF",
+    "0 CHF, car la TVA est neutre"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : grâce à la déduction en chaîne, l'État n'encaisse au total que 16 200 CHF, soit 8,1 % de 200 000 — la TVA supportée par le consommateur final (art. 28 LTVA · art. 25 al. 1 LTVA).",
+    "Faux : 24 300 CHF (8 100 + 16 200) correspondrait à un système en cascade, que la Suisse n'applique pas.",
+    "Faux : 8 100 CHF n'est que la TVA du premier stade ; le total encaissé suit la valeur finale.",
+    "Faux : la TVA est neutre pour les entreprises, mais l'État encaisse bien la TVA du consommateur (16 200 CHF)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-016",
+   "champ": "Système & mécanisme TVA — Incidence comptable",
+   "memento": "art. 28 LTVA",
+   "question": "Müller SA, entièrement assujettie, achète des marchandises 50 000 CHF + TVA et les revend 80 000 CHF + TVA. Quelle est l'incidence de la TVA dans son compte de résultat ?",
+   "options": [
+    "Une charge de TVA calculée sur sa marge",
+    "Un produit exceptionnel",
+    "Aucune : la TVA est un poste neutre (compte de passage)",
+    "Une charge égale à la TVA facturée à ses clients"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la TVA n'est pas une charge sur la marge ; elle est neutre pour le résultat.",
+    "Faux : la TVA n'est pas un produit.",
+    "Exact : la TVA amont est récupérée comme impôt préalable et la TVA aval reversée à l'AFC — effet net nul, poste neutre (art. 28 LTVA).",
+    "Faux : la TVA facturée aux clients est reversée à l'AFC, ce n'est pas une charge pour l'entreprise."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-017",
+   "champ": "Système & mécanisme TVA — Condition de la neutralité",
+   "memento": "art. 21 LTVA · art. 28 LTVA",
+   "question": "La TVA n'est un poste neutre pour l'entreprise QUE si une condition est remplie. Laquelle ?",
+   "options": [
+    "Que son chiffre d'affaires dépasse 250 000 CHF",
+    "Que son droit à la déduction de l'impôt préalable ne soit pas restreint (opérations non exclues)",
+    "Qu'elle applique le taux réduit",
+    "Qu'elle soit une collectivité publique"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil de chiffre d'affaires ne conditionne pas la neutralité de la TVA.",
+    "Exact : la neutralité repose sur un droit à la déduction non restreint ; une opération exclue (art. 21 LTVA) fait perdre la déduction et transforme la TVA amont en charge.",
+    "Faux : le taux réduit est sans effet sur la neutralité.",
+    "Faux : le statut de collectivité publique ne détermine pas la neutralité."
+   ],
+   "piege": "neutralité seulement si déduction non restreinte",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-018",
+   "champ": "Système & mécanisme TVA — Exclue vs non-contre-prestation",
+   "memento": "art. 21 LTVA · art. 18 al. 2 LTVA",
+   "question": "Une opération exclue (art. 21) et une non-contre-prestation (art. 18 al. 2) sont souvent confondues. Qu'est-ce qui les distingue quant aux flux de fonds ?",
+   "options": [
+    "Aucune différence : les deux sont totalement hors du champ",
+    "Seule la non-contre-prestation ouvre le droit d'option",
+    "L'exclue est une contre-prestation d'opération (dans le champ, option possible) ; la non-contre-prestation n'en est pas une (jamais d'option)",
+    "L'exclue donne toujours droit à la déduction de l'impôt préalable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'exclue reste dans le champ (option possible) ; la non-contre-prestation en est hors — ce n'est pas identique.",
+    "Faux : c'est l'inverse — l'option concerne l'exclue (art. 22 LTVA), jamais la non-contre-prestation.",
+    "Exact : l'exclue (art. 21) est une contre-prestation d'opération dans le champ, avec option possible (art. 22) ; la non-contre-prestation (art. 18 al. 2) n'en est pas une, sans option.",
+    "Faux : l'exclue ne donne pas droit à la déduction, sauf exercice de l'option."
+   ],
+   "piege": "exclue vs non-contre-prestation",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-019",
+   "champ": "Système & mécanisme TVA — Charge fiscale (inversé)",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Laquelle de ces affirmations sur la charge de la TVA est FAUSSE ?",
+   "options": [
+    "Le fournisseur assujetti supporte définitivement la charge de la TVA",
+    "La charge est en principe supportée par le consommateur final",
+    "L'assujetti agit comme un simple percepteur",
+    "La TVA est un impôt indirect"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : c'est bien l'affirmation fausse — le fournisseur assujetti ne supporte pas la charge, il n'est qu'un percepteur (poste neutre) (art. 1 al. 1 LTVA).",
+    "Faux (affirmation vraie) : la charge est effectivement supportée par le consommateur final.",
+    "Faux (affirmation vraie) : l'assujetti agit bien comme un simple percepteur.",
+    "Faux (affirmation vraie) : la TVA est bien un impôt indirect."
+   ],
+   "piege": "repérer l'affirmation fausse",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-020",
+   "champ": "Système & mécanisme TVA — Multistade brut vs net (piège)",
+   "memento": "art. 1 al. 1 LTVA",
+   "question": "Un candidat affirme que la TVA suisse taxe le chiffre d'affaires total de chaque stade sans aucune déduction. Que faut-il répondre ?",
+   "options": [
+    "C'est exact : c'est le système net",
+    "C'est exact, mais uniquement pour les importations",
+    "C'est exact : la Suisse applique bien un système multistade brut",
+    "C'est faux : la Suisse applique un système net avec déduction de l'impôt préalable, seule la valeur ajoutée étant taxée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : taxer le total sans déduction décrit le système brut, pas le système net.",
+    "Faux : cette description ne vaut pas davantage pour les seules importations.",
+    "Faux : la Suisse n'applique pas un système multistade brut.",
+    "Exact : la Suisse applique un système net avec déduction de l'impôt préalable ; seule la valeur ajoutée est taxée (art. 1 al. 1 LTVA)."
+   ],
+   "piege": "brut vs net",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-021",
+   "champ": "Objet & champ d'application — Objet de l'impôt",
+   "memento": "art. 18 al. 1 LTVA",
+   "question": "Comment définir correctement l'objet de l'impôt (objet fiscal) en matière de TVA suisse ?",
+   "options": [
+    "Toutes les livraisons et prestations de services fournies à titre onéreux, où qu'elles soient réalisées dans le monde",
+    "Toutes les prestations fournies à titre onéreux sur le territoire suisse, y compris celles qui sont exclues du champ de l'impôt",
+    "Toutes les prestations (livraisons et prestations de services) fournies à titre onéreux sur le territoire suisse, dans la mesure où elles ne sont pas exclues du champ de l'impôt",
+    "Toutes les livraisons de biens fournies à titre onéreux sur le territoire suisse, que le fournisseur soit un assujetti ou un simple particulier"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le lieu (territoire suisse) est une condition ; les opérations « où qu'elles soient dans le monde » ne sont pas visées.",
+    "Faux : les opérations exclues ne font justement pas partie de l'objet de l'impôt.",
+    "Exact : l'objet de l'impôt regroupe les prestations à titre onéreux sur le territoire suisse, pour autant qu'elles ne soient pas exclues (art. 18 al. 1 LTVA).",
+    "Faux : l'objet ne se limite pas aux livraisons de biens et suppose un assujetti, non un simple particulier."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M1-022",
+   "champ": "Objet & champ d'application — Rapport de prestations imposable — conditions cumulatives",
+   "memento": "art. 18 al. 1 LTVA",
+   "question": "Un rapport de prestations imposable suppose la réunion de plusieurs conditions cumulatives. Laquelle de ces énumérations est correcte ?",
+   "options": [
+    "Une prestation non exclue, fournie à titre onéreux, sur le territoire suisse, par un assujetti, avec un lien économique intrinsèque entre prestation et contre-prestation",
+    "Une livraison de biens, un lieu suisse, un chiffre d'affaires supérieur à CHF 100 000, un assujetti et une facture conforme",
+    "Une prestation, un preneur lui-même assujetti, un contrat écrit, un prix de marché et un transfert de propriété",
+    "Une prestation onéreuse, la réalisation d'un bénéfice, un siège suisse du prestataire et une inscription au registre de la TVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : prestation non exclue, à titre onéreux, sur le territoire suisse, par un assujetti, avec lien économique intrinsèque (art. 18 al. 1 LTVA).",
+    "Faux : ni un seuil de CA de 100 000 CHF ni une facture conforme ne sont des conditions de l'objet de l'impôt.",
+    "Faux : ni un contrat écrit ni la qualité d'assujetti du preneur ne sont exigés.",
+    "Faux : la réalisation d'un bénéfice n'est pas une condition, et l'inscription au registre n'en est pas une non plus."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-023",
+   "champ": "Objet & champ d'application — Valeurs non consommables",
+   "memento": "art. 3 let. c LTVA",
+   "question": "Selon l'art. 3 let. c LTVA, une prestation suppose la cession d'une valeur économique consommable. Parmi les éléments suivants, lequel est une valeur NON consommable ?",
+   "options": [
+    "Les diamants",
+    "Le fait de tolérer un acte",
+    "Le sol (terrain)",
+    "Des pièces de collection"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les diamants sont des biens consommables au sens de la TVA.",
+    "Faux : tolérer un acte est une prestation de services (art. 3 let. e LTVA), non une valeur non consommable.",
+    "Exact : le sol (terrain), comme l'argent, n'est pas une valeur consommable (art. 3 let. c LTVA) ; sa cession n'est pas une prestation imposable.",
+    "Faux : les pièces de collection sont des biens consommables au sens de la TVA."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M1-024",
+   "champ": "Objet & champ d'application — Prestation",
+   "memento": "art. 3 let. c LTVA",
+   "question": "Qu'est-ce qu'une prestation au sens de l'art. 3 let. c LTVA ?",
+   "options": [
+    "Tout transfert de propriété d'un bien contre paiement immédiat en espèces",
+    "Le fait d'accorder à un bénéficiaire un avantage économique consommable dans l'attente d'une contre-prestation",
+    "Toute opération inscrite au compte de résultat de l'entreprise",
+    "L'échange de deux biens de valeur strictement égale entre deux assujettis"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la prestation ne se limite pas au transfert de propriété contre paiement en espèces.",
+    "Exact : la prestation est le fait d'accorder un avantage économique consommable dans l'attente d'une contre-prestation (art. 3 let. c LTVA).",
+    "Faux : la qualification ne dépend pas de l'inscription au compte de résultat.",
+    "Faux : la prestation ne suppose pas un échange de biens de valeur strictement égale."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-025",
+   "champ": "Objet & champ d'application — Livraison vs prestation de services",
+   "memento": "art. 3 let. d ch. 3 LTVA",
+   "question": "Comment qualifier, au sens de la TVA, la mise à disposition d'un bien pour usage ou jouissance (location) ?",
+   "options": [
+    "Une prestation de services, car aucun bien ne change définitivement de propriétaire",
+    "Une non-contre-prestation",
+    "Une opération exclue du champ de l'impôt",
+    "Une livraison"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : malgré l'absence de transfert de propriété, la location n'est pas une prestation de services.",
+    "Faux : la location contre paiement est une contre-prestation d'opération, pas une non-contre-prestation.",
+    "Faux : la location n'est pas exclue du champ par principe.",
+    "Exact : la mise à disposition d'un bien pour usage ou jouissance (location) est une livraison (art. 3 let. d ch. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-026",
+   "champ": "Objet & champ d'application — Livraison",
+   "memento": "art. 3 let. d LTVA",
+   "question": "Que recouvre la notion de livraison au sens de l'art. 3 let. d LTVA ?",
+   "options": [
+    "Uniquement le transfert définitif de la propriété juridique d'un bien",
+    "Le pouvoir de disposer économiquement d'un bien, les travaux effectués sur un bien même sans modification, et la mise à disposition d'un bien pour usage ou jouissance",
+    "Toute cession de valeurs ou de droits immatériels à un tiers",
+    "Uniquement les biens transportés depuis l'étranger vers la Suisse"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la livraison ne se réduit pas au transfert de la propriété juridique.",
+    "Exact : la livraison couvre le pouvoir de disposer économiquement d'un bien, les travaux sur un bien même sans modification, et la mise à disposition pour usage/jouissance (art. 3 let. d LTVA).",
+    "Faux : la cession de droits immatériels est une prestation de services (art. 3 let. e LTVA).",
+    "Faux : la livraison ne se limite pas aux biens importés depuis l'étranger."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-027",
+   "champ": "Objet & champ d'application — Prestation de services",
+   "memento": "art. 3 let. e LTVA",
+   "question": "Comment l'art. 3 let. e LTVA définit-il la prestation de services ?",
+   "options": [
+    "Toute prestation qui implique la remise matérielle d'un bien",
+    "Uniquement les prestations de conseil facturées à l'heure",
+    "Toute prestation qui ne constitue pas une livraison, y compris la cession de droits immatériels et l'engagement à tolérer un acte",
+    "Uniquement les prestations fournies à des destinataires établis à l'étranger"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la remise matérielle d'un bien relève de la livraison, non de la prestation de services.",
+    "Faux : la prestation de services ne se limite pas au conseil facturé à l'heure.",
+    "Exact : la prestation de services est toute prestation qui n'est pas une livraison — définition résiduelle incluant la cession de droits immatériels et l'engagement à tolérer un acte (art. 3 let. e LTVA).",
+    "Faux : elle n'est pas limitée aux destinataires établis à l'étranger."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-028",
+   "champ": "Objet & champ d'application — Prestation de services — droits immatériels",
+   "memento": "art. 3 let. e LTVA",
+   "question": "Une société cède à un tiers un brevet (droit immatériel) contre rémunération. Comment cette opération se qualifie-t-elle en matière de TVA ?",
+   "options": [
+    "Une prestation de services",
+    "Une livraison",
+    "Une non-contre-prestation",
+    "Une opération hors champ, les droits immatériels n'étant pas consommables"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la cession d'un droit immatériel (brevet) contre rémunération est expressément une prestation de services (art. 3 let. e LTVA).",
+    "Faux : ce n'est pas une livraison, qui suppose un bien.",
+    "Faux : il y a une rémunération en contrepartie, donc pas de non-contre-prestation.",
+    "Faux : la cession de droits immatériels est bien dans le champ, comme prestation de services."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-029",
+   "champ": "Objet & champ d'application — Contre-prestation",
+   "memento": "art. 3 let. f LTVA",
+   "question": "Qu'est-ce qu'une contre-prestation au sens de l'art. 3 let. f LTVA ?",
+   "options": [
+    "La marge bénéficiaire réalisée par le fournisseur sur une opération",
+    "La valeur patrimoniale que le destinataire de la prestation, ou un tiers à sa place, dépense pour obtenir la prestation",
+    "Le montant de la TVA figurant sur la facture",
+    "La valeur comptable du bien livré au bilan du fournisseur"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la contre-prestation n'est pas la marge bénéficiaire du fournisseur.",
+    "Exact : la contre-prestation est la valeur patrimoniale que le destinataire, ou un tiers à sa place, dépense pour obtenir la prestation (art. 3 let. f LTVA).",
+    "Faux : ce n'est pas le montant de la TVA figurant sur la facture.",
+    "Faux : ce n'est pas la valeur comptable du bien au bilan du fournisseur."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-030",
+   "champ": "Objet & champ d'application — Contre-prestation — base de calcul",
+   "memento": "art. 24 LTVA",
+   "question": "La contre-prestation ne sert pas seulement de condition d'imposition : elle constitue aussi la base de calcul de la TVA. Quelle disposition fixe cette base de calcul ?",
+   "options": [
+    "art. 18 LTVA",
+    "art. 25 LTVA",
+    "art. 24 LTVA",
+    "art. 3 let. f LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 18 LTVA pose le principe de l'objet de l'impôt, pas la base de calcul.",
+    "Faux : l'art. 25 LTVA fixe les taux.",
+    "Exact : la base de calcul de la TVA (contre-prestation effectivement reçue) est fixée à l'art. 24 LTVA.",
+    "Faux : l'art. 3 let. f LTVA définit la notion de contre-prestation, sans fixer la base de calcul."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-031",
+   "champ": "Objet & champ d'application — Non-contre-prestations",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "La loi sur la TVA vise les éléments ne faisant pas partie de la contre-prestation. Quelle assertion est correcte ?",
+   "options": [
+    "Les non-contre-prestations ne sont jamais des valeurs patrimoniales",
+    "Les non-contre-prestations sont énumérées de manière exhaustive par la loi sur la TVA",
+    "Les non-contre-prestations ne constituent pas une contre-prestation au sens de la TVA",
+    "Les éléments ne faisant pas partie de la contre-prestation découlent d'un échange de prestations à évaluer"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les non-contre-prestations peuvent être des valeurs patrimoniales (dons, subventions…).",
+    "Faux : l'énumération de l'art. 18 al. 2 LTVA est exemplative, non exhaustive.",
+    "Exact : les fonds non versés pour obtenir une prestation ne constituent pas une contre-prestation au sens de la TVA (art. 18 al. 2 LTVA).",
+    "Faux : précisément, il n'y a pas d'échange de prestations dans une non-contre-prestation."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M1-032",
+   "champ": "Objet & champ d'application — Non-contre-prestations — dons",
+   "memento": "art. 18 al. 2 let. d LTVA · art. 3 let. i LTVA",
+   "question": "Une fondation reçoit un don de CHF 50 000, sans aucune contrepartie attendue du donateur. Comment ce flux se qualifie-t-il en matière de TVA ?",
+   "options": [
+    "Une prestation de services imposable au taux normal",
+    "Une opération exonérée avec droit à déduction",
+    "Une opération exclue du champ de l'impôt, avec option possible",
+    "Une non-contre-prestation, hors du champ de l'impôt"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un don sans contrepartie n'est pas une prestation de services imposable.",
+    "Faux : ce n'est pas une opération exonérée avec droit à déduction.",
+    "Faux : ce n'est pas une opération exclue (qui, elle, reste dans le champ et peut être optée).",
+    "Exact : le don versé sans contrepartie est une non-contre-prestation, hors champ (art. 18 al. 2 let. d LTVA ; notion de don art. 3 let. i LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-033",
+   "champ": "Objet & champ d'application — Non-contre-prestations — délimitation",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Parmi les éléments suivants, lequel n'appartient PAS aux non-contre-prestations de l'art. 18 al. 2 LTVA ?",
+   "options": [
+    "Les subventions et autres contributions de droit public",
+    "Les honoraires facturés à un client pour une prestation de conseil",
+    "Les dividendes et autres parts de bénéfice",
+    "Les montants versés à titre de dommages-intérêts"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les subventions et contributions de droit public sont des non-contre-prestations (art. 18 al. 2 LTVA).",
+    "Exact : les honoraires de conseil sont une contre-prestation imposable — ils n'appartiennent pas aux non-contre-prestations.",
+    "Faux : les dividendes et parts de bénéfice sont des non-contre-prestations (art. 18 al. 2 LTVA).",
+    "Faux : les dommages-intérêts figurent parmi les non-contre-prestations (art. 18 al. 2 LTVA)."
+   ],
+   "piege": "honoraires = contre-prestation, pas non-CP",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-034",
+   "champ": "Objet & champ d'application — Territoire suisse",
+   "memento": "art. 3 let. a LTVA · art. 4 LTVA",
+   "question": "Où la TVA suisse grevant les opérations sur le territoire est-elle prélevée ?",
+   "options": [
+    "En Suisse et dans la Principauté du Liechtenstein uniquement, à l'exclusion des enclaves",
+    "En Suisse et dans les zones franches, sans aucune exception",
+    "Sur le seul territoire de la Confédération, à l'exclusion de toute enclave douanière",
+    "Sur le territoire suisse (national) avec les enclaves douanières ; Samnaun et Sampuoir en font partie pour les prestations de services (avec exception pour les livraisons)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les enclaves douanières font partie du territoire suisse ; l'énoncé les exclut à tort.",
+    "Faux : ce n'est pas « sans aucune exception » — Samnaun et Sampuoir ont un régime spécial.",
+    "Faux : le territoire suisse inclut au contraire les enclaves douanières.",
+    "Exact : territoire suisse = territoire national + enclaves douanières (art. 3 let. a LTVA) ; Samnaun et Sampuoir sont suisses pour les services, étrangers pour les livraisons (art. 4 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-035",
+   "champ": "Objet & champ d'application — Territoire suisse — Samnaun",
+   "memento": "art. 4 LTVA",
+   "question": "Un commerçant livre une montre (bien) à un client dans la vallée grisonne de Samnaun. Du point de vue de la TVA, ce lieu de livraison est-il territoire suisse ou étranger ?",
+   "options": [
+    "Territoire suisse, comme le reste du canton des Grisons",
+    "Territoire étranger : Samnaun est réputé étranger pour les livraisons de biens",
+    "Territoire suisse, mais uniquement si le client est assujetti",
+    "Territoire étranger pour toutes les opérations, livraisons comme prestations de services"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : pour les livraisons de biens, Samnaun n'est pas territoire suisse.",
+    "Exact : Samnaun (et Sampuoir) est réputé territoire étranger pour les livraisons de biens (art. 4 LTVA).",
+    "Faux : le statut ne dépend pas de la qualité d'assujetti du client.",
+    "Faux : pour les prestations de services, Samnaun reste territoire suisse — double régime."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-036",
+   "champ": "Objet & champ d'application — Territoire suisse — base légale",
+   "memento": "art. 4 LTVA",
+   "question": "Quelle disposition règle le statut particulier des vallées de Samnaun et Sampuoir ?",
+   "options": [
+    "art. 4 LTVA",
+    "art. 3 al. 2 LD",
+    "art. 8 al. 1 LTVA",
+    "art. 23 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le régime spécial de Samnaun et Sampuoir (suisse pour les services, étranger pour les livraisons) figure à l'art. 4 LTVA.",
+    "Faux : l'art. 3 al. 2 LD définit les enclaves douanières, non le régime de Samnaun.",
+    "Faux : l'art. 8 al. 1 LTVA fixe le lieu des prestations de services.",
+    "Faux : l'art. 23 LTVA vise les exonérations."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-037",
+   "champ": "Objet & champ d'application — Lien économique intrinsèque",
+   "memento": "art. 18 al. 1 LTVA · art. 3 let. f LTVA",
+   "question": "En quoi consiste le lien économique intrinsèque exigé pour un rapport de prestations imposable ?",
+   "options": [
+    "Dans le fait que le fournisseur et le client soient liés par un contrat écrit signé",
+    "Dans le fait que la prestation et la contre-prestation aient exactement la même valeur",
+    "Dans le fait que la contre-prestation soit dépensée pour obtenir la prestation, dans un rapport de cause à effet",
+    "Dans le fait que les deux parties soient toutes deux assujetties à la TVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un contrat écrit signé n'est pas requis ; le lien peut exister sans relation contractuelle.",
+    "Faux : l'équivalence exacte des valeurs n'est pas exigée.",
+    "Exact : le lien économique intrinsèque suppose que la contre-prestation soit dépensée pour obtenir la prestation, dans un rapport de cause à effet réciproque (art. 3 let. f et art. 18 al. 1 LTVA).",
+    "Faux : il n'est pas nécessaire que les deux parties soient assujetties."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-038",
+   "champ": "Objet & champ d'application — Lien économique intrinsèque — subvention vs contrepartie",
+   "memento": "art. 18 al. 2 let. a LTVA",
+   "question": "Une commune verse CHF 50 000 à un club, en soutien, sans rien recevoir. Dans un autre cas, elle verse CHF 50 000 pour une campagne d'affichage réalisée à son nom. Comment qualifier ces deux versements ?",
+   "options": [
+    "Dans les deux cas, une non-contre-prestation",
+    "Subvention (non-contre-prestation) dans le premier cas ; prestation imposable dans le second, où l'affichage est la contrepartie",
+    "Prestation imposable dans les deux cas",
+    "Opération exclue dans le premier cas ; opération exonérée dans le second"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le second versement (campagne d'affichage) a une contrepartie, il n'est pas une non-contre-prestation.",
+    "Exact : soutien sans contrepartie = subvention (non-contre-prestation, art. 18 al. 2 let. a LTVA) ; paiement d'une campagne d'affichage au nom de la commune = prestation imposable (lien économique établi).",
+    "Faux : le premier versement, sans contrepartie, n'est pas une prestation imposable.",
+    "Faux : il ne s'agit ni d'une opération exclue ni d'une opération exonérée."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-039",
+   "champ": "Objet & champ d'application — Opérations exonérées",
+   "memento": "art. 23 al. 1 LTVA",
+   "question": "Quelle est la particularité d'une opération exonérée (art. 23 LTVA) au regard de la déduction de l'impôt préalable ?",
+   "options": [
+    "Elle ne facture pas de TVA et fait perdre le droit à la déduction de l'impôt préalable",
+    "Elle facture la TVA au taux réduit et conserve la déduction",
+    "Elle ne facture pas de TVA mais conserve le droit à la déduction de l'impôt préalable",
+    "Elle suppose toujours l'exercice préalable d'une option"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'opération exonérée ne fait pas perdre la déduction — c'est l'opération exclue qui la perd.",
+    "Faux : l'exonérée ne facture aucune TVA, pas même au taux réduit.",
+    "Exact : l'opération exonérée n'est grevée d'aucune TVA mais conserve le droit à la déduction de l'impôt préalable (art. 23 al. 1 LTVA).",
+    "Faux : l'exonération n'exige aucune option préalable."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-040",
+   "champ": "Objet & champ d'application — Opérations exclues",
+   "memento": "art. 21 LTVA · art. 29 LTVA",
+   "question": "Quelle conséquence emporte, en principe, une opération exclue du champ de l'impôt (art. 21 LTVA) sur le droit à déduction ?",
+   "options": [
+    "Pas de TVA facturée et perte du droit à la déduction de l'impôt préalable (sauf option)",
+    "TVA au taux normal et déduction intégrale de l'impôt préalable",
+    "Pas de TVA facturée mais maintien intégral de la déduction de l'impôt préalable",
+    "Exonération avec droit à déduction, comme pour une livraison exportée"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'opération exclue ne facture pas de TVA et n'ouvre pas de droit à la déduction, sauf option (art. 21 en lien avec art. 29 LTVA ; option art. 22).",
+    "Faux : l'exclue ne facture pas de TVA au taux normal.",
+    "Faux : le maintien de la déduction caractérise l'opération exonérée (art. 23), pas l'exclue.",
+    "Faux : l'exclue n'est pas une exonération avec droit à déduction comme l'export."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-041",
+   "champ": "Objet & champ d'application — Exclu vs exonéré",
+   "memento": "art. 23 LTVA · art. 21 LTVA",
+   "question": "Une opération exclue et une opération exonérée ne facturent toutes deux aucune TVA. Quelle différence fondamentale les sépare ?",
+   "options": [
+    "Aucune : les deux notions sont synonymes en matière de TVA",
+    "L'exclue conserve la déduction de l'impôt préalable, l'exonérée la perd",
+    "L'exonérée est toujours soumise à option, l'exclue jamais",
+    "L'exonérée conserve le droit à la déduction de l'impôt préalable, tandis que l'exclue le perd (sauf option)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les deux notions ne sont pas synonymes.",
+    "Faux : c'est l'inverse — l'exclue perd la déduction, l'exonérée la conserve.",
+    "Faux : l'exonérée n'est pas soumise à option ; c'est l'exclue qui peut être optée.",
+    "Exact : l'exonérée (art. 23 LTVA) maintient la déduction de l'impôt préalable ; l'exclue (art. 21 LTVA) la perd, sauf option (art. 22)."
+   ],
+   "piege": "exclu vs exonéré",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-042",
+   "champ": "Objet & champ d'application — Opérations exonérées — export",
+   "memento": "art. 23 al. 2 LTVA · art. 23 al. 1 LTVA",
+   "question": "Un fabricant suisse expédie directement ses biens à un acheteur établi à l'étranger. Comment cette livraison se qualifie-t-elle en matière de TVA ?",
+   "options": [
+    "Exclue du champ de l'impôt, sans droit à déduction",
+    "Exonérée de l'impôt, avec maintien du droit à la déduction de l'impôt préalable",
+    "Imposable au taux normal de 8,1 %",
+    "Non-contre-prestation, faute de lien économique intrinsèque"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'export n'est pas une opération exclue ; il conserve la déduction.",
+    "Exact : la livraison de biens expédiés directement à l'étranger est exonérée (art. 23 al. 2 LTVA), tout en conservant le droit à la déduction (art. 23 al. 1).",
+    "Faux : l'export n'est pas imposé à 8,1 %, il est exonéré.",
+    "Faux : il y a bien un lien économique intrinsèque ; ce n'est pas une non-contre-prestation."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-043",
+   "champ": "Objet & champ d'application — Opérations exclues — santé",
+   "memento": "art. 21 al. 2 LTVA",
+   "question": "Un cabinet médical fournit des soins et traitements à ses patients. Quelle est la qualification TVA de ces prestations ?",
+   "options": [
+    "Imposables au taux réduit",
+    "Exonérées, avec droit à la déduction de l'impôt préalable",
+    "Exclues du champ de l'impôt (sans déduction, sauf option)",
+    "Non-contre-prestations"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les soins médicaux ne sont pas imposables au taux réduit.",
+    "Faux : ce ne sont pas des opérations exonérées avec droit à déduction.",
+    "Exact : les soins et traitements médicaux sont exclus du champ (art. 21 al. 2 LTVA) : pas de TVA, perte de la déduction sauf option (art. 22).",
+    "Faux : ce ne sont pas des non-contre-prestations."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-044",
+   "champ": "Objet & champ d'application — Opérations exclues — base légale",
+   "memento": "art. 21 al. 2 LTVA",
+   "question": "Quelle disposition contient la liste (exhaustive) des prestations exclues du champ de l'impôt ?",
+   "options": [
+    "art. 21 al. 2 LTVA",
+    "art. 23 al. 2 LTVA",
+    "art. 18 al. 2 LTVA",
+    "art. 25 al. 2 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les prestations exclues sont énumérées de manière exhaustive à l'art. 21 al. 2 ch. 1 à 31 LTVA.",
+    "Faux : l'art. 23 al. 2 LTVA vise les exonérations.",
+    "Faux : l'art. 18 al. 2 LTVA vise les non-contre-prestations.",
+    "Faux : l'art. 25 al. 2 LTVA fixe le taux réduit."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-045",
+   "champ": "Objet & champ d'application — Opérations exonérées — base légale",
+   "memento": "art. 23 LTVA",
+   "question": "Quelle disposition régit les prestations exonérées de l'impôt (livraisons expédiées à l'étranger, etc.) ?",
+   "options": [
+    "art. 21 LTVA",
+    "art. 22 LTVA",
+    "art. 18 LTVA",
+    "art. 23 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 21 LTVA vise les prestations exclues.",
+    "Faux : l'art. 22 LTVA règle l'option.",
+    "Faux : l'art. 18 LTVA pose le principe de l'objet de l'impôt et les non-contre-prestations.",
+    "Exact : les prestations exonérées relèvent de l'art. 23 LTVA (pas d'impôt dû, déduction maintenue)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-046",
+   "champ": "Objet & champ d'application — Option (imposition volontaire)",
+   "memento": "art. 22 LTVA · art. 39 OTVA",
+   "question": "En quoi consiste l'option au sens de l'art. 22 LTVA ?",
+   "options": [
+    "La faculté d'exonérer volontairement une livraison expédiée à l'étranger",
+    "La faculté d'imposer volontairement la majorité des prestations exclues, afin de pouvoir déduire l'impôt préalable",
+    "La faculté de renoncer à la libération de l'assujettissement lorsque le CA est inférieur au seuil",
+    "La faculté de choisir la méthode des taux de la dette fiscale nette"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'option ne sert pas à exonérer une livraison export, déjà exonérée de plein droit.",
+    "Exact : l'option permet d'imposer volontairement la majorité des prestations exclues afin de récupérer la déduction de l'impôt préalable (art. 22 LTVA ; art. 39 OTVA).",
+    "Faux : la renonciation à la libération de l'assujettissement (art. 11 LTVA) est un mécanisme distinct.",
+    "Faux : le choix des taux de la dette fiscale nette n'est pas l'option de l'art. 22."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-047",
+   "champ": "Objet & champ d'application — Option — exclusions",
+   "memento": "art. 22 al. 2 let. a LTVA",
+   "question": "Pour quelles prestations l'option est-elle TOUJOURS exclue ?",
+   "options": [
+    "Les prestations de formation et les soins médicaux",
+    "La location d'immeubles à usage commercial",
+    "Les prestations d'assurance (ch. 18), le marché monétaire et des capitaux (ch. 19), les paris/loteries/jeux de hasard (ch. 23)",
+    "Les cotisations d'associations sportives et culturelles"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : formation et soins médicaux peuvent au contraire être optés.",
+    "Faux : la location d'immeubles à usage commercial peut faire l'objet d'une option.",
+    "Exact : l'option est toujours exclue pour les assurances (ch. 18), le marché monétaire et des capitaux (ch. 19) et les jeux de hasard (ch. 23) (art. 22 al. 2 let. a LTVA).",
+    "Faux : les cotisations d'associations sportives et culturelles peuvent être optées."
+   ],
+   "piege": "option toujours exclue (assurances, finance, jeux)",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-048",
+   "champ": "Objet & champ d'application — Option — assurances",
+   "memento": "art. 22 al. 2 let. a LTVA · art. 21 al. 2 ch. 18 LTVA",
+   "question": "Une compagnie fournit des prestations d'assurance (exclues du champ de l'impôt). Peuvent-elles être imposées volontairement par option ?",
+   "options": [
+    "Oui, au taux normal",
+    "Oui, au taux réduit",
+    "Oui, si le preneur d'assurance est lui-même assujetti",
+    "Non : l'option est toujours exclue pour les prestations d'assurance"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les prestations d'assurance ne peuvent pas être optées, même au taux normal.",
+    "Faux : aucune option possible, ni au taux réduit.",
+    "Faux : la qualité d'assujetti du preneur est sans effet.",
+    "Exact : l'option est toujours exclue pour les prestations d'assurance (art. 22 al. 2 let. a, renvoi art. 21 al. 2 ch. 18 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-049",
+   "champ": "Objet & champ d'application — Option — immobilier d'habitation",
+   "memento": "art. 22 al. 2 let. b LTVA · art. 21 al. 2 ch. 21 LTVA",
+   "question": "La location d'un logement affecté exclusivement à l'habitation peut-elle faire l'objet d'une option ?",
+   "options": [
+    "Non : l'option est exclue lorsque l'immeuble est utilisé exclusivement à des fins d'habitation",
+    "Oui, sans aucune restriction",
+    "Oui, uniquement si le locataire est assujetti à la TVA",
+    "Oui, au taux spécial de 3,8 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'option immobilière est exclue lorsque le bien est utilisé exclusivement à des fins d'habitation (art. 22 al. 2 let. b, renvoi art. 21 al. 2 ch. 21 LTVA).",
+    "Faux : l'option n'est pas possible sans restriction pour un logement d'habitation.",
+    "Faux : le statut du locataire est indifférent.",
+    "Faux : il n'existe pas de taux spécial de 3,8 % pour ce cas."
+   ],
+   "piege": "option immobilière exclue si usage exclusif d'habitation",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-050",
+   "champ": "Objet & champ d'application — Option — base légale",
+   "memento": "art. 22 LTVA",
+   "question": "Quelle disposition de la LTVA règle l'imposition volontaire (option) des prestations exclues du champ de l'impôt ?",
+   "options": [
+    "art. 21 LTVA",
+    "art. 22 LTVA",
+    "art. 23 LTVA",
+    "art. 24 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 21 LTVA énumère les prestations exclues.",
+    "Exact : l'option est réglée à l'art. 22 LTVA (modalités précisées à l'art. 39 OTVA).",
+    "Faux : l'art. 23 LTVA vise les exonérations.",
+    "Faux : l'art. 24 LTVA fixe la base de calcul."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-051",
+   "champ": "Objet & champ d'application — Pluralité de prestations",
+   "memento": "art. 19 al. 2 LTVA",
+   "question": "Selon le régime de la pluralité de prestations (art. 19 LTVA), comment traiter des prestations combinées offertes à un prix global ?",
+   "options": [
+    "Toujours au taux le plus élevé parmi les prestations combinées",
+    "Toujours en les décomposant prestation par prestation, sans exception",
+    "On peut les traiter selon la prestation principale si celle-ci représente au moins 70 % de la contre-prestation totale",
+    "Toujours au taux réduit dès qu'un bien est compris dans la combinaison"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : on n'applique pas systématiquement le taux le plus élevé.",
+    "Faux : la décomposition n'est pas la règle absolue pour les combinaisons à prix global.",
+    "Exact : les prestations combinées à prix global peuvent être traitées selon la prestation principale si elle atteint au moins 70 % de la contre-prestation totale (art. 19 al. 2 LTVA).",
+    "Faux : la présence d'un bien n'impose pas le taux réduit."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-052",
+   "champ": "Objet & champ d'application — Pluralité de prestations — règle des 70 %",
+   "memento": "art. 19 al. 2 LTVA",
+   "question": "Dans le régime de la combinaison de prestations à prix global, à partir de quelle proportion la prestation principale peut-elle déterminer le traitement TVA de l'ensemble ?",
+   "options": [
+    "50 %",
+    "60 %",
+    "70 %",
+    "80 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le seuil n'est pas de 50 %.",
+    "Faux : le seuil n'est pas de 60 %.",
+    "Exact : la règle des 70 % (art. 19 al. 2 LTVA) : la prestation principale d'au moins 70 % détermine le traitement de l'ensemble.",
+    "Faux : le seuil n'est pas de 80 %."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-053",
+   "champ": "Objet & champ d'application — Pluralité de prestations — cas pratique",
+   "memento": "art. 19 al. 2 LTVA",
+   "question": "Un coffret « atelier + repas » est vendu 100 CHF à prix global. L'atelier, prestation principale, représente 75 % du prix. Comment décompter ?",
+   "options": [
+    "Tout le coffret suit le régime de l'atelier ; le repas, accessoire, n'est pas décompté séparément",
+    "Le repas est toujours décompté séparément au taux normal",
+    "Chaque élément est obligatoirement imposé à son propre taux",
+    "Le coffret entier suit le régime du repas"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'atelier atteignant au moins 70 % du prix global, la combinaison suit son régime ; le repas accessoire n'est pas décompté à part (art. 19 al. 2 LTVA).",
+    "Faux : le repas accessoire n'est pas décompté séparément au taux normal.",
+    "Faux : l'imposition séparée à chaque taux n'est pas obligatoire ici.",
+    "Faux : c'est la prestation principale (atelier), non le repas, qui détermine le régime."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-054",
+   "champ": "Objet & champ d'application — Représentation",
+   "memento": "art. 20 LTVA",
+   "question": "Quelles conditions caractérisent la représentation directe au sens de l'art. 20 LTVA ?",
+   "options": [
+    "Le représentant agit en son propre nom et pour son propre compte",
+    "Le représentant achète le bien puis le revend avec une marge",
+    "Aucune condition particulière n'est exigée pour la représentation directe",
+    "Le représentant agit au nom et pour le compte d'autrui, le rapport de représentation étant reconnaissable pour le destinataire et la personne représentée pouvant être identifiée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : agir en son propre nom caractérise la représentation indirecte, pas la directe.",
+    "Faux : acheter puis revendre avec une marge n'est pas de la représentation directe.",
+    "Faux : la représentation directe suppose au contraire des conditions cumulatives précises.",
+    "Exact : le représentant agit au nom et pour le compte d'autrui, le rapport de représentation est reconnaissable et la personne représentée identifiable (art. 20 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-055",
+   "champ": "Objet & champ d'application — Représentation — refacturation",
+   "memento": "art. 20 al. 1 LTVA · art. 24 al. 1 LTVA",
+   "question": "Werbe SA refacture, en son propre nom et sans marge, des « frais de médias » acquis sans TVA auprès de tiers, en joignant les factures fournisseurs à sa facture globale. Comment ces prestations préalables sont-elles traitées ?",
+   "options": [
+    "Elles restent un poste neutre et ne sont pas imposées chez Werbe SA",
+    "Elles sont attribuées à Werbe SA, qui doit imposer la prestation totale",
+    "Elles sont exclues du champ de l'impôt",
+    "Elles relèvent de la représentation directe et échappent donc à l'imposition"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : agissant en son propre nom, Werbe SA ne bénéficie pas d'un poste neutre.",
+    "Exact : Werbe SA apparaissant comme fournisseur en son propre nom, les prestations préalables lui sont attribuées et elle impose la prestation totale (art. 20 al. 1 et art. 24 al. 1 LTVA).",
+    "Faux : ces prestations ne sont pas exclues du champ de l'impôt.",
+    "Faux : agir en son propre nom exclut la représentation directe."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-056",
+   "champ": "Objet & champ d'application — Pluralité de prestations — base légale",
+   "memento": "art. 19 LTVA",
+   "question": "Quelle disposition régit la pluralité de prestations (prestations combinées, accessoires, prix global) ?",
+   "options": [
+    "art. 19 LTVA",
+    "art. 20 LTVA",
+    "art. 21 LTVA",
+    "art. 24 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la pluralité de prestations (traitement séparé, règle des 70 %, prestations accessoires) est réglée à l'art. 19 LTVA.",
+    "Faux : l'art. 20 LTVA vise l'attribution des prestations (représentation).",
+    "Faux : l'art. 21 LTVA vise les prestations exclues.",
+    "Faux : l'art. 24 LTVA fixe la base de calcul."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-057",
+   "champ": "Objet & champ d'application — Non-contre-prestations — base légale",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Quelle disposition énumère, à titre exemplatif, les éléments ne faisant pas partie de la contre-prestation ?",
+   "options": [
+    "art. 21 al. 2 LTVA",
+    "art. 24 al. 1 LTVA",
+    "art. 3 let. f LTVA",
+    "art. 18 al. 2 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 21 al. 2 LTVA vise les prestations exclues.",
+    "Faux : l'art. 24 al. 1 LTVA fixe la base de calcul.",
+    "Faux : l'art. 3 let. f LTVA définit la contre-prestation.",
+    "Exact : les éléments ne faisant pas partie de la contre-prestation (subventions, dons, dividendes, apports, dommages-intérêts…) sont énumérés, à titre d'exemple, à l'art. 18 al. 2 LTVA."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-058",
+   "champ": "Objet & champ d'application — Prestation de services — obligation de s'abstenir",
+   "memento": "art. 3 let. e LTVA",
+   "question": "Une entreprise s'engage contractuellement, contre rémunération, à ne pas exercer une activité concurrente (obligation de s'abstenir). Comment cet engagement se qualifie-t-il en matière de TVA ?",
+   "options": [
+    "Une prestation de services",
+    "Une livraison",
+    "Une non-contre-prestation",
+    "Une opération hors champ, faute de valeur consommable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'engagement à ne pas commettre un acte, ou à tolérer un acte, est une prestation de services (art. 3 let. e LTVA).",
+    "Faux : ce n'est pas une livraison (aucun bien n'est en cause).",
+    "Faux : rémunéré, l'engagement constitue une contre-prestation, pas une non-contre-prestation.",
+    "Faux : il s'agit bien d'une prestation imposable dans le champ."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-059",
+   "champ": "Objet & champ d'application — Flux de fonds",
+   "memento": "art. 18 LTVA",
+   "question": "Quels sont les flux de fonds que connaît la TVA (quelle est l'assertion correcte) ?",
+   "options": [
+    "Les chiffres d'affaires véritablement et faussement exonérés",
+    "Les contre-prestations provenant d'opérations, et les non-contre-prestations",
+    "Les opérations imposables, exonérées et exclues du champ de l'impôt",
+    "Les contre-prestations provenant d'opérations ainsi que les valeurs non consommables"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : véritablement/faussement exonérés est une sous-distinction des exonérations, non les flux de premier niveau.",
+    "Exact : la TVA distingue les contre-prestations provenant d'opérations et les non-contre-prestations, apports de fonds sans contre-prestation (art. 18 al. 1 et 2 LTVA).",
+    "Faux : imposable/exonérée/exclue sont des sous-types d'opérations, pas les flux de fonds.",
+    "Faux : les valeurs non consommables ne sont pas un flux de fonds ; le second flux est celui des non-contre-prestations."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M1-060",
+   "champ": "Objet & champ d'application — Types d'opérations — cas association",
+   "memento": "art. 21 al. 2 ch. 13 LTVA · art. 22 LTVA",
+   "question": "Dans l'association de théâtre « Nostalgia », les cotisations statutaires des membres actifs sont perçues. Quelle est leur qualification TVA et l'option est-elle possible ?",
+   "options": [
+    "Imposables au taux normal, sans option",
+    "Non-contre-prestations, sans option",
+    "Exclues du champ de l'impôt, avec option possible",
+    "Exonérées, avec droit à la déduction de l'impôt préalable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les cotisations statutaires ne sont pas imposables de plein droit.",
+    "Faux : les cotisations des membres actifs ne sont pas des non-contre-prestations (à la différence des dons ou des membres passifs, art. 18 al. 2 let. d).",
+    "Exact : les cotisations statutaires d'un organisme sans but lucratif sont exclues du champ (art. 21 al. 2 ch. 13 LTVA) et peuvent être optées (art. 22).",
+    "Faux : ce ne sont pas des opérations exonérées avec droit à déduction."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-061",
+   "champ": "Objet & champ d'application — Option — taux applicable (prestations culturelles)",
+   "memento": "art. 22 LTVA · art. 25 al. 2 LTVA",
+   "question": "Cinéma Plaza Sàrl opte pour l'imposition de ses billets d'entrée, prestation culturelle en principe exclue du champ de l'impôt. À quel taux l'option est-elle soumise ?",
+   "options": [
+    "Au taux normal de 8,1 %",
+    "Au taux réduit",
+    "Au taux spécial de 3,8 %",
+    "À 0 %, comme une opération exonérée"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les billets de cinéma optés ne relèvent pas du taux normal.",
+    "Exact : les prestations culturelles (billets de cinéma) optées sont imposées au taux réduit (art. 22 et art. 25 al. 2 LTVA).",
+    "Faux : le taux spécial de 3,8 % vise l'hébergement, pas ce cas.",
+    "Faux : l'option n'est pas une exonération à 0 %."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-062",
+   "champ": "Objet & champ d'application — Option — taux applicable (manifestations sportives)",
+   "memento": "art. 22 LTVA · art. 25 al. 1 LTVA",
+   "question": "Un club d'unihockey (méthode effective) opte pour l'imposition des entrées à ses manifestations sportives. À quel taux ces recettes optées se décomptent-elles ?",
+   "options": [
+    "Au taux réduit",
+    "Au taux spécial de 3,8 %",
+    "À 0 % (exonération)",
+    "Au taux normal"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : contrairement aux prestations culturelles, les entrées sportives optées ne relèvent pas du taux réduit.",
+    "Faux : le taux spécial de 3,8 % ne s'applique pas à ces recettes.",
+    "Faux : l'option n'est pas une exonération à 0 %.",
+    "Exact : les entrées aux manifestations sportives optées se décomptent au taux normal (art. 22 et art. 25 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-063",
+   "champ": "Objet & champ d'application — Non-contre-prestations — dividendes",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Une société holding encaisse des dividendes de ses participations. Comment ce flux se qualifie-t-il en matière de TVA ?",
+   "options": [
+    "Une non-contre-prestation, hors du champ de l'impôt",
+    "Une prestation de services imposable au taux normal",
+    "Une opération exclue avec option possible",
+    "Une livraison imposable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les dividendes ne rémunèrent aucune prestation ; ce sont des non-contre-prestations, hors du champ (art. 18 al. 2 LTVA).",
+    "Faux : les dividendes ne sont pas une prestation de services imposable.",
+    "Faux : ce ne sont pas des opérations exclues optables.",
+    "Faux : ce ne sont pas des livraisons imposables."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-064",
+   "champ": "Objet & champ d'application — Non-contre-prestations — dommages-intérêts",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Une entreprise reçoit des dommages-intérêts à la suite de la résiliation fautive d'un contrat par son cocontractant. Quelle est la qualification TVA de ce montant ?",
+   "options": [
+    "Une prestation de services imposable",
+    "Une opération exclue du champ de l'impôt",
+    "Une opération exonérée avec droit à déduction",
+    "Une non-contre-prestation, hors du champ de l'impôt"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : des dommages-intérêts ne rémunèrent aucune prestation, ce n'est pas une prestation de services imposable.",
+    "Faux : ce n'est pas une opération exclue du champ.",
+    "Faux : ce n'est pas une opération exonérée avec droit à déduction.",
+    "Exact : les dommages-intérêts figurent parmi les non-contre-prestations, hors du champ (art. 18 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-065",
+   "champ": "Objet & champ d'application — Livraison — travaux sur un bien",
+   "memento": "art. 3 let. d ch. 2 LTVA",
+   "question": "Un atelier reçoit une machine, la contrôle et la règle sans la modifier, puis la restitue au client contre paiement. Comment cette opération se qualifie-t-elle ?",
+   "options": [
+    "Une livraison, car il s'agit de travaux effectués sur un bien, même sans modification",
+    "Une prestation de services, puisque le bien n'est pas transformé",
+    "Une non-contre-prestation",
+    "Une opération exclue du champ de l'impôt"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : remettre un bien examiné, étalonné, réglé ou contrôlé, même sans modification, est une livraison (art. 3 let. d ch. 2 LTVA).",
+    "Faux : l'absence de transformation matérielle n'en fait pas une prestation de services.",
+    "Faux : contre paiement, il y a une contre-prestation, pas une non-contre-prestation.",
+    "Faux : l'opération n'est pas exclue du champ de l'impôt."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-066",
+   "champ": "Objet & champ d'application — Types d'opérations — entre collectivités publiques",
+   "memento": "art. 21 al. 2 ch. 28 LTVA · art. 12 al. 3 LTVA",
+   "question": "Un service autonome communal facture des prestations à une autre collectivité publique. Quelle qualification TVA s'applique en principe à ces prestations entre collectivités publiques ?",
+   "options": [
+    "Imposables au taux normal",
+    "Non-contre-prestations dans tous les cas",
+    "Exonérées avec droit à la déduction de l'impôt préalable",
+    "Exclues du champ de l'impôt (art. 21 al. 2 ch. 28 LTVA)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ces prestations ne sont pas imposables au taux normal en principe.",
+    "Faux : ce ne sont pas des non-contre-prestations dans tous les cas.",
+    "Faux : ce ne sont pas des opérations exonérées avec droit à déduction.",
+    "Exact : les prestations fournies entre collectivités publiques sont exclues du champ (art. 21 al. 2 ch. 28 LTVA) et ne comptent pas dans le seuil de l'art. 12 al. 3."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-067",
+   "champ": "Objet & champ d'application — Prestation — base légale",
+   "memento": "art. 3 let. c LTVA",
+   "question": "Quelle disposition définit la prestation comme l'octroi d'un avantage économique consommable dans l'attente d'une contre-prestation ?",
+   "options": [
+    "art. 3 let. f LTVA",
+    "art. 3 let. c LTVA",
+    "art. 3 let. d LTVA",
+    "art. 18 al. 1 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 3 let. f LTVA définit la contre-prestation.",
+    "Exact : la prestation (avantage économique consommable dans l'attente d'une contre-prestation) est définie à l'art. 3 let. c LTVA.",
+    "Faux : l'art. 3 let. d LTVA définit la livraison.",
+    "Faux : l'art. 18 al. 1 LTVA pose le principe de l'objet de l'impôt."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M1-068",
+   "champ": "Objet & champ d'application — Exclu vs hors champ",
+   "memento": "art. 21 LTVA · art. 18 al. 2 LTVA",
+   "question": "Quelle différence sépare une opération exclue d'une non-contre-prestation (opération hors champ) ?",
+   "options": [
+    "Aucune : les deux notions sont synonymes",
+    "L'opération exclue est toujours imposable, la non-contre-prestation jamais",
+    "L'opération exclue est dans le champ de l'impôt (option possible) ; la non-contre-prestation n'y entre jamais (aucune option)",
+    "La non-contre-prestation conserve la déduction de l'impôt préalable, l'opération exclue aussi"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les deux notions ne sont pas synonymes.",
+    "Faux : l'opération exclue n'est pas « toujours imposable » — elle ne l'est que sur option.",
+    "Exact : l'exclue reste dans le champ et peut être optée (art. 21 et 22 LTVA) ; la non-contre-prestation (art. 18 al. 2) n'y entre jamais, sans option possible.",
+    "Faux : l'opération exclue ne conserve pas la déduction, sauf option."
+   ],
+   "piege": "exclue (dans le champ) vs hors champ",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-069",
+   "champ": "Objet & champ d'application — Exclu / exonéré / option",
+   "memento": "art. 23 al. 1 LTVA",
+   "question": "Laquelle des affirmations suivantes est FAUSSE ?",
+   "options": [
+    "Une opération exonérée fait perdre le droit à la déduction de l'impôt préalable",
+    "Une opération exclue ne facture pas de TVA",
+    "L'option permet d'imposer volontairement la majorité des prestations exclues",
+    "Une opération exonérée ne facture pas de TVA mais conserve le droit à la déduction de l'impôt préalable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : c'est l'affirmation fausse — l'opération exonérée conserve au contraire le droit à la déduction de l'impôt préalable (art. 23 al. 1 LTVA).",
+    "Faux (affirmation vraie) : l'opération exclue ne facture effectivement pas de TVA (art. 21 LTVA).",
+    "Faux (affirmation vraie) : l'option permet bien d'imposer la majorité des prestations exclues (art. 22 LTVA).",
+    "Faux (affirmation vraie) : l'exonérée ne facture pas de TVA mais conserve la déduction (art. 23 al. 1 LTVA)."
+   ],
+   "piege": "repérer l'affirmation fausse (exclu/exonéré)",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-070",
+   "champ": "Objet & champ d'application — Territoire suisse — Samnaun (double régime)",
+   "memento": "art. 4 LTVA",
+   "question": "À propos des vallées de Samnaun et Sampuoir, quelle affirmation est correcte ?",
+   "options": [
+    "Elles sont territoire étranger pour toutes les opérations",
+    "Elles sont territoire suisse pour toutes les opérations",
+    "Elles sont territoire suisse pour les livraisons de biens et territoire étranger pour les prestations de services",
+    "Elles sont territoire suisse pour les prestations de services, mais territoire étranger pour les livraisons de biens"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : Samnaun et Sampuoir restent territoire suisse pour les prestations de services.",
+    "Faux : pour les livraisons de biens, elles sont territoire étranger.",
+    "Faux : c'est l'inverse exact — le piège du double régime.",
+    "Exact : Samnaun et Sampuoir sont suisses pour les prestations de services, mais étrangers pour les livraisons de biens (art. 4 LTVA)."
+   ],
+   "piege": "Samnaun : double régime (ne pas inverser)",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-071",
+   "champ": "Objet & champ d'application — Non-contre-prestations — apports et abandons de créance",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Un actionnaire procède à un apport en faveur de sa société, puis à un abandon de créance. Comment ces flux se qualifient-ils en matière de TVA ?",
+   "options": [
+    "Des non-contre-prestations, hors du champ de l'impôt",
+    "Des prestations de services imposables au taux normal",
+    "Des opérations exclues, avec option possible",
+    "Des livraisons imposables au taux normal"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les apports faits à une entreprise et les abandons de créance sont des non-contre-prestations, hors du champ (art. 18 al. 2 LTVA).",
+    "Faux : ce ne sont pas des prestations de services imposables.",
+    "Faux : ce ne sont pas des opérations exclues optables.",
+    "Faux : ce ne sont pas des livraisons imposables."
+   ],
+   "piege": "apport / abandon de créance = non-contre-prestation",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-072",
+   "champ": "Objet & champ d'application — Valeurs non consommables — cas terrain",
+   "memento": "art. 3 let. c LTVA",
+   "question": "Un promoteur vend une parcelle non bâtie pour 800 000 CHF. Quel est le traitement TVA de ce prix de vente ?",
+   "options": [
+    "Imposable au taux normal, puisqu'il existe une contre-prestation",
+    "Pas d'objet de l'impôt : le sol n'est pas une valeur consommable, donc pas de TVA sur ce prix",
+    "Exonéré, avec droit à la déduction de l'impôt préalable",
+    "Non-contre-prestation de type subvention"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : malgré la contre-prestation, le sol n'est pas consommable, donc pas d'objet de l'impôt.",
+    "Exact : le sol (terrain) n'est pas une valeur consommable (art. 3 let. c LTVA) ; sa cession n'est pas une prestation imposable, pas de TVA sur le prix.",
+    "Faux : ce n'est pas une exonération — il n'y a même pas de prestation imposable au départ.",
+    "Faux : le prix de vente d'un terrain n'est pas une subvention."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M1-073",
+   "champ": "Objet & champ d'application — Contre-prestation — personnes étroitement liées",
+   "memento": "art. 24 al. 2 LTVA",
+   "question": "Architecture SA facture des prestations à sa société sœur en dessous des tarifs pratiqués avec des tiers. Sur quelle base la TVA est-elle due ?",
+   "options": [
+    "Sur le prix effectivement facturé à la société sœur",
+    "Aucune TVA n'est due, car il s'agit d'opérations au sein d'un groupe",
+    "Sur la moitié de la valeur de marché",
+    "Sur la valeur qui aurait été convenue entre des tiers indépendants (personnes étroitement liées)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : entre personnes étroitement liées, le prix facturé (inférieur au marché) n'est pas la base imposable.",
+    "Faux : les opérations entre sociétés sœurs ne sont pas dispensées de TVA du seul fait d'un lien de groupe.",
+    "Faux : la base n'est pas « la moitié » de la valeur de marché.",
+    "Exact : entre personnes étroitement liées, la base est la valeur de pleine concurrence convenue entre tiers indépendants (art. 24 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-074",
+   "champ": "Objet & champ d'application — Collectivités publiques — seuil d'assujettissement",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "Un service autonome communal réalise 120 000 CHF de prestations pour sa propre commune et d'autres collectivités, mais seulement 26 000 CHF pour des tiers non-collectivités publiques. Est-il obligatoirement assujetti ?",
+   "options": [
+    "Non : seules les prestations imposables fournies à des non-collectivités comptent pour le seuil de 100 000 CHF, ici 26 000 CHF, inférieur au seuil",
+    "Oui, car le total des prestations dépasse 100 000 CHF",
+    "Oui, car les collectivités publiques sont toujours assujetties",
+    "Non, car les collectivités publiques ne sont jamais assujetties à la TVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : pour une collectivité publique, le seuil de 100 000 CHF ne se calcule que sur les prestations imposables fournies à des non-collectivités (26 000 CHF < 100 000) : pas d'assujettissement obligatoire (art. 12 al. 3 LTVA).",
+    "Faux : les prestations entre collectivités publiques ne comptent pas dans ce seuil.",
+    "Faux : les collectivités publiques ne sont pas toujours assujetties.",
+    "Faux : elles peuvent l'être si le seuil pertinent est dépassé (l'option de renonciation, art. 11, restant réservée)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M1-075",
+   "champ": "Objet & champ d'application — Rapport de prestations — cas complet",
+   "memento": "art. 18 al. 1 LTVA · art. 25 al. 1 LTVA",
+   "question": "Un architecte indépendant assujetti facture 5 000 CHF une étude à un client établi en Suisse. Comment l'opération se qualifie-t-elle en matière de TVA ?",
+   "options": [
+    "Une non-contre-prestation",
+    "Une opération exclue du champ de l'impôt",
+    "Une prestation de services imposable au taux normal, les conditions du rapport de prestations étant réunies",
+    "Une opération exonérée avec droit à déduction"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : il y a une contre-prestation (5 000 CHF), ce n'est pas une non-contre-prestation.",
+    "Faux : une étude d'architecte n'est pas une prestation exclue du champ.",
+    "Exact : prestation de services (art. 3 let. e), à titre onéreux, sur le territoire suisse, par un assujetti, avec lien économique intrinsèque (art. 18 al. 1) — imposable au taux normal (art. 25 al. 1 LTVA).",
+    "Faux : le client étant établi en Suisse, l'opération n'est pas exonérée à l'export."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  }
+ ]
+}

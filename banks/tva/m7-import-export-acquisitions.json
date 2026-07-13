@@ -1,0 +1,1275 @@
+{
+ "cours": "tva",
+ "module": "M7",
+ "titre": "Import, export & impôt sur les acquisitions",
+ "questions": [
+  {
+   "id": "M7-001",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les importations — objet",
+   "memento": "art. 52 LTVA",
+   "question": "Quel est l'objet de l'impôt sur les importations ?",
+   "options": [
+    "Le transfert physique d'un bien à travers la frontière douanière suisse",
+    "Tout rapport de prestations entre un fournisseur étranger et un destinataire suisse",
+    "L'acquisition d'une prestation de services auprès d'une entreprise étrangère",
+    "La vente de biens à un acquéreur domicilié à l'étranger"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'objet est le transfert physique d'un bien à travers la frontière, sans rapport de prestations requis (art. 52 al. 1 LTVA).",
+    "Faux : un rapport de prestations avec un fournisseur étranger caractérise l'impôt sur les acquisitions, pas les importations (art. 45 LTVA).",
+    "Faux : l'acquisition d'une prestation de services relève de l'impôt sur les acquisitions (art. 45 al. 1 let. a LTVA), non des importations.",
+    "Faux : la vente à un acquéreur à l'étranger relève de l'exportation, exonérée à 0 % (art. 23 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M7-002",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les importations — aucun rapport de prestations",
+   "memento": "art. 52 LTVA",
+   "question": "Un particulier reçoit en cadeau d'un ami allemand un vélo qu'il rapporte lui-même en Suisse. L'opération peut-elle être soumise à l'impôt sur les importations alors qu'il n'y a aucune vente ?",
+   "options": [
+    "Oui, l'impôt sur les importations frappe le transfert physique du bien, même sans rapport de prestations (donation)",
+    "Non, faute de contre-prestation il ne peut y avoir d'imposition",
+    "Non, seules les entreprises assujetties peuvent devoir l'impôt sur les importations",
+    "Oui, mais uniquement s'il s'agit d'un bien neuf destiné au commerce"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'impôt est dû du seul franchissement physique de la frontière, même sans vente ni contre-prestation (art. 52 al. 1 LTVA).",
+    "Faux : contrairement à l'impôt sur les acquisitions (art. 45 LTVA), aucun rapport de prestations ni contre-prestation n'est requis (art. 52 al. 1 LTVA).",
+    "Faux : le débiteur de la dette douanière peut être un simple particulier, pas seulement une entreprise assujettie (art. 51 LTVA).",
+    "Faux : la taxation ne dépend ni de la nouveauté du bien ni d'une destination commerciale ; le franchissement suffit (art. 52 al. 1 LTVA)."
+   ],
+   "piege": "Donation / import sans vente reste taxé",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-003",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les importations — sujet",
+   "memento": "art. 51 LTVA",
+   "question": "Qui est assujetti à l'impôt sur les importations ?",
+   "options": [
+    "Uniquement l'entreprise assujettie inscrite au registre de l'AFC",
+    "Uniquement le vendeur étranger des biens",
+    "Le débiteur de la dette douanière, qui peut être un particulier et répond solidairement",
+    "Le destinataire suisse, seulement s'il dépasse CHF 10 000 par an"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'assujettissement ne se limite pas aux entreprises inscrites ; un particulier débiteur de la dette douanière l'est aussi (art. 51 al. 1 LTVA).",
+    "Faux : ce n'est pas le vendeur étranger mais le débiteur de la dette douanière qui est assujetti (art. 51 al. 1 LTVA, art. 70 LD).",
+    "Exact : est assujetti quiconque est débiteur de la dette douanière, y compris un particulier, avec responsabilité solidaire (art. 51 al. 1 LTVA).",
+    "Faux : le seuil de CHF 10 000/an vise l'impôt sur les acquisitions des non-assujettis (art. 45 al. 2 let. b LTVA), pas les importations."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-004",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les importations — taux",
+   "memento": "art. 55 LTVA",
+   "question": "Quels taux s'appliquent à l'impôt sur les importations ?",
+   "options": [
+    "Un taux unique de 8,1 % dans tous les cas",
+    "Un taux forfaitaire d'importation de 4 %",
+    "0 %, car l'importation est toujours exonérée",
+    "Les mêmes taux que l'impôt intérieur : 8,1 % (normal) et 2,6 % (réduit)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il existe aussi un taux réduit de 2,6 % pour certains biens, pas un taux unique (art. 55 LTVA).",
+    "Faux : aucun taux forfaitaire d'importation de 4 % n'existe ; les taux sont ceux de l'impôt intérieur (art. 55 LTVA).",
+    "Faux : l'importation n'est pas exonérée par principe ; elle est taxée aux taux de l'impôt intérieur (art. 55 LTVA).",
+    "Exact : les taux sont identiques à l'impôt intérieur, 8,1 % (normal) et 2,6 % (réduit) (art. 55 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M7-005",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les importations — base de calcul",
+   "memento": "art. 54 LTVA",
+   "question": "Sur quelle base l'impôt sur les importations est-il calculé lorsque le bien est importé en exécution d'un contrat de vente ?",
+   "options": [
+    "Sur la contre-prestation (art. 54 al. 1 let. a LTVA)",
+    "Sur la valeur marchande au lieu de destination",
+    "Sur le prix de revient du fournisseur étranger",
+    "Sur la valeur en douane majorée de 33 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en cas de contrat de vente ou de commission, la base est la contre-prestation (art. 54 al. 1 let. a LTVA).",
+    "Faux : la valeur marchande n'est retenue qu'à défaut de contrat de vente (art. 54 al. 1 let. g LTVA), non ici.",
+    "Faux : la base n'est pas le prix de revient du fournisseur mais la contre-prestation convenue (art. 54 al. 1 let. a LTVA).",
+    "Faux : aucune majoration forfaitaire de 33 % de la valeur en douane n'est prévue (art. 54 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-006",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les importations — franchise valeur insignifiante",
+   "memento": "art. 53 LTVA",
+   "question": "Les biens dont le montant d'impôt à l'importation ne dépasse pas quel seuil sont importés en franchise au titre de la valeur insignifiante ?",
+   "options": [
+    "CHF 5",
+    "CHF 50",
+    "CHF 100",
+    "CHF 150"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les biens dont le montant d'impôt ne dépasse pas CHF 5 sont importés en franchise (valeur insignifiante, art. 53 al. 1 let. a LTVA).",
+    "Faux : le seuil de valeur insignifiante est fixé à CHF 5 d'impôt, non CHF 50 (art. 53 al. 1 let. a LTVA).",
+    "Faux : CHF 100 est le montant minimum du dégrèvement à la source des bénéficiaires institutionnels (art. 145 OTVA), pas la valeur insignifiante.",
+    "Faux : CHF 150 est la franchise-valeur du trafic touristique depuis 2025, à ne pas confondre avec les CHF 5 d'impôt minime (art. 53 al. 1 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-007",
+   "champ": "Import, export & impôt sur les acquisitions — Franchise-valeur à l'importation (trafic touristique)",
+   "memento": "art. 53 LTVA",
+   "question": "Depuis le 1er janvier 2025, jusqu'à quelle valeur totale un voyageur peut-il importer des marchandises du trafic touristique en franchise de TVA à l'importation ?",
+   "options": [
+    "CHF 300",
+    "CHF 100",
+    "CHF 500",
+    "CHF 150"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 300 était l'ancienne franchise (avant 2025) et reste le seuil d'exonération à l'exportation dans le trafic des voyageurs (art. 23 al. 5 LTVA).",
+    "Faux : la franchise-valeur à l'importation n'est pas de CHF 100 (art. 53 al. 1 let. a LTVA).",
+    "Faux : aucun seuil de CHF 500 ne s'applique à la franchise-valeur d'importation (art. 53 al. 1 let. a LTVA).",
+    "Exact : depuis le 1.1.2025, la franchise-valeur à l'importation du trafic touristique est abaissée à CHF 150 (art. 53 al. 1 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-008",
+   "champ": "Import, export & impôt sur les acquisitions — Seuils voyageurs — 300 (export) vs 150 (import)",
+   "memento": "art. 23 & 53 LTVA",
+   "question": "Un touriste étranger fait des achats en Suisse ; un résident suisse rapporte des achats faits en France. Quelle affirmation distingue correctement les deux seuils applicables ?",
+   "options": [
+    "CHF 300 est la franchise à l'importation ; CHF 150 le seuil d'exonération à l'exportation",
+    "Les deux mécanismes utilisent le même seuil de CHF 300",
+    "CHF 300 (TVA comprise) est le seuil d'exonération de l'exportation dans le trafic des voyageurs ; CHF 150 la franchise-valeur à l'importation depuis 2025",
+    "Aucun seuil ne s'applique dans le trafic des voyageurs"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les seuils sont inversés — CHF 150 est la franchise à l'importation et CHF 300 le seuil d'exonération à l'exportation (art. 23 al. 5 et 53 LTVA).",
+    "Faux : les deux mécanismes n'ont pas le même seuil ; l'import est à CHF 150, l'export à CHF 300 (art. 23 al. 5 et 53 LTVA).",
+    "Exact : CHF 300 TVA comprise exonère l'exportation voyageurs (art. 23 al. 5 LTVA) ; CHF 150 est la franchise à l'importation depuis 2025 (art. 53 al. 1 let. a LTVA).",
+    "Faux : des seuils s'appliquent bien, à l'import (CHF 150) comme à l'export (CHF 300) (art. 23 al. 5 et 53 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-009",
+   "champ": "Import, export & impôt sur les acquisitions — Support de données sans valeur marchande",
+   "memento": "art. 52 LTVA",
+   "question": "Un bureau d'architecture suisse reçoit de l'étranger des plans sur un support dont la valeur marchande ne peut être déterminée à l'importation. Quel régime s'applique ?",
+   "options": [
+    "Les règles de l'impôt sur les acquisitions s'appliquent",
+    "L'impôt sur les importations, calculé sur la valeur en douane du support matériel",
+    "Aucun impôt, car un support de données n'est pas un bien",
+    "L'exonération à l'exportation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : si la valeur marchande d'un support de données n'est pas déterminable à l'importation, ce sont les règles de l'impôt sur les acquisitions qui s'appliquent (art. 52 al. 2 LTVA, renvoi art. 45).",
+    "Faux : précisément parce que la valeur n'est pas déterminable, on bascule vers l'impôt sur les acquisitions plutôt que taxer le support (art. 52 al. 2 LTVA).",
+    "Faux : le contenu est bien imposable, mais via l'impôt sur les acquisitions (art. 45 LTVA), pas par une absence d'impôt.",
+    "Faux : il s'agit d'une acquisition entrante, non d'une exportation exonérée (art. 23 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-010",
+   "champ": "Import, export & impôt sur les acquisitions — Report du paiement de l'impôt à l'importation",
+   "memento": "art. 63 LTVA",
+   "question": "À quelles conditions cumulatives une entreprise peut-elle reporter le paiement de l'impôt sur les importations dans son décompte TVA plutôt que le verser à l'OFDF ?",
+   "options": [
+    "Décompter selon les taux de la dette fiscale nette et importer occasionnellement",
+    "Être une entreprise étrangère sans représentant fiscal",
+    "Décompter à la méthode effective, importer/exporter régulièrement et présenter des excédents d'impôt préalable supérieurs à CHF 10 000 par an",
+    "Réaliser plus de CHF 100 000 de chiffre d'affaires à l'importation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le report exige la méthode effective, pas les taux de la dette fiscale nette ni un import occasionnel (art. 63 LTVA).",
+    "Faux : la qualité d'entreprise étrangère sans représentant n'est pas la condition ; il faut méthode effective, régularité et excédents (art. 63 LTVA).",
+    "Exact : report ouvert à qui décompte à la méthode effective, importe/exporte régulièrement et présente des excédents d'impôt préalable > CHF 10 000/an (art. 63 LTVA, art. 118 OTVA).",
+    "Faux : le critère n'est pas un CA d'importation de CHF 100 000 mais des excédents d'impôt préalable > CHF 10 000/an (art. 118 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-011",
+   "champ": "Import, export & impôt sur les acquisitions — Naissance de la dette fiscale à l'importation",
+   "memento": "art. 56 LTVA",
+   "question": "Quand naît la dette fiscale de l'impôt sur les importations ?",
+   "options": [
+    "À la conclusion du contrat de vente",
+    "À la fin de l'année civile de l'importation",
+    "En même temps que la dette douanière (art. 56 al. 1 LTVA)",
+    "Au paiement de la facture par l'acquéreur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la dette naît avec la dette douanière, non à la conclusion du contrat de vente (art. 56 al. 1 LTVA).",
+    "Faux : elle ne naît pas à la fin de l'année civile mais au moment de la dette douanière (art. 56 al. 1 LTVA).",
+    "Exact : la dette fiscale à l'importation naît en même temps que la dette douanière (art. 56 al. 1 LTVA, art. 69 LD).",
+    "Faux : le fait générateur est la dette douanière, pas le paiement de la facture par l'acquéreur (art. 56 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-012",
+   "champ": "Import, export & impôt sur les acquisitions — Déduction de l'impôt à l'importation",
+   "memento": "art. 28 LTVA",
+   "question": "Un peintre indépendant établi à l'étranger importe ses couleurs pour exécuter un mandat en Suisse. Comment traite-t-il l'impôt sur les importations acquitté ?",
+   "options": [
+    "Il ne peut jamais le récupérer car il est étranger",
+    "Il le facture séparément au client suisse comme un débours",
+    "Il l'ajoute à la valeur d'exportation de ses œuvres",
+    "Il le déduit comme impôt préalable, puis facture ses travaux avec la TVA suisse"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un assujetti, même étranger, peut déduire l'impôt à l'importation comme impôt préalable (art. 28 al. 1 let. c LTVA).",
+    "Faux : l'impôt à l'importation n'est pas un débours refacturé mais un impôt préalable déductible (art. 28 al. 1 let. c LTVA).",
+    "Faux : il ne s'ajoute pas à une valeur d'exportation ; le peintre fournit en Suisse et déduit l'impôt à l'importation (art. 28 al. 1 let. c LTVA).",
+    "Exact : il déduit l'impôt à l'importation comme impôt préalable puis facture ses travaux avec la TVA suisse (art. 28 al. 1 let. c, art. 8 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-013",
+   "champ": "Import, export & impôt sur les acquisitions — Import vs acquisitions — discrimination",
+   "memento": "art. 52 LTVA",
+   "question": "Laquelle de ces opérations relève de l'impôt sur les IMPORTATIONS (et non de l'impôt sur les acquisitions) ?",
+   "options": [
+    "Une prestation de conseil facturée par un avocat parisien à une société zurichoise",
+    "Une licence de logiciel acquise par voie électronique auprès d'un éditeur américain",
+    "L'acheminement en Suisse de meubles par leur fabricant allemand qui passe la frontière",
+    "Un droit d'émission acquis auprès d'un négociant étranger"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une prestation de conseil est un service relevant de l'impôt sur les acquisitions (art. 45 al. 1 let. a LTVA), non des importations.",
+    "Faux : une licence dématérialisée est une prestation soumise à l'impôt sur les acquisitions (art. 45 al. 1 let. a LTVA), non un bien importé.",
+    "Exact : l'acheminement physique de meubles franchissant la frontière relève de l'impôt sur les importations (art. 52 al. 1 LTVA).",
+    "Faux : un droit d'émission est une prestation soumise à l'impôt sur les acquisitions (art. 45 al. 1 let. e LTVA), non aux importations."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-014",
+   "champ": "Import, export & impôt sur les acquisitions — Exportation exonérée — caractéristique",
+   "memento": "art. 23 LTVA",
+   "question": "Quelle est la caractéristique de l'exportation exonérée au sens de l'art. 23 LTVA ?",
+   "options": [
+    "Elle est imposée à 0 % avec maintien du droit à la déduction de l'impôt préalable",
+    "Elle est exclue du champ de l'impôt et fait perdre la déduction",
+    "Elle est soumise au taux réduit de 2,6 %",
+    "Elle échappe à la TVA car son lieu est à l'étranger"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'exportation est exonérée (imposable à 0 %) avec maintien du droit à déduction (art. 23 LTVA).",
+    "Faux : c'est l'opération exclue (art. 21 LTVA) qui fait perdre la déduction ; l'exportation exonérée la conserve (art. 23 LTVA).",
+    "Faux : l'exportation est à 0 %, pas au taux réduit de 2,6 % (art. 23 LTVA).",
+    "Faux : le lieu de la livraison reste en Suisse (art. 7 LTVA) ; c'est la norme d'exonération de l'art. 23 qui neutralise l'impôt."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M7-015",
+   "champ": "Import, export & impôt sur les acquisitions — Exportation — lieu de la livraison en Suisse",
+   "memento": "art. 7 LTVA",
+   "question": "Un grossiste zurichois exporte des marchandises vers Lyon. Où se situe le lieu de sa livraison et pourquoi faut-il une norme d'exonération ?",
+   "options": [
+    "Le lieu est en France ; aucune norme suisse n'est nécessaire",
+    "Le lieu est en Suisse (début du transport) ; d'où la nécessité de l'art. 23 pour exonérer",
+    "Le lieu est à la frontière ; l'opération est hors champ",
+    "Le lieu est en Suisse et l'opération est exclue du champ de l'impôt"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le lieu de la livraison est là où commence le transport, soit en Suisse, pas en France (art. 7 al. 1 let. b LTVA).",
+    "Exact : le lieu est en Suisse (début du transport), d'où la nécessité de l'art. 23 LTVA pour exonérer l'exportation (art. 7 al. 1 let. b LTVA).",
+    "Faux : le lieu n'est pas « la frontière » mais le point de départ du transport en Suisse (art. 7 al. 1 let. b LTVA).",
+    "Faux : le lieu est bien en Suisse, mais l'opération est exonérée (art. 23), non exclue (art. 21 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-016",
+   "champ": "Import, export & impôt sur les acquisitions — Exportation — preuve",
+   "memento": "art. 81 LTVA",
+   "question": "Comment se prouve l'exportation exonérée d'un bien ?",
+   "options": [
+    "Par la décision de taxation à l'exportation de l'OFDF, sous libre appréciation des preuves",
+    "Uniquement par une facture mentionnant « exportation »",
+    "Par une attestation de l'AFC délivrée d'avance",
+    "Par le seul contrat de vente conclu avec l'acquéreur étranger"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la preuve suit la libre appréciation des preuves, la décision de taxation à l'exportation de l'OFDF étant la preuve usuelle (art. 81 al. 3 LTVA, art. 23).",
+    "Faux : une simple mention « exportation » sur facture ne suffit pas ; la preuve est libre et repose sur la taxation OFDF (art. 81 al. 3 LTVA).",
+    "Faux : aucune attestation AFC délivrée d'avance n'est requise ; la preuve résulte de la taxation à l'exportation (art. 81 al. 3 LTVA).",
+    "Faux : le seul contrat de vente ne prouve pas l'exportation effective des biens (art. 81 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-017",
+   "champ": "Import, export & impôt sur les acquisitions — Exportation dans le trafic des voyageurs — seuil",
+   "memento": "art. 23 LTVA",
+   "question": "À partir de quel prix de vente (TVA comprise) une vente à un touriste étranger peut-elle être exonérée au titre de l'exportation dans le trafic des voyageurs ?",
+   "options": [
+    "CHF 150",
+    "CHF 100",
+    "CHF 300",
+    "CHF 500"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 150 est la franchise à l'importation depuis 2025, pas le seuil d'exonération à l'exportation voyageurs (art. 53 vs art. 23 al. 5 LTVA).",
+    "Faux : le seuil d'exonération à l'exportation voyageurs n'est pas de CHF 100 (art. 23 al. 5 LTVA).",
+    "Exact : la vente à un touriste étranger peut être exonérée dès CHF 300 (TVA comprise) au titre de l'exportation dans le trafic des voyageurs (art. 23 al. 5 LTVA).",
+    "Faux : le seuil est de CHF 300, non de CHF 500 (art. 23 al. 5 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-018",
+   "champ": "Import, export & impôt sur les acquisitions — Trafic des voyageurs — conditions cumulatives",
+   "memento": "art. 23 LTVA",
+   "question": "Une bijouterie genevoise vend une montre à CHF 900 à un client domicilié à Dubaï. Quelles conditions permettent d'exonérer la vente au titre du trafic des voyageurs ?",
+   "options": [
+    "Il suffit que le prix dépasse CHF 300",
+    "Acquéreur non domicilié en Suisse et paiement en espèces uniquement",
+    "Exportation dans les 30 jours et facture au nom d'une entreprise étrangère",
+    "Prix ≥ CHF 300 TVA comprise, acquéreur non domicilié en Suisse, usage personnel, exportation dans les 90 jours et preuve d'exportation"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le prix ≥ CHF 300 est nécessaire mais non suffisant ; d'autres conditions cumulatives s'ajoutent (art. 23 al. 5 LTVA, RS 641.202.2).",
+    "Faux : aucun paiement en espèces exclusif n'est exigé ; les conditions portent sur domicile, usage personnel, délai et preuve (RS 641.202.2).",
+    "Faux : le délai d'exportation est de 90 jours (non 30) et le bien doit être à usage personnel, non facturé à une entreprise (art. 23 al. 5 LTVA).",
+    "Exact : conditions cumulatives — prix ≥ CHF 300 TVAc, acquéreur non domicilié en Suisse, usage personnel, exportation dans les 90 jours et preuve d'exportation (art. 23 al. 5 LTVA, RS 641.202.2)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-019",
+   "champ": "Import, export & impôt sur les acquisitions — Opérations en chaîne à l'exportation (Graffiti/Farben)",
+   "memento": "art. 7 LTVA",
+   "question": "Farben SA (Berne) commande à Graffiti Sàrl (Winterthour), qui expédie la marchandise directement à Peinture SA (Lyon). Où se situe le lieu de la livraison de Graffiti à Farben ?",
+   "options": [
+    "À l'étranger, car les biens arrivent en France",
+    "À la frontière franco-suisse",
+    "En France, car la livraison suit le lieu du destinataire final",
+    "En Suisse (Winterthour), là où commence le transport : dans une chaîne suisse, toutes les livraisons sont réputées au même lieu"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le lieu n'est pas à l'étranger mais là où commence le transport, en Suisse (art. 7 al. 1 let. b LTVA).",
+    "Faux : le lieu n'est pas « la frontière » mais le point de départ du transport à Winterthour (art. 7 al. 1 let. b LTVA).",
+    "Faux : en Suisse, le lieu ne suit pas le destinataire final ; toutes les livraisons sont réputées au même lieu de départ (art. 7 al. 1 let. b LTVA).",
+    "Exact : en Suisse, toutes les livraisons d'une chaîne sont réputées au lieu de départ, ici Winterthour, chacune exonérable à l'export (art. 7 al. 1 let. b, art. 23 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M7-020",
+   "champ": "Import, export & impôt sur les acquisitions — Opérations en chaîne — CH vs UE",
+   "memento": "art. 7 LTVA",
+   "question": "En quoi les opérations en chaîne suisses diffèrent-elles de celles de l'UE ?",
+   "options": [
+    "En Suisse comme dans l'UE, la chaîne se scinde en une livraison avec mouvement et des livraisons sans mouvement",
+    "En Suisse, toutes les livraisons sont réputées au même lieu ; dans l'UE, seule la livraison avec mouvement est exonérable, avec une simplification triangulaire possible",
+    "En Suisse, seule la dernière livraison compte ; dans l'UE, seule la première",
+    "Il n'existe pas d'opérations en chaîne en droit suisse"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la scission en livraison avec/sans mouvement est le régime UE ; en Suisse toutes les livraisons sont réputées au même lieu (art. 7 al. 1 let. b LTVA).",
+    "Exact : en Suisse toutes les livraisons sont réputées au même lieu et chacune exonérable ; dans l'UE seule la livraison avec mouvement est exonérable, avec simplification triangulaire (art. 7 al. 1 let. b LTVA).",
+    "Faux : ni la dernière (CH) ni la première (UE) ne sont seules à compter ; la règle suisse retient un lieu unique pour toutes (art. 7 al. 1 let. b LTVA).",
+    "Faux : les opérations en chaîne existent en droit suisse, avec un lieu unique de départ (art. 7 al. 1 let. b LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-021",
+   "champ": "Import, export & impôt sur les acquisitions — Contrat d'entreprise à l'importation (Sauna GmbH)",
+   "memento": "art. 7 LTVA",
+   "question": "Emilie Wasser (particulier, domicile en Suisse) commande à Sauna GmbH & Co. KG (siège à Constance, D) la livraison et l'installation d'un sauna dans son logement en Suisse. Quelle affirmation est correcte ?",
+   "options": [
+    "La livraison et l'installation forment une livraison en exécution d'un contrat d'entreprise dont le lieu est en Suisse, entraînant en principe l'assujettissement de Sauna GmbH",
+    "L'installation n'étant qu'accessoire, Sauna GmbH n'est pas assujettie en Suisse",
+    "Sauna GmbH n'est imposée que sur la part de prestation de services fournie en Suisse",
+    "Emilie Wasser doit décompter l'impôt sur les acquisitions"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : livraison avec installation = livraison en exécution d'un contrat d'entreprise, lieu en Suisse, entraînant en principe l'assujettissement de Sauna GmbH (art. 3 let. d, art. 7, art. 10 al. 2 LTVA).",
+    "Faux : l'installation n'est pas accessoire ; l'ensemble est une livraison localisée en Suisse qui assujettit le fournisseur (art. 3 let. d LTVA).",
+    "Faux : il ne s'agit pas d'une simple prestation de services partielle mais d'une livraison globale imposée en Suisse (art. 7 LTVA).",
+    "Faux : un particulier ne peut pas autoliquider l'impôt sur les acquisitions pour une telle livraison de bien (art. 45 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M7-022",
+   "champ": "Import, export & impôt sur les acquisitions — Contrat d'entreprise sans importation de matériel",
+   "memento": "art. 45 LTVA",
+   "question": "Un fabricant de cuisines allemand effectue des travaux sur une cuisine déjà en place dans un restaurant suisse, sans importer de matériel. Quel régime s'applique ?",
+   "options": [
+    "L'impôt sur les importations, car le fabricant est étranger",
+    "L'exportation exonérée",
+    "Aucun impôt, l'opération étant hors champ suisse",
+    "L'impôt sur les acquisitions, autoliquidé par le restaurant suisse"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : sans importation de matériel, il n'y a pas d'impôt sur les importations malgré la nationalité étrangère (art. 52 vs art. 45 LTVA).",
+    "Faux : il ne s'agit pas d'une exportation ; la prestation est fournie et localisée en Suisse (art. 23 vs art. 45 LTVA).",
+    "Faux : l'opération n'est pas hors champ ; son lieu est en Suisse et elle relève de l'impôt sur les acquisitions (art. 45 al. 1 let. c LTVA).",
+    "Exact : à défaut d'importation de matériel, les travaux (lieu en Suisse) relèvent de l'impôt sur les acquisitions, autoliquidé par le restaurant suisse (art. 45 al. 1 let. c LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-023",
+   "champ": "Import, export & impôt sur les acquisitions — Contrat d'entreprise avec importation de matériel",
+   "memento": "art. 10 LTVA",
+   "question": "Une entreprise étrangère réalise en Suisse une livraison en exécution d'un contrat d'entreprise et importe elle-même le matériel. Quelle est la conséquence dès CHF 100 000 de chiffre d'affaires mondial ?",
+   "options": [
+    "Elle est assujettie en Suisse et impose la totalité du contrat d'entreprise",
+    "Elle n'impose que la main-d'œuvre exécutée en Suisse",
+    "Le destinataire suisse autoliquide l'impôt sur les acquisitions",
+    "Elle est exonérée car elle a payé l'impôt à l'importation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en important le matériel, l'entreprise étrangère réalise une livraison en Suisse et est assujettie dès CHF 100 000 de CA mondial, imposant la totalité du contrat (art. 10 al. 2 let. a LTVA).",
+    "Faux : elle impose la totalité de la livraison (contrat d'entreprise), pas seulement la main-d'œuvre exécutée en Suisse (art. 10 al. 2 LTVA).",
+    "Faux : comme le fournisseur importe et livre en Suisse, c'est lui qui est assujetti, non le destinataire par autoliquidation (art. 45 vs art. 10 LTVA).",
+    "Faux : le paiement de l'impôt à l'importation n'exonère pas la livraison en Suisse, qui reste imposable (art. 10 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-024",
+   "champ": "Import, export & impôt sur les acquisitions — Déclaration d'engagement (Besserwisser SA)",
+   "memento": "art. 7 LTVA",
+   "question": "Besserwisser SA (siège à Fribourg-en-Brisgau, D) livre des meubles à des clients suisses, s'est immatriculée à la TVA en Suisse, dédouane à la frontière, paie l'impôt sur les importations et facture la TVA suisse. Que doit-elle impérativement obtenir pour faire valoir l'impôt sur les importations comme impôt préalable ?",
+   "options": [
+    "Une déclaration d'engagement à l'importation autorisée par l'AFC, qui déplace le lieu de sa livraison en Suisse",
+    "Rien de plus : son immatriculation suffit en toute hypothèse",
+    "Une autorisation d'exportation de l'OFDF",
+    "Le statut de bénéficiaire institutionnel"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la déclaration d'engagement à l'importation autorisée par l'AFC déplace le lieu de livraison en Suisse et permet la déduction de l'impôt à l'importation (art. 7 al. 3 let. a LTVA, art. 3 OTVA).",
+    "Faux : la seule immatriculation ne suffit pas ; il faut la déclaration d'engagement pour déplacer le lieu et déduire (art. 7 al. 3 let. a LTVA).",
+    "Faux : il ne s'agit pas d'une autorisation d'exportation de l'OFDF mais d'une déclaration d'engagement à l'importation de l'AFC (art. 7 al. 3 let. a LTVA).",
+    "Faux : le statut de bénéficiaire institutionnel (art. 107 LTVA) est sans rapport avec la déduction de l'impôt à l'importation."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M7-025",
+   "champ": "Import, export & impôt sur les acquisitions — Incoterms — DDP vs DAP/EXW",
+   "memento": "art. 28 LTVA",
+   "question": "Sous quel Incoterm le fournisseur étranger agit-il comme importateur, acquitte l'impôt à l'importation et peut le déduire comme impôt préalable ?",
+   "options": [
+    "EXW",
+    "DAP",
+    "DDP",
+    "FCA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : sous EXW, c'est l'acquéreur qui importe et acquitte l'impôt, non le fournisseur (art. 28 al. 1 let. c LTVA).",
+    "Faux : sous DAP, l'importation reste à la charge de l'acquéreur, pas du fournisseur (art. 28 al. 1 let. c LTVA).",
+    "Exact : sous DDP (Delivered Duty Paid), le fournisseur étranger est l'importateur, acquitte l'impôt à l'importation et peut le déduire (art. 28 al. 1 let. c LTVA).",
+    "Faux : sous FCA, le fournisseur remet au transporteur mais n'assume pas l'importation ni son impôt (art. 28 al. 1 let. c LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-026",
+   "champ": "Import, export & impôt sur les acquisitions — Importation dans l'UE (EXW → DDP)",
+   "memento": "art. 7 LTVA",
+   "question": "Müller SA vend des accessoires à des clients B2B en Allemagne sous l'Incoterm EXW ; les clients ne veulent plus s'occuper eux-mêmes de l'importation en Allemagne. Que conseiller sans bouleverser la logistique ?",
+   "options": [
+    "Servir les clients depuis un entrepôt de distribution en Allemagne",
+    "Rien n'est possible sans grandes adaptations logistiques",
+    "Expédier les accessoires sous l'Incoterm DDP",
+    "Continuer en EXW, les clients restant importateurs"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : ouvrir un entrepôt de distribution en Allemagne bouleverse la logistique, ce que la question veut éviter (comparatif UE).",
+    "Faux : une solution simple existe — passer à l'Incoterm DDP — sans grande adaptation logistique (comparatif UE).",
+    "Exact : en passant de EXW à DDP, Müller SA devient l'importatrice en Allemagne et libère ses clients B2B, sans bouleverser la logistique (comparatif UE ; côté CH, art. 7 al. 3 LTVA).",
+    "Faux : continuer en EXW laisse justement les clients gérer l'importation, ce qu'ils refusent (comparatif UE)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M7-027",
+   "champ": "Import, export & impôt sur les acquisitions — Impôt sur les acquisitions — mécanisme",
+   "memento": "art. 45 LTVA",
+   "question": "En quoi consiste l'impôt sur les acquisitions ?",
+   "options": [
+    "Le fournisseur étranger facture la TVA suisse à son client",
+    "Le destinataire suisse devient débiteur de l'impôt (autoliquidation) sur une prestation reçue d'un fournisseur étranger non inscrit",
+    "L'OFDF perçoit l'impôt à la frontière sur les biens importés",
+    "L'acquéreur étranger récupère la TVA suisse a posteriori"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le fournisseur étranger non inscrit ne facture pas la TVA suisse ; c'est le destinataire qui autoliquide (art. 45 LTVA).",
+    "Exact : l'impôt sur les acquisitions inverse la charge — le destinataire suisse devient débiteur sur la prestation reçue d'un fournisseur étranger non inscrit (art. 45 LTVA).",
+    "Faux : la perception à la frontière par l'OFDF caractérise l'impôt sur les importations (art. 52 LTVA), non les acquisitions.",
+    "Faux : il ne s'agit pas d'un remboursement à un acquéreur étranger (art. 107 LTVA) mais de l'autoliquidation par le destinataire suisse (art. 45 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M7-028",
+   "champ": "Import, export & impôt sur les acquisitions — Les 5 catégories de l'art. 45 al. 1 LTVA",
+   "memento": "art. 45 LTVA",
+   "question": "Laquelle de ces prestations N'entre PAS dans les catégories soumises à l'impôt sur les acquisitions (art. 45 al. 1 LTVA) ?",
+   "options": [
+    "Une prestation de services dont le lieu est en Suisse selon l'art. 8 al. 1 LTVA",
+    "La livraison de biens immobiliers non soumise à l'impôt sur les importations",
+    "L'électricité ou le gaz fournis par une entreprise étrangère",
+    "L'importation physique d'une machine à travers la frontière douanière"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une prestation de services dont le lieu est en Suisse entre bien dans les acquisitions (art. 45 al. 1 let. a LTVA).",
+    "Faux : la livraison de biens immobiliers non soumise à l'impôt sur les importations est une catégorie des acquisitions (art. 45 al. 1 let. c LTVA).",
+    "Faux : l'électricité, le gaz ou la chaleur fournis par une entreprise étrangère relèvent bien des acquisitions (art. 45 al. 1 let. d LTVA).",
+    "Exact : l'importation physique d'une machine relève de l'impôt sur les importations (art. 52 LTVA), non des catégories de l'art. 45 al. 1 LTVA."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-029",
+   "champ": "Import, export & impôt sur les acquisitions — Seuil CHF 10 000 — non-assujetti",
+   "memento": "art. 45 LTVA",
+   "question": "Un particulier suisse non assujetti acquiert des prestations de services de fournisseurs étrangers. À partir de quel montant annuel devient-il redevable de l'impôt sur les acquisitions ?",
+   "options": [
+    "Dès le premier franc",
+    "Au-delà de CHF 100 000 par année civile",
+    "Au-delà de CHF 150 par acquisition",
+    "Au-delà de CHF 10 000 par année civile"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le non-assujetti n'est pas redevable dès le premier franc ; un seuil annuel de CHF 10 000 s'applique (art. 45 al. 2 let. b LTVA).",
+    "Faux : CHF 100 000 est le seuil d'assujettissement au chiffre d'affaires (art. 10 LTVA), non celui de l'impôt sur les acquisitions du non-assujetti.",
+    "Faux : le seuil est annuel (CHF 10 000/an) et non par acquisition ; CHF 150 vise la franchise d'importation (art. 45 al. 2 let. b LTVA).",
+    "Exact : le particulier non assujetti est redevable au-delà de CHF 10 000 de telles prestations par année civile (art. 45 al. 2 let. b LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-030",
+   "champ": "Import, export & impôt sur les acquisitions — Assujetti inscrit — sans seuil",
+   "memento": "art. 45 LTVA",
+   "question": "Une société assujettie inscrite au registre de l'AFC acquiert pour CHF 2 000 de conseil auprès d'un cabinet étranger. Doit-elle l'impôt sur les acquisitions ?",
+   "options": [
+    "Non, car elle reste sous le seuil de CHF 10 000",
+    "Non, car elle est déjà assujettie à la TVA",
+    "Oui : l'assujetti inscrit impose TOUTES ses acquisitions, sans seuil",
+    "Oui, mais seulement si le montant dépasse CHF 100"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le seuil de CHF 10 000 ne vaut que pour les non-assujettis ; l'assujetti inscrit n'en bénéficie pas (art. 45 al. 2 let. a LTVA).",
+    "Faux : être déjà assujettie n'exonère pas des acquisitions ; au contraire, elle les impose toutes (art. 45 al. 2 let. a LTVA).",
+    "Exact : l'assujetti déjà inscrit impose TOUTES ses acquisitions, sans seuil (art. 45 al. 2 let. a LTVA).",
+    "Faux : aucun seuil de CHF 100 ne s'applique ; l'assujetti impose dès le premier franc d'acquisition (art. 45 al. 2 let. a LTVA)."
+   ],
+   "piege": "Assujetti inscrit : acquisitions sans seuil",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-031",
+   "champ": "Import, export & impôt sur les acquisitions — Annonce spontanée — délai",
+   "memento": "art. 66 LTVA",
+   "question": "Dans quel délai un non-assujetti redevable de l'impôt sur les acquisitions doit-il s'annoncer spontanément à l'AFC ?",
+   "options": [
+    "Dans les 30 jours suivant la première acquisition",
+    "Dans les 90 jours suivant la réception de la facture",
+    "Avant la fin du trimestre en cours",
+    "Dans les 60 jours suivant la fin de l'année civile"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le délai n'est pas de 30 jours après la première acquisition (art. 66 al. 3 LTVA).",
+    "Faux : le délai ne court pas depuis la réception de la facture ni sur 90 jours (art. 66 al. 3 LTVA).",
+    "Faux : ce n'est pas la fin du trimestre en cours qui fixe le délai (art. 66 al. 3 LTVA).",
+    "Exact : la personne assujettie uniquement à l'impôt sur les acquisitions doit s'annoncer par écrit dans les 60 jours suivant la fin de l'année civile (art. 66 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-032",
+   "champ": "Import, export & impôt sur les acquisitions — art. 45a — prestation exclue/exonérée acquise de l'étranger",
+   "memento": "art. 45a LTVA",
+   "question": "Une entreprise suisse acquiert d'un fournisseur étranger une prestation qui, en Suisse, serait exclue du champ de l'impôt (art. 21). Doit-elle l'impôt sur les acquisitions ?",
+   "options": [
+    "Oui, toute prestation acquise de l'étranger y est soumise",
+    "Non : une prestation exclue (art. 21) ou exonérée (art. 23) acquise de l'étranger n'est pas soumise à l'impôt sur les acquisitions",
+    "Oui, mais au taux réduit de 2,6 %",
+    "Non, sauf si le montant dépasse CHF 10 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : toutes les prestations acquises de l'étranger ne sont pas soumises ; les prestations exclues ou exonérées échappent à l'impôt sur les acquisitions (art. 45a LTVA).",
+    "Exact : une prestation qui, en Suisse, serait exclue (art. 21) ou exonérée (art. 23) n'est pas soumise à l'impôt sur les acquisitions lorsqu'elle est acquise de l'étranger (art. 45a LTVA).",
+    "Faux : il n'y a pas de taxation au taux réduit ; la prestation exclue est hors impôt sur les acquisitions (art. 45a LTVA).",
+    "Faux : le seuil de CHF 10 000 est ici hors sujet ; l'exclusion tient à la nature (exclue/exonérée) de la prestation (art. 45a LTVA)."
+   ],
+   "piege": "Prestation exclue/exonérée acquise : hors art. 45",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-033",
+   "champ": "Import, export & impôt sur les acquisitions — Écriture d'autoliquidation neutre",
+   "memento": "art. 45 LTVA",
+   "question": "Un internat assujetti (méthode effective, plein droit à déduction) reçoit une facture de CHF 100 000 d'une agence de publicité étrangère. Quel est l'effet de l'autoliquidation de l'impôt sur les acquisitions (8,1 %) ?",
+   "options": [
+    "Une charge nette de CHF 8 100",
+    "Une TVA due de CHF 8 100 sans aucune déduction",
+    "Une opération neutre : la TVA due de CHF 8 100 et l'impôt préalable déductible s'annulent",
+    "Un remboursement de CHF 8 100 par l'AFC"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : avec plein droit à déduction, il n'y a pas de charge nette de CHF 8 100 ; l'opération est neutre (art. 28 al. 1 let. b LTVA).",
+    "Faux : l'impôt préalable déductible existe bien et neutralise la TVA due de CHF 8 100 (art. 28 al. 1 let. b LTVA).",
+    "Exact : l'autoliquidation crée une TVA due de CHF 8 100 et un impôt préalable déductible du même montant qui s'annulent — opération neutre (art. 45 al. 1 let. a, art. 28 al. 1 let. b LTVA).",
+    "Faux : il n'y a pas de remboursement de l'AFC ; la TVA due et la déduction se compensent (art. 28 al. 1 let. b LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-034",
+   "champ": "Import, export & impôt sur les acquisitions — Acquisitions en méthode forfaitaire — charge définitive",
+   "memento": "art. 45 LTVA",
+   "question": "Le même internat décompte selon les taux forfaitaires et reçoit CHF 300 000 de publicité étrangère. Quel est l'effet de l'impôt sur les acquisitions (8,1 %) ?",
+   "options": [
+    "Une opération neutre grâce à la déduction de l'impôt préalable",
+    "Une charge définitive de CHF 24 300, faute de déduction de l'impôt préalable",
+    "Aucun impôt sur les acquisitions n'est dû en méthode forfaitaire",
+    "Un impôt de CHF 300 000 à verser à l'AFC"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : en méthode des taux forfaitaires, aucune déduction de l'impôt préalable n'est possible, donc pas de neutralité (art. 45 LTVA).",
+    "Exact : sans déduction possible en méthode forfaitaire, l'impôt sur les acquisitions de CHF 300 000 × 8,1 % = CHF 24 300 devient une charge définitive (art. 45 LTVA).",
+    "Faux : l'impôt sur les acquisitions reste dû en méthode forfaitaire ; seule la déduction est exclue (art. 45 LTVA).",
+    "Faux : l'impôt se calcule sur la base (8,1 % de CHF 300 000 = CHF 24 300), non sur le montant brut de CHF 300 000 (art. 45 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-035",
+   "champ": "Import, export & impôt sur les acquisitions — Licence de logiciel acquise (méthode TDFN)",
+   "memento": "art. 45 LTVA",
+   "question": "Une société suisse (méthode TDFN) acquiert une licence de logiciel par voie électronique auprès d'un éditeur étranger non inscrit. L'impôt sur les acquisitions est-il dû ?",
+   "options": [
+    "Oui : PS dont le lieu est en Suisse (art. 8 al. 1), fournisseur étranger non inscrit",
+    "Non, car la méthode TDFN en dispense",
+    "Non, car un logiciel est un bien importé",
+    "Oui, mais uniquement au-delà de CHF 100 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la licence est une prestation de services dont le lieu est en Suisse (art. 8 al. 1) fournie par un étranger non inscrit → impôt sur les acquisitions dû (art. 45 al. 1 let. a LTVA).",
+    "Faux : la méthode TDFN ne dispense pas de l'impôt sur les acquisitions ; elle empêche seulement la déduction (art. 45 LTVA).",
+    "Faux : une licence téléchargée est une prestation de services, non un bien importé (art. 45 al. 1 let. a vs art. 52 LTVA).",
+    "Faux : l'assujetti inscrit doit l'impôt sans seuil ; le seuil de CHF 100 000 vise l'assujettissement au CA (art. 45 al. 2 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-036",
+   "champ": "Import, export & impôt sur les acquisitions — Prestation liée à un immeuble à l'étranger",
+   "memento": "art. 8 LTVA",
+   "question": "Un architecte zurichois facture des plans pour un immeuble situé à Lörrach (Allemagne) à un maître d'ouvrage suisse. Impôt sur les acquisitions ?",
+   "options": [
+    "Oui, car le prestataire est suisse",
+    "Oui, au titre de l'impôt sur les importations",
+    "Non, car les prestations d'architecte sont exclues",
+    "Non, car le lieu de la prestation (situation de l'immeuble) est à l'étranger"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la nationalité suisse du prestataire est indifférente ; le lieu suit la situation de l'immeuble (art. 8 al. 2 let. f LTVA).",
+    "Faux : une prestation d'architecte n'est pas une importation de bien (art. 52 vs art. 8 LTVA).",
+    "Faux : les prestations d'architecte ne sont pas exclues du champ ; ici c'est leur lieu à l'étranger qui écarte l'impôt (art. 8 al. 2 let. f LTVA).",
+    "Exact : une prestation liée à un immeuble se localise au lieu de l'immeuble (Lörrach, Allemagne) ; le lieu étant à l'étranger, pas d'impôt sur les acquisitions (art. 8 al. 2 let. f LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-037",
+   "champ": "Import, export & impôt sur les acquisitions — Prestation de formation exclue acquise de l'étranger",
+   "memento": "art. 45a LTVA",
+   "question": "Un enseignant établi en Allemagne donne un cours de niveau bachelor dans une haute école suisse. L'établissement doit-il l'impôt sur les acquisitions ?",
+   "options": [
+    "Oui, prestation de services d'un fournisseur étranger",
+    "Non : la prestation de formation est exclue, donc non soumise à l'impôt sur les acquisitions",
+    "Oui, au taux réduit",
+    "Non, car le lieu est à l'étranger"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : bien que fournie par un étranger, la prestation de formation est exclue, donc hors impôt sur les acquisitions (art. 45a LTVA).",
+    "Exact : la prestation de formation étant exclue du champ (art. 21), son acquisition de l'étranger n'est pas soumise à l'impôt sur les acquisitions (art. 45a LTVA).",
+    "Faux : il n'y a pas d'imposition au taux réduit ; la prestation exclue échappe à l'impôt sur les acquisitions (art. 45a LTVA).",
+    "Faux : le cours est donné en Suisse ; ce n'est pas le lieu à l'étranger mais l'exclusion (art. 21) qui écarte l'impôt (art. 45a LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-038",
+   "champ": "Import, export & impôt sur les acquisitions — Transport transfrontalier exonéré acquis de l'étranger",
+   "memento": "art. 45a LTVA",
+   "question": "Un logisticien français facture à une société suisse un transport Paris → Bruxelles. Impôt sur les acquisitions en Suisse ?",
+   "options": [
+    "Oui, le destinataire est suisse",
+    "Non : la prestation est exonérée, donc non soumise à l'impôt sur les acquisitions",
+    "Oui, au titre de l'impôt sur les importations",
+    "Non, car le transport de marchandises est toujours hors champ"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : malgré le destinataire suisse, le transport transfrontalier est exonéré et donc hors impôt sur les acquisitions (art. 45a LTVA).",
+    "Exact : le transport transfrontalier étant exonéré (art. 23), son acquisition de l'étranger n'est pas soumise à l'impôt sur les acquisitions (art. 45a LTVA).",
+    "Faux : il s'agit d'une prestation de services, non d'une importation de bien (art. 52 vs art. 45 LTVA).",
+    "Faux : le transport de marchandises n'est pas « toujours hors champ » ; ici il est exonéré (art. 23 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-039",
+   "champ": "Import, export & impôt sur les acquisitions — Bénéficiaires institutionnels — dégrèvement à la source",
+   "memento": "art. 107 LTVA",
+   "question": "Comment sont dégrevées de la TVA les prestations fournies aux bénéficiaires institutionnels (missions diplomatiques, organisations internationales) ?",
+   "options": [
+    "Par un remboursement a posteriori sur demande annuelle",
+    "Par une exonération à la source : le prestataire ne facture pas la TVA et conserve son droit à déduction",
+    "Par l'application du taux réduit de 2,6 %",
+    "Par l'autoliquidation du bénéficiaire"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le remboursement a posteriori sur demande vise les acquéreurs étrangers (art. 107 al. 1 let. b LTVA), pas les bénéficiaires institutionnels.",
+    "Exact : les prestations aux bénéficiaires institutionnels sont exonérées à la source — le prestataire ne facture pas la TVA et conserve son droit à déduction (art. 107 al. 1 let. a LTVA).",
+    "Faux : il ne s'agit pas d'une imposition au taux réduit mais d'une exonération à la source (art. 107 al. 1 let. a LTVA).",
+    "Faux : ce n'est pas le bénéficiaire qui autoliquide ; le prestataire ne facture simplement pas la TVA (art. 107 al. 1 let. a LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M7-040",
+   "champ": "Import, export & impôt sur les acquisitions — Bénéficiaires institutionnels — montant minimum",
+   "memento": "art. 107 LTVA",
+   "question": "À partir de quel montant (TVA comprise) une livraison à une mission diplomatique peut-elle être dégrevée à la source ?",
+   "options": [
+    "CHF 50",
+    "CHF 300",
+    "CHF 500",
+    "CHF 100"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le montant minimum du dégrèvement à la source n'est pas de CHF 50 (art. 145 al. 3 OTVA).",
+    "Faux : CHF 300 est le seuil d'exonération à l'exportation voyageurs (art. 23 al. 5 LTVA), non le dégrèvement institutionnel.",
+    "Faux : le seuil de dégrèvement à la source n'est pas de CHF 500 (art. 145 al. 3 OTVA).",
+    "Exact : le dégrèvement à la source suppose un montant d'au moins CHF 100 (TVA comprise) par facture (art. 145 al. 3 OTVA, art. 107 al. 1 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-041",
+   "champ": "Import, export & impôt sur les acquisitions — Personnes bénéficiaires — exclusions",
+   "memento": "art. 143 OTVA",
+   "question": "Laquelle de ces personnes ne peut JAMAIS bénéficier du dégrèvement à la source en tant que personne bénéficiaire ?",
+   "options": [
+    "Un agent diplomatique étranger accrédité en Suisse",
+    "Un haut fonctionnaire étranger d'une organisation internationale",
+    "Un ressortissant suisse ou un titulaire d'un permis B ou C, même diplomate",
+    "Un chef d'État étranger en visite officielle"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un agent diplomatique étranger accrédité en Suisse figure parmi les personnes bénéficiaires (art. 143 OTVA).",
+    "Faux : un haut fonctionnaire étranger d'une organisation internationale peut être personne bénéficiaire (art. 143 OTVA).",
+    "Exact : les ressortissants suisses et les titulaires d'un permis B ou C ne sont jamais personnes bénéficiaires, même diplomates (art. 143 al. 4 OTVA).",
+    "Faux : un chef d'État étranger en visite officielle peut bénéficier du dégrèvement (art. 143 OTVA)."
+   ],
+   "piege": "Suisse ou permis B/C : jamais bénéficiaire",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-042",
+   "champ": "Import, export & impôt sur les acquisitions — Mission diplomatique — usage officiel",
+   "memento": "art. 107 LTVA",
+   "question": "Une mission diplomatique à Berne commande pour CHF 4 000 de mobilier de bureau à usage officiel auprès d'un fournisseur suisse. Comment le fournisseur facture-t-il ?",
+   "options": [
+    "Avec la TVA de 8,1 %, à charge de la mission",
+    "Sans TVA, sur présentation du formulaire officiel timbré en original ; il conserve son droit à déduction",
+    "Sans TVA, mais il perd son droit à déduction",
+    "Avec la TVA, la mission la récupérant a posteriori"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la mission bénéficie du dégrèvement à la source ; le fournisseur ne facture pas la TVA (art. 107 al. 1 let. a LTVA).",
+    "Exact : usage officiel, montant ≥ CHF 100 et formulaire timbré en original → le fournisseur ne facture pas la TVA et conserve son droit à déduction (art. 107 al. 1 let. a LTVA, art. 144-145 OTVA).",
+    "Faux : l'exonération à la source préserve précisément le droit à déduction du prestataire (art. 107 al. 1 let. a LTVA).",
+    "Faux : le mécanisme est un dégrèvement à la source, non une facturation puis récupération a posteriori (art. 107 al. 1 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-043",
+   "champ": "Import, export & impôt sur les acquisitions — Dégrèvement à la source vs remboursement — bases légales",
+   "memento": "art. 107 LTVA",
+   "question": "Quelle disposition fonde le dégrèvement à la source des bénéficiaires institutionnels, par opposition au remboursement de l'impôt aux acquéreurs étrangers ?",
+   "options": [
+    "art. 107 al. 1 let. a LTVA pour le dégrèvement à la source ; let. b pour le remboursement",
+    "art. 45 LTVA pour les deux",
+    "art. 23 LTVA pour le dégrèvement ; art. 21 pour le remboursement",
+    "art. 50 LTVA pour le dégrèvement ; art. 55 pour le remboursement"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 107 al. 1 let. a LTVA fonde le dégrèvement à la source des bénéficiaires institutionnels et la let. b le remboursement aux acquéreurs étrangers.",
+    "Faux : l'art. 45 LTVA vise l'impôt sur les acquisitions, non le dégrèvement institutionnel ni le remboursement (art. 107 LTVA).",
+    "Faux : les art. 23 et 21 LTVA concernent l'exonération et l'exclusion, non ces deux régimes de dégrèvement/remboursement (art. 107 LTVA).",
+    "Faux : les art. 50 et 55 LTVA portent sur l'impôt sur les importations, non sur le dégrèvement institutionnel (art. 107 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-044",
+   "champ": "Import, export & impôt sur les acquisitions — Remboursement de l'impôt étranger — conditions",
+   "memento": "art. 107 LTVA",
+   "question": "Quelles conditions ouvrent le droit au remboursement de l'impôt à une entreprise étrangère ?",
+   "options": [
+    "Réciprocité entre États, absence de siège/activité assujettie en Suisse, et TVA facturée à juste titre",
+    "Simple qualité d'entreprise étrangère",
+    "Réalisation d'un chiffre d'affaires en Suisse supérieur à CHF 100 000",
+    "Détention d'un établissement stable en Suisse"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le remboursement suppose la réciprocité entre États, l'absence de siège ou d'activité assujettie en Suisse et une TVA facturée à juste titre (art. 107 al. 1 let. b LTVA, art. 151 ss OTVA).",
+    "Faux : la seule qualité d'entreprise étrangère ne suffit pas ; réciprocité et autres conditions sont requises (art. 151 ss OTVA).",
+    "Faux : un CA suisse > CHF 100 000 conduirait à l'assujettissement ordinaire, non au remboursement (art. 10 vs art. 107 LTVA).",
+    "Faux : détenir un établissement stable en Suisse exclut au contraire le remboursement (art. 151 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-045",
+   "champ": "Import, export & impôt sur les acquisitions — TVA facturée à tort — non remboursable",
+   "memento": "art. 151 OTVA",
+   "question": "Un avocat belge a facturé la TVA belge à une société suisse pour une prestation relevant en réalité du lieu du destinataire (Suisse). Cette TVA belge est-elle remboursable par la procédure de remboursement ?",
+   "options": [
+    "Oui, toute TVA étrangère payée est remboursable",
+    "Oui, sous réserve de réciprocité",
+    "Non, mais elle est déductible comme impôt préalable en Suisse",
+    "Non : la TVA a été facturée à tort, elle n'est pas remboursable par cette procédure"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la TVA facturée à tort n'est pas remboursable ; toute TVA étrangère payée ne l'est pas (art. 151 ss OTVA).",
+    "Faux : même avec réciprocité, une TVA facturée à tort échappe au remboursement (art. 151 ss OTVA).",
+    "Faux : une TVA étrangère facturée à tort n'est pas déductible comme impôt préalable suisse (art. 151 ss OTVA).",
+    "Exact : la prestation relevant du lieu du destinataire (Suisse), la TVA belge a été facturée à tort et n'est pas remboursable par cette procédure (art. 151 ss OTVA)."
+   ],
+   "piege": "TVA facturée à tort : non remboursable",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-046",
+   "champ": "Import, export & impôt sur les acquisitions — Remboursement — coût entrepreneurial (hôtel Francfort)",
+   "memento": "art. 107 LTVA",
+   "question": "Une entreprise suisse a payé la TVA allemande pour une nuit d'hôtel à Francfort lors d'un salon professionnel. Peut-elle en obtenir le remboursement ?",
+   "options": [
+    "Non, les frais d'hôtel sont toujours exclus",
+    "Oui, s'agissant d'un coût entrepreneurial et sous réserve des conditions (réciprocité, TVA à juste titre)",
+    "Non, car elle n'a pas de siège en Allemagne",
+    "Oui, mais uniquement via une immatriculation ordinaire en Allemagne"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les frais d'hôtel ne sont pas exclus par principe ; ils constituent un coût entrepreneurial remboursable (art. 107 al. 1 let. b LTVA).",
+    "Exact : la TVA étrangère sur un coût entrepreneurial (hôtel pour un salon) est remboursable a posteriori si les conditions sont réunies (art. 107 al. 1 let. b LTVA, art. 151 ss OTVA).",
+    "Faux : l'absence de siège en Allemagne est justement une condition du remboursement, non un obstacle (art. 151 OTVA).",
+    "Faux : sans livraison sur place, l'immatriculation ordinaire n'est pas requise ; la procédure de remboursement suffit (art. 151 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-047",
+   "champ": "Import, export & impôt sur les acquisitions — Remboursement exclu si livraisons sur place",
+   "memento": "art. 151 OTVA",
+   "question": "Une entreprise suisse importe des machines d'Autriche et y effectue des livraisons depuis l'Autriche. Peut-elle récupérer la TVA autrichienne par la procédure de remboursement ?",
+   "options": [
+    "Oui, comme toute TVA étrangère",
+    "Oui, à condition de renoncer à la déduction",
+    "Non, la TVA étrangère n'est jamais récupérable",
+    "Non : réalisant des livraisons sur place, elle doit s'immatriculer normalement en Autriche"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la procédure de remboursement n'est pas ouverte à qui fournit des prestations sur place (art. 151 OTVA).",
+    "Faux : renoncer à la déduction ne change rien ; réaliser des livraisons sur place ferme la voie du remboursement (art. 151 OTVA).",
+    "Faux : la TVA étrangère est récupérable en principe, mais ici via l'immatriculation ordinaire, pas le remboursement (art. 151 OTVA).",
+    "Exact : réalisant des livraisons depuis l'Autriche, l'entreprise ne remplit pas la condition d'absence de prestation sur place et doit s'immatriculer normalement (art. 151 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-048",
+   "champ": "Import, export & impôt sur les acquisitions — UE comparatif — LIC / AIC",
+   "memento": "art. 23 LTVA",
+   "question": "Dans le vocabulaire de l'UE, que désignent respectivement une LIC et une AIC ?",
+   "options": [
+    "Une livraison intracommunautaire (exonérée au départ) et une acquisition intracommunautaire (imposée à destination)",
+    "Une livraison en chaîne et une acquisition en chaîne",
+    "Une importation et une exportation vers des pays tiers",
+    "Deux régimes suisses d'exonération"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la LIC (livraison intracommunautaire) est exonérée au départ et l'AIC (acquisition intracommunautaire) imposée à destination (comparatif UE).",
+    "Faux : LIC et AIC ne désignent pas des opérations en chaîne mais des livraisons/acquisitions intracommunautaires (comparatif UE).",
+    "Faux : LIC/AIC concernent les échanges intra-UE, non les importations/exportations vers pays tiers (comparatif UE).",
+    "Faux : ce ne sont pas des régimes suisses ; en Suisse on parle d'exportation exonérée (art. 23) et d'impôt sur les acquisitions (art. 45 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M7-049",
+   "champ": "Import, export & impôt sur les acquisitions — UE comparatif — bascule OSS B2C",
+   "memento": "art. 8 LTVA",
+   "question": "Dans l'UE, au-delà de quel seuil annuel les ventes à distance B2C basculent-elles du lieu du prestataire vers le pays de destination (procédure OSS) ?",
+   "options": [
+    "EUR 10 000",
+    "EUR 35 000",
+    "EUR 100 000",
+    "CHF 100 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : dans l'UE, les ventes à distance B2C basculent vers le pays de destination (OSS) au-delà de EUR 10 000/an (comparatif UE ; côté CH, art. 8 LTVA).",
+    "Faux : EUR 35 000 était un ancien seuil national de vente à distance, remplacé par le seuil unique de EUR 10 000 (comparatif UE).",
+    "Faux : le seuil de bascule OSS n'est pas de EUR 100 000 (comparatif UE).",
+    "Faux : le seuil est de EUR 10 000, non un montant en francs ; CHF 100 000 vise l'assujettissement suisse (art. 10 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-050",
+   "champ": "Import, export & impôt sur les acquisitions — UE comparatif — reverse charge",
+   "memento": "art. 45 LTVA",
+   "question": "À quel mécanisme suisse correspond le « reverse charge » B2B de l'UE ?",
+   "options": [
+    "À l'impôt sur les importations",
+    "À l'exonération à l'exportation",
+    "À l'impôt sur les acquisitions",
+    "Au dégrèvement des bénéficiaires institutionnels"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'impôt sur les importations vise le franchissement de biens (art. 52 LTVA), pas le reverse charge B2B.",
+    "Faux : l'exonération à l'exportation (art. 23 LTVA) n'est pas l'équivalent du reverse charge.",
+    "Exact : le reverse charge B2B de l'UE correspond à l'impôt sur les acquisitions suisse, où le destinataire devient débiteur (art. 45 LTVA).",
+    "Faux : le dégrèvement des bénéficiaires institutionnels (art. 107 LTVA) est sans rapport avec le reverse charge."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-051",
+   "champ": "Import, export & impôt sur les acquisitions — UE comparatif — Intrastat vs état récapitulatif",
+   "memento": "art. 23 LTVA",
+   "question": "Dans l'UE, à quoi sert l'Intrastat, par opposition à l'état récapitulatif (VIES) ?",
+   "options": [
+    "L'Intrastat perçoit la TVA ; l'état récapitulatif la rembourse",
+    "L'Intrastat est une déclaration statistique des mouvements de marchandises ; l'état récapitulatif échange des informations sur les LIC et PS transfrontalières",
+    "Les deux sont des déclarations de TVA obligatoires en Suisse",
+    "L'Intrastat exonère les exportations ; le VIES les impose"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ni l'Intrastat ni l'état récapitulatif ne perçoivent ou remboursent la TVA (comparatif UE).",
+    "Exact : l'Intrastat est une déclaration statistique des mouvements de marchandises ; l'état récapitulatif (VIES) échange les informations sur les LIC et prestations transfrontalières (comparatif UE).",
+    "Faux : ces déclarations sont propres à l'UE et sans équivalent obligatoire en droit suisse (cf. art. 23 LTVA).",
+    "Faux : l'Intrastat n'exonère rien et le VIES n'impose rien ; ce sont des instruments déclaratifs (comparatif UE)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-052",
+   "champ": "Import, export & impôt sur les acquisitions — Maintenance dans l'UE — autoliquidation",
+   "memento": "art. 3 LTVA",
+   "question": "Gebrüder Müller AG (siège à Saint-Gall) fournit des prestations de maintenance sur des machines chez des clients B2B en Autriche. Du point de vue autrichien, de quoi s'agit-il et comment est-ce imposé ?",
+   "options": [
+    "Des livraisons, imposées par immatriculation de Müller en Autriche",
+    "Des services soumis au mécanisme de l'autoliquidation en Autriche",
+    "Des livraisons soumises à l'autoliquidation en Autriche",
+    "Des services, avec immatriculation de Müller en Autriche et facturation de TVA autrichienne"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : en droit UE, les travaux sur un bien sont des services, non des livraisons (comparatif UE ; en CH art. 3 let. d LTVA).",
+    "Exact : en droit UE, la maintenance est un service ; en B2B le lieu est chez le destinataire (Autriche) avec autoliquidation par le client (comparatif UE).",
+    "Faux : il ne s'agit pas de livraisons ; ce sont des services soumis à l'autoliquidation en Autriche (comparatif UE).",
+    "Faux : en B2B avec autoliquidation, Müller n'a pas à s'immatriculer ni à facturer la TVA autrichienne (comparatif UE)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M7-053",
+   "champ": "Import, export & impôt sur les acquisitions — Commerce électronique UE — OSS B2B/B2C",
+   "memento": "art. 8 LTVA",
+   "question": "ABC AG (Saint-Gall) vend des logiciels en téléchargement à des clients B2B et B2C dans l'UE. Laquelle de ces affirmations n'est PAS correcte ?",
+   "options": [
+    "Les prestations aux clients B2B de l'UE sont soumises à l'autoliquidation",
+    "ABC peut facturer les clients B2C de l'UE selon la procédure OSS",
+    "Sans OSS, ABC doit s'immatriculer ordinairement dans les pays de destination pour ses clients B2C",
+    "ABC ne doit imposer ses prestations B2B et B2C ni en Suisse ni dans l'UE"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'affirmation est correcte — les prestations B2B de l'UE sont bien soumises à l'autoliquidation (comparatif UE).",
+    "Faux : l'affirmation est correcte — ABC peut facturer ses clients B2C via la procédure OSS (comparatif UE).",
+    "Faux : l'affirmation est correcte — sans OSS, ABC doit s'immatriculer dans les pays de destination pour ses clients B2C (comparatif UE).",
+    "Exact : c'est l'affirmation incorrecte — les prestations B2B et B2C sont imposées (autoliquidation ou pays de destination), non exemptées partout (comparatif UE ; côté CH, art. 8 LTVA)."
+   ],
+   "piege": "Comparatif UE : rien n'est « non imposé partout »",
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M7-054",
+   "champ": "Import, export & impôt sur les acquisitions — Livraisons intracommunautaires — obligations déclaratives",
+   "memento": "art. 23 LTVA",
+   "question": "Data Sàrl (siège à Zurich, immatriculée en France) effectue des livraisons intracommunautaires de la France vers l'Allemagne pour environ 5 millions d'euros par an. Quelles obligations déclaratives a-t-elle en France ?",
+   "options": [
+    "Uniquement des décomptes de TVA",
+    "Décomptes de TVA et déclarations récapitulatives seulement",
+    "Décomptes de TVA, déclarations récapitulatives et Intrastat",
+    "Décomptes de TVA, décomptes OSS, déclarations récapitulatives et Intrastat"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : au-delà des décomptes de TVA, des déclarations récapitulatives et l'Intrastat sont dus pour des LIC (comparatif UE).",
+    "Faux : il manque l'Intrastat, obligatoire au-delà des seuils pour ces volumes de LIC (comparatif UE).",
+    "Exact : pour des livraisons intracommunautaires à ce niveau, l'entreprise dépose décomptes de TVA, déclarations récapitulatives (LIC) et Intrastat (comparatif UE).",
+    "Faux : l'OSS vise les ventes B2C, non les LIC B2B ; il n'entre pas ici dans les obligations (comparatif UE)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M7-055",
+   "champ": "Import, export & impôt sur les acquisitions — Opérations triangulaires intracommunautaires",
+   "memento": "art. 7 LTVA",
+   "question": "Dans une opération triangulaire intracommunautaire, qu'est-ce qui commande l'obligation d'immatriculation de l'intermédiaire ?",
+   "options": [
+    "Le pays de départ des marchandises",
+    "Le numéro de TVA sous lequel l'intermédiaire agit",
+    "La nationalité du client final",
+    "La valeur totale de la transaction"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ce n'est pas le pays de départ mais le numéro de TVA de l'intermédiaire qui commande son immatriculation (comparatif UE).",
+    "Exact : dans une opération triangulaire, le numéro de TVA sous lequel agit l'intermédiaire commande son immatriculation et la simplification (comparatif UE ; à ne pas transposer, cf. art. 7 LTVA).",
+    "Faux : la nationalité du client final est indifférente à l'obligation d'immatriculation (comparatif UE).",
+    "Faux : ce n'est pas la valeur de la transaction mais le numéro de TVA de l'intermédiaire qui est déterminant (comparatif UE)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M7-056",
+   "champ": "Import, export & impôt sur les acquisitions — Établissement stable — chantier (pont)",
+   "memento": "art. 5 OTVA",
+   "question": "Heinrich Müller SA (siège à Hambourg) obtient le contrat de rénovation d'un pont en Suisse. Quelle affirmation est correcte ?",
+   "options": [
+    "L'établissement stable et le siège forment toujours un seul et même sujet fiscal",
+    "Un chantier constitue toujours un établissement stable",
+    "Un chantier ne constitue jamais un établissement stable",
+    "Si le chantier constitue un établissement stable, celui-ci et le siège sont, dans les relations transfrontalières, des sujets fiscaux distincts"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : en relations transfrontalières, établissement stable et siège sont des sujets fiscaux distincts, non un seul (art. 5 OTVA).",
+    "Faux : un chantier ne constitue un établissement stable qu'au-delà d'une certaine durée (≥ 12 mois), pas toujours (art. 5 OTVA).",
+    "Faux : un chantier suffisamment durable constitue bien un établissement stable ; ce n'est pas « jamais » (art. 5 OTVA).",
+    "Exact : si le chantier (≥ 12 mois) constitue un établissement stable, celui-ci et le siège étranger sont des sujets fiscaux distincts en transfrontalier (art. 5 OTVA, double entité)."
+   ],
+   "piege": "ES et siège : sujets fiscaux distincts (double entité)",
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M7-057",
+   "champ": "Import, export & impôt sur les acquisitions — Importations franches vs non franches",
+   "memento": "art. 53 LTVA",
+   "question": "Parmi les importations suivantes, laquelle n'est PAS franche de l'impôt sur les importations ?",
+   "options": [
+    "Les œuvres d'art créées par des artistes-peintres ou des sculpteurs",
+    "Les effets de déménagement",
+    "Les biens dédouanés selon la procédure d'admission temporaire",
+    "Le sang humain, y compris le plasma sanguin"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les œuvres d'art créées par des peintres ou sculpteurs sont importées en franchise (art. 53 LTVA).",
+    "Faux : les effets de déménagement sont importés en franchise de l'impôt (art. 53 LTVA).",
+    "Exact : les biens en admission temporaire relèvent d'un régime douanier suspensif (art. 50 LTVA, LD), non d'une franchise de l'art. 53 LTVA.",
+    "Faux : le sang humain, y compris le plasma, est importé en franchise (art. 53 LTVA)."
+   ],
+   "piege": "Admission temporaire ≠ franchise art. 53",
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M7-058",
+   "champ": "Import, export & impôt sur les acquisitions — Territoire — Samnaun (livraison vs PS)",
+   "memento": "art. 4 LTVA",
+   "question": "Une vente Zurich → Samnaun est-elle soumise à la TVA suisse ?",
+   "options": [
+    "Oui pour une livraison de biens, non pour une prestation de services",
+    "Non pour une livraison de biens, oui pour une prestation de services",
+    "Oui dans les deux cas",
+    "Non dans les deux cas"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : pour les livraisons de biens, Samnaun est réputé étranger (non soumis) ; l'inverse est faux (art. 4 al. 1 LTVA).",
+    "Exact : Samnaun (et Sampuoir) est suisse pour les prestations de services (soumises) mais étranger pour les livraisons de biens (non soumises) (art. 4 al. 1 LTVA).",
+    "Faux : la livraison de biens vers Samnaun n'est pas soumise à la TVA suisse (art. 4 al. 1 LTVA).",
+    "Faux : la prestation de services vers Samnaun est soumise à la TVA suisse (art. 4 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-059",
+   "champ": "Import, export & impôt sur les acquisitions — Capstone — PS lieu CH, fournisseur étranger non inscrit",
+   "memento": "art. 45 LTVA",
+   "question": "Une prestation de services a son lieu en Suisse (art. 8 al. 1) et est fournie par un fournisseur étranger non inscrit. Quel régime s'applique ?",
+   "options": [
+    "L'impôt sur les importations (art. 50 ss LTVA)",
+    "L'exportation exonérée (art. 23 LTVA)",
+    "L'impôt sur les acquisitions (art. 45 LTVA)",
+    "L'impôt sur les opérations en Suisse facturé par le fournisseur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'impôt sur les importations (art. 50 ss LTVA) vise les biens franchissant la frontière, non une prestation de services localisée en Suisse.",
+    "Faux : il ne s'agit pas d'une exportation exonérée (art. 23 LTVA) mais d'une prestation reçue en Suisse.",
+    "Exact : PS dont le lieu est en Suisse (art. 8 al. 1) fournie par un étranger non inscrit → impôt sur les acquisitions, destinataire débiteur (art. 45 LTVA).",
+    "Faux : le fournisseur n'étant pas inscrit, il ne facture pas la TVA ; c'est le destinataire qui autoliquide (art. 45 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M7-060",
+   "champ": "Import, export & impôt sur les acquisitions — Capstone — livraison, bien franchit la frontière",
+   "memento": "art. 52 LTVA",
+   "question": "Un bien dont le lieu de livraison est à l'étranger franchit physiquement la frontière pour entrer en Suisse. Quel régime s'applique ?",
+   "options": [
+    "L'impôt sur les acquisitions (art. 45 LTVA)",
+    "L'impôt sur les importations (art. 50 ss LTVA)",
+    "L'exportation exonérée (art. 23 LTVA)",
+    "Aucun régime suisse ne s'applique"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'impôt sur les acquisitions (art. 45 LTVA) vise la bascule du lieu d'une prestation de services, non le franchissement d'un bien.",
+    "Exact : le franchissement physique de la frontière par un bien déclenche l'impôt sur les importations (art. 50 ss et art. 52 al. 1 LTVA).",
+    "Faux : un bien entrant en Suisse n'est pas une exportation exonérée (art. 23 LTVA).",
+    "Faux : un régime suisse s'applique bien — l'impôt sur les importations (art. 52 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  }
+ ]
+}

@@ -1,0 +1,1591 @@
+{
+ "cours": "tva",
+ "module": "M2",
+ "titre": "Assujettissement & collectivités publiques",
+ "questions": [
+  {
+   "id": "M2-001",
+   "champ": "Assujettissement — Types d'assujettissement",
+   "memento": "art. 10, 45, 51 LTVA",
+   "question": "Quels sont les types d'assujettissement à la TVA que connaît le droit suisse ?",
+   "options": [
+    "Assujettissement obligatoire et volontaire, assujettissement selon les taux de la dette fiscale nette, assujettissement à l'impôt sur les importations",
+    "Assujettissement obligatoire ou volontaire de l'entreprise, assujettissement à l'impôt sur les acquisitions, assujettissement à l'impôt sur l'importation de biens",
+    "Assujettissement à la TVA, assujettissement volontaire et obligatoire, assujettissement à l'impôt sur les importations",
+    "Assujettissement à l'impôt sur les importations et les exportations, assujettissement à l'impôt sur les acquisitions, assujettissement volontaire à l'impôt"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la TDFN est une méthode de décompte, pas un type d'assujettissement.",
+    "Exact : trois types — entreprise (art. 10 s.), impôt sur les acquisitions (art. 45), impôt sur l'importation de biens (art. 51 LTVA).",
+    "Faux : formulation redondante qui omet l'impôt sur les acquisitions (art. 45 LTVA).",
+    "Faux : il n'existe pas d'assujettissement à l'exportation ; les trois types sont art. 10 / 45 / 51 LTVA."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M2-002",
+   "champ": "Assujettissement — Exploitation d'une entreprise",
+   "memento": "art. 10 al. 1 LTVA",
+   "question": "Selon l'art. 10 al. 1 LTVA, exploite une entreprise quiconque remplit cumulativement quelles conditions ?",
+   "options": [
+    "Exercer une activité en vue de réaliser un bénéfice et être inscrit au registre du commerce",
+    "Exercer à titre indépendant une activité professionnelle ou commerciale visant des recettes ayant un caractère de permanence, et agir en son propre nom vis-à-vis des tiers",
+    "Réaliser un chiffre d'affaires annuel supérieur à CHF 100 000 sur le territoire suisse",
+    "Fournir des prestations à titre onéreux et avoir son siège en Suisse"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ni le but lucratif ni l'inscription au registre du commerce ne sont déterminants (art. 10 al. 1 LTVA).",
+    "Exact : activité indépendante, professionnelle ou commerciale, orientée vers des recettes durables, exercée en son propre nom (art. 10 al. 1 LTVA).",
+    "Faux : le seuil de CHF 100 000 relève de la libération (art. 10 al. 2), pas de la notion d'entreprise.",
+    "Faux : le siège en Suisse n'est pas une condition de la notion d'entreprise (art. 10 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-003",
+   "champ": "Assujettissement — Activité entrepreneuriale — qualification",
+   "memento": "art. 10 al. 1bis LTVA",
+   "question": "Laquelle de ces personnes exerce une activité entrepreneuriale au sens de la TVA ?",
+   "options": [
+    "Un particulier qui vend une seule fois trois montres de luxe de sa collection privée",
+    "Une personne qui vend deux caisses de vin provenant de sa cave privée",
+    "Une société de gymnastique qui organise chaque année une fête avec buvette",
+    "Un sportif amateur qui reçoit un prix unique de CHF 150"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : vente unique d'objets privés, sans caractère de permanence (art. 10 al. 1bis LTVA).",
+    "Faux : vente isolée d'objets privés, sans caractère de permanence.",
+    "Exact : la fête annuelle récurrente d'un club vise des recettes ayant un caractère de permanence (art. 10 al. 1bis LTVA).",
+    "Faux : prix isolé d'un amateur, sans caractère de permanence."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M2-004",
+   "champ": "Assujettissement — Sujet fiscal",
+   "memento": "art. 10 al. 1 LTVA",
+   "question": "Qui n'entre pas en ligne de compte comme sujet fiscal TVA ?",
+   "options": [
+    "Une société simple",
+    "Une association",
+    "Une personne exerçant une activité lucrative dépendante",
+    "Une personne physique indépendante"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une société simple peut être sujet fiscal (art. 10 LTVA).",
+    "Faux : une association peut être sujet fiscal (art. 10 LTVA).",
+    "Exact : le salarié (activité dépendante) n'exploite pas d'entreprise, faute d'indépendance (art. 10 al. 1 LTVA).",
+    "Faux : une personne physique indépendante peut être sujet fiscal (art. 10 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M2-005",
+   "champ": "Assujettissement — Seuils de libération",
+   "memento": "art. 10 al. 2 LTVA",
+   "question": "Quelles sont les limites de chiffre d'affaires prévues par le droit de la TVA pour la libération de l'assujettissement ?",
+   "options": [
+    "CHF 75 000 et CHF 250 000",
+    "CHF 100 000 et CHF 250 000",
+    "CHF 100 000 et CHF 150 000",
+    "CHF 250 000 et CHF 500 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil général est CHF 100 000, non 75 000 (art. 10 al. 2 let. a).",
+    "Exact : CHF 100 000 en général (let. a) et CHF 250 000 pour associations sportives/culturelles et institutions d'utilité publique (art. 10 al. 2 let. c).",
+    "Faux : le seuil relevé est CHF 250 000, non 150 000.",
+    "Faux : les seuils réels sont CHF 100 000 / 250 000, non 250 000 / 500 000."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M2-006",
+   "champ": "Assujettissement — Seuil relevé associations",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Une association sportive sans but lucratif, gérée exclusivement par des bénévoles, réalise un chiffre d'affaires imposable de CHF 180 000. Est-elle assujettie obligatoirement ?",
+   "options": [
+    "Oui, car elle dépasse CHF 100 000",
+    "Non, car elle bénéficie du seuil de libération relevé à CHF 250 000",
+    "Oui, car aucune limite ne s'applique aux associations",
+    "Non, car les associations ne sont jamais assujetties"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ces associations bénéficient du seuil relevé de CHF 250 000 (art. 10 al. 2 let. c).",
+    "Exact : association sportive sans but lucratif gérée bénévolement, libérée jusqu'à CHF 250 000 ; 180 000 reste sous le seuil (art. 10 al. 2 let. c LTVA).",
+    "Faux : une limite existe bel et bien (seuil relevé de CHF 250 000).",
+    "Faux : les associations deviennent assujetties au-delà de CHF 250 000, et peuvent renoncer à la libération (art. 11 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-007",
+   "champ": "Assujettissement — Calcul du chiffre d'affaires déterminant",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "Une Sàrl réalise en un an : ventes imposables en Suisse CHF 90 000 ; prestations de conseil facturées à un client à l'étranger CHF 40 000 (imposables si elles étaient fournies en Suisse) ; dons reçus CHF 30 000 ; produit de cours de formation exclus non optés CHF 60 000. Quel est le chiffre d'affaires déterminant pour l'assujettissement obligatoire ?",
+   "options": [
+    "CHF 90 000",
+    "CHF 130 000",
+    "CHF 160 000",
+    "CHF 220 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : oublie le conseil à l'étranger (imposable s'il était fourni en Suisse), compté au CA mondial.",
+    "Exact : ventes CH 90 000 + conseil étranger 40 000 = CHF 130 000 ; dons (art. 18 al. 2) et formation exclue non optée (art. 21) écartés (art. 10 al. 2 let. a).",
+    "Faux : inclut à tort les dons de 30 000 (non-contre-prestation, art. 18 al. 2 LTVA).",
+    "Faux : inclut à tort les dons (30 000) et la formation exclue non optée (60 000, art. 21 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-008",
+   "champ": "Assujettissement — Calcul du chiffre d'affaires déterminant",
+   "memento": "art. 10 al. 2 LTVA",
+   "question": "Quelles rémunérations faut-il inclure dans le calcul de la limite de chiffre d'affaires déterminante ?",
+   "options": [
+    "Les non-contre-prestations (dons, subventions)",
+    "Les contre-prestations provenant d'opérations exclues pour lesquelles l'option a été exercée",
+    "Les contre-prestations d'opérations exclues non optées",
+    "Les indemnités de dommages-intérêts"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les dons et subventions sont des non-contre-prestations (art. 18 al. 2), hors calcul.",
+    "Exact : une opération exclue rendue imposable par l'option compte dans le CA déterminant (art. 10 al. 2 LTVA).",
+    "Faux : les opérations exclues non optées (art. 21) ne comptent pas.",
+    "Faux : les dommages-intérêts ne sont pas une contre-prestation (art. 18 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M2-009",
+   "champ": "Assujettissement — Base légale",
+   "memento": "art. 10 al. 2 LTVA",
+   "question": "Quelle disposition règle la libération de l'assujettissement en fonction du chiffre d'affaires ?",
+   "options": [
+    "art. 10 al. 2 LTVA",
+    "art. 11 LTVA",
+    "art. 14 LTVA",
+    "art. 21 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 10 al. 2 LTVA règle la libération selon le CA (seuils 100 000 / 250 000).",
+    "Faux : l'art. 11 vise la renonciation à la libération (assujettissement volontaire).",
+    "Faux : l'art. 14 règle le début et la fin de l'assujettissement.",
+    "Faux : l'art. 21 énumère les prestations exclues."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-010",
+   "champ": "Assujettissement — Début de l'assujettissement",
+   "memento": "art. 9 OTVA",
+   "question": "Meier Sàrl démarre son activité le 1er octobre. Le CA annuel prévisible n'est pas déterminable au départ. Après trois mois, les prestations fournies du 1.10 au 31.12 s'élèvent à CHF 30 000. Quelle est la conséquence ?",
+   "options": [
+    "Pas d'assujettissement : le CA effectif des 3 mois (30 000) est inférieur à 100 000",
+    "Assujettissement : le CA extrapolé sur 12 mois (120 000) dépasse 100 000 ; inscription possible au 1.10 ou au 1.1 suivant",
+    "Assujettissement obligatoire rétroactif au 1.1 de l'année précédente",
+    "Assujettissement seulement à partir de CHF 250 000 de CA extrapolé"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : on extrapole le CA des 3 mois sur 12 (art. 9 OTVA), soit 120 000 > 100 000.",
+    "Exact : extrapolation 30 000 × 4 = 120 000 > 100 000 ; début au 1.10 ou au 1.1 suivant (art. 9 OTVA).",
+    "Faux : le début est au 1.10 ou 1.1 suivant, jamais l'année précédente (art. 9 OTVA).",
+    "Faux : le seuil applicable est CHF 100 000 (art. 10 al. 2 let. a), non 250 000."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-011",
+   "champ": "Assujettissement — Piège — seuil 250 000 à double sens",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Le montant de CHF 250 000 apparaît à plusieurs endroits du droit de la TVA. Lequel de ces emplois est correct ?",
+   "options": [
+    "C'est le seuil de libération majoré pour les associations sportives/culturelles bénévoles et les institutions caritatives",
+    "C'est le seuil général de libération de toute entreprise",
+    "C'est le seuil de chiffre d'affaires au-delà duquel la méthode TDFN devient obligatoire",
+    "C'est le seuil de l'impôt sur les acquisitions pour les non-assujettis"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : CHF 250 000 = seuil de libération majoré des associations sportives/culturelles bénévoles et institutions caritatives (art. 10 al. 2 let. c).",
+    "Faux : le seuil général est CHF 100 000 (art. 10 al. 2 let. a).",
+    "Faux : le seuil de CA de la TDFN est CHF 5 024 000 (art. 37 al. 1).",
+    "Faux : l'impôt sur les acquisitions se déclenche à CHF 10 000 (art. 45 al. 2 let. b)."
+   ],
+   "piege": "250 000 = seuil associations",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-012",
+   "champ": "Assujettissement — Condition d'indépendance",
+   "memento": "art. 10 al. 1 LTVA",
+   "question": "Concernant la condition d'indépendance de l'assujettissement, quelle affirmation est correcte ?",
+   "options": [
+    "Les personnes morales doivent prouver leur indépendance au cas par cas",
+    "Les personnes morales sont toujours considérées comme indépendantes",
+    "L'indépendance n'est jamais exigée pour une personne physique",
+    "Un salarié est indépendant s'il perçoit plus de CHF 100 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les personnes morales sont toujours réputées indépendantes, sans preuve au cas par cas (art. 10 al. 1).",
+    "Exact : les personnes morales sont toujours réputées indépendantes (art. 10 al. 1 LTVA).",
+    "Faux : l'indépendance est exigée pour les personnes physiques (critères proches de l'AVS).",
+    "Faux : un salarié exerce une activité dépendante, jamais indépendante, quel que soit le montant."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-013",
+   "champ": "Assujettissement — Activité entrepreneuriale — cas limite",
+   "memento": "art. 10 al. 1bis LTVA",
+   "question": "Un sportif amateur reçoit une unique prime de CHF 150 pour un tournoi. Exerce-t-il une activité entrepreneuriale assujettissable ?",
+   "options": [
+    "Oui, dès le premier franc encaissé",
+    "Non, faute d'orientation vers des recettes ayant un caractère de permanence",
+    "Oui, car il dépasse la franchise de CHF 100",
+    "Non, car les prix sportifs sont expressément exclus par l'art. 21 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : il faut une activité orientée vers des recettes durables, pas un simple encaissement (art. 10 al. 1bis).",
+    "Exact : prime isolée et insignifiante, sans caractère de permanence -> pas d'activité entrepreneuriale (art. 10 al. 1bis LTVA).",
+    "Faux : il n'existe pas de franchise de CHF 100 ; le critère est le caractère de permanence.",
+    "Faux : ce n'est pas une exclusion de l'art. 21, mais une absence d'activité entrepreneuriale."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-014",
+   "champ": "Assujettissement — Assujettissement volontaire",
+   "memento": "art. 11 LTVA",
+   "question": "Laquelle de ces affirmations sur l'assujettissement volontaire est FAUSSE ?",
+   "options": [
+    "Une entreprise libérée peut renoncer à la libération (art. 11 LTVA)",
+    "L'inscription volontaire vaut pour au moins une période fiscale complète",
+    "Elle peut être demandée au plus tôt pour le début de la période fiscale en cours",
+    "Elle est réservée aux entreprises réalisant plus de CHF 100 000 de chiffre d'affaires"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : affirmation exacte (art. 11 LTVA), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte — l'inscription vaut au moins une période fiscale (art. 11 al. 2 LTVA).",
+    "Faux : affirmation exacte — effet au plus tôt pour la période fiscale en cours (art. 14 al. 4 LTVA).",
+    "Exact : affirmation FAUSSE — l'assujettissement volontaire vise précisément les entreprises sous le seuil de 100 000 (art. 11 LTVA)."
+   ],
+   "piege": "volontaire = sous le seuil",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-015",
+   "champ": "Assujettissement — Délai d'annonce",
+   "memento": "art. 66 al. 1 LTVA",
+   "question": "Dans quel délai une entreprise devenue assujettie doit-elle s'annoncer spontanément à l'AFC ?",
+   "options": [
+    "Dans les 30 jours suivant le début de l'assujettissement",
+    "Dans les 60 jours suivant la fin de l'année civile",
+    "Dans les 90 jours suivant la première facture",
+    "Immédiatement, le jour même du début de l'activité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : annonce spontanée par écrit dans les 30 jours suivant le début de l'assujettissement (art. 66 al. 1 LTVA).",
+    "Faux : le délai de 60 jours vise l'impôt sur les acquisitions par un non-assujetti (art. 66 al. 3 LTVA).",
+    "Faux : le délai légal est de 30 jours, non 90 (art. 66 al. 1 LTVA).",
+    "Faux : le délai légal est de 30 jours, pas une annonce immédiate (art. 66 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-016",
+   "champ": "Assujettissement — Entreprise étrangère",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "Une société ayant son siège en Allemagne fournit des livraisons imposables en Suisse et réalise un chiffre d'affaires mondial de CHF 800 000. Est-elle assujettie en Suisse ?",
+   "options": [
+    "Non, car son siège est à l'étranger",
+    "Oui : les entreprises étrangères sont assujetties dès qu'elles atteignent le seuil de CHF 100 000 de CA mondial",
+    "Non, tant qu'elle ne dépasse pas CHF 100 000 de CA réalisé en Suisse",
+    "Oui, mais uniquement via un représentant fiscal, sans condition de seuil"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le siège à l'étranger n'exclut pas l'assujettissement (art. 10 al. 1 LTVA).",
+    "Exact : seuil calculé sur le CA mondial ; 800 000 > 100 000 -> assujettie, avec représentant fiscal (art. 10 al. 2 let. a, art. 67).",
+    "Faux : le seuil se calcule sur le CA mondial, non le seul CA suisse (art. 10 al. 2 let. a).",
+    "Faux : le seuil de CHF 100 000 (CA mondial) s'applique aussi aux entreprises étrangères."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-017",
+   "champ": "Assujettissement — Calcul du chiffre d'affaires déterminant",
+   "memento": "art. 10 al. 2 LTVA",
+   "question": "Lequel de ces éléments n'est PAS pris en compte dans le calcul de la limite de chiffre d'affaires déterminante ?",
+   "options": [
+    "Les ventes imposables réalisées sur le territoire suisse",
+    "Les prestations de conseil imposables facturées à l'étranger",
+    "Les revenus générés dans le domaine non entrepreneurial",
+    "Les prestations exclues pour lesquelles l'option a été exercée"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les ventes imposables en Suisse comptent dans le CA déterminant (art. 10 al. 2).",
+    "Faux : les prestations imposables facturées à l'étranger comptent (CA mondial, art. 10 al. 2 let. a).",
+    "Exact : les revenus du domaine non entrepreneurial ne comptent pas dans le CA déterminant (art. 10 al. 2 LTVA).",
+    "Faux : les prestations exclues optées comptent dans le CA déterminant (art. 10 al. 2)."
+   ],
+   "piege": "domaine non entrepreneurial",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-018",
+   "champ": "Assujettissement — Assujettissement volontaire — effet",
+   "memento": "art. 14 al. 4 LTVA",
+   "question": "À partir de quand une inscription volontaire au registre des assujettis peut-elle prendre effet ?",
+   "options": [
+    "Rétroactivement, jusqu'à cinq ans en arrière",
+    "Au plus tôt pour le début de la période fiscale en cours",
+    "Uniquement au 1er janvier de l'année suivante",
+    "À n'importe quel jour librement choisi par l'assujetti"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'inscription volontaire ne prend pas effet rétroactivement sur cinq ans (art. 14 al. 4).",
+    "Exact : effet au plus tôt pour le début de la période fiscale en cours (art. 14 al. 4 LTVA).",
+    "Faux : l'effet est au plus tôt pour la période fiscale en cours, pas seulement l'année suivante.",
+    "Faux : l'effet est lié au début de la période fiscale, non à un jour librement choisi."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-019",
+   "champ": "Assujettissement — Fin de l'assujettissement",
+   "memento": "art. 14 al. 5 LTVA",
+   "question": "Une entreprise assujettie voit son chiffre d'affaires imposable tomber durablement sous CHF 100 000. Que se passe-t-il si elle ne demande pas sa radiation du registre ?",
+   "options": [
+    "Elle est radiée d'office avec effet rétroactif",
+    "Elle est réputée avoir renoncé à la libération et reste assujettie",
+    "Elle est automatiquement basculée en méthode TDFN",
+    "Elle doit payer une amende pour non-radiation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : il n'y a pas de radiation d'office ; ne pas la demander vaut renonciation (art. 14 al. 5).",
+    "Exact : ne pas demander la radiation = renonciation à la libération, l'entreprise reste assujettie (art. 14 al. 5 LTVA).",
+    "Faux : aucun basculement automatique en méthode TDFN.",
+    "Faux : pas d'amende ; l'effet est le maintien de l'assujettissement (art. 14 al. 5)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-020",
+   "champ": "Assujettissement — Piège — CA mondial vs suisse",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "Pour déterminer si le seuil de CHF 100 000 est atteint, quel chiffre d'affaires faut-il retenir ?",
+   "options": [
+    "Le seul chiffre d'affaires réalisé sur le territoire suisse",
+    "Le chiffre d'affaires mondial issu de prestations non exclues",
+    "Le chiffre d'affaires suisse, dons et subventions compris",
+    "Le chiffre d'affaires suisse imposable, après déduction de l'impôt préalable"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : c'est le CA mondial, non le seul CA suisse, qui compte (art. 10 al. 2 let. a).",
+    "Exact : CA mondial issu de prestations non exclues (art. 10 al. 2 let. a LTVA).",
+    "Faux : dons et subventions (non-contre-prestations, art. 18 al. 2) sont exclus du calcul.",
+    "Faux : le CA déterminant ne se calcule pas après déduction de l'impôt préalable."
+   ],
+   "piege": "CA mondial vs suisse",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-021",
+   "champ": "Assujettissement — Participations — activité entrepreneuriale",
+   "memento": "art. 10 al. 1ter LTVA",
+   "question": "Selon l'art. 10 al. 1ter LTVA, comment l'acquisition, la détention et l'aliénation de participations sont-elles qualifiées ?",
+   "options": [
+    "Comme une activité relevant de la puissance publique, hors du champ de la TVA",
+    "Comme des non-contre-prestations ne pouvant jamais fonder un assujettissement",
+    "Comme une activité entrepreneuriale au sens du droit de la TVA",
+    "Comme une activité exclue du champ de l'impôt selon l'art. 21 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : ce n'est pas une activité relevant de la puissance publique (art. 10 al. 1ter).",
+    "Faux : la détention de participations est une activité entrepreneuriale, pas une non-contre-prestation.",
+    "Exact : acquisition, détention et aliénation de participations = activité entrepreneuriale (art. 10 al. 1ter LTVA).",
+    "Faux : ce n'est pas une opération exclue de l'art. 21 LTVA."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-022",
+   "champ": "Assujettissement — Formes de sujet fiscal",
+   "memento": "art. 10 LTVA",
+   "question": "Quelles formes entrent en ligne de compte comme sujet fiscal en matière de TVA ?",
+   "options": [
+    "Uniquement les personnes morales inscrites au registre du commerce (SA, Sàrl)",
+    "Uniquement les entreprises poursuivant un but lucratif",
+    "Uniquement les personnes physiques et morales, à l'exclusion des sociétés de personnes",
+    "Les sociétés simples, personnes morales, personnes physiques, sociétés de personnes, associations et institutions d'utilité publique"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : pas seulement les PM inscrites ; sociétés simples, PP et associations comptent aussi (art. 10).",
+    "Faux : le but lucratif n'est pas déterminant (art. 10 al. 1 LTVA).",
+    "Faux : les sociétés de personnes entrent aussi en ligne de compte (art. 10 LTVA).",
+    "Exact : sociétés simples, personnes morales, personnes physiques, sociétés de personnes, associations et institutions d'utilité publique (art. 10 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-023",
+   "champ": "Assujettissement — Trois types d'assujettissement — conséquences",
+   "memento": "art. 10 s. LTVA",
+   "question": "Parmi les trois types d'assujettissement, lequel ouvre en principe le droit à la déduction de l'impôt préalable ?",
+   "options": [
+    "L'assujettissement à l'impôt sur les acquisitions (art. 45 LTVA)",
+    "L'assujettissement obligatoire ou volontaire de l'entreprise (art. 10 s. LTVA)",
+    "L'assujettissement à l'impôt sur l'importation de biens (art. 51 LTVA)",
+    "Aucun des trois n'ouvre le droit à la déduction"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'impôt sur les acquisitions (art. 45) n'ouvre pas le droit à déduction (sauf entreprise déjà assujettie art. 10).",
+    "Exact : l'assujettissement de l'entreprise (art. 10 s.) confère un n° TVA/IDE et le droit à la déduction de l'impôt préalable.",
+    "Faux : l'impôt sur l'importation (art. 51) n'ouvre pas, en soi, le droit à déduction.",
+    "Faux : l'assujettissement de l'entreprise (art. 10) ouvre bien le droit à la déduction."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-024",
+   "champ": "Assujettissement — Fin de l'assujettissement",
+   "memento": "art. 14 al. 2 LTVA",
+   "question": "Selon l'art. 14 al. 2 LTVA, quand l'assujettissement prend-il fin en général ?",
+   "options": [
+    "Au 31 décembre de chaque année, automatiquement",
+    "Dès que le chiffre d'affaires passe une seule fois sous CHF 100 000",
+    "Lorsque l'activité entrepreneuriale est abandonnée ou, en cas de liquidation d'actifs, à la clôture de la procédure",
+    "Cinq ans après la dernière prestation imposable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'assujettissement ne prend pas fin automatiquement au 31 décembre (art. 14 al. 2).",
+    "Faux : un simple passage sous le seuil ne met pas fin à l'assujettissement.",
+    "Exact : fin à l'abandon de l'activité ou, en cas de liquidation d'actifs, à la clôture de la procédure (art. 14 al. 2 LTVA).",
+    "Faux : aucun délai de cinq ans ; la fin tient à l'abandon de l'activité."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-025",
+   "champ": "Assujettissement — Domaine non entrepreneurial",
+   "memento": "art. 10 al. 1 LTVA",
+   "question": "Lequel de ces domaines constitue un domaine NON entrepreneurial au sens de l'exploitation d'une entreprise (art. 10 al. 1 LTVA) ?",
+   "options": [
+    "L'activité salariée (dépendante) d'une personne physique",
+    "La vente régulière de marchandises en son propre nom",
+    "La location d'un immeuble commercial contre loyer",
+    "La prestation de conseil facturée à des clients"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'activité salariée (dépendante) est un domaine non entrepreneurial (art. 10 al. 1 LTVA).",
+    "Faux : la vente régulière en son propre nom est une activité entrepreneuriale.",
+    "Faux : la location d'un immeuble commercial contre loyer est entrepreneuriale.",
+    "Faux : la prestation de conseil facturée est entrepreneuriale."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-026",
+   "champ": "Assujettissement — Base légale — assujettissement volontaire",
+   "memento": "art. 11 LTVA",
+   "question": "Quelle disposition permet à une entreprise libérée de l'assujettissement de renoncer à cette libération (assujettissement volontaire) ?",
+   "options": [
+    "art. 11 LTVA",
+    "art. 10 al. 2 LTVA",
+    "art. 14 al. 2 LTVA",
+    "art. 45 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 11 LTVA règle la renonciation à la libération (assujettissement volontaire).",
+    "Faux : l'art. 10 al. 2 règle la libération elle-même, non la renonciation.",
+    "Faux : l'art. 14 al. 2 règle la fin de l'assujettissement.",
+    "Faux : l'art. 45 règle l'impôt sur les acquisitions."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-027",
+   "champ": "Assujettissement — Base légale — début et fin",
+   "memento": "art. 14 LTVA",
+   "question": "Quelle disposition règle le début et la fin de l'assujettissement et de la libération de l'assujettissement ?",
+   "options": [
+    "art. 10 LTVA",
+    "art. 14 LTVA",
+    "art. 11 LTVA",
+    "art. 66 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 10 pose le principe de l'assujettissement subjectif, non le début/fin.",
+    "Exact : art. 14 LTVA règle le début et la fin de l'assujettissement et de la libération.",
+    "Faux : l'art. 11 vise la renonciation à la libération.",
+    "Faux : l'art. 66 vise l'annonce spontanée à l'AFC."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-028",
+   "champ": "Assujettissement — Base légale — réévaluation après 3 mois",
+   "memento": "art. 9 al. 1 OTVA",
+   "question": "Lorsqu'il est impossible d'estimer d'emblée si les limites de chiffre d'affaires seront atteintes, quelle disposition prévoit une nouvelle évaluation au plus tard après trois mois ?",
+   "options": [
+    "art. 14 al. 4 LTVA",
+    "art. 10 al. 2 LTVA",
+    "art. 66 al. 1 LTVA",
+    "art. 9 al. 1 OTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 14 al. 4 LTVA fixe la date de l'inscription volontaire, non la réévaluation à 3 mois.",
+    "Faux : l'art. 10 al. 2 fixe les seuils de libération, non la réévaluation.",
+    "Faux : l'art. 66 al. 1 fixe le délai d'annonce (30 jours).",
+    "Exact : art. 9 al. 1 OTVA prévoit une nouvelle évaluation au plus tard après trois mois."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-029",
+   "champ": "Assujettissement — Base légale — impôt sur l'importation",
+   "memento": "art. 51 LTVA",
+   "question": "Quelle disposition règle l'assujettissement à l'impôt sur l'importation de biens ?",
+   "options": [
+    "art. 45 LTVA",
+    "art. 21 LTVA",
+    "art. 23 LTVA",
+    "art. 51 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 45 vise l'impôt sur les acquisitions.",
+    "Faux : l'art. 21 vise les prestations exclues.",
+    "Faux : l'art. 23 vise les prestations exonérées.",
+    "Exact : art. 51 LTVA — est assujetti quiconque est débiteur de la dette douanière."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-030",
+   "champ": "Assujettissement — Collectivités publiques — seuil",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "Quand une collectivité publique devient-elle assujettie à la TVA ?",
+   "options": [
+    "À partir d'un chiffre d'affaires de CHF 100 000 provenant de toutes les prestations",
+    "À partir d'un chiffre d'affaires de CHF 100 000 provenant de prestations imposables fournies à des tiers autres que des collectivités publiques",
+    "À partir d'un chiffre d'affaires de CHF 250 000 provenant de prestations imposables fournies à des tiers autres que des collectivités publiques",
+    "À partir d'un chiffre d'affaires de CHF 100 000 provenant de prestations imposables"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : seules comptent les prestations imposables à des tiers non-collectivités (art. 12 al. 3).",
+    "Exact : libérée sous CHF 100 000 de prestations imposables à des tiers autres que des collectivités publiques (art. 12 al. 3 LTVA).",
+    "Faux : le seuil de 250 000 vise certaines institutions (hôpitaux, musées), non le seuil général.",
+    "Faux : il faut restreindre aux tiers autres que des collectivités publiques (art. 12 al. 3)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M2-031",
+   "champ": "Assujettissement — Institutions rattachées à une collectivité — seuil",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Un musée qui fait partie d'une collectivité publique est libéré de l'assujettissement jusqu'à quel chiffre d'affaires ?",
+   "options": [
+    "CHF 100 000",
+    "CHF 250 000",
+    "CHF 150 000",
+    "CHF 500 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil relevé applicable est CHF 250 000 (art. 10 al. 2 let. c).",
+    "Exact : musée rattaché à une collectivité libéré jusqu'à CHF 250 000 (art. 10 al. 2 let. c, art. 12).",
+    "Faux : le seuil relevé est CHF 250 000, non 150 000.",
+    "Faux : le seuil relevé est CHF 250 000, non 500 000."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-032",
+   "champ": "Assujettissement — Entreprise étrangère — chiffre d'affaires mondial",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "Technika GmbH (siège à Munich) fournit des livraisons imposables en Suisse. Son chiffre d'affaires est de CHF 40 000 en Suisse et de CHF 90 000 en Allemagne. Est-elle libérée de l'assujettissement en Suisse ?",
+   "options": [
+    "Non : son chiffre d'affaires mondial (130 000) dépasse 100 000, elle est assujettie",
+    "Oui, car son chiffre d'affaires suisse (40 000) est inférieur à 100 000",
+    "Oui, car les entreprises étrangères ne sont jamais assujetties en Suisse",
+    "Non, mais uniquement si son chiffre d'affaires suisse dépasse 100 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : CA mondial 40 000 + 90 000 = 130 000 > 100 000 -> assujettie (art. 10 al. 2 let. a).",
+    "Faux : le seuil se calcule sur le CA mondial, non le seul CA suisse (40 000).",
+    "Faux : les entreprises étrangères sont assujetties au-delà du seuil mondial (art. 10 al. 1).",
+    "Faux : c'est le CA mondial, non le seul CA suisse, qui est déterminant."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-033",
+   "champ": "Assujettissement — Début — extrapolation sur 12 mois",
+   "memento": "art. 9 al. 1 OTVA",
+   "question": "Une entreprise débute le 1er avril ; après trois mois (1.4 – 30.6), son chiffre d'affaires atteint CHF 20 000. Extrapolé sur douze mois, ce montant :",
+   "options": [
+    "atteint CHF 80 000 : le seuil n'est pas dépassé, pas d'assujettissement obligatoire",
+    "atteint CHF 240 000 : assujettissement obligatoire",
+    "atteint CHF 80 000 : assujettissement obligatoire quand même",
+    "n'est pas extrapolable ; on attend la fin de l'année civile"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 20 000 × 4 = 80 000 < 100 000 -> pas d'assujettissement obligatoire (art. 9 al. 1 OTVA).",
+    "Faux : l'extrapolation donne 80 000 (× 4), non 240 000.",
+    "Faux : 80 000 < 100 000 -> pas d'assujettissement obligatoire.",
+    "Faux : le CA des 3 mois s'extrapole bien sur 12 mois (art. 9 al. 1 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-034",
+   "champ": "Assujettissement — Seuil majoré des associations — application",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Une association culturelle sans but lucratif, gérée exclusivement par des bénévoles, réalise CHF 300 000 de chiffre d'affaires imposable. Est-elle assujettie obligatoirement ?",
+   "options": [
+    "Non, les associations ne sont jamais assujetties",
+    "Oui, car elle dépasse le seuil majoré de CHF 250 000",
+    "Non, car elle reste sous le seuil de CHF 250 000",
+    "Oui, car elle dépasse le seuil de CHF 100 000 applicable à toutes les entreprises"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les associations deviennent assujetties au-delà de CHF 250 000.",
+    "Exact : 300 000 > seuil majoré de CHF 250 000 -> assujettie (art. 10 al. 2 let. c).",
+    "Faux : 300 000 dépasse le seuil de CHF 250 000.",
+    "Faux : ces associations bénéficient du seuil majoré de 250 000, non de 100 000."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-035",
+   "champ": "Assujettissement — Participations — qualification",
+   "memento": "art. 10 al. 1ter LTVA",
+   "question": "La holding H SA détient et gère des participations dans plusieurs sociétés du groupe et perçoit des dividendes. Du point de vue de la TVA, exerce-t-elle une activité entrepreneuriale ?",
+   "options": [
+    "Oui : l'acquisition, la détention et l'aliénation de participations valent activité entrepreneuriale",
+    "Non, la seule détention de participations n'est jamais entrepreneuriale",
+    "Non, car les dividendes sont des contre-prestations imposables",
+    "Oui, mais uniquement si elle réalise plus de CHF 100 000 de dividendes"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : acquisition, détention et aliénation de participations = activité entrepreneuriale (art. 10 al. 1ter).",
+    "Faux : la détention de participations est entrepreneuriale (art. 10 al. 1ter).",
+    "Faux : les dividendes sont des non-contre-prestations (art. 18 al. 2), non imposables.",
+    "Faux : la qualification entrepreneuriale ne dépend pas d'un seuil de dividendes."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-036",
+   "champ": "Assujettissement — Type d'assujettissement — acquisitions",
+   "memento": "art. 45 LTVA",
+   "question": "Une PME suisse non assujettie acquiert pour CHF 30 000 de prestations de conseil auprès d'un cabinet établi à l'étranger. À quel type d'assujettissement cette opération peut-elle donner lieu ?",
+   "options": [
+    "Assujettissement à l'impôt sur l'importation de biens (art. 51 LTVA)",
+    "Assujettissement obligatoire de l'entreprise (art. 10 LTVA)",
+    "Assujettissement à l'impôt sur les acquisitions (art. 45 LTVA)",
+    "Aucun, les prestations de l'étranger ne sont jamais imposées"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 51 vise l'importation de biens, non l'acquisition de services.",
+    "Faux : une simple acquisition de services ne rend pas l'entreprise assujettie au sens de l'art. 10.",
+    "Exact : acquisition de services d'une entreprise étrangère = impôt sur les acquisitions (art. 45 LTVA).",
+    "Faux : les prestations de services de l'étranger sont imposées via l'impôt sur les acquisitions (art. 45)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-037",
+   "champ": "Assujettissement — Type d'assujettissement — importation",
+   "memento": "art. 51 LTVA",
+   "question": "Un particulier non assujetti importe une machine depuis l'étranger. Qui est débiteur de l'impôt sur l'importation ?",
+   "options": [
+    "Personne : les particuliers non assujettis en sont exemptés",
+    "Le fournisseur étranger, dans tous les cas",
+    "L'Administration fédérale des contributions",
+    "Le particulier, en tant que débiteur de la dette douanière (art. 51 LTVA)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le particulier débiteur de la dette douanière est assujetti (art. 51).",
+    "Faux : le débiteur est celui de la dette douanière (l'importateur), non le fournisseur étranger.",
+    "Faux : le débiteur est celui de la dette douanière, non l'AFC.",
+    "Exact : le particulier, débiteur de la dette douanière, est assujetti à l'impôt sur l'importation (art. 51 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-038",
+   "champ": "Assujettissement — Fin — entreprise étrangère",
+   "memento": "art. 14 al. 2 LTVA",
+   "question": "Une entreprise étrangère assujettie fournit sa dernière prestation en Suisse le 15 mars. Quand son assujettissement prend-il fin en principe ?",
+   "options": [
+    "Immédiatement, le 15 mars",
+    "Cinq ans après la dernière prestation",
+    "Jamais : une entreprise étrangère reste assujettie à vie",
+    "À la fin de l'année civile au cours de laquelle la dernière prestation a été fournie en Suisse"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la fin intervient à la fin de l'année civile de la dernière prestation (art. 14 al. 2).",
+    "Faux : aucun délai de cinq ans.",
+    "Faux : l'assujettissement finit à la fin de l'année civile de la dernière prestation.",
+    "Exact : fin à la fin de l'année civile de la dernière prestation en Suisse (art. 14 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-039",
+   "champ": "Assujettissement — Collectivités — puissance publique vs entrepreneurial",
+   "memento": "art. 12 al. 4 LTVA / art. 14 OTVA",
+   "question": "Quelle activité d'une collectivité publique ne relève PAS de la puissance publique ?",
+   "options": [
+    "Faire passer l'examen de conduite",
+    "Le prélèvement (la fourniture) d'eau pour une entreprise",
+    "L'étalonnage officiel d'une balance",
+    "Les contrôles des viandes"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : faire passer l'examen de conduite relève de la puissance publique (art. 3 let. g).",
+    "Exact : la distribution d'eau est réputée activité entrepreneuriale (art. 12 al. 4 LTVA, art. 14 OTVA).",
+    "Faux : l'étalonnage officiel relève de la puissance publique (art. 3 let. g).",
+    "Faux : le contrôle des viandes relève de la puissance publique (art. 3 let. g)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M2-040",
+   "champ": "Assujettissement — Sujet fiscal — société simple / ARGE",
+   "memento": "art. 10 LTVA",
+   "question": "Deux entreprises de construction forment une communauté de travail (ARGE, société simple) pour réaliser un ouvrage commun. Cette communauté peut-elle être un sujet fiscal TVA ?",
+   "options": [
+    "Non, seules les personnes morales peuvent être sujets fiscaux",
+    "Non, une société simple n'a pas la personnalité juridique et ne peut jamais l'être",
+    "Oui, une société simple (ARGE) entre en ligne de compte comme sujet fiscal",
+    "Oui, mais uniquement si elle est inscrite au registre du commerce"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une société simple peut être sujet fiscal (art. 10 LTVA).",
+    "Faux : l'absence de personnalité juridique n'empêche pas d'être sujet fiscal.",
+    "Exact : une société simple (ARGE) entre en ligne de compte comme sujet fiscal (art. 10 LTVA).",
+    "Faux : l'inscription au registre du commerce n'est pas requise ; seule compte l'exploitation en son propre nom."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-041",
+   "champ": "Assujettissement — CA déterminant — gestion de fortune",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "Asset Management SA (siège à Bâle) réalise en 202x, dans la gestion de fortune : particuliers en Suisse CHF 20 000 ; sociétés en Suisse CHF 30 000 ; organisations exonérées d'impôt en Suisse CHF 40 000 ; particuliers à l'étranger CHF 50 000 ; sociétés à l'étranger CHF 400 000. Quel est le chiffre d'affaires déterminant pour l'assujettissement obligatoire ?",
+   "options": [
+    "CHF 540 000",
+    "CHF 470 000",
+    "CHF 430 000",
+    "CHF 90 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : gestion de fortune imposable, CA mondial = 20+30+40+50+400 = CHF 540 000 (art. 10 al. 2 let. a).",
+    "Faux : écarte à tort des prestations imposables (p. ex. clients à l'étranger).",
+    "Faux : écarte à tort des prestations imposables (p. ex. organisations exonérées).",
+    "Faux : ne retient que la Suisse ; le CA déterminant est mondial."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M2-042",
+   "champ": "Assujettissement — CA déterminant — association",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "L'association « Good Company » (Genève, gérée bénévolement) réalise : cotisations statutaires des membres CHF 20 000 ; conseil téléphonique en Suisse CHF 85 000 ; conseil téléphonique à des clients domiciliés à l'étranger CHF 2 000 ; ventes en Suisse CHF 3 000 ; dons au sens de l'art. 3 let. i LTVA CHF 150 000. Quel est le chiffre d'affaires déterminant pour l'assujettissement obligatoire ?",
+   "options": [
+    "CHF 260 000",
+    "CHF 110 000",
+    "CHF 90 000",
+    "CHF 88 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : inclut à tort dons (150 000, art. 18 al. 2) et cotisations (art. 21 al. 2 ch. 13).",
+    "Faux : ajoute à tort les cotisations statutaires (exclues, art. 21 al. 2 ch. 13).",
+    "Exact : conseil CH 85 000 + conseil étranger 2 000 + ventes 3 000 = CHF 90 000 (art. 10 al. 2 let. a).",
+    "Faux : oublie le conseil à l'étranger (2 000), pourtant compté au CA mondial."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-043",
+   "champ": "Assujettissement — Haute école privée — assujettie",
+   "memento": "art. 10 al. 2 let. a LTVA",
+   "question": "L'École d'architecture SA (haute école privée, siège en Suisse, sans statut d'utilité publique) réalise : formations (filières) CHF 1 100 000 ; formations aux entreprises CHF 80 000 ; conseil / projets CHF 40 000 ; location de locaux CHF 18 000 ; dons CHF 15 000. Est-elle assujettie obligatoirement ?",
+   "options": [
+    "Non : les prestations de formation sont exclues, son chiffre d'affaires déterminant est nul",
+    "Non : elle reste sous le seuil de CHF 250 000",
+    "Oui : le total de ses recettes (1 253 000) dépasse le seuil",
+    "Oui : ses prestations imposables (formations aux entreprises + conseil, soit 120 000) dépassent CHF 100 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : formations aux entreprises et conseil restent imposables ; le CA déterminant n'est pas nul.",
+    "Faux : le seuil de 250 000 ne vise que les organisations d'utilité publique.",
+    "Faux : les filières de formation (art. 21) et la location sont exclues ; on ne somme pas tout.",
+    "Exact : formations aux entreprises 80 000 + conseil 40 000 = 120 000 > 100 000 -> assujettie (art. 10 al. 2 let. a)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-044",
+   "champ": "Assujettissement — Haute école — variante utilité publique",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Même École d'architecture SA, mais désormais reconnue d'utilité publique au sens de l'art. 56 let. g LIFD ; ses recettes imposables déterminantes s'élèvent à CHF 120 000. Est-elle assujettie obligatoirement ?",
+   "options": [
+    "Non : au bénéfice du seuil de CHF 250 000, elle n'est pas assujettie de plein droit ; la renonciation à la libération reste réservée",
+    "Oui, car elle dépasse CHF 100 000",
+    "Oui, l'utilité publique est sans effet sur les seuils de la TVA",
+    "Non, une organisation d'utilité publique n'est jamais assujettie"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : utilité publique (art. 56 let. g LIFD) -> seuil 250 000 ; 120 000 < 250 000, non assujettie de plein droit, art. 11 réservé.",
+    "Faux : le seuil applicable est 250 000 pour l'utilité publique (art. 10 al. 2 let. c), non 100 000.",
+    "Faux : l'utilité publique porte précisément le seuil à 250 000.",
+    "Faux : une organisation d'utilité publique le devient au-delà de 250 000, ou par renonciation (art. 11)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-045",
+   "champ": "Assujettissement — Société de participations",
+   "memento": "art. 10 al. 1ter / art. 11 LTVA",
+   "question": "M SA (Bâle) acquiert, détient et cède des participations et accorde des prêts ; ses recettes déterminantes annuelles sont inférieures à CHF 100 000. Quelle appréciation est correcte ?",
+   "options": [
+    "Assujettissement obligatoire, car la détention de participations est imposable",
+    "Pas d'assujettissement obligatoire, mais inscription volontaire possible pour déduire l'impôt préalable",
+    "Aucun assujettissement possible, ni obligatoire ni volontaire",
+    "Assujettissement à l'impôt sur les acquisitions uniquement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : recettes < 100 000 -> pas d'assujettissement obligatoire (art. 10 al. 2 let. a).",
+    "Exact : activité entrepreneuriale (art. 10 al. 1ter) mais < 100 000 -> inscription volontaire possible (art. 11).",
+    "Faux : l'inscription volontaire reste possible (art. 11 LTVA).",
+    "Faux : il ne s'agit pas ici de l'impôt sur les acquisitions (art. 45)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-046",
+   "champ": "Assujettissement — Service autonome d'une collectivité",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "Le service autonome « voirie » de la commune X facture : prestations à la commune X CHF 120 000 ; déneigement pour la commune voisine Y CHF 80 000 ; prestations à des propriétaires de routes privées CHF 24 000 ; vente de sable à une crèche privée CHF 2 000. Le seuil d'assujettissement est-il atteint ?",
+   "options": [
+    "Oui : le total (226 000) dépasse CHF 100 000",
+    "Oui : les prestations à la commune Y (80 000) sont déterminantes",
+    "Non : une collectivité publique n'est jamais assujettie",
+    "Non : seules comptent les prestations à des tiers non-collectivités (26 000), sous CHF 100 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : seules comptent les prestations à des tiers non-collectivités, non le total (art. 12 al. 3).",
+    "Faux : les prestations entre collectivités (commune Y) sont exclues (art. 21 al. 2 ch. 28).",
+    "Faux : une collectivité est assujettie au-delà du seuil.",
+    "Exact : routes privées 24 000 + crèche 2 000 = 26 000 < 100 000 -> pas d'assujettissement (art. 12 al. 3)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-047",
+   "champ": "Assujettissement — Fin — radiation du registre",
+   "memento": "art. 14 al. 5 LTVA",
+   "question": "Une entreprise assujettie voit son chiffre d'affaires imposable tomber à CHF 70 000 en 202x et prévoit qu'il en ira de même l'année suivante. À partir de quand peut-elle demander sa radiation du registre ?",
+   "options": [
+    "Immédiatement, dès que le seuil n'est plus atteint en cours d'année",
+    "Au plus tôt à la fin de la période fiscale au cours de laquelle le seuil n'est plus atteint",
+    "Seulement après cinq périodes fiscales consécutives sous le seuil",
+    "Jamais : une fois assujettie, l'entreprise le reste définitivement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la radiation n'est possible qu'au plus tôt à la fin de la période fiscale concernée.",
+    "Exact : radiation au plus tôt à la fin de la période fiscale où le seuil n'est plus atteint (art. 14 al. 5 LTVA).",
+    "Faux : aucun délai de cinq périodes n'est requis.",
+    "Faux : la radiation est possible une fois les conditions réunies."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-048",
+   "champ": "Assujettissement — Société de participations — piège",
+   "memento": "art. 11 LTVA",
+   "question": "Laquelle de ces affirmations sur une société de participations est FAUSSE ?",
+   "options": [
+    "La détention de participations constitue une activité entrepreneuriale (art. 10 al. 1ter LTVA)",
+    "Si ses recettes déterminantes sont inférieures à CHF 100 000, elle n'est pas assujettie obligatoirement",
+    "Elle peut s'inscrire volontairement au registre pour déduire l'impôt préalable (art. 11 LTVA)",
+    "N'étant pas assujettie obligatoirement, elle ne peut en aucun cas figurer au registre de la TVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : affirmation exacte (art. 10 al. 1ter), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte (art. 10 al. 2 let. a), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte (art. 11), donc pas la réponse cherchée.",
+    "Exact : affirmation FAUSSE — une société de participations peut s'inscrire volontairement (art. 11), même non assujettie de plein droit."
+   ],
+   "piege": "participations & inscription",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-049",
+   "champ": "Assujettissement — Fin de l'assujettissement — piège",
+   "memento": "art. 14 LTVA",
+   "question": "Concernant la fin de l'assujettissement, quelle affirmation est FAUSSE ?",
+   "options": [
+    "Une entreprise dont le CA passe sous le seuil peut être radiée dès le jour même, en cours de période fiscale",
+    "L'assujettissement prend fin avec l'abandon de l'activité entrepreneuriale (art. 14 al. 2 LTVA)",
+    "Ne pas demander sa radiation équivaut à une renonciation à la libération (art. 14 al. 5 LTVA)",
+    "Pour une entreprise étrangère, l'assujettissement finit à la fin de l'année civile de sa dernière prestation en Suisse"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : affirmation FAUSSE — la radiation n'est possible qu'à la fin de la période fiscale concernée, non dès le jour même.",
+    "Faux : affirmation exacte (art. 14 al. 2), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte (art. 14 al. 5), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte (fin à la fin de l'année civile de la dernière prestation), donc pas la réponse."
+   ],
+   "piege": "radiation : date",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-050",
+   "champ": "Assujettissement — Acquisitions / importations — piège",
+   "memento": "art. 45 / art. 51 LTVA",
+   "question": "Quelle affirmation sur l'impôt sur les acquisitions (art. 45 LTVA) et sur l'importation (art. 51 LTVA) est FAUSSE ?",
+   "options": [
+    "Ils peuvent frapper une personne non assujettie à la TVA",
+    "Ils correspondent à des incidences uniques, indépendantes de la personne",
+    "Ils ouvrent, pour un non-assujetti, le droit à la déduction de l'impôt préalable",
+    "L'assujettissement de l'entreprise (art. 10 LTVA) ouvre, lui, le droit à la déduction et un n° TVA/IDE"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : affirmation exacte — ces impôts peuvent frapper un non-assujetti.",
+    "Faux : affirmation exacte — incidences uniques indépendantes de la personne.",
+    "Exact : affirmation FAUSSE — l'impôt sur les acquisitions/importation n'ouvre pas au non-assujetti le droit à déduction.",
+    "Faux : affirmation exacte — l'assujettissement de l'entreprise (art. 10) ouvre le droit à déduction et un n° TVA/IDE."
+   ],
+   "piege": "acquisitions/import : pas de déduction",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-051",
+   "champ": "Collectivités publiques — Trois catégories d'activités",
+   "memento": "art. 12 al. 4 / art. 3 let. g / art. 21 LTVA",
+   "question": "Du point de vue de la TVA, quelles catégories d'activités faut-il distinguer chez une collectivité publique ?",
+   "options": [
+    "Activités entrepreneuriales, exclues du champ et relevant de la puissance publique",
+    "Activités imposables, exonérées et exclues",
+    "Activités privées, dépendantes et souveraines",
+    "Activités optées, exonérées et importées"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : trois catégories — entrepreneuriale (art. 12 al. 4 / art. 14 OTVA), exclue (art. 21 al. 2), puissance publique (art. 3 let. g).",
+    "Faux : c'est la qualification des opérations, non les catégories d'activités d'une collectivité.",
+    "Faux : notions étrangères à la classification des activités d'une collectivité.",
+    "Faux : ne correspond pas aux trois catégories d'activités d'une collectivité."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M2-052",
+   "champ": "Collectivités publiques — Activité entrepreneuriale",
+   "memento": "art. 12 al. 4 LTVA / art. 14 OTVA",
+   "question": "Quand l'activité d'une collectivité publique est-elle considérée comme entrepreneuriale ?",
+   "options": [
+    "Lorsqu'elle est financée par l'impôt",
+    "Lorsqu'elle relève de la souveraineté de l'État",
+    "Lorsqu'elle peut être offerte sur le marché et entre en concurrence avec des prestataires privés",
+    "Lorsqu'elle est fournie gratuitement"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le mode de financement (par l'impôt) n'est pas déterminant.",
+    "Faux : la souveraineté relève de la puissance publique (art. 3 let. g).",
+    "Exact : activité offerte sur le marché, en concurrence avec le privé (art. 12 al. 4 LTVA, art. 14 OTVA).",
+    "Faux : la gratuité n'est pas déterminante."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-053",
+   "champ": "Collectivités publiques — Puissance publique",
+   "memento": "art. 3 let. g LTVA",
+   "question": "Que recouvre une activité relevant de la puissance publique au sens de la TVA ?",
+   "options": [
+    "Une prestation de services commerciale offerte sur le marché",
+    "Une livraison de biens en concurrence avec le secteur privé",
+    "Une prestation exclue du champ ouvrant droit à option",
+    "Une activité de souveraineté de l'État dont les contre-prestations (taxes, émoluments) ne sont pas soumises à la TVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la puissance publique n'est pas une prestation commerciale de marché.",
+    "Faux : une livraison en concurrence avec le privé serait entrepreneuriale, non de puissance publique.",
+    "Faux : la puissance publique n'est pas une opération exclue avec option.",
+    "Exact : activité de souveraineté ; ses taxes/émoluments ne sont pas une contre-prestation (art. 3 let. g, art. 18 al. 2)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M2-054",
+   "champ": "Collectivités publiques — Conditions cumulatives de la puissance publique",
+   "memento": "art. 3 let. g LTVA",
+   "question": "À quelles conditions cumulatives une activité relève-t-elle de la puissance publique ?",
+   "options": [
+    "Activité de puissance publique, délégation légale de la fonction officielle et pouvoir de rendre des décisions",
+    "Activité gratuite et d'intérêt général uniquement",
+    "Chiffre d'affaires inférieur à 100 000 CHF",
+    "Inscription au registre des assujettis à la TVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : activité de puissance publique, délégation légale de la fonction officielle et pouvoir de décision (art. 3 let. g LTVA).",
+    "Faux : ni la gratuité ni le seul intérêt général ne sont les conditions.",
+    "Faux : le seuil de CA relève de l'assujettissement, non de la qualification.",
+    "Faux : l'inscription au registre relève de l'assujettissement, non de la qualification."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-055",
+   "champ": "Collectivités publiques — Contre-prestation de puissance publique",
+   "memento": "art. 18 al. 2 LTVA",
+   "question": "Comment qualifie-t-on, en TVA, les émoluments et taxes perçus dans le cadre d'une activité relevant de la puissance publique ?",
+   "options": [
+    "Des contre-prestations imposables au taux normal",
+    "Des prestations exonérées avec droit à déduction",
+    "Des éléments ne constituant pas une contre-prestation (non-contre-prestations)",
+    "Des prestations exclues ouvrant droit à option"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les taxes de puissance publique ne sont pas imposables au taux normal.",
+    "Faux : ce ne sont pas des prestations exonérées avec droit à déduction.",
+    "Exact : émoluments/taxes de puissance publique = non-contre-prestations (art. 18 al. 2 LTVA).",
+    "Faux : ce ne sont pas des opérations exclues ouvrant droit à option."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-056",
+   "champ": "Collectivités publiques — Sujet fiscal — services autonomes",
+   "memento": "art. 12 al. 1 LTVA",
+   "question": "Qui, au sein d'une collectivité publique, constitue le sujet fiscal de la TVA ?",
+   "options": [
+    "La Confédération dans son ensemble uniquement",
+    "Les cantons exclusivement",
+    "Les fonctionnaires pris individuellement",
+    "Les services autonomes de la Confédération, des cantons et des communes ainsi que les autres institutions de droit public"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le sujet fiscal est le service autonome, non la Confédération prise globalement.",
+    "Faux : ce sont les cantons mais aussi la Confédération, les communes et autres institutions de droit public.",
+    "Faux : les fonctionnaires ne sont pas sujets fiscaux à titre individuel.",
+    "Exact : services autonomes de la Confédération, des cantons, des communes et autres institutions de droit public (art. 12 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-057",
+   "champ": "Collectivités publiques — Seuil de 100 000 CHF",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "À partir de quel chiffre d'affaires une collectivité publique devient-elle assujettie à la TVA ?",
+   "options": [
+    "Dès 100 000 CHF provenant de toutes les prestations",
+    "Dès 100 000 CHF provenant de prestations imposables fournies à des tiers autres que des collectivités publiques",
+    "Dès 250 000 CHF provenant de toutes les prestations",
+    "Dès le premier franc de chiffre d'affaires encaissé"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : seules comptent les prestations imposables à des tiers non-collectivités.",
+    "Exact : libérée sous CHF 100 000 de prestations imposables à des tiers autres que des collectivités (art. 12 al. 3).",
+    "Faux : le seuil général est 100 000 sur prestations à des tiers, non 250 000 sur toutes.",
+    "Faux : la libération vaut jusqu'à CHF 100 000, non dès le premier franc."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M2-058",
+   "champ": "Collectivités publiques — Seuil de 250 000 CHF",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Certaines institutions faisant partie d'une collectivité publique bénéficient d'un seuil de libération relevé. Quel est ce seuil ?",
+   "options": [
+    "100 000 CHF",
+    "150 000 CHF",
+    "250 000 CHF",
+    "500 000 CHF"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le seuil relevé est CHF 250 000, non 100 000.",
+    "Faux : le seuil relevé est CHF 250 000, non 150 000.",
+    "Exact : seuil relevé de CHF 250 000 pour hôpitaux, écoles, musées... (art. 10 al. 2 let. c).",
+    "Faux : le seuil relevé est CHF 250 000, non 500 000."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-059",
+   "champ": "Collectivités publiques — Institutions visées par le seuil de 250 000",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Pour quelles institutions rattachées à une collectivité publique le seuil de 250 000 CHF s'applique-t-il ?",
+   "options": [
+    "Les régies de transport et les ports",
+    "Les hôpitaux, maisons de retraite, services sociaux, foyers, écoles, musées et théâtres",
+    "Les bureaux de géomètres et les agences de voyages",
+    "Les services d'élimination des déchets"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : régies de transport et ports sont des activités entrepreneuriales (art. 14 OTVA), non visées.",
+    "Exact : hôpitaux, maisons de retraite, services sociaux, foyers, écoles, musées et théâtres (art. 10 al. 2 let. c).",
+    "Faux : géomètres et agences de voyages sont des activités entrepreneuriales (art. 14 OTVA).",
+    "Faux : les services de déchets sont une activité entrepreneuriale (art. 14 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-060",
+   "champ": "Collectivités publiques — Base de calcul du seuil de 100 000",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "Pour calculer le seuil de 100 000 CHF d'une collectivité publique, quelles prestations prend-on en compte ?",
+   "options": [
+    "Toutes les prestations, y compris celles fournies à d'autres collectivités",
+    "Les prestations relevant de la puissance publique",
+    "Les non-contre-prestations reçues",
+    "Les seules prestations imposables fournies à des tiers autres que des collectivités publiques"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les prestations entre collectivités sont exclues (art. 21 al. 2 ch. 28), hors calcul.",
+    "Faux : les prestations de puissance publique sont hors calcul.",
+    "Faux : les non-contre-prestations sont hors calcul (art. 18 al. 2).",
+    "Exact : seules les prestations imposables à des tiers autres que des collectivités (art. 12 al. 3)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-061",
+   "champ": "Collectivités publiques — Prestations exclues et seuil de 250 000",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Pour déterminer si une institution (hôpital, école) atteint le seuil de 250 000 CHF, tient-on compte des prestations exclues de l'art. 21 al. 2 ?",
+   "options": [
+    "Oui, toutes les recettes comptent",
+    "Non, les prestations exclues de l'art. 21 al. 2 LTVA ne sont pas prises en compte",
+    "Oui, mais seulement les prestations optées",
+    "Non, seules les prestations de puissance publique comptent"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les prestations exclues (art. 21 al. 2) ne comptent pas pour ce seuil.",
+    "Exact : les prestations exclues de l'art. 21 al. 2 ne sont pas prises en compte pour le seuil de 250 000 (art. 10 al. 2 let. c).",
+    "Faux : comptent les prestations non exclues, pas seulement les prestations optées.",
+    "Faux : comptent les prestations imposables non exclues, non celles de puissance publique."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-062",
+   "champ": "Collectivités publiques — Base légale — activité entrepreneuriale",
+   "memento": "art. 12 al. 4 LTVA / art. 14 OTVA",
+   "question": "Quelle base légale détermine les activités des collectivités publiques réputées entrepreneuriales ?",
+   "options": [
+    "art. 3 let. g LTVA",
+    "art. 21 al. 2 LTVA",
+    "art. 12 al. 4 LTVA en relation avec art. 14 OTVA",
+    "art. 14 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 3 let. g vise la puissance publique.",
+    "Faux : l'art. 21 al. 2 vise les prestations exclues.",
+    "Exact : art. 12 al. 4 LTVA (renvoi) en relation avec art. 14 OTVA (eau, gaz, ports, déchets...).",
+    "Faux : l'art. 14 LTVA vise le début/fin de l'assujettissement (piège)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-063",
+   "champ": "Collectivités publiques — Base légale — prestations entre collectivités",
+   "memento": "art. 21 al. 2 ch. 28 LTVA",
+   "question": "Quelle disposition règle l'exclusion du champ des prestations fournies entre collectivités publiques ?",
+   "options": [
+    "art. 21 al. 2 ch. 28 LTVA",
+    "art. 18 al. 2 LTVA",
+    "art. 12 al. 1 LTVA",
+    "art. 23 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 21 al. 2 ch. 28 LTVA exclut du champ les prestations entre collectivités publiques.",
+    "Faux : l'art. 18 al. 2 vise les non-contre-prestations.",
+    "Faux : l'art. 12 al. 1 vise le sujet fiscal.",
+    "Faux : l'art. 23 vise les prestations exonérées."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-064",
+   "champ": "Collectivités publiques — Base légale — puissance publique",
+   "memento": "art. 3 let. g LTVA",
+   "question": "Quel article définit les prestations relevant de la puissance publique ?",
+   "options": [
+    "art. 12 al. 4 LTVA",
+    "art. 10 al. 2 let. c LTVA",
+    "art. 24 LTVA",
+    "art. 3 let. g LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 12 al. 4 vise les activités entrepreneuriales des collectivités.",
+    "Faux : l'art. 10 al. 2 let. c vise le seuil de 250 000.",
+    "Faux : l'art. 24 vise la base de calcul.",
+    "Exact : art. 3 let. g LTVA définit les prestations relevant de la puissance publique."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M2-065",
+   "champ": "Collectivités publiques — Puissance publique vs entrepreneurial",
+   "memento": "art. 12 al. 4 LTVA / art. 14 OTVA",
+   "question": "Laquelle de ces activités d'une collectivité publique NE relève PAS de la puissance publique ?",
+   "options": [
+    "Faire passer l'examen de conduite",
+    "La livraison d'eau à une entreprise",
+    "L'étalonnage officiel d'une balance",
+    "Le contrôle officiel des viandes"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : faire passer l'examen de conduite relève de la puissance publique (art. 3 let. g).",
+    "Exact : la livraison d'eau est une activité entrepreneuriale (art. 12 al. 4, art. 14 OTVA).",
+    "Faux : l'étalonnage officiel relève de la puissance publique (art. 3 let. g).",
+    "Faux : le contrôle officiel des viandes relève de la puissance publique (art. 3 let. g)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M2-066",
+   "champ": "Collectivités publiques — Activité entrepreneuriale — exemple",
+   "memento": "art. 14 OTVA",
+   "question": "Laquelle de ces activités d'une collectivité publique est de nature entrepreneuriale ?",
+   "options": [
+    "Le contrôle officiel des viandes",
+    "L'étalonnage officiel des instruments de mesure",
+    "L'exploitation d'un port ou d'un aéroport",
+    "La délivrance d'un permis officiel"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le contrôle officiel des viandes relève de la puissance publique (art. 3 let. g).",
+    "Faux : l'étalonnage officiel relève de la puissance publique (art. 3 let. g).",
+    "Exact : l'exploitation d'un port ou d'un aéroport = activité entrepreneuriale (art. 14 OTVA, art. 12 al. 4).",
+    "Faux : la délivrance d'un permis officiel relève de la puissance publique (art. 3 let. g)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-067",
+   "champ": "Collectivités publiques — Puissance publique — exemple",
+   "memento": "art. 3 let. g LTVA",
+   "question": "Parmi ces activités, laquelle relève de la puissance publique ?",
+   "options": [
+    "L'exploitation d'une agence de voyages communale",
+    "L'élimination des déchets contre rémunération",
+    "La distribution de gaz",
+    "Le contrôle officiel des viandes"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'agence de voyages communale est une activité entrepreneuriale (art. 14 OTVA).",
+    "Faux : l'élimination des déchets contre rémunération est entrepreneuriale (art. 14 OTVA).",
+    "Faux : la distribution de gaz est une activité entrepreneuriale (art. 14 OTVA).",
+    "Exact : le contrôle officiel des viandes relève de la puissance publique (art. 3 let. g)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-068",
+   "champ": "Collectivités publiques — Géomètre et déchets",
+   "memento": "art. 14 OTVA",
+   "question": "Une commune facture les prestations d'un bureau de géomètre et l'élimination de déchets. Comment ces activités sont-elles qualifiées ?",
+   "options": [
+    "Relevant de la puissance publique",
+    "Entrepreneuriales",
+    "Exclues du champ dans tous les cas",
+    "Exonérées avec droit à déduction"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : géomètre et déchets sont des activités entrepreneuriales (art. 14 OTVA), non de puissance publique.",
+    "Exact : bureau de géomètre et élimination des déchets = activités entrepreneuriales (art. 14 OTVA, art. 12 al. 4).",
+    "Faux : ce ne sont pas des opérations exclues du champ dans tous les cas.",
+    "Faux : ce ne sont pas des prestations exonérées avec droit à déduction."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-069",
+   "champ": "Collectivités publiques — Traitement TVA d'une taxe d'autorité",
+   "memento": "art. 3 let. g / art. 18 al. 2 LTVA",
+   "question": "Une commune encaisse une taxe pour la délivrance d'un permis (acte d'autorité). Quel est le traitement TVA de cette taxe ?",
+   "options": [
+    "Non-contre-prestation, hors du champ de la TVA",
+    "Imposable au taux normal",
+    "Exclue du champ avec option possible",
+    "Exonérée avec droit à déduction"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : taxe de permis = acte de puissance publique -> non-contre-prestation (art. 3 let. g, art. 18 al. 2).",
+    "Faux : la puissance publique n'est pas imposable au taux normal.",
+    "Faux : ce n'est pas une opération exclue avec option.",
+    "Faux : ce n'est pas une prestation exonérée avec droit à déduction."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-070",
+   "champ": "Collectivités publiques — Prestations entre collectivités",
+   "memento": "art. 21 al. 2 ch. 28 LTVA",
+   "question": "Un service communal facture des prestations à une autre commune. Ces prestations entre collectivités publiques sont…",
+   "options": [
+    "Imposables au taux normal",
+    "Relevant de la puissance publique",
+    "Toujours exonérées avec droit à déduction",
+    "Exclues du champ de l'impôt"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les prestations entre collectivités sont exclues, non imposables (art. 21 al. 2 ch. 28).",
+    "Faux : ce sont des prestations exclues, non de puissance publique.",
+    "Faux : elles sont exclues du champ, non exonérées avec droit à déduction.",
+    "Exact : prestations entre collectivités publiques = exclues du champ (art. 21 al. 2 ch. 28 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-071",
+   "champ": "Collectivités publiques — Cas pratique — service autonome",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "Le service autonome « Voirie » de la commune X facture : entretien pour la commune X 120 000 ; déneigement pour la commune voisine Y 80 000 ; prestations à des routes privées et à une crèche privée pour 26 000 au total. Est-il assujetti obligatoirement ?",
+   "options": [
+    "Oui, le total facturé dépasse 100 000",
+    "Non : seules les prestations à des non-collectivités (26 000) comptent, sous le seuil de 100 000",
+    "Oui, dès 100 000 de prestations internes à la commune",
+    "Non, une collectivité publique n'est jamais assujettie"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : seules comptent les prestations à des tiers non-collectivités, non le total facturé.",
+    "Exact : seules les prestations à des non-collectivités (26 000) comptent, < 100 000 (art. 12 al. 3).",
+    "Faux : les prestations internes à la commune ne comptent pas.",
+    "Faux : une collectivité est assujettie au-delà du seuil."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-072",
+   "champ": "Collectivités publiques — Cas pratique — hôpital",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Un hôpital rattaché à une collectivité publique réalise 230 000 CHF de prestations imposables fournies à des tiers (hors prestations de soins exclues). Est-il libéré de l'assujettissement ?",
+   "options": [
+    "Non, il dépasse le seuil de 100 000",
+    "Non, aucun seuil ne s'applique aux hôpitaux",
+    "Oui, il reste sous le seuil relevé de 250 000 CHF",
+    "Non, les soins étant exclus il est d'office assujetti"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le seuil applicable à un hôpital est CHF 250 000, non 100 000.",
+    "Faux : un seuil s'applique bien (CHF 250 000, art. 10 al. 2 let. c).",
+    "Exact : hôpital libéré jusqu'à CHF 250 000 ; 230 000 < 250 000 (art. 10 al. 2 let. c).",
+    "Faux : les soins exclus (art. 21 al. 2) ne comptent pas et n'entraînent pas l'assujettissement."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-073",
+   "champ": "Collectivités publiques — Cas pratique — musée",
+   "memento": "art. 10 al. 2 let. c LTVA",
+   "question": "Le musée d'une ville, rattaché à la commune, réalise 260 000 CHF de recettes imposables fournies à des tiers. Quelle est la conséquence ?",
+   "options": [
+    "Libéré, le seuil de 250 000 n'est pas atteint",
+    "Libéré, seul le seuil de 100 000 est applicable",
+    "Non-contre-prestation, hors champ",
+    "Assujetti obligatoire : le seuil de 250 000 CHF est dépassé"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 260 000 dépasse le seuil de CHF 250 000.",
+    "Faux : le seuil applicable est 250 000 (et il est dépassé), non 100 000.",
+    "Faux : ce sont des recettes imposables, non des non-contre-prestations.",
+    "Exact : musée, seuil 250 000 ; 260 000 > 250 000 -> assujetti (art. 10 al. 2 let. c)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M2-074",
+   "champ": "Collectivités publiques — Piège — référence art. 14 LTVA",
+   "memento": "art. 12 al. 4 LTVA / art. 14 OTVA",
+   "question": "Un corrigé affirme que les prestations d'un service autonome sont entrepreneuriales « selon l'art. 14 LTVA ». Pourquoi cette référence est-elle douteuse ?",
+   "options": [
+    "Parce que l'art. 14 LTVA traite du début et de la fin de l'assujettissement, non de la qualification entrepreneuriale (base correcte : art. 12 al. 4 LTVA + art. 14 OTVA)",
+    "Parce que l'art. 14 LTVA règle le taux de l'impôt",
+    "Parce que l'art. 14 LTVA n'existe pas",
+    "Parce que la qualification relève en réalité de l'art. 21 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 14 LTVA vise le début/fin de l'assujettissement ; la qualification relève de l'art. 12 al. 4 LTVA + art. 14 OTVA.",
+    "Faux : l'art. 14 LTVA ne règle pas le taux de l'impôt.",
+    "Faux : l'art. 14 LTVA existe bel et bien (début/fin de l'assujettissement).",
+    "Faux : la qualification entrepreneuriale ne relève pas de l'art. 21 LTVA."
+   ],
+   "piege": "art. 14 LTVA vs art. 14 OTVA",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M2-075",
+   "champ": "Collectivités publiques — Piège — calcul du seuil",
+   "memento": "art. 12 al. 3 LTVA",
+   "question": "Laquelle de ces affirmations sur l'assujettissement des collectivités publiques est FAUSSE ?",
+   "options": [
+    "Les prestations entre collectivités publiques comptent dans le calcul du seuil de 100 000",
+    "Le seuil général est de 100 000 CHF sur les prestations imposables à des tiers non-collectivités",
+    "Certaines institutions (hôpitaux, écoles, musées) bénéficient d'un seuil de 250 000 CHF",
+    "Les contre-prestations relevant de la puissance publique ne sont pas soumises à la TVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : affirmation FAUSSE — les prestations entre collectivités sont exclues (art. 21 al. 2 ch. 28) et ne comptent pas dans le seuil.",
+    "Faux : affirmation exacte (art. 12 al. 3), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte (art. 10 al. 2 let. c), donc pas la réponse cherchée.",
+    "Faux : affirmation exacte (art. 3 let. g / art. 18 al. 2), donc pas la réponse cherchée."
+   ],
+   "piege": "prestations entre collectivités",
+   "difficulte": 3,
+   "source": "generated"
+  }
+ ]
+}

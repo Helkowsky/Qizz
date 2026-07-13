@@ -1,0 +1,1169 @@
+{
+ "cours": "tva",
+ "module": "M3",
+ "titre": "Base, taux & facturation",
+ "questions": [
+  {
+   "id": "M3-001",
+   "champ": "Base, taux & facturation — Base de calcul — principe",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Qu'est-ce qui constitue la base de calcul de la TVA sur une prestation fournie sur le territoire suisse ?",
+   "options": [
+    "La contre-prestation effectivement reçue par le fournisseur",
+    "Le bénéfice réalisé sur l'opération",
+    "La valeur de marché du bien ou du service",
+    "Le montant net après déduction de l'impôt préalable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la base de calcul est la contre-prestation effectivement reçue (art. 24 al. 1 LTVA).",
+    "Faux : ce n'est pas le bénéfice réalisé mais la contre-prestation effectivement reçue (art. 24 al. 1 LTVA).",
+    "Faux : ce n'est pas une valeur de marché théorique mais la contre-prestation effective (art. 24 al. 1 LTVA).",
+    "Faux : la base n'est pas nette de l'impôt préalable ; c'est la contre-prestation reçue (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-002",
+   "champ": "Base, taux & facturation — Contre-prestation — définition",
+   "memento": "art. 3 let. f LTVA",
+   "question": "Selon l'art. 3 let. f LTVA, comment se définit la contre-prestation ?",
+   "options": [
+    "La marge bénéficiaire dégagée par le fournisseur sur la prestation",
+    "La valeur patrimoniale que le destinataire, ou un tiers à sa place, dépense pour obtenir la prestation",
+    "Le prix catalogue affiché avant tout rabais",
+    "Le montant de TVA facturé au destinataire de la prestation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la contre-prestation n'est pas la marge du fournisseur mais la valeur patrimoniale dépensée par le destinataire (art. 3 let. f LTVA).",
+    "Exact : la contre-prestation est la valeur patrimoniale que le destinataire, ou un tiers, dépense pour obtenir la prestation (art. 3 let. f LTVA).",
+    "Faux : ce n'est pas le prix catalogue avant rabais mais la valeur effectivement dépensée (art. 3 let. f LTVA).",
+    "Faux : la contre-prestation n'est pas la TVA facturée elle-même (art. 3 let. f LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-003",
+   "champ": "Base, taux & facturation — Frais accessoires inclus dans la base",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Quels frais font partie de la contre-prestation imposable, même lorsqu'ils sont facturés séparément au client ?",
+   "options": [
+    "Uniquement les frais expressément qualifiés de prix de vente",
+    "Aucun frais accessoire, s'ils apparaissent sur une ligne distincte de la facture",
+    "Les frais de transport, les droits de douane, la redevance sur le trafic des poids lourds et les frais de sommation",
+    "Seuls les frais de transport, à l'exclusion des droits de douane et de la RPLP"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : tous les frais font partie de la contre-prestation, pas seulement ceux qualifiés de prix de vente (art. 24 al. 1 LTVA).",
+    "Faux : la facturation sur une ligne distincte ne sort pas les frais accessoires de la base (art. 24 al. 1 LTVA).",
+    "Exact : transport, droits de douane, RPLP et frais de sommation font partie de la base, facturés séparément ou non (art. 24 al. 1 LTVA).",
+    "Faux : droits de douane et RPLP font aussi partie de la base, pas seulement le transport (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-004",
+   "champ": "Base, taux & facturation — Éléments hors base",
+   "memento": "art. 24 al. 6 let. a LTVA",
+   "question": "Lequel de ces éléments n'entre PAS dans la base de calcul de la TVA ?",
+   "options": [
+    "Les frais de transport refacturés au client",
+    "Les suppléments perçus pour paiements partiels",
+    "La redevance sur le trafic des poids lourds répercutée",
+    "La TVA due sur la prestation elle-même"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les frais de transport refacturés font partie de la contre-prestation (art. 24 al. 1 LTVA).",
+    "Faux : les suppléments pour paiements partiels font partie de la base (art. 24 al. 1 LTVA).",
+    "Faux : la RPLP répercutée fait partie de la contre-prestation (art. 24 al. 1 LTVA).",
+    "Exact : la TVA due sur la prestation elle-même n'entre pas dans la base (art. 24 al. 6 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-005",
+   "champ": "Base, taux & facturation — Personnes étroitement liées — définition",
+   "memento": "art. 3 let. h LTVA",
+   "question": "À partir de quel seuil de participation une personne est-elle considérée comme étroitement liée au sens de l'art. 3 let. h LTVA ?",
+   "options": [
+    "La détention d'au moins 20 % du capital-actions ou du capital social de l'entreprise",
+    "La détention d'au moins 10 % du capital de l'entreprise",
+    "La détention d'au moins 50 % du capital de l'entreprise",
+    "Toute participation, quel qu'en soit le pourcentage"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sont étroitement liés les détenteurs d'au moins 20 % du capital-actions ou social (art. 3 let. h ch. 2 LTVA).",
+    "Faux : 10 % est le seuil de participation pour la déduction (art. 29 al. 3 LTVA), pas les personnes étroitement liées (art. 3 let. h ch. 2 LTVA).",
+    "Faux : le seuil est de 20 %, non 50 % (art. 3 let. h ch. 2 LTVA).",
+    "Faux : un seuil de 20 % est requis, pas n'importe quelle participation (art. 3 let. h ch. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-006",
+   "champ": "Base, taux & facturation — Conversion en monnaie étrangère — principe",
+   "memento": "art. 45 OTVA",
+   "question": "Comment se convertit en francs suisses une contre-prestation facturée en monnaie étrangère (art. 45 OTVA) ?",
+   "options": [
+    "Au cours moyen de l'année civile, publié en fin de période fiscale",
+    "Au moment de la naissance de la créance fiscale, au taux publié par l'AFC (cours mensuel moyen ou cours du jour)",
+    "Au cours de change librement déterminé par le fournisseur",
+    "Au cours du jour du paiement effectif par le client"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la conversion se fait à la naissance de la créance, non au cours moyen de l'année (art. 45 OTVA).",
+    "Exact : conversion au moment de la naissance de la créance fiscale, au taux publié par l'AFC (art. 45 al. 1 et 3 OTVA).",
+    "Faux : le cours n'est pas librement fixé par le fournisseur ; c'est le taux publié par l'AFC (art. 45 OTVA).",
+    "Faux : le moment déterminant est la naissance de la créance, non le paiement effectif (art. 45 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-007",
+   "champ": "Base, taux & facturation — Taux spécial hébergement — définition",
+   "memento": "art. 25 al. 4 LTVA",
+   "question": "À quoi s'applique le taux spécial de la TVA ?",
+   "options": [
+    "Aux ventes de denrées alimentaires de première nécessité",
+    "Aux prestations de restauration servies sur place",
+    "Aux prestations d'hébergement (logement avec petit-déjeuner, location d'habitations de vacances)",
+    "Aux livraisons de médicaments et de journaux"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les denrées de première nécessité relèvent du taux réduit, non du taux spécial (art. 25 al. 2 LTVA).",
+    "Faux : la restauration sur place relève du taux normal, non du taux spécial (art. 25 al. 3 LTVA).",
+    "Exact : le taux spécial vise les prestations d'hébergement, logement avec petit-déjeuner inclus (art. 25 al. 4 LTVA).",
+    "Faux : médicaments et journaux relèvent du taux réduit, non du taux spécial (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-008",
+   "champ": "Base, taux & facturation — Mention inexacte de l'impôt — principe",
+   "memento": "art. 27 LTVA",
+   "question": "Quel est le principe applicable lorsqu'un fournisseur mentionne une TVA à tort ou à un taux trop élevé sur sa facture (art. 27 LTVA) ?",
+   "options": [
+    "La mention est sans effet tant que le fournisseur n'a pas encaissé le montant",
+    "Seul le destinataire assujetti est redevable du montant mentionné",
+    "Le montant n'est dû que s'il correspond au taux légal de la prestation",
+    "Quiconque mentionne un montant d'impôt sur une facture le doit, sous réserve d'une correction"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la mention oblige indépendamment de l'encaissement du montant (art. 27 LTVA).",
+    "Faux : c'est le fournisseur émetteur qui est redevable, non le destinataire (art. 27 LTVA).",
+    "Faux : le montant mentionné est dû même s'il excède le taux légal (art. 27 LTVA).",
+    "Exact : quiconque mentionne un montant d'impôt le doit, sous réserve d'une correction (art. 27 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-009",
+   "champ": "Base, taux & facturation — Taux normal — valeur courante",
+   "memento": "art. 25 al. 1 LTVA",
+   "question": "Quel est le taux normal de la TVA suisse depuis le 1er janvier 2024 ?",
+   "options": [
+    "8,1 %",
+    "7,7 %",
+    "8,0 %",
+    "2,6 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le taux normal est de 8,1 % depuis le 1er janvier 2024 (art. 25 al. 1 LTVA).",
+    "Faux : 7,7 % était l'ancien taux normal (2018-2023), non le taux actuel (art. 25 al. 1 LTVA).",
+    "Faux : le taux normal est de 8,1 %, non 8,0 % (art. 25 al. 1 LTVA).",
+    "Faux : 2,6 % est le taux réduit, non le taux normal (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-010",
+   "champ": "Base, taux & facturation — Taux réduit — valeur courante",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "Quel est le taux réduit de la TVA suisse depuis le 1er janvier 2024 ?",
+   "options": [
+    "2,5 %",
+    "2,6 %",
+    "3,8 %",
+    "3,7 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 2,5 % était l'ancien taux réduit (2011-2023), non le taux actuel (art. 25 al. 2 LTVA).",
+    "Exact : le taux réduit est de 2,6 % depuis 2024 (art. 25 al. 2 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, non le taux réduit (art. 25 al. 4 LTVA).",
+    "Faux : 3,7 % était l'ancien taux spécial (2018-2023), non le taux réduit (art. 25 al. 4 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-011",
+   "champ": "Base, taux & facturation — Taux spécial — valeur courante",
+   "memento": "art. 25 al. 4 LTVA",
+   "question": "Quel est le taux spécial pour les prestations d'hébergement depuis le 1er janvier 2024 ?",
+   "options": [
+    "3,7 %",
+    "2,6 %",
+    "3,8 %",
+    "8,1 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : 3,7 % était l'ancien taux spécial (2018-2023), non le taux actuel (art. 25 al. 4 LTVA).",
+    "Faux : 2,6 % est le taux réduit, non le taux spécial (art. 25 al. 2 LTVA).",
+    "Exact : le taux spécial d'hébergement est de 3,8 % depuis 2024 (art. 25 al. 4 LTVA).",
+    "Faux : 8,1 % est le taux normal, non le taux spécial (art. 25 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-012",
+   "champ": "Base, taux & facturation — Ancien taux normal",
+   "memento": "art. 25 al. 1 LTVA",
+   "question": "Quel était le taux normal de la TVA suisse entre 2018 et 2023 ?",
+   "options": [
+    "8,1 %",
+    "7,6 %",
+    "8,0 %",
+    "7,7 %"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 8,1 % est le taux normal depuis 2024, non celui de 2018-2023 (art. 25 al. 1 LTVA).",
+    "Faux : le taux normal 2018-2023 était 7,7 %, non 7,6 % (art. 25 al. 1 LTVA).",
+    "Faux : le taux normal 2018-2023 était 7,7 %, non 8,0 % (art. 25 al. 1 LTVA).",
+    "Exact : le taux normal était de 7,7 % entre 2018 et 2023 (art. 25 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-013",
+   "champ": "Base, taux & facturation — Ancien taux réduit",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "Quel était le taux réduit de la TVA suisse applicable jusqu'au 31 décembre 2023 ?",
+   "options": [
+    "2,5 %",
+    "2,6 %",
+    "3,7 %",
+    "2,4 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le taux réduit était de 2,5 % jusqu'au 31.12.2023 (art. 25 al. 2 LTVA).",
+    "Faux : 2,6 % est le taux réduit depuis 2024, non celui d'avant (art. 25 al. 2 LTVA).",
+    "Faux : 3,7 % était le taux spécial d'hébergement, non le taux réduit (art. 25 al. 4 LTVA).",
+    "Faux : l'ancien taux réduit était 2,5 %, non 2,4 % (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-014",
+   "champ": "Base, taux & facturation — Ancien taux spécial",
+   "memento": "art. 25 al. 4 LTVA",
+   "question": "Quel était le taux spécial pour l'hébergement applicable entre 2018 et 2023 ?",
+   "options": [
+    "3,8 %",
+    "3,7 %",
+    "2,5 %",
+    "3,6 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 3,8 % est le taux spécial depuis 2024, non celui de 2018-2023 (art. 25 al. 4 LTVA).",
+    "Exact : le taux spécial d'hébergement était de 3,7 % entre 2018 et 2023 (art. 25 al. 4 LTVA).",
+    "Faux : 2,5 % était l'ancien taux réduit, non le taux spécial (art. 25 al. 2 LTVA).",
+    "Faux : l'ancien taux spécial était 3,7 %, non 3,6 % (art. 25 al. 4 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-015",
+   "champ": "Base, taux & facturation — Durée du taux spécial",
+   "memento": "art. 25 al. 4 LTVA",
+   "question": "Jusqu'à quelle date le taux spécial pour les prestations d'hébergement est-il applicable selon la loi ?",
+   "options": [
+    "Il n'a pas de limite de durée",
+    "Jusqu'au 31 décembre 2024",
+    "Jusqu'au 31 décembre 2027",
+    "Jusqu'au 31 décembre 2030"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'application du taux spécial d'hébergement est limitée dans le temps (art. 25 al. 4 LTVA).",
+    "Faux : la limite légale est le 31 décembre 2027, non 2024 (art. 25 al. 4 LTVA).",
+    "Exact : le taux spécial d'hébergement est applicable jusqu'au 31 décembre 2027 (art. 25 al. 4 LTVA).",
+    "Faux : la limite légale est le 31 décembre 2027, non 2030 (art. 25 al. 4 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-016",
+   "champ": "Base, taux & facturation — Nombre de taux",
+   "memento": "art. 25 LTVA",
+   "question": "Combien de taux d'imposition la TVA suisse connaît-elle (art. 25 LTVA) ?",
+   "options": [
+    "Deux : un taux normal et un taux réduit",
+    "Quatre : normal, réduit, spécial et taux zéro",
+    "Un taux unique de 8,1 %",
+    "Trois : un taux normal, un taux réduit et un taux spécial pour l'hébergement"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la TVA connaît trois taux, non deux (art. 25 LTVA).",
+    "Faux : il n'existe pas de « taux zéro » ; il y a trois taux (art. 25 LTVA).",
+    "Faux : il existe trois taux distincts, non un taux unique (art. 25 LTVA).",
+    "Exact : trois taux — normal, réduit et spécial pour l'hébergement (art. 25 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-017",
+   "champ": "Base, taux & facturation — Taux des médicaments",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "À quel taux sont imposées les livraisons de médicaments sur le territoire suisse ?",
+   "options": [
+    "2,6 % (taux réduit)",
+    "8,1 % (taux normal)",
+    "3,8 % (taux spécial)",
+    "Elles sont exclues du champ de l'impôt"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les médicaments relèvent du taux réduit de 2,6 % (art. 25 al. 2 LTVA).",
+    "Faux : le taux normal ne s'applique pas aux médicaments (taux réduit, art. 25 al. 2 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, sans lien avec les médicaments (art. 25 al. 4 LTVA).",
+    "Faux : les médicaments sont imposés au taux réduit, non exclus du champ (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-018",
+   "champ": "Base, taux & facturation — Taux des journaux et livres imprimés",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "À quel taux sont imposés les journaux, revues et livres imprimés sans caractère publicitaire ?",
+   "options": [
+    "8,1 % (taux normal)",
+    "2,6 % (taux réduit)",
+    "3,8 % (taux spécial)",
+    "0 %, car exonérés"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les imprimés sans caractère publicitaire relèvent du taux réduit, non du taux normal (art. 25 al. 2 LTVA).",
+    "Exact : journaux, revues et livres imprimés sans caractère publicitaire au taux réduit de 2,6 % (art. 25 al. 2 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, non celui des imprimés (art. 25 al. 4 LTVA).",
+    "Faux : ces imprimés sont imposés au taux réduit, non exonérés (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-019",
+   "champ": "Base, taux & facturation — Revues électroniques",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "Potpourri SA, assujettie à la TVA, vend des revues spécialisées qu'elle distribue aussi par voie électronique. Quel taux d'imposition s'applique aux revues spécialisées vendues sous forme électronique sur le territoire suisse ?",
+   "options": [
+    "0 %, en raison de l'exclusion du champ de l'impôt",
+    "3,8 %",
+    "2,6 %",
+    "8,1 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les revues électroniques ne sont pas exclues du champ de l'impôt (art. 25 al. 2 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, non celui des revues (art. 25 al. 4 LTVA).",
+    "Exact : les revues électroniques sans caractère publicitaire relèvent du taux réduit de 2,6 % (art. 25 al. 2 LTVA).",
+    "Faux : le taux normal ne s'applique pas aux revues électroniques sans caractère publicitaire (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M3-020",
+   "champ": "Base, taux & facturation — Taux de l'eau du réseau",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "À quel taux est imposée la livraison d'eau amenée par conduites (eau potable du réseau) ?",
+   "options": [
+    "3,8 %",
+    "8,1 %",
+    "Exonérée de l'impôt",
+    "2,6 %"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 3,8 % est le taux spécial d'hébergement, non celui de l'eau (art. 25 al. 4 LTVA).",
+    "Faux : l'eau du réseau relève du taux réduit, non du taux normal (art. 25 al. 2 LTVA).",
+    "Faux : l'eau amenée par conduites est imposée au taux réduit, non exonérée (art. 25 al. 2 LTVA).",
+    "Exact : l'eau amenée par des conduites relève du taux réduit de 2,6 % (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-021",
+   "champ": "Base, taux & facturation — Taux des produits d'hygiène menstruelle",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "À quel taux sont imposés les produits d'hygiène menstruelle ?",
+   "options": [
+    "2,6 % (taux réduit)",
+    "8,1 % (taux normal)",
+    "3,8 % (taux spécial)",
+    "0 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les produits d'hygiène menstruelle relèvent du taux réduit de 2,6 % (art. 25 al. 2 LTVA).",
+    "Faux : ces produits relèvent du taux réduit, non du taux normal (art. 25 al. 2 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, sans lien avec ces produits (art. 25 al. 4 LTVA).",
+    "Faux : ces produits sont imposés au taux réduit, non à 0 % (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-022",
+   "champ": "Base, taux & facturation — Taux des abonnements / bases de données",
+   "memento": "art. 25 al. 1 LTVA",
+   "question": "Une maison d'édition vend un abonnement donnant accès à une base de données électronique. Quel taux s'applique à cet abonnement ?",
+   "options": [
+    "2,6 %, comme pour les revues électroniques",
+    "8,1 % (taux normal)",
+    "3,8 %",
+    "0 %, car exclu du champ de l'impôt"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une base de données n'est pas une revue électronique ; taux normal (art. 25 al. 1 LTVA).",
+    "Exact : l'abonnement d'accès à une base de données relève du taux normal de 8,1 % (art. 25 al. 1 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, non celui d'un abonnement (art. 25 al. 4 LTVA).",
+    "Faux : l'abonnement est imposé au taux normal, non exclu du champ (art. 25 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-023",
+   "champ": "Base, taux & facturation — Taux de la restauration",
+   "memento": "art. 25 al. 3 LTVA",
+   "question": "À quel taux sont imposées les denrées alimentaires remises dans le cadre de prestations de restauration servies sur place ?",
+   "options": [
+    "2,6 %, car il s'agit de denrées alimentaires",
+    "3,8 % (taux spécial)",
+    "8,1 % (taux normal)",
+    "0 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : en restauration sur place, le taux normal s'applique malgré la nature de denrée (art. 25 al. 3 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, non la restauration (art. 25 al. 4 LTVA).",
+    "Exact : les denrées remises en restauration sur place sont au taux normal de 8,1 % (art. 25 al. 3 LTVA).",
+    "Faux : la restauration est imposée au taux normal, non à 0 % (art. 25 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-024",
+   "champ": "Base, taux & facturation — Taux des denrées en distributeur automatique",
+   "memento": "art. 25 al. 3 LTVA",
+   "question": "À quel taux sont imposées les denrées alimentaires (hors boissons alcoolisées) mises à disposition dans des automates ?",
+   "options": [
+    "8,1 %, comme en restauration",
+    "3,8 %",
+    "Elles sont exclues du champ de l'impôt",
+    "2,6 % (taux réduit)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les denrées en automate ne relèvent pas de la restauration ; taux réduit (art. 25 al. 3 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, sans lien avec les automates (art. 25 al. 4 LTVA).",
+    "Faux : ces denrées sont imposées au taux réduit, non exclues du champ (art. 25 al. 3 LTVA).",
+    "Exact : les denrées (hors alcool) en automate relèvent du taux réduit de 2,6 % (art. 25 al. 3 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-025",
+   "champ": "Base, taux & facturation — Escompte — base de calcul",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Un fournisseur facture 10 000 CHF (hors TVA) et le client paie 9 800 CHF après avoir déduit un escompte de 2 %. Quelle est la base de calcul de la TVA ?",
+   "options": [
+    "CHF 9 800",
+    "CHF 10 000",
+    "CHF 10 810",
+    "CHF 9 606"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la base est la contre-prestation effectivement reçue après escompte, soit CHF 9 800 (art. 24 al. 1 et art. 41 al. 1 LTVA).",
+    "Faux : CHF 10 000 est le montant facturé, non le montant reçu après escompte (art. 24 al. 1 LTVA).",
+    "Faux : CHF 10 810 ajoute à tort la TVA à la base (art. 24 al. 1 LTVA).",
+    "Faux : CHF 9 606 déduit un escompte erroné ; l'escompte réel donne CHF 9 800 (art. 41 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-026",
+   "champ": "Base, taux & facturation — Commission sur cartes de crédit — base de calcul",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Un commerçant réalise 50 000 CHF de chiffre d'affaires réglé par cartes de crédit ; l'émetteur retient une commission de 3 %, de sorte que le commerçant n'encaisse que 48 500 CHF. Quelle est la base de calcul de la TVA ?",
+   "options": [
+    "CHF 48 500",
+    "CHF 50 000",
+    "CHF 51 500",
+    "CHF 46 550"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la commission sur cartes n'est pas un escompte déductible de la base (art. 24 al. 1 LTVA).",
+    "Exact : la commission sur cartes ne réduit pas la base ; base = CHF 50 000 (art. 24 al. 1 LTVA).",
+    "Faux : on n'ajoute pas la commission à la contre-prestation (art. 24 al. 1 LTVA).",
+    "Faux : aucune double déduction ; la commission ne se déduit pas (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-027",
+   "champ": "Base, taux & facturation — Rabais et reprise en échange — base de calcul",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Un garage vend un véhicule au prix de 35 000 CHF, accorde un rabais de 10 %, puis reprend l'ancien véhicule du client pour 7 000 CHF en échange ; le client paie 24 500 CHF en espèces. Quelle est la base de calcul de la TVA ?",
+   "options": [
+    "CHF 24 500",
+    "CHF 28 500",
+    "CHF 31 500",
+    "CHF 35 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : on ne retient pas que le paiement en espèces ; la reprise fait partie de la contre-prestation (art. 24 al. 1 LTVA).",
+    "Faux : CHF 28 500 déduit à tort la valeur de reprise de la base (art. 24 al. 1 LTVA).",
+    "Exact : rabais de 10 % déduit (35 000 − 3 500), reprise non déduite ; base = CHF 31 500 (art. 24 al. 1 LTVA).",
+    "Faux : le rabais de 10 % se déduit bien de la base (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-028",
+   "champ": "Base, taux & facturation — Commission versée à un intermédiaire tiers",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Un fournisseur encaisse un solde de 80 000 CHF sur ses factures clients après avoir déduit 12 000 CHF de commission versée à un intermédiaire tiers. Quelle est la base de calcul de sa TVA sur ces ventes ?",
+   "options": [
+    "CHF 68 000",
+    "CHF 80 000",
+    "CHF 12 000",
+    "CHF 92 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la commission à l'intermédiaire ne réduit pas la base (art. 24 al. 1 LTVA).",
+    "Faux : CHF 80 000 est le solde encaissé, non la contre-prestation facturée aux clients (art. 24 al. 1 LTVA).",
+    "Faux : CHF 12 000 est la commission, non la base de calcul (art. 24 al. 1 LTVA).",
+    "Exact : base = contre-prestation facturée aux clients (80 000 + 12 000) = CHF 92 000 (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-029",
+   "champ": "Base, taux & facturation — Personnes étroitement liées — société sœur",
+   "memento": "art. 24 al. 2 LTVA",
+   "question": "Architecture SA facture des prestations à sa société sœur Vente immobilière SA pour 15 000 CHF, alors que la valeur convenue entre tiers indépendants serait de 20 000 CHF. Sur quel montant la TVA est-elle due ?",
+   "options": [
+    "CHF 20 000, soit la valeur qui aurait été convenue entre tiers indépendants",
+    "CHF 15 000, soit le montant effectivement facturé",
+    "CHF 5 000, soit la seule différence de prix",
+    "Aucune TVA, car il s'agit d'une opération intragroupe"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : entre personnes étroitement liées, base = valeur entre tiers indépendants, soit CHF 20 000 (art. 24 al. 2 LTVA).",
+    "Faux : le prix de faveur facturé n'est pas déterminant entre personnes liées (art. 24 al. 2 LTVA).",
+    "Faux : ce n'est pas la seule différence de prix mais la valeur entre tiers (art. 24 al. 2 LTVA).",
+    "Faux : l'opération reste imposable hors groupe TVA (art. 24 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-030",
+   "champ": "Base, taux & facturation — Véhicule de fonction — part privée",
+   "memento": "art. 47 OTVA",
+   "question": "Une société de vente met un véhicule de fonction (prix d'achat CHF 48 000 hors TVA) à disposition de ses employés, qui l'utilisent aussi à des fins privées (mention au certificat de salaire). La part privée annuelle imposable est de CHF 5 184 (TVA comprise). Quel est le montant de TVA dû par an ?",
+   "options": [
+    "CHF 419,90",
+    "CHF 388,45",
+    "CHF 5 184,00",
+    "CHF 370,60"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 419,90 applique le taux au montant hors TVA au lieu d'un montant TVA incluse (art. 47 OTVA).",
+    "Exact : sur la part privée TVA incluse de 5 184, TVA = 5 184 × 8,1 / 108,1 = CHF 388,45 (art. 47 OTVA).",
+    "Faux : CHF 5 184 est la part privée TVA comprise, non la TVA due (art. 47 OTVA).",
+    "Faux : CHF 370,60 résulte d'un calcul de taux erroné ; le résultat correct est CHF 388,45 (art. 47 OTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M3-031",
+   "champ": "Base, taux & facturation — Conversion en monnaie étrangère — cas",
+   "memento": "art. 45 OTVA",
+   "question": "Une entreprise suisse facture une prestation en euros à un client sur le territoire suisse. À quel moment et à quel cours doit-elle convertir le montant en francs pour le décompte TVA ?",
+   "options": [
+    "Au jour du paiement, au cours du jour de sa banque",
+    "À la clôture de l'exercice, au cours moyen annuel",
+    "Au moment de la naissance de la créance fiscale, au taux publié par l'AFC",
+    "Au cours de change interne librement fixé, sans référence à l'AFC"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le moment déterminant est la naissance de la créance, non le paiement (art. 45 OTVA).",
+    "Faux : pas de cours moyen annuel à la clôture ; naissance de la créance au taux AFC (art. 45 OTVA).",
+    "Exact : conversion à la naissance de la créance fiscale, au taux publié par l'AFC (art. 45 al. 1 et 3 OTVA).",
+    "Faux : le cours interne n'est admis que pour les groupes d'entreprises (art. 45 al. 4 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-032",
+   "champ": "Base, taux & facturation — Hôtel — petit-déjeuner facturé séparément",
+   "memento": "art. 25 al. 4 LTVA",
+   "question": "Hôtel SA (Grindelwald/BE) vous envoie une facture pour la nuitée et le petit-déjeuner. Le petit-déjeuner, pris dans la salle à manger, figure sur une ligne séparée au taux de 3,8 %. Quelle affirmation est correcte ?",
+   "options": [
+    "En raison de la ligne de facturation distincte, le petit-déjeuner est imposé au taux normal de 8,1 %",
+    "Comme il est possible de consommer sur place, le petit-déjeuner est soumis au taux normal de 8,1 %",
+    "Le petit-déjeuner est exclu du champ de l'impôt",
+    "La fourniture du petit-déjeuner est dans tous les cas soumise au taux spécial de 3,8 %"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la ligne de facturation distincte ne fait pas basculer le petit-déjeuner au taux normal (art. 25 al. 4 LTVA).",
+    "Faux : le petit-déjeuner d'hébergement suit le taux spécial, pas le taux normal (art. 25 al. 4 LTVA).",
+    "Faux : le petit-déjeuner est imposé au taux spécial, non exclu du champ (art. 25 al. 4 LTVA).",
+    "Exact : logement avec petit-déjeuner = prestation d'hébergement au taux spécial de 3,8 %, même facturé séparément (art. 25 al. 4 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M3-033",
+   "champ": "Base, taux & facturation — Combinaison de prestations — règle des 70 %",
+   "memento": "art. 19 al. 2 LTVA",
+   "question": "Des prestations soumises à des taux différents sont proposées ensemble à un prix global. Selon l'art. 19 al. 2 LTVA, quand peut-on appliquer un taux unique à l'ensemble ?",
+   "options": [
+    "Lorsque la prestation principale représente au moins 70 % de la contre-prestation totale",
+    "Jamais : chaque composante suit toujours son propre taux",
+    "Lorsque chaque prestation représente au moins 50 % du prix",
+    "Uniquement si toutes les prestations relèvent du même fournisseur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : un taux unique est possible si la prestation principale représente au moins 70 % de la contre-prestation (art. 19 al. 2 LTVA).",
+    "Faux : la règle des 70 % permet précisément un taux unique (art. 19 al. 2 LTVA).",
+    "Faux : le seuil est de 70 %, non 50 % (art. 19 al. 2 LTVA).",
+    "Faux : la condition est le seuil de 70 %, non l'unicité du fournisseur (art. 19 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-034",
+   "champ": "Base, taux & facturation — Option culturelle/sportive au taux réduit",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "Une association opte pour l'imposition volontaire de ses prestations culturelles exclues (art. 21 al. 2 ch. 14 à 16 LTVA). À quel taux ces prestations optées sont-elles alors imposées ?",
+   "options": [
+    "Au taux normal de 8,1 %",
+    "Au taux réduit de 2,6 %",
+    "Au taux spécial de 3,8 %",
+    "Elles restent non imposées malgré l'option"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les prestations culturelles optées relèvent du taux réduit, non du taux normal (art. 25 al. 2 LTVA).",
+    "Exact : en cas d'option, les prestations culturelles sont imposées au taux réduit de 2,6 % (art. 25 al. 2 LTVA).",
+    "Faux : 3,8 % est le taux spécial d'hébergement, sans lien avec l'option culturelle (art. 25 al. 4 LTVA).",
+    "Faux : l'option rend la prestation imposable, au taux réduit (art. 25 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-035",
+   "champ": "Base, taux & facturation — Parts privées — pas de prestation",
+   "memento": "art. 47 OTVA",
+   "question": "Parmi ces mises à disposition au personnel, laquelle NE constitue PAS une prestation imposable (art. 47 OTVA) ?",
+   "options": [
+    "L'utilisation privée d'un véhicule de fonction figurant au certificat de salaire",
+    "La participation salariale à un abonnement général déduite du salaire",
+    "La distribution gratuite de boissons et d'en-cas lors des pauses",
+    "La mise à disposition d'un logement de fonction contre loyer réduit"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'utilisation privée d'un véhicule de fonction au certificat de salaire est une prestation imposable (art. 47 OTVA).",
+    "Faux : la participation salariale à un abonnement général est une prestation à titre onéreux imposable (art. 47 OTVA).",
+    "Exact : les boissons et en-cas offerts pendant les pauses ne constituent pas une prestation imposable (art. 47 OTVA).",
+    "Faux : la mise à disposition d'un logement contre loyer réduit est une prestation imposable (art. 47 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-036",
+   "champ": "Base, taux & facturation — Cadeaux au personnel — seuil CHF 500",
+   "memento": "art. 31 al. 2 let. c LTVA",
+   "question": "Un employeur offre à un collaborateur une montre d'une valeur de 450 CHF pour un anniversaire de service. Quelle est la conséquence en matière de TVA ?",
+   "options": [
+    "Une prestation à soi-même doit être imposée sur les 450 CHF",
+    "Le cadeau est imposé au taux réduit de 2,6 %",
+    "L'impôt préalable doit être intégralement corrigé",
+    "Le cadeau n'est pas imposé, car sa valeur n'excède pas 500 CHF par personne et par an"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : sous 500 CHF, aucune prestation à soi-même n'est à imposer (art. 31 al. 2 let. c LTVA).",
+    "Faux : aucun taux ne s'applique ; le cadeau sous seuil n'est pas imposé (art. 31 al. 2 let. c LTVA).",
+    "Faux : aucune correction d'impôt préalable sous le seuil de 500 CHF (art. 31 al. 2 let. c LTVA).",
+    "Exact : le motif entrepreneurial est présumé pour un cadeau n'excédant pas 500 CHF par personne et par an (art. 31 al. 2 let. c LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-037",
+   "champ": "Base, taux & facturation — Personnes étroitement liées — fonds de pension",
+   "memento": "art. 3 let. h LTVA",
+   "question": "Laquelle de ces entités n'est PAS considérée comme une personne étroitement liée au sens de l'art. 3 let. h LTVA ?",
+   "options": [
+    "L'institution de prévoyance (fonds de pension) de l'entreprise",
+    "Une société sœur du même groupe",
+    "Un détenteur de 25 % du capital-actions",
+    "Un membre de la famille du propriétaire de l'entreprise"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les institutions de prévoyance (fonds de pension) ne sont PAS des personnes étroitement liées (art. 3 let. h ch. 2 LTVA).",
+    "Faux : une société sœur du même groupe est une personne étroitement liée (art. 3 let. h ch. 2 LTVA).",
+    "Faux : un détenteur de 25 % (≥ 20 %) est une personne étroitement liée (art. 3 let. h ch. 2 LTVA).",
+    "Faux : les proches (famille) du propriétaire sont des personnes étroitement liées (art. 3 let. h ch. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-038",
+   "champ": "Base, taux & facturation — Facture conforme — mentions obligatoires",
+   "memento": "art. 26 al. 2 LTVA",
+   "question": "Laquelle de ces mentions ne fait PAS partie des éléments d'une facture conforme à la TVA (art. 26 al. 2 LTVA) ?",
+   "options": [
+    "Le numéro IDE-TVA du fournisseur de la prestation",
+    "La marge bénéficiaire réalisée par le fournisseur",
+    "Le taux d'imposition applicable et le montant de l'impôt dû",
+    "La date ou la période à laquelle la prestation a été fournie"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le numéro IDE-TVA du fournisseur est une mention obligatoire (art. 26 al. 2 LTVA).",
+    "Exact : la marge bénéficiaire n'est jamais une mention exigée sur la facture (art. 26 al. 2 LTVA).",
+    "Faux : le taux et le montant de l'impôt sont des mentions obligatoires (art. 26 al. 2 LTVA).",
+    "Faux : la date ou période de la prestation est une mention obligatoire (art. 26 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-039",
+   "champ": "Base, taux & facturation — Mention inexacte — droit du destinataire",
+   "memento": "art. 27 LTVA",
+   "question": "Une haute école facture par erreur 8,1 % de TVA au lieu du taux spécial de 3,8 % sur une prestation d'hébergement. Quelle est la conséquence pour le destinataire assujetti qui décompte selon la méthode effective ?",
+   "options": [
+    "Il perd tout droit à la déduction de l'impôt préalable en raison de l'erreur de taux",
+    "Il doit lui-même corriger la facture et payer la différence de taux",
+    "Il conserve son droit matériel à la déduction de l'impôt préalable sur le montant mentionné",
+    "Il ne peut déduire que l'impôt calculé au taux spécial de 3,8 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'erreur de taux ne fait pas perdre le droit à la déduction de l'impôt préalable (art. 27 LTVA).",
+    "Faux : la correction incombe au fournisseur, non au destinataire (art. 27 al. 4 LTVA).",
+    "Exact : le destinataire conserve son droit matériel à la déduction sur le montant mentionné (art. 27 LTVA).",
+    "Faux : la déduction porte sur le montant facturé, non recalculé au taux spécial (art. 27 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-040",
+   "champ": "Base, taux & facturation — Valeur en nature — échange",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Comment la contre-prestation est-elle déterminée lorsqu'elle prend la forme d'un échange, d'un bon ou d'une prestation appréciable en argent ?",
+   "options": [
+    "L'opération est hors du champ de la TVA, faute de flux d'argent",
+    "Seule la partie éventuellement payée en espèces est imposable",
+    "La base est nulle tant qu'aucun paiement en monnaie n'intervient",
+    "La contre-prestation correspond à la valeur de la prestation appréciable en argent reçue en échange"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une prestation appréciable en argent reste dans le champ de la TVA (art. 24 al. 1 LTVA).",
+    "Faux : la base couvre la valeur de la prestation en nature, pas seulement l'espèce (art. 24 al. 1 LTVA).",
+    "Faux : la base correspond à la valeur reçue en nature, elle n'est pas nulle (art. 24 al. 1 LTVA).",
+    "Exact : la contre-prestation correspond à la valeur de la prestation appréciable en argent reçue en échange (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-041",
+   "champ": "Base, taux & facturation — Plateformes numériques — attribution",
+   "memento": "art. 24 al. 5bis LTVA",
+   "question": "Lorsqu'un exploitant de plateforme est réputé fournisseur d'une livraison qu'il a facilitée (art. 20a LTVA), à quoi correspond la base de calcul de sa TVA ?",
+   "options": [
+    "À la valeur communiquée à l'acheteur du bien livré",
+    "À la commission que la plateforme prélève sur la vente",
+    "À la marge entre le prix d'achat et le prix de revente",
+    "À zéro, la plateforme n'étant qu'un intermédiaire"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la base correspond à la valeur communiquée à l'acheteur du bien livré (art. 24 al. 5bis LTVA).",
+    "Faux : la base n'est pas la seule commission prélevée par la plateforme (art. 24 al. 5bis LTVA).",
+    "Faux : ce n'est pas la marge achat-revente mais la valeur communiquée à l'acheteur (art. 24 al. 5bis LTVA).",
+    "Faux : la plateforme réputée fournisseur est imposée sur la valeur communiquée, non à zéro (art. 24 al. 5bis LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-042",
+   "champ": "Base, taux & facturation — Base de calcul — disposition applicable",
+   "memento": "art. 24 LTVA",
+   "question": "Quelle disposition règle la base de calcul de la TVA ?",
+   "options": [
+    "art. 25 LTVA",
+    "art. 24 LTVA",
+    "art. 18 LTVA",
+    "art. 26 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 25 fixe les taux, non la base de calcul (art. 24 LTVA).",
+    "Exact : l'art. 24 LTVA règle la base de calcul, la contre-prestation (art. 24 LTVA).",
+    "Faux : l'art. 18 définit l'objet de l'impôt, non la base (art. 24 LTVA).",
+    "Faux : l'art. 26 concerne la facture, non la base de calcul (art. 24 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-043",
+   "champ": "Base, taux & facturation — Taux — disposition applicable",
+   "memento": "art. 25 LTVA",
+   "question": "Quelle disposition fixe les trois taux de la TVA suisse ?",
+   "options": [
+    "art. 24 LTVA",
+    "art. 27 LTVA",
+    "art. 25 LTVA",
+    "art. 22 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 24 concerne la base, non les taux (art. 25 LTVA).",
+    "Faux : l'art. 27 traite de la mention inexacte, non des taux (art. 25 LTVA).",
+    "Exact : l'art. 25 LTVA fixe les trois taux (normal, réduit, spécial d'hébergement).",
+    "Faux : l'art. 22 concerne l'option, non les taux (art. 25 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-044",
+   "champ": "Base, taux & facturation — Facture — disposition applicable",
+   "memento": "art. 26 LTVA",
+   "question": "Quelle disposition énumère les mentions obligatoires d'une facture conforme à la TVA ?",
+   "options": [
+    "art. 27 LTVA",
+    "art. 3 let. k LTVA",
+    "art. 24 LTVA",
+    "art. 26 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 27 traite de la mention inexacte, non des mentions de facture (art. 26 LTVA).",
+    "Faux : l'art. 3 let. k définit la facture, il n'énumère pas les mentions obligatoires (art. 26 al. 2 LTVA).",
+    "Faux : l'art. 24 concerne la base, non les mentions de facture (art. 26 LTVA).",
+    "Exact : l'art. 26 al. 2 LTVA énumère les mentions obligatoires de la facture."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M3-045",
+   "champ": "Base, taux & facturation — Mention inexacte — disposition applicable",
+   "memento": "art. 27 LTVA",
+   "question": "Quelle disposition règle la situation de celui qui mentionne une TVA à tort ou à un taux trop élevé sur sa facture ?",
+   "options": [
+    "art. 27 LTVA",
+    "art. 26 LTVA",
+    "art. 25 LTVA",
+    "art. 41 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 27 LTVA règle la mention inexacte ou indue de l'impôt.",
+    "Faux : l'art. 26 concerne les mentions de facture, non la mention inexacte (art. 27 LTVA).",
+    "Faux : l'art. 25 fixe les taux, non la mention inexacte (art. 27 LTVA).",
+    "Faux : l'art. 41 vise la modification ultérieure de la dette (rabais, escomptes), non la mention inexacte (art. 27 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-046",
+   "champ": "Base, taux & facturation — Personnes étroitement liées — disposition applicable",
+   "memento": "art. 24 al. 2 LTVA",
+   "question": "Sur quelle disposition se fonde la règle selon laquelle une prestation à une personne étroitement liée est imposée à la valeur convenue entre tiers indépendants ?",
+   "options": [
+    "art. 24 al. 6 LTVA",
+    "art. 24 al. 2 LTVA",
+    "art. 24 al. 1 LTVA",
+    "art. 25 al. 2 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'al. 6 vise les éléments hors base, non les personnes étroitement liées (art. 24 al. 2 LTVA).",
+    "Exact : l'art. 24 al. 2 LTVA impose la valeur entre tiers indépendants pour les personnes étroitement liées.",
+    "Faux : l'al. 1 pose le principe de la contre-prestation effective ; les personnes liées relèvent de l'al. 2 (art. 24 al. 2 LTVA).",
+    "Faux : l'art. 25 al. 2 fixe le taux réduit, sans lien avec les personnes liées (art. 24 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-047",
+   "champ": "Base, taux & facturation — Conversion monnaie — disposition applicable",
+   "memento": "art. 45 OTVA",
+   "question": "Quelle disposition règle la conversion en francs suisses des contre-prestations facturées en monnaie étrangère ?",
+   "options": [
+    "art. 24 LTVA",
+    "art. 25 LTVA",
+    "art. 45 OTVA",
+    "art. 47 OTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 24 règle la base, non la conversion en monnaie étrangère (art. 45 OTVA).",
+    "Faux : l'art. 25 fixe les taux, non la conversion (art. 45 OTVA).",
+    "Exact : l'art. 45 OTVA règle la conversion en francs des contre-prestations en monnaie étrangère.",
+    "Faux : l'art. 47 OTVA vise les prestations au personnel, non la conversion de monnaie (art. 45 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-048",
+   "champ": "Base, taux & facturation — Escompte déductible vs commission carte",
+   "memento": "art. 41 al. 1 LTVA",
+   "question": "Laquelle de ces réductions peut être déduite de la base de calcul de la TVA ?",
+   "options": [
+    "La commission de 3 % retenue par l'émetteur de cartes de crédit",
+    "La commission versée à un intermédiaire tiers ayant apporté l'affaire",
+    "La valeur d'un véhicule repris en échange",
+    "L'escompte de 2 % réellement accordé au client pour paiement rapide"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la commission sur cartes ne se déduit pas de la base (rapport de prestations séparé) (art. 24 al. 1 LTVA).",
+    "Faux : la commission versée à un intermédiaire ne réduit pas la base (art. 24 al. 1 LTVA).",
+    "Faux : la valeur d'un véhicule repris en échange fait partie de la contre-prestation, non déductible (art. 24 al. 1 LTVA).",
+    "Exact : seuls les rabais et escomptes réellement accordés réduisent la base (art. 24 al. 1 et art. 41 al. 1 LTVA)."
+   ],
+   "piege": "Escompte déductible, pas la commission carte",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-049",
+   "champ": "Base, taux & facturation — Restauration vs denrée — piège de taux",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "Quelle affirmation sur le taux applicable aux denrées alimentaires est FAUSSE ?",
+   "options": [
+    "Les boissons alcoolisées bénéficient elles aussi du taux réduit de 2,6 %",
+    "Les denrées vendues à l'emporter relèvent en principe du taux réduit de 2,6 %",
+    "Les denrées remises dans le cadre d'une restauration sur place sont imposées au taux normal de 8,1 %",
+    "Les denrées mises à disposition dans un automate relèvent du taux réduit de 2,6 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : c'est l'affirmation FAUSSE ; les boissons alcoolisées relèvent du taux normal de 8,1 %, non du réduit (art. 25 al. 2 LTVA).",
+    "Faux : cette affirmation est exacte (denrées à l'emporter au taux réduit de 2,6 %), ce n'est pas la réponse recherchée (art. 25 al. 2 LTVA).",
+    "Faux : cette affirmation est exacte (restauration sur place au taux normal de 8,1 %), ce n'est pas la réponse recherchée (art. 25 al. 3 LTVA).",
+    "Faux : cette affirmation est exacte (denrées en automate au taux réduit de 2,6 %), ce n'est pas la réponse recherchée (art. 25 al. 3 LTVA)."
+   ],
+   "piege": "Boissons alcoolisées = taux normal, jamais réduit",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-050",
+   "champ": "Base, taux & facturation — Hébergement — piège de la ligne séparée",
+   "memento": "art. 25 al. 4 LTVA",
+   "question": "Un hôtel facture la nuitée à 3,8 % et le petit-déjeuner sur une ligne séparée. Quelle affirmation est correcte ?",
+   "options": [
+    "Le petit-déjeuner facturé séparément bascule au taux normal de 8,1 %",
+    "Le petit-déjeuner reste soumis au taux spécial de 3,8 %, même facturé séparément",
+    "Le petit-déjeuner devient exclu du champ de l'impôt",
+    "Le petit-déjeuner passe au taux réduit de 2,6 %, comme une denrée alimentaire"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la ligne séparée ne fait pas basculer le petit-déjeuner au taux normal (art. 25 al. 4 LTVA).",
+    "Exact : logement avec petit-déjeuner au taux spécial de 3,8 %, même facturé séparément (art. 25 al. 4 LTVA).",
+    "Faux : le petit-déjeuner est imposé au taux spécial, non exclu du champ (art. 25 al. 4 LTVA).",
+    "Faux : le petit-déjeuner d'hébergement suit le taux spécial, non le taux réduit d'une denrée (art. 25 al. 4 LTVA)."
+   ],
+   "piege": "Ligne séparée ne change pas le taux d'hébergement",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-051",
+   "champ": "Base, taux & facturation — Mention erronée du taux — correction",
+   "memento": "art. 27 LTVA",
+   "question": "Hôtel SA (Grindelwald/BE), qui décompte selon la méthode des taux de la dette fiscale nette, facture une nuitée en indiquant le taux normal de 8,1 %. Quelle affirmation est correcte ?",
+   "options": [
+    "La mention est correcte du fait de la méthode des taux de la dette fiscale nette",
+    "La mention n'est pas correcte ; Hôtel SA est redevable de la TVA mentionnée et une correction est exclue",
+    "La mention n'est pas correcte ; Hôtel SA est redevable de la TVA indiquée, sous réserve d'une correction",
+    "La mention est correcte, car l'hôtel peut choisir librement son taux"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la méthode des taux de la dette fiscale nette ne rend pas la mention correcte (art. 27 LTVA).",
+    "Faux : une correction reste réservée, elle n'est pas exclue (art. 27 al. 4 LTVA).",
+    "Exact : TVA facturée = TVA due ; Hôtel SA est redevable du montant indiqué, sous réserve d'une correction (art. 27 al. 4 LTVA).",
+    "Faux : l'hôtel ne choisit pas librement son taux ; le taux d'hébergement s'applique (art. 27 LTVA)."
+   ],
+   "piege": "TVA facturée = TVA due, mais correction réservée",
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M3-052",
+   "champ": "Base, taux & facturation — Fonds de prévoyance — piège personnes liées",
+   "memento": "art. 3 let. h LTVA",
+   "question": "Une entreprise fournit une prestation à prix de faveur à l'institution de prévoyance (fonds de pension) de son personnel. Quelle règle de base de calcul s'applique ?",
+   "options": [
+    "La valeur entre tiers indépendants, car le fonds de pension est une personne étroitement liée",
+    "Aucune base, l'opération étant hors du champ de la TVA",
+    "La valeur nominale des cotisations de prévoyance versées",
+    "La contre-prestation effectivement reçue, le fonds de pension n'étant pas une personne étroitement liée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le fonds de pension n'est PAS une personne étroitement liée, la valeur entre tiers ne s'applique pas (art. 3 let. h ch. 2 LTVA).",
+    "Faux : l'opération reste dans le champ de la TVA (art. 24 al. 1 LTVA).",
+    "Faux : la base n'est pas la valeur des cotisations mais la contre-prestation reçue (art. 24 al. 1 LTVA).",
+    "Exact : le fonds de pension n'étant pas une personne étroitement liée, la base est la contre-prestation effectivement reçue (art. 3 let. h ch. 2 et art. 24 al. 1 LTVA)."
+   ],
+   "piege": "Fonds de pension n'est pas une personne étroitement liée",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-053",
+   "champ": "Base, taux & facturation — Revue électronique vs base de données — piège",
+   "memento": "art. 25 al. 2 LTVA",
+   "question": "Une maison d'édition vend, d'une part, des revues spécialisées électroniques et, d'autre part, des abonnements d'accès à une base de données. Quelle affirmation sur les taux est correcte ?",
+   "options": [
+    "Les revues électroniques relèvent du taux réduit de 2,6 %, mais les abonnements à la base de données du taux normal de 8,1 %",
+    "Les deux relèvent du taux réduit de 2,6 %, car diffusés électroniquement",
+    "Les deux relèvent du taux normal de 8,1 %",
+    "Les revues électroniques relèvent du taux normal, mais les abonnements du taux réduit"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : revues électroniques au taux réduit de 2,6 %, abonnements à la base de données au taux normal de 8,1 % (art. 25 al. 1 et 2 LTVA).",
+    "Faux : la base de données reste au taux normal de 8,1 %, malgré la diffusion électronique (art. 25 al. 1 LTVA).",
+    "Faux : les revues électroniques bénéficient du taux réduit de 2,6 % (art. 25 al. 2 LTVA).",
+    "Faux : c'est l'inverse ; revues au taux réduit, base de données au taux normal (art. 25 al. 1 et 2 LTVA)."
+   ],
+   "piege": "Support électronique ne suffit pas pour le taux réduit",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M3-054",
+   "champ": "Base, taux & facturation — Éléments hors base — droits de mutation",
+   "memento": "art. 24 al. 6 let. a LTVA",
+   "question": "Lequel de ces éléments doit être exclu de la base de calcul de la TVA ?",
+   "options": [
+    "Les frais de transport refacturés au client",
+    "Les droits de mutation et les impôts sur les billets d'entrée",
+    "Les suppléments pour paiements partiels",
+    "La redevance sur le trafic des poids lourds répercutée"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les frais de transport refacturés font partie de la base (art. 24 al. 1 LTVA).",
+    "Exact : droits de mutation et impôts sur les billets d'entrée sont exclus de la base (art. 24 al. 6 let. a LTVA).",
+    "Faux : les suppléments pour paiements partiels font partie de la base (art. 24 al. 1 LTVA).",
+    "Faux : la RPLP répercutée fait partie de la contre-prestation (art. 24 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M3-055",
+   "champ": "Base, taux & facturation — Contre-prestation effective vs facturée",
+   "memento": "art. 24 al. 1 LTVA",
+   "question": "Un fournisseur a facturé 10 000 CHF mais, après un rabais consenti a posteriori, n'encaisse finalement que 9 000 CHF. Sur quel montant la TVA est-elle finalement due ?",
+   "options": [
+    "CHF 10 000, soit le montant initialement facturé",
+    "CHF 19 000, soit la somme des deux montants",
+    "CHF 9 000, soit la contre-prestation effectivement reçue après correction",
+    "CHF 1 000, soit le seul rabais accordé"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 10 000 est le montant initialement facturé, non la contre-prestation finale reçue (art. 24 al. 1 LTVA).",
+    "Faux : on n'additionne pas les deux montants (art. 24 al. 1 LTVA).",
+    "Exact : base = contre-prestation effectivement reçue après rabais, soit CHF 9 000 (art. 24 al. 1 et art. 41 al. 1 LTVA).",
+    "Faux : la base n'est pas le seul rabais mais le montant effectivement reçu (art. 41 al. 1 LTVA)."
+   ],
+   "piege": "Contre-prestation effective, pas le montant facturé",
+   "difficulte": 2,
+   "source": "generated"
+  }
+ ]
+}

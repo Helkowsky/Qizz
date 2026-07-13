@@ -1,0 +1,1696 @@
+{
+ "cours": "tva",
+ "module": "M8",
+ "titre": "Procédure, méthodes & décompte",
+ "questions": [
+  {
+   "id": "M8-001",
+   "champ": "Méthodes & modes de décompte — Créance fiscale",
+   "memento": "art. 36 LTVA",
+   "question": "Comment se définit la créance fiscale d'une période selon la méthode effective ?",
+   "options": [
+    "L'impôt grevant les opérations réalisées sur le territoire suisse uniquement, sans autre correction",
+    "L'impôt sur les opérations en Suisse, l'impôt sur les acquisitions et l'impôt sur les importations en report, moins l'impôt préalable déductible",
+    "Le total du chiffre d'affaires imposable multiplié par le taux légal, sans déduction",
+    "L'impôt préalable déductible moins l'impôt sur les opérations réalisées en Suisse"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la définition omet l'impôt sur les acquisitions et sur les importations, ainsi que la déduction de l'impôt préalable (art. 36 al. 2 LTVA).",
+    "Exact : la créance = impôt sur les opérations en Suisse + acquisitions + importations reportées, moins l'impôt préalable déductible (art. 36 al. 2 LTVA).",
+    "Faux : on ne multiplie pas le CA par le taux sans déduction ; l'impôt préalable est toujours déductible en méthode effective (art. 36 al. 2 LTVA).",
+    "Faux : le sens de la soustraction est inversé — c'est l'impôt sur les opérations moins l'impôt préalable, pas l'inverse (art. 36 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-002",
+   "champ": "Méthodes & modes de décompte — Période fiscale",
+   "memento": "art. 34 LTVA",
+   "question": "À quoi correspond en principe la période fiscale en matière de TVA ?",
+   "options": [
+    "À l'année civile",
+    "Au trimestre civil",
+    "Au semestre pour les assujettis TDFN",
+    "À l'exercice comptable, même lorsqu'il diffère de l'année civile"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la période fiscale correspond en principe à l'année civile (art. 34 al. 2 LTVA).",
+    "Faux : le trimestre est la période de décompte, non la période fiscale (art. 35 vs 34 LTVA).",
+    "Faux : le semestre est une périodicité de décompte propre à la TDFN, pas la période fiscale (art. 35 al. 1 let. b LTVA).",
+    "Faux : la période fiscale suit l'année civile, non l'exercice comptable divergent (art. 34 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-003",
+   "champ": "Méthodes & modes de décompte — Méthode vs mode",
+   "memento": "art. 36-37 LTVA",
+   "question": "Que désigne la « méthode de décompte » en matière de TVA ?",
+   "options": [
+    "Le moment où l'opération est déclarée (à la facturation ou à l'encaissement)",
+    "La périodicité de remise du décompte (trimestre, semestre, mois)",
+    "La manière de calculer le montant dû : effective, taux de la dette fiscale nette ou taux forfaitaires",
+    "Le choix entre imposition de groupe et imposition individuelle"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le moment de déclaration décrit le MODE de décompte, non la méthode (art. 39 LTVA).",
+    "Faux : la périodicité de remise est la période de décompte, non la méthode (art. 35 LTVA).",
+    "Exact : la méthode répond à « comment je calcule » — effective, TDFN ou forfaitaires (art. 36-37 LTVA).",
+    "Faux : le choix groupe/individuel relève de l'imposition de groupe (art. 13 LTVA), pas de la méthode."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-004",
+   "champ": "Méthodes & modes de décompte — Méthode vs mode",
+   "memento": "art. 39 LTVA",
+   "question": "Que désigne le « mode de décompte » ?",
+   "options": [
+    "Le moment auquel l'opération est déclarée : d'après les contre-prestations convenues ou reçues",
+    "Le mode de calcul de l'impôt préalable réellement supporté",
+    "Le taux applicable à la branche d'activité",
+    "La fréquence trimestrielle ou semestrielle de dépôt du décompte"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le mode répond à « quand je déclare » — contre-prestations convenues (facturation) ou reçues (encaissement) (art. 39 LTVA).",
+    "Faux : le calcul de l'impôt préalable réel relève de la MÉTHODE effective, pas du mode (art. 36 LTVA).",
+    "Faux : le taux de branche caractérise la méthode TDFN/forfaitaire, non le mode (art. 37 LTVA).",
+    "Faux : la fréquence de dépôt est la période de décompte, non le mode (art. 35 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-005",
+   "champ": "Méthodes & modes de décompte — Méthode effective",
+   "memento": "art. 36 LTVA",
+   "question": "Laquelle de ces affirmations décrit correctement la méthode de décompte effective ?",
+   "options": [
+    "Elle est réservée aux entreprises dont le chiffre d'affaires dépasse 5 024 000 CHF",
+    "Elle compense l'impôt préalable de façon forfaitaire par un taux de branche",
+    "Elle n'est ouverte qu'aux collectivités publiques",
+    "Elle est la méthode par défaut et déduit l'impôt préalable réellement supporté"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la méthode effective n'exige aucun plafond de CA ; 5 024 000 CHF est un seuil de la TDFN (art. 37 al. 1 LTVA).",
+    "Faux : la compensation forfaitaire par taux de branche caractérise la TDFN, non l'effective (art. 37 LTVA).",
+    "Faux : les collectivités publiques relèvent des taux forfaitaires ; l'effective est ouverte à tous (art. 36 LTVA).",
+    "Exact : la méthode effective est la méthode par défaut ouverte à tous, avec déduction de l'impôt préalable réel (art. 36 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-006",
+   "champ": "Méthodes & modes de décompte — Méthode TDFN",
+   "memento": "art. 37 LTVA",
+   "question": "En quoi consiste la méthode des taux de la dette fiscale nette (TDFN) ?",
+   "options": [
+    "À déduire l'impôt préalable facture par facture, comme en méthode effective",
+    "À n'appliquer aucun impôt sur le chiffre d'affaires",
+    "À appliquer un taux réduit de branche au chiffre d'affaires imposable encaissé (TVA incluse), l'impôt préalable étant compensé forfaitairement",
+    "À exonérer totalement les petites entreprises de la TVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la déduction facture par facture est le propre de la méthode effective, pas de la TDFN (art. 36 LTVA).",
+    "Faux : la TDFN impose bien le chiffre d'affaires ; elle ne l'exonère pas (art. 37 LTVA).",
+    "Exact : la TDFN applique un taux de branche au CA brut encaissé (TVA incluse), l'impôt préalable étant compensé forfaitairement (art. 37 al. 1-3 LTVA).",
+    "Faux : la TDFN n'exonère pas les petites entreprises ; elle simplifie le calcul de l'impôt (art. 37 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-007",
+   "champ": "Méthodes & modes de décompte — Taux forfaitaires",
+   "memento": "art. 37 al. 5 LTVA",
+   "question": "À qui la méthode des taux forfaitaires est-elle réservée ?",
+   "options": [
+    "Aux collectivités publiques et institutions analogues, indépendamment de leur chiffre d'affaires",
+    "À toute entreprise dont le chiffre d'affaires est inférieur à 5 024 000 CHF",
+    "Aux seules entreprises exportatrices",
+    "Aux groupes d'imposition TVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les taux forfaitaires sont réservés aux collectivités publiques et institutions analogues, sans condition de CA (art. 37 al. 5 LTVA).",
+    "Faux : le seuil de 5 024 000 CHF vise la TDFN, non les taux forfaitaires (art. 37 al. 1 LTVA).",
+    "Faux : les taux forfaitaires ne sont pas réservés aux exportateurs mais aux collectivités publiques (art. 37 al. 5 LTVA).",
+    "Faux : un groupe TVA décompte en méthode effective, jamais en forfaitaire (art. 13 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-008",
+   "champ": "Méthodes & modes de décompte — Contre-prestations convenues",
+   "memento": "art. 39-40 LTVA",
+   "question": "Selon le mode des contre-prestations convenues, quand naît la dette d'impôt ?",
+   "options": [
+    "Au moment de l'encaissement du paiement du client",
+    "À la fin de la période fiscale",
+    "À la réception de la facture du fournisseur",
+    "Au moment de la facturation de la prestation"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'encaissement caractérise le mode des contre-prestations reçues, non convenues (art. 40 al. 2 LTVA).",
+    "Faux : la dette ne naît pas en fin de période mais à la facturation (art. 40 al. 1 LTVA).",
+    "Faux : la réception de la facture du fournisseur ouvre le droit à déduction, elle ne fait pas naître la dette d'impôt (art. 40 al. 1 LTVA).",
+    "Exact : dans le mode des contre-prestations convenues, la dette naît à la facturation (art. 39 al. 1 et 40 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-009",
+   "champ": "Méthodes & modes de décompte — Seuils TDFN cumulatifs",
+   "memento": "art. 37 al. 1 LTVA",
+   "question": "Quelles conditions doivent être remplies pour décompter selon la méthode TDFN ?",
+   "options": [
+    "Un chiffre d'affaires imposable ≤ 5 024 000 CHF OU un impôt au taux TDFN ≤ 108 000 CHF",
+    "Un chiffre d'affaires imposable ≤ 5 005 000 CHF ET un impôt ≤ 103 000 CHF",
+    "Un chiffre d'affaires imposable ≤ 5 024 000 CHF ET un impôt au taux TDFN ≤ 108 000 CHF, cumulativement",
+    "Uniquement un chiffre d'affaires imposable ≤ 5 024 000 CHF"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les conditions sont cumulatives (ET), pas alternatives (OU) — franchir l'un des seuils bascule en effective (art. 37 al. 1 LTVA).",
+    "Faux : les valeurs 5 005 000 / 103 000 sont obsolètes (pré-2025) ; les seuils actuels sont 5 024 000 et 108 000 (art. 37 al. 1 LTVA).",
+    "Exact : CA imposable ≤ 5 024 000 CHF ET impôt au taux TDFN ≤ 108 000 CHF, cumulativement (art. 37 al. 1 LTVA).",
+    "Faux : la seule condition de CA est insuffisante ; le plafond d'impôt de 108 000 CHF s'ajoute (art. 37 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-010",
+   "champ": "Méthodes & modes de décompte — Seuil décompte annuel",
+   "memento": "art. 35a LTVA",
+   "question": "À partir de quel plafond de chiffre d'affaires imposable annuel une entreprise peut-elle demander le décompte annuel avec acomptes ?",
+   "options": [
+    "Chiffre d'affaires imposable ≤ 5 005 000 CHF",
+    "Chiffre d'affaires imposable ≤ 5 024 000 CHF",
+    "Chiffre d'affaires imposable ≤ 108 000 CHF",
+    "Chiffre d'affaires imposable ≤ 10 000 000 CHF"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le décompte annuel avec acomptes est ouvert si le CA imposable ne dépasse pas 5 005 000 CHF (art. 35a LTVA).",
+    "Faux : 5 024 000 CHF est le seuil de la TDFN, non du décompte annuel (art. 37 al. 1 LTVA).",
+    "Faux : 108 000 CHF est un plafond d'impôt de la TDFN, non un seuil de CA du décompte annuel (art. 37 al. 1 LTVA).",
+    "Faux : le seuil du décompte annuel est 5 005 000 CHF, non 10 000 000 CHF (art. 35a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-011",
+   "champ": "Méthodes & modes de décompte — Périodicité de décompte",
+   "memento": "art. 35 al. 1 let. b LTVA",
+   "question": "Quelle est la périodicité de décompte de principe pour un assujetti en méthode TDFN ?",
+   "options": [
+    "Mensuelle",
+    "Trimestrielle",
+    "Semestrielle",
+    "Annuelle, de façon obligatoire"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le décompte mensuel n'est possible que sur autorisation, il n'est pas le principe en TDFN (art. 35 al. 1 let. c LTVA).",
+    "Faux : le trimestre est le principe en méthode effective et forfaitaire, pas en TDFN (art. 35 al. 1 let. a LTVA).",
+    "Exact : la TDFN emporte un décompte semestriel (art. 35 al. 1 let. b LTVA).",
+    "Faux : l'annuel n'est pas obligatoire ; il est optionnel sur demande (art. 35a LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-012",
+   "champ": "Méthodes & modes de décompte — Nombre de taux TDFN",
+   "memento": "art. 86 OTVA",
+   "question": "Depuis 2025, combien de taux de la dette fiscale nette différents une entreprise peut-elle se voir attribuer ?",
+   "options": [
+    "Un seul taux, sans exception",
+    "Deux taux au maximum, comme auparavant",
+    "Un nombre non limité de taux",
+    "Trois taux au maximum"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : plusieurs taux TDFN peuvent coexister ; ce n'est pas un taux unique (art. 86 OTVA).",
+    "Faux : la limite de deux taux valait jusqu'à fin 2024, elle a été supprimée depuis 2025 (art. 86 OTVA).",
+    "Exact : depuis 2025, le nombre de taux TDFN autorisés n'est plus limité (art. 86 OTVA).",
+    "Faux : il n'y a plus de plafond depuis 2025, donc pas de maximum de trois (art. 86 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-013",
+   "champ": "Méthodes & modes de décompte — Taux légal facturé vs taux TDFN versé",
+   "memento": "art. 37 al. 2 LTVA",
+   "question": "Une entreprise décomptant en TDFN au taux de 5,3 % fournit une prestation imposable au taux normal. Quel taux doit-elle indiquer sur sa facture ?",
+   "options": [
+    "5,3 %, le taux TDFN qui lui est attribué",
+    "La moyenne des deux, soit 6,7 %",
+    "Aucun taux, la TVA n'étant pas mentionnée en TDFN",
+    "8,1 %, le taux légal"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 5,3 % est le taux TDFN versé à l'AFC, jamais le taux indiqué sur la facture (art. 37 al. 2 LTVA).",
+    "Faux : on n'indique pas une moyenne ; la facture porte le taux légal (art. 37 al. 2 LTVA).",
+    "Faux : la TVA est bien mentionnée au taux légal sur la facture, même en TDFN (art. 37 al. 2 LTVA).",
+    "Exact : la facture porte toujours le taux légal (ici 8,1 %) ; seul le versement se calcule au taux TDFN (art. 37 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-014",
+   "champ": "Méthodes & modes de décompte — Durée d'engagement TDFN",
+   "memento": "art. 37 al. 4 LTVA",
+   "question": "Une fois la méthode TDFN adoptée, sous quelles conditions de durée peut-on revenir à la méthode effective ?",
+   "options": [
+    "À tout moment, sans délai",
+    "Après une période fiscale seulement",
+    "La TDFN engage pour au moins une période fiscale, et le retour à l'effective n'est possible qu'après trois ans au moins",
+    "Jamais : le choix de la TDFN est définitif"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la TDFN engage au moins une période fiscale ; on ne revient pas sans délai (art. 37 al. 4 LTVA).",
+    "Faux : le retour à l'effective exige au moins trois ans, pas une seule période (art. 37 al. 4 LTVA).",
+    "Exact : engagement d'au moins une période fiscale, retour à l'effective possible seulement après trois ans (art. 37 al. 4 LTVA).",
+    "Faux : le choix de la TDFN n'est pas définitif ; le retour est possible après trois ans (art. 37 al. 4 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-015",
+   "champ": "Méthodes & modes de décompte — Calcul TDFN",
+   "memento": "art. 37 al. 1-2 LTVA",
+   "question": "Une architecte en TDFN (taux 6,2 %) encaisse au semestre 216 200 CHF, TVA de 8,1 % comprise. Quelle TVA doit-elle déclarer à l'AFC ?",
+   "options": [
+    "17 512,20 CHF (216 200 × 8,1 %)",
+    "13 404,40 CHF (216 200 × 6,2 %)",
+    "12 400,00 CHF (200 000 × 6,2 %)",
+    "108 000,00 CHF"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : on n'applique pas le taux légal 8,1 % au versement en TDFN, mais le taux de branche (art. 37 al. 1-2 LTVA).",
+    "Exact : créance = contre-prestation brute (TVA incluse) × taux TDFN : 216 200 × 6,2 % = 13 404,40 CHF (art. 37 al. 1-2 LTVA).",
+    "Faux : l'assiette est le montant brut encaissé (216 200), non un montant net de TVA (200 000) (art. 37 al. 1-2 LTVA).",
+    "Faux : 108 000 CHF est un seuil d'accès à la TDFN, non le montant d'impôt dû (art. 37 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-016",
+   "champ": "Méthodes & modes de décompte — Acomptes du décompte annuel",
+   "memento": "art. 35a LTVA",
+   "question": "En cas de décompte annuel, combien d'acomptes verse un assujetti selon sa méthode ?",
+   "options": [
+    "Trois acomptes en méthode effective ou taux forfaitaires, un seul acompte en TDFN",
+    "Un acompte unique dans tous les cas",
+    "Quatre acomptes trimestriels dans tous les cas",
+    "Trois acomptes en TDFN, un seul en méthode effective"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en décompte annuel, trois acomptes en effective/forfaitaire et un seul acompte en TDFN (art. 35a LTVA).",
+    "Faux : l'acompte unique ne vaut qu'en TDFN, pas dans tous les cas (art. 35a LTVA).",
+    "Faux : le décompte annuel ne comporte pas quatre acomptes trimestriels (art. 35a LTVA).",
+    "Faux : le nombre est inversé — trois acomptes en effective, un seul en TDFN (art. 35a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-017",
+   "champ": "Méthodes & modes de décompte — Base légale — naissance de la créance",
+   "memento": "art. 40 LTVA",
+   "question": "Quelle disposition règle la naissance de la créance fiscale et de la créance d'impôt préalable ?",
+   "options": [
+    "art. 42 LTVA",
+    "art. 40 LTVA",
+    "art. 34 LTVA",
+    "art. 37 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 42 LTVA vise la prescription du droit de taxation, non la naissance de la créance.",
+    "Exact : l'art. 40 LTVA règle la naissance de la créance fiscale et du droit à déduction (facturation/réception ou encaissement/paiement).",
+    "Faux : l'art. 34 LTVA fixe la période fiscale, pas la naissance de la créance.",
+    "Faux : l'art. 37 LTVA vise les méthodes simplifiées, non la naissance de la créance."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-018",
+   "champ": "Méthodes & modes de décompte — Base légale — prescription",
+   "memento": "art. 42 et 91 LTVA",
+   "question": "Quels articles règlent respectivement la prescription du droit de taxation et celle du droit d'exiger le paiement de l'impôt ?",
+   "options": [
+    "art. 42 LTVA (taxation) et art. 91 LTVA (paiement)",
+    "art. 40 LTVA (taxation) et art. 42 LTVA (paiement)",
+    "art. 91 LTVA (taxation) et art. 42 LTVA (paiement)",
+    "art. 35 LTVA (taxation) et art. 86 LTVA (paiement)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 42 LTVA pour la prescription du droit de taxation, art. 91 LTVA pour celle du droit d'exiger le paiement.",
+    "Faux : l'art. 40 vise la naissance de la créance et l'art. 42 la taxation, non le paiement (art. 42 et 91 LTVA).",
+    "Faux : les deux articles sont intervertis — 42 = taxation, 91 = paiement (art. 42 et 91 LTVA).",
+    "Faux : l'art. 35 vise la période de décompte et l'art. 86 le paiement, non la prescription (art. 42 et 91 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-019",
+   "champ": "Méthodes & modes de décompte — Base légale — période de décompte",
+   "memento": "art. 35 et 35a LTVA",
+   "question": "Quelle disposition fixe la période de décompte (trimestre, semestre, mois), et quelle disposition introduit le décompte annuel ?",
+   "options": [
+    "art. 34 LTVA et art. 35 LTVA",
+    "art. 36 LTVA et art. 37 LTVA",
+    "art. 39 LTVA et art. 40 LTVA",
+    "art. 35 LTVA (période de décompte) et art. 35a LTVA (décompte annuel)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 34 vise la période fiscale, non la période de décompte (art. 35 LTVA).",
+    "Faux : les art. 36-37 visent les méthodes, non la période de décompte (art. 35 LTVA).",
+    "Faux : les art. 39-40 visent le mode et la naissance de la créance, non la période de décompte (art. 35 LTVA).",
+    "Exact : l'art. 35 LTVA fixe la période de décompte et l'art. 35a LTVA introduit le décompte annuel."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-020",
+   "champ": "Méthodes & modes de décompte — Base légale — mode de décompte",
+   "memento": "art. 39 LTVA",
+   "question": "Quelle disposition régit le mode de décompte (contre-prestations convenues ou reçues) ?",
+   "options": [
+    "art. 36 LTVA",
+    "art. 37 LTVA",
+    "art. 39 LTVA",
+    "art. 42 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 36 vise la méthode effective, non le mode de décompte (art. 39 LTVA).",
+    "Faux : l'art. 37 vise les méthodes simplifiées, non le mode (art. 39 LTVA).",
+    "Exact : l'art. 39 LTVA régit le mode de décompte (contre-prestations convenues ou reçues).",
+    "Faux : l'art. 42 vise la prescription, non le mode de décompte (art. 39 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-021",
+   "champ": "Méthodes & modes de décompte — Conditions d'accès à la TDFN",
+   "memento": "art. 37 al. 1 LTVA",
+   "question": "Laquelle de ces entreprises peut, a priori, opter pour la méthode TDFN ?",
+   "options": [
+    "Une PME dont le chiffre d'affaires imposable est de 4 000 000 CHF et l'impôt au taux TDFN de 90 000 CHF",
+    "Une entreprise dont le chiffre d'affaires imposable est de 6 000 000 CHF",
+    "Une entreprise dont l'impôt au taux TDFN atteint 120 000 CHF",
+    "Un groupe TVA constitué de trois sociétés"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : CA 4 mio ≤ 5 024 000 CHF et impôt 90 000 ≤ 108 000 CHF : les deux seuils cumulatifs sont respectés (art. 37 al. 1 LTVA).",
+    "Faux : un CA de 6 mio dépasse le plafond de 5 024 000 CHF (art. 37 al. 1 LTVA).",
+    "Faux : un impôt de 120 000 CHF dépasse le plafond de 108 000 CHF (art. 37 al. 1 LTVA).",
+    "Faux : un groupe TVA ne peut jamais décompter en TDFN (art. 13 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-022",
+   "champ": "Méthodes & modes de décompte — Groupe et méthode",
+   "memento": "art. 13 LTVA",
+   "question": "Une société membre d'un groupe d'imposition TVA souhaite décompter en TDFN. Est-ce possible ?",
+   "options": [
+    "Oui, si elle respecte les seuils de la TDFN",
+    "Non : l'imposition de groupe est incompatible avec la TDFN et les taux forfaitaires",
+    "Oui, mais uniquement pour l'impôt sur les acquisitions",
+    "Oui, à condition d'un décompte trimestriel"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : même en respectant les seuils, le membre d'un groupe ne peut pas décompter en TDFN (art. 13 LTVA).",
+    "Exact : l'imposition de groupe suppose la méthode effective ; elle exclut TDFN et forfaitaires (art. 13 LTVA).",
+    "Faux : l'incompatibilité est totale, elle ne se limite pas à l'impôt sur les acquisitions (art. 13 LTVA).",
+    "Faux : aucun décompte trimestriel ne rend la TDFN compatible avec le groupe (art. 13 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-023",
+   "champ": "Méthodes & modes de décompte — Indépendance méthode/mode",
+   "memento": "art. 39 LTVA",
+   "question": "Une entreprise en méthode effective peut-elle décompter selon les contre-prestations reçues ?",
+   "options": [
+    "Non, la méthode effective impose toujours les contre-prestations convenues",
+    "Non, les contre-prestations reçues sont réservées à la TDFN",
+    "Oui : méthode et mode sont des axes indépendants ; l'effective se combine avec les convenues ou, sur autorisation, les reçues",
+    "Oui, mais seulement si son chiffre d'affaires dépasse 5 024 000 CHF"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la méthode effective se combine aussi avec les contre-prestations reçues, sur autorisation (art. 39 al. 2 LTVA).",
+    "Faux : les contre-prestations reçues ne sont pas réservées à la TDFN ; elles s'appliquent aussi en effective (art. 39 al. 2 LTVA).",
+    "Exact : méthode et mode sont indépendants ; l'effective se combine avec les convenues ou, sur autorisation, les reçues (art. 39 LTVA).",
+    "Faux : le choix du mode ne dépend pas d'un seuil de CA de 5 024 000 CHF (art. 39 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-024",
+   "champ": "Méthodes & modes de décompte — Impôt sur les acquisitions en méthode simplifiée",
+   "memento": "art. 91 OTVA",
+   "question": "Un assujetti en TDFN acquiert des prestations soumises à l'impôt sur les acquisitions. Comment cet impôt est-il traité ?",
+   "options": [
+    "Il est couvert par le taux TDFN, donc rien à déclarer en plus",
+    "Il est déductible intégralement comme impôt préalable",
+    "Il est exonéré pour tous les décomptants TDFN",
+    "Il n'est pas couvert par la TDFN et doit être déclaré au taux légal"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'impôt sur les acquisitions n'est pas couvert par le taux TDFN ; il se déclare en plus (art. 91 OTVA).",
+    "Faux : en TDFN l'impôt préalable n'est pas déduit séparément, cet impôt n'ouvre pas de déduction (art. 91 OTVA).",
+    "Faux : l'impôt sur les acquisitions n'est pas exonéré pour les décomptants TDFN (art. 91 OTVA).",
+    "Exact : l'impôt sur les acquisitions échappe à la TDFN et se déclare au taux légal (art. 91 OTVA, à distinguer de l'art. 91 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-025",
+   "champ": "Méthodes & modes de décompte — Refacturation en TDFN",
+   "memento": "art. 37 LTVA (repr. art. 20 LTVA)",
+   "question": "Werbe SA (TDFN 6,2 %) refacture en son propre nom, sans marge, des prestations de tiers acquises sans TVA. Comment doit-elle traiter cette refacturation ?",
+   "options": [
+    "Comme un poste neutre, sans imposition, faute de valeur ajoutée",
+    "En imposant la prestation totale au taux de la dette fiscale nette de 6,2 %",
+    "En appliquant la méthode effective à ces seules opérations",
+    "En exonérant la refacturation au titre des exportations"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'absence de marge ne rend pas la refacturation neutre ; la prestation totale est imposée (art. 37 al. 1-2 LTVA).",
+    "Exact : refacturant en son propre nom, Werbe SA est réputée fournisseur et impose le tout à son taux TDFN 6,2 % (art. 37 al. 1-2 LTVA ; repr. art. 20 LTVA).",
+    "Faux : on ne bascule pas ces seules opérations en méthode effective ; le taux TDFN s'applique (art. 37 LTVA).",
+    "Faux : rien n'indique une exportation ; la refacturation reste imposable (art. 37 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-026",
+   "champ": "Méthodes & modes de décompte — Correction de l'impôt préalable en TDFN",
+   "memento": "art. 37 al. 1-3 LTVA",
+   "question": "Müller SA, qui décompte selon la méthode TDFN, réalise un chiffre d'affaires à la fois imposable et exclu du champ de l'impôt. Selon quelle méthode doit-elle corriger l'impôt préalable ?",
+   "options": [
+    "Selon la méthode effective",
+    "Selon la méthode forfaitaire",
+    "Selon la méthode des trois pots",
+    "Aucune correction de l'impôt préalable n'est nécessaire"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la méthode effective de correction (double affectation) ne s'applique pas en TDFN (art. 37 al. 1-3 LTVA).",
+    "Faux : il n'existe pas de correction forfaitaire à opérer en TDFN, l'impôt préalable étant déjà compensé dans le taux (art. 37 al. 3 LTVA).",
+    "Faux : la méthode des trois pots (correction effective) ne concerne pas la TDFN (art. 37 al. 1-3 LTVA).",
+    "Exact : en TDFN l'impôt préalable est compensé forfaitairement dans le taux, sans correction ni réduction, même avec un CA partiellement exclu (art. 37 al. 1-3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M8-027",
+   "champ": "Méthodes & modes de décompte — Test des seuils TDFN (Révision SA)",
+   "memento": "art. 37 al. 1 LTVA",
+   "question": "Révision SA réalise en 202X un chiffre d'affaires imposable de 1 500 000 CHF (hors TVA) ; le taux TDFN des activités de révision est de 6,2 %. La charge fiscale au taux TDFN ressort à 100 533 CHF. Peut-elle utiliser la TDFN en 202X ?",
+   "options": [
+    "Non, car 1 500 000 CHF dépasse le seuil de chiffre d'affaires",
+    "Non, car la charge de 100 533 CHF dépasse 108 000 CHF",
+    "Oui, mais uniquement en méthode effective",
+    "Oui : la charge de 100 533 CHF est ≤ 108 000 CHF et le chiffre d'affaires est ≤ 5 024 000 CHF"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 1 500 000 CHF est bien inférieur au seuil de 5 024 000 CHF (art. 37 al. 1 LTVA).",
+    "Faux : 100 533 CHF ne dépasse pas 108 000 CHF, la condition d'impôt est remplie (art. 37 al. 1 LTVA).",
+    "Faux : les deux seuils étant respectés, la TDFN est ouverte ; l'effective n'est pas imposée (art. 37 al. 1 LTVA).",
+    "Exact : CA 1 500 000 ≤ 5 024 000 CHF ET charge 100 533 ≤ 108 000 CHF : la TDFN est applicable (art. 37 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-028",
+   "champ": "Méthodes & modes de décompte — Dépassement de seuil et changement de méthode",
+   "memento": "art. 37 al. 1 LTVA ; art. 79 OTVA",
+   "question": "Révision SA (TDFN 6,2 %) budgète un chiffre d'affaires imposable de 1 800 000 CHF pour 202x+1, ce qui porte la charge au taux TDFN au-delà de 108 000 CHF. Quelle en est la conséquence ?",
+   "options": [
+    "Aucune : le chiffre d'affaires reste inférieur à 5 024 000 CHF, donc la TDFN demeure",
+    "Elle doit vérifier un changement de méthode de décompte et ses conséquences",
+    "Elle est radiée du registre des assujettis",
+    "Elle passe automatiquement au décompte annuel"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les seuils étant cumulatifs, franchir la limite d'impôt de 108 000 CHF suffit, même si le CA reste sous 5 024 000 CHF (art. 37 al. 1 LTVA).",
+    "Exact : le dépassement des 108 000 CHF impose de vérifier un changement de méthode vers l'effective et ses conséquences (art. 37 al. 1 LTVA ; art. 79 OTVA).",
+    "Faux : un simple dépassement de seuil n'entraîne pas de radiation du registre (art. 37 al. 1 LTVA).",
+    "Faux : le dépassement ne bascule pas automatiquement au décompte annuel, qui relève de l'art. 35a LTVA."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-029",
+   "champ": "Méthodes & modes de décompte — Mécanisme TDFN (flux A/B/AFC)",
+   "memento": "art. 37 al. 1-2 LTVA",
+   "question": "A, assujetti en TDFN au taux de 5,3 %, facture une prestation de 1 000 CHF + 8,1 % = 81 CHF de TVA, encaissant 1 081 CHF. Combien verse-t-il à l'AFC et que conserve-t-il ?",
+   "options": [
+    "Il verse 81,00 CHF et ne conserve rien",
+    "Il verse 57,30 CHF (1 081 × 5,3 %) et conserve 23,70 CHF",
+    "Il verse 23,70 CHF et conserve 57,30 CHF",
+    "Il verse 53,00 CHF (1 000 × 5,3 %) et conserve 28,00 CHF"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : A ne verse pas l'intégralité des 81 CHF ; il applique son taux TDFN et conserve une part (art. 37 al. 1-2 LTVA).",
+    "Exact : 1 081 × 5,3 % = 57,30 CHF versés à l'AFC ; A conserve 23,70 CHF en compensation forfaitaire de l'impôt préalable (art. 37 al. 1-2 LTVA).",
+    "Faux : les montants sont inversés — il verse 57,30 et conserve 23,70, non l'inverse (art. 37 al. 1-2 LTVA).",
+    "Faux : l'assiette est le montant brut encaissé (1 081), non le montant hors TVA (1 000) (art. 37 al. 1-2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-030",
+   "champ": "Méthodes & modes de décompte — Mécanisme des taux forfaitaires (cafétéria)",
+   "memento": "art. 37 al. 5 LTVA",
+   "question": "La cafétéria d'une administration cantonale, au taux forfaitaire de 5,3 %, réalise au 1er trimestre 2025 un chiffre d'affaires de 45 000 CHF (TVA comprise). Quel montant d'impôt déclare-t-elle ?",
+   "options": [
+    "3 645,00 CHF (45 000 × 8,1 %)",
+    "45 000,00 CHF",
+    "Aucun, les collectivités publiques étant exonérées",
+    "2 385,00 CHF (45 000 × 5,3 %)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : on n'applique pas le taux légal 8,1 % au versement forfaitaire, mais le taux de branche (art. 37 al. 5 LTVA).",
+    "Faux : 45 000 est le chiffre d'affaires, non l'impôt dû (art. 37 al. 5 LTVA).",
+    "Faux : les collectivités publiques ne sont pas exonérées ; elles décomptent au taux forfaitaire (art. 37 al. 5 LTVA).",
+    "Exact : impôt = CA brut × taux forfaitaire : 45 000 × 5,3 % = 2 385 CHF, déclarés au décompte trimestriel (art. 37 al. 5 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-031",
+   "champ": "Méthodes & modes de décompte — Passage TDFN vers effective (Cas 9)",
+   "memento": "art. 32 LTVA ; décompte ch. 410",
+   "question": "Instrumentenbauer Sàrl passe de la TDFN à la méthode effective au 1.1.2025 en raison de gros travaux immobiliers. Quel est l'effet sur l'impôt préalable des biens encore en stock ou amortissables ?",
+   "options": [
+    "Une prestation à soi-même : l'impôt préalable doit être restitué à l'AFC",
+    "Aucun effet : le changement de méthode est neutre",
+    "Un dégrèvement ultérieur de l'impôt préalable sur la valeur résiduelle, à reporter au ch. 410 du décompte",
+    "Une exonération totale des opérations futures"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la prestation à soi-même (art. 31 LTVA) joue en sens inverse, lors du passage vers la TDFN, non vers l'effective.",
+    "Faux : le changement de méthode n'est pas neutre : il ouvre un dégrèvement de l'impôt préalable (art. 32 LTVA).",
+    "Exact : le passage TDFN → effective ouvre un dégrèvement ultérieur de l'impôt préalable sur la valeur résiduelle, au ch. 410 du décompte (art. 32 LTVA).",
+    "Faux : il n'y a pas d'exonération des opérations futures, mais un dégrèvement de l'impôt préalable (art. 32 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-032",
+   "champ": "Méthodes & modes de décompte — Piège seuil TDFN vs décompte annuel",
+   "memento": "art. 37 al. 1 LTVA",
+   "question": "Un candidat retient « 5 005 000 CHF » comme seuil de chiffre d'affaires de la méthode TDFN. Où est l'erreur ?",
+   "options": [
+    "Il n'y a pas d'erreur : 5 005 000 CHF est bien le seuil TDFN",
+    "Le seuil TDFN est 5 024 000 CHF ; 5 005 000 CHF est le seuil du décompte annuel avec acomptes",
+    "Le seuil TDFN est 108 000 CHF, pas un montant de chiffre d'affaires",
+    "Le seuil TDFN est 250 000 CHF"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 5 005 000 CHF n'est pas le seuil TDFN mais celui du décompte annuel (art. 35a LTVA).",
+    "Exact : le seuil TDFN est 5 024 000 CHF (art. 37 al. 1 LTVA) ; 5 005 000 CHF ouvre le décompte annuel (art. 35a LTVA).",
+    "Faux : 108 000 CHF est bien un seuil TDFN, mais portant sur l'impôt, non sur le CA (art. 37 al. 1 LTVA).",
+    "Faux : 250 000 CHF n'est pas le seuil TDFN, qui est fixé à 5 024 000 CHF de CA (art. 37 al. 1 LTVA)."
+   ],
+   "piege": "Seuils voisins : 5 024 000 (TDFN) vs 5 005 000 (décompte annuel)",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-033",
+   "champ": "Méthodes & modes de décompte — Homonymie art. 79 LTVA / OTVA",
+   "memento": "art. 79 OTVA / art. 79 LTVA",
+   "question": "Dans le cas Révision SA, la source vise « l'art. 79 OTVA ». À quoi correspondent respectivement l'art. 79 OTVA et l'art. 79 LTVA ?",
+   "options": [
+    "art. 79 OTVA = changement de méthode de décompte TDFN ; art. 79 LTVA = taxation par voie d'estimation",
+    "art. 79 OTVA = taxation par estimation ; art. 79 LTVA = changement de méthode",
+    "Les deux visent la taxation par voie d'estimation",
+    "Les deux visent le changement de méthode de décompte"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : art. 79 OTVA = changement de méthode de décompte TDFN ; art. 79 LTVA = taxation par voie d'estimation.",
+    "Faux : les objets sont intervertis — l'estimation est à l'art. 79 LTVA, le changement de méthode à l'art. 79 OTVA.",
+    "Faux : seul l'art. 79 LTVA vise l'estimation ; l'art. 79 OTVA vise le changement de méthode.",
+    "Faux : seul l'art. 79 OTVA vise le changement de méthode ; l'art. 79 LTVA vise l'estimation."
+   ],
+   "piege": "Homonymie loi/ordonnance : art. 79 LTVA ≠ art. 79 OTVA",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-034",
+   "champ": "Méthodes & modes de décompte — Homonymie art. 86 LTVA / OTVA",
+   "memento": "art. 86 LTVA / art. 86 OTVA",
+   "question": "L'« art. 86 LTVA » et l'« art. 86 OTVA » portent sur des objets différents. Lesquels ?",
+   "options": [
+    "art. 86 LTVA = nombre de taux TDFN ; art. 86 OTVA = paiement de l'impôt",
+    "art. 86 LTVA = paiement de l'impôt ; art. 86 OTVA = nombre de taux de la dette fiscale nette autorisés",
+    "Les deux règlent le paiement de l'impôt",
+    "Les deux règlent le nombre de taux TDFN"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les objets sont intervertis — le paiement est à l'art. 86 LTVA, le nombre de taux à l'art. 86 OTVA.",
+    "Exact : art. 86 LTVA = paiement de l'impôt ; art. 86 OTVA = nombre de taux TDFN autorisés.",
+    "Faux : seul l'art. 86 LTVA règle le paiement ; l'art. 86 OTVA vise le nombre de taux TDFN.",
+    "Faux : seul l'art. 86 OTVA vise le nombre de taux TDFN ; l'art. 86 LTVA règle le paiement."
+   ],
+   "piege": "Homonymie loi/ordonnance : art. 86 LTVA ≠ art. 86 OTVA",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-035",
+   "champ": "Méthodes & modes de décompte — Facturation TDFN au taux légal",
+   "memento": "art. 37 al. 2 LTVA",
+   "question": "Un assujetti en TDFN facture ses prestations au taux légal (8,1 %) mais ne verse à l'AFC que l'impôt calculé au taux TDFN, conservant la différence. Comment qualifier ce procédé ?",
+   "options": [
+    "Une fraude fiscale à corriger immédiatement",
+    "Une erreur de facturation : il aurait dû indiquer son taux TDFN",
+    "Un cas de report du paiement de l'impôt",
+    "Le fonctionnement normal de la TDFN : taux légal sur la facture, versement au taux TDFN, différence conservée en compensation forfaitaire de l'impôt préalable"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ce n'est pas une fraude ; c'est le fonctionnement normal de la TDFN (art. 37 al. 2 LTVA).",
+    "Faux : indiquer le taux TDFN sur la facture serait au contraire incorrect ; le taux légal est obligatoire (art. 37 al. 2 LTVA).",
+    "Faux : il ne s'agit pas d'un report de paiement, mais du mécanisme de compensation forfaitaire de la TDFN (art. 37 al. 2 LTVA).",
+    "Exact : taux légal sur la facture, versement au taux TDFN, différence conservée en compensation forfaitaire de l'impôt préalable — fonctionnement normal (art. 37 al. 2 LTVA)."
+   ],
+   "piege": "Mécanisme normal de la TDFN, pas une fraude",
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M8-036",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — notion",
+   "memento": "art. 13 LTVA",
+   "question": "Qu'est-ce que l'imposition de groupe au sens de l'art. 13 LTVA ?",
+   "options": [
+    "Le regroupement volontaire d'entités juridiquement indépendantes ayant un siège ou un établissement stable en Suisse, placées sous une direction unique, en un seul sujet TVA",
+    "La consolidation comptable des comptes de groupe prévue par le CO, qui emporte automatiquement un décompte TVA unique",
+    "Un régime réservé aux sociétés étrangères disposant d'un établissement stable en Suisse",
+    "Le rattachement obligatoire de toute filiale détenue à plus de 50 % à sa société mère pour la TVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le groupe réunit des entités indépendantes ayant un siège ou établissement stable en Suisse, sous direction unique, en un seul sujet TVA (art. 13 LTVA).",
+    "Faux : la consolidation comptable du CO est distincte et n'emporte pas de décompte TVA unique (art. 13 LTVA).",
+    "Faux : le régime n'est pas réservé aux sociétés étrangères ; un siège en Suisse est requis (art. 13 LTVA).",
+    "Faux : l'imposition de groupe est volontaire, non un rattachement automatique dès 50 % de détention (art. 13 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-037",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — responsabilité solidaire",
+   "memento": "art. 15 LTVA",
+   "question": "Quelle est la portée de la responsabilité des membres d'un groupe TVA (art. 15 LTVA) ?",
+   "options": [
+    "Chaque membre ne répond que de la part de dette correspondant à son propre chiffre d'affaires",
+    "Seule la société faîtière (holding) répond des dettes TVA du groupe",
+    "La responsabilité est limitée au capital social de chaque membre",
+    "Les membres sont solidairement responsables des créances fiscales et des intérêts nés pendant leur appartenance au groupe"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la responsabilité n'est pas divisée par quote-part de CA, mais solidaire (art. 15 LTVA).",
+    "Faux : la responsabilité ne pèse pas sur la seule holding ; tous les membres sont tenus (art. 15 LTVA).",
+    "Faux : la responsabilité n'est pas limitée au capital social de chaque membre (art. 15 LTVA).",
+    "Exact : responsabilité solidaire de tous les membres pour les créances et intérêts nés pendant l'appartenance au groupe, amendes exclues (art. 15 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-038",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — périmètre (siège étranger)",
+   "memento": "art. 13 LTVA",
+   "question": "Une société dont le siège est à l'étranger, mais qui dispose d'un établissement stable en Suisse, peut-elle être intégrée dans un groupe TVA suisse ?",
+   "options": [
+    "Oui, l'établissement stable suisse suffit à l'intégrer pleinement",
+    "Oui, à condition qu'elle détienne plus de 50 % d'une société suisse",
+    "Non : l'intégration suppose un siège en Suisse ; l'établissement stable ne suffit pas",
+    "Non, sauf autorisation de l'autorité fiscale du pays du siège"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'établissement stable suisse ne suffit pas à intégrer une société au siège étranger (art. 13 LTVA).",
+    "Faux : la détention de plus de 50 % d'une société suisse ne pallie pas le siège étranger (art. 13 LTVA).",
+    "Exact : l'intégration suppose un siège en Suisse ; l'établissement stable ne suffit pas (art. 13 LTVA).",
+    "Faux : aucune autorisation de l'autorité étrangère ne permet l'intégration ; c'est le siège suisse qui est requis (art. 13 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-039",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — cas M Holding",
+   "memento": "art. 13 LTVA",
+   "question": "M Holding AG détient A SA et B SA (sièges en Suisse) ; A SA détient C SA, dont le siège est en France avec un établissement stable à Zoug. Concernant un groupe TVA suisse, quelle affirmation est correcte ?",
+   "options": [
+    "C SA doit obligatoirement être incluse, car elle a un établissement stable à Zoug",
+    "L'imposition de groupe est possible, mais C SA en est exclue en raison de son siège à l'étranger",
+    "Aucune imposition de groupe n'est possible tant que C SA figure dans la chaîne de participation",
+    "Seules les sociétés détenues à 100 % peuvent former le groupe, à l'exclusion de toute autre"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'établissement stable de Zoug n'oblige pas à inclure C SA, dont le siège est à l'étranger (art. 13 LTVA).",
+    "Exact : le groupe est possible, mais C SA est exclue car son siège est à l'étranger (art. 13 LTVA).",
+    "Faux : la présence de C SA dans la chaîne n'empêche pas le groupe ; elle en est simplement exclue (art. 13 LTVA).",
+    "Faux : la détention à 100 % n'est pas exigée pour former le groupe (art. 13 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-040",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — participation minoritaire",
+   "memento": "art. 13 LTVA",
+   "question": "Dans un groupe TVA, quelle est la conséquence d'une participation inférieure à 50 % dans une société (p. ex. E SA à 25 %) ?",
+   "options": [
+    "Elle exclut automatiquement la société du périmètre du groupe",
+    "Elle impose de fusionner juridiquement les sociétés au préalable",
+    "Elle est sans effet : toute société apparentée est intégrée d'office",
+    "Elle n'exclut pas la société a priori, mais l'existence d'une direction unique doit alors être prouvée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une participation < 50 % n'exclut pas automatiquement la société du groupe (art. 13 LTVA).",
+    "Faux : aucune fusion juridique préalable n'est requise (art. 13 LTVA).",
+    "Faux : l'intégration n'est pas d'office ; la direction unique doit être établie (art. 13 LTVA).",
+    "Exact : une participation < 50 % n'exclut pas a priori, mais la direction unique (contrôle) doit alors être prouvée (art. 13 LTVA)."
+   ],
+   "piege": "Participation < 50 % : prouver la direction unique",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-041",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — représentation",
+   "memento": "art. 67 al. 2 LTVA",
+   "question": "Quelle disposition prévoit que le groupe TVA est représenté par un membre ayant son siège ou son domicile en Suisse ?",
+   "options": [
+    "art. 67 al. 2 LTVA",
+    "art. 13 al. 1 LTVA",
+    "art. 15 LTVA",
+    "art. 66 al. 2 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le groupe est représenté par un membre (ou un tiers) domicilié ou ayant son siège en Suisse (art. 67 al. 2 LTVA).",
+    "Faux : l'art. 13 al. 1 pose le principe du groupe, non la représentation (art. 67 al. 2 LTVA).",
+    "Faux : l'art. 15 vise la responsabilité solidaire, non la représentation (art. 67 al. 2 LTVA).",
+    "Faux : l'art. 66 vise l'annonce d'assujettissement, non la représentation du groupe (art. 67 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-042",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — économie fiscale",
+   "memento": "art. 13 LTVA",
+   "question": "En quoi consiste l'économie fiscale recherchée par l'imposition de groupe ?",
+   "options": [
+    "Réduire le taux de TVA applicable aux ventes externes du groupe",
+    "Différer le paiement de la TVA jusqu'à la clôture annuelle",
+    "Neutraliser les flux internes entre membres, supprimant la taxe occulte lorsqu'un membre ne déduit que partiellement l'impôt préalable",
+    "Obtenir le remboursement intégral de l'impôt sur les acquisitions"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le groupe ne réduit pas le taux de TVA des ventes externes (art. 13 LTVA).",
+    "Faux : le groupe ne diffère pas le paiement jusqu'à la clôture annuelle (art. 13 LTVA).",
+    "Exact : le groupe neutralise les flux internes et supprime la taxe occulte quand un membre ne déduit l'impôt préalable que partiellement (art. 13 LTVA).",
+    "Faux : le groupe ne procure pas le remboursement intégral de l'impôt sur les acquisitions (art. 13 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-043",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — cas banque",
+   "memento": "art. 13 LTVA",
+   "question": "La banque Y SA, dont le taux de déduction de l'impôt préalable n'est que de 25 %, achète chaque année pour CHF 5 mio de prestations informatiques à sa filiale Z SA. Qu'apporte l'imposition de groupe ?",
+   "options": [
+    "Elle porte le taux de déduction de la banque à 100 % sur toutes ses charges externes",
+    "Elle neutralise la TVA sur les prestations internes Z SA → Y SA, qui subissaient sinon une taxe occulte",
+    "Elle dispense la banque de tout décompte de TVA",
+    "Elle transforme les prestations internes en exportations exonérées"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le groupe ne porte pas à 100 % le taux de déduction de la banque sur ses charges externes (art. 13 LTVA).",
+    "Exact : le groupe neutralise la TVA sur les prestations internes Z SA → Y SA, sinon frappées d'une taxe occulte (déduction limitée à 25 %) (art. 13 LTVA).",
+    "Faux : le groupe ne dispense pas la banque de décompter la TVA (art. 13 LTVA).",
+    "Faux : les prestations internes ne deviennent pas des exportations exonérées (art. 13 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-044",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — incompatibilité TDFN",
+   "memento": "art. 13 et 37 LTVA",
+   "question": "Une société qui décompte selon la méthode des taux de la dette fiscale nette (TDFN) souhaite intégrer un groupe TVA. Est-ce possible ?",
+   "options": [
+    "Oui, sans restriction",
+    "Oui, à condition de conserver la TDFN pour ses opérations externes",
+    "Oui, mais pour une seule période fiscale",
+    "Non : l'imposition de groupe est incompatible avec la TDFN et les taux forfaitaires (« corset TVA »)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'intégration n'est pas sans restriction ; la TDFN l'empêche (art. 13 et 37 LTVA).",
+    "Faux : conserver la TDFN n'est pas possible ; le groupe suppose l'effective (art. 13 et 37 LTVA).",
+    "Faux : l'incompatibilité n'est pas limitée à une période fiscale, elle est totale (art. 13 et 37 LTVA).",
+    "Exact : la TDFN et les forfaitaires ferment l'accès au groupe (« corset TVA ») ; le groupe suppose l'effective (art. 13 et 37 LTVA)."
+   ],
+   "piege": "« Corset TVA » : TDFN incompatible avec le groupe",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-045",
+   "champ": "Procédure, groupe & prescription — Imposition de groupe — sens de « solidaire »",
+   "memento": "art. 15 LTVA",
+   "question": "Que signifie « responsabilité solidaire » des membres d'un groupe TVA (art. 15 LTVA), par opposition à une responsabilité divisée ?",
+   "options": [
+    "L'AFC peut réclamer la totalité de la dette à un seul membre, à charge pour celui-ci de se retourner ensuite contre les autres",
+    "Chaque membre ne peut être poursuivi que pour sa propre quote-part de la dette",
+    "Seul le représentant du groupe est tenu, les autres membres étant libérés",
+    "La dette est répartie à parts strictement égales entre tous les membres"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : solidaire signifie que l'AFC peut réclamer le tout à un seul membre, à charge pour lui de se retourner ensuite contre les autres (art. 15 LTVA).",
+    "Faux : la poursuite pour la seule quote-part décrit une responsabilité divisée, non solidaire (art. 15 LTVA).",
+    "Faux : les autres membres ne sont pas libérés ; tous sont tenus solidairement (art. 15 LTVA).",
+    "Faux : la dette n'est pas répartie à parts égales ; chacun peut être poursuivi pour le tout (art. 15 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-046",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — notion",
+   "memento": "art. 38 LTVA ; formulaire 764",
+   "question": "Qu'est-ce que la procédure de déclaration (art. 38 LTVA) ?",
+   "options": [
+    "Une procédure par laquelle, lors d'un transfert de patrimoine, l'obligation fiscale est remplie par déclaration plutôt que par paiement de la TVA",
+    "L'obligation d'annoncer son assujettissement à l'AFC dans les 30 jours",
+    "La déclaration annuelle des acomptes de TVA",
+    "La procédure de recours contre une notification d'estimation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : lors d'un transfert de patrimoine, l'obligation fiscale est remplie par déclaration plutôt que par paiement de la TVA (art. 38 LTVA).",
+    "Faux : l'annonce d'assujettissement dans les 30 jours relève de l'art. 66 LTVA, non de la procédure de déclaration.",
+    "Faux : la déclaration annuelle des acomptes relève du décompte annuel (art. 35a LTVA), non de la procédure de déclaration.",
+    "Faux : le recours contre une notification d'estimation est distinct de la procédure de déclaration (art. 38 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-047",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — seuil de valeur",
+   "memento": "art. 38 al. 1 LTVA",
+   "question": "Dans la procédure de déclaration obligatoire, au-delà de quel montant d'impôt (au taux légal, calculé sur le prix de vente) le critère de valeur est-il rempli ?",
+   "options": [
+    "CHF 5 000",
+    "CHF 10 000",
+    "CHF 100 000",
+    "CHF 250 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil de valeur est de 10 000 CHF d'impôt, non de 5 000 (art. 38 al. 1 LTVA).",
+    "Exact : le critère de valeur est rempli lorsque l'impôt au taux légal sur le prix de vente dépasse 10 000 CHF (art. 38 al. 1 LTVA).",
+    "Faux : 100 000 CHF est un seuil d'assujettissement, non le seuil de la procédure de déclaration (art. 38 al. 1 LTVA).",
+    "Faux : 250 000 CHF vise l'assujettissement (sport/culture), non la procédure de déclaration (art. 38 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-048",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — conditions obligatoires",
+   "memento": "art. 38 al. 1 LTVA",
+   "question": "À quelles conditions la procédure de déclaration est-elle OBLIGATOIRE ?",
+   "options": [
+    "Dès qu'un bien isolé est vendu entre deux assujettis",
+    "Uniquement lorsqu'un immeuble est transféré, sur demande",
+    "Lorsque les deux parties sont/deviennent assujetties, que l'impôt sur le prix > 10 000 CHF ou qu'il s'agit d'une personne étroitement liée, dans le cadre d'une restructuration ou du transfert d'une (partie d')exploitation",
+    "Lorsqu'une seule des deux parties est assujettie"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la vente d'un bien isolé ne suffit pas ; il faut un transfert de patrimoine ou d'une partie de patrimoine (art. 38 al. 1 LTVA).",
+    "Faux : la procédure ne se limite pas au transfert d'immeuble sur demande, cas facultatif (art. 104 let. b OTVA).",
+    "Exact : obligatoire si les deux parties sont assujetties, que l'impôt > 10 000 CHF ou personne étroitement liée, dans une restructuration ou un transfert de patrimoine (art. 38 al. 1 LTVA).",
+    "Faux : la procédure suppose que les deux parties soient assujetties, pas une seule (art. 38 al. 1 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-049",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — formalités",
+   "memento": "art. 38 LTVA ; décompte ch. 200/225",
+   "question": "Lors d'un transfert traité par la procédure de déclaration, quelles formalités sont correctes ?",
+   "options": [
+    "Facturer la TVA au repreneur, puis la lui rembourser",
+    "Remettre le formulaire 764 et déclarer aux ch. 200 et 225 du décompte, sans mention de TVA",
+    "Mentionner la TVA sur le contrat de vente et la verser à l'AFC",
+    "Déclarer l'opération au ch. 383 (impôt sur les acquisitions)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : on ne facture pas la TVA au repreneur ; le transfert se déclare sans TVA (art. 38 LTVA).",
+    "Exact : remise du formulaire 764 et déclaration aux ch. 200 et 225 du décompte, sans mention de TVA (art. 38 LTVA).",
+    "Faux : aucune TVA n'est mentionnée sur le contrat ni versée à l'AFC (art. 38 LTVA).",
+    "Faux : l'opération se déclare aux ch. 200/225, non au ch. 383 (impôt sur les acquisitions) (art. 38 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-050",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — reprise de l'historique",
+   "memento": "art. 38 LTVA",
+   "question": "Dans la procédure de déclaration, quel est le sort de l'« historique TVA » des biens transférés ?",
+   "options": [
+    "Il est effacé : l'acheteur repart d'une situation TVA vierge",
+    "Le cédant demeure seul responsable des corrections futures",
+    "L'acheteur reprend l'historique TVA du cédant (un changement d'affectation ultérieur étant à sa charge)",
+    "L'AFC recalcule l'impôt préalable de toutes les périodes antérieures"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'historique TVA n'est pas effacé ; l'acheteur le reprend (art. 38 LTVA).",
+    "Faux : le cédant ne demeure pas seul responsable ; l'acheteur reprend l'historique (art. 38 LTVA).",
+    "Exact : l'acheteur reprend l'historique TVA des biens et supportera un changement d'affectation ultérieur (art. 38 LTVA).",
+    "Faux : l'AFC ne recalcule pas l'impôt préalable des périodes antérieures ; l'historique est simplement repris (art. 38 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-051",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — cas bien isolé",
+   "memento": "art. 38 LTVA",
+   "question": "Un garagiste assujetti vend une seule Porsche (CHF 150 000) à une conseillère en entreprise assujettie. La procédure de déclaration s'applique-t-elle ?",
+   "options": [
+    "Oui, obligatoirement, car l'impôt sur le prix dépasse 10 000 CHF",
+    "Oui, mais uniquement de façon volontaire",
+    "Oui, car les deux parties sont assujetties",
+    "Non, ni obligatoirement ni volontairement : il s'agit d'un bien isolé, non d'un patrimoine ou d'une partie de patrimoine"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : même si l'impôt dépasse 10 000 CHF, un bien isolé n'est pas un patrimoine ; la procédure ne s'applique pas (art. 38 LTVA).",
+    "Faux : la procédure, même facultative, suppose un patrimoine ou une partie de patrimoine, non un bien isolé (art. 38 LTVA).",
+    "Faux : l'assujettissement des deux parties ne suffit pas ; il faut un transfert de patrimoine (art. 38 LTVA).",
+    "Exact : la vente d'un bien isolé (une Porsche) n'est ni un patrimoine ni une partie de patrimoine : la procédure ne s'applique pas (art. 38 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-052",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — fusion Surf/Voyages",
+   "memento": "art. 38 LTVA",
+   "question": "Surf SA fusionne avec Voyages SA (LFus) ; actifs transférés 2,0 mio, pas d'immobilier, fusion rétroactive au 1.1, inscription au registre du commerce le 30.5. Quel est le traitement TVA ?",
+   "options": [
+    "Procédure de déclaration obligatoire ; la radiation de Surf SA au registre TVA n'intervient qu'à l'inscription au RC — pas d'effet rétroactif pour la TVA",
+    "Aucune procédure de déclaration : une fusion échappe toujours à la TVA",
+    "Procédure seulement facultative, faute d'immobilier",
+    "Effet rétroactif au 1.1 également en matière de TVA, avec radiation immédiate de Surf SA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : procédure obligatoire (formulaire 764, ch. 200/225) ; la rétroactivité comptable au 1.1 ne vaut pas pour la TVA, Surf SA n'étant radiée qu'à l'inscription au RC (art. 38 LTVA).",
+    "Faux : une fusion n'échappe pas à la TVA ; elle relève de la procédure de déclaration (art. 38 LTVA).",
+    "Faux : l'absence d'immobilier ne rend pas la procédure facultative ; elle est ici obligatoire (art. 38 LTVA).",
+    "Faux : la rétroactivité au 1.1 ne vaut pas en TVA ; la radiation intervient à l'inscription au RC (art. 38 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-053",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — changement de forme juridique",
+   "memento": "art. 38 LTVA",
+   "question": "Un simple changement de forme juridique selon la LFus, sans transfert de patrimoine à un autre sujet, relève-t-il de la procédure de déclaration ?",
+   "options": [
+    "Oui, toujours",
+    "Oui, mais uniquement de façon facultative",
+    "Oui, si l'impôt latent sur les actifs dépasse 10 000 CHF",
+    "Non : un simple changement de forme juridique n'entraîne pas de procédure de déclaration"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un simple changement de forme juridique ne déclenche pas toujours la procédure (art. 38 LTVA).",
+    "Faux : sans transfert de patrimoine, il n'y a pas de procédure, même facultative (art. 38 LTVA).",
+    "Faux : le montant de l'impôt latent est indifférent en l'absence de transfert à un autre sujet (art. 38 LTVA).",
+    "Exact : un simple changement de forme juridique, sans transfert de patrimoine à un autre sujet, n'entraîne pas de procédure de déclaration (art. 38 LTVA)."
+   ],
+   "piege": "Changement de forme sans transfert : pas de procédure",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-054",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — cas stock de cycles",
+   "memento": "art. 104 let. b OTVA",
+   "question": "Un commerçant de cycles assujetti vend la totalité de son stock de cycles (CHF 90 000) à un autre commerçant assujetti. La procédure de déclaration est :",
+   "options": [
+    "Obligatoire dans tous les cas",
+    "Exclue, car il s'agit de marchandises",
+    "Applicable de façon facultative, sur demande",
+    "Interdite entre deux commerçants du même secteur"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la procédure n'est pas obligatoire ici ; elle est facultative sur demande (art. 104 let. b OTVA).",
+    "Faux : le caractère de marchandises n'exclut pas la procédure ; la vente de tout le stock y est éligible (art. 104 let. b OTVA).",
+    "Exact : la vente de l'ensemble du stock peut être traitée par la procédure de déclaration facultative, sur demande (art. 104 let. b OTVA).",
+    "Faux : la procédure n'est pas interdite entre commerçants du même secteur (art. 104 let. b OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-055",
+   "champ": "Procédure, groupe & prescription — Procédure de déclaration — base légale facultative",
+   "memento": "art. 104 let. b OTVA",
+   "question": "Quelle disposition règle l'application FACULTATIVE de la procédure de déclaration ?",
+   "options": [
+    "art. 38 al. 1 LTVA",
+    "art. 104 let. b OTVA",
+    "art. 42 LTVA",
+    "art. 13 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 38 al. 1 LTVA régit l'application obligatoire, non facultative.",
+    "Exact : l'art. 104 let. b OTVA règle l'application facultative de la procédure, sur demande de l'aliénateur.",
+    "Faux : l'art. 42 LTVA vise la prescription, non la procédure de déclaration facultative (art. 104 let. b OTVA).",
+    "Faux : l'art. 13 LTVA vise l'imposition de groupe, non la procédure de déclaration (art. 104 let. b OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-056",
+   "champ": "Procédure, groupe & prescription — Prescription — droit de taxation",
+   "memento": "art. 42 LTVA",
+   "question": "Quels sont les délais de prescription du droit de taxation (art. 42 LTVA) ?",
+   "options": [
+    "Relatif 2 ans, absolu 5 ans",
+    "Relatif 5 ans dès la fin de la période fiscale, absolu 10 ans",
+    "Relatif 10 ans, absolu 15 ans",
+    "Relatif 5 ans dès l'entrée en force de la créance, absolu 10 ans"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les délais 2/5 ans ne correspondent pas ; la taxation se prescrit à 5 ans (relatif) et 10 ans (absolu) (art. 42 LTVA).",
+    "Exact : délai relatif de 5 ans dès la fin de la période fiscale, délai absolu de 10 ans (art. 42 LTVA).",
+    "Faux : les délais 10/15 ans sont erronés ; ce sont 5 et 10 ans (art. 42 LTVA).",
+    "Faux : le point de départ « dès l'entrée en force » vise le droit d'exiger le paiement (art. 91 LTVA), non la taxation."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-057",
+   "champ": "Procédure, groupe & prescription — Prescription — interruption par l'AFC",
+   "memento": "art. 42 al. 3 LTVA",
+   "question": "Lorsque l'AFC interrompt la prescription du droit de taxation (décision, déclaration écrite ou annonce d'un contrôle), quel délai recommence à courir ?",
+   "options": [
+    "Un nouveau délai de 5 ans",
+    "Un nouveau délai de 10 ans",
+    "Un nouveau délai raccourci de 2 ans",
+    "Aucun : le délai initial est seulement suspendu"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : après interruption par l'AFC, le nouveau délai n'est pas de 5 ans mais de 2 ans (art. 42 al. 3 LTVA).",
+    "Faux : le nouveau délai n'est pas de 10 ans ; l'interruption par l'AFC ouvre un délai de 2 ans (art. 42 al. 3 LTVA).",
+    "Exact : une interruption par l'AFC fait courir un nouveau délai raccourci de 2 ans (art. 42 al. 3 LTVA).",
+    "Faux : le délai n'est pas seulement suspendu ; un nouveau délai de 2 ans court (art. 42 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-058",
+   "champ": "Procédure, groupe & prescription — Prescription — asymétrie de l'interruption",
+   "memento": "art. 42 al. 3 et 6 LTVA",
+   "question": "Concernant l'interruption de la prescription du droit de taxation, quelle affirmation est correcte ?",
+   "options": [
+    "Une interruption par l'assujetti raccourcit aussi le délai relatif à 2 ans",
+    "Le délai absolu de 10 ans peut être interrompu autant de fois que nécessaire",
+    "Seul l'assujetti peut interrompre la prescription",
+    "Une interruption par l'assujetti ne raccourcit pas le délai de 5 ans, et le délai absolu de 10 ans n'est jamais interrompu"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'interruption par l'assujetti ne raccourcit pas le délai relatif à 2 ans (art. 42 al. 3 LTVA).",
+    "Faux : le délai absolu de 10 ans n'est jamais interrompu (art. 42 al. 6 LTVA).",
+    "Faux : l'AFC peut aussi interrompre la prescription, pas seulement l'assujetti (art. 42 al. 2-3 LTVA).",
+    "Exact : l'interruption par l'assujetti ne raccourcit pas le délai de 5 ans, et le délai absolu de 10 ans n'est jamais interrompu (art. 42 al. 3 et 6 LTVA)."
+   ],
+   "piege": "Asymétrie : AFC → 2 ans ; assujetti → pas de raccourci ; absolu jamais interrompu",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-059",
+   "champ": "Procédure, groupe & prescription — Prescription — cas annonce de contrôle",
+   "memento": "art. 42 LTVA",
+   "question": "Une créance TVA naît pour la période fiscale 2024. L'AFC annonce un contrôle en 2027. Quel est l'effet sur la prescription ?",
+   "options": [
+    "L'annonce interrompt la prescription ; un nouveau délai de 2 ans court, mais le délai absolu (fin 2034) reste intangible",
+    "La créance est déjà prescrite en 2027",
+    "Le délai absolu est repoussé à fin 2037",
+    "Aucun effet : seule une décision formelle interrompt la prescription"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'annonce du contrôle interrompt la prescription et ouvre un délai de 2 ans, mais le délai absolu (fin 2034) reste intangible (art. 42 LTVA).",
+    "Faux : la créance 2024 n'est pas prescrite en 2027 : le délai relatif de 5 ans court encore (art. 42 LTVA).",
+    "Faux : le délai absolu n'est jamais repoussé ; il reste fixé à fin 2034 (art. 42 al. 6 LTVA).",
+    "Faux : l'annonce d'un contrôle interrompt la prescription, pas seulement une décision formelle (art. 42 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-060",
+   "champ": "Procédure, groupe & prescription — Prescription — droit d'exiger le paiement",
+   "memento": "art. 91 LTVA",
+   "question": "Quelle disposition règle la prescription du droit d'EXIGER LE PAIEMENT de l'impôt (délai relatif de 5 ans dès l'entrée en force) ?",
+   "options": [
+    "art. 42 LTVA",
+    "art. 91 LTVA",
+    "art. 91 OTVA",
+    "art. 86 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 42 LTVA vise la prescription du droit de taxation, non du droit d'exiger le paiement.",
+    "Exact : l'art. 91 LTVA règle la prescription du droit d'exiger le paiement (relatif 5 ans dès l'entrée en force, absolu 10 ans).",
+    "Faux : l'art. 91 OTVA vise la déclaration de l'impôt sur les acquisitions, homonyme de l'ordonnance (art. 91 LTVA).",
+    "Faux : l'art. 86 LTVA règle le paiement de l'impôt, non la prescription du droit de l'exiger (art. 91 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-061",
+   "champ": "Procédure, groupe & prescription — Prescription — taxation vs paiement",
+   "memento": "art. 42 et 91 LTVA",
+   "question": "Quelle est la différence entre la prescription du droit de taxation (art. 42) et celle du droit d'exiger le paiement (art. 91) ?",
+   "options": [
+    "Elles se confondent : c'est le même délai",
+    "L'art. 42 concerne l'impôt sur les acquisitions, l'art. 91 l'impôt sur le territoire suisse",
+    "L'art. 42 vise la fixation de la créance (délai dès la fin de la période fiscale) ; l'art. 91 vise l'encaissement d'une créance déjà entrée en force (délai dès l'entrée en force)",
+    "L'art. 42 prévoit un délai absolu de 10 ans, l'art. 91 de 15 ans"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les deux délais ne se confondent pas : leurs points de départ diffèrent (art. 42 et 91 LTVA).",
+    "Faux : ni l'art. 42 ni l'art. 91 ne se répartissent selon acquisitions/territoire suisse (art. 42 et 91 LTVA).",
+    "Exact : l'art. 42 vise la fixation de la créance (dès la fin de la période fiscale), l'art. 91 l'encaissement d'une créance entrée en force (dès l'entrée en force).",
+    "Faux : les deux ont un délai absolu de 10 ans, non 15 ans pour l'art. 91 (art. 42 et 91 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-062",
+   "champ": "Procédure, groupe & prescription — Formulaire — ch. 200",
+   "memento": "décompte ch. 200 (art. 71 LTVA)",
+   "question": "Que regroupe le ch. 200 du formulaire de décompte TVA ?",
+   "options": [
+    "L'impôt dû après déduction de l'impôt préalable",
+    "Le seul chiffre d'affaires réalisé au taux normal de 8,1 %",
+    "L'impôt préalable sur les investissements",
+    "Le total des contre-prestations (convenues ou reçues), y compris prestations optées, transferts par procédure de déclaration et prestations à l'étranger (chiffre d'affaires mondial)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'impôt dû après déduction figure aux ch. 500/510, non au ch. 200 (art. 71 LTVA).",
+    "Faux : le ch. 200 ne se limite pas au CA au taux normal ; il regroupe tout le chiffre d'affaires mondial (art. 71 LTVA).",
+    "Faux : l'impôt préalable sur investissements va aux ch. 400/405, non au ch. 200 (art. 71 LTVA).",
+    "Exact : le ch. 200 regroupe le total des contre-prestations (CA mondial), y compris prestations optées, transferts par déclaration et prestations à l'étranger (art. 71 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-063",
+   "champ": "Procédure, groupe & prescription — Formulaire — ch. 225",
+   "memento": "décompte ch. 225",
+   "question": "Sous quel chiffre du formulaire déclare-t-on les transferts effectués par la procédure de déclaration ?",
+   "options": [
+    "ch. 205",
+    "ch. 225",
+    "ch. 235",
+    "ch. 383"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le ch. 205 vise les prestations optées, non les transferts par procédure de déclaration (ch. 225).",
+    "Exact : les transferts par procédure de déclaration se déclarent au ch. 225 (formulaire 764 joint) (art. 38 LTVA).",
+    "Faux : le ch. 235 vise les diminutions de contre-prestation, non les transferts par déclaration (ch. 225).",
+    "Faux : le ch. 383 vise l'impôt sur les acquisitions, non les transferts par déclaration (ch. 225)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-064",
+   "champ": "Procédure, groupe & prescription — Formulaire — taux ch. 303/313/343",
+   "memento": "décompte ch. 303/313/343 (art. 25 LTVA)",
+   "question": "Quels taux légaux correspondent aux ch. 303, 313 et 343 du formulaire de décompte ?",
+   "options": [
+    "303 = 8,1 % (taux normal) ; 313 = 2,6 % (taux réduit) ; 343 = 3,8 % (taux spécial hébergement)",
+    "303 = 7,7 % ; 313 = 2,5 % ; 343 = 3,7 %",
+    "303 = 8,1 % ; 313 = 3,8 % ; 343 = 2,6 %",
+    "303 = 2,6 % ; 313 = 8,1 % ; 343 = 3,8 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : ch. 303 = 8,1 % (taux normal), ch. 313 = 2,6 % (taux réduit), ch. 343 = 3,8 % (taux spécial hébergement) (art. 25 LTVA).",
+    "Faux : 7,7 / 2,5 / 3,7 % sont les anciens taux applicables jusqu'au 31.12.2023 (art. 25 LTVA).",
+    "Faux : les taux réduit et spécial sont intervertis — 313 = 2,6 % et 343 = 3,8 % (art. 25 LTVA).",
+    "Faux : le ch. 303 correspond au taux normal 8,1 %, non au taux réduit 2,6 % (art. 25 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-065",
+   "champ": "Procédure, groupe & prescription — Formulaire — ch. 383",
+   "memento": "décompte ch. 383 (art. 45 LTVA)",
+   "question": "Que déclare-t-on au ch. 383 du formulaire de décompte TVA ?",
+   "options": [
+    "Les exportations exonérées",
+    "Les diminutions de la contre-prestation",
+    "L'impôt sur les acquisitions (prestations acquises de l'étranger)",
+    "Le dégrèvement ultérieur de l'impôt préalable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les exportations exonérées se déclarent au ch. 220, non au ch. 383 (art. 45 LTVA).",
+    "Faux : les diminutions de contre-prestation vont au ch. 235, non au ch. 383 (art. 45 LTVA).",
+    "Exact : le ch. 383 déclare l'impôt sur les acquisitions (prestations acquises de l'étranger) (art. 45 LTVA).",
+    "Faux : le dégrèvement ultérieur de l'impôt préalable va au ch. 410, non au ch. 383 (art. 45 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-066",
+   "champ": "Procédure, groupe & prescription — Formulaire — ch. 415 corrections",
+   "memento": "décompte ch. 415 (art. 30 LTVA)",
+   "question": "Le CFO de Potpourri SA (méthode effective) demande quelles recettes nécessitent normalement une déclaration au ch. 415 (corrections de l'impôt préalable) du formulaire. Quelle est la bonne réponse ?",
+   "options": [
+    "Les dons",
+    "Les subventions et autres contributions de droit public",
+    "Les opérations exclues du champ de l'impôt (double affectation)",
+    "Les remboursements de la taxe sur le CO2"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les dons ne réduisent pas la déduction et ne se déclarent pas au ch. 415 (art. 30 LTVA).",
+    "Faux : les subventions entraînent une réduction au ch. 420, non une correction au ch. 415 (art. 33 al. 2 LTVA).",
+    "Exact : le ch. 415 sert aux corrections de l'impôt préalable, notamment la double affectation née d'opérations exclues du champ (art. 30 LTVA).",
+    "Faux : les remboursements de la taxe CO2 ne relèvent pas du ch. 415 (corrections pour double affectation) (art. 30 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M8-067",
+   "champ": "Procédure, groupe & prescription — Formulaire — ch. 420 réductions",
+   "memento": "décompte ch. 420 (art. 33 al. 2 LTVA)",
+   "question": "Quelles recettes nécessitent une déclaration au ch. 420 (réduction de la déduction de l'impôt préalable) du formulaire de décompte ?",
+   "options": [
+    "Les subventions et autres contributions de droit public",
+    "Les dons",
+    "Les opérations exclues du champ de l'impôt",
+    "Les exportations exonérées"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le ch. 420 réduit la déduction de l'impôt préalable pour les subventions et contributions de droit public (art. 33 al. 2 LTVA).",
+    "Faux : les dons ne réduisent pas la déduction de l'impôt préalable (art. 33 al. 2 LTVA).",
+    "Faux : les opérations exclues du champ relèvent du ch. 415 (double affectation), non du ch. 420 (art. 30 LTVA).",
+    "Faux : les exportations exonérées ne réduisent pas la déduction ; elles n'entrent pas au ch. 420 (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M8-068",
+   "champ": "Procédure, groupe & prescription — Formulaire — droits de douane",
+   "memento": "art. 28 al. 1 let. c LTVA",
+   "question": "Sous quel chiffre du formulaire de décompte TVA faut-il déclarer les droits de douane éventuellement payés ?",
+   "options": [
+    "ch. 280",
+    "ch. 400",
+    "ch. 405",
+    "Ils ne se déclarent pas dans le formulaire de TVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les droits de douane ne se déclarent pas au ch. 280 ni ailleurs dans le décompte TVA (art. 28 al. 1 let. c LTVA).",
+    "Faux : le ch. 400 vise l'impôt préalable sur charges, non les droits de douane (art. 28 al. 1 let. c LTVA).",
+    "Faux : le ch. 405 vise l'impôt préalable sur investissements, non les droits de douane (art. 28 al. 1 let. c LTVA).",
+    "Exact : les droits de douane ne sont pas de la TVA et ne se déclarent pas dans le décompte ; seule la TVA à l'importation est déductible (ch. 400/405) (art. 28 al. 1 let. c LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M8-069",
+   "champ": "Procédure, groupe & prescription — Obligations — annonce (immatriculation/radiation)",
+   "memento": "art. 66 LTVA",
+   "question": "Dans quel délai une entreprise devenue assujettie doit-elle s'annoncer spontanément à l'AFC (immatriculation), et dans quel délai annoncer sa radiation ?",
+   "options": [
+    "Dans les 30 jours",
+    "Dans les 60 jours",
+    "Dans les 90 jours",
+    "Dans les 180 jours"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : immatriculation comme radiation s'annoncent spontanément par écrit dans les 30 jours (art. 66 al. 1 et 2 LTVA).",
+    "Faux : le délai de 60 jours vise la remise du décompte et le paiement, non l'annonce (art. 71 / 86 LTVA).",
+    "Faux : le délai d'annonce n'est pas de 90 jours mais de 30 jours (art. 66 LTVA).",
+    "Faux : le délai d'annonce n'est pas de 180 jours mais de 30 jours (art. 66 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-070",
+   "champ": "Procédure, groupe & prescription — Obligations — remise du décompte et paiement",
+   "memento": "art. 71 et 86 LTVA",
+   "question": "Dans quel délai l'assujetti doit-il remettre son décompte et payer l'impôt après la fin de la période de décompte ?",
+   "options": [
+    "30 jours",
+    "60 jours",
+    "90 jours",
+    "180 jours"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 30 jours vise l'annonce d'assujettissement, non la remise du décompte (art. 66 LTVA).",
+    "Exact : le décompte se remet et l'impôt se paie dans les 60 jours après la fin de la période de décompte (art. 71 et 86 LTVA).",
+    "Faux : le délai n'est pas de 90 jours mais de 60 jours (art. 71 et 86 LTVA).",
+    "Faux : le délai n'est pas de 180 jours mais de 60 jours (art. 71 et 86 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M8-071",
+   "champ": "Procédure, groupe & prescription — Finalisation — frise 360/180/60",
+   "memento": "art. 72 LTVA",
+   "question": "Quelle est la suite des délais du processus de décompte et de finalisation de la TVA ?",
+   "options": [
+    "Période fiscale 180 jours → finalisation 360 jours → correction 30 jours",
+    "Période fiscale 12 mois → finalisation 90 jours → correction 30 jours",
+    "Période fiscale 360 jours → finalisation 60 jours → correction 180 jours",
+    "Période fiscale 360 jours → finalisation 180 jours → correction 60 jours"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la période fiscale est de 360 jours et la correction de 60 jours, non l'inverse (art. 72 LTVA).",
+    "Faux : la finalisation est de 180 jours, non 90, après une période de 360 jours (art. 72 LTVA).",
+    "Faux : la finalisation est de 180 jours et la correction de 60 jours, ici intervertis (art. 72 LTVA).",
+    "Exact : période fiscale 360 jours → finalisation 180 jours → correction 60 jours (art. 72 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-072",
+   "champ": "Procédure, groupe & prescription — Contrôle — délai de clôture",
+   "memento": "art. 78 al. 5 LTVA",
+   "question": "Dans quel délai le contrôle de l'AFC doit-il être clos par une notification d'estimation ?",
+   "options": [
+    "60 jours",
+    "180 jours",
+    "360 jours",
+    "5 ans"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : 60 jours est le délai de paiement, non de clôture du contrôle (art. 78 al. 5 LTVA).",
+    "Faux : 180 jours est le délai de finalisation, non de clôture du contrôle (art. 78 al. 5 LTVA).",
+    "Exact : le contrôle doit être clos dans les 360 jours par une notification d'estimation (art. 78 al. 5 LTVA).",
+    "Faux : 5 ans est le délai de prescription relatif, non le délai de clôture du contrôle (art. 78 al. 5 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-073",
+   "champ": "Procédure, groupe & prescription — Contrôle — taxation par estimation",
+   "memento": "art. 79 LTVA",
+   "question": "Quelle disposition permet à l'AFC de procéder à une taxation par voie d'estimation lorsque les preuves ou la comptabilité font défaut ?",
+   "options": [
+    "art. 79 LTVA",
+    "art. 79 OTVA",
+    "art. 82 LTVA",
+    "art. 42 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 79 LTVA permet la taxation par voie d'estimation en cas de comptabilité irrégulière ou d'absence de justificatifs.",
+    "Faux : l'art. 79 OTVA vise le changement de méthode TDFN, non l'estimation (art. 79 LTVA).",
+    "Faux : l'art. 82 LTVA vise la décision de l'AFC, non l'estimation (art. 79 LTVA).",
+    "Faux : l'art. 42 LTVA vise la prescription, non la taxation par estimation (art. 79 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-074",
+   "champ": "Procédure, groupe & prescription — Contrôle — décision et recours",
+   "memento": "art. 82 LTVA",
+   "question": "En cas de désaccord persistant après une notification d'estimation, quelle disposition fonde l'acte par lequel l'AFC tranche ?",
+   "options": [
+    "art. 78 al. 5 LTVA",
+    "art. 82 LTVA",
+    "art. 43 al. 1 let. b LTVA",
+    "art. 71 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 78 al. 5 régit la notification d'estimation, qui n'est pas la décision tranchant le litige (art. 82 LTVA).",
+    "Exact : en cas de désaccord, l'AFC rend une décision sujette à recours (art. 82 LTVA).",
+    "Faux : l'art. 43 al. 1 let. b vise l'entrée en force par reconnaissance ou paiement, non la décision (art. 82 LTVA).",
+    "Faux : l'art. 71 vise la remise du décompte, non la décision de l'AFC (art. 82 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-075",
+   "champ": "Procédure, groupe & prescription — Contrôle — charge de la preuve",
+   "memento": "art. 81 al. 3 LTVA",
+   "question": "Quelle disposition consacre la libre appréciation des preuves et met la charge de la preuve des faits diminuant l'impôt (déductions, exportations) à la charge de l'assujetti ?",
+   "options": [
+    "art. 70 LTVA",
+    "art. 68 LTVA",
+    "art. 79 LTVA",
+    "art. 81 al. 3 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 70 vise la comptabilité, non la charge de la preuve (art. 81 al. 3 LTVA).",
+    "Faux : l'art. 68 vise l'obligation de renseigner, non la charge de la preuve (art. 81 al. 3 LTVA).",
+    "Faux : l'art. 79 vise la taxation par estimation, non la charge de la preuve (art. 81 al. 3 LTVA).",
+    "Exact : l'art. 81 al. 3 LTVA consacre la libre appréciation des preuves et met la charge des faits diminuant l'impôt à celle de l'assujetti."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-076",
+   "champ": "Procédure, groupe & prescription — Obligations — obligation de renseigner",
+   "memento": "art. 68 LTVA",
+   "question": "En quoi consiste l'obligation de renseigner de l'assujetti (art. 68 LTVA) ?",
+   "options": [
+    "Obtenir de l'AFC un avis contraignant préalable sur un fait concret",
+    "Renseigner l'AFC en conscience sur tous les faits pouvant influencer la perception de l'impôt et produire les documents requis, le secret professionnel légal étant réservé",
+    "Payer l'impôt dans les 60 jours",
+    "Conserver les pièces pendant 20 ans en matière immobilière"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : obtenir un avis contraignant préalable relève du droit d'obtenir des renseignements (art. 69 LTVA), non de l'obligation de renseigner.",
+    "Exact : l'assujetti renseigne l'AFC en conscience sur tout fait pouvant influencer la perception et produit les documents requis, secret professionnel légal réservé (art. 68 LTVA).",
+    "Faux : payer l'impôt dans les 60 jours relève de l'art. 86 LTVA, non de l'obligation de renseigner (art. 68 LTVA).",
+    "Faux : la conservation en immobilier relève des règles comptables (art. 70 LTVA), non de l'obligation de renseigner (art. 68 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-077",
+   "champ": "Procédure, groupe & prescription — Comptabilité — au-delà du droit commercial",
+   "memento": "art. 70 LTVA",
+   "question": "En quoi la comptabilité exigée par la LTVA va-t-elle au-delà des prescriptions du droit commercial ?",
+   "options": [
+    "Elle impose de tenir les comptes en devises étrangères",
+    "Elle dispense de conserver les justificatifs",
+    "Elle exige une comptabilisation au brut, une piste de vérification complète (« Prüfspur ») des comptes aux justificatifs et des comptes spéciaux TVA",
+    "Elle supprime toute obligation de concordance annuelle"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la LTVA n'impose pas de tenir les comptes en devises étrangères (art. 70 LTVA).",
+    "Faux : la LTVA ne dispense pas de conserver les justificatifs ; elle renforce l'exigence de piste de vérification (art. 70 LTVA).",
+    "Exact : la LTVA exige une comptabilisation au brut, une piste de vérification (« Prüfspur ») complète et des comptes spéciaux TVA (art. 70 LTVA).",
+    "Faux : la LTVA maintient l'obligation de concordance annuelle, elle ne la supprime pas (art. 70 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-078",
+   "champ": "Procédure, groupe & prescription — Contrôle — notification d'estimation",
+   "memento": "art. 78 al. 5 LTVA",
+   "question": "Qu'est-ce qu'une notification d'estimation à l'issue d'un contrôle de l'AFC ?",
+   "options": [
+    "Un acte qui fixe le montant de la créance des périodes contrôlées mais ne constitue pas une décision, l'assujetti pouvant d'abord prendre position",
+    "Une décision définitive et immédiatement exécutoire",
+    "Une simple demande de renseignements sans effet sur la créance",
+    "Le décompte rectificatif que l'assujetti dépose lui-même"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la notification d'estimation fixe le montant de la créance contrôlée mais n'est pas une décision ; l'assujetti peut d'abord prendre position (art. 78 al. 5 LTVA).",
+    "Faux : la notification d'estimation n'est pas une décision définitive et exécutoire (art. 78 al. 5 LTVA).",
+    "Faux : elle a un effet sur la créance : elle en fixe le montant, ce n'est pas une simple demande de renseignements (art. 78 al. 5 LTVA).",
+    "Faux : la notification émane de l'AFC après contrôle, ce n'est pas un décompte rectificatif de l'assujetti (art. 78 al. 5 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M8-079",
+   "champ": "Procédure, groupe & prescription — Audit — association non assujettie à tort",
+   "memento": "art. 102 LTVA",
+   "question": "Une association suisse a écarté son assujettissement au motif que publicité et sponsoring restent sous 100 000 CHF, alors qu'elle remplit en réalité les conditions d'assujettissement subjectif. Quelle suite est correcte ?",
+   "options": [
+    "Inscription rétroactive au registre TVA, choix d'une méthode de décompte, dénonciation spontanée non punissable et paiement de la créance avec intérêts moratoires",
+    "Aucune conséquence : seules les cotisations des membres importent",
+    "Radiation définitive de l'association",
+    "Amende pénale automatique excluant toute régularisation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'association étant en réalité assujettie, la suite est : inscription rétroactive, choix de méthode, dénonciation spontanée non punissable et paiement de la créance avec intérêts moratoires (art. 102 LTVA).",
+    "Faux : seules les cotisations des membres sont exclues ; publicité et sponsoring entraînent l'assujettissement (art. 21 al. 2 ch. 13 LTVA).",
+    "Faux : la conséquence n'est pas une radiation, mais une inscription rétroactive et une régularisation (art. 102 LTVA).",
+    "Faux : une dénonciation spontanée est non punissable ; il n'y a pas d'amende automatique excluant la régularisation (art. 102 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M8-080",
+   "champ": "Procédure, groupe & prescription — Audit — risques liés à la TVA",
+   "memento": "art. 71 LTVA",
+   "question": "Du point de vue de l'audit, pourquoi la TVA constitue-t-elle un risque d'anomalies significatives à ne pas sous-estimer ?",
+   "options": [
+    "Parce qu'elle fait l'objet d'une taxation annuelle systématique par l'AFC",
+    "Parce qu'elle constitue toujours un poste strictement neutre pour l'entreprise",
+    "Parce que l'AFC calcule elle-même l'impôt à la place de l'assujetti",
+    "Parce qu'elle repose sur l'auto-taxation, qu'elle n'est pas un poste neutre et qu'il n'existe pas de taxation annuelle"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il n'existe pas de taxation annuelle systématique de la TVA par l'AFC (art. 71 LTVA).",
+    "Faux : la TVA n'est pas un poste strictement neutre dès qu'une erreur survient (art. 71 LTVA).",
+    "Faux : la TVA repose sur l'auto-taxation ; l'AFC ne calcule pas l'impôt à la place de l'assujetti (art. 71 LTVA).",
+    "Exact : la TVA repose sur l'auto-taxation, n'est pas un poste neutre et ne fait pas l'objet d'une taxation annuelle — d'où le risque d'anomalies (art. 71 LTVA)."
+   ],
+   "piege": "Auto-taxation, poste non neutre, pas de taxation annuelle",
+   "difficulte": 2,
+   "source": "generated"
+  }
+ ]
+}

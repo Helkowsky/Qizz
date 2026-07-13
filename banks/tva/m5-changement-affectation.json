@@ -1,0 +1,851 @@
+{
+ "cours": "tva",
+ "module": "M5",
+ "titre": "Changement d'affectation",
+ "questions": [
+  {
+   "id": "M5-001",
+   "champ": "Changement d'affectation — Prestation à soi-même — définition",
+   "memento": "art. 31 LTVA",
+   "question": "Qu'est-ce qu'une « prestation à soi-même » liée à un changement d'affectation ?",
+   "options": [
+    "La correction proportionnelle de l'impôt préalable en cas d'usage mixte simultané d'un bien",
+    "Un bien qui ne donnait pas droit à déduction y donne désormais droit ; la TVA devient récupérable",
+    "La réduction de la déduction due à l'encaissement d'une subvention",
+    "Un bien qui donnait droit à déduction cesse d'y donner droit ; la TVA déduite est reversée à l'AFC, sous déduction d'un amortissement"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : décrit la correction pour double affectation (usage mixte simultané, art. 30 LTVA), pas la prestation à soi-même.",
+    "Faux : un bien qui devient déductible relève du dégrèvement ultérieur (art. 32 LTVA), de sens opposé.",
+    "Faux : la réduction pour subvention relève de l'art. 33 LTVA, sans lien avec le changement d'affectation.",
+    "Exact : sortie du champ de déduction, la TVA déduite est reversée sous déduction d'un amortissement (art. 31 al. 2 let. a et al. 3 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-002",
+   "champ": "Changement d'affectation — Dégrèvement ultérieur — définition",
+   "memento": "art. 32 LTVA",
+   "question": "Qu'est-ce que le « dégrèvement ultérieur de l'impôt préalable » ?",
+   "options": [
+    "Un bien qui ne donnait pas droit à déduction devient affecté à une activité y donnant droit ; la TVA non déduite devient récupérable, sous déduction d'un amortissement",
+    "Un bien qui donnait droit à déduction cesse d'y donner droit ; la TVA déduite est reversée à l'AFC",
+    "L'exclusion totale du droit à déduction pour une prestation exclue non optée",
+    "La déduction d'un impôt préalable fictif sur un bien mobilier d'occasion"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : entrée dans le champ de déduction, la TVA jamais déduite devient récupérable sous déduction d'un amortissement (art. 32 al. 1 et 2 LTVA).",
+    "Faux : un bien qui cesse de donner droit à déduction vise la prestation à soi-même (art. 31 LTVA), de sens opposé.",
+    "Faux : l'exclusion du droit à déduction d'une prestation exclue non optée relève de l'art. 29 LTVA, pas d'un dégrèvement.",
+    "Faux : l'impôt préalable fictif sur un bien d'occasion (art. 28a LTVA) est un mécanisme distinct du dégrèvement ultérieur."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-003",
+   "champ": "Changement d'affectation — Sens du changement d'affectation",
+   "memento": "art. 31 et 32 LTVA",
+   "question": "Le changement d'affectation d'un bien déjà utilisé peut jouer dans deux sens. Quelle description est correcte ?",
+   "options": [
+    "Sortie du champ → dégrèvement ; entrée dans le champ → prestation à soi-même",
+    "Les deux sens aboutissent toujours à un reversement de TVA à l'AFC",
+    "Sortie du champ de déduction → prestation à soi-même (reversement) ; entrée dans le champ → dégrèvement ultérieur (récupération)",
+    "Aucun des deux ne tient compte d'un amortissement"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les deux sens sont inversés ; la sortie donne une prestation à soi-même et l'entrée un dégrèvement (art. 31 et 32 LTVA).",
+    "Faux : seule la sortie du champ entraîne un reversement ; l'entrée ouvre une récupération (art. 32 LTVA).",
+    "Exact : sortie du champ = prestation à soi-même (reversement, art. 31 LTVA) ; entrée = dégrèvement ultérieur (récupération, art. 32 LTVA).",
+    "Faux : les deux mécanismes tiennent compte d'un amortissement (art. 31 al. 3 et 32 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-004",
+   "champ": "Changement d'affectation — Amortissement — principe",
+   "memento": "art. 31 al. 3 et 32 al. 2 LTVA",
+   "question": "Lors d'un changement d'affectation, comment la valeur du bien est-elle prise en compte ?",
+   "options": [
+    "On retient toujours la valeur d'acquisition, sans correction",
+    "On tient compte d'une diminution de valeur (amortissement) au sens des art. 31 al. 3 et 32 al. 2 LTVA",
+    "On retient la valeur de marché fixée par un expert indépendant",
+    "On retient uniquement la valeur comptable inscrite au bilan"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une diminution de valeur doit être déduite ; on ne retient pas la valeur d'acquisition brute (art. 31 al. 3 LTVA).",
+    "Exact : on tient compte d'une diminution de valeur (amortissement) au sens des art. 31 al. 3 et 32 al. 2 LTVA.",
+    "Faux : la valeur retenue découle d'un amortissement forfaitaire, non d'une expertise de marché (art. 31 al. 3 LTVA).",
+    "Faux : c'est l'amortissement fiscal TVA (20 %/5 %) qui s'applique, non la valeur comptable au bilan (art. 32 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-005",
+   "champ": "Changement d'affectation — Prestations de services déjà utilisées",
+   "memento": "art. 31 / 32 LTVA",
+   "question": "Des prestations de services déjà utilisées peuvent-elles donner lieu à une prestation à soi-même ou à un dégrèvement ultérieur de l'impôt préalable ?",
+   "options": [
+    "Non, seuls les biens peuvent faire l'objet d'un changement d'affectation",
+    "Oui, toutes les prestations de services, sans condition",
+    "Oui, mais uniquement celles qui, au moment du changement d'affectation, existent encore et ont une valeur résiduelle",
+    "Oui, mais uniquement les prestations de conseil"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les prestations de services peuvent aussi changer d'affectation, sous condition (art. 31 / 32 LTVA).",
+    "Faux : ce n'est pas sans condition ; la prestation doit encore exister et avoir une valeur résiduelle (art. 31 / 32 LTVA).",
+    "Exact : le changement reste possible sur des services déjà utilisés s'ils existent encore et présentent une valeur résiduelle au moment du changement (art. 31 / 32 LTVA).",
+    "Faux : la condition tient à l'existence d'une valeur résiduelle, pas à la nature (conseil) de la prestation (art. 31 / 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M5-006",
+   "champ": "Changement d'affectation — Biens non encore utilisés",
+   "memento": "art. 32 LTVA",
+   "question": "Un bien acquis mais NON encore utilisé change d'affectation. Quel est l'effet sur l'amortissement à déduire ?",
+   "options": [
+    "Aucun amortissement n'est déduit : la valeur pleine (TVA encourue à l'achat) est retenue",
+    "Un amortissement forfaitaire de 20 % est retenu d'office",
+    "Un amortissement de 50 % est retenu",
+    "Le dégrèvement est refusé faute d'utilisation antérieure"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : un bien non encore utilisé n'a subi aucune diminution de valeur ; base = TVA encourue à l'achat, sans amortissement (art. 32 LTVA).",
+    "Faux : le taux de 20 %/an ne s'applique qu'aux biens mobiliers déjà utilisés ; ici aucune année d'utilisation (art. 32 al. 2 LTVA).",
+    "Faux : aucun amortissement de 50 % n'est prévu ; un bien non utilisé garde sa valeur pleine (art. 32 al. 2 LTVA).",
+    "Faux : l'absence d'utilisation n'exclut pas le dégrèvement ; elle en supprime seulement l'amortissement (art. 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-007",
+   "champ": "Changement d'affectation — Taux d'amortissement — biens mobiliers",
+   "memento": "art. 31 al. 3 / 32 al. 2 LTVA",
+   "question": "Quel taux d'amortissement annuel s'applique aux biens mobiliers lors d'un changement d'affectation ?",
+   "options": [
+    "2,5 % par an",
+    "5 % par an",
+    "10 % par an",
+    "20 % par an"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : aucun taux de 2,5 %/an n'est prévu pour les biens mobiliers (art. 31 al. 3 LTVA).",
+    "Faux : 5 %/an vise les biens immobiliers, pas les biens mobiliers (art. 31 al. 3 LTVA).",
+    "Faux : aucun taux de 10 %/an n'est retenu pour l'amortissement TVA (art. 31 al. 3 LTVA).",
+    "Exact : les biens mobiliers s'amortissent à 20 %/an (art. 31 al. 3 / 32 al. 2 LTVA, pratique AFC)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-008",
+   "champ": "Changement d'affectation — Taux d'amortissement — biens immobiliers",
+   "memento": "art. 31 al. 3 / 32 al. 2 LTVA",
+   "question": "Quel taux d'amortissement annuel s'applique aux biens immobiliers lors d'un changement d'affectation ?",
+   "options": [
+    "5 % par an",
+    "10 % par an",
+    "20 % par an",
+    "25 % par an"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les biens immobiliers s'amortissent à 5 %/an, soit sur 20 ans (art. 31 al. 3 / 32 al. 2 LTVA).",
+    "Faux : aucun taux de 10 %/an n'est prévu pour l'amortissement TVA (art. 31 al. 3 LTVA).",
+    "Faux : 20 %/an vise les biens mobiliers, pas les immeubles (art. 31 al. 3 LTVA).",
+    "Faux : aucun taux de 25 %/an n'existe ; l'immeuble s'amortit à 5 %/an (art. 31 al. 3 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-009",
+   "champ": "Changement d'affectation — Camion de formation — prestation à soi-même",
+   "memento": "art. 31 LTVA",
+   "question": "Potpourri SA a acquis il y a un an un camion utilisé pour des formations à la conduite ayant fait l'objet d'une option. Elle n'opte désormais plus pour ces formations. Quelle en est la conséquence ?",
+   "options": [
+    "Prestation à soi-même ; 80 % des impôts préalables doivent être remboursés à l'AFC",
+    "Prestation à soi-même ; 20 % des impôts préalables doivent être remboursés à l'AFC",
+    "Dégrèvement ultérieur ; 80 % des impôts préalables peuvent être réclamés à l'AFC",
+    "Dégrèvement ultérieur ; 20 % des impôts préalables peuvent être réclamés à l'AFC"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la fin de l'option supprime le droit à déduction → prestation à soi-même ; camion mobilier amorti 20 %/an, après 1 an 80 % de valeur résiduelle à reverser (art. 31 LTVA).",
+    "Faux : après 1 an seuls 20 % sont amortis ; c'est 80 %, non 20 %, qui reste à reverser (art. 31 al. 3 LTVA).",
+    "Faux : la fin de l'option fait sortir du champ (reversement), il ne s'agit pas d'un dégrèvement ultérieur (art. 32 LTVA).",
+    "Faux : ni le sens (dégrèvement) ni le montant (20 %) ne sont corrects ; c'est une prestation à soi-même de 80 % (art. 31 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-010",
+   "champ": "Changement d'affectation — Camion de formation — dégrèvement ultérieur",
+   "memento": "art. 32 LTVA",
+   "question": "Potpourri SA a acquis il y a trois ans un camion utilisé pour des formations à la conduite n'ayant PAS fait l'objet d'une option. Elle opte désormais pour ces formations. Quelle en est la conséquence ?",
+   "options": [
+    "Prestation à soi-même ; 60 % des impôts préalables à rembourser",
+    "Prestation à soi-même ; 40 % des impôts préalables à rembourser",
+    "Dégrèvement ultérieur ; 40 % des impôts préalables peuvent être réclamés à l'AFC",
+    "Dégrèvement ultérieur ; 60 % des impôts préalables peuvent être réclamés à l'AFC"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'option fait entrer dans le champ (récupération), ce n'est pas une prestation à soi-même (art. 32 LTVA).",
+    "Faux : le sens est erroné (dégrèvement, non prestation) même si 40 % est la bonne valeur résiduelle (art. 32 LTVA).",
+    "Exact : l'option ouvre le droit → dégrèvement ultérieur ; camion amorti 20 %/an, après 3 ans 60 % amorti, 40 % réclamable (art. 32 LTVA).",
+    "Faux : après 3 ans 60 % est amorti ; il reste 40 %, non 60 %, à réclamer (art. 32 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-011",
+   "champ": "Changement d'affectation — Immeuble — années écoulées",
+   "memento": "art. 31 LTVA",
+   "question": "Müller SA a acheté le 18 novembre 2012 un immeuble d'exploitation avec option (330 000 CHF d'impôt préalable récupéré) ; l'immeuble est revendu sans option le 3 janvier 2024, sans dépense entretemps. Combien d'années écoulées entrent dans le calcul de la valeur résiduelle ?",
+   "options": [
+    "11 ans",
+    "12 ans",
+    "13 ans",
+    "Il n'y a pas d'année écoulée"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : entre le 18.11.2012 et le 3.1.2024, 12 années sont écoulées, non 11 (art. 31 LTVA).",
+    "Exact : un immeuble s'amortit 5 %/an ; 12 années écoulées entre l'achat (18.11.2012) et la revente (3.1.2024) entrent dans le calcul (art. 31 LTVA).",
+    "Faux : la 13e année n'est pas atteinte au 3.1.2024 ; seules 12 années sont révolues (art. 31 LTVA).",
+    "Faux : plus de dix ans se sont écoulés ; il y a bien 12 années à prendre en compte (art. 31 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M5-012",
+   "champ": "Changement d'affectation — Camping-car Strasser — montant reversé",
+   "memento": "art. 31 LTVA",
+   "question": "A. Strasser a déduit CHF 6 545 d'impôt préalable sur un camping-car (loué), qu'il affecte en 2026 à son usage privé. L'amortissement admis est de 60 %. Quel montant doit-il reverser à l'AFC au titre de la prestation à soi-même ?",
+   "options": [
+    "CHF 6 545",
+    "CHF 3 927",
+    "CHF 2 618",
+    "CHF 1 309"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : on ne reverse pas la totalité ; l'amortissement de 60 % réduit la base (art. 31 al. 3 LTVA).",
+    "Faux : CHF 3 927 correspond aux 60 % amortis, non à la valeur résiduelle reversée (art. 31 al. 3 LTVA).",
+    "Exact : 6 545 × (100 − 60) % = 6 545 × 40 % = CHF 2 618 à reverser (art. 31 al. 2 let. a et al. 3 LTVA).",
+    "Faux : CHF 1 309 correspondrait à 20 % de valeur résiduelle (4 ans), pas à 40 % (art. 31 al. 3 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-013",
+   "champ": "Changement d'affectation — Base légale — prestation à soi-même",
+   "memento": "art. 31 al. 2 let. a et al. 3 LTVA",
+   "question": "Quelle disposition règle la prestation à soi-même en cas de changement d'affectation ?",
+   "options": [
+    "art. 30 LTVA",
+    "art. 32 LTVA",
+    "art. 33 LTVA",
+    "art. 31 al. 2 let. a et al. 3 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 30 LTVA vise la double affectation (usage mixte simultané), non la prestation à soi-même.",
+    "Faux : l'art. 32 LTVA règle le dégrèvement ultérieur, de sens opposé.",
+    "Faux : l'art. 33 LTVA concerne la réduction de la déduction pour subvention.",
+    "Exact : la prestation à soi-même relève de l'art. 31 al. 2 let. a et al. 3 LTVA."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-014",
+   "champ": "Changement d'affectation — Base légale — dégrèvement ultérieur",
+   "memento": "art. 32 al. 1 et 2 LTVA",
+   "question": "Quelle disposition règle le dégrèvement ultérieur de l'impôt préalable ?",
+   "options": [
+    "art. 32 al. 1 et 2 LTVA",
+    "art. 31 LTVA",
+    "art. 29 LTVA",
+    "art. 33 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le dégrèvement ultérieur relève de l'art. 32 al. 1 et 2 LTVA.",
+    "Faux : l'art. 31 LTVA vise la prestation à soi-même, de sens opposé.",
+    "Faux : l'art. 29 LTVA règle l'exclusion du droit à déduction, pas le dégrèvement.",
+    "Faux : l'art. 33 LTVA concerne la réduction pour subvention."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-015",
+   "champ": "Changement d'affectation — Base légale — amortissement",
+   "memento": "art. 31 al. 3 LTVA",
+   "question": "L'amortissement (diminution de valeur) pris en compte dans une prestation à soi-même est prévu à quel alinéa ?",
+   "options": [
+    "art. 31 al. 1 LTVA",
+    "art. 31 al. 3 LTVA",
+    "art. 33 al. 2 LTVA",
+    "art. 28a al. 1 LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 31 al. 1 LTVA pose le principe, mais l'amortissement est réglé à l'al. 3.",
+    "Exact : l'art. 31 al. 3 LTVA prévoit la prise en compte d'une diminution de valeur (amortissement).",
+    "Faux : l'art. 33 al. 2 LTVA concerne la réduction pour subvention, non l'amortissement.",
+    "Faux : l'art. 28a LTVA vise l'impôt préalable fictif, sans lien avec l'amortissement du changement d'affectation."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-016",
+   "champ": "Changement d'affectation — Base légale — double affectation vs changement",
+   "memento": "art. 30 LTVA",
+   "question": "La correction de l'impôt préalable pour double affectation (usage mixte simultané) relève de quel article — à ne pas confondre avec le changement d'affectation ?",
+   "options": [
+    "art. 31 LTVA",
+    "art. 32 LTVA",
+    "art. 30 LTVA",
+    "art. 28 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 31 LTVA vise la prestation à soi-même (changement dans le temps), non la double affectation.",
+    "Faux : l'art. 32 LTVA vise le dégrèvement ultérieur, non l'usage mixte simultané.",
+    "Exact : l'art. 30 LTVA règle la correction pour double affectation (usage mixte simultané).",
+    "Faux : l'art. 28 LTVA pose le principe général de la déduction de l'impôt préalable, pas la double affectation."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-017",
+   "champ": "Changement d'affectation — Option art. 22 → qualification",
+   "memento": "art. 32 LTVA",
+   "question": "Müller SA réalisait en 2023 80 % d'opérations exclues ; en 2024 elle exerce l'option (art. 22 LTVA) sur ces opérations. Quelle est la conséquence sur les impôts préalables encourus jusque-là ?",
+   "options": [
+    "Changement d'affectation – prestation à soi-même",
+    "Changement d'affectation – dégrèvement ultérieur de l'impôt préalable",
+    "Réduction de la déduction de l'impôt préalable",
+    "Changement d'affectation – double affectation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'option fait entrer dans le champ (récupération) ; il ne s'agit pas d'une prestation à soi-même (art. 31 LTVA).",
+    "Exact : l'option (art. 22 LTVA) fait entrer les opérations exclues dans le champ donnant droit → dégrèvement ultérieur (art. 32 LTVA).",
+    "Faux : il ne s'agit pas d'une simple réduction de déduction, mais d'un dégrèvement lié au changement d'affectation (art. 32 LTVA).",
+    "Faux : la double affectation (art. 30 LTVA) vise un usage mixte simultané, pas l'exercice d'une option."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-018",
+   "champ": "Changement d'affectation — Location de téléviseurs — qualification",
+   "memento": "art. 31 / 32 LTVA",
+   "question": "Müller SA fait le commerce de diverses marchandises, notamment des téléviseurs ; dès 2024 elle en loue aussi à des particuliers. Quelle conséquence sur les impôts préalables déjà encourus ?",
+   "options": [
+    "Changement d'affectation – prestation à soi-même",
+    "Changement d'affectation – dégrèvement ultérieur",
+    "Aucun changement d'affectation",
+    "Réduction de la déduction de l'impôt préalable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le bien reste dans le champ de déduction (location imposable) ; aucune sortie ne justifie une prestation à soi-même (art. 31 LTVA).",
+    "Faux : le bien donnait déjà droit à déduction (commerce) ; il n'entre pas nouvellement dans le champ (art. 32 LTVA).",
+    "Exact : la location de téléviseurs à des particuliers est imposable et donne droit à déduction, comme le commerce ; l'affectation reste dans le champ → pas de changement (art. 31 / 32 LTVA a contrario).",
+    "Faux : aucune réduction n'est requise puisque l'usage demeure imposable et déductible (art. 31 / 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M5-019",
+   "champ": "Changement d'affectation — Sens des deux mécanismes",
+   "memento": "art. 31 et 32 LTVA",
+   "question": "Quelle affirmation décrit correctement le SENS de chaque mécanisme ?",
+   "options": [
+    "La prestation à soi-même fait récupérer de la TVA ; le dégrèvement en fait reverser",
+    "La prestation à soi-même fait reverser de la TVA à l'AFC ; le dégrèvement ultérieur en fait récupérer",
+    "Les deux font récupérer de la TVA",
+    "Les deux font reverser de la TVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les deux sens sont inversés ; la prestation à soi-même reverse et le dégrèvement récupère (art. 31 et 32 LTVA).",
+    "Exact : la prestation à soi-même fait reverser à l'AFC (art. 31 LTVA) ; le dégrèvement ultérieur fait récupérer (art. 32 LTVA).",
+    "Faux : seul le dégrèvement fait récupérer ; la prestation à soi-même reverse (art. 31 LTVA).",
+    "Faux : seule la prestation à soi-même reverse ; le dégrèvement récupère (art. 32 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-020",
+   "champ": "Changement d'affectation — Passage à l'usage privé — qualification",
+   "memento": "art. 31 al. 2 let. a LTVA",
+   "question": "Un véhicule qui avait donné droit à déduction est affecté à l'usage privé du chef d'entreprise. Comment qualifier l'opération ?",
+   "options": [
+    "Dégrèvement ultérieur",
+    "Double affectation (art. 30)",
+    "Réduction pour subvention",
+    "Prestation à soi-même"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le bien sort du champ de déduction ; c'est l'inverse d'un dégrèvement ultérieur (art. 32 LTVA).",
+    "Faux : la double affectation (art. 30 LTVA) suppose un usage mixte simultané, pas un passage au privé.",
+    "Faux : aucune subvention n'est en cause ; l'art. 33 LTVA ne s'applique pas.",
+    "Exact : le passage à l'usage privé fait cesser le droit à déduction → prestation à soi-même (art. 31 al. 2 let. a LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M5-021",
+   "champ": "Changement d'affectation — Passage d'une activité exclue à imposable",
+   "memento": "art. 32 LTVA",
+   "question": "Un bien affecté jusqu'ici à une activité exclue (sans déduction) est désormais utilisé pour une activité imposable donnant droit à déduction. Comment qualifier l'opération ?",
+   "options": [
+    "Dégrèvement ultérieur",
+    "Prestation à soi-même",
+    "Exclusion du droit à déduction",
+    "Correction pour double affectation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le bien entre dans le champ donnant droit à déduction → dégrèvement ultérieur (art. 32 LTVA).",
+    "Faux : le bien entre dans le champ (récupération) ; la prestation à soi-même vise la sortie (art. 31 LTVA).",
+    "Faux : l'exclusion du droit (art. 29 LTVA) est l'inverse : ici le droit s'ouvre.",
+    "Faux : la double affectation (art. 30 LTVA) suppose un usage mixte simultané, non un basculement dans le temps."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-022",
+   "champ": "Changement d'affectation — Immeuble d'exploitation — dépenses à corriger",
+   "memento": "art. 31 LTVA",
+   "question": "Müller SA a construit un immeuble d'exploitation il y a 8 ans, avec depuis des dépenses maintenant ET augmentant la valeur. En 2024, elle loue une partie de l'immeuble sans option. Quels impôts préalables doit-elle corriger ?",
+   "options": [
+    "Les impôts préalables à utilisation mixte uniquement",
+    "Les impôts préalables des dépenses maintenant la valeur",
+    "Aucune correction n'est nécessaire",
+    "Les impôts préalables des dépenses augmentant la valeur"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la correction ne se limite pas aux impôts à usage mixte ; ce sont les dépenses augmentant la valeur qui sont visées (art. 31 LTVA).",
+    "Faux : les dépenses maintenant la valeur (entretien) ne sont pas pertinentes pour le changement d'affectation (art. 31 LTVA).",
+    "Faux : la mise en location sans option fait sortir une part du champ ; une correction est due (art. 31 LTVA).",
+    "Exact : seules les dépenses augmentant la valeur (et l'investissement initial) sont corrigées lors d'un changement d'affectation (art. 31 LTVA ; cf. Cas 10)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-023",
+   "champ": "Changement d'affectation — Écriture comptable — prestation à soi-même",
+   "memento": "art. 31 LTVA",
+   "question": "Quelle écriture comptable traduit une prestation à soi-même (reversement de TVA autrefois déduite) ?",
+   "options": [
+    "Débit TVA impôt préalable / Crédit produit",
+    "Débit Prélèvement privé (correction d'impôt préalable) / Crédit TVA due envers l'AFC",
+    "Débit TVA due / Crédit Prélèvement privé",
+    "Débit Charge de personnel / Crédit TVA impôt préalable"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : cette écriture augmenterait l'impôt préalable, alors que la prestation à soi-même crée une dette de TVA (art. 31 LTVA).",
+    "Exact : la prestation à soi-même crée une dette envers l'AFC : débit Prélèvement privé (correction d'impôt préalable) / crédit TVA due (art. 31 LTVA).",
+    "Faux : le sens des comptes est inversé ; la TVA due se crédite, le prélèvement privé se débite (art. 31 LTVA).",
+    "Faux : aucune charge de personnel n'est en cause ; il s'agit d'un prélèvement privé et d'une TVA due (art. 31 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-024",
+   "champ": "Changement d'affectation — Écriture comptable — dégrèvement ultérieur",
+   "memento": "art. 32 LTVA",
+   "question": "Quelle écriture comptable traduit un dégrèvement ultérieur (récupération de TVA jamais déduite) ?",
+   "options": [
+    "Débit TVA impôt préalable (créance envers l'AFC) / Crédit Réduction de charge (produit)",
+    "Débit Prélèvement privé / Crédit TVA due",
+    "Débit Produit / Crédit TVA impôt préalable",
+    "Débit TVA due / Crédit TVA impôt préalable"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le dégrèvement crée une créance envers l'AFC : débit TVA impôt préalable / crédit Réduction de charge (produit) (art. 32 LTVA).",
+    "Faux : cette écriture (prélèvement privé / TVA due) traduit une prestation à soi-même, de sens opposé (art. 31 LTVA).",
+    "Faux : le sens est inversé ; l'impôt préalable se débite (créance), il ne se crédite pas (art. 32 LTVA).",
+    "Faux : il ne s'agit pas d'une compensation TVA due / impôt préalable, mais d'une créance nouvelle envers l'AFC (art. 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-025",
+   "champ": "Changement d'affectation — Cas Strasser 8a — camping-car privé",
+   "memento": "art. 31 LTVA",
+   "question": "A. Strasser acquiert en novembre 2023 un camping-car pour CHF 85 000 + 7,7 % de TVA (impôt préalable CHF 6 545), déduit car le véhicule est loué. Au printemps 2026, il l'affecte à son usage privé. Amortissement admis 60 %. Quelle est l'incidence TVA ?",
+   "options": [
+    "Dégrèvement ultérieur de CHF 2 618 récupérables",
+    "Prestation à soi-même de CHF 6 545 à reverser",
+    "Aucune incidence, le véhicule reste dans l'entreprise",
+    "Prestation à soi-même de CHF 2 618 à reverser à l'AFC"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'usage privé fait sortir du champ (reversement) ; ce n'est pas un dégrèvement (art. 32 LTVA).",
+    "Faux : on ne reverse pas 6 545 ; l'amortissement de 60 % ramène la base à 2 618 (art. 31 al. 3 LTVA).",
+    "Faux : le passage au privé a bien une incidence : une prestation à soi-même est due (art. 31 LTVA).",
+    "Exact : l'usage privé fait cesser le droit → prestation à soi-même : 6 545 − 60 % = CHF 2 618 à reverser (art. 31 al. 2 let. a et al. 3 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-026",
+   "champ": "Changement d'affectation — Cas Strasser 8b — camping-car dégrèvement",
+   "memento": "art. 32 LTVA",
+   "question": "A. Strasser a acquis en février 2022 un autre camping-car pour CHF 91 545 (TVA 7,7 % comprise, impôt préalable CHF 6 545 NON déduit car affecté aux cours de conduite exclus). Au printemps 2026, le véhicule sert à une activité donnant droit à déduction. Amortissement admis 80 %. Incidence TVA ?",
+   "options": [
+    "Prestation à soi-même de CHF 1 309 à reverser",
+    "Dégrèvement ultérieur de CHF 6 545 récupérables",
+    "Aucune incidence",
+    "Dégrèvement ultérieur de CHF 1 309 récupérables"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'activité ouvre le droit (récupération) ; ce n'est pas une prestation à soi-même (art. 31 LTVA).",
+    "Faux : on ne récupère pas 6 545 ; l'amortissement de 80 % (4 ans) ramène la base à 1 309 (art. 32 al. 2 LTVA).",
+    "Faux : l'entrée dans le champ déductible a une incidence : un dégrèvement est ouvert (art. 32 LTVA).",
+    "Exact : l'activité donne désormais droit → dégrèvement : 6 545 − 80 % (4 ans × 20 %) = 6 545 × 20 % = CHF 1 309 récupérables (art. 32 al. 1 et 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-027",
+   "champ": "Changement d'affectation — Calcul amortissement mobilier — reversement",
+   "memento": "art. 31 LTVA",
+   "question": "Un bien mobilier a généré CHF 6 545 d'impôt préalable déduit ; il passe à l'usage privé après 3 années d'utilisation (amortissement 20 %/an). Quel montant de prestation à soi-même faut-il reverser ?",
+   "options": [
+    "CHF 1 309",
+    "CHF 2 618",
+    "CHF 3 927",
+    "CHF 5 236"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 1 309 correspond à 20 % de valeur résiduelle (4 ans), non à 3 ans (art. 31 LTVA).",
+    "Exact : 3 ans × 20 % = 60 % amorti ; valeur résiduelle 40 % ; 6 545 × 40 % = CHF 2 618 à reverser (art. 31 LTVA).",
+    "Faux : CHF 3 927 correspond aux 60 % amortis, non à la valeur résiduelle reversée (art. 31 al. 3 LTVA).",
+    "Faux : CHF 5 236 correspondrait à 80 % de la base, sans lien avec 3 ans d'amortissement (art. 31 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-028",
+   "champ": "Changement d'affectation — Calcul amortissement mobilier — dégrèvement",
+   "memento": "art. 32 LTVA",
+   "question": "Un bien mobilier a supporté CHF 6 545 d'impôt préalable jamais déduit ; il entre dans une activité donnant droit à déduction après 4 années d'utilisation (amortissement 20 %/an). Quel dégrèvement ultérieur peut être réclamé ?",
+   "options": [
+    "CHF 1 309",
+    "CHF 2 618",
+    "CHF 5 236",
+    "CHF 6 545"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 4 ans × 20 % = 80 % amorti ; valeur résiduelle 20 % ; 6 545 × 20 % = CHF 1 309 récupérables (art. 32 LTVA).",
+    "Faux : CHF 2 618 correspond à 40 % de valeur résiduelle (3 ans), non à 4 ans (art. 32 al. 2 LTVA).",
+    "Faux : CHF 5 236 correspondrait à 80 % de la base, alors que 80 % est amorti (art. 32 LTVA).",
+    "Faux : on ne récupère pas la totalité ; l'amortissement de 80 % réduit la base (art. 32 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-029",
+   "champ": "Changement d'affectation — Librairie Schiller — stock à l'assujettissement",
+   "memento": "art. 32 LTVA",
+   "question": "La librairie Schiller acquiert en septembre 2025 un stock de livres (TVA 2,6 % incluse) alors qu'elle n'est pas assujettie ; elle s'inscrit au registre TVA le 1er janvier 2026, les livres étant encore invendus. Quel est le traitement ?",
+   "options": [
+    "Prestation à soi-même sur la valeur des livres",
+    "Dégrèvement ultérieur, sur les seuls livres non vendus, SANS amortissement (biens non utilisés)",
+    "Dégrèvement ultérieur avec amortissement de 20 %",
+    "Aucune déduction possible avant la revente"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'assujettissement fait entrer les livres dans le champ (récupération), ce n'est pas une prestation à soi-même (art. 31 LTVA).",
+    "Exact : à l'assujettissement, dégrèvement ultérieur sur les livres invendus, base = TVA encourue à l'achat, sans amortissement car non utilisés (art. 32 LTVA).",
+    "Faux : les livres n'ayant pas été utilisés, aucun amortissement de 20 % ne s'applique (art. 32 al. 2 LTVA).",
+    "Faux : le dégrèvement est ouvert dès l'assujettissement, sans attendre la revente (art. 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-030",
+   "champ": "Changement d'affectation — Cas 10 — transfert immobilier",
+   "memento": "art. 31 LTVA",
+   "question": "Y vend en 2026, sans option, un immeuble donnant entièrement droit à déduction. Un étage ajouté en 2015 avait généré CHF 640 000 d'impôt préalable, entièrement déduit ; l'amortissement immobilier atteint 11/20. Quel est le montant de la prestation à soi-même du vendeur ?",
+   "options": [
+    "CHF 640 000",
+    "CHF 352 000",
+    "CHF 288 000",
+    "CHF 0"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : on ne reverse pas la totalité ; l'amortissement de 11/20 réduit la base (art. 31 LTVA).",
+    "Faux : CHF 352 000 correspond à la part amortie (11/20), non à la valeur résiduelle reversée (art. 31 LTVA).",
+    "Exact : vente sans option → perte du droit → prestation à soi-même sur la valeur résiduelle : 640 000 − 352 000 (11/20) = CHF 288 000 (art. 31 LTVA ; cf. art. 71 et 74 OTVA).",
+    "Faux : la valeur résiduelle n'est pas nulle après 11/20 d'amortissement ; il reste 288 000 à reverser (art. 31 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-031",
+   "champ": "Changement d'affectation — Logistique SA — assainissement immeuble",
+   "memento": "art. 32 LTVA",
+   "question": "Logistique SA a investi en 2022 (assainissement augmentant la valeur, CHF 600 000 + 7,7 % TVA) et n'a déduit que 75 % de l'impôt préalable (25 % refusés faute d'option pour la division auto-école). Dès 2024, elle abandonne l'auto-école pour ne faire que du transport. Quelle est l'incidence TVA ?",
+   "options": [
+    "Prestation à soi-même de CHF 31 185 à reverser",
+    "Prestation à soi-même de CHF 6 930 à reverser",
+    "Dégrèvement ultérieur de CHF 6 930 récupérables",
+    "Dégrèvement ultérieur de CHF 10 395 récupérables"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'abandon de l'auto-école fait entrer la part exclue dans le champ (récupération), non un reversement (art. 32 LTVA).",
+    "Faux : le sens (prestation à soi-même) est erroné et le montant ne correspond pas au dégrèvement dû (art. 32 LTVA).",
+    "Faux : le sens est correct (dégrèvement) mais le montant CHF 6 930 ne tient pas compte du calcul complet de la valeur résiduelle (art. 32 LTVA).",
+    "Exact : la part exclue (25 %, CHF 11 550) entre dans le champ → dégrèvement ultérieur sous déduction de l'amortissement → CHF 10 395 récupérables (art. 32 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-032",
+   "champ": "Changement d'affectation — Starting Sàrl — nouvel assujettissement",
+   "memento": "art. 32 LTVA",
+   "question": "Starting Sàrl vient d'être assujettie à la TVA. Un changement d'affectation est-il possible sur les biens détenus au moment de l'assujettissement ?",
+   "options": [
+    "Oui, une prestation à soi-même est possible si elle décompte en méthode effective",
+    "Oui, un dégrèvement ultérieur est possible si elle décompte en méthode effective",
+    "Oui, un dégrèvement ultérieur est possible si elle décompte selon les taux de la dette fiscale nette (TDFN)",
+    "Non, un nouvel assujettissement n'ouvre jamais de dégrèvement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le nouvel assujettissement fait entrer les biens dans le champ (récupération) ; c'est un dégrèvement, non une prestation à soi-même (art. 32 LTVA).",
+    "Exact : le nouvel assujettissement ouvre un dégrèvement ultérieur (art. 32 LTVA), possible uniquement en méthode effective.",
+    "Faux : sous les taux de la dette fiscale nette (TDFN), l'impôt préalable est déjà intégré forfaitairement ; aucun dégrèvement (art. 32 LTVA).",
+    "Faux : un nouvel assujettissement ouvre bien un dégrèvement en méthode effective (art. 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M5-033",
+   "champ": "Changement d'affectation — Immeuble revendu sans option — qualification",
+   "memento": "art. 31 LTVA",
+   "question": "Müller SA avait récupéré CHF 330 000 d'impôt préalable (immeuble acheté avec option en 2012) ; elle le revend sans option en 2024. Comment qualifier cette vente ?",
+   "options": [
+    "Dégrèvement ultérieur",
+    "Double affectation",
+    "Prestation à soi-même sur la valeur résiduelle",
+    "Réduction pour subvention"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la vente sans option fait sortir du champ (reversement) ; ce n'est pas un dégrèvement (art. 32 LTVA).",
+    "Faux : la double affectation (art. 30 LTVA) suppose un usage mixte simultané, pas une revente.",
+    "Exact : la vente sans option fait cesser le droit → prestation à soi-même sur la valeur résiduelle (après 12 ans à 5 %/an) (art. 31 LTVA).",
+    "Faux : aucune subvention n'est en cause ; l'art. 33 LTVA ne s'applique pas."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-034",
+   "champ": "Changement d'affectation — TDFN — pas de prestation à soi-même",
+   "memento": "art. 31 LTVA",
+   "question": "Le coiffeur Antoine Richard cesse son activité et transfère son stock de produits dans son patrimoine privé ; il a toujours décompté selon la méthode des taux de la dette fiscale nette (TDFN). Quelle conséquence TVA ?",
+   "options": [
+    "Il n'a rien à déclarer au titre de la prestation à soi-même",
+    "Une prestation à soi-même au taux normal est due",
+    "Un dégrèvement ultérieur lui est ouvert",
+    "Il doit reverser 100 % de l'impôt préalable initial"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : sous la méthode TDFN, l'impôt préalable est déjà pris en compte forfaitairement ; aucune prestation à soi-même n'est due au transfert dans le patrimoine privé (art. 31 LTVA a contrario).",
+    "Faux : aucune prestation à soi-même n'est due sous TDFN, l'impôt préalable étant intégré au taux forfaitaire (art. 31 LTVA).",
+    "Faux : le transfert au privé fait sortir du champ ; un dégrèvement (entrée) n'a aucun sens ici (art. 32 LTVA).",
+    "Faux : rien n'est à reverser sous TDFN ; l'impôt préalable a déjà été neutralisé forfaitairement (art. 31 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-035",
+   "champ": "Changement d'affectation — Immeuble — valeur résiduelle chiffrée",
+   "memento": "art. 31 LTVA",
+   "question": "Müller SA avait récupéré CHF 330 000 d'impôt préalable sur un immeuble ; elle le revend sans option après 12 années écoulées (amortissement immobilier 5 %/an). Quel montant de prestation à soi-même doit-elle reverser ?",
+   "options": [
+    "CHF 330 000",
+    "CHF 198 000",
+    "CHF 132 000",
+    "CHF 0"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : on ne reverse pas la totalité ; l'amortissement de 60 % (12 ans × 5 %) réduit la base (art. 31 LTVA).",
+    "Faux : CHF 198 000 correspond aux 60 % amortis, non à la valeur résiduelle reversée (art. 31 LTVA).",
+    "Exact : 12 ans × 5 % = 60 % amorti ; valeur résiduelle 40 % ; 330 000 × 40 % = CHF 132 000 à reverser (art. 31 LTVA).",
+    "Faux : la valeur résiduelle n'est pas nulle après 60 % d'amortissement ; il reste 132 000 (art. 31 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-036",
+   "champ": "Changement d'affectation — Stock à l'assujettissement — sans amortissement",
+   "memento": "art. 32 LTVA",
+   "question": "Une entreprise s'assujettit et détient un stock de marchandises acheté récemment, encore ni utilisé ni vendu. Quel traitement pour l'impôt préalable de ce stock ?",
+   "options": [
+    "Dégrèvement ultérieur sur la valeur pleine, sans amortissement (biens non encore utilisés)",
+    "Prestation à soi-même sur la valeur du stock",
+    "Dégrèvement ultérieur avec amortissement de 20 %",
+    "Aucun droit tant que le stock n'est pas vendu"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : dégrèvement ultérieur sur la valeur pleine (TVA encourue à l'achat), sans amortissement car les biens n'ont pas été utilisés (art. 32 LTVA).",
+    "Faux : l'assujettissement fait entrer le stock dans le champ (récupération), non une prestation à soi-même (art. 31 LTVA).",
+    "Faux : le stock n'ayant pas été utilisé, aucun amortissement de 20 % ne s'applique (art. 32 al. 2 LTVA).",
+    "Faux : le dégrèvement est ouvert dès l'assujettissement, sans attendre la vente (art. 32 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-037",
+   "champ": "Changement d'affectation — Piège — sens opposés art. 31 / 32",
+   "memento": "art. 31 et 32 LTVA",
+   "question": "Quelle affirmation est FAUSSE ?",
+   "options": [
+    "La prestation à soi-même (art. 31) fait reverser à l'AFC la TVA autrefois déduite",
+    "Le dégrèvement ultérieur (art. 32) fait récupérer une TVA jamais déduite",
+    "Prestation à soi-même et dégrèvement ultérieur jouent dans le même sens et aboutissent tous deux à un reversement",
+    "Les deux mécanismes tiennent compte d'un amortissement"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : cette affirmation est vraie (la prestation à soi-même reverse, art. 31 LTVA), ce n'est donc pas la réponse.",
+    "Faux : cette affirmation est vraie (le dégrèvement récupère, art. 32 LTVA), ce n'est donc pas la réponse.",
+    "Exact : c'est l'affirmation fausse — les deux mécanismes jouent en sens OPPOSÉS (reverser art. 31 vs récupérer art. 32), non dans le même sens.",
+    "Faux : cette affirmation est vraie (les deux tiennent compte d'un amortissement, art. 31 al. 3 / 32 al. 2 LTVA), ce n'est donc pas la réponse."
+   ],
+   "piege": "Sens opposés art. 31 / 32",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-038",
+   "champ": "Changement d'affectation — Piège — correction (art. 30) vs changement",
+   "memento": "art. 30 LTVA",
+   "question": "Quelle distinction est correcte entre la correction pour double affectation et le changement d'affectation ?",
+   "options": [
+    "Les deux visent exactement la même situation",
+    "La double affectation (art. 30) vise un usage mixte SIMULTANÉ ; le changement d'affectation (art. 31/32) vise une modification de l'usage DANS LE TEMPS",
+    "La double affectation vise un changement dans le temps ; le changement d'affectation vise un usage simultané",
+    "Le changement d'affectation ne concerne que les subventions"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les deux notions visent des situations différentes (usage simultané vs modification dans le temps) (art. 30 vs 31/32 LTVA).",
+    "Exact : la double affectation (art. 30 LTVA) vise un usage mixte SIMULTANÉ ; le changement d'affectation (art. 31/32 LTVA) vise une modification de l'usage DANS LE TEMPS.",
+    "Faux : les deux notions sont inversées ; la double affectation est simultanée et le changement s'opère dans le temps (art. 30 vs 31/32 LTVA).",
+    "Faux : le changement d'affectation ne se limite pas aux subventions (celles-ci relèvent de l'art. 33 LTVA)."
+   ],
+   "piege": "Double affectation (art. 30) vs changement d'affectation",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M5-039",
+   "champ": "Changement d'affectation — Piège — TDFN vs méthode effective",
+   "memento": "art. 31 / 32 LTVA",
+   "question": "Un dégrèvement ultérieur (ou une prestation à soi-même) lié à un changement d'affectation est-il possible sous la méthode des taux de la dette fiscale nette (TDFN) ?",
+   "options": [
+    "Oui, dans les mêmes conditions qu'en méthode effective",
+    "Oui, mais uniquement pour les biens immobiliers",
+    "Non, jamais, même en méthode effective",
+    "Non : ces corrections ne s'opèrent qu'en méthode effective, la TDFN intégrant déjà forfaitairement l'impôt préalable"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : sous TDFN, ces corrections ne sont pas possibles ; elles n'existent qu'en méthode effective (art. 31 / 32 LTVA).",
+    "Faux : la restriction ne tient pas au type de bien ; sous TDFN aucune correction (mobilier ou immobilier) n'est ouverte (art. 31 / 32 LTVA).",
+    "Faux : ces corrections existent bien en méthode effective ; elles ne sont exclues que sous TDFN (art. 31 / 32 LTVA).",
+    "Exact : ces corrections ne s'opèrent qu'en méthode effective ; la TDFN intègre déjà forfaitairement l'impôt préalable (art. 31 / 32 LTVA)."
+   ],
+   "piege": "TDFN vs méthode effective",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M5-040",
+   "champ": "Changement d'affectation — Conservation des justificatifs immobiliers",
+   "memento": "art. 70 al. 3 LTVA",
+   "question": "Combien de temps faut-il conserver les justificatifs liés à la TVA en rapport avec des biens IMMOBILIERS ?",
+   "options": [
+    "5 ans",
+    "10 ans",
+    "En fonction de l'appréciation économique",
+    "20 ans"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le délai de 5 ans (art. 70 al. 2 LTVA) vaut pour les justificatifs ordinaires, pas pour les biens immobiliers.",
+    "Faux : aucun délai de 10 ans n'est prévu pour les justificatifs TVA immobiliers (art. 70 al. 3 LTVA).",
+    "Faux : le délai est fixe (20 ans), non laissé à l'appréciation économique (art. 70 al. 3 LTVA).",
+    "Exact : les justificatifs TVA relatifs aux biens immobiliers se conservent 20 ans, aligné sur la période d'ajustement (art. 70 al. 3 LTVA)."
+   ],
+   "piege": "Conservation 20 ans (immeubles)",
+   "difficulte": 2,
+   "source": "generated"
+  }
+ ]
+}

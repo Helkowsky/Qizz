@@ -1,0 +1,1804 @@
+{
+ "cours": "tva",
+ "module": "M4",
+ "titre": "Impôt préalable & corrections",
+ "questions": [
+  {
+   "id": "M4-001",
+   "champ": "Impôt préalable — principe — Notion d'impôt préalable",
+   "memento": "art. 28 al. 1 LTVA",
+   "question": "Qu'est-ce que l'impôt préalable au sens de la LTVA ?",
+   "options": [
+    "La TVA que l'entreprise facture à ses clients et doit reverser à l'AFC",
+    "Un acompte forfaitaire versé d'avance à l'AFC en début de période fiscale",
+    "La TVA que l'entreprise a déjà payée sur ses achats, importations et prestations reçues, et qu'elle peut récupérer auprès de l'AFC",
+    "La différence entre la TVA encaissée et la TVA due après application du taux de la dette fiscale nette"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : c'est l'impôt sur le chiffre d'affaires facturé aux clients, non l'impôt préalable (art. 27 al. 2 LTVA).",
+    "Faux : l'impôt préalable n'est pas un acompte versé d'avance mais la TVA déjà payée en amont (art. 28 al. 1 LTVA).",
+    "Exact : l'impôt préalable est la TVA déjà acquittée en amont sur achats, importations et prestations reçues, récupérable auprès de l'AFC (art. 28 al. 1 LTVA).",
+    "Faux : cela décrit le solde du décompte en méthode TDFN, non la notion d'impôt préalable."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-002",
+   "champ": "Impôt préalable — principe — Conditions matérielles",
+   "memento": "art. 28 al. 1 LTVA",
+   "question": "En quoi consiste la condition matérielle du droit à la déduction de l'impôt préalable ?",
+   "options": [
+    "L'impôt préalable doit concerner l'activité entrepreneuriale donnant droit à déduction",
+    "L'assujetti doit détenir une facture papier signée par le fournisseur",
+    "Le chiffre d'affaires annuel doit dépasser CHF 100 000",
+    "La déduction doit être annoncée à l'AFC dans les 30 jours"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la condition matérielle exige que l'impôt préalable se rapporte à l'activité entrepreneuriale donnant droit à déduction (art. 28 al. 1 LTVA).",
+    "Faux : la détention d'une preuve relève de la condition formelle, non matérielle (art. 28 al. 3 LTVA).",
+    "Faux : le seuil de CHF 100 000 concerne l'assujettissement, non la déduction.",
+    "Faux : aucun délai de 30 jours ne conditionne la déduction (ce délai vise l'annonce d'assujettissement)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-003",
+   "champ": "Impôt préalable — principe — Conditions formelles / preuve",
+   "memento": "art. 28 al. 3 LTVA",
+   "question": "Quelle est la condition formelle du droit à la déduction de l'impôt préalable ?",
+   "options": [
+    "Que le fournisseur soit lui-même assujetti à la TVA en Suisse",
+    "Que l'assujetti prouve avoir réglé l'impôt, la charge de la preuve lui incombant",
+    "Que la dépense soit majoritairement affectée à des prestations imposables",
+    "Que la facture porte un montant supérieur à CHF 400"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la déduction dépend de la preuve du paiement, non de l'assujettissement du fournisseur (art. 28 al. 3 LTVA).",
+    "Exact : la condition formelle impose à l'assujetti de prouver qu'il a réglé l'impôt, la charge de la preuve lui incombant (art. 28 al. 3 LTVA, art. 59 al. 2 OTVA).",
+    "Faux : l'affectation aux prestations imposables relève des conditions matérielles, non formelles (art. 28 al. 1 LTVA).",
+    "Faux : aucun seuil de CHF 400 ne conditionne la preuve formelle du droit à déduction."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-004",
+   "champ": "Impôt préalable — principe — Conditions formelles / preuve",
+   "memento": "art. 81 al. 3 LTVA",
+   "question": "Selon quel principe l'AFC apprécie-t-elle les preuves du droit à la déduction de l'impôt préalable ?",
+   "options": [
+    "Le principe de la preuve littérale exclusive",
+    "Le principe de la présomption automatique en faveur de l'assujetti",
+    "Le principe de la preuve par expertise obligatoire",
+    "Le principe de la libre appréciation des preuves"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'AFC n'est pas liée à un moyen de preuve formel unique (art. 81 al. 3 LTVA).",
+    "Faux : la charge de la preuve des éléments diminuant l'impôt incombe à l'assujetti (art. 28 al. 3 LTVA).",
+    "Faux : aucune expertise obligatoire n'est requise ; les preuves sont librement appréciées (art. 81 al. 3 LTVA).",
+    "Exact : l'art. 81 al. 3 LTVA consacre la libre appréciation des preuves par l'AFC."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-005",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a al. 1 LTVA",
+   "question": "À quelle condition la déduction de l'impôt préalable fictive de l'art. 28a al. 1 LTVA est-elle applicable ?",
+   "options": [
+    "Lorsqu'un bien neuf est acquis avec une facture mentionnant la TVA",
+    "Lorsqu'un assujetti acquiert un bien mobilier identifiable d'occasion sans que la TVA n'ait été répercutée, pour son activité donnant droit à déduction",
+    "Lorsqu'un service est reçu d'un prestataire établi à l'étranger",
+    "Lorsqu'une subvention publique finance l'achat d'un bien"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : si la TVA figure sur la facture, c'est la déduction ordinaire qui s'applique (art. 28 al. 1 LTVA).",
+    "Exact : la déduction fictive vise le bien mobilier identifiable d'occasion acquis sans TVA répercutée, pour l'activité donnant droit à déduction (art. 28a al. 1 LTVA).",
+    "Faux : un service de l'étranger relève de l'impôt sur les acquisitions, non de la déduction fictive (art. 28a al. 1 LTVA).",
+    "Faux : une subvention n'ouvre pas la déduction fictive, réservée à l'acquisition d'un bien d'occasion sans TVA (art. 28a al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-006",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Que prévoit le régime des produits naturels de l'art. 28 al. 2 LTVA ?",
+   "options": [
+    "Une exonération totale de TVA sur la revente des produits agricoles",
+    "Une déduction au taux normal extraite du prix TTC",
+    "Un forfait de 2,6 % du montant facturé, déductible lors de l'achat de produits agricoles, sylvicoles, horticoles, de bétail ou de lait à des producteurs non assujettis",
+    "L'application de l'imposition de la marge sur ces produits"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le régime n'exonère pas la revente ; il octroie un forfait déductible à l'achat (art. 28 al. 2 LTVA).",
+    "Faux : le taux normal extrait du TTC vise la déduction fictive (art. 28a) ; les produits naturels donnent un forfait de 2,6 %.",
+    "Exact : forfait de 2,6 % du montant facturé, déductible à l'achat de produits agricoles, sylvicoles, horticoles, de bétail ou de lait à des producteurs non assujettis (art. 28 al. 2 LTVA).",
+    "Faux : l'imposition de la marge vise les objets de collection (art. 24a), pas les produits naturels."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-007",
+   "champ": "Impôt préalable — principe — Conditions formelles / preuve",
+   "memento": "art. 28 al. 3 LTVA",
+   "question": "Comment se prouve, selon leur nature, chacune des trois catégories d'impôt préalable de l'art. 28 al. 1 LTVA ?",
+   "options": [
+    "Impôt sur les opérations en Suisse : par une facture ; impôt sur les acquisitions : par le montant déclaré ; impôt sur les importations : par la décision de taxation de l'OFDF",
+    "Toutes les catégories : uniquement par une facture papier du fournisseur",
+    "Impôt sur les opérations en Suisse : par la décision de l'OFDF ; les importations : par une simple attestation bancaire",
+    "Toutes les catégories : par une déclaration sur l'honneur de l'assujetti"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : opérations en Suisse prouvées par la facture, acquisitions par le montant déclaré, importations par la décision de taxation de l'OFDF (art. 28 al. 3 LTVA, art. 59 OTVA).",
+    "Faux : acquisitions et importations se prouvent respectivement par le montant déclaré et la décision de l'OFDF, non par une facture (art. 59 OTVA).",
+    "Faux : la décision de l'OFDF prouve les importations, non les opérations en Suisse ; une attestation bancaire ne suffit pas (art. 59 OTVA).",
+    "Faux : une simple déclaration sur l'honneur ne prouve aucune des trois catégories (art. 28 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-008",
+   "champ": "Impôt préalable — principe — Symétrie facturation / reversement",
+   "memento": "art. 27 al. 2 LTVA",
+   "question": "Quel principe justifie, en miroir, que le destinataire d'une prestation puisse déduire la TVA facturée ?",
+   "options": [
+    "Toute TVA facturée est automatiquement remboursée au fournisseur par l'AFC",
+    "La TVA facturée est facultative pour le fournisseur",
+    "La TVA facturée n'est due qu'au-delà de CHF 250 000 de chiffre d'affaires",
+    "Quiconque facture la TVA doit la reverser à l'AFC"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la TVA facturée est due à l'AFC par le fournisseur, non remboursée (art. 27 al. 2 LTVA).",
+    "Faux : quiconque facture la TVA doit la reverser ; elle n'est pas facultative (art. 27 al. 2 LTVA).",
+    "Faux : la TVA mentionnée sur facture est due sans seuil de chiffre d'affaires (art. 27 al. 2 LTVA).",
+    "Exact : quiconque mentionne la TVA sur une facture doit la reverser à l'AFC, ce qui justifie la déduction en miroir (art. 27 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-009",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Quel taux forfaitaire d'impôt préalable s'applique à l'achat de produits naturels auprès d'un producteur non assujetti (en 2026) ?",
+   "options": [
+    "8,1 % du montant facturé",
+    "2,6 % du montant facturé",
+    "3,8 % du montant facturé",
+    "2,5 % du montant facturé"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 8,1 % est le taux normal de la déduction fictive (art. 28a), pas le forfait des produits naturels.",
+    "Exact : forfait de 2,6 % du montant facturé depuis le 1.1.2024 (art. 28 al. 2 LTVA).",
+    "Faux : 3,8 % ne correspond pas au forfait des produits naturels, qui est de 2,6 % (art. 28 al. 2 LTVA).",
+    "Faux : 2,5 % était l'ancien forfait jusqu'au 31.12.2023, porté à 2,6 % depuis (art. 28 al. 2 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-010",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a al. 1 LTVA",
+   "question": "Quel taux s'applique pour calculer la déduction de l'impôt préalable fictive sur un bien mobilier d'occasion (art. 28a LTVA) ?",
+   "options": [
+    "Le taux normal de 8,1 %",
+    "Le forfait de 2,6 %",
+    "Le taux spécial de 3,8 %",
+    "Le taux réduit de 2,6 % sur les produits naturels"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la déduction fictive se calcule au taux normal de 8,1 % (art. 28a al. 1 LTVA).",
+    "Faux : le forfait de 2,6 % vise les produits naturels (art. 28 al. 2), non la déduction fictive.",
+    "Faux : le taux spécial de 3,8 % ne s'applique pas à la déduction fictive, qui utilise le taux normal (art. 28a LTVA).",
+    "Faux : le taux réduit de 2,6 % relève du régime distinct des produits naturels (art. 28 al. 2), pas de la déduction fictive."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-011",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a LTVA",
+   "question": "Sur quelle base le taux de 8,1 % est-il extrait pour calculer la déduction fictive d'un bien d'occasion repris ?",
+   "options": [
+    "Sur le prix hors taxe, réputé représenter 100 %",
+    "Sur la valeur d'assurance du bien",
+    "Sur le prix repris, réputé TVA comprise et représentant 108,1 %",
+    "Sur la marge entre prix d'achat et prix de revente"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le prix repris est réputé TVA comprise (108,1 %), non hors taxe (art. 28a LTVA).",
+    "Faux : la base est le prix repris réputé TTC, non la valeur d'assurance (art. 28a LTVA).",
+    "Exact : le prix repris est réputé TVA comprise (108,1 %), l'impôt s'extrayant par prix × 8,1 / 108,1 (art. 28a LTVA).",
+    "Faux : l'imposition de la marge (prix d'achat vs revente) vise les objets de collection (art. 24a), pas la déduction fictive."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-012",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Quel était le forfait d'impôt préalable sur les produits naturels jusqu'au 31 décembre 2023 ?",
+   "options": [
+    "2,6 %",
+    "8,1 %",
+    "7,7 %",
+    "2,5 %"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 2,6 % est le forfait depuis le 1.1.2024, non celui d'avant (art. 28 al. 2 LTVA).",
+    "Faux : 8,1 % est le taux normal (déduction fictive), pas le forfait des produits naturels (art. 28 al. 2 LTVA).",
+    "Faux : 7,7 % ne correspond pas au forfait des produits naturels (art. 28 al. 2 LTVA).",
+    "Exact : le forfait était de 2,5 % jusqu'au 31.12.2023, porté à 2,6 % depuis (art. 28 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-013",
+   "champ": "Impôt préalable — principe — Participations qualifiées",
+   "memento": "art. 29 al. 3 LTVA",
+   "question": "À partir de quel seuil de détention parle-t-on de participation au sens de l'art. 29 al. 3 LTVA, ouvrant en principe la déduction de l'impôt préalable sur son acquisition et sa détention ?",
+   "options": [
+    "5 % au moins du capital d'une entreprise",
+    "10 % au moins du capital d'une entreprise",
+    "20 % au moins du capital d'une entreprise",
+    "50 % au moins du capital d'une entreprise"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil de participation est de 10 %, non 5 % (art. 29 al. 3 LTVA).",
+    "Exact : sont réputées participations les parts de 10 % au moins du capital, dont l'impôt préalable reste en principe déductible (art. 29 al. 3 et al. 2 LTVA).",
+    "Faux : le seuil est de 10 %, non 20 % (art. 29 al. 3 LTVA).",
+    "Faux : le seuil est de 10 %, non 50 % (art. 29 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-014",
+   "champ": "Impôt préalable — principe — Conditions matérielles",
+   "memento": "art. 28 al. 1 LTVA",
+   "question": "Quelle disposition pose les conditions matérielles générales de la déduction de l'impôt préalable (impôt sur les opérations en Suisse, sur les acquisitions, sur les importations) ?",
+   "options": [
+    "art. 28 al. 1 LTVA",
+    "art. 33 al. 2 LTVA",
+    "art. 24a LTVA",
+    "art. 22 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 28 al. 1 LTVA énumère les trois composantes déductibles (opérations en Suisse, acquisitions, importations).",
+    "Faux : l'art. 33 al. 2 vise la réduction pour subvention, non les conditions matérielles de déduction.",
+    "Faux : l'art. 24a régit l'imposition de la marge, non la déduction de l'impôt préalable.",
+    "Faux : l'art. 22 traite de l'option pour l'imposition, non des conditions de déduction."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-015",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a al. 1 LTVA",
+   "question": "Quelle disposition régit la déduction de l'impôt préalable fictive sur un bien mobilier identifiable acquis sans TVA répercutée ?",
+   "options": [
+    "art. 28 al. 2 LTVA",
+    "art. 29 al. 1 LTVA",
+    "art. 28a al. 1 LTVA",
+    "art. 31 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 28 al. 2 vise le régime des produits naturels (forfait 2,6 %), non la déduction fictive.",
+    "Faux : l'art. 29 règle l'exclusion du droit, non la déduction fictive.",
+    "Exact : l'art. 28a al. 1 LTVA régit la déduction fictive au taux normal sur un bien mobilier acquis sans TVA.",
+    "Faux : l'art. 31 vise la prestation à soi-même, non la déduction fictive."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-016",
+   "champ": "Impôt préalable — principe — Les quatre destins de l'impôt préalable",
+   "memento": "art. 29 LTVA",
+   "question": "Quelle disposition règle l'exclusion du droit à la déduction de l'impôt préalable ?",
+   "options": [
+    "art. 30 LTVA",
+    "art. 29 LTVA",
+    "art. 33 LTVA",
+    "art. 28a LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 30 vise la correction pour double affectation, non l'exclusion.",
+    "Exact : l'art. 29 LTVA règle l'exclusion du droit à déduction.",
+    "Faux : l'art. 33 vise la réduction pour subvention, non l'exclusion.",
+    "Faux : l'art. 28a régit la déduction fictive, non l'exclusion."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-017",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Peinture Sàrl, assujettie (méthode effective), achète des légumes à un agriculteur non assujetti pour le repas de Noël de l'entreprise ; la facture ne mentionne aucune TVA. Sur quelle base peut-elle malgré tout déduire un impôt préalable ?",
+   "options": [
+    "art. 28a LTVA — déduction de l'impôt préalable fictive au taux normal",
+    "Aucune : sans mention de TVA, aucune déduction n'est possible",
+    "art. 29 al. 1bis LTVA — prestation assimilée à une prestation optable",
+    "art. 28 al. 2 LTVA — forfait de 2,6 % sur l'achat de produits naturels à un producteur non assujetti"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 28a (déduction fictive au taux normal) est réservé aux biens mobiliers d'occasion identifiables, non aux légumes d'un producteur.",
+    "Faux : l'absence de TVA facturée n'empêche pas le forfait sur produits naturels (art. 28 al. 2 LTVA).",
+    "Faux : il ne s'agit pas d'une prestation optable mais d'un achat de produits naturels (art. 28 al. 2 LTVA).",
+    "Exact : l'achat de légumes à un producteur non assujetti ouvre le forfait de 2,6 % (art. 28 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-018",
+   "champ": "Impôt préalable — principe — Symétrie facturation / reversement",
+   "memento": "art. 27 al. 2 LTVA",
+   "question": "Quelle disposition impose que quiconque facture la TVA doive la reverser à l'AFC ?",
+   "options": [
+    "art. 27 al. 2 LTVA",
+    "art. 28 al. 3 LTVA",
+    "art. 81 al. 3 LTVA",
+    "art. 33 al. 1 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 27 al. 2 LTVA impose que toute mention de TVA sur une facture soit reversée à l'AFC.",
+    "Faux : l'art. 28 al. 3 concerne la preuve du paiement, non l'obligation de reverser.",
+    "Faux : l'art. 81 al. 3 vise la libre appréciation des preuves, non le reversement.",
+    "Faux : l'art. 33 al. 1 traite des non-contre-prestations sans effet sur la déduction, non du reversement."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-019",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a LTVA",
+   "question": "Un cabinet achète un appareil médical d'occasion à un centre de santé non assujetti, à des fins imposables ; la facture ne porte aucune TVA. Quel est le traitement TVA ?",
+   "options": [
+    "Aucune déduction : la facture ne mentionne pas de TVA",
+    "Déduction ordinaire de l'impôt préalable sur la TVA figurant sur la facture",
+    "Déduction de l'impôt préalable fictive au taux normal (art. 28a LTVA)",
+    "Forfait de 2,6 % au titre des produits naturels (art. 28 al. 2 LTVA)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'absence de TVA facturée n'empêche pas la déduction fictive (art. 28a LTVA).",
+    "Faux : sans TVA sur la facture, la déduction ordinaire (art. 28 al. 1) est impossible ; c'est la fictive qui s'applique.",
+    "Exact : bien mobilier identifiable d'occasion acquis sans TVA, à des fins imposables → déduction fictive au taux normal (art. 28a LTVA).",
+    "Faux : le forfait de 2,6 % (art. 28 al. 2) est réservé aux produits naturels, pas aux biens d'équipement."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-020",
+   "champ": "Impôt préalable — principe — Exclusion — objets de collection",
+   "memento": "art. 28a al. 3 LTVA",
+   "question": "Une entreprise achète une sculpture directement à une artiste non assujettie pour aménager sa salle de réception. Quel est le traitement au regard de la déduction de l'impôt préalable ?",
+   "options": [
+    "Déduction fictive au taux normal, comme pour un véhicule d'occasion",
+    "Forfait de 2,6 % au titre des produits naturels",
+    "Déduction ordinaire intégrale de l'impôt préalable",
+    "Aucune déduction fictive : les objets de collection relèvent de l'imposition de la marge"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un objet de collection est exclu de la déduction fictive, contrairement à un véhicule d'occasion (art. 28a al. 3 LTVA).",
+    "Faux : une sculpture n'est pas un produit naturel ; le forfait de 2,6 % ne s'applique pas (art. 28 al. 2 LTVA).",
+    "Faux : aucune TVA n'étant facturée par l'artiste non assujettie, il n'y a pas de déduction ordinaire.",
+    "Exact : les objets de collection sont exclus de la déduction fictive et relèvent de l'imposition de la marge (art. 28a al. 3 et art. 24a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-021",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Une entreprise achète 500 œufs à un éleveur non assujetti pour ses besoins entrepreneuriaux. Quelle qualification s'impose ?",
+   "options": [
+    "Aucune déduction, faute de motif entrepreneurial",
+    "Déduction d'un forfait de 2,6 % du montant facturé (produits naturels, art. 28 al. 2 LTVA)",
+    "Déduction fictive au taux normal (art. 28a LTVA)",
+    "Exclusion du droit à déduction (art. 29 LTVA)"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le motif entrepreneurial est présent et ouvre le forfait (art. 28 al. 2 LTVA).",
+    "Exact : des œufs d'un éleveur non assujetti sont des produits naturels ouvrant le forfait de 2,6 % (art. 28 al. 2 LTVA).",
+    "Faux : le taux normal (art. 28a) vise les biens mobiliers d'occasion, non les produits naturels.",
+    "Faux : il n'y a pas d'exclusion ; l'achat ouvre le forfait produits naturels (art. 28 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-022",
+   "champ": "Impôt préalable — principe — Conditions matérielles",
+   "memento": "art. 28 al. 1 LTVA",
+   "question": "Un garage achète des pièces (CHF 1 000 + TVA 81). Dans quel cas les CHF 81 sont-ils déductibles ?",
+   "options": [
+    "Lorsqu'il monte ces pièces sur des voitures de clients qu'il refacture avec TVA",
+    "Lorsqu'il monte ces pièces sur sa propre voiture privée",
+    "Dans les deux cas, l'achat étant grevé de TVA",
+    "Dans aucun cas, les pièces détachées étant exclues du droit à déduction"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les pièces montées sur des voitures refacturées avec TVA servent l'activité imposable et sont déductibles (art. 28 al. 1 LTVA).",
+    "Faux : un usage privé fait perdre le droit à déduction (art. 28 al. 1 LTVA a contrario).",
+    "Faux : l'usage privé exclut la déduction, malgré la TVA sur l'achat (art. 28 al. 1 LTVA).",
+    "Faux : les pièces détachées ne sont pas exclues par nature ; c'est l'usage qui détermine la déduction (art. 28 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-023",
+   "champ": "Impôt préalable — principe — Les quatre destins de l'impôt préalable",
+   "memento": "art. 29 LTVA",
+   "question": "Parmi les quatre destins possibles d'un montant d'impôt préalable, lequel aboutit à 0 % récupéré ?",
+   "options": [
+    "La déduction totale (art. 28 LTVA)",
+    "La correction pour double affectation (art. 30 LTVA)",
+    "L'exclusion du droit (art. 29 LTVA)",
+    "La réduction pour subvention (art. 33 LTVA)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la déduction totale donne 100 % récupéré, non 0 % (art. 28 LTVA).",
+    "Faux : la correction pour double affectation n'entraîne qu'un prorata, non 0 % (art. 30 LTVA).",
+    "Exact : l'exclusion du droit supprime intégralement la déduction, 0 % récupéré (art. 29 LTVA).",
+    "Faux : la réduction pour subvention n'entraîne qu'un prorata, non 0 % (art. 33 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-024",
+   "champ": "Impôt préalable — principe — Participations qualifiées",
+   "memento": "art. 29 al. 2-4 LTVA",
+   "question": "Une holding vend des titres (opération exclue) mais supporte de la TVA sur les honoraires liés à l'acquisition et à la détention d'une participation de 12 % dans une filiale. Cet impôt préalable est-il déductible ?",
+   "options": [
+    "Non : la vente de titres étant exclue, tout impôt préalable lié aux titres est exclu",
+    "Oui : s'agissant d'une participation qualifiée (≥ 10 %), l'impôt préalable reste en principe déductible (art. 29 al. 2-4 LTVA)",
+    "Oui, mais uniquement au forfait de 2,6 %",
+    "Non, sauf option volontaire pour l'imposition de la vente de titres"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : pour une participation qualifiée, l'impôt préalable reste en principe déductible malgré l'exclusion de la vente de titres (art. 29 al. 2-4 LTVA).",
+    "Exact : participation qualifiée (≥ 10 %) → l'impôt préalable sur acquisition et détention reste en principe déductible (art. 29 al. 2-4 LTVA).",
+    "Faux : le forfait de 2,6 % vise les produits naturels (art. 28 al. 2), pas les participations.",
+    "Faux : la déductibilité découle du régime des participations qualifiées, non d'une option sur la vente de titres (art. 29 al. 2-4 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-025",
+   "champ": "Impôt préalable — principe — Preuve insuffisante",
+   "memento": "art. 81 al. 3 LTVA",
+   "question": "Une holding se voit facturer CHF 20 000 de prestations administratives « sans détails ni pièces justificatives ». Quelle conséquence sur la déduction de l'impôt préalable ?",
+   "options": [
+    "La déduction est acquise, l'activité étant par ailleurs imposable",
+    "La déduction est admise pour moitié à titre de compromis",
+    "La déduction est reportée à la période fiscale suivante",
+    "La déduction est refusée, faute de preuve (art. 81 al. 3 LTVA)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : sans preuve, la déduction est refusée même si l'activité est imposable (art. 81 al. 3 LTVA).",
+    "Faux : aucun compromis de moitié ; la déduction est refusée faute de preuve (art. 28 al. 3 LTVA).",
+    "Faux : la déduction n'est pas reportée mais refusée, faute de preuve (art. 81 al. 3 LTVA).",
+    "Exact : sans détails ni pièces, la charge de la preuve n'est pas satisfaite et la déduction est refusée (art. 28 al. 3 et art. 81 al. 3 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-026",
+   "champ": "Impôt préalable — principe — Distinction fictive / produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Un vendeur non assujetti ne facture aucune TVA. Lequel de ces achats ouvre un forfait de 2,6 % (et non une déduction au taux normal) ?",
+   "options": [
+    "Du lait acquis auprès d'un centre collecteur non assujetti",
+    "Un véhicule d'occasion repris à un particulier",
+    "Un appareil médical d'occasion acheté à un centre de santé non assujetti",
+    "Une machine-outil d'occasion rachetée à un artisan non assujetti"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : seul le lait (produit naturel) d'un centre collecteur non assujetti ouvre le forfait de 2,6 % (art. 28 al. 2 LTVA).",
+    "Faux : un véhicule d'occasion relève de la déduction fictive au taux normal (art. 28a), non du forfait.",
+    "Faux : un appareil médical d'occasion relève de la déduction fictive au taux normal (art. 28a), non du forfait de 2,6 %.",
+    "Faux : une machine-outil d'occasion relève de la déduction fictive au taux normal (art. 28a), non du forfait de 2,6 %."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-027",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a LTVA",
+   "question": "Le garage F. Küng Sàrl reprend un véhicule d'occasion à un particulier pour CHF 4 500 (aucune TVA sur la reprise), à des fins imposables. Quel est le montant de la déduction fictive ?",
+   "options": [
+    "CHF 364.50",
+    "CHF 337.20",
+    "CHF 117.00",
+    "CHF 0"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : appliquer 8,1 % sur le brut (4 500 × 8,1 %) est le piège ; le prix est réputé TVA comprise (art. 28a LTVA).",
+    "Exact : 4 500 × 8,1 / 108,1 = CHF 337.20, le prix étant réputé TVA comprise (art. 28a LTVA).",
+    "Faux : CHF 117.00 ne correspond ni au taux normal extrait ni au forfait ; le calcul correct donne 337.20 (art. 28a LTVA).",
+    "Faux : la déduction fictive existe malgré l'absence de TVA sur la reprise (art. 28a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-028",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Müller SA, assujettie, achète en été 2024 des légumes pour sa cantine auprès de l'exploitant Bruno Sidler, non assujetti à la TVA, pour CHF 380. Quelle est la déduction de l'impôt préalable possible ?",
+   "options": [
+    "CHF 9.25",
+    "CHF 9.50",
+    "CHF 30.79",
+    "CHF 9.90"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 9.25 ne correspond à aucun taux applicable ; le forfait 2024 est de 2,6 % (art. 28 al. 2 LTVA).",
+    "Faux : CHF 9.50 correspond à l'ancien taux de 2,5 % (jusqu'au 31.12.2023), non au forfait 2024.",
+    "Faux : CHF 30.79 résulte d'une extraction erronée au taux normal 8,1 %, inapplicable aux produits naturels.",
+    "Exact : 380 × 2,6 % = CHF 9.88 ≈ CHF 9.90 (forfait produits naturels 2024, art. 28 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-029",
+   "champ": "Impôt préalable — principe — Conditions matérielles",
+   "memento": "art. 28 al. 1 LTVA",
+   "question": "Au 2e trimestre 2024, Müller SA prend en compte : une taxation à l'importation de l'OFDF de CHF 248.60 de TVA ; une taxation pour droits de douane de l'OFDF de CHF 22.80 ; l'impôt déclaré sur les acquisitions de prestataires étrangers, factures de CHF 36 000. Quelle est la déduction de l'impôt préalable ?",
+   "options": [
+    "CHF 248.60",
+    "CHF 3 164.60",
+    "CHF 36 271.40",
+    "Pas de déduction possible"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ce montant omet l'impôt sur les acquisitions (36 000 × 8,1 % = 2 916) (art. 28 al. 1 let. b et c LTVA).",
+    "Exact : importations 248.60 + acquisitions 2 916 (36 000 × 8,1 %) = CHF 3 164.60 (art. 28 al. 1 let. b et c LTVA).",
+    "Faux : additionner la valeur des factures confond assiette et impôt (art. 28 al. 1 LTVA).",
+    "Faux : importations et acquisitions sont déductibles ; seuls les droits de douane (22.80) ne le sont pas (art. 28 al. 1 let. b et c LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M4-030",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a LTVA",
+   "question": "Un cabinet acquiert un appareil médical d'occasion pour CHF 10 810 (aucune TVA sur la facture) à un centre de santé non assujetti, à des fins imposables. Quelle déduction fictive peut-il opérer ?",
+   "options": [
+    "CHF 810.00",
+    "CHF 875.61",
+    "CHF 281.06",
+    "CHF 0"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 10 810 × 8,1 / 108,1 = CHF 810.00, prix réputé TVA comprise (art. 28a LTVA).",
+    "Faux : applique à tort 8,1 % sur le brut, alors que le prix est réputé TTC (art. 28a LTVA).",
+    "Faux : utilise le forfait 2,6 % réservé aux produits naturels (art. 28 al. 2), non le taux normal.",
+    "Faux : la déduction fictive existe malgré l'absence de TVA facturée (art. 28a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-031",
+   "champ": "Impôt préalable — principe — Régime des produits naturels",
+   "memento": "art. 28 al. 2 LTVA",
+   "question": "Une entreprise achète pour CHF 5 000 de fruits à un arboriculteur non assujetti, pour son activité entrepreneuriale donnant droit à déduction. Quel impôt préalable peut-elle faire valoir (en 2026) ?",
+   "options": [
+    "CHF 130 (forfait de 2,6 % sur CHF 5 000)",
+    "CHF 405 (8,1 % sur CHF 5 000)",
+    "CHF 0, aucune TVA ne figurant sur la facture",
+    "CHF 374.65 (extraction de 8,1 % du prix TTC)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : fruits d'un arboriculteur non assujetti → 5 000 × 2,6 % = CHF 130 (art. 28 al. 2 LTVA).",
+    "Faux : le taux normal 8,1 % ne s'applique pas aux produits naturels (art. 28 al. 2 LTVA).",
+    "Faux : l'absence de TVA facturée n'exclut pas le forfait produits naturels (art. 28 al. 2 LTVA).",
+    "Faux : extraire 8,1 % du TTC est inapplicable aux produits naturels, qui suivent le forfait 2,6 % (art. 28 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-032",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a LTVA",
+   "question": "À propos du calcul de la déduction fictive sur un bien d'occasion repris TVA comprise, quelle affirmation est FAUSSE ?",
+   "options": [
+    "Le prix de reprise est réputé inclure la TVA (108,1 %)",
+    "L'impôt fictif s'obtient par prix × 8,1 / 108,1",
+    "Il faut appliquer 8,1 % directement sur le prix de reprise comme s'il était hors taxe",
+    "Le taux applicable est le taux normal, et non le forfait de 2,6 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : affirmation exacte — le prix de reprise est bien réputé inclure la TVA (108,1 %) (art. 28a LTVA).",
+    "Faux : affirmation exacte — l'impôt fictif s'obtient bien par prix × 8,1 / 108,1 (art. 28a LTVA).",
+    "Exact : c'est l'affirmation fausse — appliquer 8,1 % sur le prix brut comme s'il était HT est l'erreur classique, le taux s'extrayant d'un montant réputé TTC (art. 28a LTVA).",
+    "Faux : affirmation exacte — le taux applicable est bien le taux normal, non le forfait de 2,6 % (art. 28a LTVA)."
+   ],
+   "piege": "Prix brut traité comme HT au lieu de TTC (108,1 %)",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-033",
+   "champ": "Impôt préalable — principe — Exclusion — objets de collection",
+   "memento": "art. 28a al. 3 LTVA",
+   "question": "Pour lequel de ces biens acquis d'occasion à un vendeur non assujetti la déduction de l'impôt préalable fictive est-elle EXCLUE ?",
+   "options": [
+    "Une antiquité de collection destinée à la décoration",
+    "Un véhicule utilitaire d'occasion",
+    "Un appareil médical d'occasion",
+    "Une machine de production d'occasion"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les objets de collection (antiquités) sont exclus de la déduction fictive et relèvent de l'imposition de la marge (art. 28a al. 3 et art. 24a LTVA).",
+    "Faux : un véhicule d'occasion ordinaire ouvre la déduction fictive (art. 28a al. 1 LTVA).",
+    "Faux : un appareil médical d'occasion ordinaire ouvre la déduction fictive (art. 28a al. 1 LTVA).",
+    "Faux : une machine de production d'occasion ouvre la déduction fictive (art. 28a al. 1 LTVA)."
+   ],
+   "piege": "Objet de collection exclu vs bien d'occasion ordinaire admis",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-034",
+   "champ": "Impôt préalable — principe — Distinction fictive / produits naturels / exclusion",
+   "memento": "art. 29 LTVA",
+   "question": "Concernant les trois mécanismes (déduction fictive art. 28a, produits naturels art. 28 al. 2, exclusion art. 29), quelle affirmation est FAUSSE ?",
+   "options": [
+    "La déduction fictive crée un droit à déduction au taux normal sur un bien mobilier d'occasion identifiable",
+    "Le régime des produits naturels accorde un forfait de 2,6 % sur des produits de producteurs non assujettis",
+    "L'exclusion supprime un droit à déduction qui existerait sinon",
+    "Les trois mécanismes créent un droit à déduction en l'absence de TVA facturée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : affirmation exacte — la déduction fictive crée un droit au taux normal sur un bien mobilier d'occasion identifiable (art. 28a LTVA).",
+    "Faux : affirmation exacte — le régime des produits naturels accorde un forfait de 2,6 % (art. 28 al. 2 LTVA).",
+    "Faux : affirmation exacte — l'exclusion supprime un droit qui existerait sinon (art. 29 LTVA).",
+    "Exact : c'est l'affirmation fausse — seuls l'art. 28a et l'art. 28 al. 2 créent un droit sans TVA facturée ; l'art. 29 en retire un (art. 29 LTVA)."
+   ],
+   "piege": "L'art. 29 retire un droit, il n'en crée pas",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-035",
+   "champ": "Impôt préalable — principe — Déduction de l'impôt préalable fictive",
+   "memento": "art. 28a al. 3 LTVA",
+   "question": "Lequel de ces achats N'ouvre PAS de déduction de l'impôt préalable fictive au sens de l'art. 28a LTVA ?",
+   "options": [
+    "Un véhicule d'occasion repris à un particulier pour l'activité imposable",
+    "Une œuvre d'art achetée à un artiste non assujetti pour décorer les locaux",
+    "Un appareil médical d'occasion acheté à un centre non assujetti à des fins imposables",
+    "Une remorque d'occasion rachetée à un non-assujetti pour l'exploitation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un véhicule d'occasion ouvre la déduction fictive (art. 28a al. 1 LTVA).",
+    "Exact : l'œuvre d'art est un objet de collection, exclu de la déduction fictive et soumis à l'imposition de la marge (art. 28a al. 3 et art. 24a LTVA).",
+    "Faux : un appareil médical d'occasion identifiable ouvre la déduction fictive (art. 28a al. 1 LTVA).",
+    "Faux : une remorque d'occasion identifiable ouvre la déduction fictive (art. 28a al. 1 LTVA)."
+   ],
+   "piege": "Œuvre d'art (objet de collection) exclue de la déduction fictive",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-036",
+   "champ": "Corrections & réductions de l'impôt préalable — Double affectation — définition",
+   "memento": "art. 30 al. 1 LTVA",
+   "question": "Compte tenu de son activité, Potpourri SA est confrontée à une « double affectation ». Laquelle des assertions décrit correctement la double affectation ?",
+   "options": [
+    "Des biens ou services achetés ou de fabrication propre sont utilisés simultanément pour différentes prestations imposables.",
+    "Des biens ou services sont utilisés aussi bien pour des fins donnant droit à la déduction de l'impôt préalable que pour des fins ne donnant pas droit à cette déduction.",
+    "Des biens ou services sont utilisés simultanément pour différentes prestations exclues du champ de l'impôt.",
+    "Des biens ou services sont utilisés aussi bien pour des exportations exonérées que pour des livraisons en Suisse."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un usage purement imposable ne crée pas de double affectation (art. 30 al. 1 LTVA).",
+    "Exact : la double affectation vise le bien ou service utilisé à la fois pour des fins donnant droit et ne donnant pas droit à déduction (art. 30 al. 1 LTVA).",
+    "Faux : un usage purement exclu n'est pas une double affectation (art. 30 al. 1 LTVA).",
+    "Faux : l'exportation exonérée conserve la déduction ; ce n'est pas une double affectation (art. 30 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "original"
+  },
+  {
+   "id": "M4-037",
+   "champ": "Corrections & réductions de l'impôt préalable — Méthode des trois pots — pot A",
+   "memento": "art. 30 LTVA",
+   "question": "Dans la méthode des trois pots, que contient le « pot A » ?",
+   "options": [
+    "L'impôt préalable directement imputable à l'activité donnant droit à déduction, entièrement déductible.",
+    "L'impôt préalable à usage mixte, déductible selon une clé de répartition.",
+    "L'impôt préalable directement imputable à une activité ne donnant pas droit à déduction, non déductible.",
+    "La part de subvention à réduire de la déduction."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le pot A regroupe l'impôt préalable directement imputable à l'activité donnant droit à déduction, entièrement déductible (art. 30 LTVA ; IT 09 ch. 3).",
+    "Faux : l'usage mixte selon clé est le pot C, non le pot A.",
+    "Faux : l'impôt directement imputable à une activité sans droit est le pot B, non le pot A.",
+    "Faux : la réduction pour subvention relève de l'art. 33, hors méthode des trois pots."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-038",
+   "champ": "Corrections & réductions de l'impôt préalable — Méthode des trois pots — pot C",
+   "memento": "art. 30 LTVA",
+   "question": "Dans la méthode des trois pots, à quoi correspond le « pot C » ?",
+   "options": [
+    "À l'impôt préalable entièrement déductible sans correction.",
+    "À l'impôt préalable directement imputable à une activité exclue, jamais déductible.",
+    "À l'impôt préalable à usage mixte (ni pot A ni pot B), déductible uniquement selon une clé appropriée, p. ex. la clé du chiffre d'affaires.",
+    "À la part de la subvention reçue devant être réduite."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'impôt entièrement déductible sans correction est le pot A, non le pot C.",
+    "Faux : l'impôt imputable à une activité exclue est le pot B, non le pot C.",
+    "Exact : le pot C regroupe l'impôt préalable à usage mixte, déductible selon une clé appropriée, p. ex. la clé du chiffre d'affaires (art. 30 LTVA ; IT 09 ch. 3).",
+    "Faux : la réduction pour subvention relève de l'art. 33, non du pot C."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-039",
+   "champ": "Corrections & réductions de l'impôt préalable — Subvention liée à l'objet",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Qu'est-ce qu'une subvention « liée à l'objet » ?",
+   "options": [
+    "Une subvention payée pour une charge ou un investissement déterminé.",
+    "Une subvention versée sans affectation précise, généralement pour couvrir un déficit.",
+    "Un don versé par une personne privée.",
+    "Une indemnité d'assurance versée après un sinistre."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la subvention liée à l'objet est payée pour une charge ou un investissement déterminé (art. 33 al. 2 LTVA).",
+    "Faux : une subvention sans affectation, en couverture de déficit, est liée au sujet, non à l'objet (art. 33 al. 2 LTVA).",
+    "Faux : un don n'entraîne pas de réduction et n'est pas une subvention liée à l'objet (art. 33 al. 1 LTVA).",
+    "Faux : une indemnité d'assurance n'est pas une subvention et n'entraîne aucune réduction (art. 33 al. 1 LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-040",
+   "champ": "Corrections & réductions de l'impôt préalable — Subvention liée au sujet",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Une subvention « liée au sujet » se caractérise par le fait qu'elle...",
+   "options": [
+    "est un don sans influence sur la déduction de l'impôt préalable.",
+    "est affectée à un investissement déterminé, TVA incluse.",
+    "est versée sans affectation spécifique, le plus souvent en couverture du déficit d'exploitation.",
+    "n'entraîne jamais de réduction de la déduction."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un don relève de l'art. 33 al. 1 (sans réduction), ce n'est pas la subvention liée au sujet.",
+    "Faux : l'affectation à un investissement déterminé caractérise la subvention liée à l'objet, non au sujet (art. 33 al. 2 LTVA).",
+    "Exact : la subvention liée au sujet est versée sans affectation spécifique, souvent en couverture du déficit (art. 33 al. 2 LTVA).",
+    "Faux : la subvention liée au sujet entraîne bien une réduction (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-041",
+   "champ": "Corrections & réductions de l'impôt préalable — Non-contre-prestations sans réduction",
+   "memento": "art. 33 al. 1 LTVA",
+   "question": "Selon l'art. 33 al. 1 LTVA, quel est le principe applicable aux non-contre-prestations des let. d à l de l'art. 18 al. 2 (dons, apports, dividendes) ?",
+   "options": [
+    "Elles imposent une réduction proportionnelle de la déduction.",
+    "Elles ouvrent un droit à déduction de l'impôt préalable fictive.",
+    "Elles sont soumises à la TVA au taux normal.",
+    "Elles n'ont en principe aucune influence sur le montant de la déduction de l'impôt préalable."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les non-contre-prestations des let. d à l n'entraînent aucune réduction (art. 33 al. 1 LTVA).",
+    "Faux : elles n'ouvrent pas de déduction fictive (art. 33 al. 1 LTVA).",
+    "Faux : dons, apports et dividendes ne sont pas des contre-prestations imposables (art. 33 al. 1 LTVA).",
+    "Exact : les non-contre-prestations des let. d à l (dons, apports, dividendes) n'ont aucune influence sur la déduction (art. 33 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-042",
+   "champ": "Corrections & réductions de l'impôt préalable — Méthode de l'utilisation effective",
+   "memento": "art. 65 OTVA",
+   "question": "En quoi consiste la méthode de correction dite « de l'utilisation effective » ?",
+   "options": [
+    "Répartir la totalité de l'impôt préalable entre les pots A et B sur la base de l'usage réel des biens et services.",
+    "Appliquer un forfait de 0,02 % du chiffre d'affaires.",
+    "Réduire la déduction au prorata des subventions reçues.",
+    "Utiliser le taux de la dette fiscale nette."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la méthode de l'utilisation effective répartit l'impôt préalable entre pots A et B selon l'usage réel (art. 65 OTVA ; IT 09 ch. 3.1).",
+    "Faux : le forfait de 0,02 % vise les intérêts/titres, non la méthode effective.",
+    "Faux : la réduction au prorata des subventions relève de l'art. 33, mécanisme distinct.",
+    "Faux : le taux de la dette fiscale nette est une méthode de décompte distincte de l'utilisation effective."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-043",
+   "champ": "Corrections & réductions de l'impôt préalable — Clé du chiffre d'affaires",
+   "memento": "art. 65 OTVA",
+   "question": "À quoi sert la « clé du chiffre d'affaires » ?",
+   "options": [
+    "À déterminer le seuil d'assujettissement.",
+    "À calculer l'impôt sur les acquisitions.",
+    "À fixer le taux de la dette fiscale nette.",
+    "À répartir l'impôt préalable du pot C selon la part de chiffre d'affaires donnant droit à déduction."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la clé du chiffre d'affaires ne détermine pas le seuil d'assujettissement.",
+    "Faux : la clé du chiffre d'affaires ne sert pas à calculer l'impôt sur les acquisitions.",
+    "Faux : la clé du chiffre d'affaires ne fixe pas le taux de la dette fiscale nette.",
+    "Exact : la clé du chiffre d'affaires répartit l'impôt préalable du pot C selon la part de CA donnant droit à déduction (art. 65 OTVA ; IT 09 ch. 3.3.1)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-044",
+   "champ": "Corrections & réductions de l'impôt préalable — Forfait intérêts / commerce de titres",
+   "memento": "art. 66 let. d OTVA",
+   "question": "Pour les produits d'intérêts et le commerce de titres qualifiés d'activité accessoire, au-delà de quel chiffre d'affaires par période fiscale applique-t-on le forfait de 0,02 % ?",
+   "options": [
+    "CHF 70 000",
+    "CHF 5 000",
+    "CHF 250 000",
+    "CHF 500 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 70 000 est le seuil des revenus locatifs, non des intérêts/titres (art. 66 let. e OTVA).",
+    "Faux : CHF 5 000 est le seuil des honoraires de conférencier, non des intérêts/titres.",
+    "Exact : au-delà de CHF 250 000 de CA par période, forfait de 0,02 % (art. 66 let. d OTVA ; IT 09 ch. 3.2.2.1).",
+    "Faux : le seuil est de CHF 250 000, non CHF 500 000 (art. 66 let. d OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-045",
+   "champ": "Corrections & réductions de l'impôt préalable — Forfait revenus locatifs",
+   "memento": "art. 66 let. e OTVA",
+   "question": "Quel forfait s'applique aux revenus locatifs bruts non imposés dépassant CHF 70 000 par période fiscale ?",
+   "options": [
+    "0,07 %",
+    "0,02 %",
+    "1,0 %",
+    "8,1 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : au-delà de CHF 70 000 par période, la correction des revenus locatifs bruts non imposés est de 0,07 % (art. 66 let. e OTVA ; IT 09 ch. 3.2.2.2).",
+    "Faux : 0,02 % vise les intérêts/titres, non les revenus locatifs.",
+    "Faux : 1,0 % vise les honoraires de conférencier, non les revenus locatifs.",
+    "Faux : 8,1 % est le taux normal, non le forfait des revenus locatifs."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-046",
+   "champ": "Corrections & réductions de l'impôt préalable — Forfait honoraires de conférencier",
+   "memento": "art. 69 al. 3 OTVA",
+   "question": "Les honoraires bruts de conférencier non optés donnent lieu à une correction forfaitaire de 1,0 % au-delà de quel montant par période fiscale ?",
+   "options": [
+    "CHF 70 000",
+    "CHF 250 000",
+    "CHF 5 000",
+    "CHF 10 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 70 000 est le seuil des revenus locatifs, non des honoraires de conférencier.",
+    "Faux : CHF 250 000 est le seuil des intérêts/titres, non des honoraires de conférencier.",
+    "Exact : au-delà de CHF 5 000 par période, la correction des honoraires bruts de conférencier non optés est de 1,0 % (art. 69 al. 3 OTVA ; IT 09 ch. 3.2.2.3).",
+    "Faux : le seuil est de CHF 5 000, non CHF 10 000 (IT 09 ch. 3.2.2.3)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-047",
+   "champ": "Corrections & réductions de l'impôt préalable — Supplément infrastructure biens fabriqués",
+   "memento": "art. 69 al. 3 OTVA",
+   "question": "Quel supplément forfaitaire s'applique à l'impôt préalable sur le matériel et les travaux de tiers, pour l'utilisation de l'infrastructure sur des biens fabriqués par l'assujetti ?",
+   "options": [
+    "60 %",
+    "33 %",
+    "10 %",
+    "0,07 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 60 % est la base forfaitaire des frais de véhicule, non le supplément infrastructure.",
+    "Exact : supplément forfaitaire de 33 % sur l'impôt préalable du matériel et des travaux de tiers pour l'infrastructure des biens fabriqués (art. 69 al. 3 OTVA ; IT 09 ch. 3.2.3.3).",
+    "Faux : 10 % est le seuil de la règle des activités accessoires, non le supplément infrastructure.",
+    "Faux : 0,07 % vise les revenus locatifs, non le supplément infrastructure."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-048",
+   "champ": "Corrections & réductions de l'impôt préalable — Forfait frais de véhicule",
+   "memento": "art. 66 OTVA",
+   "question": "Pour le calcul forfaitaire de l'impôt préalable sur les frais d'un véhicule aussi utilisé à des fins ne donnant pas droit à déduction, quelle base forfaitaire de coûts retient-on ?",
+   "options": [
+    "33 %",
+    "50 %",
+    "60 %",
+    "100 %"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : 33 % vise l'infrastructure sur biens fabriqués, non les frais de véhicule.",
+    "Faux : la base retenue est de 60 %, non 50 % (IT 09 ch. 3.3.5.3).",
+    "Exact : le calcul forfaitaire sur les frais de véhicule s'effectue sur une base de coûts de 60 % (art. 66 OTVA ; IT 09 ch. 3.3.5.3).",
+    "Faux : la base est de 60 %, non 100 % (IT 09 ch. 3.3.5.3)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-049",
+   "champ": "Corrections & réductions de l'impôt préalable — Règle des 10 % (activités accessoires)",
+   "memento": "art. 69 al. 3 OTVA",
+   "question": "Une correction forfaitaire pour activité accessoire est admise si l'on rend vraisemblable que la part des autres charges d'exploitation imputable à cette activité est inférieure à...",
+   "options": [
+    "5 %",
+    "10 %",
+    "15 %",
+    "20 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le seuil de la règle est de 10 %, non 5 % (art. 69 al. 3 OTVA).",
+    "Exact : la correction forfaitaire pour activité accessoire suppose moins de 10 % des autres charges imputables (art. 69 al. 3 OTVA).",
+    "Faux : le seuil est de 10 %, non 15 % (art. 69 al. 3 OTVA).",
+    "Faux : le seuil est de 10 %, non 20 % (art. 69 al. 3 OTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-050",
+   "champ": "Corrections & réductions de l'impôt préalable — Calcul approximatif de la réduction",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Dans le calcul approximatif (simplifié) de la réduction pour subvention, la formule est : subvention × taux ÷ (taux + 100). Quel taux utilise-t-on ?",
+   "options": [
+    "Le taux réduit de 2,6 %.",
+    "Le taux spécial de 3,8 %.",
+    "Aucun taux : on divise simplement par deux.",
+    "Le taux normal de 8,1 %, soit subvention × 8,1 ÷ 108,1."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le calcul simplifié utilise le taux normal 8,1 %, non le taux réduit 2,6 %.",
+    "Faux : le calcul simplifié utilise le taux normal 8,1 %, non le taux spécial 3,8 %.",
+    "Faux : on n'applique pas une division par deux mais le taux normal (subvention × 8,1 ÷ 108,1).",
+    "Exact : le calcul simplifié applique le taux normal : subvention × 8,1 ÷ 108,1 (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-051",
+   "champ": "Corrections & réductions de l'impôt préalable — Détermination approximative des autres charges",
+   "memento": "art. 65 OTVA",
+   "question": "Pour les prestations de services dont la valeur est créée principalement par le personnel propre, on peut présumer que les autres charges grevées d'impôt préalable représentent environ quel pourcentage de la contre-prestation ?",
+   "options": [
+    "10 %",
+    "15 %",
+    "33 %",
+    "60 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le pourcentage présumé est d'environ 15 %, non 10 % (IT 09 ch. 3.3.5.1).",
+    "Exact : pour un service créé surtout par le personnel propre, on présume ~15 % de charges grevées d'impôt préalable (art. 65 OTVA ; IT 09 ch. 3.3.5.1).",
+    "Faux : 33 % vise l'infrastructure sur biens fabriqués, non cette présomption.",
+    "Faux : 60 % est la base des frais de véhicule, non cette présomption."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-052",
+   "champ": "Corrections & réductions de l'impôt préalable — Base légale — double affectation",
+   "memento": "art. 30 LTVA",
+   "question": "Quelle disposition règle la correction de la déduction en cas de double affectation ?",
+   "options": [
+    "art. 29 LTVA",
+    "art. 30 LTVA",
+    "art. 33 LTVA",
+    "art. 28a LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 29 règle l'exclusion du droit, non la double affectation.",
+    "Exact : la correction pour double affectation repose sur l'art. 30 LTVA.",
+    "Faux : l'art. 33 vise la réduction pour subvention, non la double affectation.",
+    "Faux : l'art. 28a régit la déduction fictive, non la double affectation."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-053",
+   "champ": "Corrections & réductions de l'impôt préalable — Base légale — réduction pour subvention",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Sur quelle disposition repose l'obligation de réduire la déduction en cas de subvention ?",
+   "options": [
+    "art. 33 al. 2 LTVA",
+    "art. 30 al. 1 LTVA",
+    "art. 29 al. 1 LTVA",
+    "art. 32 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la réduction proportionnelle pour subvention repose sur l'art. 33 al. 2 LTVA.",
+    "Faux : l'art. 30 al. 1 vise la double affectation, non la subvention.",
+    "Faux : l'art. 29 al. 1 vise l'exclusion, non la réduction pour subvention.",
+    "Faux : l'art. 32 vise le dégrèvement ultérieur, non la réduction pour subvention."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M4-054",
+   "champ": "Corrections & réductions de l'impôt préalable — Base légale — familles de méthodes",
+   "memento": "art. 65 OTVA",
+   "question": "Quelle disposition fixe les trois familles de méthodes de correction (utilisation effective, forfaits AFC, calculs propres) ?",
+   "options": [
+    "art. 66 OTVA",
+    "art. 68 OTVA",
+    "art. 65 OTVA",
+    "art. 30 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 66 OTVA détaille les forfaits par branche, non les trois familles de méthodes.",
+    "Faux : l'art. 68 OTVA règle le choix et la combinaison des méthodes, non leur énumération.",
+    "Exact : l'art. 65 OTVA énumère les trois familles de méthodes de correction.",
+    "Faux : l'art. 30 LTVA pose le principe de la correction, non les trois familles de méthodes (art. 65 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-055",
+   "champ": "Corrections & réductions de l'impôt préalable — Base légale — forfaits par branche",
+   "memento": "art. 66 OTVA",
+   "question": "Les forfaits par branche (banques, assurances, transports publics...) ont pour base réglementaire correcte...",
+   "options": [
+    "l'art. 66 OTVA (« Méthodes forfaitaires »).",
+    "l'art. 66 LTVA, qui traite des méthodes forfaitaires.",
+    "l'art. 33 LTVA.",
+    "l'art. 65 LTVA."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les forfaits par branche reposent sur l'art. 66 OTVA.",
+    "Faux : l'art. 66 LTVA porte sur la déclaration d'assujettissement, non sur les forfaits (base : art. 66 OTVA).",
+    "Faux : l'art. 33 LTVA vise la réduction pour subvention, non les forfaits par branche.",
+    "Faux : la base des forfaits par branche est réglementaire (art. 66 OTVA), non l'art. 65 LTVA."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-056",
+   "champ": "Corrections & réductions de l'impôt préalable — Base légale — choix des méthodes",
+   "memento": "art. 68 OTVA",
+   "question": "Quelle disposition autorise la combinaison de plusieurs méthodes de correction pour autant que le résultat soit approprié ?",
+   "options": [
+    "art. 72 al. 1 LTVA",
+    "art. 65 OTVA",
+    "art. 69 al. 3 OTVA",
+    "art. 68 OTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 72 al. 1 LTVA vise la concordance annuelle, non la combinaison de méthodes.",
+    "Faux : l'art. 65 OTVA énumère les familles de méthodes, non leur combinaison.",
+    "Faux : l'art. 69 al. 3 OTVA vise des forfaits particuliers, non la combinaison des méthodes.",
+    "Exact : l'art. 68 OTVA autorise la combinaison de méthodes pour autant que le résultat soit approprié."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-057",
+   "champ": "Corrections & réductions de l'impôt préalable — Base légale — concordance annuelle",
+   "memento": "art. 72 al. 1 LTVA",
+   "question": "La vérification et l'ajustement de la clé de correction en fin de période fiscale (concordance annuelle) reposent sur...",
+   "options": [
+    "art. 72 al. 1 LTVA",
+    "art. 68 OTVA",
+    "art. 33 al. 1 LTVA",
+    "art. 30 al. 2 LTVA"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la concordance annuelle repose sur l'art. 72 al. 1 LTVA (IT 09 ch. 3.4).",
+    "Faux : l'art. 68 OTVA règle le choix des méthodes, non la concordance annuelle.",
+    "Faux : l'art. 33 al. 1 vise les non-contre-prestations sans réduction, non la concordance annuelle.",
+    "Faux : l'art. 30 al. 2 vise le moment de la correction, non la concordance annuelle (art. 72 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-058",
+   "champ": "Corrections & réductions de l'impôt préalable — Qualification de subvention — objet",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Müller SA, assujettie à la TVA (méthode effective), obtient du canton un montant de CHF 300 000 pour l'entretien de sentiers de randonnées. S'agit-il d'une subvention et, le cas échéant, de quel type ?",
+   "options": [
+    "Ce n'est pas une subvention.",
+    "Subvention affectée à un objet particulier.",
+    "Autre subvention.",
+    "Subvention en couverture du déficit d'exploitation."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un fonds de droit public pour une tâche déterminée est bien une subvention (art. 18 al. 2 let. a LTVA).",
+    "Exact : versée pour une tâche déterminée (entretien de sentiers), c'est une subvention liée à l'objet (art. 33 al. 2 LTVA ; art. 18 al. 2 let. a).",
+    "Faux : le fonds est affecté à un objet précis, ce n'est donc pas une subvention sans affectation (art. 33 al. 2 LTVA).",
+    "Faux : le fonds finance une tâche déterminée, non un déficit d'exploitation (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-059",
+   "champ": "Corrections & réductions de l'impôt préalable — Qualification — prêt sans intérêts",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Müller SA (méthode effective) contracte auprès du canton un prêt sans intérêts pour ses activités générales ; l'intérêt ainsi économisé s'élève à CHF 4 000 par an. De quel type de subvention s'agit-il ?",
+   "options": [
+    "Subvention en couverture du déficit d'exploitation.",
+    "Ce n'est pas une subvention.",
+    "Subvention affectée à un objet particulier.",
+    "Autre subvention."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'avantage finance les activités générales, non un déficit (art. 33 al. 2 LTVA).",
+    "Faux : l'avantage de taux sur un prêt public est une subvention (art. 18 al. 2 let. a LTVA).",
+    "Faux : l'avantage n'est pas affecté à un objet précis (art. 33 al. 2 LTVA).",
+    "Exact : avantage de taux public finançant les activités générales sans affectation → « autre subvention » (art. 33 al. 2 LTVA ; art. 18 al. 2 let. a)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M4-060",
+   "champ": "Corrections & réductions de l'impôt préalable — Indemnité d'assurance",
+   "memento": "art. 33 al. 1 LTVA",
+   "question": "Après un sinistre, Commerce Sàrl (méthode effective) reçoit CHF 87 000 de sa compagnie d'assurance. Quel est le traitement de ce montant en matière de TVA ?",
+   "options": [
+    "Montant imposable au taux normal.",
+    "Non imposé, mais entraînant une réduction de la déduction de l'impôt préalable.",
+    "Ni imposé, ni réducteur de la déduction de l'impôt préalable.",
+    "Ouvre un droit à déduction de l'impôt préalable fictive."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une indemnité d'assurance est un dédommagement, non une contre-prestation imposable (art. 33 al. 1 LTVA).",
+    "Faux : l'indemnité d'assurance ne réduit pas la déduction (art. 33 al. 1 LTVA).",
+    "Exact : une indemnité d'assurance est un dédommagement, ni imposé ni réducteur de la déduction (art. 33 al. 1 LTVA).",
+    "Faux : une indemnité d'assurance n'ouvre aucune déduction fictive (art. 33 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-061",
+   "champ": "Corrections & réductions de l'impôt préalable — Indemnités RHT / COVID-19",
+   "memento": "art. 33 al. 1 LTVA",
+   "question": "Les indemnités en cas de RHT et les contributions pour cas de rigueur / COVID-19 sont, du point de vue de la réduction de la déduction...",
+   "options": [
+    "des subventions ordinaires entraînant une réduction proportionnelle.",
+    "des non-contre-prestations qui n'entraînent aucune réduction de la déduction.",
+    "des contre-prestations imposables au taux normal.",
+    "des dons ouvrant un droit à déduction fictive."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : malgré l'art. 18 al. 2 let. a, ces indemnités n'entraînent pas de réduction (art. 33 al. 1 LTVA).",
+    "Exact : RHT, cas de rigueur et COVID-19 ne sont ni imposés ni réducteurs de la déduction (art. 33 al. 1 LTVA), déclarés au ch. 910.",
+    "Faux : ces indemnités ne sont pas des contre-prestations imposables (art. 33 al. 1 LTVA).",
+    "Faux : elles n'ouvrent aucune déduction fictive (art. 33 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-062",
+   "champ": "Corrections & réductions de l'impôt préalable — Choix de la méthode — forfaits AFC",
+   "memento": "art. 66 let. d et e OTVA",
+   "question": "Consulting Sàrl (conseil, CA 1 500 000) possède un immeuble locatif d'habitation (200 000/an) et perçoit des intérêts d'un prêt à une société sœur (15 000/an). Comment corriger l'impôt préalable lié à ces activités accessoires ?",
+   "options": [
+    "Aucune correction, car l'activité principale est entièrement imposable.",
+    "Par la clé du chiffre d'affaires 215 000 / 1 715 000.",
+    "Au moyen des forfaits prévus par l'AFC pour les intérêts et les revenus locatifs.",
+    "Par le taux de la dette fiscale nette."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une correction reste due malgré l'activité principale imposable (art. 66 OTVA).",
+    "Faux : les recettes accessoires se corrigent par les forfaits AFC, non par une clé globale du CA (art. 66 let. d et e OTVA).",
+    "Exact : intérêts et locations accessoires se corrigent au moyen des forfaits AFC (art. 66 let. d et e OTVA).",
+    "Faux : le taux de la dette fiscale nette n'est pas la méthode applicable ici (art. 66 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-063",
+   "champ": "Corrections & réductions de l'impôt préalable — Activités ne donnant pas droit à déduction",
+   "memento": "art. 29 al. 1 LTVA",
+   "question": "Laquelle de ces activités NE donne PAS droit à la déduction de l'impôt préalable ?",
+   "options": [
+    "Une activité imposable.",
+    "Une activité exonérée au sens de l'art. 23 LTVA.",
+    "Une activité optée selon l'art. 22 LTVA.",
+    "Une activité exclue pour laquelle il n'a pas été opté."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une activité imposable donne droit à déduction.",
+    "Faux : une activité exonérée (art. 23 LTVA) conserve le droit à déduction.",
+    "Faux : une activité optée (art. 22 LTVA) donne droit à déduction.",
+    "Exact : une prestation exclue non optée entraîne l'exclusion du droit à déduction (art. 29 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-064",
+   "champ": "Corrections & réductions de l'impôt préalable — Attribution directe — location d'habitation",
+   "memento": "art. 29 LTVA",
+   "question": "Potpourri SA (méthode effective) loue des locaux utilisés exclusivement à des fins d'habitation. Le fabricant de fenêtres facture une TVA de 8,1 % pour leur remplacement. Potpourri SA peut-elle déduire cet impôt préalable ?",
+   "options": [
+    "Oui, car l'impôt préalable est attribué à une prestation imposable.",
+    "Non, car l'impôt préalable est directement attribué à une prestation exclue (location d'habitation).",
+    "Oui, sans aucune condition.",
+    "Non, car le fabricant de fenêtres n'aurait pas dû facturer la TVA."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la location d'habitation est une prestation exclue, non imposable (art. 21 al. 2 ch. 21 LTVA).",
+    "Exact : impôt préalable directement attribué à une location d'habitation exclue → déduction exclue (art. 29 LTVA ; art. 21 al. 2 ch. 21).",
+    "Faux : l'affectation à une prestation exclue empêche la déduction (art. 29 LTVA).",
+    "Faux : le motif du refus est l'affectation à une prestation exclue, non une erreur de facturation (art. 29 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-065",
+   "champ": "Corrections & réductions de l'impôt préalable — Fonds entraînant une réduction (let. a-c)",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Parmi ces flux, lequel entraîne une réduction de la déduction de l'impôt préalable (art. 18 al. 2 let. a à c LTVA) ?",
+   "options": [
+    "Un dividende encaissé sur une participation.",
+    "Un apport fait à l'entreprise.",
+    "Une taxe touristique de droit public encaissée par un office du tourisme.",
+    "Un don versé par un mécène privé."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le dividende relève des let. d à l et n'entraîne aucune réduction (art. 33 al. 1 LTVA).",
+    "Faux : l'apport relève des let. d à l, sans réduction (art. 33 al. 1 LTVA).",
+    "Exact : une taxe touristique de droit public (let. b) impose une réduction (art. 33 al. 2 LTVA ; art. 18 al. 2 let. b).",
+    "Faux : le don relève des let. d à l, sans réduction (art. 33 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-066",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas Sportzentrum — montant de réduction",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Sportzentrum SA rénove ses installations pour CHF 2 162 000 (TVA 8,1 % incluse) et reçoit CHF 850 000 de subventions liées à l'objet. Quelle est la réduction de la déduction de l'impôt préalable ?",
+   "options": [
+    "CHF 850 000",
+    "CHF 39 315",
+    "CHF 121 500",
+    "CHF 63 691"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le montant de la subvention est la base de calcul, non la réduction (art. 33 al. 2 LTVA).",
+    "Faux : CHF 39 315 confond avec la quote-part exprimée en % (art. 33 al. 2 LTVA).",
+    "Faux : CHF 121 500 relève du cas HelveticHelp, non de Sportzentrum.",
+    "Exact : la réduction de la déduction se monte à CHF 63 691 (subvention liée à l'objet, art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-067",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas Sportzentrum — quote-part",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Dans le cas Sportzentrum (subvention 850 000 ; coût 2 162 000 TVA incluse), quelle est la quote-part de réduction appliquée aux impôts préalables ?",
+   "options": [
+    "80 %",
+    "37,50 %",
+    "57,89 %",
+    "39,315 %"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 80 % est la part donnant droit de la clé du CA, non la quote-part Sportzentrum.",
+    "Faux : 37,50 % est un taux du cas HelveticHelp, non de Sportzentrum.",
+    "Faux : 57,89 % est un taux du cas HelveticHelp, non de Sportzentrum.",
+    "Exact : 850 000 ÷ 2 162 000 = 39,315 % des impôts préalables (subvention liée à l'objet, TVA incluse, art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-068",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas clé du CA — montant de correction",
+   "memento": "art. 30 LTVA",
+   "question": "La part de chiffre d'affaires donnant droit à déduction est de 560 000 sur 700 000, et l'impôt préalable du pot C est de 22 500. Quelle est la correction à opérer ?",
+   "options": [
+    "CHF 4 500",
+    "CHF 18 000",
+    "CHF 22 500",
+    "CHF 2 250"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 80 % donnant droit → 20 % × 22 500 = CHF 4 500 (clé du CA, IT 09 ch. 3.3.1 ; art. 30 LTVA).",
+    "Faux : CHF 18 000 est la part déductible (80 %), non la correction (art. 30 LTVA).",
+    "Faux : CHF 22 500 est l'impôt préalable total du pot C, non la correction.",
+    "Faux : CHF 2 250 ne correspond pas à la correction de 20 % (art. 30 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-069",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas clé du CA — pourcentage à corriger",
+   "memento": "art. 30 LTVA",
+   "question": "Avec une part donnant droit de 560 000 / 700 000, quel pourcentage de l'impôt préalable du pot C faut-il corriger (réintégrer) ?",
+   "options": [
+    "80 %",
+    "20 %",
+    "75 %",
+    "25 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 80 % est la part donnant droit, non la part à corriger.",
+    "Exact : 80 % donnant droit → complément de 20 % à corriger (140 000 / 700 000) (art. 30 LTVA).",
+    "Faux : 75 % relève de l'exemple de l'école de musique, non de ce cas.",
+    "Faux : 25 % relève de l'exemple de l'école de musique, non de ce cas."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-070",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas HelveticHelp — réduction niveau 1",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "HelveticHelp : impôt préalable de CHF 324 000 ; les subventions représentent 37,50 % des recettes totales. Quel est le montant de la réduction de niveau 1 ?",
+   "options": [
+    "CHF 117 227",
+    "CHF 85 273",
+    "CHF 121 500",
+    "CHF 202 500"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 117 227 est la correction de niveau 2, non la réduction de niveau 1.",
+    "Faux : CHF 85 273 est le droit net final, non la réduction de niveau 1.",
+    "Exact : 324 000 × 37,50 % = CHF 121 500 (réduction pour subvention niveau 1, art. 33 al. 2 LTVA).",
+    "Faux : CHF 202 500 est le solde intermédiaire après réduction, non la réduction elle-même."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-071",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas HelveticHelp — solde après réduction",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "HelveticHelp : après la réduction de niveau 1 (−121 500) appliquée à un impôt préalable de 324 000, quel est le solde avant la correction de niveau 2 ?",
+   "options": [
+    "CHF 202 500",
+    "CHF 85 273",
+    "CHF 324 000",
+    "CHF 117 227"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 324 000 − 121 500 = CHF 202 500, solde avant correction de niveau 2 (art. 30 et 33 LTVA).",
+    "Faux : CHF 85 273 est le droit net final, non le solde avant niveau 2.",
+    "Faux : CHF 324 000 est l'impôt préalable brut, non le solde après réduction.",
+    "Faux : CHF 117 227 est la correction de niveau 2, non le solde."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-072",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas HelveticHelp — droit net",
+   "memento": "art. 30 et 33 LTVA",
+   "question": "HelveticHelp : sur le solde de 202 500, on applique une correction de niveau 2 de 57,89 % (−117 227). Quel est le droit net à l'impôt préalable ?",
+   "options": [
+    "CHF 121 500",
+    "CHF 202 500",
+    "CHF 117 227",
+    "CHF 85 273"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 121 500 est la réduction de niveau 1, non le droit net.",
+    "Faux : CHF 202 500 est le solde après niveau 1, non le droit net.",
+    "Faux : CHF 117 227 est la correction de niveau 2, non le droit net.",
+    "Exact : 202 500 − 117 227 = CHF 85 273 de droit net à l'impôt préalable (art. 30 et 33 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-073",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas FNS — montant de la RDIP",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Une start-up reçoit du Fonds national suisse une subvention couvrant 50 % des coûts d'un projet ; l'impôt préalable encouru sur le projet est de CHF 78 000. Quelle est la réduction de la déduction (RDIP) ?",
+   "options": [
+    "CHF 78 000",
+    "CHF 39 000",
+    "CHF 19 500",
+    "Aucune, car la subvention est versée l'année suivante."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 78 000 est l'impôt préalable total ; la RDIP n'est que de 50 % (art. 33 al. 2 LTVA).",
+    "Exact : subvention couvrant 50 % → RDIP = 50 % × 78 000 = CHF 39 000 (art. 33 al. 2 LTVA).",
+    "Faux : CHF 19 500 correspondrait à 25 %, non aux 50 % couverts (art. 33 al. 2 LTVA).",
+    "Faux : le décalage de versement ne supprime pas la RDIP (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-074",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas FNS — moment de la déclaration",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "La subvention du FNS est versée en 2026, mais les coûts (et l'impôt préalable) ont été encourus de 2022 à 2025. Quand et sur quelle base la RDIP est-elle déclarée ?",
+   "options": [
+    "En 2026, sur la base des impôts préalables encourus de 2022 à 2025.",
+    "Répartie chaque année de 2022 à 2025.",
+    "Aucune RDIP, en raison du décalage temporel.",
+    "En 2022 uniquement."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la RDIP se déclare au versement (2026), sur la base des impôts préalables encourus 2022–2025 (art. 33 al. 2 LTVA).",
+    "Faux : la réduction s'opère au versement, non répartie sur chaque année (art. 33 al. 2 LTVA).",
+    "Faux : le décalage temporel ne supprime pas la RDIP (art. 33 al. 2 LTVA).",
+    "Faux : la réduction intervient au versement (2026), non en 2022 (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-075",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas Consulting Sàrl — correction forfaitaire",
+   "memento": "art. 66 let. d et e OTVA",
+   "question": "Consulting Sàrl applique les forfaits AFC : intérêts perçus 15 000 et revenus locatifs 200 000. À combien se monte la correction forfaitaire totale de l'impôt préalable ?",
+   "options": [
+    "CHF 140",
+    "CHF 40",
+    "CHF 1 400",
+    "CHF 0"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : intérêts (15 000 < 250 000) → 0 ; locatifs (200 000 > 70 000) → 0,07 % × 200 000 = CHF 140 (art. 66 let. d et e OTVA).",
+    "Faux : CHF 40 ne résulte d'aucun calcul correct ; le total est de CHF 140 (art. 66 let. e OTVA).",
+    "Faux : CHF 1 400 surestime la correction ; 0,07 % × 200 000 = 140, non 1 400 (art. 66 let. e OTVA).",
+    "Faux : les revenus locatifs (> 70 000) génèrent bien une correction de CHF 140 (art. 66 let. e OTVA)."
+   ],
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M4-076",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas IT SA — déduction méthode effective",
+   "memento": "art. 65 OTVA",
+   "question": "IT SA répartit ses charges selon l'utilisation effective : le total « avec droit à déduction » s'élève à CHF 696 667. Au taux normal, quelle déduction de l'impôt préalable en résulte ?",
+   "options": [
+    "CHF 81 000",
+    "CHF 43 373",
+    "CHF 113 333",
+    "CHF 56 430"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 81 000 est l'impôt sur le chiffre d'affaires, non la déduction (art. 65 OTVA).",
+    "Faux : CHF 43 373 résulte de la méthode par clé du CA, jugée non appropriée ici.",
+    "Faux : CHF 113 333 est le total « sans droit », non la déduction.",
+    "Exact : 696 667 × 8,1 % = CHF 56 430 (méthode de l'utilisation effective, art. 65 OTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-077",
+   "champ": "Corrections & réductions de l'impôt préalable — Cas calcul simplifié — application",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Une subvention de CHF 100 000 est traitée par le calcul approximatif (simplifié). Quel est le montant de la réduction de la déduction de l'impôt préalable ?",
+   "options": [
+    "CHF 7 493",
+    "CHF 8 100",
+    "CHF 2 600",
+    "CHF 100 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : 100 000 × 8,1 ÷ 108,1 ≈ CHF 7 493 (calcul simplifié, art. 33 al. 2 LTVA).",
+    "Faux : appliquer 8,1 % directement sur 100 000 ignore que le montant est réputé TVA incluse (art. 33 al. 2 LTVA).",
+    "Faux : CHF 2 600 utiliserait le forfait 2,6 %, inapplicable au calcul simplifié (art. 33 al. 2 LTVA).",
+    "Faux : CHF 100 000 est la subvention, non la réduction (art. 33 al. 2 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-078",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — correction (art. 30) vs réduction (art. 33)",
+   "memento": "art. 30 et 33 LTVA",
+   "question": "« Réduction de la déduction » et « correction de la déduction » : quelle affirmation est exacte ?",
+   "options": [
+    "Les deux termes désignent exactement le même mécanisme.",
+    "La réduction découle d'un usage mixte ; la correction découle d'une subvention.",
+    "La correction découle d'un usage mixte (art. 30) ; la réduction découle d'une subvention (art. 33).",
+    "La correction ne concerne que les dons."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : correction et réduction désignent deux mécanismes distincts (art. 30 vs art. 33 LTVA).",
+    "Faux : l'assertion intervertit les déclencheurs (correction = usage mixte, réduction = subvention).",
+    "Exact : la correction découle d'un usage mixte (art. 30) ; la réduction découle d'une subvention (art. 33 LTVA).",
+    "Faux : la correction vise l'usage mixte, non les dons (art. 30 LTVA)."
+   ],
+   "piege": "Correction (art. 30) = usage mixte · Réduction (art. 33) = subvention",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-079",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — subventions vs dons / valeur du terrain",
+   "memento": "art. 33 LTVA",
+   "question": "Laquelle de ces affirmations est correcte ?",
+   "options": [
+    "La valeur du terrain, exclue de la base de calcul, entraîne une réduction de la déduction de l'impôt préalable.",
+    "Ni les dons ni les subventions n'entraînent de réduction de la déduction de l'impôt préalable.",
+    "Les subventions entraînent une réduction de la déduction de l'impôt préalable, mais pas les dons.",
+    "Les dons entraînent une réduction de la déduction, mais pas les subventions."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la valeur du terrain, simplement exclue de la base de calcul, n'entraîne aucune réduction (art. 33 LTVA).",
+    "Faux : les subventions réduisent la déduction (art. 33 al. 2 LTVA), même si les dons non.",
+    "Exact : les subventions réduisent la déduction (art. 33 al. 2), pas les dons (art. 33 al. 1 LTVA).",
+    "Faux : c'est l'inverse — les subventions réduisent, pas les dons (art. 33 LTVA)."
+   ],
+   "piege": "Subventions (let. a-c) réduisent, dons (let. d-l) non",
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-080",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — élément sans réduction",
+   "memento": "art. 33 al. 1 LTVA",
+   "question": "Lequel de ces éléments N'entraîne PAS de réduction de la déduction de l'impôt préalable ?",
+   "options": [
+    "Une subvention cantonale liée à l'objet.",
+    "Une taxe touristique de droit public.",
+    "Une contribution cantonale d'un fonds pour le traitement des eaux usées.",
+    "Un dividende encaissé sur une participation."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une subvention (let. a) entraîne une réduction (art. 33 al. 2 LTVA).",
+    "Faux : une taxe touristique de droit public (let. b) entraîne une réduction (art. 33 al. 2 LTVA).",
+    "Faux : une contribution cantonale (let. c) entraîne une réduction (art. 33 al. 2 LTVA).",
+    "Exact : le dividende (let. d à l) n'entraîne aucune réduction (art. 33 al. 1 LTVA)."
+   ],
+   "piege": "Dividende (let. d-l) : aucune réduction",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M4-081",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — cascade réduction puis correction",
+   "memento": "art. 30 et 33 LTVA",
+   "question": "Dans le cas HelveticHelp, dans quel ordre s'appliquent la réduction (subvention) et la correction (prestations exclues) ?",
+   "options": [
+    "On corrige d'abord la double affectation, puis on réduit la subvention sur le solde.",
+    "On réduit d'abord la subvention sur l'ensemble, puis on corrige la double affectation sur le solde.",
+    "Les deux s'appliquent en parallèle sur le montant brut de l'impôt préalable.",
+    "On applique seulement la plus élevée des deux."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'ordre est inverse — la réduction (subvention) vient d'abord, puis la correction sur le solde (art. 30 et 33 LTVA).",
+    "Exact : on réduit d'abord la subvention sur l'ensemble (niveau 1), puis on corrige la double affectation sur le solde (niveau 2) (art. 30 et 33 LTVA).",
+    "Faux : appliquer les deux en parallèle sur le brut double-compterait l'effet ; l'ordre n'est pas neutre.",
+    "Faux : les deux s'appliquent successivement, pas seulement la plus élevée."
+   ],
+   "piege": "Réduction (art. 33) d'abord, correction (art. 30) sur le solde",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M4-082",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — double affectation en méthode TDFN",
+   "memento": "art. 37 LTVA",
+   "question": "Müller SA, qui décompte selon la méthode des taux de la dette fiscale nette, réalise à la fois un chiffre d'affaires imposable et un chiffre d'affaires exclu du champ de l'impôt. Selon quelle méthode doit-elle corriger l'impôt préalable ?",
+   "options": [
+    "Méthode effective.",
+    "Méthode forfaitaire par branche.",
+    "Méthode des trois pots.",
+    "Pas de correction de l'impôt préalable nécessaire."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la méthode effective suppose le décompte effectif, non le TDFN (art. 37 LTVA).",
+    "Faux : le forfait par branche suppose le décompte effectif, non le TDFN (art. 37 LTVA).",
+    "Faux : la méthode des trois pots suppose le décompte effectif, non le TDFN (art. 37 LTVA).",
+    "Exact : en TDFN, l'impôt préalable est déjà pris en compte dans le taux → aucune correction séparée (art. 37 LTVA)."
+   ],
+   "piege": "TDFN : impôt préalable déjà dans le taux, aucune correction séparée",
+   "difficulte": 3,
+   "source": "original"
+  },
+  {
+   "id": "M4-083",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — moment de la correction",
+   "memento": "art. 30 al. 2 LTVA",
+   "question": "Müller SA (méthode effective) réalise en 2024 environ 15 % de chiffre d'affaires imposable et 85 % de chiffre d'affaires exclu. À quel moment doit-elle déclarer et décompter les corrections de l'impôt préalable ?",
+   "options": [
+    "En continu, à chaque décompte trimestriel.",
+    "Au 1er trimestre de l'année suivante (Q1/2025).",
+    "Au plus tard à la fin de la période fiscale (Q4/2024).",
+    "Aucune correction n'est nécessaire."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la correction peut être opérée au plus tard à la fin de la période fiscale, non nécessairement chaque trimestre (art. 30 al. 2 LTVA).",
+    "Faux : le délai est la fin de la période fiscale (Q4/2024), non Q1/2025 (art. 30 al. 2 LTVA).",
+    "Exact : correction au plus tard à la fin de la période fiscale (Q4/2024), avec concordance annuelle (art. 30 al. 2 et art. 72 al. 1 LTVA).",
+    "Faux : l'usage majoritairement exclu impose une correction (art. 30 al. 2 LTVA)."
+   ],
+   "piege": "Correction au plus tard en fin de période fiscale (Q4)",
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-084",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — libre choix de la méthode",
+   "memento": "art. 68 OTVA",
+   "question": "Une entreprise en situation de double affectation peut-elle librement choisir la méthode de correction la plus avantageuse financièrement ?",
+   "options": [
+    "Oui, le libre choix de la méthode la plus avantageuse est garanti.",
+    "Non : la méthode doit aboutir à un résultat approprié et économiquement compréhensible (art. 68 OTVA).",
+    "Oui, mais uniquement en méthode des taux de la dette fiscale nette.",
+    "Non, seule la méthode de l'utilisation effective est admise."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le choix n'est pas libre ; la méthode doit aboutir à un résultat approprié (art. 68 OTVA).",
+    "Exact : la méthode doit produire un résultat approprié et économiquement compréhensible (art. 68 OTVA).",
+    "Faux : le libre choix du plus avantageux n'est pas garanti ; le résultat doit rester approprié (art. 68 OTVA).",
+    "Faux : plusieurs méthodes restent possibles, pas seulement l'utilisation effective (art. 68 OTVA)."
+   ],
+   "piege": "Résultat approprié exigé, pas la méthode la plus avantageuse",
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M4-085",
+   "champ": "Corrections & réductions de l'impôt préalable — Piège — portée de la réduction pour subvention",
+   "memento": "art. 33 al. 2 LTVA",
+   "question": "Une subvention liée à l'objet réduit-elle nécessairement l'impôt préalable de TOUTES les charges de l'entreprise (matériel, prestations de services et investissements) ?",
+   "options": [
+    "Oui, elle réduit toujours l'impôt préalable de l'ensemble des charges.",
+    "Non : la réduction peut se limiter à l'investissement ou à la charge subventionnée.",
+    "Oui, mais seulement en méthode forfaitaire.",
+    "Non, aucune charge n'est jamais concernée par la réduction."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une subvention liée à l'objet ne frappe que la charge ou l'investissement subventionné (art. 33 al. 2 LTVA).",
+    "Exact : la réduction peut se limiter à l'investissement ou à la charge subventionnée (art. 33 al. 2 LTVA).",
+    "Faux : la portée reste limitée à la charge subventionnée, indépendamment de la méthode (art. 33 al. 2 LTVA).",
+    "Faux : la charge subventionnée est bien concernée par la réduction (art. 33 al. 2 LTVA)."
+   ],
+   "piege": "Subvention liée à l'objet : seule la charge subventionnée",
+   "difficulte": 3,
+   "source": "original"
+  }
+ ]
+}

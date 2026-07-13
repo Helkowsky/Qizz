@@ -1,0 +1,957 @@
+{
+ "cours": "tva",
+ "module": "M6",
+ "titre": "Lieu des prestations (livraison & services)",
+ "questions": [
+  {
+   "id": "M6-001",
+   "champ": "Lieu des prestations (livraison & services) — Livraison vs prestation de services — définition",
+   "memento": "art. 3 let. e LTVA",
+   "question": "Au sens de la LTVA, qu'est-ce qui caractérise une prestation de services ?",
+   "options": [
+    "Toute prestation qui n'est pas une livraison",
+    "Toute remise d'un bien avec transfert du pouvoir d'en disposer",
+    "Uniquement la cession de droits immatériels",
+    "Uniquement les travaux effectués sur un bien"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la prestation de services est définie négativement comme toute prestation qui n'est pas une livraison (art. 3 let. e LTVA).",
+    "Faux : la remise d'un bien avec transfert du pouvoir d'en disposer est une livraison (art. 3 let. d LTVA), pas une prestation de services.",
+    "Faux : la cession de droits immatériels n'est qu'un cas de prestation de services ; la définition ne s'y limite pas (art. 3 let. e LTVA).",
+    "Faux : les travaux effectués sur un bien sont au contraire une livraison en droit suisse (art. 3 let. d LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-002",
+   "champ": "Lieu des prestations (livraison & services) — Règle de base de l'art. 8 al. 1 LTVA",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Quelle est la règle de base pour déterminer le lieu d'une prestation de services ?",
+   "options": [
+    "Le lieu où le prestataire a le siège de son activité",
+    "Le lieu où le destinataire a le siège de son activité économique",
+    "Le lieu où la prestation est matériellement exécutée",
+    "Le lieu de situation de l'immeuble concerné"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le lieu du prestataire n'est qu'une exception (soins/coiffeur, art. 8 al. 2 let. a LTVA), pas la règle de base.",
+    "Exact : la règle de base est le principe du lieu du destinataire (art. 8 al. 1 LTVA), mise en œuvre du principe du pays de destination.",
+    "Faux : le lieu d'exécution matérielle ne vaut que pour certaines exceptions (restauration, culturel/sportif, art. 8 al. 2 let. c et d LTVA).",
+    "Faux : le lieu de l'immeuble est réservé aux prestations immobilières (art. 8 al. 2 let. f LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-003",
+   "champ": "Lieu des prestations (livraison & services) — Territoire suisse et enclaves",
+   "memento": "art. 3 let. a LTVA",
+   "question": "Lequel de ces territoires fait partie du territoire suisse au sens de la TVA pour les livraisons de biens ?",
+   "options": [
+    "Samnaun",
+    "Sampuoir",
+    "La Principauté du Liechtenstein",
+    "Büsingen uniquement pour les prestations de services"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : Samnaun est suisse pour les prestations de services mais étranger pour les livraisons de biens (art. 4 al. 1 LTVA).",
+    "Faux : Sampuoir est, comme Samnaun, étranger pour les livraisons de biens (art. 4 al. 1 LTVA).",
+    "Exact : le Liechtenstein, lié à la Suisse par l'union douanière, fait partie du territoire suisse (art. 3 let. a LTVA).",
+    "Faux : Büsingen est territoire suisse pour toutes les opérations, pas seulement les prestations de services (art. 3 let. a LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-004",
+   "champ": "Lieu des prestations (livraison & services) — Établissement stable — double entité",
+   "memento": "art. 5 OTVA",
+   "question": "En droit suisse de la TVA, quel principe régit l'établissement stable d'une entreprise étrangère ?",
+   "options": [
+    "Le siège et l'établissement stable forment un seul et même assujetti",
+    "L'établissement stable n'est jamais assujetti à la TVA",
+    "Seul le siège étranger peut être assujetti",
+    "L'établissement stable et le siège sont des sujets fiscaux distincts pouvant se facturer entre eux"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la thèse du « seul assujetti » correspond au droit UE, non au droit suisse qui retient la double entité (art. 5 OTVA).",
+    "Faux : l'établissement stable peut au contraire être assujetti parallèlement au siège (art. 5 OTVA).",
+    "Faux : ce n'est pas le siège seul, mais l'établissement stable et le siège qui sont assujettis distinctement (art. 5 OTVA).",
+    "Exact : principe de la double entité — l'établissement stable et le siège sont des sujets fiscaux distincts pouvant se facturer entre eux (art. 5 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-005",
+   "champ": "Lieu des prestations (livraison & services) — Lieu de la livraison — bien non transporté (art. 7 al. 1 let. a)",
+   "memento": "art. 7 al. 1 let. a LTVA",
+   "question": "Pour un bien qui n'est ni transporté ni expédié par le fournisseur, où se situe le lieu de la livraison ?",
+   "options": [
+    "Au lieu où se trouve le bien au moment de la remise ou de la mise à disposition",
+    "Au lieu où commence le transport",
+    "Au siège du destinataire",
+    "Au siège du fournisseur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : pour un bien non transporté, le lieu est celui où se trouve le bien lors du transfert du pouvoir d'en disposer ou de sa mise à disposition (art. 7 al. 1 let. a LTVA).",
+    "Faux : le lieu de départ du transport vaut pour le bien transporté ou expédié (art. 7 al. 1 let. b LTVA), non pour le bien non transporté.",
+    "Faux : le siège du destinataire est un critère des prestations de services (art. 8 al. 1 LTVA), non de la livraison de biens.",
+    "Faux : le siège du fournisseur n'est pas le critère retenu par l'art. 7 al. 1 let. a LTVA pour le bien non transporté."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-006",
+   "champ": "Lieu des prestations (livraison & services) — Lieu de la livraison — énergie (art. 7 al. 2)",
+   "memento": "art. 7 al. 2 LTVA",
+   "question": "Où se situe le lieu de la livraison d'électricité, de gaz ou de chaleur produite à distance ?",
+   "options": [
+    "Au lieu où commence le transport de l'énergie",
+    "Au lieu du destinataire",
+    "Au lieu de production de l'énergie",
+    "Au siège du fournisseur d'énergie"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le lieu de départ du transport vaut pour les biens ordinaires (art. 7 al. 1 let. b LTVA), non pour l'énergie.",
+    "Exact : l'électricité, le gaz et la chaleur produite à distance sont réputés livrés au lieu du destinataire (art. 7 al. 2 LTVA).",
+    "Faux : le lieu de production n'est pas le critère retenu pour l'énergie (art. 7 al. 2 LTVA).",
+    "Faux : le siège du fournisseur n'est pas le critère de l'art. 7 al. 2 LTVA pour l'énergie."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-007",
+   "champ": "Lieu des prestations (livraison & services) — Impôt sur les acquisitions — définition",
+   "memento": "art. 45 LTVA",
+   "question": "En quoi consiste l'impôt sur les acquisitions ?",
+   "options": [
+    "Un impôt perçu au passage physique de la frontière par un bien",
+    "Un impôt facturé par le fournisseur étranger inscrit au registre CH",
+    "Une inversion du débiteur : le destinataire suisse impose lui-même la prestation de services acquise d'un fournisseur étranger non inscrit",
+    "Un impôt spécifique sur les exportations exonérées"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'impôt perçu au passage physique de la frontière est l'impôt sur les importations (art. 50 ss LTVA), non l'impôt sur les acquisitions.",
+    "Faux : si le fournisseur étranger est inscrit au registre CH, il facture lui-même la TVA ; l'impôt sur les acquisitions vise le fournisseur non inscrit (art. 45 LTVA).",
+    "Exact : reverse charge — le destinataire suisse devient débiteur de l'impôt pour une prestation de services acquise d'un fournisseur étranger non inscrit (art. 45 LTVA).",
+    "Faux : il n'existe pas d'impôt spécifique sur les exportations, qui sont exonérées (art. 23 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-008",
+   "champ": "Lieu des prestations (livraison & services) — Notion de livraison plus large qu'en UE",
+   "memento": "art. 3 let. d LTVA",
+   "question": "Pourquoi la notion de « livraison » est-elle plus large en droit suisse que dans l'UE ?",
+   "options": [
+    "Parce qu'elle englobe aussi la cession de droits immatériels",
+    "Parce qu'elle inclut les exportations",
+    "Parce qu'elle exclut la mise à disposition de biens",
+    "Parce que les travaux sur un bien et la location sont des livraisons en Suisse, mais des prestations de services dans l'UE"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la cession de droits immatériels est au contraire une prestation de services (art. 3 let. e LTVA), non une livraison.",
+    "Faux : l'inclusion des exportations n'a rien à voir avec la définition de la livraison (art. 3 let. d LTVA).",
+    "Faux : la mise à disposition d'un bien (location) est précisément une livraison en droit suisse (art. 3 let. d LTVA), non une exclusion.",
+    "Exact : les travaux sur un bien et la location sont des livraisons en Suisse (art. 3 let. d LTVA) alors que l'UE les qualifie de prestations de services, d'où un champ plus large."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-009",
+   "champ": "Lieu des prestations (livraison & services) — Vente par correspondance — seuil de déplacement du lieu",
+   "memento": "art. 7 al. 3 let. b LTVA",
+   "question": "À partir de quel chiffre d'affaires annuel la vente par correspondance de petits envois déplace-t-elle le lieu de la livraison vers la Suisse ?",
+   "options": [
+    "Dès CHF 100 000",
+    "Dès CHF 10 000",
+    "Dès CHF 250 000",
+    "Dès CHF 300"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : dès CHF 100 000 de chiffre d'affaires annuel provenant de petits envois, le lieu de la livraison est réputé en Suisse (art. 7 al. 3 let. b LTVA · art. 4a OTVA).",
+    "Faux : CHF 10 000 est le seuil de l'impôt sur les acquisitions (art. 45 al. 2 let. b LTVA), pas celui de la vente par correspondance.",
+    "Faux : CHF 250 000 ne correspond pas au seuil de déplacement du lieu de la livraison (art. 7 al. 3 let. b LTVA).",
+    "Faux : CHF 300 ne correspond pas au seuil de chiffre d'affaires déclenchant le déplacement du lieu de la livraison (art. 7 al. 3 let. b LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-010",
+   "champ": "Lieu des prestations (livraison & services) — Établissement stable — chantier (art. 5 OTVA)",
+   "memento": "art. 5 al. 2 OTVA",
+   "question": "À partir de quelle durée un chantier de construction ou de montage constitue-t-il un établissement stable ?",
+   "options": [
+    "Dès 6 mois",
+    "Dès 12 mois",
+    "Dès 9 mois",
+    "Dès 24 mois"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la durée déclenchante n'est pas 6 mois ; l'art. 5 al. 2 OTVA fixe le seuil à 12 mois.",
+    "Exact : un chantier de construction ou de montage d'une durée d'au moins 12 mois est un établissement stable (art. 5 al. 2 OTVA, liste positive).",
+    "Faux : le seuil n'est pas de 9 mois mais de 12 mois (art. 5 al. 2 OTVA).",
+    "Faux : le seuil n'est pas de 24 mois mais de 12 mois (art. 5 al. 2 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-011",
+   "champ": "Lieu des prestations (livraison & services) — Base légale — lieu de la livraison",
+   "memento": "art. 7 LTVA",
+   "question": "Quelle disposition règle le lieu de la livraison de biens ?",
+   "options": [
+    "art. 8 LTVA",
+    "art. 3 LTVA",
+    "art. 7 LTVA",
+    "art. 23 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'art. 8 LTVA règle le lieu de la prestation de services, non celui de la livraison.",
+    "Faux : l'art. 3 LTVA définit les notions (livraison, prestation de services), mais ne règle pas le lieu de la livraison.",
+    "Exact : l'art. 7 LTVA règle le lieu de la livraison de biens.",
+    "Faux : l'art. 23 LTVA vise les exonérations (dont l'exportation), non le lieu de la livraison."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-012",
+   "champ": "Lieu des prestations (livraison & services) — Base légale — principe du destinataire",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Le principe du lieu du destinataire pour une prestation de services figure à...",
+   "options": [
+    "art. 7 al. 1 LTVA",
+    "art. 8 al. 2 let. a LTVA",
+    "art. 45 LTVA",
+    "art. 8 al. 1 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 7 al. 1 LTVA vise le lieu de la livraison de biens, non le principe du destinataire pour les prestations de services.",
+    "Faux : l'art. 8 al. 2 let. a LTVA est l'exception (soins/coiffeur au lieu du prestataire), non la règle du destinataire.",
+    "Faux : l'art. 45 LTVA règle l'impôt sur les acquisitions, non le principe du lieu du destinataire.",
+    "Exact : l'art. 8 al. 1 LTVA pose la règle de base du lieu du destinataire pour les prestations de services."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-013",
+   "champ": "Lieu des prestations (livraison & services) — Exception immeuble / hébergement (art. 8 al. 2 let. f)",
+   "memento": "art. 8 al. 2 let. f LTVA",
+   "question": "Quelle lettre de l'art. 8 al. 2 LTVA rattache l'hébergement hôtelier et les prestations liées à un immeuble au lieu de situation de l'immeuble ?",
+   "options": [
+    "let. f",
+    "let. a",
+    "let. c",
+    "let. d"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'art. 8 al. 2 let. f LTVA rattache immeuble, hébergement hôtelier, architecture et expertise immobilière au lieu de situation de l'immeuble.",
+    "Faux : la let. a vise les soins et la coiffure au lieu du prestataire (art. 8 al. 2 let. a LTVA), non l'immeuble.",
+    "Faux : la let. c vise les prestations culturelles/sportives (art. 8 al. 2 let. c LTVA), non l'immeuble.",
+    "Faux : la let. d vise la restauration (art. 8 al. 2 let. d LTVA), non l'immeuble."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-014",
+   "champ": "Lieu des prestations (livraison & services) — Soins / coiffeur — référence correcte (piège let. a/b)",
+   "memento": "art. 8 al. 2 let. a LTVA",
+   "question": "Les prestations de soins et de coiffure fournies directement à des personnes présentes relèvent, selon le texte en vigueur au 1.1.2025, de...",
+   "options": [
+    "art. 8 al. 2 let. a et b LTVA",
+    "art. 8 al. 2 let. a LTVA",
+    "art. 8 al. 2 let. c LTVA",
+    "art. 7 al. 1 let. a LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : depuis la révision en vigueur au 1.1.2025, la let. b vise les agences de voyages ; la référence « let. a et b » est devenue inexacte (art. 8 al. 2 let. a LTVA).",
+    "Exact : les soins et la coiffure fournis à des personnes présentes relèvent de la seule let. a de l'art. 8 al. 2 LTVA (lieu du prestataire).",
+    "Faux : la let. c vise le culturel/sportif/didactique (art. 8 al. 2 let. c LTVA), non les soins et la coiffure.",
+    "Faux : l'art. 7 al. 1 let. a LTVA vise la livraison de biens, non les soins et la coiffure."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-015",
+   "champ": "Lieu des prestations (livraison & services) — Transport de passagers (art. 8 al. 2 let. e)",
+   "memento": "art. 8 al. 2 let. e LTVA",
+   "question": "Le lieu du transport de passagers se détermine selon...",
+   "options": [
+    "art. 8 al. 1 LTVA (lieu du destinataire)",
+    "art. 8 al. 2 let. d LTVA (lieu d'exercice)",
+    "art. 8 al. 2 let. e LTVA (lieu du trajet)",
+    "art. 7 al. 2 LTVA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la règle du destinataire (art. 8 al. 1 LTVA) vaut pour le transport de marchandises, non pour le transport de passagers.",
+    "Faux : la let. d vise la restauration au lieu d'exercice (art. 8 al. 2 let. d LTVA), non le transport de passagers.",
+    "Exact : le transport de passagers est réputé fourni au lieu du trajet effectivement parcouru (art. 8 al. 2 let. e LTVA).",
+    "Faux : l'art. 7 al. 2 LTVA vise la livraison d'énergie, non le transport de passagers."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-016",
+   "champ": "Lieu des prestations (livraison & services) — Restauration (art. 8 al. 2 let. d)",
+   "memento": "art. 8 al. 2 let. d LTVA",
+   "question": "Une prestation de restauration (catering, partyservice) est réputée fournie au lieu d'exercice de l'activité en vertu de...",
+   "options": [
+    "art. 8 al. 2 let. c LTVA",
+    "art. 8 al. 2 let. f LTVA",
+    "art. 8 al. 1 LTVA",
+    "art. 8 al. 2 let. d LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la let. c vise le culturel/sportif (art. 8 al. 2 let. c LTVA), non la restauration.",
+    "Faux : la let. f vise l'immeuble (art. 8 al. 2 let. f LTVA), non la restauration.",
+    "Faux : la règle de base du destinataire (art. 8 al. 1 LTVA) est écartée pour la restauration, qui suit une exception.",
+    "Exact : la restauration a son lieu là où la prestation est matériellement exécutée, soit le lieu d'exercice (art. 8 al. 2 let. d LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-017",
+   "champ": "Lieu des prestations (livraison & services) — Culturel / sportif / didactique (art. 8 al. 2 let. c)",
+   "memento": "art. 8 al. 2 let. c LTVA",
+   "question": "Les prestations culturelles, artistiques, sportives ou didactiques fournies à des personnes présentes ont leur lieu déterminé par...",
+   "options": [
+    "art. 8 al. 2 let. c LTVA (lieu d'exercice)",
+    "art. 8 al. 2 let. a LTVA (lieu du prestataire)",
+    "art. 8 al. 1 LTVA (lieu du destinataire)",
+    "art. 8 al. 2 let. f LTVA (lieu de l'immeuble)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les prestations culturelles/artistiques/sportives/didactiques fournies à des personnes présentes ont leur lieu à l'endroit où l'activité est exercée (art. 8 al. 2 let. c LTVA).",
+    "Faux : la let. a (lieu du prestataire) vise les soins et la coiffure (art. 8 al. 2 let. a LTVA), non le culturel/sportif.",
+    "Faux : la règle de base du destinataire (art. 8 al. 1 LTVA) est écartée pour ces prestations fournies à des personnes présentes.",
+    "Faux : la let. f (lieu de l'immeuble) vise les prestations immobilières (art. 8 al. 2 let. f LTVA), non le culturel/sportif."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-018",
+   "champ": "Lieu des prestations (livraison & services) — Déplacement du lieu vers la Suisse — déclaration d'engagement",
+   "memento": "art. 7 al. 3 let. a LTVA",
+   "question": "Le déplacement du lieu de la livraison vers la Suisse par déclaration d'engagement à l'importation repose sur...",
+   "options": [
+    "art. 7 al. 2 LTVA",
+    "art. 7 al. 3 let. a LTVA et art. 3 al. 3 OTVA",
+    "art. 8 al. 2 let. g LTVA",
+    "art. 45a LTVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'art. 7 al. 2 LTVA vise la livraison d'énergie, non la déclaration d'engagement à l'importation.",
+    "Exact : avec autorisation de l'AFC, le fournisseur qui importe le bien en son propre nom déplace le lieu de la livraison en Suisse (art. 7 al. 3 let. a LTVA · art. 3 al. 3 OTVA).",
+    "Faux : l'art. 8 al. 2 LTVA vise le lieu des prestations de services et non le déplacement du lieu de la livraison.",
+    "Faux : l'art. 45a LTVA concerne l'exemption d'impôt sur les acquisitions, non le déplacement du lieu de la livraison par déclaration d'engagement."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-019",
+   "champ": "Lieu des prestations (livraison & services) — Livraison vs prestation de services — logiciel télétransmis",
+   "memento": "art. 3 let. e LTVA",
+   "question": "Potpourri SA développe et vend des applications logicielles par télétransmission à des destinataires en Suisse. Que constitue cette vente du point de vue de la TVA ?",
+   "options": [
+    "Une livraison de matériel imposable",
+    "Une livraison en exécution d'un contrat d'entreprise imposable",
+    "Une prestation de services imposable",
+    "Une livraison en exécution d'un contrat d'entreprise exclue du champ de l'impôt"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : sans support physique, il n'y a pas de livraison de matériel ; la télétransmission est une prestation de services (art. 3 let. e LTVA).",
+    "Faux : la vente télétransmise n'est pas une livraison en exécution d'un contrat d'entreprise, faute de bien remis (art. 3 let. e LTVA).",
+    "Exact : la vente d'un logiciel par télétransmission, sans support physique, est une prestation de services imposable (art. 3 let. e, art. 8 LTVA).",
+    "Faux : l'opération est imposable et non exclue du champ, et c'est une prestation de services, non une livraison (art. 3 let. e LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M6-020",
+   "champ": "Lieu des prestations (livraison & services) — Lieu d'une prestation de nettoyage",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Potpourri SA fait nettoyer ses bureaux par une entreprise tierce. Selon quelle règle le lieu de la prestation de nettoyage se définit-il ?",
+   "options": [
+    "art. 7 al. 1 let. a LTVA",
+    "art. 8 al. 2 let. a LTVA",
+    "art. 8 al. 2 let. f LTVA",
+    "art. 8 al. 1 LTVA"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'art. 7 al. 1 let. a LTVA vise la livraison de biens ; le nettoyage est une prestation de services.",
+    "Faux : la let. a (lieu du prestataire) vise les soins et la coiffure (art. 8 al. 2 let. a LTVA), non le nettoyage.",
+    "Faux : la let. f (immeuble) vise l'architecture et l'expertise immobilière (art. 8 al. 2 let. f LTVA), non le nettoyage courant.",
+    "Exact : le nettoyage n'entre dans aucune exception de l'al. 2 et suit donc la règle de base du lieu du destinataire (art. 8 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M6-021",
+   "champ": "Lieu des prestations (livraison & services) — Conseil B2B / B2C à des destinataires à l'étranger",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Potpourri SA fournit des prestations de conseil à des entreprises et à des particuliers ayant leur siège ou domicile à l'étranger. Où ces prestations sont-elles réputées fournies ?",
+   "options": [
+    "Auprès des destinataires des prestations de conseil",
+    "Auprès du fournisseur des prestations de conseil",
+    "Auprès du fournisseur pour les particuliers ; auprès du destinataire pour les entreprises",
+    "Auprès du destinataire pour les particuliers ; auprès du fournisseur pour les entreprises"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le conseil suit la règle de base du lieu du destinataire, sans distinction B2B/B2C en droit suisse (art. 8 al. 1 LTVA) ; des destinataires à l'étranger placent la prestation hors du champ suisse.",
+    "Faux : le lieu du fournisseur n'est qu'une exception (soins/coiffeur, art. 8 al. 2 let. a LTVA) et ne s'applique pas au conseil.",
+    "Faux : le droit suisse ne distingue pas selon la qualité du destinataire ; le conseil suit toujours le lieu du destinataire (art. 8 al. 1 LTVA).",
+    "Faux : aucune distinction B2B/B2C n'existe en droit suisse ; le conseil suit uniformément le lieu du destinataire (art. 8 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M6-022",
+   "champ": "Lieu des prestations (livraison & services) — Principe applicable au lieu de la prestation de services",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Le principe applicable lors de la détermination du lieu d'une prestation de services est...",
+   "options": [
+    "le principe du lieu de l'exercice de l'activité",
+    "le principe du lieu du destinataire",
+    "le principe du siège du fournisseur",
+    "le principe du lieu de situation de l'immeuble"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le lieu d'exercice ne vaut que pour certaines exceptions (restauration, culturel/sportif, art. 8 al. 2 LTVA), non comme règle de base.",
+    "Exact : la règle de base est le principe du lieu du destinataire, mise en œuvre du principe du pays de destination (art. 8 al. 1 LTVA).",
+    "Faux : le siège du fournisseur n'est qu'une exception (art. 8 al. 2 let. a LTVA), non le principe applicable.",
+    "Faux : le lieu de l'immeuble est réservé aux prestations immobilières (art. 8 al. 2 let. f LTVA)."
+   ],
+   "difficulte": 1,
+   "source": "generated"
+  },
+  {
+   "id": "M6-023",
+   "champ": "Lieu des prestations (livraison & services) — Établissement stable — chantier transfrontalier",
+   "memento": "art. 5 OTVA",
+   "question": "Heinrich Müller SA, dont le siège est à Hambourg, décroche le contrat de rénovation d'un pont en Suisse. Quelle affirmation est correcte ?",
+   "options": [
+    "Un chantier constitue toujours un établissement stable",
+    "Un chantier ne constitue jamais un établissement stable",
+    "Si le chantier constitue un établissement stable, celui-ci et le siège sont des sujets fiscaux distincts dans les relations transfrontalières",
+    "L'établissement stable et le siège principal constituent toujours un seul sujet fiscal"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un chantier n'est un établissement stable que s'il dure au moins 12 mois (art. 5 OTVA), pas dans tous les cas.",
+    "Faux : un chantier peut constituer un établissement stable dès 12 mois de durée (art. 5 OTVA).",
+    "Exact : si le chantier constitue un établissement stable (≥ 12 mois), celui-ci et le siège sont des sujets fiscaux distincts par le principe de la double entité (art. 5 OTVA).",
+    "Faux : la thèse du « seul sujet fiscal » correspond au droit UE ; le droit suisse retient la double entité (art. 5 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "original"
+  },
+  {
+   "id": "M6-024",
+   "champ": "Lieu des prestations (livraison & services) — Établissement stable — liste positive / négative",
+   "memento": "art. 5 al. 3 OTVA",
+   "question": "Lequel de ces éléments n'est PAS un établissement stable au sens de l'art. 5 OTVA ?",
+   "options": [
+    "Une succursale",
+    "Un atelier",
+    "Un site de fabrication",
+    "Un simple dépôt servant à la distribution"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la succursale figure dans la liste positive des établissements stables (art. 5 al. 2 OTVA).",
+    "Faux : l'atelier est un établissement stable (art. 5 al. 2 OTVA).",
+    "Faux : le site de fabrication est un établissement stable (art. 5 al. 2 OTVA).",
+    "Exact : le simple dépôt servant à la distribution figure dans la liste négative et n'est pas un établissement stable (art. 5 al. 3 OTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-025",
+   "champ": "Lieu des prestations (livraison & services) — Coiffeur transfrontalier — lieu du prestataire",
+   "memento": "art. 8 al. 2 let. a LTVA",
+   "question": "Un coiffeur établi à Annecy (France) fournit ses prestations dans une maison de retraite à Genève. Où se situe le lieu de cette prestation ?",
+   "options": [
+    "En France, au lieu du prestataire",
+    "En Suisse, au lieu du destinataire",
+    "En Suisse, au lieu d'exercice de l'activité",
+    "En France, au siège du destinataire"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les prestations de coiffure fournies à des personnes présentes ont leur lieu au lieu du prestataire (Annecy, France) — art. 8 al. 2 let. a LTVA ; pas d'impôt sur les acquisitions en Suisse.",
+    "Faux : la règle de base du destinataire (art. 8 al. 1 LTVA) est écartée par l'exception let. a pour la coiffure.",
+    "Faux : le lieu d'exercice (art. 8 al. 2 let. c/d LTVA) ne s'applique pas à la coiffure, qui suit le lieu du prestataire (let. a).",
+    "Faux : le critère de la let. a est le lieu du prestataire, non le siège du destinataire (art. 8 al. 2 let. a LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-026",
+   "champ": "Lieu des prestations (livraison & services) — Architecte — immeuble à l'étranger",
+   "memento": "art. 8 al. 2 let. f LTVA",
+   "question": "Un architecte zurichois établit les plans d'un immeuble situé à Lörrach (Allemagne). Où se situe le lieu de sa prestation ?",
+   "options": [
+    "En Suisse, au siège de l'architecte",
+    "En Allemagne, au lieu de situation de l'immeuble",
+    "En Suisse, au siège du client",
+    "En Suisse, au lieu d'exercice"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le siège de l'architecte est sans effet ; la prestation suit le lieu de l'immeuble (art. 8 al. 2 let. f LTVA).",
+    "Exact : les prestations d'architecte liées à un immeuble ont leur lieu au lieu de situation de l'immeuble (Lörrach, Allemagne) — art. 8 al. 2 let. f LTVA, hors du champ suisse.",
+    "Faux : le siège du client (règle du destinataire, art. 8 al. 1 LTVA) est écarté par l'exception immeuble de la let. f.",
+    "Faux : le lieu d'exercice n'est pas le critère ; l'architecture immobilière suit le lieu de l'immeuble (art. 8 al. 2 let. f LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-027",
+   "champ": "Lieu des prestations (livraison & services) — Transport de marchandises pour un mandant étranger",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Une entreprise suisse transporte des marchandises de Berne à Bâle pour le compte d'un mandant italien. Où se situe le lieu de cette prestation de transport ?",
+   "options": [
+    "En Suisse, au lieu du trajet",
+    "En Suisse, au lieu de départ du transport",
+    "En Italie, au lieu du destinataire",
+    "En Italie, au lieu d'exercice"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le critère du lieu du trajet ne vaut que pour le transport de passagers (art. 8 al. 2 let. e LTVA), non pour les marchandises.",
+    "Faux : le lieu de départ vise la livraison de biens (art. 7 al. 1 let. b LTVA), non le transport de marchandises.",
+    "Exact : le transport de marchandises suit la règle de base du lieu du destinataire (mandant italien) — art. 8 al. 1 LTVA, lieu en Italie.",
+    "Faux : le lieu d'exercice n'est pas le critère ; le transport de marchandises suit le lieu du destinataire (art. 8 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-028",
+   "champ": "Lieu des prestations (livraison & services) — Hébergement hôtelier à l'étranger",
+   "memento": "art. 8 al. 2 let. f LTVA",
+   "question": "Une entreprise zurichoise réserve un hébergement hôtelier à Salzbourg (Autriche) pour ses employés. Où se situe le lieu de la prestation d'hébergement ?",
+   "options": [
+    "En Suisse, au siège du destinataire",
+    "En Suisse, au lieu du preneur",
+    "En Autriche, au lieu d'exercice de l'activité",
+    "En Autriche, au lieu de situation de l'immeuble"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le siège du destinataire (règle de base, art. 8 al. 1 LTVA) est écarté par l'exception immeuble pour l'hébergement.",
+    "Faux : le lieu du preneur n'est pas le critère ; l'hébergement suit le lieu de l'immeuble (art. 8 al. 2 let. f LTVA).",
+    "Faux : ce n'est pas le lieu d'exercice mais le lieu de situation de l'immeuble qui s'applique (art. 8 al. 2 let. f LTVA).",
+    "Exact : l'hébergement hôtelier relève du lieu de situation de l'immeuble (Salzbourg, Autriche) — art. 8 al. 2 let. f LTVA, hors du champ suisse."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-029",
+   "champ": "Lieu des prestations (livraison & services) — Sportif étranger — lieu d'exercice (piège intuitif)",
+   "memento": "art. 8 al. 2 let. c LTVA",
+   "question": "Une prime est versée à un joueur de tennis espagnol pour un tournoi disputé à Bâle. Où se situe le lieu de sa prestation ?",
+   "options": [
+    "En Suisse, au lieu d'exercice de l'activité",
+    "En Espagne, au lieu du prestataire",
+    "En Espagne, au siège du destinataire",
+    "En Suisse, au lieu du destinataire"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la prestation sportive fournie à des personnes présentes a son lieu à l'endroit où l'activité est exercée (Bâle), imposable en Suisse même si le sportif est étranger (art. 8 al. 2 let. c LTVA).",
+    "Faux : le lieu du prestataire (let. a) vise soins/coiffure ; raisonner « prestataire étranger » est le piège, alors que le sport suit le lieu d'exercice (art. 8 al. 2 let. c LTVA).",
+    "Faux : le siège du destinataire (art. 8 al. 1 LTVA) est écarté par l'exception let. c pour les prestations sportives.",
+    "Faux : la règle de base du destinataire est écartée ; la prestation sportive suit le lieu d'exercice, ici Bâle (art. 8 al. 2 let. c LTVA)."
+   ],
+   "piege": "Prestataire étranger ≠ lieu à l'étranger : le sport suit le lieu d'exercice",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-030",
+   "champ": "Lieu des prestations (livraison & services) — Samnaun — suisse pour les prestations de services",
+   "memento": "art. 4 al. 1 LTVA",
+   "question": "Une fiduciaire de Davos tient la comptabilité d'un client domicilié à Samnaun. Où se situe le lieu de cette prestation de services ?",
+   "options": [
+    "À l'étranger, Samnaun étant hors du territoire suisse",
+    "En Suisse, Samnaun étant suisse pour les prestations de services",
+    "Au lieu du prestataire, à Davos",
+    "Hors du champ de la TVA"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : Samnaun est étranger seulement pour les livraisons de biens, mais suisse pour les prestations de services (art. 4 al. 1 LTVA).",
+    "Exact : Samnaun est territoire suisse pour les prestations de services ; le lieu de la comptabilité (destinataire) est donc en Suisse (art. 8 al. 1 en rel. art. 4 al. 1 LTVA).",
+    "Faux : le lieu du prestataire (Davos) n'est pas le critère ; la prestation de services suit le lieu du destinataire (art. 8 al. 1 LTVA).",
+    "Faux : la prestation n'est pas hors champ ; son lieu est en Suisse et elle est imposable (art. 8 al. 1 en rel. art. 4 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-031",
+   "champ": "Lieu des prestations (livraison & services) — Travaux sur un bien = livraison (CH ≠ UE)",
+   "memento": "art. 3 let. d LTVA",
+   "question": "Un serrurier de Lörrach répare une porte de garage à Bâle. Du point de vue de la TVA suisse, cette opération est...",
+   "options": [
+    "une prestation de services (art. 8 LTVA)",
+    "une opération exclue du champ de l'impôt",
+    "une livraison (art. 7 LTVA)",
+    "une prestation de restauration"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la qualification de prestation de services est celle du droit UE ; en Suisse, les travaux sur un bien sont une livraison (art. 3 let. d LTVA).",
+    "Faux : l'opération n'est pas exclue du champ ; c'est une livraison imposable dont le lieu suit l'art. 7 LTVA.",
+    "Exact : les travaux sur un bien (réparer, régler, contrôler) sont des livraisons en droit suisse ; le lieu suit l'art. 7 LTVA (ici Bâle) — art. 3 let. d LTVA.",
+    "Faux : la restauration (art. 8 al. 2 let. d LTVA) n'a rien à voir ; la réparation d'une porte est une livraison (art. 3 let. d LTVA)."
+   ],
+   "piege": "Travaux sur un bien = livraison en CH (≠ prestation de services UE)",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-032",
+   "champ": "Lieu des prestations (livraison & services) — Formation en présentiel — lieu d'exercice",
+   "memento": "art. 8 al. 2 let. c LTVA",
+   "question": "Une formation continue est dispensée en présentiel à Saint-Gall à des participants. Où se situe le lieu de cette prestation ?",
+   "options": [
+    "Au siège des participants",
+    "Au siège de l'organisme de formation",
+    "Au lieu de situation de la salle louée",
+    "Au lieu d'exercice, soit Saint-Gall"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le siège des participants (règle du destinataire, art. 8 al. 1 LTVA) est écarté pour une prestation didactique en présentiel.",
+    "Faux : le siège de l'organisme (lieu du prestataire) n'est pas le critère de la prestation didactique (art. 8 al. 2 let. c LTVA).",
+    "Faux : ce n'est pas le lieu de l'immeuble/salle (art. 8 al. 2 let. f LTVA) qui compte, mais le lieu d'exercice de la formation (let. c).",
+    "Exact : une prestation didactique fournie à des personnes présentes a son lieu à l'endroit où elle est exercée (Saint-Gall) — art. 8 al. 2 let. c LTVA."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-033",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — canapé expédié d'Allemagne",
+   "memento": "art. 7 al. 1 let. b LTVA",
+   "question": "Un client suisse commande un canapé à un fournisseur allemand, qui le lui expédie depuis l'Allemagne. Où se situe le lieu de la livraison ?",
+   "options": [
+    "En Allemagne, là où commence le transport",
+    "En Suisse, au lieu de destination",
+    "En Suisse, au lieu du destinataire",
+    "En Allemagne, au siège du fournisseur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : pour un bien expédié par le fournisseur, le lieu de la livraison est là où commence le transport (Allemagne) — art. 7 al. 1 let. b LTVA ; l'entrée en Suisse relève ensuite de l'impôt sur les importations (art. 50 ss LTVA).",
+    "Faux : le « lieu de destination » n'est pas le critère de l'art. 7 LTVA pour la livraison d'un bien transporté.",
+    "Faux : le lieu du destinataire vise les prestations de services (art. 8 al. 1 LTVA), non la livraison d'un bien transporté (art. 7 al. 1 let. b LTVA).",
+    "Faux : le siège du fournisseur n'est pas le critère ; c'est le lieu de départ du transport qui compte (art. 7 al. 1 let. b LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-034",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — expédition Zurich → Lyon",
+   "memento": "art. 7 al. 1 let. b LTVA",
+   "question": "Un grossiste zurichois expédie une palette depuis Zurich vers un client à Lyon. Où se situe le lieu de la livraison et quel régime s'applique ?",
+   "options": [
+    "En France, avec TVA française",
+    "En Suisse (début du transport), exportation exonérée",
+    "En Suisse, imposable au taux normal sans exonération",
+    "En France, au lieu du destinataire"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le lieu de la livraison est en Suisse (début du transport, art. 7 al. 1 let. b LTVA), non en France ; la TVA française relève du régime d'importation étranger.",
+    "Exact : le lieu est en Suisse (Zurich, début du transport) ; le bien sortant du territoire, l'opération est une exportation exonérée à 0 % avec maintien de la déduction (art. 7 al. 1 let. b · art. 23 LTVA).",
+    "Faux : l'opération n'est pas imposée au taux normal ; l'exportation est exonérée à 0 % (art. 23 LTVA).",
+    "Faux : le lieu de la livraison n'est pas en France ; il se situe au départ du transport en Suisse (art. 7 al. 1 let. b LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-035",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — sauna livré et installé (contrat d'entreprise)",
+   "memento": "art. 7 LTVA",
+   "question": "Emilie Wasser demande à Sauna GmbH (siège à Constance, D) de lui livrer un sauna et de l'installer dans son logement en Suisse. Quelle affirmation est correcte ?",
+   "options": [
+    "L'installation étant accessoire, Sauna GmbH n'est pas assujettie en Suisse",
+    "Sauna GmbH n'est imposée que sur la part de prestation de services fournie en Suisse",
+    "La livraison et l'installation forment une livraison en exécution d'un contrat d'entreprise, avec lieu de la prestation en Suisse, entraînant en principe l'assujettissement de Sauna GmbH",
+    "Emilie Wasser doit décompter l'impôt sur les acquisitions"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'installation n'est pas une simple prestation accessoire ; l'ensemble est une livraison en Suisse entraînant en principe l'assujettissement (art. 7, art. 10 LTVA).",
+    "Faux : il ne s'agit pas d'une part de prestation de services, mais d'une livraison en exécution d'un contrat d'entreprise (art. 7 LTVA).",
+    "Exact : la livraison et l'installation forment une livraison en exécution d'un contrat d'entreprise, avec lieu en Suisse (art. 7 LTVA), entraînant en principe l'assujettissement de Sauna GmbH (art. 10 LTVA).",
+    "Faux : le lieu étant en Suisse au titre d'une livraison, c'est le fournisseur qui est assujetti, non la cliente via l'impôt sur les acquisitions (art. 10 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-036",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — location de véhicule (livraison)",
+   "memento": "art. 7 al. 1 let. a LTVA",
+   "question": "Une société loue une voiture à l'aéroport de Zurich. Où se situe le lieu de cette prestation ?",
+   "options": [
+    "Au siège du loueur uniquement",
+    "Au domicile du preneur, à l'étranger",
+    "Au lieu du trajet parcouru",
+    "En Suisse, la location d'un bien étant une livraison (lieu de mise à disposition)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le siège du loueur seul n'est pas le critère ; la location est une livraison dont le lieu est celui de la mise à disposition (art. 7 al. 1 let. a LTVA).",
+    "Faux : le domicile du preneur (règle du destinataire) vise les prestations de services ; la location d'un bien est une livraison en droit suisse (art. 3 let. d, art. 7 al. 1 let. a LTVA).",
+    "Faux : le lieu du trajet vise le transport de passagers (art. 8 al. 2 let. e LTVA), non la location d'un véhicule.",
+    "Exact : la mise à disposition d'un bien (location) est une livraison ; le lieu est celui de la remise/mise à disposition (Zurich) — art. 7 al. 1 let. a LTVA."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-037",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — conseil à un destinataire allemand",
+   "memento": "art. 8 al. 1 LTVA",
+   "question": "Un consultant genevois facture une prestation de conseil à une société ayant son siège en Allemagne. Quel est le traitement TVA ?",
+   "options": [
+    "Hors du champ suisse : le lieu est au siège du destinataire allemand",
+    "Imposable en Suisse à 8,1 %",
+    "Exonéré à l'exportation selon l'art. 23 LTVA",
+    "Soumis à l'impôt sur les acquisitions en Suisse"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le conseil suit le lieu du destinataire (Allemagne), donc hors du champ suisse, sans TVA CH (art. 8 al. 1 LTVA).",
+    "Faux : la prestation n'est pas imposable en Suisse puisque son lieu est en Allemagne (art. 8 al. 1 LTVA).",
+    "Faux : l'exonération à l'exportation (art. 23 LTVA) est réservée aux livraisons de biens, non aux prestations de services situées à l'étranger.",
+    "Faux : l'impôt sur les acquisitions vise le destinataire suisse acquérant d'un fournisseur étranger (art. 45 LTVA) ; ici c'est le consultant suisse qui fournit la prestation."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-038",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — travaux sans importation → acquisitions",
+   "memento": "art. 45 al. 1 let. c LTVA",
+   "question": "Un fabricant de cuisines allemand effectue des travaux sur une cuisine déjà installée dans un restaurant suisse, sans importer de matériel. Quel régime s'applique ?",
+   "options": [
+    "Impôt sur les importations, à la charge du restaurant",
+    "Impôt sur les acquisitions, autoliquidé par le restaurant suisse",
+    "Exportation exonérée",
+    "Aucune TVA, prestation hors champ"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : sans importation de matériel, il n'y a pas d'impôt sur les importations (art. 50 ss LTVA) ; c'est l'impôt sur les acquisitions qui s'applique.",
+    "Exact : des travaux (livraison) sur un bien déjà en place, sans importation, entraînent un impôt sur les acquisitions autoliquidé par le destinataire suisse (art. 45 al. 1 let. c LTVA).",
+    "Faux : il n'y a pas d'exportation ; le bien reste et est travaillé en Suisse (art. 45 al. 1 let. c LTVA).",
+    "Faux : l'opération n'est pas hors champ ; son lieu est en Suisse et elle est soumise à l'impôt sur les acquisitions (art. 45 al. 1 let. c LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-039",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — publicité étrangère (impôt sur les acquisitions)",
+   "memento": "art. 45 al. 1 let. a LTVA",
+   "question": "Un internat suisse assujetti reçoit une facture de CHF 100 000 d'une agence de publicité étrangère non inscrite en Suisse. Quel montant d'impôt sur les acquisitions doit-il autoliquider (taux 8,1 %) ?",
+   "options": [
+    "CHF 0, la publicité étant hors champ",
+    "CHF 2 600",
+    "CHF 8 100",
+    "CHF 10 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la publicité n'est pas hors champ ; elle suit le lieu du destinataire suisse et est soumise à l'impôt sur les acquisitions (art. 45 al. 1 let. a, art. 8 al. 1 LTVA).",
+    "Faux : CHF 2 600 résulterait d'un taux de 2,6 %, alors que le taux applicable est 8,1 % : 100 000 × 8,1 % = CHF 8 100 (art. 45 LTVA).",
+    "Exact : la publicité suit le lieu du destinataire, fournisseur étranger non inscrit → impôt sur les acquisitions = 100 000 × 8,1 % = CHF 8 100 (art. 45 al. 1 let. a LTVA).",
+    "Faux : CHF 10 000 correspond au seuil annuel déclenchant l'impôt sur les acquisitions, non au montant dû (100 000 × 8,1 % = CHF 8 100)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-040",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — licence de logiciel acquise de l'étranger",
+   "memento": "art. 45 al. 1 let. a LTVA",
+   "question": "Une entreprise suisse acquiert une licence de logiciel auprès d'un fournisseur établi à l'étranger et non inscrit au registre CH. Cette acquisition est-elle soumise à l'impôt sur les acquisitions ?",
+   "options": [
+    "Non, il s'agit d'une livraison de biens",
+    "Non, le lieu est à l'étranger",
+    "Non, prestation exclue du champ de l'impôt",
+    "Oui : prestation de services (art. 8 al. 1), fournisseur étranger non inscrit"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une licence de logiciel est une prestation de services, non une livraison de biens (art. 3 let. e LTVA).",
+    "Faux : le lieu est en Suisse au lieu du destinataire (art. 8 al. 1 LTVA), non à l'étranger.",
+    "Faux : la licence n'est pas exclue du champ ; c'est une prestation de services imposable soumise à l'impôt sur les acquisitions (art. 45 LTVA).",
+    "Exact : la licence de logiciel est une prestation de services dont le lieu est en Suisse (destinataire) ; acquise d'un fournisseur étranger non inscrit, elle est soumise à l'impôt sur les acquisitions (art. 45 al. 1 let. a, art. 8 al. 1 LTVA)."
+   ],
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-041",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — ingénieur étranger déjà assujetti en CH",
+   "memento": "art. 8 al. 2 let. f LTVA",
+   "question": "Un ingénieur belge établit la statique d'un immeuble situé à Zurich pour une caisse de pension. Cette prestation est-elle soumise à l'impôt sur les acquisitions pour la caisse ?",
+   "options": [
+    "Non, car l'ingénieur remplit lui-même les conditions d'assujettissement en Suisse",
+    "Oui, fournisseur étranger et lieu en Suisse",
+    "Non, car le lieu est en Belgique",
+    "Oui, au taux de 2,6 %"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la statique suit le lieu de l'immeuble (Zurich, art. 8 al. 2 let. f LTVA) ; du fait de ses prestations immobilières en Suisse, l'ingénieur remplit lui-même les conditions d'assujettissement (art. 10 LTVA) et facture la TVA — pas d'impôt sur les acquisitions.",
+    "Faux : bien que le lieu soit en Suisse, l'ingénieur assujetti facture lui-même la TVA, ce qui exclut l'impôt sur les acquisitions (art. 10 LTVA).",
+    "Faux : le lieu n'est pas en Belgique mais au lieu de situation de l'immeuble, à Zurich (art. 8 al. 2 let. f LTVA).",
+    "Faux : le taux n'est pas 2,6 % et, surtout, il n'y a pas d'impôt sur les acquisitions ici puisque l'ingénieur est assujetti (art. 10 LTVA)."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-042",
+   "champ": "Lieu des prestations (livraison & services) — Cas pratique — prestation exonérée acquise de l'étranger",
+   "memento": "art. 45a LTVA",
+   "question": "Un logisticien français facture à une société suisse un transport de marchandises entièrement effectué de Paris à Bruxelles. La société suisse doit-elle autoliquider un impôt sur les acquisitions ?",
+   "options": [
+    "Oui, fournisseur étranger, destinataire suisse",
+    "Non, la prestation est exonérée (transport transfrontalier) et n'est donc pas soumise à l'impôt sur les acquisitions",
+    "Oui, au lieu du destinataire suisse",
+    "Non, car le transport de marchandises est exclu du champ"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : même avec un fournisseur étranger et un destinataire suisse, une prestation exonérée n'est pas soumise à l'impôt sur les acquisitions (art. 45a en rel. art. 23 LTVA).",
+    "Exact : bien que le lieu suive le destinataire suisse (art. 8 al. 1 LTVA), une prestation exonérée acquise de l'étranger n'est pas soumise à l'impôt sur les acquisitions (art. 45a en rel. art. 23 LTVA).",
+    "Faux : le lieu est certes au destinataire suisse, mais l'exonération de la prestation écarte l'impôt sur les acquisitions (art. 45a en rel. art. 23 LTVA).",
+    "Faux : le transport transfrontalier n'est pas exclu (art. 21) mais exonéré (art. 23 LTVA) ; c'est l'exonération, non une exclusion, qui écarte l'impôt sur les acquisitions."
+   ],
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-043",
+   "champ": "Lieu des prestations (livraison & services) — Piège — impôt sur les importations vs acquisitions",
+   "memento": "art. 45 LTVA",
+   "question": "Quelle différence essentielle sépare l'impôt sur les importations de l'impôt sur les acquisitions ?",
+   "options": [
+    "Les deux exigent un rapport de prestations avec un fournisseur étranger",
+    "L'impôt sur les importations vise les prestations de services ; l'impôt sur les acquisitions vise les biens",
+    "L'impôt sur les importations frappe le transfert physique d'un bien sans qu'un rapport de prestations soit nécessaire ; l'impôt sur les acquisitions suppose une prestation de services d'un fournisseur étranger non inscrit",
+    "L'impôt sur les acquisitions est perçu à la douane"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : seul l'impôt sur les acquisitions exige un rapport de prestations ; l'impôt sur les importations frappe le passage physique du bien même sans contre-prestation (art. 50 ss LTVA).",
+    "Faux : c'est l'inverse — l'impôt sur les importations vise le transfert de biens, l'impôt sur les acquisitions vise les prestations de services (art. 45 vs art. 50 ss LTVA).",
+    "Exact : l'impôt sur les importations a un objet matériel (passage physique du bien, même sans contre-prestation) ; l'impôt sur les acquisitions suppose une prestation de services d'un fournisseur étranger non inscrit (art. 50 ss vs art. 45 LTVA).",
+    "Faux : c'est l'impôt sur les importations qui est perçu à la douane, non l'impôt sur les acquisitions, autoliquidé par le destinataire (art. 45, art. 50 ss LTVA)."
+   ],
+   "piege": "Importations = objet matériel sans rapport de prestations ; acquisitions = prestation de services",
+   "difficulte": 3,
+   "source": "generated"
+  },
+  {
+   "id": "M6-044",
+   "champ": "Lieu des prestations (livraison & services) — Piège — « lieu à l'étranger » (art. 8) ≠ « exclu » (art. 21)",
+   "memento": "art. 8 LTVA",
+   "question": "Une prestation de conseil dont le lieu se situe à l'étranger et une prestation exclue du champ (art. 21) produisent-elles le même effet TVA ?",
+   "options": [
+    "Oui, aucune des deux n'est imposée en Suisse et sans autre conséquence",
+    "Oui, les deux ouvrent le droit à déduction",
+    "Non : la PS à l'étranger est exclue, la prestation exclue est exonérée",
+    "Non : la PS à l'étranger est hors du champ territorial suisse ; la prestation exclue se déroule en Suisse mais fait perdre la déduction (sauf option)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les effets diffèrent — la prestation exclue (art. 21 LTVA) fait perdre la déduction de l'impôt préalable, contrairement à la prestation de services située à l'étranger.",
+    "Faux : la prestation exclue n'ouvre pas le droit à déduction, sauf option (art. 22 LTVA) ; les deux notions n'ont pas le même effet.",
+    "Faux : les qualifications sont inversées — la prestation de services à l'étranger est hors du champ territorial (art. 8), tandis que la prestation exclue (art. 21) se déroule en Suisse.",
+    "Exact : la prestation de services dont le lieu est à l'étranger (art. 8 LTVA) est hors du champ territorial suisse ; la prestation exclue (art. 21 LTVA) se situe en Suisse mais fait perdre la déduction, sauf option (art. 22 LTVA)."
+   ],
+   "piege": "Lieu à l'étranger (art. 8) ≠ prestation exclue (art. 21) : effet différent sur la déduction",
+   "difficulte": 2,
+   "source": "generated"
+  },
+  {
+   "id": "M6-045",
+   "champ": "Lieu des prestations (livraison & services) — Piège — Samnaun : livraison vs prestation de services",
+   "memento": "art. 4 al. 1 LTVA",
+   "question": "Une entreprise zurichoise réalise deux opérations vers Samnaun : (1) une livraison de marchandises et (2) une prestation de conseil. Comment sont-elles rattachées territorialement ?",
+   "options": [
+    "La livraison en territoire étranger ; la prestation de services en territoire suisse",
+    "Les deux en territoire suisse",
+    "Les deux en territoire étranger",
+    "La livraison en territoire suisse ; la prestation de services en territoire étranger"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : Samnaun n'est suisse que pour les prestations de services ; la livraison de marchandises y est « étranger », la prestation de conseil « suisse » (art. 4 al. 1 LTVA).",
+    "Faux : la livraison de biens vers Samnaun est réputée en territoire étranger, seule la prestation de services est en territoire suisse (art. 4 al. 1 LTVA).",
+    "Faux : la prestation de conseil est en territoire suisse, Samnaun étant suisse pour les prestations de services (art. 4 al. 1 LTVA).",
+    "Faux : c'est l'inverse — la livraison est en territoire étranger et la prestation de services en territoire suisse (art. 4 al. 1 LTVA)."
+   ],
+   "piege": "Samnaun : étranger pour les livraisons, suisse pour les prestations de services",
+   "difficulte": 3,
+   "source": "generated"
+  }
+ ]
+}
