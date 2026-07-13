@@ -3094,14 +3094,14 @@
     "Non, sauf s'il crée une SA",
     "Oui, mais uniquement s'il gère plus de CHF 300'000"
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
-    "Exact : art. 2 LBA — même le conseiller en placement pur est un intermédiaire financier soumis à la LBA.",
-    "Faux : le champ de l'art. 2 LBA est large et inclut le conseiller en placement pur.",
-    "Faux : la création d'une SA n'est pas une condition d'assujettissement.",
-    "Faux : aucun seuil chiffré ne conditionne l'assujettissement."
+    "Faux : l'art. 2 al. 3 let. f LBA ne soumet les conseillers en placement que s'ils EFFECTUENT des placements. A contrario, le conseil en placement PUR ne relève pas de la LBA (art. 2 al. 3 let. f LBA ; Circ. FINMA 2011/1, Cm 96).",
+    "Exact : sans exécution de transactions (pas de placement effectué, pas de pouvoir de disposition sur des valeurs de tiers), le conseiller en placement pur n'est PAS un intermédiaire financier (art. 2 al. 3 let. f LBA ; Circ. FINMA 2011/1, Cm 96).",
+    "Faux : la forme juridique (SA ou non) est sans pertinence pour l'assujettissement à la LBA ; le critère est l'activité (effectuer des placements à titre professionnel).",
+    "Faux : aucun seuil de fortune gérée ne fonde l'assujettissement ; CHF 300'000 est le seuil du DÉLIT FISCAL QUALIFIÉ (art. 305bis ch. 1bis CP), sans rapport."
    ],
-   "piege": "D5",
+   "piege": "D8",
    "difficulte": 4,
    "source": "generated"
   },
@@ -3622,12 +3622,12 @@
     "Même les conseillers en placement purs, qui ne participent pas à l’exécution des transactions, sont soumis à la LBA.",
     "Kurt ne peut pas être responsable selon les règles du droit du mandat."
    ],
-   "correct": 2,
+   "correct": 1,
    "explications": [
-    "Faux : la création d’une SA n’est pas une condition (art. 2 LBA).",
-    "Faux : le conseiller en placement pur est bien soumis à la LBA.",
-    "Exact : même le conseiller en placement pur est un intermédiaire financier soumis à la LBA (art. 2 LBA).",
-    "Faux : la responsabilité selon le droit du mandat n’est pas exclue."
+    "Faux : aucune obligation de forme juridique (SA) ne conditionne l'activité de conseiller en placement.",
+    "Exact : l'art. 2 al. 3 let. f LBA soumet les conseillers en placement uniquement s'ils EFFECTUENT des placements ; le conseil pur, sans exécution des transactions, n'est pas de l'intermédiation financière (Circ. FINMA 2011/1, Cm 96).",
+    "Faux : c'est l'inverse — le conseiller devient intermédiaire financier seulement s'il exécute des placements (p. ex. passe des ordres en vertu d'une procuration) (art. 2 al. 3 let. f LBA ; Circ. FINMA 2011/1, Cm 96).",
+    "Faux : le conseiller en placement répond bel et bien selon les règles du MANDAT (art. 394 ss CO) — diligence et fidélité (art. 398 CO)."
    ],
    "piege": "D6",
    "difficulte": 4,
@@ -4128,15 +4128,15 @@
     "Oui, sauf s'il détient une procuration",
     "Non, mais seulement s'il est employé d'une banque"
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : l'absence d'exécution ne l'exempte pas.",
-    "Exact : art. 2 LBA — le conseiller en placement pur est un intermédiaire financier soumis à la LBA.",
-    "Faux : l'assujettissement ne dépend pas d'une procuration.",
-    "Faux : il est soumis même sans être employé d'une banque."
+    "Exact : le conseil en placement pur (aucun ordre exécuté) n'est pas de l'intermédiation financière — l'art. 2 al. 3 let. f LBA vise ceux qui EFFECTUENT des placements (art. 2 al. 3 let. f LBA ; Circ. FINMA 2011/1, Cm 96).",
+    "Faux : c'était un piège — le conseiller en placement pur n'est PAS soumis ; il ne le devient que s'il effectue des placements pour des tiers (art. 2 al. 3 let. f LBA ; Circ. FINMA 2011/1, Cm 96).",
+    "Faux (nuance) : détenir une procuration ne suffit pas ; c'est son UTILISATION pour effectuer des placements isolés qui rend l'activité assujettie (Cm 96). L'énoncé exclut toute exécution.",
+    "Faux : le statut d'employé de banque est sans pertinence ; c'est la banque qui est l'intermédiaire financier (art. 2 al. 2 LBA), pas la question posée."
    ],
-   "piege": "D6",
-   "difficulte": 5,
+   "piege": "D8",
+   "difficulte": 4,
    "source": "generated"
   },
   {
