@@ -1,0 +1,216 @@
+{
+ "cours": "introductionAudit",
+ "module": "M5",
+ "titre": "Agrément & surveillance : LSR / ASR",
+ "questions": [
+  {
+   "id": "M5-001",
+   "champ": "Définition de la LSR",
+   "question": "Vous débutez comme assistant d'audit et votre responsable de mandat vous demande ce qu'est la loi sur la surveillance de la révision (LSR). Quelle affirmation est correcte ?",
+   "options": [
+    "La LSR est la loi fédérale sur l'agrément et la surveillance des réviseurs ; elle régit l'agrément et la surveillance des personnes qui fournissent des prestations en matière de révision.",
+    "La LSR commente les Règles d'organisation et d'éthique professionnelle et complète les Directives sur l'indépendance (DI).",
+    "La LSR décrit comment l'organe de révision doit auditer concrètement les comptes annuels (procédures et techniques de contrôle).",
+    "La LSR fixe les normes de présentation des comptes que le conseil d'administration doit appliquer pour établir les comptes annuels."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La LSR est la loi fédérale sur l'agrément et la surveillance des réviseurs ; elle régit l'agrément et la surveillance des personnes fournissant des prestations en matière de révision (LSR, section 1 : objet et définitions).",
+    "Faux. Commenter les Règles d'éthique et compléter les DI relève des publications professionnelles d'EXPERTsuisse, pas de la LSR qui porte sur l'agrément et la surveillance des réviseurs.",
+    "Faux. La manière d'auditer (procédures et techniques de contrôle) relève des normes d'audit (NA-CH / ISA-CH), et non de la LSR.",
+    "Faux. La présentation des comptes relève du CO et des normes comptables reconnues ; la LSR ne régit pas l'établissement des comptes annuels."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M5-002",
+   "champ": "Réviseur / expert-réviseur agréé",
+   "question": "Une personne physique dépose une demande d'agrément auprès de l'ASR. À quelles conditions est-elle agréée comme réviseur (art. 5 LSR) ou expert-réviseur (art. 4 LSR) ?",
+   "options": [
+    "Lorsqu'elle satisfait aux exigences de formation et de pratique professionnelle et qu'elle jouit d'une réputation irréprochable.",
+    "Uniquement si elle exerce sous la forme juridique d'une société anonyme ou d'une Sàrl.",
+    "Dès qu'elle est membre d'EXPERTsuisse, aucune condition de pratique professionnelle n'étant requise.",
+    "Lorsqu'elle a suivi les Directives concernant la formation continue (DFC), la formation initiale étant sans importance."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'agrément comme réviseur (art. 5 LSR) ou expert-réviseur (art. 4 LSR) suppose la formation exigée, la pratique professionnelle correspondante et une réputation irréprochable.",
+    "Faux. L'agrément d'une personne physique tient à ses caractéristiques personnelles (art. 4 et 5 LSR) ; la forme juridique SA/Sàrl concerne l'agrément des entreprises de révision (art. 6 LSR).",
+    "Faux. L'adhésion à EXPERTsuisse ne fonde pas l'agrément : les art. 4 et 5 LSR exigent formation, pratique professionnelle et réputation irréprochable.",
+    "Faux. La formation initiale (diplôme) est déterminante aux art. 4 et 5 LSR ; les DFC concernent la formation continue et ne se substituent pas aux conditions d'agrément."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-003",
+   "champ": "Durée de pratique (art. 4 vs 5 LSR)",
+   "question": "Léa est titulaire du diplôme d'expert-fiduciaire. Combien d'années de pratique professionnelle lui faut-il pour être agréée comme expert-réviseur (art. 4 LSR), puis comme réviseur (art. 5 LSR) ?",
+   "options": [
+    "5 ans de pratique pour l'expert-réviseur (art. 4 LSR) et 1 an pour le réviseur (art. 5 LSR).",
+    "1 an pour l'expert-réviseur et 5 ans pour le réviseur.",
+    "12 ans pour l'expert-réviseur et 5 ans pour le réviseur.",
+    "Aucune pratique professionnelle n'est requise dans les deux cas, le diplôme suffisant."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Un titulaire du diplôme d'expert-fiduciaire (ou fiscal, ou finance et controlling) doit justifier de 5 ans de pratique pour l'expert-réviseur (art. 4 LSR) et d'1 an pour le réviseur (art. 5 LSR).",
+    "Faux. Les durées sont inversées : l'exigence est plus élevée pour l'expert-réviseur (5 ans, art. 4 LSR) que pour le réviseur (1 an, art. 5 LSR).",
+    "Faux. Les 12 ans visent le titulaire d'un diplôme universitaire/HES ou d'un brevet fédéral pour l'expert-réviseur (art. 4 LSR), pas l'expert-fiduciaire.",
+    "Faux. La dispense de pratique ne vaut que pour le titulaire du diplôme d'expert-comptable (0 an aux art. 4 et 5 LSR) ; l'expert-fiduciaire doit justifier d'une pratique professionnelle."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-004",
+   "champ": "Réputation irréprochable",
+   "question": "Vous appréciez la condition de 'réputation irréprochable' exigée pour l'agrément d'un réviseur (art. 4 et 5 LSR). Quelle affirmation est correcte ?",
+   "options": [
+    "Les condamnations pénales et l'existence d'actes de défaut de biens sont des éléments pris en compte dans l'appréciation de la réputation irréprochable.",
+    "Seule la formation compte : la réputation n'entre pas dans l'appréciation de l'agrément.",
+    "La réputation irréprochable n'est exigée que des entreprises de révision, jamais des personnes physiques.",
+    "La réputation irréprochable est acquise définitivement dès l'obtention du diplôme d'expert-comptable et ne peut plus être remise en cause."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. La réputation irréprochable est une condition d'agrément (art. 4 et 5 LSR) ; les condamnations pénales et les actes de défaut de biens sont pris en compte dans son appréciation.",
+    "Faux. La réputation irréprochable est explicitement exigée en tête des art. 4 et 5 LSR, en plus de la formation et de la pratique professionnelle.",
+    "Faux. La réputation irréprochable est requise des personnes physiques aux art. 4 et 5 LSR ; les entreprises doivent garantir le respect des obligations légales (art. 6 LSR).",
+    "Faux. La réputation irréprochable est une condition permanente (art. 4 et 5 LSR) : un manquement ultérieur peut conduire l'ASR à retirer l'agrément (art. 17 LSR)."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M5-005",
+   "champ": "Agrément requis selon le contrôle",
+   "question": "Quel niveau d'agrément la loi exige-t-elle de l'organe de révision selon le type de contrôle ?",
+   "options": [
+    "Contrôle ordinaire : expert-réviseur agréé (art. 727b al. 2 CO) ; contrôle restreint : réviseur agréé (art. 727c CO).",
+    "Contrôle ordinaire : réviseur agréé (art. 727c CO) ; contrôle restreint : expert-réviseur agréé (art. 727b al. 2 CO).",
+    "Les deux types de contrôle exigent indistinctement un réviseur agréé.",
+    "Le contrôle restreint exige une entreprise de révision soumise à la surveillance de l'État."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Le contrôle ordinaire requiert un expert-réviseur agréé (art. 727b al. 2 CO) et le contrôle restreint un réviseur agréé (art. 727c CO).",
+    "Faux. Les exigences sont inversées : l'expert-réviseur (exigence la plus élevée) est requis pour l'ordinaire (art. 727b al. 2 CO), le réviseur pour le restreint (art. 727c CO).",
+    "Faux. Le contrôle ordinaire exige un niveau supérieur (expert-réviseur agréé, art. 727b al. 2 CO), pas un simple réviseur agréé.",
+    "Faux. L'entreprise soumise à la surveillance de l'État est exigée pour les sociétés ouvertes au public (art. 727b al. 1 CO), pas pour le contrôle restreint."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-006",
+   "champ": "Société ouverte au public",
+   "question": "Cotée SA a des titres de participation cotés en bourse. Quel organe de révision la loi lui impose-t-elle de désigner ?",
+   "options": [
+    "Une entreprise de révision soumise à la surveillance de l'État (art. 727b al. 1 CO).",
+    "Un simple réviseur agréé suffit (art. 727c CO).",
+    "Aucun organe de révision n'est requis si l'effectif est inférieur à 10 emplois à plein temps.",
+    "Un expert-réviseur agréé non soumis à la surveillance de l'État (art. 727b al. 2 CO)."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Une société ouverte au public (titres cotés) doit être contrôlée par une entreprise de révision soumise à la surveillance de l'État (art. 727b al. 1 CO).",
+    "Faux. Le réviseur agréé (art. 727c CO) vaut pour le contrôle restreint des petites entreprises, jamais pour une société cotée.",
+    "Faux. L'opting-out (< 10 EPT et unanimité, art. 727a al. 2 CO) est exclu pour une société ouverte au public soumise au contrôle ordinaire.",
+    "Faux. L'expert-réviseur agréé (art. 727b al. 2 CO) suffit pour une entreprise d'importance économique, mais une société cotée exige le niveau supérieur : entreprise soumise à la surveillance de l'État (art. 727b al. 1 CO)."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-007",
+   "champ": "Missions de l'ASR",
+   "question": "Quelle affirmation décrit correctement l'Autorité fédérale de surveillance en matière de révision (ASR) ?",
+   "options": [
+    "Elle agrée les personnes et les entreprises fournissant des prestations de révision, tient un registre public et surveille les organes de révision des sociétés d'intérêt public, avec un contrôle périodique au moins tous les 3 ans.",
+    "Elle établit les normes de présentation des comptes applicables aux sociétés cotées.",
+    "Elle contrôle les entreprises soumises à sa surveillance au moins tous les 7 ans.",
+    "Elle se limite à tenir un registre, sans pouvoir d'agrément ni de surveillance."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'ASR agrée les prestataires de révision, tient un registre public et exerce la haute surveillance des organes de révision des sociétés d'intérêt public, avec des contrôles périodiques au moins tous les 3 ans (LSR).",
+    "Faux. La présentation des comptes relève du CO et des normes comptables ; ce n'est pas une mission de l'ASR, qui surveille les réviseurs.",
+    "Faux. Le délai de contrôle des entreprises soumises à l'État est d'au moins 3 ans ; les 7 ans renvoient à la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO).",
+    "Faux. L'ASR dispose d'un véritable pouvoir d'agrément et de surveillance, en plus de tenir le registre public des réviseurs."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-008",
+   "champ": "Durée et transfert de l'agrément",
+   "question": "Concernant la durée des agréments délivrés par l'ASR, quelle affirmation est correcte ?",
+   "options": [
+    "L'agrément définitif des personnes physiques est de durée illimitée et n'est pas transférable ; les entreprises de révision reçoivent un agrément de 5 ans.",
+    "L'agrément des personnes physiques est valable 5 ans et celui des entreprises de révision est illimité.",
+    "L'agrément est accordé à la personne mais peut être transféré à un confrère moyennant certaines conditions.",
+    "Tous les agréments, personnes physiques comme entreprises, sont d'une durée illimitée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les agréments définitifs des personnes physiques sont illimités et non transférables (accordés en raison de caractéristiques personnelles) ; les entreprises de révision reçoivent un agrément de 5 ans (LSR / ASR).",
+    "Faux. C'est l'inverse : illimité pour les personnes physiques, 5 ans pour les entreprises de révision.",
+    "Faux. L'agrément est personnel et non transférable : il ne peut être cédé à une autre personne, fût-ce sous conditions.",
+    "Faux. Seuls les agréments des personnes physiques sont illimités ; ceux des entreprises de révision sont limités à 5 ans."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-009",
+   "champ": "ASR vs EXPERTsuisse",
+   "question": "Parmi les affirmations suivantes relatives à l'agrément et à la surveillance des réviseurs, laquelle est correcte ?",
+   "options": [
+    "C'est l'ASR qui agrée les personnes et les entreprises fournissant des prestations de révision et qui surveille les organes de révision des sociétés d'intérêt public.",
+    "C'est EXPERTsuisse qui agrée les réviseurs ; l'ASR se borne à surveiller les sociétés d'intérêt public.",
+    "L'agrément d'une personne physique peut être transféré à un confrère moyennant l'accord de l'ASR.",
+    "Une personne physique exploitant une entreprise individuelle ne peut jamais être agréée : l'agrément suppose une SA ou une Sàrl."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'agrément des personnes et des entreprises de révision, ainsi que la surveillance des organes de révision des sociétés d'intérêt public, relèvent de l'ASR (LSR).",
+    "Faux. EXPERTsuisse est une association professionnelle sans pouvoir d'agrément : c'est l'ASR, autorité étatique, qui agrée les réviseurs.",
+    "Faux. L'agrément est personnel et non transférable ; il ne peut être cédé à un tiers, même avec l'accord de l'ASR.",
+    "Faux. L'agrément d'une personne physique tient à ses caractéristiques personnelles (art. 4 et 5 LSR) et ne suppose pas une forme juridique SA ou Sàrl."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M5-010",
+   "champ": "Conditions formelles d'élection",
+   "question": "Un appel d'offres est lancé pour le mandat de révision de Wanner SA. Avant que l'assemblée générale puisse élire l'organe de révision, trois conditions formelles doivent être réunies (ISA-CH 220). Lesquelles ?",
+   "options": [
+    "L'éligibilité (art. 730 CO), l'agrément (LSR) et l'indépendance (art. 728 CO).",
+    "La formation, la rotation et le plafond d'honoraires.",
+    "L'inscription au registre du commerce, la nationalité suisse et l'adhésion à EXPERTsuisse.",
+    "L'éligibilité, la réputation irréprochable et la souscription d'une assurance RC par la société auditée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. Les trois conditions formelles d'élection sont l'éligibilité (art. 730 CO), l'agrément par l'ASR (LSR) et l'indépendance (art. 728 CO), conformément à l'ISA-CH 220.",
+    "Faux. La rotation (art. 730a al. 2 CO) et le plafond d'honoraires (art. 11 LSR) sont des règles matérielles d'indépendance, non les trois conditions formelles d'élection.",
+    "Faux. La nationalité suisse n'est pas exigée (l'art. 730 CO demande qu'au moins un membre ait son siège en Suisse) et l'adhésion à EXPERTsuisse n'est pas une condition légale d'élection.",
+    "Faux. La réputation irréprochable relève de l'agrément (art. 4 et 5 LSR) et l'assurance RC concerne le réviseur (OSRev), non la société auditée ; les trois conditions sont éligibilité, agrément et indépendance."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M5-011",
+   "champ": "Éligibilité (art. 730 CO)",
+   "question": "Selon l'art. 730 al. 2 et 4 CO, quand l'éligibilité de l'organe de révision est-elle établie ?",
+   "options": [
+    "Il s'agit de personnes physiques ou morales / sociétés de personnes, au moins un membre a son siège en Suisse et l'organe de révision est inscrit au registre du commerce.",
+    "L'organe de révision doit être exclusivement une personne physique de nationalité suisse.",
+    "L'éligibilité est établie dès que la société auditée respecte les Directives sur l'indépendance (DI) et la DFC.",
+    "Tous les membres de l'organe de révision doivent être domiciliés en Suisse et titulaires du diplôme d'expert-comptable."
+   ],
+   "correct": 0,
+   "explications": [
+    "Vrai. L'art. 730 al. 2 et 4 CO admet des personnes physiques ou morales / sociétés de personnes, exige qu'au moins un membre ait son siège en Suisse et que l'organe de révision soit inscrit au registre du commerce.",
+    "Faux. Les personnes morales et sociétés de personnes sont aussi éligibles (art. 730 al. 2 CO) et la nationalité suisse n'est pas requise ; seul le siège en Suisse d'au moins un membre est exigé.",
+    "Faux. Le respect des DI/DFC concerne l'indépendance et la formation continue, non l'éligibilité au sens de l'art. 730 al. 2 et 4 CO.",
+    "Faux. L'art. 730 CO n'exige qu'un membre ayant son siège en Suisse (pas tous domiciliés en Suisse) et ne pose pas d'exigence de diplôme d'expert-comptable, qui relève de l'agrément (art. 4 LSR)."
+   ],
+   "source": "genere"
+  }
+ ]
+}

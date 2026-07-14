@@ -1,0 +1,273 @@
+{
+ "cours": "introductionAudit",
+ "module": "M2",
+ "titre": "Types de missions & contrôles légaux au cycle de vie",
+ "questions": [
+  {
+   "id": "M2-001",
+   "champ": "Types de mission — AUP",
+   "question": "Un membre de la profession est chargé de réaliser des procédures convenues (AUP) sur les postes de créances de Delta SA. Quel est le niveau d'assurance délivré au terme de cette mission ?",
+   "options": [
+    "Aucune assurance : le professionnel rapporte uniquement des faits constatés ('factual findings'), sans les évaluer",
+    "Une assurance limitée, exprimée sous forme d'opinion négative",
+    "Une assurance raisonnable, exprimée sous forme d'opinion positive",
+    "La même assurance qu'une review, mais sous une forme allégée"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'AUP (procédures convenues) n'entraîne AUCUNE assurance ; le professionnel se borne à rapporter des faits constatés sans les évaluer, l'évaluation incombant au mandant/destinataire (source ch01, MSA MA ; fiche 'Types de mission').",
+    "Faux : l'assurance limitée / opinion négative caractérise la REVIEW (ex. contrôle restreint), pas l'AUP.",
+    "Faux : l'assurance raisonnable / opinion positive caractérise l'AUDIT (ex. contrôle ordinaire, art. 727 CO), pas l'AUP.",
+    "Faux : l'AUP n'est pas une review allégée ; c'est un service connexe SANS assurance (piège classique AUP ≠ mission d'assurance, mémento ch01)."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-002",
+   "champ": "Types de mission — Compilation",
+   "question": "Une petite filiale suisse d'un groupe étranger, faute de compétences internes, confie au professionnel l'établissement de ses états financiers selon les IFRS. À quel type de mission cela correspond-il ?",
+   "options": [
+    "COMPILATION (établissement d'informations financières selon un référentiel : CO, Swiss GAAP RPC ou IFRS)",
+    "AUP (procédures convenues)",
+    "REVIEW (contrôle restreint)",
+    "AUDIT (contrôle ordinaire)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la COMPILATION est l'établissement d'informations financières selon un référentiel comptable spécifique, souvent pour de petites filiales suisses ou succursales de groupes étrangers (source ch01 p.13 ; fiche 'Types de mission').",
+    "Faux : l'AUP consiste à exécuter des procédures convenues et à rapporter des faits constatés, pas à établir les comptes.",
+    "Faux : la REVIEW délivre une assurance limitée sur des comptes déjà établis ; ici le professionnel établit les comptes.",
+    "Faux : l'AUDIT (contrôle ordinaire, art. 727 CO) délivre une assurance raisonnable sur des comptes établis par autrui."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-003",
+   "champ": "Types de mission — légal vs volontaire",
+   "question": "Un audit PME réalisé volontairement et un contrôle ordinaire prescrit par la loi. Quel est l'effet du caractère légal ou volontaire sur la nature de la mission ?",
+   "options": [
+    "Le caractère légal ou volontaire ne change PAS le TYPE de mission : les deux restent des AUDIT (assurance raisonnable, opinion positive)",
+    "L'audit volontaire devient une simple review du fait qu'il n'est pas imposé par la loi",
+    "L'audit volontaire passe d'une assurance raisonnable à une assurance limitée",
+    "L'audit volontaire est dispensé de rapport écrit puisqu'il n'est pas légalement requis"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le contexte (prescrit par la loi ou choisi volontairement) ne change pas le TYPE de mission ; un audit reste un AUDIT à assurance raisonnable (mémento ch01 §3 ; fiche 'Types de mission').",
+    "Faux : le type (AUDIT vs REVIEW) dépend du niveau d'assurance visé, pas du caractère obligatoire ou non de la mission.",
+    "Faux : l'assurance raisonnable est intrinsèque à l'AUDIT ; elle ne se dégrade pas parce que la mission est volontaire.",
+    "Faux : le rapport écrit est l'une des 5 caractéristiques de toute mission d'assurance, qu'elle soit légale ou volontaire (source ch01 p.10)."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-004",
+   "champ": "Contrôle légal des comptes",
+   "question": "Matter SA est soumise à un contrôle légal de ses comptes annuels. Qu'entend-on par contrôle légal des comptes annuels ?",
+   "options": [
+    "Un contrôle ordinaire ou un contrôle restreint",
+    "Une review",
+    "Des procédures d'audit convenues (AUP)",
+    "Un audit de fondation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le contrôle légal des comptes annuels est soit ordinaire (art. 727 CO), soit restreint (art. 727a CO) ; ce sont les deux seuls régimes de révision légale des comptes.",
+    "Faux : la review n'est pas un contrôle légal des comptes ; elle relève des services de confiance volontaires (fiche 'Types de mission').",
+    "Faux : l'AUP est un service connexe sans assurance, pas un contrôle légal des comptes annuels.",
+    "Faux : l'audit de fondation est un contrôle légal SPÉCIAL (art. 635a CO), distinct du contrôle des comptes annuels."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M2-005",
+   "champ": "Contrôles légaux spéciaux — intrus",
+   "question": "Vous participez à l'audit de la réduction de capital de Sky SA. Parmi les éléments suivants, lequel ne constitue PAS un audit légal ?",
+   "options": [
+    "Le contrôle des apports en nature (art. 635a CO)",
+    "Le contrôle de la réévaluation (art. 725c CO)",
+    "L'audit de la fondation (art. 635a CO)",
+    "La review"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux (c'est bien un audit légal) : le contrôle des apports en nature lors d'une fondation qualifiée est un contrôle légal spécial (art. 635a CO).",
+    "Faux (c'est bien un audit légal) : la vérification de la réévaluation d'immeubles/participations est un contrôle légal spécial (art. 725c CO).",
+    "Faux (c'est bien un audit légal) : l'audit de fondation est un contrôle légal spécial (art. 635a CO).",
+    "Exact : la review est un service de confiance volontaire à assurance limitée ; ce n'est PAS un audit légal (intrus récurrent aux QCM ; fiche 'Review n'est pas un contrôle légal')."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M2-006",
+   "champ": "Review vs contrôle légal",
+   "question": "Un collègue confond review et contrôle restreint. Laquelle des affirmations suivantes est correcte à propos de la review ?",
+   "options": [
+    "La review est le contrôle légal des comptes annuels imposé par l'art. 727a CO",
+    "La review délivre une assurance raisonnable exprimée positivement",
+    "La review n'est pas un contrôle légal des comptes ; elle relève des services de confiance volontaires, demandés par le conseil d'administration",
+    "La review comprend la confirmation de l'existence du système de contrôle interne (SCI)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le contrôle légal des comptes prévu par l'art. 727a CO est le contrôle RESTREINT, pas la review (norme NCR, non ISRE).",
+    "Faux : l'assurance raisonnable/positive est celle de l'AUDIT ; la review délivre une assurance limitée/négative.",
+    "Exact : la review n'est pas un contrôle légal des comptes ; elle est demandée par le CA (et non par l'AG comme le restreint) et relève du volontaire (mémento ch03 §6 ; fiche 'Types de mission').",
+    "Faux : la confirmation de l'existence du SCI relève du contrôle ordinaire (art. 728a CO), pas de la review."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-007",
+   "champ": "Cycle de vie — fondation qualifiée",
+   "question": "Stéphanie fonde une Sàrl dont le capital n'est pas libéré en espèces mais par l'apport d'un food-truck et d'ustensiles de cuisine. De quel contrôle légal spécial s'agit-il ?",
+   "options": [
+    "Un contrôle de fondation qualifiée (apports en nature), la valeur devant être attestée par écrit par un réviseur agréé (art. 635a CO)",
+    "Une vérification d'augmentation de capital (art. 652f CO)",
+    "Une vérification de la réévaluation d'immeubles et de participations (art. 725c CO)",
+    "Une répartition anticipée de l'actif en liquidation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : libérer le capital par des apports en nature (food-truck, ustensiles) déclenche le contrôle de fondation qualifiée, attesté par un réviseur agréé (art. 635a CO ; source ch01 F4 p.5, mémento ch01 §6).",
+    "Faux : l'art. 652f CO vise l'augmentation du capital, non la fondation initiale de la société.",
+    "Faux : la réévaluation (art. 725c CO) intervient en phase de crise pour remédier à une perte de capital, pas à la fondation.",
+    "Faux : la répartition anticipée de l'actif concerne la liquidation, à l'opposé du cycle de vie."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-008",
+   "champ": "Cycle de vie — réévaluation",
+   "question": "Pour remédier à une perte de capital (art. 725a CO) ou en cas de surendettement (art. 725b CO), les immeubles et participations d'une société sont réinscrits au bilan jusqu'à leur valeur réelle conformément à l'art. 725c CO. De quoi s'agit-il ?",
+   "options": [
+    "D'un contrôle des apports en nature (art. 635a CO)",
+    "D'une vérification de la réévaluation, attestée par écrit à l'AG par un réviseur agréé (art. 725c CO)",
+    "D'une vérification d'augmentation de capital (art. 652f CO)",
+    "D'une répartition anticipée de l'actif en liquidation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les apports en nature (art. 635a CO) concernent la fondation ou l'augmentation, pas la réévaluation d'actifs existants.",
+    "Exact : réinscrire immeubles/participations à leur valeur réelle pour assainir la société est la vérification de la réévaluation, attestée par un réviseur agréé (art. 725c CO ; source ch01 F4 p.6, mémento ch03 §7).",
+    "Faux : l'art. 652f CO régit le contrôle du rapport d'augmentation de capital, pas la réévaluation.",
+    "Faux : la répartition anticipée de l'actif se situe en phase de liquidation, non lors d'un assainissement."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M2-009",
+   "champ": "Cycle de vie — augmentation de capital",
+   "question": "Une SA augmente son capital-actions par apport en nature, avec limitation des droits de souscription. Que prévoit la loi quant au contrôle du rapport d'augmentation établi par le conseil d'administration ?",
+   "options": [
+    "Un réviseur agréé doit vérifier le rapport d'augmentation de capital du conseil d'administration (art. 652f CO)",
+    "L'assemblée générale vérifie elle-même le rapport, sans intervention d'un réviseur",
+    "Aucun contrôle n'est requis lorsque l'apport est en nature",
+    "Il s'agit d'une vérification de la réévaluation au sens de l'art. 725c CO"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en cas d'apport en nature ou de limitation des droits de souscription, un réviseur agréé contrôle le rapport d'augmentation de capital du CA (art. 652f CO ; source ch01 F4 p.5, mémento ch03 §7).",
+    "Faux : le contrôle est confié à un réviseur agréé qualifié, ce n'est pas une auto-vérification par l'AG.",
+    "Faux : c'est précisément l'apport en nature (comme la limitation des droits) qui déclenche l'obligation de contrôle.",
+    "Faux : l'art. 725c CO vise la réévaluation en phase de crise, pas l'augmentation de capital."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-010",
+   "champ": "Cycle de vie — répartition anticipée",
+   "question": "Une société en liquidation souhaite répartir son actif entre les actionnaires avant la clôture définitive. Que prévoit le mécanisme de la répartition anticipée de l'actif ?",
+   "options": [
+    "Après trois appels aux créanciers, la répartition anticipée est possible au moins trois mois après le troisième appel si un expert-réviseur agréé confirme que les dettes sont éteintes et qu'aucun intérêt de tiers n'est mis en péril",
+    "La répartition est libre dès l'ouverture de la liquidation, sans attestation d'un réviseur",
+    "Il s'agit d'une réévaluation des immeubles à la valeur réelle au sens de l'art. 725c CO",
+    "C'est une review volontaire demandée par le conseil d'administration"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : trois appels aux créanciers, puis répartition anticipée possible au moins trois mois après le 3e appel, sous confirmation par un expert-réviseur agréé que les dettes sont éteintes et qu'aucun tiers n'est lésé (source ch01 F4 p.6, mémento ch01 §6).",
+    "Faux : la loi vise justement à empêcher toute répartition avant satisfaction des créanciers ; une attestation et un délai sont requis.",
+    "Faux : la réévaluation (art. 725c CO) est un assainissement en phase de crise, distinct de la liquidation.",
+    "Faux : la répartition anticipée est un contrôle légal spécial (expert-réviseur agréé), pas une review volontaire."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-011",
+   "champ": "Segments d'audit — PME",
+   "question": "Vous contrôlez la PME Müller Sàrl. Laquelle des caractéristiques suivantes n'est en principe PAS typique du segment d'audit 'PME' ?",
+   "options": [
+    "Présentation des comptes selon le Code des obligations",
+    "Souvent un contrôle restreint",
+    "Mandats courts (révision de 1 à 5 jours)",
+    "Honoraires élevés, comparables à ceux des groupes internationaux"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux (c'est bien typique) : les PME présentent généralement leurs comptes selon le CO (fiche 'Segments').",
+    "Faux (c'est bien typique) : les PME relèvent le plus souvent du contrôle restreint (art. 727a CO).",
+    "Faux (c'est bien typique) : les mandats PME sont courts (révision de 1 à 5 jours) et incluent souvent du conseil.",
+    "Exact : des honoraires élevés comparables à ceux des grands groupes ne sont PAS caractéristiques du segment PME (piège classique ; fiche 'Segments : PME')."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M2-012",
+   "champ": "Segments d'audit — groupes",
+   "question": "Vous participez à l'audit du groupe Motion et cherchez la norme d'audit relative aux aspects particuliers de l'audit des comptes consolidés d'un groupe. Quelle norme s'applique ?",
+   "options": [
+    "ISA-CH 600 (revised) — audit des états financiers d'un groupe",
+    "ISA-CH 200 — objectifs généraux et esprit critique",
+    "ISA-CH 500 — éléments probants",
+    "ISA-CH 700 — fondement de l'opinion et rapport d'audit"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'ISA-CH 600 (revised) traite des aspects particuliers de l'audit des états financiers d'un groupe (comptes consolidés) (source ch01 F3 p.7 ; fiche 'Segments : groupes').",
+    "Faux : l'ISA-CH 200 porte sur les objectifs généraux de l'auditeur et l'esprit critique, pas sur les groupes.",
+    "Faux : l'ISA-CH 500 traite des éléments probants en général, pas spécifiquement des groupes.",
+    "Faux : l'ISA-CH 700 concerne l'opinion et le rapport d'audit, pas les particularités de l'audit de groupe."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M2-013",
+   "champ": "Segments d'audit — sociétés cotées",
+   "question": "Vous assistez l'audit du groupe Zulker, coté en bourse. Laquelle des caractéristiques suivantes n'est en principe PAS typique du segment d'audit 'entreprises cotées' ?",
+   "options": [
+    "Rapport contenant des Key Audit Matters (KAM)",
+    "Application de normes comptables internationales (IFRS)",
+    "Les filiales sont en principe soumises à un contrôle restreint",
+    "Audit informatique et recours à la Data Analytics"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux (c'est bien typique) : le rapport d'audit des cotées comporte des Key Audit Matters (KAM).",
+    "Faux (c'est bien typique) : les groupes cotés présentent leurs comptes selon les IFRS (fiche 'Segments : cotées').",
+    "Exact : affirmer que les filiales sont 'en principe' soumises à un contrôle restreint est faux ; leur régime dépend de leur importance dans le groupe, souvent un contrôle ordinaire (piège ; fiche 'Segments').",
+    "Faux (c'est bien typique) : l'audit informatique et la Data Analytics caractérisent l'audit des grandes entités cotées."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M2-014",
+   "champ": "Segments d'audit — SCI et taille",
+   "question": "Vous assistez une entreprise en forte croissance dans son contrôle ordinaire. Pourquoi le système de contrôle interne (SCI) joue-t-il un rôle plus important dans l'audit à mesure que la taille de l'entreprise augmente ?",
+   "options": [
+    "Plus il y a de transactions à comptabiliser, plus les processus et contrôles internes sont déterminants pour une saisie précise, donc le SCI gagne en importance",
+    "Le SCI prend davantage d'importance dans l'audit des petites entreprises que dans celui des grandes",
+    "La taille de l'entreprise n'a aucune influence sur l'importance du SCI",
+    "Un SCI bien établi devient superflu dans les grandes entreprises lors de l'audit des comptes annuels"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le volume croissant de transactions rend les processus et contrôles internes déterminants pour une saisie fiable ; le SCI gagne donc en importance avec la taille, et il est audité en contrôle ordinaire (art. 728a CO ; fiche 'Le SCI gagne en importance avec la taille').",
+    "Faux : c'est l'inverse ; le SCI pèse davantage dans les grandes entités, qui traitent plus de transactions.",
+    "Faux : la taille influence directement l'importance du SCI dans l'audit.",
+    "Faux : un SCI bien établi ne devient pas superflu ; en contrôle ordinaire, son existence est justement confirmée (art. 728a CO)."
+   ],
+   "source": "genere"
+  }
+ ]
+}

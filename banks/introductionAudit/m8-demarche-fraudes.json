@@ -1,0 +1,330 @@
+{
+ "cours": "introductionAudit",
+ "module": "M8",
+ "titre": "Démarche d'audit orientée risques & fraudes",
+ "questions": [
+  {
+   "id": "M8-001",
+   "champ": "4 phases — ordre",
+   "question": "Votre responsable de mandat vous décrit le déroulement traditionnel d'un processus d'audit. Quelle est la séquence correcte des quatre phases ?",
+   "options": [
+    "Planification -> Mandat -> Réalisation -> Clôture et rapport",
+    "Mandat -> Planification -> Réalisation -> Clôture et rapport",
+    "Mandat -> Réalisation -> Planification -> Clôture et rapport",
+    "Planification -> Mandat -> Clôture et rapport -> Réalisation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le mandat (acceptation de la mission, ISQM-CH 1+2 / ISA-CH 210) précède toujours la planification ; on ne planifie pas un audit avant de l'avoir accepté.",
+    "Exact : les 4 phases sont Mandat -> Planification (ISA-CH 300) -> Réalisation (ISA-CH 500) -> Clôture et rapport (NAS-CH 700). Le mandat précède la planification.",
+    "Faux : la planification (ISA-CH 300) précède la réalisation (ISA-CH 500), et non l'inverse.",
+    "Faux : le mandat est la première phase et la clôture / rapport (NAS-CH 700) la dernière ; l'ordre proposé est incohérent."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M8-002",
+   "champ": "4 phases — mandat avant planification",
+   "question": "Vous participez à l'organisation d'un nouveau mandat d'audit. Parmi les affirmations suivantes sur les quatre phases de l'audit, laquelle est FAUSSE ?",
+   "options": [
+    "La phase Mandat (acceptation de la mission) précède la phase Planification.",
+    "La planification s'appuie notamment sur l'identification et l'évaluation des risques (ISA-CH 315 révisé).",
+    "La phase de planification précède la phase de mandat, car il faut planifier avant d'accepter la mission.",
+    "La clôture et le rapport (NAS-CH 700) constituent la dernière phase de la démarche."
+   ],
+   "correct": 2,
+   "explications": [
+    "Vrai : l'ordre est Mandat -> Planification -> Réalisation -> Clôture ; l'acceptation de la mission (ISA-CH 210) vient avant la planification.",
+    "Vrai : la planification intègre l'identification et l'évaluation des risques d'anomalies significatives selon ISA-CH 315 (révisé).",
+    "FAUSSE (réponse attendue) : la planification (ISA-CH 300) vient APRÈS le mandat ; on n'établit pas la stratégie d'audit avant d'avoir accepté la mission (ISA-CH 210).",
+    "Vrai : le rapport de l'organe de révision (NAS-CH 700) clôt le processus d'audit."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-003",
+   "champ": "Risque d'audit — formule",
+   "question": "Le responsable du mandat vous explique la composition du risque d'audit. Comment celui-ci se décompose-t-il ?",
+   "options": [
+    "Risque inhérent + risque de contrôle + risque de non-détection (somme)",
+    "Risque inhérent x risque de contrôle x risque de non-détection (produit)",
+    "Risque externe x risque de contrôle x risque d'audit",
+    "Risque inhérent x risque de contrôle, sans le risque de non-détection"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le risque d'audit est un produit, pas une somme : RA = RI x RC x RND.",
+    "Exact : RA = RI x RC x RND (risque inhérent x risque de contrôle x risque de non-détection) ; c'est le modèle multiplicatif du risque d'audit.",
+    "Faux : le 'risque externe' n'existe pas dans le modèle ; les composantes sont RI, RC et RND.",
+    "Faux : le risque de non-détection (RND) fait partie intégrante du modèle ; c'est même la seule composante que l'auditeur peut influencer."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-004",
+   "champ": "Composantes — risque inhérent",
+   "question": "Lequel des risques suivants correspond à la probabilité qu'une anomalie significative se produise dans les comptes, sans tenir compte du système de contrôle interne de l'entité ?",
+   "options": [
+    "Risque de contrôle",
+    "Risque de non-détection",
+    "Risque inhérent",
+    "Risque d'audit"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le risque de contrôle (RC) est celui qu'une anomalie échappe au système de contrôle interne (SCI) ; il suppose donc que l'on tienne compte du SCI.",
+    "Faux : le risque de non-détection (RND) est celui qu'une anomalie échappe aux procédures de l'auditeur, pas la survenance intrinsèque de l'anomalie.",
+    "Exact : le risque inhérent (RI) est la probabilité d'une anomalie sans tenir compte du SCI (avant contrôle).",
+    "Faux : le risque d'audit est le produit RI x RC x RND, pas une composante isolée."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M8-005",
+   "champ": "Composantes — risque de contrôle",
+   "question": "Au cours de l'audit de Berger SA, vous devez qualifier le risque qu'une anomalie significative ne soit ni prévenue ni détectée à temps par le système de contrôle interne. De quel risque s'agit-il ?",
+   "options": [
+    "Risque de contrôle",
+    "Risque inhérent",
+    "Risque de non-détection",
+    "Risque d'audit"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le risque de contrôle (RC) est celui qu'une anomalie échappe au système de contrôle interne (SCI) de l'entité.",
+    "Faux : le risque inhérent (RI) concerne la survenance d'une anomalie sans tenir compte du SCI.",
+    "Faux : le risque de non-détection (RND) est celui qu'une anomalie échappe aux procédures de l'auditeur, pas au SCI.",
+    "Faux : le risque d'audit est le produit global RI x RC x RND, pas cette composante précise."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-006",
+   "champ": "Composantes — risque de non-détection",
+   "question": "Quelle composante du risque d'audit correspond à la probabilité qu'une anomalie significative échappe aux procédures mises en oeuvre par l'organe de révision ?",
+   "options": [
+    "Risque inhérent",
+    "Risque de non-détection",
+    "Risque de contrôle",
+    "Risque d'audit"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le risque inhérent (RI) porte sur la survenance de l'anomalie sans tenir compte du SCI.",
+    "Exact : le risque de non-détection (RND) est celui qu'une anomalie échappe aux procédures de l'auditeur ; c'est la seule composante que l'auditeur peut influencer.",
+    "Faux : le risque de contrôle (RC) concerne les anomalies qui échappent au SCI de l'entité, pas aux procédures de l'auditeur.",
+    "Faux : le risque d'audit est le produit RI x RC x RND, pas la composante liée aux procédures."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-007",
+   "champ": "Influençabilité des composantes",
+   "question": "Parmi les affirmations suivantes concernant l'influençabilité des composantes du risque d'audit, laquelle est FAUSSE ?",
+   "options": [
+    "Le risque inhérent et le risque de contrôle ne peuvent pas être influencés par l'auditeur.",
+    "Le risque inhérent et le risque de contrôle sont influençables par l'auditeur, contrairement au risque de non-détection.",
+    "Le risque de non-détection est la seule composante que l'auditeur peut influencer, en adaptant l'étendue de ses procédures.",
+    "Le risque inhérent et le risque de contrôle dépendent notamment de l'activité et de l'organisation de l'entité auditée."
+   ],
+   "correct": 1,
+   "explications": [
+    "Vrai : RI et RC sont des caractéristiques de l'entité ; l'auditeur ne peut pas les modifier.",
+    "FAUSSE (réponse attendue) : c'est l'inverse ; seul le risque de non-détection (RND) est influençable par l'auditeur ; RI et RC ne le sont pas.",
+    "Vrai : en adaptant la nature et l'étendue de ses procédures (ISA-CH 330), l'auditeur abaisse le RND.",
+    "Vrai : RI et RC découlent de l'activité, de l'environnement et du SCI de l'entité."
+   ],
+   "source": "original"
+  },
+  {
+   "id": "M8-008",
+   "champ": "Risque d'audit — non éliminable",
+   "question": "Vous discutez du niveau de risque d'audit atteignable sur un mandat. Quelle affirmation est FAUSSE ?",
+   "options": [
+    "Le risque d'audit ne peut jamais être totalement éliminé ; il est seulement réduit à un niveau faible acceptable.",
+    "Le risque d'audit correspond à la probabilité d'émettre une opinion sans réserve alors que les comptes comportent des anomalies significatives.",
+    "En recueillant des éléments probants suffisants et appropriés (ISA-CH 500), l'auditeur réduit le risque d'audit à un niveau acceptable.",
+    "Un audit correctement planifié et exécuté permet d'éliminer complètement le risque d'audit."
+   ],
+   "correct": 3,
+   "explications": [
+    "Vrai : le risque d'audit est réduit à un niveau suffisamment faible pour être acceptable, jamais supprimé.",
+    "Vrai : le risque d'audit est la probabilité d'une opinion sans réserve malgré des anomalies significatives.",
+    "Vrai : des éléments probants suffisants et appropriés (ISA-CH 500) abaissent le risque de non-détection, donc le risque d'audit.",
+    "FAUSSE (réponse attendue) : le risque d'audit ne peut pas être totalement éliminé, quelle que soit la qualité de l'audit ; il subsiste toujours un risque résiduel."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-009",
+   "champ": "Contrôle restreint — pas d'évaluation du RC",
+   "question": "Vous réalisez un contrôle restreint. Quelle affirmation concernant l'évaluation des risques est correcte ?",
+   "options": [
+    "En contrôle restreint, l'auditeur n'évalue pas le risque de contrôle.",
+    "En contrôle restreint, l'auditeur teste l'efficacité du SCI comme en contrôle ordinaire.",
+    "En contrôle restreint, l'auditeur procède obligatoirement à des confirmations externes (ISA-CH 505).",
+    "Le contrôle restreint fournit une assurance raisonnable (positive) comme le contrôle ordinaire."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en contrôle restreint (art. 729a CO), l'auditeur n'évalue pas le risque de contrôle (ni le risque inhérent) ; l'assurance délivrée est limitée (négative).",
+    "Faux : le contrôle restreint exclut la vérification de l'existence et de l'efficacité du SCI.",
+    "Faux : les confirmations externes (ISA-CH 505) relèvent du contrôle ordinaire ; le restreint les exclut.",
+    "Faux : le contrôle restreint donne une assurance limitée (négative), pas une assurance raisonnable."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-010",
+   "champ": "Normes — évaluation des risques",
+   "question": "Durant la phase de planification de l'audit de Tele SA (contrôle ordinaire), l'identification et l'évaluation des risques d'anomalies significatives s'effectuent selon quelle norme ?",
+   "options": [
+    "ISA-CH 300",
+    "ISA-CH 320",
+    "ISA-CH 315 (révisé)",
+    "ISA-CH 330"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : ISA-CH 300 traite de la planification globale de l'audit, pas de l'identification/évaluation des risques.",
+    "Faux : ISA-CH 320 traite du caractère significatif (matérialité).",
+    "Exact : ISA-CH 315 (révisé) régit l'identification et l'évaluation des risques d'anomalies significatives, y compris via la connaissance du SCI.",
+    "Faux : ISA-CH 330 traite des réponses de l'auditeur aux risques évalués."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-011",
+   "champ": "Normes de la démarche — associations",
+   "question": "Vous associez chaque étape de la démarche à la norme d'audit correspondante. Quelle association est correcte ?",
+   "options": [
+    "Planification globale -> ISA-CH 300 ; caractère significatif -> ISA-CH 320 ; réponses aux risques -> ISA-CH 330 ; éléments probants -> ISA-CH 500",
+    "Planification globale -> ISA-CH 320 ; caractère significatif -> ISA-CH 300 ; réponses aux risques -> ISA-CH 500 ; éléments probants -> ISA-CH 330",
+    "Planification globale -> ISA-CH 500 ; éléments probants -> ISA-CH 300 ; caractère significatif -> ISA-CH 330",
+    "Caractère significatif -> ISA-CH 330 ; réponses aux risques -> ISA-CH 320 ; planification -> ISA-CH 500"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : ISA-CH 300 = planification, ISA-CH 320 = caractère significatif, ISA-CH 330 = réponses aux risques évalués, ISA-CH 500 = éléments probants.",
+    "Faux : les numéros sont intervertis ; 300 = planification et 320 = matérialité, pas l'inverse.",
+    "Faux : ISA-CH 300 = planification et ISA-CH 500 = éléments probants ; les associations proposées sont inversées.",
+    "Faux : ISA-CH 320 = caractère significatif et ISA-CH 330 = réponses aux risques ; l'attribution proposée est erronée."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-012",
+   "champ": "Esprit critique — permanence & documentation",
+   "question": "Parmi les affirmations suivantes sur l'esprit critique et le jugement professionnel (ISA-CH 200), laquelle est FAUSSE ?",
+   "options": [
+    "L'esprit critique est requis lors de la planification et tout au long de la réalisation de l'audit.",
+    "L'exercice du jugement professionnel doit être documenté de manière appropriée.",
+    "Le jugement professionnel ne s'applique pas aux décisions relatives à l'estimation du risque d'audit.",
+    "L'esprit critique consiste notamment à rester attentif aux informations qui remettent en cause la fiabilité des éléments probants."
+   ],
+   "correct": 2,
+   "explications": [
+    "Vrai : selon ISA-CH 200, l'esprit critique s'exerce lors de la planification et tout au long de la réalisation de l'audit.",
+    "Vrai : le jugement professionnel doit être exercé tout au long de l'audit ET documenté de manière appropriée (ISA-CH 200).",
+    "FAUSSE (réponse attendue) : le jugement professionnel s'applique justement aussi à l'estimation du risque d'audit.",
+    "Vrai : l'esprit critique implique de rester attentif aux informations contredisant la fiabilité des documents et des réponses aux demandes (ISA-CH 200)."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-013",
+   "champ": "Esprit critique — intégrité de la direction & documents",
+   "question": "Parmi les affirmations suivantes sur l'esprit critique de l'auditeur (ISA-CH 200), laquelle est FAUSSE ?",
+   "options": [
+    "Si l'auditeur estime que l'intégrité et l'honnêteté de la direction sont élevées, l'adoption d'un esprit critique n'est plus obligatoire.",
+    "L'auditeur peut présumer que les enregistrements et documents sont authentiques, à moins qu'il n'ait des raisons de penser le contraire.",
+    "L'esprit critique reste requis même lorsque l'expérience passée du client a montré l'honnêteté de la direction.",
+    "L'esprit critique aide à identifier les indices d'anomalies significatives, y compris celles dues à la fraude."
+   ],
+   "correct": 0,
+   "explications": [
+    "FAUSSE (réponse attendue) : l'esprit critique reste obligatoire quelle que soit l'opinion de l'auditeur sur l'intégrité de la direction (ISA-CH 200).",
+    "Vrai : l'auditeur présume l'authenticité des enregistrements et documents, sauf s'il a des raisons d'en douter (ISA-CH 200).",
+    "Vrai : l'esprit critique est requis en permanence, indépendamment de l'expérience passée avec le client (ISA-CH 200).",
+    "Vrai : l'esprit critique contribue à repérer les risques d'anomalies significatives, notamment dues à la fraude (ISA-CH 240)."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-014",
+   "champ": "Fraude — intentionnel vs erreur",
+   "question": "Vous présentez la notion de fraude à un nouveau membre de l'équipe d'audit. Quelle affirmation est correcte ?",
+   "options": [
+    "La fraude est une anomalie résultant d'un acte intentionnel, tandis que l'erreur est une anomalie non intentionnelle.",
+    "La fraude et l'erreur sont toutes deux des actes intentionnels.",
+    "La fraude désigne une anomalie non intentionnelle, l'erreur un acte intentionnel.",
+    "La distinction entre fraude et erreur repose sur le montant de l'anomalie, non sur l'intention."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : selon ISA-CH 240, la fraude est un acte intentionnel, alors que l'erreur est une anomalie non intentionnelle.",
+    "Faux : seule la fraude est intentionnelle ; l'erreur ne l'est pas.",
+    "Faux : c'est l'inverse ; la fraude est intentionnelle et l'erreur non intentionnelle.",
+    "Faux : le critère distinctif est l'intention (ISA-CH 240), pas le montant de l'anomalie."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-015",
+   "champ": "Fraude — deux catégories",
+   "question": "Selon l'ISA-CH 240, en quelles deux grandes catégories les fraudes sont-elles subdivisées ?",
+   "options": [
+    "États financiers mensongers et détournement d'actifs",
+    "Contournement des contrôles et corruption d'agents publics",
+    "Erreurs de calcul et erreurs de présentation",
+    "Fraude fiscale et blanchiment d'argent"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'ISA-CH 240 distingue deux catégories de fraudes : les états financiers mensongers et le détournement d'actifs.",
+    "Faux : le contournement des contrôles par la direction est un risque présumé (ISA-CH 240), pas l'une des deux catégories de fraude.",
+    "Faux : les erreurs sont non intentionnelles et ne constituent pas des fraudes.",
+    "Faux : ces notions relèvent du droit pénal, pas de la typologie des fraudes de l'ISA-CH 240."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-016",
+   "champ": "Triangle de la fraude",
+   "question": "Selon le triangle de la fraude, quels sont les trois facteurs qui favorisent le risque de fraude ?",
+   "options": [
+    "Incitation / pression ; opportunité ; justification / attitude",
+    "Tromperie ; escroquerie ; vol",
+    "Facteurs individuels, situationnels et culturels",
+    "Supériorité ; système de contrôle interne ; part variable du salaire"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le triangle de la fraude (ISA-CH 240) associe incitation / pression, opportunité et justification / attitude.",
+    "Faux : tromperie, escroquerie et vol décrivent des infractions, pas les trois sommets du triangle de la fraude.",
+    "Faux : les facteurs individuels, situationnels et culturels relèvent de l'éthique économique (Zünd), pas du triangle de la fraude.",
+    "Faux : ces éléments ne correspondent pas aux trois sommets du triangle de la fraude."
+   ],
+   "source": "genere"
+  },
+  {
+   "id": "M8-017",
+   "champ": "ISA-CH 240 — risques présumés & expectation gap",
+   "question": "Parmi les affirmations suivantes concernant les fraudes selon l'ISA-CH 240, laquelle est FAUSSE ?",
+   "options": [
+    "L'ISA-CH 240 présume deux risques : le contournement des contrôles par la direction et la comptabilisation des produits.",
+    "L'auditeur n'est pas tenu de communiquer au conseil d'administration les anomalies significatives dues à la fraude qu'il découvre.",
+    "Le rôle réel de l'auditeur est d'identifier, d'évaluer et de réduire les risques d'anomalies dues à la fraude, non d'empêcher ou de détecter toute fraude.",
+    "L'écart entre les attentes du public (détecter toute fraude) et le rôle réel de l'auditeur est appelé expectation gap."
+   ],
+   "correct": 1,
+   "explications": [
+    "Vrai : l'ISA-CH 240 pose deux risques présumés : le contournement des contrôles par la direction et la comptabilisation des produits.",
+    "FAUSSE (réponse attendue) : l'auditeur doit communiquer au conseil d'administration les anomalies significatives dues à la fraude qu'il découvre (voir aussi ISA-CH 260).",
+    "Vrai : le rôle de l'auditeur est d'identifier, d'évaluer et de réduire les risques d'anomalies dues à la fraude, pas de garantir la détection de toute fraude.",
+    "Vrai : le décalage entre l'attente d'une détection de toute fraude et le rôle réel de l'auditeur est l'expectation gap."
+   ],
+   "source": "genere"
+  }
+ ]
+}

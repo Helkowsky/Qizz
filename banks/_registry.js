@@ -3,5 +3,6 @@
 window.QCM_COURSES = [
   { id: "droit", titre: "Droit — Module 7 (ExpertSuisse)", bundle: "banks/droit/_bundle.js" },
   { id: "normesSuisse", titre: "Normes comptables suisses — Module 3 (ExpertSuisse)", bundle: "banks/normesSuisse/_bundle.js" },
-  { id: "tva", titre: "TVA (LTVA) — Module 11 (ExpertSuisse)", bundle: "banks/tva/_bundle.js" }
+  { id: "tva", titre: "TVA (LTVA) — Module 11 (ExpertSuisse)", bundle: "banks/tva/_bundle.js" },
+  { id: "introductionAudit", titre: "Introduction à l'audit — Module 2 (ExpertSuisse)", bundle: "banks/introductionAudit/_bundle.js" }
 ];
