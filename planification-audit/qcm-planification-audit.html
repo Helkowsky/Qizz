@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QCM — Planification de l'audit</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#ffffff; --ink:#0f3d5c; --ink2:#3a4a57; --muted:#8a99a6;
+    --line:#e2e8ee; --accent:#0f6ea8; --accent-ink:#ffffff;
+    --good:#1b6e2a; --good-bg:#eef6ef; --good-line:#7aa87f;
+    --bad:#b01f24; --bad-bg:#fbeeee; --bad-line:#d98a8a;
+    --warn:#b7791f; --shadow:0 2px 14px rgba(15,61,92,.08);
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e1620; --card:#16212e; --ink:#e8eef4; --ink2:#b6c4d0; --muted:#7f909e;
+      --line:#26333f; --accent:#3aa0d6; --accent-ink:#06202e;
+      --good:#7fd08c; --good-bg:#15271a; --good-line:#2f6a3a;
+      --bad:#f0a0a0; --bad-bg:#2a1618; --bad-line:#7a3236;
+      --warn:#e0b464; --shadow:0 2px 18px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font:16px/1.5 "Segoe UI",system-ui,-apple-system,sans-serif;
+       -webkit-font-smoothing:antialiased}
+  .wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+  header.top{display:flex;align-items:center;gap:12px;margin:8px 0 22px;flex-wrap:wrap}
+  header.top h1{font-size:19px;margin:0;font-weight:650;letter-spacing:.2px}
+  header.top .sub{color:var(--muted);font-size:13px}
+  .spacer{flex:1}
+  button{font-family:inherit;cursor:pointer;border:none;border-radius:10px;font-size:15px}
+  .btn{background:var(--accent);color:var(--accent-ink);padding:11px 18px;font-weight:600;
+       box-shadow:var(--shadow);transition:transform .05s ease,filter .15s}
+  .btn:hover{filter:brightness(1.06)} .btn:active{transform:translateY(1px)}
+  .btn.ghost{background:transparent;color:var(--accent);box-shadow:none;border:1.5px solid var(--line)}
+  .btn.small{padding:7px 12px;font-size:13.5px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+        box-shadow:var(--shadow);padding:20px;margin:14px 0}
+  .grid{display:grid;gap:12px}
+  .modes{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .mode{display:flex;flex-direction:column;gap:6px;text-align:left;background:var(--card);
+        border:1.5px solid var(--line);border-radius:12px;padding:16px;color:var(--ink);transition:border-color .15s,transform .05s}
+  .mode:hover{border-color:var(--accent)} .mode:active{transform:translateY(1px)}
+  .mode .t{font-weight:650;font-size:16px}
+  .mode .d{color:var(--muted);font-size:13px}
+  table.dom{width:100%;border-collapse:collapse;font-size:14px}
+  table.dom th,table.dom td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line)}
+  table.dom th{color:var(--muted);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.4px}
+  table.dom tr:last-child td{border-bottom:none}
+  table.dom td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .dombtn{width:100%;text-align:left;background:transparent;color:var(--ink);padding:0;font-size:14px;font-weight:600}
+  .dombtn:hover{color:var(--accent)}
+  .bar{height:7px;border-radius:5px;background:var(--line);overflow:hidden;min-width:60px}
+  .bar > i{display:block;height:100%;border-radius:5px}
+  .pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11.5px;font-weight:600;letter-spacing:.3px}
+  .pill.d1{background:#eaf3ea;color:#2f6a3a} .pill.d2{background:#fdf3e3;color:#9a6a15} .pill.d3{background:#fbeeee;color:#a33}
+  @media (prefers-color-scheme: dark){.pill.d1{background:#173021;color:#8fce9c}.pill.d2{background:#2c2412;color:#e0b464}.pill.d3{background:#2a1618;color:#f0a0a0}}
+  .pill.ajout{background:#efe6fb;color:#6b3fa0}
+  @media (prefers-color-scheme: dark){.pill.ajout{background:#241a33;color:#c3a3f0}}
+  .qmeta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:12.5px;margin-bottom:6px}
+  .qtext{font-size:18px;font-weight:600;line-height:1.45;margin:6px 0 16px}
+  .choices{display:grid;gap:10px}
+  .choice{display:flex;gap:12px;align-items:flex-start;text-align:left;background:var(--card);
+          border:1.5px solid var(--line);border-radius:12px;padding:13px 15px;color:var(--ink);font-size:15.5px;
+          transition:border-color .12s,background .12s;width:100%}
+  .choice:hover:not(:disabled){border-color:var(--accent)}
+  .choice .k{flex:none;width:26px;height:26px;border-radius:7px;background:var(--line);color:var(--ink2);
+             display:grid;place-items:center;font-weight:700;font-size:14px}
+  .choice.correct{border-color:var(--good-line);background:var(--good-bg)}
+  .choice.correct .k{background:var(--good);color:#fff}
+  .choice.wrong{border-color:var(--bad-line);background:var(--bad-bg)}
+  .choice.wrong .k{background:var(--bad);color:#fff}
+  .choice:disabled{cursor:default;opacity:1}
+  .explain{margin-top:16px;border-left:4px solid var(--accent);background:rgba(15,110,168,.06);
+           border-radius:0 10px 10px 0;padding:13px 15px;font-size:14.5px}
+  .explain.ok{border-color:var(--good);background:var(--good-bg)}
+  .explain.ko{border-color:var(--bad);background:var(--bad-bg)}
+  .explain .verdict{font-weight:700;margin-bottom:4px}
+  .explain .art{color:var(--ink2)}
+  .explain .ref{margin-top:7px;font-size:13px}
+  .explain .ref b{color:var(--ink)}
+  .renvoi{display:inline-block;margin-top:6px;font-size:12.5px;color:var(--accent);font-weight:600}
+  .footbar{display:flex;align-items:center;gap:12px;margin-top:18px;flex-wrap:wrap}
+  .prog{color:var(--muted);font-size:13.5px;font-variant-numeric:tabular-nums}
+  .timer{font-variant-numeric:tabular-nums;font-weight:700;font-size:16px;padding:5px 12px;border-radius:9px;
+         background:var(--line);color:var(--ink)}
+  .timer.warn{color:#fff;background:var(--warn)}
+  .scoreBig{font-size:46px;font-weight:800;letter-spacing:-1px}
+  .scoreSub{color:var(--muted);font-size:15px}
+  .rev{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;font-size:14px}
+  .rev .q{font-weight:600;margin-bottom:6px}
+  .rev .mine{color:var(--bad)} .rev .good{color:var(--good)}
+  .hidden{display:none!important}
+  .kbd{font:12px ui-monospace,Consolas,monospace;background:var(--line);padding:1px 6px;border-radius:5px}
+  .toggle{display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--ink2);cursor:pointer;user-select:none}
+  /* navigation par numéro */
+  .numgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(38px,1fr));gap:6px;margin-top:8px}
+  .numbtn{padding:7px 0;text-align:center;border:1.5px solid var(--line);border-radius:8px;background:var(--card);
+          color:var(--ink);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+  .numbtn:hover{border-color:var(--accent)}
+  .numbtn.ok{background:var(--good-bg);border-color:var(--good-line);color:var(--good)}
+  .numbtn.ko{background:var(--bad-bg);border-color:var(--bad-line);color:var(--bad)}
+  .numbtn.cur{outline:2px solid var(--accent);outline-offset:1px}
+  .jump{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .jump input{width:74px;padding:8px 10px;border:1.5px solid var(--line);border-radius:8px;background:var(--card);
+              color:var(--ink);font-size:14px;font-family:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>🎓 QCM — Planification de l'audit</h1>
+    <span class="sub" id="matLabel"></span>
+    <span class="spacer"></span>
+    <button class="btn ghost small hidden" id="homeBtn">↩ Menu</button>
+  </header>
+
+  <!-- ÉCRAN 1 : menu -->
+  <section id="screen-menu">
+    <div class="card">
+      <h2 style="margin:0 0 12px">Mode de révision</h2>
+      <div class="grid modes">
+        <button class="mode" data-mode="all"><span class="t">📚 Tout enchaîner</span><span class="d">Les questions dans l'ordre des thèmes, corrigé après chaque réponse.</span></button>
+        <button class="mode" data-mode="random"><span class="t">🎲 Aléatoire (20)</span><span class="d">20 questions tirées au hasard sur tout le module.</span></button>
+        <button class="mode" data-mode="exam"><span class="t">⏱️ Examen blanc (40)</span><span class="d">40 questions chronométrées, score final et revue.</span></button>
+        <button class="mode" data-mode="errors"><span class="t">🔁 Réviser mes erreurs</span><span class="d">Uniquement les questions déjà ratées.</span></button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap">
+        <h2 style="margin:0">Réviser par thème</h2>
+        <span class="spacer"></span>
+        <label class="toggle"><input type="checkbox" id="shuffleChoices"> mélanger les réponses</label>
+      </div>
+      <table class="dom">
+        <thead><tr><th>Thème</th><th class="num">Q.</th><th class="num" style="width:120px">Réussite</th><th class="num">Vues</th></tr></thead>
+        <tbody id="domBody"></tbody>
+      </table>
+      <div class="footbar">
+        <button class="btn ghost small" id="resetStats">Réinitialiser mes statistiques</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px">Aller à une question</h2>
+      <div class="jump">
+        <span style="color:var(--muted);font-size:14px">Saut direct au numéro :</span>
+        <input type="number" id="jumpInput" min="1" placeholder="n°">
+        <button class="btn small" id="jumpBtn">Ouvrir</button>
+        <span class="spacer"></span>
+        <span class="prog" id="totalCount"></span>
+      </div>
+      <div class="numgrid" id="numGrid"></div>
+    </div>
+  </section>
+
+  <!-- ÉCRAN 2 : quiz -->
+  <section id="screen-quiz" class="hidden">
+    <div class="card">
+      <div class="qmeta">
+        <span id="qDom"></span> · <span id="qSub"></span>
+        <span class="pill" id="qDiff"></span>
+        <span class="pill ajout hidden" id="qAjout">[AJOUT]</span>
+        <span class="spacer"></span>
+        <span class="timer hidden" id="timer">00:00</span>
+      </div>
+      <div class="qtext" id="qText"></div>
+      <div class="choices" id="qChoices"></div>
+      <div class="explain hidden" id="qExplain"></div>
+      <div class="footbar">
+        <span class="prog" id="qProg"></span>
+        <span class="spacer"></span>
+        <button class="btn ghost small" id="prevBtn">← Précédent</button>
+        <button class="btn ghost small" id="skipBtn">Passer</button>
+        <button class="btn small hidden" id="nextBtn">Suivant →</button>
+        <button class="btn small hidden" id="finishExamBtn">Terminer</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÉCRAN 3 : résultats -->
+  <section id="screen-result" class="hidden">
+    <div class="card" style="text-align:center">
+      <div class="scoreBig" id="rScore"></div>
+      <div class="scoreSub" id="rSub"></div>
+      <div class="footbar" style="justify-content:center;margin-top:18px">
+        <button class="btn" id="rAgain">Rejouer</button>
+        <button class="btn ghost" id="rMenu">Menu</button>
+        <button class="btn ghost" id="rReviewErrors">Réviser les erreurs</button>
+      </div>
+    </div>
+    <div class="card" id="rReviewCard">
+      <h2 style="margin:0 0 6px">Revue des réponses</h2>
+      <div id="rReview"></div>
+    </div>
+  </section>
+</div>
+
+<script id="qdata" type="application/json">
+[
+ {
+  "domaine": "1. Cadre légal & types de contrôle",
+  "sous_theme": "Acceptation contrôle ordinaire",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s2-1",
+  "renvoi": "§2.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelles vérifications ne devez-vous PAS effectuer dans tous les cas avant de soumettre une offre pour le contrôle ordinaire de la société ABA SA ?",
+  "choix": [
+   "L'organe de révision doit être indépendant, en fait et en apparence.",
+   "L'équipe et le réviseur responsable doivent disposer des compétences techniques nécessaires.",
+   "L'organe de révision doit détenir l'agrément ASR et le réviseur responsable l'agrément d'expert-réviseur.",
+   "Il faut garantir que ABA SA est correctement inscrite auprès des autorités fiscales et assujettie à la TVA."
+  ],
+  "reponse": 3,
+  "explication": "L'assujettissement fiscal/TVA du client ne conditionne pas l'acceptation d'un mandat d'audit. Indépendance, compétences et agrément ASR/expert-réviseur, eux, sont des conditions préalables. Base : LSR · art. 727b-728 CO. → voir §2.1 du mémento.",
+  "ajout": false,
+  "id": "PA-001"
+ },
+ {
+  "domaine": "1. Cadre légal & types de contrôle",
+  "sous_theme": "Opting-out (art. 727a CO)",
+  "type": "cas",
+  "difficulte": 2,
+  "ajout": true,
+  "anchor": "s1-3",
+  "renvoi": "§1.3 du mémento",
+  "question": "Une SA emploie 8 collaborateurs (EPT) et n'est pas soumise au contrôle ordinaire. À quelle condition peut-elle renoncer au contrôle restreint (opting-out) ?",
+  "choix": [
+   "Avec l'accord de la majorité des actionnaires présents à l'assemblée générale.",
+   "Sur simple décision du conseil d'administration.",
+   "Avec l'accord de l'ensemble des actionnaires, l'effectif ne dépassant pas 10 emplois à plein temps en moyenne annuelle.",
+   "Uniquement si le total du bilan est inférieur à 100 000 CHF."
+  ],
+  "reponse": 2,
+  "explication": "Selon l'art. 727a al. 2 CO, l'opting-out exige l'accord de TOUS les actionnaires (unanimité, et non la majorité — A faux) et un effectif ne dépassant pas 10 EPT en moyenne annuelle. Ce n'est pas une décision du CA (B faux) et aucun seuil de bilan de 100 000 CHF n'est requis (D faux). Base : art. 727a al. 2 CO. → voir §1.3 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-002"
+ },
+ {
+  "domaine": "2. Acceptation & indépendance",
+  "sous_theme": "Confirmation de mandat",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s2-3",
+  "renvoi": "§2.3 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quels éléments devez-vous consigner dans tous les cas dans une confirmation de mandat pour un contrôle ordinaire ?",
+  "choix": [
+   "La date de la prochaine assemblée générale.",
+   "La stratégie d'audit, intégrée par précaution à la confirmation de mandat.",
+   "La forme et le contenu prévus de vos rapports.",
+   "Un projet d'opinion d'audit destiné à l'assemblée générale."
+  ],
+  "reponse": 2,
+  "explication": "La confirmation de mandat précise notamment la forme et le contenu prévus des rapports. Elle n'intègre ni la stratégie d'audit, ni un projet d'opinion, ni nécessairement la date de l'AG. Base : ISA-CH 210. → voir §2.3 du mémento.",
+  "ajout": false,
+  "id": "PA-003"
+ },
+ {
+  "domaine": "2. Acceptation & indépendance",
+  "sous_theme": "Rotation du réviseur responsable (730a CO)",
+  "type": "cas",
+  "difficulte": 2,
+  "ajout": true,
+  "anchor": "s2-2",
+  "renvoi": "§2.2 du mémento",
+  "question": "Le réviseur responsable d'un contrôle ordinaire dirige le mandat depuis 7 ans. Que prévoit le CO ?",
+  "choix": [
+   "Il doit interrompre sa direction du mandat et ne peut la reprendre qu'après une interruption de 3 ans ; l'entreprise de révision, elle, peut rester en fonction.",
+   "Il peut continuer indéfiniment tant que le client est satisfait de ses prestations.",
+   "L'ensemble de l'entreprise de révision doit être remplacé immédiatement.",
+   "La règle de rotation ne s'applique qu'aux sociétés cotées à l'étranger."
+  ],
+  "reponse": 0,
+  "explication": "Selon l'art. 730a al. 2 CO, le réviseur responsable (la personne) ne peut diriger le mandat plus de 7 ans, puis une interruption de 3 ans est requise ; c'est la personne qui tourne, pas l'entreprise de révision (C faux). La règle s'applique au contrôle ordinaire, sans être limitée aux sociétés étrangères (D faux) ni indéfiniment renouvelable (B faux). Base : art. 730a al. 2 CO. → voir §2.2 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-004"
+ },
+ {
+  "domaine": "3. Stratégie & programme",
+  "sous_theme": "Phases de l'audit",
+  "type": "definition",
+  "difficulte": 1,
+  "anchor": "s1-1",
+  "renvoi": "§1.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle est la deuxième des quatre phases de l'audit ?",
+  "choix": [
+   "Planification de l'audit",
+   "Mandat d'audit",
+   "Clôture de l'audit et rapport",
+   "Réalisation de la mission"
+  ],
+  "reponse": 0,
+  "explication": "Ordre des phases : (1) Mandat d'audit, (2) Planification, (3) Réalisation, (4) Clôture/Rapport. La planification est donc la 2ᵉ phase. Base : structure ISA-CH 300. → voir §1.1 du mémento.",
+  "ajout": false,
+  "id": "PA-005"
+ },
+ {
+  "domaine": "3. Stratégie & programme",
+  "sous_theme": "Stratégie vs programme",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s3-1",
+  "renvoi": "§3.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Parmi les affirmations suivantes, laquelle est fausse ?",
+  "choix": [
+   "La stratégie générale d'audit désigne la planification sommaire de l'audit des états financiers.",
+   "Le programme d'audit désigne la planification détaillée de l'audit des états financiers.",
+   "Lorsqu'il détermine le programme d'audit, l'auditeur décide du type de procédure (tests de procédures ou contrôles de substance) pour chaque domaine.",
+   "Lorsqu'il élabore le programme d'audit, l'auditeur détermine les procédures concrètes (type, calendrier et étendue) pour chaque domaine."
+  ],
+  "reponse": 2,
+  "explication": "Le choix du TYPE d'approche par domaine relève de la STRATÉGIE (planification sommaire), non du programme. Le programme fixe les procédures concrètes (nature/calendrier/étendue). Base : ISA-CH 300. → voir §3.1 du mémento.",
+  "ajout": false,
+  "id": "PA-006"
+ },
+ {
+  "domaine": "3. Stratégie & programme",
+  "sous_theme": "Planification itérative",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s3-2",
+  "renvoi": "§3.2 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la planification de l'audit est correcte ?",
+  "choix": [
+   "La fiabilité des éléments probants dépend notamment de leur nature verbale ou écrite.",
+   "Les sections d'audit sont exclusivement des postes individuels des comptes annuels.",
+   "L'auditeur n'intègre le SCI dans sa planification que s'il souhaite tester l'efficacité des contrôles.",
+   "La planification doit être terminée avant la réalisation ; aucune adaptation ultérieure n'est permise."
+  ],
+  "reponse": 0,
+  "explication": "La fiabilité d'un élément probant dépend de sa source et de sa nature (écrit plus fiable que verbal). La planification est itérative (adaptable) et intègre le SCI dès la connaissance de l'entité, pas seulement pour tester l'efficacité. Base : ISA-CH 300/500. → voir §3.2 du mémento.",
+  "ajout": false,
+  "id": "PA-007"
+ },
+ {
+  "domaine": "3. Stratégie & programme",
+  "sous_theme": "Programme d'audit",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s3-1",
+  "renvoi": "§3.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la planification détaillée (élaboration d'un programme de contrôle) est correcte ?",
+  "choix": [
+   "C'est lors de l'élaboration du programme que l'on détermine quels risques sont importants.",
+   "L'élaboration d'un programme relève exclusivement du jugement professionnel de l'auditeur.",
+   "La stratégie d'audit découle du programme de contrôle.",
+   "Le programme comprend des procédures d'audit se rapportant à des assertions des états financiers."
+  ],
+  "reponse": 3,
+  "explication": "Le programme traduit la stratégie en procédures ciblant les assertions. La classification des risques importants relève de la planification sommaire, et c'est le programme qui découle de la stratégie (pas l'inverse). Base : ISA-CH 300/330. → voir §3.1 du mémento.",
+  "ajout": false,
+  "id": "PA-008"
+ },
+ {
+  "domaine": "3. Stratégie & programme",
+  "sous_theme": "Planification évolutive",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s3-2",
+  "renvoi": "§3.2 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la planification de l'audit est correcte ?",
+  "choix": [
+   "Une tâche obligatoire est d'identifier les processus d'évaluation significatifs et les risques individuels, base des étapes suivantes.",
+   "Les analyses financières utilisées ne doivent pas nécessairement porter sur l'année en cours.",
+   "Si la société a réalisé sa propre évaluation des risques, l'auditeur peut renoncer à la sienne.",
+   "La planification, une fois arrêtée, ne peut plus être adaptée."
+  ],
+  "reponse": 0,
+  "explication": "Identifier les processus significatifs et les risques est une tâche obligatoire, base du programme. L'auditeur doit conduire sa propre évaluation des risques (actualisée), la planification restant évolutive. Base : ISA-CH 300/315. → voir §3.2 du mémento.",
+  "ajout": false,
+  "id": "PA-009"
+ },
+ {
+  "domaine": "3. Stratégie & programme",
+  "sous_theme": "Stratégie vs programme",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s3-1",
+  "renvoi": "§3.1 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la planification de l'audit est correcte ?",
+  "choix": [
+   "Après avoir élaboré la stratégie, l'auditeur établit aussi le programme de contrôle, sauf en contrôle restreint.",
+   "L'auditeur mentionne dans la stratégie si la procédure appliquée est progressive ou rétrospective.",
+   "L'auditeur mentionne dans le programme si la procédure est progressive ou rétrospective.",
+   "La stratégie contribue à l'efficience et l'efficacité, mais pas le programme de contrôle."
+  ],
+  "reponse": 0,
+  "explication": "Le programme de contrôle prolonge la stratégie en contrôle ordinaire ; en contrôle restreint, il n'y a pas de programme au sens ISA-CH. Le sens de la procédure se précise au niveau des procédures concrètes, et le programme contribue lui aussi à l'efficacité. Base : ISA-CH 300. → voir §3.1 du mémento.",
+  "ajout": false,
+  "id": "PA-010"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Facteurs ISA-CH 315",
+  "type": "piege",
+  "difficulte": 1,
+  "anchor": "s4-1",
+  "renvoi": "§4.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Laquelle des propositions suivantes ne désigne PAS un facteur de l'entité dont l'auditeur doit acquérir une connaissance en vertu de la norme ISA-CH 315 ?",
+  "choix": [
+   "Les types d'investissements actuels et prévus",
+   "L'environnement juridique et réglementaire",
+   "La police d'écriture du logo",
+   "Le financement de l'entité"
+  ],
+  "reponse": 2,
+  "explication": "La police d'écriture du logo est sans pertinence pour l'évaluation des risques d'anomalies. Investissements, environnement juridique et financement sont, eux, de vrais facteurs de connaissance de l'entité. Base : ISA-CH 315. → voir §4.1 du mémento.",
+  "ajout": false,
+  "id": "PA-011"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Facteurs ISA-CH 315",
+  "type": "piege",
+  "difficulte": 1,
+  "anchor": "s4-1",
+  "renvoi": "§4.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Laquelle des propositions suivantes désigne l'un des facteurs de l'entité dont l'auditeur doit acquérir une connaissance en vertu de la norme ISA-CH 315 ?",
+  "choix": [
+   "Le nombre de jours de congé de la direction",
+   "La fréquence des sorties de groupe",
+   "Le référentiel comptable applicable (p. ex. IFRS)",
+   "Le lieu prévu pour la fête de Noël"
+  ],
+  "reponse": 2,
+  "explication": "Le référentiel comptable appliqué (CO, Swiss GAAP RPC, IFRS…) est un facteur essentiel de la connaissance de l'entité. Les autres options sont sans lien avec le risque d'anomalies. Base : ISA-CH 315. → voir §4.1 du mémento.",
+  "ajout": false,
+  "id": "PA-012"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Test de cheminement",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s4-3",
+  "renvoi": "§4.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Concernant la vérification d'un processus d'achat dans le cadre d'un test de cheminement, quelle affirmation est exacte ?",
+  "choix": [
+   "Les contrôles IT généraux sont vérifiés dans le cadre du test de cheminement.",
+   "D'après les descriptions de processus, un cas concret est suivi et l'on vérifie que les contrôles décrits sont effectivement effectués.",
+   "Le test de cheminement repose essentiellement sur l'audition du client ; les contrôles ne sont vérifiés sur pièces que dans des cas particuliers.",
+   "La sortie de la marchandise lors de la vente doit être intégrée à la vérification du processus d'achat."
+  ],
+  "reponse": 1,
+  "explication": "Le test de cheminement suit un cas concret de bout en bout pour confirmer que les contrôles décrits existent et sont mis en œuvre (conception + mise en œuvre), au-delà de la simple audition. Base : NAS-CH 890. → voir §4.3 du mémento.",
+  "ajout": false,
+  "id": "PA-013"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Existence du SCI (890)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s4-3",
+  "renvoi": "§4.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quel élément ne relève pas de la vérification de l'existence du SCI selon la NAS-CH 890 ?",
+  "choix": [
+   "Documentation adéquate du SCI",
+   "Mise en place du SCI (utilisation effective dans l'entreprise)",
+   "Efficacité des contrôles sélectionnés",
+   "Existence des contrôles IT généraux"
+  ],
+  "reponse": 2,
+  "explication": "La vérification de l'existence du SCI porte sur la documentation, la mise en place et l'existence des contrôles (dont GITC) — mais PAS sur l'efficacité du fonctionnement, qui relève des tests de procédures. Base : NAS-CH 890 · art. 728a al. 1 ch. 3 CO. → voir §4.3 du mémento.",
+  "ajout": false,
+  "id": "PA-014"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Notion de SCI",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s4-2",
+  "renvoi": "§4.2 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant un système de contrôle interne (SCI) est correcte ?",
+  "choix": [
+   "La révision interne est un élément indispensable de tout SCI.",
+   "Par « risque », on entend la possibilité de perte ou de dommage pour l'entreprise.",
+   "Des descriptions de processus détaillées sont indispensables : sans elles, l'existence du SCI ne peut jamais être attestée.",
+   "Le SCI doit garantir que tous les risques de l'entreprise soient éliminés."
+  ],
+  "reponse": 1,
+  "explication": "Un risque est la possibilité de perte/dommage. La révision interne n'est pas obligatoire dans tout SCI, et un SCI ne peut éliminer tous les risques (limites inhérentes), il les réduit. Base : ISA-CH 315 · NAS-CH 890. → voir §4.2 du mémento.",
+  "ajout": false,
+  "id": "PA-015"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Existence du SCI (890)",
+  "type": "cas",
+  "difficulte": 3,
+  "anchor": "s4-3",
+  "renvoi": "§4.3 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la vérification de l'existence du SCI selon la NAS-CH 890 est correcte ?",
+  "choix": [
+   "L'auditeur n'est pas tenu de garantir le fonctionnement permanent des contrôles pour confirmer positivement l'existence du SCI.",
+   "On distingue les contrôles indirects au niveau des processus et les contrôles directs au niveau de l'entreprise.",
+   "Il suffit de procéder une seule fois aux contrôles IT généraux, sans les répéter chaque année.",
+   "Pour les comptes consolidés d'une société cotée, la vérification de l'existence du SCI n'est pas obligatoire."
+  ],
+  "reponse": 0,
+  "explication": "La confirmation de l'existence du SCI ne requiert pas d'attester le fonctionnement permanent (efficacité) des contrôles : elle porte sur conception et mise en œuvre. L'évaluation est annuelle et l'obligation légale (728a CO) demeure. Base : NAS-CH 890 · art. 728a CO. → voir §4.3 du mémento.",
+  "ajout": false,
+  "id": "PA-016"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "ISA-CH 315 et SCI",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s4",
+  "renvoi": "§4 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant l'évaluation des risques en planification est fausse ?",
+  "choix": [
+   "L'évaluation des risques contribue à l'efficience de l'audit ; un caractère significatif approprié y participe.",
+   "Les risques sont habituellement évalués selon une approche « top-down ».",
+   "Les procédures d'évaluation des risques se limitent aux auditions de la direction ou à l'examen de la stratégie.",
+   "L'ISA-CH 315 traite de l'identification et de l'évaluation des risques via la connaissance de l'entité, y compris du SCI."
+  ],
+  "reponse": 2,
+  "explication": "Les procédures d'évaluation des risques ne se limitent pas aux entretiens : elles incluent l'observation, l'inspection et les procédures analytiques. L'ISA-CH 315 couvre bien le SCI (contrairement à ce que suggère un autre distracteur). Base : ISA-CH 315. → voir §4 du mémento.",
+  "ajout": false,
+  "id": "PA-017"
+ },
+ {
+  "domaine": "4. Entité & SCI",
+  "sous_theme": "Existence du SCI & responsabilité",
+  "type": "cas",
+  "difficulte": 3,
+  "anchor": "s4-2",
+  "renvoi": "§4.2 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la vérification de l'existence du SCI est correcte ?",
+  "choix": [
+   "L'assemblée générale est responsable de la conception et du maintien d'un SCI approprié.",
+   "Parmi les conditions d'une confirmation positive figurent un SCI concrétisé et vérifiable et des contrôles au niveau de l'entreprise efficaces.",
+   "Si le SCI est confirmé, le risque de non-détection devient élevé car le risque de contrôle baisse.",
+   "Une déficience majeure du SCI existe dès qu'une déficience mérite l'attention du CA."
+  ],
+  "reponse": 1,
+  "explication": "Une confirmation positive suppose un SCI concrétisé, vérifiable et des contrôles au niveau entreprise efficaces. La responsabilité du SCI incombe au CA/direction (non à l'AG) ; un RC plus bas permet un RND plus élevé (relation, pas conséquence automatique de la seule confirmation). Base : NAS-CH 890 · art. 716a/728a CO. → voir §4.2 du mémento.",
+  "ajout": false,
+  "id": "PA-018"
+ },
+ {
+  "domaine": "5. Caractère significatif",
+  "sous_theme": "Types de seuils (320)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s5-2",
+  "renvoi": "§5.2 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Lequel des types de caractère significatif suivants n'est pas mentionné dans la norme ISA-CH 320 ?",
+  "choix": [
+   "Seuil de signification pour les états financiers pris dans leur ensemble",
+   "Seuil de planification (performance materiality)",
+   "Seuil de non-intervention",
+   "Seuils de signification pour des flux d'opérations, soldes de comptes ou informations particuliers"
+  ],
+  "reponse": 2,
+  "explication": "L'ISA-CH 320 traite du seuil global, du seuil de planification (performance materiality) et des seuils spécifiques. Le « seuil de non-intervention » (anomalies clairement insignifiantes) relève de l'évaluation des anomalies (ISA-CH 450), pas du 320. Base : ISA-CH 320. → voir §5.2 du mémento.",
+  "ajout": false,
+  "id": "PA-019"
+ },
+ {
+  "domaine": "5. Caractère significatif",
+  "sous_theme": "Définition (320)",
+  "type": "definition",
+  "difficulte": 2,
+  "anchor": "s5-1",
+  "renvoi": "§5.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Laquelle des affirmations suivantes est correcte ?",
+  "choix": [
+   "Les anomalies peuvent être significatives sur le plan quantitatif, mais aussi qualitatif.",
+   "Le caractère significatif est en principe défini différemment dans les IFRS et dans les Swiss GAAP RPC.",
+   "Le caractère significatif est une exigence purement qualitative, déterminée par l'association professionnelle de l'entreprise.",
+   "L'erreur tolérable doit être supérieure au caractère significatif global."
+  ],
+  "reponse": 0,
+  "explication": "Une anomalie peut être significative par son montant (quantitatif) ou par sa nature (qualitatif : parties liées, bascule bénéfice/perte…). Le caractère significatif est un jugement de l'auditeur, pas de l'association professionnelle, et l'erreur tolérable est inférieure au seuil global. Base : ISA-CH 320. → voir §5.1 du mémento.",
+  "ajout": false,
+  "id": "PA-020"
+ },
+ {
+  "domaine": "5. Caractère significatif",
+  "sous_theme": "Détermination (320)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s5-3",
+  "renvoi": "§5.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Laquelle des affirmations est erronée ?",
+  "choix": [
+   "Le caractère significatif aide à fixer les priorités d'audit et à définir la nature et l'étendue des procédures.",
+   "Les pourcentages indiqués dans le MSA « Contrôle ordinaire » sont des valeurs cibles obligatoires, appliquées sans jugement professionnel.",
+   "L'évaluation du caractère significatif relève du jugement professionnel de l'auditeur.",
+   "L'auditeur évalue la branche, la situation économique, la structure de propriété, le cercle des destinataires et les erreurs des audits antérieurs."
+  ],
+  "reponse": 1,
+  "explication": "Les fourchettes du MSA sont des repères indicatifs, pas des valeurs cibles obligatoires : le jugement professionnel prime. Les trois autres affirmations sont exactes. Base : ISA-CH 320 · MSA. → voir §5.3 du mémento.",
+  "ajout": false,
+  "id": "PA-021"
+ },
+ {
+  "domaine": "5. Caractère significatif",
+  "sous_theme": "Jugement professionnel",
+  "type": "cas",
+  "difficulte": 3,
+  "anchor": "s5-1",
+  "renvoi": "§5.1 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "L'auditeur exerce son jugement professionnel pour évaluer le caractère significatif. Quelle affirmation est correcte ?",
+  "choix": [
+   "Plus le caractère significatif est élevé, moins l'audit est efficace.",
+   "Si l'auditeur abaisse le seuil de signification en cours d'audit, le risque d'audit augmente.",
+   "Plus le caractère significatif est faible, plus l'audit est efficient.",
+   "L'entreprise auditée influence toujours la détermination du seuil de signification global."
+  ],
+  "reponse": 3,
+  "explication": "Le seuil global dépend des caractéristiques de l'entité (branche, destinataires, grandeur de référence) : l'entreprise influence donc toujours sa détermination. Abaisser le seuil augmente l'étendue des travaux (donc réduit le risque, mais diminue l'efficience). Base : ISA-CH 320. → voir §5.1 du mémento.",
+  "ajout": false,
+  "id": "PA-022"
+ },
+ {
+  "domaine": "5. Caractère significatif",
+  "sous_theme": "Détermination (piège SNI)",
+  "type": "piege",
+  "difficulte": 3,
+  "anchor": "s5-2",
+  "renvoi": "§5.2 du mémento",
+  "confidence": "medium",
+  "divergence": "Quatre affirmations proches ; la fausse retenue = interdiction des seuils spécifiques. À confronter au support.",
+  "question": "Quelle affirmation concernant la détermination du caractère significatif est fausse ?",
+  "choix": [
+   "Selon les NA-CH, l'auditeur n'est pas autorisé à définir un seuil de signification spécifique pour certains types de transactions à risque.",
+   "Le risque d'agrégation est pris en compte via le seuil de planification, fixé en fonction du seuil global.",
+   "Un manque de liquidités ou un surendettement peut influencer le calcul du seuil global.",
+   "Les NA-CH n'imposent pas un pourcentage figé sur un élément de référence pour le seuil global."
+  ],
+  "reponse": 0,
+  "explication": "L'auditeur PEUT définir des seuils spécifiques pour certains flux/soldes à risque (ISA-CH 320) : l'affirmation contraire est fausse. Les autres sont exactes. Base : ISA-CH 320. → voir §5.2 du mémento.",
+  "ajout": false,
+  "id": "PA-023"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Catégories d'assertions",
+  "type": "piege",
+  "difficulte": 1,
+  "anchor": "s6-3",
+  "renvoi": "§6.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Il existe trois catégories distinctes d'assertions dans les états financiers. Laquelle des propositions suivantes n'en est pas une ?",
+  "choix": [
+   "Assertions relatives aux flux d'opérations et aux événements survenus",
+   "Assertions relatives aux soldes de comptes en fin de période",
+   "Assertions relatives à la présentation des états financiers et aux informations fournies",
+   "Déclarations relatives à la composition de l'organe de contrôle"
+  ],
+  "reponse": 3,
+  "explication": "Les trois catégories d'assertions portent sur les flux d'opérations, les soldes de comptes et la présentation/informations. La composition de l'organe de contrôle n'est pas une assertion. Base : ISA-CH 315. → voir §6.3 du mémento.",
+  "ajout": false,
+  "id": "PA-024"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Assertions - soldes",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s6-3",
+  "renvoi": "§6.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Une entreprise a inscrit au bilan des créances clients pour 5 millions et fait ainsi implicitement différentes assertions. Laquelle des assertions suivantes (selon ISA-CH 315) l'entreprise ne fait-elle PAS ?",
+  "choix": [
+   "Existence (des créances)",
+   "Droits et obligations (l'entreprise est titulaire de ces créances)",
+   "Efficacité (l'entreprise a efficacement réalisé les créances)",
+   "Évaluation (les créances sont récupérables)"
+  ],
+  "reponse": 2,
+  "explication": "« Efficacité » n'est pas une assertion. Pour un solde de bilan, les assertions sont existence, droits & obligations, exhaustivité, évaluation & imputation. Base : ISA-CH 315. → voir §6.3 du mémento.",
+  "ajout": false,
+  "id": "PA-025"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Tests de procédures & RC",
+  "type": "definition",
+  "difficulte": 2,
+  "anchor": "s6-5",
+  "renvoi": "§6.5 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation est correcte ?",
+  "choix": [
+   "Les tests de procédures aident à évaluer le risque inhérent.",
+   "Les tests de procédures aident à évaluer le risque de contrôle.",
+   "Les tests de procédures aident à évaluer le risque de non-détection.",
+   "Les tests de procédures aident à évaluer le risque d'audit."
+  ],
+  "reponse": 1,
+  "explication": "Les tests de procédures apprécient l'efficacité du SCI, donc le risque de contrôle (RC). Base : ISA-CH 330. → voir §6.5 du mémento.",
+  "ajout": false,
+  "id": "PA-026"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Assertions - soldes",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s6-3",
+  "renvoi": "§6.3 du mémento",
+  "confidence": "medium",
+  "divergence": "Question à double négation ; réponse = assertions typiques des FLUX (survenance/délimitation), non pertinentes pour un solde à la date de clôture — à revoir.",
+  "question": "Quelles assertions NE sont PAS pertinentes lors de l'audit des soldes de comptes à la date des états financiers ?",
+  "choix": [
+   "Existence, évaluation et affectation",
+   "Survenance et délimitation périodique",
+   "Intégralité, droits et obligations",
+   "Exactitude, présentation et représentation"
+  ],
+  "reponse": 1,
+  "explication": "« Survenance » et « délimitation périodique » (cut-off) sont des assertions relatives aux FLUX d'opérations, pas aux soldes de comptes à la date de clôture (existence, droits, exhaustivité, évaluation). Base : ISA-CH 315. → voir §6.3 du mémento.",
+  "ajout": false,
+  "id": "PA-027"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Approche orientée risque",
+  "type": "definition",
+  "difficulte": 2,
+  "anchor": "s6-5",
+  "renvoi": "§6.5 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant l'approche d'audit orientée risque est correcte ?",
+  "choix": [
+   "Plus l'audit est efficient, plus il est efficace.",
+   "Les risques généraux liés à l'activité n'influent pas sur le risque d'audit.",
+   "L'objectif est d'axer l'audit sur les risques importants afin de réduire le risque d'audit à un niveau acceptable.",
+   "Une société passée du contrôle restreint à l'ordinaire n'a plus à considérer le risque de non-détection."
+  ],
+  "reponse": 2,
+  "explication": "L'approche orientée risque concentre l'effort sur les risques importants pour ramener le risque d'audit à un niveau acceptable. Efficience et efficacité sont distinctes, et les risques d'activité influencent bien le risque d'audit. Base : ISA-CH 315/330. → voir §6.5 du mémento.",
+  "ajout": false,
+  "id": "PA-028"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Définition du risque d'audit",
+  "type": "definition",
+  "difficulte": 2,
+  "anchor": "s6-1",
+  "renvoi": "§6.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Parmi les affirmations suivantes, laquelle est correcte ?",
+  "choix": [
+   "Le « risque d'audit » est la probabilité de délivrer une opinion sans réserve malgré des anomalies significatives.",
+   "Le risque d'audit est la base du programme de contrôle.",
+   "Le « risque de détection » est la probabilité que l'auditeur détecte des anomalies significatives.",
+   "Le risque de contrôle est influencé par la nature, l'étendue et le calendrier des procédures d'audit."
+  ],
+  "reponse": 0,
+  "explication": "Le risque d'audit = risque d'exprimer une opinion inappropriée alors que les comptes comportent une anomalie significative. Le risque de non-détection (et non le risque de contrôle) dépend des procédures de l'auditeur. Base : ISA-CH 200. → voir §6.1 du mémento.",
+  "ajout": false,
+  "id": "PA-029"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Évaluation des risques",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s6-4",
+  "renvoi": "§6.4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant l'évaluation des risques en planification est correcte ?",
+  "choix": [
+   "Les risques importants doivent être évalués tant pour le contrôle ordinaire que restreint.",
+   "Les tests de procédures sont le seul moyen de faire face aux risques importants.",
+   "Dans une approche orientée risque, l'efficacité se traduit par l'obtention d'une opinion avec assurance raisonnable.",
+   "Lors d'un premier audit, le risque inhérent et le risque de contrôle doivent toujours être considérés comme élevés."
+  ],
+  "reponse": 2,
+  "explication": "L'efficacité de l'approche orientée risque se mesure à l'obtention d'une assurance raisonnable. La classification des risques importants relève du contrôle ordinaire ; les risques importants exigent des contrôles de substance (pas seulement des tests de procédures). Base : ISA-CH 315/330. → voir §6.4 du mémento.",
+  "ajout": false,
+  "id": "PA-030"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Facteurs de planification sommaire",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s6",
+  "renvoi": "§6 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Qu'est-ce qui n'est PAS un facteur d'influence à considérer dans le cadre de la planification sommaire ?",
+  "choix": [
+   "Caractère significatif pour les états financiers pris dans leur ensemble",
+   "Fraudes éventuelles et leurs effets sur les comptes annuels",
+   "Contrôles de substance pour certains postes des comptes annuels",
+   "Appréciation du SCI et des systèmes informatiques financiers"
+  ],
+  "reponse": 2,
+  "explication": "Les contrôles de substance sur des postes précis relèvent de la planification DÉTAILLÉE (programme), pas de la planification sommaire, qui fixe caractère significatif, risques de fraude et appréciation du SCI. Base : ISA-CH 300. → voir §6 du mémento.",
+  "ajout": false,
+  "id": "PA-031"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Risques importants",
+  "type": "piege",
+  "difficulte": 3,
+  "anchor": "s6-4",
+  "renvoi": "§6.4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant les risques importants est fausse ?",
+  "choix": [
+   "La classification en risques importants/autres risques est indépendante de l'efficacité des contrôles identifiés.",
+   "Pour un risque important où les contrôles de substance ne suffisent pas, l'auditeur se fait une idée du SCI et des contrôles liés.",
+   "Pour les risques importants, les tests d'efficacité des contrôles peuvent être réalisés en rotation (p. ex. tous les trois ans).",
+   "Si l'approche ne comporte que des contrôles de substance, ceux-ci doivent être des vérifications de détail seules ou combinées à des procédures analytiques."
+  ],
+  "reponse": 2,
+  "explication": "Pour un risque important, si l'auditeur s'appuie sur l'efficacité des contrôles, il doit la tester chaque année — pas en rotation pluriannuelle. Les autres affirmations sont exactes. Base : ISA-CH 315/330. → voir §6.4 du mémento.",
+  "ajout": false,
+  "id": "PA-032"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Approche par les risques",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s6-5",
+  "renvoi": "§6.5 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant l'approche d'audit orientée risque est correcte ?",
+  "choix": [
+   "Plus l'audit est efficient, plus il est efficace.",
+   "Les risques généraux liés à l'activité n'influent pas sur le risque d'audit.",
+   "L'objectif est d'axer l'audit sur les risques importants afin de réduire le risque d'audit à un niveau acceptable.",
+   "Passée au contrôle ordinaire, une société n'a plus à considérer le risque de non-détection."
+  ],
+  "reponse": 2,
+  "explication": "L'approche orientée risque cible les risques importants pour ramener le risque d'audit à un niveau acceptable ; efficience ≠ efficacité et le RND se considère toujours. Base : ISA-CH 315/330. → voir §6.5 du mémento.",
+  "ajout": false,
+  "id": "PA-033"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Assertions - objectifs de contrôle",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s6-3",
+  "renvoi": "§6.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant les assertions (objectifs de contrôle) est correcte ?",
+  "choix": [
+   "Ce sont les assertions explicites et implicites de l'assemblée générale.",
+   "L'assertion « exhaustivité » s'applique aux actifs et passifs mais pas aux engagements conditionnels.",
+   "Ni la procédure progressive, ni la procédure rétrospective n'importe pour déterminer les assertions.",
+   "Les assertions sont le lien entre les priorités d'audit et les procédures d'audit."
+  ],
+  "reponse": 3,
+  "explication": "Les assertions relient les priorités d'audit aux procédures ciblées. Elles émanent de la direction (pas de l'AG), l'exhaustivité s'applique aussi aux engagements conditionnels, et le sens de la procédure (progressive/rétrospective) importe. Base : ISA-CH 315. → voir §6.3 du mémento.",
+  "ajout": false,
+  "id": "PA-034"
+ },
+ {
+  "domaine": "6. Risque d'audit & réponses",
+  "sous_theme": "Risque important & jugement",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s6-4",
+  "renvoi": "§6.4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la planification pour un contrôle ordinaire est correcte ?",
+  "choix": [
+   "Pour chaque risque d'anomalies significatives, l'auditeur doit déterminer s'il s'agit d'un risque important.",
+   "Pour les risques importants, l'efficacité des contrôles doit être vérifiée une fois par an, sans condition.",
+   "Le contournement des contrôles par la direction peut être qualifié d'« autre risque » en environnement à faible risque.",
+   "Si l'approche ne comporte que des contrôles de substance, les sondages sont interdits."
+  ],
+  "reponse": 0,
+  "explication": "L'auditeur doit apprécier, pour chaque risque d'anomalies significatives, s'il constitue un risque important. Le management override est toujours un risque important (jamais « autre risque »), et les sondages restent admis. Base : ISA-CH 315/240. → voir §6.4 du mémento.",
+  "ajout": false,
+  "id": "PA-035"
+ },
+ {
+  "domaine": "7. Fraude & textes légaux",
+  "sous_theme": "Triangle de la fraude",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s7-2",
+  "renvoi": "§7.2 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Laquelle des affirmations suivantes n'est pas une description d'une composante directe du triangle des fraudes ?",
+  "choix": [
+   "Les collaborateurs ont l'opportunité de frauder (lacunes du SCI).",
+   "Le comportement et la démotivation des collaborateurs peuvent servir de justification à la fraude.",
+   "Des objectifs de performance et budgétaires très ambitieux incitent à frauder.",
+   "L'indépendance de l'organe de révision justifie la gestion des fraudes dans le triangle."
+  ],
+  "reponse": 3,
+  "explication": "Les trois sommets sont l'opportunité, l'incitation/pression et l'attitude/rationalisation. L'indépendance de l'auditeur n'est pas une composante du triangle. Base : ISA-CH 240. → voir §7.2 du mémento.",
+  "ajout": false,
+  "id": "PA-036"
+ },
+ {
+  "domaine": "7. Fraude & textes légaux",
+  "sous_theme": "Management override",
+  "type": "cas",
+  "difficulte": 3,
+  "anchor": "s7-4",
+  "renvoi": "§7.4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la planification pour le contrôle ordinaire de XY SA est correcte ?",
+  "choix": [
+   "L'auditeur doit, pour chaque risque d'anomalies significatives, déterminer s'il s'agit d'un risque important.",
+   "En présence de risques importants, l'efficacité des contrôles doit toujours être testée une fois par an.",
+   "Le contournement des contrôles par la direction peut être un « autre risque » en environnement à faible risque.",
+   "Si l'approche ne comporte que des contrôles de substance, les sondages sont interdits."
+  ],
+  "reponse": 0,
+  "explication": "L'auditeur apprécie pour chaque risque s'il est important. Le management override est par nature un risque important à traiter dans tous les audits (procédures obligatoires : écritures, estimations, opérations inhabituelles). Base : ISA-CH 240/315. → voir §7.4 du mémento.",
+  "ajout": false,
+  "id": "PA-037"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Sociétés de services (402)",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s8-4",
+  "renvoi": "§8.4 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Lequel des faits suivants relève des dispositions de l'ISA-CH 402 « Recours à des sociétés de services » et doit être pris en compte par l'auditeur ?",
+  "choix": [
+   "La distribution du courrier interne est confiée à une société extérieure.",
+   "La flotte de véhicules a été prise en leasing auprès d'un concessionnaire local.",
+   "Une société de conseil recherche des cibles d'acquisition (M&A).",
+   "Les factures créanciers sont saisies, traitées et comptabilisées par une société de services extérieure."
+  ],
+  "reponse": 3,
+  "explication": "L'ISA-CH 402 vise les services affectant l'information financière : la comptabilisation des factures créanciers en fait partie. Courrier, leasing et recherche de cibles n'affectent pas le traitement comptable. Base : ISA-CH 402. → voir §8.4 du mémento.",
+  "ajout": false,
+  "id": "PA-038"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Rapport type 1 (402)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s8-4",
+  "renvoi": "§8.4 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Concernant le rapport de type 1 d'une société de services, quelle affirmation est fausse ?",
+  "choix": [
+   "L'auditeur doit demander un rapport de type 1 quelles que soient la nature et l'étendue des tâches externalisées et son évaluation des risques.",
+   "Un rapport de type 1 porte sur la description et la conception des contrôles de la société de services.",
+   "Il comprend une description, par la direction de la société de services, des objectifs de contrôle et des contrôles conçus et mis en place.",
+   "Il inclut l'opinion de l'auditeur de la société de services sur le caractère adéquat de la conception des contrôles à une date donnée."
+  ],
+  "reponse": 0,
+  "explication": "Un rapport de type 1 n'est pas exigé « dans tous les cas » : sa nécessité dépend de l'importance du service et de l'évaluation des risques. Les autres affirmations décrivent correctement le type 1 (conception à une date). Base : ISA-CH 402. → voir §8.4 du mémento.",
+  "ajout": false,
+  "id": "PA-039"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Rapport type 2 (402)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s8-4",
+  "renvoi": "§8.4 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Concernant le rapport de type 2 d'une société de services, quelle affirmation est fausse ?",
+  "choix": [
+   "Même avec un rapport de type 2, l'auditeur reste tenu d'obtenir des éléments probants suffisants et appropriés.",
+   "Un rapport de type 2 porte sur la description, la conception et l'efficacité des contrôles.",
+   "Il contient une description des tests réalisés par l'auditeur de la société de services et de leurs résultats.",
+   "L'auditeur doit d'abord exiger un rapport de type 1 avant de pouvoir exiger un rapport de type 2."
+  ],
+  "reponse": 3,
+  "explication": "Il n'existe aucune obligation d'obtenir un type 1 avant un type 2 : le type 2 (efficacité sur une période) englobe déjà la conception. Les autres affirmations sont exactes. Base : ISA-CH 402. → voir §8.4 du mémento.",
+  "ajout": false,
+  "id": "PA-040"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Recours à un expert (620)",
+  "type": "definition",
+  "difficulte": 1,
+  "anchor": "s8-3",
+  "renvoi": "§8.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle est la norme d'audit qui régit l'utilisation des travaux d'un expert désigné par l'auditeur ?",
+  "choix": [
+   "NAS 500",
+   "NAS 620",
+   "NAS 402",
+   "NAS 220"
+  ],
+  "reponse": 1,
+  "explication": "L'ISA-CH/NAS 620 régit le recours à un expert désigné par l'auditeur (compétence, aptitudes, objectivité). Base : ISA-CH 620. → voir §8.3 du mémento.",
+  "ajout": false,
+  "id": "PA-041"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Sociétés de services (402)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s8-4",
+  "renvoi": "§8.4 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Concernant le recours à une société de services (ISA-CH 402), quelle affirmation est fausse ?",
+  "choix": [
+   "La responsabilité d'obtenir des éléments probants suffisants incombe entièrement à l'auditeur de l'entité utilisatrice.",
+   "L'auditeur doit recevoir au moins un rapport de type 1 s'il veut estimer le risque de contrôle à un niveau faible.",
+   "L'examen de l'accord contractuel avec le prestataire est une procédure d'audit appropriée.",
+   "Le service est pertinent s'il fait partie du système d'information financière de l'entité."
+  ],
+  "reponse": 1,
+  "explication": "Pour estimer le risque de contrôle FAIBLE, il faut un rapport de type 2 (efficacité) — un type 1 (conception à une date) ne suffit pas. La responsabilité reste à l'auditeur utilisateur ; les autres affirmations sont exactes. Base : ISA-CH 402. → voir §8.4 du mémento.",
+  "ajout": false,
+  "id": "PA-042"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Sociétés de services - pertinence",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s8-4",
+  "renvoi": "§8.4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Qu'est-ce qui n'est PAS un facteur à considérer pour évaluer la pertinence de la prestation d'une société de services selon l'ISA-CH 402 ?",
+  "choix": [
+   "La forme juridique de la société de services et les exigences légales y afférentes.",
+   "La description de l'activité et la nature de la prestation, du point de vue de l'entité utilisatrice.",
+   "Les contrôles internes de l'entité utilisatrice se rapportant aux transactions traitées.",
+   "Les principales assertions des états financiers influencées."
+  ],
+  "reponse": 0,
+  "explication": "La forme juridique du prestataire est sans incidence sur la pertinence pour l'audit ; comptent la nature du service, les contrôles associés et les assertions affectées. Base : ISA-CH 402. → voir §8.4 du mémento.",
+  "ajout": false,
+  "id": "PA-043"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Recours à un expert (620)",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s8-3",
+  "renvoi": "§8.3 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant le recours à un expert désigné par l'auditeur est correcte ?",
+  "choix": [
+   "La société auditée ne peut pas mandater un expert.",
+   "L'auditeur doit évaluer la compétence professionnelle et l'indépendance de l'expert et documenter ces éléments.",
+   "L'auditeur et l'expert partagent la responsabilité de l'exactitude de l'évaluation.",
+   "Le risque d'atteinte à l'objectivité augmente lorsque l'expert est membre de l'équipe d'audit."
+  ],
+  "reponse": 1,
+  "explication": "L'auditeur évalue et documente la compétence et l'objectivité de l'expert (ISA-CH 620). La responsabilité de l'opinion reste à l'auditeur seul. Base : ISA-CH 620. → voir §8.3 du mémento.",
+  "ajout": false,
+  "id": "PA-044"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Parties liées (550)",
+  "type": "cas",
+  "difficulte": 2,
+  "ajout": true,
+  "anchor": "s8-1",
+  "renvoi": "§8.1 du mémento",
+  "question": "Lors de la planification, comment l'auditeur doit-il traiter les opérations importantes avec des parties liées conclues en dehors du cours normal des affaires ?",
+  "choix": [
+   "Elles peuvent être ignorées si leur montant est inférieur au seuil de signification global.",
+   "Elles constituent en principe un risque significatif, exigeant une attention d'audit particulière et l'examen de leur autorisation et de leur comptabilisation.",
+   "L'auditeur se fie exclusivement à la déclaration écrite de la direction attestant l'absence de parties liées.",
+   "Elles relèvent uniquement de la phase de clôture et non de la planification."
+  ],
+  "reponse": 1,
+  "explication": "Selon l'ISA-CH 550, les opérations avec parties liées hors cours normal des affaires sont traitées comme un risque significatif : l'auditeur examine leur autorisation/approbation et leur juste comptabilisation. Une anomalie qualitative peut être significative même sous le seuil chiffré (A faux) ; la seule déclaration de la direction ne suffit pas (C faux) ; le risque s'apprécie dès la planification (D faux). Base : ISA-CH 550. → voir §8.1 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-045"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Continuité (570 / art. 725 CO)",
+  "type": "cas",
+  "difficulte": 3,
+  "ajout": true,
+  "anchor": "s8-2",
+  "renvoi": "§8.2 du mémento",
+  "question": "Une PME présente des capitaux propres négatifs (surendettement possible). Quelle affirmation est correcte concernant la continuité d'exploitation ?",
+  "choix": [
+   "L'existence d'une incertitude significative sur la continuité impose toujours une opinion défavorable (adverse).",
+   "L'appréciation de la continuité ne concerne que les sociétés cotées en bourse.",
+   "Si l'incertitude significative est adéquatement décrite en annexe, l'auditeur peut émettre une opinion non modifiée assortie d'un paragraphe sur la continuité d'exploitation.",
+   "En cas de surendettement au sens du CO, l'auditeur n'a aucune obligation particulière."
+  ],
+  "reponse": 2,
+  "explication": "Selon l'ISA-CH 570, une incertitude significative correctement décrite en annexe est compatible avec une opinion non modifiée assortie d'un paragraphe sur la continuité ; l'opinion n'est affectée que si la description est absente ou inadéquate (A faux). L'appréciation vaut pour toutes les entités, pas seulement cotées (B faux). Le surendettement (art. 725b CO) déclenche des obligations d'aviser (D faux). Base : ISA-CH 570 · art. 725b CO. → voir §8.2 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-046"
+ },
+ {
+  "domaine": "8. Sujets spécifiques",
+  "sous_theme": "Audit de groupe (600)",
+  "type": "definition",
+  "difficulte": 2,
+  "ajout": true,
+  "anchor": "s8-3",
+  "renvoi": "§8.3 du mémento",
+  "question": "Dans un audit de groupe, quelle affirmation concernant les auditeurs des composants (filiales) est correcte ?",
+  "choix": [
+   "L'opinion sur les comptes consolidés reste de la responsabilité de l'équipe d'audit du groupe, qui évalue la compétence et l'indépendance des auditeurs des composants et définit l'étendue de leurs travaux.",
+   "L'équipe d'audit du groupe se décharge de sa responsabilité sur les auditeurs des composants.",
+   "Les auditeurs des composants signent eux-mêmes l'opinion sur les comptes consolidés.",
+   "Les composants non significatifs ne font jamais l'objet d'aucune procédure d'audit."
+  ],
+  "reponse": 0,
+  "explication": "Selon l'ISA-CH 600, la responsabilité de l'opinion sur les comptes consolidés n'est pas transférable (B, C faux) : l'équipe d'audit du groupe évalue la compétence et l'indépendance des auditeurs des composants et fixe l'étendue de leurs travaux. Des procédures analytiques au niveau du groupe s'appliquent même aux composants non significatifs (D faux). Base : ISA-CH 600. → voir §8.3 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-047"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "But de la documentation (230)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s9-1",
+  "renvoi": "§9.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Selon l'ISA-CH 230, lequel des éléments suivants n'est PAS un objectif significatif de la documentation d'audit ?",
+  "choix": [
+   "Communiquer l'ensemble du dossier d'audit aux personnes constituant le gouvernement d'entreprise",
+   "Traçabilité pour des tiers des procédures d'audit effectuées",
+   "Éléments de preuve attestant des procédures réalisées",
+   "Fonction d'archivage permettant d'accéder aux conclusions obtenues"
+  ],
+  "reponse": 0,
+  "explication": "La documentation n'a pas pour but de transmettre le dossier d'audit à la gouvernance ; elle sert de preuve, de traçabilité et d'archivage. Base : ISA-CH 230. → voir §9.1 du mémento.",
+  "ajout": false,
+  "id": "PA-048"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "Étendue de la documentation",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s9-1",
+  "renvoi": "§9.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Lequel des critères suivants NE constitue PAS un critère pour l'étendue de la documentation d'audit ?",
+  "choix": [
+   "Tous les documents fournis par le client doivent être documentés",
+   "Les conclusions tirées doivent être documentées",
+   "Seuls les faits pertinents pour l'audit doivent être documentés",
+   "Seul le travail effectivement réalisé doit être documenté"
+  ],
+  "reponse": 0,
+  "explication": "On ne documente pas tous les documents du client, mais ce qui est pertinent pour l'audit et effectivement réalisé, ainsi que les conclusions. Base : ISA-CH 230. → voir §9.1 du mémento.",
+  "ajout": false,
+  "id": "PA-049"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "Délai d'assemblage (230)",
+  "type": "definition",
+  "difficulte": 1,
+  "anchor": "s9-1",
+  "renvoi": "§9.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quel délai les NA-CH fixent-elles pour la finalisation définitive de la documentation d'audit ?",
+  "choix": [
+   "6 mois après la date du bilan",
+   "60 jours à compter de la date du rapport d'audit",
+   "6 semaines après la déclaration d'intégralité",
+   "60 jours après la fin de la réalisation de l'audit"
+  ],
+  "reponse": 1,
+  "explication": "Le dossier d'audit doit être assemblé dans un délai approprié, en pratique 60 jours après la date du rapport d'audit. Base : ISA-CH 230. → voir §9.1 du mémento.",
+  "ajout": false,
+  "id": "PA-050"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "Existence du SCI & rapport CA (728b)",
+  "type": "cas",
+  "difficulte": 3,
+  "anchor": "s9-4",
+  "renvoi": "§9.4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la vérification de l'existence du SCI (NAS-CH 890) est correcte ?",
+  "choix": [
+   "Dans son rapport détaillé au CA, l'organe de révision n'a pas à prendre position sur l'existence du SCI s'il n'a pas décelé de faiblesse.",
+   "La confirmation de l'existence du SCI (art. 728a al. 1 ch. 3 CO) n'est pas un objet légal distinct de l'audit.",
+   "Les contrôles IT généraux ne sont à vérifier que si de nouveaux processus significatifs ont été mis en place dans l'année.",
+   "Les résultats des tests de procédures de l'audit peuvent être utilisés pour la vérification de l'existence du SCI, réduisant les procédures additionnelles dans ces domaines."
+  ],
+  "reponse": 3,
+  "explication": "Les tests de procédures réalisés pour l'audit peuvent servir à confirmer l'existence du SCI, évitant de dupliquer les travaux. L'existence du SCI est un objet légal distinct (728a al. 1 ch. 3 CO) sur lequel le rapport détaillé doit se prononcer. Base : NAS-CH 890 · art. 728a/728b CO. → voir §9.4 du mémento.",
+  "ajout": false,
+  "id": "PA-051"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "Documentation - support & archivage",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s9-1",
+  "renvoi": "§9.1 du mémento",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la documentation d'audit est correcte ?",
+  "choix": [
+   "La documentation peut être établie sur papier, support électronique ou tout autre moyen.",
+   "L'auditeur doit clore la documentation le jour où il termine son audit.",
+   "Il n'existe aucune prescription sur le moment d'archivage des dossiers de travail.",
+   "Après la date du rapport, l'auditeur n'a plus à documenter de nouvelles procédures."
+  ],
+  "reponse": 0,
+  "explication": "La documentation peut prendre toute forme (papier/électronique). Son assemblage final suit un délai (≈ 60 jours après le rapport), et toute procédure ultérieure doit être documentée. Base : ISA-CH 230. → voir §9.1 du mémento.",
+  "ajout": false,
+  "id": "PA-052"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "Déficiences du SCI (265 / 728b CO)",
+  "type": "cas",
+  "difficulte": 2,
+  "ajout": true,
+  "anchor": "s9-3",
+  "renvoi": "§9.3 du mémento",
+  "question": "L'auditeur d'un contrôle ordinaire identifie une déficience significative du système de contrôle interne. Quelle est la conduite correcte ?",
+  "choix": [
+   "Il la communique uniquement oralement au responsable opérationnel concerné.",
+   "Il ne communique rien tant que la déficience n'a pas effectivement provoqué une anomalie significative.",
+   "Il refuse de délivrer son rapport d'audit tant que la déficience subsiste.",
+   "Il communique par écrit les déficiences significatives du SCI à la gouvernance (ISA-CH 265) ; en contrôle ordinaire, le rapport détaillé au conseil d'administration relève de l'art. 728b al. 1 CO."
+  ],
+  "reponse": 3,
+  "explication": "Selon l'ISA-CH 265, les déficiences significatives du SCI se communiquent par écrit à la gouvernance ; en contrôle ordinaire, le rapport détaillé au CA est prévu par l'art. 728b al. 1 CO. Une communication seulement orale (A) ou différée (B) est insuffisante, et une déficience de SCI n'entraîne pas en soi un refus d'opinion (C faux). Base : ISA-CH 265 · art. 728b al. 1 CO. → voir §9.3 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-053"
+ },
+ {
+  "domaine": "9. Documentation & communication",
+  "sous_theme": "Communication à la gouvernance (260)",
+  "type": "definition",
+  "difficulte": 1,
+  "ajout": true,
+  "anchor": "s9-2",
+  "renvoi": "§9.2 du mémento",
+  "question": "Selon l'ISA-CH 260, lequel de ces éléments l'auditeur communique-t-il à la gouvernance ?",
+  "choix": [
+   "Le montant exact des honoraires de chaque collaborateur affecté à la mission.",
+   "L'étendue et le calendrier prévus de l'audit, les constatations importantes et les questions relatives à son indépendance.",
+   "Les mots de passe d'accès aux systèmes informatiques testés.",
+   "Uniquement l'opinion finale, à l'exclusion de tout échange durant la mission."
+  ],
+  "reponse": 1,
+  "explication": "Selon l'ISA-CH 260, l'auditeur communique notamment l'étendue et le calendrier planifiés de l'audit, les constatations significatives et les questions relatives à son indépendance ; la communication est un échange continu, pas seulement l'opinion finale (D faux). Les options A et C sont hors sujet. Base : ISA-CH 260. → voir §9.2 du mémento.",
+  "confidence": "high",
+  "divergence": "",
+  "id": "PA-054"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Éléments probants (500)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (éléments probants)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation ne s'applique PAS aux éléments probants ?",
+  "choix": [
+   "Ce sont des informations utilisées par l'auditeur pour tirer des conclusions.",
+   "Ils doivent être disponibles de manière suffisante et appropriée.",
+   "Ce sont toutes les informations (comptables ou autres) sur lesquelles se fondent les opinions d'audit.",
+   "Ils doivent impérativement être demandés par écrit au client selon l'ISA-CH 500."
+  ],
+  "reponse": 3,
+  "explication": "L'ISA-CH 500 n'impose pas la forme écrite : les éléments probants proviennent de sources variées (observation, réexécution, confirmations, entretiens…). Les autres définitions sont exactes. Base : ISA-CH 500. → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-055"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Fiabilité des éléments probants",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (éléments probants)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Vous contrôlez l'évaluation du poste « Titres ». Quel est l'élément probant le plus fiable ?",
+  "choix": [
+   "Le procès-verbal de la dernière réunion de la direction/CA discutant les comptes intermédiaires.",
+   "Une confirmation bancaire externe et l'Investment Reporting de la banque du client.",
+   "Un entretien avec le Controlling sur les positions significatives des titres.",
+   "Un aperçu de l'évaluation établi par la direction sur la base du reporting bancaire."
+  ],
+  "reponse": 1,
+  "explication": "Un élément probant d'origine externe et écrite (confirmation bancaire) est plus fiable qu'un document interne ou un entretien. Base : ISA-CH 500 (hiérarchie de fiabilité). → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-056"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Procès et litiges (501)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s8-2",
+  "renvoi": "§8 du mémento (sujets spécifiques)",
+  "confidence": "medium",
+  "divergence": "L'énoncé demande la procédure NON impérative ; la communication directe avec l'avocat n'est requise que si des litiges importants sont identifiés — réponse à confirmer selon l'édition ISA-CH 501.",
+  "question": "Quelle procédure, selon l'ISA-CH 501, ne doit PAS impérativement être planifiée et réalisée pour identifier les procès et litiges ?",
+  "choix": [
+   "Communication directe avec les conseillers juridiques externes de l'entité",
+   "Demandes d'informations auprès de la direction et du conseil juridique interne",
+   "Examen des comptes d'honoraires juridiques",
+   "Revue des procès-verbaux de la direction/CA et de la correspondance avec le conseil juridique"
+  ],
+  "reponse": 0,
+  "explication": "Les demandes à la direction, l'examen des honoraires juridiques et la revue des PV sont des procédures d'identification systématiques. La communication directe avec l'avocat externe n'est requise que lorsque des litiges importants sont identifiés. Base : ISA-CH 501. → voir §8 du mémento.",
+  "ajout": false,
+  "id": "PA-057"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Types de procédures (NA-CH)",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (procédures)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Qu'est-ce qui ne fait pas partie des types de procédures d'audit distingués selon les NA-CH ?",
+  "choix": [
+   "Procédures analytiques",
+   "Contrôles par sondage",
+   "Vérifications de détail",
+   "Tests de procédures"
+  ],
+  "reponse": 1,
+  "explication": "Les types de procédures sont les tests de procédures et les contrôles de substance (procédures analytiques + vérifications de détail). Le « contrôle par sondage » est une technique de sélection, pas un type de procédure. Base : NA-CH / ISA-CH 330-500. → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-058"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Contrôle analytique",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (procédures)",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Qu'est-ce qui NE constitue PAS une étape d'un contrôle analytique (comparaison réel/attendu) ?",
+  "choix": [
+   "Définition de la valeur attendue pour l'information à contrôler",
+   "Définition de l'écart maximal admissible",
+   "Extrapolation de l'écart identifié à l'ensemble de la population",
+   "Examen de l'écart significatif identifié"
+  ],
+  "reponse": 2,
+  "explication": "L'extrapolation à la population caractérise les sondages en vérifications de détail, pas la procédure analytique (qui définit une attente, un seuil d'écart acceptable, puis investigue les écarts significatifs). Base : procédures analytiques (ISA-CH 520). → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-059"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Contrôles de substance obligatoires",
+  "type": "piege",
+  "difficulte": 3,
+  "anchor": "s6-5",
+  "renvoi": "§6.5 du mémento",
+  "confidence": "medium",
+  "divergence": "Question « lesquels NE sont PAS obligatoires » ; l'existence du SCI est un objet légal distinct (728a CO) mais pas un contrôle de substance — réponse à confirmer.",
+  "question": "Quels contrôles, indépendamment de l'évaluation des risques, NE sont PAS obligatoires ?",
+  "choix": [
+   "Rapprochement des comptes annuels avec la comptabilité sous-jacente",
+   "Vérification des assertions liées à des risques importants",
+   "Vérification de l'existence d'un système de contrôle interne",
+   "Contrôle des postes significatifs des états financiers"
+  ],
+  "reponse": 2,
+  "explication": "Le rapprochement des comptes, la couverture des risques importants et des postes significatifs sont des contrôles de substance obligatoires (ISA-CH 330). La vérification de l'existence du SCI est un objet légal distinct (art. 728a al. 1 ch. 3 CO), non un contrôle de substance. Base : ISA-CH 330 · art. 728a CO. → voir §6.5 du mémento.",
+  "ajout": false,
+  "id": "PA-060"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Date des procédures",
+  "type": "definition",
+  "difficulte": 1,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (procédures)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation est correcte concernant la date des procédures d'audit ?",
+  "choix": [
+   "La date optimale est juste avant la date du bilan, pour tout vérifier en parallèle de la clôture.",
+   "Les procédures doivent impérativement être effectuées en cours d'année.",
+   "Plusieurs facteurs entrent en ligne de compte pour déterminer la date appropriée.",
+   "Les procédures ne doivent être effectuées qu'après la date du bilan."
+  ],
+  "reponse": 2,
+  "explication": "Le calendrier des procédures résulte du jugement de l'auditeur et de plusieurs facteurs (risque, nature du poste, efficience) — il n'y a pas de date unique imposée. Base : ISA-CH 330. → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-061"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Sondages (530)",
+  "type": "definition",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (procédures)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant les sondages en audit selon l'ISA-CH 530 est correcte ?",
+  "choix": [
+   "Les méthodes de sondage s'appliquent aux contrôles de substance, mais pas aux tests de procédures.",
+   "Lors de contrôles de substance, l'auditeur analyse les erreurs de l'échantillon et les compare au seuil de signification.",
+   "L'« erreur tolérable » est l'erreur minimale que l'auditeur est disposé à accepter.",
+   "Seuls les générateurs de nombres aléatoires sont admis pour sélectionner l'échantillon."
+  ],
+  "reponse": 1,
+  "explication": "En contrôle de substance, l'auditeur projette et compare les erreurs de l'échantillon au seuil de signification. Le sondage s'applique aussi aux tests de procédures, et l'erreur tolérable est un maximum (pas un minimum). Base : ISA-CH 530. → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-062"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Sondages - erreur tolérable",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (procédures)",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Quelle affirmation concernant les sondages et procédures de sélection est correcte ?",
+  "choix": [
+   "Un solde de compte représente une population qui ne doit pas être subdivisée.",
+   "La sélection systématique évite tout a priori, contrairement à la sélection aléatoire.",
+   "Pour les tests de procédures, le taux de déviation de l'échantillon est projeté à la population.",
+   "L'erreur tolérable est l'erreur maximale au sein d'une population que l'auditeur ne peut plus accepter."
+  ],
+  "reponse": 2,
+  "explication": "Pour les tests de procédures, le taux de déviation de l'échantillon sert de taux projeté à la population. Une population peut être stratifiée, la sélection aléatoire évite les biais, et l'erreur tolérable est le maximum encore acceptable. Base : ISA-CH 530. → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-063"
+ },
+ {
+  "domaine": "10. Éléments probants & procédures",
+  "sous_theme": "Technique d'audit",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s10",
+  "renvoi": "§10 du mémento (procédures)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle affirmation concernant la technique d'audit est correcte ?",
+  "choix": [
+   "Si des contrôles d'efficacité du SCI sont effectués, l'auditeur peut renoncer aux contrôles de substance.",
+   "Dans une procédure d'audit progressive, un fait est suivi de bout en bout, du justificatif original aux comptes.",
+   "Les vérifications sur pièces doivent toujours porter sur des originaux ; les scans ne donnent jamais d'assurance suffisante.",
+   "Pour les risques importants, l'auditeur peut s'appuyer exclusivement sur des procédures analytiques si elles sont suffisantes."
+  ],
+  "reponse": 1,
+  "explication": "La procédure progressive suit le justificatif d'origine jusqu'aux comptes (vérification d'exhaustivité). Des contrôles de substance restent requis même avec des tests d'efficacité, et les risques importants exigent des vérifications de détail. Base : ISA-CH 330/500. → voir §10 du mémento.",
+  "ajout": false,
+  "id": "PA-064"
+ },
+ {
+  "domaine": "11. IT & analyses de données",
+  "sous_theme": "ISA 315 révisée & IT",
+  "type": "definition",
+  "difficulte": 2,
+  "anchor": "s4",
+  "renvoi": "§4 du mémento",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Pourquoi l'informatique gagne-t-elle en importance dans l'audit ?",
+  "choix": [
+   "Utilisation de robots dans la production.",
+   "Un audit informatique permet de facturer des prestations supplémentaires au client.",
+   "Le mode de fonctionnement de l'entreprise dépend de processus d'affaires informatisés ou automatisés.",
+   "L'informatique n'a pas d'influence sur le domaine de l'audit."
+  ],
+  "reponse": 2,
+  "explication": "L'information financière repose de plus en plus sur des processus informatisés/automatisés : l'auditeur doit donc comprendre ces systèmes et leurs contrôles. Base : ISA-CH 315 (révisée) · NAS-CH 890. → voir §4 du mémento.",
+  "ajout": false,
+  "id": "PA-065"
+ },
+ {
+  "domaine": "11. IT & analyses de données",
+  "sous_theme": "Architecture ERP",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s11",
+  "renvoi": "§11 du mémento (IT)",
+  "confidence": "medium",
+  "divergence": "Réponse déterminée par élimination (niveaux ERP applications/BD/réseau/OS) ; à confirmer avec le support IT.",
+  "question": "Quelle affirmation parmi les suivantes n'est pas un niveau d'un système ERP ?",
+  "choix": [
+   "Niveau applications",
+   "Niveau stockage",
+   "Niveau réseau",
+   "Niveau base de données"
+  ],
+  "reponse": 1,
+  "explication": "Les niveaux pertinents de l'environnement informatique sont les applications, les bases de données, les systèmes d'exploitation et le réseau. Le « niveau stockage » n'est pas un niveau distinct au sens des GITC. Base : NAS-CH 890. → voir §11 du mémento.",
+  "ajout": false,
+  "id": "PA-066"
+ },
+ {
+  "domaine": "11. IT & analyses de données",
+  "sous_theme": "ITGC (NAS-CH 890)",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s11",
+  "renvoi": "§11 du mémento (IT)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Lequel des contrôles suivants fait partie des contrôles IT généraux (ITGC) essentiels selon la NAS-CH 890 ?",
+  "choix": [
+   "Sécurité d'accès",
+   "Contrôle de la migration sur de nouveaux systèmes ERP",
+   "Validation automatisée des workflows",
+   "Contrôle des interfaces manuelles entre les systèmes"
+  ],
+  "reponse": 0,
+  "explication": "La sécurité d'accès (gestion des droits) est un domaine classique des GITC, avec la gestion des changements et l'exploitation. La validation automatisée de workflows est un contrôle d'application, pas un GITC. Base : NAS-CH 890. → voir §11 du mémento.",
+  "ajout": false,
+  "id": "PA-067"
+ },
+ {
+  "domaine": "11. IT & analyses de données",
+  "sous_theme": "Déficiences ITGC",
+  "type": "cas",
+  "difficulte": 2,
+  "anchor": "s11",
+  "renvoi": "§11 du mémento (IT)",
+  "confidence": "high",
+  "divergence": "",
+  "question": "Quelle mesure peut être prise si l'on constate une déficience des ITGC sur lesquels on voulait s'appuyer ?",
+  "choix": [
+   "Les ITGC sont globalement inefficaces — impossible de se fier à l'informatique.",
+   "Contrôler d'autres ITGC compensatoires pour couvrir le risque si possible.",
+   "Émission d'une opinion d'audit avec réserve.",
+   "Les ITGC n'ont aucune incidence sur l'audit ; aucune opération complémentaire n'est requise."
+  ],
+  "reponse": 1,
+  "explication": "Face à une déficience d'ITGC, l'auditeur cherche des contrôles compensatoires ou étend les contrôles de substance ; une déficience n'implique ni un abandon systématique de l'informatique ni une réserve automatique. Base : NAS-CH 890. → voir §11 du mémento.",
+  "ajout": false,
+  "id": "PA-068"
+ },
+ {
+  "domaine": "11. IT & analyses de données",
+  "sous_theme": "Analyse de données — facteurs",
+  "type": "piege",
+  "difficulte": 2,
+  "anchor": "s11",
+  "renvoi": "§11 du mémento (IT)",
+  "confidence": "medium",
+  "divergence": "",
+  "question": "Lequel des facteurs suivants a le moins d'influence sur l'analyse de données dans le domaine de l'audit ?",
+  "choix": [
+   "ISA-CH 550",
+   "Loi sur la protection des données (LPD)",
+   "Redevances de licences",
+   "Connaissance qu'a l'auditeur de l'outil utilisé"
+  ],
+  "reponse": 0,
+  "explication": "L'ISA-CH 550 (parties liées) n'a guère d'incidence sur la conduite d'une analyse de données ; la LPD, le coût des licences et la maîtrise de l'outil, eux, l'influencent directement. Base : NAS-CH 890 / cadre analyse de données. → voir §11 du mémento.",
+  "ajout": false,
+  "id": "PA-069"
+ }
+]
+</script>
+<script>
+"use strict";
+/* ============================================================
+   QCM Planification de l'audit — lecteur autonome (mécanique TVA)
+   Questions embarquées (marche en double-clic, sans serveur).
+   ============================================================ */
+const QUESTIONS = (()=>{ try{ return JSON.parse(document.getElementById("qdata").textContent)||[]; }catch(e){ return []; } })();
+const MAT = "planif-audit";
+const EXAM_N = 40, RANDOM_N = 20, EXAM_SECONDS = 40*60;
+
+const $ = s => document.querySelector(s);
+const el = (t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e;};
+const shuffle = a => {for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+const escapeHtml=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+let STATE = {stats:loadStats(), run:null, timerId:null, remain:0};
+
+/* ---------- stats localStorage ---------- */
+function statsKey(){return "qcmstats_"+MAT;}
+function loadStats(){try{return JSON.parse(localStorage.getItem(statsKey()))||{pq:{}};}catch(e){return {pq:{}};}}
+function saveStats(){localStorage.setItem(statsKey(), JSON.stringify(STATE.stats));}
+function record(id, ok){
+  const pq=STATE.stats.pq; if(!pq[id])pq[id]={seen:0,correct:0,wrong:false};
+  pq[id].seen++; if(ok){pq[id].correct++;pq[id].wrong=false;} else pq[id].wrong=true; saveStats();
+}
+function errorIds(){return Object.keys(STATE.stats.pq).filter(id=>STATE.stats.pq[id].wrong);}
+
+/* ---------- menu ---------- */
+function domainList(){
+  const map=new Map();
+  QUESTIONS.forEach(q=>{if(!map.has(q.domaine))map.set(q.domaine,[]);map.get(q.domaine).push(q);});
+  return [...map.entries()].sort((a,b)=>a[0].localeCompare(b[0],'fr',{numeric:true}));
+}
+function buildMenu(){
+  const body=$("#domBody"); body.innerHTML="";
+  domainList().forEach(([dom,qs])=>{
+    let seen=0,correct=0;
+    qs.forEach(q=>{const s=STATE.stats.pq[q.id];if(s){seen+=s.seen;correct+=s.correct;}});
+    const rate=seen?Math.round(100*correct/seen):null;
+    const tr=el("tr");
+    const td1=el("td"); const b=el("button","dombtn",dom); b.onclick=()=>startRun("domain",{domaine:dom}); td1.appendChild(b);
+    const td2=el("td","num",String(qs.length));
+    const td3=el("td","num");
+    if(rate==null){td3.innerHTML="<span style='color:var(--muted)'>—</span>";}
+    else{
+      const wrap=el("div"); wrap.style.cssText="display:flex;align-items:center;gap:8px;justify-content:flex-end";
+      const bar=el("div","bar"); const i=el("i"); i.style.width=rate+"%";
+      i.style.background=rate>=75?"var(--good)":rate>=50?"var(--warn)":"var(--bad)"; bar.appendChild(i);
+      const lab=el("span",null,rate+"%"); lab.style.cssText="font-variant-numeric:tabular-nums;min-width:38px";
+      wrap.appendChild(bar);wrap.appendChild(lab);td3.appendChild(wrap);
+    }
+    const td4=el("td","num",seen?String(seen):"—");
+    tr.append(td1,td2,td3,td4); body.appendChild(tr);
+  });
+  $("#totalCount").textContent=QUESTIONS.length+" questions au total";
+  $("#matLabel").textContent="— "+QUESTIONS.length+" questions";
+  buildNumGrid();
+}
+function buildNumGrid(){
+  const g=$("#numGrid"); g.innerHTML="";
+  QUESTIONS.forEach((q,i)=>{
+    const b=el("button","numbtn",String(i+1));
+    const s=STATE.stats.pq[q.id];
+    if(s){ if(s.wrong)b.classList.add("ko"); else if(s.correct>0)b.classList.add("ok"); }
+    b.title=q.domaine+" — "+q.sous_theme;
+    b.onclick=()=>startRun("single",{index:i});
+    g.appendChild(b);
+  });
+}
+
+/* ---------- run building ---------- */
+function startRun(mode,opt={}){
+  let pool;
+  if(mode==="domain") pool=QUESTIONS.filter(q=>q.domaine===opt.domaine);
+  else if(mode==="single") pool=[QUESTIONS[opt.index]];
+  else if(mode==="random") pool=shuffle([...QUESTIONS]).slice(0,RANDOM_N);
+  else if(mode==="exam") pool=shuffle([...QUESTIONS]).slice(0,Math.min(EXAM_N,QUESTIONS.length));
+  else if(mode==="errors"){const ids=new Set(errorIds()); pool=QUESTIONS.filter(q=>ids.has(q.id));
+    if(!pool.length){alert("Aucune erreur enregistrée — réponds d'abord à quelques questions.");return;} pool=shuffle(pool);}
+  else pool=[...QUESTIONS];
+  if(mode==="all") pool=[...QUESTIONS];
+
+  const shuffleC=$("#shuffleChoices").checked;
+  const items=pool.map(q=>{
+    let order=q.choix.map((_,i)=>i);
+    if(shuffleC) order=shuffle([...order]);
+    return {q,order,chosen:null,ok:null};
+  });
+  STATE.run={mode,items,idx:0,exam:mode==="exam"};
+  show("quiz");
+  if(mode==="exam") startTimer(); else {stopTimer();$("#timer").classList.add("hidden");}
+  renderQ();
+}
+
+/* ---------- timer ---------- */
+function fmt(s){const m=Math.floor(s/60),ss=s%60;return String(m).padStart(2,"0")+":"+String(ss).padStart(2,"0");}
+function startTimer(){
+  STATE.remain=EXAM_SECONDS; const t=$("#timer"); t.classList.remove("hidden","warn"); t.textContent=fmt(STATE.remain);
+  STATE.timerId=setInterval(()=>{STATE.remain--;t.textContent=fmt(STATE.remain);
+    if(STATE.remain<=60)t.classList.add("warn"); if(STATE.remain<=0){stopTimer();finishRun();}},1000);
+}
+function stopTimer(){if(STATE.timerId){clearInterval(STATE.timerId);STATE.timerId=null;}}
+
+/* ---------- render ---------- */
+function renderQ(){
+  const run=STATE.run, it=run.items[run.idx], q=it.q;
+  $("#qDom").textContent=q.domaine; $("#qSub").textContent=q.sous_theme||"";
+  const diff=$("#qDiff"); diff.className="pill d"+(q.difficulte||1);
+  diff.textContent=["","facile","moyen","difficile"][q.difficulte||1];
+  $("#qAjout").classList.toggle("hidden", !q.ajout);
+  $("#qText").textContent=q.question;
+  const box=$("#qChoices"); box.innerHTML="";
+  it.order.forEach((origIdx,pos)=>{
+    const c=el("button","choice");
+    const k=el("span","k",String.fromCharCode(65+pos));
+    const tx=el("span",null,q.choix[origIdx]);
+    c.append(k,tx); c.onclick=()=>answer(pos,origIdx,c); box.appendChild(c);
+  });
+  $("#qExplain").className="explain hidden";
+  $("#nextBtn").classList.add("hidden"); $("#finishExamBtn").classList.add("hidden");
+  $("#skipBtn").classList.remove("hidden");
+  $("#prevBtn").classList.toggle("hidden", run.idx===0);
+  $("#qProg").textContent="Question "+(run.idx+1)+" / "+run.items.length+(run.exam?" · examen blanc":"");
+  if(it.chosen!=null) replay(it);   // revisiting an already-answered question
+}
+function replay(it){
+  const q=it.q, nodes=[...$("#qChoices").children];
+  nodes.forEach((n,p)=>{n.disabled=true;const oi=it.order[p];
+    if(oi===q.reponse)n.classList.add("correct"); else if(oi===it.chosen)n.classList.add("wrong");});
+  $("#skipBtn").classList.add("hidden");
+  showExplain(it);
+}
+function answer(pos,origIdx,node){
+  const run=STATE.run, it=run.items[run.idx], q=it.q;
+  if(it.chosen!=null) return;
+  it.chosen=origIdx; it.ok=(origIdx===q.reponse); record(q.id,it.ok);
+  const nodes=[...$("#qChoices").children];
+  nodes.forEach((n,p)=>{n.disabled=true;const oi=it.order[p];
+    if(oi===q.reponse)n.classList.add("correct"); else if(p===pos)n.classList.add("wrong");});
+  $("#skipBtn").classList.add("hidden");
+  if(run.exam){
+    const last=run.idx===run.items.length-1;
+    (last?$("#finishExamBtn"):$("#nextBtn")).classList.remove("hidden");
+  }else{
+    showExplain(it);
+  }
+}
+function showExplain(it){
+  const run=STATE.run, q=it.q, ex=$("#qExplain");
+  const goodLetter=String.fromCharCode(65+it.order.indexOf(q.reponse));
+  ex.className="explain "+(it.ok?"ok":"ko");
+  let html="<div class='verdict' style='color:var("+(it.ok?"--good":"--bad")+")'>"+
+    (it.ok?"✓ Correct":"✗ Faux — bonne réponse : "+goodLetter)+"</div>";
+  html+="<div class='art'>"+escapeHtml(q.explication)+"</div>";
+  if(q.ref) html+="<div class='ref'><b>Base :</b> "+escapeHtml(q.ref)+"</div>";
+  if(q.renvoi) html+="<a class='renvoi' href='memento-planification-audit.html"+(q.anchor?("#"+q.anchor):"")+"' target='_blank'>📖 "+escapeHtml(q.renvoi)+"</a>";
+  ex.innerHTML=html; ex.classList.remove("hidden");
+  const last=run.idx===run.items.length-1;
+  const nb=$("#nextBtn"); nb.classList.remove("hidden"); nb.textContent=last?"Terminer":"Suivant →";
+}
+function next(){const run=STATE.run; if(run.idx<run.items.length-1){run.idx++;renderQ();}else finishRun();}
+function prev(){const run=STATE.run; if(run.idx>0){run.idx--;renderQ();}}
+function skip(){const run=STATE.run; if(run.idx<run.items.length-1){run.idx++;renderQ();}else finishRun();}
+
+/* ---------- finish ---------- */
+function finishRun(){
+  stopTimer();
+  const run=STATE.run;
+  const answered=run.items.filter(i=>i.chosen!=null);
+  const correct=run.items.filter(i=>i.ok===true).length;
+  const total=run.items.length, pct=total?Math.round(100*correct/total):0;
+  $("#rScore").textContent=correct+" / "+total+"  ("+pct+"%)";
+  let msg=answered.length+" répondues.";
+  if(run.exam){const used=EXAM_SECONDS-STATE.remain; msg="Examen blanc — "+fmt(used)+" · "+answered.length+" répondues.";}
+  msg+=pct>=80?" 🎯 Prêt pour l'examen !":pct>=60?" 👍 Continue à réviser.":" 📌 À retravailler.";
+  $("#rSub").textContent=msg;
+  const wrong=run.items.filter(i=>i.chosen!=null && !i.ok);
+  const rev=$("#rReview"); rev.innerHTML="";
+  if(!wrong.length) rev.innerHTML="<p style='color:var(--good)'>Aucune erreur sur cette série. Bravo !</p>";
+  wrong.forEach(it=>{const q=it.q; const d=el("div","rev");
+    d.innerHTML="<div class='q'>"+escapeHtml(q.question)+"</div>"+
+      "<div class='mine'>✗ Ta réponse : "+escapeHtml(q.choix[it.chosen])+"</div>"+
+      "<div class='good'>✓ Bonne réponse : "+escapeHtml(q.choix[q.reponse])+"</div>"+
+      "<div class='art' style='color:var(--ink2);margin-top:5px'>"+escapeHtml(q.explication)+
+      (q.ref?" <i>("+escapeHtml(q.ref)+")</i>":"")+"</div>";
+    rev.appendChild(d);});
+  STATE.run._mode=run.mode;
+  show("result");
+}
+
+/* ---------- nav ---------- */
+function show(name){
+  ["menu","quiz","result"].forEach(s=>$("#screen-"+s).classList.toggle("hidden",s!==name));
+  $("#homeBtn").classList.toggle("hidden",name==="menu");
+  if(name==="menu") buildMenu();
+  window.scrollTo(0,0);
+}
+
+/* ---------- events ---------- */
+document.querySelectorAll(".mode").forEach(b=>b.onclick=()=>startRun(b.dataset.mode));
+$("#nextBtn").onclick=next; $("#prevBtn").onclick=prev; $("#skipBtn").onclick=skip;
+$("#finishExamBtn").onclick=finishRun;
+$("#homeBtn").onclick=()=>{stopTimer();show("menu");};
+$("#rMenu").onclick=()=>show("menu");
+$("#rAgain").onclick=()=>startRun(STATE.run._mode,STATE.run._mode==="domain"?{domaine:STATE.run.items[0].q.domaine}:{});
+$("#rReviewErrors").onclick=()=>startRun("errors");
+$("#resetStats").onclick=()=>{if(confirm("Effacer toutes tes statistiques ?")){STATE.stats={pq:{}};saveStats();buildMenu();}};
+$("#jumpBtn").onclick=()=>{const n=parseInt($("#jumpInput").value,10);
+  if(n>=1&&n<=QUESTIONS.length)startRun("single",{index:n-1}); else alert("Numéro entre 1 et "+QUESTIONS.length);};
+$("#jumpInput").addEventListener("keydown",e=>{if(e.key==="Enter")$("#jumpBtn").click();});
+
+if(!QUESTIONS.length){
+  $("#screen-menu").innerHTML="<div class='card'><b>Aucune question chargée.</b> Le bloc de données JSON est vide.</div>";
+}else buildMenu();
+</script>
+</body>
+</html>

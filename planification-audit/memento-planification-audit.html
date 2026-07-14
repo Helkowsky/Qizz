@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mémento — Planification de l'audit</title>
+<style>
+/* ============================================================
+   charte.css — DA unique du cursus Expert-Comptable
+   Réutilisée à l'identique du module TVA. Badges de source,
+   callouts, tableaux, arbres. Ne pas surcharger localement.
+   ============================================================ */
+@page { size: A4; margin: 2cm 1.8cm;
+  @bottom-right { content: counter(page) " / " counter(pages); font-size: 8pt; color: #888; }
+  @top-left { content: string(chapitre); font-size: 8pt; color: #888; } }
+
+body { font-family: "Source Sans Pro","Segoe UI",system-ui,sans-serif;
+  font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
+
+h1 { string-set: chapitre content(); font-size: 20pt; color: #0f3d5c;
+     border-bottom: 3px solid #0f3d5c; padding-bottom: 4pt; page-break-before: always; }
+h2 { font-size: 14pt; color: #0f3d5c; margin-top: 18pt; }
+h3 { font-size: 11.5pt; color: #333; margin-bottom: 3pt; }
+
+/* ---- Badges de niveau de source ---- */
+.primaire, .secondaire, .avalider {
+  font-size: 7.5pt; font-weight: 700; padding: 0 5pt; border-radius: 3pt; letter-spacing: .3pt; }
+.primaire  { background: #e2f3e5; color: #1b6e2a; }
+.secondaire{ background: #e3edf7; color: #14538c; }
+.avalider  { background: #fdeede; color: #b25b12; }
+.ref-norme { font-weight: 700; color: #0f3d5c; white-space: nowrap; }
+
+/* ---- Callouts standardisés (bloc) ---- */
+.but, .piege, .connexions, .autotest {
+  display: block; border-left: 4pt solid; padding: 6pt 10pt; margin: 10pt 0;
+  border-radius: 0 4pt 4pt 0; page-break-inside: avoid; }
+.but        { border-color: #1b6e2a; background: #f4faf5; }
+.piege      { border-color: #c0392b; background: #fdf3f2; }
+.connexions { border-color: #8e44ad; background: #f9f4fc; }
+.autotest   { border-color: #14538c; background: #f2f7fc; }
+.callout-titre { font-weight: 700; font-size: 9pt; text-transform: uppercase;
+                 letter-spacing: .5pt; margin-bottom: 3pt; }
+
+/* ---- Tableaux ---- */
+table { border-collapse: collapse; margin: 8pt 0; width: 100%; }
+th { background: #eef2f5; padding: 5pt 8pt; text-align: left; font-size: 9.5pt; }
+td { padding: 4pt 8pt; border-bottom: .5pt solid #e0e5ea; vertical-align: top; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+thead { display: table-header-group; }
+table.compare th:first-child { width: 26%; }
+td.oui { color:#1b6e2a; font-weight:600; } td.non { color:#c0392b; font-weight:600; }
+td.num { text-align:right; font-variant-numeric: tabular-nums; }
+
+/* ---- Arbre décisionnel en bloc code (format du module) ---- */
+pre.arbre { background:#0f3d5c; color:#eaf1f6; font:11px/1.5 ui-monospace,"Cascadia Code",Consolas,monospace;
+  padding:12pt 14pt; border-radius:6pt; overflow-x:auto; margin:10pt 0; page-break-inside:avoid;
+  border-left:4pt solid #14538c; }
+figure.arbre-fig { margin:10pt 0; page-break-inside:avoid; }
+figure.arbre-fig figcaption { font-size:8.5pt; color:#666; margin-top:3pt; }
+
+/* ---- Réf. sur ligne séparée ---- */
+.ref-sous { display:block; font-size:8pt; color:#777; margin:1pt 0 5pt; padding-left:2pt;
+            border-left:2pt solid #dfe4e8; }
+.chapo { font-size:10pt; color:#3a3a3a; background:#f5f8fa; border-left:3pt solid #0f3d5c;
+         padding:6pt 10pt; margin:6pt 0 12pt; border-radius:0 4pt 4pt 0; }
+.formule { background:#f2f7fc; border:1pt solid #cfe0f0; border-radius:5pt; padding:8pt 12pt;
+           font-size:12pt; text-align:center; margin:10pt 0; color:#0f3d5c; font-weight:600; }
+.reponses { font-size:9pt; color:#444; border-top:1pt dashed #aaa; margin-top:10pt; padding-top:6pt; }
+
+/* ---- Page de garde & TOC ---- */
+.page-garde { page-break-after: always; text-align:center; display:flex; flex-direction:column;
+              justify-content:center; min-height:22cm; }
+.page-garde h1 { page-break-before: avoid; border:none; string-set:none; font-size:38pt;
+                 color:#0f3d5c; margin:6pt 0; }
+.pg-kicker { text-transform:uppercase; letter-spacing:2pt; font-size:11pt; color:#14538c; }
+.pg-soustitre { font-size:15pt; color:#333; margin-top:4pt; }
+.pg-desc { font-size:11pt; color:#555; margin-top:18pt; }
+.pg-legende { font-size:9pt; color:#555; margin-top:26pt; line-height:2; }
+.pg-pied { font-size:9pt; color:#888; margin-top:22pt; }
+.toc-h { page-break-before: always; font-size:18pt; color:#0f3d5c; border-bottom:2pt solid #0f3d5c;
+         padding-bottom:3pt; }
+nav.toc ul { list-style:none; padding-left:0; margin:0; }
+nav.toc li.lvl1 { margin-top:7pt; font-weight:700; color:#0f3d5c; }
+nav.toc li.lvl2 { margin-left:14pt; font-weight:400; color:#333; font-size:9.7pt; }
+nav.toc a { text-decoration:none; color:inherit; }
+
+@media screen {
+  body { max-width: 21cm; margin: 1.5rem auto; padding: 0 1.2cm; background:#fff;
+         box-shadow:0 0 12px rgba(0,0,0,.08); }
+  h1 { page-break-before: auto; }
+  nav.toc a:hover { color:#14538c; text-decoration:underline; }
+}
+@media print { * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; } }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE DE GARDE ===================== -->
+<section class="page-garde">
+  <div class="pg-kicker">Expert-Comptable diplômé · ExpertSuisse</div>
+  <h1>Planification de l'audit</h1>
+  <div class="pg-soustitre">Mémento d'examen — Module 5</div>
+  <div class="pg-desc">Cadre légal · acceptation du mandat · stratégie &amp; programme<br>
+    connaissance de l'entité &amp; SCI · caractère significatif · risque d'audit<br>
+    fraude · sujets spécifiques · documentation &amp; communication</div>
+  <div class="pg-legende">
+    <span class="primaire">PRIMAIRE</span> source officielle (Fedlex / ASR) &nbsp;·&nbsp;
+    <span class="secondaire">SECONDAIRE</span> norme sous licence corroborée (ISA-CH, MSA) &nbsp;·&nbsp;
+    <span class="avalider">À VALIDER</span> à confirmer selon l'édition
+  </div>
+  <div class="pg-pied">Édition 2025-2026 · normes ISA-CH (série révisée) &amp; NAS-CH 890 · CO / LSR au 1.1.2025</div>
+</section>
+
+<!-- ===================== AVERTISSEMENT ===================== -->
+<section>
+  <div class="piege">
+    <div class="callout-titre">⚠️ Terminologie — point d'examen</div>
+    Les anciennes <b>Normes d'audit suisses (NAS-CH)</b> ont été renommées et alignées sur les
+    <i>International Standards on Auditing</i> : on parle désormais des <b>ISA-CH</b>
+    (p. ex. ISA-CH 315 <i>revised 2019</i>, ISA-CH 320, ISA-CH 330). Une exception de numérotation
+    subsiste dans ce module : les contrôles généraux informatiques relèvent de la
+    <b>NAS-CH 890</b>. Vérifie toujours l'édition en vigueur pour ta session.
+  </div>
+</section>
+
+<!-- ===================== TABLE DES MATIÈRES ===================== -->
+<h2 class="toc-h">Table des matières</h2>
+<nav class="toc">
+<ul>
+  <li class="lvl1"><a href="#s1">1 · Cadre légal &amp; types de contrôle</a></li>
+    <li class="lvl2"><a href="#s1-1">1.1 Les quatre phases de l'audit</a></li>
+    <li class="lvl2"><a href="#s1-2">1.2 Ordinaire / restreint / aucun — seuils art. 727 CO</a></li>
+    <li class="lvl2"><a href="#s1-3">1.3 Opting-out / opting-up</a></li>
+    <li class="lvl2"><a href="#s1-4">1.4 Agréments LSR / ASR</a></li>
+    <li class="lvl2"><a href="#s1-5">1.5 Comparatif ordinaire vs restreint · ce qui NE s'applique PAS</a></li>
+  <li class="lvl1"><a href="#s2">2 · Acceptation &amp; maintien du mandat · indépendance</a></li>
+    <li class="lvl2"><a href="#s2-1">2.1 Conditions formelles d'acceptation</a></li>
+    <li class="lvl2"><a href="#s2-2">2.2 Indépendance (art. 728 CO / LSR art. 11)</a></li>
+    <li class="lvl2"><a href="#s2-3">2.3 Confirmation / lettre de mission</a></li>
+  <li class="lvl1"><a href="#s3">3 · Stratégie générale vs plan vs programme (ISA-CH 300)</a></li>
+    <li class="lvl2"><a href="#s3-1">3.1 Deux niveaux de planification</a></li>
+    <li class="lvl2"><a href="#s3-2">3.2 Caractère itératif</a></li>
+  <li class="lvl1"><a href="#s4">4 · Connaissance de l'entité &amp; contrôle interne (ISA-CH 315)</a></li>
+    <li class="lvl2"><a href="#s4-1">4.1 Facteurs de l'entité et de son environnement</a></li>
+    <li class="lvl2"><a href="#s4-2">4.2 Les 5 composantes du SCI</a></li>
+    <li class="lvl2"><a href="#s4-3">4.3 Conception / mise en œuvre / efficacité · test de cheminement</a></li>
+  <li class="lvl1"><a href="#s5">5 · Caractère significatif (ISA-CH 320)</a></li>
+    <li class="lvl2"><a href="#s5-1">5.1 Définition · quantitatif &amp; qualitatif</a></li>
+    <li class="lvl2"><a href="#s5-2">5.2 Les trois seuils + anomalies insignifiantes</a></li>
+    <li class="lvl2"><a href="#s5-3">5.3 Valeurs de référence (benchmarks)</a></li>
+    <li class="lvl2"><a href="#s5-4">5.4 Exemple chiffré complet</a></li>
+  <li class="lvl1"><a href="#s6">6 · Modèle du risque d'audit — RA = RI × RC × RND (ISA-CH 200/315/330)</a></li>
+    <li class="lvl2"><a href="#s6-1">6.1 Les composantes du risque · qui contrôle quoi</a></li>
+    <li class="lvl2"><a href="#s6-2">6.2 Niveau états financiers vs niveau assertions</a></li>
+    <li class="lvl2"><a href="#s6-3">6.3 Les assertions d'audit</a></li>
+    <li class="lvl2"><a href="#s6-4">6.4 Risques significatifs</a></li>
+    <li class="lvl2"><a href="#s6-5">6.5 Réponses aux risques (ISA-CH 330) · approche mixte vs substantive</a></li>
+    <li class="lvl2"><a href="#s6-6">6.6 Exemple chiffré du modèle du risque</a></li>
+  <li class="lvl1"><a href="#s7">7 · Fraude &amp; textes légaux (ISA-CH 240 / 250)</a></li>
+    <li class="lvl2"><a href="#s7-1">7.1 Fraude vs erreur · deux types de fraude</a></li>
+    <li class="lvl2"><a href="#s7-2">7.2 Le triangle de la fraude</a></li>
+    <li class="lvl2"><a href="#s7-3">7.3 Scepticisme &amp; présomption sur les revenus</a></li>
+    <li class="lvl2"><a href="#s7-4">7.4 Procédures obligatoires quelle que soit l'évaluation</a></li>
+    <li class="lvl2"><a href="#s7-5">7.5 Prise en compte des textes légaux (ISA-CH 250)</a></li>
+  <li class="lvl1"><a href="#s8">8 · Sujets spécifiques (550 / 570 / 600 / 402)</a></li>
+    <li class="lvl2"><a href="#s8-1">8.1 Parties liées (ISA-CH 550)</a></li>
+    <li class="lvl2"><a href="#s8-2">8.2 Continuité d'exploitation (ISA-CH 570 · art. 725 CO)</a></li>
+    <li class="lvl2"><a href="#s8-3">8.3 Audit de groupe (ISA-CH 600)</a></li>
+    <li class="lvl2"><a href="#s8-4">8.4 Recours à des sociétés de services (ISA-CH 402)</a></li>
+  <li class="lvl1"><a href="#s9">9 · Documentation &amp; communication (230 / 260 / 265 · 728b CO)</a></li>
+    <li class="lvl2"><a href="#s9-1">9.1 Documentation d'audit (ISA-CH 230)</a></li>
+    <li class="lvl2"><a href="#s9-2">9.2 Communication à la gouvernance (ISA-CH 260)</a></li>
+    <li class="lvl2"><a href="#s9-3">9.3 Faiblesses du SCI (ISA-CH 265)</a></li>
+    <li class="lvl2"><a href="#s9-4">9.4 Rapports légaux (art. 728b CO)</a></li>
+  <li class="lvl1"><a href="#s10">10 · Arbre de décision global de la planification</a></li>
+  <li class="lvl1"><a href="#s11">11 · Faux amis / pièges d'examen</a></li>
+  <li class="lvl1" style="color:#999">12-14 · Exécution : éléments probants · contrôles IT · cycle marchandises (Phase 2c)</li>
+</ul>
+</nav>
+
+<!-- ============================================================
+     SECTION 1
+     ============================================================ -->
+<h1 id="s1">1 · Cadre légal &amp; types de contrôle</h1>
+<p class="chapo">Avant toute planification, l'auditeur détermine <b>quel régime de contrôle</b>
+s'applique : il conditionne l'agrément requis, l'étendue des travaux, le niveau d'assurance
+et le contenu des rapports. Le régime découle du <b>CO</b> ; les modalités d'exécution des
+<b>ISA-CH</b> (ordinaire) ou de la <b>NCR</b> (restreint).</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Le législateur module l'intensité du contrôle selon l'importance économique de l'entreprise
+  et le cercle des tiers concernés : plus l'entité est grande ou ouverte, plus l'assurance
+  exigée est élevée (contrôle ordinaire = assurance <i>raisonnable</i> ; restreint = assurance
+  <i>modérée</i>).
+</div>
+
+<h2 id="s1-1">1.1 · Les quatre phases de l'audit</h2>
+<p>La planification est la <b>2ᵉ</b> des quatre phases. Ordre à connaître :</p>
+<table class="compare">
+  <thead><tr><th>#</th><th>Phase</th><th>Contenu clé</th><th>Norme pivot</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><b>Mandat d'audit</b></td><td>Acceptation / maintien, indépendance, confirmation de mandat</td><td>ISA-CH 210 / 220</td></tr>
+    <tr><td>2</td><td><b>Planification</b></td><td>Connaissance de l'entité, risques, caractère significatif, stratégie &amp; programme</td><td>ISA-CH 300 / 315 / 320</td></tr>
+    <tr><td>3</td><td><b>Réalisation</b></td><td>Réponses aux risques, éléments probants, contrôles</td><td>ISA-CH 330 / 500</td></tr>
+    <tr><td>4</td><td><b>Clôture / Rapport</b></td><td>Évaluation des anomalies, opinion, rapports</td><td>ISA-CH 700 ss</td></tr>
+  </tbody>
+</table>
+
+<h2 id="s1-2">1.2 · Ordinaire / restreint / aucun — seuils de l'art. 727 CO</h2>
+<p>Le <b>contrôle ordinaire</b> est obligatoire dans trois cas
+<span class="ref-norme">art. 727 al. 1 CO</span> <span class="primaire">PRIMAIRE</span> :</p>
+<ol>
+  <li><b>Sociétés ouvertes au public</b> (cotées, emprunts par obligations, ≥ 20 % des actifs/CA d'une société cotée) — <span class="ref-norme">art. 727 al. 1 ch. 1</span></li>
+  <li><b>Dépassement de 2 des 3 seuils</b> lors de <b>deux exercices successifs</b> — <span class="ref-norme">art. 727 al. 1 ch. 2</span> :</li>
+  <li>Sociétés <b>tenues d'établir des comptes de groupe</b> — <span class="ref-norme">art. 727 al. 1 ch. 3</span></li>
+</ol>
+<table>
+  <thead><tr><th>Grandeur (2 des 3, sur 2 exercices)</th><th class="num">Seuil</th></tr></thead>
+  <tbody>
+    <tr><td>Total du bilan</td><td class="num">20 mio CHF</td></tr>
+    <tr><td>Chiffre d'affaires</td><td class="num">40 mio CHF</td></tr>
+    <tr><td>Effectif (moyenne annuelle)</td><td class="num">250 EPT</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">art. 727 al. 1 ch. 2 CO <span class="primaire">PRIMAIRE</span></span>
+<p>À défaut de contrôle ordinaire, la société est soumise au <b>contrôle restreint</b>
+<span class="ref-norme">art. 727a al. 1 CO</span> <span class="primaire">PRIMAIRE</span>.</p>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — « 2 des 3 »</div>
+  Il faut dépasser <b>2 seuils sur 3</b>, et ce durant <b>2 exercices consécutifs</b>. Les deux
+  grandeurs dépassées ne doivent <b>pas nécessairement être les mêmes</b> d'un exercice à l'autre —
+  il suffit qu'au moins deux seuils soient dépassés chaque année.
+</div>
+
+<figure class="arbre-fig">
+<pre class="arbre">
+Quel régime de contrôle ?
+│
+├─ Société ouverte au public ? ─────────────── OUI ─▶ CONTRÔLE ORDINAIRE
+│                                                     (+ entreprise de révision
+│                                                      soumise à surveillance ASR)
+├─ 2 des 3 seuils dépassés 2 ans ? ──────────── OUI ─▶ CONTRÔLE ORDINAIRE
+│   (bilan 20 / CA 40 / 250 EPT)
+├─ Établit des comptes de groupe ? ──────────── OUI ─▶ CONTRÔLE ORDINAIRE
+│
+└─ Aucun des trois ────────────────────────────────▶ CONTRÔLE RESTREINT (art. 727a)
+                                                       │
+                          Effectif ≤ 10 EPT + accord   │
+                          de TOUS les actionnaires ? ──┴─ OUI ─▶ OPTING-OUT (aucun contrôle)
+</pre>
+<figcaption>Arbre — détermination du régime de contrôle (art. 727 / 727a CO).</figcaption>
+</figure>
+
+<h2 id="s1-3">1.3 · Opting-out / opting-up</h2>
+<table class="compare">
+  <thead><tr><th>Mécanisme</th><th>Effet</th><th>Condition</th><th>Base</th></tr></thead>
+  <tbody>
+    <tr><td><b>Opting-out</b></td><td>Renoncer au <b>contrôle restreint</b> (aucun organe de révision)</td>
+        <td>Effectif <b>≤ 10 EPT</b> en moyenne annuelle <b>ET accord de tous les actionnaires</b></td>
+        <td><span class="ref-norme">art. 727a al. 2 CO</span> <span class="primaire">PRIMAIRE</span></td></tr>
+    <tr><td><b>Opting-up</b></td><td>Se soumettre <b>volontairement</b> au contrôle ordinaire</td>
+        <td>Décision (statuts / actionnaires ou créanciers représentant 10 % du capital)</td>
+        <td><span class="ref-norme">art. 727 al. 2-3 CO</span> <span class="primaire">PRIMAIRE</span></td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège</div>
+  L'opting-out ne concerne <b>que le contrôle restreint</b> : une société soumise au contrôle
+  <b>ordinaire</b> ne peut jamais y renoncer. L'opting-out suppose l'accord de <b>tous</b> les
+  actionnaires (unanimité), pas une majorité.
+</div>
+
+<h2 id="s1-4">1.4 · Agréments LSR / ASR</h2>
+<p>L'exercice de la révision est réservé aux personnes et entreprises agréées par l'<b>Autorité
+fédérale de surveillance en matière de révision (ASR)</b> <span class="ref-norme">LSR</span>
+<span class="primaire">PRIMAIRE</span>.</p>
+<table class="compare">
+  <thead><tr><th>Régime</th><th>Agrément minimal requis</th></tr></thead>
+  <tbody>
+    <tr><td>Contrôle <b>restreint</b></td><td><b>Réviseur agréé</b></td></tr>
+    <tr><td>Contrôle <b>ordinaire</b></td><td><b>Expert-réviseur agréé</b></td></tr>
+    <tr><td>Société <b>d'intérêt public</b> (cotée…)</td><td><b>Entreprise de révision soumise à la surveillance de l'État</b> <span class="ref-sous" style="display:inline;border:none">art. 727b CO</span></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Agréments : art. 4-6 LSR ; obligation de surveillance : art. 7 LSR &amp; art. 727b CO <span class="primaire">PRIMAIRE</span></span>
+
+<h2 id="s1-5">1.5 · Comparatif ordinaire vs restreint — ce qui NE s'applique PAS en restreint</h2>
+<table class="compare">
+  <thead><tr><th>Critère</th><th>Contrôle ordinaire</th><th>Contrôle restreint</th></tr></thead>
+  <tbody>
+    <tr><td>Niveau d'assurance</td><td class="oui">Raisonnable (positive)</td><td>Modérée (négative)</td></tr>
+    <tr><td>Base normative</td><td>ISA-CH</td><td>NCR (Norme suisse relative au contrôle restreint)</td></tr>
+    <tr><td>Agrément</td><td>Expert-réviseur agréé</td><td>Réviseur agréé</td></tr>
+    <tr><td>Évaluation du <b>SCI</b></td><td class="oui">Vérifie l'<b>existence</b> d'un SCI (art. 728a al. 1 ch. 3)</td><td class="non">NON — pas d'appréciation du SCI</td></tr>
+    <tr><td>Caractère significatif normé</td><td class="oui">Oui (ISA-CH 320)</td><td class="non">NON au sens de l'ISA-CH 320</td></tr>
+    <tr><td>Évaluation des risques ISA-CH 315</td><td class="oui">Oui, complète</td><td class="non">NON — procédures limitées</td></tr>
+    <tr><td>Nature des travaux</td><td>Contrôles de substance + tests de procédures</td><td>Interrogations (enquêtes) + procédures analytiques + vérifications appropriées</td></tr>
+    <tr><td>Rapport</td><td>Détaillé au CA (728b al. 1) + succinct à l'AG (728b al. 2)</td><td>Rapport succinct à l'AG (729b)</td></tr>
+    <tr><td>Rotation réviseur responsable</td><td class="oui">7 ans max (art. 730a al. 2)</td><td class="non">NON prévue</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">art. 728-728b (ordinaire) · art. 729-729c (restreint) CO <span class="primaire">PRIMAIRE</span> · NCR <span class="secondaire">SECONDAIRE</span></span>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le régime détermine tout l'aval : en <b>restreint</b>, pas d'évaluation du SCI (§4) ni de seuil
+  de signification normé (§5) ni de stratégie/programme au sens ISA-CH (§3). L'indépendance reste
+  exigée dans les deux régimes (§2), mais avec des règles distinctes (728 vs 729 CO).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Une SA a un bilan de 25 mio, un CA de 30 mio et 120 EPT, deux ans de suite. Quel régime ?</li>
+    <li>Quelles conditions cumulatives pour un opting-out ?</li>
+    <li>Vrai/Faux : en contrôle restreint, l'organe de révision doit apprécier l'existence du SCI.</li>
+    <li><i>(Rappel Module TVA)</i> Le contrôle ordinaire donne-t-il une assurance raisonnable ou modérée ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Ordinaire — 2 seuils sur 3 (bilan 25&gt;20 et effectif… non : 120&lt;250 ; ici bilan 25&gt;20 seulement → <b>1 seul seuil</b> ⇒ <b>restreint</b>. Piège : seul le bilan dépasse). 2) Effectif ≤ 10 EPT <b>et</b> accord de tous les actionnaires. 3) <b>Faux</b> — l'appréciation du SCI n'existe qu'en contrôle ordinaire (728a al. 1 ch. 3). 4) Raisonnable (positive).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 2
+     ============================================================ -->
+<h1 id="s2">2 · Acceptation &amp; maintien du mandat · indépendance</h1>
+<p class="chapo">Avant d'accepter (ou de reconduire) un mandat, l'organe de révision vérifie qu'il
+remplit les <b>conditions formelles</b> (agrément, éligibilité) et matérielles
+(<b>indépendance</b>), puis formalise la mission par une <b>confirmation de mandat</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Garantir que le contrôle sera effectué par une personne <b>compétente</b> et <b>indépendante</b> :
+  l'indépendance protège la valeur probante de l'opinion vis-à-vis des tiers (actionnaires,
+  créanciers, public).
+</div>
+
+<h2 id="s2-1">2.1 · Conditions formelles d'acceptation (première élection)</h2>
+<table>
+  <thead><tr><th>Condition</th><th>Détail</th></tr></thead>
+  <tbody>
+    <tr><td><b>Agrément</b></td><td>Expert-réviseur agréé (ordinaire) / réviseur agréé (restreint) ; le <b>réviseur responsable</b> doit lui aussi être agréé</td></tr>
+    <tr><td><b>Éligibilité légale</b></td><td>Respect des incompatibilités de l'art. 728 (ordinaire) / 729 CO (restreint)</td></tr>
+    <tr><td><b>Indépendance</b></td><td>Effective <b>et</b> en apparence</td></tr>
+    <tr><td><b>Signature</b></td><td>En cas de signature collective, le cosignataire doit posséder l'agrément correspondant</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">art. 727b, 728, 730 CO · art. 4-6 LSR <span class="primaire">PRIMAIRE</span></span>
+
+<h2 id="s2-2">2.2 · Indépendance (art. 728 CO / LSR art. 11)</h2>
+<p>L'organe de révision doit être indépendant <b>en fait et en apparence</b>
+<span class="ref-norme">art. 728 al. 1 CO</span> <span class="primaire">PRIMAIRE</span>.
+L'art. 728 al. 2 énumère les situations <b>incompatibles</b> :</p>
+<ul>
+  <li>appartenance au CA, autre fonction décisionnelle, rapport de travail ;</li>
+  <li>participation directe / détention d'actions ; relation d'affaires étroite ;</li>
+  <li>octroi/réception de prêts ou de sûretés hors marché ;</li>
+  <li>collaboration à la tenue de la comptabilité ou prestations incompatibles ;</li>
+  <li>honoraires dépendant du résultat du contrôle.</li>
+</ul>
+<table class="compare">
+  <thead><tr><th>Menace</th><th>Exemple</th></tr></thead>
+  <tbody>
+    <tr><td>Auto-révision</td><td>Réviser des comptes qu'on a soi-même tenus</td></tr>
+    <tr><td>Intérêt personnel</td><td>Participation, honoraires liés au résultat</td></tr>
+    <tr><td>Représentation / familiarité</td><td>Défense des intérêts du client, liens personnels</td></tr>
+    <tr><td>Intimidation</td><td>Pression du client (menace de non-réélection)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">art. 728 CO <span class="primaire">PRIMAIRE</span> · indépendance des agréés : art. 11 LSR <span class="primaire">PRIMAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — rotation</div>
+  Pour le contrôle <b>ordinaire</b>, le <b>réviseur responsable</b> ne peut diriger le mandat plus de
+  <b>7 ans</b> ; il ne peut reprendre qu'après une interruption de <b>3 ans</b>
+  <span class="ref-norme">art. 730a al. 2 CO</span>. C'est la <i>personne</i> qui tourne, pas
+  l'entreprise de révision.
+</div>
+
+<h2 id="s2-3">2.3 · Confirmation / lettre de mission</h2>
+<p>La <b>confirmation de mandat</b> (lettre de mission) fixe par écrit les termes de la mission :
+objet et étendue de l'audit, référentiel comptable appliqué, responsabilités respectives
+(direction / organe de révision), référence aux normes applicables (ISA-CH ou NA-CH), et
+rappel des limites inhérentes.</p>
+<table class="compare">
+  <thead><tr><th>Point d'examen</th><th>Règle</th></tr></thead>
+  <tbody>
+    <tr><td>Réélection (années suivantes)</td><td>Une nouvelle confirmation n'est pas obligatoire chaque année, mais recommandée en cas de changement</td></tr>
+    <tr><td>Renonciation à la vérification du SCI</td><td class="non">Impossible — l'existence du SCI est un objet légal du contrôle ordinaire (728a al. 1 ch. 3)</td></tr>
+    <tr><td>Choix du référentiel d'audit</td><td>ISA ou exigences spéciales des NA-CH selon les principes comptables du client</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 210 <span class="secondaire">SECONDAIRE</span> · art. 728a CO <span class="primaire">PRIMAIRE</span></span>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'acceptation présuppose une <b>connaissance préliminaire de l'entité</b> (§4) pour évaluer les
+  risques du mandat lui-même. L'indépendance est un fil rouge : elle réapparaît dans la
+  communication à la gouvernance (§9).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Citez trois situations rendant l'organe de révision non indépendant (art. 728 al. 2).</li>
+    <li>Peut-on renoncer, dans la confirmation de mandat, à vérifier l'existence du SCI ?</li>
+    <li>Après combien d'années le réviseur responsable doit-il céder le mandat, et pour quelle durée ?</li>
+    <li><i>(Espacement §1)</i> Quel agrément faut-il pour un contrôle ordinaire ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) p. ex. membre du CA / participation / honoraires liés au résultat (ou tenue de la compta, prêt hors marché…). 2) <b>Non</b> (728a al. 1 ch. 3). 3) <b>7 ans</b>, interruption de <b>3 ans</b> (730a al. 2). 4) Expert-réviseur agréé.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 3
+     ============================================================ -->
+<h1 id="s3">3 · Stratégie générale vs plan vs programme (ISA-CH 300)</h1>
+<p class="chapo">La planification se décline en <b>deux niveaux</b> : la <b>stratégie générale</b>
+(planification sommaire) fixe le cadre et l'orientation ; le <b>programme d'audit</b>
+(planification détaillée) traduit la stratégie en procédures concrètes par domaine et par
+assertion.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Structurer l'audit pour qu'il soit à la fois <b>efficace</b> (les risques importants sont couverts)
+  et <b>efficient</b> (les ressources sont allouées là où le risque l'exige). La planification est
+  une « anticipation mentale » de tout l'audit.
+</div>
+
+<h2 id="s3-1">3.1 · Deux niveaux de planification</h2>
+<table class="compare">
+  <thead><tr><th></th><th>Stratégie générale d'audit</th><th>Programme d'audit</th></tr></thead>
+  <tbody>
+    <tr><td>Autre nom</td><td>Planification <b>sommaire</b> (Grobplanung)</td><td>Planification <b>détaillée</b> (Detailplanung)</td></tr>
+    <tr><td>Objet</td><td>Périmètre, calendrier, orientation, ressources ; <b>type d'opération de contrôle par domaine d'audit</b></td><td><b>Procédures concrètes</b> : nature, calendrier et étendue, par domaine / assertion</td></tr>
+    <tr><td>Décision typique</td><td>Approche « contrôles » vs « substance » pour chaque domaine</td><td>Quels tests précis (analytiques, vérifications de détail, confirmations…)</td></tr>
+    <tr><td>Contribue à</td><td>Efficience &amp; efficacité de l'audit</td><td>Mise en œuvre opérationnelle</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 300 <span class="secondaire">SECONDAIRE</span></span>
+
+<figure class="arbre-fig">
+<pre class="arbre">
+Évaluation des risques (§4-6)
+        │
+        ▼
+STRATÉGIE GÉNÉRALE  ──▶  pour chaque domaine d'audit, choisir le TYPE d'approche :
+(planification            ┌─ Risque important  ─▶ tests de contrôles + contrôles de substance
+ sommaire)                └─ Autre risque      ─▶ contrôles de substance (analytiques / détail)
+        │
+        ▼
+PROGRAMME D'AUDIT   ──▶  pour chaque assertion, définir les PROCÉDURES concrètes :
+(planification            nature · calendrier · étendue
+ détaillée)               (ex. évaluation du ducroire : ancienneté + solvabilité + calcul)
+</pre>
+<figcaption>Arbre — de la stratégie au programme (ISA-CH 300).</figcaption>
+</figure>
+
+<h2 id="s3-2">3.2 · Caractère itératif</h2>
+<p>La planification n'est pas linéaire : les constats de la réalisation (nouveaux risques, résultats
+des tests) peuvent obliger à <b>réviser</b> la stratégie et le programme en cours de mission.</p>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège d'examen — stratégie ≠ programme</div>
+  La <b>stratégie</b> décide du <i>type</i> d'opération de contrôle (approche) ; le <b>programme</b>
+  décide des <i>procédures concrètes</i> (nature/calendrier/étendue). Confondre les deux est l'erreur
+  classique. En contrôle <b>restreint</b>, il n'y a pas de programme d'audit au sens ISA-CH.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La stratégie découle de l'<b>évaluation des risques</b> (§4-6) et du <b>caractère significatif</b>
+  (§5) ; le programme s'articule sur les <b>assertions</b> (§6) et débouche sur les <b>réponses aux
+  risques</b> de l'ISA-CH 330 (§6).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quelle planification décide du « type d'opération de contrôle par domaine » ?</li>
+    <li>Où définit-on la nature, le calendrier et l'étendue des procédures ?</li>
+    <li>Vrai/Faux : une fois arrêtée, la stratégie ne peut plus être modifiée.</li>
+    <li><i>(Espacement §1)</i> À quelle phase de l'audit appartient la stratégie générale ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) La <b>stratégie générale</b> (planification sommaire). 2) Dans le <b>programme d'audit</b>. 3) <b>Faux</b> — la planification est itérative. 4) Phase 2, planification.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 4
+     ============================================================ -->
+<h1 id="s4">4 · Connaissance de l'entité &amp; contrôle interne (ISA-CH 315)</h1>
+<p class="chapo">L'auditeur doit acquérir une <b>connaissance suffisante de l'entité et de son
+environnement</b>, y compris de son <b>contrôle interne</b>, afin d'identifier et d'évaluer les
+risques d'anomalies significatives.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  On ne peut évaluer un risque qu'on ne comprend pas : la connaissance de l'entité est le socle de
+  toute la planification (identification → évaluation → classification des risques).
+  <b>Impérative</b> selon l'ISA-CH 315.
+</div>
+
+<h2 id="s4-1">4.1 · Facteurs de l'entité et de son environnement</h2>
+<table class="compare">
+  <thead><tr><th>Catégorie</th><th>Exemples de facteurs</th></tr></thead>
+  <tbody>
+    <tr><td>Secteur &amp; environnement externe</td><td>Branche, marché, concurrence, environnement <b>juridique et réglementaire</b>, facteurs économiques</td></tr>
+    <tr><td>Nature de l'entité</td><td>Activités, <b>investissements</b> actuels et prévus, <b>financement</b>, structure de <b>propriété</b> et de gouvernance</td></tr>
+    <tr><td>Référentiel comptable</td><td>Principes appliqués (CO, Swiss GAAP RPC, <b>IFRS</b>…) et leur adéquation</td></tr>
+    <tr><td>Objectifs, stratégies &amp; risques d'entreprise</td><td>Plans, risques opérationnels susceptibles d'engendrer des anomalies</td></tr>
+    <tr><td>Mesure de la performance</td><td>Indicateurs suivis par la direction (pression sur les résultats)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — distracteurs classiques</div>
+  Ne sont <b>pas</b> des facteurs pertinents de l'ISA-CH 315 : la police d'écriture du logo, les
+  horaires d'ouverture du siège, l'âge moyen des collaborateurs, le lieu de la fête de Noël…
+  (distracteurs « absurdes » fréquents au QCM). Retenir les <b>vraies</b> catégories ci-dessus.
+</div>
+
+<h2 id="s4-2">4.2 · Les 5 composantes du SCI</h2>
+<table>
+  <thead><tr><th>#</th><th>Composante</th><th>Contenu</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><b>Environnement de contrôle</b></td><td>Culture, intégrité, valeurs éthiques, style de direction, « ton donné au sommet »</td></tr>
+    <tr><td>2</td><td><b>Processus d'évaluation des risques de l'entité</b></td><td>Comment l'entité identifie et traite ses propres risques</td></tr>
+    <tr><td>3</td><td><b>Système d'information &amp; communication</b></td><td>Systèmes (dont IT) qui saisissent, traitent et restituent l'information financière</td></tr>
+    <tr><td>4</td><td><b>Activités de contrôle</b></td><td>Contrôles concrets (séparation des fonctions, autorisations, rapprochements…)</td></tr>
+    <tr><td>5</td><td><b>Suivi (surveillance) des contrôles</b></td><td>Surveillance dans le temps de l'efficacité du SCI</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s4-3">4.3 · Conception / mise en œuvre / efficacité · test de cheminement</h2>
+<table class="compare">
+  <thead><tr><th>Niveau d'examen du contrôle</th><th>Question posée</th><th>Quand</th></tr></thead>
+  <tbody>
+    <tr><td><b>Conception</b> (design)</td><td>Le contrôle est-il <i>capable</i> de prévenir/détecter une anomalie ?</td><td>Planification</td></tr>
+    <tr><td><b>Mise en œuvre</b> (implementation)</td><td>Le contrôle <i>existe-t-il</i> et est-il appliqué ?</td><td>Planification (<b>test de cheminement</b>)</td></tr>
+    <tr><td><b>Efficacité du fonctionnement</b> (operating effectiveness)</td><td>Le contrôle a-t-il fonctionné <i>tout au long</i> de la période ?</td><td>Réalisation (<b>tests de procédures</b>)</td></tr>
+  </tbody>
+</table>
+<p>Le <b>test de cheminement</b> (walk-through) suit une transaction de bout en bout pour confirmer
+la <b>conception</b> et la <b>mise en œuvre</b> d'un contrôle. Il ne teste <b>pas</b> l'efficacité.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège</div>
+  Objectif du contrôle du SCI en planification = <b>compréhension</b> des processus et
+  identification des <b>risques de contrôle</b> (points forts/faibles). Tester l'<b>efficacité</b>
+  (tests de procédures) n'intervient que si la stratégie s'appuie sur les contrôles (§6).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le SCI alimente le <b>risque de contrôle</b> (RC) du modèle du risque (§6). Sa composante IT est
+  approfondie via les <b>contrôles généraux informatiques</b> (NAS-CH 890, §11). Un SCI faible est
+  aussi un signal du <b>triangle de la fraude</b> (§7).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Citez les 5 composantes du SCI.</li>
+    <li>Le test de cheminement teste-t-il l'efficacité d'un contrôle ?</li>
+    <li>La structure de propriété est-elle un facteur ISA-CH 315 ? Et les horaires d'ouverture ?</li>
+    <li><i>(Espacement §3)</i> La compréhension du SCI relève de la stratégie ou du programme ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Environnement de contrôle · évaluation des risques de l'entité · système d'information &amp; communication · activités de contrôle · suivi des contrôles. 2) <b>Non</b> — seulement conception + mise en œuvre. 3) Propriété = <b>oui</b> ; horaires = <b>non</b>. 4) Elle nourrit la stratégie (choix de l'approche), puis le programme (tests).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 5
+     ============================================================ -->
+<h1 id="s5">5 · Caractère significatif (ISA-CH 320)</h1>
+<p class="chapo">Le <b>caractère significatif</b> (materiality) fixe le seuil au-delà duquel une
+anomalie est susceptible d'<b>influencer les décisions économiques</b> des destinataires des
+comptes. Il oriente la nature et l'étendue des travaux et sert de référence pour évaluer les
+anomalies détectées.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'audit ne vise pas l'exactitude absolue mais l'absence d'anomalies <b>significatives</b> : le
+  seuil de signification traduit ce que le <b>destinataire</b> des comptes jugerait déterminant.
+  C'est un exercice de <b>jugement professionnel</b>.
+</div>
+
+<h2 id="s5-1">5.1 · Définition · quantitatif &amp; qualitatif</h2>
+<p>Une anomalie est significative si, individuellement ou cumulée, elle peut <b>influencer les
+décisions économiques</b> prises par les utilisateurs sur la base des comptes.</p>
+<table class="compare">
+  <thead><tr><th>Dimension</th><th>Exemple</th></tr></thead>
+  <tbody>
+    <tr><td><b>Quantitative</b></td><td>Montant dépassant le seuil calculé</td></tr>
+    <tr><td><b>Qualitative</b></td><td>Anomalie touchant une opération avec parties liées, la rémunération des dirigeants, le respect d'un covenant, un basculement bénéfice/perte — significative même en dessous du seuil chiffré</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 320 <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s5-2">5.2 · Les trois seuils + anomalies clairement insignifiantes</h2>
+<table>
+  <thead><tr><th>Seuil</th><th>Rôle</th><th>Ordre de grandeur usuel</th></tr></thead>
+  <tbody>
+    <tr><td><b>Seuil global</b> (materiality)</td><td>Pour les états financiers <b>pris dans leur ensemble</b></td><td>X % d'une valeur de référence</td></tr>
+    <tr><td><b>Seuil de planification / performance materiality</b></td><td>Fixé <b>en dessous</b> du global pour absorber le <b>risque d'agrégation</b> ; guide l'étendue des travaux</td><td>souvent <b>≈ 75 %</b> du global</td></tr>
+    <tr><td><b>Seuils spécifiques</b></td><td>Pour certains flux/soldes/informations où une anomalie inférieure au global influencerait quand même le lecteur</td><td>selon jugement</td></tr>
+    <tr><td><b>Anomalies clairement insignifiantes</b> (clearly trivial)</td><td>En dessous, on ne cumule même pas</td><td>souvent <b>≈ 5 %</b> du global</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 320 · le « seuil de signification pour la réalisation des travaux » = performance materiality <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège central — global ≠ performance materiality</div>
+  Le <b>seuil global</b> sert à juger l'<b>opinion</b> finale ; la <b>performance materiality</b>
+  (plus basse) sert à <b>planifier l'étendue</b> des tests pour que le cumul des anomalies
+  <b>non détectées</b> reste sous le global. Les confondre est l'erreur type de l'examen.
+</div>
+
+<h2 id="s5-3">5.3 · Valeurs de référence (benchmarks)</h2>
+<p>Le seuil global s'obtient en appliquant un <b>pourcentage</b> à une <b>valeur de référence</b>
+choisie selon l'entité (branche, cercle des destinataires, stabilité de la grandeur) — c'est un
+<b>jugement</b>, pas un barème obligatoire.</p>
+<table>
+  <thead><tr><th>Valeur de référence</th><th class="num">Fourchette indicative (MSA)</th><th>Adaptée quand…</th></tr></thead>
+  <tbody>
+    <tr><td>Résultat (bénéfice) avant impôts</td><td class="num">3 – 10 %</td><td>Entité orientée résultat, bénéfice stable</td></tr>
+    <tr><td>Chiffre d'affaires</td><td class="num">0,5 – 3 %</td><td>Résultat volatil / proche de zéro</td></tr>
+    <tr><td>Total du bilan</td><td class="num">1 – 3 %</td><td>Sociétés à forte substance (immobilier, holding)</td></tr>
+    <tr><td>Actif net / capitaux propres</td><td class="num">1 – 5 %</td><td>Selon le cercle des destinataires</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Fourchettes du Manuel suisse d'audit (MSA), « Contrôle ordinaire » <span class="avalider">À VALIDER</span> — pourcentages indicatifs, non contraignants, à vérifier selon l'édition</span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège</div>
+  Les pourcentages du MSA sont des <b>repères</b>, pas des valeurs cibles obligatoires : le jugement
+  professionnel prime. Affirmer qu'il faut « obligatoirement appliquer le barème sans jugement »
+  est <b>faux</b>.
+</div>
+
+<h2 id="s5-4">5.4 · Exemple chiffré complet</h2>
+<p>Soit une PME dont le <b>résultat avant impôts = 1 000</b> (kCHF), grandeur de référence retenue,
+avec un taux de 10 % :</p>
+<table>
+  <thead><tr><th>Étape</th><th>Calcul</th><th class="num">Montant</th></tr></thead>
+  <tbody>
+    <tr><td>1. Seuil <b>global</b></td><td>10 % × 1 000</td><td class="num"><b>100</b></td></tr>
+    <tr><td>2. <b>Performance materiality</b></td><td>75 % × 100</td><td class="num"><b>75</b></td></tr>
+    <tr><td>3. Anomalies <b>clairement insignifiantes</b></td><td>≈ 5 % × 100</td><td class="num"><b>5</b></td></tr>
+  </tbody>
+</table>
+<div class="formule">
+  Étendue des travaux calibrée sur <b>75</b> · on cumule les anomalies &gt; <b>5</b> ·
+  on juge l'opinion vs <b>100</b>
+</div>
+<p>Interprétation : l'auditeur <b>planifie ses tests</b> pour détecter tout ce qui dépasse
+<b>75</b> (marge de sécurité contre le risque d'agrégation) ; il <b>néglige</b> les écarts &lt; 5 ;
+en clôture, il compare le <b>total des anomalies détectées + non détectées estimées</b> au seuil
+<b>global de 100</b> pour conclure sur l'opinion.</p>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le caractère significatif découle de l'<b>analyse des comptes annuels</b> et de la connaissance de
+  l'entité (§4) ; il calibre les <b>réponses aux risques</b> (§6) et sert de mètre-étalon en
+  <b>clôture</b> pour l'évaluation des anomalies. Une opinion est erronée si
+  <i>anomalies (détectées + non détectées) &gt; seuil global</i>.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Résultat avant impôts = 2 000, taux 5 %, performance materiality à 75 % : donnez les 3 seuils.</li>
+    <li>Quel seuil sert à planifier l'étendue des tests ? Lequel sert à juger l'opinion finale ?</li>
+    <li>Une anomalie de faible montant peut-elle être significative ? Pourquoi ?</li>
+    <li><i>(Espacement §4)</i> Sur quelle base d'analyse repose le choix de la valeur de référence ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Global = 100 (5 % × 2 000) ; performance = 75 ; insignifiant ≈ 5. 2) Étendue → <b>performance materiality</b> ; opinion → <b>seuil global</b>. 3) <b>Oui</b>, par son caractère <b>qualitatif</b> (parties liées, bascule bénéfice/perte, rémunération dirigeants…). 4) L'analyse des comptes annuels + la connaissance de l'entité (branche, destinataires, stabilité de la grandeur).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 6
+     ============================================================ -->
+<h1 id="s6">6 · Modèle du risque d'audit — RA = RI × RC × RND</h1>
+<p class="chapo">Le <b>risque d'audit</b> (RA) est le risque que l'auditeur exprime une opinion
+<b>inappropriée</b> alors que les comptes comportent une anomalie significative. Il se décompose en
+trois facteurs multiplicatifs qui pilotent toute la stratégie de contrôle.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'audit ne peut pas tout vérifier : le modèle du risque sert à <b>concentrer l'effort</b> là où le
+  risque d'anomalie significative est élevé. En fixant un RA <b>faible acceptable</b> et en évaluant
+  RI et RC, l'auditeur en déduit le niveau de <b>risque de non-détection</b> qu'il peut se permettre —
+  donc l'étendue de ses propres travaux.
+</div>
+
+<h2 id="s6-1">6.1 · Les composantes du risque · qui contrôle quoi</h2>
+<div class="formule">RA = RI × RC × RND</div>
+<table class="compare">
+  <thead><tr><th>Facteur</th><th>Définition</th><th>Maîtrisé par</th></tr></thead>
+  <tbody>
+    <tr><td><b>RI</b> — risque inhérent</td><td>Sensibilité d'une assertion à une anomalie, <b>avant</b> tout contrôle interne (complexité, jugement, secteur)</td><td class="non">L'entité / son activité — <b>subi</b>, seulement <i>évalué</i> par l'auditeur</td></tr>
+    <tr><td><b>RC</b> — risque de contrôle</td><td>Risque qu'une anomalie ne soit pas <b>prévenue ou détectée</b> par le SCI (§4)</td><td class="non">L'entité (son SCI) — <b>subi</b>, seulement <i>évalué</i></td></tr>
+    <tr><td><b>RMM</b> = RI × RC</td><td><b>Risque d'anomalie significative</b> — propre à l'entité, donné à l'auditeur</td><td class="non">Non modifiable par l'auditeur</td></tr>
+    <tr><td><b>RND</b> — risque de non-détection</td><td>Risque que les <b>procédures de substance</b> ne détectent pas une anomalie existante</td><td class="oui">L'<b>AUDITEUR</b> — via nature, calendrier &amp; étendue de ses travaux</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 200 (composantes du risque) · ISA-CH 315 (évaluation RI/RC) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège central — RND est le SEUL levier</div>
+  RI et RC sont des <b>caractéristiques de l'entité</b> : l'auditeur les <b>évalue</b> mais ne les
+  <b>modifie pas</b>. Le seul facteur qu'il ajuste est le <b>RND</b> : plus le RMM (= RI × RC) est
+  élevé, plus il doit <b>abaisser</b> le RND en faisant <b>plus</b> de travaux de substance. « Réduire
+  le risque inhérent » ou « réduire le risque de contrôle » par l'audit est <b>faux</b>.
+</div>
+
+<h2 id="s6-2">6.2 · Niveau états financiers vs niveau assertions</h2>
+<table class="compare">
+  <thead><tr><th>Niveau</th><th>Nature du risque</th><th>Réponse (ISA-CH 330)</th></tr></thead>
+  <tbody>
+    <tr><td><b>États financiers pris dans leur ensemble</b></td><td>Risque diffus, souvent lié à l'environnement de contrôle / intégrité de la direction / continuité</td><td><b>Réponses globales</b> : scepticisme accru, affectation de collaborateurs expérimentés, effet de surprise, supervision renforcée</td></tr>
+    <tr><td><b>Assertion</b> (flux / solde / information)</td><td>Risque ciblé sur une assertion précise d'un poste</td><td><b>Procédures d'audit complémentaires</b> : tests de contrôles et/ou contrôles de substance</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 (identification aux deux niveaux) · ISA-CH 330 (réponses) <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s6-3">6.3 · Les assertions d'audit</h2>
+<p>Les <b>assertions</b> sont les affirmations implicites de la direction contenues dans les comptes ;
+l'auditeur en fait la cible de ses procédures.</p>
+<table class="compare">
+  <thead><tr><th>Catégorie</th><th>Assertions</th></tr></thead>
+  <tbody>
+    <tr><td><b>Flux d'opérations</b> (compte de résultat)</td><td><b>Réalité</b> (occurrence) · <b>Exhaustivité</b> · <b>Exactitude</b> · <b>Séparation des périodes</b> (cut-off) · <b>Classification</b></td></tr>
+    <tr><td><b>Soldes de comptes</b> (bilan)</td><td><b>Existence</b> · <b>Droits &amp; obligations</b> · <b>Exhaustivité</b> · <b>Évaluation &amp; imputation</b></td></tr>
+    <tr><td><b>Présentation &amp; informations fournies</b></td><td><b>Réalité &amp; droits</b> · <b>Exhaustivité</b> · <b>Classification &amp; compréhensibilité</b> · <b>Exactitude &amp; évaluation</b></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 (assertions) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — sens du risque</div>
+  Le risque dominant dépend du poste : sur un <b>actif</b> (créances), on craint la <b>surévaluation</b>
+  → assertions <b>existence / évaluation</b>. Sur une <b>dette</b> (fournisseurs), on craint la
+  <b>sous-évaluation / omission</b> → assertion <b>exhaustivité</b>. (Repris §14.)
+</div>
+
+<h2 id="s6-4">6.4 · Risques significatifs</h2>
+<p>Un <b>risque significatif</b> (ou « important ») est un risque inhérent évalué comme
+<b>proche du haut</b> de l'échelle et qui exige une <b>attention d'audit particulière</b>.</p>
+<table>
+  <thead><tr><th>Déclencheurs typiques d'un risque significatif</th></tr></thead>
+  <tbody>
+    <tr><td>Opérations <b>inhabituelles</b> ou hors du cours normal des affaires</td></tr>
+    <tr><td>Postes reposant sur un <b>jugement</b> ou des <b>estimations</b> importantes</td></tr>
+    <tr><td>Opérations avec <b>parties liées</b> (§8.1)</td></tr>
+    <tr><td>Domaines à risque de <b>fraude</b> — dont la <b>reconnaissance des revenus</b> (présomption, §7.3)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 (risques significatifs) <span class="secondaire">SECONDAIRE</span></span>
+<p>Pour un risque significatif, l'auditeur doit obtenir sa compréhension des <b>contrôles</b> pertinents
+et <b>ne peut pas</b> se fonder uniquement sur des procédures analytiques : des <b>contrôles de
+substance de détail</b> sont requis.</p>
+
+<h2 id="s6-5">6.5 · Réponses aux risques (ISA-CH 330) · approche mixte vs substantive</h2>
+<table class="compare">
+  <thead><tr><th></th><th>Approche mixte (« par les contrôles »)</th><th>Approche substantive</th></tr></thead>
+  <tbody>
+    <tr><td>Condition</td><td>Le SCI est jugé <b>conçu et efficace</b> → on prévoit s'y fier</td><td>SCI faible/absent, ou plus efficient de tester directement</td></tr>
+    <tr><td>Travaux</td><td><b>Tests de procédures</b> (efficacité, §4.3) + contrôles de substance <b>réduits</b></td><td><b>Contrôles de substance étendus</b> uniquement (détail + analytiques)</td></tr>
+    <tr><td>Impose de tester l'efficacité ?</td><td class="oui">Oui — sinon on ne peut réduire les travaux de substance</td><td class="non">Non</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 330 (réponses aux risques évalués) <span class="secondaire">SECONDAIRE</span></span>
+
+<figure class="arbre-fig">
+<pre class="arbre">
+Pour chaque assertion significative :
+│
+├─ RMM (= RI × RC) faible ? ───── OUI ─▶ Contrôles de SUBSTANCE réduits
+│                                        (analytiques + quelques détails)
+│
+├─ On veut se fier au SCI ? ───── OUI ─▶ Tester l'EFFICACITÉ des contrôles
+│                                        │
+│                        efficaces ? ───┼─ OUI ─▶ substance RÉDUITE (approche mixte)
+│                                        └─ NON ─▶ substance ÉTENDUE
+│
+└─ Risque SIGNIFICATIF ? ──────── OUI ─▶ Contrôles de substance de DÉTAIL obligatoires
+                                         (analytiques seuls interdits)
+</pre>
+<figcaption>Arbre — du risque évalué à la réponse d'audit (ISA-CH 330).</figcaption>
+</figure>
+
+<h2 id="s6-6">6.6 · Exemple chiffré du modèle du risque</h2>
+<p>L'auditeur fixe un <b>RA acceptable = 5 %</b> (assurance raisonnable de 95 %). Sur le poste
+« stocks », il évalue <b>RI = 80 %</b> (produits techniques, obsolescence) et <b>RC = 50 %</b>
+(SCI moyen). Le RND <b>maximal admissible</b> se déduit :</p>
+<table>
+  <thead><tr><th>Étape</th><th>Calcul</th><th class="num">Résultat</th></tr></thead>
+  <tbody>
+    <tr><td>RMM = RI × RC</td><td>0,80 × 0,50</td><td class="num"><b>40 %</b></td></tr>
+    <tr><td>RND admissible = RA / RMM</td><td>0,05 / 0,40</td><td class="num"><b>12,5 %</b></td></tr>
+  </tbody>
+</table>
+<div class="formule">RMM élevé (40 %) ⇒ RND faible (12,5 %) ⇒ <b>beaucoup</b> de travaux de substance</div>
+<p>Interprétation : comme le risque d'anomalie est élevé et non maîtrisable par l'auditeur, celui-ci
+doit <b>abaisser fortement</b> son risque de non-détection — donc <b>augmenter</b> la nature,
+l'étendue et rapprocher le calendrier de ses contrôles de substance. Si le RMM était faible, un RND
+plus élevé (moins de travaux) suffirait.</p>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  RC est directement issu du <b>SCI</b> (§4) ; le RMM oriente la <b>stratégie</b> (§3, approche
+  contrôles/substance) puis le <b>programme</b>. Le seuil de <b>performance materiality</b> (§5) et le
+  RND se combinent pour fixer l'étendue des tests. Les <b>éléments probants</b> (§12) sont le moyen de
+  réduire le RND.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Écrivez le modèle du risque d'audit et nommez le facteur que l'auditeur maîtrise.</li>
+    <li>RA visé = 5 %, RI = 60 %, RC = 50 %. Quel RND maximal ?</li>
+    <li>Sur un risque significatif, peut-on se contenter de procédures analytiques ?</li>
+    <li><i>(Espacement §4)</i> D'où provient l'évaluation du RC ?</li>
+    <li><i>(Espacement §5)</i> Quel seuil de matérialité calibre l'étendue des tests ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) RA = RI × RC × RND ; l'auditeur maîtrise le <b>RND</b>. 2) RMM = 0,30 → RND = 0,05/0,30 = <b>16,7 %</b>. 3) <b>Non</b> — des contrôles de substance de <b>détail</b> sont exigés (ISA-CH 315/330). 4) De l'évaluation du <b>SCI</b> (§4). 5) La <b>performance materiality</b> (§5.2).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 7
+     ============================================================ -->
+<h1 id="s7">7 · Fraude &amp; textes légaux (ISA-CH 240 / 250)</h1>
+<p class="chapo">L'auditeur planifie l'audit avec un <b>scepticisme professionnel</b> constant, en
+reconnaissant qu'une <b>fraude</b> — anomalie <b>intentionnelle</b> — peut exister malgré son
+expérience passée de l'honnêteté de la direction.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Distinguer la fraude (intentionnelle, avec dissimulation) de l'erreur (non intentionnelle) parce
+  qu'elle est <b>plus difficile à détecter</b> : l'ISA-CH 240 impose des procédures <b>spécifiques et
+  obligatoires</b> pour ne pas se laisser tromper par des documents falsifiés ou une collusion.
+</div>
+
+<h2 id="s7-1">7.1 · Fraude vs erreur · deux types de fraude</h2>
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Caractère</th><th>Exemple</th></tr></thead>
+  <tbody>
+    <tr><td><b>Erreur</b></td><td>Non intentionnelle</td><td>Faute de saisie, mauvaise application d'un principe comptable</td></tr>
+    <tr><td><b>Fraude — présentation frauduleuse des comptes</b></td><td>Intentionnelle, par la <b>direction</b> (« management override »)</td><td>Gonfler le résultat, comptabiliser des ventes fictives</td></tr>
+    <tr><td><b>Fraude — détournement d'actifs</b></td><td>Intentionnelle, souvent par des <b>employés</b></td><td>Vol de stocks ou de liquidités, fausses notes de frais</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 240 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — responsabilité</div>
+  La <b>prévention et la détection</b> de la fraude incombent en premier lieu à la <b>direction et à la
+  gouvernance</b>. L'auditeur n'a qu'une <b>assurance raisonnable</b> que les comptes sont exempts
+  d'anomalies significatives, de fraude <b>ou</b> d'erreur — il ne <b>garantit</b> pas l'absence de
+  fraude.
+</div>
+
+<h2 id="s7-2">7.2 · Le triangle de la fraude</h2>
+<p>Trois conditions sont généralement réunies lorsqu'une fraude survient :</p>
+<figure class="arbre-fig">
+<pre class="arbre">
+                 ┌───────────────────────┐
+                 │   FRAUDE probable si   │
+                 │   les 3 sommets sont   │
+                 │        réunis          │
+                 └───────────┬───────────┘
+        ┌───────────────────┼───────────────────┐
+        ▼                   ▼                   ▼
+  INCITATION /         OPPORTUNITÉ          ATTITUDE /
+  PRESSION             (faille du SCI,      RATIONALISATION
+  (objectifs,          séparation des       (« tout le monde
+   dettes, bonus)      fonctions absente)     le fait », justif.)
+</pre>
+<figcaption>Le triangle de la fraude (ISA-CH 240).</figcaption>
+</figure>
+<table class="compare">
+  <thead><tr><th>Sommet</th><th>Ce que l'auditeur repère</th></tr></thead>
+  <tbody>
+    <tr><td><b>Incitation / pression</b></td><td>Objectifs de résultat agressifs, covenants, rémunération variable, difficultés financières</td></tr>
+    <tr><td><b>Opportunité</b></td><td>SCI défaillant, absence de séparation des fonctions, opérations complexes ou avec parties liées</td></tr>
+    <tr><td><b>Attitude / rationalisation</b></td><td>Culture d'entreprise laxiste, tolérance aux entorses, justification morale du dirigeant</td></tr>
+  </tbody>
+</table>
+
+<h2 id="s7-3">7.3 · Scepticisme &amp; présomption sur les revenus</h2>
+<p>L'ISA-CH 240 pose une <b>présomption réfragable</b> : il existe des <b>risques de fraude sur la
+reconnaissance des revenus</b>. L'auditeur doit traiter la comptabilisation du chiffre d'affaires
+comme un <b>risque significatif</b>, sauf s'il peut justifier que la présomption ne s'applique pas.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège d'examen</div>
+  La présomption de risque de fraude porte spécifiquement sur les <b>produits (revenus)</b> — pas sur
+  les charges. Renverser la présomption exige une <b>justification documentée</b>, ce n'est pas un
+  choix libre.
+</div>
+
+<h2 id="s7-4">7.4 · Procédures obligatoires quelle que soit l'évaluation</h2>
+<p>Trois procédures sont <b>toujours</b> requises, du fait du risque de contournement des contrôles
+par la direction :</p>
+<table>
+  <thead><tr><th>#</th><th>Procédure obligatoire</th><th>Cible</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Tester les <b>écritures comptables</b> (journal entries) et autres ajustements</td><td>Écritures inhabituelles, en fin de période, sans logique opérationnelle</td></tr>
+    <tr><td>2</td><td>Examiner les <b>estimations comptables</b> pour déceler un <b>biais</b> de la direction</td><td>Provisions, dépréciations, hypothèses orientées</td></tr>
+    <tr><td>3</td><td>Comprendre la logique des <b>opérations importantes inhabituelles</b> / hors cours normal</td><td>Montages, opérations avec parties liées en fin d'exercice</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 240 (procédures liées au contournement des contrôles par la direction) <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s7-5">7.5 · Prise en compte des textes légaux (ISA-CH 250)</h2>
+<table class="compare">
+  <thead><tr><th>Catégorie de texte légal</th><th>Responsabilité de l'auditeur</th></tr></thead>
+  <tbody>
+    <tr><td><b>Effet direct</b> sur les montants/informations des comptes<br>(droit fiscal, droit des sociétés — dividendes…)</td><td class="oui">Obtenir des éléments probants <b>suffisants</b> sur le respect de ces textes</td></tr>
+    <tr><td><b>Effet indirect</b> mais fondamental à l'exploitation<br>(licences, environnement, protection des données…)</td><td>Procédures <b>limitées</b> : demandes à la direction + examen de correspondance avec les autorités</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 250 <span class="secondaire">SECONDAIRE</span></span>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'opportunité du triangle = <b>faiblesse du SCI</b> (§4). Le risque de fraude sur les revenus est un
+  <b>risque significatif</b> (§6.4) qui remonte au poste <b>Produits nets des ventes</b> (§14). Les
+  écritures de journal se testent avec l'appui de l'<b>analyse de données</b> (§12-13).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Nommez les trois sommets du triangle de la fraude.</li>
+    <li>Sur quel poste l'ISA-CH 240 présume-t-il un risque de fraude ?</li>
+    <li>Citez les trois procédures obligatoires liées au contournement des contrôles par la direction.</li>
+    <li>Qui est responsable en premier lieu de prévenir la fraude ?</li>
+    <li><i>(Espacement §5)</i> Une anomalie sous le seuil chiffré peut-elle être significative pour une raison de fraude ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Incitation/pression · opportunité · attitude/rationalisation. 2) La <b>reconnaissance des revenus</b> (produits). 3) Test des écritures comptables · examen du biais des estimations · compréhension des opérations inhabituelles. 4) La <b>direction et la gouvernance</b>. 5) <b>Oui</b> — dimension qualitative (§5.1).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 8
+     ============================================================ -->
+<h1 id="s8">8 · Sujets spécifiques (550 / 570 / 600 / 402)</h1>
+<p class="chapo">Certains domaines exigent des procédures dédiées dès la planification, car ils portent
+un risque inhérent élevé ou dépassent le périmètre direct de l'auditeur.</p>
+
+<h2 id="s8-1">8.1 · Parties liées (ISA-CH 550)</h2>
+<table class="compare">
+  <thead><tr><th>Point d'examen</th><th>Règle</th></tr></thead>
+  <tbody>
+    <tr><td>Risque</td><td>Relations/opérations avec parties liées <b>non divulguées</b> ; conditions non conformes au marché ; <b>risque de fraude</b> accru</td></tr>
+    <tr><td>Procédures</td><td>Comprendre les <b>contrôles</b> d'identification des parties liées ; rester attentif tout au long de l'audit ; examiner les opérations <b>hors cours normal</b></td></tr>
+    <tr><td>Statut</td><td>Souvent traité comme <b>risque significatif</b> (§6.4)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 550 <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s8-2">8.2 · Continuité d'exploitation (ISA-CH 570 · art. 725 CO)</h2>
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Contenu</th></tr></thead>
+  <tbody>
+    <tr><td>Hypothèse de base</td><td>Les comptes sont établis en <b>continuité d'exploitation</b> (going concern) sauf intention/nécessité de liquider</td></tr>
+    <tr><td>Évaluation de la direction</td><td>Porte sur une période d'<b>au moins 12 mois</b> ; l'auditeur l'apprécie</td></tr>
+    <tr><td>Indices de doute</td><td>Pertes récurrentes, capitaux propres négatifs, ruptures de covenants, retraits de crédit</td></tr>
+    <tr><td>Ancrage suisse</td><td>Signes d'alerte du CO : <b>perte de capital</b> et <b>surendettement</b> <span class="ref-norme">art. 725 / 725a / 725b CO</span> — obligations d'aviser</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 570 <span class="secondaire">SECONDAIRE</span> · art. 725-725b CO <span class="primaire">PRIMAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège</div>
+  Une <b>incertitude significative</b> sur la continuité peut être compatible avec une opinion <b>non
+  modifiée</b> si elle est <b>correctement décrite</b> en annexe (paragraphe dédié dans le rapport).
+  L'absence de description, elle, affecte l'opinion.
+</div>
+
+<h2 id="s8-3">8.3 · Audit de groupe (ISA-CH 600)</h2>
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Règle</th></tr></thead>
+  <tbody>
+    <tr><td>Responsabilité</td><td>L'<b>équipe d'audit du groupe</b> assume l'opinion sur les comptes consolidés, <b>y compris</b> pour les travaux des auditeurs de composants</td></tr>
+    <tr><td>Composants significatifs</td><td>Identifiés par leur poids financier ou leur risque ; travaux d'audit <b>complets</b> ou ciblés</td></tr>
+    <tr><td>Auditeurs de composants</td><td>L'équipe groupe évalue leur <b>compétence</b> et leur <b>indépendance</b>, définit l'étendue, communique les seuils</td></tr>
+    <tr><td>Consolidation</td><td>Contrôle du <b>processus de consolidation</b> (éliminations, homogénéisation)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 600 <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s8-4">8.4 · Recours à des sociétés de services (ISA-CH 402)</h2>
+<p>Quand l'entité externalise une fonction affectant l'information financière (paie, hébergement IT,
+gestion de titres), l'auditeur (« <b>utilisateur</b> ») doit comprendre les <b>contrôles</b> pertinents
+tenus par la société de services.</p>
+<table class="compare">
+  <thead><tr><th>Rapport de la société de services</th><th>Ce qu'il atteste</th></tr></thead>
+  <tbody>
+    <tr><td><b>Type 1</b></td><td><b>Conception</b> et mise en œuvre des contrôles <b>à une date</b> donnée</td></tr>
+    <tr><td><b>Type 2</b></td><td>Conception <b>et efficacité du fonctionnement</b> sur une <b>période</b> — seul type permettant de <b>réduire</b> les tests de substance</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 402 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège</div>
+  Externaliser une fonction ne <b>transfère pas</b> la responsabilité : c'est toujours l'entité auditée
+  (et son auditeur) qui répond de l'information financière. Un rapport <b>Type 1</b> ne permet pas de
+  se fier à l'efficacité des contrôles (il faut un <b>Type 2</b>).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Parties liées et continuité sont des <b>risques significatifs</b> (§6.4) et des points de
+  <b>caractère significatif qualitatif</b> (§5.1). La logique Type 1 / Type 2 du 402 reprend la
+  distinction <b>conception / efficacité</b> du SCI (§4.3) et des contrôles IT (§13).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quel type de rapport (402) permet de réduire les contrôles de substance ? Pourquoi ?</li>
+    <li>Sur quelle durée minimale porte l'évaluation de la continuité par la direction ?</li>
+    <li>Qui porte la responsabilité de l'opinion sur les comptes consolidés d'un groupe ?</li>
+    <li>Les opérations avec parties liées sont-elles généralement un risque significatif ?</li>
+    <li><i>(Espacement §1)</i> Quels articles du CO portent les signes d'alerte financiers ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) <b>Type 2</b> — il atteste l'<b>efficacité</b> des contrôles sur une période. 2) Au moins <b>12 mois</b>. 3) L'<b>équipe d'audit du groupe</b> (ISA-CH 600). 4) <b>Oui</b> (ISA-CH 550). 5) art. 725 / 725a / 725b CO.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 9
+     ============================================================ -->
+<h1 id="s9">9 · Documentation &amp; communication (230 / 260 / 265 · 728b CO)</h1>
+<p class="chapo">La documentation constitue la <b>preuve</b> que l'audit a été planifié et exécuté selon
+les normes ; la communication informe la gouvernance des constats et des faiblesses.</p>
+
+<h2 id="s9-1">9.1 · Documentation d'audit (ISA-CH 230)</h2>
+<table class="compare">
+  <thead><tr><th>But / objectif</th><th>Contenu</th></tr></thead>
+  <tbody>
+    <tr><td>Fournir le <b>fondement</b> de l'opinion</td><td>Nature, calendrier, étendue des procédures ; résultats et éléments probants obtenus</td></tr>
+    <tr><td>Prouver la conformité aux normes</td><td>Traçabilité des conclusions et jugements importants</td></tr>
+    <tr><td>Critère de suffisance</td><td>Un <b>auditeur expérimenté</b> sans lien avec la mission doit pouvoir <b>comprendre</b> les travaux</td></tr>
+    <tr><td>Qui / quand</td><td>Auteur et <b>réviseur</b> des travaux, dates ; <b>assemblage</b> du dossier final en temps voulu (délai usuel <b>60 jours</b> après le rapport)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 230 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège</div>
+  « Non documenté = non fait » : un travail réellement effectué mais <b>non tracé</b> ne peut fonder
+  l'opinion. La documentation n'est pas un formalisme accessoire mais un <b>objet d'audit</b> en soi.
+</div>
+
+<h2 id="s9-2">9.2 · Communication à la gouvernance (ISA-CH 260)</h2>
+<table>
+  <thead><tr><th>Sujets à communiquer à la gouvernance</th></tr></thead>
+  <tbody>
+    <tr><td>Responsabilités de l'auditeur ; <b>étendue et calendrier</b> planifiés de l'audit</td></tr>
+    <tr><td>Constatations <b>importantes</b> (difficultés, désaccords, ajustements)</td></tr>
+    <tr><td>Déclaration d'<b>indépendance</b> de l'auditeur</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 260 <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s9-3">9.3 · Faiblesses du SCI (ISA-CH 265)</h2>
+<p>Les <b>faiblesses significatives</b> du contrôle interne relevées durant l'audit sont communiquées
+<b>par écrit</b> et en temps utile à la gouvernance. Les faiblesses mineures peuvent l'être
+oralement ou à la direction opérationnelle.</p>
+<span class="ref-sous">ISA-CH 265 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — restreint</div>
+  En contrôle <b>restreint</b>, il n'y a <b>pas</b> d'appréciation ni de rapport sur le SCI : l'ISA-CH
+  265 relève du contrôle <b>ordinaire</b>. (Rappel §1.5.)
+</div>
+
+<h2 id="s9-4">9.4 · Rapports légaux (art. 728b CO)</h2>
+<table class="compare">
+  <thead><tr><th>Rapport (contrôle ordinaire)</th><th>Destinataire</th><th>Contenu</th></tr></thead>
+  <tbody>
+    <tr><td><b>Rapport détaillé</b> <span class="ref-norme">728b al. 1</span></td><td><b>Conseil d'administration</b></td><td>Constatations sur la reddition des comptes, le SCI, l'exécution et le résultat du contrôle</td></tr>
+    <tr><td><b>Rapport succinct</b> <span class="ref-norme">728b al. 2</span></td><td><b>Assemblée générale</b></td><td>Recommandation d'approuver les comptes (avec/sans réserve), opinion</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">art. 728b CO (ordinaire) · art. 729b CO (rapport succinct en restreint) <span class="primaire">PRIMAIRE</span></span>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le rapport détaillé au CA (728b al. 1) inclut un constat sur l'<b>existence du SCI</b> (§1.5, art.
+  728a al. 1 ch. 3). L'indépendance communiquée (260) prolonge le §2.2. La documentation (230) trace
+  tout ce qui précède (§6 à §8).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quel est le critère de suffisance de la documentation (ISA-CH 230) ?</li>
+    <li>À qui s'adresse le rapport détaillé, et à qui le rapport succinct (728b CO) ?</li>
+    <li>Comment communique-t-on les faiblesses <b>significatives</b> du SCI ?</li>
+    <li><i>(Espacement §1.5)</i> Existe-t-il un rapport sur le SCI en contrôle restreint ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Un <b>auditeur expérimenté</b> non impliqué doit comprendre les travaux. 2) Détaillé → <b>CA</b> (728b al. 1) ; succinct → <b>AG</b> (728b al. 2). 3) <b>Par écrit</b> à la gouvernance (ISA-CH 265). 4) <b>Non</b>.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 10
+     ============================================================ -->
+<h1 id="s10">10 · Arbre de décision global de la planification</h1>
+<p class="chapo">Vue d'ensemble : de l'acceptation du mandat à l'arrêté du programme, l'enchaînement
+logique de la phase de planification.</p>
+
+<figure class="arbre-fig">
+<pre class="arbre">
+┌─ 1. MANDAT (phase 1) ──────────────────────────────────────────────┐
+│   Régime ? (727/727a CO)  ·  Agrément ?  ·  Indépendance ? (728 CO) │
+│   Confirmation de mandat (210)                                      │
+└───────────────────────────────┬───────────────────────────────────┘
+                                 ▼
+┌─ 2. CONNAISSANCE DE L'ENTITÉ & SCI (315) ──────────────────────────┐
+│   Facteurs externes/internes · 5 composantes du SCI                │
+│   Conception + mise en œuvre (test de cheminement)                 │
+└───────────────────────────────┬───────────────────────────────────┘
+                                 ▼
+┌─ 3. CARACTÈRE SIGNIFICATIF (320) ──────────────────────────────────┐
+│   Seuil global → performance materiality → seuils spécifiques      │
+└───────────────────────────────┬───────────────────────────────────┘
+                                 ▼
+┌─ 4. ÉVALUATION DES RISQUES (315) ──────────────────────────────────┐
+│   RMM = RI × RC  ·  niveau EF vs assertions  ·  risques signif.    │
+│   Fraude (240) : présomption revenus · triangle                    │
+└───────────────────────────────┬───────────────────────────────────┘
+                                 ▼
+┌─ 5. STRATÉGIE GÉNÉRALE (300) ──────────────────────────────────────┐
+│   Par domaine : approche « contrôles » (mixte) ou « substance » ?  │
+└───────────────────────────────┬───────────────────────────────────┘
+                                 ▼
+┌─ 6. PROGRAMME D'AUDIT (300/330) ───────────────────────────────────┐
+│   Par assertion : nature · calendrier · étendue des procédures     │
+│   RND calibré sur RMM et performance materiality                   │
+└───────────────────────────────┬───────────────────────────────────┘
+                                 ▼
+                       RÉALISATION (phase 3)
+                 (itératif : réviser si nouveaux risques)
+</pre>
+<figcaption>Arbre — enchaînement de la phase de planification (mandat → programme).</figcaption>
+</figure>
+
+<!-- ============================================================
+     SECTION 11
+     ============================================================ -->
+<h1 id="s11">11 · Faux amis / pièges d'examen</h1>
+<p class="chapo">Tableau de discrimination des confusions les plus fréquentes. À relire la veille de
+l'épreuve.</p>
+<table class="compare">
+  <thead><tr><th>Ne pas confondre</th><th>… avec</th><th>Clé de discrimination</th></tr></thead>
+  <tbody>
+    <tr><td><b>Seuil global</b> (materiality)</td><td><b>Performance materiality</b></td><td>Global = juger l'<b>opinion</b> ; performance (plus bas, ≈ 75 %) = <b>planifier l'étendue</b> (§5)</td></tr>
+    <tr><td><b>RI</b> et <b>RC</b></td><td><b>RND</b></td><td>RI/RC sont <b>subis</b> (évalués) ; seul le <b>RND</b> est piloté par l'auditeur (§6.1)</td></tr>
+    <tr><td><b>RMM</b> = RI × RC</td><td>Risque « à réduire par l'audit »</td><td>Le RMM est <b>donné</b> ; l'audit agit sur le RND, pas sur le RMM (§6.1)</td></tr>
+    <tr><td><b>Stratégie générale</b></td><td><b>Programme d'audit</b></td><td>Stratégie = <b>type</b> d'approche par domaine ; programme = <b>procédures</b> par assertion (§3)</td></tr>
+    <tr><td><b>Conception / mise en œuvre</b></td><td><b>Efficacité du fonctionnement</b></td><td>Test de <b>cheminement</b> (planif.) ≠ tests de <b>procédures</b> (réalisation) (§4.3)</td></tr>
+    <tr><td>Contrôle <b>restreint</b></td><td>Contrôle <b>ordinaire</b></td><td>Restreint = <b>pas</b> d'appréciation du SCI, pas de matérialité 320, assurance <b>modérée</b> (§1.5)</td></tr>
+    <tr><td><b>Opting-out</b></td><td><b>Opting-up</b></td><td>Out = renoncer au restreint (≤ 10 EPT + unanimité) ; up = se soumettre au restreint→ordinaire (§1.3)</td></tr>
+    <tr><td>Rapport <b>Type 1</b> (402)</td><td>Rapport <b>Type 2</b></td><td>Type 2 seul atteste l'<b>efficacité</b> et permet de réduire la substance (§8.4)</td></tr>
+    <tr><td>Présomption de fraude</td><td>sur les <b>revenus</b>, pas les charges</td><td>Réfragable mais à <b>justifier</b> (§7.3)</td></tr>
+    <tr><td>Risque d'audit</td><td>Risque d'entreprise</td><td>RA = risque d'<b>opinion erronée</b> ; ≠ risque opérationnel de l'entité (§6)</td></tr>
+  </tbody>
+</table>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Rappel édition — point d'examen</div>
+  Vérifie l'<b>édition des ISA-CH / NA-CH en vigueur</b> pour ta session : la numérotation et le
+  libellé évoluent (ex. ISA-CH 315 <i>revised 2019</i>, exception NAS-CH 890 pour les ITGC). Les
+  fourchettes de matérialité (MSA, §5.3) et certains seuils sont <b>indicatifs</b> et à reconfirmer.
+</div>
+
+<hr style="margin:26pt 0;border:none;border-top:1pt dashed #bbb">
+<p style="text-align:center;color:#888;font-size:9.5pt">
+  <i>Fin des sections 1-11 (planification). Les sections 12-14 (exécution : éléments probants &amp;
+  procédures · contrôles IT · cycle marchandises) suivent après validation.</i>
+</p>
+
+</body>
+</html>
