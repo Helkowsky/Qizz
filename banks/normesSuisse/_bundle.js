@@ -6991,7 +6991,7 @@ window.QCM_BANK["normesSuisse"] = {
      "explications": [
       "Faux. La sortie de fonds n'étant pas vraisemblable, les conditions d'une provision ne sont pas réunies (RPC 23).",
       "Faux. Un cautionnement en faveur d'un tiers n'est pas une dette de l'entité tant qu'il n'est pas appelé (RPC 23).",
-      "Vrai. Le cautionnement en faveur d'un tiers, à sortie possible mais non vraisemblable, est un engagement conditionnel présenté en annexe seulement (RPC 23, RPC CC/20).",
+      "Vrai. Le cautionnement en faveur d'un tiers, à sortie possible mais non vraisemblable, est un engagement conditionnel présenté en annexe seulement (RPC 23, RPC CC 17-18).",
       "Faux. L'engagement conditionnel doit précisément être publié en annexe, même s'il n'est pas comptabilisé au bilan (RPC 23)."
      ]
     },
