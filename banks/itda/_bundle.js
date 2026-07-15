@@ -940,14 +940,14 @@ window.QCM_BANK["itda"] = {
       "4 phases",
       "5 phases"
      ],
-     "correct": 1,
+     "correct": 2,
      "explications": [
-      "Faux : deux phases (préparation/conclusion) ne rendent pas compte du modèle, qui distingue au minimum l'identification des risques, l'évaluation des contrôles et l'appréciation finale.",
-      "Bonne réponse (version du cours) : le cours détaillé regroupe explicitement les 7 étapes en TROIS phases — (I) planification / identification des risques (étapes 1-3), (II) stratégie & évaluation des risques (étapes 4-6), (III) appréciation / conclusion (étape 7). C'est le découpage à retenir (mémento §5.2).",
-      "Découpage alternatif plausible : d'anciennes clés reconstruites isolaient l'évaluation de l'efficacité comme 4e phase. Mais le cours énonce 3 phases — à l'examen, s'en tenir au regroupement en 3 phases du support. Ne pas confondre les 3 phases avec les 6-7 ÉTAPES.",
-      "Faux : cinq ne correspond ni au nombre de phases ni au nombre d'étapes (6-7 selon le support) ; ce chiffre évoque plutôt les 5 domaines ITGC (BE/AN/ZU/SI/CM), une autre taxonomie."
+      "Faux : deux phases ne rendent pas compte du modèle, qui distingue au minimum la planification/identification des risques, la stratégie/évaluation, la mise en œuvre et la conclusion.",
+      "Découpage alternatif : un résumé du podcast regroupe les étapes 4-6 en une seule phase « stratégie & évaluation », ce qui donne 3 phases (1-3 / 4-6 / 7). Défendable, mais ce n'est pas le découpage nommé par le support.",
+      "Bonne réponse : le support (EXPERTsuisse, Module 6 Partie 7 — « Modèle de procédure pour l'audit informatique ») nomme explicitement QUATRE phases, qui sont les quatre intitulés de sections du podcast : (I) Planification & identification des risques (étapes 1-3) ; (II) Stratégie & évaluation des risques (étapes 4-5) ; (III) Manifestation / mise en œuvre (étape 6) ; (IV) Conclusion & rapport d'audit (étape 7). Ne pas confondre ces 4 phases avec les 7 ÉTAPES (mémento §5.2).",
+      "Faux : cinq ne correspond ni au nombre de phases ni au nombre d'étapes (7 selon le support) ; ce chiffre évoque plutôt les 5 domaines ITGC (BE/AN/ZU/SI/CM), une autre taxonomie."
      ],
-     "piege": "3 phases (cours) vs 4 (clé reconstruite)"
+     "piege": "4 phases nommées vs 3 (résumé)"
     },
     {
      "id": "IT-038",
