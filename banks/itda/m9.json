@@ -78,7 +78,7 @@
   {
    "id": "IT-074",
    "champ": "Planification — pic d'activations d'immobilisations",
-   "memento": "§9.1",
+   "memento": "§7.2 · §9.1",
    "difficulte": 3,
    "question": "Contrôle ordinaire : en janvier-février, 5 immobilisations de plus de CHF 50 000 chacune ont été activées, alors que le reste de l'année ~100 immobilisations d'env. CHF 3 000 l'ont été (comme l'année précédente, activations régulières). Quelle conclusion pour la planification du contrôle ?",
    "options": [
@@ -237,7 +237,7 @@
   {
    "id": "IT-081",
    "champ": "Granularité & agrégation (Salesforce → SAP)",
-   "memento": "§8.3 (granularité / réconciliation)",
+   "memento": "§7.1 · §9.1",
    "difficulte": 3,
    "question": "Dans Salesforce, quantité, prix de vente et prix coûtant sont saisis par vente ; chaque jour les données sont cumulées puis chargées dans SAP (CA et charges de marchandises agrégés). Marge = (CA − charges) / CA. Quelle affirmation sur les valeurs aberrantes de marge est FAUSSE ?",
    "options": [

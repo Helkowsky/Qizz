@@ -67,7 +67,7 @@
     "Faux : l'étendue primaire ne couvre pas l'ensemble des processus commerciaux — elle est bornée par la pertinence pour l'audit des comptes annuels ; y inclure tous les processus dilue le périmètre au-delà du rôle de l'auditeur financier.",
     "Faux : l'étendue primaire se définit en premier (c'est le cœur du périmètre) ; elle ne dépend pas de l'étendue secondaire et n'a pas pour objet la constitution de l'équipe d'audit.",
     "Faux : « tous les risques importants ainsi que l'entreprise elle-même » est trop large — l'étendue primaire ne vise pas l'entreprise en général, mais uniquement les contrôles, données et systèmes pertinents pour les états financiers.",
-    "Correct : l'étendue primaire comprend les contrôles, données et systèmes présentant un intérêt pour l'audit des comptes annuels ; les procédures de contrôle sont ensuite développées en fonction de l'environnement informatique propre à l'entreprise — cohérent avec le périmètre restreint de l'auditeur financier (mémento §13)."
+    "Correct : l'étendue primaire comprend les contrôles, données et systèmes présentant un intérêt pour l'audit des comptes annuels ; les procédures de contrôle sont ensuite développées en fonction de l'environnement informatique propre à l'entreprise — cohérent avec le périmètre restreint de l'auditeur financier (mémento §13). [La terminologie « étendue primaire/secondaire » n'apparaît pas telle quelle dans le mémento ; la conclusion découle de son principe de périmètre borné aux comptes.]"
    ],
    "piege": "Étendue bornée aux comptes"
   },
@@ -137,7 +137,7 @@
     1
    ],
    "explications": [
-    "Correct : l'utilisation non sécurisée des services cloud figure parmi les cyber-menaces typiques, aux côtés du ransomware, des attaques sur les paiements et du phishing.",
+    "Correct : l'utilisation non sécurisée des services cloud figure parmi les cyber-menaces typiques, aux côtés du ransomware, des attaques sur les paiements et du phishing. [Écart mémento : la liste des cyber-menaces et des mesures personnelles n'est pas énumérée dans le mémento §13 ; réponse fondée sur la source d'examen.]",
     "Correct : la sécurité des mots de passe et la sécurité des appareils font partie des mesures personnelles typiques de cybersécurité, avec la sécurité physique.",
     "Faux : le management override (suppression des contrôles par la direction) est un risque de fraude traité par l'ISA-CH 240 et le JET (§11), pas une cyber-menace — l'option mélange deux familles de risques.",
     "Faux : la « sécurité réglementaire » n'est pas une mesure personnelle — les mesures personnelles typiques sont la sécurité des mots de passe, des appareils et la sécurité physique ; la conformité réglementaire relève du niveau organisationnel."

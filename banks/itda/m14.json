@@ -110,7 +110,7 @@
   {
    "id": "IT-127",
    "champ": "Audit de migration — objectif & socle ITGC",
-   "memento": "§14.1",
+   "memento": "§14.1 · §3.2",
    "difficulte": 3,
    "question": "Quel est l'objectif d'un audit de migration de données, et sur quel contrôle ITGC s'appuie-t-il ?",
    "options": [

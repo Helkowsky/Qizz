@@ -73,7 +73,7 @@
   {
    "id": "IT-030",
    "champ": "Test des ITAC",
-   "memento": "§4.3",
+   "memento": "§4.3 · §5.1",
    "difficulte": 1,
    "question": "Laquelle de ces opérations d'audit n'est PAS une opération typique de vérification d'un contrôle applicatif automatisé (ITAC) ?",
    "options": [
@@ -84,11 +84,12 @@
    ],
    "correct": 2,
    "explications": [
-    "La réexécution (test direct) est une opération typique : l'ITAC étant déterministe, l'auditeur peut rejouer le contrôle et comparer le résultat obtenu au résultat attendu — pas la bonne réponse.",
-    "Le baselining/benchmarking est typique pour un ITAC stable : on valide le contrôle une fois, puis on vérifie sur les exercices suivants qu'il n'a pas été modifié (prolongement du « test of one », mémento §5.1) — pas la bonne réponse.",
-    "Bonne réponse : l'observation vise les contrôles exécutés par des personnes (contrôles manuels ou physiques). Un contrôle programmé, déterministe et sans manifestation visible, ne se vérifie pas en le regardant fonctionner, mais en le réexécutant ou en analysant ses résultats.",
-    "L'analyse de données est une opération typique : elle permet de vérifier sur l'ensemble de la population que le contrôle automatisé a produit les effets attendus — pas la bonne réponse."
-   ]
+    "La réexécution (test direct) est une opération typique : l'ITAC étant déterministe, l'auditeur rejoue le contrôle et compare le résultat obtenu au résultat attendu — c'est l'inspection/réexécution citée au mémento §4.3. Pas la bonne réponse.",
+    "Le baselining/benchmarking est typique pour un ITAC stable : on valide le contrôle une fois, puis on vérifie sur les exercices suivants qu'il n'a pas été modifié — c'est le benchmarking qui prolonge le « test of one » (mémento §5.1, tableau de stratégie). Pas la bonne réponse.",
+    "Bonne réponse : l'observation figure certes parmi les procédures ISA-CH 330 listées au mémento §4.3, mais elle sert à constater un contrôle exécuté par une PERSONNE. Un ITAC est déterministe et sans manifestation visible : il n'y a rien à « regarder fonctionner » — on le teste par réexécution, benchmarking ou analyse des données. C'est donc la seule opération de la liste qui n'est pas typique d'un contrôle automatisé.",
+    "L'analyse de données est une opération typique : elle permet de vérifier sur l'ensemble de la population que le contrôle automatisé a produit les effets attendus (Data Analytics, mémento §7). Pas la bonne réponse."
+   ],
+   "piege": "observation = contrôle exécuté par une personne"
   },
   {
    "id": "IT-031",

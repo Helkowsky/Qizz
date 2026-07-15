@@ -262,7 +262,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-011",
      "champ": "Audit des applications/progiciels standard",
-     "memento": "§2.4",
+     "memento": "§2.4 · §10.3",
      "difficulte": 3,
      "question": "Concernant l'audit d'applications/progiciels standard, quelles affirmations sont correctes ?",
      "options": [
@@ -286,7 +286,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-012",
      "champ": "Affirmations sur l'environnement IT",
-     "memento": "§2.4",
+     "memento": "§2.4 · §10.1",
      "difficulte": 2,
      "question": "Sur le mandat LEX SA (contrôle ordinaire), votre assistante formule des affirmations sur l'environnement informatique. Laquelle est correcte ?",
      "options": [
@@ -307,7 +307,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-013",
      "champ": "Risques d'implémentation et de migration d'un ERP",
-     "memento": "§2.1",
+     "memento": "§2.1 · §3.2",
      "difficulte": 2,
      "question": "Un client (contrôle ordinaire) remplace sa comptabilité Excel par un ERP puis, plus tard, migre d'un ERP vers un autre. Quelles affirmations sur les risques sont correctes ?",
      "options": [
@@ -337,7 +337,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-014",
      "champ": "Domaines & finalité des GITC",
-     "memento": "§3.2–3.3",
+     "memento": "§3.1 · §3.3",
      "difficulte": 2,
      "question": "Concernant les domaines et la finalité des contrôles IT généraux (GITC / ITGC), quelles affirmations sont correctes ?",
      "options": [
@@ -478,7 +478,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-020",
      "champ": "Responsabilité du SCI & niveaux IT",
-     "memento": "§3.4",
+     "memento": "§2.2 · §3.1",
      "difficulte": 2,
      "question": "Vous déléguez la vérification du SCI et discutez du périmètre des niveaux de systèmes IT. Quelles affirmations sont correctes ?",
      "options": [
@@ -501,7 +501,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-021",
      "champ": "Assertions correctes en audit IT",
-     "memento": "§3.1",
+     "memento": "§3.4 · §5.3",
      "difficulte": 2,
      "question": "Quelles assertions sont correctes dans le cadre d'un audit IT d'une entreprise soumise au contrôle ordinaire ?",
      "options": [
@@ -525,7 +525,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-022",
      "champ": "Comptes partagés & contrôles fiables",
-     "memento": "§3.2",
+     "memento": "§3.2 · §4.1",
      "difficulte": 3,
      "question": "Lors de l'audit des GITC, le spécialiste IT constate que des collaborateurs métier (Ventes, Achats, RH, Finances) partagent parfois leurs identifiants, mais ne peuvent apporter aucune modification au système ni exécuter d'activités IT spécifiques. Sur quels contrôles système pouvez-vous néanmoins vous appuyer ?",
      "options": [
@@ -573,7 +573,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-024",
      "champ": "Constatations d'accès & compensation",
-     "memento": "§3.2",
+     "memento": "§3.2 · §6.3",
      "difficulte": 3,
      "question": "Constatations sur la gestion des accès — quelles assertions sont correctes ?",
      "options": [
@@ -739,7 +739,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-030",
      "champ": "Test des ITAC",
-     "memento": "§4.3",
+     "memento": "§4.3 · §5.1",
      "difficulte": 1,
      "question": "Laquelle de ces opérations d'audit n'est PAS une opération typique de vérification d'un contrôle applicatif automatisé (ITAC) ?",
      "options": [
@@ -750,11 +750,12 @@ window.QCM_BANK["itda"] = {
      ],
      "correct": 2,
      "explications": [
-      "La réexécution (test direct) est une opération typique : l'ITAC étant déterministe, l'auditeur peut rejouer le contrôle et comparer le résultat obtenu au résultat attendu — pas la bonne réponse.",
-      "Le baselining/benchmarking est typique pour un ITAC stable : on valide le contrôle une fois, puis on vérifie sur les exercices suivants qu'il n'a pas été modifié (prolongement du « test of one », mémento §5.1) — pas la bonne réponse.",
-      "Bonne réponse : l'observation vise les contrôles exécutés par des personnes (contrôles manuels ou physiques). Un contrôle programmé, déterministe et sans manifestation visible, ne se vérifie pas en le regardant fonctionner, mais en le réexécutant ou en analysant ses résultats.",
-      "L'analyse de données est une opération typique : elle permet de vérifier sur l'ensemble de la population que le contrôle automatisé a produit les effets attendus — pas la bonne réponse."
-     ]
+      "La réexécution (test direct) est une opération typique : l'ITAC étant déterministe, l'auditeur rejoue le contrôle et compare le résultat obtenu au résultat attendu — c'est l'inspection/réexécution citée au mémento §4.3. Pas la bonne réponse.",
+      "Le baselining/benchmarking est typique pour un ITAC stable : on valide le contrôle une fois, puis on vérifie sur les exercices suivants qu'il n'a pas été modifié — c'est le benchmarking qui prolonge le « test of one » (mémento §5.1, tableau de stratégie). Pas la bonne réponse.",
+      "Bonne réponse : l'observation figure certes parmi les procédures ISA-CH 330 listées au mémento §4.3, mais elle sert à constater un contrôle exécuté par une PERSONNE. Un ITAC est déterministe et sans manifestation visible : il n'y a rien à « regarder fonctionner » — on le teste par réexécution, benchmarking ou analyse des données. C'est donc la seule opération de la liste qui n'est pas typique d'un contrôle automatisé.",
+      "L'analyse de données est une opération typique : elle permet de vérifier sur l'ensemble de la population que le contrôle automatisé a produit les effets attendus (Data Analytics, mémento §7). Pas la bonne réponse."
+     ],
+     "piege": "observation = contrôle exécuté par une personne"
     },
     {
      "id": "IT-031",
@@ -973,7 +974,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-039",
      "champ": "Cas Oracle — niveaux & type",
-     "memento": "§5.2",
+     "memento": "§2.2 · §4.1",
      "difficulte": 3,
      "question": "Risque : des modifications non autorisées des données de base fournisseurs (Oracle) faussent les dettes fournisseurs. Un contrôle automatique géré par Oracle restreint l'accès à la base de données (3 collaborateurs autorisés) ; la base se situe au niveau base de données d'Oracle, et deux administrateurs système accèdent à la BD et à l'application. Quels niveaux technologiques sont pertinents pour vérifier ce contrôle automatisé, et de quel type de contrôle s'agit-il ?",
      "options": [
@@ -1070,7 +1071,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-043",
      "champ": "GITC↔ITAC & dépendances IT",
-     "memento": "§5.1",
+     "memento": "§1.3 · §4.2",
      "difficulte": 2,
      "question": "Relations entre GITC, contrôles d'applications et dépendances informatiques. Quelles affirmations sont correctes ?",
      "options": [
@@ -1085,7 +1086,7 @@ window.QCM_BANK["itda"] = {
      ],
      "explications": [
       "Exact : les GITC sécurisent l'environnement (accès, changements, exploitation) et constituent ainsi le socle sur lequel les ITAC peuvent fonctionner durablement (mémento §4.2).",
-      "Exact : les cinq types de dépendances informatiques sont les contrôles automatisés, les rapports, les calculs, les interfaces et la sécurité (séparation des tâches / accès restreint) (mémento §5.1).",
+      "Exact : les cinq types de dépendances informatiques sont les contrôles automatisés, les rapports, les calculs, les interfaces et la sécurité (séparation des tâches / accès restreint) (mémento §1.3).",
       "Faux : c'est l'inversion classique de la relation — les ITAC reposent sur les GITC, jamais l'inverse ; si les GITC sous-jacents sont déficients, la fiabilité des ITAC s'effondre (mémento §4.2).",
       "Faux : la paramétrabilité (personnalisation) ne figure pas parmi les cinq dépendances informatiques ; la liste se limite à contrôles automatisés, rapports, calculs, interfaces et sécurité."
      ],
@@ -1117,7 +1118,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-045",
      "champ": "Cas Salesforce — population & risque",
-     "memento": "§5.1",
+     "memento": "§5.1 · §6.2",
      "difficulte": 3,
      "question": "Sales Walkthrough (Salesforce) : vous aviez documenté 2 personnes comptabilisant les ventes, mais l'auditeur IT constate 10 personnes habilitées (dont 2 parties et 4 hors département), et le contrôle de revue n'a été testé que pour 2 d'entre elles. Quelles affirmations sont correctes ?",
      "options": [
@@ -1167,7 +1168,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-046",
      "champ": "Déficience d'un contrôle automatisé",
-     "memento": "§6.3",
+     "memento": "§6.2 · §6.3",
      "difficulte": 3,
      "question": "Un contrôle automatisé (p. ex. three-way-match SAP) est jugé inefficace / un déficit de GITC est constaté, alors qu'on souhaitait s'appuyer sur l'IT. Quelles marches à suivre sont correctes ?",
      "options": [
@@ -1212,7 +1213,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-048",
      "champ": "Contrôles compensatoires & qualité des données",
-     "memento": "§6.3",
+     "memento": "§6.2 · §6.3",
      "difficulte": 2,
      "question": "GITC déficients : quelles affirmations sur les contrôles compensatoires et la qualité des données sont correctes ?",
      "options": [
@@ -1251,7 +1252,7 @@ window.QCM_BANK["itda"] = {
      ],
      "explications": [
       "Exact : des déficits de conception et d'efficacité des GITC touchant le risque d'anomalie significative sont suffisamment importants pour mériter l'attention des responsables de la gouvernance : c'est un déficit significatif à communiquer (ISA-CH 265.6(a) ; mémento §6.1).",
-      "Exact : l'ISA-CH 265 exige une communication PAR ÉCRIT aux responsables de la surveillance (gouvernance), en pratique dans le rapport exhaustif (détaillé).",
+      "Exact : l'ISA-CH 265 exige une communication PAR ÉCRIT aux responsables de la surveillance (gouvernance), en pratique dans le rapport exhaustif (détaillé). Nuance de révision : le mémento §6.1 définit le déficit significatif et renvoie à la communication (ISA-CH 265.6(a)), mais ne détaille pas la forme écrite — cette exigence vient de la norme ISA-CH 265 elle-même, au-delà du texte condensé.",
       "Faux : une divergence (écart) unique et sans effet n'est pas un déficit significatif — un écart ne constitue même pas toujours une déficience (mémento §6.1) ; il faut qualifier la faiblesse avant de décider de sa communication.",
       "Faux : pour un déficit significatif, une information orale à la direction ne suffit pas — la forme écrite et le destinataire (responsables de la surveillance) sont tous deux requis par l'ISA-CH 265."
      ]
@@ -1259,7 +1260,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-050",
      "champ": "Faiblesse GITC → stratégie & DA",
-     "memento": "§6.2",
+     "memento": "§6.2 · §6.3",
      "difficulte": 3,
      "question": "Vous ne pouvez confirmer que la conception/mise en œuvre — non l'efficacité — de certains GITC/contrôles, et vous souhaitez recourir à la Data Analytics. Quelles affirmations sont correctes ?",
      "options": [
@@ -1310,7 +1311,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-051",
      "champ": "Phases d'application de la DA",
-     "memento": "§7.3",
+     "memento": "§7 · §7.3",
      "difficulte": 1,
      "question": "À quelles étapes du processus d'audit la Data Analytics (et, plus largement, l'automatisation de l'audit) peut-elle être utilisée ?",
      "options": [
@@ -1383,7 +1384,7 @@ window.QCM_BANK["itda"] = {
      "explications": [
       "Faux : c'est le contraire — le Big Data se caractérise notamment par une grande diversité (variété) des données, pas par leur homogénéité.",
       "Faux : des données analysées manuellement sont précisément ce que le Big Data exclut — son volume et sa complexité dépassent les capacités d'un traitement manuel ou traditionnel.",
-      "Correct : le Big Data désigne des ensembles de données dont le volume ou la complexité dépassent les capacités des méthodes de traitement traditionnelles (mémento §7.3).",
+      "Correct : le Big Data désigne des ensembles de données dont le volume ou la complexité dépassent les capacités des méthodes de traitement traditionnelles. Nuance de révision : le terme « Big Data » n'est pas défini comme tel dans le mémento condensé (le §7.3 évoque le Data Mining et les predictive analytics) ; la définition retenue ici est la définition standard, à connaître au-delà du texte du mémento.",
       "Faux : définition inversée — de faibles volumes de données faciles à gérer sont exactement l'opposé du Big Data."
      ]
     },
@@ -1530,7 +1531,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-061",
      "champ": "Planification & documentation d'une DA",
-     "memento": "§7.1",
+     "memento": "§7.1 · §8.2",
      "difficulte": 2,
      "question": "Bonnes pratiques pour planifier une DA chez un client soumis au contrôle ordinaire — quelles affirmations sont correctes ?",
      "options": [
@@ -1651,7 +1652,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-065",
      "champ": "Préparation & mapping après export",
-     "memento": "§8.1",
+     "memento": "§7.1",
      "difficulte": 2,
      "question": "Après l'export, concernant la routine de préparation et le mapping des données :",
      "options": [
@@ -1738,7 +1739,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-069",
      "champ": "Mois manquant : risque d'extraction",
-     "memento": "§8.3",
+     "memento": "§8.2 · §8.3",
      "difficulte": 3,
      "question": "Le spécialiste DA vous remet un dashboard Power BI présentant toutes les entrées de chiffre d'affaires de l'année. Séduit par les graphiques, vous constatez qu'il manque tout le mois de février dans l'évolution du chiffre d'affaires. Quel risque faut-il maîtriser en priorité pour éviter une telle erreur ?",
      "options": [
@@ -1759,7 +1760,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-070",
      "champ": "Intégrité & exhaustivité : causes d'erreur",
-     "memento": "§8.3",
+     "memento": "§8.2 · §8.3",
      "difficulte": 3,
      "question": "Concernant l'intégrité et l'exhaustivité des données extraites et transmises, quelles affirmations sont correctes ?",
      "options": [
@@ -1884,7 +1885,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-074",
      "champ": "Planification — pic d'activations d'immobilisations",
-     "memento": "§9.1",
+     "memento": "§7.2 · §9.1",
      "difficulte": 3,
      "question": "Contrôle ordinaire : en janvier-février, 5 immobilisations de plus de CHF 50 000 chacune ont été activées, alors que le reste de l'année ~100 immobilisations d'env. CHF 3 000 l'ont été (comme l'année précédente, activations régulières). Quelle conclusion pour la planification du contrôle ?",
      "options": [
@@ -2043,7 +2044,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-081",
      "champ": "Granularité & agrégation (Salesforce → SAP)",
-     "memento": "§8.3 (granularité / réconciliation)",
+     "memento": "§7.1 · §9.1",
      "difficulte": 3,
      "question": "Dans Salesforce, quantité, prix de vente et prix coûtant sont saisis par vente ; chaque jour les données sont cumulées puis chargées dans SAP (CA et charges de marchandises agrégés). Marge = (CA − charges) / CA. Quelle affirmation sur les valeurs aberrantes de marge est FAUSSE ?",
      "options": [
@@ -2108,7 +2109,7 @@ window.QCM_BANK["itda"] = {
      "explications": [
       "Correct : l'IPE désigne toute information créée par l'entité — via ses applications IT, ses outils EUC ou manuellement — dès lors qu'elle sert de base à un contrôle, d'élément probant ou de population de sélection (mémento §10.1, ISA-CH 500.9).",
       "Correct : l'EUC est un outil individuel autonome, typiquement Excel ; l'information qui y est créée ou modifiée risque de ne pas être complète, exacte ou pertinente — c'est précisément le 5e risque IPE (mémento §10.2).",
-      "Correct : l'IUC (Information Used by Control) désigne les informations que l'entité utilise pour mettre en œuvre ou exécuter ses propres contrôles internes ; c'est un concept voisin de l'IPE mais distinct — l'IPE sert de preuve à l'auditeur, l'IUC sert aux contrôles de l'entité.",
+      "Correct : l'IUC (Information Used by Control) désigne les informations que l'entité utilise pour mettre en œuvre ou exécuter ses propres contrôles internes ; c'est un concept voisin de l'IPE mais distinct — l'IPE sert de preuve à l'auditeur, l'IUC sert aux contrôles de l'entité. Tension à connaître : le mémento §10.1 (⚠️ Piège) signale « IUC » comme un sigle ABSENT de son corpus (piège de vocabulaire importé) ; la définition donnée ici reste néanmoins exacte sur le fond, raison pour laquelle la source d'examen la retient comme affirmation correcte.",
       "Faux : l'IUC concerne les contrôles exécutés par l'entité, pas la vérification faite par l'auditeur ; attribuer ces informations à l'auditeur confond l'IUC avec les éléments probants qu'il collecte lui-même. Le sigle IUC n'appartient d'ailleurs pas au corpus IPE/EUC du mémento (§10.1) — c'est un faux ami de vocabulaire."
      ],
      "piege": "Sigle IUC : faux ami"
@@ -2187,7 +2188,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-087",
      "champ": "Assertions IPE via GITC & EUC Excel",
-     "memento": "§10.1",
+     "memento": "§10.1 · §10.2",
      "difficulte": 3,
      "question": "Pour un client soumis au contrôle ordinaire, vous vous appuyez sur un fichier Excel (EUC) d'évaluation des engagements de leasing, ainsi que sur des rapports système (IPE). Quelles affirmations sont correctes ?",
      "options": [
@@ -2283,7 +2284,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-090",
      "champ": "Objectif du JET & management override",
-     "memento": "§11.1",
+     "memento": "§11.1 · §11.2",
      "difficulte": 2,
      "question": "Concernant l'objectif du Journal Entry Testing (ISA-CH 240), lesquelles des affirmations suivantes sont correctes ?",
      "options": [
@@ -2318,7 +2319,7 @@ window.QCM_BANK["itda"] = {
      "correct": 1,
      "explications": [
       "Faux : une erreur est par définition non intentionnelle ; l'ISA-CH 240 distingue précisément la fraude (acte intentionnel) de l'erreur, même si les deux peuvent conduire à des anomalies significatives.",
-      "Correct : selon l'ISA-CH 240, la fraude est un acte intentionnel conduisant à des anomalies, sous deux formes : l'information financière mensongère (fraudulent financial reporting) et le détournement d'actifs (mémento §11.1).",
+      "Correct : selon l'ISA-CH 240, la fraude est un acte intentionnel conduisant à des anomalies, sous deux formes : l'information financière mensongère (fraudulent financial reporting) et le détournement d'actifs. [Écart mémento : le §11 rappelle l'obligation du JET face au management override mais n'énumère pas ces deux formes — définition issue directement de l'ISA-CH 240.]",
       "Faux : la qualification pénale et le préjudice causé à l'entreprise relèvent du droit pénal, pas de la définition d'audit ; l'auditeur ne se prononce pas juridiquement, et la fraude au sens ISA-CH 240 n'exige ni infraction constatée ni préjudice direct pour l'entité.",
       "Faux : une saisie incorrecte due au manque de connaissances est une erreur (non intentionnelle), pas une fraude — l'intention est le critère distinctif de l'ISA-CH 240."
      ]
@@ -2350,7 +2351,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-093",
      "champ": "Échantillon de suivi & scepticisme",
-     "memento": "§11.1 et §11.3",
+     "memento": "§11.1 · §11.3",
      "difficulte": 2,
      "question": "Face à un rapport présentant de nombreuses divergences potentielles, comment sélectionner l'échantillon de suivi et appliquer le scepticisme professionnel dans le JET ?",
      "options": [
@@ -2404,7 +2405,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-095",
      "champ": "Modèles de service cloud",
-     "memento": "§12 (couches d'externalisation §2)",
+     "memento": "§12.2",
      "difficulte": 2,
      "question": "Deux situations d'externalisation sont soumises à l'auditeur. Quelles affirmations sur le modèle de service cloud concerné sont correctes ?",
      "options": [
@@ -2418,7 +2419,7 @@ window.QCM_BANK["itda"] = {
       1
      ],
      "explications": [
-      "Correct : une application utilisée via le cloud sans que le client ne gère l'infrastructure relève du SaaS — le prestataire prend en charge toutes les couches jusqu'à l'application incluse (spectre empilé Housing → IaaS → PaaS → SaaS, mémento §2).",
+      "Correct : une application utilisée via le cloud sans que le client ne gère l'infrastructure relève du SaaS — le prestataire prend en charge toutes les couches jusqu'à l'application incluse (spectre empilé Housing → IaaS → PaaS → SaaS, cité au mémento §12.2 connexions ; le détail couche par couche n'y est pas développé).",
       "Correct : si le prestataire ne fournit que le serveur (physique ou virtuel) et que le client exploite tout le reste (système d'exploitation, base de données, application), il s'agit de l'IaaS — seule l'infrastructure est externalisée.",
       "Faux : dans un PaaS, le fournisseur met à disposition la plateforme complète (infrastructure + système d'exploitation + base de données/middleware), le client ne gérant que ses applications ; la description donnée (réseau et matériel seuls, OS et base de données chez le client) correspond plutôt au housing/IaaS.",
       "Faux : « WaaS » n'est pas un modèle du spectre d'externalisation cloud — les modèles standard sont Housing, IaaS, PaaS et SaaS ; c'est un sigle inventé qui sert de distracteur."
@@ -2443,7 +2444,7 @@ window.QCM_BANK["itda"] = {
       2
      ],
      "explications": [
-      "Correct : le passage au cloud est un changement significatif de l'environnement IT ; classifier les données autorisées à être traitées ou sauvegardées dans le cloud est une mesure de gouvernance clé — toutes les données n'ont pas vocation à quitter l'entreprise.",
+      "Correct : le passage au cloud est un changement significatif de l'environnement IT ; classifier les données autorisées à être traitées ou sauvegardées dans le cloud est une mesure de gouvernance clé — toutes les données n'ont pas vocation à quitter l'entreprise. [Écart mémento : ces mesures de gouvernance cloud — classification, localisation, chiffrement — ne sont pas détaillées au §12, centré sur les rapports SOC ; réponse fondée sur la source d'examen.]",
       "Correct : définir les pays dans lesquels les données peuvent être stockées répond aux exigences de localisation des données (protection des données, accès d'autorités étrangères, conservation) — mesure standard d'encadrement du cloud.",
       "Correct : le chiffrement des données lors du transfert et du stockage par des procédés cryptographiques est un contrôle standard face aux risques de confidentialité et d'intégrité liés au cloud.",
       "Faux : le cloud privé (dédié à l'organisation) et le cloud public présentent des profils de risque différents (mutualisation, degré de contrôle, localisation) ; les traiter comme un seul environnement ignore cette différence et ne constitue pas une mesure de maîtrise des risques."
@@ -2485,7 +2486,7 @@ window.QCM_BANK["itda"] = {
      "correct": 1,
      "explications": [
       "Faux : la distinction BCM/ORM n'oppose pas risques financiers et non financiers — la BCM protège les fonctions critiques en cas de crise quelle que soit la nature du risque, et l'ORM couvre l'ensemble des risques opérationnels en amont.",
-      "Correct : la BCM (norme de référence ISO 22301) garantit que l'entreprise reste opérationnelle en situation de crise et se rétablit après des pertes — protection des fonctions critiques, plans de crise/urgence/continuité/rétablissement, objectifs RTO/RPO — tandis que l'ORM identifie et prévient les risques avant la survenance des crises.",
+      "Correct : la BCM (norme de référence ISO 22301) garantit que l'entreprise reste opérationnelle en situation de crise et se rétablit après des pertes — protection des fonctions critiques, plans de crise/urgence/continuité/rétablissement, objectifs RTO/RPO — tandis que l'ORM identifie et prévient les risques avant la survenance des crises. [Écart mémento : la distinction BCM/ORM (ISO 22301, RTO/RPO) n'est pas traitée dans le mémento §12 ; réponse fondée sur la source d'examen.]",
       "Faux : c'est l'inverse — l'identification et la prévention des risques en amont caractérisent l'ORM ; la BCM intervient sur la continuité et le rétablissement en cas de crise, pas sur la prévention des risques de processus.",
       "Faux : la distinction ne porte pas sur le caractère influençable des risques — la BCM prépare la réponse à la crise, y compris pour des risques maîtrisables, et l'ORM gère aussi des risques externes que l'entreprise ne contrôle pas."
      ]
@@ -2603,7 +2604,7 @@ window.QCM_BANK["itda"] = {
       "Faux : l'étendue primaire ne couvre pas l'ensemble des processus commerciaux — elle est bornée par la pertinence pour l'audit des comptes annuels ; y inclure tous les processus dilue le périmètre au-delà du rôle de l'auditeur financier.",
       "Faux : l'étendue primaire se définit en premier (c'est le cœur du périmètre) ; elle ne dépend pas de l'étendue secondaire et n'a pas pour objet la constitution de l'équipe d'audit.",
       "Faux : « tous les risques importants ainsi que l'entreprise elle-même » est trop large — l'étendue primaire ne vise pas l'entreprise en général, mais uniquement les contrôles, données et systèmes pertinents pour les états financiers.",
-      "Correct : l'étendue primaire comprend les contrôles, données et systèmes présentant un intérêt pour l'audit des comptes annuels ; les procédures de contrôle sont ensuite développées en fonction de l'environnement informatique propre à l'entreprise — cohérent avec le périmètre restreint de l'auditeur financier (mémento §13)."
+      "Correct : l'étendue primaire comprend les contrôles, données et systèmes présentant un intérêt pour l'audit des comptes annuels ; les procédures de contrôle sont ensuite développées en fonction de l'environnement informatique propre à l'entreprise — cohérent avec le périmètre restreint de l'auditeur financier (mémento §13). [La terminologie « étendue primaire/secondaire » n'apparaît pas telle quelle dans le mémento ; la conclusion découle de son principe de périmètre borné aux comptes.]"
      ],
      "piege": "Étendue bornée aux comptes"
     },
@@ -2673,7 +2674,7 @@ window.QCM_BANK["itda"] = {
       1
      ],
      "explications": [
-      "Correct : l'utilisation non sécurisée des services cloud figure parmi les cyber-menaces typiques, aux côtés du ransomware, des attaques sur les paiements et du phishing.",
+      "Correct : l'utilisation non sécurisée des services cloud figure parmi les cyber-menaces typiques, aux côtés du ransomware, des attaques sur les paiements et du phishing. [Écart mémento : la liste des cyber-menaces et des mesures personnelles n'est pas énumérée dans le mémento §13 ; réponse fondée sur la source d'examen.]",
       "Correct : la sécurité des mots de passe et la sécurité des appareils font partie des mesures personnelles typiques de cybersécurité, avec la sécurité physique.",
       "Faux : le management override (suppression des contrôles par la direction) est un risque de fraude traité par l'ISA-CH 240 et le JET (§11), pas une cyber-menace — l'option mélange deux familles de risques.",
       "Faux : la « sécurité réglementaire » n'est pas une mesure personnelle — les mesures personnelles typiques sont la sécurité des mots de passe, des appareils et la sécurité physique ; la conformité réglementaire relève du niveau organisationnel."
@@ -2817,7 +2818,7 @@ window.QCM_BANK["itda"] = {
     {
      "id": "IT-127",
      "champ": "Audit de migration — objectif & socle ITGC",
-     "memento": "§14.1",
+     "memento": "§14.1 · §3.2",
      "difficulte": 3,
      "question": "Quel est l'objectif d'un audit de migration de données, et sur quel contrôle ITGC s'appuie-t-il ?",
      "options": [

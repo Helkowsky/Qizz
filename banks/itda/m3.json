@@ -5,7 +5,7 @@
   {
    "id": "IT-014",
    "champ": "Domaines & finalité des GITC",
-   "memento": "§3.2–3.3",
+   "memento": "§3.1 · §3.3",
    "difficulte": 2,
    "question": "Concernant les domaines et la finalité des contrôles IT généraux (GITC / ITGC), quelles affirmations sont correctes ?",
    "options": [
@@ -146,7 +146,7 @@
   {
    "id": "IT-020",
    "champ": "Responsabilité du SCI & niveaux IT",
-   "memento": "§3.4",
+   "memento": "§2.2 · §3.1",
    "difficulte": 2,
    "question": "Vous déléguez la vérification du SCI et discutez du périmètre des niveaux de systèmes IT. Quelles affirmations sont correctes ?",
    "options": [
@@ -169,7 +169,7 @@
   {
    "id": "IT-021",
    "champ": "Assertions correctes en audit IT",
-   "memento": "§3.1",
+   "memento": "§3.4 · §5.3",
    "difficulte": 2,
    "question": "Quelles assertions sont correctes dans le cadre d'un audit IT d'une entreprise soumise au contrôle ordinaire ?",
    "options": [
@@ -193,7 +193,7 @@
   {
    "id": "IT-022",
    "champ": "Comptes partagés & contrôles fiables",
-   "memento": "§3.2",
+   "memento": "§3.2 · §4.1",
    "difficulte": 3,
    "question": "Lors de l'audit des GITC, le spécialiste IT constate que des collaborateurs métier (Ventes, Achats, RH, Finances) partagent parfois leurs identifiants, mais ne peuvent apporter aucune modification au système ni exécuter d'activités IT spécifiques. Sur quels contrôles système pouvez-vous néanmoins vous appuyer ?",
    "options": [
@@ -241,7 +241,7 @@
   {
    "id": "IT-024",
    "champ": "Constatations d'accès & compensation",
-   "memento": "§3.2",
+   "memento": "§3.2 · §6.3",
    "difficulte": 3,
    "question": "Constatations sur la gestion des accès — quelles assertions sont correctes ?",
    "options": [

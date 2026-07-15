@@ -5,7 +5,7 @@
   {
    "id": "IT-090",
    "champ": "Objectif du JET & management override",
-   "memento": "§11.1",
+   "memento": "§11.1 · §11.2",
    "difficulte": 2,
    "question": "Concernant l'objectif du Journal Entry Testing (ISA-CH 240), lesquelles des affirmations suivantes sont correctes ?",
    "options": [
@@ -40,7 +40,7 @@
    "correct": 1,
    "explications": [
     "Faux : une erreur est par définition non intentionnelle ; l'ISA-CH 240 distingue précisément la fraude (acte intentionnel) de l'erreur, même si les deux peuvent conduire à des anomalies significatives.",
-    "Correct : selon l'ISA-CH 240, la fraude est un acte intentionnel conduisant à des anomalies, sous deux formes : l'information financière mensongère (fraudulent financial reporting) et le détournement d'actifs (mémento §11.1).",
+    "Correct : selon l'ISA-CH 240, la fraude est un acte intentionnel conduisant à des anomalies, sous deux formes : l'information financière mensongère (fraudulent financial reporting) et le détournement d'actifs. [Écart mémento : le §11 rappelle l'obligation du JET face au management override mais n'énumère pas ces deux formes — définition issue directement de l'ISA-CH 240.]",
     "Faux : la qualification pénale et le préjudice causé à l'entreprise relèvent du droit pénal, pas de la définition d'audit ; l'auditeur ne se prononce pas juridiquement, et la fraude au sens ISA-CH 240 n'exige ni infraction constatée ni préjudice direct pour l'entité.",
     "Faux : une saisie incorrecte due au manque de connaissances est une erreur (non intentionnelle), pas une fraude — l'intention est le critère distinctif de l'ISA-CH 240."
    ]
@@ -72,7 +72,7 @@
   {
    "id": "IT-093",
    "champ": "Échantillon de suivi & scepticisme",
-   "memento": "§11.1 et §11.3",
+   "memento": "§11.1 · §11.3",
    "difficulte": 2,
    "question": "Face à un rapport présentant de nombreuses divergences potentielles, comment sélectionner l'échantillon de suivi et appliquer le scepticisme professionnel dans le JET ?",
    "options": [

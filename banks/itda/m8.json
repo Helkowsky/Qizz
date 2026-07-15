@@ -76,7 +76,7 @@
   {
    "id": "IT-065",
    "champ": "Préparation & mapping après export",
-   "memento": "§8.1",
+   "memento": "§7.1",
    "difficulte": 2,
    "question": "Après l'export, concernant la routine de préparation et le mapping des données :",
    "options": [
@@ -163,7 +163,7 @@
   {
    "id": "IT-069",
    "champ": "Mois manquant : risque d'extraction",
-   "memento": "§8.3",
+   "memento": "§8.2 · §8.3",
    "difficulte": 3,
    "question": "Le spécialiste DA vous remet un dashboard Power BI présentant toutes les entrées de chiffre d'affaires de l'année. Séduit par les graphiques, vous constatez qu'il manque tout le mois de février dans l'évolution du chiffre d'affaires. Quel risque faut-il maîtriser en priorité pour éviter une telle erreur ?",
    "options": [
@@ -184,7 +184,7 @@
   {
    "id": "IT-070",
    "champ": "Intégrité & exhaustivité : causes d'erreur",
-   "memento": "§8.3",
+   "memento": "§8.2 · §8.3",
    "difficulte": 3,
    "question": "Concernant l'intégrité et l'exhaustivité des données extraites et transmises, quelles affirmations sont correctes ?",
    "options": [

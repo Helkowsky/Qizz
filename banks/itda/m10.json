@@ -22,7 +22,7 @@
    "explications": [
     "Correct : l'IPE désigne toute information créée par l'entité — via ses applications IT, ses outils EUC ou manuellement — dès lors qu'elle sert de base à un contrôle, d'élément probant ou de population de sélection (mémento §10.1, ISA-CH 500.9).",
     "Correct : l'EUC est un outil individuel autonome, typiquement Excel ; l'information qui y est créée ou modifiée risque de ne pas être complète, exacte ou pertinente — c'est précisément le 5e risque IPE (mémento §10.2).",
-    "Correct : l'IUC (Information Used by Control) désigne les informations que l'entité utilise pour mettre en œuvre ou exécuter ses propres contrôles internes ; c'est un concept voisin de l'IPE mais distinct — l'IPE sert de preuve à l'auditeur, l'IUC sert aux contrôles de l'entité.",
+    "Correct : l'IUC (Information Used by Control) désigne les informations que l'entité utilise pour mettre en œuvre ou exécuter ses propres contrôles internes ; c'est un concept voisin de l'IPE mais distinct — l'IPE sert de preuve à l'auditeur, l'IUC sert aux contrôles de l'entité. Tension à connaître : le mémento §10.1 (⚠️ Piège) signale « IUC » comme un sigle ABSENT de son corpus (piège de vocabulaire importé) ; la définition donnée ici reste néanmoins exacte sur le fond, raison pour laquelle la source d'examen la retient comme affirmation correcte.",
     "Faux : l'IUC concerne les contrôles exécutés par l'entité, pas la vérification faite par l'auditeur ; attribuer ces informations à l'auditeur confond l'IUC avec les éléments probants qu'il collecte lui-même. Le sigle IUC n'appartient d'ailleurs pas au corpus IPE/EUC du mémento (§10.1) — c'est un faux ami de vocabulaire."
    ],
    "piege": "Sigle IUC : faux ami"
@@ -101,7 +101,7 @@
   {
    "id": "IT-087",
    "champ": "Assertions IPE via GITC & EUC Excel",
-   "memento": "§10.1",
+   "memento": "§10.1 · §10.2",
    "difficulte": 3,
    "question": "Pour un client soumis au contrôle ordinaire, vous vous appuyez sur un fichier Excel (EUC) d'évaluation des engagements de leasing, ainsi que sur des rapports système (IPE). Quelles affirmations sont correctes ?",
    "options": [

@@ -5,7 +5,7 @@
   {
    "id": "IT-046",
    "champ": "Déficience d'un contrôle automatisé",
-   "memento": "§6.3",
+   "memento": "§6.2 · §6.3",
    "difficulte": 3,
    "question": "Un contrôle automatisé (p. ex. three-way-match SAP) est jugé inefficace / un déficit de GITC est constaté, alors qu'on souhaitait s'appuyer sur l'IT. Quelles marches à suivre sont correctes ?",
    "options": [
@@ -50,7 +50,7 @@
   {
    "id": "IT-048",
    "champ": "Contrôles compensatoires & qualité des données",
-   "memento": "§6.3",
+   "memento": "§6.2 · §6.3",
    "difficulte": 2,
    "question": "GITC déficients : quelles affirmations sur les contrôles compensatoires et la qualité des données sont correctes ?",
    "options": [
@@ -89,7 +89,7 @@
    ],
    "explications": [
     "Exact : des déficits de conception et d'efficacité des GITC touchant le risque d'anomalie significative sont suffisamment importants pour mériter l'attention des responsables de la gouvernance : c'est un déficit significatif à communiquer (ISA-CH 265.6(a) ; mémento §6.1).",
-    "Exact : l'ISA-CH 265 exige une communication PAR ÉCRIT aux responsables de la surveillance (gouvernance), en pratique dans le rapport exhaustif (détaillé).",
+    "Exact : l'ISA-CH 265 exige une communication PAR ÉCRIT aux responsables de la surveillance (gouvernance), en pratique dans le rapport exhaustif (détaillé). Nuance de révision : le mémento §6.1 définit le déficit significatif et renvoie à la communication (ISA-CH 265.6(a)), mais ne détaille pas la forme écrite — cette exigence vient de la norme ISA-CH 265 elle-même, au-delà du texte condensé.",
     "Faux : une divergence (écart) unique et sans effet n'est pas un déficit significatif — un écart ne constitue même pas toujours une déficience (mémento §6.1) ; il faut qualifier la faiblesse avant de décider de sa communication.",
     "Faux : pour un déficit significatif, une information orale à la direction ne suffit pas — la forme écrite et le destinataire (responsables de la surveillance) sont tous deux requis par l'ISA-CH 265."
    ]
@@ -97,7 +97,7 @@
   {
    "id": "IT-050",
    "champ": "Faiblesse GITC → stratégie & DA",
-   "memento": "§6.2",
+   "memento": "§6.2 · §6.3",
    "difficulte": 3,
    "question": "Vous ne pouvez confirmer que la conception/mise en œuvre — non l'efficacité — de certains GITC/contrôles, et vous souhaitez recourir à la Data Analytics. Quelles affirmations sont correctes ?",
    "options": [

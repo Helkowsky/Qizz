@@ -5,7 +5,7 @@
   {
    "id": "IT-051",
    "champ": "Phases d'application de la DA",
-   "memento": "§7.3",
+   "memento": "§7 · §7.3",
    "difficulte": 1,
    "question": "À quelles étapes du processus d'audit la Data Analytics (et, plus largement, l'automatisation de l'audit) peut-elle être utilisée ?",
    "options": [
@@ -78,7 +78,7 @@
    "explications": [
     "Faux : c'est le contraire — le Big Data se caractérise notamment par une grande diversité (variété) des données, pas par leur homogénéité.",
     "Faux : des données analysées manuellement sont précisément ce que le Big Data exclut — son volume et sa complexité dépassent les capacités d'un traitement manuel ou traditionnel.",
-    "Correct : le Big Data désigne des ensembles de données dont le volume ou la complexité dépassent les capacités des méthodes de traitement traditionnelles (mémento §7.3).",
+    "Correct : le Big Data désigne des ensembles de données dont le volume ou la complexité dépassent les capacités des méthodes de traitement traditionnelles. Nuance de révision : le terme « Big Data » n'est pas défini comme tel dans le mémento condensé (le §7.3 évoque le Data Mining et les predictive analytics) ; la définition retenue ici est la définition standard, à connaître au-delà du texte du mémento.",
     "Faux : définition inversée — de faibles volumes de données faciles à gérer sont exactement l'opposé du Big Data."
    ]
   },
@@ -225,7 +225,7 @@
   {
    "id": "IT-061",
    "champ": "Planification & documentation d'une DA",
-   "memento": "§7.1",
+   "memento": "§7.1 · §8.2",
    "difficulte": 2,
    "question": "Bonnes pratiques pour planifier une DA chez un client soumis au contrôle ordinaire — quelles affirmations sont correctes ?",
    "options": [

@@ -5,7 +5,7 @@
   {
    "id": "IT-095",
    "champ": "Modèles de service cloud",
-   "memento": "§12 (couches d'externalisation §2)",
+   "memento": "§12.2",
    "difficulte": 2,
    "question": "Deux situations d'externalisation sont soumises à l'auditeur. Quelles affirmations sur le modèle de service cloud concerné sont correctes ?",
    "options": [
@@ -19,7 +19,7 @@
     1
    ],
    "explications": [
-    "Correct : une application utilisée via le cloud sans que le client ne gère l'infrastructure relève du SaaS — le prestataire prend en charge toutes les couches jusqu'à l'application incluse (spectre empilé Housing → IaaS → PaaS → SaaS, mémento §2).",
+    "Correct : une application utilisée via le cloud sans que le client ne gère l'infrastructure relève du SaaS — le prestataire prend en charge toutes les couches jusqu'à l'application incluse (spectre empilé Housing → IaaS → PaaS → SaaS, cité au mémento §12.2 connexions ; le détail couche par couche n'y est pas développé).",
     "Correct : si le prestataire ne fournit que le serveur (physique ou virtuel) et que le client exploite tout le reste (système d'exploitation, base de données, application), il s'agit de l'IaaS — seule l'infrastructure est externalisée.",
     "Faux : dans un PaaS, le fournisseur met à disposition la plateforme complète (infrastructure + système d'exploitation + base de données/middleware), le client ne gérant que ses applications ; la description donnée (réseau et matériel seuls, OS et base de données chez le client) correspond plutôt au housing/IaaS.",
     "Faux : « WaaS » n'est pas un modèle du spectre d'externalisation cloud — les modèles standard sont Housing, IaaS, PaaS et SaaS ; c'est un sigle inventé qui sert de distracteur."
@@ -44,7 +44,7 @@
     2
    ],
    "explications": [
-    "Correct : le passage au cloud est un changement significatif de l'environnement IT ; classifier les données autorisées à être traitées ou sauvegardées dans le cloud est une mesure de gouvernance clé — toutes les données n'ont pas vocation à quitter l'entreprise.",
+    "Correct : le passage au cloud est un changement significatif de l'environnement IT ; classifier les données autorisées à être traitées ou sauvegardées dans le cloud est une mesure de gouvernance clé — toutes les données n'ont pas vocation à quitter l'entreprise. [Écart mémento : ces mesures de gouvernance cloud — classification, localisation, chiffrement — ne sont pas détaillées au §12, centré sur les rapports SOC ; réponse fondée sur la source d'examen.]",
     "Correct : définir les pays dans lesquels les données peuvent être stockées répond aux exigences de localisation des données (protection des données, accès d'autorités étrangères, conservation) — mesure standard d'encadrement du cloud.",
     "Correct : le chiffrement des données lors du transfert et du stockage par des procédés cryptographiques est un contrôle standard face aux risques de confidentialité et d'intégrité liés au cloud.",
     "Faux : le cloud privé (dédié à l'organisation) et le cloud public présentent des profils de risque différents (mutualisation, degré de contrôle, localisation) ; les traiter comme un seul environnement ignore cette différence et ne constitue pas une mesure de maîtrise des risques."
@@ -86,7 +86,7 @@
    "correct": 1,
    "explications": [
     "Faux : la distinction BCM/ORM n'oppose pas risques financiers et non financiers — la BCM protège les fonctions critiques en cas de crise quelle que soit la nature du risque, et l'ORM couvre l'ensemble des risques opérationnels en amont.",
-    "Correct : la BCM (norme de référence ISO 22301) garantit que l'entreprise reste opérationnelle en situation de crise et se rétablit après des pertes — protection des fonctions critiques, plans de crise/urgence/continuité/rétablissement, objectifs RTO/RPO — tandis que l'ORM identifie et prévient les risques avant la survenance des crises.",
+    "Correct : la BCM (norme de référence ISO 22301) garantit que l'entreprise reste opérationnelle en situation de crise et se rétablit après des pertes — protection des fonctions critiques, plans de crise/urgence/continuité/rétablissement, objectifs RTO/RPO — tandis que l'ORM identifie et prévient les risques avant la survenance des crises. [Écart mémento : la distinction BCM/ORM (ISO 22301, RTO/RPO) n'est pas traitée dans le mémento §12 ; réponse fondée sur la source d'examen.]",
     "Faux : c'est l'inverse — l'identification et la prévention des risques en amont caractérisent l'ORM ; la BCM intervient sur la continuité et le rétablissement en cas de crise, pas sur la prévention des risques de processus.",
     "Faux : la distinction ne porte pas sur le caractère influençable des risques — la BCM prépare la réponse à la crise, y compris pour des risques maîtrisables, et l'ORM gère aussi des risques externes que l'entreprise ne contrôle pas."
    ]

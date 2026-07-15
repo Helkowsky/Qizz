@@ -146,7 +146,7 @@
   {
    "id": "IT-039",
    "champ": "Cas Oracle — niveaux & type",
-   "memento": "§5.2",
+   "memento": "§2.2 · §4.1",
    "difficulte": 3,
    "question": "Risque : des modifications non autorisées des données de base fournisseurs (Oracle) faussent les dettes fournisseurs. Un contrôle automatique géré par Oracle restreint l'accès à la base de données (3 collaborateurs autorisés) ; la base se situe au niveau base de données d'Oracle, et deux administrateurs système accèdent à la BD et à l'application. Quels niveaux technologiques sont pertinents pour vérifier ce contrôle automatisé, et de quel type de contrôle s'agit-il ?",
    "options": [
@@ -243,7 +243,7 @@
   {
    "id": "IT-043",
    "champ": "GITC↔ITAC & dépendances IT",
-   "memento": "§5.1",
+   "memento": "§1.3 · §4.2",
    "difficulte": 2,
    "question": "Relations entre GITC, contrôles d'applications et dépendances informatiques. Quelles affirmations sont correctes ?",
    "options": [
@@ -258,7 +258,7 @@
    ],
    "explications": [
     "Exact : les GITC sécurisent l'environnement (accès, changements, exploitation) et constituent ainsi le socle sur lequel les ITAC peuvent fonctionner durablement (mémento §4.2).",
-    "Exact : les cinq types de dépendances informatiques sont les contrôles automatisés, les rapports, les calculs, les interfaces et la sécurité (séparation des tâches / accès restreint) (mémento §5.1).",
+    "Exact : les cinq types de dépendances informatiques sont les contrôles automatisés, les rapports, les calculs, les interfaces et la sécurité (séparation des tâches / accès restreint) (mémento §1.3).",
     "Faux : c'est l'inversion classique de la relation — les ITAC reposent sur les GITC, jamais l'inverse ; si les GITC sous-jacents sont déficients, la fiabilité des ITAC s'effondre (mémento §4.2).",
     "Faux : la paramétrabilité (personnalisation) ne figure pas parmi les cinq dépendances informatiques ; la liste se limite à contrôles automatisés, rapports, calculs, interfaces et sécurité."
    ],
@@ -290,7 +290,7 @@
   {
    "id": "IT-045",
    "champ": "Cas Salesforce — population & risque",
-   "memento": "§5.1",
+   "memento": "§5.1 · §6.2",
    "difficulte": 3,
    "question": "Sales Walkthrough (Salesforce) : vous aviez documenté 2 personnes comptabilisant les ventes, mais l'auditeur IT constate 10 personnes habilitées (dont 2 parties et 4 hors département), et le contrôle de revue n'a été testé que pour 2 d'entre elles. Quelles affirmations sont correctes ?",
    "options": [
