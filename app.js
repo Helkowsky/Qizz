@@ -17,6 +17,20 @@
 
   function el(id) { return document.getElementById(id); }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+
+  /* ---------- Questions à choix multiple ---------- */
+  function isMulti(q) { return Array.isArray(q.correct); }                 // correct = tableau -> plusieurs bonnes réponses
+  function correctSet(q) { return isMulti(q) ? q.correct : [q.correct]; }
+  function selSet(sel) { return Array.isArray(sel) ? sel : (sel === null || sel === undefined ? [] : [sel]); }
+  function sameSet(a, b) {
+    if (a.length !== b.length) return false;
+    var x = a.slice().sort(function (p, q) { return p - q; }), y = b.slice().sort(function (p, q) { return p - q; });
+    for (var i = 0; i < x.length; i++) if (x[i] !== y[i]) return false;
+    return true;
+  }
+  function answerOk(q, sel) { return isMulti(q) ? sameSet(selSet(sel), q.correct) : sel === q.correct; }
+  function selEmpty() { return selSet(state.sel).length === 0; }
+  function keysOf(arr) { return arr.slice().sort(function (a, b) { return a - b; }).map(function (i) { return KEYS[i]; }).join(", "); }
   function show(s) { ["home", "quiz", "result"].forEach(function (x) { el("scr-" + x).classList.toggle("hidden", x !== s); }); }
   function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
 
@@ -177,13 +191,14 @@
   /* ---------- Rendu question ---------- */
   function renderQuestion() {
     var q = currentQ();
+    var multi = isMulti(q);
     var prev = state.answers[q.id] || null;
-    state.sel = prev ? prev.sel : null;
+    state.sel = prev ? prev.sel : (multi ? [] : null);
     state.revealed = !!prev;
 
     el("count").textContent = (state.i + 1) + " / " + total();
     el("bar").style.width = Math.round(state.i / total() * 100) + "%";
-    el("champ").textContent = q.champ || "";
+    el("champ").textContent = (q.champ || "") + (multi ? "  ·  plusieurs réponses" : "");
     var d = el("diff"); d.innerHTML = ""; var lvl = q.difficulte || 3;
     for (var k = 0; k < 5; k++) { var i2 = document.createElement("i"); if (k < lvl) i2.className = "on"; d.appendChild(i2); }
     d.title = "Difficulté " + lvl + "/5";
@@ -192,7 +207,8 @@
     var opts = el("opts"); opts.innerHTML = "";
     q.options.forEach(function (opt, idx) {
       var l = document.createElement("label"); l.className = "opt"; l.dataset.i = idx;
-      l.innerHTML = '<input type="radio" name="qopt"><span class="mark"></span>' +
+      var input = multi ? '<input type="checkbox">' : '<input type="radio" name="qopt">';
+      l.innerHTML = input + '<span class="mark"></span>' +
         '<span class="txt"><b>' + KEYS[idx] + '</b>&nbsp;&nbsp;' + esc(opt) + '</span>';
       l.querySelector("input").onchange = function () { selectOption(idx); };
       opts.appendChild(l);
@@ -220,41 +236,64 @@
 
   function selectOption(idx) {
     if (state.revealed) return;
-    state.sel = idx;
-    document.querySelectorAll("#opts .opt").forEach(function (o) {
-      var on = +o.dataset.i === idx; o.classList.toggle("sel", on);
-      if (on) o.querySelector("input").checked = true;
-    });
-    el("btn-validate").disabled = false;
+    var q = currentQ();
+    if (isMulti(q)) {                                   // toggle dans l'ensemble sélectionné
+      var s = Array.isArray(state.sel) ? state.sel : [];
+      var pos = s.indexOf(idx);
+      if (pos >= 0) s.splice(pos, 1); else s.push(idx);
+      state.sel = s;
+      document.querySelectorAll("#opts .opt").forEach(function (o) {
+        var on = s.indexOf(+o.dataset.i) >= 0; o.classList.toggle("sel", on);
+        o.querySelector("input").checked = on;
+      });
+      el("btn-validate").disabled = s.length === 0;
+    } else {
+      state.sel = idx;
+      document.querySelectorAll("#opts .opt").forEach(function (o) {
+        var on = +o.dataset.i === idx; o.classList.toggle("sel", on);
+        if (on) o.querySelector("input").checked = true;
+      });
+      el("btn-validate").disabled = false;
+    }
   }
 
   function renderCorrection(q, sel) {
+    var cset = correctSet(q), sset = selSet(sel);
     document.querySelectorAll("#opts .opt").forEach(function (o) {
       var i = +o.dataset.i; o.classList.add("locked"); o.classList.remove("sel");
       var inp = o.querySelector("input"); inp.disabled = true;
-      if (i === q.correct) o.classList.add("correct");
-      else if (i === sel) o.classList.add("wrong");
+      var isC = cset.indexOf(i) >= 0, isS = sset.indexOf(i) >= 0;
+      if (isC) o.classList.add("correct");
+      else if (isS) o.classList.add("wrong");
       else o.classList.add("dim");
-      if (i === sel) inp.checked = true;
+      inp.checked = isS;
     });
-    var ok = sel === q.correct;
+    var ok = answerOk(q, sel);
     var v = el("verdict"); v.className = "verdict " + (ok ? "ok" : "ko");
-    v.textContent = ok ? "✓ Bonne réponse" : "✗ Réponse incorrecte — la bonne réponse est " + KEYS[q.correct];
+    v.textContent = ok ? "✓ Bonne réponse"
+      : "✗ Réponse incorrecte — " + (isMulti(q) ? "réponses correctes : " : "la bonne réponse est ") + keysOf(cset);
     var ul = el("expl"); ul.innerHTML = "";
-    q.explications.forEach(function (ex, i) {
+    if (Array.isArray(q.explications)) {          // explication par option (format historique)
+      q.explications.forEach(function (ex, i) {
+        var li = document.createElement("li");
+        li.className = cset.indexOf(i) >= 0 ? "ok" : (sset.indexOf(i) >= 0 ? "ko" : "");
+        li.innerHTML = '<span class="k">' + KEYS[i] + ".</span>" + esc(ex);
+        ul.appendChild(li);
+      });
+    } else if (q.explication) {                   // explication unique (quiz convertis)
       var li = document.createElement("li");
-      li.className = i === q.correct ? "ok" : (i === sel ? "ko" : "");
-      li.innerHTML = '<span class="k">' + KEYS[i] + ".</span>" + esc(ex);
+      li.className = ok ? "ok" : "ko";
+      li.innerHTML = '<span class="k">' + keysOf(cset) + ".</span>" + esc(q.explication);
       ul.appendChild(li);
-    });
+    }
     el("tags").innerHTML = '<span class="tag mem">Mémento ' + esc(q.memento || "—") + "</span>" +
       (q.piege ? '<span class="tag piege">piège : ' + esc(q.piege) + "</span>" : "");
     el("corr").classList.remove("hidden");
   }
 
   function validate() {
-    if (state.sel === null || state.revealed) return;
-    var q = currentQ(), ok = state.sel === q.correct;
+    if (selEmpty() || state.revealed) return;
+    var q = currentQ(), ok = answerOk(q, state.sel);
     var already = !!state.answers[q.id];
     state.answers[q.id] = { sel: state.sel, ok: ok };
     if (!already) saveStat(q.champ, ok);      // stats long terme : 1 seule fois par question
@@ -343,7 +382,7 @@
     }
     if (!state.revealed && /^[1-4]$/.test(e.key)) selectOption(+e.key - 1);
     else if (!state.revealed && /^[a-dA-D]$/.test(e.key)) selectOption(KEYS.indexOf(e.key.toUpperCase()));
-    else if (e.key === "Enter") { if (!state.revealed) { if (state.sel !== null) validate(); } else next(); }
+    else if (e.key === "Enter") { if (!state.revealed) { if (!selEmpty()) validate(); } else next(); }
   });
 
   window.addEventListener("DOMContentLoaded", function () {
