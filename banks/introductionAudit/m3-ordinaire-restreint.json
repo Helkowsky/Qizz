@@ -9,16 +9,16 @@
    "question": "Lors d'un nouveau mandat, le responsable vous explique qui est soumis a l'obligation de revision. Laquelle des affirmations suivantes est FAUSSE ?",
    "options": [
     "L'obligation de revision est en principe reglee de maniere neutre du point de vue de la forme juridique.",
+    "En principe, toutes les entreprises sont soumises a l'obligation de revision, quelle que soit leur importance economique.",
     "En principe, les societes de personnes ne sont pas soumises a une revision.",
-    "L'etendue de l'obligation de revision depend de l'importance economique de l'entreprise.",
-    "En principe, toutes les entreprises sont soumises a l'obligation de revision, quelle que soit leur importance economique."
+    "L'etendue de l'obligation de revision depend de l'importance economique de l'entreprise."
    ],
-   "correct": 3,
+   "correct": 1,
    "explications": [
     "Vrai, donc pas la reponse cherchee : l'assujettissement s'apprecie independamment de la forme juridique (SA, Sarl, cooperatives, fondations, grandes associations) - art. 727 CO.",
+    "Affirmation FAUSSE, donc la bonne reponse : l'assujettissement et le type de controle dependent justement de l'importance (seuils) et de la forme ; toutes les entreprises ne sont pas soumises independamment de leur taille (art. 727 / 727a CO).",
     "Vrai, donc pas la reponse cherchee : les raisons individuelles et les societes de personnes (nom collectif, commandite) ne sont pas soumises, car les associes repondent personnellement.",
-    "Vrai, donc pas la reponse cherchee : le type de controle (ordinaire ou restreint) depend precisement de l'importance economique (seuils de l'art. 727 al. 1 ch. 2 CO).",
-    "Affirmation FAUSSE, donc la bonne reponse : l'assujettissement et le type de controle dependent justement de l'importance (seuils) et de la forme ; toutes les entreprises ne sont pas soumises independamment de leur taille (art. 727 / 727a CO)."
+    "Vrai, donc pas la reponse cherchee : le type de controle (ordinaire ou restreint) depend precisement de l'importance economique (seuils de l'art. 727 al. 1 ch. 2 CO)."
    ],
    "source": "original",
    "memento": "§3.1"
@@ -29,15 +29,15 @@
    "question": "Pourquoi les societes en nom collectif et en commandite ne sont-elles en principe pas soumises a l'obligation de revision ?",
    "options": [
     "Parce qu'elles n'etablissent jamais de comptes annuels.",
-    "Parce que les associes repondent personnellement des dettes, de sorte que les creanciers sont deja suffisamment proteges.",
     "Parce qu'elles restent toujours en dessous des seuils de 20/40/250.",
+    "Parce que les associes repondent personnellement des dettes, de sorte que les creanciers sont deja suffisamment proteges.",
     "Parce que la loi les assimile aux societes ouvertes au public."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
     "Faux : elles tiennent une comptabilite ; ce n'est pas le motif de l'exemption.",
-    "Exact : le motif donne par le cours est la responsabilite personnelle des proprietaires, qui assure deja une protection suffisante des creanciers ; l'obligation de revision est la contrepartie de la responsabilite limitee des societes de capitaux.",
     "Faux : le motif n'est pas une question de seuils ; meme une grande societe de personnes n'est pas assujettie du fait de la responsabilite personnelle.",
+    "Exact : le motif donne par le cours est la responsabilite personnelle des proprietaires, qui assure deja une protection suffisante des creanciers ; l'obligation de revision est la contrepartie de la responsabilite limitee des societes de capitaux.",
     "Faux : elles ne sont pas assimilees aux societes ouvertes au public (art. 727 al. 1 ch. 1 CO)."
    ],
    "source": "genere",
@@ -48,17 +48,17 @@
    "champ": "Assujettissement - formes soumises",
    "question": "Parmi les formes juridiques suivantes, laquelle n'est en principe PAS soumise a l'obligation de revision ?",
    "options": [
+    "La societe en commandite.",
     "La societe anonyme (SA).",
     "La societe a responsabilite limitee (Sarl).",
-    "La societe cooperative.",
-    "La societe en commandite."
+    "La societe cooperative."
    ],
-   "correct": 3,
+   "correct": 0,
    "explications": [
+    "Bonne reponse : la societe en commandite est une societe de personnes ; les associes repondent personnellement, elle n'est donc pas soumise a l'obligation de revision.",
     "Soumise : la SA releve de l'obligation de revision (controle ordinaire ou restreint selon l'importance) - art. 727 / 727a CO.",
     "Soumise : la Sarl est visee au meme titre que la SA (regle neutre du point de vue de la forme juridique).",
-    "Soumise : la cooperative fait partie des formes assujetties (seuils 20/40/250).",
-    "Bonne reponse : la societe en commandite est une societe de personnes ; les associes repondent personnellement, elle n'est donc pas soumise a l'obligation de revision."
+    "Soumise : la cooperative fait partie des formes assujetties (seuils 20/40/250)."
    ],
    "source": "genere",
    "memento": "§3.1"
@@ -69,15 +69,15 @@
    "question": "Quelles sont les valeurs des trois seuils dont le depassement (deux sur trois, sur deux exercices successifs) declenche le controle ordinaire d'une grande entreprise (SA/Sarl/cooperative) ?",
    "options": [
     "Total du bilan > 20 mio CHF, chiffre d'affaires > 40 mio CHF, plus de 250 emplois a plein temps.",
-    "Total du bilan > 50 mio CHF, chiffre d'affaires > 60 mio CHF, plus de 200 emplois a plein temps.",
     "Total du bilan > 10 mio CHF, chiffre d'affaires > 20 mio CHF, plus de 50 emplois a plein temps.",
+    "Total du bilan > 50 mio CHF, chiffre d'affaires > 60 mio CHF, plus de 200 emplois a plein temps.",
     "Total du bilan > 40 mio CHF, chiffre d'affaires > 20 mio CHF, plus de 250 emplois a plein temps."
    ],
    "correct": 0,
    "explications": [
     "Exact : art. 727 al. 1 ch. 2 CO - total du bilan > 20 mio, chiffre d'affaires > 40 mio, plus de 250 emplois a plein temps ; deux de ces trois valeurs sur deux exercices successifs.",
-    "Faux : valeurs inventees ; les seuils legaux sont 20/40/250, non 50/60/200.",
     "Faux : ce sont les seuils des associations (art. 69b CC : 10/20/50), pas ceux des grandes entreprises.",
+    "Faux : valeurs inventees ; les seuils legaux sont 20/40/250, non 50/60/200.",
     "Faux : les montants du bilan et du chiffre d'affaires sont intervertis ; il faut 20 mio (bilan) et 40 mio (CA)."
    ],
    "source": "genere",
@@ -109,16 +109,16 @@
    "question": "Pour verifier le seuil de chiffre d'affaires (> 40 mio CHF), quel montant faut-il retenir ?",
    "options": [
     "Le chiffre d'affaires brut, avant toute deduction sur ventes.",
-    "Le produit net des ventes de biens et de services (apres escomptes, rabais et reductions sur ventes), augmente des produits hors exploitation, financiers et, le cas echeant, exceptionnels.",
+    "Le total des encaissements de l'annee, TVA comprise.",
     "Uniquement le produit d'exploitation principal, a l'exclusion des produits financiers.",
-    "Le total des encaissements de l'annee, TVA comprise."
+    "Le produit net des ventes de biens et de services (apres escomptes, rabais et reductions sur ventes), augmente des produits hors exploitation, financiers et, le cas echeant, exceptionnels."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
     "Faux : c'est le chiffre d'affaires net (apres deductions), et non le brut, qui est determinant - un CA brut superieur au brut peut masquer un net inferieur au seuil.",
-    "Exact : selon le cours, on retient les produits nets des ventes (apres escomptes, rabais, reductions) + produits hors exploitation + produits financiers + le cas echeant produits exceptionnels/uniques/hors periode.",
+    "Faux : la TVA n'est pas un produit ; on part des comptes annuels conformes au droit commercial, pas des encaissements bruts.",
     "Faux : les produits financiers et hors exploitation sont bien inclus dans le calcul du seuil.",
-    "Faux : la TVA n'est pas un produit ; on part des comptes annuels conformes au droit commercial, pas des encaissements bruts."
+    "Exact : selon le cours, on retient les produits nets des ventes (apres escomptes, rabais, reductions) + produits hors exploitation + produits financiers + le cas echeant produits exceptionnels/uniques/hors periode."
    ],
    "source": "genere",
    "memento": "§3.3"
@@ -128,17 +128,17 @@
    "champ": "Seuils - base de calcul / reserves latentes",
    "question": "Comment les reserves latentes influencent-elles le calcul des seuils 20/40/250 ?",
    "options": [
-    "Les reserves latentes doivent etre ajoutees au total du bilan pour apprecier le seuil.",
-    "Les seuils s'apprecient sur les comptes annuels conformes au droit commercial tels qu'ils sont presentes ; les reserves latentes ne font pas l'objet d'un retraitement separe.",
     "L'existence de reserves latentes fait automatiquement basculer l'entreprise en controle ordinaire.",
-    "Les reserves latentes doivent etre deduites du chiffre d'affaires avant comparaison au seuil."
+    "Les reserves latentes doivent etre deduites du chiffre d'affaires avant comparaison au seuil.",
+    "Les seuils s'apprecient sur les comptes annuels conformes au droit commercial tels qu'ils sont presentes ; les reserves latentes ne font pas l'objet d'un retraitement separe.",
+    "Les reserves latentes doivent etre ajoutees au total du bilan pour apprecier le seuil."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
-    "Faux : on ne recalcule pas le bilan en ajoutant des reserves latentes ; on se fonde sur les valeurs comptables presentees.",
-    "Exact : selon le cours, le seuil se juge sur les comptes annuels conformes au droit commercial (exercice sous revue et precedent) tels que presentes ; il n'y a pas d'ajustement economique separe au titre des reserves latentes (art. 727 al. 1 ch. 2 CO).",
     "Faux : la seule presence de reserves latentes n'a aucun effet declencheur sur le type de controle.",
-    "Faux : on retient le produit net des ventes, sans deduction liee a des reserves latentes."
+    "Faux : on retient le produit net des ventes, sans deduction liee a des reserves latentes.",
+    "Exact : selon le cours, le seuil se juge sur les comptes annuels conformes au droit commercial (exercice sous revue et precedent) tels que presentes ; il n'y a pas d'ajustement economique separe au titre des reserves latentes (art. 727 al. 1 ch. 2 CO).",
+    "Faux : on ne recalcule pas le bilan en ajoutant des reserves latentes ; on se fonde sur les valeurs comptables presentees."
    ],
    "source": "genere",
    "memento": "§3.3"
@@ -148,16 +148,16 @@
    "champ": "Cas pratique chiffre - Sarl",
    "question": "Alpha Sarl presente les valeurs suivantes. 20X1 : total du bilan 45 mio CHF, chiffre d'affaires 60 mio CHF, 300 emplois a plein temps. 20X2 : total du bilan 48 mio CHF, chiffre d'affaires 62 mio CHF, 310 emplois a plein temps. Quel controle est requis ?",
    "options": [
-    "Controle ordinaire : au moins deux des trois seuils (ici les trois) sont depasses sur deux exercices successifs.",
-    "Controle restreint : une Sarl est toujours soumise au controle restreint.",
     "Opting-out possible, car il s'agit d'une Sarl.",
+    "Controle restreint : une Sarl est toujours soumise au controle restreint.",
+    "Controle ordinaire : au moins deux des trois seuils (ici les trois) sont depasses sur deux exercices successifs.",
     "Aucun controle, les valeurs se rapportant a deux exercices differents."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : les trois seuils 20/40/250 sont depasses en 20X1 et en 20X2 (deux exercices successifs) - controle ordinaire (art. 727 al. 1 ch. 2 CO). Les Sarl relevent des seuils 20/40/250.",
-    "Faux : la Sarl n'est pas cantonnee au restreint ; des qu'elle depasse les seuils, elle bascule en ordinaire.",
     "Faux : l'opting-out suppose moins de 10 emplois a plein temps ; ici l'effectif est de 300-310.",
+    "Faux : la Sarl n'est pas cantonnee au restreint ; des qu'elle depasse les seuils, elle bascule en ordinaire.",
+    "Exact : les trois seuils 20/40/250 sont depasses en 20X1 et en 20X2 (deux exercices successifs) - controle ordinaire (art. 727 al. 1 ch. 2 CO). Les Sarl relevent des seuils 20/40/250.",
     "Faux : la comparaison sur deux exercices successifs est precisement la regle legale, elle ne fait pas disparaitre l'obligation."
    ],
    "source": "genere",
@@ -168,17 +168,17 @@
    "champ": "Cas pratique chiffre - cooperative (piege 10/20/50)",
    "question": "Beta, societe cooperative, presente : 20X1 total bilan 12 mio CHF, CA 22 mio CHF, 60 emplois a plein temps ; 20X2 total bilan 13 mio CHF, CA 24 mio CHF, 62 emplois a plein temps. Quel controle est requis ?",
    "options": [
-    "Controle ordinaire, car les seuils 10/20/50 sont depasses.",
-    "Controle restreint : les cooperatives relevent des seuils 20/40/250, qui ne sont pas atteints ici (bilan < 20, CA < 40, effectif < 250).",
+    "Controle ordinaire : une cooperative applique les seuils associatifs 10/20/50.",
     "Controle ordinaire, car deux des trois seuils 20/40/250 sont depasses.",
-    "Controle ordinaire : une cooperative applique les seuils associatifs 10/20/50."
+    "Controle ordinaire, car les seuils 10/20/50 sont depasses.",
+    "Controle restreint : les cooperatives relevent des seuils 20/40/250, qui ne sont pas atteints ici (bilan < 20, CA < 40, effectif < 250)."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : les seuils 10/20/50 sont ceux des associations (art. 69b CC), pas des cooperatives.",
-    "Exact : la cooperative suit les seuils 20/40/250 (art. 727 al. 1 ch. 2 CO). Ici aucun n'est atteint (12 < 20, 22 < 40, 60 < 250) -> controle restreint par defaut (art. 727a al. 1 CO).",
+    "Faux : c'est le piege - une cooperative n'applique PAS les seuils associatifs 10/20/50 mais bien 20/40/250.",
     "Faux : aucun des trois seuils 20/40/250 n'est depasse - ni le bilan, ni le CA, ni l'effectif.",
-    "Faux : c'est le piege - une cooperative n'applique PAS les seuils associatifs 10/20/50 mais bien 20/40/250."
+    "Faux : les seuils 10/20/50 sont ceux des associations (art. 69b CC), pas des cooperatives.",
+    "Exact : la cooperative suit les seuils 20/40/250 (art. 727 al. 1 ch. 2 CO). Ici aucun n'est atteint (12 < 20, 22 < 40, 60 < 250) -> controle restreint par defaut (art. 727a al. 1 CO)."
    ],
    "source": "genere",
    "memento": "§3.3"
@@ -208,16 +208,16 @@
    "champ": "Cas pratique chiffre - grandeurs differentes",
    "question": "Delta SA presente : exercice recent (20X2) total bilan 21 mio CHF, CA 60 mio CHF, 230 emplois ; exercice precedent (20X1) total bilan 19 mio CHF, CA 50 mio CHF, 251 emplois. Quel controle est requis ?",
    "options": [
-    "Controle restreint, car les seuils depasses ne sont pas les memes les deux annees.",
     "Controle ordinaire : deux des trois seuils sont depasses chaque exercice (20X2 : bilan + CA ; 20X1 : CA + effectif), sans qu'il faille les memes grandeurs.",
     "Controle restreint, car un seul seuil est depasse chaque annee.",
+    "Controle restreint, car les seuils depasses ne sont pas les memes les deux annees.",
     "Opting-out possible, l'effectif etant proche de 250."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : le cours precise qu'il n'est pas necessaire que ce soient les memes grandeurs de reference les deux annees.",
     "Exact : 20X2 depasse bilan (21 > 20) et CA (60 > 40) ; 20X1 depasse CA (50 > 40) et effectif (251 > 250). Deux des trois seuils sont depasses chaque exercice -> controle ordinaire (art. 727 al. 1 ch. 2 CO).",
     "Faux : ce sont bien deux seuils (et non un seul) qui sont depasses chaque annee.",
+    "Faux : le cours precise qu'il n'est pas necessaire que ce soient les memes grandeurs de reference les deux annees.",
     "Faux : l'opting-out exige moins de 10 emplois a plein temps ; l'effectif est ici de 230-251."
    ],
    "source": "genere",
@@ -228,16 +228,16 @@
    "champ": "Cas pratique chiffre - restreint par defaut",
    "question": "Epsilon SA presente sur deux exercices : total bilan 8 puis 9 mio CHF, CA 15 puis 16 mio CHF, 40 puis 45 emplois a plein temps. Quel controle est requis ?",
    "options": [
-    "Controle ordinaire.",
     "Controle restreint : les criteres du controle ordinaire ne sont pas atteints (art. 727a al. 1 CO).",
     "Opting-out possible, car l'entreprise est petite.",
+    "Controle ordinaire.",
     "Aucun controle n'est requis."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : aucun des seuils 20/40/250 n'est atteint, il n'y a pas de controle ordinaire.",
     "Exact : les criteres du controle ordinaire n'etant pas remplis, la societe procede a un controle restreint par defaut (art. 727a al. 1 CO).",
     "Faux : l'opting-out suppose moins de 10 emplois a plein temps ET l'accord de tous les actionnaires ; ici l'effectif (40-45) depasse 10.",
+    "Faux : aucun des seuils 20/40/250 n'est atteint, il n'y a pas de controle ordinaire.",
     "Faux : une SA qui n'a pas valablement fait d'opting-out reste soumise au moins au controle restreint."
    ],
    "source": "genere",
@@ -250,15 +250,15 @@
    "options": [
     "Controle ordinaire, car les seuils ont ete largement depasses en 20X1.",
     "Controle restreint : les seuils ne sont depasses qu'un seul exercice, or le controle ordinaire suppose un depassement sur deux exercices successifs.",
-    "Controle ordinaire des qu'un exercice depasse deux seuils.",
-    "Opting-out, l'effectif ayant diminue."
+    "Opting-out, l'effectif ayant diminue.",
+    "Controle ordinaire des qu'un exercice depasse deux seuils."
    ],
    "correct": 1,
    "explications": [
     "Faux : un seul exercice de depassement ne suffit pas a declencher le controle ordinaire.",
     "Exact : l'art. 727 al. 1 ch. 2 CO exige le depassement de deux des trois seuils sur DEUX exercices successifs ; 20X2 etant en dessous, la condition n'est pas remplie -> controle restreint.",
-    "Faux : la regle vise deux exercices successifs, pas un seul exercice depassant deux seuils.",
-    "Faux : l'opting-out suppose moins de 10 emplois a plein temps et l'unanimite, ce qui n'est pas le cas ici (200 emplois)."
+    "Faux : l'opting-out suppose moins de 10 emplois a plein temps et l'unanimite, ce qui n'est pas le cas ici (200 emplois).",
+    "Faux : la regle vise deux exercices successifs, pas un seul exercice depassant deux seuils."
    ],
    "source": "genere",
    "memento": "§3.3"
@@ -269,16 +269,16 @@
    "question": "Quels sont les seuils declenchant le controle ordinaire d'une association selon l'art. 69b CC ?",
    "options": [
     "Total du bilan 20 mio, chiffre d'affaires 40 mio, 250 emplois a plein temps.",
+    "Total du bilan 10 mio, chiffre d'affaires 40 mio, 100 emplois a plein temps.",
     "Total du bilan 10 mio, chiffre d'affaires 20 mio, 50 emplois a plein temps.",
-    "Total du bilan 5 mio, chiffre d'affaires 10 mio, 25 emplois a plein temps.",
-    "Total du bilan 10 mio, chiffre d'affaires 40 mio, 100 emplois a plein temps."
+    "Total du bilan 5 mio, chiffre d'affaires 10 mio, 25 emplois a plein temps."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
     "Faux : 20/40/250 sont les seuils des SA/Sarl/cooperatives, pas des associations.",
+    "Faux : le seuil de CA associatif est 20 mio (pas 40) et l'effectif 50 (pas 100).",
     "Exact : art. 69b CC - une association fait controler ses comptes par un controle ordinaire si, sur deux exercices, elle depasse deux des valeurs 10 mio (bilan) / 20 mio (CA) / 50 emplois a plein temps (soit la moitie des seuils du bilan/CA et un cinquieme de l'effectif).",
-    "Faux : valeurs inventees ; les seuils associatifs sont 10/20/50.",
-    "Faux : le seuil de CA associatif est 20 mio (pas 40) et l'effectif 50 (pas 100)."
+    "Faux : valeurs inventees ; les seuils associatifs sont 10/20/50."
    ],
    "source": "genere",
    "memento": "§3.3"
@@ -288,17 +288,17 @@
    "champ": "Associations vs cooperatives - piege",
    "question": "Une societe cooperative et une association atteignent chacune un total de bilan de 15 mio CHF et un chiffre d'affaires de 25 mio CHF (effectifs faibles), sur deux exercices. Laquelle des affirmations est correcte ?",
    "options": [
-    "Les deux appliquent les seuils 10/20/50 et basculent en controle ordinaire.",
-    "L'association bascule en controle ordinaire (seuils 10/20/50 atteints, art. 69b CC), tandis que la cooperative reste en restreint (seuils 20/40/250 non atteints).",
     "Les deux appliquent les seuils 20/40/250 et restent en controle restreint.",
-    "La cooperative bascule en ordinaire et l'association reste en restreint."
+    "Les deux appliquent les seuils 10/20/50 et basculent en controle ordinaire.",
+    "La cooperative bascule en ordinaire et l'association reste en restreint.",
+    "L'association bascule en controle ordinaire (seuils 10/20/50 atteints, art. 69b CC), tandis que la cooperative reste en restreint (seuils 20/40/250 non atteints)."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : seule l'association applique 10/20/50 ; la cooperative applique 20/40/250.",
-    "Exact : l'association depasse deux seuils 10/20/50 (15 > 10 et 25 > 20) -> ordinaire (art. 69b CC) ; la cooperative applique 20/40/250 (15 < 20, 25 < 40) -> restreint. C'est le piege : ne pas confondre les deux jeux de seuils.",
     "Faux : l'association ne suit pas 20/40/250 ; avec 10/20/50 elle bascule bien en ordinaire.",
-    "Faux : c'est l'inverse - l'association (seuils plus bas) bascule, la cooperative (seuils 20/40/250) reste en restreint."
+    "Faux : seule l'association applique 10/20/50 ; la cooperative applique 20/40/250.",
+    "Faux : c'est l'inverse - l'association (seuils plus bas) bascule, la cooperative (seuils 20/40/250) reste en restreint.",
+    "Exact : l'association depasse deux seuils 10/20/50 (15 > 10 et 25 > 20) -> ordinaire (art. 69b CC) ; la cooperative applique 20/40/250 (15 < 20, 25 < 40) -> restreint. C'est le piege : ne pas confondre les deux jeux de seuils."
    ],
    "source": "genere",
    "memento": "§3.3"
@@ -309,16 +309,16 @@
    "question": "Le directeur financier de Keller SA vous demande a partir de quand une entreprise est une societe ouverte au public au sens du Code des obligations. Quel element n'est PAS un critere de la societe ouverte au public ?",
    "options": [
     "Avoir des titres de participation cotes en bourse.",
-    "Etre debitrice d'un emprunt par obligations.",
+    "Depasser deux des seuils 20/40/250 (bilan, chiffre d'affaires, emplois) sur deux exercices successifs.",
     "Contribuer pour au moins 20 % de l'actif ou du chiffre d'affaires aux comptes consolides d'une societe cotee ou debitrice d'un emprunt obligataire.",
-    "Depasser deux des seuils 20/40/250 (bilan, chiffre d'affaires, emplois) sur deux exercices successifs."
+    "Etre debitrice d'un emprunt par obligations."
    ],
-   "correct": 3,
+   "correct": 1,
    "explications": [
     "Est un critere : la cotation de titres de participation en bourse (art. 727 al. 1 ch. 1 CO).",
-    "Est un critere : etre debitrice d'un emprunt par obligations (art. 727 al. 1 ch. 1 CO).",
+    "Bonne reponse : le depassement des seuils 20/40/250 caracterise la GRANDE ENTREPRISE (art. 727 al. 1 ch. 2 CO), non la societe ouverte au public (art. 727 al. 1 ch. 1 CO).",
     "Est un critere : la contribution d'au moins 20 % aux comptes consolides d'une telle societe (art. 727 al. 1 ch. 1 CO).",
-    "Bonne reponse : le depassement des seuils 20/40/250 caracterise la GRANDE ENTREPRISE (art. 727 al. 1 ch. 2 CO), non la societe ouverte au public (art. 727 al. 1 ch. 1 CO)."
+    "Est un critere : etre debitrice d'un emprunt par obligations (art. 727 al. 1 ch. 1 CO)."
    ],
    "source": "original",
    "memento": "§3.4"
@@ -328,17 +328,17 @@
    "champ": "Societe ouverte au public - assujettissement",
    "question": "Une PME dont les seuils 20/40/250 ne sont pas atteints emet un emprunt par obligations. Quel controle est requis ?",
    "options": [
-    "Controle restreint, car elle reste sous les seuils 20/40/250.",
-    "Controle ordinaire : en tant que debitrice d'un emprunt par obligations, elle est une societe ouverte au public (art. 727 al. 1 ch. 1 CO).",
+    "Opting-out possible si elle compte moins de 10 emplois.",
     "Aucun controle, faute d'atteindre les seuils de taille.",
-    "Opting-out possible si elle compte moins de 10 emplois."
+    "Controle restreint, car elle reste sous les seuils 20/40/250.",
+    "Controle ordinaire : en tant que debitrice d'un emprunt par obligations, elle est une societe ouverte au public (art. 727 al. 1 ch. 1 CO)."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : la qualification de societe ouverte au public est independante des seuils de taille ; elle declenche le controle ordinaire meme sous 20/40/250.",
-    "Exact : etre debitrice d'un emprunt par obligations est un critere de societe ouverte au public (art. 727 al. 1 ch. 1 CO), qui impose le controle ordinaire quelle que soit la taille.",
+    "Faux : l'opting-out est exclu pour une societe ouverte au public soumise au controle ordinaire.",
     "Faux : une societe ouverte au public est toujours soumise au controle ordinaire, meme petite.",
-    "Faux : l'opting-out est exclu pour une societe ouverte au public soumise au controle ordinaire."
+    "Faux : la qualification de societe ouverte au public est independante des seuils de taille ; elle declenche le controle ordinaire meme sous 20/40/250.",
+    "Exact : etre debitrice d'un emprunt par obligations est un critere de societe ouverte au public (art. 727 al. 1 ch. 1 CO), qui impose le controle ordinaire quelle que soit la taille."
    ],
    "source": "genere",
    "memento": "§3.4"
@@ -348,16 +348,16 @@
    "champ": "Emplois a plein temps - apprentis",
    "question": "Lors de l'evaluation du seuil des emplois pour Metter Sarl, faut-il tenir compte des apprentis ?",
    "options": [
+    "Non, les apprentis sont exclus en raison de leur formation et de leurs absences.",
     "Non, les apprentis ne sont pas pris en compte, car ils ne fournissent pas un travail comparable a un emploi a plein temps.",
     "Oui, les apprentis sont pris en compte, au prorata de leur taux d'occupation.",
-    "Non, les apprentis sont exclus en raison de leur formation et de leurs absences.",
     "Oui, chaque apprenti compte comme un emploi a plein temps entier."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
+    "Faux : aucune exclusion des apprentis n'est prevue.",
     "Faux : le cours indique que les apprentis sont bien pris en compte.",
     "Exact : selon le cours, il faut prendre en compte les apprentis et les collaborateurs a temps partiel au prorata de leur taux d'occupation (calcul de l'effectif au sens de l'art. 727 al. 1 ch. 2 CO).",
-    "Faux : aucune exclusion des apprentis n'est prevue.",
     "Faux : ils comptent au prorata de leur taux d'occupation, non comme un plein temps entier."
    ],
    "source": "original",
@@ -368,17 +368,17 @@
    "champ": "Opting - conditions de l'opting-up",
    "question": "Comment un opting-up (passage volontaire au controle ordinaire) peut-il etre decide dans une societe qui ne serait tenue qu'au controle restreint ?",
    "options": [
-    "Uniquement par decision unanime de tous les actionnaires.",
     "Par des actionnaires representant ensemble au moins 10 % du capital-actions, par les statuts, ou par une decision de l'assemblee generale.",
-    "Par le seul conseil d'administration.",
-    "Par des actionnaires representant ensemble au moins 50 % du capital-actions."
+    "Uniquement par decision unanime de tous les actionnaires.",
+    "Par des actionnaires representant ensemble au moins 50 % du capital-actions.",
+    "Par le seul conseil d'administration."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : l'unanimite n'est pas requise pour un opting-up (elle l'est pour l'opting-out).",
     "Exact : l'opting-up peut etre exige par des actionnaires representant au moins 10 % du capital-actions, prevu par les statuts, ou decide par l'assemblee generale (minorite : art. 727 al. 2 CO ; statuts ou decision de l AG : art. 727 al. 3 CO).",
-    "Faux : le conseil d'administration ne peut pas imposer seul un controle ordinaire.",
-    "Faux : le seuil de participation est de 10 % du capital, non de 50 %."
+    "Faux : l'unanimite n'est pas requise pour un opting-up (elle l'est pour l'opting-out).",
+    "Faux : le seuil de participation est de 10 % du capital, non de 50 %.",
+    "Faux : le conseil d'administration ne peut pas imposer seul un controle ordinaire."
    ],
    "source": "genere",
    "memento": "§3.5"
@@ -388,17 +388,17 @@
    "champ": "Opting - definition de l'opting-up",
    "question": "Votre client de revision opte pour un opting-up. Qu'est-ce que l'opting-up ?",
    "options": [
-    "Une decision de controle restreint volontaire.",
+    "Le fait de renoncer a une revision volontaire.",
     "Une decision de controle ordinaire volontaire.",
     "Le fait de renoncer a une revision legale.",
-    "Le fait de renoncer a une revision volontaire."
+    "Une decision de controle restreint volontaire."
    ],
    "correct": 1,
    "explications": [
-    "Faux : le controle restreint volontaire correspond a l'opting-in.",
+    "Faux : renoncer a une revision volontaire correspond plutot a l'opting-down (retour au controle legal minimal).",
     "Exact : l'opting-up est la decision de se soumettre volontairement au controle ordinaire, alors que seul un controle restreint serait du.",
     "Faux : renoncer a la revision legale correspond a l'opting-out.",
-    "Faux : renoncer a une revision volontaire correspond plutot a l'opting-down (retour au controle legal minimal)."
+    "Faux : le controle restreint volontaire correspond a l'opting-in."
    ],
    "source": "original",
    "memento": "§3.5"
@@ -408,17 +408,17 @@
    "champ": "Opting - mecanisme opting-in",
    "question": "Quel mecanisme d'opting permet a une societe de se soumettre volontairement a un controle restreint alors qu'elle n'y serait pas legalement tenue ?",
    "options": [
-    "L'opting-in.",
-    "L'opting-up.",
+    "L'opting-out.",
     "L'opting-down.",
-    "L'opting-out."
+    "L'opting-in.",
+    "L'opting-up."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : l'opting-in est la decision de controle restreint volontaire (par ex. lorsque l'entreprise pourrait renoncer a tout controle mais choisit un restreint).",
-    "Faux : l'opting-up conduit au controle ordinaire volontaire, pas au restreint.",
+    "Faux : l'opting-out est la renonciation a tout controle legal, non un choix de controle restreint.",
     "Faux : l'opting-down designe un controle volontaire aboutissant au restreint dans un contexte ou l'ordinaire serait attendu ; ce n'est pas l'entree volontaire dans le restreint depuis l'absence d'obligation.",
-    "Faux : l'opting-out est la renonciation a tout controle legal, non un choix de controle restreint."
+    "Exact : l'opting-in est la decision de controle restreint volontaire (par ex. lorsque l'entreprise pourrait renoncer a tout controle mais choisit un restreint).",
+    "Faux : l'opting-up conduit au controle ordinaire volontaire, pas au restreint."
    ],
    "source": "genere",
    "memento": "§3.5"
@@ -429,16 +429,16 @@
    "question": "A quelles conditions cumulatives une societe peut-elle renoncer au controle restreint (opting-out) ?",
    "options": [
     "Moins de 10 emplois a plein temps et l'accord de la majorite des actionnaires.",
-    "Un effectif ne depassant pas 10 emplois a plein temps en moyenne annuelle ET le consentement de l'ensemble des actionnaires (unanimite).",
     "Moins de 250 emplois et une decision de l'assemblee generale a la majorite simple.",
-    "Un total du bilan inferieur a 20 mio CHF et l'accord du conseil d'administration."
+    "Un total du bilan inferieur a 20 mio CHF et l'accord du conseil d'administration.",
+    "Un effectif ne depassant pas 10 emplois a plein temps en moyenne annuelle ET le consentement de l'ensemble des actionnaires (unanimite)."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
     "Faux : la majorite ne suffit pas ; l'opting-out exige l'unanimite des actionnaires.",
-    "Exact : art. 727a al. 2 CO - l'opting-out suppose un effectif ne depassant pas 10 emplois a plein temps en moyenne annuelle ET le consentement de tous les actionnaires (unanimite).",
     "Faux : le seuil est 10 emplois (non 250) et il faut l'unanimite (non la majorite simple).",
-    "Faux : le critere est l'effectif (< 10 emplois) et l'unanimite des actionnaires, non le bilan et l'accord du CA."
+    "Faux : le critere est l'effectif (< 10 emplois) et l'unanimite des actionnaires, non le bilan et l'accord du CA.",
+    "Exact : art. 727a al. 2 CO - l'opting-out suppose un effectif ne depassant pas 10 emplois a plein temps en moyenne annuelle ET le consentement de tous les actionnaires (unanimite)."
    ],
    "source": "genere",
    "memento": "§3.5"
@@ -448,17 +448,17 @@
    "champ": "Opting-out - cas quelle filiale",
    "question": "Le directeur financier du groupe MARS vous demande quelle filiale peut proceder a un opting-out. Laquelle remplit les conditions ?",
    "options": [
-    "Filiale A (SA) : soumise a un controle ordinaire, plus de dix emplois a plein temps, avec le consentement de tous les actionnaires.",
     "Filiale B (SA) : soumise a un controle restreint, moins de dix emplois a plein temps, avec le consentement de l'ensemble des actionnaires.",
-    "Filiale C (Sarl) : soumise a un controle restreint, plus de 250 emplois a plein temps, avec le consentement de tous les actionnaires.",
-    "Filiale D (Sarl) : soumise a un controle restreint, moins de dix emplois a plein temps, avec le consentement de la moitie des actionnaires."
+    "Filiale A (SA) : soumise a un controle ordinaire, plus de dix emplois a plein temps, avec le consentement de tous les actionnaires.",
+    "Filiale D (Sarl) : soumise a un controle restreint, moins de dix emplois a plein temps, avec le consentement de la moitie des actionnaires.",
+    "Filiale C (Sarl) : soumise a un controle restreint, plus de 250 emplois a plein temps, avec le consentement de tous les actionnaires."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : une societe soumise au controle ordinaire, et de surcroit avec plus de 10 emplois, ne peut pas faire d'opting-out.",
     "Exact : les deux conditions cumulatives sont reunies - controle restreint, moins de 10 emplois a plein temps et consentement de l'ensemble des actionnaires (art. 727a al. 2 CO).",
-    "Faux : plus de 250 emplois exclut l'opting-out (il faut moins de 10 emplois).",
-    "Faux : le consentement de la moitie des actionnaires ne suffit pas ; l'unanimite est requise."
+    "Faux : une societe soumise au controle ordinaire, et de surcroit avec plus de 10 emplois, ne peut pas faire d'opting-out.",
+    "Faux : le consentement de la moitie des actionnaires ne suffit pas ; l'unanimite est requise.",
+    "Faux : plus de 250 emplois exclut l'opting-out (il faut moins de 10 emplois)."
    ],
    "source": "original",
    "memento": "§3.5"
@@ -468,16 +468,16 @@
    "champ": "Opting-out - effets ulterieurs",
    "question": "Une Sarl de 7 collaborateurs a valablement decide un opting-out (accord de tous les associes). Laquelle des affirmations est correcte ?",
    "options": [
-    "Elle doit desormais designer un expert-reviseur agree pour tout controle ulterieur.",
-    "L'opting-out vaut aussi pour les exercices suivants ; la societe peut ensuite confier un controle volontaire a une personne qui n'est ni agreee ni independante.",
     "L'opting-out doit etre renouvele chaque annee par un vote unanime.",
+    "L'opting-out vaut aussi pour les exercices suivants ; la societe peut ensuite confier un controle volontaire a une personne qui n'est ni agreee ni independante.",
+    "Elle doit desormais designer un expert-reviseur agree pour tout controle ulterieur.",
     "Aucun associe ne pourra plus jamais exiger de controle par la suite."
    ],
    "correct": 1,
    "explications": [
-    "Faux : apres opting-out, aucun agrement n'est requis ; un controle volontaire ulterieur peut etre confie a une personne non agreee.",
-    "Exact : selon le cours, une renonciation valable vaut aussi pour les exercices suivants ; la societe peut ensuite faire proceder a un controle volontaire, non conforme en tout point aux exigences du controle restreint, par une personne sans agrement ni independance requise (art. 727a al. 2 CO).",
     "Faux : l'opting-out valablement decide se prolonge sur les exercices suivants sans revote annuel.",
+    "Exact : selon le cours, une renonciation valable vaut aussi pour les exercices suivants ; la societe peut ensuite faire proceder a un controle volontaire, non conforme en tout point aux exigences du controle restreint, par une personne sans agrement ni independance requise (art. 727a al. 2 CO).",
+    "Faux : apres opting-out, aucun agrement n'est requis ; un controle volontaire ulterieur peut etre confie a une personne non agreee.",
     "Faux : chaque associe conserve la faculte de reexiger un controle restreint pour l'avenir."
    ],
    "source": "genere",
@@ -488,17 +488,17 @@
    "champ": "Ordinaire vs restreint - SCI",
    "question": "Concernant l'objet du controle et le systeme de controle interne (SCI), laquelle des affirmations est correcte ?",
    "options": [
-    "Le controle restreint porte aussi sur l'existence du systeme de controle interne (SCI).",
-    "L'existence du SCI est verifiee uniquement dans le controle ordinaire (art. 728a CO) ; le controle restreint (art. 729a CO) ne la couvre pas.",
     "Ni le controle ordinaire ni le controle restreint ne portent sur le SCI.",
-    "En vertu de l'art. 728a al. 1 ch. 3 CO, l'organe de revision d'un controle restreint doit confirmer l'existence d'un SCI."
+    "En vertu de l'art. 728a al. 1 ch. 3 CO, l'organe de revision d'un controle restreint doit confirmer l'existence d'un SCI.",
+    "L'existence du SCI est verifiee uniquement dans le controle ordinaire (art. 728a CO) ; le controle restreint (art. 729a CO) ne la couvre pas.",
+    "Le controle restreint porte aussi sur l'existence du systeme de controle interne (SCI)."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
-    "Faux : le controle restreint (art. 729a CO) ne verifie pas l'existence du SCI.",
-    "Exact : l'objet du controle ordinaire comprend les comptes, l'emploi du benefice et l'existence du SCI (art. 728a CO) ; le controle restreint se limite aux comptes et a l'emploi du benefice (art. 729a CO), sans SCI.",
     "Faux : le controle ordinaire porte bien sur l'existence du SCI.",
-    "Faux : l'art. 728a CO vise le controle ORDINAIRE ; il ne concerne pas le restreint. La confirmation du SCI n'incombe pas au controle restreint."
+    "Faux : l'art. 728a CO vise le controle ORDINAIRE ; il ne concerne pas le restreint. La confirmation du SCI n'incombe pas au controle restreint.",
+    "Exact : l'objet du controle ordinaire comprend les comptes, l'emploi du benefice et l'existence du SCI (art. 728a CO) ; le controle restreint se limite aux comptes et a l'emploi du benefice (art. 729a CO), sans SCI.",
+    "Faux : le controle restreint (art. 729a CO) ne verifie pas l'existence du SCI."
    ],
    "source": "genere",
    "memento": "§3.6"
@@ -508,16 +508,16 @@
    "champ": "Ordinaire vs restreint - rotation",
    "question": "Concernant l'obligation de rotation du reviseur responsable, laquelle des affirmations est correcte ?",
    "options": [
-    "La rotation (7 ans au plus, puis 3 ans d'interruption, art. 730a CO) s'applique tant au controle ordinaire qu'au controle restreint.",
     "La rotation du reviseur responsable (7 ans au plus, interruption de 3 ans, art. 730a CO) ne s'applique qu'au controle ordinaire.",
     "La rotation ne s'applique qu'au controle restreint.",
+    "La rotation (7 ans au plus, puis 3 ans d'interruption, art. 730a CO) s'applique tant au controle ordinaire qu'au controle restreint.",
     "Il n'existe aucune obligation de rotation du reviseur responsable en droit suisse."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : le controle restreint ne connait pas d'obligation de rotation.",
     "Exact : la rotation du reviseur responsable (au plus 7 ans, puis interruption de 3 ans, art. 730a al. 2 CO) est propre au controle ordinaire ; le controle restreint en est dispense.",
     "Faux : c'est l'inverse - la rotation vise l'ordinaire, pas le restreint.",
+    "Faux : le controle restreint ne connait pas d'obligation de rotation.",
     "Faux : l'obligation de rotation existe bien, mais pour le seul controle ordinaire."
    ],
    "source": "genere",
@@ -528,17 +528,17 @@
    "champ": "Ordinaire vs restreint - rapport et assurance",
    "question": "Laquelle de ces affirmations distinguant controle ordinaire et controle restreint est correcte ?",
    "options": [
-    "Le controle restreint delivre une assurance positive, comme le controle ordinaire.",
-    "Le controle ordinaire donne lieu a un rapport detaille au conseil d'administration et a une assurance positive ; le controle restreint donne une assurance negative et un rapport succinct a l AG, sans rapport detaille au CA.",
+    "L'assurance du controle restreint (env. 90-95 %) est plus elevee que celle du controle ordinaire (env. 60 %).",
     "Le controle ordinaire n'exige aucun rapport, contrairement au controle restreint.",
-    "L'assurance du controle restreint (env. 90-95 %) est plus elevee que celle du controle ordinaire (env. 60 %)."
+    "Le controle restreint delivre une assurance positive, comme le controle ordinaire.",
+    "Le controle ordinaire donne lieu a un rapport detaille au conseil d'administration et a une assurance positive ; le controle restreint donne une assurance negative et un rapport succinct a l AG, sans rapport detaille au CA."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : le controle restreint delivre une assurance NEGATIVE (limitee), non positive.",
-    "Exact : le controle ordinaire comporte un rapport succinct a l'AG (art. 728b CO) + un rapport detaille au CA, avec assurance positive ; le controle restreint donne un rapport succinct a l'AG (art. 729b CO), sans rapport detaille au CA, et une assurance negative.",
+    "Faux : les niveaux sont inverses - ordinaire env. 90-95 % (raisonnable), restreint env. 60 % (limitee).",
     "Faux : le controle ordinaire donne lieu a un rapport a l'AG et a un rapport detaille au CA.",
-    "Faux : les niveaux sont inverses - ordinaire env. 90-95 % (raisonnable), restreint env. 60 % (limitee)."
+    "Faux : le controle restreint delivre une assurance NEGATIVE (limitee), non positive.",
+    "Exact : le controle ordinaire comporte un rapport succinct a l'AG (art. 728b CO) + un rapport detaille au CA, avec assurance positive ; le controle restreint donne un rapport succinct a l'AG (art. 729b CO), sans rapport detaille au CA, et une assurance negative."
    ],
    "source": "genere",
    "memento": "§3.6 (+ §1.5)"
@@ -549,16 +549,16 @@
    "question": "Concernant les exigences d'independance de l'organe de revision, laquelle des affirmations est correcte ?",
    "options": [
     "Les exigences d'independance ne s'appliquent qu'au controle ordinaire.",
-    "L'independance est requise dans les deux types de controle ; en restreint, la collaboration a la tenue de la comptabilite est admise sous conditions (art. 729 CO), sauf pour les comptes consolides.",
+    "En controle ordinaire, le reviseur peut tenir la comptabilite du client.",
     "En controle restreint, aucune exigence d'independance n'est posee.",
-    "En controle ordinaire, le reviseur peut tenir la comptabilite du client."
+    "L'independance est requise dans les deux types de controle ; en restreint, la collaboration a la tenue de la comptabilite est admise sous conditions (art. 729 CO), sauf pour les comptes consolides."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
     "Faux : l'independance est exigee dans les deux types de controle.",
-    "Exact : les exigences d'independance valent pour les deux ; le controle restreint admet toutefois, sous conditions, la collaboration a la tenue de la comptabilite (art. 729 CO), exclue lorsque l'organe audite les comptes consolides. En ordinaire : hautes exigences (art. 728 CO).",
+    "Faux : en controle ordinaire, tenir la comptabilite du client est incompatible avec l'independance (art. 728 CO).",
     "Faux : le controle restreint est aussi soumis a l'independance (avec l'assouplissement de l'art. 729 CO).",
-    "Faux : en controle ordinaire, tenir la comptabilite du client est incompatible avec l'independance (art. 728 CO)."
+    "Exact : les exigences d'independance valent pour les deux ; le controle restreint admet toutefois, sous conditions, la collaboration a la tenue de la comptabilite (art. 729 CO), exclue lorsque l'organe audite les comptes consolides. En ordinaire : hautes exigences (art. 728 CO)."
    ],
    "source": "genere",
    "memento": "§6.4 (+ §3.6)"
@@ -568,17 +568,17 @@
    "champ": "Ordinaire vs restreint - agrement",
    "question": "Quelle exigence d'agrement de l'organe de revision s'applique selon le type de controle ?",
    "options": [
-    "Controle ordinaire : reviseur agree ; controle restreint : expert-reviseur agree.",
-    "Controle ordinaire : expert-reviseur agree (art. 727b al. 2 CO) ; controle restreint : reviseur agree (art. 727c CO).",
+    "Aucun agrement n'est requis pour le controle restreint.",
     "Les deux types de controle exigent une entreprise de revision soumise a la surveillance de l'Etat.",
-    "Aucun agrement n'est requis pour le controle restreint."
+    "Controle ordinaire : expert-reviseur agree (art. 727b al. 2 CO) ; controle restreint : reviseur agree (art. 727c CO).",
+    "Controle ordinaire : reviseur agree ; controle restreint : expert-reviseur agree."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
-    "Faux : les exigences sont inversees ; l'ordinaire demande l'expert-reviseur, le restreint le reviseur.",
-    "Exact : le controle ordinaire requiert un expert-reviseur agree (art. 727b al. 2 CO) et le controle restreint un reviseur agree (art. 727c CO) ; les societes ouvertes au public exigent en outre une entreprise soumise a la surveillance de l'Etat (art. 727b al. 1 CO).",
+    "Faux : le controle restreint requiert au moins un reviseur agree (art. 727c CO) ; l'absence d'agrement n'est admise qu'apres un opting-out valable.",
     "Faux : la surveillance de l'Etat n'est requise que pour les societes ouvertes au public / grandes entreprises, pas pour tout controle restreint.",
-    "Faux : le controle restreint requiert au moins un reviseur agree (art. 727c CO) ; l'absence d'agrement n'est admise qu'apres un opting-out valable."
+    "Exact : le controle ordinaire requiert un expert-reviseur agree (art. 727b al. 2 CO) et le controle restreint un reviseur agree (art. 727c CO) ; les societes ouvertes au public exigent en outre une entreprise soumise a la surveillance de l'Etat (art. 727b al. 1 CO).",
+    "Faux : les exigences sont inversees ; l'ordinaire demande l'expert-reviseur, le restreint le reviseur."
    ],
    "source": "genere",
    "memento": "§3.6"
@@ -588,16 +588,16 @@
    "champ": "Controle restreint vs review",
    "question": "Quelle affirmation distingue correctement le controle restreint de la review (examen succinct) ?",
    "options": [
-    "Le controle restreint et la review reposent sur la meme norme et se demandent au meme organe.",
     "Le controle restreint (norme NCR) comporte des verifications detaillees appropriees et se fait sur demande de l'assemblee generale ; la review (ISRE-CH 2400/2410) ne comporte pas de verifications detaillees et se fait sur demande du conseil d'administration.",
     "La review est un controle legal des comptes, au meme titre que le controle restreint.",
+    "Le controle restreint et la review reposent sur la meme norme et se demandent au meme organe.",
     "Le controle restreint ne connait pas d'obligation d'agir en cas de surendettement, contrairement a la review."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : les normes different (NCR pour le restreint, ISRE-CH 2400/2410 pour la review) et le demandeur aussi.",
     "Exact : le controle restreint (NCR) prevoit des verifications detaillees appropriees, a la demande de l'AG, avec obligation d'agir en cas de surendettement ; la review (ISRE-CH 2400/2410) ne comporte pas de verifications detaillees, se fait a la demande du CA et ne connait pas le surendettement.",
     "Faux : la review n'est pas un controle legal des comptes ; le controle restreint, lui, est un controle legal.",
+    "Faux : les normes different (NCR pour le restreint, ISRE-CH 2400/2410 pour la review) et le demandeur aussi.",
     "Faux : c'est l'inverse - c'est le controle restreint qui comporte l'obligation d'agir en cas de surendettement, non la review."
    ],
    "source": "genere",

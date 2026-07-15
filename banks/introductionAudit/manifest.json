@@ -1,16 +1,61 @@
 {
-  "cours": "introductionAudit",
-  "titre": "Introduction à l'audit — Module 2 (ExpertSuisse)",
-  "modules": [
-    { "id": "M1", "titre": "Raison d'être, mission d'assurance & objets de l'audit", "bank": "m1-raison-mission.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M2", "titre": "Types de missions & contrôles légaux au cycle de vie", "bank": "m2-missions-cycle.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M3", "titre": "Obligation de révision : contrôle ordinaire vs restreint", "bank": "m3-ordinaire-restreint.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M4", "titre": "Normes applicables : NA-CH, NCR, MSA, ISQM", "bank": "m4-normes.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M5", "titre": "Agrément & surveillance : LSR / ASR", "bank": "m5-lsr-asr.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M6", "titre": "Indépendance & éthique", "bank": "m6-independance-ethique.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M7", "titre": "Élection, mandat & communication", "bank": "m7-election-mandat-communication.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M8", "titre": "Démarche d'audit orientée risques & fraudes", "bank": "m8-demarche-fraudes.json", "memento": "memento-audit-complet.pdf" },
-    { "id": "M9", "titre": "Responsabilité de l'organe de révision", "bank": "m9-responsabilite.json", "memento": "memento-audit-complet.pdf" }
-  ],
-  "note": "Mémento unique consolidé (memento-audit-complet.pdf). Bundle : banks/introductionAudit/_bundle.js (généré par build/build_bundle.py introductionAudit)."
+ "cours": "introductionAudit",
+ "titre": "Introduction à l'audit — Module 2 (ExpertSuisse)",
+ "modules": [
+  {
+   "id": "M1",
+   "titre": "Raison d'être, mission d'assurance & objets de l'audit",
+   "bank": "m1-raison-mission.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M2",
+   "titre": "Types de missions & contrôles légaux au cycle de vie",
+   "bank": "m2-missions-cycle.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M3",
+   "titre": "Obligation de révision : contrôle ordinaire vs restreint",
+   "bank": "m3-ordinaire-restreint.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M4",
+   "titre": "Normes applicables : NA-CH, NCR, MSA, ISQM",
+   "bank": "m4-normes.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M5",
+   "titre": "Agrément & surveillance : LSR / ASR",
+   "bank": "m5-lsr-asr.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M6",
+   "titre": "Indépendance & éthique",
+   "bank": "m6-independance-ethique.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M7",
+   "titre": "Élection, mandat & communication",
+   "bank": "m7-election-mandat-communication.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M8",
+   "titre": "Démarche d'audit orientée risques & fraudes",
+   "bank": "m8-demarche-fraudes.json",
+   "memento": "memento-audit-complet.pdf"
+  },
+  {
+   "id": "M9",
+   "titre": "Responsabilité de l'organe de révision",
+   "bank": "m9-responsabilite.json",
+   "memento": "memento-audit-complet.pdf"
+  }
+ ],
+ "note": "Mémento unique consolidé (memento-audit-complet.pdf). Bundle : banks/introductionAudit/_bundle.js (généré par build/build_bundle.py introductionAudit)."
 }

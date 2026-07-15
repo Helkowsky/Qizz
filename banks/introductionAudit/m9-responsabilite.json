@@ -8,17 +8,17 @@
    "champ": "Organe vs mandataire",
    "question": "Lorsqu'il procède à la vérification des comptes annuels et consolidés d'une SA, la responsabilité civile de l'organe de révision relève avant tout de la :",
    "options": [
-    "responsabilite en tant qu'organe (art. 755 CO)",
     "responsabilite penale au sens du Code penal",
-    "responsabilite en tant que mandataire, fondee sur le contrat",
-    "responsabilite vis-a-vis des creanciers dans le seul cadre d'une relation de mandat"
+    "responsabilite en tant qu'organe (art. 755 CO)",
+    "responsabilite vis-a-vis des creanciers dans le seul cadre d'une relation de mandat",
+    "responsabilite en tant que mandataire, fondee sur le contrat"
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
-    "Exact : la verification des comptes annuels et de groupe est une verification legale ; l'OR y repond en tant qu'organe sur la base de l'art. 755 CO.",
     "Faux : la responsabilite penale (8 infractions du CP : art. 152, 321, 146, 153, 158, 162, 251, 253 CP) est une autre branche ; la question vise la responsabilite CIVILE liee a la verification des comptes.",
-    "Faux : la responsabilite de mandataire (contrat) couvre les verifications speciales (transfert de siege, repartition anticipee de l'actif), pas la verification des comptes annuels qui est une verification legale (art. 755 CO).",
-    "Faux : en tant qu'organe (art. 755 CO), l'OR repond envers la societe, les actionnaires ET les creanciers, pas seulement les creanciers, et pas dans une relation de mandat."
+    "Exact : la verification des comptes annuels et de groupe est une verification legale ; l'OR y repond en tant qu'organe sur la base de l'art. 755 CO.",
+    "Faux : en tant qu'organe (art. 755 CO), l'OR repond envers la societe, les actionnaires ET les creanciers, pas seulement les creanciers, et pas dans une relation de mandat.",
+    "Faux : la responsabilite de mandataire (contrat) couvre les verifications speciales (transfert de siege, repartition anticipee de l'actif), pas la verification des comptes annuels qui est une verification legale (art. 755 CO)."
    ],
    "source": "original",
    "memento": "§10.1"
@@ -28,17 +28,17 @@
    "champ": "Organe vs mandataire",
    "question": "Quelle affirmation distingue correctement la responsabilite en tant qu'organe de la responsabilite en tant que mandataire de l'organe de revision ?",
    "options": [
-    "En tant qu'organe (art. 755 CO), l'OR repond envers la societe, les actionnaires et les creanciers ; en tant que mandataire (contrat), il repond envers la societe seule",
-    "En tant qu'organe, l'OR repond envers la societe seule ; en tant que mandataire, il repond envers les actionnaires et les creanciers",
     "Dans les deux cas, l'OR repond exclusivement envers la societe",
-    "En tant qu'organe, la responsabilite decoule du contrat ; en tant que mandataire, elle decoule de l'art. 755 CO"
+    "En tant qu'organe, l'OR repond envers la societe seule ; en tant que mandataire, il repond envers les actionnaires et les creanciers",
+    "En tant qu'organe, la responsabilite decoule du contrat ; en tant que mandataire, elle decoule de l'art. 755 CO",
+    "En tant qu'organe (art. 755 CO), l'OR repond envers la societe, les actionnaires et les creanciers ; en tant que mandataire (contrat), il repond envers la societe seule"
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "Exact : la qualite d'organe (art. 755 CO) elargit le cercle des ayants droit a la societe, aux actionnaires et aux creanciers ; la qualite de mandataire, fondee sur le contrat, n'engage l'OR qu'envers la societe.",
-    "Faux : c'est l'inverse. C'est la responsabilite d'organe (art. 755 CO) qui vise societe, actionnaires et creanciers ; le mandat ne vise que la societe.",
     "Faux : seule la responsabilite de mandataire se limite a la societe ; en tant qu'organe (art. 755 CO) le cercle inclut actionnaires et creanciers.",
-    "Faux : les fondements sont inverses : l'organe repond sur la base de l'art. 755 CO, le mandataire sur la base du contrat (mandat)."
+    "Faux : c'est l'inverse. C'est la responsabilite d'organe (art. 755 CO) qui vise societe, actionnaires et creanciers ; le mandat ne vise que la societe.",
+    "Faux : les fondements sont inverses : l'organe repond sur la base de l'art. 755 CO, le mandataire sur la base du contrat (mandat).",
+    "Exact : la qualite d'organe (art. 755 CO) elargit le cercle des ayants droit a la societe, aux actionnaires et aux creanciers ; la qualite de mandataire, fondee sur le contrat, n'engage l'OR qu'envers la societe."
    ],
    "source": "genere",
    "memento": "§10.1"
@@ -48,17 +48,17 @@
    "champ": "Contrôles engageant la responsabilité d'organe",
    "question": "Parmi les verifications suivantes, laquelle releve de la responsabilite en tant qu'organe (art. 755 CO) et non de la responsabilite de mandataire ?",
    "options": [
-    "La verification du transfert d'un siege",
-    "La verification de la repartition anticipee de l'actif",
     "La verification de la fondation ainsi que de l'augmentation ou de la reduction du capital-actions",
-    "Toute autre verification effectuee sur la base d'un mandat"
+    "Toute autre verification effectuee sur la base d'un mandat",
+    "La verification du transfert d'un siege",
+    "La verification de la repartition anticipee de l'actif"
    ],
-   "correct": 2,
+   "correct": 0,
    "explications": [
-    "Faux : le transfert de siege est une verification SPECIALE, engageant la responsabilite de mandataire (contrat), pas la responsabilite d'organe de l'art. 755 CO.",
-    "Faux : la repartition anticipee de l'actif est une verification speciale relevant du mandat, non une verification legale de l'art. 755 CO.",
     "Exact : la fondation, l'augmentation et la reduction du capital-actions sont des verifications legales pour lesquelles l'OR repond en tant qu'organe au sens de l'art. 755 CO (au meme titre que les comptes annuels et de groupe).",
-    "Faux : les autres verifications sur mandat relevent par definition de la responsabilite de mandataire (contrat), pas de l'art. 755 CO."
+    "Faux : les autres verifications sur mandat relevent par definition de la responsabilite de mandataire (contrat), pas de l'art. 755 CO.",
+    "Faux : le transfert de siege est une verification SPECIALE, engageant la responsabilite de mandataire (contrat), pas la responsabilite d'organe de l'art. 755 CO.",
+    "Faux : la repartition anticipee de l'actif est une verification speciale relevant du mandat, non une verification legale de l'art. 755 CO."
    ],
    "source": "genere",
    "memento": "§10.1"
@@ -68,17 +68,17 @@
    "champ": "4 conditions cumulatives",
    "question": "Quelles sont les quatre conditions cumulatives de la responsabilite civile de l'organe de revision (art. 755 CO) ?",
    "options": [
-    "Dommage, manquement aux obligations, faute, lien de causalite",
     "Dommage, illiceite, faute, lien de causalite",
-    "Contrat, fraude, dommage, declarations mensongeres",
-    "Faute, manquement aux obligations, fraude, contrat"
+    "Faute, manquement aux obligations, fraude, contrat",
+    "Dommage, manquement aux obligations, faute, lien de causalite",
+    "Contrat, fraude, dommage, declarations mensongeres"
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : les quatre conditions cumulatives de l'art. 755 CO sont le dommage, le manquement (violation) aux obligations, la faute et le lien de causalite entre le manquement et le dommage.",
     "Faux : piege classique. Il n'y a PAS de condition distincte d'illiceite dans ce dispositif ; la 4e condition est la faute, non l'illiceite.",
-    "Faux : contrat, fraude et declarations mensongeres ne figurent pas parmi les quatre conditions de l'art. 755 CO.",
-    "Faux : la fraude et le contrat ne sont pas des conditions ; il manque le dommage et le lien de causalite, indispensables selon l'art. 755 CO."
+    "Faux : la fraude et le contrat ne sont pas des conditions ; il manque le dommage et le lien de causalite, indispensables selon l'art. 755 CO.",
+    "Exact : les quatre conditions cumulatives de l'art. 755 CO sont le dommage, le manquement (violation) aux obligations, la faute et le lien de causalite entre le manquement et le dommage.",
+    "Faux : contrat, fraude et declarations mensongeres ne figurent pas parmi les quatre conditions de l'art. 755 CO."
    ],
    "source": "genere",
    "memento": "§10.2"
@@ -88,17 +88,17 @@
    "champ": "4 conditions cumulatives",
    "question": "Dans un litige, il est etabli qu'il existe un dommage, une violation des obligations et un lien de causalite, mais que l'organe de revision n'a commis aucune faute. Quelle est la consequence ?",
    "options": [
-    "La responsabilite civile est engagee, trois conditions sur quatre suffisant",
-    "La responsabilite civile n'est pas engagee : les quatre conditions de l'art. 755 CO sont cumulatives",
+    "Il subsiste une responsabilite administrative de l'organe de revision",
     "La responsabilite devient automatiquement penale",
-    "Il subsiste une responsabilite administrative de l'organe de revision"
+    "La responsabilite civile est engagee, trois conditions sur quatre suffisant",
+    "La responsabilite civile n'est pas engagee : les quatre conditions de l'art. 755 CO sont cumulatives"
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : les conditions de l'art. 755 CO sont cumulatives ; trois sur quatre ne suffisent jamais.",
-    "Exact : les quatre conditions (dommage, manquement, faute, lien de causalite) etant cumulatives, il suffit qu'une seule manque - ici la faute - pour qu'il n'y ait pas de responsabilite (art. 755 CO).",
+    "Faux : la responsabilite de l'organe de revision est civile ET penale, jamais administrative ; aucune responsabilite administrative ne subsiste.",
     "Faux : la responsabilite penale (infractions du CP) est independante et suppose ses propres elements constitutifs ; l'absence de faute civile ne la declenche pas.",
-    "Faux : la responsabilite de l'organe de revision est civile ET penale, jamais administrative ; aucune responsabilite administrative ne subsiste."
+    "Faux : les conditions de l'art. 755 CO sont cumulatives ; trois sur quatre ne suffisent jamais.",
+    "Exact : les quatre conditions (dommage, manquement, faute, lien de causalite) etant cumulatives, il suffit qu'une seule manque - ici la faute - pour qu'il n'y ait pas de responsabilite (art. 755 CO)."
    ],
    "source": "genere",
    "memento": "§10.2"
@@ -108,16 +108,16 @@
    "champ": "Dommage direct / indirect",
    "question": "Qu'est-ce qu'un dommage 'direct' (immediat) dans le cadre de la responsabilite civile de l'organe de revision (art. 755 CO) ?",
    "options": [
-    "Un dommage qui frappe d'abord le patrimoine de la societe, puis se repercute sur les actionnaires",
-    "Un dommage qui ne touche pas le patrimoine de la societe mais atteint directement le patrimoine de l'actionnaire ou du creancier",
     "La diminution de la valeur de la participation de l'actionnaire consecutive a une perte de la societe",
+    "Un dommage qui ne touche pas le patrimoine de la societe mais atteint directement le patrimoine de l'actionnaire ou du creancier",
+    "Un dommage qui frappe d'abord le patrimoine de la societe, puis se repercute sur les actionnaires",
     "Toute perte economique subie par la societe elle-meme"
    ],
    "correct": 1,
    "explications": [
-    "Faux : un dommage qui frappe d'abord la societe puis se repercute est un dommage INDIRECT (par ricochet), pas direct (art. 755 CO).",
-    "Exact : le dommage direct/immediat atteint directement le patrimoine de l'actionnaire ou du creancier, sans passer par une perte de la societe (art. 755 CO).",
     "Faux : la baisse de valeur de la participation due a une perte de la societe est l'exemple type du dommage INDIRECT, subi via la societe.",
+    "Exact : le dommage direct/immediat atteint directement le patrimoine de l'actionnaire ou du creancier, sans passer par une perte de la societe (art. 755 CO).",
+    "Faux : un dommage qui frappe d'abord la societe puis se repercute est un dommage INDIRECT (par ricochet), pas direct (art. 755 CO).",
     "Faux : une perte subie par la societe elle-meme est le point de depart du dommage indirect pour l'actionnaire/creancier, non un dommage direct."
    ],
    "source": "genere",
@@ -128,17 +128,17 @@
    "champ": "Dommage direct / indirect",
    "question": "A la suite d'un manquement de l'organe de revision, la societe subit une perte et la valeur de la participation d'un actionnaire diminue. De quel type de dommage l'actionnaire est-il victime ?",
    "options": [
-    "D'un dommage direct/immediat pour l'actionnaire",
     "D'un dommage indirect, subi par ricochet a travers la societe",
     "D'un dommage exclusivement supporte par les creanciers",
-    "D'aucun dommage juridiquement reparable"
+    "D'aucun dommage juridiquement reparable",
+    "D'un dommage direct/immediat pour l'actionnaire"
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : le dommage n'atteint pas directement le patrimoine de l'actionnaire mais transite par la perte de la societe ; il n'est donc pas direct.",
     "Exact : la perte de valeur de la participation resultant d'une perte de la societe est un dommage INDIRECT (par ricochet), a distinguer du dommage direct/immediat (art. 755 CO).",
     "Faux : l'actionnaire est bien touche ; le dommage indirect concerne aussi bien les actionnaires que les creanciers.",
-    "Faux : le dommage indirect entre dans le champ de la responsabilite d'organe (art. 755 CO), pour autant que les quatre conditions soient reunies."
+    "Faux : le dommage indirect entre dans le champ de la responsabilite d'organe (art. 755 CO), pour autant que les quatre conditions soient reunies.",
+    "Faux : le dommage n'atteint pas directement le patrimoine de l'actionnaire mais transite par la perte de la societe ; il n'est donc pas direct."
    ],
    "source": "genere",
    "memento": "§10.1"
@@ -148,17 +148,17 @@
    "champ": "Civile et pénale",
    "question": "S'agissant de la responsabilite de l'organe de revision, une distinction est faite entre :",
    "options": [
-    "la responsabilite de droit administratif et de droit prive",
+    "la responsabilite de droit prive et de droit civique",
     "la responsabilite de droit penal et de droit civique",
     "la responsabilite de droit civil et de droit penal",
-    "la responsabilite de droit prive et de droit civique"
+    "la responsabilite de droit administratif et de droit prive"
    ],
    "correct": 2,
    "explications": [
-    "Faux : il n'existe pas de responsabilite de droit administratif de l'organe de revision ; la dichotomie est civil / penal.",
+    "Faux : le 'droit civique' n'est pas la categorie pertinente ; les deux branches sont le droit civil et le droit penal.",
     "Faux : la notion de droit 'civique' n'a pas de sens ici ; la branche non penale est la responsabilite CIVILE (art. 755 CO).",
     "Exact : la responsabilite de l'organe de revision se decline en responsabilite civile (art. 755 CO) et responsabilite penale (infractions du CP) - jamais administrative.",
-    "Faux : le 'droit civique' n'est pas la categorie pertinente ; les deux branches sont le droit civil et le droit penal."
+    "Faux : il n'existe pas de responsabilite de droit administratif de l'organe de revision ; la dichotomie est civil / penal."
    ],
    "source": "original",
    "memento": "§10.1 (+ §10.3)"
@@ -168,17 +168,17 @@
    "champ": "Responsabilité pénale",
    "question": "Les infractions susceptibles d'engager la responsabilite penale de l'organe de revision (faux renseignements sur les entreprises commerciales, gestion deloyale, faux dans les titres, etc.) sont prevues :",
    "options": [
-    "dans le Code des obligations (CO)",
     "dans le Code penal (CP), notamment aux art. 152, 146, 158, 251 et 253 CP",
-    "dans la loi sur la surveillance de la revision (LSR)",
-    "dans les normes suisses d'audit (NA-CH)"
+    "dans les normes suisses d'audit (NA-CH)",
+    "dans le Code des obligations (CO)",
+    "dans la loi sur la surveillance de la revision (LSR)"
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : le CO fonde la responsabilite CIVILE (art. 755 CO) ; les infractions penales figurent dans le Code penal.",
     "Exact : les huit infractions citees relevent du Code penal : art. 152 (faux renseignements), 321 (secret professionnel), 146 (escroquerie), 153, 158 (gestion deloyale), 162, 251 (faux dans les titres) et 253 CP.",
-    "Faux : la LSR regit l'agrement et la surveillance des reviseurs, non les infractions penales visees ici (qui sont dans le CP).",
-    "Faux : les NA-CH decrivent la demarche d'audit ; elles ne definissent pas d'infractions penales, lesquelles relevent du CP."
+    "Faux : les NA-CH decrivent la demarche d'audit ; elles ne definissent pas d'infractions penales, lesquelles relevent du CP.",
+    "Faux : le CO fonde la responsabilite CIVILE (art. 755 CO) ; les infractions penales figurent dans le Code penal.",
+    "Faux : la LSR regit l'agrement et la surveillance des reviseurs, non les infractions penales visees ici (qui sont dans le CP)."
    ],
    "source": "genere",
    "memento": "§10.3"
@@ -188,17 +188,17 @@
    "champ": "Responsabilité pénale",
    "question": "Parmi les dispositions suivantes, laquelle est une infraction penale citee comme pouvant engager la responsabilite PENALE de l'organe de revision ?",
    "options": [
-    "Art. 251 CP - faux dans les titres",
-    "Art. 755 CO - responsabilite dans la revision",
+    "Art. 108 al. 2 LFus - verifications de fusion",
     "Art. 728 CO - independance de l'organe de revision",
-    "Art. 108 al. 2 LFus - verifications de fusion"
+    "Art. 755 CO - responsabilite dans la revision",
+    "Art. 251 CP - faux dans les titres"
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "Exact : le faux dans les titres (art. 251 CP) figure parmi les huit infractions du Code penal pouvant engager la responsabilite penale de l'organe de revision.",
-    "Faux : l'art. 755 CO fonde la responsabilite CIVILE (en tant qu'organe), ce n'est pas une infraction penale.",
+    "Faux : l'art. 108 al. 2 LFus exclut la responsabilite d'organe pour les verifications de fusion ; ce n'est pas une disposition penale.",
     "Faux : l'art. 728 CO concerne l'independance ; il ne s'agit pas d'une infraction penale.",
-    "Faux : l'art. 108 al. 2 LFus exclut la responsabilite d'organe pour les verifications de fusion ; ce n'est pas une disposition penale."
+    "Faux : l'art. 755 CO fonde la responsabilite CIVILE (en tant qu'organe), ce n'est pas une infraction penale.",
+    "Exact : le faux dans les titres (art. 251 CP) figure parmi les huit infractions du Code penal pouvant engager la responsabilite penale de l'organe de revision."
    ],
    "source": "genere",
    "memento": "§10.3"
@@ -230,15 +230,15 @@
    "options": [
     "Ces verifications engagent la responsabilite d'organe au sens de l'art. 755 CO",
     "Les organes qui procedent aux verifications de fusion, scission ou transformation ne sont en principe pas soumis a la responsabilite d'organe (art. 108 al. 2 LFus)",
-    "Ces verifications relevent uniquement de la responsabilite penale",
-    "Aucune responsabilite, ni civile ni penale, n'est concevable dans ce cadre"
+    "Aucune responsabilite, ni civile ni penale, n'est concevable dans ce cadre",
+    "Ces verifications relevent uniquement de la responsabilite penale"
    ],
    "correct": 1,
    "explications": [
     "Faux : precisement, les verifications de fusion/scission/transformation NE sont PAS soumises a la responsabilite d'organe de l'art. 755 CO.",
     "Exact : l'art. 108 al. 2 LFus exclut en principe la responsabilite d'organe pour les verifications de fusion, scission et transformation.",
-    "Faux : l'exclusion vise la responsabilite d'organe (civile) ; on ne bascule pas pour autant vers une responsabilite exclusivement penale.",
-    "Faux : l'exclusion porte sur la responsabilite d'ORGANE (art. 108 al. 2 LFus), elle ne signifie pas une immunite totale."
+    "Faux : l'exclusion porte sur la responsabilite d'ORGANE (art. 108 al. 2 LFus), elle ne signifie pas une immunite totale.",
+    "Faux : l'exclusion vise la responsabilite d'organe (civile) ; on ne bascule pas pour autant vers une responsabilite exclusivement penale."
    ],
    "source": "genere",
    "memento": "§10.4"
@@ -248,15 +248,15 @@
    "champ": "Début / fin du mandat",
    "question": "Parmi les affirmations suivantes concernant le debut et la fin de la responsabilite de l'organe de revision, laquelle est FAUSSE ?",
    "options": [
-    "La responsabilite dans la revision commence avec la declaration d'acceptation de l'election",
     "Une demission ne decharge pas l'organe de revision de sa responsabilite pour les manquements passes",
+    "La responsabilite dans la revision commence avec la declaration d'acceptation de l'election",
     "La demission efface retroactivement la responsabilite de l'organe de revision pour les exercices deja controles",
     "En tant qu'organe, la responsabilite se fonde sur l'art. 755 CO"
    ],
    "correct": 2,
    "explications": [
-    "Vrai (donc non retenu) : la responsabilite dans la revision debute avec la confirmation/declaration d'acceptation de l'election.",
     "Vrai (donc non retenu) : une demission ne libere pas l'OR de sa responsabilite pour les manquements deja commis.",
+    "Vrai (donc non retenu) : la responsabilite dans la revision debute avec la confirmation/declaration d'acceptation de l'election.",
     "FAUSSE (reponse recherchee) : la demission n'a aucun effet retroactif ; l'OR reste responsable des manquements passes malgre son depart.",
     "Vrai (donc non retenu) : la responsabilite en tant qu'organe se fonde bien sur l'art. 755 CO."
    ],

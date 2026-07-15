@@ -8,16 +8,16 @@
    "champ": "Norme comptable vs norme d'audit",
    "question": "Vous assistez a l'audit de Metz SA. Le responsable de mandat vous explique ce qu'est une 'norme d'audit'. Quelle affirmation est correcte ?",
    "options": [
+    "La norme d'audit regit la maniere dont certains faits doivent etre presentes dans les comptes annuels.",
     "Parmi les normes d'audit figurent les Normes suisses d'audit des etats financiers (NA-CH).",
     "La norme d'audit indique comment l'assemblee generale doit proceder lors de l'audit.",
-    "La norme d'audit regit la maniere dont certains faits doivent etre presentes dans les comptes annuels.",
     "Le conseil d'administration etablit les comptes annuels en tenant compte des normes d'audit."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
+    "Faux : la maniere de presenter les faits dans les comptes releve d'une norme comptable (CO, Swiss GAAP RPC, IFRS, US GAAP), pas d'une norme d'audit.",
     "Correct : les NA-CH, la NCR et les ISA sont des normes d'audit ; elles decrivent la demarche de l'auditeur (planification, execution, rapport).",
     "Faux : c'est l'organe de revision, et non l'assemblee generale, qui audite ; l'AG approuve les comptes et elit l'OR.",
-    "Faux : la maniere de presenter les faits dans les comptes releve d'une norme comptable (CO, Swiss GAAP RPC, IFRS, US GAAP), pas d'une norme d'audit.",
     "Faux : le conseil d'administration etablit les comptes selon une norme comptable ; les NA-CH s'adressent a l'organe de revision."
    ],
    "source": "original",
@@ -28,17 +28,17 @@
    "champ": "Champ d'application des NA-CH",
    "question": "Vous avez lu les Normes suisses d'audit des etats financiers (NA-CH). Laquelle des affirmations suivantes est correcte ?",
    "options": [
-    "Tout compte annuel d'une entreprise suisse doit obligatoirement etre verifie selon les NA-CH.",
     "Les NA-CH ne s'appliquent ni aux services de conseil ni au controle restreint.",
+    "Les comptes annuels etablis selon le CO doivent, meme en controle restreint, etre verifies selon les NA-CH.",
     "Les NA-CH s'appliquent au conseil fiscal et au conseil aux entreprises.",
-    "Les comptes annuels etablis selon le CO doivent, meme en controle restreint, etre verifies selon les NA-CH."
+    "Tout compte annuel d'une entreprise suisse doit obligatoirement etre verifie selon les NA-CH."
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : les NA-CH visent les controles ordinaires, volontaires et les audits de procedures particulieres, pas tout compte annuel indistinctement.",
     "Correct : les NA-CH ne s'appliquent jamais aux prestations de conseil (conseil fiscal, comptabilite clients, etc.) et pas au controle restreint, qui releve d'une norme distincte, la NCR.",
+    "Faux : le controle restreint est regi par la NCR, norme separee des NA-CH, quel que soit le referentiel comptable.",
     "Faux : les prestations de conseil sont expressement exclues du champ des NA-CH.",
-    "Faux : le controle restreint est regi par la NCR, norme separee des NA-CH, quel que soit le referentiel comptable."
+    "Faux : les NA-CH visent les controles ordinaires, volontaires et les audits de procedures particulieres, pas tout compte annuel indistinctement."
    ],
    "source": "original",
    "memento": "§4.2"
@@ -49,16 +49,16 @@
    "question": "Le responsable de mandat recapitule le champ d'application des NA-CH. Laquelle des affirmations suivantes est FAUSSE ?",
    "options": [
     "Les NA-CH s'appliquent aux controles ordinaires et aux controles volontaires d'etats financiers.",
-    "Les NA-CH s'appliquent au controle restreint d'une PME au sens de l'art. 727a CO.",
+    "Pour le controle restreint, une norme distincte s'applique : la NCR.",
     "Les NA-CH ne s'appliquent jamais aux prestations de conseil (conseil fiscal, comptabilite clients).",
-    "Pour le controle restreint, une norme distincte s'applique : la NCR."
+    "Les NA-CH s'appliquent au controle restreint d'une PME au sens de l'art. 727a CO."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
     "Vrai : les NA-CH couvrent les controles ordinaires et volontaires d'etats financiers ; ce n'est donc pas la reponse cherchee.",
-    "FAUSSE (reponse cherchee) : le controle restreint (art. 727a CO) est regi par la NCR, pas par les NA-CH.",
+    "Vrai : la Norme suisse relative au controle restreint (NCR) est la norme distincte applicable au controle restreint.",
     "Vrai : le conseil (fiscal, aux entreprises, comptabilite clients) est toujours exclu du champ des NA-CH.",
-    "Vrai : la Norme suisse relative au controle restreint (NCR) est la norme distincte applicable au controle restreint."
+    "FAUSSE (reponse cherchee) : le controle restreint (art. 727a CO) est regi par la NCR, pas par les NA-CH."
    ],
    "source": "genere",
    "memento": "§4.2"
@@ -68,17 +68,17 @@
    "champ": "Independance du referentiel comptable",
    "question": "Vous participez a l'audit (controle ordinaire) du groupe Motion, dont les comptes consolides sont etablis selon les IFRS. Selon quelles normes l'organe de revision conduit-il son audit ?",
    "options": [
-    "Selon les IFRS, puisque c'est le referentiel comptable de l'entite.",
     "Selon les US GAAP, car il s'agit d'un groupe international.",
+    "Selon la NCR, applicable a tout audit de groupe.",
     "Selon les NA-CH, quel que soit le referentiel comptable (CO/RPC, IFRS ou US GAAP) utilise par l'entite.",
-    "Selon la NCR, applicable a tout audit de groupe."
+    "Selon les IFRS, puisque c'est le referentiel comptable de l'entite."
    ],
    "correct": 2,
    "explications": [
-    "Faux : les IFRS sont une norme comptable (etablissement des comptes), pas la norme selon laquelle l'auditeur procede.",
     "Faux : les US GAAP sont egalement une norme comptable ; elles ne regissent pas la demarche d'audit.",
+    "Faux : la NCR ne vise que le controle restreint ; un controle ordinaire de groupe releve des NA-CH (ISA-CH 600).",
     "Correct : l'organe de revision applique les NA-CH quel que soit le referentiel comptable (CO/RPC, IFRS, US GAAP) ; l'audit de groupe est traite par ISA-CH 600.",
-    "Faux : la NCR ne vise que le controle restreint ; un controle ordinaire de groupe releve des NA-CH (ISA-CH 600)."
+    "Faux : les IFRS sont une norme comptable (etablissement des comptes), pas la norme selon laquelle l'auditeur procede."
    ],
    "source": "genere",
    "memento": "§4.2"
@@ -89,16 +89,16 @@
    "question": "Votre collegue vous demande quel est l'objectif des Normes suisses d'audit des etats financiers (NA-CH). Laquelle des assertions suivantes est FAUSSE ?",
    "options": [
     "Indiquer des procedures et des techniques de travail uniformes.",
+    "Definir et donner des directives en matiere d'honoraires.",
     "Harmoniser et developper la pratique de l'audit.",
-    "Assurer un audit de qualite irreprochable.",
-    "Definir et donner des directives en matiere d'honoraires."
+    "Assurer un audit de qualite irreprochable."
    ],
-   "correct": 3,
+   "correct": 1,
    "explications": [
     "Vrai : les NA-CH contiennent des procedures et techniques de travail generalement applicables a toutes les branches.",
+    "FAUSSE (reponse cherchee) : les NA-CH ne donnent aucune directive sur les honoraires ; ce theme releve des Regles d'organisation et d'ethique professionnelle d'EXPERTsuisse, hors NA-CH.",
     "Vrai : harmoniser la pratique de l'audit et en poursuivre le developpement fait partie des objectifs affiches des NA-CH.",
-    "Vrai : assurer un audit de qualite irreprochable est un objectif explicite des NA-CH.",
-    "FAUSSE (reponse cherchee) : les NA-CH ne donnent aucune directive sur les honoraires ; ce theme releve des Regles d'organisation et d'ethique professionnelle d'EXPERTsuisse, hors NA-CH."
+    "Vrai : assurer un audit de qualite irreprochable est un objectif explicite des NA-CH."
    ],
    "source": "original",
    "memento": "§4.3"
@@ -108,17 +108,17 @@
    "champ": "Utilite des NA-CH (negative)",
    "question": "L'utilite des NA-CH tient a quatre benefices. Lequel des elements suivants n'en fait PAS partie ?",
    "options": [
-    "Standardisation.",
+    "Fixation du montant des honoraires de l'organe de revision.",
     "Controle / gestion de la qualite.",
-    "Delimitation des responsabilites.",
-    "Fixation du montant des honoraires de l'organe de revision."
+    "Standardisation.",
+    "Delimitation des responsabilites."
    ],
-   "correct": 3,
+   "correct": 0,
    "explications": [
-    "Vrai : la standardisation (memes regles, opinions comparables) est l'un des quatre benefices des NA-CH.",
+    "Reponse cherchee : la fixation des honoraires n'est pas un benefice des NA-CH, qui ne traitent pas des honoraires.",
     "Vrai : le controle / la gestion de la qualite au sein du cabinet est un benefice reconnu des NA-CH.",
-    "Vrai : la delimitation des responsabilites (qui repond de quoi) figure parmi les quatre benefices, avec la fiabilite.",
-    "Reponse cherchee : la fixation des honoraires n'est pas un benefice des NA-CH, qui ne traitent pas des honoraires."
+    "Vrai : la standardisation (memes regles, opinions comparables) est l'un des quatre benefices des NA-CH.",
+    "Vrai : la delimitation des responsabilites (qui repond de quoi) figure parmi les quatre benefices, avec la fiabilite."
    ],
    "source": "genere",
    "memento": "§4.3"
@@ -128,17 +128,17 @@
    "champ": "ISA-CH 500 - Elements probants",
    "question": "Vous participez a la revision de Tele SA (controle ordinaire) et cherchez des informations sur les elements probants. Dans quelle norme (NA-CH) les trouvez-vous ?",
    "options": [
-    "ISA-CH 200",
-    "ISA-CH 500",
     "ISA-CH 700",
-    "ISA-CH 800"
+    "ISA-CH 800",
+    "ISA-CH 200",
+    "ISA-CH 500"
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : ISA-CH 200 traite des objectifs generaux et de la conduite d'un audit, pas des elements probants.",
-    "Correct : ISA-CH 500 est la norme sur les elements probants (categorie 500-599 des NA-CH).",
     "Faux : ISA-CH 700 traite du fondement de l'opinion et du rapport d'audit.",
-    "Faux : ISA-CH 800 vise les audits d'etats financiers etablis selon des referentiels a caractere specifique."
+    "Faux : ISA-CH 800 vise les audits d'etats financiers etablis selon des referentiels a caractere specifique.",
+    "Faux : ISA-CH 200 traite des objectifs generaux et de la conduite d'un audit, pas des elements probants.",
+    "Correct : ISA-CH 500 est la norme sur les elements probants (categorie 500-599 des NA-CH)."
    ],
    "source": "genere",
    "memento": "§4.4"
@@ -149,16 +149,16 @@
    "question": "Vous auditez le groupe Motion et cherchez les aspects particuliers de l'audit des etats financiers d'un groupe. Dans quelle norme (NA-CH) figurent-ils ?",
    "options": [
     "ISA-CH 315",
-    "ISA-CH 500",
     "ISA-CH 600",
-    "ISA-CH 700"
+    "ISA-CH 700",
+    "ISA-CH 500"
    ],
-   "correct": 2,
+   "correct": 1,
    "explications": [
     "Faux : ISA-CH 315 traite de l'identification et de l'evaluation des risques d'anomalies significatives, pas de l'audit de groupe.",
-    "Faux : ISA-CH 500 traite des elements probants en general.",
     "Correct : ISA-CH 600 traite des aspects particuliers concernant l'audit de groupe (categorie 600-699 : travaux d'autres professionnels).",
-    "Faux : ISA-CH 700 traite du fondement de l'opinion et du rapport d'audit."
+    "Faux : ISA-CH 700 traite du fondement de l'opinion et du rapport d'audit.",
+    "Faux : ISA-CH 500 traite des elements probants en general."
    ],
    "source": "genere",
    "memento": "§4.4"
@@ -168,17 +168,17 @@
    "champ": "ISA-CH 240 - Fraudes",
    "question": "L'organe de revision doit prendre en consideration les fraudes lors de l'audit des etats financiers. Dans quelle norme (NA-CH) ces responsabilites sont-elles traitees ?",
    "options": [
-    "ISA-CH 210",
-    "ISA-CH 240",
+    "ISA-CH 315",
     "ISA-CH 260",
-    "ISA-CH 315"
+    "ISA-CH 240",
+    "ISA-CH 210"
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
-    "Faux : ISA-CH 210 traite de l'accord sur les termes des missions d'audit (confirmation de mandat).",
-    "Correct : ISA-CH 240 traite des responsabilites de l'auditeur dans la prise en consideration des fraudes lors d'un audit des etats financiers.",
+    "Faux : ISA-CH 315 traite de l'identification et de l'evaluation des risques d'anomalies significatives, y compris via le SCI.",
     "Faux : ISA-CH 260 traite de la communication (au gouvernement d'entreprise), pas des fraudes.",
-    "Faux : ISA-CH 315 traite de l'identification et de l'evaluation des risques d'anomalies significatives, y compris via le SCI."
+    "Correct : ISA-CH 240 traite des responsabilites de l'auditeur dans la prise en consideration des fraudes lors d'un audit des etats financiers.",
+    "Faux : ISA-CH 210 traite de l'accord sur les termes des missions d'audit (confirmation de mandat)."
    ],
    "source": "genere",
    "memento": "§4.4"
@@ -188,17 +188,17 @@
    "champ": "NAS-CH vs ISA-CH",
    "question": "Votre collegue affirme que certaines normes des NA-CH sont purement suisses, sans equivalent international. Laquelle des affirmations suivantes est correcte ?",
    "options": [
-    "Les NA-CH sont la traduction des ISA ; les NAS-CH (p. ex. 290, 700, 890) sont les normes d'audit purement suisses.",
     "Toutes les normes des NA-CH sont des traductions directes des ISA, sans aucune norme propre a la Suisse.",
+    "NAS-CH 290, 700 et 890 sont des normes comptables, non des normes d'audit.",
     "Les NAS-CH et les ISA-CH designent exactement la meme chose.",
-    "NAS-CH 290, 700 et 890 sont des normes comptables, non des normes d'audit."
+    "Les NA-CH sont la traduction des ISA ; les NAS-CH (p. ex. 290, 700, 890) sont les normes d'audit purement suisses."
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "Correct : les NA-CH sont la traduction des ISA (les champs grises etant les adaptations suisses) ; les NAS-CH (ex. 290 insolvabilite, 700 opinion, 890 existence du SCI) sont les normes d'audit purement suisses.",
     "Faux : a cote des ISA-CH figurent les NAS-CH, normes propres a la Suisse sans equivalent international.",
+    "Faux : NAS-CH 290, 700 et 890 sont des normes d'audit (NA-CH), pas des normes comptables ; NAS-CH 890 vise l'existence du SCI selon art. 728a al. 1 ch. 3 CO.",
     "Faux : ISA-CH = ISA traduites/adaptees ; NAS-CH = normes suisses distinctes ; ce ne sont pas des synonymes.",
-    "Faux : NAS-CH 290, 700 et 890 sont des normes d'audit (NA-CH), pas des normes comptables ; NAS-CH 890 vise l'existence du SCI selon art. 728a al. 1 ch. 3 CO."
+    "Correct : les NA-CH sont la traduction des ISA (les champs grises etant les adaptations suisses) ; les NAS-CH (ex. 290 insolvabilite, 700 opinion, 890 existence du SCI) sont les normes d'audit purement suisses."
    ],
    "source": "genere",
    "memento": "§4.2 (+ §4.4)"
@@ -208,17 +208,17 @@
    "champ": "MSA - nature",
    "question": "Afin de preparer un mandat, vous lisez les Manuels suisses d'audit (MSA). A quoi servent-ils ?",
    "options": [
+    "Les MSA sont la traduction suisse des ISA et remplacent les NA-CH.",
     "Chaque tome des MSA constitue un ouvrage de reference et une aide a la formation et a la pratique ; ce n'est pas une norme.",
     "Le contenu des MSA doit imperativement etre respecte comme une norme lors de tout audit.",
-    "Les tomes des MSA servent de commentaire officiel de la Norme suisse relative au controle restreint (NCR).",
-    "Les MSA sont la traduction suisse des ISA et remplacent les NA-CH."
+    "Les tomes des MSA servent de commentaire officiel de la Norme suisse relative au controle restreint (NCR)."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
+    "Faux : la traduction/adaptation suisse des ISA, ce sont les NA-CH ; les MSA ne les remplacent pas.",
     "Correct : les 5 tomes des MSA sont des ouvrages de reference et des aides a la formation et a la pratique quotidienne ; ils n'ont pas valeur de norme.",
     "Faux : les MSA n'ont pas de caractere normatif contraignant ; les normes sont les NA-CH et la NCR.",
-    "Faux : les MSA ne sont pas des commentaires de la NCR ; ce sont des manuels thematiques (comptabilite, controle ordinaire, controle restreint, missions d'assurance, services financiers).",
-    "Faux : la traduction/adaptation suisse des ISA, ce sont les NA-CH ; les MSA ne les remplacent pas."
+    "Faux : les MSA ne sont pas des commentaires de la NCR ; ce sont des manuels thematiques (comptabilite, controle ordinaire, controle restreint, missions d'assurance, services financiers)."
    ],
    "source": "original",
    "memento": "§4.2"
@@ -248,17 +248,17 @@
    "champ": "Ou trouver l'independance",
    "question": "Pour participer au mandat de Kessler Sarl, votre independance doit etre garantie. Ou trouvez-vous les directives sur l'independance ?",
    "options": [
-    "Dans les Normes suisses d'audit des etats financiers (NA-CH).",
-    "Dans les Directives sur l'independance (DI) / Regles d'ethique professionnelle d'EXPERTsuisse (Reglements), hors NA-CH.",
     "Dans les Manuels suisses d'audit (MSA) uniquement.",
-    "Dans les communiques de presse professionnels."
+    "Dans les communiques de presse professionnels.",
+    "Dans les Directives sur l'independance (DI) / Regles d'ethique professionnelle d'EXPERTsuisse (Reglements), hors NA-CH.",
+    "Dans les Normes suisses d'audit des etats financiers (NA-CH)."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
-    "Faux : les directives sur l'independance ne figurent pas dans les NA-CH ; elles en sont expressement distinctes.",
-    "Correct : l'independance est traitee par les Directives sur l'independance (DI) et les Regles d'organisation et d'ethique professionnelle d'EXPERTsuisse (Reglements), qui sont hors NA-CH.",
     "Faux : les MSA sont des ouvrages de reference, pas la source des directives sur l'independance.",
-    "Faux : les communiques de presse ne sont pas la source des directives sur l'independance."
+    "Faux : les communiques de presse ne sont pas la source des directives sur l'independance.",
+    "Correct : l'independance est traitee par les Directives sur l'independance (DI) et les Regles d'organisation et d'ethique professionnelle d'EXPERTsuisse (Reglements), qui sont hors NA-CH.",
+    "Faux : les directives sur l'independance ne figurent pas dans les NA-CH ; elles en sont expressement distinctes."
    ],
    "source": "genere",
    "memento": "§4.2"
@@ -269,16 +269,16 @@
    "question": "Votre cabinet met a jour sa documentation qualite. Quelle affirmation sur la norme de gestion de la qualite est correcte ?",
    "options": [
     "La gestion de la qualite est desormais regie par l'ISQM-CH 1+2, qui a remplace l'ancienne ISQC-CH 1.",
+    "L'ISQM-CH 1+2 est une norme comptable applicable aux etats financiers.",
     "L'ISQC-CH 1 reste la seule norme en vigueur ; l'ISQM-CH 1+2 n'existe pas encore.",
-    "La gestion de la qualite ne figure pas dans les NA-CH.",
-    "L'ISQM-CH 1+2 est une norme comptable applicable aux etats financiers."
+    "La gestion de la qualite ne figure pas dans les NA-CH."
    ],
    "correct": 0,
    "explications": [
     "Correct : la gestion de la qualite est regie par l'ISQM-CH 1+2, qui a remplace l'ancienne norme de controle qualite ISQC-CH 1.",
+    "Faux : l'ISQM-CH 1+2 est une norme de gestion de la qualite des cabinets, pas une norme comptable.",
     "Faux : c'est l'inverse ; l'ISQM-CH 1+2 est la norme actuelle et a succede a l'ISQC-CH 1.",
-    "Faux : les normes de gestion de la qualite (ISQM-CH 1+2) figurent bien dans les NA-CH.",
-    "Faux : l'ISQM-CH 1+2 est une norme de gestion de la qualite des cabinets, pas une norme comptable."
+    "Faux : les normes de gestion de la qualite (ISQM-CH 1+2) figurent bien dans les NA-CH."
    ],
    "source": "genere",
    "memento": "§4.5"
@@ -289,16 +289,16 @@
    "question": "Un cabinet applique les NA-CH pour ses controles ordinaires. Quelle exigence s'impose a lui en matiere de qualite ?",
    "options": [
     "Aucune : la gestion de la qualite ne concerne que les societes cotees.",
-    "Il doit disposer d'un systeme de gestion de la qualite (ISQM-CH 1+2) donnant une assurance raisonnable du respect des normes et du caractere approprie des rapports.",
+    "Il doit faire auditer ses propres comptes selon la NCR.",
     "Il doit uniquement appliquer les Directives concernant la formation continue (DFC).",
-    "Il doit faire auditer ses propres comptes selon la NCR."
+    "Il doit disposer d'un systeme de gestion de la qualite (ISQM-CH 1+2) donnant une assurance raisonnable du respect des normes et du caractere approprie des rapports."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
     "Faux : l'exigence de gestion de la qualite s'applique aux entreprises de revision ou des membres de la profession sont actifs, pas seulement aux societes cotees.",
-    "Correct : selon l'ISQM-CH 1+2, le cabinet doit mettre en place un systeme de gestion de la qualite offrant une assurance raisonnable que les normes et exigences legales sont respectees et que les rapports sont appropries.",
+    "Faux : la NCR est la norme du controle restreint des clients ; elle ne regit pas le systeme qualite interne du cabinet.",
     "Faux : les DFC concernent la formation continue des membres, non le systeme de gestion de la qualite du cabinet.",
-    "Faux : la NCR est la norme du controle restreint des clients ; elle ne regit pas le systeme qualite interne du cabinet."
+    "Correct : selon l'ISQM-CH 1+2, le cabinet doit mettre en place un systeme de gestion de la qualite offrant une assurance raisonnable que les normes et exigences legales sont respectees et que les rapports sont appropries."
    ],
    "source": "genere",
    "memento": "§4.5"

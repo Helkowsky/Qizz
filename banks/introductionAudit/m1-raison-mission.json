@@ -9,16 +9,16 @@
    "question": "Vous débutez dans un cabinet de révision et le responsable du mandat vous explique le but du contrôle légal des comptes. Laquelle de ces affirmations est correcte ?",
    "options": [
     "La protection des actionnaires fait partie des buts du contrôle ; elle se concrétise notamment par la remise de l'opinion d'audit à l'assemblée générale.",
-    "La protection des données personnelles est l'un des buts du contrôle : l'auditeur y empêche tout traitement non autorisé de données.",
     "La recherche systématique et l'élimination de toute fraude constituent le but premier du contrôle.",
-    "La protection des créanciers est exclue des buts du contrôle, car la responsabilité personnelle des propriétaires suffit toujours."
+    "La protection des créanciers est exclue des buts du contrôle, car la responsabilité personnelle des propriétaires suffit toujours.",
+    "La protection des données personnelles est l'un des buts du contrôle : l'auditeur y empêche tout traitement non autorisé de données."
    ],
    "correct": 0,
    "explications": [
     "Vrai. Les buts du contrôle sont la protection des actionnaires, la protection des créanciers et l'autoprotection de l'entreprise ; l'opinion d'audit est adressée à l'AG pour que l'actionnaire approuve les comptes en connaissance de cause (raison d'être de l'audit, cours ch.01 ; rapport à l'AG art. 728b al. 2 / 729b CO).",
-    "Faux. La protection des données ne figure pas parmi les buts du contrôle légal des comptes (cours ch.01).",
     "Faux. La chasse systématique à toute fraude n'est pas un but du contrôle (expectation gap) : le rôle réel est d'identifier, d'évaluer et de réduire les risques d'anomalies significatives, pas d'empêcher ou de détecter toute fraude (ISA-CH 240).",
-    "Faux. Pour les sociétés de capitaux (responsabilité limitée à l'apport), la protection des créanciers est précisément un but du contrôle ; la responsabilité personnelle illimitée ne vaut que pour les sociétés de personnes, non révisées."
+    "Faux. Pour les sociétés de capitaux (responsabilité limitée à l'apport), la protection des créanciers est précisément un but du contrôle ; la responsabilité personnelle illimitée ne vaut que pour les sociétés de personnes, non révisées.",
+    "Faux. La protection des données ne figure pas parmi les buts du contrôle légal des comptes (cours ch.01)."
    ],
    "source": "original",
    "memento": "§1.1"
@@ -28,17 +28,17 @@
    "champ": "Asymétrie d'information / théorie de l'agence",
    "question": "L'audit est présenté comme un moyen d'éliminer l'asymétrie d'information dans le contexte de la théorie du principal et de l'agent. Quelle affirmation décrit correctement cette relation ?",
    "options": [
-    "Les principaux (actionnaires, créanciers) supportent une asymétrie d'information ; l'agent (direction / conseil d'administration) établit les comptes ; l'audit par un tiers indépendant réduit cette asymétrie.",
+    "La théorie de l'agence ne concerne que les sociétés cotées et reste sans objet pour les PME soumises au contrôle restreint.",
     "L'agent est l'actionnaire qui délègue l'établissement des comptes, tandis que le principal est l'organe de révision qui les contrôle.",
     "L'asymétrie d'information disparaît d'elle-même dès que la société applique une norme comptable reconnue, sans intervention d'un tiers.",
-    "La théorie de l'agence ne concerne que les sociétés cotées et reste sans objet pour les PME soumises au contrôle restreint."
+    "Les principaux (actionnaires, créanciers) supportent une asymétrie d'information ; l'agent (direction / conseil d'administration) établit les comptes ; l'audit par un tiers indépendant réduit cette asymétrie."
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "Vrai. Principaux = actionnaires / créanciers ; agents = direction / CA qui établissent les comptes ; l'audit, réalisé par un tiers indépendant et qualifié, réduit l'asymétrie d'information (raison d'être de l'audit, cours ch.01).",
+    "Faux. La logique principal-agent vaut aussi pour les PME ; le contrôle restreint reste une mission d'assurance destinée à réduire l'asymétrie (cours ch.01).",
     "Faux. Les rôles sont inversés : l'agent est la direction / le CA (qui établit les comptes), le principal est l'actionnaire ou le créancier (destinataire de l'information), et l'organe de révision est le tiers indépendant, pas le principal (cours ch.01).",
     "Faux. L'application d'une norme comptable ne supprime pas l'asymétrie : les tiers doivent croire une information qu'ils n'ont pas produite ; c'est justement le rôle du tiers indépendant de la réduire (cours ch.01).",
-    "Faux. La logique principal-agent vaut aussi pour les PME ; le contrôle restreint reste une mission d'assurance destinée à réduire l'asymétrie (cours ch.01)."
+    "Vrai. Principaux = actionnaires / créanciers ; agents = direction / CA qui établissent les comptes ; l'audit, réalisé par un tiers indépendant et qualifié, réduit l'asymétrie d'information (raison d'être de l'audit, cours ch.01)."
    ],
    "source": "genere",
    "memento": "§1.1"
@@ -48,17 +48,17 @@
    "champ": "Buts du contrôle (négative)",
    "question": "Parmi les éléments suivants, lequel ne constitue PAS un but du contrôle légal des comptes ?",
    "options": [
-    "La recherche systématique de la fraude et sa prévention exhaustive.",
+    "L'autoprotection de l'entreprise (fiabilité de la présentation des comptes).",
     "La protection des actionnaires.",
-    "La protection des créanciers.",
-    "L'autoprotection de l'entreprise (fiabilité de la présentation des comptes)."
+    "La recherche systématique de la fraude et sa prévention exhaustive.",
+    "La protection des créanciers."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : ce n'est PAS un but. En raison de l'expectation gap, l'auditeur identifie, évalue et réduit les risques d'anomalies significatives mais ne garantit pas la détection ou la prévention de toute fraude (ISA-CH 240 ; cours ch.01).",
+    "Faux : c'est bien un but. L'autoprotection — garantie que les comptes sont saisis, traités et présentés conformément à la loi — est un objectif du contrôle (cours ch.01).",
     "Faux : c'est bien un but. La protection des actionnaires est un objectif du contrôle (cours ch.01).",
-    "Faux : c'est bien un but. La protection des créanciers (maintien du capital) est un objectif du contrôle pour les sociétés de capitaux (cours ch.01).",
-    "Faux : c'est bien un but. L'autoprotection — garantie que les comptes sont saisis, traités et présentés conformément à la loi — est un objectif du contrôle (cours ch.01)."
+    "Exact : ce n'est PAS un but. En raison de l'expectation gap, l'auditeur identifie, évalue et réduit les risques d'anomalies significatives mais ne garantit pas la détection ou la prévention de toute fraude (ISA-CH 240 ; cours ch.01).",
+    "Faux : c'est bien un but. La protection des créanciers (maintien du capital) est un objectif du contrôle pour les sociétés de capitaux (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§1.1"
@@ -68,16 +68,16 @@
    "champ": "Relation tripartite",
    "question": "Quelles parties interviennent respectivement dans l'établissement, l'audit et l'approbation des états financiers d'une société anonyme ?",
    "options": [
+    "Conseil d'administration ; organe de révision ; créanciers.",
     "Conseil d'administration (établit) ; organe de révision (audite) ; assemblée générale (approuve).",
     "Direction ; réviseur responsable ; actionnaire individuel.",
-    "Conseil d'administration ; organe de révision ; créanciers.",
     "Responsable des finances ; organe de révision ; conseil d'administration."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
+    "Faux. Ce n'est pas le créancier mais l'assemblée générale qui approuve les comptes (art. 698 al. 2 ch. 4 CO).",
     "Vrai. Le CA établit les comptes (selon une norme comptable), l'organe de révision les audite (selon une norme d'audit) et l'AG les approuve ; l'AG élit aussi l'organe de révision (art. 698 al. 2 ch. 2 CO ; triangle des organes, cours ch.01).",
     "Faux. L'approbation relève de l'assemblée générale en tant qu'organe, non de l'actionnaire pris individuellement (art. 698 al. 2 CO).",
-    "Faux. Ce n'est pas le créancier mais l'assemblée générale qui approuve les comptes (art. 698 al. 2 ch. 4 CO).",
     "Faux. L'approbation appartient à l'assemblée générale, pas au conseil d'administration, lequel se limite à établir les comptes (triangle des organes, cours ch.01)."
    ],
    "source": "genere",
@@ -88,16 +88,16 @@
    "champ": "Relation tripartite (piège CA / AG)",
    "question": "Dans la relation tripartite entre CA, organe de révision et AG, laquelle de ces affirmations est correcte ?",
    "options": [
-    "L'organe de révision est responsable de l'audit des états financiers selon une norme d'audit reconnue.",
-    "Le conseil d'administration établit les états financiers selon une norme d'audit reconnue.",
     "L'assemblée générale est responsable de l'établissement et de l'approbation des états financiers.",
+    "Le conseil d'administration établit les états financiers selon une norme d'audit reconnue.",
+    "L'organe de révision est responsable de l'audit des états financiers selon une norme d'audit reconnue.",
     "L'organe de révision établit et audite les états financiers selon une norme d'audit reconnue."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Vrai. L'organe de révision audite les comptes en appliquant une norme d'audit (NA-CH) et remet une opinion à l'AG (art. 728a / 729a CO ; triangle des organes, cours ch.01).",
-    "Faux. Le CA établit les comptes selon une norme COMPTABLE (CO, RPC, IFRS…), pas selon une norme d'audit (normes comptables vs normes d'audit, cours ch.01).",
     "Faux. L'AG approuve les comptes mais ne les établit pas ; l'établissement incombe au CA (art. 716a / 698 CO).",
+    "Faux. Le CA établit les comptes selon une norme COMPTABLE (CO, RPC, IFRS…), pas selon une norme d'audit (normes comptables vs normes d'audit, cours ch.01).",
+    "Vrai. L'organe de révision audite les comptes en appliquant une norme d'audit (NA-CH) et remet une opinion à l'AG (art. 728a / 729a CO ; triangle des organes, cours ch.01).",
     "Faux. L'organe de révision audite mais n'établit pas les comptes ; établir et auditer seraient incompatibles avec son indépendance (art. 728 CO ; triangle des organes, cours ch.01)."
    ],
    "source": "genere",
@@ -108,17 +108,17 @@
    "champ": "Mission d'assurance — 5 caractéristiques",
    "question": "Le responsable du mandat vous explique la notion de mission d'assurance. Quelles en sont les cinq caractéristiques ?",
    "options": [
-    "Relation entre trois parties ; objet de l'audit ; critères d'audit ; éléments probants suffisants et appropriés ; rapport d'audit écrit.",
-    "Relation entre trois parties ; états financiers ; établissement des comptes ; confirmation de tiers ; entretien final.",
+    "Organe de révision ; assemblée générale ; conseil d'administration ; comptes annuels ; norme NA-CH.",
     "Confirmation de mandat ; états financiers ; établissement des comptes ; éléments probants ; rapport écrit.",
-    "Organe de révision ; assemblée générale ; conseil d'administration ; comptes annuels ; norme NA-CH."
+    "Relation entre trois parties ; états financiers ; établissement des comptes ; confirmation de tiers ; entretien final.",
+    "Relation entre trois parties ; objet de l'audit ; critères d'audit ; éléments probants suffisants et appropriés ; rapport d'audit écrit."
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "Vrai. Les cinq caractéristiques sont : (1) relation entre trois parties ; (2) objet de l'audit identifiable et vérifiable ; (3) critères d'audit ; (4) éléments probants suffisants (quantité) et appropriés (qualité) ; (5) rapport d'audit écrit (caractéristiques de la mission d'assurance, cours ch.01).",
-    "Faux. « États financiers », « établissement des comptes » et « entretien final » ne sont pas des caractéristiques de la mission d'assurance ; l'établissement des comptes est du ressort du CA (cours ch.01).",
+    "Faux. Cette liste mélange les organes de la société et des normes ; elle ne décrit pas les caractéristiques d'une mission d'assurance (cours ch.01).",
     "Faux. « Confirmation de mandat » et « établissement des comptes » ne figurent pas parmi les cinq caractéristiques (cours ch.01).",
-    "Faux. Cette liste mélange les organes de la société et des normes ; elle ne décrit pas les caractéristiques d'une mission d'assurance (cours ch.01)."
+    "Faux. « États financiers », « établissement des comptes » et « entretien final » ne sont pas des caractéristiques de la mission d'assurance ; l'établissement des comptes est du ressort du CA (cours ch.01).",
+    "Vrai. Les cinq caractéristiques sont : (1) relation entre trois parties ; (2) objet de l'audit identifiable et vérifiable ; (3) critères d'audit ; (4) éléments probants suffisants (quantité) et appropriés (qualité) ; (5) rapport d'audit écrit (caractéristiques de la mission d'assurance, cours ch.01)."
    ],
    "source": "genere",
    "memento": "§1.2"
@@ -130,15 +130,15 @@
    "options": [
     "L'établissement des comptes annuels par le membre de la profession.",
     "La relation entre trois parties.",
-    "Des éléments probants suffisants et appropriés.",
-    "Un rapport d'audit écrit."
+    "Un rapport d'audit écrit.",
+    "Des éléments probants suffisants et appropriés."
    ],
    "correct": 0,
    "explications": [
     "Exact : ce n'est PAS une caractéristique. Établir les comptes relève du conseil d'administration (voire d'une mission de compilation), jamais de la mission d'assurance, sous peine d'atteinte à l'indépendance (cours ch.01).",
     "Faux : c'est une caractéristique. La relation entre trois parties est la première des cinq caractéristiques (cours ch.01).",
-    "Faux : c'est une caractéristique. Des éléments probants suffisants (quantité) et appropriés (qualité) sont exigés pour fonder l'opinion (cours ch.01).",
-    "Faux : c'est une caractéristique. Le rapport d'audit écrit constitue la cinquième caractéristique (cours ch.01)."
+    "Faux : c'est une caractéristique. Le rapport d'audit écrit constitue la cinquième caractéristique (cours ch.01).",
+    "Faux : c'est une caractéristique. Des éléments probants suffisants (quantité) et appropriés (qualité) sont exigés pour fonder l'opinion (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§1.2"
@@ -148,17 +148,17 @@
    "champ": "Objets d'audit — quadrant",
    "question": "Votre responsable de mandat vous présente les objets possibles de l'audit. Dans le quadrant financier/non financier × historique/prospectif, à quelle catégorie appartiennent les états financiers annuels ?",
    "options": [
-    "Informations financières historiques.",
     "Informations financières prospectives.",
-    "Informations non financières historiques.",
-    "Informations non financières prospectives."
+    "Informations financières historiques.",
+    "Informations non financières prospectives.",
+    "Informations non financières historiques."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
-    "Vrai. Les états financiers (comptes annuels) sont une information financière tournée vers le passé : information financière historique (quadrant des objets de contrôle, cours ch.01).",
     "Faux. Le côté financier prospectif regroupe les budgets et plans financiers, non les comptes annuels (cours ch.01).",
-    "Faux. Les états financiers sont des informations financières, pas non financières ; le non-financier historique correspond aux systèmes et processus (cours ch.01).",
-    "Faux. Le non-financier prospectif correspond notamment aux rapports de durabilité, pas aux états financiers (cours ch.01)."
+    "Vrai. Les états financiers (comptes annuels) sont une information financière tournée vers le passé : information financière historique (quadrant des objets de contrôle, cours ch.01).",
+    "Faux. Le non-financier prospectif correspond notamment aux rapports de durabilité, pas aux états financiers (cours ch.01).",
+    "Faux. Les états financiers sont des informations financières, pas non financières ; le non-financier historique correspond aux systèmes et processus (cours ch.01)."
    ],
    "source": "original",
    "memento": "§1.4"
@@ -168,17 +168,17 @@
    "champ": "Objets d'audit — quadrant",
    "question": "Toujours dans le quadrant des objets d'assurance (financier/non financier × historique/prospectif), laquelle de ces associations est correcte ?",
    "options": [
+    "Un système ou un processus = information financière prospective.",
     "Un budget ou un plan financier = information financière prospective.",
     "Un rapport de durabilité = information financière historique.",
-    "Les états financiers annuels = information non financière prospective.",
-    "Un système ou un processus = information financière prospective."
+    "Les états financiers annuels = information non financière prospective."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
+    "Faux. Les systèmes et processus relèvent du non-financier, pas du financier prospectif (cours ch.01).",
     "Vrai. Les budgets et plans financiers sont des informations financières tournées vers l'avenir : financier prospectif (quadrant des objets de contrôle, cours ch.01).",
     "Faux. Un rapport de durabilité est une information NON financière (côté non financier du quadrant), pas une information financière historique (cours ch.01).",
-    "Faux. Les états financiers sont une information financière historique, pas non financière prospective (cours ch.01).",
-    "Faux. Les systèmes et processus relèvent du non-financier, pas du financier prospectif (cours ch.01)."
+    "Faux. Les états financiers sont une information financière historique, pas non financière prospective (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§1.4"
@@ -188,17 +188,17 @@
    "champ": "Niveaux d'assurance",
    "question": "Votre client est soumis au contrôle ordinaire. Quel niveau d'assurance figure dans le rapport de l'organe de révision ?",
    "options": [
-    "Assurance positive (raisonnable).",
-    "Assurance négative (limitée).",
     "Assurance positive (limitée).",
-    "Assurance négative (raisonnable)."
+    "Assurance négative (raisonnable).",
+    "Assurance positive (raisonnable).",
+    "Assurance négative (limitée)."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Vrai. Le contrôle ordinaire est une mission d'assurance raisonnable : le réviseur émet une opinion formulée positivement (art. 728a / 728b CO ; cours ch.01).",
-    "Faux. L'assurance négative / limitée caractérise la review (contrôle restreint), pas le contrôle ordinaire (art. 729a / 729b CO).",
     "Faux. Combinaison impossible : l'assurance positive va avec le niveau « raisonnable », jamais avec « limitée » (cours ch.01).",
-    "Faux. Combinaison impossible : l'assurance « raisonnable » s'exprime par une opinion positive, jamais négative (cours ch.01)."
+    "Faux. Combinaison impossible : l'assurance « raisonnable » s'exprime par une opinion positive, jamais négative (cours ch.01).",
+    "Vrai. Le contrôle ordinaire est une mission d'assurance raisonnable : le réviseur émet une opinion formulée positivement (art. 728a / 728b CO ; cours ch.01).",
+    "Faux. L'assurance négative / limitée caractérise la review (contrôle restreint), pas le contrôle ordinaire (art. 729a / 729b CO)."
    ],
    "source": "original",
    "memento": "§1.5"
@@ -209,16 +209,16 @@
    "question": "Une mission de review (examen succinct), tel le contrôle restreint, débouche sur quel type d'opinion ?",
    "options": [
     "Une assurance limitée, formulée négativement.",
+    "Aucune assurance : uniquement des faits constatés, sans évaluation.",
     "Une assurance raisonnable, formulée positivement.",
-    "Une assurance raisonnable, formulée négativement.",
-    "Aucune assurance : uniquement des faits constatés, sans évaluation."
+    "Une assurance raisonnable, formulée négativement."
    ],
    "correct": 0,
    "explications": [
     "Vrai. La review / le contrôle restreint est une mission d'assurance limitée : le réviseur émet une opinion formulée négativement (art. 729a / 729b CO ; cours ch.01).",
+    "Faux. « Aucune assurance / faits constatés » décrit les procédures convenues (AUP), non la review qui délivre bien une assurance limitée (cours ch.01).",
     "Faux. L'assurance raisonnable / positive caractérise l'AUDIT (contrôle ordinaire), pas la review (art. 728a CO).",
-    "Faux. Combinaison impossible : « raisonnable » va de pair avec une formulation positive, non négative (cours ch.01).",
-    "Faux. « Aucune assurance / faits constatés » décrit les procédures convenues (AUP), non la review qui délivre bien une assurance limitée (cours ch.01)."
+    "Faux. Combinaison impossible : « raisonnable » va de pair avec une formulation positive, non négative (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§1.5"
@@ -228,17 +228,17 @@
    "champ": "Perspectives (négative)",
    "question": "Un client vous interroge sur l'évolution du métier d'expert-comptable face à la digitalisation. Laquelle de ces affirmations est FAUSSE ?",
    "options": [
-    "Moins de savoir-faire sera nécessaire, car l'IA et le machine learning prendront en charge les tâches complexes.",
     "Les tâches simples et répétitives seront de plus en plus supprimées.",
+    "L'importance de l'informatique (analyses de données, automatisation) va continuer de croître.",
     "La collaboration interdisciplinaire entre comptabilité, audit et informatique va s'accroître.",
-    "L'importance de l'informatique (analyses de données, automatisation) va continuer de croître."
+    "Moins de savoir-faire sera nécessaire, car l'IA et le machine learning prendront en charge les tâches complexes."
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "FAUSSE (c'est la réponse attendue). Le travail devient plus exigeant : l'évaluation des décisions d'appréciation (goodwill, provisions…) requiert davantage de jugement professionnel ; le savoir-faire reste indispensable (cours ch.01).",
     "Vrai. Les tâches simples et répétitives sont appelées à être automatisées et à disparaître (cours ch.01).",
+    "Vrai. L'informatique (Data Analytics, automatisation, blockchain) ne cesse de gagner en importance (cours ch.01).",
     "Vrai. La collaboration interdisciplinaire (établissement des comptes, révision, informatique) augmente (cours ch.01).",
-    "Vrai. L'informatique (Data Analytics, automatisation, blockchain) ne cesse de gagner en importance (cours ch.01)."
+    "FAUSSE (c'est la réponse attendue). Le travail devient plus exigeant : l'évaluation des décisions d'appréciation (goodwill, provisions…) requiert davantage de jugement professionnel ; le savoir-faire reste indispensable (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§11"
@@ -248,17 +248,17 @@
    "champ": "Perspectives (négative)",
    "question": "La transformation digitale modifie les exigences envers l'expert-comptable. Parmi ces affirmations, laquelle est FAUSSE ?",
    "options": [
-    "Les exigences vis-à-vis de l'expert-comptable ne sont pas amenées à évoluer.",
     "Il faut recourir aux nouvelles technologies telles que la Data Analytics ou l'intelligence artificielle.",
     "L'informatique ne cessera de gagner en importance dans l'activité d'audit.",
-    "L'expert-comptable devra développer sa compréhension de technologies comme la blockchain."
+    "L'expert-comptable devra développer sa compréhension de technologies comme la blockchain.",
+    "Les exigences vis-à-vis de l'expert-comptable ne sont pas amenées à évoluer."
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "FAUSSE (c'est la réponse attendue). Les exigences évoluent nettement : le métier devient plus exigeant et plus interdisciplinaire (cours ch.01).",
     "Vrai. Le recours aux nouvelles technologies (Data Analytics, IA) est attendu de la profession (cours ch.01).",
     "Vrai. L'importance de l'informatique continue de croître (cours ch.01).",
-    "Vrai. La compréhension de technologies telles que la blockchain fait partie des compétences à développer (cours ch.01)."
+    "Vrai. La compréhension de technologies telles que la blockchain fait partie des compétences à développer (cours ch.01).",
+    "FAUSSE (c'est la réponse attendue). Les exigences évoluent nettement : le métier devient plus exigeant et plus interdisciplinaire (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§11"
@@ -269,16 +269,16 @@
    "question": "Concernant l'impact de la blockchain sur la profession d'audit, quelle affirmation est FAUSSE ?",
    "options": [
     "La blockchain rend l'expert-comptable superflu et son usage devient obligatoire pour tout audit.",
+    "L'audit combinera de plus en plus transactions automatisées et évaluation de décisions d'appréciation.",
     "Certains auteurs avancent que la blockchain pourrait reprendre le rôle de confiance joué par l'expert-comptable.",
-    "La technologie ne supprime pas le besoin de jugement professionnel pour les décisions d'appréciation.",
-    "L'audit combinera de plus en plus transactions automatisées et évaluation de décisions d'appréciation."
+    "La technologie ne supprime pas le besoin de jugement professionnel pour les décisions d'appréciation."
    ],
    "correct": 0,
    "explications": [
     "FAUSSE (c'est la réponse attendue). Le cours évoque la thèse selon laquelle la blockchain rendrait l'expert-comptable dispensable, mais la réfute ; aucune obligation générale d'employer la blockchain n'est posée (cours ch.01).",
+    "Vrai. L'activité future se partage entre audit de transactions de masse (automatisé) et évaluation de décisions d'appréciation (cours ch.01).",
     "Vrai. C'est une thèse rapportée dans le cours (p. ex. D. Yermack, 2017) — présentée, non validée (cours ch.01).",
-    "Vrai. Le jugement professionnel reste nécessaire pour les décisions d'appréciation (goodwill, provisions…) (cours ch.01).",
-    "Vrai. L'activité future se partage entre audit de transactions de masse (automatisé) et évaluation de décisions d'appréciation (cours ch.01)."
+    "Vrai. Le jugement professionnel reste nécessaire pour les décisions d'appréciation (goodwill, provisions…) (cours ch.01)."
    ],
    "source": "genere",
    "memento": "§11"
@@ -288,16 +288,16 @@
    "champ": "Mission d'assurance — objectif",
    "question": "Quel est l'objectif fondamental d'une mission d'assurance ?",
    "options": [
-    "Un tiers indépendant et qualifié délivre une opinion sur une information établie par autrui, afin de renforcer la confiance des utilisateurs prévus.",
     "Le membre de la profession établit lui-même les informations financières, puis les certifie.",
     "L'assemblée générale contrôle les comptes établis par l'organe de révision.",
+    "Un tiers indépendant et qualifié délivre une opinion sur une information établie par autrui, afin de renforcer la confiance des utilisateurs prévus.",
     "Le mandant réalise des procédures convenues et évalue lui-même les faits constatés."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Vrai. Un tiers indépendant et spécifiquement qualifié émet une opinion sur la qualité/régularité d'une information établie par autrui, procurant aux utilisateurs prévus (non responsables de la présentation) un certain niveau de confiance (cours ch.01).",
     "Faux. Établir puis certifier sa propre information est incompatible avec la mission d'assurance et l'indépendance ; l'établissement relève du CA (art. 728 CO ; cours ch.01).",
     "Faux. C'est l'organe de révision (tiers indépendant) qui contrôle les comptes établis par le CA ; l'AG approuve mais ne contrôle pas techniquement (triangle des organes, cours ch.01).",
+    "Vrai. Un tiers indépendant et spécifiquement qualifié émet une opinion sur la qualité/régularité d'une information établie par autrui, procurant aux utilisateurs prévus (non responsables de la présentation) un certain niveau de confiance (cours ch.01).",
     "Faux. Cette description correspond aux procédures convenues (AUP), qui ne délivrent aucune assurance, et non à l'objectif d'une mission d'assurance (cours ch.01)."
    ],
    "source": "genere",

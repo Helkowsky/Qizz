@@ -9,16 +9,16 @@
    "question": "L'art. 728 al. 1 CO exige que l'indépendance de l'organe de révision ne soit restreinte ni dans les faits, ni en apparence. Qu'implique cette formule ?",
    "options": [
     "Seule l'indépendance effective (of mind) est juridiquement exigée ; l'apparence n'est qu'une recommandation.",
-    "Les deux faces — indépendance effective (of mind) et en apparence (in appearance) — sont exigées cumulativement.",
+    "L'indépendance en apparence n'est exigée que pour les sociétés ouvertes au public.",
     "Seule l'indépendance en apparence est exigée, car elle seule est vérifiable par des tiers.",
-    "L'indépendance en apparence n'est exigée que pour les sociétés ouvertes au public."
+    "Les deux faces — indépendance effective (of mind) et en apparence (in appearance) — sont exigées cumulativement."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
     "Faux : l'art. 728 al. 1 CO vise expressément les deux faces (« ni dans les faits, ni en apparence ») ; l'apparence n'est pas facultative.",
-    "Exact : l'art. 728 al. 1 CO impose d'être neutre (indépendance effective / of mind) ET de le paraître (indépendance en apparence / in appearance) ; les deux sont exigées.",
+    "Faux : selon l'art. 728 al. 1 CO, les deux faces valent pour tout contrôle ordinaire, pas seulement pour les sociétés ouvertes au public.",
     "Faux : l'indépendance effective est tout aussi exigée par l'art. 728 al. 1 CO, même si elle n'est pas mesurable de l'extérieur.",
-    "Faux : selon l'art. 728 al. 1 CO, les deux faces valent pour tout contrôle ordinaire, pas seulement pour les sociétés ouvertes au public."
+    "Exact : l'art. 728 al. 1 CO impose d'être neutre (indépendance effective / of mind) ET de le paraître (indépendance en apparence / in appearance) ; les deux sont exigées."
    ],
    "source": "genere",
    "memento": "§6.1"
@@ -28,17 +28,17 @@
    "champ": "Indépendance effective / en apparence",
    "question": "Parmi les deux faces de l'indépendance, laquelle est mesurable et identifiable par des tiers sur la base de facteurs objectifs ?",
    "options": [
-    "L'indépendance effective (intérieure), liée à l'attitude personnelle du réviseur.",
-    "L'indépendance en apparence (extérieure), identifiable par des facteurs objectifs.",
     "Aucune des deux n'est mesurable de l'extérieur.",
-    "Les deux sont mesurables de manière équivalente par des tiers."
+    "L'indépendance en apparence (extérieure), identifiable par des facteurs objectifs.",
+    "Les deux sont mesurables de manière équivalente par des tiers.",
+    "L'indépendance effective (intérieure), liée à l'attitude personnelle du réviseur."
    ],
    "correct": 1,
    "explications": [
-    "Faux : l'indépendance effective (of mind) relève de l'attitude intérieure du réviseur (objectivité, intégrité) et n'est pas mesurable par des facteurs externes (art. 728 CO).",
-    "Exact : l'indépendance en apparence (in appearance) correspond au point de vue des tiers et s'apprécie sur des facteurs objectifs (participation, fonction, comptabilité, honoraires, cadeaux) — art. 728 CO / art. 11 LSR.",
     "Faux : l'indépendance en apparence est précisément celle qui est identifiable pour des tiers (art. 728 CO).",
-    "Faux : seule l'indépendance en apparence est mesurable de l'extérieur ; l'effective relève de l'attitude intérieure (art. 728 CO)."
+    "Exact : l'indépendance en apparence (in appearance) correspond au point de vue des tiers et s'apprécie sur des facteurs objectifs (participation, fonction, comptabilité, honoraires, cadeaux) — art. 728 CO / art. 11 LSR.",
+    "Faux : seule l'indépendance en apparence est mesurable de l'extérieur ; l'effective relève de l'attitude intérieure (art. 728 CO).",
+    "Faux : l'indépendance effective (of mind) relève de l'attitude intérieure du réviseur (objectivité, intégrité) et n'est pas mesurable par des facteurs externes (art. 728 CO)."
    ],
    "source": "genere",
    "memento": "§6.1"
@@ -48,16 +48,16 @@
    "champ": "Art. 728 al. 2 CO — compatible/incompatible",
    "question": "Vous participez à la révision ordinaire de Fischer SA. Parmi les faits suivants, lequel est compatible avec l'indépendance selon l'art. 728 al. 2 CO ?",
    "options": [
+    "Un déjeuner ordinaire de courtoisie avec des membres du CA.",
     "La collaboration à la tenue de la comptabilité de Fischer SA.",
     "L'appartenance au conseil d'administration de Fischer SA.",
-    "Un déjeuner ordinaire de courtoisie avec des membres du CA.",
     "L'acceptation d'un cadeau de valeur importante."
    ],
-   "correct": 2,
+   "correct": 0,
    "explications": [
+    "Compatible : un simple déjeuner de courtoisie n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO ; il ne restreint pas l'indépendance.",
     "Incompatible : la collaboration à la tenue de la comptabilité crée un risque de contrôler son propre travail (art. 728 al. 2 ch. 4 CO).",
     "Incompatible : l'appartenance au conseil d'administration du client est expressément visée (art. 728 al. 2 ch. 1 CO).",
-    "Compatible : un simple déjeuner de courtoisie n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO ; il ne restreint pas l'indépendance.",
     "Incompatible : l'acceptation de cadeaux ou d'avantages particuliers est visée par l'art. 728 al. 2 ch. 7 CO."
    ],
    "source": "original",
@@ -68,17 +68,17 @@
    "champ": "Art. 728 CO — cercle des personnes",
    "question": "L'art. 728 CO précise le cercle des personnes soumises aux règles d'indépendance. Laquelle des affirmations est correcte ?",
    "options": [
+    "L'organe de révision peut appartenir au même groupe que le client soumis au contrôle.",
     "Les règles ne s'appliquent qu'au seul réviseur responsable qui signe le rapport.",
-    "Elles s'appliquent à toutes les personnes participant à la révision ainsi qu'aux membres de l'organe supérieur de direction ou d'administration du réviseur (al. 3 et 5).",
     "Un employé du réviseur ne participant pas à la révision peut librement siéger au conseil d'administration du client.",
-    "L'organe de révision peut appartenir au même groupe que le client soumis au contrôle."
+    "Elles s'appliquent à toutes les personnes participant à la révision ainsi qu'aux membres de l'organe supérieur de direction ou d'administration du réviseur (al. 3 et 5)."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
+    "Faux : l'art. 728 al. 6 CO interdit que l'organe de révision appartienne au même groupe que le client contrôlé.",
     "Faux : l'art. 728 al. 3 CO étend les règles à toutes les personnes participant à la révision, pas au seul signataire.",
-    "Exact : selon l'art. 728 al. 3 et 5 CO, les dispositions visent toutes les personnes participant à la révision et les membres de l'organe supérieur de direction/administration du réviseur (parties liées comprises).",
     "Faux : l'art. 728 al. 4 CO interdit à tout employé du réviseur, même non participant, d'être membre du CA du client ou d'y exercer une fonction décisionnelle.",
-    "Faux : l'art. 728 al. 6 CO interdit que l'organe de révision appartienne au même groupe que le client contrôlé."
+    "Exact : selon l'art. 728 al. 3 et 5 CO, les dispositions visent toutes les personnes participant à la révision et les membres de l'organe supérieur de direction/administration du réviseur (parties liées comprises)."
    ],
    "source": "genere",
    "memento": "§6.3"
@@ -88,16 +88,16 @@
    "champ": "Services additionnels — ordinaire",
    "question": "Vous effectuez la révision ordinaire de Kächer SA. Parmi les prestations supplémentaires suivantes, laquelle ne peut en principe PAS être fournie (art. 728 al. 2 ch. 4 CO / Directives sur l'indépendance) ?",
    "options": [
-    "Aider à certaines tâches administratives en veillant au respect des délais légaux.",
-    "Être chargé de tenir la comptabilité des salaires et d'enregistrer les transactions financières correspondantes.",
     "Recommander par écrit des améliorations du système de contrôle interne (sans en assurer le maintien).",
+    "Être chargé de tenir la comptabilité des salaires et d'enregistrer les transactions financières correspondantes.",
+    "Aider à certaines tâches administratives en veillant au respect des délais légaux.",
     "Mettre à disposition un modèle d'annexe que le client remplit et assume lui-même."
    ],
    "correct": 1,
    "explications": [
-    "Admis : de simples tâches administratives, avec rappel des délais légaux, ne créent pas de risque d'auto-contrôle (art. 728 al. 2 ch. 4 CO a contrario).",
-    "Interdit : tenir la comptabilité des salaires et enregistrer les transactions revient à contrôler son propre travail, ce que prohibe l'art. 728 al. 2 ch. 4 CO en contrôle ordinaire.",
     "Admis : une simple recommandation d'amélioration du SCI reste possible tant que le réviseur n'en assume pas le maintien (art. 728 al. 2 ch. 4 CO).",
+    "Interdit : tenir la comptabilité des salaires et enregistrer les transactions revient à contrôler son propre travail, ce que prohibe l'art. 728 al. 2 ch. 4 CO en contrôle ordinaire.",
+    "Admis : de simples tâches administratives, avec rappel des délais légaux, ne créent pas de risque d'auto-contrôle (art. 728 al. 2 ch. 4 CO a contrario).",
     "Admis : le réviseur peut fournir un modèle d'annexe, le client conservant la responsabilité de son établissement (art. 728 al. 2 ch. 4 CO — pas d'auto-contrôle)."
    ],
    "source": "genere",
@@ -110,15 +110,15 @@
    "options": [
     "Participer aux réunions du conseil d'administration, en rédiger les procès-verbaux et prendre position sur des questions techniques.",
     "Recommander par écrit des améliorations du système de contrôle interne.",
-    "Établir les comptes annuels à partir des soldes de comptes, le client conservant la responsabilité.",
-    "Offrir un déjeuner de travail au responsable financier."
+    "Offrir un déjeuner de travail au responsable financier.",
+    "Établir les comptes annuels à partir des soldes de comptes, le client conservant la responsabilité."
    ],
    "correct": 0,
    "explications": [
     "Interdit : participer au CA, en rédiger les PV et se prononcer sur des questions techniques revient à exercer une fonction décisionnelle / à contrôler son propre travail (art. 728 al. 2 ch. 1 et 4 CO).",
     "Admis : une recommandation d'amélioration du SCI n'implique pas d'auto-contrôle tant que le maintien du SCI n'est pas assumé (art. 728 al. 2 ch. 4 CO).",
-    "Admis : l'établissement des comptes annuels par traitement des soldes est en principe autorisé si le client garde la responsabilité (art. 728 al. 2 ch. 4 CO).",
-    "Admis : un déjeuner de travail n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO."
+    "Admis : un déjeuner de travail n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO.",
+    "Admis : l'établissement des comptes annuels par traitement des soldes est en principe autorisé si le client garde la responsabilité (art. 728 al. 2 ch. 4 CO)."
    ],
    "source": "genere",
    "memento": "§6.3"
@@ -128,17 +128,17 @@
    "champ": "Services additionnels — SCI",
    "question": "En contrôle ordinaire, quelle affirmation concernant les prestations liées au système de contrôle interne (SCI) est correcte ?",
    "options": [
-    "Recommander au client des améliorations de son SCI est admis, mais assurer le maintien ou l'exploitation du SCI est interdit (risque d'auto-contrôle).",
-    "Le réviseur peut assumer durablement le fonctionnement et le maintien du SCI du client.",
     "Toute intervention touchant le SCI est interdite, même une simple recommandation.",
-    "Le réviseur peut tenir la comptabilité des salaires dès lors qu'il recommande aussi le SCI."
+    "Le réviseur peut tenir la comptabilité des salaires dès lors qu'il recommande aussi le SCI.",
+    "Recommander au client des améliorations de son SCI est admis, mais assurer le maintien ou l'exploitation du SCI est interdit (risque d'auto-contrôle).",
+    "Le réviseur peut assumer durablement le fonctionnement et le maintien du SCI du client."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : la frontière est le risque de devoir contrôler son propre travail (art. 728 al. 2 ch. 4 CO) ; recommander est admis, maintenir/exploiter le SCI ne l'est pas.",
-    "Faux : assumer durablement le SCI place le réviseur en situation d'auto-contrôle, prohibée par l'art. 728 al. 2 ch. 4 CO.",
     "Faux : une simple recommandation reste admise ; seule l'implication qui crée un auto-contrôle est interdite (art. 728 al. 2 ch. 4 CO).",
-    "Faux : la tenue de la comptabilité des salaires reste un auto-contrôle interdit en ordinaire (art. 728 al. 2 ch. 4 CO), quelle que soit la recommandation du SCI."
+    "Faux : la tenue de la comptabilité des salaires reste un auto-contrôle interdit en ordinaire (art. 728 al. 2 ch. 4 CO), quelle que soit la recommandation du SCI.",
+    "Exact : la frontière est le risque de devoir contrôler son propre travail (art. 728 al. 2 ch. 4 CO) ; recommander est admis, maintenir/exploiter le SCI ne l'est pas.",
+    "Faux : assumer durablement le SCI place le réviseur en situation d'auto-contrôle, prohibée par l'art. 728 al. 2 ch. 4 CO."
    ],
    "source": "genere",
    "memento": "§6.3"
@@ -148,16 +148,16 @@
    "champ": "Honoraires — plafond LSR",
    "question": "L'art. 11 LSR impose, pour les sociétés d'intérêt public, un plafond sur les honoraires. À quoi correspond ce plafond ?",
    "options": [
-    "La somme des honoraires annuels (révision + autres services) provenant d'une même société et de son groupe ne doit pas dépasser 10 % du total des honoraires encaissés par l'entreprise de révision.",
-    "Les honoraires de révision ne doivent pas dépasser 10 % du chiffre d'affaires du client.",
     "Les autres services sont totalement interdits pour toute société soumise à révision.",
+    "Les honoraires de révision ne doivent pas dépasser 10 % du chiffre d'affaires du client.",
+    "La somme des honoraires annuels (révision + autres services) provenant d'une même société et de son groupe ne doit pas dépasser 10 % du total des honoraires encaissés par l'entreprise de révision.",
     "Le plafond de 10 % s'applique à toutes les SA, y compris en contrôle restreint."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : art. 11 al. 1 let. a LSR — plafond de dépendance économique : les honoraires annuels de révision ET des autres services fournis à une même société et à son groupe ne doivent pas dépasser 10 % du montant total des honoraires encaissés par l'entreprise de révision (soumise à la surveillance de l'État, pour la révision de sociétés d'intérêt public).",
-    "Faux : le plafond se mesure par rapport au total des honoraires encaissés par l'entreprise de révision (tous clients confondus), pas par rapport au chiffre d'affaires du client.",
     "Faux : les autres services ne sont pas interdits en tant que tels ; c'est la dépendance économique globale envers un même client (révision + autres services, société et groupe) qui est plafonnée à 10 %.",
+    "Faux : le plafond se mesure par rapport au total des honoraires encaissés par l'entreprise de révision (tous clients confondus), pas par rapport au chiffre d'affaires du client.",
+    "Exact : art. 11 al. 1 let. a LSR — plafond de dépendance économique : les honoraires annuels de révision ET des autres services fournis à une même société et à son groupe ne doivent pas dépasser 10 % du montant total des honoraires encaissés par l'entreprise de révision (soumise à la surveillance de l'État, pour la révision de sociétés d'intérêt public).",
     "Faux : l'art. 11 LSR ne vise que les sociétés d'intérêt public (révisées par une entreprise de révision soumise à la surveillance de l'État), pas toutes les SA ni le contrôle restreint."
    ],
    "source": "genere",
@@ -168,15 +168,15 @@
    "champ": "Honoraires — plafond chiffré",
    "question": "Conformément à l'art. 11 LSR, les honoraires annuels des autres prestations fournies à une société ou à un groupe ne doivent pas dépasser quel pourcentage du montant total des honoraires de l'organe de révision ?",
    "options": [
-    "5 %",
     "10 %",
+    "5 %",
     "15 %",
     "20 %"
    ],
-   "correct": 1,
+   "correct": 0,
    "explications": [
-    "Faux : le plafond de l'art. 11 LSR est de 10 %, pas de 5 %.",
     "Exact : 10 % — art. 11 al. 1 let. a LSR. Précision : le plafond légal porte sur la somme des honoraires de révision ET des autres prestations d'une même société et de son groupe, rapportée au montant total des honoraires encaissés par l'entreprise de révision.",
+    "Faux : le plafond de l'art. 11 LSR est de 10 %, pas de 5 %.",
     "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 15 %.",
     "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 20 %."
    ],
@@ -188,17 +188,17 @@
    "champ": "Honoraires — calcul",
    "question": "Une entreprise de révision soumise à la surveillance de l'État encaisse CHF 1'000'000 d'honoraires annuels au total. Selon l'art. 11 LSR, à combien est plafonnée la somme des honoraires annuels (révision + autres prestations) provenant d'une même société d'intérêt public et de son groupe ?",
    "options": [
-    "CHF 50'000",
-    "CHF 100'000",
+    "Aucun plafond chiffré : seule compte l'indépendance en apparence",
     "CHF 200'000",
-    "Aucun plafond chiffré : seule compte l'indépendance en apparence"
+    "CHF 50'000",
+    "CHF 100'000"
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : CHF 50'000 correspondrait à 5 % ; le plafond de l'art. 11 al. 1 let. a LSR est de 10 %.",
-    "Exact : 10 % de CHF 1'000'000 = CHF 100'000. Le plafond porte sur l'ensemble des honoraires (révision + autres prestations) d'un même client et de son groupe, rapporté au total des honoraires de l'entreprise de révision — garde-fou contre la dépendance économique envers un client.",
+    "Faux : un plafond chiffré existe bel et bien — 10 % (art. 11 al. 1 let. a LSR).",
     "Faux : CHF 200'000 correspondrait à 20 %, alors que l'art. 11 LSR fixe 10 %.",
-    "Faux : un plafond chiffré existe bel et bien — 10 % (art. 11 al. 1 let. a LSR)."
+    "Faux : CHF 50'000 correspondrait à 5 % ; le plafond de l'art. 11 al. 1 let. a LSR est de 10 %.",
+    "Exact : 10 % de CHF 1'000'000 = CHF 100'000. Le plafond porte sur l'ensemble des honoraires (révision + autres prestations) d'un même client et de son groupe, rapporté au total des honoraires de l'entreprise de révision — garde-fou contre la dépendance économique envers un client."
    ],
    "source": "genere",
    "memento": "§6.5"
@@ -210,15 +210,15 @@
    "options": [
     "5 ans, puis interruption de 2 ans.",
     "7 ans, puis interruption de 3 ans.",
-    "7 ans, sans interruption, renouvelable indéfiniment.",
-    "3 ans, puis interruption de 7 ans."
+    "3 ans, puis interruption de 7 ans.",
+    "7 ans, sans interruption, renouvelable indéfiniment."
    ],
    "correct": 1,
    "explications": [
     "Faux : l'art. 730a al. 2 CO fixe 7 ans (pas 5) et 3 ans d'interruption (pas 2).",
     "Exact : l'art. 730a al. 2 CO impose une rotation après 7 ans au plus, puis une interruption de 3 ans avant de reprendre le mandat.",
-    "Faux : l'art. 730a al. 2 CO impose précisément une interruption ; le mandat n'est pas renouvelable sans pause.",
-    "Faux : les durées sont inversées ; l'art. 730a al. 2 CO prévoit 7 ans de mandat puis 3 ans d'interruption."
+    "Faux : les durées sont inversées ; l'art. 730a al. 2 CO prévoit 7 ans de mandat puis 3 ans d'interruption.",
+    "Faux : l'art. 730a al. 2 CO impose précisément une interruption ; le mandat n'est pas renouvelable sans pause."
    ],
    "source": "genere",
    "memento": "§6.5 (+ §6.2)"
@@ -228,17 +228,17 @@
    "champ": "Rotation — cas pratique",
    "question": "Mme A. dirige la révision ordinaire de Vister SA depuis 5 exercices consécutifs. Combien d'années peut-elle encore, au maximum, continuer à diriger cette révision avant l'interruption obligatoire ?",
    "options": [
-    "2 ans.",
     "3 ans.",
     "5 ans.",
-    "Aucune : elle doit se retirer immédiatement."
+    "Aucune : elle doit se retirer immédiatement.",
+    "2 ans."
    ],
-   "correct": 0,
+   "correct": 3,
    "explications": [
-    "Exact : l'art. 730a al. 2 CO plafonne le mandat du réviseur responsable à 7 ans ; après 5 ans, il reste au plus 2 ans (7 − 5).",
     "Faux : 3 ans est la durée de l'interruption après rotation, non le solde restant (art. 730a al. 2 CO).",
     "Faux : le maximum total est de 7 ans ; après 5 ans écoulés, il ne reste pas 5 ans (art. 730a al. 2 CO).",
-    "Faux : la limite de 7 ans n'étant pas atteinte, Mme A. peut encore diriger 2 ans avant l'interruption (art. 730a al. 2 CO)."
+    "Faux : la limite de 7 ans n'étant pas atteinte, Mme A. peut encore diriger 2 ans avant l'interruption (art. 730a al. 2 CO).",
+    "Exact : l'art. 730a al. 2 CO plafonne le mandat du réviseur responsable à 7 ans ; après 5 ans, il reste au plus 2 ans (7 − 5)."
    ],
    "source": "genere",
    "memento": "§6.5"
@@ -248,16 +248,16 @@
    "champ": "Rotation — champ d'application",
    "question": "L'obligation de rotation du réviseur responsable (art. 730a al. 2 CO) s'applique-t-elle au contrôle restreint ?",
    "options": [
+    "Elle ne s'applique qu'aux réviseurs agréés, quel que soit le type de contrôle.",
     "Oui, elle s'applique de la même manière au contrôle ordinaire et au contrôle restreint.",
     "Non : il n'y a pas d'obligation de rotation en contrôle restreint ; elle ne vaut que pour le contrôle ordinaire.",
-    "Elle ne s'applique qu'aux réviseurs agréés, quel que soit le type de contrôle.",
     "Elle s'applique uniquement au contrôle restreint."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
+    "Faux : le critère n'est pas le type d'agrément mais le type de contrôle ; la rotation vise l'ordinaire (art. 730a al. 2 CO).",
     "Faux : l'art. 730a al. 2 CO ne prévoit pas de rotation en contrôle restreint ; les régimes diffèrent.",
     "Exact : la rotation de l'art. 730a al. 2 CO ne concerne que le contrôle ordinaire ; il n'y a pas d'obligation de rotation en contrôle restreint.",
-    "Faux : le critère n'est pas le type d'agrément mais le type de contrôle ; la rotation vise l'ordinaire (art. 730a al. 2 CO).",
     "Faux : c'est l'inverse ; l'art. 730a al. 2 CO vise le contrôle ordinaire, pas le restreint."
    ],
    "source": "genere",
@@ -268,17 +268,17 @@
    "champ": "Contrôle restreint — art. 729 CO",
    "question": "En contrôle restreint (art. 729 CO), à quelles conditions la collaboration à la tenue de la comptabilité est-elle admise ?",
    "options": [
-    "Elle est toujours interdite, comme en contrôle ordinaire.",
-    "Elle est admise sans aucune condition, le contrôle restreint étant un audit allégé.",
     "Elle est admise s'il n'existe pas de risque de contrôler son propre travail et si des mesures sont prises (séparation des équipes, décisions prises par le client, publication dans le rapport, responsabilité conservée par le client).",
-    "Elle est admise uniquement si la société est ouverte au public."
+    "Elle est admise sans aucune condition, le contrôle restreint étant un audit allégé.",
+    "Elle est admise uniquement si la société est ouverte au public.",
+    "Elle est toujours interdite, comme en contrôle ordinaire."
    ],
-   "correct": 2,
+   "correct": 0,
    "explications": [
-    "Faux : l'art. 729 CO prévoit précisément un allègement par rapport à l'ordinaire ; la collaboration est possible sous conditions.",
-    "Faux : l'art. 729 CO subordonne l'admission à l'absence de risque d'auto-contrôle et à des mesures de protection ; ce n'est pas inconditionnel.",
     "Exact : l'art. 729 CO admet la collaboration à la comptabilité s'il n'y a pas de risque d'auto-contrôle et moyennant des mesures organisationnelles (séparation, décisions du client, publication, responsabilité au client).",
-    "Faux : l'allègement de l'art. 729 CO concerne le contrôle restreint ; une société ouverte au public relève au contraire de règles renforcées (art. 11 LSR)."
+    "Faux : l'art. 729 CO subordonne l'admission à l'absence de risque d'auto-contrôle et à des mesures de protection ; ce n'est pas inconditionnel.",
+    "Faux : l'allègement de l'art. 729 CO concerne le contrôle restreint ; une société ouverte au public relève au contraire de règles renforcées (art. 11 LSR).",
+    "Faux : l'art. 729 CO prévoit précisément un allègement par rapport à l'ordinaire ; la collaboration est possible sous conditions."
    ],
    "source": "genere",
    "memento": "§6.4"
@@ -288,15 +288,15 @@
    "champ": "Contrôle restreint — exclusion",
    "question": "L'allègement de l'art. 729 CO (collaboration à la comptabilité admise sous conditions) connaît une exclusion. Laquelle ?",
    "options": [
-    "Il est exclu si l'organe de révision est en même temps l'auditeur des comptes consolidés du groupe.",
     "Il est exclu si le client emploie plus de 10 personnes à plein temps.",
+    "Il est exclu si l'organe de révision est en même temps l'auditeur des comptes consolidés du groupe.",
     "Il est exclu pendant les 7 premières années du mandat.",
     "Il est exclu si les honoraires des autres services dépassent 10 % du total."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
-    "Exact : l'art. 729 CO exclut l'allègement lorsque l'organe de révision est aussi l'auditeur des comptes consolidés (vaut pour toute la structure du groupe).",
     "Faux : le seuil de 10 EPT concerne l'opting-out (art. 727a CO), non l'exclusion de l'art. 729 CO.",
+    "Exact : l'art. 729 CO exclut l'allègement lorsque l'organe de révision est aussi l'auditeur des comptes consolidés (vaut pour toute la structure du groupe).",
     "Faux : la durée de 7 ans relève de la rotation (art. 730a al. 2 CO), sans lien avec l'exclusion de l'art. 729 CO.",
     "Faux : le plafond de 10 % relève de l'art. 11 LSR (sociétés d'intérêt public), non de l'exclusion prévue à l'art. 729 CO."
    ],
@@ -308,17 +308,17 @@
    "champ": "Sanctions — contravention",
    "question": "La violation des principes d'indépendance constitue une contravention au sens de l'art. 39 LSR. Quelle en est la sanction ?",
    "options": [
-    "Une peine privative de liberté de 3 ans au plus.",
-    "Une amende de CHF 100'000 au plus (CHF 50'000 en cas de négligence).",
+    "Le retrait automatique et définitif de l'agrément par l'ASR.",
     "Une amende de CHF 1 million au plus.",
-    "Le retrait automatique et définitif de l'agrément par l'ASR."
+    "Une peine privative de liberté de 3 ans au plus.",
+    "Une amende de CHF 100'000 au plus (CHF 50'000 en cas de négligence)."
    ],
-   "correct": 1,
+   "correct": 3,
    "explications": [
-    "Faux : la peine privative de liberté de 3 ans relève du délit (art. 40 LSR), pas de la contravention.",
-    "Exact : l'art. 39 LSR punit la contravention (dont la violation des principes d'indépendance) d'une amende de CHF 100'000 au plus, CHF 50'000 en cas de négligence.",
+    "Faux : la sanction de l'art. 39 LSR est une amende ; le retrait d'agrément n'est pas la peine prévue par cette disposition.",
     "Faux : l'art. 39 LSR plafonne l'amende à CHF 100'000, non à CHF 1 million.",
-    "Faux : la sanction de l'art. 39 LSR est une amende ; le retrait d'agrément n'est pas la peine prévue par cette disposition."
+    "Faux : la peine privative de liberté de 3 ans relève du délit (art. 40 LSR), pas de la contravention.",
+    "Exact : l'art. 39 LSR punit la contravention (dont la violation des principes d'indépendance) d'une amende de CHF 100'000 au plus, CHF 50'000 en cas de négligence."
    ],
    "source": "genere",
    "memento": "§6.8 (+ §6.5)"
@@ -328,17 +328,17 @@
    "champ": "Sanctions — délit",
    "question": "Un réviseur fournit des prestations de révision sans l'agrément requis et donne des indications fausses à l'autorité. De quoi s'agit-il et quelle est la peine ?",
    "options": [
-    "D'une contravention (art. 39 LSR), punie d'une amende de CHF 100'000 au plus.",
-    "D'un délit (art. 40 LSR), puni d'une peine privative de liberté de 3 ans au plus ou d'une peine pécuniaire.",
     "D'une simple mesure administrative, sans sanction pénale.",
-    "D'un crime puni d'une réclusion de 10 ans."
+    "D'un délit (art. 40 LSR), puni d'une peine privative de liberté de 3 ans au plus ou d'une peine pécuniaire.",
+    "D'un crime puni d'une réclusion de 10 ans.",
+    "D'une contravention (art. 39 LSR), punie d'une amende de CHF 100'000 au plus."
    ],
    "correct": 1,
    "explications": [
-    "Faux : fournir des prestations sans agrément et donner des indications fausses relèvent du délit (art. 40 LSR), non de la contravention de l'art. 39 LSR.",
-    "Exact : l'art. 40 LSR qualifie de délit la révision sans agrément, le refus de renseigner et les indications fausses/incomplètes, punis d'une peine privative de liberté de 3 ans au plus ou d'une peine pécuniaire.",
     "Faux : l'art. 40 LSR prévoit une véritable sanction pénale (délit), non une simple mesure administrative.",
-    "Faux : l'art. 40 LSR qualifie ces faits de délit (peine ≤ 3 ans), non de crime puni de 10 ans."
+    "Exact : l'art. 40 LSR qualifie de délit la révision sans agrément, le refus de renseigner et les indications fausses/incomplètes, punis d'une peine privative de liberté de 3 ans au plus ou d'une peine pécuniaire.",
+    "Faux : l'art. 40 LSR qualifie ces faits de délit (peine ≤ 3 ans), non de crime puni de 10 ans.",
+    "Faux : fournir des prestations sans agrément et donner des indications fausses relèvent du délit (art. 40 LSR), non de la contravention de l'art. 39 LSR."
    ],
    "source": "genere",
    "memento": "§6.8"
@@ -348,17 +348,17 @@
    "champ": "Éthique économique — 3 niveaux",
    "question": "Le modèle d'éthique économique d'André Zünd distingue trois niveaux. Lequel correspond au niveau MACRO ?",
    "options": [
-    "L'éthique individuelle (personnelle) des collaborateurs.",
-    "L'éthique d'entreprise, fondée sur des codes internes.",
     "L'éthique réglementaire / structurelle, portant sur le cadre juridique.",
-    "L'éthique de l'équipe d'audit (moralité de groupe)."
+    "L'éthique de l'équipe d'audit (moralité de groupe).",
+    "L'éthique individuelle (personnelle) des collaborateurs.",
+    "L'éthique d'entreprise, fondée sur des codes internes."
    ],
-   "correct": 2,
+   "correct": 0,
    "explications": [
-    "Faux : l'éthique individuelle est le niveau micro chez Zünd (EXPERT FOCUS TH 1-2/05), pas le macro.",
-    "Faux : l'éthique d'entreprise (codes internes) est le niveau méso chez Zünd (EXPERT FOCUS TH 1-2/05).",
     "Exact : le niveau macro (structurel/réglementaire) porte sur le cadre juridique ; ses déficits (normes = limites, réformes en retard, droits nationaux hétérogènes) sont à combler par des codes d'entreprise — Zünd, EXPERT FOCUS TH 1-2/05.",
-    "Faux : la moralité de groupe de l'équipe d'audit illustre le niveau méso appliqué à l'audit, non le macro (Zünd, EXPERT FOCUS TH 1-2/05)."
+    "Faux : la moralité de groupe de l'équipe d'audit illustre le niveau méso appliqué à l'audit, non le macro (Zünd, EXPERT FOCUS TH 1-2/05).",
+    "Faux : l'éthique individuelle est le niveau micro chez Zünd (EXPERT FOCUS TH 1-2/05), pas le macro.",
+    "Faux : l'éthique d'entreprise (codes internes) est le niveau méso chez Zünd (EXPERT FOCUS TH 1-2/05)."
    ],
    "source": "genere",
    "memento": "§6.7"
@@ -368,17 +368,17 @@
    "champ": "Éthique économique — dilemme",
    "question": "Le CFO du client vous propose une récompense financière importante si l'audit présente l'entreprise sous un meilleur jour (« paiement incitatif »), au motif que la prospérité du client vous profiterait aussi. Quelle est la réaction appropriée ?",
    "options": [
-    "Refuser l'offre contraire à l'éthique en invoquant votre obligation professionnelle d'objectivité et d'intégrité, puis discuter de la suite avec le responsable de mandat.",
     "Accepter, puisque la prospérité du client profite également à l'auditeur.",
-    "Refuser l'offre mais proposer d'« interpréter de manière créative » les résultats de l'audit pour aider l'entreprise.",
-    "Décliner sans rien faire d'autre et ignorer complètement le conflit d'intérêts."
+    "Décliner sans rien faire d'autre et ignorer complètement le conflit d'intérêts.",
+    "Refuser l'offre contraire à l'éthique en invoquant votre obligation professionnelle d'objectivité et d'intégrité, puis discuter de la suite avec le responsable de mandat.",
+    "Refuser l'offre mais proposer d'« interpréter de manière créative » les résultats de l'audit pour aider l'entreprise."
    ],
-   "correct": 0,
+   "correct": 2,
    "explications": [
-    "Exact : l'objectivité et l'intégrité (Règles d'éthique EXPERTsuisse) imposent de refuser un tel avantage — assimilable à un cadeau prohibé (art. 728 al. 2 ch. 7 CO) — et d'escalader la situation au responsable de mandat.",
     "Faux : accepter compromet l'objectivité et l'intégrité et constitue un avantage particulier prohibé (art. 728 al. 2 ch. 7 CO).",
-    "Faux : « interpréter de manière créative » les résultats viole l'intégrité et l'objectivité exigées (Règles d'éthique EXPERTsuisse ; art. 728 al. 1 CO).",
-    "Faux : refuser est correct, mais ignorer le conflit manque au devoir de traiter le dilemme éthique (identification des faits, des personnes touchées, des solutions, décision)."
+    "Faux : refuser est correct, mais ignorer le conflit manque au devoir de traiter le dilemme éthique (identification des faits, des personnes touchées, des solutions, décision).",
+    "Exact : l'objectivité et l'intégrité (Règles d'éthique EXPERTsuisse) imposent de refuser un tel avantage — assimilable à un cadeau prohibé (art. 728 al. 2 ch. 7 CO) — et d'escalader la situation au responsable de mandat.",
+    "Faux : « interpréter de manière créative » les résultats viole l'intégrité et l'objectivité exigées (Règles d'éthique EXPERTsuisse ; art. 728 al. 1 CO)."
    ],
    "source": "original",
    "memento": "§6.7"
@@ -388,17 +388,17 @@
    "champ": "Éthique économique — principal-agent",
    "question": "Une société cotée réinvestit ses bénéfices pour maximiser sa valeur à long terme, tandis que les actionnaires attendent un rendement adéquat ; l'asymétrie d'information entre eux, qui justifie le rôle d'intermédiaire de l'organe de révision, est décrite par quelle théorie ?",
    "options": [
-    "La théorie du principal-agent.",
-    "La théorie du signal.",
     "La théorie de l'aléa moral.",
-    "La théorie du screening."
+    "La théorie du principal-agent.",
+    "La théorie du screening.",
+    "La théorie du signal."
    ],
-   "correct": 0,
+   "correct": 1,
    "explications": [
-    "Exact : la théorie du principal-agent (Sager, Mussler & Berentsen, EXPERT FOCUS) décrit l'asymétrie d'information mandant/mandataire ; l'organe de révision externe agit comme intermédiaire d'information.",
-    "Faux : la théorie du signal n'est pas celle retenue par le script pour décrire cette asymétrie principal-agent.",
     "Faux : l'aléa moral est une notion connexe, mais le phénomène décrit ici est la théorie du principal-agent (Sager et al., EXPERT FOCUS).",
-    "Faux : le screening n'est pas la théorie visée ; il s'agit du principal-agent (Sager et al., EXPERT FOCUS)."
+    "Exact : la théorie du principal-agent (Sager, Mussler & Berentsen, EXPERT FOCUS) décrit l'asymétrie d'information mandant/mandataire ; l'organe de révision externe agit comme intermédiaire d'information.",
+    "Faux : le screening n'est pas la théorie visée ; il s'agit du principal-agent (Sager et al., EXPERT FOCUS).",
+    "Faux : la théorie du signal n'est pas celle retenue par le script pour décrire cette asymétrie principal-agent."
    ],
    "source": "original",
    "memento": "§6.7"
@@ -408,17 +408,17 @@
    "champ": "Éthique économique — facteurs",
    "question": "Les comportements contraires à l'éthique s'expliquent notamment par des facteurs individuels, situationnels et culturels. Quelle affirmation est correcte au sujet des facteurs individuels ?",
    "options": [
+    "Les personnes aux objectifs égocentriques sont moins enclines aux comportements contraires à l'éthique.",
     "Les facteurs individuels ne jouent aucun rôle dans l'apparition d'un comportement contraire à l'éthique.",
     "Certains facteurs individuels rendent des personnes plus vulnérables, notamment celles qui placent leurs propres objectifs au-dessus de ceux des autres.",
-    "Les facteurs individuels dépendent exclusivement de la situation professionnelle.",
-    "Les personnes aux objectifs égocentriques sont moins enclines aux comportements contraires à l'éthique."
+    "Les facteurs individuels dépendent exclusivement de la situation professionnelle."
    ],
-   "correct": 1,
+   "correct": 2,
    "explications": [
+    "Faux : c'est l'inverse ; les objectifs égocentriques accroissent la vulnérabilité au comportement non éthique (Zünd, EXPERT FOCUS).",
     "Faux : selon le script (Zünd, EXPERT FOCUS), les facteurs individuels (caractère) sont bien une cause possible d'un comportement contraire à l'éthique.",
     "Exact : le script (Zünd, EXPERT FOCUS) range parmi les facteurs individuels le caractère des personnes plaçant leurs objectifs/intérêts au-dessus des autres, ce qui les rend plus vulnérables.",
-    "Faux : la situation professionnelle relève des facteurs situationnels ; les facteurs individuels tiennent aussi au caractère (Zünd, EXPERT FOCUS).",
-    "Faux : c'est l'inverse ; les objectifs égocentriques accroissent la vulnérabilité au comportement non éthique (Zünd, EXPERT FOCUS)."
+    "Faux : la situation professionnelle relève des facteurs situationnels ; les facteurs individuels tiennent aussi au caractère (Zünd, EXPERT FOCUS)."
    ],
    "source": "genere",
    "memento": "§6.7"
