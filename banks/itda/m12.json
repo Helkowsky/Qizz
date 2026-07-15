@@ -1,0 +1,75 @@
+{
+ "module": "M12",
+ "titre": "12 · Sociétés de services & externalisation",
+ "questions": [
+  {
+   "id": "IT-095",
+   "champ": "Modèles de service cloud",
+   "memento": "§12 (couches d'externalisation §2)",
+   "difficulte": 2,
+   "question": "Deux situations d'externalisation sont soumises à l'auditeur. Quelles affirmations sur le modèle de service cloud concerné sont correctes ?",
+   "options": [
+    "Une application de comptabilité en ligne utilisée via le cloud, dont l'infrastructure n'est pas gérée par le client, relève du modèle SaaS (Software as a Service).",
+    "Lorsque le client reste responsable de l'exploitation de tout le système, hormis le serveur physique ou virtuel, il s'agit d'un modèle IaaS (Infrastructure as a Service).",
+    "Dans un modèle PaaS, le fournisseur ne met à disposition que le réseau et le matériel physique, le client gérant lui-même le système d'exploitation et la base de données.",
+    "Le modèle « WaaS » constitue le modèle standard d'externalisation cloud pour la comptabilité."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Spectre d'externalisation empilé Housing → IaaS → PaaS → SaaS : plus on monte, plus le prestataire prend en charge de couches. SaaS = tout jusqu'à l'application ; IaaS = infrastructure seulement.",
+   "piege": true
+  },
+  {
+   "id": "IT-096",
+   "champ": "Contrôles de l'usage du cloud",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "Un client audité recourt au cloud (y compris pour un ERP). Quels contrôles/mesures sont appropriés face aux risques liés au cloud ?",
+   "options": [
+    "Classification des données autorisées à être traitées ou sauvegardées dans le cloud.",
+    "Définition des pays dans lesquels les données peuvent être stockées.",
+    "Chiffrement des données lors du transfert et du stockage par des procédés cryptographiques.",
+    "Traiter le cloud privé de l'organisation et le cloud public comme un seul et même environnement."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explication": "Le passage au cloud est un changement significatif : il faut classifier les données, encadrer leur localisation et les chiffrer, sans jamais assimiler cloud privé et cloud public."
+  },
+  {
+   "id": "IT-097",
+   "champ": "ISAE 3402 Type 1 vs Type 2",
+   "memento": "§12.2",
+   "difficulte": 2,
+   "question": "Selon l'ISAE 3402, deux types de rapports existent pour les services externalisés. Quel énoncé décrit correctement un rapport de Type 2 ?",
+   "options": [
+    "Il décrit la conception des contrôles IT à une date de référence, sans se prononcer sur leur efficacité opérationnelle.",
+    "Il décrit l'exécution et l'efficacité opérationnelle des contrôles IT sur une période définie (description des contrôles + évaluation de leur efficacité).",
+    "Il examine l'existence, la conception des contrôles et la description du système, mais pas leur efficacité opérationnelle.",
+    "Il confirme, à un moment indéterminé, l'exhaustivité des contrôles et se fonde toujours sur un rapport de Type 1 préalable."
+   ],
+   "correct": 1,
+   "explication": "Type 1 = conception à une date donnée ; Type 2 = conception + efficacité opérationnelle testée sur une période (jusqu'à 12 mois). Seul le Type 2 permet à l'auditeur de s'appuyer sur les contrôles.",
+   "piege": true
+  },
+  {
+   "id": "IT-098",
+   "champ": "BCM vs ORM",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "Lors de la planification, la direction distingue « Business Continuity Management » (BCM) et « gestion des risques opérationnels » (ORM). Comment la BCM se distingue-t-elle de l'ORM ?",
+   "options": [
+    "La BCM ne porte que sur les risques non financiers menaçant la survie de l'entreprise ; l'ORM se concentre sur les risques financiers et non financiers avant toute crise.",
+    "La BCM garantit que l'entreprise reste opérationnelle en situation de crise et se rétablit après des pertes (protection des fonctions critiques) ; l'ORM identifie et prévient les risques avant la survenance des crises.",
+    "La BCM se concentre sur l'identification et la prévention des risques de processus ; l'ORM est plus large et inclut des aspects stratégiques.",
+    "La BCM porte sur les risques que l'entreprise ne peut pas influencer ; l'ORM sur ceux qu'elle peut activement gérer et éviter."
+   ],
+   "correct": 1,
+   "explication": "BCM = rester opérationnel en crise et se rétablir (fonctions critiques, RTO/RPO) ; ORM = identifier et prévenir les risques en amont, avant la survenance des crises."
+  }
+ ]
+}

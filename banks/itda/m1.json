@@ -1,0 +1,93 @@
+{
+ "module": "M1",
+ "titre": "1 · Importance IT & ISA-CH 315 (Révisée)",
+ "questions": [
+  {
+   "id": "IT-001",
+   "champ": "Importance de l'IT dans l'audit",
+   "memento": "§1.1",
+   "difficulte": 1,
+   "question": "Pourquoi l'informatique gagne-t-elle sans cesse en importance dans l'audit ?",
+   "options": [
+    "Avec l'IT, plus aucune vérification des données d'entrée ne doit être effectuée",
+    "L'extraction des données ne prend que quelques secondes, même pour de très grands volumes",
+    "La connexion de l'ERP du client avec l'ERP de l'auditeur permet un meilleur échange des données",
+    "Le mode de fonctionnement de l'entreprise auditée dépend de processus d'affaires informatisés ou entièrement automatisés"
+   ],
+   "correct": 3,
+   "explication": "L'IT pèse sur l'audit parce que l'information financière naît et se traite dans des systèmes ; l'auditeur doit comprendre l'environnement IT pour évaluer correctement le risque.",
+   "piege": true
+  },
+  {
+   "id": "IT-002",
+   "champ": "Conséquences de la 315R",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Quelles sont les conséquences de l'ISA-CH 315 (Révisée) sur l'audit des états financiers ?",
+   "options": [
+    "Les auditeurs doivent systématiquement effectuer des procédures de test liées à la cybersécurité",
+    "L'audit informatique gagne en importance",
+    "Les contrôles généraux informatiques (ITGC) doivent désormais toujours être vérifiés, même en l'absence de contrôles d'application",
+    "Les spécialistes ne sont plus autorisés à procéder à l'audit informatique, entièrement réalisé par l'expert-comptable"
+   ],
+   "correct": 1,
+   "explication": "Effet central de la 315R : l'environnement IT doit être compris en profondeur, ce qui accroît le poids de l'audit informatique — sans obligation systématique de tester les ITGC ni de contrôler la cybersécurité.",
+   "piege": true
+  },
+  {
+   "id": "IT-003",
+   "champ": "Risques d'audit liés à l'IT",
+   "memento": "§1.3",
+   "difficulte": 2,
+   "question": "Quels risques d'audit découlent du recours aux technologies de l'information par le client audité ?",
+   "options": [
+    "Des changements non autorisés apportés aux systèmes ou aux programmes",
+    "Les sauvegardes ne sont pas effectuées",
+    "Les imprimantes ne fonctionnent pas",
+    "Des mesures de sécurité élevées pour l'accès au système ERP"
+   ],
+   "correct": 0,
+   "explication": "Le risque d'audit IT se lit selon les domaines d'ITGC ; l'exemple canonique est la modification non autorisée des systèmes/programmes.",
+   "piege": true
+  },
+  {
+   "id": "IT-004",
+   "champ": "Objet et diligences de la 315R",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Au sujet de l'ISA-CH 315 (Révisée), quelles affirmations sont exactes ?",
+   "options": [
+    "Son objet est la compréhension de l'entité et de son environnement afin d'identifier et d'évaluer les risques d'anomalies significatives (RAS).",
+    "L'auditeur identifie les applications informatiques pertinentes et les autres aspects pertinents de l'environnement IT dont l'utilisation comporte des risques.",
+    "L'auditeur doit acquérir une compréhension des activités de traitement de l'information de l'entreprise, y compris ses données et informations.",
+    "La norme porte sur le contrôle et l'évaluation de l'efficacité opérationnelle du SCI, en particulier des contrôles généraux informatiques."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explication": "La 315R vise l'identification et l'évaluation des risques via la compréhension de l'entité et de son environnement IT — à ne pas confondre avec la vérification de l'efficacité du SCI.",
+   "piege": true
+  },
+  {
+   "id": "IT-005",
+   "champ": "Évaluation des risques IT (contrôle ordinaire)",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Vous évaluez les risques liés à l'environnement IT d'une entité soumise au contrôle ordinaire. Quelles affirmations sont correctes ?",
+   "options": [
+    "Les procédures d'évaluation des risques comprennent des demandes d'informations auprès de la direction, des procédures analytiques ainsi que des observations.",
+    "La norme à consulter en priorité pour comprendre les systèmes d'information et les processus liés à la présentation des comptes est l'ISA-CH 315 (Révisée).",
+    "Ces procédures d'évaluation des risques incluent le test unique (Test of One) des contrôles d'applications.",
+    "La norme à consulter en priorité dans ce contexte est l'ISA-CH 402 (recours à une société de services)."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Comprendre l'environnement IT = procédures d'évaluation des risques (inquiry, analytique, observation) cadrées par l'ISA-CH 315 (Révisée) ; à ne pas confondre avec les tests de contrôles (Test of One) ni avec l'ISA-CH 402.",
+   "piege": true
+  }
+ ]
+}

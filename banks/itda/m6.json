@@ -1,0 +1,97 @@
+{
+ "module": "M6",
+ "titre": "6 · Interprétation des déficiences ITGC",
+ "questions": [
+  {
+   "id": "IT-046",
+   "champ": "Déficience d'un contrôle automatisé",
+   "memento": "§6.3",
+   "difficulte": 3,
+   "question": "Un contrôle automatisé (p. ex. three-way-match SAP) est jugé inefficace / un déficit de GITC est constaté, alors qu'on souhaitait s'appuyer sur l'IT. Quelles marches à suivre sont correctes ?",
+   "options": [
+    "Identifier quels contrôles automatisés et informations liés aux GITC déficients sont concernés.",
+    "Réaliser des procédures d'audit supplémentaires pour couvrir les comptes concernés, aucun contrôle efficace n'ayant été identifié.",
+    "Convertir immédiatement l'ensemble de l'audit en vérifications de détail.",
+    "Continuer à se fier au contrôle, les collaborateurs étant compétents et bien organisés."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Face à un GITC/contrôle automatisé déficient : délimiter l'impact puis mener des procédures supplémentaires ciblées — ni fermer les yeux, ni basculer aveuglément tout l'audit en détail.",
+   "piege": true
+  },
+  {
+   "id": "IT-047",
+   "champ": "Conséquences de GITC inefficaces",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Des GITC inefficaces entament la confiance dans les contrôles automatisés et l'intégrité des données. Quelle assertion est correcte ?",
+   "options": [
+    "Ils peuvent avoir une incidence sur l'évaluation combinée des risques et sur le risque d'anomalies significatives.",
+    "On peut néanmoins se fier pleinement aux contrôles automatisés.",
+    "Ils rendent les comptes annuels non auditables.",
+    "Ils sont sans incidence sur la confiance dans les contrôles automatisés."
+   ],
+   "correct": 0,
+   "explication": "Un GITC déficient ne prouve pas une anomalie mais interdit de se fier à l'automatisé et modifie l'évaluation combinée des risques.",
+   "piege": true
+  },
+  {
+   "id": "IT-048",
+   "champ": "Contrôles compensatoires & qualité des données",
+   "memento": "§6.3",
+   "difficulte": 2,
+   "question": "GITC déficients : quelles affirmations sur les contrôles compensatoires et la qualité des données sont correctes ?",
+   "options": [
+    "Si les GITC sont inefficaces, l'exhaustivité et l'exactitude des données se garantissent par des contrôles et vérifications réducteurs de risques.",
+    "Un contrôle redondant efficace uniquement de manière ponctuelle constitue un contrôle compensatoire valable.",
+    "Un contrôle compensatoire couvre, sur toute la période, les mêmes risques que le contrôle déficient.",
+    "Des GITC inefficaces n'ont aucune incidence sur l'exhaustivité et l'exactitude des données."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explication": "Un contrôle compensatoire doit couvrir toute la période et les mêmes risques ; un contrôle seulement ponctuel n'en est pas un. À défaut, des contrôles réducteurs de risques sécurisent la qualité des données.",
+   "piege": true
+  },
+  {
+   "id": "IT-049",
+   "champ": "Déficit significatif ISA-CH 265",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Selon l'ISA-CH 265, quelles affirmations sur le déficit significatif et sa communication sont correctes ?",
+   "options": [
+    "Des déficits de conception ET d'efficacité des GITC touchant le risque d'anomalie significative constituent un déficit significatif à annoncer.",
+    "La communication d'un déficit significatif se fait par écrit aux responsables de la surveillance (gouvernance), dans le rapport exhaustif.",
+    "Une divergence unique et sans effet doit être communiquée comme déficit significatif.",
+    "Une information orale à la direction suffit à satisfaire l'obligation de communication."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Un déficit significatif (conception et/ou efficacité, lié au risque d'anomalie significative) se communique par écrit aux responsables de la surveillance, dans le rapport exhaustif."
+  },
+  {
+   "id": "IT-050",
+   "champ": "Faiblesse GITC → stratégie & DA",
+   "memento": "§6.2",
+   "difficulte": 3,
+   "question": "Vous ne pouvez confirmer que la conception/mise en œuvre — non l'efficacité — de certains GITC/contrôles, et vous souhaitez recourir à la Data Analytics. Quelles affirmations sont correctes ?",
+   "options": [
+    "La stratégie d'audit, le calcul du caractère significatif et la taille de l'échantillon doivent être réévalués.",
+    "Une analyse de données reste possible, mais seulement si les éléments pertinents des données sont testés directement par échantillonnage.",
+    "Une faiblesse dans l'efficacité des GITC n'a aucune incidence sur la stratégie d'audit.",
+    "Sans GITC vérifiés, une analyse de données n'apporte rien de plus et doit être écartée."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Sans efficacité des GITC, on réévalue la stratégie (matérialité, échantillon) ; la Data Analytics demeure possible à condition de tester directement les données pertinentes.",
+   "piege": true
+  }
+ ]
+}

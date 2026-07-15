@@ -1,0 +1,111 @@
+{
+ "module": "M4",
+ "titre": "4 · Contrôles applicatifs",
+ "questions": [
+  {
+   "id": "IT-027",
+   "champ": "Préventif vs détectif",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Concernant les contrôles préventifs et détectifs, quelles affirmations sont correctes ?",
+   "options": [
+    "La différence principale entre un contrôle préventif et un contrôle détectif tient au moment où la mesure agit.",
+    "Seuls les contrôles détectifs peuvent être automatisés ou manuels ; les préventifs sont toujours automatisés.",
+    "Les contrôles préventifs comme détectifs peuvent être soit automatisés, soit manuels.",
+    "La différence principale entre préventif et détectif tient au degré d'automatisation de la mesure."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explication": "Deux axes indépendants : l'OBJECTIF (préventif = avant/pendant, détectif = après) et le TYPE (automatisé ou manuel). Les deux objectifs existent sous forme automatisée comme manuelle.",
+   "piege": true
+  },
+  {
+   "id": "IT-028",
+   "champ": "Sous-types d'ITAC",
+   "memento": "§4.1",
+   "difficulte": 1,
+   "question": "Qu'est-ce qui n'est PAS un type de contrôle (en partie ou entièrement) automatisé d'application (ITAC) ?",
+   "options": [
+    "Edit Checks",
+    "Validation Check",
+    "Calculation Check",
+    "Review Check"
+   ],
+   "correct": 3,
+   "explication": "Les 5 sous-types d'ITAC sont Edit checks, Validations, Calculations, Interfaces et Authorizations. « Review Check » n'en fait pas partie."
+  },
+  {
+   "id": "IT-029",
+   "champ": "Contrôles ITDM",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Concernant les contrôles manuels dépendants de l'informatique (ITDM), quelles affirmations sont correctes ?",
+   "options": [
+    "Le rapprochement manuel mensuel, par le responsable de processus, d'un rapport de positions ouvertes produit par l'ERP est un ITDM.",
+    "Un « test unique » (test of one) est un exemple de contrôle manuel dépendant de l'informatique.",
+    "Les contrôles ITDM peuvent fournir des éléments probants moins convaincants, car ils peuvent être contournés ou exposés à l'erreur humaine.",
+    "Un three-way-match exécuté automatiquement par l'ERP est un exemple d'ITDM."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explication": "Un ITDM combine une composante applicative et une action manuelle ; sa part humaine le rend moins fiable qu'un ITAC. Un contrôle 100 % automatisé (three-way-match) est un ITAC, pas un ITDM.",
+   "piege": true
+  },
+  {
+   "id": "IT-030",
+   "champ": "Test des ITAC",
+   "memento": "§4.3",
+   "difficulte": 1,
+   "question": "Laquelle de ces opérations d'audit n'est PAS une opération typique de vérification d'un contrôle applicatif automatisé (ITAC) ?",
+   "options": [
+    "Test direct (réexécution)",
+    "Baselining et benchmarking",
+    "Observation",
+    "Analyse de données"
+   ],
+   "correct": 2,
+   "explication": "Un ITAC déterministe se teste par réexécution, baselining/benchmarking ou analyse de données. L'observation vise les contrôles manuels ou physiques."
+  },
+  {
+   "id": "IT-031",
+   "champ": "Préventif vs détectif : apports",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Comment classer les contrôles préventifs et détectifs, et quels sont leurs apports/limites ? (2 affirmations correctes)",
+   "options": [
+    "Un contrôle préventif empêche l'apparition d'une information erronée dès la phase de traitement, évitant les erreurs ultérieures.",
+    "Un contrôle détectif identifie a posteriori les erreurs déjà survenues ; son inconvénient est d'agir trop tard pour empêcher l'anomalie.",
+    "Un contrôle détectif empêche l'erreur avant qu'elle ne se produise.",
+    "Avec des contrôles préventifs efficaces, les contrôles détectifs deviennent inutiles."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Préventif = empêcher l'erreur dès le traitement ; détectif = la repérer après coup (donc trop tard pour la prévenir). Les deux sont complémentaires.",
+   "piege": true
+  },
+  {
+   "id": "IT-032",
+   "champ": "Contrôles programmés",
+   "memento": "§4.3",
+   "difficulte": 2,
+   "question": "Concernant les contrôles programmés (automatisés) et leur vérification, quelles affirmations sont correctes ?",
+   "options": [
+    "Leur exécution est automatisée et présente un faible risque d'erreur ; l'auditeur en teste souvent l'efficacité par un « test of one ».",
+    "Comme ils fonctionnent « en temps réel », il n'est pas toujours possible, ou difficile, d'en fournir une preuve directe.",
+    "Un contrôle programmé ne peut être vérifié que si les GITC sont inefficaces.",
+    "L'exécution d'un contrôle programmé varie à chaque fois, d'où un risque d'erreur élevé."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "Un contrôle programmé est déterministe (faible risque, « test of one »), mais son fonctionnement en temps réel rend la preuve directe difficile."
+  }
+ ]
+}

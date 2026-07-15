@@ -1,0 +1,195 @@
+{
+ "module": "M7",
+ "titre": "7 · Data Analytics — typologie & cycle",
+ "questions": [
+  {
+   "id": "IT-051",
+   "champ": "Phases d'application de la DA",
+   "memento": "§7.3",
+   "difficulte": 1,
+   "question": "À quelles étapes du processus d'audit la Data Analytics (et, plus largement, l'automatisation de l'audit) peut-elle être utilisée ?",
+   "options": [
+    "Uniquement en planification et en réalisation, jamais à l'acceptation du mandat ni au reporting.",
+    "Le potentiel est propre à chaque audit ; aucune considération de principe ne peut être posée.",
+    "Dans toutes les phases : acceptation du mandat, planification, réalisation, rapport, ainsi que traitement ultérieur et assurance qualité.",
+    "Dans toutes les phases sauf le rapport d'audit, où l'automatisation présente nettement moins d'avantages."
+   ],
+   "correct": 2,
+   "explication": "La DA est transversale à tout le cycle d'audit : les NA-CH ne l'imposent ni ne l'interdisent, et son potentiel se retrouve de l'acceptation du mandat jusqu'à l'assurance qualité."
+  },
+  {
+   "id": "IT-052",
+   "champ": "Défis des outils DA",
+   "memento": "§7",
+   "difficulte": 2,
+   "question": "Qu'est-ce qui n'est PAS un défi typiquement lié à l'utilisation des outils d'analyse de données et d'audit automatisés ?",
+   "options": [
+    "Connaissances insuffisantes de l'équipe d'audit (direction de projet, formation aux outils).",
+    "Préparation et flux des données.",
+    "Différents niveaux de standardisation des systèmes chez les mandants.",
+    "L'interprétation des résultats d'analyse."
+   ],
+   "correct": 3,
+   "explication": "Les défis typiques des outils DA sont la préparation/le flux des données, les compétences de l'équipe et l'hétérogénéité des systèmes clients ; l'interprétation des résultats est une tâche de jugement, non un défi propre à l'outil."
+  },
+  {
+   "id": "IT-053",
+   "champ": "Process Mining & compréhension du processus",
+   "memento": "§7.3",
+   "difficulte": 1,
+   "question": "Que permet le Process Mining (et, de même, la consultation des configurations système) dans le cadre de la Data Analytics ?",
+   "options": [
+    "Il optimise automatiquement et à lui seul toutes les divergences des processus.",
+    "Il analyse automatiquement les données de journalisation (event logs) pour reconstituer les étapes du processus, en améliorer la compréhension et détecter les divergences.",
+    "Il remplace intégralement les contrôles manuels.",
+    "Il établit les rapports financiers de l'entité."
+   ],
+   "correct": 1,
+   "explication": "Le Process Mining exploite les journaux (event logs) pour reconstruire et comprendre les processus et repérer les divergences ; la consultation des configurations système poursuit le même but de compréhension du processus."
+  },
+  {
+   "id": "IT-054",
+   "champ": "Définition de Big Data",
+   "memento": "§7.3",
+   "difficulte": 1,
+   "question": "Que signifie le terme « Big Data » ?",
+   "options": [
+    "Des données peu diversifiées.",
+    "Des données analysées manuellement.",
+    "Des volumes de données trop importants ou trop complexes pour être traités par les méthodes traditionnelles.",
+    "De faibles volumes de données, faciles à gérer."
+   ],
+   "correct": 2,
+   "explication": "Big Data = des ensembles de données dont le volume ou la complexité dépassent les capacités des méthodes de traitement traditionnelles."
+  },
+  {
+   "id": "IT-055",
+   "champ": "Predictive Analytics",
+   "memento": "§7.3",
+   "difficulte": 2,
+   "question": "Qu'est-ce qui caractérise les « Predictive Analytics » (et leur champ d'application en audit) ?",
+   "options": [
+    "Elles décrivent ce qui s'est passé (analyse rétrospective — Descriptive).",
+    "Elles reconnaissent des schémas dans les données via des algorithmes de Data Mining pour prévoir aussi précisément que possible la situation future (« que va-t-il probablement se passer ? »).",
+    "Elles déterminent ce qu'il faut faire (recommandation d'action — Prescriptive).",
+    "Elles expliquent pourquoi un événement s'est produit (analyse causale — Diagnostic)."
+   ],
+   "correct": 1,
+   "explication": "Predictive Analytics : reconnaissance de schémas par Data Mining pour prévoir la situation future (« que va-t-il probablement se passer ? »), à distinguer des familles Descriptive / Diagnostic / Prescriptive."
+  },
+  {
+   "id": "IT-056",
+   "champ": "Facteurs d'influence de la DA",
+   "memento": "§7",
+   "difficulte": 2,
+   "question": "Parmi les éléments suivants, lesquels influencent réellement l'analyse de données (DA) en audit ?",
+   "options": [
+    "La capacité des serveurs / de stockage.",
+    "La connaissance qu'a l'auditeur des outils utilisés.",
+    "Le facteur temps (calendrier) ainsi que la protection des données (nLPD) et les redevances de licence.",
+    "L'ISA-CH 550 (confirmations externes)."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explication": "Les facteurs d'influence de la DA sont la capacité technique (serveurs/stockage), la connaissance des outils, le temps, la protection des données (nLPD) et les licences ; l'ISA-CH 550 (confirmations externes) n'en fait pas partie."
+  },
+  {
+   "id": "IT-057",
+   "champ": "Stade : évaluation des risques vs procédure",
+   "memento": "§7.2",
+   "difficulte": 3,
+   "question": "Concernant l'usage de la DA selon le stade de l'audit, quelles affirmations sont correctes ?",
+   "options": [
+    "C'est le stade de l'audit (planification vs réalisation) qui détermine l'objectif de l'analyse : évaluation des risques ou procédure d'audit.",
+    "En planification, la DA sert à l'évaluation des risques : couverture intégrale de la population, stratification, visualisation.",
+    "En réalisation, la DA appuie les contrôles de substance : analyses du chiffre d'affaires, des marges, de l'ancienneté des créances avec valeurs de comparaison.",
+    "Une couverture de 100 % de la population procure une assurance de 100 %, ce qui rend le jugement de l'auditeur superflu."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explication": "Le stade d'audit détermine l'objectif de la DA : évaluation des risques en planification (300 ss / 315), procédure d'audit en réalisation (500 ss / 520). Couvrir toute la population ne dispense jamais du jugement.",
+   "piege": true
+  },
+  {
+   "id": "IT-058",
+   "champ": "ISA-CH pivots par phase",
+   "memento": "§7.3",
+   "difficulte": 2,
+   "question": "Reliez la DA à la bonne ISA-CH selon la phase d'audit. Quelles affirmations sont correctes ?",
+   "options": [
+    "À l'acceptation du mandat (ISA-CH 220), la DA exploite des données accessibles au public (notations, avis).",
+    "En planification (ISA-CH 300), la DA sert à obtenir la compréhension de l'entité et de son environnement.",
+    "En réalisation (tests de détail), on se réfère à l'ISA-CH 500 ss.",
+    "La DA en planification relève de l'ISA-CH 230 (documentation d'audit)."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explication": "Norme pivot par phase : acceptation → ISA-CH 220 (données publiques), planification → ISA-CH 300 (compréhension de l'entité), réalisation → ISA-CH 500 ss (tests de détail). L'ISA-CH 230 ne vise que la documentation."
+  },
+  {
+   "id": "IT-059",
+   "champ": "Applicabilité & conditions de faisabilité",
+   "memento": "§7.3",
+   "difficulte": 3,
+   "question": "Quels facteurs et conditions influencent l'applicabilité d'une procédure analytique et la faisabilité d'une DA ?",
+   "options": [
+    "Le caractère significatif de l'objet du contrôle, l'évaluation du risque inhérent et du risque de contrôle, la précision des résultats escomptés et l'étendue d'autres procédures visant le même objectif.",
+    "Un paysage informatique fragmenté comportant de nombreuses interfaces manuelles (complique la DA).",
+    "Un paysage informatique homogène avec des interfaces automatiques (au contraire, cela facilite la DA).",
+    "La seule date à laquelle l'audit doit être terminé."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "L'applicabilité d'une procédure analytique dépend de la matérialité, du RI/RC, de la précision attendue et des autres procédures ; côté faisabilité, un paysage fragmenté à interfaces manuelles complique la DA, alors qu'un environnement homogène et automatisé la facilite."
+  },
+  {
+   "id": "IT-060",
+   "champ": "Assertions correctes sur la DA",
+   "memento": "§7 (chapô & 🔗 Connexions)",
+   "difficulte": 2,
+   "question": "Quelles affirmations sur l'utilisation de la Data Analytics dans l'audit des états financiers sont correctes ?",
+   "options": [
+    "La DA peut être utilisée dans toutes les phases de l'audit.",
+    "Pour se fier aux résultats d'une DA, les ITGC (contrôles IT généraux) doivent être efficaces et vérifiés.",
+    "Les NA-CH réglementent en détail l'usage de la DA, laquelle peut remplacer complètement les contrôles de substance.",
+    "La DA n'est pertinente que pour les très grands clients d'audit."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explication": "La DA s'emploie dans toutes les phases et suppose des ITGC efficaces ; les NA-CH ne la réglementent pas en détail, elle ne remplace pas les contrôles de substance et n'est pas réservée aux grands clients. Rappel : quatre familles (Descriptive / Diagnostic / Predictive / Prescriptive), pas trois.",
+   "piege": true
+  },
+  {
+   "id": "IT-061",
+   "champ": "Planification & documentation d'une DA",
+   "memento": "§7.1",
+   "difficulte": 2,
+   "question": "Bonnes pratiques pour planifier une DA chez un client soumis au contrôle ordinaire — quelles affirmations sont correctes ?",
+   "options": [
+    "Impliquer le spécialiste DA à toutes les étapes (budget/calendrier, validation et rapprochement des données, examen des valeurs aberrantes).",
+    "Effectuer un essai (dry-run) de l'extraction et de l'analyse avant l'audit intermédiaire, en tenant compte des délais et des fuseaux horaires.",
+    "Respecter toutes les exigences de documentation prévues par les NA-CH (aucune règle allégée pour la DA).",
+    "Ne pas informer le client de l'approche d'audit afin de préserver l'effet de surprise."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explication": "Planifier une DA suppose d'impliquer le spécialiste à toutes les étapes, de réaliser un dry-run avant l'audit intermédiaire et de respecter l'intégralité des exigences documentaires NA-CH ; l'effet de surprise ne justifie pas de dissimuler l'approche."
+  }
+ ]
+}
