@@ -1428,7 +1428,7 @@ window.QCM_BANK["itda"] = {
       "Juste : la capacité des serveurs et de stockage relève de la famille de facteurs « outils » qui conditionne la faisabilité d'une DA (cours ch04 : quatre familles de facteurs — client, outils, expert-comptable, prescriptions légales).",
       "Juste : la connaissance qu'a l'auditeur des outils utilisés est un facteur « expert-comptable » explicitement cité, aux côtés du facteur temps et du recours à des experts DA.",
       "Juste : le facteur temps (expert-comptable), la protection des données (nLPD) et les redevances de licence (prescriptions légales / outils) influencent tous la faisabilité et le déroulement d'une DA.",
-      "Faux : une norme de procédure d'audit spécifique n'est pas un facteur d'influence de la faisabilité d'une DA — les déterminants sont le client (environnement IT, volume et qualité des données), les outils, l'expert-comptable et les prescriptions légales (protection des données, licences)."
+      "Faux : une norme de procédure d'audit spécifique n'est pas un facteur d'influence de la faisabilité d'une DA — les déterminants sont le client (environnement IT, volume et qualité des données), les outils, l'expert-comptable et les prescriptions légales (protection des données, licences). (Au passage, l'intitulé de l'option est inexact : les confirmations externes relèvent de l'ISA-CH 505 ; l'ISA-CH 550 traite des parties liées.)"
      ]
     },
     {
