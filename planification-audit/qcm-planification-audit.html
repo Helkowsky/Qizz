@@ -1808,7 +1808,7 @@ function showExplain(it){
     (it.ok?"✓ Correct":"✗ Faux — bonne réponse : "+goodLetter)+"</div>";
   html+="<div class='art'>"+escapeHtml(q.explication)+"</div>";
   if(q.ref) html+="<div class='ref'><b>Base :</b> "+escapeHtml(q.ref)+"</div>";
-  if(q.renvoi) html+="<a class='renvoi' href='memento-planification-audit.html"+(q.anchor?("#"+q.anchor):"")+"' target='_blank'>📖 "+escapeHtml(q.renvoi)+"</a>";
+  if(q.renvoi) html+="<a class='renvoi' href='memento/memento-planification-audit.html"+(q.anchor?("#"+q.anchor):"")+"' target='_blank'>📖 "+escapeHtml(q.renvoi)+"</a>";
   ex.innerHTML=html; ex.classList.remove("hidden");
   const last=run.idx===run.items.length-1;
   const nb=$("#nextBtn"); nb.classList.remove("hidden"); nb.textContent=last?"Terminer":"Suivant →";
