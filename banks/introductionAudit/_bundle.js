@@ -1882,17 +1882,17 @@ window.QCM_BANK["introductionAudit"] = {
      "champ": "Honoraires — plafond LSR",
      "question": "L'art. 11 LSR impose, pour les sociétés d'intérêt public, un plafond sur les honoraires. À quoi correspond ce plafond ?",
      "options": [
-      "Les honoraires des autres services ne doivent pas dépasser 10 % du total des honoraires encaissés de la société et du groupe.",
+      "La somme des honoraires annuels (révision + autres services) provenant d'une même société et de son groupe ne doit pas dépasser 10 % du total des honoraires encaissés par l'entreprise de révision.",
       "Les honoraires de révision ne doivent pas dépasser 10 % du chiffre d'affaires du client.",
       "Les autres services sont totalement interdits pour toute société soumise à révision.",
       "Le plafond de 10 % s'applique à toutes les SA, y compris en contrôle restreint."
      ],
      "correct": 0,
      "explications": [
-      "Exact : l'art. 11 LSR plafonne à 10 % du total des honoraires encaissés (société et groupe) les honoraires des autres services, pour les sociétés d'intérêt public.",
-      "Faux : le plafond de l'art. 11 LSR porte sur la part des autres services dans le total des honoraires, non sur le chiffre d'affaires du client.",
-      "Faux : les autres services ne sont pas interdits en tant que tels ; l'art. 11 LSR les plafonne à 10 % pour les sociétés d'intérêt public.",
-      "Faux : l'art. 11 LSR ne vise que les sociétés d'intérêt public (entreprises de révision soumises à la surveillance de l'État), pas toutes les SA ni le contrôle restreint."
+      "Exact : art. 11 al. 1 let. a LSR — plafond de dépendance économique : les honoraires annuels de révision ET des autres services fournis à une même société et à son groupe ne doivent pas dépasser 10 % du montant total des honoraires encaissés par l'entreprise de révision (soumise à la surveillance de l'État, pour la révision de sociétés d'intérêt public).",
+      "Faux : le plafond se mesure par rapport au total des honoraires encaissés par l'entreprise de révision (tous clients confondus), pas par rapport au chiffre d'affaires du client.",
+      "Faux : les autres services ne sont pas interdits en tant que tels ; c'est la dépendance économique globale envers un même client (révision + autres services, société et groupe) qui est plafonnée à 10 %.",
+      "Faux : l'art. 11 LSR ne vise que les sociétés d'intérêt public (révisées par une entreprise de révision soumise à la surveillance de l'État), pas toutes les SA ni le contrôle restreint."
      ],
      "source": "genere",
      "memento": "§6.5 (+ §6.2)"
@@ -1910,7 +1910,7 @@ window.QCM_BANK["introductionAudit"] = {
      "correct": 1,
      "explications": [
       "Faux : le plafond de l'art. 11 LSR est de 10 %, pas de 5 %.",
-      "Exact : l'art. 11 LSR fixe le plafond à 10 % du montant total des honoraires encaissés, pour les sociétés d'intérêt public.",
+      "Exact : 10 % — art. 11 al. 1 let. a LSR. Précision : le plafond légal porte sur la somme des honoraires de révision ET des autres prestations d'une même société et de son groupe, rapportée au montant total des honoraires encaissés par l'entreprise de révision.",
       "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 15 %.",
       "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 20 %."
      ],
@@ -1920,19 +1920,19 @@ window.QCM_BANK["introductionAudit"] = {
     {
      "id": "M6-010",
      "champ": "Honoraires — calcul",
-     "question": "L'audit d'une société ouverte au public coûte CHF 100'000. Selon l'art. 11 LSR, à combien sont plafonnés au total les honoraires des autres prestations de service fournies à cette société ?",
+     "question": "Une entreprise de révision soumise à la surveillance de l'État encaisse CHF 1'000'000 d'honoraires annuels au total. Selon l'art. 11 LSR, à combien est plafonnée la somme des honoraires annuels (révision + autres prestations) provenant d'une même société d'intérêt public et de son groupe ?",
      "options": [
-      "CHF 5'000",
-      "CHF 10'000",
-      "CHF 20'000",
-      "CHF 100'000"
+      "CHF 50'000",
+      "CHF 100'000",
+      "CHF 200'000",
+      "Aucun plafond chiffré : seule compte l'indépendance en apparence"
      ],
      "correct": 1,
      "explications": [
-      "Faux : 5 % correspondrait à CHF 5'000, mais le plafond de l'art. 11 LSR est de 10 %.",
-      "Exact : 10 % de CHF 100'000 = CHF 10'000, plafond des autres prestations selon l'art. 11 LSR.",
-      "Faux : CHF 20'000 correspondrait à 20 %, alors que l'art. 11 LSR fixe 10 %.",
-      "Faux : CHF 100'000 est le coût de l'audit lui-même, non le plafond des autres services (10 % selon l'art. 11 LSR)."
+      "Faux : CHF 50'000 correspondrait à 5 % ; le plafond de l'art. 11 al. 1 let. a LSR est de 10 %.",
+      "Exact : 10 % de CHF 1'000'000 = CHF 100'000. Le plafond porte sur l'ensemble des honoraires (révision + autres prestations) d'un même client et de son groupe, rapporté au total des honoraires de l'entreprise de révision — garde-fou contre la dépendance économique envers un client.",
+      "Faux : CHF 200'000 correspondrait à 20 %, alors que l'art. 11 LSR fixe 10 %.",
+      "Faux : un plafond chiffré existe bel et bien — 10 % (art. 11 al. 1 let. a LSR)."
      ],
      "source": "genere",
      "memento": "§6.5"
