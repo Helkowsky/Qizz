@@ -1,0 +1,143 @@
+{
+ "module": "M6",
+ "titre": "6 · Interprétation des déficiences ITGC",
+ "questions": [
+  {
+   "id": "IT-046",
+   "champ": "Déficience d'un contrôle automatisé",
+   "memento": "§6.3",
+   "difficulte": 3,
+   "question": "Un contrôle automatisé (p. ex. three-way-match SAP) est jugé inefficace / un déficit de GITC est constaté, alors qu'on souhaitait s'appuyer sur l'IT. Quelles marches à suivre sont correctes ?",
+   "options": [
+    "Identifier quels contrôles automatisés et informations liés aux GITC déficients sont concernés.",
+    "Réaliser des procédures d'audit supplémentaires pour couvrir les comptes concernés, aucun contrôle efficace n'ayant été identifié.",
+    "Convertir immédiatement l'ensemble de l'audit en vérifications de détail.",
+    "Continuer à se fier au contrôle, les collaborateurs étant compétents et bien organisés."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : la première étape consiste à délimiter l'impact — identifier quels contrôles automatisés et quelles informations (rapports, IPE) dépendent des GITC déficients (mémento §6.2-6.3).",
+    "Exact : à défaut de contrôle efficace identifié, des procédures d'audit supplémentaires ciblées couvrent les comptes concernés — première des cinq options face à une faiblesse d'ITGC (mémento §6.3).",
+    "Faux : basculer immédiatement TOUT l'audit en vérifications de détail est disproportionné — la réponse se calibre sur les comptes et assertions réellement touchés ; contrôles compensatoires, tests répétés et procédures ciblées restent possibles.",
+    "Faux : la compétence des collaborateurs ne remplace pas un test d'efficacité concluant — continuer à se fier à un contrôle jugé inefficace est contraire à l'ISA-CH 330 (l'appui suppose des éléments probants sur l'efficacité)."
+   ],
+   "piege": "réaction tout ou rien"
+  },
+  {
+   "id": "IT-047",
+   "champ": "Conséquences de GITC inefficaces",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Des GITC inefficaces entament la confiance dans les contrôles automatisés et l'intégrité des données. Quelle assertion est correcte ?",
+   "options": [
+    "Ils peuvent avoir une incidence sur l'évaluation combinée des risques et sur le risque d'anomalies significatives.",
+    "On peut néanmoins se fier pleinement aux contrôles automatisés.",
+    "Ils rendent les comptes annuels non auditables.",
+    "Ils sont sans incidence sur la confiance dans les contrôles automatisés."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : des GITC inefficaces modifient l'évaluation combinée des risques et peuvent accroître le risque d'anomalies significatives, car la confiance dans l'automatisé et dans l'intégrité des données est entamée (mémento §6.2).",
+    "Faux : c'est précisément la conséquence inverse — sans GITC efficaces, on ne peut plus se fier aux contrôles automatisés (ni à l'exhaustivité/exactitude des données extraites) sans mesures supplémentaires.",
+    "Faux : des GITC déficients ne rendent pas les comptes inauditables — l'auditeur adapte sa réponse (contrôles compensatoires, approche substantive renforcée) ; ils ne prouvent d'ailleurs même pas l'existence d'une anomalie (mémento §6.2).",
+    "Faux : l'incidence est directe — les contrôles automatisés reposent sur les GITC ; leur défaillance sape le socle même de la confiance dans l'automatisé (mémento §4.2 et §6.2)."
+   ],
+   "piege": "portée exacte d'une déficience"
+  },
+  {
+   "id": "IT-048",
+   "champ": "Contrôles compensatoires & qualité des données",
+   "memento": "§6.3",
+   "difficulte": 2,
+   "question": "GITC déficients : quelles affirmations sur les contrôles compensatoires et la qualité des données sont correctes ?",
+   "options": [
+    "Si les GITC sont inefficaces, l'exhaustivité et l'exactitude des données se garantissent par des contrôles et vérifications réducteurs de risques.",
+    "Un contrôle redondant efficace uniquement de manière ponctuelle constitue un contrôle compensatoire valable.",
+    "Un contrôle compensatoire couvre, sur toute la période, les mêmes risques que le contrôle déficient.",
+    "Des GITC inefficaces n'ont aucune incidence sur l'exhaustivité et l'exactitude des données."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : lorsque les GITC sont inefficaces, l'exhaustivité et l'exactitude des données doivent être garanties par des contrôles et vérifications réducteurs de risques (mémento §6.2-6.3).",
+    "Faux : un contrôle qui n'est efficace que de manière ponctuelle laisse des fenêtres non couvertes ; pour compenser, un contrôle doit opérer sur toute la période concernée — l'efficacité ponctuelle ne suffit pas.",
+    "Exact : un contrôle compensatoire couvre, sur toute la période, les mêmes risques que le contrôle déficient ; il s'évalue d'ailleurs comme tout autre contrôle — conception/mise en œuvre puis efficacité opérationnelle (ISA-CH 330.17 ; mémento §6.3).",
+    "Faux : l'incidence est directe — les GITC conditionnent l'intégrité et l'extraction des données (Data Integrity Risk, Data Extraction Risk) ; leur inefficacité remet en cause l'exhaustivité et l'exactitude des données (mémento §6.2)."
+   ],
+   "piege": "contrôle compensatoire seulement ponctuel"
+  },
+  {
+   "id": "IT-049",
+   "champ": "Déficit significatif ISA-CH 265",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Selon l'ISA-CH 265, quelles affirmations sur le déficit significatif et sa communication sont correctes ?",
+   "options": [
+    "Des déficits de conception ET d'efficacité des GITC touchant le risque d'anomalie significative constituent un déficit significatif à annoncer.",
+    "La communication d'un déficit significatif se fait par écrit aux responsables de la surveillance (gouvernance), dans le rapport exhaustif.",
+    "Une divergence unique et sans effet doit être communiquée comme déficit significatif.",
+    "Une information orale à la direction suffit à satisfaire l'obligation de communication."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : des déficits de conception et d'efficacité des GITC touchant le risque d'anomalie significative sont suffisamment importants pour mériter l'attention des responsables de la gouvernance : c'est un déficit significatif à communiquer (ISA-CH 265.6(a) ; mémento §6.1).",
+    "Exact : l'ISA-CH 265 exige une communication PAR ÉCRIT aux responsables de la surveillance (gouvernance), en pratique dans le rapport exhaustif (détaillé).",
+    "Faux : une divergence (écart) unique et sans effet n'est pas un déficit significatif — un écart ne constitue même pas toujours une déficience (mémento §6.1) ; il faut qualifier la faiblesse avant de décider de sa communication.",
+    "Faux : pour un déficit significatif, une information orale à la direction ne suffit pas — la forme écrite et le destinataire (responsables de la surveillance) sont tous deux requis par l'ISA-CH 265."
+   ]
+  },
+  {
+   "id": "IT-050",
+   "champ": "Faiblesse GITC → stratégie & DA",
+   "memento": "§6.2",
+   "difficulte": 3,
+   "question": "Vous ne pouvez confirmer que la conception/mise en œuvre — non l'efficacité — de certains GITC/contrôles, et vous souhaitez recourir à la Data Analytics. Quelles affirmations sont correctes ?",
+   "options": [
+    "La stratégie d'audit, le calcul du caractère significatif et la taille de l'échantillon doivent être réévalués.",
+    "Une analyse de données reste possible, mais seulement si les éléments pertinents des données sont testés directement par échantillonnage.",
+    "Une faiblesse dans l'efficacité des GITC n'a aucune incidence sur la stratégie d'audit.",
+    "Sans GITC vérifiés, une analyse de données n'apporte rien de plus et doit être écartée."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : sans confirmation de l'efficacité des GITC, l'appui prévu sur les contrôles disparaît : la stratégie d'audit, le calcul du caractère significatif et la taille de l'échantillon doivent être réévalués (réévaluation de l'appréciation combinée des risques, mémento §6.3).",
+    "Exact : la Data Analytics reste possible, mais l'exhaustivité et l'exactitude des données ne pouvant plus être présumées, les éléments pertinents des données doivent être testés directement par échantillonnage (mémento §6.2).",
+    "Faux : une faiblesse dans l'efficacité des GITC a une incidence directe sur la stratégie — l'auditeur bascule vers une approche substantive renforcée (mémento §5.1 et §6.2).",
+    "Faux : la Data Analytics n'est pas à écarter — elle demeure utile à condition de sécuriser directement la fiabilité des données utilisées ; c'est l'appui aveugle sur des données non vérifiées qui est proscrit, pas l'analyse elle-même."
+   ],
+   "piege": "GITC déficients ≠ DA exclue"
+  },
+  {
+   "id": "IT-112",
+   "champ": "Compensatoire pour accès déjà accordé",
+   "memento": "§6.3",
+   "difficulte": 3,
+   "question": "La directrice financière dispose, à tort, d'un accès administrateur (lecture/écriture) à la base de données du système comptable. Quel contrôle compensatoire est valable face à ce risque ?",
+   "options": [
+    "La vérification substantielle des journaux (logs) retraçant toutes ses actions sur la période, pour s'assurer que l'accès n'a pas eu d'incidence financière.",
+    "Le blocage systématique des accès des collaborateurs quittant l'entreprise.",
+    "La limitation du nombre d'accès privilégiés accordés dans le système.",
+    "La revue périodique des autorisations avant tout nouvel octroi de droits."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : pour un accès déjà accordé à tort, seul un contrôle DÉTECTIF portant sur la période concernée compense le risque : la vérification substantielle des journaux permet de s'assurer que l'accès n'a pas eu d'incidence financière (mémento §6.3).",
+    "Faux : le blocage des accès lors des départs est un contrôle préventif standard de gestion des accès (ITGC du domaine « protection des accès ») ; il agit pour l'avenir et ne couvre pas l'accès déjà ouvert pendant la période.",
+    "Faux : limiter les accès privilégiés est une mesure préventive générale ; elle réduit le risque futur mais ne dit rien de ce que la directrice financière a réellement fait de son accès pendant la période.",
+    "Faux : la revue périodique des autorisations est un contrôle de routine sur l'attribution des droits ; elle n'apporte aucune assurance sur les actions déjà effectuées via l'accès administrateur accordé à tort."
+   ],
+   "piege": "compensatoire ≠ préventif d'accès"
+  }
+ ]
+}

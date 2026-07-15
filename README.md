@@ -30,9 +30,10 @@ qcm-trainer/
   "explications":["…A (art. …)","…B (art. …)","…C","…D"],
   "piege":"D1", "difficulte":3, "source":"generated" }
 ```
-Règles strictes : **exactement 4 options, 1 seule bonne réponse** (`correct` 0-3), **4 explications**
-(une par option, avec article de loi). `piege` ∈ D1..D10, `difficulte` 1-5, `source`
-`generated`/`exam-sample`.
+Règles strictes : **4 (exceptionnellement 5) options**, **une explication par option** (avec article
+de loi ou référence mémento). `correct` = indice 0-3 **ou liste d'indices** (question à réponses
+multiples, gérée par l'app). `piege` = code D1..D10 ou courte étiquette nommant le piège,
+`difficulte` 1-5, `source` `generated`/`exam-sample`.
 
 ## Ajouter un NOUVEAU cours (procédure)
 1. **Déposer les samples** de QCM d'examen du cours (fichiers texte / PDF).

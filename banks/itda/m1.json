@@ -1,0 +1,139 @@
+{
+ "module": "M1",
+ "titre": "1 · Importance IT & ISA-CH 315 (Révisée)",
+ "questions": [
+  {
+   "id": "IT-001",
+   "champ": "Importance de l'IT dans l'audit",
+   "memento": "§1.1",
+   "difficulte": 1,
+   "question": "Pourquoi l'informatique gagne-t-elle sans cesse en importance dans l'audit ?",
+   "options": [
+    "Avec l'IT, plus aucune vérification des données d'entrée ne doit être effectuée",
+    "L'extraction des données ne prend que quelques secondes, même pour de très grands volumes",
+    "La connexion de l'ERP du client avec l'ERP de l'auditeur permet un meilleur échange des données",
+    "Le mode de fonctionnement de l'entreprise auditée dépend de processus d'affaires informatisés ou entièrement automatisés"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est l'inverse — plus les processus sont automatisés, plus la vérification des données d'entrée et les contrôles IT gagnent en importance (mémento §1.1).",
+    "Faux : la rapidité d'extraction est un avantage pratique de l'IT, pas la raison de son importance pour l'audit — elle ne crée aucun risque d'anomalie à couvrir.",
+    "Faux : il n'existe pas de connexion entre l'ERP du client et un « ERP de l'auditeur » ; ce distracteur est fantaisiste (mémento §1.1, piège).",
+    "Exact : le fonctionnement même de l'entité repose sur des processus d'affaires informatisés ou entièrement automatisés — l'information financière naît et se traite dans des systèmes, que l'auditeur doit comprendre pour évaluer correctement le risque (ISA-CH 315 (Révisée) ; mémento §1.1)."
+   ],
+   "piege": "avantages IT pris pour causes"
+  },
+  {
+   "id": "IT-002",
+   "champ": "Conséquences de la 315R",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Quelles sont les conséquences de l'ISA-CH 315 (Révisée) sur l'audit des états financiers ?",
+   "options": [
+    "Les auditeurs doivent systématiquement effectuer des procédures de test liées à la cybersécurité",
+    "L'audit informatique gagne en importance",
+    "Les contrôles généraux informatiques (ITGC) doivent désormais toujours être vérifiés, même en l'absence de contrôles d'application",
+    "Les spécialistes ne sont plus autorisés à procéder à l'audit informatique, entièrement réalisé par l'expert-comptable"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la 315R n'impose aucun test systématique de cybersécurité ; un cyber-risque n'est pertinent que s'il peut avoir un effet potentiellement significatif sur les états financiers, apprécié par jugement professionnel (cours ch. 01).",
+    "Exact : la révision de la norme a considérablement valorisé l'audit informatique — l'auditeur doit comprendre en profondeur l'environnement IT (applications, infrastructure, processus informatiques, personnel ; mémento §1.2).",
+    "Faux : les ITGC ne sont pas « toujours » à vérifier — l'approche est ciblée sur les applications sujettes aux risques ; en l'absence d'ITAC identifié, la vérification se limite à l'existence du SCI (NAS-CH 890 ; mémento §3.4).",
+    "Faux : le recours à un spécialiste IT reste prévu lorsque l'environnement est complexe (ISA-CH 620) ; la responsabilité de l'opinion demeure chez l'auditeur, mais les spécialistes ne sont nullement écartés."
+   ],
+   "piege": "obligations systématiques inventées"
+  },
+  {
+   "id": "IT-003",
+   "champ": "Risques d'audit liés à l'IT",
+   "memento": "§1.3",
+   "difficulte": 2,
+   "question": "Quels risques d'audit découlent du recours aux technologies de l'information par le client audité ?",
+   "options": [
+    "Des changements non autorisés apportés aux systèmes ou aux programmes",
+    "Les sauvegardes ne sont pas effectuées",
+    "Les imprimantes ne fonctionnent pas",
+    "Des mesures de sécurité élevées pour l'accès au système ERP"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les changements non autorisés apportés aux systèmes ou aux programmes sont l'exemple canonique de risque lié au recours à l'IT — catégorie « gestion des modifications » (ISA-CH 315 (Révisée), Annexe 6 ; mémento §1.3).",
+    "Faux ici : une sauvegarde non effectuée est une faiblesse d'exploitation IT qui menace la disponibilité des données, mais elle ne fausse pas par elle-même l'information financière produite — ce n'est pas le risque d'anomalie recherché dans cette question à réponse unique.",
+    "Faux : une panne d'imprimante est un incident matériel sans effet sur la fiabilité de l'information financière — ce n'est pas un risque d'audit (mémento §1.1, piège).",
+    "Faux : des mesures de sécurité élevées réduisent le risque au lieu de le créer — le distracteur inverse la logique (mémento §1.1)."
+   ],
+   "piege": "incident matériel ≠ risque d'audit"
+  },
+  {
+   "id": "IT-004",
+   "champ": "Objet et diligences de la 315R",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Au sujet de l'ISA-CH 315 (Révisée), quelles affirmations sont exactes ?",
+   "options": [
+    "Son objet est la compréhension de l'entité et de son environnement afin d'identifier et d'évaluer les risques d'anomalies significatives (RAS).",
+    "L'auditeur identifie les applications informatiques pertinentes et les autres aspects pertinents de l'environnement IT dont l'utilisation comporte des risques.",
+    "L'auditeur doit acquérir une compréhension des activités de traitement de l'information de l'entreprise, y compris ses données et informations.",
+    "La norme porte sur le contrôle et l'évaluation de l'efficacité opérationnelle du SCI, en particulier des contrôles généraux informatiques."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Exact : l'objet de la 315R est la compréhension de l'entité et de son environnement, y compris son contrôle interne, afin d'identifier et d'évaluer les risques d'anomalies significatives au niveau des assertions (mémento §1.2).",
+    "Exact : la norme impose une approche ciblée — n'examiner que les applications informatiques et les autres aspects de l'environnement IT sujets aux risques provenant du recours à l'informatique (mémento §1.2 et §2.4).",
+    "Exact : l'auditeur doit acquérir une compréhension des activités de traitement de l'information de l'entité, y compris ses données et informations (ISA-CH 315 (Révisée), par. 25-26).",
+    "Faux : la 315R est une norme d'évaluation des risques ; le contrôle de l'efficacité opérationnelle du SCI relève de la réponse aux risques (ISA-CH 330) et n'est requis que si l'auditeur veut s'appuyer sur les contrôles (mémento §3.4)."
+   ],
+   "piege": "évaluation des risques vs efficacité"
+  },
+  {
+   "id": "IT-005",
+   "champ": "Évaluation des risques IT (contrôle ordinaire)",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Vous évaluez les risques liés à l'environnement IT d'une entité soumise au contrôle ordinaire. Quelles affirmations sont correctes ?",
+   "options": [
+    "Les procédures d'évaluation des risques comprennent des demandes d'informations auprès de la direction, des procédures analytiques ainsi que des observations.",
+    "La norme à consulter en priorité pour comprendre les systèmes d'information et les processus liés à la présentation des comptes est l'ISA-CH 315 (Révisée).",
+    "Ces procédures d'évaluation des risques incluent le test unique (Test of One) des contrôles d'applications.",
+    "La norme à consulter en priorité dans ce contexte est l'ISA-CH 402 (recours à une société de services)."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : les procédures d'évaluation des risques comprennent les demandes d'informations auprès de la direction, les procédures analytiques et les observations/inspections (ISA-CH 315 (Révisée)).",
+    "Exact : la norme pivot pour comprendre les systèmes d'information et les processus liés à la présentation des comptes est l'ISA-CH 315 (Révisée) (mémento §1.2).",
+    "Faux : le « Test of One » est un test de contrôle — il vérifie l'efficacité d'un contrôle applicatif automatisé et relève de la réponse aux risques, pas de leur évaluation (mémento §4.3).",
+    "Faux : l'ISA-CH 402 ne s'applique qu'en cas de recours à une société de services (externalisation) ; elle ne régit pas la compréhension générale de l'environnement IT de l'entité."
+   ],
+   "piege": "évaluation des risques vs tests"
+  },
+  {
+   "id": "IT-106",
+   "champ": "Les 5 dépendances informatiques",
+   "memento": "§1.3",
+   "difficulte": 2,
+   "question": "Lors de l'évaluation des risques, vous recensez les dépendances informatiques d'un processus de vente en posant la question « What could go wrong? ». Quel ensemble correspond aux cinq types de dépendances informatiques ?",
+   "options": [
+    "Contrôles automatisés · rapports · calculs · interfaces · sécurité (séparation des tâches / accès restreint)",
+    "Applications · bases de données · systèmes d'exploitation · réseau · postes de travail",
+    "Accès · changements · opérations · développement · sauvegardes",
+    "Complexité · subjectivité · changement · incertitude · biais"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les cinq types de dépendances informatiques sont les contrôles automatisés, les rapports, les calculs, les interfaces et la sécurité (séparation des tâches / accès restreint) ; pour chacune, la question directrice est « What could go wrong? » (support EXPERTsuisse ; mémento §1.3).",
+    "Faux : cette liste correspond au modèle en couches de l'environnement IT (mémento §2.2), qui décrit l'architecture technique — pas les dépendances informatiques d'un processus.",
+    "Faux : ce mélange reprend les domaines de GITC (accès, changements, opérations, développement — mémento §3.3) en y ajoutant les sauvegardes, qui sont un contrôle d'exploitation, non une dépendance informatique.",
+    "Faux : complexité, subjectivité, changement, incertitude et biais sont les facteurs de risque inhérent introduits par la 315R (mémento §1.2), pas des dépendances informatiques."
+   ],
+   "piege": "grilles d'analyse confondues"
+  }
+ ]
+}

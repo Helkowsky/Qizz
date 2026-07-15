@@ -1,0 +1,188 @@
+{
+ "module": "M2",
+ "titre": "2 · Système d'information (ERP, couches, interfaces)",
+ "questions": [
+  {
+   "id": "IT-006",
+   "champ": "ERP : composants, processus, données de base",
+   "memento": "§2.1",
+   "difficulte": 1,
+   "question": "Quelles affirmations sont exactes au sujet d'un système ERP ?",
+   "options": [
+    "La production et la comptabilité financière figurent parmi les processus/modules d'un ERP.",
+    "Un « cybermodule » et une « signature numérique » sont des composants typiques d'un ERP.",
+    "Les données contenant les informations de base sur les objets pertinents (produits, fournisseurs, clients, personnel) sont appelées « données de base » (Stammdaten).",
+    "Le service à la clientèle ne fait pas partie des processus d'un ERP."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : un ERP représente l'ensemble des processus d'affaires autour d'une base de données centrale — la production et la comptabilité financière en sont des modules typiques (mémento §2.1).",
+    "Faux : un « cybermodule » n'existe pas, et la signature numérique est une fonction de sécurité, pas un module ERP (mémento §2.1, piège).",
+    "Exact : les données de base (Stammdaten / Master Data) décrivent les objets permanents — articles, fournisseurs, clients, comptes généraux, collaborateurs — et servent de socle à toutes les transactions (mémento §2.1).",
+    "Faux : le service à la clientèle fait partie des processus d'affaires qu'un ERP couvre ; l'exclure contredit la définition même de l'ERP comme représentation des processus de l'entreprise."
+   ],
+   "piege": "pseudo-modules plausibles"
+  },
+  {
+   "id": "IT-007",
+   "champ": "Avantages d'un ERP",
+   "memento": "§1.1",
+   "difficulte": 1,
+   "question": "Quel avantage découle de l'utilisation d'un système ERP ?",
+   "options": [
+    "Les coûts d'introduction de l'ERP peuvent être portés à l'actif et réduire le bénéfice imposable par l'amortissement",
+    "Des rapports précis et complets facilitent la planification, la budgétisation et les prévisions",
+    "Les tâches automatiques sont remplacées par des tâches manuelles",
+    "Tous les utilisateurs de l'ERP peuvent passer des écritures"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'activation et l'amortissement des coûts d'introduction relèvent du traitement comptable et fiscal de n'importe quel investissement — ce n'est pas un avantage propre à l'utilisation d'un ERP.",
+    "Exact : le bénéfice-clé d'un ERP est une information centralisée, précise et complète — des rapports fiables qui facilitent la planification, la budgétisation et les prévisions (mémento §1.1).",
+    "Faux : c'est l'inverse — un ERP remplace des tâches manuelles par des traitements automatisés.",
+    "Faux : que tous les utilisateurs puissent passer des écritures serait une faiblesse (accès trop larges, séparation des tâches compromise), pas un avantage (mémento §1.1)."
+   ]
+  },
+  {
+   "id": "IT-008",
+   "champ": "Architecture en couches",
+   "memento": "§2.2",
+   "difficulte": 2,
+   "question": "Concernant l'architecture en couches d'un système d'information, quelles affirmations sont exactes ?",
+   "options": [
+    "La base de données est l'une des quatre couches du modèle (Application → Base de données → Système d'exploitation → Réseau).",
+    "« Abacus » est un exemple d'application (couche Application).",
+    "La « GUI » et le « front-end » constituent des couches à part entière du modèle.",
+    "« SQL » et « Linux » sont des exemples d'applications financières."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : le modèle distingue quatre couches empilées, de haut en bas : Application → Base de données → Système d'exploitation → Réseau/physique (mémento §2.2).",
+    "Exact : Abacus est un progiciel financier, donc un exemple de la couche Application, au même titre que SAP ou Oracle Financials (mémento §2.2).",
+    "Faux : la GUI et le front-end sont l'interface utilisateur de la couche Application — pas des couches à part entière du modèle.",
+    "Faux : SQL est une base de données (couche 2) et Linux un système d'exploitation (couche 3) — aucun des deux n'est une application financière (mémento §2.2)."
+   ],
+   "piege": "composants confondus avec couches"
+  },
+  {
+   "id": "IT-009",
+   "champ": "Module SAP & interface GUI",
+   "memento": "§2.3",
+   "difficulte": 2,
+   "question": "Au sujet de SAP et des interfaces, quelles affirmations sont exactes ?",
+   "options": [
+    "Une « Graphical User Interface (GUI) » est une interface utilisateur graphique.",
+    "Dans le processus de vente, l'entrée du paiement (encaissement) est traitée par le module financier FI.",
+    "Le module SD (Sales & Distribution) enregistre lui-même l'entrée du paiement du client.",
+    "« GUI » désigne une interface de programmation (API)."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : GUI (Graphical User Interface) désigne l'interface utilisateur graphique par laquelle l'utilisateur interagit avec le système (p. ex. SAP GUI).",
+    "Exact : dans la chaîne order-to-cash de SAP, le module SD gère la vente et la facturation, mais l'entrée du paiement est comptabilisée dans le module financier FI (intégration SD → FI ; corrigé reconstruit par la logique d'intégration SAP, cf. divergences.md).",
+    "Faux : SD (Sales & Distribution) s'arrête à la facturation ; l'encaissement est un événement comptable traité dans FI, pas dans SD.",
+    "Faux : une GUI est une interface homme-machine ; une API (interface de programmation) relie des programmes entre eux — deux notions distinctes."
+   ],
+   "piege": "frontière modules SD / FI"
+  },
+  {
+   "id": "IT-010",
+   "champ": "Risques du transfert par interfaces",
+   "memento": "§2.3",
+   "difficulte": 2,
+   "question": "Du point de vue de l'audit, quel risque est lié au transfert de données par une interface (notamment automatisée) ?",
+   "options": [
+    "Les données peuvent être transférées de manière incomplète (perte d'intégralité)",
+    "La vérification de l'interface incombe exclusivement à l'auditeur informatique",
+    "Une interface transmet des données chaque soir à 20 h 00",
+    "Un coût d'interface élevé la rend inefficace et constitue le principal risque d'audit"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le risque d'audit central d'une interface est le transfert incomplet ou inexact des données d'un système à l'autre — perte d'intégralité (mémento §2.3 ; grille des risques par dépendance « interfaces », cours ch. 01).",
+    "Faux : la vérification des interfaces s'inscrit dans l'audit sous la responsabilité de l'auditeur financier ; un spécialiste IT peut y contribuer (ISA-CH 620), mais elle ne lui incombe pas « exclusivement ».",
+    "Faux : un transfert planifié chaque soir à 20 h 00 est une simple modalité de fonctionnement de l'interface, pas un risque.",
+    "Faux : le coût d'une interface est une considération d'efficience économique, sans lien avec le risque d'anomalie significative."
+   ],
+   "piege": "modalité technique prise pour risque"
+  },
+  {
+   "id": "IT-011",
+   "champ": "Audit des applications/progiciels standard",
+   "memento": "§2.4",
+   "difficulte": 3,
+   "question": "Concernant l'audit d'applications/progiciels standard, quelles affirmations sont correctes ?",
+   "options": [
+    "Le degré de paramétrage (customizing) du progiciel doit être pris en compte.",
+    "Les possibilités d'extraction des données sont une considération pertinente.",
+    "Pour une nouvelle version d'un progiciel standard, on peut se baser sur l'audit initial, mais les nouveaux paramètres de la version actuelle doivent être vérifiés (NAS-CH 870).",
+    "Le coût et la convivialité du logiciel sont les critères déterminants de la vérification."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Exact : plus un progiciel standard est paramétré (customizing), plus son traitement s'écarte du standard livré et doit être vérifié spécifiquement — le degré de paramétrage est donc à prendre en compte (mémento §2.4 et §10.3).",
+    "Exact : les possibilités d'extraction des données conditionnent les analyses de l'auditeur (Data Analytics, éléments probants) — considération pertinente pour l'audit (mémento §8.1).",
+    "Exact : pour une nouvelle version d'un progiciel standard, l'auditeur peut se baser sur l'audit initial en vérifiant les nouveaux paramètres de la version actuelle ; attention toutefois, le numéro « NAS-CH 870 » cité par le support reste à valider (divergences.md, point 2).",
+    "Faux : le coût et la convivialité sont des critères de choix du logiciel pour l'entreprise, pas des critères de vérification pour l'auditeur."
+   ]
+  },
+  {
+   "id": "IT-012",
+   "champ": "Affirmations sur l'environnement IT",
+   "memento": "§2.4",
+   "difficulte": 2,
+   "question": "Sur le mandat LEX SA (contrôle ordinaire), votre assistante formule des affirmations sur l'environnement informatique. Laquelle est correcte ?",
+   "options": [
+    "Avec un ERP développé en interne, il est impossible de s'appuyer sur des contrôles automatiques, car ces outils ne sont soumis à aucune norme internationale",
+    "Les applications gérées par l'utilisateur final (EUC/EUMA) représentent un risque, car l'accès et la possibilité de les modifier ne sont, la plupart du temps, pas strictement contrôlés",
+    "Le recours à un prestataire externe impose toujours de vérifier les contrôles externalisés directement chez le prestataire",
+    "Un incident de cybersécurité oblige, dans la plupart des cas, à émettre une réserve à l'assemblée générale"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : un ERP développé en interne peut porter des contrôles automatiques fiables dès lors que les ITGC (développement, changements, accès) sont efficaces ; l'existence d'une « norme internationale » applicable au logiciel n'est pas le critère d'appui.",
+    "Exact : les applications gérées par l'utilisateur final (EUC, typiquement Excel) sont un risque classique — leur accès et leur modification ne sont la plupart du temps pas strictement contrôlés (mémento §10.1).",
+    "Faux : en cas d'externalisation, l'auditeur peut s'appuyer sur un rapport de type ISAE 3402 / SOC (type 1 ou 2) conformément à l'ISA-CH 402 — la vérification directe chez le prestataire n'est pas « toujours » imposée (cours ch. 01).",
+    "Faux : un incident de cybersécurité n'est pertinent que s'il peut avoir un effet significatif sur les états financiers, apprécié par jugement professionnel ; il n'entraîne pas « dans la plupart des cas » une réserve à l'assemblée générale."
+   ],
+   "piege": "généralisations abusives (toujours, jamais)"
+  },
+  {
+   "id": "IT-013",
+   "champ": "Risques d'implémentation et de migration d'un ERP",
+   "memento": "§2.1",
+   "difficulte": 2,
+   "question": "Un client (contrôle ordinaire) remplace sa comptabilité Excel par un ERP puis, plus tard, migre d'un ERP vers un autre. Quelles affirmations sur les risques sont correctes ?",
+   "options": [
+    "Des processus anciens non adaptés aux nouvelles structures peuvent générer des dépenses importantes et des problèmes de SCI.",
+    "Lors d'une migration ERP → ERP, les données peuvent être incomplètes ou mal transmises, et des autorisations d'utilisateur reprises de façon incomplète.",
+    "Dans un ERP, les écritures et transactions ne peuvent plus être retracées, ce qui empêche tout audit.",
+    "La mise en œuvre d'un modèle de données complexe constitue en soi le principal risque de la migration."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : des processus anciens non adaptés aux nouvelles structures génèrent des dépenses importantes et des problèmes de SCI — risque classique de l'introduction d'un ERP (mémento §2.1).",
+    "Exact : lors d'une migration ERP → ERP, les risques types sont des données incomplètes ou mal transmises et des autorisations d'utilisateur reprises de façon incomplète — d'où le contrôle CM-4 « tests de la migration des données » (Guide EXPERTsuisse ITGC 2024 ; mémento §3.2).",
+    "Faux : un ERP conserve la traçabilité des écritures et transactions (journaux, piste d'audit) ; il ne rend pas l'audit impossible — il le structure au contraire.",
+    "Faux : la complexité du modèle de données est un défi de projet, pas le risque d'audit déterminant ; ce sont l'intégrité des données migrées et la continuité du SCI qui priment."
+   ],
+   "piege": "exagération : ERP non traçable"
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "module": "M14",
+ "titre": "14 · Conservation électronique & cadre suisse",
+ "questions": [
+  {
+   "id": "IT-122",
+   "champ": "Durée légale de conservation",
+   "memento": "§14.1",
+   "difficulte": 2,
+   "question": "Quelle est la durée légale de conservation des livres et pièces comptables en droit suisse, et sur quel article repose-t-elle ?",
+   "options": [
+    "5 ans, selon l'art. 958f CO",
+    "10 ans, selon l'art. 958f CO",
+    "10 ans, selon l'art. 957a CO",
+    "Aussi longtemps que le système comptable d'origine reste en exploitation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la durée n'est pas de 5 ans. L'art. 958f CO fixe l'obligation et la durée de conservation à 10 ans (mémento §14.1).",
+    "Exact : l'obligation et la durée de conservation — 10 ans — découlent de l'art. 958f CO [PRIMAIRE] (mémento §14.1).",
+    "Faux : la durée de 10 ans est juste, mais l'article ne l'est pas. L'art. 957a CO régit la tenue régulière de la comptabilité (dont le support électronique), pas la durée de conservation — celle-ci relève de l'art. 958f CO.",
+    "Faux : le délai est fixé par la loi (10 ans, art. 958f CO) et ne dépend pas de la durée de vie du système. C'est précisément pourquoi une migration doit préserver les données conservées (art. 10 Olico)."
+   ],
+   "piege": "Bon délai, mauvais article"
+  },
+  {
+   "id": "IT-123",
+   "champ": "Admissibilité de la tenue électronique",
+   "memento": "§14.1",
+   "difficulte": 2,
+   "question": "La tenue et la conservation électroniques des livres comptables sont-elles admises en droit suisse ?",
+   "options": [
+    "Oui, sans aucune condition : la liberté des moyens de preuve dispense de toute exigence particulière",
+    "Oui, mais uniquement si chaque enregistrement porte une signature électronique qualifiée",
+    "Non : les livres doivent être tenus sur papier, seules les pièces justificatives peuvent être électroniques",
+    "Oui, à condition de garantir la régularité (intégralité, exactitude, disponibilité, lisibilité) et la traçabilité"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la liberté des moyens de preuve ne supprime pas les exigences de résultat. Le droit suisse exige que les enregistrements restent vérifiables et conservés dans les délais légaux — régularité et traçabilité restent obligatoires (art. 957a CO, Olico ; mémento §14).",
+    "Faux : c'était le régime de l'ancienne OeIDI, aujourd'hui abrogée. La liberté des moyens de preuve prévaut ; un contrôle interne satisfaisant suffit — aucune signature électronique n'est exigée (mémento §14.1, piège).",
+    "Faux : le droit suisse ne fige aucune technologie ; la tenue électronique des livres eux-mêmes est expressément admise (art. 957a CO) — le droit exige un résultat (vérifiabilité, conservation), pas un support.",
+    "Exact : la tenue régulière sur support électronique est admise par l'art. 957a CO [PRIMAIRE], et l'Olico (RS 221.431) [PRIMAIRE] précise les conditions de la tenue et de la conservation électroniques : intégrité et disponibilité, dans le respect de la régularité (intégralité, exactitude, disponibilité, lisibilité) et de la traçabilité (mémento §14/§14.1)."
+   ],
+   "piege": "Liberté de preuve ≠ zéro condition"
+  },
+  {
+   "id": "IT-124",
+   "champ": "Signature électronique & OeIDI abrogée",
+   "memento": "§14.1",
+   "difficulte": 3,
+   "question": "Votre client tient l'intégralité de sa comptabilité sous forme électronique, sans aucune signature électronique. Qu'en concluez-vous ?",
+   "options": [
+    "Situation conforme si un contrôle interne satisfaisant existe : l'OeIDI est abrogée et la liberté des moyens de preuve prévaut",
+    "Situation non conforme : l'OeIDI impose la signature électronique des livres tenus électroniquement",
+    "Situation conforme uniquement si les livres sont imprimés et signés à la main à chaque clôture annuelle",
+    "Situation non conforme : la tenue électronique sans signature exige une autorisation préalable de l'autorité fiscale"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'ancienne obligation de signature électronique (OeIDI) est abrogée ; la liberté des moyens de preuve prévaut et un contrôle interne satisfaisant suffit à garantir l'intégrité (mémento §14.1, piège « plus d'obligation de signature électronique »).",
+    "Faux : c'est le piège classique du support non actualisé. L'OeIDI (signature électronique obligatoire) est abrogée — ne jamais la citer comme droit en vigueur (mémento §14.1 ; cours ch. 01, piège « référence historique »).",
+    "Faux : aucune impression ni signature manuscrite périodique n'est exigée pour les livres tenus électroniquement — le droit exige un résultat (régularité, traçabilité, conservation), pas un rituel papier (art. 957a CO, Olico).",
+    "Faux : aucune autorisation préalable d'une autorité n'est prévue. Les conditions sont posées par le CO et l'Olico (intégrité, disponibilité) et se vérifient par le contrôle interne, pas par un agrément administratif."
+   ],
+   "piege": "OeIDI abrogée"
+  },
+  {
+   "id": "IT-125",
+   "champ": "Migration de données — art. 10 Olico",
+   "memento": "§14.1",
+   "difficulte": 3,
+   "question": "Lors d'une migration de données comptables vers un nouveau système, qu'exige l'art. 10 Olico ?",
+   "options": [
+    "Le format d'origine des informations ne doit en aucun cas être modifié",
+    "L'ancien système doit rester exploité en parallèle jusqu'à l'échéance du délai de conservation",
+    "Les informations doivent rester complètes et exactes, disponibles et lisibles, et le transfert doit faire l'objet d'un procès-verbal conservé avec les informations",
+    "Le transfert doit être autorisé au préalable par l'autorité fiscale compétente"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : c'est le contre-pied exact de la règle. L'art. 10 Olico admet que le format soit modifié et les données transférées, à condition que l'intégralité, l'exactitude et la disponibilité/lisibilité soient garanties (cours ch. 03, §5.6).",
+    "Faux : la loi n'exige pas le maintien de l'ancien système ; elle exige la reprise contrôlée des données (complètes, exactes, disponibles) avec procès-verbal. C'est précisément ce qui permet de décommissionner l'ancien environnement.",
+    "Exact : l'art. 10 Olico [PRIMAIRE] autorise le changement de format et le transfert si (al. 2) les informations restent complètes et exactes et que disponibilité/lisibilité satisfont aux exigences légales, et si (al. 3) le transfert fait l'objet d'un procès-verbal conservé avec les informations (mémento §14.1 ; cours ch. 03, §5.6).",
+    "Faux : aucune autorisation administrative préalable n'est prévue par l'Olico ; l'exigence est documentaire et de contrôle interne (procès-verbal de transfert, intégralité/exactitude/disponibilité)."
+   ],
+   "piege": "Le format peut changer"
+  },
+  {
+   "id": "IT-126",
+   "champ": "Traçabilité — référence CO exacte",
+   "memento": "§14.1",
+   "difficulte": 4,
+   "question": "Vos supports invoquent l'art. 959a al. 2 ch. 5 CO comme fondement du principe de traçabilité (piste de vérification) d'une migration. Qu'en est-il ?",
+   "options": [
+    "La référence est exacte : l'art. 959a CO consacre la vérifiabilité des enregistrements comptables",
+    "Coquille probable : l'art. 959a CO porte sur la structure minimale du bilan ; la vérifiabilité figure à l'art. 957a al. 2 ch. 5 CO",
+    "La traçabilité n'a aucun fondement dans le CO : elle ne découle que de l'art. 10 Olico",
+    "La traçabilité est fondée sur l'art. 958f CO, qui définit la piste de vérification"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : sur Fedlex, l'art. 959a CO traite de la structure minimale du bilan, sans lien avec la traçabilité — reprendre telle quelle la référence du support serait une erreur (cours ch. 03, piège « référence à confirmer » ; divergences.md, point 1).",
+    "Exact : le principe de vérifiabilité / piste de vérification figure à l'art. 957a al. 2 ch. 5 CO [PRIMAIRE, tagué À VALIDER] ; la citation « 959a » du support est une coquille probable, signalée dans le mémento §14.1 et divergences.md (point 1 — à confirmer sur Fedlex avant l'examen).",
+    "Faux : le principe est bien ancré dans le CO (tenue régulière et vérifiabilité, art. 957a CO) ; l'art. 10 Olico n'en précise que les modalités pour la migration (procès-verbal, intégralité/exactitude/disponibilité).",
+    "Faux : l'art. 958f CO régit l'obligation et la durée de conservation (10 ans), pas la piste de vérification — confusion entre conservation et traçabilité."
+   ],
+   "piege": "Coquille 959a du support"
+  },
+  {
+   "id": "IT-127",
+   "champ": "Audit de migration — objectif & socle ITGC",
+   "memento": "§14.1",
+   "difficulte": 3,
+   "question": "Quel est l'objectif d'un audit de migration de données, et sur quel contrôle ITGC s'appuie-t-il ?",
+   "options": [
+    "Démontrer que le nouveau système est plus performant que l'ancien, sur la base du domaine BE (exploitation IT)",
+    "Vérifier uniquement la reprise des données de base (paramètres, comptes), les données de mouvement étant re-saisies manuellement",
+    "Obtenir de l'éditeur du logiciel une certification attestant la conformité légale de la migration",
+    "Prouver que les données pertinentes ont été intégralement et correctement reprises, sans modification incontrôlée — en s'appuyant sur le contrôle CM-4 (tests de la migration des données)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la performance du nouveau système n'est pas l'objet de l'audit de migration ; et les sauvegardes/restaurations relèvent du domaine BE, tandis que la migration relève du Change Management (CM-4).",
+    "Faux : une migration porte sur les deux catégories de données — données de mouvement (journaux, justificatifs, factures, PDF archivés) ET données de base (paramètres, comptes, contrats, partenaires, données fiscales) ; rien n'autorise à ignorer les mouvements (cours ch. 03, §5.6).",
+    "Faux : aucune certification d'éditeur ne remplace les diligences de l'auditeur ; la migration est aussi un sujet de droit comptable suisse (CO, art. 10 Olico), pas un simple sujet technique contractuel (cours ch. 03, piège n° 10).",
+    "Exact : l'objectif est de prouver la reprise intégrale et correcte des données pertinentes, sans modification incontrôlée — exigence qui découle du principe de traçabilité du CO, précisé par l'art. 10 Olico ; le socle ITGC est CM-4 « Tests de la migration des données » du domaine Change Management (cours ch. 03, §5.6 et connexions ; mémento §14.1)."
+   ],
+   "piege": "Migration = aussi du droit"
+  }
+ ]
+}

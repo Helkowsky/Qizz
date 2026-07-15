@@ -1,7 +1,7 @@
 /* QCMTrainer — app.js (multi-cours + reprise de session) */
 (function () {
   "use strict";
-  var KEYS = ["A", "B", "C", "D"];
+  var KEYS = ["A", "B", "C", "D", "E"];
   var LS_STATS = "qcmtrainer.stats.v1";              // stats d'erreurs long terme (inchangé)
   var SESSION_PREFIX = "qcmtrainer.session.v1.";     // 1 clé par cours : ...v1.<courseId>
   function sessionKey(courseId) { return SESSION_PREFIX + courseId; }
@@ -380,8 +380,8 @@
       if (e.key === "Enter") { gotoPos(e.target.value); e.preventDefault(); }
       return;
     }
-    if (!state.revealed && /^[1-4]$/.test(e.key)) selectOption(+e.key - 1);
-    else if (!state.revealed && /^[a-dA-D]$/.test(e.key)) selectOption(KEYS.indexOf(e.key.toUpperCase()));
+    if (!state.revealed && /^[1-5]$/.test(e.key)) { if (+e.key <= currentQ().options.length) selectOption(+e.key - 1); }
+    else if (!state.revealed && /^[a-eA-E]$/.test(e.key)) { var ki = KEYS.indexOf(e.key.toUpperCase()); if (ki < currentQ().options.length) selectOption(ki); }
     else if (e.key === "Enter") { if (!state.revealed) { if (!selEmpty()) validate(); } else next(); }
   });
 

@@ -1,0 +1,231 @@
+{
+ "module": "M8",
+ "titre": "8 · Extraction / transmission / fiabilité des données",
+ "questions": [
+  {
+   "id": "IT-062",
+   "champ": "Modes d'extraction selon le système",
+   "memento": "§8.1",
+   "difficulte": 2,
+   "question": "Concernant le mode d'extraction des données à retenir selon le système audité, quelles affirmations sont correctes ?",
+   "options": [
+    "Pour un ERP comme SAP, on privilégie l'installation d'un programme d'extraction dédié.",
+    "Pour les petits systèmes, la copie complète de la base de données est le mode privilégié.",
+    "Une extraction semi-automatique s'effectue entièrement sans intervention humaine.",
+    "Le téléchargement direct (ex. Abacus) est le mode le plus optimisé pour la Data Analytics."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Juste : pour un ERP comme SAP, on privilégie l'installation d'un programme d'extraction dédié (extraction automatique) — output optimisé, extraction rapide, contrôles de validation, réutilisable sur plusieurs exercices (mémento §8.1).",
+    "Juste : pour les petits systèmes, la copie complète de la base de données est le mode privilégié — bloc de données complet avec dictionnaire de données, malgré le volume important et les enjeux de protection des données (mémento §8.1).",
+    "Faux, contradiction dans les termes : une extraction « semi-automatique » implique par définition une intervention humaine partielle ; seule une extraction entièrement automatique s'en passe — et même celle-ci exige une installation initiale par le spécialiste DA.",
+    "Faux : le téléchargement direct (Abacus) est un mode manuel dont l'output dépend du système et n'est pas optimisé pour la DA, avec une charge manuelle pour le client et l'auditeur (mémento §8.1) ; le mode optimisé est l'installation de programme (SAP)."
+   ]
+  },
+  {
+   "id": "IT-063",
+   "champ": "Extraction automatique : acteurs & avantages",
+   "memento": "§8.1",
+   "difficulte": 2,
+   "question": "Quelles affirmations sur l'extraction automatique de données sont correctes ?",
+   "options": [
+    "Elle requiert généralement l'intervention d'un spécialiste DA.",
+    "L'installation de l'outil d'extraction est réalisée par le spécialiste DA avec le client.",
+    "Elle fournit un output optimisé, réutilisable sur plusieurs exercices.",
+    "Elle n'implique aucun échange de fichier entre l'équipe d'audit et l'informatique du client."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Juste : l'extraction automatique requiert généralement un spécialiste DA — installation et paramétrage de l'outil, contrôles de validation (mémento §8.1).",
+    "Juste : l'installation de l'outil d'extraction est réalisée par le spécialiste DA en coordination avec le client (aspects techniques et sécurité des données).",
+    "Juste : l'extraction automatique fournit un output optimisé pour l'analyse, rapide, avec contrôles de validation, et réutilisable sur plusieurs exercices — avantages du mode « installation de programme » (mémento §8.1).",
+    "Faux : des échanges de fichiers entre l'équipe d'audit et l'informatique du client subsistent (transfert des données extraites, instructions, contrôles d'exhaustivité) — l'automatisation de l'extraction ne supprime pas la transmission des données (mémento §8.2)."
+   ]
+  },
+  {
+   "id": "IT-064",
+   "champ": "Extraction manuelle & copie de base",
+   "memento": "§8.1",
+   "difficulte": 2,
+   "question": "Concernant l'extraction manuelle et la copie de base de données, quelles affirmations sont correctes ?",
+   "options": [
+    "L'extraction manuelle se fait généralement au moyen de fichiers Excel et/ou .csv.",
+    "La préparation des données est plus simple avec l'extraction manuelle.",
+    "L'extraction manuelle devient impraticable lorsque le volume de données augmente.",
+    "La copie de base de données soulève des enjeux de protection des données."
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "explications": [
+    "Juste : l'extraction manuelle (téléchargement direct, p. ex. Abacus) passe généralement par des fichiers Excel et/ou .csv fournis par le client.",
+    "Faux : c'est l'inverse — l'output manuel dépend du système et n'est pas optimisé pour la DA, ce qui alourdit la préparation des données (charge manuelle côté client et auditeur, mémento §8.1) ; c'est l'extraction automatique qui simplifie la préparation grâce à son output standardisé.",
+    "Juste : lorsque le volume de données augmente, l'extraction manuelle (Excel/.csv) devient impraticable — limites techniques des fichiers et charge de travail disproportionnée.",
+    "Juste : la copie de base de données transmet un bloc de données complet, y compris des données non nécessaires à l'audit, ce qui soulève des enjeux de protection des données (mémento §8.1)."
+   ]
+  },
+  {
+   "id": "IT-065",
+   "champ": "Préparation & mapping après export",
+   "memento": "§8.1",
+   "difficulte": 2,
+   "question": "Après l'export, concernant la routine de préparation et le mapping des données :",
+   "options": [
+    "Le mapping (tagging) affecte les champs de données aux macros de contrôle et aux critères de validation.",
+    "Compléter des écritures comptables lors d'anomalies fait partie de la routine de préparation des données.",
+    "La routine inclut le regroupement (join) des données globales et par poste, et l'ajout des données de base des partenaires.",
+    "Le mapping sert avant tout à crypter les données sensibles du mandant."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Juste : le mapping (tagging) affecte les champs de données extraits aux macros de contrôle et aux critères de validation — étape de traitement du cycle DA (mémento §7.1, étape 3).",
+    "Faux : compléter ou corriger des écritures comptables n'appartient jamais à la routine de préparation de l'auditeur — ce serait produire la comptabilité du client ; les anomalies constatées sont documentées et investiguées, pas « complétées ».",
+    "Juste : la routine de préparation regroupe (join) les données globales et par poste et les enrichit des données de base des partenaires (clients, fournisseurs) pour rendre l'analyse possible.",
+    "Faux : le mapping relie les champs de données aux contrôles et critères de validation, il ne crypte rien ; la protection des données sensibles relève du mode de transfert (plateforme sécurisée) et des mesures de sécurité, pas du mapping (mémento §8.2)."
+   ]
+  },
+  {
+   "id": "IT-066",
+   "champ": "Documentation de l'extraction (mémorandum)",
+   "memento": "§8.3",
+   "difficulte": 2,
+   "question": "À quoi devez-vous veiller en priorité lorsque vous documentez les résultats de l'extraction dans un mémorandum ?",
+   "options": [
+    "L'exhaustivité des données doit être vérifiée et la marche à suivre pour l'extraction doit être documentée.",
+    "Seul un calendrier et les interactions avec le client doivent être consignés.",
+    "Seul un inventaire de tous les champs de données du client et leur explication doit être enregistré.",
+    "Aucune des propositions."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : la documentation de l'extraction doit en priorité prouver l'exhaustivité des données (rapprochement du total extrait avec les soldes) et consigner la marche à suivre de l'extraction, pour la rendre vérifiable et reproductible (mémento §8.3 ; exigences de documentation, ISA-CH 230).",
+    "Faux : le calendrier et les interactions avec le client sont utiles, mais « seuls » ils sont insuffisants — ils ne prouvent ni l'exhaustivité des données ni la manière dont l'extraction a été menée.",
+    "Faux : un inventaire des champs de données (dictionnaire) aide à la préparation, mais « seul » il ne démontre pas que l'extraction est complète ni comment elle a été réalisée.",
+    "Faux : une des propositions est bien correcte — l'exhaustivité vérifiée et la marche à suivre documentée (option A)."
+   ]
+  },
+  {
+   "id": "IT-067",
+   "champ": "Problèmes de transmission des données",
+   "memento": "§8.2",
+   "difficulte": 1,
+   "question": "Lors d'un audit des états financiers, quels problèmes peuvent survenir pendant la transmission des données dans le cadre de la Data Analytics ?",
+   "options": [
+    "Le job s'interrompt pendant l'extraction/transmission des données.",
+    "L'extraction ne fonctionne pas (p. ex. message d'erreur).",
+    "Le volume de données est trop important.",
+    "Tous les problèmes mentionnés."
+   ],
+   "correct": 3,
+   "explications": [
+    "Exact en soi — le job peut s'interrompre pendant l'extraction/transmission — mais réponse incomplète : les deux autres problèmes sont tout aussi possibles, c'est l'option englobante qui est attendue.",
+    "Exact en soi — l'extraction peut échouer techniquement (message d'erreur) — mais incomplet pour la même raison.",
+    "Exact en soi — un volume de données trop important peut faire échouer le transfert — mais incomplet pour la même raison.",
+    "Correct : les trois problèmes cités (interruption du job, échec technique de l'extraction, volume excessif) sont des risques réels et cumulables de la transmission des données (mémento §8.2) ; la réponse englobante s'impose."
+   ]
+  },
+  {
+   "id": "IT-068",
+   "champ": "Transmission : responsabilité, canal & résolution",
+   "memento": "§8.2",
+   "difficulte": 2,
+   "question": "Concernant la transmission des données entre le client et le cabinet, quelles affirmations sont correctes ?",
+   "options": [
+    "La transmission relève conjointement du spécialiste DA et du client.",
+    "L'envoi des données par e-mail est le canal à privilégier.",
+    "La plateforme de transfert sécurisée du cabinet supprime le risque de perte d'un support externe.",
+    "Assurer une capacité de stockage et de transmission suffisante prévient efficacement les échecs de transfert."
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "explications": [
+    "Juste : la transmission relève conjointement du spécialiste DA et du client — le cycle DA (mémento §7.1) attribue l'étape d'extraction/transfert aux trois acteurs auditeur / spécialiste DA / client, et le spécialiste installe l'outil avec le client.",
+    "Faux : l'e-mail n'est ni sécurisé ni adapté aux volumes de données d'une DA ; le canal à privilégier est la plateforme de transfert sécurisée de la société d'audit (mémento §8.2).",
+    "Juste : la plateforme de transfert sécurisée du cabinet supprime le risque de perte d'un support externe (memory stick), qui est la faiblesse typique du support physique (mémento §8.2) — sa limite étant plutôt la documentation du flux.",
+    "Juste : assurer une capacité de stockage et de transmission suffisante prévient les échecs liés au volume excessif et aux interruptions de job, problèmes typiques de la transmission (mémento §8.2)."
+   ]
+  },
+  {
+   "id": "IT-069",
+   "champ": "Mois manquant : risque d'extraction",
+   "memento": "§8.3",
+   "difficulte": 3,
+   "question": "Le spécialiste DA vous remet un dashboard Power BI présentant toutes les entrées de chiffre d'affaires de l'année. Séduit par les graphiques, vous constatez qu'il manque tout le mois de février dans l'évolution du chiffre d'affaires. Quel risque faut-il maîtriser en priorité pour éviter une telle erreur ?",
+   "options": [
+    "Risque lié à la saisie des données.",
+    "Risque lié à l'intégrité des données.",
+    "Risque lié à l'extraction des données.",
+    "Risque lié à la manipulation des données."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le risque de saisie (input) concerne l'enregistrement initial des données dans le système du client ; ici, les écritures de février existent dans le système — elles manquent seulement dans les données extraites.",
+    "Faux : l'intégrité vise l'altération des données lors du traitement (modifications après clôture, paramètres) ; un mois entièrement absent est un défaut d'exhaustivité de l'extraction, pas une altération des données présentes.",
+    "Correct : un mois manquant est un défaut d'exhaustivité (intégralité) imputable à l'extraction — c'est le risque lié à l'extraction des données qu'il faut maîtriser en priorité (mémento §8.2, risque n° 3, et §8.3 ⚠️ Piège : un « mois manquant » touche l'exhaustivité, pas l'exactitude).",
+    "Faux : la manipulation suppose une modification (volontaire ou non) des données après leur extraction ; rien n'indique ici une altération — les données de février n'ont simplement pas été extraites."
+   ],
+   "piege": "confusion exhaustivité / exactitude"
+  },
+  {
+   "id": "IT-070",
+   "champ": "Intégrité & exhaustivité : causes d'erreur",
+   "memento": "§8.3",
+   "difficulte": 3,
+   "question": "Concernant l'intégrité et l'exhaustivité des données extraites et transmises, quelles affirmations sont correctes ?",
+   "options": [
+    "Un échec technique de l'extraction peut provoquer un défaut d'exhaustivité des données.",
+    "Des données modifiées dans le système après la clôture de la période peuvent rendre les livres auxiliaires incorrects après agrégation.",
+    "Le seul fait qu'une extraction soit déclenchée manuellement menace l'intégrité des données.",
+    "La saisie de paramètres erronés lors de l'extraction menace l'intégrité des données."
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "explications": [
+    "Juste : un échec technique de l'extraction (extraction ratée, transmission erronée) est une cause typique de données incomplètes — défaut d'exhaustivité (cours ch04 §5.1, tableau des causes d'erreurs).",
+    "Juste : des données modifiées dans le système après la clôture de la période (p. ex. avoirs) peuvent rendre les livres auxiliaires incorrects ou non rapprochables avec le grand livre après agrégation — atteinte à l'intégrité (cours ch04 §5.1).",
+    "Faux : le simple déclenchement manuel d'une extraction n'est pas en soi une menace pour l'intégrité — c'est une modalité d'exécution, encadrée par la documentation et les contrôles ; ce sont la modification des données ou des paramètres erronés qui menacent l'intégrité.",
+    "Juste : la saisie de paramètres erronés lors de l'extraction (mauvaise période, mauvais périmètre, période non clôturée) altère les données obtenues et menace leur intégrité."
+   ],
+   "piege": "déclenchement manuel ≠ menace d'intégrité"
+  },
+  {
+   "id": "IT-115",
+   "champ": "Réconciliation : exhaustivité vs exactitude",
+   "memento": "§8.3",
+   "difficulte": 2,
+   "question": "Comment l'auditeur prouve-t-il l'exhaustivité, puis l'exactitude, des données extraites avant de s'en servir comme éléments probants ?",
+   "options": [
+    "Exhaustivité : rapprocher le total extrait avec le solde des comptes au jour de l'extraction (et contrôler la séquence des numéros) ; exactitude : rapprocher un échantillon de postes individuels avec des pièces justificatives externes.",
+    "Exhaustivité : rapprocher des postes individuels avec des pièces justificatives ; exactitude : rapprocher le total extrait avec le solde des comptes.",
+    "Les deux assertions sont établies dès lors que les ITGC du client ont été jugés efficaces — aucun rapprochement n'est nécessaire.",
+    "Aucune preuve n'est requise pour une extraction automatique : les données issues directement d'un ERP sont fiables par nature."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'exhaustivité se prouve en rapprochant le total extrait du solde des comptes au jour de l'extraction, complété par le contrôle de la séquence des numéros ; l'exactitude, en rapprochant un échantillon aléatoire de postes individuels avec des pièces justificatives externes ou des relevés bancaires, voire en observant l'extraction (mémento §8.3 ; fiabilité des éléments probants, ISA-CH 500).",
+    "Faux : les deux contrôles sont inversés — le rapprochement du total avec le solde des comptes prouve l'intégralité (exhaustivité), tandis que le rapprochement de postes individuels avec des pièces prouve l'exactitude.",
+    "Faux : des ITGC efficaces sont une condition nécessaire pour se fier aux données, mais ils ne dispensent pas des rapprochements — prouver l'exhaustivité et l'exactitude de l'extraction reste la condition d'admissibilité de toute DA (mémento §8, 🎯 But).",
+    "Faux : une donnée sortie du système du client n'est jamais fiable par nature — elle a pu être filtrée, paramétrée ou retouchée ; même une extraction automatique doit être réconciliée avec la comptabilité (mémento §8.3 et §10)."
+   ],
+   "piege": "inversion exhaustivité / exactitude"
+  }
+ ]
+}

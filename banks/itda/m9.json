@@ -1,0 +1,280 @@
+{
+ "module": "M9",
+ "titre": "9 · Valeurs aberrantes / faux positifs",
+ "questions": [
+  {
+   "id": "IT-071",
+   "champ": "Évaluation des risques vs procédure d'audit",
+   "memento": "§7.2",
+   "difficulte": 2,
+   "question": "Une même analyse de données (DA) peut servir à l'évaluation des risques ou de procédure d'audit. Quelles affirmations sont correctes ?",
+   "options": [
+    "Une même méthode d'analyse est polyvalente : elle peut servir aussi bien à l'évaluation des risques qu'à une procédure d'audit.",
+    "L'évaluation des risques vise à identifier les facteurs de risque, tandis que la procédure d'audit vérifie des éléments spécifiques.",
+    "Contrôler par petit échantillon les écritures du CA passées en contrepartie du compte Débiteurs, puis analyser en détail les cas exceptionnels, constitue une évaluation des risques et non une procédure d'audit.",
+    "Sur l'ancienneté des créances, le but en évaluation des risques est de stratifier la population en niveaux de risque ; en procédure d'audit, c'est l'échantillonnage des valeurs aberrantes et des prédictions."
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "explications": [
+    "Juste : une même méthode d'analyse est polyvalente — elle peut servir à l'évaluation des risques ou de procédure d'audit ; seuls le stade de l'analyse et la conclusion qu'on en tire changent (mémento §7.2, cours ch04 §3.2).",
+    "Juste : l'évaluation des risques identifie les facteurs de risque (stratification, ciblage des comptes, formulation de la stratégie — ISA-CH 300 ss / 315), tandis que la procédure d'audit vérifie des éléments spécifiques (tests de détail, procédure analytique substantive — ISA-CH 500 ss / 520).",
+    "Faux : contrôler par échantillon des écritures précises et analyser en détail les cas exceptionnels, c'est vérifier des éléments spécifiques — donc une procédure d'audit (réalisation), pas une évaluation des risques.",
+    "Juste : sur l'ancienneté des créances, l'évaluation des risques stratifie la population en niveaux de risque pour bâtir la stratégie ; la procédure d'audit échantillonne les valeurs aberrantes et les prédictions (exemple clé du cours, Podcast 2)."
+   ],
+   "piege": "évaluation des risques ≠ procédure d'audit"
+  },
+  {
+   "id": "IT-072",
+   "champ": "Stratification des créances",
+   "memento": "§7.2",
+   "difficulte": 2,
+   "question": "Concernant la stratification des créances, quelles affirmations sont correctes ?",
+   "options": [
+    "Le partitionnement des données est une méthode appropriée de stratification.",
+    "L'analyse de l'ancienneté (tranches / buckets) est une méthode appropriée de stratification.",
+    "La stratification a pour objectif de distinguer différents niveaux de risque.",
+    "La régression linéaire est la méthode de stratification de référence des créances."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Juste : le partitionnement des données (découpage de la population en sous-ensembles homogènes) est une méthode appropriée de stratification des créances.",
+    "Juste : l'analyse d'ancienneté par tranches (buckets) est la méthode classique de stratification des créances (mémento §7.2 ; cas Bohrer : buckets d'ancienneté et rotation des débiteurs).",
+    "Juste : la stratification a précisément pour objectif de distinguer différents niveaux de risque dans la population et d'orienter la stratégie d'audit (mémento §7.2, usage « évaluation des risques »).",
+    "Faux : la régression linéaire construit une prédiction ou une attente (procédure analytique, p. ex. analyse des marges) ; elle ne découpe pas la population en strates de risque — ce n'est pas une méthode de stratification."
+   ]
+  },
+  {
+   "id": "IT-073",
+   "champ": "Définition & identification d'une aberration",
+   "memento": "§9.1",
+   "difficulte": 1,
+   "question": "Concernant les valeurs aberrantes (outliers), quelles affirmations sont correctes ?",
+   "options": [
+    "Une aberration est un point de données qui diverge significativement des autres données.",
+    "L'analyse de type box-plot (boîte à moustaches) permet d'identifier les aberrations (> Q3 + 1,5×IQR ou < Q1 − 1,5×IQR).",
+    "Identifier les aberrations sert à couvrir des erreurs ou irrégularités potentielles.",
+    "Une aberration est simplement le point de données ayant la valeur la plus basse."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Juste : une valeur aberrante est un point de données qui diverge significativement des autres — qui ne s'intègre pas dans la série de mesures ou ne correspond pas aux prédictions (mémento §9.1).",
+    "Juste : le box-plot (Box & Whisker) identifie statistiquement les aberrations — toute valeur > Q3 + 1,5×IQR ou < Q1 − 1,5×IQR, avec IQR = Q3 − Q1 (mémento §9.1).",
+    "Juste : identifier les aberrations sert à couvrir des erreurs ou irrégularités potentielles — une aberration est un signal à investiguer, pas encore une anomalie (mémento §9, 🎯 But).",
+    "Faux : la valeur la plus basse d'une série n'est pas nécessairement aberrante — l'aberration se définit par l'écart significatif à la série (seuils IQR) ou aux prédictions, pas par le rang minimal."
+   ]
+  },
+  {
+   "id": "IT-074",
+   "champ": "Planification — pic d'activations d'immobilisations",
+   "memento": "§9.1",
+   "difficulte": 3,
+   "question": "Contrôle ordinaire : en janvier-février, 5 immobilisations de plus de CHF 50 000 chacune ont été activées, alors que le reste de l'année ~100 immobilisations d'env. CHF 3 000 l'ont été (comme l'année précédente, activations régulières). Quelle conclusion pour la planification du contrôle ?",
+   "options": [
+    "Les immobilisations sont un risque important couvert par sondage.",
+    "Ségrégation : contrôle intégral des grandes activations atypiques (jan.-fév.) + petit échantillon aléatoire du reste.",
+    "Ségrégation : contrôle intégral des grandes activations atypiques (jan.-fév.) + procédure analytique simple par rapport à l'année précédente (attente) sur le reste.",
+    "Aucune distinction : échantillonnage statistique uniforme, tous les éléments ayant la même chance d'être sélectionnés."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : traiter les immobilisations comme un risque global couvert par simple sondage ignore le signal des données — les 5 grosses activations atypiques de janvier-février doivent être isolées et contrôlées intégralement.",
+    "Presque, mais non optimal : la ségrégation avec contrôle intégral des grandes activations est juste, mais couvrir le reste par un petit échantillon aléatoire est moins efficient — le reste est régulier et comparable à l'année précédente, donc une attente analytique suffit.",
+    "Correct : ségrégation de la population — contrôle intégral des activations atypiques (jan.-fév.) et procédure analytique simple (attente fondée sur l'année précédente, activations régulières) sur le reste : c'est la combinaison la plus efficace et efficiente (logique de ségrégation du mémento §9.1, distinction des usages §7.2).",
+    "Faux : un échantillonnage statistique uniforme dilue les 5 activations atypiques dans la masse des ~100 petites — elles risquent de ne jamais être sélectionnées alors qu'elles concentrent le risque."
+   ],
+   "piege": "échantillon uniforme vs ségrégation"
+  },
+  {
+   "id": "IT-075",
+   "champ": "Cycle de paie — traitement des aberrantes",
+   "memento": "§9.1",
+   "difficulte": 2,
+   "question": "Analyse des valeurs aberrantes du cycle de paie (décomposée par collaborateur). Quelles démarches sont correctes ?",
+   "options": [
+    "Un mois aux salaires anormalement élevés → auditionner le client et contrôler séparément les mois divergents dans les opérations de contrôle.",
+    "Aucune aberrante détectée → aucune procédure d'audit supplémentaire n'est nécessaire.",
+    "Aucune aberrante détectée → pas d'autres procédures sur les aberrantes, mais des procédures sur l'ensemble de la population (comparaison N-1, évolution des effectifs).",
+    "Aucune aberrante détectée → réserve de l'opinion et, le cas échéant, démission de l'organe de révision."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Juste : face à un mois aux salaires anormalement élevés, on auditionne le client et on contrôle séparément les mois divergents — une aberration est un signal à investiguer (mémento §9.1).",
+    "Faux : « aucune aberrante » ne signifie pas « aucune procédure » — le traitement des aberrations n'est qu'un produit accessoire de l'analyse, et la population résiduelle doit aussi être évaluée (cours ch04, pièges sur les aberrations).",
+    "Juste : sans aberrante détectée, il n'y a pas de procédure supplémentaire sur les aberrantes, mais des procédures sur l'ensemble de la population restent nécessaires (comparaison avec l'année précédente, évolution des effectifs).",
+    "Faux : l'absence d'aberrante n'est en rien un motif de réserve ou de démission — c'est un résultat neutre de l'analyse ; réserve et démission répondent à des anomalies significatives non corrigées ou à des irrégularités, jamais à un résultat d'analyse sans signal."
+   ],
+   "piege": "aucune aberrante ≠ aucune procédure"
+  },
+  {
+   "id": "IT-076",
+   "champ": "Arbre — aberrante vs montant tolérable",
+   "memento": "§9.1 (arbre de décision)",
+   "difficulte": 3,
+   "question": "Traitement des valeurs aberrantes selon le montant tolérable (seuil de non-détection). Quelles démarches sont correctes ?",
+   "options": [
+    "Aberrantes au-dessus du montant tolérable (A, B) → vérification par pièces justificatives ; l'aberrante en dessous (C, qualité non douteuse) et le reste de la population → échantillon aléatoire sur pièces.",
+    "Aberrante inférieure au montant tolérable → apprécier si des facteurs qualitatifs impliquent un risque d'erreur potentiel.",
+    "Aberrante inférieure au montant tolérable → aucune mesure supplémentaire n'est nécessaire puisqu'elle est sous le seuil.",
+    "Deux aberrantes sous le seuil de non-détection → demander les justificatifs des deux et ne rien faire sur le reste de la population."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Juste : conforme à l'arbre du mémento §9.1 — les aberrantes au-dessus du montant tolérable font l'objet d'opérations complémentaires (vérification par pièces) ; celle en dessous, sans facteur qualitatif douteux, rejoint le reste de la population, couvert par échantillon aléatoire sur pièces.",
+    "Juste : une aberrante inférieure au montant tolérable déclenche l'examen des facteurs qualitatifs — s'ils impliquent un risque d'erreur potentiel, on réévalue l'évaluation des risques initiale et on ajoute des opérations complémentaires (mémento §9.1).",
+    "Faux : « sous le seuil » n'autorise jamais un classement sans examen — l'arbre impose l'appréciation des facteurs qualitatifs avant de conclure qu'aucune opération supplémentaire n'est nécessaire ; jamais d'écartement silencieux.",
+    "Faux, double erreur : sous le seuil, la démarche prévue est l'appréciation des facteurs qualitatifs (pas une vérification systématique par pièces), et « ne rien faire sur le reste de la population » est exclu — la population résiduelle doit aussi être couverte."
+   ],
+   "piege": "sous le seuil ≠ écartement silencieux"
+  },
+  {
+   "id": "IT-077",
+   "champ": "Faux positifs / faux négatifs",
+   "memento": "§9.2",
+   "difficulte": 3,
+   "question": "Concernant les faux positifs et faux négatifs dans l'analyse des valeurs aberrantes / le JET, quelles affirmations sont correctes ?",
+   "options": [
+    "Des écritures « Monthly Payroll Secretary » ressorties par le mot-clé « secret » sont des faux positifs : sauf autre signal, elles peuvent être écartées de l'échantillon (avec jugement professionnel et documentation).",
+    "Une machine ajustée en cours d'année sans aucun écart d'amortissement détecté est un faux négatif : une procédure d'audit alternative s'impose (l'outil peut être mal calibré).",
+    "Le faux positif est le plus dangereux car il masque une véritable anomalie.",
+    "Un faux négatif peut être écarté sans autre procédure s'il n'y a pas d'autres « flags »."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Juste : des écritures « Monthly Payroll Secretary » ressorties par le mot-clé « secret » sont un faux positif classique (le test signale à tort une condition) ; sans autre signal, elles peuvent être écartées de l'échantillon — mais uniquement avec jugement professionnel et documentation, jamais en silence (mémento §9.2 ⚠️).",
+    "Juste : une machine ajustée en cours d'année sans aucun écart détecté est un faux négatif — le test signale à tort l'absence d'anomalie ; l'outil est peut-être mal calibré et une procédure d'audit alternative s'impose (mémento §9.2 ; cas Bohrer, cours ch04 §5.3).",
+    "Faux : c'est l'inverse — le faux négatif est le plus dangereux car il masque une véritable anomalie et peut falsifier l'opinion d'audit ; le faux positif ne fait « que » gaspiller du temps et des ressources (mémento §9.2).",
+    "Faux : c'est le faux positif que l'on peut écarter avec jugement et documentation ; un faux négatif suspecté exige au contraire une procédure d'audit alternative et un recalibrage prudent de l'outil — l'écarter laisserait passer une anomalie réelle."
+   ],
+   "piege": "confusion faux positif / faux négatif"
+  },
+  {
+   "id": "IT-078",
+   "champ": "Aberrantes identifiées — suite & signification",
+   "memento": "§9.1",
+   "difficulte": 2,
+   "question": "Vous avez identifié des valeurs aberrantes (frais d'un manager, factures d'un fournisseur, montant extrême, aberrantes DA). Quelles démarches sont correctes ?",
+   "options": [
+    "Des aberrantes concentrées sur les frais d'un seul manager appellent des procédures d'audit supplémentaires (elles ne prouvent pas à elles seules une infraction).",
+    "Des factures anormalement élevées d'un fournisseur → procédures complémentaires pour comprendre la relation client-fournisseur (ne pas supprimer ni ignorer l'aberration).",
+    "Un montant très supérieur aux autres aberrations signifie nécessairement une fraude.",
+    "Des aberrantes identifiées → demandes d'informations auprès de la direction pour les comprendre, puis autres procédures nécessaires."
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "explications": [
+    "Juste : des aberrantes concentrées sur les frais d'un seul manager appellent des procédures d'audit supplémentaires — une aberration est un signal à investiguer, elle ne prouve pas à elle seule une infraction (mémento §9, 🎯 But : une aberration n'est pas une anomalie).",
+    "Juste : des factures anormalement élevées d'un fournisseur déclenchent des procédures complémentaires pour comprendre la relation client-fournisseur ; supprimer ou ignorer l'aberration est exclu — jamais d'écartement silencieux (mémento §9.2 ⚠️).",
+    "Faux : un montant très supérieur aux autres ne signifie jamais « nécessairement » une fraude — c'est un signal à qualifier par l'arbre de décision (montant tolérable, facteurs qualitatifs, explications), pas une conclusion automatique.",
+    "Juste : les aberrantes identifiées appellent des demandes d'informations auprès de la direction pour les comprendre, puis les autres procédures d'audit nécessaires selon les explications obtenues (mémento §9.1)."
+   ]
+  },
+  {
+   "id": "IT-079",
+   "champ": "Analyse de marge — régression linéaire",
+   "memento": "§7.3 (procédures analytiques)",
+   "difficulte": 3,
+   "question": "Analyse des marges par régression linéaire (charges de marchandises = variable x indépendante ; chiffre d'affaires = variable y dépendante). Quelle affirmation est FAUSSE ?",
+   "options": [
+    "À pente égale, une droite décalée verticalement vers le haut (ordonnée à l'origine plus élevée) traduit une marge globalement supérieure sur tous les CA.",
+    "Si deux droites de tendance se croisent, l'une a nécessairement une pente différente de l'autre.",
+    "Une pente plus élevée traduit une marge plus élevée (rapport charges/CA plus faible).",
+    "Si deux droites de tendance se croisent, cela signifie qu'elles ont la même pente et une marge identique."
+   ],
+   "correct": 3,
+   "explications": [
+    "Affirmation exacte, donc pas la réponse : à pente égale, une ordonnée à l'origine plus élevée décale la droite vers le haut — pour chaque niveau de charges, le CA est supérieur, donc la marge globalement plus élevée.",
+    "Affirmation exacte, donc pas la réponse : deux droites qui se croisent ont nécessairement des pentes différentes — deux droites de même pente sont parallèles (ou confondues) et ne se croisent jamais en un seul point.",
+    "Affirmation exacte, donc pas la réponse : avec les charges en x et le CA en y, une pente plus élevée signifie plus de CA par franc de charges, donc un rapport charges/CA plus faible et une marge plus élevée.",
+    "C'est l'affirmation FAUSSE recherchée : des droites qui se croisent ne peuvent pas avoir la même pente (elles seraient parallèles), et des pentes différentes traduisent des marges différentes — l'option contredit la géométrie élémentaire de la régression."
+   ],
+   "piege": "lecture des droites de régression"
+  },
+  {
+   "id": "IT-080",
+   "champ": "Nouveau produit haut de gamme — stratégie aberrantes",
+   "memento": "§9.1",
+   "difficulte": 3,
+   "question": "Analyse des marges : ~276 écritures « PROD…KARAT » (nouveau produit haut de gamme connu, prix ~CHF 8 500) forment un amas serré parmi les aberrantes hautes ; restent quelques aberrantes non expliquées (3 basses, 2 hautes). Comment concevez-vous la stratégie d'audit sur les aberrantes ?",
+   "options": [
+    "Les écritures « KARAT » ne sont pas de vraies aberrantes (population distincte, explicable) : elles rejoignent le reste de la population, contrôlé analytiquement (attente sur données antérieures) ; les aberrantes restantes (3 basses, 2 hautes) sont vérifiées individuellement (auditions + pièces).",
+    "Les valeurs limites des aberrantes sont fixées d'entrée et non révisables ; le texte comptable est sans importance : les ~281 aberrantes sont toutes vérifiées par pièces, l'échantillon de toute la population étant le plus efficace.",
+    "Les aberrantes étant identifiées, aucune évaluation plus poussée n'est pertinente ; vu leur nombre, on applique simplement un échantillon à l'ensemble des aberrantes.",
+    "L'analyse ne pouvant être menée, la population n'est pas ségréguée et un échantillon de toute la population est contrôlé."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'amas « KARAT » s'explique intégralement par un nouveau produit haut de gamme connu — ce ne sont pas de vraies aberrantes mais une population distincte, reclassée avec le reste contrôlé analytiquement ; seules les aberrantes réellement inexpliquées (3 basses, 2 hautes) sont vérifiées individuellement par auditions et pièces (logique de ségrégation, mémento §9.1).",
+    "Faux : les valeurs limites des aberrantes sont révisables au vu des explications obtenues, et le texte comptable (« PROD…KARAT ») est précisément l'information qui permet de qualifier l'amas ; vérifier par pièces ~281 « aberrantes » dont 276 sont expliquées est inefficient.",
+    "Faux : l'identification n'est que la première des trois étapes (identification → évaluation → conclusion, cours ch04 §5.3) ; l'évaluation des aberrantes (explications, montant tolérable, facteurs qualitatifs) est obligatoire — échantillonner indistinctement toutes les aberrantes ignore leur qualification.",
+    "Faux : l'analyse peut parfaitement être menée — les données permettent de ségréguer la population (amas KARAT expliqué / reste régulier / aberrantes inexpliquées) ; renoncer à la ségrégation gaspille l'information obtenue et dilue le risque."
+   ],
+   "piege": "aberrante expliquée = population distincte"
+  },
+  {
+   "id": "IT-081",
+   "champ": "Granularité & agrégation (Salesforce → SAP)",
+   "memento": "§8.3 (granularité / réconciliation)",
+   "difficulte": 3,
+   "question": "Dans Salesforce, quantité, prix de vente et prix coûtant sont saisis par vente ; chaque jour les données sont cumulées puis chargées dans SAP (CA et charges de marchandises agrégés). Marge = (CA − charges) / CA. Quelle affirmation sur les valeurs aberrantes de marge est FAUSSE ?",
+   "options": [
+    "Les valeurs aberrantes présentes dans Salesforce peuvent être perdues lors du cumul et donc ne pas être identifiées dans SAP.",
+    "Les données de Salesforce sont plus granulaires que celles de SAP, donc moins comprimées.",
+    "Les deux structures de données peuvent en principe être utilisées pour une analyse de la marge.",
+    "La marge moyenne quotidienne est identique dans SAP et dans Salesforce."
+   ],
+   "correct": 3,
+   "explications": [
+    "Affirmation exacte, donc pas la réponse : le cumul quotidien compense les ventes extrêmes entre elles — des marges aberrantes visibles au niveau de la vente individuelle dans Salesforce peuvent disparaître dans les agrégats SAP.",
+    "Affirmation exacte, donc pas la réponse : les données saisies par vente dans Salesforce sont plus granulaires, donc moins comprimées, que les agrégats quotidiens chargés dans SAP.",
+    "Affirmation exacte, donc pas la réponse : les deux structures permettent en principe une analyse de la marge — mais avec une puissance de détection des aberrantes très différente selon la granularité.",
+    "C'est l'affirmation FAUSSE recherchée : la marge quotidienne calculée sur les agrégats SAP est une moyenne pondérée par le CA, différente en général de la moyenne des marges individuelles de Salesforce — l'agrégation modifie la mesure et masque les aberrantes."
+   ],
+   "piege": "l'agrégation masque les aberrantes"
+  },
+  {
+   "id": "IT-082",
+   "champ": "Walk-through vente — catégorie de risque des données",
+   "memento": "§8.2 (4 risques de qualité)",
+   "difficulte": 2,
+   "question": "Test de cheminement (walk-through) du processus de vente : seules deux personnes définies devaient comptabiliser les transactions dans Salesforce, mais l'auditeur informatique constate que la direction pouvait modifier des écritures via une autorisation individuelle. Quel risque cette constatation illustre-t-elle ?",
+   "options": [
+    "Risque lié à la saisie des données.",
+    "Risque lié à l'extraction des données.",
+    "Risque lié à l'intégrité des données.",
+    "Risque lié à la manipulation des données."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le risque de saisie (input) concerne l'enregistrement initial correct des transactions ; ici, les ventes sont saisies par les deux personnes prévues — le problème est la possibilité de modification ultérieure des écritures.",
+    "Faux : l'extraction n'est pas en cause — la constatation porte sur ce qui peut arriver aux données dans le système source, avant toute extraction pour la DA.",
+    "Correct : une direction capable de modifier des écritures au-delà des personnes autorisées met en cause l'intégrité des données à la source (traitement) — la population servant de base à la DA peut avoir été altérée (mémento §8.2, risque n° 2).",
+    "Faux : dans la taxonomie des 4 risques de qualité (mémento §8.2), la « manipulation des données » vise typiquement l'altération par le spécialiste DA ou l'équipe d'audit après extraction ; la possibilité d'altération par la direction dans le système source relève de l'intégrité des données."
+   ],
+   "piege": "confusion intégrité / manipulation"
+  }
+ ]
+}

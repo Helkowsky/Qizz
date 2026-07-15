@@ -1,0 +1,161 @@
+{
+ "module": "M4",
+ "titre": "4 · Contrôles applicatifs",
+ "questions": [
+  {
+   "id": "IT-027",
+   "champ": "Préventif vs détectif",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Concernant les contrôles préventifs et détectifs, quelles affirmations sont correctes ?",
+   "options": [
+    "La différence principale entre un contrôle préventif et un contrôle détectif tient au moment où la mesure agit.",
+    "Seuls les contrôles détectifs peuvent être automatisés ou manuels ; les préventifs sont toujours automatisés.",
+    "Les contrôles préventifs comme détectifs peuvent être soit automatisés, soit manuels.",
+    "La différence principale entre préventif et détectif tient au degré d'automatisation de la mesure."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : l'axe de l'OBJECTIF distingue les contrôles selon le moment où la mesure agit — le préventif empêche l'information erronée avant qu'elle ne se produise, le détectif l'identifie après coup (mémento §4.1).",
+    "Faux : le degré d'automatisation (TYPE) est un axe indépendant de l'objectif. Il existe des contrôles préventifs manuels (p. ex. une approbation préalable) comme des détectifs automatisés — l'échelle de fiabilité du mémento §4.1 combine d'ailleurs les quatre variantes.",
+    "Exact : les deux axes TYPE (automatisé/manuel) et OBJECTIF (préventif/détectif) se croisent librement ; chaque objectif existe sous forme automatisée comme manuelle (mémento §4.1).",
+    "Faux : cette option confond les deux axes. La distinction préventif/détectif tient au moment d'action de la mesure, pas à son degré d'automatisation, qui relève de l'axe du TYPE."
+   ],
+   "piege": "confusion des axes TYPE / OBJECTIF"
+  },
+  {
+   "id": "IT-028",
+   "champ": "Sous-types d'ITAC",
+   "memento": "§4.1",
+   "difficulte": 1,
+   "question": "Qu'est-ce qui n'est PAS un type de contrôle (en partie ou entièrement) automatisé d'application (ITAC) ?",
+   "options": [
+    "Edit Checks",
+    "Validation Check",
+    "Calculation Check",
+    "Review Check"
+   ],
+   "correct": 3,
+   "explications": [
+    "Les edit checks (contrôles de saisie) figurent bien parmi les cinq sous-types d'ITAC du mémento §4.1 — ce n'est donc pas la bonne réponse.",
+    "Les validations (p. ex. le three-way-match) sont un sous-type d'ITAC reconnu (mémento §4.1) — option à écarter.",
+    "Les calculations (calculs automatiques, p. ex. calcul du montant de facture ou de la TVA) sont un sous-type d'ITAC (mémento §4.1) — option à écarter.",
+    "Bonne réponse : « Review Check » ne figure pas dans la liste. Les cinq sous-types d'ITAC sont Edit checks, Validations, Calculations, Interfaces et Authorizations ; une revue (review) est une action humaine qui relève du contrôle manuel ou de l'ITDM, pas d'un contrôle automatisé."
+   ]
+  },
+  {
+   "id": "IT-029",
+   "champ": "Contrôles ITDM",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Concernant les contrôles manuels dépendants de l'informatique (ITDM), quelles affirmations sont correctes ?",
+   "options": [
+    "Le rapprochement manuel mensuel, par le responsable de processus, d'un rapport de positions ouvertes produit par l'ERP est un ITDM.",
+    "Un « test unique » (test of one) est un exemple de contrôle manuel dépendant de l'informatique.",
+    "Les contrôles ITDM peuvent fournir des éléments probants moins convaincants, car ils peuvent être contournés ou exposés à l'erreur humaine.",
+    "Un three-way-match exécuté automatiquement par l'ERP est un exemple d'ITDM."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : un rapprochement manuel effectué par une personne à partir d'un rapport produit par l'ERP est la définition même de l'ITDM — un contrôle manuel qui s'appuie sur une information générée par une application (mémento §4.1).",
+    "Faux : le « test of one » n'est pas un contrôle de l'entité, mais une technique d'AUDIT servant à tester un contrôle automatisé (ITAC) déterministe (mémento §4.3). L'option confond le contrôle et la procédure de l'auditeur.",
+    "Exact : la composante humaine de l'ITDM l'expose au contournement et à l'erreur, ce qui rend ses éléments probants moins convaincants que ceux d'un ITAC entièrement programmé (mémento §4.1 — le détectif manuel est le moins fiable de l'échelle).",
+    "Faux : un three-way-match exécuté automatiquement par l'ERP, sans aucune action humaine, est un ITAC (sous-type Validation), pas un ITDM. L'ITDM exige une composante manuelle."
+   ],
+   "piege": "ITAC confondu avec ITDM"
+  },
+  {
+   "id": "IT-030",
+   "champ": "Test des ITAC",
+   "memento": "§4.3",
+   "difficulte": 1,
+   "question": "Laquelle de ces opérations d'audit n'est PAS une opération typique de vérification d'un contrôle applicatif automatisé (ITAC) ?",
+   "options": [
+    "Test direct (réexécution)",
+    "Baselining et benchmarking",
+    "Observation",
+    "Analyse de données"
+   ],
+   "correct": 2,
+   "explications": [
+    "La réexécution (test direct) est une opération typique : l'ITAC étant déterministe, l'auditeur peut rejouer le contrôle et comparer le résultat obtenu au résultat attendu — pas la bonne réponse.",
+    "Le baselining/benchmarking est typique pour un ITAC stable : on valide le contrôle une fois, puis on vérifie sur les exercices suivants qu'il n'a pas été modifié (prolongement du « test of one », mémento §5.1) — pas la bonne réponse.",
+    "Bonne réponse : l'observation vise les contrôles exécutés par des personnes (contrôles manuels ou physiques). Un contrôle programmé, déterministe et sans manifestation visible, ne se vérifie pas en le regardant fonctionner, mais en le réexécutant ou en analysant ses résultats.",
+    "L'analyse de données est une opération typique : elle permet de vérifier sur l'ensemble de la population que le contrôle automatisé a produit les effets attendus — pas la bonne réponse."
+   ]
+  },
+  {
+   "id": "IT-031",
+   "champ": "Préventif vs détectif : apports",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Comment classer les contrôles préventifs et détectifs, et quels sont leurs apports/limites ? (2 affirmations correctes)",
+   "options": [
+    "Un contrôle préventif empêche l'apparition d'une information erronée dès la phase de traitement, évitant les erreurs ultérieures.",
+    "Un contrôle détectif identifie a posteriori les erreurs déjà survenues ; son inconvénient est d'agir trop tard pour empêcher l'anomalie.",
+    "Un contrôle détectif empêche l'erreur avant qu'elle ne se produise.",
+    "Avec des contrôles préventifs efficaces, les contrôles détectifs deviennent inutiles."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : le contrôle préventif empêche l'information erronée d'apparaître dès la saisie ou le traitement (p. ex. blocage de saisie), ce qui évite les erreurs en aval (mémento §4.1).",
+    "Exact : le contrôle détectif identifie et corrige a posteriori les erreurs déjà survenues (p. ex. rapprochement) ; sa limite est d'intervenir trop tard pour empêcher l'anomalie de se produire (mémento §4.1).",
+    "Faux : c'est l'inversion des définitions — empêcher l'erreur avant qu'elle ne se produise est le propre du contrôle PRÉVENTIF ; le détectif n'agit qu'après coup.",
+    "Faux : préventifs et détectifs sont complémentaires. Même efficaces, les préventifs ne couvrent pas tout (contournements, erreurs résiduelles) ; les détectifs, souvent appliqués à des groupes de transactions (rapprochements, suivi des postes non soldés), restent nécessaires."
+   ],
+   "piege": "inversion préventif / détectif"
+  },
+  {
+   "id": "IT-032",
+   "champ": "Contrôles programmés",
+   "memento": "§4.3",
+   "difficulte": 2,
+   "question": "Concernant les contrôles programmés (automatisés) et leur vérification, quelles affirmations sont correctes ?",
+   "options": [
+    "Leur exécution est automatisée et présente un faible risque d'erreur ; l'auditeur en teste souvent l'efficacité par un « test of one ».",
+    "Comme ils fonctionnent « en temps réel », il n'est pas toujours possible, ou difficile, d'en fournir une preuve directe.",
+    "Un contrôle programmé ne peut être vérifié que si les GITC sont inefficaces.",
+    "L'exécution d'un contrôle programmé varie à chaque fois, d'où un risque d'erreur élevé."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : un contrôle programmé est déterministe, donc son exécution présente un faible risque d'erreur ; l'auditeur peut en tester l'efficacité par un « test of one », pour autant que les GITC tiennent et que le contrôle n'ait pas été modifié (mémento §4.3).",
+    "Exact : un contrôle automatisé préventif agit « en temps réel », transaction par transaction, si bien qu'il n'en reste souvent aucune trace directe exploitable — d'où la difficulté de fournir une preuve directe de son exécution.",
+    "Faux : c'est l'inverse — la vérification d'un contrôle programmé (notamment par « test of one ») suppose des GITC EFFICACES. Des GITC inefficaces privent justement l'auditeur de tout appui sur le contrôle automatisé.",
+    "Faux : un contrôle programmé jugé correct une fois s'exécute ensuite toujours de la même façon (tant que les GITC fonctionnent et qu'aucune modification n'intervient) — son risque d'erreur d'exécution est faible, pas élevé."
+   ]
+  },
+  {
+   "id": "IT-110",
+   "champ": "Conditions du « test of one »",
+   "memento": "§4.3",
+   "difficulte": 2,
+   "question": "Un contrôle applicatif automatisé (ITAC) a été testé avec succès sur un seul cas (« test of one »). À quelles conditions ce test unique prouve-t-il l'efficacité du contrôle pour toute la période ?",
+   "options": [
+    "Aucune condition supplémentaire : l'ITAC étant déterministe, un cas correctement traité suffit toujours.",
+    "Les ITGC sous-jacents doivent être efficaces ET le contrôle ne doit pas avoir été modifié pendant la période.",
+    "Il suffit qu'une demande d'informations auprès du responsable IT confirme que le contrôle n'a pas changé.",
+    "Le test unique doit être répété chaque trimestre pour couvrir l'ensemble de la période."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le caractère déterministe de l'ITAC est nécessaire mais pas suffisant — sans environnement maîtrisé, rien ne garantit que le contrôle n'a pas été modifié ou contourné après le test (mémento §4.3).",
+    "Exact : les deux conditions cumulatives du « test of one » sont (1) des ITGC sous-jacents efficaces (accès, changements, opérations) et (2) l'absence de modification du contrôle durant la période (mémento §4.2-4.3).",
+    "Faux : selon l'ISA-CH 330, la demande d'informations seule ne suffit jamais comme élément probant sur l'efficacité ; elle doit être combinée à l'inspection/réexécution ou à l'observation (mémento §4.3).",
+    "Faux : l'intérêt même du « test of one » est qu'un seul test vaut pour toute la période ; une nouvelle vérification n'est requise que si le contrôle a été modifié (on re-teste alors)."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "module": "M5",
+ "titre": "5 · Stratégie d'audit & procédure IT",
+ "questions": [
+  {
+   "id": "IT-033",
+   "champ": "Modèle en couches — contenu",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Le modèle de procédure d'audit des applications repose sur un modèle en couches à quatre niveaux (de haut en bas : processus d'affaires → applications → systèmes de base → infrastructure). Quelles affirmations sur le contenu des couches sont correctes ?",
+   "options": [
+    "La 1re couche (la plus haute) regroupe les processus d'affaires (manuels) pertinents.",
+    "La 2e couche correspond aux éléments automatisés des processus d'affaires, c'est-à-dire les applications informatiques.",
+    "La 3e couche (en partant du haut) correspond aux systèmes informatiques de base (plateformes, composantes techniques de traitement).",
+    "La 4e couche correspond aux données de base (master data) de l'ERP."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Exact : la couche la plus haute du modèle regroupe les processus d'affaires (manuels) pertinents pour l'audit (mémento §5.2).",
+    "Exact : la 2e couche correspond aux éléments automatisés des processus d'affaires, c'est-à-dire les applications informatiques (avec leurs contrôles applicatifs et ITDM).",
+    "Exact : la 3e couche regroupe les systèmes informatiques de base — plateformes et composantes techniques de traitement telles que SGBD (SQL/Oracle), SAP Basis ou middleware.",
+    "Faux : la 4e couche est l'infrastructure IT (matériel, réseau, surveillance technique), pas les données de base. Les master data résident dans les couches application/base de données et relèvent d'un autre sujet (interfaces et extraction de données)."
+   ]
+  },
+  {
+   "id": "IT-034",
+   "champ": "Couches examinées en priorité",
+   "memento": "§5.2",
+   "difficulte": 3,
+   "question": "Selon la finalité de l'audit, quelles couches du modèle à quatre niveaux l'auditeur examine-t-il en priorité ? Indiquez les affirmations correctes.",
+   "options": [
+    "Pour le contrôle des applications (identifier les contrôles dépendant de l'application), l'auditeur examine d'abord les couches supérieures : processus d'affaires (manuels) pertinents et parties automatisées de l'application.",
+    "Pour l'analyse des risques des systèmes IT (GITC), l'auditeur examine d'abord les couches inférieures : systèmes informatiques de base et infrastructure assurant la surveillance des systèmes.",
+    "Dans tous les cas, l'auditeur commence par l'infrastructure réseau physique, quelle que soit la finalité.",
+    "Les couches supérieures ne sont constituées que des parties purement manuelles de l'application."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : pour le contrôle des applications, la démarche part des couches supérieures — processus d'affaires (manuels) pertinents puis parties automatisées de l'application — car c'est là que résident les contrôles dépendant de l'application (mémento §5.2).",
+    "Exact : pour l'analyse des risques des systèmes IT (GITC), l'auditeur cible les couches inférieures — systèmes informatiques de base et infrastructure — car c'est à ces niveaux qu'opèrent les contrôles IT généraux.",
+    "Faux : on ne commence jamais systématiquement par l'infrastructure : la démarche est descendante depuis les postes significatifs des comptes, et la couche d'entrée dépend de la finalité (applications en haut, GITC en bas). On n'audite pas « l'informatique en général ».",
+    "Faux : les couches supérieures comprennent les processus manuels ET les parties automatisées (applications) ; les réduire aux seuls éléments purement manuels ampute le modèle de la couche applicative."
+   ],
+   "piege": "orientation haut / bas du modèle"
+  },
+  {
+   "id": "IT-035",
+   "champ": "Walk-through, efficacité, conclusion",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Concernant les dernières étapes du modèle de procédure (walk-through, évaluation de la conception et de l'efficacité, appréciation globale), quelles affirmations sont correctes ?",
+   "options": [
+    "Le test de cheminement (walk-through, étape 4/5) confirme que la compréhension du processus s'applique aux risques et contrôles-clés, en suivant une transaction type du début à la fin.",
+    "L'appréciation globale évalue et synthétise les résultats des différentes étapes en fonction de leur influence sur les états financiers.",
+    "L'évaluation de l'efficacité vérifie qu'un contrôle applicatif fonctionne conformément à sa conception et a été mis en œuvre de manière effective, intégrale et correcte.",
+    "Le test de cheminement vise avant tout à tester l'efficacité opérationnelle des contrôles.",
+    "L'appréciation globale débouche toujours sur une opinion d'audit positive."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Exact : le walk-through suit une transaction type du début à la fin pour confirmer que la compréhension du processus, des risques et des contrôles-clés est correcte (mémento §5.2).",
+    "Exact : l'appréciation globale, dernière étape, synthétise les résultats des étapes précédentes selon leur influence sur les états financiers et débouche sur le risque de contrôle et l'étendue des contrôles de substance (mémento §5.2).",
+    "Exact : l'évaluation de l'efficacité (operating effectiveness) vérifie que le contrôle fonctionne conformément à sa conception et a été appliqué de manière effective, intégrale et correcte durant la période.",
+    "Faux : le walk-through confirme la conception et la mise en œuvre — il ne teste PAS l'efficacité opérationnelle durable (mémento §4.3). Celle-ci se vérifie ensuite selon l'ISA-CH 330 (inspection/réexécution, observation — jamais la seule demande d'informations).",
+    "Faux : l'appréciation globale peut tout à fait conclure à un risque de contrôle élevé et à un renforcement des contrôles de substance ; elle ne garantit jamais une issue favorable."
+   ],
+   "piege": "walk-through ≠ test d'efficacité"
+  },
+  {
+   "id": "IT-036",
+   "champ": "Phase de planification — contenu",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Le modèle de procédure de contrôle des applications débute par la phase de planification et d'identification des risques. Quelles affirmations sont correctes sur cette phase ?",
+   "options": [
+    "Elle comprend l'identification des processus & flux de données, des applications de base & interfaces pertinentes, et des risques & contrôles-clés.",
+    "Le test de cheminement et l'évaluation de la conception des contrôles font partie de cette première phase.",
+    "Les contrôles purement manuels, non dépendants de l'IT, ne sont pas pris en compte dans ce modèle de contrôle des applications.",
+    "L'énumération exhaustive des systèmes d'exploitation constitue le point de départ obligatoire de cette phase."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : la phase 1 (planification et identification des risques) regroupe les trois premières étapes : identification des processus & flux de données, des applications de base & interfaces pertinentes, puis des risques & contrôles-clés (mémento §5.2).",
+    "Faux : le test de cheminement (walk-through) et l'évaluation de la conception appartiennent à la phase suivante (stratégie & évaluation des risques), pas à la phase de planification.",
+    "Exact : le modèle vise les contrôles dépendant de l'informatique (automatisés et ITDM) ; les contrôles purement manuels, sans aucune dépendance IT, sont hors du périmètre de ce modèle de contrôle des applications.",
+    "Faux : la démarche est descendante — on part des postes significatifs des comptes, puis des processus et des applications. L'énumération exhaustive des systèmes d'exploitation n'est ni le point de départ, ni même nécessaire (mémento §5.2)."
+   ]
+  },
+  {
+   "id": "IT-037",
+   "champ": "Nombre de phases du modèle",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "En combien de phases se structure le modèle de démarche couramment utilisé en pratique pour l'audit des applications informatiques ?",
+   "options": [
+    "2 phases",
+    "3 phases",
+    "4 phases",
+    "5 phases"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : deux phases (préparation/conclusion) ne rendent pas compte du modèle, qui distingue au minimum l'identification des risques, l'évaluation des contrôles et l'appréciation finale.",
+    "Faux selon le corrigé retenu : un regroupement en trois phases (planification → stratégie/évaluation des risques → appréciation) existe dans certains supports, mais le corrigé retient quatre phases en isolant l'évaluation de l'efficacité comme phase propre.",
+    "Bonne réponse (corrigé retenu) : quatre phases — planification/identification des risques ; stratégie & évaluation des risques ; évaluation de l'efficacité ; appréciation globale/conclusion. Attention : le modèle compte 6-7 ÉTAPES regroupées en phases ; ne pas confondre étapes et phases.",
+    "Faux : cinq ne correspond ni au nombre de phases ni au nombre d'étapes (6-7 selon le support) ; ce chiffre évoque plutôt les 5 domaines ITGC (BE/AN/ZU/SI/CM), une autre taxonomie."
+   ]
+  },
+  {
+   "id": "IT-038",
+   "champ": "Objectif identification processus",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Dans les premières étapes du modèle (identification des processus d'affaires ; phase stratégie & évaluation des risques), quelles affirmations sont correctes ?",
+   "options": [
+    "L'identification des processus d'affaires vise à repérer les processus/transactions pertinents ayant une influence directe sur les flux financiers.",
+    "La phase stratégie & évaluation des risques vise à vérifier que les processus, risques et contrôles afférents sont bien compris et à évaluer si le SCI couvre les risques pertinents.",
+    "L'identification des processus d'affaires vise à recenser tous les processus ayant une influence sur les employés de l'entreprise.",
+    "La phase stratégie & évaluation des risques a pour seul objet de produire une opinion d'audit anticipée."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : l'identification des processus d'affaires cible les processus et transactions ayant une influence directe sur les flux financiers — cohérent avec la démarche descendante qui part des postes significatifs des comptes (mémento §5.2).",
+    "Exact : la phase stratégie & évaluation des risques (walk-through, conception, efficacité) vérifie que processus, risques et contrôles afférents sont bien compris et évalue si le SCI couvre les risques pertinents.",
+    "Faux : le critère de sélection est l'influence sur les flux financiers et les états financiers, pas l'influence sur les employés — un processus sans incidence financière directe n'entre pas dans le périmètre de l'audit des comptes.",
+    "Faux : cette phase alimente l'évaluation du risque de contrôle et le calibrage des contrôles de substance ; l'opinion d'audit n'est émise qu'au terme de l'audit, jamais par anticipation."
+   ]
+  },
+  {
+   "id": "IT-039",
+   "champ": "Cas Oracle — niveaux & type",
+   "memento": "§5.2",
+   "difficulte": 3,
+   "question": "Risque : des modifications non autorisées des données de base fournisseurs (Oracle) faussent les dettes fournisseurs. Un contrôle automatique géré par Oracle restreint l'accès à la base de données (3 collaborateurs autorisés) ; la base se situe au niveau base de données d'Oracle, et deux administrateurs système accèdent à la BD et à l'application. Quels niveaux technologiques sont pertinents pour vérifier ce contrôle automatisé, et de quel type de contrôle s'agit-il ?",
+   "options": [
+    "Niveau applications ; type : configuration du système.",
+    "Niveaux applications et base de données ; type : configuration du système.",
+    "Niveau applications ; type : contrôle d'accès au système.",
+    "Niveaux applications et base de données ; type : contrôle d'accès au système."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux sur les deux volets : le niveau base de données ne peut être ignoré (la base fournisseurs y réside et deux administrateurs y accèdent), et restreindre qui peut modifier des données est un contrôle d'accès, pas une configuration.",
+    "Faux : les deux niveaux sont bien pertinents, mais le type est erroné — l'attribution/restriction de droits n'est pas une « configuration » du système (piège signalé au mémento §4.1) : c'est un contrôle d'accès.",
+    "Faux : le type (contrôle d'accès) est correct, mais limiter la vérification au niveau application est insuffisant — les données de base et les accès des administrateurs se situent aussi au niveau base de données.",
+    "Exact : le contrôle limite les droits de modification (3 collaborateurs autorisés) — c'est un contrôle d'accès au système ; et comme la base réside au niveau base de données et que les administrateurs accèdent à la BD comme à l'application, les deux niveaux technologiques sont pertinents."
+   ]
+  },
+  {
+   "id": "IT-040",
+   "champ": "Recours au spécialiste IT",
+   "memento": "§5.3",
+   "difficulte": 2,
+   "question": "Le recours à un spécialiste informatique. Quelles affirmations sont correctes ?",
+   "options": [
+    "Le recours à un spécialiste IT dépend davantage de la nature et de la complexité de l'environnement informatique que de la taille de l'entreprise.",
+    "On recourt à un spécialiste lorsque l'environnement IT se complexifie (multiples applications et interfaces pertinentes, architecture informatique).",
+    "Le spécialiste fait partie de l'équipe d'audit et doit posséder l'expertise requise ; la responsabilité du résultat de l'audit reste à l'auditeur responsable.",
+    "Le recours au spécialiste dépend surtout de la taille de l'entreprise et de l'organigramme du département informatique."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Exact : le recours au spécialiste dépend de la nature et de la complexité de l'environnement informatique, pas de la taille de l'entreprise (ISA-CH 620 ; mémento §5.3, piège explicitement signalé).",
+    "Exact : la multiplication des applications et interfaces pertinentes et la complexité de l'architecture informatique sont des facteurs typiques de recours au spécialiste (ISA-CH 620, par. 7 ss).",
+    "Exact : le spécialiste intégré à l'équipe doit posséder la compétence requise (profil type : IT Assurance/Risk Advisory, certifications CISA/CISM), mais la responsabilité du résultat de l'audit reste à l'auditeur responsable — elle n'est jamais transférée (ISA-CH 620).",
+    "Faux : c'est précisément le piège — ni la taille de l'entreprise ni l'organigramme du département informatique ne sont déterminants ; une petite entité à l'environnement IT complexe peut exiger un spécialiste, et inversement."
+   ],
+   "piege": "taille ≠ complexité IT"
+  },
+  {
+   "id": "IT-041",
+   "champ": "Implication & objectivité du spécialiste",
+   "memento": "§5.3",
+   "difficulte": 2,
+   "question": "Lors de la planification, vous discutez du recours à un auditeur informatique et à un spécialiste en Data Analytics (DA). Quelles affirmations sont correctes (ISA-CH 620) ?",
+   "options": [
+    "L'auditeur IT et le spécialiste DA devraient être impliqués très tôt dans la planification, y compris pour la planification du budget et du calendrier.",
+    "Les spécialistes de l'équipe de révision sont soumis aux mêmes exigences d'indépendance que les membres de l'équipe, qu'ils aient ou non accès à des informations financières.",
+    "Les spécialistes soutiennent l'équipe d'audit ; la responsabilité de l'opinion d'audit incombe à l'auditeur.",
+    "Le même spécialiste DA peut aussi contrôler les GITC de l'entreprise, à condition de disposer de l'expérience et des connaissances appropriées.",
+    "Les résultats de l'analyse de données font l'objet d'une opinion d'audit indépendante émise par les spécialistes DA."
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "explications": [
+    "Exact : l'implication du spécialiste dès la planification — y compris pour le budget et le calendrier — est requise pour définir la nature, l'étendue et les objectifs de ses travaux (ISA-CH 620, par. 10-11 ; mémento §5.3).",
+    "Exact : l'objectivité du spécialiste s'apprécie selon les mêmes exigences d'indépendance que pour les membres de l'équipe d'audit, indépendamment de son accès aux informations financières (ISA-CH 620, par. 9).",
+    "Exact : les spécialistes soutiennent l'équipe, mais la responsabilité de l'opinion d'audit incombe exclusivement à l'auditeur responsable de la mission (ISA-CH 620).",
+    "Exact : rien n'interdit au spécialiste DA de tester aussi les GITC, dès lors qu'il satisfait à la condition de compétence et d'aptitudes de l'ISA-CH 620 (expérience et connaissances appropriées).",
+    "Faux : il n'existe qu'UNE opinion d'audit, émise par l'auditeur responsable. Les travaux des spécialistes intègrent la documentation d'audit, que l'auditeur revoit et comprend — ils ne donnent jamais lieu à une opinion indépendante."
+   ]
+  },
+  {
+   "id": "IT-042",
+   "champ": "Complexité IT & besoin d'un auditeur IT",
+   "memento": "§5.3",
+   "difficulte": 3,
+   "question": "Évaluation de la complexité de l'environnement IT et du besoin d'un auditeur informatique. Quelles affirmations sont correctes ?",
+   "options": [
+    "Des processus de validation et de calcul entièrement automatisés pour l'exécution des contrôles indiquent un environnement IT plus complexe.",
+    "Le fait que la direction s'appuie sur une application pour traiter les données et en maintenir l'intégrité met en évidence un risque IT potentiel.",
+    "Pour évaluer l'incidence d'une faiblesse GITC, l'efficacité de ce contrôle lors de la période d'audit précédente n'est pas un facteur pertinent.",
+    "Un indicateur typique du besoin d'un auditeur IT est qu'un seul système constitue la population et que la plupart des écritures sont saisies manuellement."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Exact : des processus de validation et de calcul entièrement automatisés pour l'exécution des contrôles sont un indicateur d'environnement IT plus complexe, donc de besoin accru d'un auditeur informatique (mémento §5.3).",
+    "Exact : la dépendance de la direction à une application pour traiter les données et en maintenir l'intégrité constitue un risque lié à l'IT au sens de l'ISA-CH 315 (Révisée).",
+    "Exact : l'incidence d'une faiblesse GITC s'apprécie sur la période auditée ; l'efficacité du contrôle lors de la période d'audit précédente n'est pas un facteur pertinent — elle ne compense pas la faiblesse actuelle.",
+    "Faux : c'est l'indicateur INVERSE — un seul système constituant la population et des écritures majoritairement manuelles décrivent un environnement simple, où le besoin d'un auditeur IT est faible. Ce sont l'automatisation et la complexité qui l'appellent."
+   ],
+   "piege": "indicateur de complexité inversé"
+  },
+  {
+   "id": "IT-043",
+   "champ": "GITC↔ITAC & dépendances IT",
+   "memento": "§5.1",
+   "difficulte": 2,
+   "question": "Relations entre GITC, contrôles d'applications et dépendances informatiques. Quelles affirmations sont correctes ?",
+   "options": [
+    "Les GITC constituent la base de contrôles d'applications IT automatisés (ITAC) fonctionnant correctement.",
+    "Les cinq types de dépendances informatiques sont : contrôles automatisés, rapports, calculs, interfaces, et sécurité (séparation des tâches / accès restreint).",
+    "Les contrôles d'applications IT constituent la base sur laquelle reposent les GITC.",
+    "La paramétrabilité (personnalisation) figure parmi les cinq types de dépendances informatiques."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : les GITC sécurisent l'environnement (accès, changements, exploitation) et constituent ainsi le socle sur lequel les ITAC peuvent fonctionner durablement (mémento §4.2).",
+    "Exact : les cinq types de dépendances informatiques sont les contrôles automatisés, les rapports, les calculs, les interfaces et la sécurité (séparation des tâches / accès restreint) (mémento §5.1).",
+    "Faux : c'est l'inversion classique de la relation — les ITAC reposent sur les GITC, jamais l'inverse ; si les GITC sous-jacents sont déficients, la fiabilité des ITAC s'effondre (mémento §4.2).",
+    "Faux : la paramétrabilité (personnalisation) ne figure pas parmi les cinq dépendances informatiques ; la liste se limite à contrôles automatisés, rapports, calculs, interfaces et sécurité."
+   ],
+   "piege": "inversion GITC ↔ ITAC"
+  },
+  {
+   "id": "IT-044",
+   "champ": "Identification processus & périmètre systèmes",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Identification des processus/flux et périmètre des systèmes à vérifier. Un client utilise Abacus (RH), Basware (achats), un SAP centralisé (ventes, stocks, immobilisations, Record to Report) et un Excel de consolidation ; les risques importants portent sur le chiffre d'affaires et les immobilisations corporelles. Quelles affirmations sont correctes ?",
+   "options": [
+    "L'énumération des systèmes d'exploitation n'est pas nécessaire pour identifier les processus d'affaires et flux de données pertinents.",
+    "Si des contrôles automatisés existent, on vérifie généralement SAP, car chiffre d'affaires et immobilisations y sont tous deux gérés.",
+    "L'identification des processus exige au préalable l'énumération exhaustive des systèmes d'exploitation et du matériel réseau.",
+    "Dès qu'un contrôle automatisé existe, il faut systématiquement vérifier l'ensemble des systèmes (SAP, Basware, Abacus, Excel de consolidation)."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : l'identification des processus d'affaires et des flux de données repose sur les demandes d'informations, les flow charts et le diagramme du système d'information — pas sur l'inventaire des systèmes d'exploitation (mémento §5.2).",
+    "Exact : le périmètre des systèmes à vérifier suit les risques identifiés : le chiffre d'affaires et les immobilisations corporelles étant tous deux gérés dans SAP, c'est SAP que l'on vérifie si des contrôles automatisés existent.",
+    "Faux : contre-pied de la bonne réponse — l'énumération exhaustive des systèmes d'exploitation et du matériel réseau n'est pas un préalable ; la démarche descendante part des postes significatifs, pas de la technique.",
+    "Faux : le périmètre se limite aux systèmes portant les risques importants. Abacus (RH), Basware (achats) et l'Excel de consolidation ne portent pas les risques identifiés (chiffre d'affaires, immobilisations) : la présence d'un contrôle automatisé n'impose jamais de vérifier TOUS les systèmes."
+   ]
+  },
+  {
+   "id": "IT-045",
+   "champ": "Cas Salesforce — population & risque",
+   "memento": "§5.1",
+   "difficulte": 3,
+   "question": "Sales Walkthrough (Salesforce) : vous aviez documenté 2 personnes comptabilisant les ventes, mais l'auditeur IT constate 10 personnes habilitées (dont 2 parties et 4 hors département), et le contrôle de revue n'a été testé que pour 2 d'entre elles. Quelles affirmations sont correctes ?",
+   "options": [
+    "Le risque le plus élevé mis en évidence est le risque lié à la manipulation des données (trop d'utilisateurs peuvent comptabiliser).",
+    "Le contrôle ne couvrant que 2 des utilisateurs habilités, l'analyse ne peut porter que sur les transactions couvertes ; les écritures des autres utilisateurs doivent être filtrées et vérifiées séparément.",
+    "Le contrôle ayant été testé sans faiblesse pour 2 personnes, l'analyse peut être menée en toute confiance sur l'ensemble de la population.",
+    "Le risque le plus élevé est le risque lié à l'extraction des données."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : le constat central est que 10 personnes (au lieu des 2 documentées, dont 4 hors département et 2 ayant quitté l'entreprise) peuvent comptabiliser des ventes : c'est un risque lié à la manipulation des données (Data Manipulation Risk).",
+    "Exact : le contrôle de revue n'ayant été testé que pour 2 des utilisateurs habilités, seules leurs transactions sont couvertes ; les écritures des autres utilisateurs forment une population non couverte, à filtrer et à vérifier séparément.",
+    "Faux : extrapoler un test réussi sur 2 utilisateurs à l'ensemble de la population n'est pas fondé — les transactions des 8 autres personnes habilitées ne sont couvertes par aucun contrôle testé.",
+    "Faux : rien n'indique un problème de téléchargement des données (Data Extraction Risk) ; le constat porte sur des habilitations excessives à comptabiliser, donc sur le risque de manipulation des données."
+   ],
+   "piege": "extrapolation d'un test partiel"
+  },
+  {
+   "id": "IT-111",
+   "champ": "Approche contrôles vs substantive",
+   "memento": "§5.1",
+   "difficulte": 2,
+   "question": "Selon l'ISA-CH 330, dans quelle situation l'auditeur choisit-il de tester les contrôles IT (ITGC + ITAC) plutôt que de rester purement substantif ?",
+   "options": [
+    "Lorsque l'entité dépend fortement de processus informatisés et que l'auditeur veut s'appuyer sur les contrôles automatisés pour réduire ses contrôles de substance.",
+    "Lorsque les ITGC se sont révélés déficients, le test des contrôles devenant alors obligatoire.",
+    "Dans tous les audits, l'ISA-CH 330 imposant de tester l'efficacité opérationnelle des contrôles chaque année.",
+    "Lorsque l'entreprise dépasse une certaine taille, l'approche basée sur les contrôles étant alors imposée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'approche basée sur l'informatique (test de l'efficacité opérationnelle des ITGC + ITAC) se justifie en cas de forte dépendance aux processus IT combinée à la volonté de s'appuyer sur l'automatisé pour réduire le substantif (ISA-CH 330 ; mémento §5.1).",
+    "Faux : c'est la situation inverse — des ITGC déficients (comme une faible dépendance à l'IT ou un test non rentable) conduisent à une approche substantive renforcée, éventuellement appuyée par la Data Analytics (mémento §5.1).",
+    "Faux : le test de l'efficacité opérationnelle n'est pas systématique — il ne s'impose que si l'auditeur entend s'appuyer sur les contrôles ; à défaut, l'audit des états financiers ne requiert que la vérification de l'existence du SCI.",
+    "Faux : la taille de l'entreprise n'est pas le critère — comme pour le recours au spécialiste, ce sont la dépendance à l'IT et la stratégie d'appui qui déterminent le choix (mémento §5.1 et §5.3)."
+   ]
+  }
+ ]
+}

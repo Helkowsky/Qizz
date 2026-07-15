@@ -1,0 +1,121 @@
+{
+ "module": "M11",
+ "titre": "11 · Journal Entry Testing (ISA-CH 240)",
+ "questions": [
+  {
+   "id": "IT-090",
+   "champ": "Objectif du JET & management override",
+   "memento": "§11.1",
+   "difficulte": 2,
+   "question": "Concernant l'objectif du Journal Entry Testing (ISA-CH 240), lesquelles des affirmations suivantes sont correctes ?",
+   "options": [
+    "L'objectif de l'auditeur est de traiter le risque de contournement des contrôles par la direction (management override) et de manipulation ou fraude.",
+    "L'audit des écritures annulées au début de la période suivante vise précisément ce risque de management override.",
+    "Le JET vise uniquement à identifier les fraudes commises par le conseil d'administration.",
+    "Le JET traite avant tout le risque de défaillance technique du système comptable."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : le JET est une procédure obligatoire de l'ISA-CH 240, quelle que soit l'évaluation du risque de fraude ; il traite le risque de contournement des contrôles par la direction (management override) et de manipulation des états financiers (mémento §11.1).",
+    "Correct : une écriture passée juste avant la clôture puis annulée au début de la période suivante est un marqueur classique de manipulation du résultat — son audit vise précisément le risque de management override (mémento §11.2, critère « fin de période / post-clôture »).",
+    "Faux : le JET ne se limite pas aux fraudes du conseil d'administration ; il vise le forçage des contrôles par la direction au sens large et toute écriture présentant un risque accru de manipulation, quel qu'en soit l'auteur.",
+    "Faux : le JET est une procédure anti-fraude, pas un test de fiabilité technique ; les défaillances du système comptable relèvent des ITGC et des contrôles applicatifs (§3-§4), non de l'ISA-CH 240."
+   ]
+  },
+  {
+   "id": "IT-091",
+   "champ": "Caractéristiques de la fraude (ISA-CH 240)",
+   "memento": "§11.1",
+   "difficulte": 1,
+   "question": "Quelles sont les caractéristiques des fraudes selon les normes d'audit internationales et suisses (ISA-CH 240) ?",
+   "options": [
+    "Les fraudes sont des erreurs qui conduisent à des anomalies significatives dans les états financiers.",
+    "Les fraudes sont des actes menant à des anomalies intentionnelles résultant d'informations financières mensongères ou de détournements d'actifs.",
+    "Les fraudes sont un comportement pénalement répréhensible ayant causé un préjudice à l'entreprise.",
+    "Les fraudes sont la saisie incorrecte d'écritures due au manque de connaissances des personnes qui les effectuent."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une erreur est par définition non intentionnelle ; l'ISA-CH 240 distingue précisément la fraude (acte intentionnel) de l'erreur, même si les deux peuvent conduire à des anomalies significatives.",
+    "Correct : selon l'ISA-CH 240, la fraude est un acte intentionnel conduisant à des anomalies, sous deux formes : l'information financière mensongère (fraudulent financial reporting) et le détournement d'actifs (mémento §11.1).",
+    "Faux : la qualification pénale et le préjudice causé à l'entreprise relèvent du droit pénal, pas de la définition d'audit ; l'auditeur ne se prononce pas juridiquement, et la fraude au sens ISA-CH 240 n'exige ni infraction constatée ni préjudice direct pour l'entité.",
+    "Faux : une saisie incorrecte due au manque de connaissances est une erreur (non intentionnelle), pas une fraude — l'intention est le critère distinctif de l'ISA-CH 240."
+   ]
+  },
+  {
+   "id": "IT-092",
+   "champ": "Intégrité des données & exécution",
+   "memento": "§11.3",
+   "difficulte": 3,
+   "question": "Vous réalisez le JET pour un contrôle ordinaire. Quelles affirmations sont correctes concernant le contrôle d'intégrité des données reçues et l'évaluation des écritures individuelles ?",
+   "options": [
+    "Le contrôle d'intégrité vérifie notamment que tous les champs demandés sont fournis et remplis, que le nombre de line items correspond exactement au nombre convenu et que débit = crédit (soldes à zéro).",
+    "Chaque écriture doit reposer sur une transaction commerciale réelle, être dûment autorisée et correctement comptabilisée ; pour les ajustements « top-side », on évalue les raisons invoquées par la direction.",
+    "Le contrôle d'intégrité est satisfait dès lors que les champs sont en majorité remplis et que le nombre de line items correspond globalement au nombre convenu.",
+    "Un justificatif manquant peut être abandonné s'il concerne une écriture inférieure au seuil de matérialité."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : le contrôle d'intégrité du fichier JET exige une correspondance exacte — tous les champs demandés fournis et remplis, nombre de line items strictement égal au nombre convenu, débit = crédit (soldes à zéro), fourchette de dates et codes conformes aux attentes (mémento §11.3).",
+    "Correct : à l'exécution, chaque écriture doit reposer sur une opération réelle, être dûment autorisée et correctement comptabilisée dans la bonne période (justificatif + discussion avec la direction) ; pour les ajustements « top-side », l'auditeur évalue les raisons invoquées par la direction (mémento §11.3).",
+    "Faux : « en majorité remplis » et « globalement correspondant » ne suffisent pas — l'intégrité exige une correspondance exacte ; tout écart (champ vide, line item manquant) doit être élucidé avant d'exploiter les données.",
+    "Faux : un justificatif manquant ne s'abandonne jamais pour motif de matérialité — le JET vise la fraude, pas le seuil de signification ; toute pièce manquante impose une enquête (mémento §11.1, piège classique)."
+   ],
+   "piege": "Matérialité n'excuse aucun justificatif"
+  },
+  {
+   "id": "IT-093",
+   "champ": "Échantillon de suivi & scepticisme",
+   "memento": "§11.1 et §11.3",
+   "difficulte": 2,
+   "question": "Face à un rapport présentant de nombreuses divergences potentielles, comment sélectionner l'échantillon de suivi et appliquer le scepticisme professionnel dans le JET ?",
+   "options": [
+    "Réaliser un test unique (« test of one ») pour la compréhension, puis étendre les tests aux schémas et écritures peu clairs ou suspects.",
+    "Intégrer l'imprévisibilité (taille et type d'écritures) dans la sélection.",
+    "Limiter les tests aux écritures qui dépassent l'erreur tolérable (TE).",
+    "Se contenter d'un aperçu général puis étendre les tests aux seules transactions courantes."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : l'approche du JET consiste en un « test of one » pour comprendre le schéma d'écritures, puis une extension des tests aux schémas et écritures peu clairs ou suspects (mémento §11.3).",
+    "Correct : l'imprévisibilité — dans la taille ET le type des écritures sélectionnées — est un élément requis de la sélection, précisément pour déjouer une direction qui anticiperait les critères de l'auditeur (mémento §11.1 et §11.2).",
+    "Faux : limiter les tests aux écritures dépassant l'erreur tolérable (TE) est l'erreur classique du JET — la sélection doit inclure des écritures sous le seuil, car la fraude se dissimule souvent dans des montants non significatifs (mémento §11.1).",
+    "Faux : le scepticisme professionnel impose d'étendre les tests aux écritures inhabituelles ou suspectes, pas aux transactions courantes ; un simple aperçu général ne traite pas le risque de management override."
+   ],
+   "piege": "Sélection limitée à la TE"
+  },
+  {
+   "id": "IT-094",
+   "champ": "Critères de sélection des écritures (SCOT/FSCP)",
+   "memento": "§11.2",
+   "difficulte": 2,
+   "question": "Le réviseur sélectionne les écritures à tester selon des critères de risque (terminologie : SCOT = Significant Class of Transactions ; FSCP = Financial Statement Close Process). Quelles affirmations sont correctes ?",
+   "options": [
+    "Les facteurs de sélection incluent : types d'écritures, type/complexité des SCOT et du FSCP, écritures à caractéristique unique, complexité des applications IT et introduction d'un élément d'imprévisibilité.",
+    "On prête une attention particulière aux appariements de comptes inhabituels et aux montants ronds ou à numéro final unique.",
+    "Les écritures qui semblent a priori plausibles et aisément explicables requièrent la même attention renforcée que les écritures inhabituelles.",
+    "Le caractère significatif des montants est le principal critère de sélection des écritures à tester."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : les facteurs de sélection énumérés (types d'écritures, type et complexité des SCOT et du FSCP, écritures à caractéristique unique, complexité des applications IT, imprévisibilité) correspondent aux critères de risque du JET (mémento §11.2).",
+    "Correct : les appariements de comptes inhabituels (p. ex. débit d'actif / crédit de charges) et les montants ronds ou à numéro final unique sont des caractéristiques « à risque » typiques évoquant une fraude (ISA-CH 240, mémento §11.2).",
+    "Faux : les écritures plausibles et aisément explicables présentent un risque faible ; l'attention renforcée se porte sur les écritures inhabituelles — manuelles hors marche normale, de fin de période, passées par des utilisateurs inattendus (mémento §11.2).",
+    "Faux : la sélection du JET repose sur des critères de risque, pas sur la seule matérialité des montants — l'imprévisibilité impose même d'inclure des écritures sous le seuil de signification (mémento §11.1)."
+   ],
+   "piege": "Matérialité ≠ critère principal"
+  }
+ ]
+}

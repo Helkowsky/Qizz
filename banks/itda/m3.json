@@ -1,0 +1,334 @@
+{
+ "module": "M3",
+ "titre": "3 · ITGC — domaines, NAS-CH 890 & SCI",
+ "questions": [
+  {
+   "id": "IT-014",
+   "champ": "Domaines & finalité des GITC",
+   "memento": "§3.2–3.3",
+   "difficulte": 2,
+   "question": "Concernant les domaines et la finalité des contrôles IT généraux (GITC / ITGC), quelles affirmations sont correctes ?",
+   "options": [
+    "Les GITC couvrent : l'accès aux programmes et données, la modification de programmes, l'acquisition/développement de programmes et les opérations informatiques.",
+    "La prestation de services IT à des clients externes fait partie des GITC.",
+    "Grâce aux GITC, les activités de contrôle automatisées fonctionnent correctement dès leur premier développement/mise en œuvre et continuent de fonctionner correctement ensuite.",
+    "Les paramètres et interfaces applicatifs comptent parmi les GITC essentiels au sens de la NAS-CH 890."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : les quatre domaines classiques des GITC sont l'accès aux programmes et données, la modification de programmes, l'acquisition/le développement de programmes et les opérations informatiques (cours ch. 01 ; l'ISA-CH 315 (Révisée), Annexe 6, les regroupe en trois processus — mémento §3.3).",
+    "Faux : la prestation de services IT à des clients externes est une activité commerciale de l'entité ; les GITC visent l'environnement informatique qui produit sa propre information financière, pas les services vendus à des tiers.",
+    "Exact : c'est la finalité même des GITC — garantir que les contrôles automatisés fonctionnent correctement dès leur développement/mise en œuvre et continuent de fonctionner ensuite (mémento §3.1).",
+    "Faux : les paramètres et interfaces applicatifs relèvent des contrôles applicatifs (ITAC : validations, interfaces — mémento §4.1), pas des GITC ; le Guide EXPERTsuisse ITGC 2024 distingue expressément les contrôles d'application des ITGC."
+   ],
+   "piege": "applicatif classé en ITGC"
+  },
+  {
+   "id": "IT-015",
+   "champ": "Approche NAS-CH 890 / ITAC",
+   "memento": "§3.4",
+   "difficulte": 2,
+   "question": "Dans le cadre d'un audit IT (contrôle ordinaire), quelles affirmations concernant la NAS-CH 890 et l'approche d'audit sont correctes ?",
+   "options": [
+    "L'audit informatique selon la NAS-CH 890 (vérification de l'existence du SCI) est requis même en l'absence de tout contrôle d'application automatisé (ITAC).",
+    "L'audit IT selon la NAS-CH 890 n'est requis qu'en présence d'un contrôle d'application automatisé (ITAC).",
+    "Le contrôle du fonctionnement durable et sans défaut du SCI (efficacité opérationnelle) fait partie de la vérification de l'existence du SCI selon l'art. 728a al. 1 ch. 3 CO.",
+    "L'existence des contrôles au niveau de l'entreprise et des GITC se vérifie chaque année, tandis que les contrôles au niveau des processus (PLC) se vérifient régulièrement selon les risques significatifs qu'ils recèlent."
+   ],
+   "correct": [
+    0,
+    3
+   ],
+   "explications": [
+    "Exact : la vérification de l'existence du SCI (art. 728a al. 1 ch. 3 CO / NAS-CH 890) s'impose dans tout contrôle ordinaire, même sans aucun ITAC — sans ITAC identifié, elle se limite au Design & Implementation (mémento §3.4).",
+    "Faux : c'est l'inverse — la présence d'un ITAC déclenche l'approche basée sur l'informatique (D&I + efficacité opérationnelle) ; l'audit selon la NAS-CH 890 reste dû même sans ITAC.",
+    "Faux : le contrôle du fonctionnement durable (efficacité opérationnelle) ne fait pas partie de la vérification de l'existence ; il n'est requis que si l'auditeur veut s'appuyer sur le SCI (mémento §3.4).",
+    "Exact : les contrôles au niveau de l'entreprise (ELC) et les GITC se vérifient chaque année, tandis que les contrôles au niveau des processus (PLC) se vérifient régulièrement, selon les risques significatifs qu'ils recèlent (NAS 890, al. 33-35 ; cours ch. 01)."
+   ],
+   "piege": "inversion existence / efficacité"
+  },
+  {
+   "id": "IT-016",
+   "champ": "Scripts BD non autorisés → domaine",
+   "memento": "§3.3",
+   "difficulte": 2,
+   "question": "Quel domaine des GITC traite essentiellement le risque lié aux scripts de base de données non autorisés susceptibles de modifier les données comptables/financières ?",
+   "options": [
+    "Accès aux programmes et aux données (protection / sécurité des accès)",
+    "Modification de programmes (change management)",
+    "Opérations informatiques (centre de calcul, exploitation du réseau)",
+    "Acquisition et développement de programmes"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : un script de base de données non autorisé modifie les données en contournant l'application — le risque naît d'un accès privilégié insuffisamment restreint (superuser pouvant modifier les tables directement) : domaine « accès aux programmes et aux données » (mémento §3.3 ; cours ch. 02, accès privilégié / ZU-5).",
+    "Faux : le change management encadre les modifications de programmes via un processus (test, autorisation, mise en production) ; ici ce sont les données qui sont altérées par un accès direct à la base, pas le programme.",
+    "Faux : les opérations informatiques couvrent les traitements batch, les sauvegardes et la gestion des incidents (domaine BE) — pas l'accès direct aux données.",
+    "Faux : l'acquisition et le développement de programmes visent les nouveaux systèmes et leur mise en place, sans rapport avec l'exécution de scripts non autorisés sur des données existantes."
+   ],
+   "piege": "données modifiées ≠ programme modifié"
+  },
+  {
+   "id": "IT-017",
+   "champ": "Sous-domaines GITC à tester",
+   "memento": "§3.3",
+   "difficulte": 3,
+   "question": "Vous voulez vous appuyer sur des configurations système (workflow d'approbation SAP, contrôle 3-way-match) et les faites vérifier par le spécialiste IT. Quelles affirmations sont correctes ?",
+   "options": [
+    "Pour s'appuyer sur ces contrôles automatisés, il faut vérifier les trois catégories de GITC : gestion des accès (Access Management), gestion des changements (Change Management) et opérations informatiques (Computer Operations).",
+    "Seule la gestion des changements (Change Management) doit être vérifiée.",
+    "Le contrôle régulier / la re-certification des accès aux systèmes et données sensibles est un exemple de contrôle de gestion des changements.",
+    "Pour les opérations informatiques, seul le traitement des travaux (job processing) pertinent au regard du contrôle concerné doit être couvert."
+   ],
+   "correct": [
+    0,
+    3
+   ],
+   "explications": [
+    "Exact : pour s'appuyer sur des contrôles automatisés/configurés, les trois processus de GITC doivent être vérifiés — gestion des accès, gestion des changements et opérations informatiques (ISA-CH 315 (Révisée), Annexe 6 ; mémento §3.3).",
+    "Faux : le change management seul ne suffit pas — un contrôle configuré intact peut encore être contourné par des accès inappropriés ou perturbé par des opérations défaillantes.",
+    "Faux : la re-certification (contrôle régulier) des accès aux systèmes et données sensibles est un contrôle de gestion des accès (ZU-3 « contrôle des droits d'accès », Guide EXPERTsuisse ITGC 2024 ; mémento §3.2), pas de gestion des changements.",
+    "Exact : pour les opérations informatiques, l'approche est ciblée par les risques — seul le traitement des travaux (job processing) pertinent au regard du contrôle concerné doit être couvert."
+   ],
+   "piege": "re-certification classée en changements"
+  },
+  {
+   "id": "IT-018",
+   "champ": "Vérification de l'existence du SCI (890)",
+   "memento": "§3.4",
+   "difficulte": 2,
+   "question": "Concernant la vérification de l'existence du SCI selon la NAS-CH 890, quelles affirmations sont correctes ?",
+   "options": [
+    "Le but de la vérification est d'attester l'existence du SCI (et non son efficacité).",
+    "L'auditeur doit prouver l'existence des GITC en termes de conception et de mise en œuvre (Design & Implementation).",
+    "La NAS-CH 890 exige de contrôler l'efficacité de toute l'infrastructure informatique.",
+    "Une documentation écrite du SCI et une vue d'ensemble des systèmes informatiques ne sont pas nécessaires."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : la NAS-CH 890 vise à attester l'existence du SCI, non son efficacité — c'est la mise en œuvre de l'art. 728a al. 1 ch. 3 CO (mémento §3.4).",
+    "Exact : l'existence se prouve en termes de conception et de mise en œuvre (Design & Implementation) des GITC à une date donnée (mémento §3.4).",
+    "Faux : la 890 n'exige pas de contrôler l'efficacité de toute l'infrastructure informatique — l'efficacité opérationnelle n'est due que si l'auditeur veut s'appuyer sur les contrôles, et le périmètre reste ciblé sur les systèmes pertinents pour les comptes.",
+    "Faux : une documentation écrite du SCI et une vue d'ensemble des systèmes informatiques sont précisément des conditions de vérifiabilité du SCI (« le SCI existe et est documenté » — cours ch. 01)."
+   ],
+   "piege": "existence étendue à l'efficacité"
+  },
+  {
+   "id": "IT-019",
+   "champ": "Périodicité & réutilisation du test 890",
+   "memento": "§3.4",
+   "difficulte": 2,
+   "question": "Quelles affirmations sont correctes concernant la vérification des GITC selon la NAS-CH 890 et sa réutilisation ?",
+   "options": [
+    "La vérification a lieu obligatoirement chaque année.",
+    "La vérification n'a lieu que tous les trois ans selon un plan de rotation.",
+    "Le contrôle d'efficacité opérationnelle nécessite un échantillonnage plus important que la vérification de l'existence du SCI.",
+    "Le nombre d'échantillons de la vérification d'existence (890) suffit à confirmer aussi l'efficacité opérationnelle, si le contrôle n'a pas changé par rapport à l'année précédente."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : la vérification de l'existence du SCI a lieu chaque année dans le contrôle ordinaire (art. 728a al. 1 ch. 3 CO) ; les ELC et les GITC se vérifient annuellement (NAS 890, al. 33-35).",
+    "Faux : il n'existe pas de plan de rotation triennal pour la vérification de l'existence du SCI — elle est annuelle.",
+    "Exact : l'efficacité opérationnelle porte sur le fonctionnement pendant toute la période et exige donc un échantillonnage plus important que la simple constatation d'existence (D&I) à une date donnée (mémento §3.4).",
+    "Faux : l'échantillon de la vérification d'existence ne suffit jamais à conclure sur l'efficacité opérationnelle, même si le contrôle n'a pas changé — l'efficacité requiert ses propres tests, plus étendus."
+   ],
+   "piege": "échantillon d'existence recyclé"
+  },
+  {
+   "id": "IT-020",
+   "champ": "Responsabilité du SCI & niveaux IT",
+   "memento": "§3.4",
+   "difficulte": 2,
+   "question": "Vous déléguez la vérification du SCI et discutez du périmètre des niveaux de systèmes IT. Quelles affirmations sont correctes ?",
+   "options": [
+    "La responsabilité de la conception, de la mise en œuvre et de la maintenance du SCI incombe au conseil d'administration et à la direction.",
+    "La responsabilité du SCI incombe au seul directeur général (CEO).",
+    "Les niveaux de systèmes IT à vérifier dépendent des contrôles d'application concernés et du niveau système sur lequel ils opèrent.",
+    "Il suffit de vérifier le niveau des applications, car les contrôles IT n'opèrent qu'à ce niveau."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : le conseil d'administration définit les principes et met en place un SCI approprié (art. 716a al. 1 ch. 3 CO) et la direction le met en œuvre et le surveille — responsabilité conjointe CA + direction (cours ch. 01).",
+    "Faux : la responsabilité du SCI n'incombe pas au seul CEO — le CA définit les principes et la direction, collectivement, assure la mise en œuvre et la surveillance.",
+    "Exact : les niveaux de systèmes IT à vérifier dépendent des contrôles d'application concernés et du niveau système sur lequel ils opèrent ou dont ils tirent leurs données (mémento §2.2).",
+    "Faux : les contrôles ne vivent pas qu'en couche application — la fiabilité d'un contrôle applicatif dépend aussi des couches base de données, système d'exploitation et réseau, terrain des ITGC (mémento §2.2)."
+   ]
+  },
+  {
+   "id": "IT-021",
+   "champ": "Assertions correctes en audit IT",
+   "memento": "§3.1",
+   "difficulte": 2,
+   "question": "Quelles assertions sont correctes dans le cadre d'un audit IT d'une entreprise soumise au contrôle ordinaire ?",
+   "options": [
+    "Le choix du spécialiste IT suppose de vérifier sa compétence (connaissance pertinente du système, expérience de l'audit IT) et d'évaluer son objectivité.",
+    "Si un seul GITC est inefficace, aucun audit informatisé n'est possible.",
+    "Si l'auditeur veut évaluer le risque de contrôle à un niveau faible (s'appuyer sur les contrôles automatisés), il doit aussi tester l'efficacité opérationnelle des GITC.",
+    "Pour un client utilisant une solution standard (SAP, Abacus), le développement de programmes doit systématiquement être testé en détail comme pour un logiciel développé en interne."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : le choix d'un spécialiste IT suppose de vérifier sa compétence (connaissance pertinente du système, expérience de l'audit IT) et d'évaluer son objectivité (ISA-CH 620, par. 9).",
+    "Faux : un GITC inefficace n'empêche pas l'audit — l'auditeur dispose de cinq options (procédures supplémentaires, contrôles compensatoires, tests répétés, autres contrôles manuels, réévaluation combinée) et peut basculer vers une approche substantive (mémento §6.3).",
+    "Exact : évaluer le risque de contrôle à un niveau faible signifie s'appuyer sur les contrôles automatisés — ce qui exige de tester aussi l'efficacité opérationnelle des GITC sous-jacents (mémento §3.4 ; ISA-CH 330).",
+    "Faux : pour une solution standard (SAP, Abacus), le développement est le fait de l'éditeur — l'audit se concentre sur le paramétrage et les changements, sans tester le développement en détail comme pour un logiciel interne."
+   ],
+   "piege": "dramatisation d'une déficience GITC"
+  },
+  {
+   "id": "IT-022",
+   "champ": "Comptes partagés & contrôles fiables",
+   "memento": "§3.2",
+   "difficulte": 3,
+   "question": "Lors de l'audit des GITC, le spécialiste IT constate que des collaborateurs métier (Ventes, Achats, RH, Finances) partagent parfois leurs identifiants, mais ne peuvent apporter aucune modification au système ni exécuter d'activités IT spécifiques. Sur quels contrôles système pouvez-vous néanmoins vous appuyer ?",
+   "options": [
+    "L'approbation des commandes dans le service Achats (Commande approval).",
+    "Le contrôle 3-way-match dans les Achats (quantité facturée = quantité livrée et prix facturé = commande).",
+    "La configuration des interfaces entre la banque et le système ERP.",
+    "L'approbation des factures d'achat (Facture approval)."
+   ],
+   "correct": [
+    1,
+    2
+   ],
+   "explications": [
+    "Faux : l'approbation des commandes est un contrôle d'autorisation qui repose sur l'identité de l'approbateur ; avec des identifiants partagés, on ne peut plus démontrer qui a approuvé — la séparation des fonctions n'est plus garantie.",
+    "Exact : le 3-way-match est un contrôle automatisé configuré ; les collaborateurs concernés ne pouvant apporter aucune modification au système, le contrôle reste fiable malgré le partage d'identifiants (mémento §3.2/§4 ; corrigé reconstruit par raisonnement, cf. divergences.md).",
+    "Exact : la configuration des interfaces banque–ERP est un paramétrage système que ces utilisateurs ne peuvent pas altérer — on peut continuer de s'y fier.",
+    "Faux : comme l'approbation des commandes, l'approbation des factures d'achat dépend de l'identité de l'approbateur, que le partage d'identifiants rend indémontrable."
+   ],
+   "piege": "contrôles manuels vs contrôles configurés"
+  },
+  {
+   "id": "IT-023",
+   "champ": "Séparation des fonctions & authentification",
+   "memento": "§3.2",
+   "difficulte": 2,
+   "question": "Identifiez le problème de GITC (protection des accès) dans les deux situations suivantes. Quelles affirmations sont correctes ?",
+   "options": [
+    "Un comptable chargé de gérer les accès du service comptable crée un risque de violation de la séparation des fonctions (contournement du SCI).",
+    "Le partage des mots de passe au sein de l'équipe RH enfreint le sous-domaine « authentification » des GITC.",
+    "Le partage des mots de passe enfreint avant tout le sous-domaine « systèmes d'exploitation ».",
+    "Le risque principal du comptable gérant les accès est le non-respect de la politique des mots de passe des nouveaux utilisateurs."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : un comptable qui gère lui-même les accès de son service cumule des fonctions incompatibles — il pourrait s'octroyer des droits et contourner le SCI : violation de la séparation des fonctions (mémento §3.2, domaine ZU).",
+    "Exact : le partage des mots de passe empêche l'identification univoque des utilisateurs — il enfreint le sous-domaine « authentification » (ZU-1, Guide EXPERTsuisse ITGC 2024 ; mémento §3.2).",
+    "Faux : les « systèmes d'exploitation » sont une couche technique du modèle (mémento §2.2), pas un sous-domaine de la protection des accès — le manquement porte sur l'authentification des personnes.",
+    "Faux : le risque principal n'est pas le non-respect de la politique des mots de passe, mais la possibilité pour le comptable de s'attribuer des droits et de contourner la séparation des fonctions."
+   ],
+   "piege": "risque secondaire promu principal"
+  },
+  {
+   "id": "IT-024",
+   "champ": "Constatations d'accès & compensation",
+   "memento": "§3.2",
+   "difficulte": 3,
+   "question": "Constatations sur la gestion des accès — quelles assertions sont correctes ?",
+   "options": [
+    "Accès à l'ERP par SSO / Active Directory sans mot de passe ERP distinct, avec des règles de mot de passe AD conformes aux bonnes pratiques : ce n'est pas une constatation, l'accès étant sécurisé au niveau de l'Active Directory.",
+    "Des comptes de partants restés actifs après le départ sont une déficience, mais on peut encore se fier aux GITC si l'on exécute une procédure réductrice de risque (vérifier l'absence de connexion après le départ, sur toute l'année).",
+    "Qu'un compte de partant soit resté actif deux semaines rend d'emblée impossible tout appui sur les contrôles automatisés et impose un contrôle purement substantif.",
+    "L'accès à l'ERP par SSO sans mot de passe ERP empêche tout appui sur les contrôles automatisés, car l'accès n'est pas sécurisé."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : avec un SSO via Active Directory et des règles de mot de passe AD conformes aux bonnes pratiques, l'authentification est sécurisée au niveau de l'AD — ce n'est pas une constatation (corrigé reconstruit, confiance moyenne, cf. divergences.md).",
+    "Exact : des comptes de partants restés actifs sont une déficience, mais compensable — le « leaver testing » (vérifier l'absence de connexion après le départ, sur toute la période) permet encore de se fier aux GITC (cours ch. 02, contrôles compensatoires ; mémento §6.3).",
+    "Faux : un compte de partant resté actif deux semaines est une déficience à traiter, pas un motif de bascule automatique vers le tout-substantif — une procédure réductrice de risque peut préserver l'appui sur l'automatisé.",
+    "Faux : le SSO ne supprime pas l'authentification, il la déplace vers l'Active Directory ; si les règles AD sont robustes, l'accès est sécurisé et l'appui sur les contrôles automatisés reste possible."
+   ],
+   "piege": "SSO pris pour faille"
+  },
+  {
+   "id": "IT-025",
+   "champ": "Constatations de change management",
+   "memento": "§3.2",
+   "difficulte": 3,
+   "question": "Constatations de gestion des changements — quelles assertions sont correctes ?",
+   "options": [
+    "Une modification d'urgence sans aucun élément probant (test, validation, documentation), effectuée par un collaborateur depuis parti, oblige l'auditeur IT à demander au client des éléments probants additionnels pour vérifier ces modifications.",
+    "Cette modification d'urgence n'a aucune incidence sur l'audit puisque le collaborateur a quitté l'entreprise.",
+    "Une validation d'un changement utilisateur donnée par erreur par e-mail au lieu du workflow prévu est une faiblesse de contrôle du SCI, mentionnée dans le rapport détaillé au conseil d'administration.",
+    "Cette validation par e-mail hors workflow n'a aucune conséquence."
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "explications": [
+    "Exact : une modification d'urgence sans aucun élément probant (test, validation, documentation) constitue une déviation du change management — l'auditeur demande des éléments probants additionnels pour vérifier ces modifications (logique de l'ISA-CH 330.17 : investigations spécifiques ; cours ch. 02, scénario change management).",
+    "Faux : le départ du collaborateur ne supprime pas le risque — la modification a pu produire des effets sur les données financières pendant la période et doit être vérifiée (p. ex. via le log d'audit).",
+    "Exact : une validation donnée par e-mail hors du workflow prévu est une déviation du contrôle — faiblesse du SCI à mentionner dans le rapport détaillé au conseil d'administration (art. 728b al. 1 CO ; distinction réserve vs simple mention, cf. divergences.md).",
+    "Faux : même isolée, une validation hors workflow est un écart à apprécier et à communiquer — « aucune conséquence » est exclu."
+   ]
+  },
+  {
+   "id": "IT-026",
+   "champ": "Interprétation des résultats GITC/SCI",
+   "memento": "§3.4",
+   "difficulte": 3,
+   "question": "Interprétation des résultats de la vérification des GITC / du SCI — quelles assertions sont correctes ?",
+   "options": [
+    "Si la matrice SCI d'un client ne mentionne aucun GITC et que ces GITC sont pertinents pour le SCI financier, le SCI fait l'objet d'une limitation (réserve) dans ce secteur.",
+    "Des travaux par lots non pertinents pour les finances (p. ex. imprimante) laissés hors surveillance n'ont pas d'incidence sur la vérification des GITC, dès lors que les batchs financièrement pertinents sont surveillés.",
+    "Des résultats GITC médiocres, non encore finalisés avec les responsables IT, doivent être présentés directement au conseil d'administration avant toute discussion avec l'IT.",
+    "Lorsqu'un contrôle non exécuté selon le SCI est corrigé par le client avant la date du bilan, son efficacité est confirmée pour toute la période sous revue."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Exact : si la matrice SCI ne mentionne aucun GITC alors que ceux-ci sont pertinents pour le SCI financier, le SCI présente une lacune → limitation (réserve ciblée) dans la conclusion sur l'existence du SCI pour ce secteur (mémento §3.4).",
+    "Exact : des travaux par lots sans pertinence financière (p. ex. impression) laissés hors surveillance sont hors périmètre — seuls les batchs financièrement pertinents comptent pour la vérification des GITC (approche ciblée, cf. « job processing pertinent », IT-017).",
+    "Faux : des résultats médiocres non finalisés se valident d'abord avec les responsables IT (exactitude factuelle, contrôles compensatoires éventuels) avant toute présentation au conseil d'administration.",
+    "Faux : une correction avant la date du bilan ne prouve pas le fonctionnement du contrôle sur toute la période sous revue — l'efficacité opérationnelle s'apprécie dans la durée."
+   ],
+   "piege": "correction tardive ≠ efficacité annuelle"
+  },
+  {
+   "id": "IT-107",
+   "champ": "Les 5 domaines EXPERTsuisse d'ITGC",
+   "memento": "§3.2",
+   "difficulte": 2,
+   "question": "Selon le Guide pratique EXPERTsuisse « Contrôles IT généraux (ITGC) » du 19.11.2024, quels sont les cinq domaines d'ITGC ?",
+   "options": [
+    "Exploitation IT (BE) · contrôles secondaires d'application (AN) · protection des accès (ZU) · sécurité physique et IT (SI) · Change Management (CM)",
+    "Accès aux programmes et données · modification de programmes · acquisition et développement de programmes · opérations informatiques · cybersécurité",
+    "Gestion des accès · gestion des changements · gestion des opérations IT · gestion des incidents · gestion des sauvegardes",
+    "Authentification · administration des droits · contrôle des droits · comptes impersonnels · fonctions IT privilégiées"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le Guide pratique EXPERTsuisse ITGC (19.11.2024) structure les ITGC en 5 domaines et 18 contrôles : BE Exploitation IT, AN contrôles secondaires d'application, ZU protection des accès, SI sécurité physique et IT, CM Change Management (mémento §3.2).",
+    "Faux : les quatre premiers éléments sont les 4 catégories classiques de GITC (autre référentiel, cours ch. 01), et la cybersécurité n'est pas un domaine d'ITGC — mélange de référentiels.",
+    "Faux : gestion des accès, des changements et des opérations IT sont les 3 processus de l'ISA-CH 315 (Révisée), Annexe 6 (mémento §3.3) ; les incidents et les sauvegardes sont des contrôles du domaine BE, pas des domaines.",
+    "Faux : ce sont les cinq contrôles du seul domaine ZU (protection des accès), ZU-1 à ZU-5 — des contrôles, pas des domaines (mémento §3.2)."
+   ],
+   "piege": "référentiels 4 / 5 domaines confondus"
+  }
+ ]
+}

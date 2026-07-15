@@ -1,0 +1,171 @@
+{
+ "module": "M13",
+ "titre": "13 · Cybersécurité",
+ "questions": [
+  {
+   "id": "IT-099",
+   "champ": "Cyberrisque, FAIR & pertinence audit",
+   "memento": "§13.1",
+   "difficulte": 2,
+   "question": "Concernant le cyberrisque, sa mesure et sa pertinence pour l'audit des états financiers, quelles affirmations sont correctes ?",
+   "options": [
+    "Le cyberrisque est la possibilité qu'un acteur externe, à l'origine d'une cybermenace, réussisse à causer un préjudice ; pour beaucoup d'entreprises il fait partie des risques importants à considérer dans l'analyse des risques et la planification.",
+    "La « threat event frequency » désigne la fréquence à laquelle l'auteur d'une menace s'en prend à un actif, y compris les tentatives infructueuses.",
+    "Les cyberrisques ne font jamais partie des risques importants pour la clôture ; l'auditeur n'a donc pas à évaluer leur impact potentiel sur les états financiers.",
+    "La « threat event frequency » ne comptabilise que les attaques réussies, à l'exclusion des tentatives infructueuses."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : le cyberrisque est la possibilité qu'un acteur à l'origine d'une cybermenace réussisse à causer un préjudice (modèle Menace → Faille → Incidence) ; pour beaucoup d'entreprises, il fait partie des risques importants à considérer dans l'analyse des risques et la planification de l'audit (mémento §13.1).",
+    "Correct : dans la taxonomie FAIR, la threat event frequency compte toutes les fois où l'auteur d'une menace s'en prend à un actif, tentatives infructueuses comprises ; Loss Event Frequency = Threat Event Frequency × Vulnerability (mémento §13.1).",
+    "Faux : les cyberrisques peuvent tout à fait constituer des risques importants pour la clôture (indisponibilité ou altération des données comptables, rançongiciel) ; l'auditeur doit évaluer leur impact potentiel sur les états financiers.",
+    "Faux : c'est le piège inverse de l'affirmation correcte — la threat event frequency inclut les tentatives infructueuses ; c'est la vulnérabilité (Vulnerability) qui détermine la proportion de tentatives qui aboutissent en événements de perte."
+   ],
+   "piege": "Tentatives infructueuses comptent"
+  },
+  {
+   "id": "IT-100",
+   "champ": "Rôle de l'auditeur (dont cloud)",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Quelles affirmations sont correctes concernant les responsabilités et le rôle de l'auditeur face aux cyberrisques, y compris lorsque le client externalise dans le cloud ?",
+   "options": [
+    "L'auditeur évalue le caractère approprié des réactions de l'entité aux risques et incidents de cybersécurité.",
+    "Si un cyberincident s'est produit, l'auditeur doit le comprendre et évaluer ses répercussions sur son approche d'audit.",
+    "Les cyberrisques chez un fournisseur de services cloud susceptibles d'entraîner une anomalie significative doivent être identifiés dans le cadre de l'analyse des risques.",
+    "L'auditeur établit un rapport d'audit distinct sur la cybersécurité et émet une opinion sur la « Cyber Assessment » dans le rapport détaillé."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Correct : l'auditeur évalue le caractère approprié des réactions de l'entité aux risques et incidents cyber, dans la mesure où ils peuvent affecter l'information financière (mémento §13.1, rôle de l'auditeur).",
+    "Correct : un cyberincident survenu doit être compris et ses répercussions évaluées sur l'approche d'audit (données compromises, contrôles contournés, incidence possible sur la continuité d'exploitation).",
+    "Correct : lorsque le client externalise dans le cloud, les cyberrisques chez le prestataire susceptibles d'entraîner une anomalie significative entrent dans l'analyse des risques (lien avec l'ISA-CH 402 et les rapports SOC, §12).",
+    "Faux : l'auditeur financier n'établit ni rapport d'audit distinct sur la cybersécurité ni opinion sur une « Cyber Assessment » — il apprécie uniquement l'impact potentiel sur les comptes (mémento §13.1, périmètre de l'auditeur financier)."
+   ]
+  },
+  {
+   "id": "IT-101",
+   "champ": "Étendue primaire vs secondaire",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "En pratique, on distingue une « étendue primaire » et une « étendue secondaire » des procédures d'audit relatives aux cyberrisques. Comment se caractérise l'étendue primaire ?",
+   "options": [
+    "Elle couvre en règle générale les contrôles, données et systèmes de l'entreprise ainsi que l'ensemble des processus commerciaux.",
+    "Elle ne peut être identifiée qu'après l'étendue secondaire et comprend tous les processus supérieurs utiles à la constitution de l'équipe d'audit.",
+    "Elle comprend tous les risques importants pour l'audit des états financiers ainsi que l'entreprise elle-même, avec des procédures pour les contrôles d'accès, d'applications et généraux informatiques.",
+    "Elle comprend les contrôles, données et systèmes présentant un intérêt pour l'audit des comptes annuels ; des procédures de contrôle sont ensuite développées pour répondre à l'environnement informatique propre à l'entreprise."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'étendue primaire ne couvre pas l'ensemble des processus commerciaux — elle est bornée par la pertinence pour l'audit des comptes annuels ; y inclure tous les processus dilue le périmètre au-delà du rôle de l'auditeur financier.",
+    "Faux : l'étendue primaire se définit en premier (c'est le cœur du périmètre) ; elle ne dépend pas de l'étendue secondaire et n'a pas pour objet la constitution de l'équipe d'audit.",
+    "Faux : « tous les risques importants ainsi que l'entreprise elle-même » est trop large — l'étendue primaire ne vise pas l'entreprise en général, mais uniquement les contrôles, données et systèmes pertinents pour les états financiers.",
+    "Correct : l'étendue primaire comprend les contrôles, données et systèmes présentant un intérêt pour l'audit des comptes annuels ; les procédures de contrôle sont ensuite développées en fonction de l'environnement informatique propre à l'entreprise — cohérent avec le périmètre restreint de l'auditeur financier (mémento §13)."
+   ],
+   "piege": "Étendue bornée aux comptes"
+  },
+  {
+   "id": "IT-102",
+   "champ": "Gouvernance : CA & direction",
+   "memento": "§13.1",
+   "difficulte": 2,
+   "question": "La gestion des cyberrisques se répartit entre la direction, l'équipe de gestion des risques et l'équipe opérationnelle. Quelles affirmations sont correctes ?",
+   "options": [
+    "La direction définit l'appétit et la tolérance au risque et s'assure que les risques cyber sont correctement gérés par les responsables opérationnels.",
+    "La gouvernance d'entreprise, la responsabilité et le devoir de loyauté (fiduciary duty) sont des sujets stratégiques du conseil d'administration.",
+    "Le stockage et le traitement techniques des données constituent des sujets stratégiques du conseil d'administration.",
+    "La direction peut, en règle générale, déléguer entièrement la cyberstratégie à l'équipe de mise en œuvre opérationnelle."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : la direction définit l'appétit et la tolérance au risque et supervise la gestion des cyberrisques par les responsables opérationnels — premier niveau du modèle de gouvernance à 3 lignes (Executive / Risk Management / Business & Cyber Defense, mémento §13.1).",
+    "Correct : la gouvernance d'entreprise, la responsabilité et le devoir de loyauté (fiduciary duty) sont des sujets stratégiques qui relèvent du conseil d'administration.",
+    "Faux : le stockage et le traitement techniques des données relèvent du niveau opérationnel (Business & Cyber Defense), pas des sujets stratégiques du conseil d'administration — l'option exploite la confusion entre niveau stratégique et niveau opérationnel.",
+    "Faux : la direction ne peut pas déléguer entièrement la cyberstratégie à l'équipe opérationnelle — la définition de la stratégie et la supervision restent de sa responsabilité ; seule la mise en œuvre est déléguée."
+   ],
+   "piege": "Stratégique vs opérationnel"
+  },
+  {
+   "id": "IT-103",
+   "champ": "Axes d'identification des cyberrisques",
+   "memento": "§13.1",
+   "difficulte": 2,
+   "question": "Lors de la planification d'un audit des comptes annuels, quels éléments constituent des points de départ / domaines pertinents pour identifier les cyberrisques ?",
+   "options": [
+    "La sécurité des données : quels systèmes de stockage sont en place ?",
+    "Le stockage des données : où et comment les données sont-elles conservées ?",
+    "Le traitement des données : comment les données sont-elles traitées jusqu'à leur archivage ?",
+    "L'analyse de données : où puis-je utiliser des analyses de données ?"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explications": [
+    "Correct : la sécurité des données (data security) est l'un des 4 axes d'identification des cyberrisques utilisés par l'auditeur en planification (data security / storage / transmission / processing, mémento §13.1).",
+    "Correct : le stockage des données (data storage) — où et comment les données sont conservées — est un des 4 axes d'identification des cyberrisques.",
+    "Correct : le traitement des données (data processing) — comment les données sont traitées jusqu'à leur archivage — complète les axes data security / storage / transmission / processing.",
+    "Faux : l'analyse de données (Data Analytics) est un outil d'audit (§7), pas un axe d'identification des cyberrisques — le 4e axe, absent des options, est la transmission des données (data transmission)."
+   ],
+   "piege": "DA ≠ axe cyber"
+  },
+  {
+   "id": "IT-104",
+   "champ": "Menaces & mesures personnelles",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Concernant les notions de base de la cybersécurité (menaces et mesures personnelles), quelles affirmations sont correctes ?",
+   "options": [
+    "L'utilisation non sécurisée des services de cloud est une cyber-menace typique.",
+    "La sécurité des mots de passe et la sécurité des appareils font partie des mesures personnelles typiques de cybersécurité.",
+    "La suppression des contrôles par la direction (management override) est une cyber-menace typique.",
+    "La « sécurité réglementaire » (regulatory security) est une mesure personnelle typique de cybersécurité."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : l'utilisation non sécurisée des services cloud figure parmi les cyber-menaces typiques, aux côtés du ransomware, des attaques sur les paiements et du phishing.",
+    "Correct : la sécurité des mots de passe et la sécurité des appareils font partie des mesures personnelles typiques de cybersécurité, avec la sécurité physique.",
+    "Faux : le management override (suppression des contrôles par la direction) est un risque de fraude traité par l'ISA-CH 240 et le JET (§11), pas une cyber-menace — l'option mélange deux familles de risques.",
+    "Faux : la « sécurité réglementaire » n'est pas une mesure personnelle — les mesures personnelles typiques sont la sécurité des mots de passe, des appareils et la sécurité physique ; la conformité réglementaire relève du niveau organisationnel."
+   ],
+   "piege": "Override = fraude, pas cyber"
+  },
+  {
+   "id": "IT-105",
+   "champ": "Réactions de l'auditeur (scénarios)",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Dans les situations suivantes (contrôle ordinaire), quelles réactions de l'auditeur sont correctes ?",
+   "options": [
+    "Un client demande une confirmation écrite des contrôles de cybersécurité à l'assemblée générale : l'auditeur explique qu'il n'est pas responsable de l'évaluation des cyberrisques et ne peut donc pas attester l'adéquation de ces contrôles.",
+    "Face à des déficiences cyber importantes chez un client : bien qu'il ne procède pas à une évaluation des contrôles en matière de cyberrisque, l'auditeur est tenu d'informer le client de manière appropriée des risques importants.",
+    "L'auditeur ajoute la confirmation des contrôles de cybersécurité à la lettre de mission afin de pouvoir l'émettre.",
+    "Comme l'auditeur ne réalise pas d'audit cyber, il n'a, en cas de déficiences importantes, aucune mesure à prendre ni information à communiquer."
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explications": [
+    "Correct : l'auditeur financier n'est pas responsable de l'évaluation des cyberrisques du client et ne peut donc pas attester l'adéquation de ses contrôles de cybersécurité devant l'assemblée générale — cela sortirait de son périmètre (mémento §13.1, piège du périmètre de l'auditeur).",
+    "Correct : même sans évaluation des contrôles cyber, l'auditeur qui constate des déficiences importantes est tenu d'en informer le client de manière appropriée (communication des faiblesses et risques importants constatés).",
+    "Faux : ajouter une confirmation des contrôles de cybersécurité à la lettre de mission ne rend pas l'attestation possible — l'audit des comptes ne comporte pas d'audit de la cybersécurité, et l'auditeur ne peut pas attester ce qu'il n'a pas audité.",
+    "Faux : l'absence d'audit cyber ne dispense pas l'auditeur de son devoir d'information — les risques et déficiences importants qu'il constate doivent être communiqués au client de manière appropriée."
+   ]
+  }
+ ]
+}
