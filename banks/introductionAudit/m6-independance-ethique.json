@@ -20,7 +20,8 @@
     "Faux : l'indépendance effective est tout aussi exigée par l'art. 728 al. 1 CO, même si elle n'est pas mesurable de l'extérieur.",
     "Faux : selon l'art. 728 al. 1 CO, les deux faces valent pour tout contrôle ordinaire, pas seulement pour les sociétés ouvertes au public."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.1"
   },
   {
    "id": "M6-002",
@@ -39,7 +40,8 @@
     "Faux : l'indépendance en apparence est précisément celle qui est identifiable pour des tiers (art. 728 CO).",
     "Faux : seule l'indépendance en apparence est mesurable de l'extérieur ; l'effective relève de l'attitude intérieure (art. 728 CO)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.1"
   },
   {
    "id": "M6-003",
@@ -58,7 +60,8 @@
     "Compatible : un simple déjeuner de courtoisie n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO ; il ne restreint pas l'indépendance.",
     "Incompatible : l'acceptation de cadeaux ou d'avantages particuliers est visée par l'art. 728 al. 2 ch. 7 CO."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§6.3"
   },
   {
    "id": "M6-004",
@@ -77,7 +80,8 @@
     "Faux : l'art. 728 al. 4 CO interdit à tout employé du réviseur, même non participant, d'être membre du CA du client ou d'y exercer une fonction décisionnelle.",
     "Faux : l'art. 728 al. 6 CO interdit que l'organe de révision appartienne au même groupe que le client contrôlé."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.3"
   },
   {
    "id": "M6-005",
@@ -96,7 +100,8 @@
     "Admis : une simple recommandation d'amélioration du SCI reste possible tant que le réviseur n'en assume pas le maintien (art. 728 al. 2 ch. 4 CO).",
     "Admis : le réviseur peut fournir un modèle d'annexe, le client conservant la responsabilité de son établissement (art. 728 al. 2 ch. 4 CO — pas d'auto-contrôle)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.3"
   },
   {
    "id": "M6-006",
@@ -115,7 +120,8 @@
     "Admis : l'établissement des comptes annuels par traitement des soldes est en principe autorisé si le client garde la responsabilité (art. 728 al. 2 ch. 4 CO).",
     "Admis : un déjeuner de travail n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.3"
   },
   {
    "id": "M6-007",
@@ -134,7 +140,8 @@
     "Faux : une simple recommandation reste admise ; seule l'implication qui crée un auto-contrôle est interdite (art. 728 al. 2 ch. 4 CO).",
     "Faux : la tenue de la comptabilité des salaires reste un auto-contrôle interdit en ordinaire (art. 728 al. 2 ch. 4 CO), quelle que soit la recommandation du SCI."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.3"
   },
   {
    "id": "M6-008",
@@ -153,7 +160,8 @@
     "Faux : les autres services ne sont pas interdits en tant que tels ; l'art. 11 LSR les plafonne à 10 % pour les sociétés d'intérêt public.",
     "Faux : l'art. 11 LSR ne vise que les sociétés d'intérêt public (entreprises de révision soumises à la surveillance de l'État), pas toutes les SA ni le contrôle restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.5 (+ §6.2)"
   },
   {
    "id": "M6-009",
@@ -172,7 +180,8 @@
     "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 15 %.",
     "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 20 %."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§6.5"
   },
   {
    "id": "M6-010",
@@ -191,7 +200,8 @@
     "Faux : CHF 20'000 correspondrait à 20 %, alors que l'art. 11 LSR fixe 10 %.",
     "Faux : CHF 100'000 est le coût de l'audit lui-même, non le plafond des autres services (10 % selon l'art. 11 LSR)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.5"
   },
   {
    "id": "M6-011",
@@ -210,7 +220,8 @@
     "Faux : l'art. 730a al. 2 CO impose précisément une interruption ; le mandat n'est pas renouvelable sans pause.",
     "Faux : les durées sont inversées ; l'art. 730a al. 2 CO prévoit 7 ans de mandat puis 3 ans d'interruption."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.5 (+ §6.2)"
   },
   {
    "id": "M6-012",
@@ -229,7 +240,8 @@
     "Faux : le maximum total est de 7 ans ; après 5 ans écoulés, il ne reste pas 5 ans (art. 730a al. 2 CO).",
     "Faux : la limite de 7 ans n'étant pas atteinte, Mme A. peut encore diriger 2 ans avant l'interruption (art. 730a al. 2 CO)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.5"
   },
   {
    "id": "M6-013",
@@ -248,7 +260,8 @@
     "Faux : le critère n'est pas le type d'agrément mais le type de contrôle ; la rotation vise l'ordinaire (art. 730a al. 2 CO).",
     "Faux : c'est l'inverse ; l'art. 730a al. 2 CO vise le contrôle ordinaire, pas le restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.2"
   },
   {
    "id": "M6-014",
@@ -267,7 +280,8 @@
     "Exact : l'art. 729 CO admet la collaboration à la comptabilité s'il n'y a pas de risque d'auto-contrôle et moyennant des mesures organisationnelles (séparation, décisions du client, publication, responsabilité au client).",
     "Faux : l'allègement de l'art. 729 CO concerne le contrôle restreint ; une société ouverte au public relève au contraire de règles renforcées (art. 11 LSR)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.4"
   },
   {
    "id": "M6-015",
@@ -286,7 +300,8 @@
     "Faux : la durée de 7 ans relève de la rotation (art. 730a al. 2 CO), sans lien avec l'exclusion de l'art. 729 CO.",
     "Faux : le plafond de 10 % relève de l'art. 11 LSR (sociétés d'intérêt public), non de l'exclusion prévue à l'art. 729 CO."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.4"
   },
   {
    "id": "M6-016",
@@ -305,7 +320,8 @@
     "Faux : l'art. 39 LSR plafonne l'amende à CHF 100'000, non à CHF 1 million.",
     "Faux : la sanction de l'art. 39 LSR est une amende ; le retrait d'agrément n'est pas la peine prévue par cette disposition."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.8 (+ §6.5)"
   },
   {
    "id": "M6-017",
@@ -324,7 +340,8 @@
     "Faux : l'art. 40 LSR prévoit une véritable sanction pénale (délit), non une simple mesure administrative.",
     "Faux : l'art. 40 LSR qualifie ces faits de délit (peine ≤ 3 ans), non de crime puni de 10 ans."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.8"
   },
   {
    "id": "M6-018",
@@ -343,7 +360,8 @@
     "Exact : le niveau macro (structurel/réglementaire) porte sur le cadre juridique ; ses déficits (normes = limites, réformes en retard, droits nationaux hétérogènes) sont à combler par des codes d'entreprise — Zünd, EXPERT FOCUS TH 1-2/05.",
     "Faux : la moralité de groupe de l'équipe d'audit illustre le niveau méso appliqué à l'audit, non le macro (Zünd, EXPERT FOCUS TH 1-2/05)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.7"
   },
   {
    "id": "M6-019",
@@ -362,7 +380,8 @@
     "Faux : « interpréter de manière créative » les résultats viole l'intégrité et l'objectivité exigées (Règles d'éthique EXPERTsuisse ; art. 728 al. 1 CO).",
     "Faux : refuser est correct, mais ignorer le conflit manque au devoir de traiter le dilemme éthique (identification des faits, des personnes touchées, des solutions, décision)."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§6.7"
   },
   {
    "id": "M6-020",
@@ -381,7 +400,8 @@
     "Faux : l'aléa moral est une notion connexe, mais le phénomène décrit ici est la théorie du principal-agent (Sager et al., EXPERT FOCUS).",
     "Faux : le screening n'est pas la théorie visée ; il s'agit du principal-agent (Sager et al., EXPERT FOCUS)."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§6.7"
   },
   {
    "id": "M6-021",
@@ -400,7 +420,8 @@
     "Faux : la situation professionnelle relève des facteurs situationnels ; les facteurs individuels tiennent aussi au caractère (Zünd, EXPERT FOCUS).",
     "Faux : c'est l'inverse ; les objectifs égocentriques accroissent la vulnérabilité au comportement non éthique (Zünd, EXPERT FOCUS)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.7"
   },
   {
    "id": "M6-022",
@@ -419,7 +440,8 @@
     "Faux : c'est l'inverse ; l'ISQM-CH 1+2 (actuel) a remplacé l'ancien ISQC-CH 1.",
     "Faux : les entreprises révisant selon les NA-CH doivent précisément appliquer l'ISQM-CH 1+2."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§4.5"
   }
  ]
 }

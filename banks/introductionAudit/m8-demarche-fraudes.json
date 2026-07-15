@@ -20,7 +20,8 @@
     "Faux : la planification (ISA-CH 300) précède la réalisation (ISA-CH 500), et non l'inverse.",
     "Faux : le mandat est la première phase et la clôture / rapport (NAS-CH 700) la dernière ; l'ordre proposé est incohérent."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§8.1"
   },
   {
    "id": "M8-002",
@@ -39,7 +40,8 @@
     "FAUSSE (réponse attendue) : la planification (ISA-CH 300) vient APRÈS le mandat ; on n'établit pas la stratégie d'audit avant d'avoir accepté la mission (ISA-CH 210).",
     "Vrai : le rapport de l'organe de révision (NAS-CH 700) clôt le processus d'audit."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.1"
   },
   {
    "id": "M8-003",
@@ -58,7 +60,8 @@
     "Faux : le 'risque externe' n'existe pas dans le modèle ; les composantes sont RI, RC et RND.",
     "Faux : le risque de non-détection (RND) fait partie intégrante du modèle ; c'est même la seule composante que l'auditeur peut influencer."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.2"
   },
   {
    "id": "M8-004",
@@ -77,7 +80,8 @@
     "Exact : le risque inhérent (RI) est la probabilité d'une anomalie sans tenir compte du SCI (avant contrôle).",
     "Faux : le risque d'audit est le produit RI x RC x RND, pas une composante isolée."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§8.2"
   },
   {
    "id": "M8-005",
@@ -96,7 +100,8 @@
     "Faux : le risque de non-détection (RND) est celui qu'une anomalie échappe aux procédures de l'auditeur, pas au SCI.",
     "Faux : le risque d'audit est le produit global RI x RC x RND, pas cette composante précise."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.2"
   },
   {
    "id": "M8-006",
@@ -115,7 +120,8 @@
     "Faux : le risque de contrôle (RC) concerne les anomalies qui échappent au SCI de l'entité, pas aux procédures de l'auditeur.",
     "Faux : le risque d'audit est le produit RI x RC x RND, pas la composante liée aux procédures."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.2"
   },
   {
    "id": "M8-007",
@@ -134,7 +140,8 @@
     "Vrai : en adaptant la nature et l'étendue de ses procédures (ISA-CH 330), l'auditeur abaisse le RND.",
     "Vrai : RI et RC découlent de l'activité, de l'environnement et du SCI de l'entité."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§8.2"
   },
   {
    "id": "M8-008",
@@ -153,7 +160,8 @@
     "Vrai : des éléments probants suffisants et appropriés (ISA-CH 500) abaissent le risque de non-détection, donc le risque d'audit.",
     "FAUSSE (réponse attendue) : le risque d'audit ne peut pas être totalement éliminé, quelle que soit la qualité de l'audit ; il subsiste toujours un risque résiduel."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.2"
   },
   {
    "id": "M8-009",
@@ -172,7 +180,8 @@
     "Faux : les confirmations externes (ISA-CH 505) relèvent du contrôle ordinaire ; le restreint les exclut.",
     "Faux : le contrôle restreint donne une assurance limitée (négative), pas une assurance raisonnable."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.2"
   },
   {
    "id": "M8-010",
@@ -191,7 +200,8 @@
     "Exact : ISA-CH 315 (révisé) régit l'identification et l'évaluation des risques d'anomalies significatives, y compris via la connaissance du SCI.",
     "Faux : ISA-CH 330 traite des réponses de l'auditeur aux risques évalués."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.1"
   },
   {
    "id": "M8-011",
@@ -210,7 +220,8 @@
     "Faux : ISA-CH 300 = planification et ISA-CH 500 = éléments probants ; les associations proposées sont inversées.",
     "Faux : ISA-CH 320 = caractère significatif et ISA-CH 330 = réponses aux risques ; l'attribution proposée est erronée."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.1"
   },
   {
    "id": "M8-012",
@@ -229,7 +240,8 @@
     "FAUSSE (réponse attendue) : le jugement professionnel s'applique justement aussi à l'estimation du risque d'audit.",
     "Vrai : l'esprit critique implique de rester attentif aux informations contredisant la fiabilité des documents et des réponses aux demandes (ISA-CH 200)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.3"
   },
   {
    "id": "M8-013",
@@ -248,7 +260,8 @@
     "Vrai : l'esprit critique est requis en permanence, indépendamment de l'expérience passée avec le client (ISA-CH 200).",
     "Vrai : l'esprit critique contribue à repérer les risques d'anomalies significatives, notamment dues à la fraude (ISA-CH 240)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§8.3"
   },
   {
    "id": "M8-014",
@@ -267,7 +280,8 @@
     "Faux : c'est l'inverse ; la fraude est intentionnelle et l'erreur non intentionnelle.",
     "Faux : le critère distinctif est l'intention (ISA-CH 240), pas le montant de l'anomalie."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§9.1"
   },
   {
    "id": "M8-015",
@@ -286,7 +300,8 @@
     "Faux : les erreurs sont non intentionnelles et ne constituent pas des fraudes.",
     "Faux : ces notions relèvent du droit pénal, pas de la typologie des fraudes de l'ISA-CH 240."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§9.1"
   },
   {
    "id": "M8-016",
@@ -305,7 +320,8 @@
     "Faux : les facteurs individuels, situationnels et culturels relèvent de l'éthique économique (Zünd), pas du triangle de la fraude.",
     "Faux : ces éléments ne correspondent pas aux trois sommets du triangle de la fraude."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§9.2"
   },
   {
    "id": "M8-017",
@@ -324,7 +340,8 @@
     "Vrai : le rôle de l'auditeur est d'identifier, d'évaluer et de réduire les risques d'anomalies dues à la fraude, pas de garantir la détection de toute fraude.",
     "Vrai : le décalage entre l'attente d'une détection de toute fraude et le rôle réel de l'auditeur est l'expectation gap."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§9.3"
   }
  ]
 }

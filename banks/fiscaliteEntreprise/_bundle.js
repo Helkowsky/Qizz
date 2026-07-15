@@ -346,7 +346,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-023",
      "champ": "Imposition partielle du dividende (fortune privée)",
-     "memento": "s10",
+     "memento": "§10",
      "difficulte": 1,
      "question": "Madame M, domiciliée en Suisse, détient une participation de 15% dans Muller SA (CH) dans sa fortune privée. Muller SA lui verse un dividende de CHF 10 000 (avant déduction de l'impôt anticipé). Quel montant doit être imposé comme revenu chez Madame M dans le cadre de l'impôt fédéral direct ?",
      "options": [
@@ -673,7 +673,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-044",
      "champ": "Étendue de l'assujettissement — ES et immeuble étrangers",
-     "memento": "s1",
+     "memento": "§1",
      "difficulte": 2,
      "question": "B SA a son siège à Berne. Elle possède une succursale en Italie, un bien immobilier (placement de capitaux) en Autriche et un compte bancaire / dépôt de titres auprès d'une banque aux États-Unis. B SA réalise un bénéfice net global de CHF 7 mio., dont CHF 4 mio. de son activité en Suisse, CHF 1,5 mio. de son activité en Italie, CHF 0,8 mio. de plus-values immobilières en Autriche et CHF 0,7 mio. de revenus du capital du compte / dépôt de titres. À combien s'élève le bénéfice imposable en Suisse ?",
      "options": [
@@ -688,7 +688,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-045",
      "champ": "Généralités PM — affirmation fausse",
-     "memento": "s1",
+     "memento": "§1",
      "difficulte": 2,
      "question": "Laquelle des affirmations suivantes concernant l'impôt fédéral direct est fausse ?",
      "options": [
@@ -703,7 +703,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-046",
      "champ": "Étendue de l'assujettissement — perte ES étranger déductible",
-     "memento": "s1",
+     "memento": "§1",
      "difficulte": 3,
      "question": "C SA a son siège à Coire. Elle possède une succursale en Allemagne, un bien immobilier (placement de capitaux) en Autriche et un compte bancaire/dépôt de titres auprès d'une banque en France. C SA réalise un bénéfice net global de CHF 4,5 mio., dont CHF 5 mio. de son activité en Suisse, CHF 2 mio. de pertes liées à l'activité en Allemagne, CHF 0,8 mio. de bénéfices de l'immeuble de placement autrichien et CHF 0,7 mio. provenant de rendements de capitaux du compte bancaire / dépôt de titres. À combien s'élève le bénéfice imposable en Suisse de C SA ?",
      "options": [
@@ -838,7 +838,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-055",
      "champ": "Remploi (report de réserves latentes)",
-     "memento": "s2",
+     "memento": "§2",
      "difficulte": 2,
      "question": "La société T SA (Suisse), active dans l'aviation, remplace un avion par un modèle plus récent. L'avion a été acheté au prix de CHF 15 000 000, sa valeur déterminante pour l'impôt sur le bénéfice est de CHF 5 000 000 et il sera vendu au prix de CHF 8 000 000. Le prix du nouvel avion s'élève à CHF 12 000 000. Quelle est la valeur déterminante pour l'impôt sur le bénéfice du nouvel avion (IFD), T SA visant un remploi aussi élevé que possible ?",
      "options": [
@@ -853,7 +853,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-056",
      "champ": "Provision pour impôt sur le bénéfice",
-     "memento": "s2",
+     "memento": "§2",
      "difficulte": 3,
      "question": "La société Beta SA a son siège à Zurich et réalise un bénéfice net imposable de CHF 4 mio. Le taux d'imposition cantonal et communal sur le bénéfice (taux statutaire) s'élève à 12%. Un montant de CHF 250 000 a déjà été provisionné pour les impôts sur le bénéfice de l'exercice en cours. De combien faut-il ajuster la provision ? (L'impôt sur le capital ne doit pas être pris en compte.)",
      "options": [
@@ -1206,7 +1206,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-079",
      "champ": "Report sur 7 ans — expiration (art. 67 LIFD)",
-     "memento": "s5",
+     "memento": "§5",
      "difficulte": 3,
      "question": "La société C SA (siège en Suisse) a réalisé : 2014 (120 000) perte ; 2015 (240 000) perte ; 2016 10 000 bénéfice ; 2017 (130 000) perte ; 2018 (100 000) perte ; 2019 80 000 bénéfice ; 2020 (20 000) perte ; 2021 (50 000) perte ; 2022 200 000 bénéfice. Supposons qu'elle réalise un bénéfice de CHF 50 000 en 2023 : quel est le montant des pertes reportées pour l'impôt fédéral direct au 1er janvier 2024 (art. 67 al. 1 LIFD) ?",
      "options": [
@@ -1221,7 +1221,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-080",
      "champ": "Report 7 ans — imputation année par année",
-     "memento": "s5",
+     "memento": "§5",
      "difficulte": 3,
      "question": "La société V SA (Zoug), fondée en 2010, a réalisé selon le droit commercial : 2010 (50) ; 2011 (40) ; 2012 (30) ; 2013 (20) ; 2014 (10) ; 2015 0 ; 2016 (50) ; 2017 40 ; 2018 0 ; 2019 (70) ; 2020 40 ; 2021 0 ; 2022 20. Quel est le montant des pertes reportées au 01.01.2023 ?",
      "options": [
@@ -1577,7 +1577,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-104",
      "champ": "Bénéfice en capital — récupération d'amortissement",
-     "memento": "s6",
+     "memento": "§6",
      "difficulte": 3,
      "question": "Z SA (CH) cède sa participation de 20% dans T Sàrl au prix de CHF 3,5 mio. La valeur pour l'impôt sur le bénéfice s'élève à CHF 2 mio. La participation a été acquise il y a trois ans au prix de CHF 2,5 mio. et amortie l'année dernière de CHF 0,5 mio. en raison d'une distribution de substance. Quel montant donne droit à la réduction pour participations ?",
      "options": [
@@ -1592,7 +1592,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-105",
      "champ": "Bénéfice en capital — conditions (≥10%, ≥1 an)",
-     "memento": "s6",
+     "memento": "§6",
      "difficulte": 3,
      "question": "M SA (siège en Suisse) a vendu quatre participations en 2023 : T1 SA 30% avant la vente, vente de 30%, produit CHF 1,2 mio. (coût 1 mio.), acquise en 2023 ; T2 SA 12% avant la vente, vente de 4%, produit CHF 2,2 mio. (coût 2 mio.), acquise en 2008 ; T3 SA 11% avant la vente, vente de 11%, produit CHF 500 000 (coût 300 000), acquise en 2005 ; T4 SA 8% avant la vente, vente de 8%, produit CHF 950 000 (prix de revient 750 000), vente partielle de 22% des parts en 2018. Quelle participation donne droit à la réduction pour participations sur le bénéfice en capital ?",
      "options": [
@@ -1673,7 +1673,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-110",
      "champ": "Prêt sans intérêt entre sœurs — théorie du triangle",
-     "memento": "s7",
+     "memento": "§7",
      "difficulte": 3,
      "question": "Madame A, domiciliée en Suisse, est l'actionnaire unique des sociétés B SA et C SA (siège en Suisse). En 2023, B SA a accordé à sa société sœur C SA un prêt sans intérêt de CHF 2 000 000. Sachant que le taux d'intérêt fiscalement déterminant est de 2% et que le taux de l'IFD sur le revenu de Madame A est de 10%, laquelle des assertions suivantes est erronée en ce qui concerne l'impôt fédéral direct ?",
      "options": [
@@ -1688,7 +1688,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-111",
      "champ": "Prestation entre sœurs — théorie du bénéficiaire direct",
-     "memento": "s7",
+     "memento": "§7",
      "difficulte": 3,
      "question": "La société X SA (siège en Suisse) est l'actionnaire unique des sociétés A SA et B SA (siège en Suisse). Lors de l'exercice 2023, A SA a rendu des services à sa société sœur B SA facturés CHF 500 000, alors qu'un tiers indépendant aurait demandé CHF 900 000 pour des prestations identiques. Laquelle des affirmations suivantes est correcte en matière d'impôt fédéral direct ?",
      "options": [
@@ -1739,7 +1739,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-114",
      "champ": "Intérêts non déductibles (capital propre dissimulé)",
-     "memento": "s8",
+     "memento": "§8",
      "difficulte": 3,
      "question": "Bilan de K SA au 31.12.2023 : Liquidités CHF 500 000 (financement externe autorisé 100%) ; Débiteurs CHF 2 000 000 (85%) ; Immeubles locatifs CHF 5 000 000 (80%) ; Dette envers l'actionnaire CHF 7 200 000 (rémunérée à 3%) ; Capitaux propres CHF 300 000. Supposons que la valeur vénale des immeubles locatifs s'élève à CHF 5 500 000 et que le taux d'intérêt fiscalement admissible pour les prêts des actionnaires est de 2,5% : quel est le montant des intérêts non déductibles fiscalement en 2023 ?",
      "options": [
@@ -1850,7 +1850,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-121",
      "champ": "Société cotée — règle 50/50 RAC / réserves de bénéfice",
-     "memento": "s9",
+     "memento": "§9",
      "difficulte": 3,
      "question": "La société D SA, cotée à la bourse suisse, souhaite distribuer un dividende composé à 60% de réserves issues d'apports de capital et à 40% de réserves libres issues de bénéfices. L'actionnaire A (participation de 3%) domicilié en Suisse reçoit un dividende (total et brut) de CHF 10 000. Quelle assertion est correcte ?",
      "options": [
@@ -1865,7 +1865,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-122",
      "champ": "Droit de timbre d'émission — apport en nature",
-     "memento": "s9",
+     "memento": "§9",
      "difficulte": 3,
      "question": "Monsieur C (domicilié en Suisse) souhaite constituer la société immobilière C SA par apport en nature : capital-actions de CHF 900 000 ; libération par l'apport d'un immeuble d'une valeur de CHF 1 500 000 et reprise de la dette hypothécaire de CHF 600 000 ; valeur vénale de l'immeuble : CHF 1 800 000 ; frais de notaire et du RC : CHF 10 000 ; inscription au registre du commerce le 30 avril 2024. Laquelle des affirmations suivantes est correcte en matière de droit de timbre d'émission ?",
      "options": [
@@ -1880,7 +1880,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-123",
      "champ": "Droit de timbre d'émission — augmentation de capital",
-     "memento": "s9",
+     "memento": "§9",
      "difficulte": 2,
      "question": "T SA (CH) a un capital-actions de CHF 5 mio. (500 000 actions d'une valeur nominale de CHF 10 chacune). Il est décidé d'augmenter le capital par l'émission de 10 000 nouvelles actions, au prix de CHF 30 par action. Quel est le montant du droit de timbre d'émission ?",
      "options": [
@@ -1895,7 +1895,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-124",
      "champ": "Droit de timbre d'émission — fondation avec agio",
-     "memento": "s9",
+     "memento": "§9",
      "difficulte": 2,
      "question": "N SA (CH) est fondée. 100 000 actions (valeur nominale de CHF 100 par action) sont émises au prix de CHF 300 chacune. Quel est le montant du droit de timbre d'émission ?",
      "options": [
@@ -2310,7 +2310,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-151",
      "champ": "Procédure de déclaration vs remboursement",
-     "memento": "s11",
+     "memento": "§11",
      "difficulte": 2,
      "question": "Le capital-actions de H SA (siège en Suisse) est détenu par : 76% Madame A (résidant en Suisse), 16% B SA (établie en Suisse), 8% C SA (établie en Suisse). En 2023, H SA distribue un dividende en espèces à partir des réserves issues du bénéfice. Laquelle des assertions suivantes est correcte en ce qui concerne l'impôt anticipé ?",
      "options": [
@@ -2325,7 +2325,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-152",
      "champ": "Excédent de liquidation",
-     "memento": "s11",
+     "memento": "§11",
      "difficulte": 2,
      "question": "La société L SA (CH) doit être liquidée. Les actifs ont été cédés : il ne reste qu'un compte bancaire de CHF 6 mio. à l'actif. Au passif : fonds étrangers CHF 2 mio., bénéfice reporté CHF 0,8 mio., réserve libre issue du bénéfice CHF 0,5 mio., réserves issues d'apports en capital CHF 1,7 mio. et capital-actions CHF 1 mio. Quel est le montant de l'excédent de liquidation ?",
      "options": [
@@ -2738,7 +2738,7 @@ window.QCM_BANK["fiscaliteEntreprise"] = {
     {
      "id": "FE-179",
      "champ": "DTN — commerçant de titres, titres étrangers",
-     "memento": "s13",
+     "memento": "§13",
      "difficulte": 3,
      "question": "Franklin SA est une société holding (siège en Suisse) qui détient depuis de nombreuses années des participations dans d'autres sociétés de capitaux pour une valeur de CHF 40 000 000. En 2023, Franklin SA acquiert de Benjamin SA, une société tierce cotée à la bourse canadienne, une participation de 100% dans une société basée à Singapour. Le prix d'achat est de CHF 10 000 000. À combien s'élève le droit de timbre de négociation dû par Franklin SA dans le cadre de cette transaction ?",
      "options": [

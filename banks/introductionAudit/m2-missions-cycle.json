@@ -20,7 +20,8 @@
     "Faux : l'assurance raisonnable / opinion positive caractérise l'AUDIT (ex. contrôle ordinaire, art. 727 CO), pas l'AUP.",
     "Faux : l'AUP n'est pas une review allégée ; c'est un service connexe SANS assurance (piège classique AUP ≠ mission d'assurance, mémento ch01)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.1"
   },
   {
    "id": "M2-002",
@@ -39,7 +40,8 @@
     "Faux : la REVIEW délivre une assurance limitée sur des comptes déjà établis ; ici le professionnel établit les comptes.",
     "Faux : l'AUDIT (contrôle ordinaire, art. 727 CO) délivre une assurance raisonnable sur des comptes établis par autrui."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.1"
   },
   {
    "id": "M2-003",
@@ -58,7 +60,8 @@
     "Faux : l'assurance raisonnable est intrinsèque à l'AUDIT ; elle ne se dégrade pas parce que la mission est volontaire.",
     "Faux : le rapport écrit est l'une des 5 caractéristiques de toute mission d'assurance, qu'elle soit légale ou volontaire (source ch01 p.10)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.1"
   },
   {
    "id": "M2-004",
@@ -77,7 +80,8 @@
     "Faux : l'AUP est un service connexe sans assurance, pas un contrôle légal des comptes annuels.",
     "Faux : l'audit de fondation est un contrôle légal SPÉCIAL (art. 635a CO), distinct du contrôle des comptes annuels."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§2.2"
   },
   {
    "id": "M2-005",
@@ -96,7 +100,8 @@
     "Faux (c'est bien un audit légal) : l'audit de fondation est un contrôle légal spécial (art. 635a CO).",
     "Exact : la review est un service de confiance volontaire à assurance limitée ; ce n'est PAS un audit légal (intrus récurrent aux QCM ; fiche 'Review n'est pas un contrôle légal')."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§2.2"
   },
   {
    "id": "M2-006",
@@ -115,7 +120,8 @@
     "Exact : la review n'est pas un contrôle légal des comptes ; elle est demandée par le CA (et non par l'AG comme le restreint) et relève du volontaire (mémento ch03 §6 ; fiche 'Types de mission').",
     "Faux : la confirmation de l'existence du SCI relève du contrôle ordinaire (art. 728a CO), pas de la review."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.7 (+ §2.2)"
   },
   {
    "id": "M2-007",
@@ -134,7 +140,8 @@
     "Faux : la réévaluation (art. 725c CO) intervient en phase de crise pour remédier à une perte de capital, pas à la fondation.",
     "Faux : la répartition anticipée de l'actif concerne la liquidation, à l'opposé du cycle de vie."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.2"
   },
   {
    "id": "M2-008",
@@ -153,7 +160,8 @@
     "Faux : l'art. 652f CO régit le contrôle du rapport d'augmentation de capital, pas la réévaluation.",
     "Faux : la répartition anticipée de l'actif se situe en phase de liquidation, non lors d'un assainissement."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§2.2"
   },
   {
    "id": "M2-009",
@@ -172,7 +180,8 @@
     "Faux : c'est précisément l'apport en nature (comme la limitation des droits) qui déclenche l'obligation de contrôle.",
     "Faux : l'art. 725c CO vise la réévaluation en phase de crise, pas l'augmentation de capital."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.2"
   },
   {
    "id": "M2-010",
@@ -191,7 +200,8 @@
     "Faux : la réévaluation (art. 725c CO) est un assainissement en phase de crise, distinct de la liquidation.",
     "Faux : la répartition anticipée est un contrôle légal spécial (expert-réviseur agréé), pas une review volontaire."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.2"
   },
   {
    "id": "M2-011",
@@ -210,7 +220,8 @@
     "Faux (c'est bien typique) : les mandats PME sont courts (révision de 1 à 5 jours) et incluent souvent du conseil.",
     "Exact : des honoraires élevés comparables à ceux des grands groupes ne sont PAS caractéristiques du segment PME (piège classique ; fiche 'Segments : PME')."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§2.3"
   },
   {
    "id": "M2-012",
@@ -229,7 +240,8 @@
     "Faux : l'ISA-CH 500 traite des éléments probants en général, pas spécifiquement des groupes.",
     "Faux : l'ISA-CH 700 concerne l'opinion et le rapport d'audit, pas les particularités de l'audit de groupe."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.3"
   },
   {
    "id": "M2-013",
@@ -248,7 +260,8 @@
     "Exact : affirmer que les filiales sont 'en principe' soumises à un contrôle restreint est faux ; leur régime dépend de leur importance dans le groupe, souvent un contrôle ordinaire (piège ; fiche 'Segments').",
     "Faux (c'est bien typique) : l'audit informatique et la Data Analytics caractérisent l'audit des grandes entités cotées."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§2.3"
   },
   {
    "id": "M2-014",
@@ -267,7 +280,8 @@
     "Faux : la taille influence directement l'importance du SCI dans l'audit.",
     "Faux : un SCI bien établi ne devient pas superflu ; en contrôle ordinaire, son existence est justement confirmée (art. 728a CO)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§2.3"
   }
  ]
 }

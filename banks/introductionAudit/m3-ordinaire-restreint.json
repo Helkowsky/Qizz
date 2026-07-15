@@ -20,7 +20,8 @@
     "Vrai, donc pas la reponse cherchee : le type de controle (ordinaire ou restreint) depend precisement de l'importance economique (seuils de l'art. 727 al. 1 ch. 2 CO).",
     "Affirmation FAUSSE, donc la bonne reponse : l'assujettissement et le type de controle dependent justement de l'importance (seuils) et de la forme ; toutes les entreprises ne sont pas soumises independamment de leur taille (art. 727 / 727a CO)."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§3.1"
   },
   {
    "id": "M3-002",
@@ -39,7 +40,8 @@
     "Faux : le motif n'est pas une question de seuils ; meme une grande societe de personnes n'est pas assujettie du fait de la responsabilite personnelle.",
     "Faux : elles ne sont pas assimilees aux societes ouvertes au public (art. 727 al. 1 ch. 1 CO)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.1"
   },
   {
    "id": "M3-003",
@@ -58,7 +60,8 @@
     "Soumise : la cooperative fait partie des formes assujetties (seuils 20/40/250).",
     "Bonne reponse : la societe en commandite est une societe de personnes ; les associes repondent personnellement, elle n'est donc pas soumise a l'obligation de revision."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.1"
   },
   {
    "id": "M3-004",
@@ -77,7 +80,8 @@
     "Faux : ce sont les seuils des associations (art. 69b CC : 10/20/50), pas ceux des grandes entreprises.",
     "Faux : les montants du bilan et du chiffre d'affaires sont intervertis ; il faut 20 mio (bilan) et 40 mio (CA)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-005",
@@ -96,7 +100,8 @@
     "Faux : un seul exercice ne suffit pas ; le depassement doit intervenir sur deux exercices successifs.",
     "Faux : l'exemple du cours montre precisement l'inverse - des grandeurs differentes chaque annee declenchent quand meme le controle ordinaire."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-006",
@@ -115,7 +120,8 @@
     "Faux : les produits financiers et hors exploitation sont bien inclus dans le calcul du seuil.",
     "Faux : la TVA n'est pas un produit ; on part des comptes annuels conformes au droit commercial, pas des encaissements bruts."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-007",
@@ -134,7 +140,8 @@
     "Faux : la seule presence de reserves latentes n'a aucun effet declencheur sur le type de controle.",
     "Faux : on retient le produit net des ventes, sans deduction liee a des reserves latentes."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-008",
@@ -153,7 +160,8 @@
     "Faux : l'opting-out suppose moins de 10 emplois a plein temps ; ici l'effectif est de 300-310.",
     "Faux : la comparaison sur deux exercices successifs est precisement la regle legale, elle ne fait pas disparaitre l'obligation."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-009",
@@ -172,7 +180,8 @@
     "Faux : aucun des trois seuils 20/40/250 n'est depasse - ni le bilan, ni le CA, ni l'effectif.",
     "Faux : c'est le piege - une cooperative n'applique PAS les seuils associatifs 10/20/50 mais bien 20/40/250."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-010",
@@ -191,7 +200,8 @@
     "Faux : les grandes associations sont soumises a l'obligation de revision selon leurs propres seuils.",
     "Faux : deux des trois seuils suffisent, comme pour les entreprises (pas les trois)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-011",
@@ -210,7 +220,8 @@
     "Faux : ce sont bien deux seuils (et non un seul) qui sont depasses chaque annee.",
     "Faux : l'opting-out exige moins de 10 emplois a plein temps ; l'effectif est ici de 230-251."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-012",
@@ -229,7 +240,8 @@
     "Faux : l'opting-out suppose moins de 10 emplois a plein temps ET l'accord de tous les actionnaires ; ici l'effectif (40-45) depasse 10.",
     "Faux : une SA qui n'a pas valablement fait d'opting-out reste soumise au moins au controle restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.2 (+ §3.3)"
   },
   {
    "id": "M3-013",
@@ -248,7 +260,8 @@
     "Faux : la regle vise deux exercices successifs, pas un seul exercice depassant deux seuils.",
     "Faux : l'opting-out suppose moins de 10 emplois a plein temps et l'unanimite, ce qui n'est pas le cas ici (200 emplois)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-014",
@@ -267,7 +280,8 @@
     "Faux : valeurs inventees ; les seuils associatifs sont 10/20/50.",
     "Faux : le seuil de CA associatif est 20 mio (pas 40) et l'effectif 50 (pas 100)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-015",
@@ -286,7 +300,8 @@
     "Faux : l'association ne suit pas 20/40/250 ; avec 10/20/50 elle bascule bien en ordinaire.",
     "Faux : c'est l'inverse - l'association (seuils plus bas) bascule, la cooperative (seuils 20/40/250) reste en restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.3"
   },
   {
    "id": "M3-016",
@@ -305,7 +320,8 @@
     "Est un critere : la contribution d'au moins 20 % aux comptes consolides d'une telle societe (art. 727 al. 1 ch. 1 CO).",
     "Bonne reponse : le depassement des seuils 20/40/250 caracterise la GRANDE ENTREPRISE (art. 727 al. 1 ch. 2 CO), non la societe ouverte au public (art. 727 al. 1 ch. 1 CO)."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§3.4"
   },
   {
    "id": "M3-017",
@@ -324,7 +340,8 @@
     "Faux : une societe ouverte au public est toujours soumise au controle ordinaire, meme petite.",
     "Faux : l'opting-out est exclu pour une societe ouverte au public soumise au controle ordinaire."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.4"
   },
   {
    "id": "M3-018",
@@ -343,7 +360,8 @@
     "Faux : aucune exclusion des apprentis n'est prevue.",
     "Faux : ils comptent au prorata de leur taux d'occupation, non comme un plein temps entier."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§3.3"
   },
   {
    "id": "M3-019",
@@ -362,7 +380,8 @@
     "Faux : le conseil d'administration ne peut pas imposer seul un controle ordinaire.",
     "Faux : le seuil de participation est de 10 % du capital, non de 50 %."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.5"
   },
   {
    "id": "M3-020",
@@ -381,7 +400,8 @@
     "Faux : renoncer a la revision legale correspond a l'opting-out.",
     "Faux : renoncer a une revision volontaire correspond plutot a l'opting-down (retour au controle legal minimal)."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§3.5"
   },
   {
    "id": "M3-021",
@@ -400,7 +420,8 @@
     "Faux : l'opting-down designe un controle volontaire aboutissant au restreint dans un contexte ou l'ordinaire serait attendu ; ce n'est pas l'entree volontaire dans le restreint depuis l'absence d'obligation.",
     "Faux : l'opting-out est la renonciation a tout controle legal, non un choix de controle restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.5"
   },
   {
    "id": "M3-022",
@@ -419,7 +440,8 @@
     "Faux : le seuil est 10 emplois (non 250) et il faut l'unanimite (non la majorite simple).",
     "Faux : le critere est l'effectif (< 10 emplois) et l'unanimite des actionnaires, non le bilan et l'accord du CA."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.5"
   },
   {
    "id": "M3-023",
@@ -438,7 +460,8 @@
     "Faux : plus de 250 emplois exclut l'opting-out (il faut moins de 10 emplois).",
     "Faux : le consentement de la moitie des actionnaires ne suffit pas ; l'unanimite est requise."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§3.5"
   },
   {
    "id": "M3-024",
@@ -457,7 +480,8 @@
     "Faux : l'opting-out valablement decide se prolonge sur les exercices suivants sans revote annuel.",
     "Faux : chaque associe conserve la faculte de reexiger un controle restreint pour l'avenir."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.5"
   },
   {
    "id": "M3-025",
@@ -476,7 +500,8 @@
     "Faux : le controle ordinaire porte bien sur l'existence du SCI.",
     "Faux : l'art. 728a CO vise le controle ORDINAIRE ; il ne concerne pas le restreint. La confirmation du SCI n'incombe pas au controle restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.6"
   },
   {
    "id": "M3-026",
@@ -495,7 +520,8 @@
     "Faux : c'est l'inverse - la rotation vise l'ordinaire, pas le restreint.",
     "Faux : l'obligation de rotation existe bien, mais pour le seul controle ordinaire."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.6"
   },
   {
    "id": "M3-027",
@@ -514,7 +540,8 @@
     "Faux : le controle ordinaire donne lieu a un rapport a l'AG et a un rapport detaille au CA.",
     "Faux : les niveaux sont inverses - ordinaire env. 90-95 % (raisonnable), restreint env. 60 % (limitee)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.6 (+ §1.5)"
   },
   {
    "id": "M3-028",
@@ -533,7 +560,8 @@
     "Faux : le controle restreint est aussi soumis a l'independance (avec l'assouplissement de l'art. 729 CO).",
     "Faux : en controle ordinaire, tenir la comptabilite du client est incompatible avec l'independance (art. 728 CO)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§6.4 (+ §3.6)"
   },
   {
    "id": "M3-029",
@@ -552,7 +580,8 @@
     "Faux : la surveillance de l'Etat n'est requise que pour les societes ouvertes au public / grandes entreprises, pas pour tout controle restreint.",
     "Faux : le controle restreint requiert au moins un reviseur agree (art. 727c CO) ; l'absence d'agrement n'est admise qu'apres un opting-out valable."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.6"
   },
   {
    "id": "M3-030",
@@ -571,7 +600,8 @@
     "Faux : la review n'est pas un controle legal des comptes ; le controle restreint, lui, est un controle legal.",
     "Faux : c'est l'inverse - c'est le controle restreint qui comporte l'obligation d'agir en cas de surendettement, non la review."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§3.7"
   }
  ]
 }

@@ -1,254 +1,267 @@
 {
-  "cours": "introductionAudit",
-  "module": "M7",
-  "titre": "Élection, mandat & communication",
-  "questions": [
-    {
-      "id": "M7-001",
-      "champ": "Éligibilité (art. 730 CO)",
-      "question": "Vous préparez l'acceptation d'un mandat de révision pour Wanner SA. Avant l'élection, l'éligibilité de l'organe de révision doit être établie. Laquelle des affirmations suivantes est correcte ?",
-      "options": [
-        "L'éligibilité est notamment établie lorsqu'au moins un réviseur a son domicile (siège) en Suisse et que l'organe de révision est inscrit au registre du commerce.",
-        "Seules des personnes physiques, à l'exclusion de toute personne morale, peuvent être élues comme organe de révision.",
-        "L'éligibilité suppose que l'organe de révision soit membre du conseil d'administration de la société contrôlée.",
-        "L'éligibilité est acquise dès que la société a désigné un expert-réviseur, sans condition de domicile ni d'inscription."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'éligibilité (art. 730 CO) exige notamment qu'au moins un membre de l'organe de révision ait son domicile en Suisse et soit inscrit au registre du commerce.",
-        "Faux : selon l'art. 730 CO, l'organe de révision peut être constitué de personnes physiques, de personnes morales ou de sociétés de personnes.",
-        "Faux : l'appartenance au conseil d'administration est au contraire une incompatibilité au regard de l'indépendance (art. 728 al. 2 CO), non une condition d'éligibilité (art. 730 CO).",
-        "Faux : les conditions de domicile en Suisse et d'inscription au registre du commerce restent requises (art. 730 CO)."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-002",
-      "champ": "Conditions formelles d'élection",
-      "question": "Trois conditions formelles doivent être réunies pour élire l'organe de révision : éligibilité, agrément et indépendance. Laquelle des affirmations suivantes est correcte ?",
-      "options": [
-        "Pour un contrôle ordinaire, l'agrément requis est celui de réviseur agréé.",
-        "Pour une société ouverte au public, l'organe de révision doit être une entreprise soumise à la surveillance de l'État.",
-        "L'indépendance doit seulement être garantie en apparence, non dans les faits.",
-        "L'agrément des réviseurs relève de la compétence d'EXPERTsuisse."
-      ],
-      "correct": 1,
-      "explications": [
-        "Faux : le contrôle ordinaire exige un expert-réviseur agréé (art. 727b al. 2 CO) ; le réviseur agréé suffit pour le contrôle restreint (art. 727c CO).",
-        "Correct : pour une société ouverte au public, l'organe de révision doit être une entreprise de révision soumise à la surveillance de l'État (art. 727b al. 1 CO).",
-        "Faux : l'indépendance ne doit être restreinte ni dans les faits, ni en apparence (art. 728 al. 1 CO) — les deux faces sont requises.",
-        "Faux : c'est l'ASR (Autorité fédérale de surveillance en matière de révision), et non EXPERTsuisse, qui agrée les réviseurs et experts-réviseurs (art. 4 et 5 LSR)."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-003",
-      "champ": "Élection = compétence de l'AG",
-      "question": "Le responsable de mandat vous expose les facteurs à prendre en compte lors du choix de l'organe de révision. Laquelle de ces affirmations est correcte ?",
-      "options": [
-        "L'une des tâches intransmissibles du conseil d'administration est d'élire l'organe de révision.",
-        "L'une des attributions intransmissibles de l'assemblée générale est d'élire l'organe de révision.",
-        "L'organe de révision n'endosse pas la responsabilité de la révision.",
-        "La durée de fonction de l'organe de révision est fixée par les statuts et ne peut excéder sept ans selon la loi."
-      ],
-      "correct": 1,
-      "explications": [
-        "Faux : l'élection de l'organe de révision n'est pas une compétence du conseil d'administration, mais de l'assemblée générale (art. 698 al. 2 ch. 2 CO).",
-        "Correct : l'élection de l'organe de révision est une attribution intransmissible de l'assemblée générale (art. 698 al. 2 ch. 2 CO).",
-        "Faux : l'organe de révision assume bien la responsabilité de la révision (art. 755 CO).",
-        "Faux : la durée de fonction est d'un à trois exercices (art. 730a al. 1 CO) ; le seuil de sept ans concerne la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO)."
-      ],
-      "source": "original"
-    },
-    {
-      "id": "M7-004",
-      "champ": "Durée du mandat (art. 730a al. 1 CO)",
-      "question": "Un client vous interroge sur la durée du mandat de l'organe de révision. Laquelle des affirmations suivantes est correcte ?",
-      "options": [
-        "L'organe de révision est élu pour une durée d'un à trois exercices.",
-        "L'organe de révision est élu pour sept ans au maximum, puis doit obligatoirement être remplacé.",
-        "La durée du mandat est illimitée tant que l'assemblée générale ne révoque pas l'organe de révision.",
-        "Le mandat est nécessairement d'un an, toute durée supérieure étant nulle."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'organe de révision est élu pour un à trois exercices (art. 730a al. 1 CO), avec rééligibilité.",
-        "Faux : le seuil de sept ans vise la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO), pas la durée du mandat de l'organe (art. 730a al. 1 CO).",
-        "Faux : la durée est bornée à un à trois exercices (art. 730a al. 1 CO), même si la réélection est possible.",
-        "Faux : la loi admet une durée d'un à trois exercices (art. 730a al. 1 CO), et non un an obligatoire."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-005",
-      "champ": "Naissance du mandat",
-      "question": "À quel moment naît la relation de mandat entre la société et son organe de révision ? Laquelle des affirmations suivantes est correcte ?",
-      "options": [
-        "La relation de mandat naît avec l'élection par l'assemblée générale et la déclaration d'acceptation de l'organe de révision.",
-        "La relation de mandat naît dès la proposition du conseil d'administration à l'assemblée générale.",
-        "La relation de mandat naît à la signature du rapport de l'organe de révision.",
-        "La relation de mandat naît lors de l'inscription de l'organe de révision au registre du commerce."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : le mandat naît de l'élection par l'assemblée générale (art. 698 al. 2 ch. 2 CO) suivie de la déclaration d'acceptation de l'organe de révision.",
-        "Faux : la simple proposition du conseil d'administration ne fait pas naître le mandat, l'élection relevant de l'assemblée générale (art. 698 al. 2 ch. 2 CO).",
-        "Faux : le rapport intervient en cours de mandat ; le mandat naît de l'élection (art. 698 al. 2 ch. 2 CO) et de l'acceptation.",
-        "Faux : l'inscription au registre du commerce ne conditionne pas la naissance du mandat, laquelle résulte de l'élection (art. 698 al. 2 ch. 2 CO) et de l'acceptation."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-006",
-      "champ": "Fin du mandat — 4 modes",
-      "question": "Le mandat de l'organe de révision peut prendre fin de quatre manières. Laquelle des associations mode / base légale ci-dessous est correcte ?",
-      "options": [
-        "Échéance de la durée de fonction — art. 730a al. 1 CO.",
-        "Démission de l'organe de révision — art. 730a al. 4 CO.",
-        "Révocation prononcée par le conseil d'administration.",
-        "Destitution par le juge — art. 730a al. 3 CO."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'échéance (expiration) de la durée de fonction met fin au mandat (art. 730a al. 1 CO).",
-        "Faux : la démission de l'organe de révision est régie par l'art. 730a al. 3 CO, et non al. 4.",
-        "Faux : la révocation est prononcée par l'assemblée générale (art. 730a al. 4 CO), non par le conseil d'administration.",
-        "Faux : la fin du mandat par le juge est fondée sur l'art. 731b al. 3 CO, non sur l'art. 730a al. 3 CO."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-007",
-      "champ": "Démission — formalités",
-      "question": "La société Naft SA a été vendue en cours d'exercice et le nouvel actionnariat souhaite changer d'organe de révision. À propos de la démission de l'organe de révision, laquelle des affirmations suivantes est FAUSSE ?",
-      "options": [
-        "L'organe de révision doit indiquer au conseil d'administration les motifs de sa démission.",
-        "En cas de démission anticipée, les motifs doivent être mentionnés dans l'annexe aux comptes annuels.",
-        "La démission décharge l'organe de révision de sa responsabilité pour ses manquements passés.",
-        "Les faits entourant la démission devraient être consignés par écrit et documentés."
-      ],
-      "correct": 2,
-      "explications": [
-        "Exacte (donc pas la réponse) : l'organe de révision indique les motifs de sa démission au conseil d'administration (art. 730a al. 3 CO).",
-        "Exacte (donc pas la réponse) : en cas de démission anticipée, les motifs doivent figurer dans l'annexe aux comptes annuels.",
-        "FAUSSE (réponse attendue) : la démission ne décharge pas l'organe de révision de sa responsabilité pour les manquements déjà commis (art. 755 CO).",
-        "Exacte (donc pas la réponse) : consigner et documenter par écrit les faits relève des bonnes pratiques entourant la démission (art. 730a al. 3 CO)."
-      ],
-      "source": "original"
-    },
-    {
-      "id": "M7-008",
-      "champ": "Démission en temps inopportun",
-      "question": "Concernant la fin du mandat de l'organe de révision, laquelle des affirmations suivantes est correcte ?",
-      "options": [
-        "Même intervenant en temps inopportun, la démission de l'organe de révision produit ses effets.",
-        "Une démission intervenant en temps inopportun est nulle et dépourvue de tout effet juridique.",
-        "L'organe de révision ne peut démissionner qu'à l'échéance de sa durée de fonction.",
-        "La démission dispense l'organe de révision de toute responsabilité pour la période écoulée."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : une démission en temps inopportun produit néanmoins ses effets (art. 730a al. 3 CO), quitte à engager une responsabilité pour le préjudice causé.",
-        "Faux : la démission produit ses effets même en temps inopportun (art. 730a al. 3 CO) ; elle n'est pas frappée de nullité.",
-        "Faux : l'organe de révision peut démissionner en cours de mandat (art. 730a al. 3 CO), pas seulement à l'échéance (art. 730a al. 1 CO).",
-        "Faux : la démission ne décharge pas l'organe de révision de sa responsabilité pour les manquements passés (art. 755 CO)."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-009",
-      "champ": "Communication CA vs AG",
-      "question": "Vous préparez la communication de l'organe de révision de Clean SA. Quelle est l'affirmation correcte concernant les obligations de renseigner ?",
-      "options": [
-        "L'organe de révision a une obligation de renseigner illimitée envers l'assemblée générale.",
-        "L'organe de révision a une obligation de renseigner illimitée envers le conseil d'administration.",
-        "L'assemblée générale reçoit davantage d'informations que le conseil d'administration.",
-        "L'obligation de renseigner illimitée envers le conseil d'administration est régie par la LSR."
-      ],
-      "correct": 1,
-      "explications": [
-        "Faux : envers l'assemblée générale, l'obligation de renseigner est restreinte (art. 728b al. 2 CO), non illimitée.",
-        "Correct : l'organe de révision renseigne le conseil d'administration sans restriction (obligation illimitée, art. 728b al. 1 CO).",
-        "Faux : l'assemblée générale reçoit moins que le conseil d'administration, l'obligation envers l'AG étant restreinte (art. 728b al. 2 CO).",
-        "Faux : cette obligation illimitée envers le conseil d'administration est régie par le CO (art. 728b al. 1 CO), non par la LSR."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-010",
-      "champ": "Secret des affaires (art. 730b al. 2 CO)",
-      "question": "L'organe de révision de Clean SA prépare sa communication à l'assemblée générale. Laquelle des affirmations suivantes est correcte ?",
-      "options": [
-        "L'obligation de renseigner restreinte envers l'assemblée générale est bornée par le secret des affaires.",
-        "Le secret des affaires limite l'obligation de renseigner envers le conseil d'administration.",
-        "Envers l'assemblée générale, l'organe de révision doit fournir tous les renseignements sans aucune limite.",
-        "Le secret des affaires interdit toute communication de l'organe de révision à l'assemblée générale."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'obligation de renseigner restreinte envers l'assemblée générale (art. 728b al. 2 CO) est bornée par le secret des affaires (art. 730b al. 2 CO).",
-        "Faux : le secret des affaires (art. 730b al. 2 CO) borne la voie vers l'assemblée générale, pas l'obligation illimitée envers le conseil d'administration (art. 728b al. 1 CO).",
-        "Faux : l'obligation envers l'assemblée générale est restreinte (art. 728b al. 2 CO) et limitée par le secret des affaires (art. 730b al. 2 CO).",
-        "Faux : le secret des affaires (art. 730b al. 2 CO) borne l'information sans l'interdire ; l'organe de révision communique de façon restreinte à l'AG (art. 728b al. 2 CO)."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-011",
-      "champ": "ISA-CH 260",
-      "question": "Que contient la norme ISA-CH 260 ?",
-      "options": [
-        "La communication avec les personnes constituant le gouvernement d'entreprise.",
-        "La communication avec l'assemblée générale.",
-        "La communication avec les parties prenantes.",
-        "La communication des faiblesses du système de contrôle interne à la direction."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'ISA-CH 260 porte sur la communication avec les personnes constituant le gouvernement d'entreprise.",
-        "Faux : l'ISA-CH 260 vise le gouvernement d'entreprise (le conseil d'administration), non l'assemblée générale.",
-        "Faux : l'ISA-CH 260 ne traite pas de la communication aux parties prenantes, mais au gouvernement d'entreprise.",
-        "Faux : la communication des faiblesses du contrôle interne fait l'objet de l'ISA-CH 265, non de l'ISA-CH 260."
-      ],
-      "source": "original"
-    },
-    {
-      "id": "M7-012",
-      "champ": "ISA-CH 265",
-      "question": "Que traite la norme ISA-CH 265 ?",
-      "options": [
-        "La communication des faiblesses du système de contrôle interne au gouvernement d'entreprise et à la direction.",
-        "La communication générale avec le gouvernement d'entreprise.",
-        "L'identification et l'évaluation des risques d'anomalies significatives.",
-        "La conception et la mise en œuvre des réponses de l'auditeur aux risques évalués."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'ISA-CH 265 porte sur la communication des faiblesses du système de contrôle interne aux personnes constituant le gouvernement d'entreprise et à la direction.",
-        "Faux : la communication générale avec le gouvernement d'entreprise fait l'objet de l'ISA-CH 260, non de l'ISA-CH 265.",
-        "Faux : l'identification et l'évaluation des risques relèvent de l'ISA-CH 315, non de l'ISA-CH 265.",
-        "Faux : les réponses de l'auditeur aux risques évalués relèvent de l'ISA-CH 330, non de l'ISA-CH 265."
-      ],
-      "source": "genere"
-    },
-    {
-      "id": "M7-013",
-      "champ": "Avis au juge (art. 725b CO)",
-      "question": "La société présente un surendettement manifeste et le conseil d'administration reste inactif malgré un rappel de l'organe de révision. Quel est le rôle de l'organe de révision ?",
-      "options": [
-        "Il avise le juge à titre subsidiaire, lorsque le conseil d'administration omet de le faire malgré le rappel de son obligation.",
-        "Il avise le juge en premier lieu, avant même que le conseil d'administration n'intervienne.",
-        "Il n'a en aucun cas à intervenir auprès du juge, cette démarche relevant exclusivement du conseil d'administration.",
-        "Cet avis relève de l'obligation de renseigner illimitée envers le conseil d'administration."
-      ],
-      "correct": 0,
-      "explications": [
-        "Correct : l'avis au juge par l'organe de révision est subsidiaire (art. 725b CO) — il intervient si le conseil d'administration omet d'agir malgré le rappel de son obligation.",
-        "Faux : l'avis de l'organe de révision est subsidiaire (art. 725b CO) ; le conseil d'administration est tenu d'agir en premier.",
-        "Faux : à titre subsidiaire, l'organe de révision doit aviser le juge lorsque le conseil d'administration reste inactif (art. 725b CO).",
-        "Faux : il s'agit d'une exception (avis au juge, art. 725b CO), distincte de l'obligation de renseigner envers le conseil d'administration (art. 728b al. 1 CO)."
-      ],
-      "source": "genere"
-    }
-  ]
+ "cours": "introductionAudit",
+ "module": "M7",
+ "titre": "Élection, mandat & communication",
+ "questions": [
+  {
+   "id": "M7-001",
+   "champ": "Éligibilité (art. 730 CO)",
+   "question": "Vous préparez l'acceptation d'un mandat de révision pour Wanner SA. Avant l'élection, l'éligibilité de l'organe de révision doit être établie. Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "L'éligibilité est notamment établie lorsqu'au moins un réviseur a son domicile (siège) en Suisse et que l'organe de révision est inscrit au registre du commerce.",
+    "Seules des personnes physiques, à l'exclusion de toute personne morale, peuvent être élues comme organe de révision.",
+    "L'éligibilité suppose que l'organe de révision soit membre du conseil d'administration de la société contrôlée.",
+    "L'éligibilité est acquise dès que la société a désigné un expert-réviseur, sans condition de domicile ni d'inscription."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'éligibilité (art. 730 CO) exige notamment qu'au moins un membre de l'organe de révision ait son domicile en Suisse et soit inscrit au registre du commerce.",
+    "Faux : selon l'art. 730 CO, l'organe de révision peut être constitué de personnes physiques, de personnes morales ou de sociétés de personnes.",
+    "Faux : l'appartenance au conseil d'administration est au contraire une incompatibilité au regard de l'indépendance (art. 728 al. 2 CO), non une condition d'éligibilité (art. 730 CO).",
+    "Faux : les conditions de domicile en Suisse et d'inscription au registre du commerce restent requises (art. 730 CO)."
+   ],
+   "source": "genere",
+   "memento": "§7.1"
+  },
+  {
+   "id": "M7-002",
+   "champ": "Conditions formelles d'élection",
+   "question": "Trois conditions formelles doivent être réunies pour élire l'organe de révision : éligibilité, agrément et indépendance. Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "Pour un contrôle ordinaire, l'agrément requis est celui de réviseur agréé.",
+    "Pour une société ouverte au public, l'organe de révision doit être une entreprise soumise à la surveillance de l'État.",
+    "L'indépendance doit seulement être garantie en apparence, non dans les faits.",
+    "L'agrément des réviseurs relève de la compétence d'EXPERTsuisse."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le contrôle ordinaire exige un expert-réviseur agréé (art. 727b al. 2 CO) ; le réviseur agréé suffit pour le contrôle restreint (art. 727c CO).",
+    "Correct : pour une société ouverte au public, l'organe de révision doit être une entreprise de révision soumise à la surveillance de l'État (art. 727b al. 1 CO).",
+    "Faux : l'indépendance ne doit être restreinte ni dans les faits, ni en apparence (art. 728 al. 1 CO) — les deux faces sont requises.",
+    "Faux : c'est l'ASR (Autorité fédérale de surveillance en matière de révision), et non EXPERTsuisse, qui agrée les réviseurs et experts-réviseurs (art. 4 et 5 LSR)."
+   ],
+   "source": "genere",
+   "memento": "§7.1"
+  },
+  {
+   "id": "M7-003",
+   "champ": "Élection = compétence de l'AG",
+   "question": "Le responsable de mandat vous expose les facteurs à prendre en compte lors du choix de l'organe de révision. Laquelle de ces affirmations est correcte ?",
+   "options": [
+    "L'une des tâches intransmissibles du conseil d'administration est d'élire l'organe de révision.",
+    "L'une des attributions intransmissibles de l'assemblée générale est d'élire l'organe de révision.",
+    "L'organe de révision n'endosse pas la responsabilité de la révision.",
+    "La durée de fonction de l'organe de révision est fixée par les statuts et ne peut excéder sept ans selon la loi."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'élection de l'organe de révision n'est pas une compétence du conseil d'administration, mais de l'assemblée générale (art. 698 al. 2 ch. 2 CO).",
+    "Correct : l'élection de l'organe de révision est une attribution intransmissible de l'assemblée générale (art. 698 al. 2 ch. 2 CO).",
+    "Faux : l'organe de révision assume bien la responsabilité de la révision (art. 755 CO).",
+    "Faux : la durée de fonction est d'un à trois exercices (art. 730a al. 1 CO) ; le seuil de sept ans concerne la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO)."
+   ],
+   "source": "original",
+   "memento": "§7.2"
+  },
+  {
+   "id": "M7-004",
+   "champ": "Durée du mandat (art. 730a al. 1 CO)",
+   "question": "Un client vous interroge sur la durée du mandat de l'organe de révision. Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "L'organe de révision est élu pour une durée d'un à trois exercices.",
+    "L'organe de révision est élu pour sept ans au maximum, puis doit obligatoirement être remplacé.",
+    "La durée du mandat est illimitée tant que l'assemblée générale ne révoque pas l'organe de révision.",
+    "Le mandat est nécessairement d'un an, toute durée supérieure étant nulle."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'organe de révision est élu pour un à trois exercices (art. 730a al. 1 CO), avec rééligibilité.",
+    "Faux : le seuil de sept ans vise la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO), pas la durée du mandat de l'organe (art. 730a al. 1 CO).",
+    "Faux : la durée est bornée à un à trois exercices (art. 730a al. 1 CO), même si la réélection est possible.",
+    "Faux : la loi admet une durée d'un à trois exercices (art. 730a al. 1 CO), et non un an obligatoire."
+   ],
+   "source": "genere",
+   "memento": "§7.2"
+  },
+  {
+   "id": "M7-005",
+   "champ": "Naissance du mandat",
+   "question": "À quel moment naît la relation de mandat entre la société et son organe de révision ? Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "La relation de mandat naît avec l'élection par l'assemblée générale et la déclaration d'acceptation de l'organe de révision.",
+    "La relation de mandat naît dès la proposition du conseil d'administration à l'assemblée générale.",
+    "La relation de mandat naît à la signature du rapport de l'organe de révision.",
+    "La relation de mandat naît lors de l'inscription de l'organe de révision au registre du commerce."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : le mandat naît de l'élection par l'assemblée générale (art. 698 al. 2 ch. 2 CO) suivie de la déclaration d'acceptation de l'organe de révision.",
+    "Faux : la simple proposition du conseil d'administration ne fait pas naître le mandat, l'élection relevant de l'assemblée générale (art. 698 al. 2 ch. 2 CO).",
+    "Faux : le rapport intervient en cours de mandat ; le mandat naît de l'élection (art. 698 al. 2 ch. 2 CO) et de l'acceptation.",
+    "Faux : l'inscription au registre du commerce ne conditionne pas la naissance du mandat, laquelle résulte de l'élection (art. 698 al. 2 ch. 2 CO) et de l'acceptation."
+   ],
+   "source": "genere",
+   "memento": "§7.2"
+  },
+  {
+   "id": "M7-006",
+   "champ": "Fin du mandat — 4 modes",
+   "question": "Le mandat de l'organe de révision peut prendre fin de quatre manières. Laquelle des associations mode / base légale ci-dessous est correcte ?",
+   "options": [
+    "Échéance de la durée de fonction — art. 730a al. 1 CO.",
+    "Démission de l'organe de révision — art. 730a al. 4 CO.",
+    "Révocation prononcée par le conseil d'administration.",
+    "Destitution par le juge — art. 730a al. 3 CO."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'échéance (expiration) de la durée de fonction met fin au mandat (art. 730a al. 1 CO).",
+    "Faux : la démission de l'organe de révision est régie par l'art. 730a al. 3 CO, et non al. 4.",
+    "Faux : la révocation est prononcée par l'assemblée générale (art. 730a al. 4 CO), non par le conseil d'administration.",
+    "Faux : la fin du mandat par le juge est fondée sur l'art. 731b al. 3 CO, non sur l'art. 730a al. 3 CO."
+   ],
+   "source": "genere",
+   "memento": "§7.2"
+  },
+  {
+   "id": "M7-007",
+   "champ": "Démission — formalités",
+   "question": "La société Naft SA a été vendue en cours d'exercice et le nouvel actionnariat souhaite changer d'organe de révision. À propos de la démission de l'organe de révision, laquelle des affirmations suivantes est FAUSSE ?",
+   "options": [
+    "L'organe de révision doit indiquer au conseil d'administration les motifs de sa démission.",
+    "En cas de démission anticipée, les motifs doivent être mentionnés dans l'annexe aux comptes annuels.",
+    "La démission décharge l'organe de révision de sa responsabilité pour ses manquements passés.",
+    "Les faits entourant la démission devraient être consignés par écrit et documentés."
+   ],
+   "correct": 2,
+   "explications": [
+    "Exacte (donc pas la réponse) : l'organe de révision indique les motifs de sa démission au conseil d'administration (art. 730a al. 3 CO).",
+    "Exacte (donc pas la réponse) : en cas de démission anticipée, les motifs doivent figurer dans l'annexe aux comptes annuels.",
+    "FAUSSE (réponse attendue) : la démission ne décharge pas l'organe de révision de sa responsabilité pour les manquements déjà commis (art. 755 CO).",
+    "Exacte (donc pas la réponse) : consigner et documenter par écrit les faits relève des bonnes pratiques entourant la démission (art. 730a al. 3 CO)."
+   ],
+   "source": "original",
+   "memento": "§7.2"
+  },
+  {
+   "id": "M7-008",
+   "champ": "Démission en temps inopportun",
+   "question": "Concernant la fin du mandat de l'organe de révision, laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "Même intervenant en temps inopportun, la démission de l'organe de révision produit ses effets.",
+    "Une démission intervenant en temps inopportun est nulle et dépourvue de tout effet juridique.",
+    "L'organe de révision ne peut démissionner qu'à l'échéance de sa durée de fonction.",
+    "La démission dispense l'organe de révision de toute responsabilité pour la période écoulée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : une démission en temps inopportun produit néanmoins ses effets (art. 730a al. 3 CO), quitte à engager une responsabilité pour le préjudice causé.",
+    "Faux : la démission produit ses effets même en temps inopportun (art. 730a al. 3 CO) ; elle n'est pas frappée de nullité.",
+    "Faux : l'organe de révision peut démissionner en cours de mandat (art. 730a al. 3 CO), pas seulement à l'échéance (art. 730a al. 1 CO).",
+    "Faux : la démission ne décharge pas l'organe de révision de sa responsabilité pour les manquements passés (art. 755 CO)."
+   ],
+   "source": "genere",
+   "memento": "§7.2"
+  },
+  {
+   "id": "M7-009",
+   "champ": "Communication CA vs AG",
+   "question": "Vous préparez la communication de l'organe de révision de Clean SA. Quelle est l'affirmation correcte concernant les obligations de renseigner ?",
+   "options": [
+    "L'organe de révision a une obligation de renseigner illimitée envers l'assemblée générale.",
+    "L'organe de révision a une obligation de renseigner illimitée envers le conseil d'administration.",
+    "L'assemblée générale reçoit davantage d'informations que le conseil d'administration.",
+    "L'obligation de renseigner illimitée envers le conseil d'administration est régie par la LSR."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : envers l'assemblée générale, l'obligation de renseigner est restreinte (art. 728b al. 2 CO), non illimitée.",
+    "Correct : l'organe de révision renseigne le conseil d'administration sans restriction (obligation illimitée, art. 728b al. 1 CO).",
+    "Faux : l'assemblée générale reçoit moins que le conseil d'administration, l'obligation envers l'AG étant restreinte (art. 728b al. 2 CO).",
+    "Faux : cette obligation illimitée envers le conseil d'administration est régie par le CO (art. 728b al. 1 CO), non par la LSR."
+   ],
+   "source": "genere",
+   "memento": "§7.3"
+  },
+  {
+   "id": "M7-010",
+   "champ": "Secret des affaires (art. 730b al. 2 CO)",
+   "question": "L'organe de révision de Clean SA prépare sa communication à l'assemblée générale. Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "L'obligation de renseigner restreinte envers l'assemblée générale est bornée par le secret des affaires.",
+    "Le secret des affaires limite l'obligation de renseigner envers le conseil d'administration.",
+    "Envers l'assemblée générale, l'organe de révision doit fournir tous les renseignements sans aucune limite.",
+    "Le secret des affaires interdit toute communication de l'organe de révision à l'assemblée générale."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'obligation de renseigner restreinte envers l'assemblée générale (art. 728b al. 2 CO) est bornée par le secret des affaires (art. 730b al. 2 CO).",
+    "Faux : le secret des affaires (art. 730b al. 2 CO) borne la voie vers l'assemblée générale, pas l'obligation illimitée envers le conseil d'administration (art. 728b al. 1 CO).",
+    "Faux : l'obligation envers l'assemblée générale est restreinte (art. 728b al. 2 CO) et limitée par le secret des affaires (art. 730b al. 2 CO).",
+    "Faux : le secret des affaires (art. 730b al. 2 CO) borne l'information sans l'interdire ; l'organe de révision communique de façon restreinte à l'AG (art. 728b al. 2 CO)."
+   ],
+   "source": "genere",
+   "memento": "§7.3"
+  },
+  {
+   "id": "M7-011",
+   "champ": "ISA-CH 260",
+   "question": "Que contient la norme ISA-CH 260 ?",
+   "options": [
+    "La communication avec les personnes constituant le gouvernement d'entreprise.",
+    "La communication avec l'assemblée générale.",
+    "La communication avec les parties prenantes.",
+    "La communication des faiblesses du système de contrôle interne à la direction."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'ISA-CH 260 porte sur la communication avec les personnes constituant le gouvernement d'entreprise.",
+    "Faux : l'ISA-CH 260 vise le gouvernement d'entreprise (le conseil d'administration), non l'assemblée générale.",
+    "Faux : l'ISA-CH 260 ne traite pas de la communication aux parties prenantes, mais au gouvernement d'entreprise.",
+    "Faux : la communication des faiblesses du contrôle interne fait l'objet de l'ISA-CH 265, non de l'ISA-CH 260."
+   ],
+   "source": "original",
+   "memento": "§7.3"
+  },
+  {
+   "id": "M7-012",
+   "champ": "ISA-CH 265",
+   "question": "Que traite la norme ISA-CH 265 ?",
+   "options": [
+    "La communication des faiblesses du système de contrôle interne au gouvernement d'entreprise et à la direction.",
+    "La communication générale avec le gouvernement d'entreprise.",
+    "L'identification et l'évaluation des risques d'anomalies significatives.",
+    "La conception et la mise en œuvre des réponses de l'auditeur aux risques évalués."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'ISA-CH 265 porte sur la communication des faiblesses du système de contrôle interne aux personnes constituant le gouvernement d'entreprise et à la direction.",
+    "Faux : la communication générale avec le gouvernement d'entreprise fait l'objet de l'ISA-CH 260, non de l'ISA-CH 265.",
+    "Faux : l'identification et l'évaluation des risques relèvent de l'ISA-CH 315, non de l'ISA-CH 265.",
+    "Faux : les réponses de l'auditeur aux risques évalués relèvent de l'ISA-CH 330, non de l'ISA-CH 265."
+   ],
+   "source": "genere",
+   "memento": "§7.3"
+  },
+  {
+   "id": "M7-013",
+   "champ": "Avis au juge (art. 725b CO)",
+   "question": "La société présente un surendettement manifeste et le conseil d'administration reste inactif malgré un rappel de l'organe de révision. Quel est le rôle de l'organe de révision ?",
+   "options": [
+    "Il avise le juge à titre subsidiaire, lorsque le conseil d'administration omet de le faire malgré le rappel de son obligation.",
+    "Il avise le juge en premier lieu, avant même que le conseil d'administration n'intervienne.",
+    "Il n'a en aucun cas à intervenir auprès du juge, cette démarche relevant exclusivement du conseil d'administration.",
+    "Cet avis relève de l'obligation de renseigner illimitée envers le conseil d'administration."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : l'avis au juge par l'organe de révision est subsidiaire (art. 725b CO) — il intervient si le conseil d'administration omet d'agir malgré le rappel de son obligation.",
+    "Faux : l'avis de l'organe de révision est subsidiaire (art. 725b CO) ; le conseil d'administration est tenu d'agir en premier.",
+    "Faux : à titre subsidiaire, l'organe de révision doit aviser le juge lorsque le conseil d'administration reste inactif (art. 725b CO).",
+    "Faux : il s'agit d'une exception (avis au juge, art. 725b CO), distincte de l'obligation de renseigner envers le conseil d'administration (art. 728b al. 1 CO)."
+   ],
+   "source": "genere",
+   "memento": "§7.3"
+  }
+ ]
 }

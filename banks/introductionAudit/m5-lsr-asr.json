@@ -20,7 +20,8 @@
     "Faux. La manière d'auditer (procédures et techniques de contrôle) relève des normes d'audit (NA-CH / ISA-CH), et non de la LSR.",
     "Faux. La présentation des comptes relève du CO et des normes comptables reconnues ; la LSR ne régit pas l'établissement des comptes annuels."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§5.1"
   },
   {
    "id": "M5-002",
@@ -39,7 +40,8 @@
     "Faux. L'adhésion à EXPERTsuisse ne fonde pas l'agrément : les art. 4 et 5 LSR exigent formation, pratique professionnelle et réputation irréprochable.",
     "Faux. La formation initiale (diplôme) est déterminante aux art. 4 et 5 LSR ; les DFC concernent la formation continue et ne se substituent pas aux conditions d'agrément."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§5.2"
   },
   {
    "id": "M5-003",
@@ -58,7 +60,8 @@
     "Faux. Les 12 ans visent le titulaire d'un diplôme universitaire/HES ou d'un brevet fédéral pour l'expert-réviseur (art. 4 LSR), pas l'expert-fiduciaire.",
     "Faux. La dispense de pratique ne vaut que pour le titulaire du diplôme d'expert-comptable (0 an aux art. 4 et 5 LSR) ; l'expert-fiduciaire doit justifier d'une pratique professionnelle."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§5.2"
   },
   {
    "id": "M5-004",
@@ -77,7 +80,8 @@
     "Faux. La réputation irréprochable est requise des personnes physiques aux art. 4 et 5 LSR ; les entreprises doivent garantir le respect des obligations légales (art. 6 LSR).",
     "Faux. La réputation irréprochable est une condition permanente (art. 4 et 5 LSR) : un manquement ultérieur peut conduire l'ASR à retirer l'agrément (art. 17 LSR)."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§5.2"
   },
   {
    "id": "M5-005",
@@ -96,7 +100,8 @@
     "Faux. Le contrôle ordinaire exige un niveau supérieur (expert-réviseur agréé, art. 727b al. 2 CO), pas un simple réviseur agréé.",
     "Faux. L'entreprise soumise à la surveillance de l'État est exigée pour les sociétés ouvertes au public (art. 727b al. 1 CO), pas pour le contrôle restreint."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§5.3"
   },
   {
    "id": "M5-006",
@@ -115,7 +120,8 @@
     "Faux. L'opting-out (< 10 EPT et unanimité, art. 727a al. 2 CO) est exclu pour une société ouverte au public soumise au contrôle ordinaire.",
     "Faux. L'expert-réviseur agréé (art. 727b al. 2 CO) suffit pour une entreprise d'importance économique, mais une société cotée exige le niveau supérieur : entreprise soumise à la surveillance de l'État (art. 727b al. 1 CO)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§5.3 (+ §3.4)"
   },
   {
    "id": "M5-007",
@@ -134,7 +140,8 @@
     "Faux. Le délai de contrôle des entreprises soumises à l'État est d'au moins 3 ans ; les 7 ans renvoient à la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO).",
     "Faux. L'ASR dispose d'un véritable pouvoir d'agrément et de surveillance, en plus de tenir le registre public des réviseurs."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§5.4"
   },
   {
    "id": "M5-008",
@@ -153,7 +160,8 @@
     "Faux. L'agrément est personnel et non transférable : il ne peut être cédé à une autre personne, fût-ce sous conditions.",
     "Faux. Seuls les agréments des personnes physiques sont illimités ; ceux des entreprises de révision sont limités à 5 ans."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§5.4"
   },
   {
    "id": "M5-009",
@@ -172,7 +180,8 @@
     "Faux. L'agrément est personnel et non transférable ; il ne peut être cédé à un tiers, même avec l'accord de l'ASR.",
     "Faux. L'agrément d'une personne physique tient à ses caractéristiques personnelles (art. 4 et 5 LSR) et ne suppose pas une forme juridique SA ou Sàrl."
    ],
-   "source": "original"
+   "source": "original",
+   "memento": "§5.4"
   },
   {
    "id": "M5-010",
@@ -191,7 +200,8 @@
     "Faux. La nationalité suisse n'est pas exigée (l'art. 730 CO demande qu'au moins un membre ait son siège en Suisse) et l'adhésion à EXPERTsuisse n'est pas une condition légale d'élection.",
     "Faux. La réputation irréprochable relève de l'agrément (art. 4 et 5 LSR) et l'assurance RC concerne le réviseur (OSRev), non la société auditée ; les trois conditions sont éligibilité, agrément et indépendance."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§7.1"
   },
   {
    "id": "M5-011",
@@ -210,7 +220,8 @@
     "Faux. Le respect des DI/DFC concerne l'indépendance et la formation continue, non l'éligibilité au sens de l'art. 730 al. 2 et 4 CO.",
     "Faux. L'art. 730 CO n'exige qu'un membre ayant son siège en Suisse (pas tous domiciliés en Suisse) et ne pose pas d'exigence de diplôme d'expert-comptable, qui relève de l'agrément (art. 4 LSR)."
    ],
-   "source": "genere"
+   "source": "genere",
+   "memento": "§7.1"
   }
  ]
 }

@@ -24,7 +24,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. La chasse systématique à toute fraude n'est pas un but du contrôle (expectation gap) : le rôle réel est d'identifier, d'évaluer et de réduire les risques d'anomalies significatives, pas d'empêcher ou de détecter toute fraude (ISA-CH 240).",
       "Faux. Pour les sociétés de capitaux (responsabilité limitée à l'apport), la protection des créanciers est précisément un but du contrôle ; la responsabilité personnelle illimitée ne vaut que pour les sociétés de personnes, non révisées."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§1.1"
     },
     {
      "id": "M1-002",
@@ -43,7 +44,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. L'application d'une norme comptable ne supprime pas l'asymétrie : les tiers doivent croire une information qu'ils n'ont pas produite ; c'est justement le rôle du tiers indépendant de la réduire (cours ch.01).",
       "Faux. La logique principal-agent vaut aussi pour les PME ; le contrôle restreint reste une mission d'assurance destinée à réduire l'asymétrie (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.1"
     },
     {
      "id": "M1-003",
@@ -62,7 +64,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : c'est bien un but. La protection des créanciers (maintien du capital) est un objectif du contrôle pour les sociétés de capitaux (cours ch.01).",
       "Faux : c'est bien un but. L'autoprotection — garantie que les comptes sont saisis, traités et présentés conformément à la loi — est un objectif du contrôle (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.1"
     },
     {
      "id": "M1-004",
@@ -81,7 +84,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Ce n'est pas le créancier mais l'assemblée générale qui approuve les comptes (art. 698 al. 2 ch. 4 CO).",
       "Faux. L'approbation appartient à l'assemblée générale, pas au conseil d'administration, lequel se limite à établir les comptes (triangle des organes, cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.3"
     },
     {
      "id": "M1-005",
@@ -100,7 +104,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. L'AG approuve les comptes mais ne les établit pas ; l'établissement incombe au CA (art. 716a / 698 CO).",
       "Faux. L'organe de révision audite mais n'établit pas les comptes ; établir et auditer seraient incompatibles avec son indépendance (art. 728 CO ; triangle des organes, cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.3"
     },
     {
      "id": "M1-006",
@@ -119,7 +124,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. « Confirmation de mandat » et « établissement des comptes » ne figurent pas parmi les cinq caractéristiques (cours ch.01).",
       "Faux. Cette liste mélange les organes de la société et des normes ; elle ne décrit pas les caractéristiques d'une mission d'assurance (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.2"
     },
     {
      "id": "M1-007",
@@ -138,7 +144,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : c'est une caractéristique. Des éléments probants suffisants (quantité) et appropriés (qualité) sont exigés pour fonder l'opinion (cours ch.01).",
       "Faux : c'est une caractéristique. Le rapport d'audit écrit constitue la cinquième caractéristique (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.2"
     },
     {
      "id": "M1-008",
@@ -157,7 +164,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Les états financiers sont des informations financières, pas non financières ; le non-financier historique correspond aux systèmes et processus (cours ch.01).",
       "Faux. Le non-financier prospectif correspond notamment aux rapports de durabilité, pas aux états financiers (cours ch.01)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§1.4"
     },
     {
      "id": "M1-009",
@@ -176,7 +184,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Les états financiers sont une information financière historique, pas non financière prospective (cours ch.01).",
       "Faux. Les systèmes et processus relèvent du non-financier, pas du financier prospectif (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.4"
     },
     {
      "id": "M1-010",
@@ -195,7 +204,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Combinaison impossible : l'assurance positive va avec le niveau « raisonnable », jamais avec « limitée » (cours ch.01).",
       "Faux. Combinaison impossible : l'assurance « raisonnable » s'exprime par une opinion positive, jamais négative (cours ch.01)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§1.5"
     },
     {
      "id": "M1-011",
@@ -214,7 +224,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Combinaison impossible : « raisonnable » va de pair avec une formulation positive, non négative (cours ch.01).",
       "Faux. « Aucune assurance / faits constatés » décrit les procédures convenues (AUP), non la review qui délivre bien une assurance limitée (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.5"
     },
     {
      "id": "M1-012",
@@ -233,7 +244,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai. La collaboration interdisciplinaire (établissement des comptes, révision, informatique) augmente (cours ch.01).",
       "Vrai. L'informatique (Data Analytics, automatisation, blockchain) ne cesse de gagner en importance (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§11"
     },
     {
      "id": "M1-013",
@@ -252,7 +264,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai. L'importance de l'informatique continue de croître (cours ch.01).",
       "Vrai. La compréhension de technologies telles que la blockchain fait partie des compétences à développer (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§11"
     },
     {
      "id": "M1-014",
@@ -271,7 +284,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai. Le jugement professionnel reste nécessaire pour les décisions d'appréciation (goodwill, provisions…) (cours ch.01).",
       "Vrai. L'activité future se partage entre audit de transactions de masse (automatisé) et évaluation de décisions d'appréciation (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§11"
     },
     {
      "id": "M1-015",
@@ -290,7 +304,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. C'est l'organe de révision (tiers indépendant) qui contrôle les comptes établis par le CA ; l'AG approuve mais ne contrôle pas techniquement (triangle des organes, cours ch.01).",
       "Faux. Cette description correspond aux procédures convenues (AUP), qui ne délivrent aucune assurance, et non à l'objectif d'une mission d'assurance (cours ch.01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§1.2"
     }
    ]
   },
@@ -315,7 +330,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'assurance raisonnable / opinion positive caractérise l'AUDIT (ex. contrôle ordinaire, art. 727 CO), pas l'AUP.",
       "Faux : l'AUP n'est pas une review allégée ; c'est un service connexe SANS assurance (piège classique AUP ≠ mission d'assurance, mémento ch01)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.1"
     },
     {
      "id": "M2-002",
@@ -334,7 +350,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la REVIEW délivre une assurance limitée sur des comptes déjà établis ; ici le professionnel établit les comptes.",
       "Faux : l'AUDIT (contrôle ordinaire, art. 727 CO) délivre une assurance raisonnable sur des comptes établis par autrui."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.1"
     },
     {
      "id": "M2-003",
@@ -353,7 +370,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'assurance raisonnable est intrinsèque à l'AUDIT ; elle ne se dégrade pas parce que la mission est volontaire.",
       "Faux : le rapport écrit est l'une des 5 caractéristiques de toute mission d'assurance, qu'elle soit légale ou volontaire (source ch01 p.10)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.1"
     },
     {
      "id": "M2-004",
@@ -372,7 +390,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'AUP est un service connexe sans assurance, pas un contrôle légal des comptes annuels.",
       "Faux : l'audit de fondation est un contrôle légal SPÉCIAL (art. 635a CO), distinct du contrôle des comptes annuels."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§2.2"
     },
     {
      "id": "M2-005",
@@ -391,7 +410,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux (c'est bien un audit légal) : l'audit de fondation est un contrôle légal spécial (art. 635a CO).",
       "Exact : la review est un service de confiance volontaire à assurance limitée ; ce n'est PAS un audit légal (intrus récurrent aux QCM ; fiche 'Review n'est pas un contrôle légal')."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§2.2"
     },
     {
      "id": "M2-006",
@@ -410,7 +430,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : la review n'est pas un contrôle légal des comptes ; elle est demandée par le CA (et non par l'AG comme le restreint) et relève du volontaire (mémento ch03 §6 ; fiche 'Types de mission').",
       "Faux : la confirmation de l'existence du SCI relève du contrôle ordinaire (art. 728a CO), pas de la review."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.7 (+ §2.2)"
     },
     {
      "id": "M2-007",
@@ -429,7 +450,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la réévaluation (art. 725c CO) intervient en phase de crise pour remédier à une perte de capital, pas à la fondation.",
       "Faux : la répartition anticipée de l'actif concerne la liquidation, à l'opposé du cycle de vie."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.2"
     },
     {
      "id": "M2-008",
@@ -448,7 +470,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'art. 652f CO régit le contrôle du rapport d'augmentation de capital, pas la réévaluation.",
       "Faux : la répartition anticipée de l'actif se situe en phase de liquidation, non lors d'un assainissement."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§2.2"
     },
     {
      "id": "M2-009",
@@ -467,7 +490,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : c'est précisément l'apport en nature (comme la limitation des droits) qui déclenche l'obligation de contrôle.",
       "Faux : l'art. 725c CO vise la réévaluation en phase de crise, pas l'augmentation de capital."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.2"
     },
     {
      "id": "M2-010",
@@ -486,7 +510,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la réévaluation (art. 725c CO) est un assainissement en phase de crise, distinct de la liquidation.",
       "Faux : la répartition anticipée est un contrôle légal spécial (expert-réviseur agréé), pas une review volontaire."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.2"
     },
     {
      "id": "M2-011",
@@ -505,7 +530,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux (c'est bien typique) : les mandats PME sont courts (révision de 1 à 5 jours) et incluent souvent du conseil.",
       "Exact : des honoraires élevés comparables à ceux des grands groupes ne sont PAS caractéristiques du segment PME (piège classique ; fiche 'Segments : PME')."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§2.3"
     },
     {
      "id": "M2-012",
@@ -524,7 +550,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'ISA-CH 500 traite des éléments probants en général, pas spécifiquement des groupes.",
       "Faux : l'ISA-CH 700 concerne l'opinion et le rapport d'audit, pas les particularités de l'audit de groupe."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.3"
     },
     {
      "id": "M2-013",
@@ -543,7 +570,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : affirmer que les filiales sont 'en principe' soumises à un contrôle restreint est faux ; leur régime dépend de leur importance dans le groupe, souvent un contrôle ordinaire (piège ; fiche 'Segments').",
       "Faux (c'est bien typique) : l'audit informatique et la Data Analytics caractérisent l'audit des grandes entités cotées."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§2.3"
     },
     {
      "id": "M2-014",
@@ -562,7 +590,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la taille influence directement l'importance du SCI dans l'audit.",
       "Faux : un SCI bien établi ne devient pas superflu ; en contrôle ordinaire, son existence est justement confirmée (art. 728a CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§2.3"
     }
    ]
   },
@@ -587,7 +616,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai, donc pas la reponse cherchee : le type de controle (ordinaire ou restreint) depend precisement de l'importance economique (seuils de l'art. 727 al. 1 ch. 2 CO).",
       "Affirmation FAUSSE, donc la bonne reponse : l'assujettissement et le type de controle dependent justement de l'importance (seuils) et de la forme ; toutes les entreprises ne sont pas soumises independamment de leur taille (art. 727 / 727a CO)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§3.1"
     },
     {
      "id": "M3-002",
@@ -606,7 +636,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le motif n'est pas une question de seuils ; meme une grande societe de personnes n'est pas assujettie du fait de la responsabilite personnelle.",
       "Faux : elles ne sont pas assimilees aux societes ouvertes au public (art. 727 al. 1 ch. 1 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.1"
     },
     {
      "id": "M3-003",
@@ -625,7 +656,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Soumise : la cooperative fait partie des formes assujetties (seuils 20/40/250).",
       "Bonne reponse : la societe en commandite est une societe de personnes ; les associes repondent personnellement, elle n'est donc pas soumise a l'obligation de revision."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.1"
     },
     {
      "id": "M3-004",
@@ -644,7 +676,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : ce sont les seuils des associations (art. 69b CC : 10/20/50), pas ceux des grandes entreprises.",
       "Faux : les montants du bilan et du chiffre d'affaires sont intervertis ; il faut 20 mio (bilan) et 40 mio (CA)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-005",
@@ -663,7 +696,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : un seul exercice ne suffit pas ; le depassement doit intervenir sur deux exercices successifs.",
       "Faux : l'exemple du cours montre precisement l'inverse - des grandeurs differentes chaque annee declenchent quand meme le controle ordinaire."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-006",
@@ -682,7 +716,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les produits financiers et hors exploitation sont bien inclus dans le calcul du seuil.",
       "Faux : la TVA n'est pas un produit ; on part des comptes annuels conformes au droit commercial, pas des encaissements bruts."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-007",
@@ -701,7 +736,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la seule presence de reserves latentes n'a aucun effet declencheur sur le type de controle.",
       "Faux : on retient le produit net des ventes, sans deduction liee a des reserves latentes."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-008",
@@ -720,7 +756,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'opting-out suppose moins de 10 emplois a plein temps ; ici l'effectif est de 300-310.",
       "Faux : la comparaison sur deux exercices successifs est precisement la regle legale, elle ne fait pas disparaitre l'obligation."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-009",
@@ -739,7 +776,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : aucun des trois seuils 20/40/250 n'est depasse - ni le bilan, ni le CA, ni l'effectif.",
       "Faux : c'est le piege - une cooperative n'applique PAS les seuils associatifs 10/20/50 mais bien 20/40/250."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-010",
@@ -758,7 +796,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les grandes associations sont soumises a l'obligation de revision selon leurs propres seuils.",
       "Faux : deux des trois seuils suffisent, comme pour les entreprises (pas les trois)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-011",
@@ -777,7 +816,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : ce sont bien deux seuils (et non un seul) qui sont depasses chaque annee.",
       "Faux : l'opting-out exige moins de 10 emplois a plein temps ; l'effectif est ici de 230-251."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-012",
@@ -796,7 +836,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'opting-out suppose moins de 10 emplois a plein temps ET l'accord de tous les actionnaires ; ici l'effectif (40-45) depasse 10.",
       "Faux : une SA qui n'a pas valablement fait d'opting-out reste soumise au moins au controle restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.2 (+ §3.3)"
     },
     {
      "id": "M3-013",
@@ -815,7 +856,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la regle vise deux exercices successifs, pas un seul exercice depassant deux seuils.",
       "Faux : l'opting-out suppose moins de 10 emplois a plein temps et l'unanimite, ce qui n'est pas le cas ici (200 emplois)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-014",
@@ -834,7 +876,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : valeurs inventees ; les seuils associatifs sont 10/20/50.",
       "Faux : le seuil de CA associatif est 20 mio (pas 40) et l'effectif 50 (pas 100)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-015",
@@ -853,7 +896,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'association ne suit pas 20/40/250 ; avec 10/20/50 elle bascule bien en ordinaire.",
       "Faux : c'est l'inverse - l'association (seuils plus bas) bascule, la cooperative (seuils 20/40/250) reste en restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.3"
     },
     {
      "id": "M3-016",
@@ -872,7 +916,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Est un critere : la contribution d'au moins 20 % aux comptes consolides d'une telle societe (art. 727 al. 1 ch. 1 CO).",
       "Bonne reponse : le depassement des seuils 20/40/250 caracterise la GRANDE ENTREPRISE (art. 727 al. 1 ch. 2 CO), non la societe ouverte au public (art. 727 al. 1 ch. 1 CO)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§3.4"
     },
     {
      "id": "M3-017",
@@ -891,7 +936,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : une societe ouverte au public est toujours soumise au controle ordinaire, meme petite.",
       "Faux : l'opting-out est exclu pour une societe ouverte au public soumise au controle ordinaire."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.4"
     },
     {
      "id": "M3-018",
@@ -910,7 +956,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : aucune exclusion des apprentis n'est prevue.",
       "Faux : ils comptent au prorata de leur taux d'occupation, non comme un plein temps entier."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§3.3"
     },
     {
      "id": "M3-019",
@@ -929,7 +976,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le conseil d'administration ne peut pas imposer seul un controle ordinaire.",
       "Faux : le seuil de participation est de 10 % du capital, non de 50 %."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.5"
     },
     {
      "id": "M3-020",
@@ -948,7 +996,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : renoncer a la revision legale correspond a l'opting-out.",
       "Faux : renoncer a une revision volontaire correspond plutot a l'opting-down (retour au controle legal minimal)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§3.5"
     },
     {
      "id": "M3-021",
@@ -967,7 +1016,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'opting-down designe un controle volontaire aboutissant au restreint dans un contexte ou l'ordinaire serait attendu ; ce n'est pas l'entree volontaire dans le restreint depuis l'absence d'obligation.",
       "Faux : l'opting-out est la renonciation a tout controle legal, non un choix de controle restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.5"
     },
     {
      "id": "M3-022",
@@ -986,7 +1036,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le seuil est 10 emplois (non 250) et il faut l'unanimite (non la majorite simple).",
       "Faux : le critere est l'effectif (< 10 emplois) et l'unanimite des actionnaires, non le bilan et l'accord du CA."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.5"
     },
     {
      "id": "M3-023",
@@ -1005,7 +1056,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : plus de 250 emplois exclut l'opting-out (il faut moins de 10 emplois).",
       "Faux : le consentement de la moitie des actionnaires ne suffit pas ; l'unanimite est requise."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§3.5"
     },
     {
      "id": "M3-024",
@@ -1024,7 +1076,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'opting-out valablement decide se prolonge sur les exercices suivants sans revote annuel.",
       "Faux : chaque associe conserve la faculte de reexiger un controle restreint pour l'avenir."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.5"
     },
     {
      "id": "M3-025",
@@ -1043,7 +1096,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le controle ordinaire porte bien sur l'existence du SCI.",
       "Faux : l'art. 728a CO vise le controle ORDINAIRE ; il ne concerne pas le restreint. La confirmation du SCI n'incombe pas au controle restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.6"
     },
     {
      "id": "M3-026",
@@ -1062,7 +1116,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : c'est l'inverse - la rotation vise l'ordinaire, pas le restreint.",
       "Faux : l'obligation de rotation existe bien, mais pour le seul controle ordinaire."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.6"
     },
     {
      "id": "M3-027",
@@ -1081,7 +1136,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le controle ordinaire donne lieu a un rapport a l'AG et a un rapport detaille au CA.",
       "Faux : les niveaux sont inverses - ordinaire env. 90-95 % (raisonnable), restreint env. 60 % (limitee)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.6 (+ §1.5)"
     },
     {
      "id": "M3-028",
@@ -1100,7 +1156,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le controle restreint est aussi soumis a l'independance (avec l'assouplissement de l'art. 729 CO).",
       "Faux : en controle ordinaire, tenir la comptabilite du client est incompatible avec l'independance (art. 728 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.4 (+ §3.6)"
     },
     {
      "id": "M3-029",
@@ -1119,7 +1176,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la surveillance de l'Etat n'est requise que pour les societes ouvertes au public / grandes entreprises, pas pour tout controle restreint.",
       "Faux : le controle restreint requiert au moins un reviseur agree (art. 727c CO) ; l'absence d'agrement n'est admise qu'apres un opting-out valable."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.6"
     },
     {
      "id": "M3-030",
@@ -1138,7 +1196,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la review n'est pas un controle legal des comptes ; le controle restreint, lui, est un controle legal.",
       "Faux : c'est l'inverse - c'est le controle restreint qui comporte l'obligation d'agir en cas de surendettement, non la review."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§3.7"
     }
    ]
   },
@@ -1163,7 +1222,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la maniere de presenter les faits dans les comptes releve d'une norme comptable (CO, Swiss GAAP RPC, IFRS, US GAAP), pas d'une norme d'audit.",
       "Faux : le conseil d'administration etablit les comptes selon une norme comptable ; les NA-CH s'adressent a l'organe de revision."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§4.1"
     },
     {
      "id": "M4-002",
@@ -1182,7 +1242,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les prestations de conseil sont expressement exclues du champ des NA-CH.",
       "Faux : le controle restreint est regi par la NCR, norme separee des NA-CH, quel que soit le referentiel comptable."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§4.2"
     },
     {
      "id": "M4-003",
@@ -1201,7 +1262,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : le conseil (fiscal, aux entreprises, comptabilite clients) est toujours exclu du champ des NA-CH.",
       "Vrai : la Norme suisse relative au controle restreint (NCR) est la norme distincte applicable au controle restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.2"
     },
     {
      "id": "M4-004",
@@ -1220,7 +1282,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Correct : l'organe de revision applique les NA-CH quel que soit le referentiel comptable (CO/RPC, IFRS, US GAAP) ; l'audit de groupe est traite par ISA-CH 600.",
       "Faux : la NCR ne vise que le controle restreint ; un controle ordinaire de groupe releve des NA-CH (ISA-CH 600)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.2"
     },
     {
      "id": "M4-005",
@@ -1239,7 +1302,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : assurer un audit de qualite irreprochable est un objectif explicite des NA-CH.",
       "FAUSSE (reponse cherchee) : les NA-CH ne donnent aucune directive sur les honoraires ; ce theme releve des Regles d'organisation et d'ethique professionnelle d'EXPERTsuisse, hors NA-CH."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§4.3"
     },
     {
      "id": "M4-006",
@@ -1258,7 +1322,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : la delimitation des responsabilites (qui repond de quoi) figure parmi les quatre benefices, avec la fiabilite.",
       "Reponse cherchee : la fixation des honoraires n'est pas un benefice des NA-CH, qui ne traitent pas des honoraires."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.3"
     },
     {
      "id": "M4-007",
@@ -1277,7 +1342,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : ISA-CH 700 traite du fondement de l'opinion et du rapport d'audit.",
       "Faux : ISA-CH 800 vise les audits d'etats financiers etablis selon des referentiels a caractere specifique."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.4"
     },
     {
      "id": "M4-008",
@@ -1296,7 +1362,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Correct : ISA-CH 600 traite des aspects particuliers concernant l'audit de groupe (categorie 600-699 : travaux d'autres professionnels).",
       "Faux : ISA-CH 700 traite du fondement de l'opinion et du rapport d'audit."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.4"
     },
     {
      "id": "M4-009",
@@ -1315,7 +1382,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : ISA-CH 260 traite de la communication (au gouvernement d'entreprise), pas des fraudes.",
       "Faux : ISA-CH 315 traite de l'identification et de l'evaluation des risques d'anomalies significatives, y compris via le SCI."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.4"
     },
     {
      "id": "M4-010",
@@ -1334,7 +1402,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : ISA-CH = ISA traduites/adaptees ; NAS-CH = normes suisses distinctes ; ce ne sont pas des synonymes.",
       "Faux : NAS-CH 290, 700 et 890 sont des normes d'audit (NA-CH), pas des normes comptables ; NAS-CH 890 vise l'existence du SCI selon art. 728a al. 1 ch. 3 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.2 (+ §4.4)"
     },
     {
      "id": "M4-011",
@@ -1353,7 +1422,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les MSA ne sont pas des commentaires de la NCR ; ce sont des manuels thematiques (comptabilite, controle ordinaire, controle restreint, missions d'assurance, services financiers).",
       "Faux : la traduction/adaptation suisse des ISA, ce sont les NA-CH ; les MSA ne les remplacent pas."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§4.2"
     },
     {
      "id": "M4-012",
@@ -1372,7 +1442,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les RA s'adressent a l'auditeur, pas au conseil d'administration pour l'etablissement des comptes.",
       "Faux : les RA sont des recommandations d'audit, non des normes comptables."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.2"
     },
     {
      "id": "M4-013",
@@ -1391,7 +1462,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les MSA sont des ouvrages de reference, pas la source des directives sur l'independance.",
       "Faux : les communiques de presse ne sont pas la source des directives sur l'independance."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.2"
     },
     {
      "id": "M4-014",
@@ -1410,7 +1482,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les normes de gestion de la qualite (ISQM-CH 1+2) figurent bien dans les NA-CH.",
       "Faux : l'ISQM-CH 1+2 est une norme de gestion de la qualite des cabinets, pas une norme comptable."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.5"
     },
     {
      "id": "M4-015",
@@ -1429,7 +1502,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les DFC concernent la formation continue des membres, non le systeme de gestion de la qualite du cabinet.",
       "Faux : la NCR est la norme du controle restreint des clients ; elle ne regit pas le systeme qualite interne du cabinet."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.5"
     }
    ]
   },
@@ -1454,7 +1528,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. La manière d'auditer (procédures et techniques de contrôle) relève des normes d'audit (NA-CH / ISA-CH), et non de la LSR.",
       "Faux. La présentation des comptes relève du CO et des normes comptables reconnues ; la LSR ne régit pas l'établissement des comptes annuels."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§5.1"
     },
     {
      "id": "M5-002",
@@ -1473,7 +1548,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. L'adhésion à EXPERTsuisse ne fonde pas l'agrément : les art. 4 et 5 LSR exigent formation, pratique professionnelle et réputation irréprochable.",
       "Faux. La formation initiale (diplôme) est déterminante aux art. 4 et 5 LSR ; les DFC concernent la formation continue et ne se substituent pas aux conditions d'agrément."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§5.2"
     },
     {
      "id": "M5-003",
@@ -1492,7 +1568,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Les 12 ans visent le titulaire d'un diplôme universitaire/HES ou d'un brevet fédéral pour l'expert-réviseur (art. 4 LSR), pas l'expert-fiduciaire.",
       "Faux. La dispense de pratique ne vaut que pour le titulaire du diplôme d'expert-comptable (0 an aux art. 4 et 5 LSR) ; l'expert-fiduciaire doit justifier d'une pratique professionnelle."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§5.2"
     },
     {
      "id": "M5-004",
@@ -1511,7 +1588,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. La réputation irréprochable est requise des personnes physiques aux art. 4 et 5 LSR ; les entreprises doivent garantir le respect des obligations légales (art. 6 LSR).",
       "Faux. La réputation irréprochable est une condition permanente (art. 4 et 5 LSR) : un manquement ultérieur peut conduire l'ASR à retirer l'agrément (art. 17 LSR)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§5.2"
     },
     {
      "id": "M5-005",
@@ -1530,7 +1608,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Le contrôle ordinaire exige un niveau supérieur (expert-réviseur agréé, art. 727b al. 2 CO), pas un simple réviseur agréé.",
       "Faux. L'entreprise soumise à la surveillance de l'État est exigée pour les sociétés ouvertes au public (art. 727b al. 1 CO), pas pour le contrôle restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§5.3"
     },
     {
      "id": "M5-006",
@@ -1549,7 +1628,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. L'opting-out (< 10 EPT et unanimité, art. 727a al. 2 CO) est exclu pour une société ouverte au public soumise au contrôle ordinaire.",
       "Faux. L'expert-réviseur agréé (art. 727b al. 2 CO) suffit pour une entreprise d'importance économique, mais une société cotée exige le niveau supérieur : entreprise soumise à la surveillance de l'État (art. 727b al. 1 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§5.3 (+ §3.4)"
     },
     {
      "id": "M5-007",
@@ -1568,7 +1648,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Le délai de contrôle des entreprises soumises à l'État est d'au moins 3 ans ; les 7 ans renvoient à la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO).",
       "Faux. L'ASR dispose d'un véritable pouvoir d'agrément et de surveillance, en plus de tenir le registre public des réviseurs."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§5.4"
     },
     {
      "id": "M5-008",
@@ -1587,7 +1668,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. L'agrément est personnel et non transférable : il ne peut être cédé à une autre personne, fût-ce sous conditions.",
       "Faux. Seuls les agréments des personnes physiques sont illimités ; ceux des entreprises de révision sont limités à 5 ans."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§5.4"
     },
     {
      "id": "M5-009",
@@ -1606,7 +1688,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. L'agrément est personnel et non transférable ; il ne peut être cédé à un tiers, même avec l'accord de l'ASR.",
       "Faux. L'agrément d'une personne physique tient à ses caractéristiques personnelles (art. 4 et 5 LSR) et ne suppose pas une forme juridique SA ou Sàrl."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§5.4"
     },
     {
      "id": "M5-010",
@@ -1625,7 +1708,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. La nationalité suisse n'est pas exigée (l'art. 730 CO demande qu'au moins un membre ait son siège en Suisse) et l'adhésion à EXPERTsuisse n'est pas une condition légale d'élection.",
       "Faux. La réputation irréprochable relève de l'agrément (art. 4 et 5 LSR) et l'assurance RC concerne le réviseur (OSRev), non la société auditée ; les trois conditions sont éligibilité, agrément et indépendance."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.1"
     },
     {
      "id": "M5-011",
@@ -1644,7 +1728,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux. Le respect des DI/DFC concerne l'indépendance et la formation continue, non l'éligibilité au sens de l'art. 730 al. 2 et 4 CO.",
       "Faux. L'art. 730 CO n'exige qu'un membre ayant son siège en Suisse (pas tous domiciliés en Suisse) et ne pose pas d'exigence de diplôme d'expert-comptable, qui relève de l'agrément (art. 4 LSR)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.1"
     }
    ]
   },
@@ -1669,7 +1754,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'indépendance effective est tout aussi exigée par l'art. 728 al. 1 CO, même si elle n'est pas mesurable de l'extérieur.",
       "Faux : selon l'art. 728 al. 1 CO, les deux faces valent pour tout contrôle ordinaire, pas seulement pour les sociétés ouvertes au public."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.1"
     },
     {
      "id": "M6-002",
@@ -1688,7 +1774,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'indépendance en apparence est précisément celle qui est identifiable pour des tiers (art. 728 CO).",
       "Faux : seule l'indépendance en apparence est mesurable de l'extérieur ; l'effective relève de l'attitude intérieure (art. 728 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.1"
     },
     {
      "id": "M6-003",
@@ -1707,7 +1794,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Compatible : un simple déjeuner de courtoisie n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO ; il ne restreint pas l'indépendance.",
       "Incompatible : l'acceptation de cadeaux ou d'avantages particuliers est visée par l'art. 728 al. 2 ch. 7 CO."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§6.3"
     },
     {
      "id": "M6-004",
@@ -1726,7 +1814,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'art. 728 al. 4 CO interdit à tout employé du réviseur, même non participant, d'être membre du CA du client ou d'y exercer une fonction décisionnelle.",
       "Faux : l'art. 728 al. 6 CO interdit que l'organe de révision appartienne au même groupe que le client contrôlé."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.3"
     },
     {
      "id": "M6-005",
@@ -1745,7 +1834,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Admis : une simple recommandation d'amélioration du SCI reste possible tant que le réviseur n'en assume pas le maintien (art. 728 al. 2 ch. 4 CO).",
       "Admis : le réviseur peut fournir un modèle d'annexe, le client conservant la responsabilité de son établissement (art. 728 al. 2 ch. 4 CO — pas d'auto-contrôle)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.3"
     },
     {
      "id": "M6-006",
@@ -1764,7 +1854,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Admis : l'établissement des comptes annuels par traitement des soldes est en principe autorisé si le client garde la responsabilité (art. 728 al. 2 ch. 4 CO).",
       "Admis : un déjeuner de travail n'est pas un cadeau ou avantage particulier au sens de l'art. 728 al. 2 ch. 7 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.3"
     },
     {
      "id": "M6-007",
@@ -1783,7 +1874,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : une simple recommandation reste admise ; seule l'implication qui crée un auto-contrôle est interdite (art. 728 al. 2 ch. 4 CO).",
       "Faux : la tenue de la comptabilité des salaires reste un auto-contrôle interdit en ordinaire (art. 728 al. 2 ch. 4 CO), quelle que soit la recommandation du SCI."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.3"
     },
     {
      "id": "M6-008",
@@ -1802,7 +1894,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les autres services ne sont pas interdits en tant que tels ; l'art. 11 LSR les plafonne à 10 % pour les sociétés d'intérêt public.",
       "Faux : l'art. 11 LSR ne vise que les sociétés d'intérêt public (entreprises de révision soumises à la surveillance de l'État), pas toutes les SA ni le contrôle restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.5 (+ §6.2)"
     },
     {
      "id": "M6-009",
@@ -1821,7 +1914,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 15 %.",
       "Faux : le seuil de l'art. 11 LSR est de 10 %, pas de 20 %."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§6.5"
     },
     {
      "id": "M6-010",
@@ -1840,7 +1934,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : CHF 20'000 correspondrait à 20 %, alors que l'art. 11 LSR fixe 10 %.",
       "Faux : CHF 100'000 est le coût de l'audit lui-même, non le plafond des autres services (10 % selon l'art. 11 LSR)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.5"
     },
     {
      "id": "M6-011",
@@ -1859,7 +1954,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'art. 730a al. 2 CO impose précisément une interruption ; le mandat n'est pas renouvelable sans pause.",
       "Faux : les durées sont inversées ; l'art. 730a al. 2 CO prévoit 7 ans de mandat puis 3 ans d'interruption."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.5 (+ §6.2)"
     },
     {
      "id": "M6-012",
@@ -1878,7 +1974,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le maximum total est de 7 ans ; après 5 ans écoulés, il ne reste pas 5 ans (art. 730a al. 2 CO).",
       "Faux : la limite de 7 ans n'étant pas atteinte, Mme A. peut encore diriger 2 ans avant l'interruption (art. 730a al. 2 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.5"
     },
     {
      "id": "M6-013",
@@ -1897,7 +1994,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le critère n'est pas le type d'agrément mais le type de contrôle ; la rotation vise l'ordinaire (art. 730a al. 2 CO).",
       "Faux : c'est l'inverse ; l'art. 730a al. 2 CO vise le contrôle ordinaire, pas le restreint."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.2"
     },
     {
      "id": "M6-014",
@@ -1916,7 +2014,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : l'art. 729 CO admet la collaboration à la comptabilité s'il n'y a pas de risque d'auto-contrôle et moyennant des mesures organisationnelles (séparation, décisions du client, publication, responsabilité au client).",
       "Faux : l'allègement de l'art. 729 CO concerne le contrôle restreint ; une société ouverte au public relève au contraire de règles renforcées (art. 11 LSR)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.4"
     },
     {
      "id": "M6-015",
@@ -1935,7 +2034,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la durée de 7 ans relève de la rotation (art. 730a al. 2 CO), sans lien avec l'exclusion de l'art. 729 CO.",
       "Faux : le plafond de 10 % relève de l'art. 11 LSR (sociétés d'intérêt public), non de l'exclusion prévue à l'art. 729 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.4"
     },
     {
      "id": "M6-016",
@@ -1954,7 +2054,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'art. 39 LSR plafonne l'amende à CHF 100'000, non à CHF 1 million.",
       "Faux : la sanction de l'art. 39 LSR est une amende ; le retrait d'agrément n'est pas la peine prévue par cette disposition."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.8 (+ §6.5)"
     },
     {
      "id": "M6-017",
@@ -1973,7 +2074,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'art. 40 LSR prévoit une véritable sanction pénale (délit), non une simple mesure administrative.",
       "Faux : l'art. 40 LSR qualifie ces faits de délit (peine ≤ 3 ans), non de crime puni de 10 ans."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.8"
     },
     {
      "id": "M6-018",
@@ -1992,7 +2094,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : le niveau macro (structurel/réglementaire) porte sur le cadre juridique ; ses déficits (normes = limites, réformes en retard, droits nationaux hétérogènes) sont à combler par des codes d'entreprise — Zünd, EXPERT FOCUS TH 1-2/05.",
       "Faux : la moralité de groupe de l'équipe d'audit illustre le niveau méso appliqué à l'audit, non le macro (Zünd, EXPERT FOCUS TH 1-2/05)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.7"
     },
     {
      "id": "M6-019",
@@ -2011,7 +2114,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : « interpréter de manière créative » les résultats viole l'intégrité et l'objectivité exigées (Règles d'éthique EXPERTsuisse ; art. 728 al. 1 CO).",
       "Faux : refuser est correct, mais ignorer le conflit manque au devoir de traiter le dilemme éthique (identification des faits, des personnes touchées, des solutions, décision)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§6.7"
     },
     {
      "id": "M6-020",
@@ -2030,7 +2134,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'aléa moral est une notion connexe, mais le phénomène décrit ici est la théorie du principal-agent (Sager et al., EXPERT FOCUS).",
       "Faux : le screening n'est pas la théorie visée ; il s'agit du principal-agent (Sager et al., EXPERT FOCUS)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§6.7"
     },
     {
      "id": "M6-021",
@@ -2049,7 +2154,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la situation professionnelle relève des facteurs situationnels ; les facteurs individuels tiennent aussi au caractère (Zünd, EXPERT FOCUS).",
       "Faux : c'est l'inverse ; les objectifs égocentriques accroissent la vulnérabilité au comportement non éthique (Zünd, EXPERT FOCUS)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§6.7"
     },
     {
      "id": "M6-022",
@@ -2068,7 +2174,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : c'est l'inverse ; l'ISQM-CH 1+2 (actuel) a remplacé l'ancien ISQC-CH 1.",
       "Faux : les entreprises révisant selon les NA-CH doivent précisément appliquer l'ISQM-CH 1+2."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§4.5"
     }
    ]
   },
@@ -2093,7 +2200,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'appartenance au conseil d'administration est au contraire une incompatibilité au regard de l'indépendance (art. 728 al. 2 CO), non une condition d'éligibilité (art. 730 CO).",
       "Faux : les conditions de domicile en Suisse et d'inscription au registre du commerce restent requises (art. 730 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.1"
     },
     {
      "id": "M7-002",
@@ -2112,7 +2220,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'indépendance ne doit être restreinte ni dans les faits, ni en apparence (art. 728 al. 1 CO) — les deux faces sont requises.",
       "Faux : c'est l'ASR (Autorité fédérale de surveillance en matière de révision), et non EXPERTsuisse, qui agrée les réviseurs et experts-réviseurs (art. 4 et 5 LSR)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.1"
     },
     {
      "id": "M7-003",
@@ -2131,7 +2240,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'organe de révision assume bien la responsabilité de la révision (art. 755 CO).",
       "Faux : la durée de fonction est d'un à trois exercices (art. 730a al. 1 CO) ; le seuil de sept ans concerne la rotation du réviseur responsable en contrôle ordinaire (art. 730a al. 2 CO)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§7.2"
     },
     {
      "id": "M7-004",
@@ -2150,7 +2260,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la durée est bornée à un à trois exercices (art. 730a al. 1 CO), même si la réélection est possible.",
       "Faux : la loi admet une durée d'un à trois exercices (art. 730a al. 1 CO), et non un an obligatoire."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.2"
     },
     {
      "id": "M7-005",
@@ -2169,7 +2280,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le rapport intervient en cours de mandat ; le mandat naît de l'élection (art. 698 al. 2 ch. 2 CO) et de l'acceptation.",
       "Faux : l'inscription au registre du commerce ne conditionne pas la naissance du mandat, laquelle résulte de l'élection (art. 698 al. 2 ch. 2 CO) et de l'acceptation."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.2"
     },
     {
      "id": "M7-006",
@@ -2188,7 +2300,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la révocation est prononcée par l'assemblée générale (art. 730a al. 4 CO), non par le conseil d'administration.",
       "Faux : la fin du mandat par le juge est fondée sur l'art. 731b al. 3 CO, non sur l'art. 730a al. 3 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.2"
     },
     {
      "id": "M7-007",
@@ -2207,7 +2320,8 @@ window.QCM_BANK["introductionAudit"] = {
       "FAUSSE (réponse attendue) : la démission ne décharge pas l'organe de révision de sa responsabilité pour les manquements déjà commis (art. 755 CO).",
       "Exacte (donc pas la réponse) : consigner et documenter par écrit les faits relève des bonnes pratiques entourant la démission (art. 730a al. 3 CO)."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§7.2"
     },
     {
      "id": "M7-008",
@@ -2226,7 +2340,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'organe de révision peut démissionner en cours de mandat (art. 730a al. 3 CO), pas seulement à l'échéance (art. 730a al. 1 CO).",
       "Faux : la démission ne décharge pas l'organe de révision de sa responsabilité pour les manquements passés (art. 755 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.2"
     },
     {
      "id": "M7-009",
@@ -2245,7 +2360,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'assemblée générale reçoit moins que le conseil d'administration, l'obligation envers l'AG étant restreinte (art. 728b al. 2 CO).",
       "Faux : cette obligation illimitée envers le conseil d'administration est régie par le CO (art. 728b al. 1 CO), non par la LSR."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.3"
     },
     {
      "id": "M7-010",
@@ -2264,7 +2380,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'obligation envers l'assemblée générale est restreinte (art. 728b al. 2 CO) et limitée par le secret des affaires (art. 730b al. 2 CO).",
       "Faux : le secret des affaires (art. 730b al. 2 CO) borne l'information sans l'interdire ; l'organe de révision communique de façon restreinte à l'AG (art. 728b al. 2 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.3"
     },
     {
      "id": "M7-011",
@@ -2283,7 +2400,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'ISA-CH 260 ne traite pas de la communication aux parties prenantes, mais au gouvernement d'entreprise.",
       "Faux : la communication des faiblesses du contrôle interne fait l'objet de l'ISA-CH 265, non de l'ISA-CH 260."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§7.3"
     },
     {
      "id": "M7-012",
@@ -2302,7 +2420,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'identification et l'évaluation des risques relèvent de l'ISA-CH 315, non de l'ISA-CH 265.",
       "Faux : les réponses de l'auditeur aux risques évalués relèvent de l'ISA-CH 330, non de l'ISA-CH 265."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.3"
     },
     {
      "id": "M7-013",
@@ -2321,7 +2440,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : à titre subsidiaire, l'organe de révision doit aviser le juge lorsque le conseil d'administration reste inactif (art. 725b CO).",
       "Faux : il s'agit d'une exception (avis au juge, art. 725b CO), distincte de l'obligation de renseigner envers le conseil d'administration (art. 728b al. 1 CO)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§7.3"
     }
    ]
   },
@@ -2346,7 +2466,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la planification (ISA-CH 300) précède la réalisation (ISA-CH 500), et non l'inverse.",
       "Faux : le mandat est la première phase et la clôture / rapport (NAS-CH 700) la dernière ; l'ordre proposé est incohérent."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§8.1"
     },
     {
      "id": "M8-002",
@@ -2365,7 +2486,8 @@ window.QCM_BANK["introductionAudit"] = {
       "FAUSSE (réponse attendue) : la planification (ISA-CH 300) vient APRÈS le mandat ; on n'établit pas la stratégie d'audit avant d'avoir accepté la mission (ISA-CH 210).",
       "Vrai : le rapport de l'organe de révision (NAS-CH 700) clôt le processus d'audit."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.1"
     },
     {
      "id": "M8-003",
@@ -2384,7 +2506,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le 'risque externe' n'existe pas dans le modèle ; les composantes sont RI, RC et RND.",
       "Faux : le risque de non-détection (RND) fait partie intégrante du modèle ; c'est même la seule composante que l'auditeur peut influencer."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.2"
     },
     {
      "id": "M8-004",
@@ -2403,7 +2526,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : le risque inhérent (RI) est la probabilité d'une anomalie sans tenir compte du SCI (avant contrôle).",
       "Faux : le risque d'audit est le produit RI x RC x RND, pas une composante isolée."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§8.2"
     },
     {
      "id": "M8-005",
@@ -2422,7 +2546,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le risque de non-détection (RND) est celui qu'une anomalie échappe aux procédures de l'auditeur, pas au SCI.",
       "Faux : le risque d'audit est le produit global RI x RC x RND, pas cette composante précise."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.2"
     },
     {
      "id": "M8-006",
@@ -2441,7 +2566,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : le risque de contrôle (RC) concerne les anomalies qui échappent au SCI de l'entité, pas aux procédures de l'auditeur.",
       "Faux : le risque d'audit est le produit RI x RC x RND, pas la composante liée aux procédures."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.2"
     },
     {
      "id": "M8-007",
@@ -2460,7 +2586,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : en adaptant la nature et l'étendue de ses procédures (ISA-CH 330), l'auditeur abaisse le RND.",
       "Vrai : RI et RC découlent de l'activité, de l'environnement et du SCI de l'entité."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§8.2"
     },
     {
      "id": "M8-008",
@@ -2479,7 +2606,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : des éléments probants suffisants et appropriés (ISA-CH 500) abaissent le risque de non-détection, donc le risque d'audit.",
       "FAUSSE (réponse attendue) : le risque d'audit ne peut pas être totalement éliminé, quelle que soit la qualité de l'audit ; il subsiste toujours un risque résiduel."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.2"
     },
     {
      "id": "M8-009",
@@ -2498,7 +2626,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les confirmations externes (ISA-CH 505) relèvent du contrôle ordinaire ; le restreint les exclut.",
       "Faux : le contrôle restreint donne une assurance limitée (négative), pas une assurance raisonnable."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.2"
     },
     {
      "id": "M8-010",
@@ -2517,7 +2646,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : ISA-CH 315 (révisé) régit l'identification et l'évaluation des risques d'anomalies significatives, y compris via la connaissance du SCI.",
       "Faux : ISA-CH 330 traite des réponses de l'auditeur aux risques évalués."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.1"
     },
     {
      "id": "M8-011",
@@ -2536,7 +2666,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : ISA-CH 300 = planification et ISA-CH 500 = éléments probants ; les associations proposées sont inversées.",
       "Faux : ISA-CH 320 = caractère significatif et ISA-CH 330 = réponses aux risques ; l'attribution proposée est erronée."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.1"
     },
     {
      "id": "M8-012",
@@ -2555,7 +2686,8 @@ window.QCM_BANK["introductionAudit"] = {
       "FAUSSE (réponse attendue) : le jugement professionnel s'applique justement aussi à l'estimation du risque d'audit.",
       "Vrai : l'esprit critique implique de rester attentif aux informations contredisant la fiabilité des documents et des réponses aux demandes (ISA-CH 200)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.3"
     },
     {
      "id": "M8-013",
@@ -2574,7 +2706,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : l'esprit critique est requis en permanence, indépendamment de l'expérience passée avec le client (ISA-CH 200).",
       "Vrai : l'esprit critique contribue à repérer les risques d'anomalies significatives, notamment dues à la fraude (ISA-CH 240)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§8.3"
     },
     {
      "id": "M8-014",
@@ -2593,7 +2726,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : c'est l'inverse ; la fraude est intentionnelle et l'erreur non intentionnelle.",
       "Faux : le critère distinctif est l'intention (ISA-CH 240), pas le montant de l'anomalie."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§9.1"
     },
     {
      "id": "M8-015",
@@ -2612,7 +2746,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les erreurs sont non intentionnelles et ne constituent pas des fraudes.",
       "Faux : ces notions relèvent du droit pénal, pas de la typologie des fraudes de l'ISA-CH 240."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§9.1"
     },
     {
      "id": "M8-016",
@@ -2631,7 +2766,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : les facteurs individuels, situationnels et culturels relèvent de l'éthique économique (Zünd), pas du triangle de la fraude.",
       "Faux : ces éléments ne correspondent pas aux trois sommets du triangle de la fraude."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§9.2"
     },
     {
      "id": "M8-017",
@@ -2650,7 +2786,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Vrai : le rôle de l'auditeur est d'identifier, d'évaluer et de réduire les risques d'anomalies dues à la fraude, pas de garantir la détection de toute fraude.",
       "Vrai : le décalage entre l'attente d'une détection de toute fraude et le rôle réel de l'auditeur est l'expectation gap."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§9.3"
     }
    ]
   },
@@ -2675,7 +2812,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la responsabilite de mandataire (contrat) couvre les verifications speciales (transfert de siege, repartition anticipee de l'actif), pas la verification des comptes annuels qui est une verification legale (art. 755 CO).",
       "Faux : en tant qu'organe (art. 755 CO), l'OR repond envers la societe, les actionnaires ET les creanciers, pas seulement les creanciers, et pas dans une relation de mandat."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§10.1"
     },
     {
      "id": "M9-002",
@@ -2694,7 +2832,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : seule la responsabilite de mandataire se limite a la societe ; en tant qu'organe (art. 755 CO) le cercle inclut actionnaires et creanciers.",
       "Faux : les fondements sont inverses : l'organe repond sur la base de l'art. 755 CO, le mandataire sur la base du contrat (mandat)."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.1"
     },
     {
      "id": "M9-003",
@@ -2713,7 +2852,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : la fondation, l'augmentation et la reduction du capital-actions sont des verifications legales pour lesquelles l'OR repond en tant qu'organe au sens de l'art. 755 CO (au meme titre que les comptes annuels et de groupe).",
       "Faux : les autres verifications sur mandat relevent par definition de la responsabilite de mandataire (contrat), pas de l'art. 755 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.1"
     },
     {
      "id": "M9-004",
@@ -2732,7 +2872,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : contrat, fraude et declarations mensongeres ne figurent pas parmi les quatre conditions de l'art. 755 CO.",
       "Faux : la fraude et le contrat ne sont pas des conditions ; il manque le dommage et le lien de causalite, indispensables selon l'art. 755 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.2"
     },
     {
      "id": "M9-005",
@@ -2751,7 +2892,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la responsabilite penale (infractions du CP) est independante et suppose ses propres elements constitutifs ; l'absence de faute civile ne la declenche pas.",
       "Faux : la responsabilite de l'organe de revision est civile ET penale, jamais administrative ; aucune responsabilite administrative ne subsiste."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.2"
     },
     {
      "id": "M9-006",
@@ -2770,7 +2912,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la baisse de valeur de la participation due a une perte de la societe est l'exemple type du dommage INDIRECT, subi via la societe.",
       "Faux : une perte subie par la societe elle-meme est le point de depart du dommage indirect pour l'actionnaire/creancier, non un dommage direct."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.1"
     },
     {
      "id": "M9-007",
@@ -2789,7 +2932,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'actionnaire est bien touche ; le dommage indirect concerne aussi bien les actionnaires que les creanciers.",
       "Faux : le dommage indirect entre dans le champ de la responsabilite d'organe (art. 755 CO), pour autant que les quatre conditions soient reunies."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.1"
     },
     {
      "id": "M9-008",
@@ -2808,7 +2952,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Exact : la responsabilite de l'organe de revision se decline en responsabilite civile (art. 755 CO) et responsabilite penale (infractions du CP) - jamais administrative.",
       "Faux : le 'droit civique' n'est pas la categorie pertinente ; les deux branches sont le droit civil et le droit penal."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§10.1 (+ §10.3)"
     },
     {
      "id": "M9-009",
@@ -2827,7 +2972,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : la LSR regit l'agrement et la surveillance des reviseurs, non les infractions penales visees ici (qui sont dans le CP).",
       "Faux : les NA-CH decrivent la demarche d'audit ; elles ne definissent pas d'infractions penales, lesquelles relevent du CP."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.3"
     },
     {
      "id": "M9-010",
@@ -2846,7 +2992,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'art. 728 CO concerne l'independance ; il ne s'agit pas d'une infraction penale.",
       "Faux : l'art. 108 al. 2 LFus exclut la responsabilite d'organe pour les verifications de fusion ; ce n'est pas une disposition penale."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.3"
     },
     {
      "id": "M9-011",
@@ -2865,7 +3012,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : CEO, CFO et chef comptable sont des dirigeants, pas les titulaires de l'action en responsabilite de l'art. 755 CO.",
       "Faux : l'ASR exerce la surveillance (LSR) mais n'est pas titulaire de l'action civile de l'art. 755 CO ; les ayants droit sont societe, actionnaires et creanciers."
      ],
-     "source": "original"
+     "source": "original",
+     "memento": "§10.1"
     },
     {
      "id": "M9-012",
@@ -2884,7 +3032,8 @@ window.QCM_BANK["introductionAudit"] = {
       "Faux : l'exclusion vise la responsabilite d'organe (civile) ; on ne bascule pas pour autant vers une responsabilite exclusivement penale.",
       "Faux : l'exclusion porte sur la responsabilite d'ORGANE (art. 108 al. 2 LFus), elle ne signifie pas une immunite totale."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.4"
     },
     {
      "id": "M9-013",
@@ -2903,7 +3052,8 @@ window.QCM_BANK["introductionAudit"] = {
       "FAUSSE (reponse recherchee) : la demission n'a aucun effet retroactif ; l'OR reste responsable des manquements passes malgre son depart.",
       "Vrai (donc non retenu) : la responsabilite en tant qu'organe se fonde bien sur l'art. 755 CO."
      ],
-     "source": "genere"
+     "source": "genere",
+     "memento": "§10.4"
     }
    ]
   }
