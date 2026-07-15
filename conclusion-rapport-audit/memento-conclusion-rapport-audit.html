@@ -1,0 +1,1280 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mémento — Conclusion et rapport d'audit</title>
+<style>
+/* ============================================================
+   charte.css — DA unique du cursus Expert-Comptable
+   Réutilisée à l'identique des modules TVA / Planification.
+   Badges de source, callouts, tableaux, arbres. Ne pas surcharger.
+   ============================================================ */
+@page { size: A4; margin: 2cm 1.8cm;
+  @bottom-right { content: counter(page) " / " counter(pages); font-size: 8pt; color: #888; }
+  @top-left { content: string(chapitre); font-size: 8pt; color: #888; } }
+
+body { font-family: "Source Sans Pro","Segoe UI",system-ui,sans-serif;
+  font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
+
+h1 { string-set: chapitre content(); font-size: 20pt; color: #0f3d5c;
+     border-bottom: 3px solid #0f3d5c; padding-bottom: 4pt; page-break-before: always; }
+h2 { font-size: 14pt; color: #0f3d5c; margin-top: 18pt; }
+h3 { font-size: 11.5pt; color: #333; margin-bottom: 3pt; }
+
+/* ---- Badges de niveau de source ---- */
+.primaire, .secondaire, .avalider {
+  font-size: 7.5pt; font-weight: 700; padding: 0 5pt; border-radius: 3pt; letter-spacing: .3pt; }
+.primaire  { background: #e2f3e5; color: #1b6e2a; }
+.secondaire{ background: #e3edf7; color: #14538c; }
+.avalider  { background: #fdeede; color: #b25b12; }
+.ref-norme { font-weight: 700; color: #0f3d5c; white-space: nowrap; }
+
+/* ---- Callouts standardisés (bloc) ---- */
+.but, .piege, .connexions, .autotest, .changement {
+  display: block; border-left: 4pt solid; padding: 6pt 10pt; margin: 10pt 0;
+  border-radius: 0 4pt 4pt 0; page-break-inside: avoid; }
+.but        { border-color: #1b6e2a; background: #f4faf5; }
+.piege      { border-color: #c0392b; background: #fdf3f2; }
+.connexions { border-color: #8e44ad; background: #f9f4fc; }
+.autotest   { border-color: #14538c; background: #f2f7fc; }
+.changement { border-color: #b25b12; background: #fdf4ea; }
+.callout-titre { font-weight: 700; font-size: 9pt; text-transform: uppercase;
+                 letter-spacing: .5pt; margin-bottom: 3pt; }
+
+/* ---- Tableaux ---- */
+table { border-collapse: collapse; margin: 8pt 0; width: 100%; }
+th { background: #eef2f5; padding: 5pt 8pt; text-align: left; font-size: 9.5pt; }
+td { padding: 4pt 8pt; border-bottom: .5pt solid #e0e5ea; vertical-align: top; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+thead { display: table-header-group; }
+table.compare th:first-child { width: 26%; }
+td.oui { color:#1b6e2a; font-weight:600; } td.non { color:#c0392b; font-weight:600; }
+td.num { text-align:right; font-variant-numeric: tabular-nums; }
+
+/* ---- Arbre décisionnel en bloc code (format du module) ---- */
+pre.arbre { background:#0f3d5c; color:#eaf1f6; font:11px/1.5 ui-monospace,"Cascadia Code",Consolas,monospace;
+  padding:12pt 14pt; border-radius:6pt; overflow-x:auto; margin:10pt 0; page-break-inside:avoid;
+  border-left:4pt solid #14538c; }
+figure.arbre-fig { margin:10pt 0; page-break-inside:avoid; }
+figure.arbre-fig figcaption { font-size:8.5pt; color:#666; margin-top:3pt; }
+
+/* ---- Réf. sur ligne séparée ---- */
+.ref-sous { display:block; font-size:8pt; color:#777; margin:1pt 0 5pt; padding-left:2pt;
+            border-left:2pt solid #dfe4e8; }
+.chapo { font-size:10pt; color:#3a3a3a; background:#f5f8fa; border-left:3pt solid #0f3d5c;
+         padding:6pt 10pt; margin:6pt 0 12pt; border-radius:0 4pt 4pt 0; }
+.formule { background:#f2f7fc; border:1pt solid #cfe0f0; border-radius:5pt; padding:8pt 12pt;
+           font-size:12pt; text-align:center; margin:10pt 0; color:#0f3d5c; font-weight:600; }
+.reponses { font-size:9pt; color:#444; border-top:1pt dashed #aaa; margin-top:10pt; padding-top:6pt; }
+
+/* ---- Page de garde & TOC ---- */
+.page-garde { page-break-after: always; text-align:center; display:flex; flex-direction:column;
+              justify-content:center; min-height:22cm; }
+.page-garde h1 { page-break-before: avoid; border:none; string-set:none; font-size:38pt;
+                 color:#0f3d5c; margin:6pt 0; }
+.pg-kicker { text-transform:uppercase; letter-spacing:2pt; font-size:11pt; color:#14538c; }
+.pg-soustitre { font-size:15pt; color:#333; margin-top:4pt; }
+.pg-desc { font-size:11pt; color:#555; margin-top:18pt; }
+.pg-legende { font-size:9pt; color:#555; margin-top:26pt; line-height:2; }
+.pg-pied { font-size:9pt; color:#888; margin-top:22pt; }
+.toc-h { page-break-before: always; font-size:18pt; color:#0f3d5c; border-bottom:2pt solid #0f3d5c;
+         padding-bottom:3pt; }
+nav.toc ul { list-style:none; padding-left:0; margin:0; }
+nav.toc li.lvl1 { margin-top:7pt; font-weight:700; color:#0f3d5c; }
+nav.toc li.lvl2 { margin-left:14pt; font-weight:400; color:#333; font-size:9.7pt; }
+nav.toc a { text-decoration:none; color:inherit; }
+
+@media screen {
+  body { max-width: 21cm; margin: 1.5rem auto; padding: 0 1.2cm; background:#fff;
+         box-shadow:0 0 12px rgba(0,0,0,.08); }
+  h1 { page-break-before: auto; }
+  nav.toc a:hover { color:#14538c; text-decoration:underline; }
+}
+@media print { * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; } }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE DE GARDE ===================== -->
+<section class="page-garde">
+  <div class="pg-kicker">Expert-Comptable diplômé · ExpertSuisse</div>
+  <h1>Conclusion &amp; rapport d'audit</h1>
+  <div class="pg-soustitre">Mémento d'examen — Module 9</div>
+  <div class="pg-desc">Évaluation des anomalies (450) · événements postérieurs (560) · continuité (570)<br>
+    rapport ordinaire (728b) &amp; restreint (729b / NCR) · opinions modifiées (705) · KAM (701)<br>
+    avis obligatoires &amp; assainissement (725–725c CO) · fraude · parties liées · estimations</div>
+  <div class="pg-legende">
+    <span class="primaire">PRIMAIRE</span> source officielle (Fedlex — CO / LP) &nbsp;·&nbsp;
+    <span class="secondaire">SECONDAIRE</span> norme d'audit sous licence corroborée (NA-CH / ISA-CH / NCR) &nbsp;·&nbsp;
+    <span class="avalider">À VALIDER</span> à confirmer selon l'édition
+  </div>
+  <div class="pg-pied">Édition 2025-2026 · NA-CH / ISA-CH (série révisée, validité 15.12.2022) ·
+    CO — droit de la SA révisé (en vigueur 1.1.2023)</div>
+</section>
+
+<!-- ===================== AVERTISSEMENT ===================== -->
+<section>
+  <div class="piege">
+    <div class="callout-titre">⚠️ Terminologie des normes d'audit — point d'examen</div>
+    Tes supports 2026 emploient la nomenclature <b>révisée</b> : la famille est <b>NA-CH</b>
+    (Normes suisses d'audit des états financiers) ; les normes propres au contrôle ordinaire selon
+    le CO sont <b>NAS-CH 700</b> (rapport) et <b>NAS-CH 890</b> (existence du SCI) ; les normes
+    individuelles reprennent la numérotation ISA sous le sigle <b>ISA-CH</b> (ISA-CH 560, 570, 700,
+    701, 705, 706, 710, 720…). L'ancien sigle « PS » n'a plus cours. Ce mémento cite chaque norme
+    sous sa forme <b>ISA-CH nnn</b> et signale « (aussi NAS-CH nnn) » lorsque les deux coexistent.
+    <b>Vérifie l'édition en vigueur pour ta session.</b>
+  </div>
+  <div class="changement">
+    <div class="callout-titre">🔄 Changement de norme — droit de la SA révisé (1.1.2023)</div>
+    L'ancien <b>art. 725 aCO</b> réunissait perte de capital (al. 1) et surendettement (al. 2) dans
+    un seul article. Le droit révisé l'éclate en quatre : <b>art. 725</b> (menace d'insolvabilité /
+    liquidités), <b>725a</b> (perte de capital), <b>725b</b> (surendettement), <b>725c</b>
+    (réévaluation). Conséquence-piège : sous 725a, la perte de capital <b>ne déclenche plus la
+    convocation automatique d'une « assemblée d'assainissement »</b> et l'organe de révision <b>ne
+    convoque jamais l'AG à la place du CA</b>. Toute question raisonnant « ancien 725 » est signalée
+    dans ce mémento par un encadré <span class="avalider">changement de norme</span>.
+  </div>
+</section>
+
+<!-- ===================== TABLE DES MATIÈRES ===================== -->
+<h2 class="toc-h">Table des matières</h2>
+<nav class="toc">
+<ul>
+  <li class="lvl1"><a href="#s1">1 · Vue d'ensemble de la phase de conclusion (450 → 700)</a></li>
+    <li class="lvl2"><a href="#s1-1">1.1 Les étapes de la clôture de l'audit</a></li>
+    <li class="lvl2"><a href="#s1-2">1.2 Activités obligatoires · ce qui n'en fait PAS partie</a></li>
+  <li class="lvl1"><a href="#s2">2 · Évaluation finale des anomalies (450) &amp; déclarations écrites (580)</a></li>
+    <li class="lvl2"><a href="#s2-1">2.1 Anomalies corrigées / non corrigées · cumul · significatif</a></li>
+    <li class="lvl2"><a href="#s2-2">2.2 Déclaration d'intégralité (580) · la règle des dates</a></li>
+  <li class="lvl1"><a href="#s3">3 · Événements postérieurs à la date du bilan (560)</a></li>
+    <li class="lvl2"><a href="#s3-1">3.1 Ajustement vs mention en annexe</a></li>
+    <li class="lvl2"><a href="#s3-2">3.2 Les trois phases &amp; les obligations de l'auditeur</a></li>
+  <li class="lvl1"><a href="#s4">4 · Continuité de l'exploitation (570)</a></li>
+    <li class="lvl2"><a href="#s4-1">4.1 Base légale &amp; rôles direction / auditeur</a></li>
+    <li class="lvl2"><a href="#s4-2">4.2 Indicateurs d'incertitude</a></li>
+    <li class="lvl2"><a href="#s4-3">4.3 Incidence sur l'opinion — les 4 cas</a></li>
+  <li class="lvl1"><a href="#s5">5 · Le rapport en contrôle ORDINAIRE (700 + 728b CO)</a></li>
+    <li class="lvl2"><a href="#s5-1">5.1 Le double rapport — synthèse AG vs détaillé CA</a></li>
+    <li class="lvl2"><a href="#s5-2">5.2 Structure du rapport NAS-CH 700</a></li>
+    <li class="lvl2"><a href="#s5-3">5.3 Rapport sur les autres obligations légales · SCI (890)</a></li>
+    <li class="lvl2"><a href="#s5-4">5.4 Exigences d'une opinion non modifiée</a></li>
+  <li class="lvl1"><a href="#s6">6 · Opinion non modifiée vs modifiées (705) — l'arbre cœur</a></li>
+    <li class="lvl2"><a href="#s6-1">6.1 Deux causes × deux niveaux d'incidence</a></li>
+    <li class="lvl2"><a href="#s6-2">6.2 Test « significatif » &amp; test « diffus »</a></li>
+    <li class="lvl2"><a href="#s6-3">6.3 Arbre de décision de l'opinion</a></li>
+    <li class="lvl2"><a href="#s6-4">6.4 Formulations types &amp; recommandation à l'AG</a></li>
+  <li class="lvl1"><a href="#s7">7 · Observation (706) vs autres points vs KAM (701)</a></li>
+    <li class="lvl2"><a href="#s7-1">7.1 Paragraphe d'observation</a></li>
+    <li class="lvl2"><a href="#s7-2">7.2 Paragraphe relatif à d'autres points</a></li>
+    <li class="lvl2"><a href="#s7-3">7.3 KAM / faits particulièrement importants (701)</a></li>
+    <li class="lvl2"><a href="#s7-4">7.4 Tableau de discrimination</a></li>
+  <li class="lvl1"><a href="#s8">8 · Chiffres comparatifs (710) &amp; autres informations (720)</a></li>
+    <li class="lvl2"><a href="#s8-1">8.1 Chiffres comparatifs (710)</a></li>
+    <li class="lvl2"><a href="#s8-2">8.2 Autres informations (720)</a></li>
+  <li class="lvl1"><a href="#s9">9 · Le rapport en contrôle RESTREINT (729b / NCR)</a></li>
+    <li class="lvl2"><a href="#s9-1">9.1 Assurance négative</a></li>
+    <li class="lvl2"><a href="#s9-2">9.2 Contenu du rapport (729b)</a></li>
+    <li class="lvl2"><a href="#s9-3">9.3 Tableau des différences ordinaire / restreint</a></li>
+  <li class="lvl1"><a href="#s10">10 · Avis obligatoires &amp; assainissement (728c/729c · 725-725c)</a></li>
+    <li class="lvl2"><a href="#s10-1">10.1 Avis obligatoires (728c / 729c)</a></li>
+    <li class="lvl2"><a href="#s10-2">10.2 Perte de capital (725a) · calcul de la valeur de référence</a></li>
+    <li class="lvl2"><a href="#s10-3">10.3 Surendettement (725b) · insolvabilité (725) · réévaluation (725c)</a></li>
+    <li class="lvl2"><a href="#s10-4">10.4 La postposition</a></li>
+  <li class="lvl1"><a href="#s11">11 · Approbation des comptes &amp; rôle de l'AG (731 CO)</a></li>
+  <li class="lvl1"><a href="#s12">12 · Arbre de décision global du rapport</a></li>
+  <li class="lvl1"><a href="#s13">13 · Faux amis / pièges d'examen</a></li>
+  <li class="lvl1"><a href="#s14">14 · Fraude (ISA-CH 240)</a></li>
+  <li class="lvl1"><a href="#s15">15 · Parties liées (ISA-CH 550)</a></li>
+  <li class="lvl1"><a href="#s16">16 · Estimations comptables (ISA-CH 540)</a></li>
+</ul>
+</nav>
+
+<!-- ============================================================
+     SECTION 1
+     ============================================================ -->
+<h1 id="s1">1 · Vue d'ensemble de la phase de conclusion</h1>
+<p class="chapo">La <b>phase de clôture</b> (4ᵉ et dernière phase de l'audit) transforme le travail
+de terrain en une <b>opinion</b>. Elle enchaîne l'évaluation des anomalies relevées
+(<span class="ref-norme">ISA-CH 450</span>), le contrôle des événements postérieurs
+(<span class="ref-norme">560</span>) et de la continuité (<span class="ref-norme">570</span>),
+la déclaration d'intégralité (<span class="ref-norme">580</span>), la revue finale, puis
+l'émission du rapport (<span class="ref-norme">700 ss</span>).</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Avant de signer, l'auditeur doit avoir une <b>assurance raisonnable</b> que les comptes ne
+  comportent pas d'anomalies significatives. La phase de conclusion sert à <b>vérifier que rien
+  n'a été laissé ouvert</b> : anomalies non corrigées appréciées, faits survenus jusqu'à la
+  dernière minute captés, hypothèse de continuité confirmée, responsabilités de la direction
+  formalisées par écrit. C'est la dernière barrière avant que des tiers ne s'appuient sur le rapport.
+</div>
+
+<h2 id="s1-1">1.1 · Les étapes de la clôture de l'audit</h2>
+<p>Ordre logique des travaux de fin de mission, en <b>contrôle ordinaire</b> :</p>
+<table class="compare">
+  <thead><tr><th>Étape</th><th>Contenu</th><th>Norme pivot</th></tr></thead>
+  <tbody>
+    <tr><td><b>Procédures analytiques finales</b></td><td>Cohérence d'ensemble des comptes avec la connaissance de l'entité ; attentes définies <i>à l'avance</i></td><td><span class="ref-norme">ISA-CH 520.6</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Réévaluation du significatif &amp; des risques</b></td><td>Le seuil et l'évaluation des risques sont revus à la lumière des résultats</td><td><span class="ref-norme">ISA-CH 330.25</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Évaluation des anomalies</b></td><td>Anomalies corrigées / non corrigées, cumul, incidence sur l'opinion</td><td><span class="ref-norme">ISA-CH 450</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Événements postérieurs</b></td><td>Faits survenus après la clôture jusqu'à la date du rapport (et au-delà)</td><td><span class="ref-norme">ISA-CH 560</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Continuité de l'exploitation</b></td><td>Caractère approprié de l'hypothèse de continuité sur ≥ 12 mois</td><td><span class="ref-norme">ISA-CH 570</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Déclaration d'intégralité</b></td><td>Déclarations écrites de la direction, datées au plus proche du rapport</td><td><span class="ref-norme">ISA-CH 580</span> · <span class="ref-norme">art. 730b al. 1 CO</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Revue de la documentation</b></td><td>Revue critique par l'associé responsable — principe des « quatre yeux »</td><td><span class="ref-norme">ISA-CH 220.29 / .31</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Émission des rapports</b></td><td>Rapport détaillé au CA (728b al. 1) + rapport succinct à l'AG (728b al. 2)</td><td><span class="ref-norme">ISA-CH 700</span> · <span class="ref-norme">art. 728b CO</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<h2 id="s1-2">1.2 · Activités obligatoires · ce qui n'en fait PAS partie</h2>
+<p>Lorsqu'il n'existe <b>aucun doute sur la continuité</b>, les activités de clôture
+<b>obligatoires</b> en contrôle ordinaire sont notamment : les <b>procédures analytiques finales</b>,
+la <b>revue de la documentation</b> d'audit, et l'<b>évaluation des événements postérieurs</b>.</p>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — ne pas confondre clôture et réalisation</div>
+  Les <b>confirmations bancaires</b> et, plus largement, la collecte d'éléments probants de
+  substance relèvent de la <b>phase de réalisation</b>, pas de la clôture. De même, un
+  <b>« entretien clé avec le président du CA »</b> ou l'<b>examen des contrôles inefficaces</b>
+  ne sont pas des activités de clôture obligatoires. À la clôture, on <b>consolide et on conclut</b>,
+  on ne relance pas les tests de détail.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'évaluation des anomalies (§2, <span class="ref-norme">450</span>) alimente directement le choix
+  de l'opinion (§6, <span class="ref-norme">705</span>) : c'est le <b>caractère significatif</b>
+  (fixé en planification, <span class="ref-norme">ISA-CH 320</span>) qui fait le lien entre une
+  anomalie non corrigée et une éventuelle réserve.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Cite trois activités de clôture <i>obligatoires</i> en contrôle ordinaire.<br>
+  2. La demande de confirmations bancaires est-elle une tâche de clôture ? Pourquoi ?<br>
+  3. Quelle norme fonde la revue « quatre yeux » par l'associé responsable ?<br>
+  4. <i>(rappel planification)</i> Quels sont les deux seuils sur trois de l'art. 727 CO qui, dépassés
+  sur deux exercices, imposent le contrôle ordinaire ?
+</div>
+
+<!-- ============================================================
+     SECTION 2
+     ============================================================ -->
+<h1 id="s2">2 · Évaluation finale des anomalies (450) &amp; déclarations écrites (580)</h1>
+<p class="chapo">À la clôture, l'auditeur récapitule <b>toutes les anomalies</b> identifiées, distingue
+celles qui ont été corrigées de celles qui ne l'ont pas été, les <b>cumule</b>, et apprécie si le
+total dépasse le <b>caractère significatif</b>. Il obtient enfin de la direction une
+<b>déclaration d'intégralité écrite</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Une anomalie prise isolément peut être insignifiante ; <b>cumulées</b>, plusieurs anomalies non
+  corrigées peuvent franchir le seuil de signification et rendre les comptes trompeurs. L'évaluation
+  finale (<span class="ref-norme">ISA-CH 450</span>) existe pour forcer cette vision d'ensemble avant
+  de conclure. La déclaration d'intégralité (<span class="ref-norme">580</span>) responsabilise la
+  direction et complète — sans jamais les remplacer — les éléments probants.
+</div>
+
+<h2 id="s2-1">2.1 · Anomalies corrigées / non corrigées · cumul · lien avec le significatif</h2>
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Traitement</th></tr></thead>
+  <tbody>
+    <tr><td><b>Anomalies clairement insignifiantes</b></td><td>En-dessous du seuil de remontée fixé ; non cumulées, non communiquées</td></tr>
+    <tr><td><b>Anomalies corrigées</b></td><td>La direction passe les écritures complémentaires ; l'auditeur vérifie la correction</td></tr>
+    <tr><td><b>Anomalies non corrigées</b></td><td>Récapitulées et <b>cumulées</b> ; comparées au caractère significatif (individuellement <i>et</i> collectivement)</td></tr>
+    <tr><td><b>Seuil dépassé ?</b></td><td>Oui → l'opinion doit être modifiée (§6). Non → opinion non modifiée possible, mais l'auditeur demande quand même la correction</td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — « négligeable » ne veut pas dire « ignoré »</div>
+  Une anomalie <b>inférieure au seuil</b> (ex. dépréciation de stock de CHF 4 mio non significative)
+  permet une <b>opinion non modifiée</b> même si la direction refuse de corriger — mais l'auditeur
+  la <b>documente</b> et peut la reprendre au rapport détaillé au CA. À l'inverse, dès qu'une
+  écriture complémentaire fait <b>basculer un bénéfice en perte</b>, elle devient de fait
+  <b>significative</b> (voire diffuse — cf. §6.2), quel que soit son montant brut.
+</div>
+
+<h2 id="s2-2">2.2 · Déclaration d'intégralité (580) · la règle des dates</h2>
+<p>La <b>déclaration d'intégralité</b> (lettre d'affirmation) est une déclaration écrite de la
+direction confirmant notamment l'<b>exhaustivité</b> des informations fournies et la mention des
+<b>événements postérieurs</b>. Fondement suisse : <span class="ref-norme">art. 730b al. 1 CO</span>
+<span class="primaire">PRIMAIRE</span> ; procédure : <span class="ref-norme">ISA-CH 580.9</span>
+<span class="secondaire">SECONDAIRE</span>.</p>
+<div class="formule">
+  Date de la déclaration d'intégralité &nbsp;≤&nbsp; Date du rapport d'audit &nbsp;≤&nbsp; Date de publication
+</div>
+<p>La déclaration porte une date <b>aussi proche que possible</b> de celle du rapport, mais
+<b>jamais postérieure</b> : le rapport ne peut être signé <b>avant</b> d'avoir obtenu les
+déclarations écrites. Le rapport peut donc être daté le <b>même jour</b> ou <b>après</b> la
+déclaration, jamais avant.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — refus de signer la déclaration</div>
+  Si la direction <b>refuse</b> de fournir la déclaration d'intégralité, il s'agit d'une
+  <b>limitation de l'étendue</b> des travaux au caractère <b>diffus</b> → l'auditeur émet une
+  <b>impossibilité d'exprimer une opinion</b> (et non une réserve).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La mention des <b>événements postérieurs</b> (§3, <span class="ref-norme">560</span>) fait partie
+  intégrante de la déclaration d'intégralité : les deux thèmes se datent l'un par rapport à l'autre.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Le rapport d'audit est daté du 5 mai, la déclaration d'intégralité du 8 mai. Quel est le problème ?<br>
+  2. Deux anomalies de CHF 30k et CHF 40k, seuil de signification CHF 90k : faut-il modifier l'opinion ? Qu'est-ce qui pourrait changer la réponse ?<br>
+  3. Que devient l'opinion si la direction refuse de signer la déclaration d'intégralité ?<br>
+  4. <i>(rappel §1)</i> Dans quel ordre place-t-on procédures analytiques finales, revue de la documentation et déclaration d'intégralité ?
+</div>
+
+<!-- ============================================================
+     SECTION 3
+     ============================================================ -->
+<h1 id="s3">3 · Événements postérieurs à la date du bilan (560)</h1>
+<p class="chapo">Entre la <b>date de clôture</b> et la <b>publication</b> des comptes, des faits nouveaux
+peuvent survenir. Selon leur cause, ils imposent soit un <b>ajustement</b> des comptes, soit une
+<b>mention en annexe</b> — et les obligations de l'auditeur diffèrent selon la <b>phase</b> à
+laquelle il en prend connaissance.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Les comptes doivent donner une image fidèle <b>à la date de leur approbation</b>, pas seulement au
+  31.12. La norme <span class="ref-norme">ISA-CH 560</span> oblige donc l'auditeur à rester attentif
+  aux faits postérieurs qui éclairent la situation existant à la clôture (ajustement) ou qui, bien
+  que nés après, sont si importants qu'ils doivent être portés à la connaissance des lecteurs (mention).
+</div>
+
+<h2 id="s3-1">3.1 · Ajustement vs mention en annexe</h2>
+<p>Le critère décisif est la <b>cause</b> de l'événement, appréciée selon sa <b>survenance</b> :</p>
+<table class="compare">
+  <thead><tr><th>Type</th><th>Cause / origine</th><th>Traitement comptable</th><th>Exemples</th></tr></thead>
+  <tbody>
+    <tr><td><b>Événement donnant lieu à ajustement</b></td><td>La situation <b>existait déjà</b> à la date de clôture ; le fait postérieur ne fait que la confirmer</td><td><b>Comptabilisation</b> : la valeur est ajustée dans les comptes eux-mêmes</td><td>Faillite d'un client dont la créance figurait au bilan (correction de valeur) ; issue d'un litige déjà pendant</td></tr>
+    <tr><td><b>Événement donnant lieu à mention</b></td><td>La situation est <b>née après</b> la date de clôture</td><td><b>Publication en annexe</b> : nature + estimation financière (ou mention que l'estimation est impossible)</td><td>Incendie d'un atelier après clôture ; rachat d'un concurrent ; forte variation de change postérieure</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Base CO : <span class="ref-norme">art. 959c al. 2 ch. 13 CO</span> <span class="primaire">PRIMAIRE</span> (obligation de publier les événements postérieurs) · RPC : cadre conceptuel pt 28 · IFRS : IAS 10 (réglementation analogue) <span class="secondaire">SECONDAIRE</span></span>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — ce qui N'EST PAS un événement postérieur</div>
+  Un fait survenu <b>avant</b> la date de clôture (ex. perte d'un client important <i>peu avant</i>
+  le 31.12) n'est pas un événement postérieur : il relève des comptes de l'exercice lui-même
+  (et peut susciter un doute sur la continuité). De même, une évolution <b>ordinaire et attendue</b>
+  (hausse de 2 % du CA, baisse d'amortissement du nouvel exercice) n'est pas un événement postérieur
+  à publier. La source d'appréciation pertinente n'est ni le budget ni les prévisions, mais la
+  <b>cause/survenance</b> du fait.
+</div>
+
+<h2 id="s3-2">3.2 · Les trois phases &amp; les obligations de l'auditeur</h2>
+<p>L'intensité de l'obligation dépend du moment où l'auditeur a connaissance du fait. Texte ordonné
+avant l'arbre :</p>
+<ol>
+  <li><b>De la date des comptes à la date du rapport — obligation ACTIVE.</b> L'auditeur doit
+  <i>rechercher</i> les événements : prise de connaissance des procédures de la direction, entretiens,
+  lecture des PV et des comptes intermédiaires, obtention de la déclaration d'intégralité.</li>
+  <li><b>De la date du rapport à la publication — obligation PASSIVE.</b> Aucune procédure
+  supplémentaire n'est requise ; <i>mais</i> si un fait vient à sa connaissance, l'auditeur doit
+  (1) en déterminer l'influence, (2) en <b>discuter avec la direction</b>, (3) apprécier la
+  nécessité de modifier les comptes. Si la direction modifie → nouvelles procédures + <b>nouveau
+  rapport</b> (avec paragraphe d'observation renvoyant au fait et au premier rapport).</li>
+  <li><b>Après la publication, avant l'AG.</b> Mêmes réflexes qu'en phase 2. Spécificité suisse :
+  si le CA ne communique pas correctement le fait dans le rapport annuel et/ou à l'AG, le
+  <b>représentant de l'organe de révision attire l'attention de l'AG</b> sur cette omission.</li>
+</ol>
+<figure class="arbre-fig">
+<pre class="arbre">
+Fait porté à la connaissance de l'auditeur
+│
+├─ AVANT la date du rapport ......... obligation ACTIVE
+│     └─ obtenir les éléments probants ; ajuster OU mentionner
+│
+├─ ENTRE date du rapport et publication .... obligation PASSIVE
+│     ├─ direction MODIFIE les comptes → nouvelles procédures
+│     │        └─ NOUVEAU rapport + § d'observation (renvoi 1er rapport)
+│     └─ direction REFUSE + rapport déjà remis
+│              └─ prévenir la gouvernance ; empêcher l'usage par des tiers ;
+│                 modifier l'opinion si nécessaire (ISA-CH 705)
+│
+└─ APRÈS publication, avant l'AG ... mêmes réflexes qu'en phase 2
+      └─ si le CA n'informe pas : l'organe de révision le signale À L'AG
+</pre>
+<figcaption>Arbre 3 · Obligations de l'auditeur selon la phase (ISA-CH 560)</figcaption>
+</figure>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — l'événement postérieur ne figure pas « dans » le rapport</div>
+  Un événement postérieur correctement traité <b>ne s'inscrit pas</b> comme tel dans le texte
+  du rapport de révision : il est traité dans les <b>comptes</b> (ajustement ou annexe). Ce n'est
+  que si la direction <b>modifie</b> les comptes après coup que l'auditeur émet un
+  <b>nouveau rapport avec paragraphe d'observation</b>. La publication d'un événement postérieur
+  n'est donc pas « obligatoire dans le rapport de l'organe de révision ».
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Un événement postérieur significatif <b>correctement présenté</b> dans les comptes peut justifier
+  un <b>paragraphe d'observation</b> (§7, <span class="ref-norme">706</span>) — sans modifier
+  l'opinion. S'il révèle une menace sur la <b>continuité</b> (§4, <span class="ref-norme">570</span>),
+  il bascule dans la logique du going concern.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Un atelier est détruit par la foudre le 1er juin (clôture 31.12) : ajustement ou mention ?<br>
+  2. Le rapport est daté ; avant l'AG, une plainte majeure survient. L'auditeur en est informé.
+  Que doit-il faire (phase 2) ?<br>
+  3. Vrai/faux : « une fois le rapport signé, l'auditeur n'a plus aucune obligation ».<br>
+  4. <i>(rappel §2)</i> Où la mention des événements postérieurs apparaît-elle dans les déclarations de la direction ?
+</div>
+
+<!-- ============================================================
+     SECTION 4
+     ============================================================ -->
+<h1 id="s4">4 · Continuité de l'exploitation (570)</h1>
+<p class="chapo">Les comptes sont établis en présumant la <b>poursuite de l'exploitation</b>. Lorsque
+cette hypothèse est menacée, elle doit être <b>évaluée</b>, éventuellement <b>publiée</b>, et son
+incidence sur l'<b>opinion</b> dépend finement de la qualité de cette publication.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  La valeur des actifs et la structure des comptes diffèrent radicalement selon que l'entreprise
+  continue (valeurs d'exploitation) ou cesse (valeurs de liquidation). La norme
+  <span class="ref-norme">ISA-CH 570</span> impose donc de tester le caractère approprié de
+  l'hypothèse de continuité sur <b>au moins 12 mois</b>, pour que le lecteur ne soit pas induit en
+  erreur sur la base même d'évaluation des comptes.
+</div>
+
+<h2 id="s4-1">4.1 · Base légale &amp; rôles direction / auditeur</h2>
+<p>La continuité est un <b>principe</b> de présentation des comptes
+<span class="ref-norme">art. 958a al. 1 CO</span> <span class="primaire">PRIMAIRE</span>. Si la
+cessation de tout ou partie de l'activité est <b>envisagée ou inévitable dans les 12 mois</b>, les
+comptes sont dressés aux <b>valeurs de liquidation</b> pour les parties concernées, avec provisions
+pour charges de cessation <span class="ref-norme">art. 958a al. 2 CO</span>
+<span class="primaire">PRIMAIRE</span>.</p>
+<table class="compare">
+  <thead><tr><th>Acteur</th><th>Obligation</th></tr></thead>
+  <tbody>
+    <tr><td><b>Direction / CA</b></td><td>Fournir une <b>évaluation documentée</b> de la capacité à poursuivre l'exploitation sur ≥ 12 mois ; choisir la base d'évaluation. Pour une entreprise saine, rentable et bien financée, un <b>budget</b> suffit.</td></tr>
+    <tr><td><b>Auditeur</b></td><td>Obtenir des éléments probants sur le caractère approprié de l'hypothèse ; <b>remettre en question</b> l'évaluation de la direction ; documenter ses procédures ; évaluer l'effet sur les obligations des <span class="ref-norme">art. 725a / 725b CO</span>. « Il ne doit pas en savoir plus que la direction, mais doit questionner son évaluation. »</td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — perte de capital ≠ fin de la continuité</div>
+  Une <b>perte de capital</b> ou un <b>surendettement</b> ne signifient <b>pas</b> automatiquement
+  que l'hypothèse de continuité tombe : ils <b>jettent un doute</b> qui doit être examiné. À
+  l'inverse, l'<b>absence</b> de perte de capital/surendettement ne dispense pas d'apprécier la
+  continuité (ex. perte d'un client à 70 % du CA). Et si la direction <b>refuse d'évaluer</b> la
+  continuité, l'auditeur ne fait pas l'évaluation à sa place : le rapport est <b>modifié</b>.
+</div>
+
+<h2 id="s4-2">4.2 · Indicateurs d'incertitude</h2>
+<table class="compare">
+  <thead><tr><th>Catégorie</th><th>Exemples (figurent-ils dans les comptes ?)</th></tr></thead>
+  <tbody>
+    <tr><td><b>Financiers</b></td><td>Surendettement, actif circulant net négatif, prêts échus non renouvelés, violation de covenants, retrait du soutien des créanciers, cash-flows négatifs, insolvabilité <i>(figurent dans les EF/budget)</i></td></tr>
+    <tr><td><b>Opérationnels</b></td><td>Intention de liquider, perte de cadres/clients/licences clés, problèmes d'approvisionnement, concurrent agressif <i>(ne figurent normalement pas dans les EF — se trouvent dans les PV du CA, la matrice des risques…)</i></td></tr>
+    <tr><td><b>Autres</b></td><td>Violation d'exigences de fonds propres, procédures juridiques, changements réglementaires, catastrophe non/sous-assurée</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous"><span class="ref-norme">ISA-CH 570</span> <span class="secondaire">SECONDAIRE</span> · procédures complémentaires si doute : analyse des cash-flows/liquidités prévisionnels, comptes intermédiaires, covenants, PV, avis des conseillers juridiques.</span>
+
+<h2 id="s4-3">4.3 · Incidence sur l'opinion — les 4 cas</h2>
+<p>Tout dépend de la <b>qualité de la publication en annexe</b> et du caractère approprié de la
+base de continuité. Texte ordonné avant l'arbre :</p>
+<table class="compare">
+  <thead><tr><th>Situation</th><th>Incidence sur l'opinion</th></tr></thead>
+  <tbody>
+    <tr><td>Incertitude significative <b>correctement décrite</b> en annexe, base de continuité appropriée</td><td class="oui"><b>Opinion NON modifiée</b> + section dédiée « Incertitude significative liée à la continuité » <span class="ref-norme">ISA-CH 570.A31</span></td></tr>
+    <tr><td>Incertitude réelle mais <b>annexe insuffisante</b></td><td class="non"><b>Réserve</b> (ou <b>défavorable</b> si l'information manque totalement)</td></tr>
+    <tr><td>Base de continuité <b>inappropriée</b> (comptes en continuité alors qu'il faut la liquidation)</td><td class="non"><b>Opinion défavorable</b> <span class="ref-norme">ISA-CH 570.21</span></td></tr>
+    <tr><td><b>Impossibilité de conclure</b> (documents insuffisants, direction non coopérante)</td><td class="non"><b>Impossibilité d'exprimer une opinion</b></td></tr>
+  </tbody>
+</table>
+<figure class="arbre-fig">
+<pre class="arbre">
+Incertitude significative sur la continuité ?
+│
+├─ NON → texte standard
+│
+└─ OUI → l'annexe la décrit-elle correctement ?
+         ├─ OUI, base de continuité appropriée
+         │      → OPINION NON MODIFIÉE + section « Incertitude significative » (570.A31)
+         ├─ NON / description insuffisante
+         │      → RÉSERVE  (annexe totalement absente → DÉFAVORABLE)
+         ├─ base de continuité INAPPROPRIÉE (devrait être en liquidation)
+         │      → OPINION DÉFAVORABLE (570.21)
+         └─ impossible de conclure (éléments insuffisants)
+                → IMPOSSIBILITÉ D'EXPRIMER UNE OPINION
+</pre>
+<figcaption>Arbre 4 · Continuité (570) → incidence sur l'opinion</figcaption>
+</figure>
+<div class="changement">
+  <div class="callout-titre">🔄 Changement de norme — horizon des 12 mois</div>
+  L'appréciation de la continuité et de l'assainissement s'articule désormais avec le
+  <b>droit de la SA révisé</b> : menace d'insolvabilité sur ≈ 12 mois
+  (<span class="ref-norme">art. 725 CO</span>), perte de capital
+  (<span class="ref-norme">725a</span>), surendettement (<span class="ref-norme">725b</span>).
+  Le détail des devoirs d'assainissement est traité au <b>§10</b>.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le going concern est le pont entre la <b>continuité</b> (§4), l'<b>opinion</b> (§6 : une incertitude
+  bien décrite ne modifie PAS l'opinion) et l'<b>assainissement</b> (§10 : art. 725-725c CO). La
+  même incertitude peut aussi être un <b>événement postérieur</b> (§3).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. L'incertitude sur la continuité est <b>correctement décrite</b> en annexe : l'opinion est-elle modifiée ?<br>
+  2. Le CA ne publie <b>rien</b> alors que la continuité est menacée : quelle opinion ?<br>
+  3. À qui incombe l'<b>évaluation</b> de la continuité — direction ou auditeur ?<br>
+  4. <i>(rappel §3)</i> La perte d'un client à 70 % du CA <i>avant</i> clôture est-elle un événement postérieur ? Quel autre thème déclenche-t-elle ?
+</div>
+
+<!-- ============================================================
+     SECTION 5
+     ============================================================ -->
+<h1 id="s5">5 · Le rapport en contrôle ORDINAIRE (700 + 728b CO)</h1>
+<p class="chapo">Le contrôle ordinaire produit <b>deux rapports distincts</b> : un rapport
+<b>détaillé</b> au conseil d'administration et un rapport <b>succinct</b> à l'assemblée générale.
+Leur contenu obligatoire est fixé par l'<span class="ref-norme">art. 728b CO</span> ; la forme du
+rapport à l'AG suit la <span class="ref-norme">NAS-CH 700</span>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Le CA a besoin d'un rapport <b>technique et complet</b> pour piloter (constatations comptables, SCI,
+  déroulement de l'audit) ; l'AG a besoin d'un rapport <b>synthétique et décisionnel</b> (résultat,
+  recommandation d'approbation). Le double rapport de l'<span class="ref-norme">art. 728b CO</span>
+  sépare ces deux destinataires — d'où le piège classique « rapport de synthèse ≠ rapport complet ».
+</div>
+
+<h2 id="s5-1">5.1 · Le double rapport — synthèse à l'AG vs détaillé au CA</h2>
+<table class="compare">
+  <thead><tr><th>&nbsp;</th><th>Rapport détaillé au CA<br><span class="ref-norme">art. 728b al. 1 CO</span></th><th>Rapport succinct à l'AG<br><span class="ref-norme">art. 728b al. 2 CO</span></th></tr></thead>
+  <tbody>
+    <tr><td><b>Contenu</b></td>
+      <td>• Constatations sur l'établissement des comptes<br>• Constatations sur le <b>SCI</b><br>• <b>Réalisation ET résultat</b> de l'audit (indépendance, approche, seuil, erreurs corrigées <i>et</i> non corrigées, violations, limitations)</td>
+      <td>• <b>Résultat</b> de l'audit (pas la réalisation)<br>• Avis sur le résultat<br>• Informations sur l'<b>indépendance</b><br>• Personne responsable + compétences<br>• <b>Recommandation d'approbation ou de renvoi</b></td></tr>
+    <tr><td><b>Forme</b></td><td><b>Écrit obligatoire</b> ; renonciation exclue ; langue nationale ou anglais</td><td>Écrit ; présenté à l'AG</td></tr>
+    <tr><td><b>Date &amp; signature</b></td><td>Daté à la fin des dernières opérations d'audit ; <b>antidatage interdit</b> ; signé par le responsable de l'audit</td><td>Signé par la personne responsable</td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — synthèse ≠ complet</div>
+  Le rapport succinct à l'AG contient le <b>résultat</b> et la <b>recommandation d'approbation</b>,
+  <b>pas</b> le déroulement (« réalisation ») de l'audit ni les informations sur la société d'audit
+  détaillées. À l'inverse, le rapport détaillé au CA est <b>obligatoirement écrit</b> : on ne peut
+  pas « le présenter oralement » ni y renoncer, même dans des circonstances simples.
+</div>
+
+<h2 id="s5-2">5.2 · Structure du rapport NAS-CH 700 (13 éléments)</h2>
+<p>Ordre du rapport à l'AG (l'<b>opinion figure en tête</b>, avant le fondement) :</p>
+<ol>
+  <li>Titre</li><li>Destinataire</li>
+  <li><b>Opinion d'audit</b></li>
+  <li>Fondement de l'opinion</li>
+  <li>Continuité de l'exploitation <i>(si applicable, <span class="ref-norme">570</span>)</i></li>
+  <li>Faits particulièrement importants / <b>KAM</b> <i>(cotées, <span class="ref-norme">701</span>)</i></li>
+  <li>Autres informations <i>(<span class="ref-norme">720</span>)</i></li>
+  <li>Responsabilités du CA relatives aux comptes</li>
+  <li>Responsabilités de l'organe de révision</li>
+  <li><b>Rapport sur les autres obligations légales et réglementaires</b></li>
+  <li>Nom &amp; signature</li><li>Adresse</li><li>Date</li>
+</ol>
+<span class="ref-sous"><span class="ref-norme">NAS-CH 700</span> <span class="secondaire">SECONDAIRE</span> · contrôle ordinaire (clôture CO ou consolidés CO/Swiss GAAP RPC) → NAS-CH 700 ; audit sur mandat → ISA-CH 700.</span>
+
+<h2 id="s5-3">5.3 · Rapport sur les autres obligations légales et réglementaires · SCI (890)</h2>
+<p>Cette section porte notamment :</p>
+<ul>
+  <li>l'attestation de l'<b>existence du SCI</b> <span class="ref-norme">art. 728a al. 1 ch. 3 CO</span>
+  <span class="primaire">PRIMAIRE</span> / <span class="ref-norme">NAS-CH 890</span>
+  <span class="secondaire">SEC.</span> ;</li>
+  <li>la conformité de la <b>proposition d'emploi du bénéfice</b> <span class="ref-norme">art. 728a al. 1 ch. 2 CO</span> ;</li>
+  <li>la <b>recommandation d'approbation ou de renvoi</b> des comptes ;</li>
+  <li>les <b>autres obligations de communication</b> : violations graves signalées à l'AG
+  <span class="ref-norme">art. 728c al. 2 CO</span> (détail au §10).</li>
+</ul>
+
+<h2 id="s5-4">5.4 · Exigences d'une opinion non modifiée</h2>
+<p>Une opinion <b>sans réserve</b> suppose six conclusions cumulatives :</p>
+<ol>
+  <li>assurance raisonnable d'absence d'anomalies significatives ;</li>
+  <li>éléments probants <b>suffisants et appropriés</b> obtenus ;</li>
+  <li>anomalies non corrigées <b>non significatives</b>, y compris cumulées ;</li>
+  <li>estimations comptables acceptables ;</li>
+  <li>présentation d'ensemble appropriée ;</li>
+  <li>informations fiables, pertinentes, comparables, compréhensibles.</li>
+</ol>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — l'absence de rapport de gestion</div>
+  Le rapport de gestion / rapport annuel qui <b>fait défaut</b> lorsqu'il est légalement dû est une
+  <b>violation de la loi</b> <span class="ref-norme">art. 961 CO</span> (à traiter en « autres
+  obligations »), non un simple point d'observation. Mais l'<b>absence de tableau des flux de
+  trésorerie</b> lorsqu'il est exigé est une <b>anomalie</b> qui peut modifier l'opinion.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La <b>recommandation d'approbation / renvoi</b> (5.3) est indissociable du <b>type d'opinion</b>
+  (§6.4) : réserve → approbation ; défavorable / impossibilité → renvoi. Le contrôle
+  <b>restreint</b> (§9) n'a qu'un rapport succinct, à assurance négative.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Cite trois éléments <b>obligatoires</b> du rapport détaillé au CA et trois du rapport succinct à l'AG.<br>
+  2. Le rapport détaillé au CA peut-il être présenté oralement dans un cas simple ?<br>
+  3. Où, dans le rapport NAS-CH 700, l'attestation d'existence du SCI apparaît-elle ?<br>
+  4. <i>(rappel §2)</i> Que se passe-t-il si des anomalies non corrigées, cumulées, dépassent le seuil de signification ?
+</div>
+
+<!-- ============================================================
+     SECTION 6
+     ============================================================ -->
+<h1 id="s6">6 · Opinion non modifiée vs modifiées (705) — l'arbre cœur</h1>
+<p class="chapo">C'est <b>le</b> raisonnement central du module. Deux <b>causes</b> possibles de
+modification (limitation de l'étendue / anomalie), croisées avec deux <b>niveaux d'incidence</b>
+(significatif <i>non</i> diffus / significatif <b>et</b> diffus), déterminent le type d'opinion :
+<b>réserve</b>, <b>défavorable</b> ou <b>impossibilité</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'opinion doit refléter <b>proportionnellement</b> la gravité du problème : ni sur-réagir (une
+  petite anomalie ne justifie pas une opinion défavorable), ni sous-réagir (une anomalie qui fausse
+  l'ensemble des comptes ne peut se contenter d'une réserve). La grille de l'
+  <span class="ref-norme">ISA-CH 705</span> code cette proportionnalité.
+</div>
+
+<h2 id="s6-1">6.1 · Deux causes × deux niveaux d'incidence</h2>
+<table class="compare">
+  <thead><tr><th>Cause ↓ &nbsp;/&nbsp; Incidence →</th><th>Significatif, <b>non</b> diffus</th><th>Significatif <b>ET</b> diffus</th></tr></thead>
+  <tbody>
+    <tr><td><b>Limitation de l'étendue</b> (impossibilité d'obtenir des éléments probants)</td><td class="non">Opinion avec <b>RÉSERVE</b></td><td class="non"><b>IMPOSSIBILITÉ</b> d'exprimer une opinion</td></tr>
+    <tr><td><b>Anomalie</b> (les comptes sont erronés)</td><td class="non">Opinion avec <b>RÉSERVE</b></td><td class="non">Opinion <b>DÉFAVORABLE</b></td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — limitation vs désaccord au niveau « diffus »</div>
+  Au niveau <b>significatif et diffus</b>, la cause change tout : une <b>limitation</b> diffuse mène à
+  l'<b>impossibilité d'exprimer une opinion</b> (l'auditeur ne <i>sait</i> pas) ; une <b>anomalie</b>
+  diffuse mène à l'opinion <b>défavorable</b> (l'auditeur <i>sait</i> que c'est faux). Ne pas
+  intervertir.
+</div>
+
+<h2 id="s6-2">6.2 · Test « significatif » &amp; test « diffus »</h2>
+<table class="compare">
+  <thead><tr><th>Test</th><th>Critères concrets</th></tr></thead>
+  <tbody>
+    <tr><td><b>Significatif (*)</b></td><td>Somme des anomalies &gt; <b>matérialité globale</b> (impact sur le bénéfice), en tenant compte de la présentation à <b>court et long terme</b></td></tr>
+    <tr><td><b>Diffus (**)</b><br>(bascule réserve → défavorable / impossibilité)</td><td>Effets <b>non limités</b> à certains postes / concernent une <b>partie importante</b> des comptes / <b>fondamentaux</b> pour la compréhension ; <b>OU</b> conséquence juridique directe (perte de capital, surendettement — <span class="ref-norme">725a / 725b</span>) ; <b>OU</b> passage de <b>bénéfice à perte</b> ; <b>OU</b> impossibilité de distribuer le dividende proposé</td></tr>
+    <tr><td><b>Non diffus</b></td><td>Fonds propres suffisants <b>et</b> liquidités suffisantes</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Définition de « diffus » : <span class="ref-norme">ISA-CH 705</span> <span class="secondaire">SECONDAIRE</span> (et non 706).</span>
+
+<h2 id="s6-3">6.3 · Arbre de décision de l'opinion</h2>
+<p>Texte ordonné avant l'arbre : <b>(1)</b> y a-t-il un élément qui influence l'opinion ? <b>(2)</b>
+si oui, est-ce une <b>limitation</b> ou une <b>anomalie</b> ? <b>(3)</b> l'incidence est-elle
+<b>significative</b> ? <b>(4)</b> est-elle <b>diffuse</b> ?</p>
+<figure class="arbre-fig">
+<pre class="arbre">
+Un élément influence-t-il l'opinion d'audit ?
+│
+├─ NON → l'élément influence-t-il les états financiers ?
+│        ├─ OUI (déjà présenté dans les EF) → § d'OBSERVATION (706)   [going concern → section 570]
+│        └─ NON (hors EF) ............... → § relatif à d'AUTRES POINTS (706)
+│                                           + autres obligations de communication (728c)
+│        ⇒ OPINION NON MODIFIÉE (« Std ») → recommandation d'APPROBATION
+│
+└─ OUI → cause ? (ISA-CH 705)
+         │
+         ├─ LIMITATION de l'étendue
+         │     ├─ significatif, NON diffus → OPINION AVEC RÉSERVE ....... → approbation
+         │     └─ significatif ET diffus .. → IMPOSSIBILITÉ d'exprimer .. → renvoi
+         │
+         └─ ANOMALIE (EF erronés)
+               ├─ non significative ........ → texte standard
+               ├─ significative, NON diffuse → OPINION AVEC RÉSERVE ...... → approbation
+               └─ significative ET diffuse . → OPINION DÉFAVORABLE ....... → renvoi
+</pre>
+<figcaption>Arbre 6 · Choix de l'opinion (ISA-CH 705/706) — cœur du module</figcaption>
+</figure>
+
+<h2 id="s6-4">6.4 · Formulations types &amp; recommandation à l'AG</h2>
+<table class="compare">
+  <thead><tr><th>Opinion</th><th>Formule d'opinion</th><th>Recommandation à l'AG</th></tr></thead>
+  <tbody>
+    <tr><td class="oui"><b>Non modifiée</b></td><td>« …conformes à la loi et aux statuts »</td><td class="oui">Approbation</td></tr>
+    <tr><td><b>Avec réserve</b></td><td>« …conformes…, <b>à l'exception de</b>… »</td><td class="oui"><b>Approbation</b> (malgré la réserve)</td></tr>
+    <tr><td class="non"><b>Défavorable</b></td><td>« …<b>ne sont pas</b> conformes… »</td><td class="non">Renvoi</td></tr>
+    <tr><td class="non"><b>Impossibilité</b></td><td>« …<b>pas en mesure</b> d'exprimer une opinion »</td><td class="non">Renvoi</td></tr>
+    <tr><td>Doute going concern <b>bien décrit</b></td><td>Opinion non modifiée + section séparée</td><td class="oui">Approbation (éventuellement <b>conditionnelle</b>)</td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — réserve mais approbation</div>
+  Une opinion <b>avec réserve</b> s'accompagne d'une recommandation d'<b>approbation</b> des comptes :
+  la réserve n'entraîne pas le renvoi. Seules l'opinion <b>défavorable</b> et l'<b>impossibilité</b>
+  conduisent au <b>renvoi</b>. L'approbation <b>conditionnelle</b> est réservée aux cas de continuité
+  incertaine à conditions clairement définies.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Cet arbre est décliné dans presque tous les cas d'examen : continuité (§4), assainissement (§10 :
+  perte de capital / surendettement sont des faits <b>diffus</b> par conséquence juridique), SCI (§5).
+  Le §7 précise ce qui reste <b>hors</b> de l'arbre : observation, autres points, KAM — qui ne
+  remplacent jamais une réserve.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Limitation de l'étendue, significative <b>et diffuse</b> : réserve, défavorable ou impossibilité ?<br>
+  2. Anomalie significative <b>non</b> diffuse : quelle opinion, quelle recommandation ?<br>
+  3. Une écriture complémentaire fait passer un petit bénéfice en perte : diffus ou non ? Pourquoi ?<br>
+  4. <i>(rappel §4)</i> Continuité incertaine mais <b>correctement décrite</b> en annexe : où se place-t-elle dans cet arbre ?
+</div>
+
+<!-- ============================================================
+     SECTION 7
+     ============================================================ -->
+<h1 id="s7">7 · Observation (706) vs autres points vs KAM (701)</h1>
+<p class="chapo">Trois dispositifs <b>n'affectent PAS l'opinion</b> mais enrichissent le rapport :
+le <b>paragraphe d'observation</b>, le <b>paragraphe relatif à d'autres points</b> (tous deux
+<span class="ref-norme">ISA-CH 706</span>) et les <b>KAM</b> (<span class="ref-norme">701</span>).
+Aucun ne remplace jamais une <b>réserve</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Certains faits méritent d'être signalés au lecteur sans que les comptes soient faux : soit ils
+  sont <b>dans</b> les comptes mais essentiels (observation), soit ils sont <b>hors</b> comptes mais
+  utiles à comprendre l'audit (autres points), soit ils sont les <b>zones les plus délicates</b> de
+  l'audit d'une cotée (KAM). Le piège d'examen n°1 est de les confondre avec une opinion modifiée.
+</div>
+
+<h2 id="s7-1">7.1 · Paragraphe d'observation</h2>
+<p>Renvoie à un fait <b>déjà présenté de façon appropriée dans les états financiers</b>, d'une
+importance essentielle à leur compréhension. Exemples : litige / mesure réglementaire à issue
+incertaine, <b>événement postérieur significatif</b>, application anticipée d'une nouvelle norme,
+catastrophe majeure.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — going concern à part</div>
+  Le <b>doute sur la continuité</b> correctement décrit ne se traite <b>pas</b> dans un paragraphe
+  d'observation ordinaire : il fait l'objet d'une <b>section séparée</b> « Incertitude significative
+  liée à la continuité » (<span class="ref-norme">ISA-CH 570</span>). Un paragraphe d'observation ne
+  peut pas non plus « résoudre » une surévaluation de participation ou une incertitude en matière de
+  litige déjà provisionnée à tort.
+</div>
+
+<h2 id="s7-2">7.2 · Paragraphe relatif à d'autres points</h2>
+<p>Renvoie à un fait <b>NON présenté dans les états financiers</b>, pertinent pour comprendre l'audit,
+les responsabilités ou le rapport. Exemples typiques via <span class="ref-norme">ISA-CH 710</span> :
+période précédente <b>auditée par un autre auditeur</b> / avec une <b>opinion modifiée</b> / soumise
+à un <b>autre type de contrôle</b> (restreint vs ordinaire). Sert aussi de véhicule aux
+<b>autres obligations de communication</b> (violations de la loi, perte de capital — cf. §10).</p>
+
+<h2 id="s7-3">7.3 · KAM / faits particulièrement importants (701)</h2>
+<ul>
+  <li><b>Obligatoires uniquement pour les sociétés cotées</b> (comptes annuels et consolidés) ;</li>
+  <li>issus des domaines à risque élevé, à forte appréciation de la direction, ou marqués par un
+  événement significatif de l'exercice ;</li>
+  <li>contenu : titre, renvoi à la présentation dans les EF, justification du choix, description des
+  risques / procédures / observations ;</li>
+  <li><b>ne remplace jamais</b> une opinion modifiée ni une réserve ; en cas d'opinion modifiée ou de
+  doute going concern → <b>renvoi</b> aux sections dédiées ;</li>
+  <li>thèmes SMI 2021 : goodwill, impôts, comptabilisation des produits, instruments financiers.</li>
+</ul>
+<span class="ref-sous"><span class="ref-norme">ISA-CH 701</span> <span class="secondaire">SECONDAIRE</span> · base historique circulaire ASR 1/2015, transférée dans la NA-CH révisée (validité 15.12.2022).</span>
+
+<h2 id="s7-4">7.4 · Tableau de discrimination</h2>
+<table class="compare">
+  <thead><tr><th>Dispositif</th><th>Le fait est-il dans les EF ?</th><th>Modifie l'opinion ?</th><th>Champ</th></tr></thead>
+  <tbody>
+    <tr><td><b>Observation (706)</b></td><td class="oui">Oui, correctement présenté</td><td class="non">Non</td><td>Toutes sociétés</td></tr>
+    <tr><td><b>Autres points (706)</b></td><td class="non">Non (hors EF)</td><td class="non">Non</td><td>Toutes sociétés</td></tr>
+    <tr><td><b>KAM (701)</b></td><td>Zones d'audit délicates</td><td class="non">Non</td><td><b>Cotées</b> uniquement</td></tr>
+    <tr><td><b>Autres obligations de communication</b></td><td>Violation de la loi</td><td class="non">Non (mais signalée à l'AG)</td><td>Contrôle ordinaire (728c)</td></tr>
+    <tr><td><b>Réserve / défavorable / impossibilité (705)</b></td><td>Anomalie ou limitation</td><td class="oui"><b>Oui</b></td><td>Selon significatif/diffus (§6)</td></tr>
+  </tbody>
+</table>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Litige provisionné et correctement mentionné en annexe : observation, autres points ou réserve ?<br>
+  2. Exercice précédent audité par un autre organe de révision : quel paragraphe ?<br>
+  3. Les KAM sont-ils obligatoires pour une SA non cotée en contrôle ordinaire ?<br>
+  4. <i>(rappel §6)</i> Un KAM peut-il remplacer une opinion défavorable justifiée par une anomalie diffuse ?
+</div>
+
+<!-- ============================================================
+     SECTION 8
+     ============================================================ -->
+<h1 id="s8">8 · Chiffres comparatifs (710) &amp; autres informations (720)</h1>
+<p class="chapo">Le rapport ne porte pas que sur les chiffres de l'exercice : les <b>données
+comparatives</b> (<span class="ref-norme">710</span>) et les <b>autres informations</b> du rapport
+annuel (<span class="ref-norme">720</span>) suivent des régimes propres.</p>
+
+<h2 id="s8-1">8.1 · Chiffres comparatifs (710)</h2>
+<ul>
+  <li>Les <b>données correspondantes</b> de l'exercice précédent font partie des comptes ;</li>
+  <li>période précédente <b>auditée par un autre auditeur</b> ou ayant reçu une <b>opinion modifiée</b>
+  toujours pertinente → <b>paragraphe relatif à d'autres points</b> ;</li>
+  <li>un changement d'auditeur responsable / de type de contrôle relève aussi des « autres points ».</li>
+</ul>
+
+<h2 id="s8-2">8.2 · Autres informations (720)</h2>
+<ul>
+  <li><b>Autres informations</b> = éléments du rapport annuel hors états financiers audités :
+  <i>business review</i>, rapport sur la gouvernance, rapport de durabilité, indicateurs (KPI) ;</li>
+  <li>responsabilité du <b>CA</b> ; l'<b>opinion d'audit ne les couvre pas</b> ;</li>
+  <li>l'auditeur les <b>lit</b> pour détecter une incohérence significative avec les comptes ou sa
+  connaissance ; si une anomalie des autres informations n'est pas corrigée → il le <b>signale</b>
+  (section « autres informations » / communication au CA) ;</li>
+  <li>en cas d'<b>impossibilité d'exprimer une opinion</b>, la section « autres informations » est
+  supprimée.</li>
+</ul>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — l'auditeur ne « certifie » pas les autres informations</div>
+  Une erreur dans un <b>KPI</b> du rapport annoncé (ex. stocks / charges de marchandises mal
+  présentés) déclenche d'abord une <b>communication au CA</b>, pas une réserve sur les comptes :
+  l'opinion ne couvre pas ces informations.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. L'exercice précédent avait une opinion modifiée, encore pertinente : quel paragraphe cette année ?<br>
+  2. Le rapport de durabilité comporte une incohérence : l'opinion d'audit est-elle modifiée ?<br>
+  3. <i>(rappel §7)</i> Différence entre « autres points » (706) et « autres informations » (720) ?
+</div>
+
+<!-- ============================================================
+     SECTION 9
+     ============================================================ -->
+<h1 id="s9">9 · Le rapport en contrôle RESTREINT (729b / NCR)</h1>
+<p class="chapo">Le contrôle restreint (<span class="ref-norme">art. 729-729c CO</span>, norme
+<b>NCR</b>) délivre une <b>assurance négative</b> (modérée) — à ne jamais confondre avec l'opinion
+positive de l'ordinaire ni avec une réserve.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Pour les PME, le législateur a voulu un contrôle <b>plus léger et moins coûteux</b> : moins de
+  procédures (surtout auditions et analyses), une assurance <b>modérée</b>, un <b>agrément de
+  réviseur</b> (et non d'expert-réviseur), et un rapport <b>succinct</b> à l'AG sans rapport
+  détaillé au CA.
+</div>
+
+<h2 id="s9-1">9.1 · Assurance négative</h2>
+<p>Le réviseur atteste n'avoir <b>pas rencontré d'éléments</b> lui laissant penser que les comptes
+ne sont pas conformes à la loi et aux statuts — formulation <b>négative</b>, par opposition à
+l'affirmation positive « les comptes sont conformes » de l'ordinaire.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — négative ≠ réserve</div>
+  L'assurance <b>négative</b> est le <b>régime normal</b> du contrôle restreint, pas une opinion
+  dégradée. Elle n'est pas une « opinion avec réserve ». Le contrôle restreint ne connaît pas les
+  quatre opinions de l'<span class="ref-norme">ISA-CH 705</span> ; il peut en revanche comporter un
+  <b>« complément »</b> (équivalent du paragraphe d'observation).
+</div>
+
+<h2 id="s9-2">9.2 · Contenu du rapport (729b CO)</h2>
+<ul>
+  <li>mention qu'il s'agit d'un <b>contrôle restreint</b> ;</li>
+  <li><b>résultat</b> du contrôle (assurance négative) ;</li>
+  <li>informations sur l'<b>indépendance</b> (et sur une éventuelle collaboration à la tenue de la
+  comptabilité, admise sous conditions en restreint) ;</li>
+  <li><b>personne responsable</b> + compétences ;</li>
+  <li>recommandation d'approbation.</li>
+</ul>
+
+<h2 id="s9-3">9.3 · Tableau des différences ordinaire / restreint</h2>
+<table class="compare">
+  <thead><tr><th>Critère</th><th>Contrôle ORDINAIRE</th><th>Contrôle RESTREINT</th></tr></thead>
+  <tbody>
+    <tr><td>Base légale</td><td><span class="ref-norme">art. 728-728c CO</span></td><td><span class="ref-norme">art. 729-729c CO</span></td></tr>
+    <tr><td>Norme d'exécution</td><td>NA-CH / ISA-CH</td><td><b>NCR</b></td></tr>
+    <tr><td>Assurance</td><td class="oui">Raisonnable — opinion <b>positive</b></td><td>Modérée — assurance <b>négative</b></td></tr>
+    <tr><td>Procédures</td><td>Audit complet (contrôles + substance)</td><td>Auditions + procédures analytiques</td></tr>
+    <tr><td>Rapport détaillé au CA (728b al.1)</td><td class="oui">Oui</td><td class="non">Non</td></tr>
+    <tr><td>Attestation existence du SCI (728a/890)</td><td class="oui">Oui</td><td class="non">Non</td></tr>
+    <tr><td>KAM (701) / section continuité</td><td>Selon cas (cotées)</td><td class="non">Non</td></tr>
+    <tr><td>Agrément requis</td><td><b>Expert-réviseur</b> agréé</td><td><b>Réviseur</b> agréé</td></tr>
+    <tr><td>Avis obligatoire en cas de surendettement</td><td><span class="ref-norme">728c al. 3</span></td><td><span class="ref-norme">729c</span></td></tr>
+  </tbody>
+</table>
+<div class="changement">
+  <div class="callout-titre">🔄 Point d'attention — comptes intermédiaires en surendettement</div>
+  Même pour une société en <b>opting-out</b> (habituellement soumise au restreint), la vérification
+  des <b>comptes intermédiaires en cas de surendettement</b> se fait <b>selon les NA-CH</b>, jamais
+  selon la NCR (cf. §10.3). <span class="avalider">À VÉRIFIER selon l'édition NCR en vigueur.</span>
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. « Assurance négative » = « opinion avec réserve » ? Vrai / faux, pourquoi ?<br>
+  2. Le contrôle restreint comporte-t-il un rapport détaillé au CA ?<br>
+  3. Quel agrément le réviseur responsable doit-il détenir en restreint ?<br>
+  4. <i>(rappel §5)</i> Quel article régit l'avis obligatoire en cas de surendettement, en ordinaire ? En restreint ?
+</div>
+
+<!-- ============================================================
+     SECTION 10
+     ============================================================ -->
+<h1 id="s10">10 · Avis obligatoires &amp; assainissement (728c/729c · 725-725c)</h1>
+<p class="chapo">La détresse financière déclenche une <b>cascade de devoirs</b> : avis obligatoires de
+l'organe de révision (<span class="ref-norme">728c / 729c</span>), et surtout les mécanismes du
+droit de la SA révisé — insolvabilité (<span class="ref-norme">725</span>), perte de capital
+(<span class="ref-norme">725a</span>), surendettement (<span class="ref-norme">725b</span>),
+réévaluation (<span class="ref-norme">725c</span>), postposition (<span class="ref-norme">725b al. 4</span>).</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Le droit protège les <b>créanciers</b> : dès que le capital est entamé ou que les dettes ne sont
+  plus couvertes, la loi impose au CA (et, subsidiairement, à l'organe de révision) une suite de
+  mesures et d'avis. L'examen teste la <b>chronologie</b> et le <b>partage des rôles</b> CA / organe
+  de révision / juge.
+</div>
+
+<h2 id="s10-1">10.1 · Avis obligatoires (728c / 729c CO)</h2>
+<p>Mécanisme en <b>deux étapes</b> :</p>
+<ol>
+  <li><b>Avertissement écrit au CA</b> (dans le rapport détaillé, <span class="ref-norme">728c al. 1</span>) lors de la constatation d'une violation ;</li>
+  <li><b>Information à l'AG</b> si la violation est <b>grave</b> ou si le CA <b>n'agit pas</b>
+  (<span class="ref-norme">728c al. 2</span>), dans la section « autres obligations » du rapport succinct.</li>
+</ol>
+<p>Exemples de violations à signaler : absence de <b>comptes consolidés</b> pourtant obligatoires
+(<span class="ref-norme">art. 963a CO</span>), emploi du bénéfice non conforme
+(<span class="ref-norme">671 / 677</span>), <b>distribution dissimulée</b>
+(<span class="ref-norme">678</span>), remboursement prohibé du capital
+(<span class="ref-norme">680 al. 2</span>), AG non tenue dans les <b>6 mois</b>
+(<span class="ref-norme">699 al. 2</span>), manquements aux obligations en cas d'insolvabilité /
+perte de capital / surendettement (<span class="ref-norme">725 ss</span>).</p>
+
+<h2 id="s10-2">10.2 · Perte de capital (725a) · calcul de la valeur de référence</h2>
+<p>Il y a <b>perte de capital</b> lorsque, d'après les <b>derniers comptes annuels</b>, l'actif après
+déduction des dettes <b>ne couvre plus la moitié</b> de la <b>valeur de référence</b>
+<span class="ref-norme">art. 725a al. 1 CO</span> <span class="primaire">PRIMAIRE</span>.</p>
+<div class="formule">
+  Perte de capital &nbsp;⇔&nbsp; Capitaux propres &lt; ½ × <b>Valeur de référence</b>
+</div>
+<table class="compare">
+  <thead><tr><th>Poste</th><th>Entre dans la valeur de référence ?</th></tr></thead>
+  <tbody>
+    <tr><td>Capital-actions (nominal) + capital-participation (nominal)</td><td class="oui">Oui — montant intégral</td></tr>
+    <tr><td>Réserve légale issue du capital + issue du bénéfice</td><td class="oui">Oui, mais <b>plafonnées</b> à <b>50 %</b> du capital (actions + participation) — <b>20 %</b> pour une holding</td></tr>
+    <tr><td>Réserve pour actions propres · réserve de réévaluation (immeubles / participations)</td><td class="oui">Oui — montant intégral</td></tr>
+    <tr><td>Réserves <b>statutaires</b> · réserves <b>facultatives</b> issues du bénéfice</td><td class="non">Non</td></tr>
+    <tr><td>Part <b>remboursable</b> des réserves légales (au-delà du plafond)</td><td class="non">Non</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Plafond de la part non remboursable : <span class="ref-norme">art. 671 CO</span> <span class="primaire">PRIMAIRE</span> (50 % / 20 % holding).</span>
+<p><b>Exemple.</b> Capital-actions 200 · réserve légale bénéfice 60 · réserve légale capital 80 ·
+report de pertes −140 · perte de l'exercice −10 → <b>CP = 190</b>. Plafond des réserves légales =
+50 % × 200 = <b>100</b> (les 140 de réserves légales sont ramenés à 100). Valeur de référence =
+200 + 100 = <b>300</b> ; seuil = ½ × 300 = <b>150</b>. CP 190 &gt; 150 → <b>pas de perte de capital</b>.</p>
+<div class="changement">
+  <div class="callout-titre">🔄 Changement de norme — plus d'« assemblée d'assainissement » automatique</div>
+  Sous l'ancien <b>art. 725 al. 1 aCO</b>, la perte de capital imposait au CA de <b>convoquer
+  immédiatement l'AG</b> avec des propositions d'assainissement, et l'on enseignait que l'organe de
+  révision devait le faire à sa place en cas d'inaction. <b>Le nouvel art. 725a NE l'exige plus</b> :
+  le CA prend les mesures relevant de sa compétence et <b>ne propose à l'AG que celles qui relèvent
+  d'elle</b> (augmentation / réduction de capital, réévaluation 725c…). <b>L'organe de révision ne
+  convoque jamais l'AG à la place du CA.</b> Attention aux questions rédigées sous l'ancien droit.
+</div>
+<p><b>Rôle de l'organe de révision (725a al. 2).</b> Si la société <b>n'a pas d'organe de révision</b>
+(opting-out), le CA fait réviser les derniers comptes annuels par un <b>réviseur agréé</b> (contrôle
+restreint) <b>avant leur approbation</b> par l'AG.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — la perte de capital ne modifie PAS l'opinion</div>
+  Perte de capital et surendettement <b>ne modifient jamais l'opinion d'audit</b> : ils sont signalés
+  dans un <b>paragraphe relatif à d'autres points / autres obligations</b>. Ce qui peut être signalé
+  comme <b>violation de la loi</b>, c'est l'<b>inaction du CA</b> (mesures non prises, comptes
+  intermédiaires non établis, avis au juge omis — <span class="ref-norme">728c al. 2</span>).
+</div>
+
+<h2 id="s10-3">10.3 · Surendettement (725b) · insolvabilité (725) · réévaluation (725c)</h2>
+<p><b>Surendettement (725b).</b> S'il existe des raisons sérieuses d'admettre que les <b>dettes ne
+sont plus couvertes par les actifs</b>, le CA établit <b>immédiatement</b> des comptes intermédiaires
+aux <b>valeurs d'exploitation ET de liquidation</b>.</p>
+<ul>
+  <li><b>Renonciation aux valeurs de liquidation</b> possible si la poursuite de l'exploitation est
+  envisagée <b>et</b> que les valeurs d'exploitation <b>ne montrent pas</b> de surendettement ;</li>
+  <li>les seules valeurs de <b>liquidation</b> suffisent quand la poursuite n'est plus envisagée ;</li>
+  <li>vérification par l'<b>organe de révision</b> ou, à défaut, un réviseur agréé — <b>toujours
+  selon les NA-CH</b>, jamais la NCR ;</li>
+  <li><b>avis au tribunal</b> (<span class="ref-norme">725b al. 3</span>) si <b>les deux</b> comptes
+  montrent le surendettement ;</li>
+  <li><b>renonciation à l'avis au juge</b> (<span class="ref-norme">725b al. 4</span>) : (1)
+  <b>postposition</b> à concurrence du découvert + intérêts (ch. 1), ou (2) <b>perspective
+  d'assainissement</b> dans un délai raisonnable, au plus tard <b>90 jours</b> après l'établissement
+  des comptes intermédiaires (ch. 2) ;</li>
+  <li><b>obligation subsidiaire de l'organe de révision</b> : si la société est <b>manifestement
+  surendettée</b> et que le CA omet d'aviser, l'organe de révision <b>avise lui-même le tribunal</b>
+  (<span class="ref-norme">728c al. 3 / 729c</span>) — obligation qui <b>subsiste même si l'AG a été
+  informée</b>.</li>
+</ul>
+<figure class="arbre-fig">
+<pre class="arbre">
+Raisons sérieuses de surendettement ?
+│
+└─ OUI → comptes intermédiaires (valeurs d'exploitation ET de liquidation)
+         │
+         ├─ pas de surendettement dans les deux .......... → pas d'avis
+         │
+         └─ surendettement dans les DEUX
+              ├─ postposition suffisante (découvert + intérêts) → PAS d'avis (725b al.4 ch.1)
+              ├─ assainissement sérieux ≤ 90 jours ........... → PAS d'avis (725b al.4 ch.2)
+              └─ ni l'un ni l'autre ..................... → AVIS AU TRIBUNAL (725b al.3)
+                        └─ CA inactif → organe de révision avise (728c al.3 / 729c)
+</pre>
+<figcaption>Arbre 10 · Surendettement (725b) → avis au tribunal</figcaption>
+</figure>
+<p><b>Insolvabilité imminente (725).</b> Si la société <b>risque de devenir insolvable</b> (menace
+sur les <b>liquidités</b>, horizon ≈ 12 mois), le CA prend les mesures garantissant la solvabilité,
+au besoin propose des mesures à l'AG ou dépose une demande de <b>sursis concordataire</b>.</p>
+<p><b>Réévaluation (725c).</b> Pour supprimer une perte de capital ou un surendettement, la société
+peut <b>réévaluer immeubles et participations</b> jusqu'à leur valeur réelle au maximum, à condition
+qu'un <b>réviseur agréé confirme par écrit</b> le respect des dispositions légales.</p>
+<table class="compare">
+  <thead><tr><th>&nbsp;</th><th>Perte de capital (725a)</th><th>Surendettement (725b)</th></tr></thead>
+  <tbody>
+    <tr><td>Déclencheur</td><td>CP &lt; ½ valeur de référence</td><td>Dettes non couvertes par les actifs</td></tr>
+    <tr><td>Moment pertinent</td><td>Derniers comptes annuels (fin d'exercice)</td><td>Dès raisons sérieuses (en cours d'année)</td></tr>
+    <tr><td>Document</td><td>Comptes annuels</td><td>Comptes intermédiaires (exploitation + liquidation)</td></tr>
+    <tr><td>Destinataire de l'avis</td><td>CA agit / propose à l'AG</td><td><b>Tribunal</b> (sauf postposition / assainissement)</td></tr>
+    <tr><td>Incidence sur l'opinion</td><td class="non">Aucune — § autres obligations</td><td class="non">Aucune — § autres obligations</td></tr>
+  </tbody>
+</table>
+
+<h2 id="s10-4">10.4 · La postposition</h2>
+<p>La postposition (<span class="ref-norme">art. 725b al. 4 ch. 1 CO</span>) est un accord
+créancier-débiteur qui <b>dispense d'aviser le tribunal</b> — ce n'<b>est PAS</b> une mesure
+d'assainissement (elle ne réduit pas le surendettement, elle donne du temps).</p>
+<table class="compare">
+  <thead><tr><th>Condition</th><th>Détail</th></tr></thead>
+  <tbody>
+    <tr><td><b>Irrévocable &amp; inconditionnelle</b></td><td>Non subordonnée à d'autres conditions</td></tr>
+    <tr><td><b>Durée indéterminée</b></td><td>Dissolution seulement quand un réviseur atteste l'absence de surendettement</td></tr>
+    <tr><td><b>Montant</b></td><td>Sursis du remboursement du <b>prêt ET des intérêts</b> ; couvre au moins le <b>découvert</b> + marge de sécurité pour ≥ 12 mois</td></tr>
+    <tr><td><b>Rang / renonciation</b></td><td>Le créancier accepte un <b>rang inférieur</b> à tous les autres et <b>renonce en cas de faillite</b></td></tr>
+    <tr><td><b>Solvabilité du créancier</b></td><td>Il doit pouvoir <b>supporter la perte totale</b> ; appréciée <b>à la date d'octroi</b></td></tr>
+    <tr><td><b>Forme</b></td><td>Écrite en fait (l'organe de révision ne juge que d'une postposition écrite) ; modèle <b>EXPERTsuisse</b> recommandé à la lettre</td></tr>
+  </tbody>
+</table>
+<p><b>Réduction / annulation.</b> Réduction admise si le surendettement a diminué d'autant, comptes
+<b>audités selon les NA-CH</b>, pas de préjudice aux autres postposants, nouveau contrôle (dont
+solvabilité du créancier). Annulation seulement après attestation écrite d'un réviseur agréé
+(absence de surendettement).</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — substituts &amp; responsabilité</div>
+  Une <b>déclaration de garantie / lettre de soutien</b> ne remplace pas une postposition et <b>ne
+  dispense pas</b> le CA d'aviser le tribunal. Si une postposition se révèle <b>invalide</b> (vice de
+  forme, insolvabilité du créancier), elle est réputée <b>nulle dès l'origine</b> : l'organe de
+  révision est responsable du <b>préjudice postérieur</b> au moment où il aurait dû aviser le juge.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'assainissement mobilise la <b>continuité</b> (§4 : les comptes intermédiaires servent à juger le
+  going concern), l'<b>opinion</b> (§6 : la conséquence juridique 725a/b rend une anomalie
+  <b>diffuse</b>) et les <b>avis obligatoires</b> (10.1). Distinguer nettement <b>perte de capital</b>
+  (art. 674 CO : ordre de compensation des réserves par l'AG) et <b>surendettement</b> (avis au juge).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Calcule la valeur de référence : capital-actions 200, réserve légale bénéfice 60, réserve légale capital 80. Y a-t-il perte de capital si CP = 150 ?<br>
+  2. Les deux comptes intermédiaires montrent un surendettement ; il existe une postposition suffisante. Le CA doit-il aviser le juge ?<br>
+  3. La postposition est-elle une mesure d'assainissement ?<br>
+  4. Le CA reste inactif malgré un surendettement manifeste. Que fait l'organe de révision ? Cette obligation disparaît-elle si l'AG a été informée ?<br>
+  5. <i>(rappel §6)</i> Pourquoi une perte de capital rend-elle une anomalie « diffuse » ?
+</div>
+
+<!-- ============================================================
+     SECTION 11
+     ============================================================ -->
+<h1 id="s11">11 · Approbation des comptes &amp; rôle de l'AG (731 CO)</h1>
+<p class="chapo">L'assemblée générale ne peut statuer valablement sur les comptes qu'après avoir reçu
+le <b>rapport de révision</b>.</p>
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Le rapport de l'organe de révision est une <b>condition de validité</b> de la décision sociale :
+  sans lui, l'actionnaire déciderait à l'aveugle. L'<span class="ref-norme">art. 731 CO</span>
+  <span class="primaire">PRIMAIRE</span> verrouille donc l'ordre du jour.
+</div>
+<ul>
+  <li>Pour une société <b>soumise à révision</b>, l'AG ne peut <b>approuver les comptes</b> ni statuer
+  sur l'<b>emploi du bénéfice</b> <b>qu'après réception du rapport</b> de révision
+  <span class="ref-norme">art. 731 al. 2 CO</span> ; à défaut, la décision est <b>nulle</b>
+  (<span class="ref-norme">731 al. 3</span>).</li>
+  <li>L'AG doit se tenir dans les <b>6 mois</b> suivant la clôture <span class="ref-norme">art. 699 al. 2 CO</span> ;</li>
+  <li>la <b>recommandation d'approbation ou de renvoi</b> (§5-6) guide l'AG mais ne la <b>lie pas</b> :
+  l'AG reste libre de sa décision ;</li>
+  <li>la recommandation d'approbation est une <b>spécificité du droit suisse</b> ; elle est requise en
+  contrôle <b>ordinaire ET restreint</b>.</li>
+</ul>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — recommandation ≠ décision</div>
+  L'AG <b>n'est pas tenue</b> de suivre la recommandation de l'organe de révision. En cas d'opinion
+  <b>défavorable / impossibilité</b>, la recommandation est le <b>renvoi</b> ; mais une opinion
+  <b>avec réserve</b> s'accompagne d'une recommandation d'<b>approbation</b>.
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. L'AG peut-elle approuver les comptes sans le rapport de révision ?<br>
+  2. La recommandation d'approbation existe-t-elle en contrôle restreint ?<br>
+  3. <i>(rappel §6.4)</i> Quelle recommandation accompagne une opinion avec réserve ?
+</div>
+
+<!-- ============================================================
+     SECTION 12
+     ============================================================ -->
+<h1 id="s12">12 · Arbre de décision global du rapport</h1>
+<p class="chapo">Synthèse : du <b>résultat des travaux</b> au <b>type de rapport</b>. À lire de haut en
+bas ; les branches « sans impact sur l'opinion » sont à gauche, les opinions modifiées à droite.</p>
+<figure class="arbre-fig">
+<pre class="arbre">
+RÉSULTAT DES TRAVAUX D'AUDIT
+│
+├─ Aucune anomalie / limitation significative
+│     └─ un fait mérite-t-il d'être signalé ?
+│           ├─ dans les EF (essentiel) ....... § OBSERVATION (706)   [going concern → section 570]
+│           ├─ hors EF (audit/comparatifs) ... § AUTRES POINTS (706 / 710)
+│           ├─ violation de la loi ........... AUTRES OBLIGATIONS DE COMMUNICATION (728c)
+│           ├─ zone d'audit délicate (cotée) . KAM (701)
+│           └─ perte de capital / surendettement . § AUTRES OBLIGATIONS (n'affecte PAS l'opinion)
+│     ⇒ OPINION NON MODIFIÉE → APPROBATION
+│
+└─ Anomalie ou limitation qui influence l'opinion → (ISA-CH 705)
+      │
+      ├─ LIMITATION de l'étendue
+      │     ├─ significatif, non diffus ... RÉSERVE ......... → approbation
+      │     └─ significatif ET diffus ..... IMPOSSIBILITÉ ... → renvoi
+      │
+      └─ ANOMALIE
+            ├─ significatif, non diffus ... RÉSERVE ......... → approbation
+            └─ significatif ET diffus ..... DÉFAVORABLE ..... → renvoi
+
+  Cas particulier — continuité : incertitude bien décrite en annexe
+        → OPINION NON MODIFIÉE + section « Incertitude significative » (570)
+</pre>
+<figcaption>Arbre 12 · Du résultat des travaux au type de rapport (vue d'ensemble)</figcaption>
+</figure>
+
+<!-- ============================================================
+     SECTION 13
+     ============================================================ -->
+<h1 id="s13">13 · Faux amis / pièges d'examen</h1>
+<table class="compare">
+  <thead><tr><th>Ne pas confondre…</th><th>La règle</th></tr></thead>
+  <tbody>
+    <tr><td>Paragraphe d'<b>observation (706)</b> ≠ <b>réserve (705)</b></td><td>L'observation n'affecte pas l'opinion ; elle ne remplace jamais une réserve justifiée</td></tr>
+    <tr><td><b>Assurance négative</b> (restreint) ≠ <b>opinion avec réserve</b></td><td>La négative est le régime normal du contrôle restreint, pas une opinion dégradée</td></tr>
+    <tr><td>Rapport de <b>synthèse (AG)</b> ≠ rapport <b>détaillé (CA)</b></td><td>Synthèse = résultat + recommandation ; détaillé = réalisation + constatations, écrit obligatoire</td></tr>
+    <tr><td>Continuité incertaine <b>bien décrite</b></td><td>Opinion <b>NON modifiée</b> + section dédiée (570) — pas une réserve</td></tr>
+    <tr><td><b>KAM (701)</b></td><td>Obligatoires <b>seulement</b> pour les sociétés cotées ; ne remplacent jamais une opinion modifiée</td></tr>
+    <tr><td>Ancien <b>725</b> ≠ nouveaux <b>725 / 725a / 725b / 725c</b></td><td>Insolvabilité / perte de capital / surendettement / réévaluation — plus d'« assemblée d'assainissement » automatique</td></tr>
+    <tr><td>Perte de capital &amp; surendettement</td><td><b>Ne modifient pas</b> l'opinion → paragraphe « autres obligations » ; seule l'<b>inaction du CA</b> est une violation de la loi</td></tr>
+    <tr><td><b>Limitation</b> diffuse ≠ <b>anomalie</b> diffuse</td><td>Limitation diffuse → <b>impossibilité</b> ; anomalie diffuse → <b>défavorable</b></td></tr>
+    <tr><td><b>Postposition</b> ≠ mesure d'assainissement</td><td>Elle dispense de l'avis au juge, ne réduit pas le surendettement</td></tr>
+    <tr><td><b>Réserve</b> → <b>approbation</b></td><td>Seules défavorable et impossibilité entraînent le renvoi</td></tr>
+  </tbody>
+</table>
+
+<!-- ============================================================
+     SECTION 14
+     ============================================================ -->
+<h1 id="s14">14 · Fraude (ISA-CH 240)</h1>
+<p class="chapo">Domaine de <b>risque</b> traité en amont, mais rattaché à la conclusion par son
+<b>incidence sur le rapport</b>. À distinguer nettement de l'erreur.</p>
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  La fraude est <b>intentionnelle</b> et souvent <b>dissimulée</b> : elle appelle un
+  <b>scepticisme</b> renforcé et des procédures spécifiques, car les contrôles habituels peuvent être
+  <b>contournés</b> par ceux-là mêmes qui devraient les faire respecter.
+</div>
+<ul>
+  <li><b>Deux types</b> : présentation d'états financiers <b>mensongers</b> (ex. application
+  volontairement incorrecte des principes comptables) vs <b>détournement d'actifs</b> ;</li>
+  <li><b>Triangle de la fraude</b> : incitation/pression · opportunité · attitude/justification ;</li>
+  <li><b>Présomption de risque</b> sur la <b>comptabilisation des produits</b> : réfutable, mais à
+  <b>documenter</b> ;</li>
+  <li><b>Contournement des contrôles par la direction</b> = <b>toujours un risque important</b>
+  (non réfutable) → 3 procédures minimales : test des <b>écritures de journal</b>, examen des
+  <b>biais dans les estimations</b>, analyse des <b>transactions hors cadre normal</b> ;</li>
+  <li><b>Communication</b> : à un niveau <b>au-dessus</b> de l'auteur présumé ; au <b>CA</b> si la
+  direction est impliquée ; interroger notamment l'<b>audit interne</b> ;</li>
+  <li>l'<b>analyse forensique</b> aide à cibler les écritures, évaluer le risque, investiguer.</li>
+</ul>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — contournement des contrôles</div>
+  On ne peut <b>jamais réfuter</b> la présomption de risque de contournement des contrôles par la
+  direction (contrairement à la présomption sur les revenus, réfutable et documentée). Les facteurs
+  de risque de fraude ne sont pas eux-mêmes des risques importants : ils en sont un <b>indice</b>.
+</div>
+
+<!-- ============================================================
+     SECTION 15
+     ============================================================ -->
+<h1 id="s15">15 · Parties liées (ISA-CH 550)</h1>
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Les transactions avec des parties liées peuvent masquer des <b>flux non conformes au marché</b>
+  (distributions dissimulées, avantages indus) : elles exigent une <b>identification</b> rigoureuse
+  et une attention aux <b>conditions</b>.
+</div>
+<ul>
+  <li><b>Définition</b> : par le référentiel comptable, ou à défaut par l'<span class="ref-norme">ISA-CH 550</span> ; base CO <span class="ref-norme">art. 959a al. 4 / 959c CO</span> ;</li>
+  <li>transactions <b>hors cadre normal</b> de l'activité = <b>risques importants</b> ;</li>
+  <li>la <b>charge de la preuve</b> des conditions de marché incombe à la <b>direction</b> ;</li>
+  <li>parties liées <b>non déclarées</b> découvertes → contrôles de substance, ré-évaluation du
+  risque de fraude, demande d'identification exhaustive à la direction ;</li>
+  <li>transactions non conformes au marché → possible <b>anomalie</b> voire <b>violation de la loi</b>.</li>
+</ul>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — distribution dissimulée de bénéfices</div>
+  Un rapport <b>sans réserve</b> reste possible malgré une distribution dissimilée si, <b>cumulativement</b> :
+  le CA a été <b>informé par écrit</b>, les intérêts des <b>actionnaires minoritaires</b> ne sont pas
+  lésés, les intérêts des <b>créanciers</b> ne sont pas lésés (la restitution à la date du rapport
+  n'est <b>pas</b> une condition requise). Les cas graves conduisent à une <b>opinion défavorable</b>
+  (<span class="ref-norme">art. 678 CO</span>).
+</div>
+
+<!-- ============================================================
+     SECTION 16
+     ============================================================ -->
+<h1 id="s16">16 · Estimations comptables (ISA-CH 540)</h1>
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Les estimations (provisions, corrections de valeur, goodwill, instruments financiers…) concentrent
+  l'<b>incertitude</b> et la <b>subjectivité</b> : terrain privilégié du <b>management bias</b> et
+  donc point d'attention majeur avant l'opinion.
+</div>
+<ul>
+  <li><b>Évaluation séparée</b> du risque inhérent et du risque de contrôle ;</li>
+  <li>facteurs de risque inhérent : <b>incertitude d'évaluation</b>, <b>complexité</b>,
+  <b>subjectivité</b>, autres ;</li>
+  <li><b>trois approches de test</b> : événements postérieurs · vérifier la démarche de la direction ·
+  <b>estimation propre</b> de l'auditeur (ponctuelle ou fourchette) ;</li>
+  <li><b>management bias</b> = indice possible de fraude ; scepticisme renforcé, éléments probants
+  contradictoires <b>et</b> confirmatifs ;</li>
+  <li>ne constituent <b>pas</b> une estimation : les <b>engagements</b> à montant contractuel fixe
+  (ex. dettes envers les banques / clients à valeur déterminée).</li>
+</ul>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — incidence sur le rapport</div>
+  Une estimation inacceptable est une <b>anomalie</b> → <b>réserve</b> (significatif non diffus) ou
+  <b>défavorable</b> (diffus) ; une incertitude d'évaluation non levable est une <b>limitation</b> →
+  réserve ou <b>impossibilité</b>. Le paragraphe d'<b>observation (706)</b> est réservé au going
+  concern / à l'issue future d'un événement — <b>jamais</b> pour couvrir une incertitude d'évaluation.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test — récapitulatif transversal</div>
+  1. Contournement des contrôles par la direction : risque important toujours, ou selon les cas ?<br>
+  2. Une distribution dissimulée oblige-t-elle toujours à une opinion avec réserve ?<br>
+  3. Trois approches de test d'une estimation comptable ?<br>
+  4. <i>(rappel §6)</i> Estimation inacceptable et diffuse : quelle opinion ?<br>
+  5. <i>(rappel §10)</i> Une provision manquante significative qui fait passer le bénéfice en perte : quelle opinion, quelle recommandation ?
+</div>
+
+<!-- ===================== FIN DU MÉMENTO ===================== -->
+
+</body></html>
