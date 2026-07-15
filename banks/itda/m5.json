@@ -112,13 +112,14 @@
     "4 phases",
     "5 phases"
    ],
-   "correct": 2,
+   "correct": 1,
    "explications": [
     "Faux : deux phases (préparation/conclusion) ne rendent pas compte du modèle, qui distingue au minimum l'identification des risques, l'évaluation des contrôles et l'appréciation finale.",
-    "Faux selon le corrigé retenu : un regroupement en trois phases (planification → stratégie/évaluation des risques → appréciation) existe dans certains supports, mais le corrigé retient quatre phases en isolant l'évaluation de l'efficacité comme phase propre.",
-    "Bonne réponse (corrigé retenu) : quatre phases — planification/identification des risques ; stratégie & évaluation des risques ; évaluation de l'efficacité ; appréciation globale/conclusion. Attention : le modèle compte 6-7 ÉTAPES regroupées en phases ; ne pas confondre étapes et phases.",
+    "Bonne réponse (version du cours) : le cours détaillé regroupe explicitement les 7 étapes en TROIS phases — (I) planification / identification des risques (étapes 1-3), (II) stratégie & évaluation des risques (étapes 4-6), (III) appréciation / conclusion (étape 7). C'est le découpage à retenir (mémento §5.2).",
+    "Découpage alternatif plausible : d'anciennes clés reconstruites isolaient l'évaluation de l'efficacité comme 4e phase. Mais le cours énonce 3 phases — à l'examen, s'en tenir au regroupement en 3 phases du support. Ne pas confondre les 3 phases avec les 6-7 ÉTAPES.",
     "Faux : cinq ne correspond ni au nombre de phases ni au nombre d'étapes (6-7 selon le support) ; ce chiffre évoque plutôt les 5 domaines ITGC (BE/AN/ZU/SI/CM), une autre taxonomie."
-   ]
+   ],
+   "piege": "3 phases (cours) vs 4 (clé reconstruite)"
   },
   {
    "id": "IT-038",
