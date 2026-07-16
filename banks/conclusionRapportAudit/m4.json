@@ -1,0 +1,605 @@
+{
+ "module": "M4",
+ "titre": "4. Opinion modifiée (705/706)",
+ "questions": [
+  {
+   "id": "CRA-039",
+   "champ": "Fait entraînant une modification · évaluation CO",
+   "memento": "§6.1 · §5.4",
+   "difficulte": 2,
+   "question": "Quel fait entraîne une modification de l'opinion d'audit ?",
+   "options": [
+    "Un bien immobilier est porté au bilan à la valeur vénale, au-dessus de sa valeur d'acquisition, alors que les comptes sont établis selon le CO",
+    "La structure minimale de l'annexe est respectée",
+    "Aucune règle d'évaluation n'est enfreinte",
+    "Le rapport annuel (rapport de gestion) fait défaut"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : le CO impose l'évaluation au plus au coût d'acquisition (art. 960a al. 2 CO). Porter un immeuble à la valeur vénale, au-dessus de ce coût, viole les règles d'évaluation : les comptes sont erronés → anomalie, cause de modification de l'opinion (ISA-CH 705 ; mémento §6.1).",
+    "Faux : une annexe respectant la structure minimale est une situation conforme — aucune anomalie, donc aucune raison de modifier l'opinion.",
+    "Faux : si aucune règle d'évaluation n'est enfreinte, les comptes ne sont pas erronés ; l'opinion reste non modifiée.",
+    "Faux : le rapport de gestion manquant alors qu'il est légalement dû est une violation de la loi (art. 961 CO) traitée dans les « autres obligations légales », pas une anomalie des comptes — il ne modifie donc pas l'opinion (mémento §5.4, piège explicite)."
+   ],
+   "piege": "anomalie ≠ violation de la loi"
+  },
+  {
+   "id": "CRA-040",
+   "champ": "Écart au texte standard · rôle du seuil",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Quelle proposition sur l'écart par rapport au texte standard du rapport est correcte ?",
+   "options": [
+    "La mise en évidence d'un fait par un paragraphe d'observation est un exemple de fait qui influence l'opinion d'audit",
+    "Les présentations erronées doivent dépasser le seuil de signification pour entraîner une modification de l'opinion",
+    "Les limitations de l'étendue de l'audit ne peuvent pas avoir d'incidence sur l'opinion d'audit",
+    "Une violation substantielle des règles d'évaluation peut être divulguée par un paragraphe relatif à d'autres points"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le paragraphe d'observation (ISA-CH 706) attire l'attention sur un fait correctement présenté dans les comptes ; il n'influence PAS l'opinion — confusion classique 706 ≠ 705 (mémento §7.1 · §7.4).",
+    "Juste : seules les anomalies significatives — individuellement ou cumulées au-delà de la matérialité (ISA-CH 320) — entraînent une modification de l'opinion (ISA-CH 705) ; en dessous du seuil, le texte standard reste possible (mémento §6.2 · §2.1).",
+    "Faux : la limitation de l'étendue est précisément l'une des deux causes de modification — réserve si significative, impossibilité d'exprimer une opinion si l'effet est diffus (mémento §6.1).",
+    "Faux : une violation substantielle des règles d'évaluation est une anomalie qui passe par l'opinion (réserve/défavorable) ; le paragraphe « autres points » est réservé aux faits HORS des états financiers (mémento §7.2)."
+   ],
+   "piege": "observation ≠ opinion modifiée"
+  },
+  {
+   "id": "CRA-041",
+   "champ": "Anomalie non significative · refus de correction",
+   "memento": "§2.1 · §6.2",
+   "difficulte": 1,
+   "question": "Gebert SA (contrôle ordinaire) : les stocks devraient être dépréciés de CHF 4 mio, ce qui n'est PAS significatif ; la direction refuse de corriger. Un rapport non modifié est-il possible ?",
+   "options": [
+    "Non, car cela doit être corrigé",
+    "Non, car cela ne correspond pas au droit comptable",
+    "Oui, car le montant est non significatif (négligeable au regard du seuil)",
+    "Oui, car les stocks ne font pas partie de la structure minimale selon le CO"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'auditeur demande la correction, mais le refus de la direction ne modifie l'opinion que si l'anomalie est significative — ici elle reste sous le seuil (ISA-CH 450 · 705).",
+    "Faux : il y a bien une entorse au droit comptable, mais non significative — elle ne rend pas les comptes trompeurs dans leur ensemble ; l'opinion peut rester non modifiée.",
+    "Juste : une anomalie non corrigée mais inférieure au seuil de signification permet une opinion non modifiée, même en cas de refus de la direction ; l'auditeur la documente et peut la reprendre dans le rapport détaillé au CA (ISA-CH 450 · 705 ; mémento §2.1 — l'exemple des CHF 4 mio de stock y figure textuellement).",
+    "Faux : les stocks font partie du bilan et doivent être évalués correctement (art. 960c CO) ; ce qui sauve le rapport non modifié n'est pas la structure minimale mais le caractère non significatif du montant."
+   ],
+   "piege": "sous le seuil = opinion inchangée"
+  },
+  {
+   "id": "CRA-042",
+   "champ": "Anomalie significative ET diffuse (bénéfice→perte)",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Gebert AG (contrôle ordinaire) : des provisions de CHF 15 mio n'ont pas été comptabilisées ; le bénéfice avant impôts avant correction est de CHF 10 mio ; la direction refuse. Que faut-il conclure ?",
+   "options": [
+    "Non, cela doit être corrigé, car c'est significatif",
+    "Oui, car c'est inférieur au seuil de signification (référence : bénéfice avant impôts)",
+    "Non, cela doit être corrigé, car c'est significatif ET diffus",
+    "Non, car toutes les écritures supplémentaires doivent toujours être passées"
+   ],
+   "correct": 2,
+   "explications": [
+    "Incomplet : l'anomalie est bien significative (15 mio, largement au-dessus de toute matérialité), mais la qualification s'arrête à mi-chemin — elle est aussi diffuse, ce qui fait basculer la réserve vers l'opinion défavorable (mémento §6.1).",
+    "Faux : 15 mio de provisions manquantes pour un bénéfice avant impôts de 10 mio dépassent largement tout seuil de signification fondé sur le bénéfice.",
+    "Juste : la correction ferait passer le bénéfice de 10 mio à une perte — le passage bénéfice→perte est un critère de « diffus » (mémento §6.2). Anomalie significative ET diffuse non corrigée → opinion défavorable (ISA-CH 705).",
+    "Faux : principe trop absolu — les anomalies clairement insignifiantes ne sont pas toutes corrigées ; c'est le caractère significatif (et diffus) qui commande, pas une règle mécanique (mémento §2.1)."
+   ],
+   "piege": "bénéfice→perte = diffus"
+  },
+  {
+   "id": "CRA-043",
+   "champ": "Anomalie · violation de l'exhaustivité",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Gebert AG (contrôle ordinaire) : des dettes de CHF 20 mio n'ont pas été enregistrées ; la direction refuse de corriger. Un rapport non modifié est-il possible ?",
+   "options": [
+    "Non, parce que cela soulève des questions d'intégrité",
+    "Non, parce qu'il y a une violation des principes comptables (exhaustivité)",
+    "Oui, si des écritures complémentaires enregistrant correctement les dettes sont saisies",
+    "Oui, car ces dettes sont incluses dans les engagements conditionnels"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : invoquer l'intégrité (fraude, ISA-CH 240) supposerait des indices d'intention ; un refus de corriger ne suffit pas, à lui seul, à l'établir.",
+    "Juste : des dettes de CHF 20 mio non enregistrées violent le principe d'exhaustivité (art. 958c al. 1 ch. 2 CO) : les comptes sont erronés → anomalie qui, significative et non corrigée, exclut le rapport non modifié (ISA-CH 705 ; mémento §6.1).",
+    "Faux : la condition n'est justement pas remplie — la direction refuse de passer les écritures complémentaires.",
+    "Faux : des dettes existantes et certaines sont des passifs à porter au bilan ; les engagements conditionnels ne visent que des obligations potentielles."
+   ]
+  },
+  {
+   "id": "CRA-044",
+   "champ": "Refus d'accès à la comptabilité = limitation de l'étendue",
+   "memento": "§6.1",
+   "difficulte": 1,
+   "question": "Neo AG (contrôle ordinaire) : la direction refuse l'accès à la comptabilité et demande à l'auditrice de rédiger le rapport et de conclure. Un rapport non modifié est-il possible ?",
+   "options": [
+    "Oui, il s'agit d'une présentation erronée sans importance",
+    "Oui, cela est courant dans la pratique",
+    "Non, cela doit être confirmé par écrit par la direction",
+    "Non, il s'agit d'une limitation de l'étendue de l'audit"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il n'y a pas de présentation erronée constatée — l'auditrice ne peut justement rien vérifier ; et rien ne permet de dire que c'est « sans importance ».",
+    "Faux : refuser l'accès à la comptabilité n'est jamais une pratique admise ; l'audit repose sur le libre accès aux livres et pièces (art. 730b CO).",
+    "Faux : une confirmation écrite de la direction (ISA-CH 580) complète les éléments probants mais ne les remplace jamais ; elle ne lève pas le refus d'accès.",
+    "Juste : l'impossibilité d'obtenir des éléments probants suffisants et appropriés constitue une limitation de l'étendue de l'audit (ISA-CH 705 ; mémento §6.1) → réserve si significative, impossibilité d'exprimer une opinion si l'effet est diffus — jamais un rapport non modifié."
+   ],
+   "piege": "limitation ≠ anomalie"
+  },
+  {
+   "id": "CRA-045",
+   "champ": "Anomalie significative → rapport modifié",
+   "memento": "§6.3",
+   "difficulte": 1,
+   "question": "Yellow AG (contrôle ordinaire) : les comptes de régularisation au passif sont incomplets ; l'écriture complémentaire, significative, entraînerait une perte annuelle importante. La direction refuse. Que faut-il conclure ?",
+   "options": [
+    "Non, car le rapport de gestion n'est pas correct",
+    "Non, des preuves d'audit supplémentaires doivent être fournies",
+    "Non, un rapport d'audit modifié est nécessaire",
+    "Non, car l'annexe n'est pas correcte"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le problème siège dans les comptes annuels (régularisations passives incomplètes), pas dans le rapport de gestion.",
+    "Faux : l'anomalie est établie et chiffrée — ce n'est pas un manque d'éléments probants, donc pas une limitation de l'étendue.",
+    "Juste : une anomalie significative non corrigée impose une modification de l'opinion (ISA-CH 705 ; mémento §6.3 — arbre de l'opinion) ; l'écriture ferait de surcroît basculer le résultat en perte, critère de diffus qui orienterait vers l'opinion défavorable (mémento §6.2).",
+    "Faux : ce sont les comptes de régularisation au passif — donc le bilan lui-même — qui sont incomplets, pas seulement l'annexe."
+   ]
+  },
+  {
+   "id": "CRA-046",
+   "champ": "Types d'opinions en contrôle ordinaire",
+   "memento": "§6.4 · §9.1",
+   "difficulte": 2,
+   "question": "Quel type d'opinion l'organe de révision ne peut-il PAS émettre dans le rapport de contrôle ordinaire ?",
+   "options": [
+    "Opinion sans réserve",
+    "Opinion défavorable",
+    "Opinion avec réserve",
+    "Opinion (assurance) de contrôle négative"
+   ],
+   "correct": 3,
+   "explications": [
+    "Possible en ordinaire : l'opinion sans réserve est l'issue standard (« conformes à la loi et aux statuts » ; mémento §6.4).",
+    "Possible en ordinaire : l'opinion défavorable sanctionne une anomalie significative et diffuse (mémento §6.1).",
+    "Possible en ordinaire : l'opinion avec réserve traite l'anomalie ou la limitation significative mais non diffuse (mémento §6.1).",
+    "Juste (impossible en ordinaire) : l'assurance négative — « rien rencontré laissant penser que les comptes ne sont pas conformes » — est le régime du contrôle RESTREINT (art. 729b CO ; mémento §9.1). Le contrôle ordinaire délivre une assurance raisonnable avec quatre opinions possibles : sans réserve, avec réserve, défavorable, impossibilité d'exprimer une opinion (ISA-CH 705 ; mémento §6.4)."
+   ],
+   "piege": "assurance négative = contrôle restreint"
+  },
+  {
+   "id": "CRA-047",
+   "champ": "Définition de « diffus » (ISA-CH 705, pas 706)",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Quelle proposition sur le terme « diffus » est conforme aux normes ISA-CH ?",
+   "options": [
+    "La définition du terme « diffus » figure dans l'ISA-CH 706.",
+    "Une présentation erronée est diffuse lorsqu'elle ne se limite pas à certains éléments, comptes ou postes des états financiers.",
+    "Le caractère diffus se déduit exclusivement du dépassement chiffré du seuil de matérialité.",
+    "Un élément diffus donne toujours lieu à une opinion défavorable."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la définition de « diffus » (pervasive) figure dans l'ISA-CH 705, qui régit les opinions modifiées — pas dans la 706 (observation/autres points) ; le mémento le souligne expressément (§6.2).",
+    "Juste : est diffuse une incidence non limitée à certains éléments, comptes ou postes, ou qui concerne une partie importante des états financiers, ou fondamentale pour leur compréhension (ISA-CH 705 ; mémento §6.2).",
+    "Faux : le diffus est qualitatif, il ne se réduit pas au dépassement chiffré du seuil — conséquence juridique directe (perte de capital/surendettement, art. 725a/725b CO), passage bénéfice→perte, impossibilité de distribuer le dividende proposé (mémento §6.2).",
+    "Faux : diffus + ANOMALIE → opinion défavorable, mais diffus + LIMITATION → impossibilité d'exprimer une opinion ; « toujours défavorable » confond les deux causes (mémento §6.1)."
+   ],
+   "piege": "diffus : 705, pas 706"
+  },
+  {
+   "id": "CRA-048",
+   "champ": "Critère pertinent pour évaluer l'opinion (test diffus)",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Quel critère l'auditeur prend-il en compte pour évaluer l'opinion d'audit ?",
+   "options": [
+    "Les liquidités du client",
+    "Le montant de la rémunération du conseil d'administration",
+    "La qualification du comité d'audit",
+    "Le total des jours de révision effectués"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : le test « non diffus » suppose des fonds propres suffisants ET des liquidités suffisantes (mémento §6.2) ; les liquidités éclairent en outre la continuité de l'exploitation (ISA-CH 570) et la capacité à distribuer le dividende proposé — autant d'éléments qui pèsent sur l'opinion (ISA-CH 705).",
+    "Faux : la rémunération du CA relève de la gouvernance et de la transparence ; elle n'est pas un critère du test significatif/diffus.",
+    "Faux : la qualification du comité d'audit intéresse le SCI et la gouvernance, pas la qualification de l'anomalie ni le type d'opinion.",
+    "Faux : le nombre de jours de révision est une donnée d'organisation de la mission, pas un critère d'évaluation de l'opinion."
+   ]
+  },
+  {
+   "id": "CRA-049",
+   "champ": "Refus d'information = limitation de l'étendue",
+   "memento": "§6.1",
+   "difficulte": 1,
+   "question": "Hanselmann GmbH (contrôle ordinaire) : la responsable financière refuse de fournir des informations sur le poste (significatif) des participations. Que s'applique-t-il ?",
+   "options": [
+    "Il s'agit d'une présentation erronée",
+    "Il y a violation de l'intégrité",
+    "Il y a une limitation de l'étendue des travaux d'audit",
+    "Il y a violation de la loi"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une présentation erronée supposerait une anomalie constatée dans les comptes ; ici l'auditeur ne peut justement pas vérifier le poste — il ne sait pas si les comptes sont faux.",
+    "Faux : la violation de l'intégrité (fraude, ISA-CH 240) exigerait des indices d'intention qu'un simple refus d'information n'établit pas.",
+    "Juste : le refus de fournir des informations sur un poste significatif empêche d'obtenir des éléments probants suffisants → limitation de l'étendue (ISA-CH 705 ; mémento §6.1) ; selon le caractère diffus, réserve ou impossibilité d'exprimer une opinion.",
+    "Faux : aucune violation légale n'est démontrée à ce stade ; le fait établi est l'impossibilité de vérifier, pas une infraction."
+   ]
+  },
+  {
+   "id": "CRA-050",
+   "champ": "Diffus et significatif (fondamental à la compréhension)",
+   "memento": "§6.2",
+   "difficulte": 3,
+   "question": "Haselbach AG (fortement endettée, contrôle ordinaire) : les dettes portant intérêt ne sont pas ventilées entre court et long terme ; l'information est significative pour la banque prêteuse et importante pour comprendre le modèle d'affaires. La direction refuse de modifier. Que s'applique-t-il ?",
+   "options": [
+    "Cette information est diffuse mais non significative",
+    "Cette information est diffuse et significative",
+    "Cette information n'est pas diffuse, mais elle est significative",
+    "Cette information n'est ni diffuse ni significative"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'information est expressément significative — déterminante pour la banque prêteuse d'une société fortement endettée ; nier le significatif est intenable.",
+    "Juste : significative (décisive pour le principal créancier) ET diffuse, car fondamentale pour la compréhension des comptes et du modèle d'affaires — l'un des critères qualitatifs de « diffus » (ISA-CH 705 ; mémento §6.2).",
+    "Concurrent sérieux mais faux ici : le défaut paraît circonscrit à la présentation des dettes, mais l'énoncé insiste sur son caractère fondamental pour la compréhension — critère qui fait basculer vers « diffus » (mémento §6.2).",
+    "Faux : l'information est à la fois significative et diffuse ; cette option nie les deux qualifications."
+   ],
+   "piege": "fondamental pour la compréhension = diffus"
+  },
+  {
+   "id": "CRA-051",
+   "champ": "Significatif (écriture bénéfice→perte)",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Tetra AG (contrôle ordinaire) : la délimitation d'importantes charges d'intérêts n'a pas été effectuée ; l'écriture complémentaire (nettement supérieure au seuil) transforme un petit bénéfice en perte. Que s'applique-t-il ?",
+   "options": [
+    "Cette information est significative",
+    "L'écriture complémentaire peut être supprimée",
+    "Cette information n'a pas d'influence sur l'opinion",
+    "Cette information n'est pas diffuse"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : l'écriture omise dépasse nettement le seuil de signification → significative (ISA-CH 705 ; mémento §6.2) ; elle ferait de surcroît basculer le bénéfice en perte, ce qui remplit aussi un critère de diffus.",
+    "Faux : la délimitation périodique des charges d'intérêts est requise (art. 958b CO) ; l'écriture doit être passée, pas supprimée.",
+    "Faux : si la direction refuse de corriger, cette anomalie significative modifie l'opinion (réserve, voire défavorable si le caractère diffus est retenu).",
+    "Faux : le passage d'un bénéfice à une perte est précisément l'un des critères de « diffus » (mémento §6.2) — l'information est donc aussi diffuse."
+   ]
+  },
+  {
+   "id": "CRA-052",
+   "champ": "Facteur pouvant influencer l'opinion",
+   "memento": "§4.3 · §6.1",
+   "difficulte": 2,
+   "question": "Quelle information peut être un facteur d'influence sur l'opinion d'audit ?",
+   "options": [
+    "La situation économique globale de l'entreprise",
+    "La qualité des produits",
+    "La qualification de l'encadrement",
+    "La composition du conseil d'administration"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : la situation économique globale peut menacer la continuité de l'exploitation (ISA-CH 570) ; si l'incertitude est mal publiée en annexe ou si la base de continuité est inappropriée, l'opinion est modifiée (mémento §4.3) — c'est donc un facteur susceptible d'influencer l'opinion (ISA-CH 705 ; mémento §6.1).",
+    "Faux : la qualité des produits relève de la performance opérationnelle ; elle n'affecte l'opinion que si elle se traduit par une anomalie comptable (ex. stocks invendables non dépréciés).",
+    "Faux : la qualification de l'encadrement intéresse l'évaluation des risques, pas directement l'opinion sur les comptes.",
+    "Faux : la composition du CA est une question de gouvernance ; elle ne modifie pas, en tant que telle, l'opinion d'audit."
+   ]
+  },
+  {
+   "id": "CRA-053",
+   "champ": "Anomalie ≠ limitation (ce qui ne s'applique pas)",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Verpackung GmbH (contrôle ordinaire) : des dettes fournisseurs ne figurent pas au bilan alors qu'il existe une situation de perte (art. 725 CO) ; des passifs importants manquaient déjà les exercices précédents. Qu'est-ce qui NE s'applique PAS ?",
+   "options": [
+    "Il s'agit d'une présentation erronée",
+    "Il s'agit d'un cas de faux selon le code pénal",
+    "Il s'agit d'une violation du principe d'exhaustivité",
+    "Il y a une limitation de l'étendue des travaux d'audit"
+   ],
+   "correct": 3,
+   "explications": [
+    "S'applique (donc pas la réponse) : des dettes fournisseurs absentes du bilan constituent une présentation erronée — les comptes sont faux.",
+    "S'applique : l'omission répétée de passifs importants, dans un contexte d'art. 725 CO, peut réaliser un faux dans les titres (art. 251 CP), les comptes annuels étant des titres.",
+    "S'applique : l'omission de dettes viole le principe d'exhaustivité (art. 958c al. 1 ch. 2 CO).",
+    "Juste (ce qui NE s'applique PAS) : l'auditeur a pu CONSTATER l'omission — il dispose des éléments probants ; il n'y a donc aucune limitation de l'étendue, mais une anomalie (mémento §6.1 : la limitation est l'impossibilité d'obtenir des éléments probants, pas la découverte d'une erreur)."
+   ],
+   "piege": "anomalie constatée ≠ limitation"
+  },
+  {
+   "id": "CRA-054",
+   "champ": "Significatif et diffus · documentation 450",
+   "memento": "§6.2",
+   "difficulte": 2,
+   "question": "Delta AG (contrôle ordinaire) : stocks invendus de CHF 3 mio sans correction de valeur ; fonds propres CHF 1 mio, produit net CHF 13 mio, bénéfice CHF 0,5 mio ; la direction refuse la correction. Que s'applique-t-il ?",
+   "options": [
+    "Cette information est significative.",
+    "Il suffit de la mentionner dans l'annexe.",
+    "Les stocks ne faisant pas partie de la structure minimale du CO, aucune correction n'est requise.",
+    "Cette information n'est pas diffuse."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : la correction omise (CHF 3 mio) dépasse à la fois les fonds propres (1 mio) et le bénéfice (0,5 mio) : anomalie significative — et même diffuse, car elle épuiserait les fonds propres et renverserait le résultat (conséquence juridique possible, art. 725a/725b CO ; mémento §6.2) → opinion défavorable si rien n'est corrigé (ISA-CH 705).",
+    "Faux : une mention en annexe ne régularise pas une évaluation erronée ; les stocks invendables doivent être dépréciés dans les comptes eux-mêmes (art. 960c CO).",
+    "Faux : l'évaluation correcte des stocks s'impose indépendamment de la structure minimale (art. 960c CO) ; l'argument est un leurre.",
+    "Faux : c'est précisément un cas diffus — l'effet dépasse les fonds propres et fait basculer le résultat (mémento §6.2)."
+   ]
+  },
+  {
+   "id": "CRA-055",
+   "champ": "Caractère diffus (correction → perte) vs énoncé « non significatif »",
+   "memento": "§6.2",
+   "difficulte": 3,
+   "question": "Sun AG (contrôle ordinaire) : une écriture assez importante (reprise de provision liée à d'éventuels produits vis-à-vis de tiers) est passée ; aucune information complémentaire n'est disponible et la direction refuse de corriger. Une correction entraînerait une perte. Que faut-il retenir ?",
+   "options": [
+    "Le fait a un caractère diffus",
+    "L'écriture ne doit pas être clarifiée",
+    "Le fait n'a pas d'importance pour les destinataires du rapport",
+    "L'organe de révision doit exprimer une impossibilité d'exprimer une opinion"
+   ],
+   "correct": 0,
+   "explications": [
+    "Réponse retenue : une correction qui ferait basculer le résultat en perte remplit un critère de « diffus » (mémento §6.2), quelle que soit la qualification donnée par l'énoncé ; l'absence de toute information complémentaire aggrave encore le cas.",
+    "Faux : une écriture inhabituelle (reprise de provision adossée à des produits éventuels envers des tiers) sans justificatif doit impérativement être clarifiée avant de conclure.",
+    "Faux : un effet bénéfice→perte est par nature important pour les destinataires du rapport (banques, actionnaires, fisc).",
+    "Défendable mais non retenu : l'absence totale d'information s'analyse aussi en limitation de l'étendue qui, si elle est diffuse, mène à l'impossibilité d'exprimer une opinion (mémento §6.1) ; l'énoncé étant ambigu, la clé reconstituée privilégie la qualification « diffus » du fait (divergence documentée — divergences.md D.1)."
+   ],
+   "piege": "bénéfice→perte = diffus"
+  },
+  {
+   "id": "CRA-056",
+   "champ": "Anomalie diffuse (bénéfice→perte) → défavorable",
+   "memento": "§6.2 · §6.3",
+   "difficulte": 3,
+   "question": "Susanne Gubler (contrôle ordinaire) constate que la structure minimale du CO n'est pas respectée (provisions LT et CT dans un seul poste, actifs immobilisés en poste collectif). La direction refuse de corriger ; une correction transformerait le bénéfice en perte. Quelle opinion est la plus pertinente ?",
+   "options": [
+    "Impossibilité d'exprimer une opinion",
+    "Opinion avec réserve",
+    "Opinion défavorable",
+    "Opinion d'audit sans réserve"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION diffuse (l'auditeur ne sait pas) ; ici il sait que la présentation est non conforme — c'est une anomalie (mémento §6.1, piège limitation vs anomalie).",
+    "Faux : la réserve conviendrait à une anomalie significative NON diffuse ; le passage du bénéfice à la perte rend l'anomalie diffuse (mémento §6.2).",
+    "Juste : présentation non conforme à la structure minimale (art. 959a CO) = anomalie ; refus de corriger + résultat qui bascule en perte = anomalie significative ET diffuse → opinion défavorable (ISA-CH 705 ; mémento §6.2 · §6.3 — arbre de l'opinion).",
+    "Faux : le texte standard est exclu lorsque la direction refuse de corriger une anomalie significative."
+   ],
+   "piege": "anomalie diffuse → défavorable"
+  },
+  {
+   "id": "CRA-057",
+   "champ": "Litige provisionné et mentionné → observation",
+   "memento": "§7.1",
+   "difficulte": 2,
+   "question": "Huber AG (contrôle ordinaire) est en proie à un litige inhabituel pouvant entraîner d'importantes sorties d'argent. Une provision a été constituée et mentionnée en annexe conformément à la loi. Qu'est-ce qui est approprié ?",
+   "options": [
+    "Opinion défavorable",
+    "Opinion avec réserve",
+    "Mention à intégrer dans les « autres faits »",
+    "Paragraphe d'observation"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les comptes ne sont pas erronés (provision constituée, annexe conforme) ; aucune anomalie ne justifie une opinion défavorable.",
+    "Faux : la réserve suppose une anomalie ou une limitation significative ; ici le litige est correctement traité dans les comptes.",
+    "Faux : le paragraphe « autres points/autres faits » vise des éléments HORS des états financiers (ex. exercice précédent, ISA-CH 710) ; ce litige figure dans les comptes (mémento §7.2 · §7.4).",
+    "Juste : fait correctement présenté dans les états financiers mais essentiel à leur compréhension (litige inhabituel à issue incertaine) → paragraphe d'observation (ISA-CH 706 ; mémento §7.1), sans modification de l'opinion."
+   ],
+   "piege": "observation ≠ réserve"
+  },
+  {
+   "id": "CRA-058",
+   "champ": "Ce qu'un paragraphe d'observation ne peut résoudre",
+   "memento": "§7.1",
+   "difficulte": 3,
+   "question": "Quel fait ne peut en principe PAS être résolu par un paragraphe d'observation ?",
+   "options": [
+    "L'utilisation anticipée d'une norme comptable",
+    "La surévaluation d'une participation",
+    "Un doute sur la continuité de l'exploitation",
+    "Une incertitude en matière de litige"
+   ],
+   "correct": 1,
+   "explications": [
+    "Résoluble par observation : l'application anticipée d'une nouvelle norme, correctement mentionnée dans les comptes, est un exemple typique de paragraphe d'observation (mémento §7.1).",
+    "Juste (non résoluble) : la surévaluation d'une participation rend les comptes ERRONÉS — c'est une anomalie qui exige une modification de l'opinion (réserve/défavorable, ISA-CH 705) ; un paragraphe d'observation ne « répare » jamais une anomalie (mémento §7.1, piège explicite).",
+    "Cas voisin mais signalable : le doute sur la continuité correctement décrit fait l'objet d'une section dédiée « Incertitude significative liée à la continuité » (ISA-CH 570), et non d'une observation ordinaire — il reste toutefois signalé sans modifier l'opinion (mémento §7.1 · §4.3) ; l'intrus le plus net demeure l'anomalie (option B).",
+    "Résoluble par observation : une incertitude de litige correctement provisionnée et mentionnée est l'exemple classique du paragraphe d'observation (ISA-CH 706 ; mémento §7.1)."
+   ],
+   "piege": "anomalie ≠ observation"
+  },
+  {
+   "id": "CRA-059",
+   "champ": "Ce qui peut influencer l'opinion",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Dans quelle situation un fait peut-il influencer l'opinion d'audit ?",
+   "options": [
+    "Limitation insignifiante de l'étendue lors de l'examen d'existence du SCI",
+    "Une infraction aux réglementations environnementales",
+    "Une infraction aux règles comptables",
+    "Une limitation des rapports sur la durabilité"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une limitation INSIGNIFIANTE ne franchit pas le seuil de signification — elle reste sans effet sur l'opinion (mémento §6.3 : en dessous du significatif → texte standard).",
+    "Faux : une infraction environnementale est étrangère à l'établissement des comptes ; elle relève, le cas échéant, des autres obligations de communication (art. 728c CO ; mémento §10.1), pas de l'opinion.",
+    "Juste : une infraction aux règles comptables fausse les états financiers → anomalie susceptible de modifier l'opinion si elle est significative (ISA-CH 705 ; mémento §6.1).",
+    "Faux : les rapports de durabilité relèvent des « autres informations » (ISA-CH 720), que l'opinion d'audit ne couvre pas (mémento §8.2)."
+   ]
+  },
+  {
+   "id": "CRA-060",
+   "champ": "Tableau de flux manquant (cotée) → anomalie",
+   "memento": "§5.4",
+   "difficulte": 3,
+   "question": "Sabrina Stettler est responsable de mandat dans une SA cotée soumise au contrôle ordinaire. En fin d'audit, la direction refuse d'établir un tableau des flux de trésorerie. Qu'est-ce qui s'applique ?",
+   "options": [
+    "Il y a une infraction à la loi (autres obligations).",
+    "La modification de l'opinion d'audit est nécessaire.",
+    "Les comptes annuels sont conformes à la loi.",
+    "Il convient de vérifier avec la direction que ce fait soit divulgué en annexe."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux — c'est le piège : c'est l'absence de RAPPORT DE GESTION qui constitue une violation de la loi traitée en « autres obligations » (art. 961 CO) ; le tableau des flux de trésorerie, lui, est un COMPOSANT obligatoire des comptes d'une société cotée (art. 961 ch. 2 / 961b CO) — son absence est une anomalie des états financiers (mémento §5.4, piège explicite).",
+    "Juste : pour une société cotée en contrôle ordinaire, le tableau des flux de trésorerie fait partie intégrante des comptes annuels ; son absence est une anomalie significative → modification de l'opinion (ISA-CH 705 ; mémento §5.4).",
+    "Faux : sans le tableau des flux exigé par la loi, les comptes annuels ne sont pas conformes.",
+    "Faux : un état financier manquant ne se répare pas par une mention en annexe — il doit être établi."
+   ],
+   "piege": "flux manquant ≠ rapport de gestion"
+  },
+  {
+   "id": "CRA-061",
+   "champ": "Dépréciation nécessaire refusée → opinion modifiée",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Malea Winter (contrôle ordinaire) : la direction refuse de comptabiliser une dépréciation nécessaire et significative sur une participation, malgré des entretiens avec l'organe de révision. Qu'est-ce qui s'applique ?",
+   "options": [
+    "Il y a une infraction à la loi.",
+    "La modification de l'opinion d'audit est nécessaire.",
+    "Les comptes annuels sont conformes à la loi.",
+    "Il convient de vérifier avec la direction que ce fait soit divulgué en annexe."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la surévaluation n'est pas une violation « étrangère » aux comptes à signaler dans les autres obligations de communication — elle est DANS les comptes et passe par l'opinion (mémento §7.4 · §10.1 pour la distinction).",
+    "Juste : une dépréciation nécessaire et significative non comptabilisée laisse la participation surévaluée → anomalie significative (violation du principe de prudence, art. 960 al. 2 / 960a al. 3 CO) → opinion modifiée : réserve, ou défavorable si l'effet devient diffus (ISA-CH 705 ; mémento §6.1).",
+    "Faux : les comptes ne sont pas conformes — l'actif est surévalué.",
+    "Faux : une mention en annexe ne corrige pas une évaluation erronée dans le bilan."
+   ]
+  },
+  {
+   "id": "CRA-062",
+   "champ": "Violations des principes comptables → opinion modifiée",
+   "memento": "§6.1 · §5.4",
+   "difficulte": 2,
+   "question": "Sabrina Vetsch (contrôle ordinaire) constate des infractions importantes aux principes de présentation des comptes ; la direction refuse de corriger. Qu'est-ce qui est le plus juste ?",
+   "options": [
+    "La modification de l'opinion d'audit est nécessaire.",
+    "Il est nécessaire d'intégrer un point clé d'audit dans le rapport.",
+    "Inclure une remarque « violation de la loi » (autres obligations) dans le rapport.",
+    "Adresser le point au CA, pour autant que les principes de comptabilité soient respectés."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : des infractions importantes aux principes d'établissement et de présentation des comptes rendent les états financiers erronés → anomalie non corrigée → modification de l'opinion (ISA-CH 705 ; mémento §6.1).",
+    "Faux : un point clé d'audit (KAM, ISA-CH 701) décrit une zone d'audit délicate d'une société cotée ; il ne corrige ni ne remplace jamais une opinion modifiée (mémento §7.3).",
+    "Faux — piège classique : la mention « violation de la loi » (autres obligations, art. 728c CO) vise les violations ÉTRANGÈRES à l'établissement des comptes ; quand la violation est dans les comptes, elle passe par l'opinion (mémento §5.4 · §10.1).",
+    "Faux : l'option se contredit — les principes de comptabilité ne sont précisément pas respectés ; une simple communication au CA ne suffit pas."
+   ],
+   "piege": "opinion ≠ autres obligations"
+  },
+  {
+   "id": "CRA-063",
+   "champ": "Comptabilisation anticipée / amortissements → anomalies",
+   "memento": "§6.1",
+   "difficulte": 2,
+   "question": "Alex Stauffer (responsable de mandat, Muller SA, contrôle ordinaire) : pour afficher des bénéfices plus élevés, le chiffre d'affaires est comptabilisé de façon anticipée et la durée d'amortissement fortement raccourcie. Les éléments probants sont suffisants. Pourquoi une opinion modifiée peut-elle être rendue ?",
+   "options": [
+    "Estimations non acceptables",
+    "Éléments probants insuffisants",
+    "Anomalies",
+    "Informations incompréhensibles"
+   ],
+   "correct": 2,
+   "explications": [
+    "Trompeur : les durées d'amortissement relèvent certes d'estimations, et une estimation inacceptable EST une anomalie (mémento §16) ; mais la catégorie générique de la grille ISA-CH 705 est « anomalie » — l'option C englobe les deux constats (CA anticipé + amortissements).",
+    "Faux : l'énoncé précise que les éléments probants sont suffisants — il n'y a donc pas de limitation de l'étendue.",
+    "Juste : la comptabilisation anticipée du chiffre d'affaires (violation de la délimitation périodique, art. 958b CO) et le raccourcissement injustifié des durées d'amortissement rendent les comptes erronés → anomalies, cause de modification de l'opinion (ISA-CH 705 ; mémento §6.1).",
+    "Faux : les informations sont compréhensibles — elles sont fausses ; le problème est l'exactitude, pas l'intelligibilité."
+   ]
+  },
+  {
+   "id": "CRA-064",
+   "champ": "Provisions manquantes (bénéfice→perte) → défavorable",
+   "memento": "§6.2",
+   "difficulte": 3,
+   "question": "Petra Huber (Hilber SA, contrôle ordinaire) : provisions manquantes de CHF 15 mio. Les capitaux propres sont de CHF 20 mio et le bénéfice de CHF 13 mio avant prise en compte. La direction et le CA refusent tout ajustement. Quelle opinion choisir ?",
+   "options": [
+    "Impossibilité d'exprimer une opinion",
+    "Opinion avec réserve",
+    "Opinion défavorable",
+    "Opinion sans réserve"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION diffuse ; ici l'auditeur SAIT que les provisions manquent — c'est une anomalie (mémento §6.1).",
+    "Faux : la réserve vaudrait pour une anomalie significative NON diffuse ; or la correction renverse le résultat (13 mio → perte d'environ 2 mio) — critère de diffus (mémento §6.2).",
+    "Juste : provisions manquantes de 15 mio (art. 960e CO) = anomalie ; le bénéfice de 13 mio deviendrait une perte d'environ 2 mio → passage bénéfice→perte = anomalie significative ET diffuse → opinion défavorable, avec recommandation de renvoi (ISA-CH 705 ; mémento §6.2 · §6.4).",
+    "Faux : exclu — la direction et le CA refusent de corriger une anomalie majeure."
+   ],
+   "piege": "bénéfice→perte = diffus"
+  },
+  {
+   "id": "CRA-065",
+   "champ": "Écriture atypique — affirmation la moins applicable",
+   "memento": "§7.1",
+   "difficulte": 3,
+   "question": "Contrôle ordinaire : ratio de liquidité II 80 %, rendement du capital total 2 %. Le client a passé, pour un montant très élevé, l'écriture « Créances résultant de ventes de biens et prestations à Réserves légales issues du bénéfice ». Quelle affirmation est la moins susceptible de s'appliquer au rapport d'audit ?",
+   "options": [
+    "Il convient d'ajouter un paragraphe « autres points ».",
+    "Il faut informer sur la possibilité d'une distribution dissimulée de bénéfices.",
+    "Il convient de faire figurer un paragraphe d'observation.",
+    "Le rapport doit contenir une opinion modifiée du fait d'une anomalie."
+   ],
+   "correct": 2,
+   "explications": [
+    "S'applique potentiellement : un paragraphe « autres points » peut porter des informations utiles à la compréhension de l'audit et sert de véhicule aux autres obligations de communication (mémento §7.2).",
+    "S'applique potentiellement : une écriture qui crédite directement les réserves depuis les créances peut masquer une distribution dissimulée de bénéfices (art. 678 CO), à signaler (mémento §10.1 · §15).",
+    "Juste (la MOINS applicable) : le paragraphe d'observation suppose un fait CORRECTEMENT présenté dans les états financiers (mémento §7.1) ; or cette écriture contourne le compte de résultat — elle est anormale/erronée, donc l'observation ne convient pas. Clé reconstituée sur un énoncé imprécis : divergence documentée (divergences.md D.1).",
+    "S'applique : comptabiliser un produit directement en réserves fausse le résultat → anomalie pouvant imposer une opinion modifiée (ISA-CH 705 ; mémento §6.1)."
+   ],
+   "piege": "observation = fait correctement présenté"
+  },
+  {
+   "id": "CRA-066",
+   "champ": "Litige peu probable → engagement conditionnel + observation",
+   "memento": "§7.1",
+   "difficulte": 3,
+   "question": "Gallus Sàrl (contrôle ordinaire) est impliquée dans un litige important ; les avocats jugent une condamnation très peu probable. Dommages max CHF 14 mio, fonds propres CHF 25 mio. Première plainte le 20 décembre, litige non mentionné au 31 décembre. Quel traitement est correct dans les comptes et le rapport ?",
+   "options": [
+    "Mention comme provision et paragraphe d'observation",
+    "Mention comme provision et opinion avec réserve",
+    "Mention comme engagement conditionnel et paragraphe d'observation",
+    "Mention comme engagement conditionnel et opinion défavorable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une provision suppose une sortie de ressources probable (art. 960e al. 2 CO) ; une condamnation jugée « très peu probable » ne la justifie pas.",
+    "Faux sur les deux volets : pas de provision (condamnation improbable), et pas de réserve — une fois le litige correctement présenté, les comptes ne sont pas erronés.",
+    "Juste : condamnation très peu probable → pas de provision, mais mention de l'engagement conditionnel en annexe (art. 959c al. 2 ch. 10 CO), le litige étant né le 20 décembre, avant la clôture. Correctement mentionné, ce litige à issue incertaine justifie un paragraphe d'observation (ISA-CH 706 ; mémento §7.1). NB : la distinction provision/engagement conditionnel n'est pas détaillée dans le mémento — elle relève du droit comptable général.",
+    "Faux : la mention en engagement conditionnel est correcte, mais l'opinion défavorable est disproportionnée — le fait est correctement présenté et non diffus (dommage max 14 mio < fonds propres 25 mio)."
+   ],
+   "piege": "improbable → pas de provision"
+  },
+  {
+   "id": "CRA-067",
+   "champ": "Significatif non diffus (référence = capitaux propres) → réserve",
+   "memento": "§6.2",
+   "difficulte": 3,
+   "question": "Keller SA (contrôle ordinaire) : avant l'audit, fonds propres CHF 21 mio, bénéfice CHF 1,5 mio. Constatations : a) amortissements non comptabilisés 0,5 mio ; b) dettes trop faibles 0,4 mio ; c) provisions trop faibles 0,7 mio. Le CA refuse toute correction. Impact le plus probable si la valeur de référence pour le caractère significatif est « capitaux propres » ?",
+   "options": [
+    "Opinion défavorable",
+    "Impossibilité d'exprimer une opinion",
+    "Opinion avec réserve",
+    "Recommandation d'approbation conditionnelle en cas d'opinion défavorable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux avec la référence imposée : rapportées aux capitaux propres (21 mio), les anomalies cumulées (1,6 mio ≈ 7,6 %) ne rendent pas les comptes globalement trompeurs — pas de perte de capital, fonds propres largement positifs → pas de caractère diffus, donc pas d'opinion défavorable (mémento §6.2).",
+    "Faux : l'impossibilité d'exprimer une opinion sanctionne une limitation de l'étendue diffuse ; ici les anomalies sont connues et chiffrées (mémento §6.1).",
+    "Juste : cumul des anomalies = 0,5 + 0,4 + 0,7 = 1,6 mio → significatif par rapport aux capitaux propres (21 mio), mais NON diffus (les CP restent nettement positifs) → opinion avec réserve, assortie d'une recommandation d'approbation (ISA-CH 705 ; mémento §6.2 · §6.4). Piège : rapportées au bénéfice (1,5 mio), les mêmes anomalies le renverseraient en perte → diffus → défavorable ; l'énoncé impose la référence « capitaux propres ».",
+    "Faux : l'approbation conditionnelle est réservée aux cas de continuité incertaine à conditions clairement définies ; une opinion défavorable s'accompagne d'une recommandation de renvoi (mémento §6.4)."
+   ],
+   "piege": "référence : CP vs bénéfice"
+  }
+ ]
+}

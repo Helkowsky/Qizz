@@ -1,0 +1,290 @@
+{
+ "module": "M1",
+ "titre": "1. Événements postérieurs (560)",
+ "questions": [
+  {
+   "id": "CRA-001",
+   "champ": "Fait non publiable (perte d'un collaborateur)",
+   "memento": "§3.1",
+   "difficulte": 2,
+   "question": "Almer GmbH (contrôle restreint) déplore, après la date de clôture, le départ d'un collaborateur important du département recherche. Qu'est-ce qui s'applique ?",
+   "options": [
+    "C'est un événement postérieur à la clôture qui doit être publié.",
+    "C'est un événement postérieur à la clôture qui ne doit pas être publié.",
+    "Cet événement est pertinent pour la présentation des comptes (ajustement).",
+    "Une modification des comptes s'impose."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : tout fait postérieur n'est pas publiable — seuls les événements d'importance pour l'appréciation de la situation doivent figurer en annexe (art. 959c al. 2 ch. 13 CO). Le départ d'un collaborateur, même clé, n'atteint pas ce seuil.",
+    "Juste : le départ d'un collaborateur est bien un fait né après la clôture, mais c'est un événement opérationnel sans incidence chiffrable sur l'image fidèle ; il ne fait pas partie des événements postérieurs à publier (art. 959c al. 2 ch. 13 CO ; ISA-CH 560 ; mémento §3.1).",
+    "Faux : un ajustement suppose une situation qui existait DÉJÀ à la date de clôture (créance douteuse, litige pendant) et que le fait postérieur ne fait que confirmer — ici la cause naît après la clôture.",
+    "Faux : aucune valeur au bilan n'est affectée par ce départ ; une modification des comptes n'a donc pas d'objet."
+   ]
+  },
+  {
+   "id": "CRA-002",
+   "champ": "Sinistre postérieur & doute sur la continuité",
+   "memento": "§3.1 · §4.2",
+   "difficulte": 2,
+   "question": "Beta Sàrl (contrôle ordinaire) subit, après la clôture, la destruction par la foudre d'un atelier de production important ; l'assurance ne couvre que 10 % de la perte. Qu'est-ce qui est le plus juste ?",
+   "options": [
+    "Ce n'est pas un événement postérieur, car le 31 décembre n'est pas concerné.",
+    "Aucune indication selon le CO n'est nécessaire.",
+    "Une information est requise selon le CO, mais pas selon les RPC.",
+    "Il peut y avoir un doute sur la continuité de l'exploitation."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est précisément la définition d'un événement postérieur — un fait survenu APRÈS la date de clôture ; la cause née après la clôture impose une mention en annexe (nature + estimation financière).",
+    "Faux : l'art. 959c al. 2 ch. 13 CO oblige à publier les événements postérieurs importants — un sinistre majeur couvert à 10 % seulement en fait partie.",
+    "Faux : les Swiss GAAP RPC (cadre conceptuel pt 28) exigent aussi la publication ; CO et RPC sont ici concordants, il n'y a pas d'écart entre les deux référentiels.",
+    "Juste : la destruction d'un outil de production majeur dont 90 % de la perte reste à charge est un indicateur d'incertitude type « catastrophe non/sous-assurée » (mémento §4.2) : elle peut menacer l'hypothèse de continuité de l'exploitation (ISA-CH 570), au-delà de la simple mention en annexe (ISA-CH 560)."
+   ]
+  },
+  {
+   "id": "CRA-003",
+   "champ": "Rachat postérieur à publier / rôle de l'auditeur",
+   "memento": "§3.1",
+   "difficulte": 2,
+   "question": "Kobolt Sàrl (contrôle ordinaire) rachète un concurrent (financement bancaire), décision prise immédiatement après la clôture. La direction ne veut informer qu'à la prochaine AG (dans un an). Qu'est-ce qui est le plus juste ?",
+   "options": [
+    "C'est un événement postérieur qui doit être publié au sens de l'ISA-CH 560.",
+    "Ce n'est pas un événement postérieur à publier au sens de l'ISA-CH 560.",
+    "L'organe de révision doit approuver l'opération de rachat.",
+    "Il n'est pas nécessaire de vérifier si une modification de l'opinion s'impose."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : le rachat d'un concurrent décidé après la clôture est l'exemple type de l'événement donnant lieu à MENTION en annexe — cause née après la clôture, importance manifeste (financement bancaire) ; il doit être publié dans les comptes (art. 959c al. 2 ch. 13 CO ; ISA-CH 560), la direction ne peut pas différer l'information d'un an jusqu'à la prochaine AG.",
+    "Faux : c'est précisément le cas d'école d'un événement postérieur à mentionner — situation née après la clôture et significative pour le lecteur des comptes.",
+    "Faux : l'organe de révision contrôle et rend compte, il n'APPROUVE jamais les décisions de gestion — le rachat relève de la compétence de la direction / du CA (et de l'AG le cas échéant).",
+    "Faux : l'auditeur doit toujours apprécier l'incidence d'un tel fait sur son opinion ; si la direction refuse la mention requise en annexe, l'opinion peut devoir être modifiée (ISA-CH 705)."
+   ]
+  },
+  {
+   "id": "CRA-004",
+   "champ": "Ce qui N'EST PAS un événement postérieur (perte de client)",
+   "memento": "§3.1 · §4.2",
+   "difficulte": 2,
+   "question": "Survenant après la clôture mais avant la date du rapport d'audit, quel fait n'est PAS qualifié d'événement postérieur à la date de clôture ?",
+   "options": [
+    "La perte d'un client important.",
+    "La destruction d'une machine de production clé.",
+    "La baisse de la production due à une pandémie.",
+    "L'échec d'un appel d'offres pour l'acquisition d'un groupe."
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est la réponse : la perte d'un client important n'est pas traitée comme un événement postérieur au sens de l'ISA-CH 560, mais comme un indice affectant les activités FUTURES — donc un possible doute sur la continuité (ISA-CH 570 ; indicateur opérationnel « perte de clients clés », mémento §4.2). Nuance : le mémento traite expressément la perte d'un client survenue AVANT la clôture (§3.1) ; l'extension au cas post-clôture repose sur la logique 560/570 et va un cran au-delà du mémento.",
+    "Est un événement postérieur type : destruction d'un actif après la clôture → mention en annexe (nature + estimation financière), exemple cité au §3.1 du mémento.",
+    "Est un fait postérieur à apprécier : une chute de production due à un événement externe majeur né après la clôture relève de l'ISA-CH 560 (mention) et, le cas échéant, de 570 (continuité).",
+    "Est un fait postérieur à évaluer : l'issue défavorable d'une opération de croissance engagée est un fait nouveau né après la clôture, à apprécier au titre de l'ISA-CH 560."
+   ],
+   "piege": "Perte de client → continuité (570)"
+  },
+  {
+   "id": "CRA-005",
+   "champ": "Critère d'appréciation = cause/survenance",
+   "memento": "§3.1",
+   "difficulte": 1,
+   "question": "Qu'est-ce qui s'applique aux événements postérieurs à la date de clôture ?",
+   "options": [
+    "Seuls les événements défavorables peuvent être mentionnés.",
+    "Tous les événements antérieurs à la clôture doivent être mentionnés en annexe.",
+    "Selon les RPC, le CA d'une Sàrl doit approuver la publication des événements subséquents.",
+    "Selon les RPC, l'existence d'un événement postérieur s'apprécie en fonction de sa cause / de sa survenance."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les événements favorables comme défavorables se mentionnent — le critère est l'importance du fait pour l'appréciation de la situation, pas son caractère bon ou mauvais.",
+    "Faux : ce sont les faits POSTÉRIEURS à la clôture (et non antérieurs) qui déclenchent la publication en annexe, et seulement s'ils sont d'importance (art. 959c al. 2 ch. 13 CO).",
+    "Faux : une Sàrl est dirigée par ses gérants (gérance), pas par un « conseil d'administration » — la formulation est trompeuse ; aucune « approbation » de la publication par un CA n'est prévue.",
+    "Juste : le critère décisif d'un événement postérieur est sa CAUSE, appréciée selon sa survenance — la situation existait-elle déjà à la clôture (ajustement) ou est-elle née après (mention) ? (mémento §3.1 ; ISA-CH 560 ; RPC cadre conceptuel pt 28)."
+   ]
+  },
+  {
+   "id": "CRA-006",
+   "champ": "Phase 2 (auditeur informé) — action la moins correcte",
+   "memento": "§3.2 · §2.2",
+   "difficulte": 3,
+   "question": "Gähwiler SA (contrôle ordinaire) : rapport daté du 14 mars, opinion sans réserve, envoi prévu le 1er avril. Le 29 mars, une plainte substantielle devient hautement probable (sortie de fonds importante), comptabilisée en passif éventuel et non en provision. L'organe de révision en est informé le 29 mars. Qu'est-ce qui est le MOINS juste ?",
+   "options": [
+    "L'organe de révision doit impérativement inclure ce fait dans la déclaration d'intégralité.",
+    "L'organe de révision doit vérifier si cet événement a une influence.",
+    "L'organe de révision doit discuter de cet événement avec la direction.",
+    "L'organe de révision doit discuter de la nécessité de modifier les états financiers."
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'action la MOINS juste : la déclaration d'intégralité est datée au plus proche de la date du rapport et jamais après elle (déclaration ≤ rapport ≤ publication, mémento §2.2) — ici le 14 mars ; elle ne peut pas être « rouverte » pour y insérer un fait connu le 29 mars, la chronologie l'interdit (ISA-CH 580 ; art. 730b al. 1 CO).",
+    "Action correcte de la phase 2 (entre la date du rapport et la publication, mémento §3.2) : dès qu'un fait vient à sa connaissance, l'auditeur doit en déterminer l'influence (ISA-CH 560).",
+    "Action correcte : en phase d'obligation passive, l'auditeur informé doit discuter du fait avec la direction (ISA-CH 560).",
+    "Action correcte : l'auditeur doit apprécier la nécessité de modifier les comptes — d'autant que le passage d'un passif éventuel à une provision peut s'imposer si la sortie de fonds est hautement probable."
+   ],
+   "piege": "Déclaration jamais après le rapport"
+  },
+  {
+   "id": "CRA-007",
+   "champ": "Phase 2 — fait non porté à connaissance malgré demande",
+   "memento": "§3.2",
+   "difficulte": 3,
+   "question": "Même cas Gähwiler SA. Malgré sa demande, l'organe de révision n'a pas eu connaissance du fait (plainte du 29 mars) avant l'assemblée générale. Qu'est-ce qui s'applique ?",
+   "options": [
+    "L'organe de révision n'a pas à agir.",
+    "L'organe de révision doit vérifier si cet événement a une influence.",
+    "L'organe de révision doit discuter de cet événement avec la direction.",
+    "L'organe de révision doit discuter de la nécessité de modifier les états financiers."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : après la date de son rapport, l'auditeur n'a qu'une obligation PASSIVE — aucune procédure supplémentaire n'est requise (mémento §3.2) ; il ne réagit que si un fait vient effectivement à sa connaissance. Ici, il a demandé l'information (diligence remplie) sans l'obtenir : ne connaissant pas le fait, il ne peut ni ne doit agir (ISA-CH 560).",
+    "Faux ici : déterminer l'influence du fait suppose que l'auditeur en AIT connaissance — c'est l'acte correct de la phase 2 lorsqu'il est informé, sans objet lorsqu'il ignore le fait.",
+    "Faux ici : discuter avec la direction n'a pas d'objet tant que le fait n'est pas venu à la connaissance de l'auditeur.",
+    "Faux ici : apprécier une modification des états financiers présuppose la connaissance du fait — obligation de la phase 2 seulement si l'auditeur est informé."
+   ]
+  },
+  {
+   "id": "CRA-008",
+   "champ": "Phase 3 — comptes modifiés après le rapport, retrait envisagé",
+   "memento": "§3.2",
+   "difficulte": 3,
+   "question": "Même cas Gähwiler SA. Peu avant l'AG, l'organe de révision apprend le fait par le président du CA, qui a aussi modifié le rapport annuel en conséquence. Qu'est-ce qui s'applique ?",
+   "options": [
+    "L'organe de révision ne doit rien entreprendre.",
+    "L'organe de révision doit informer oralement l'AG que ce fait n'est pas présenté.",
+    "L'assemblée générale doit se dérouler normalement.",
+    "L'organe de révision doit envisager de se retirer."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'auditeur doit réagir à une modification des comptes postérieure à son rapport — le schéma normal est : nouvelles procédures d'audit + nouveau rapport avec paragraphe d'observation renvoyant au premier rapport (mémento §3.2).",
+    "Faux : le fait EST désormais présenté — le président du CA a modifié le rapport annuel en conséquence ; l'auditeur ne peut pas affirmer le contraire devant l'AG.",
+    "Faux : l'AG ne peut pas se tenir « normalement » sur des comptes et un rapport annuel modifiés hors du champ de l'audit, couverts par une opinion devenue caduque.",
+    "Réponse la plus défendable : les documents ont été modifiés APRÈS la date du rapport sans que l'auditeur ait pu conduire de nouvelles procédures ni émettre un nouveau rapport ; de plus, une plainte hautement probable avec sortie de fonds importante relèverait d'une provision et non d'un passif éventuel — l'opinion sans réserve du 14 mars n'est plus adaptée. Ne pouvant plus couvrir des documents amendés dans son dos, l'auditeur doit à tout le moins envisager de se retirer (ISA-CH 560 ; 705/706). Le « retrait » n'est pas traité tel quel dans le mémento (§3.2 prévoit : nouvelles procédures + nouveau rapport ; prévenir la gouvernance ; empêcher l'usage par des tiers) — la question va un cran au-delà."
+   ]
+  },
+  {
+   "id": "CRA-009",
+   "champ": "Source d'appréciation appropriée",
+   "memento": "§3.1 · §4.2",
+   "difficulte": 2,
+   "question": "Quelle est la source de données appropriée pour évaluer les événements postérieurs à la date de clôture ?",
+   "options": [
+    "Les budgets.",
+    "Les prévisions de trésorerie.",
+    "La prise de position du conseiller juridique.",
+    "Les Normes suisses d'audit des états financiers (NA-CH)."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les budgets portent sur l'AVENIR estimé ; l'appréciation d'un événement postérieur repose sur la cause/survenance d'un fait déjà réalisé, pas sur des projections — le mémento (§3.1, piège) exclut expressément le budget comme source d'appréciation.",
+    "Faux : même raison — les prévisions de trésorerie sont des données prospectives ; elles servent à l'analyse de la continuité, pas à qualifier un fait postérieur survenu.",
+    "Juste : la prise de position du conseiller juridique (lettre d'avocat) est un élément probant pertinent pour apprécier des faits postérieurs tels que litiges, plaintes et prétentions — cf. « avis des conseillers juridiques » parmi les procédures citées au §4.2 du mémento (ISA-CH 560 ; ISA-CH 501, confirmations juridiques).",
+    "Faux : les NA-CH sont la NORME qui encadre la démarche de l'auditeur, pas une SOURCE de données probantes sur les faits eux-mêmes."
+   ]
+  },
+  {
+   "id": "CRA-010",
+   "champ": "Qualification : variation de change postérieure",
+   "memento": "§3.1",
+   "difficulte": 2,
+   "question": "Quel fait peut être qualifié d'événement postérieur à la date de clôture ?",
+   "options": [
+    "Le lancement d'un nouveau produit au cours de l'exercice précédent.",
+    "Les cessions d'actifs peu avant la date de clôture.",
+    "Des variations significatives des cours de change affectant l'évaluation de l'actif circulant.",
+    "Une forte réduction de l'amortissement des immobilisations corporelles du nouvel exercice."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un lancement survenu durant l'exercice précédent est ANTÉRIEUR à la clôture ; il relève des comptes de l'exercice lui-même, pas des événements postérieurs.",
+    "Faux : des cessions d'actifs « peu avant la clôture » sont également antérieures au 31.12 — ce ne sont pas des faits postérieurs.",
+    "Juste : une variation de change significative née APRÈS le 31.12 est un événement postérieur donnant lieu à mention en annexe (nature + effet estimé) — exemple cité tel quel au §3.1 du mémento (ISA-CH 560 ; art. 959c al. 2 ch. 13 CO).",
+    "Faux : une baisse d'amortissement du nouvel exercice est une évolution ORDINAIRE et attendue de la gestion, pas un événement postérieur à publier (mémento §3.1, piège)."
+   ]
+  },
+  {
+   "id": "CRA-011",
+   "champ": "Obligations de l'auditeur — proposition correcte",
+   "memento": "§3.2",
+   "difficulte": 2,
+   "question": "Quelle proposition concernant les événements postérieurs à la date de clôture de l'exercice est correcte ?",
+   "options": [
+    "Une fois le rapport de l'auditeur signé, l'auditeur n'a plus aucune obligation relative à l'audit.",
+    "Tous les événements survenus au cours de l'exercice écoulé doivent être pris en compte par l'auditeur au titre des événements postérieurs.",
+    "La publication des événements postérieurs à la date de clôture est obligatoire dans le rapport de l'organe de révision.",
+    "Le responsable de l'audit doit, lorsque cela est nécessaire, s'exprimer devant l'assemblée générale sur les événements survenus après la date de clôture."
+   ],
+   "correct": 3,
+   "explications": [
+    "Fausse : après la signature du rapport, l'auditeur conserve une obligation PASSIVE — si un fait vient à sa connaissance, il en détermine l'influence, en discute avec la direction et apprécie une modification des comptes (mémento §3.2).",
+    "Fausse : les événements survenus AU COURS de l'exercice sont saisis par les comptes eux-mêmes ; les événements postérieurs sont, par définition, survenus après la date de clôture (ISA-CH 560).",
+    "Fausse : un événement postérieur correctement traité s'inscrit dans les COMPTES (ajustement ou annexe), pas dans le texte du rapport de révision — sauf nouveau rapport avec paragraphe d'observation si la direction modifie les comptes après coup (mémento §3.2, piège).",
+    "Correcte : en phase 3 (après la publication, avant l'AG), si le CA ne communique pas correctement le fait dans le rapport annuel et/ou à l'AG, le représentant de l'organe de révision attire l'attention de l'AG sur cette omission — spécificité suisse (mémento §3.2) ; le responsable de l'audit peut donc devoir s'exprimer devant l'AG (ISA-CH 560)."
+   ]
+  },
+  {
+   "id": "CRA-012",
+   "champ": "Fait pré-clôture / doute sur la continuité (cas Hilber GmbH)",
+   "memento": "§3.1 · §4.1",
+   "difficulte": 2,
+   "question": "Hilber GmbH (contrôle ordinaire) perd, PEU AVANT la date de clôture de l'exercice, un client important représentant environ 70 % de son chiffre d'affaires annuel. Qu'est-ce qui s'applique ?",
+   "options": [
+    "Il s'agit d'un événement postérieur à la date de clôture, à traiter comme tel.",
+    "L'information doit figurer en annexe sous le titre « Événements antérieurs à la date de clôture ».",
+    "Cette information peut susciter des doutes sur la continuité de l'exploitation, qui doivent alors figurer en annexe.",
+    "Il n'y a aucune information à divulguer dans les comptes annuels."
+   ],
+   "correct": 2,
+   "explications": [
+    "Fausse : le fait survient PEU AVANT le 31.12, il est donc pré-clôture — pas un événement postérieur (ISA-CH 560 a contrario ; mémento §3.1, piège).",
+    "Fausse : il n'existe pas de rubrique « Événements antérieurs à la date de clôture » en annexe — cette catégorie est inventée.",
+    "Correcte : la perte affecte l'exercice lui-même et, vu son ampleur (70 % du CA), peut jeter un doute sur la continuité de l'exploitation, à décrire en annexe (ISA-CH 570 ; art. 958a CO) — l'exemple du client à 70 % du CA figure tel quel au §4.1 du mémento.",
+    "Fausse : une menace de cette ampleur doit au contraire être divulguée dans les comptes annuels."
+   ],
+   "piege": "Fait pré-clôture ≠ événement postérieur"
+  },
+  {
+   "id": "CRA-013",
+   "champ": "Distinguer ce qui n'est PAS un événement postérieur",
+   "memento": "§3.1",
+   "difficulte": 2,
+   "question": "Dans une entreprise soumise au contrôle ordinaire, lequel de ces faits survenant peu APRÈS la date de clôture ne constitue PAS un événement postérieur à publier ?",
+   "options": [
+    "Le décès du directeur général (CEO)",
+    "Le rachat d'un concurrent par le biais d'une augmentation de capital",
+    "Une augmentation des ventes de 2 % par rapport à l'exercice précédent",
+    "La destruction d'un actif immobilisé essentiel"
+   ],
+   "correct": 2,
+   "explications": [
+    "Est un événement postérieur : le décès du CEO est un fait nouveau, né après la clôture, significatif et sans lien avec la situation au 31.12 → mention en annexe (nature + estimation financière) (ISA-CH 560).",
+    "Est un événement postérieur : le rachat d'un concurrent est l'exemple type de la mention en annexe (mémento §3.1), quel qu'en soit le mode de financement (augmentation de capital).",
+    "Correcte : une hausse des ventes de 2 % est une évolution ORDINAIRE et attendue de l'activité, pas un événement postérieur à publier — exemple cité tel quel dans le piège du §3.1 (ISA-CH 560 ; art. 959c al. 2 ch. 13 CO).",
+    "Est un événement postérieur : la destruction d'un actif essentiel après la clôture donne lieu à mention en annexe (exemple du §3.1)."
+   ],
+   "piege": "Évolution ordinaire ≠ événement postérieur"
+  },
+  {
+   "id": "CRA-014",
+   "champ": "Perte d'un client majeur après la date du rapport",
+   "memento": "§3.2",
+   "difficulte": 3,
+   "question": "Stefan Gerber (Zeitler SA, contrôle ordinaire). Clôture 31.12.20X0 ; audit du 15 au 25.1.20X1 ; rapport envoyé au CA le 20.2.20X1 ; AG le 15.4.20X1. Le 30.3.20X1, un client représentant 65 % du chiffre d'affaires met fin à la collaboration ; Gerber est informé le même jour. Que doit-il faire ?",
+   "options": [
+    "Rappeler le rapport d'audit",
+    "Aucune mesure n'est nécessaire",
+    "Examiner l'impact sur les comptes annuels et le rapport d'audit",
+    "Mentionner le fait dans les comptes de l'année suivante"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux à ce stade : le « rappel » du rapport est une mesure ultérieure éventuelle, envisageable seulement s'il s'avère que les comptes ou le rapport doivent être modifiés — pas la première réaction.",
+    "Faux : un client représentant 65 % du CA a un impact potentiel majeur (doute sur la continuité, ISA-CH 570) ; l'inaction n'est pas défendable.",
+    "Juste : le fait survient APRÈS la date du rapport (20.2) mais AVANT l'AG (15.4) → obligation passive (mémento §3.2) : l'auditeur informé doit déterminer l'influence du fait, en discuter avec la direction et apprécier une éventuelle modification des comptes/du rapport — la première mesure est donc l'EXAMEN de l'impact (ISA-CH 560).",
+    "Faux : on ne renvoie pas d'office le traitement à l'exercice suivant sans avoir apprécié l'incidence sur les comptes 20X0 et sur le rapport."
+   ]
+  }
+ ]
+}

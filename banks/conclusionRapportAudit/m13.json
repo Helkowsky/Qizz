@@ -1,0 +1,148 @@
+{
+ "module": "M13",
+ "titre": "13. Estimations comptables (540)",
+ "questions": [
+  {
+   "id": "CRA-206",
+   "champ": "Domaine du SCI relatif aux estimations",
+   "memento": "§16",
+   "difficulte": 2,
+   "question": "Quel domaine n'est PAS mentionné dans les NA-CH comme composante du système de contrôle interne de l'entité en matière d'estimations comptables ?",
+   "options": [
+    "Les systèmes d'information de l'entité",
+    "L'estimation par la direction des résultats futurs des estimations comptables",
+    "Le processus de détermination des estimations comptables",
+    "Les critères d'exigence (compétence) pour la personne qui établit l'estimation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Composante visée : les systèmes d'information de l'entité, en tant qu'ils traitent les données et modèles servant aux estimations (ISA-CH 540.13).",
+    "Exact : « l'estimation par la direction des résultats futurs » est un jugement d'évaluation, pas une composante du système de contrôle interne — le SCI encadre le PROCESSUS d'estimation, il ne fait pas l'estimation elle-même. Détail de l'ISA-CH 540.13 non repris dans le mémento (§16 est la section la plus proche).",
+    "Composante visée : le processus de détermination des estimations comptables (méthodes, données, hypothèses).",
+    "Composante visée : les exigences de compétence applicables aux personnes qui établissent les estimations."
+   ]
+  },
+  {
+   "id": "CRA-207",
+   "champ": "Ce qui n'est pas une estimation comptable",
+   "memento": "§16",
+   "difficulte": 2,
+   "question": "Lequel de ces éléments ne constitue PAS, en principe, une estimation comptable selon l'ISA-CH 540 ?",
+   "options": [
+    "Provision pour pertes de crédit attendues",
+    "Corrections de valeur / amortissements",
+    "Produits tirés de contrats à long terme",
+    "Engagements envers les banques (ou les clients) à montant contractuel fixe"
+   ],
+   "correct": 3,
+   "piege": "montant fixe ≠ estimation",
+   "explications": [
+    "C'est une estimation : la provision pour pertes de crédit attendues repose sur des hypothèses et des probabilités de défaut — incertitude d'évaluation typique.",
+    "Ce sont des estimations : corrections de valeur et amortissements supposent un jugement (durée d'utilité, valeur récupérable).",
+    "C'est une estimation : les produits tirés de contrats à long terme (degré d'avancement) comportent une incertitude d'évaluation et une part de jugement.",
+    "Exact : un engagement à montant contractuel FIXE (dette envers une banque ou un client à valeur déterminée) est une valeur certaine, sans incertitude d'évaluation — ce n'est pas une estimation comptable (ISA-CH 540 ; mémento §16 : « ne constituent pas une estimation : les engagements à montant contractuel fixe »)."
+   ]
+  },
+  {
+   "id": "CRA-208",
+   "champ": "Réponse à une incertitude d'estimation non maîtrisée",
+   "memento": "§16",
+   "difficulte": 3,
+   "question": "Lorsque l'auditeur estime, au vu des éléments probants, que la direction n'a pas pris les moyens appropriés pour comprendre ou traiter l'incertitude d'estimation, il doit...",
+   "options": [
+    "évaluer s'il existe une déficience du contrôle interne",
+    "demander à la direction de mettre en œuvre des procédures supplémentaires",
+    "établir lui-même une estimation ponctuelle ou un intervalle de confiance",
+    "toutes les réponses ci-dessus sont correctes"
+   ],
+   "correct": 3,
+   "explications": [
+    "Réponse admissible, mais incomplète seule : une incertitude d'estimation mal traitée par la direction peut révéler une déficience du contrôle interne, à évaluer et à communiquer.",
+    "Réponse admissible, mais incomplète seule : l'auditeur peut demander à la direction de mettre en œuvre des procédures supplémentaires pour comprendre et traiter l'incertitude.",
+    "Réponse admissible, mais incomplète seule : à défaut, l'auditeur développe sa propre estimation ponctuelle ou une fourchette pour évaluer celle de la direction (mémento §16 : « estimation propre de l'auditeur (ponctuelle ou fourchette) » parmi les approches de test).",
+    "Exact : les trois réponses (évaluer une déficience du SCI, demander des procédures supplémentaires à la direction, établir sa propre estimation ponctuelle ou fourchette) sont toutes prévues par l'ISA-CH 540 face à une incertitude d'estimation insuffisamment traitée (mémento §16)."
+   ]
+  },
+  {
+   "id": "CRA-209",
+   "champ": "Quand tester les contrôles (ISA-CH 330)",
+   "memento": "§16",
+   "difficulte": 3,
+   "question": "Selon l'ISA-CH 330, l'auditeur teste les contrôles lorsque les contrôles de substance ne peuvent, à eux seuls, fournir des éléments probants suffisants. Lequel de ces facteurs ne mène PAS à cette conclusion pour une estimation comptable ?",
+   "options": [
+    "L'estimation se compose de nombreux petits soldes issus d'un grand nombre de transactions",
+    "La grande complexité des modèles",
+    "Les informations sont déclenchées, enregistrées et traitées MANUELLEMENT",
+    "La grande quantité de données traitées"
+   ],
+   "correct": 2,
+   "piege": "manuel ≠ test des contrôles obligatoire",
+   "explications": [
+    "Mène à tester les contrôles : de nombreux petits soldes issus d'un grand volume de transactions rendent les contrôles de substance seuls impraticables.",
+    "Mène à tester les contrôles : la grande complexité des modèles (calculs automatisés) oblige à s'appuyer sur les contrôles applicatifs et le SCI.",
+    "Exact : un traitement MANUEL des informations n'oblige pas à tester les contrôles — les contrôles de substance restent praticables sur des opérations déclenchées et enregistrées manuellement ; c'est au contraire le traitement automatisé à haut volume qui rend la substance seule insuffisante (ISA-CH 330). Critère non détaillé dans le mémento (§16 est la section la plus proche).",
+    "Mène à tester les contrôles : de grandes quantités de données traitées supposent un environnement automatisé où les contrôles de substance seuls ne suffisent pas."
+   ]
+  },
+  {
+   "id": "CRA-210",
+   "champ": "Évaluation séparée du risque",
+   "memento": "§16",
+   "difficulte": 2,
+   "question": "Lors de l'évaluation des RMM au niveau des assertions liées aux estimations, l'ISA-CH 540 requiert également une évaluation distincte du...",
+   "options": [
+    "Risque résiduel",
+    "Risque de contrôle",
+    "Risque d'estimation",
+    "Risque d'audit"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le « risque résiduel » n'est pas une composante que l'ISA-CH 540 demande d'évaluer séparément pour les estimations.",
+    "Exact : pour les estimations comptables, l'ISA-CH 540 exige une évaluation SÉPARÉE du risque inhérent et du risque de CONTRÔLE (mémento §16 : « évaluation séparée du risque inhérent et du risque de contrôle »).",
+    "Faux : le « risque d'estimation » n'existe pas comme composante normée — le distracteur joue sur le vocabulaire du thème.",
+    "Faux : le risque d'audit est le risque global (RMM × risque de non-détection) ; ce n'est pas l'objet de l'évaluation séparée exigée ici."
+   ]
+  },
+  {
+   "id": "CRA-211",
+   "champ": "Poste exigeant un test des contrôles",
+   "memento": "§16",
+   "difficulte": 3,
+   "question": "Pour quel poste du bilan est-il le plus probable que l'auditeur conclue que les contrôles de substance seuls ne suffisent pas au niveau des assertions liées à une estimation comptable ?",
+   "options": [
+    "Provision pour pertes de crédit attendues",
+    "Provision pour risques judiciaires",
+    "Évaluation des instruments financiers (niveau 2)",
+    "Engagement envers les banques"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : une provision pour pertes de crédit attendues repose sur une population volumineuse de contrats traités par les systèmes (modèles, données massives) — les contrôles de substance seuls n'y suffisent pas, il faut tester les contrôles (ISA-CH 330/540). Application concrète non détaillée dans le mémento (§16 est la section la plus proche).",
+    "Faux : une provision pour risques judiciaires porte sur un petit nombre de dossiers, très jugementale — les contrôles de substance (avis des conseillers juridiques, analyse des dossiers) suffisent.",
+    "Faux : l'évaluation d'instruments financiers de niveau 2 se vérifie par ré-exécution à partir de données de marché observables ou avec un expert — la substance reste praticable.",
+    "Faux : un engagement envers les banques à montant contractuel fixe n'est même pas une estimation comptable (mémento §16) — la question du test des contrôles liée à une estimation ne se pose pas."
+   ]
+  },
+  {
+   "id": "CRA-212",
+   "champ": "Facteurs de risque inhérent (540)",
+   "memento": "§16",
+   "difficulte": 2,
+   "question": "L'ISA-CH 540 impose une évaluation séparée du risque inhérent en fonction de facteurs. Lequel de ces facteurs n'est PAS mentionné par la norme ?",
+   "options": [
+    "Autres facteurs de risque inhérents",
+    "Complexité",
+    "Référentiel comptable applicable",
+    "Incertitude liée à l'évaluation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Facteur mentionné : les « autres facteurs de risque inhérents » complètent la liste ouverte de la norme (mémento §16).",
+    "Facteur mentionné : la complexité (des méthodes, des modèles, des données) est l'un des facteurs de risque inhérent (mémento §16).",
+    "Exact : le « référentiel comptable applicable » n'est pas un facteur de risque inhérent au sens de l'ISA-CH 540 — les facteurs sont l'incertitude d'évaluation, la complexité, la subjectivité et les autres facteurs de risque inhérents (mémento §16). Le référentiel est le CADRE qui définit l'estimation exigée, pas un facteur de risque.",
+    "Facteur mentionné : l'incertitude liée à l'évaluation est le facteur central des estimations comptables (mémento §16)."
+   ]
+  }
+ ]
+}

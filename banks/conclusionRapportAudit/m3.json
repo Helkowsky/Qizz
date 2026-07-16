@@ -1,0 +1,327 @@
+{
+ "module": "M3",
+ "titre": "3. Rapport ordinaire (700/728b)",
+ "questions": [
+  {
+   "id": "CRA-023",
+   "champ": "Contenu du rapport à l'AG · recommandation",
+   "memento": "§5.1",
+   "difficulte": 1,
+   "question": "Contrôle ordinaire : quelle obligation de l'organe de révision concerne le rapport à l'assemblée générale (art. 728b CO) ?",
+   "options": [
+    "Soumettre une recommandation d'approbation ou de renvoi des comptes annuels",
+    "Procéder à l'évaluation de la situation financière de la société",
+    "Contrôler les charges de personnel",
+    "Dans des circonstances simples, le rapport peut être présenté oralement à l'AG si tous les actionnaires sont d'accord"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : la recommandation d'approbation ou de renvoi des comptes est un contenu obligatoire du rapport succinct à l'AG (art. 728b al. 2 CO ; mémento §5.1).",
+    "Faux : l'évaluation de la situation financière relève de la gestion (CA/direction), pas du contenu du rapport de l'organe de révision à l'AG.",
+    "Faux : aucune obligation légale n'impose de contrôler spécifiquement les charges de personnel dans le rapport à l'AG.",
+    "Faux : le rapport de révision est obligatoirement ÉCRIT ; la présentation orale et la renonciation sont exclues, même dans des circonstances simples (mémento §5.1, piège)."
+   ]
+  },
+  {
+   "id": "CRA-024",
+   "champ": "Conditions d'une opinion non modifiée",
+   "memento": "§5.4",
+   "difficulte": 3,
+   "question": "L'organe de révision peut délivrer une opinion sans réserve (contrôle ordinaire) lorsque…",
+   "options": [
+    "… le rapport annuel n'a pas pu être vérifié car il n'existait pas au moment de l'établissement du rapport",
+    "… toutes les valeurs estimées, du fait des activités spécifiques de l'entreprise, ne peuvent pas être démontrées",
+    "… il existe des éléments probants, réunis progressivement, suffisants et appropriés, même s'ils ne couvrent pas chaque position des états financiers",
+    "… le tableau des flux de trésorerie, pourtant exigé, n'apparaît pas"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : un rapport annuel/de gestion qui fait défaut alors qu'il est légalement dû est une violation de la loi (art. 961 CO), à traiter dans les « autres obligations » (mémento §5.4, piège) — ce n'est pas une situation compatible avec une opinion sans réserve pure et simple.",
+    "Faux : l'impossibilité de démontrer TOUTES les estimations constitue une limitation de l'étendue des travaux → réserve ou impossibilité selon le caractère diffus (§6.1), pas une opinion sans réserve.",
+    "Juste : l'audit fournit une assurance RAISONNABLE, non absolue ; des éléments probants suffisants et appropriés couvrant les positions significatives permettent une opinion non modifiée, sans qu'il faille des preuves sur chaque poste (ISA-CH 700 ; art. 728a CO ; mémento §5.4, conditions 1-2).",
+    "Faux : l'absence d'un tableau des flux de trésorerie pourtant exigé est une ANOMALIE qui peut modifier l'opinion (mémento §5.4, piège)."
+   ]
+  },
+  {
+   "id": "CRA-025",
+   "champ": "Éléments (titres) du rapport NAS-CH 700",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Quel titre fait partie du rapport d'audit d'une société non cotée en contrôle ordinaire ?",
+   "options": [
+    "Rapport sur d'autres dispositions légales",
+    "La base du rapport d'audit",
+    "L'opinion d'audit et les perspectives pour l'exercice suivant",
+    "Rapport sur les autres obligations légales et réglementaires"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : formulation approximative — le titre exact est « Rapport sur les autres obligations légales et réglementaires », pas « rapport sur d'autres dispositions légales ».",
+    "Faux : l'élément correspondant s'intitule « Fondement de l'opinion », pas « base du rapport d'audit ».",
+    "Faux : l'auditeur n'exprime aucune « perspective pour l'exercice suivant » — le rapport ne contient pas de jugement prospectif.",
+    "Juste : « Rapport sur les autres obligations légales et réglementaires » est un des 13 éléments de la structure NAS-CH 700 (mémento §5.2) ; il regroupe l'attestation du SCI, la conformité de l'emploi du bénéfice, la recommandation et les autres communications (§5.3)."
+   ]
+  },
+  {
+   "id": "CRA-026",
+   "champ": "Recommandation d'approbation (spécificité CH ; ordinaire + restreint)",
+   "memento": "§11",
+   "difficulte": 2,
+   "question": "Quelle proposition concernant la recommandation d'approbation est correcte ?",
+   "options": [
+    "L'assemblée générale est liée par la recommandation de l'organe de révision.",
+    "La recommandation d'approbation émane du conseil d'administration, et non de l'organe de révision.",
+    "Une recommandation d'approbation est requise tant en contrôle ordinaire qu'en contrôle restreint.",
+    "En cas d'opinion défavorable, aucune recommandation de renvoi n'est nécessaire."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la recommandation guide l'AG mais ne la lie pas — l'AG reste libre de sa décision (art. 731 CO ; mémento §11).",
+    "Faux : la recommandation est un contenu du rapport de l'ORGANE DE RÉVISION (art. 728b al. 2 / 729b CO), pas une compétence du CA.",
+    "Juste : la recommandation d'approbation ou de renvoi est requise en contrôle ordinaire (art. 728b al. 2 CO) COMME en contrôle restreint (art. 729b CO) ; c'est une spécificité du droit suisse (mémento §11 et §9.2).",
+    "Faux : une opinion défavorable s'accompagne au contraire d'une recommandation de RENVOI des comptes (mémento §6.4)."
+   ]
+  },
+  {
+   "id": "CRA-027",
+   "champ": "Renvoi non requis si le fait est corrigé",
+   "memento": "§6.4 · §2.1",
+   "difficulte": 2,
+   "question": "L'auditeur n'est pas tenu d'exprimer une recommandation de renvoi si…",
+   "options": [
+    "… la continuité de l'exploitation n'est pas assurée",
+    "… la direction est prête à signer la déclaration d'intégralité",
+    "… le fait a été rectifié entretemps et le défaut corrigé",
+    "… le fait a des conséquences juridiques pour la société"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une continuité non assurée et mal reflétée dans les comptes peut au contraire imposer une opinion modifiée (base de continuité inappropriée → défavorable, §4.3) et donc un renvoi.",
+    "Faux : signer la déclaration d'intégralité (§2.2) ne corrige aucun défaut de fond des comptes — cela ne dispense pas du renvoi si le défaut subsiste.",
+    "Juste : si le défaut a été corrigé (écritures passées et correction vérifiée par l'auditeur, mémento §2.1), les comptes sont conformes → opinion non modifiée et recommandation d'APPROBATION ; aucun renvoi (art. 728b al. 2 CO ; ISA-CH 705 ; §6.4).",
+    "Faux : des conséquences juridiques pour la société ne dispensent pas du renvoi tant que le défaut demeure dans les comptes."
+   ]
+  },
+  {
+   "id": "CRA-028",
+   "champ": "Anomalie immatérielle → recommandation d'approbation",
+   "memento": "§6.4 · §2.1",
+   "difficulte": 2,
+   "question": "Zwellweger AG (contrôle ordinaire) : les amortissements sont légèrement sous-estimés, mais en dessous du seuil de matérialité ; l'impact sur les fonds propres et le bénéfice est marginal. Que s'applique-t-il ?",
+   "options": [
+    "Aucune recommandation n'est nécessaire vu le caractère immatériel de l'anomalie.",
+    "Une recommandation d'approbation doit être donnée.",
+    "Un renvoi des comptes est obligatoire.",
+    "L'organe de révision ne peut ni approuver ni renvoyer les comptes."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la recommandation est un contenu OBLIGATOIRE du rapport à l'AG (art. 728b al. 2 CO) ; elle ne peut jamais être omise, même quand l'anomalie est immatérielle.",
+    "Juste : l'anomalie étant sous le seuil de signification, l'opinion reste non modifiée (mémento §2.1 : une anomalie non significative permet une opinion non modifiée) et la recommandation est nécessairement l'APPROBATION (§6.4 ; art. 728b al. 2 CO ; ISA-CH 450/705).",
+    "Faux : le renvoi accompagne l'opinion défavorable ou l'impossibilité d'exprimer une opinion (§6.4), pas une anomalie non significative.",
+    "Faux : l'organe de révision formule toujours une recommandation — approbation ou renvoi ; il n'existe pas de troisième voie « ni-ni »."
+   ],
+   "piege": "Recommandation jamais omise"
+  },
+  {
+   "id": "CRA-029",
+   "champ": "Emploi du bénéfice · rôle de l'auditeur",
+   "memento": "§5.3",
+   "difficulte": 3,
+   "question": "Quelle assertion est correcte concernant l'emploi du bénéfice et le rapport de l'organe de révision ?",
+   "options": [
+    "Une proposition d'emploi du bénéfice non conforme à la loi/aux statuts entraîne une opinion avec réserve en contrôle ordinaire",
+    "La proposition d'affectation du bénéfice doit être examinée en contrôle restreint",
+    "La recommandation concernant le report du bénéfice à l'exercice suivant ne fait pas partie du rapport à l'assemblée générale",
+    "Une recommandation sur l'emploi du bénéfice fait partie intégrante du rapport au conseil d'administration"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : une proposition d'emploi du bénéfice non conforme est traitée dans le « Rapport sur les autres obligations légales et réglementaires » (art. 728a al. 1 ch. 2 CO ; mémento §5.3) et peut fonder un renvoi de la proposition — elle ne déclenche pas mécaniquement une réserve sur l'opinion relative aux comptes.",
+    "Réputée fausse par le corrigé d'origine (« la vérification de l'emploi du bénéfice n'a pas lieu en contrôle restreint »). Réserve : l'art. 729a al. 1 ch. 2 CO inclut la proposition d'emploi du bénéfice dans l'objet du contrôle restreint ; le mémento (§9.2) ne tranche pas ce point — divergence signalée, la clé de la question reste C.",
+    "Correcte : l'organe de révision VÉRIFIE la conformité de la proposition d'emploi du bénéfice du CA (art. 728a al. 1 ch. 2 CO ; mémento §5.3), mais il n'émet pas lui-même de recommandation sur le report du bénéfice — une telle recommandation ne fait pas partie du contenu du rapport à l'AG (§5.1).",
+    "Faux : l'auditeur ne formule pas de recommandation d'affectation du bénéfice au CA ; le rapport détaillé (art. 728b al. 1 CO) contient des constatations (comptes, SCI, réalisation/résultat), pas des recommandations d'emploi du bénéfice."
+   ]
+  },
+  {
+   "id": "CRA-030",
+   "champ": "Attributions intransmissibles du CA (716a) vs gestion (716b)",
+   "memento": "§11",
+   "difficulte": 2,
+   "question": "Quelle tâche n'est PAS une attribution légalement intransmissible du conseil d'administration d'une SA ?",
+   "options": [
+    "La gestion opérationnelle courante de la société.",
+    "Fixer l'organisation de la société.",
+    "La haute surveillance des personnes chargées de la gestion.",
+    "L'organisation de la comptabilité et du contrôle financier."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : la gestion opérationnelle courante est délégable à une direction (art. 716b CO) — ce n'est donc PAS une attribution intransmissible. À noter : les art. 716a/716b CO ne sont pas traités dans le mémento (question de droit de la SA rattachée au module) ; le §11 est la section la plus proche (rôles des organes).",
+    "Est une attribution intransmissible et inaliénable du CA : fixer l'organisation de la société (art. 716a al. 1 CO).",
+    "Est une attribution intransmissible : la haute surveillance des personnes chargées de la gestion (art. 716a al. 1 CO).",
+    "Est une attribution intransmissible : l'organisation de la comptabilité et du contrôle financier (art. 716a al. 1 CO)."
+   ]
+  },
+  {
+   "id": "CRA-031",
+   "champ": "Anomalie corrigée par la direction → approbation",
+   "memento": "§2.1 · §6.4",
+   "difficulte": 2,
+   "question": "Tick AG (contrôle ordinaire) : des provisions significatives (CHF 3 mio) manquent ; le bénéfice avant écritures est de CHF 1 mio, les fonds propres de CHF 2 mio. La direction est disposée à passer les écritures complémentaires. Que faut-il conclure ?",
+   "options": [
+    "Les comptes ne doivent pas être approuvés",
+    "Les comptes peuvent être accompagnés d'une proposition d'approbation",
+    "Des procédures d'audit supplémentaires sont nécessaires",
+    "L'impossibilité d'exprimer une opinion est indiquée"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une fois les écritures complémentaires passées, l'anomalie est corrigée — il n'y a plus d'obstacle à l'approbation.",
+    "Juste : la direction acceptant de passer les écritures, l'anomalie est corrigée et vérifiée par l'auditeur (mémento §2.1) ; les comptes deviennent conformes → opinion non modifiée et recommandation d'APPROBATION (art. 728b al. 2 CO ; ISA-CH 705 ; §6.4).",
+    "Faux : le constat est déjà établi et chiffré (provisions manquantes de CHF 3 mio) ; il ne manque pas d'éléments probants, il manquait des écritures — aucune procédure additionnelle n'est requise pour trancher.",
+    "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION diffuse de l'étendue des travaux (§6.1), pas une anomalie corrigée."
+   ]
+  },
+  {
+   "id": "CRA-032",
+   "champ": "Double rapport — exercice difficile",
+   "memento": "§5.1",
+   "difficulte": 1,
+   "question": "Schellenberg GmbH est soumise au contrôle ordinaire. Le dernier exercice a été très difficile (pandémie, faillites de clients, départs de collaborateurs clés). Organe de révision : Müller WP AG (responsable Alfred Müller). Qu'est-ce qui est le plus juste ?",
+   "options": [
+    "Il n'y a pas de rapport à rédiger pour l'AG.",
+    "Dans ce cas, le rapport d'audit doit être modifié.",
+    "L'hypothèse de continuité peut être confirmée dans ce cas.",
+    "Un rapport détaillé doit être présenté au conseil d'administration."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le rapport succinct à l'AG est obligatoire en contrôle ordinaire (art. 728b al. 2 CO) ; on n'y renonce pas.",
+    "Faux : des difficultés d'exploitation ne modifient pas automatiquement l'opinion — il faut une anomalie ou une limitation significative (ISA-CH 705 ; mémento §6.1).",
+    "Faux : les faits décrits (pandémie, faillites de clients, départs de cadres clés) sont des indicateurs d'incertitude qui imposent d'EXAMINER la continuité (ISA-CH 570 ; mémento §4.2) — on ne peut pas la « confirmer » d'office.",
+    "Juste : en contrôle ordinaire, l'organe de révision remet TOUJOURS deux rapports : un rapport détaillé au CA (art. 728b al. 1 CO) et un rapport succinct à l'AG (al. 2) — mémento §5.1 ; cette proposition est vraie quelles que soient les circonstances."
+   ]
+  },
+  {
+   "id": "CRA-033",
+   "champ": "Contenu du rapport succinct à l'AG",
+   "memento": "§5.1",
+   "difficulte": 2,
+   "question": "Qu'est-ce qui fait partie d'un rapport succinct à l'assemblée générale (contrôle ordinaire) ?",
+   "options": [
+    "Les informations sur l'indépendance + le résultat de l'audit",
+    "Les informations sur la société d'audit + le résultat de l'audit",
+    "La recommandation d'approbation + les informations sur la société d'audit",
+    "Les informations sur les comptes de l'entreprise + la recommandation d'approbation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : le rapport succinct à l'AG contient le résultat de l'audit, un avis sur ce résultat, les informations sur l'INDÉPENDANCE, la personne responsable et ses compétences, et la recommandation d'approbation ou de renvoi (art. 728b al. 2 CO ; mémento §5.1) — indépendance + résultat sont bien deux contenus effectifs.",
+    "Faux : des « informations sur la société d'audit » détaillées ne figurent pas dans le rapport succinct — c'est la PERSONNE responsable et ses compétences qui y figurent.",
+    "Faux : la recommandation est bien un contenu, mais « informations sur la société d'audit » n'en est pas un — même défaut que l'option B.",
+    "Faux : les « informations sur les comptes » (constatations, déroulement de l'audit) relèvent du rapport DÉTAILLÉ au CA (art. 728b al. 1 CO), pas du succinct — piège classique synthèse ≠ complet (§5.1)."
+   ]
+  },
+  {
+   "id": "CRA-034",
+   "champ": "Conditions d'une opinion sans réserve",
+   "memento": "§5.4",
+   "difficulte": 2,
+   "question": "Ursula Aschwanden (Handels WP AG) rédige le rapport d'un client en contrôle ordinaire et hésite sur la possibilité d'une opinion sans réserve. Quelle condition doit être remplie pour émettre une opinion sans réserve ?",
+   "options": [
+    "Des éléments probants adéquats et suffisants",
+    "Aucune violation de la loi en dehors de l'établissement des comptes annuels",
+    "La correction des erreurs non significatives ou présentations erronées non significatives",
+    "L'obtention d'une garantie sur la continuité de l'exploitation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : l'obtention d'éléments probants suffisants et appropriés est une des conditions cumulatives d'une opinion non modifiée (ISA-CH 700 ; art. 728b CO ; mémento §5.4, condition 2).",
+    "Faux : une violation de la loi étrangère à l'établissement des comptes ne dégrade pas l'opinion sur les comptes — elle est traitée dans les « autres obligations de communication » (art. 728c CO ; mémento §5.3 et §10.1).",
+    "Faux : les anomalies NON significatives n'ont pas à être corrigées pour permettre une opinion sans réserve — il suffit qu'elles restent non significatives, y compris cumulées (mémento §5.4, condition 3 ; §2.1).",
+    "Faux : on n'exige aucune « garantie » de continuité — seulement le caractère approprié de l'hypothèse (ISA-CH 570) ; une incertitude bien décrite en annexe ne modifie même pas l'opinion (§4.3)."
+   ]
+  },
+  {
+   "id": "CRA-035",
+   "champ": "Éléments du texte standard NAS-CH 700",
+   "memento": "§5.2",
+   "difficulte": 2,
+   "question": "Qu'est-ce qui ne fait PAS partie du texte standard du rapport selon la norme ISA-CH / NAS-CH 700 ?",
+   "options": [
+    "L'opinion d'audit",
+    "Les autres informations",
+    "Des indications sur la continuité de l'exploitation",
+    "Des informations sur les membres du conseil d'administration de la société contrôlée"
+   ],
+   "correct": 3,
+   "explications": [
+    "Fait partie du rapport : l'opinion d'audit figure en tête de la structure NAS-CH 700, avant même le fondement (mémento §5.2).",
+    "Fait partie du rapport : la section « Autres informations » (ISA-CH 720) est un élément prévu de la structure (§5.2).",
+    "Fait partie du rapport, le cas échéant : la section « Continuité de l'exploitation » (ISA-CH 570) est prévue lorsqu'elle est applicable (§5.2).",
+    "C'est la réponse : le rapport mentionne les « responsabilités du CA relatives aux comptes », mais AUCUNE information sur les personnes/membres du conseil d'administration de la société contrôlée — cet élément ne figure pas parmi les 13 éléments de la NAS-CH 700 (§5.2)."
+   ]
+  },
+  {
+   "id": "CRA-036",
+   "champ": "Contenu obligatoire du rapport détaillé au CA",
+   "memento": "§5.1",
+   "difficulte": 3,
+   "question": "Alexandra Haug prépare le rapport détaillé au CA (contrôle ordinaire) et hésite sur les sujets légalement obligatoires. Parmi : a) constatations sur l'établissement des comptes ; b) remarques sur l'indépendance ; c) conclusions sur le SCI ; d) réalisation et résultat de l'audit ; e) violations de la loi ; f) remarques sur la continuité. Quels sujets la loi impose-t-elle dans le rapport détaillé au CA ?",
+   "options": [
+    "a, c, e",
+    "a, c, f",
+    "a, c, d",
+    "a, b, f"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux à cause de e) : les violations de la loi sont signalées par la voie de l'avis au CA puis, si nécessaire, à l'AG (art. 728c CO ; mémento §10.1) — ce n'est pas une rubrique obligatoire de l'art. 728b al. 1 CO.",
+    "Faux à cause de f) : la continuité n'est pas une rubrique légale distincte du rapport détaillé au CA (elle est traitée dans l'audit via l'ISA-CH 570 et, le cas échéant, dans le rapport à l'AG).",
+    "Juste : l'art. 728b al. 1 CO impose au rapport détaillé au CA les constatations sur l'établissement des comptes (a), les constatations sur le SCI (c) et la réalisation ET le résultat de l'audit (d) — mémento §5.1.",
+    "Faux à cause de b) : les informations sur l'indépendance figurent dans le rapport SUCCINCT à l'AG (art. 728b al. 2 CO), pas dans la liste obligatoire de l'al. 1."
+   ]
+  },
+  {
+   "id": "CRA-037",
+   "champ": "Approbation des comptes (art. 731 CO)",
+   "memento": "§11",
+   "difficulte": 2,
+   "question": "L'assemblée générale d'une SA soumise à révision approuve les comptes alors que le rapport de l'organe de révision n'a pas été présenté. Quelle est la conséquence ?",
+   "options": [
+    "L'approbation est valable si une majorité qualifiée l'a votée.",
+    "La décision d'approbation des comptes est nulle.",
+    "L'approbation est seulement annulable, dans un délai de deux mois.",
+    "Aucune conséquence : le rapport peut être présenté après coup."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la validité ne dépend pas de la majorité — sans rapport de révision, la décision est nulle quelle que soit la majorité réunie.",
+    "Juste : pour une société soumise à révision, l'AG ne peut approuver les comptes ni statuer sur l'emploi du bénéfice qu'après réception du rapport de révision ; à défaut, la décision est NULLE (art. 731 al. 2 et 3 CO ; mémento §11).",
+    "Faux : l'art. 731 al. 3 CO prévoit la NULLITÉ, pas une simple annulabilité soumise à un délai de deux mois — c'est une confusion avec l'action en annulation des décisions de l'AG.",
+    "Faux : la présentation préalable du rapport est une condition de validité de la décision — elle n'est pas régularisable a posteriori (§11)."
+   ]
+  },
+  {
+   "id": "CRA-038",
+   "champ": "La recommandation ne lie pas l'AG",
+   "memento": "§11",
+   "difficulte": 1,
+   "question": "L'organe de révision recommande le renvoi des comptes (opinion défavorable). Que peut faire l'assemblée générale ?",
+   "options": [
+    "Elle est juridiquement liée et doit renvoyer les comptes.",
+    "Elle reste libre de sa décision : la recommandation ne la lie pas.",
+    "Elle doit convoquer une nouvelle assemblée dans les deux mois.",
+    "Elle perd le droit d'approuver les comptes pour cet exercice."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la recommandation de l'organe de révision guide l'AG mais ne la lie jamais juridiquement (mémento §11 ; art. 728b al. 2 CO).",
+    "Juste : l'AG reste libre de sa décision — la recommandation, même de renvoi sur opinion défavorable, ne la lie pas (mémento §11 ; art. 728b al. 2 / 731 CO).",
+    "Faux : aucun délai de deux mois pour une nouvelle assemblée n'existe ; la seule contrainte temporelle est la tenue de l'AG dans les 6 mois suivant la clôture (art. 699 al. 2 CO ; §11).",
+    "Faux : l'AG conserve son droit d'approuver les comptes ; la seule condition de validité est d'avoir reçu le rapport de révision (art. 731 al. 2 CO ; §11)."
+   ]
+  }
+ ]
+}

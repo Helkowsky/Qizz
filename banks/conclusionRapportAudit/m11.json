@@ -1,0 +1,412 @@
+{
+ "module": "M11",
+ "titre": "11. Fraude (240)",
+ "questions": [
+  {
+   "id": "CRA-180",
+   "champ": "Deux types de fraude",
+   "memento": "§14",
+   "difficulte": 1,
+   "question": "Dans quel cas peut-on parler de présentation d'états financiers mensongers (par opposition au détournement d'actifs) ?",
+   "options": [
+    "Application volontairement incorrecte des principes de présentation des comptes",
+    "S'approprier des recettes (abus de confiance)",
+    "Faire payer par l'entité des biens dont elle n'a pas bénéficié",
+    "Utiliser les actifs de l'entité à des fins personnelles"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la présentation d'états financiers mensongers vise le REPORTING — une manipulation intentionnelle, dont l'application volontairement incorrecte des principes de présentation des comptes est l'exemple type (ISA-CH 240 ; mémento §14, deux types de fraude).",
+    "Faux : s'approprier des recettes est un DÉTOURNEMENT D'ACTIFS (vol/abus de confiance au préjudice de l'entité), le second type de fraude — pas une falsification du reporting.",
+    "Faux : faire payer par l'entité des biens dont elle n'a pas bénéficié est un détournement d'actifs (dépenses fictives), pas une présentation mensongère des états financiers.",
+    "Faux : utiliser les actifs de l'entité à des fins personnelles relève aussi du détournement d'actifs — l'entité est spoliée, mais le reporting n'est pas l'objet premier de la fraude."
+   ]
+  },
+  {
+   "id": "CRA-181",
+   "champ": "Analyse forensique",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant l'utilisation de l'analyse forensique (data analytics) dans le cadre de l'audit est FAUSSE ?",
+   "options": [
+    "Elle permet d'évaluer plus précisément le risque d'anomalies significatives provenant de fraudes",
+    "Elle peut aider à sélectionner les écritures comptables à vérifier",
+    "Elle peut mener une investigation en cas d'indices de fraude",
+    "Elle peut aider à identifier les facteurs de risque de fraude et les risques d'anomalies significatives provenant de fraudes"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'affirmation fausse : l'analyse forensique est un outil d'aiguillage et d'investigation — elle aide à cibler et à identifier, mais ne rend pas l'évaluation du risque « plus précise » au sens d'une mesure : la formulation est une surpromesse. Nuance fine : le mémento §14 résume ses usages par « cibler / évaluer / investiguer » sans ce degré de précision — la distinction porte sur le mot « plus précisément ».",
+    "Affirmation exacte : l'analyse forensique aide à sélectionner les écritures comptables à vérifier (ciblage des écritures présentant des critères à haut risque ; mémento §14).",
+    "Affirmation exacte : en présence d'indices de fraude, l'analyse forensique peut appuyer une investigation (mémento §14).",
+    "Affirmation exacte : elle aide à identifier les facteurs de risque de fraude et les risques d'anomalies significatives provenant de fraudes."
+   ]
+  },
+  {
+   "id": "CRA-182",
+   "champ": "Responsabilités du conseil d'administration",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant les responsabilités du conseil d'administration en matière de fraude est FAUSSE ?",
+   "options": [
+    "La responsabilité première de la prévention et de la détection incombe au conseil d'administration et à la direction",
+    "Le conseil d'administration développe une culture d'honnêteté et de comportement éthique",
+    "Le conseil d'administration doit concevoir le système de contrôle interne de manière à prévenir toute fraude",
+    "Sa surveillance consiste notamment à prendre en considération la possibilité que des contrôles soient contournés"
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation exacte : la responsabilité première de la prévention et de la détection des fraudes incombe à la gouvernance (CA) et à la direction — pas à l'auditeur, qui n'apporte qu'une assurance raisonnable (ISA-CH 240).",
+    "Affirmation exacte : développer une culture d'honnêteté et de comportement éthique fait partie du rôle du conseil d'administration.",
+    "C'est l'affirmation fausse : aucun système de contrôle interne ne peut prévenir TOUTE fraude — le SCI n'offre qu'une assurance raisonnable et reste exposé au contournement par la direction elle-même, risque toujours présent (mémento §14, contournement des contrôles). L'absolu « toute fraude » est le signal d'alerte.",
+    "Affirmation exacte : la surveillance du CA inclut la prise en considération du risque que les contrôles soient contournés."
+   ]
+  },
+  {
+   "id": "CRA-183",
+   "champ": "Constatations de l'ASR sur l'audit des fraudes",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Dans quel domaine l'Autorité fédérale de surveillance en matière de révision (ASR) a-t-elle fait le plus de constatations en relation avec les exigences d'audit relatives aux fraudes ?",
+   "options": [
+    "Réfutation non fondée de la présomption de risque de fraude lors de la comptabilisation du chiffre d'affaires",
+    "Absence ou insuffisance d'éléments d'imprévisibilité",
+    "Testing absent ou insuffisant des écritures comptables",
+    "Demandes d'informations insuffisantes"
+   ],
+   "correct": 2,
+   "explications": [
+    "Grief réel de l'ASR (réfutations non fondées ou non documentées de la présomption sur le chiffre d'affaires), mais moins fréquent que les manquements relatifs aux écritures comptables.",
+    "Grief également relevé (éléments d'imprévisibilité absents ou insuffisants), mais ce n'est pas le domaine le plus fréquent des constatations.",
+    "Exact : le testing absent ou insuffisant des écritures comptables est le domaine où l'ASR a fait le plus de constatations — population testée non exhaustive, écritures à haut risque seulement échantillonnées, alors que le test des écritures de journal est une procédure minimale contre le contournement des contrôles (ISA-CH 240.32 ; mémento §14). Statistique ASR issue du support de cours, non reprise en détail dans le mémento.",
+    "Grief existant (demandes d'informations insuffisantes auprès de la direction et d'autres personnes), mais pas le plus récurrent."
+   ]
+  },
+  {
+   "id": "CRA-184",
+   "champ": "Profil du fraudeur",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant le « Profile of a Fraudster » est CORRECTE ?",
+   "options": [
+    "La plupart des fraudes sont commises par des personnes qui viennent de débuter dans l'entreprise",
+    "La plupart des fraudes sont rendues possibles par la collaboration de deux ou plusieurs personnes",
+    "La plupart des fraudes sont le fait de personnes âgées de 36 à 45 ans",
+    "La plupart des fraudes sont le fait de personnes de niveau collaborateur"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les fraudeurs typiques ont au contraire une LONGUE ancienneté — c'est elle qui procure la confiance de l'entourage et les accès nécessaires pour contourner les contrôles.",
+    "Exact : selon les études « Profile of a Fraudster » (KPMG), la majorité des fraudes reposent sur la collaboration de deux personnes ou plus (collusion) — ce qui explique aussi pourquoi la séparation des fonctions peut être mise en échec. Donnée statistique issue du support de cours ; le mémento §14 n'en reprend pas le détail.",
+    "Faux : la tranche d'âge typique du fraudeur est plus large (environ 36-55 ans) ; « 36 à 45 ans » est trop étroit.",
+    "Faux : les fraudes importantes sont le plus souvent le fait de CADRES ou de membres de la direction, qui disposent de l'autorité et des accès — pas du niveau collaborateur."
+   ]
+  },
+  {
+   "id": "CRA-185",
+   "champ": "Détection des fraudes",
+   "memento": "§14",
+   "difficulte": 1,
+   "question": "Quelle affirmation concernant la détection des fraudes dans la pratique est FAUSSE ?",
+   "options": [
+    "Dans la plupart des cas, les fraudes sont détectées par des whistleblowers ou des contrôles internes",
+    "Il est peu probable que l'organe de révision externe découvre des fraudes",
+    "Si la fraude n'est pas spécifiquement recherchée sur la base d'indices, elle est difficile à détecter",
+    "La détection est plus facile lorsque la direction est impliquée dans la fraude"
+   ],
+   "correct": 3,
+   "piege": "direction impliquée = détection plus dure",
+   "explications": [
+    "Affirmation exacte : la majorité des fraudes sont découvertes grâce à des signalements (whistleblowers) ou par les contrôles internes — rarement par l'audit externe.",
+    "Affirmation exacte : il est statistiquement peu probable que l'organe de révision externe découvre une fraude (limites inhérentes de l'audit face à un acte intentionnel et dissimulé).",
+    "Affirmation exacte : la fraude étant intentionnelle et souvent dissimulée (mémento §14), elle est difficile à détecter sans recherche ciblée sur la base d'indices.",
+    "C'est l'affirmation fausse : l'implication de la direction rend la détection PLUS DIFFICILE, pas plus facile — la direction peut contourner les contrôles, dissimuler des éléments et organiser la collusion (mémento §14, contournement des contrôles)."
+   ]
+  },
+  {
+   "id": "CRA-186",
+   "champ": "Greenwashing / criminalité économique",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Sous quelle forme le greenwashing peut-il typiquement se produire ?",
+   "options": [
+    "Tactiques marketing trompeuses sur la responsabilité sociale des produits d'une entreprise",
+    "Divulgation transparente d'informations sur sa propre consommation d'électricité",
+    "Affirmations non vérifiables de prestataires financiers sur la durabilité de produits financiers",
+    "Soutenir financièrement une fondation environnementale et l'utiliser à des fins de marketing"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux dans ce contexte : des tactiques trompeuses sur la responsabilité SOCIALE relèvent du « bluewashing » (dimension sociale) ; le greenwashing vise spécifiquement les allégations environnementales / de durabilité.",
+    "Faux : une divulgation transparente sur sa propre consommation d'électricité est l'inverse du greenwashing — il n'y a aucune tromperie.",
+    "Exact : le greenwashing typique consiste en des affirmations NON VÉRIFIABLES sur la durabilité — cas emblématique visé par la pratique de la FINMA pour les produits financiers des prestataires. Thème « criminalité économique » du support de cours ; le mémento §14 ne le développe pas.",
+    "Faux : soutenir réellement une fondation environnementale et le faire savoir n'est pas en soi une allégation trompeuse — la tromperie suppose un écart entre la communication et la réalité."
+   ]
+  },
+  {
+   "id": "CRA-187",
+   "champ": "Facteurs de risque = indice",
+   "memento": "§14",
+   "difficulte": 1,
+   "question": "Quelle affirmation concernant les facteurs de risque de fraude est CORRECTE ?",
+   "options": [
+    "Les facteurs de risque entraînent toujours des risques d'anomalies significatives",
+    "Les facteurs de risque constituent un indice de risques d'anomalies significatives",
+    "Les facteurs de risque n'ont aucun lien avec les risques d'anomalies significatives",
+    "Les facteurs de risque sont eux-mêmes des risques d'anomalies significatives"
+   ],
+   "correct": 1,
+   "piege": "facteur = indice, pas risque",
+   "explications": [
+    "Faux : « toujours » est trop fort — un facteur de risque n'entraîne pas automatiquement un risque d'anomalies significatives ; il doit être apprécié dans son contexte.",
+    "Exact : les facteurs de risque de fraude constituent un INDICE de risques d'anomalies significatives — ils signalent un risque possible sans le constituer eux-mêmes (ISA-CH 240 ; mémento §14, piège : « les facteurs de risque ne sont pas eux-mêmes des risques importants : ils en sont un indice »).",
+    "Faux : il existe bien un lien — les facteurs de risque servent précisément à identifier les RMM provenant de fraudes.",
+    "Faux : un facteur de risque n'EST pas lui-même un risque d'anomalies significatives ; il en est le signal, que l'auditeur doit évaluer."
+   ]
+  },
+  {
+   "id": "CRA-188",
+   "champ": "RMM provenant de fraudes",
+   "memento": "§14",
+   "difficulte": 3,
+   "question": "Quelle affirmation concernant les risques d'anomalies significatives (RMM) provenant de fraudes est FAUSSE ?",
+   "options": [
+    "Si un facteur de risque n'a pas conduit à identifier un RMM, il convient de le justifier",
+    "La présomption de RMM sur la comptabilisation des produits doit être documentée si aucun RMM n'est retenu",
+    "Un RMM provenant de fraudes n'est qu'un indice de risque important, à réévaluer selon l'ISA-CH 315 pour savoir s'il en est vraiment un",
+    "En présence d'un RMM provenant de fraudes, il faut toujours prendre connaissance des contrôles pertinents"
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation exacte : si un facteur de risque identifié ne conduit pas à retenir un RMM, ce jugement doit être justifié et documenté.",
+    "Affirmation exacte : la présomption de RMM provenant de fraudes sur la comptabilisation des produits est réfutable, mais sa réfutation doit être documentée (ISA-CH 240.26 ; mémento §14 : « réfutable, mais à documenter »).",
+    "C'est l'affirmation fausse : un RMM provenant de fraudes EST traité d'office comme un risque important (ISA-CH 240.27) — il n'y a pas de réévaluation supplémentaire via l'ISA-CH 315 pour « confirmer » ce statut. L'énoncé transpose à tort aux RMM ce qui vaut pour les FACTEURS de risque, qui, eux, ne sont que des indices (mémento §14).",
+    "Affirmation exacte : pour tout RMM provenant de fraudes, l'auditeur doit prendre connaissance des contrôles pertinents de l'entité."
+   ]
+  },
+  {
+   "id": "CRA-189",
+   "champ": "Démarche générale (overall response)",
+   "memento": "§14",
+   "difficulte": 3,
+   "question": "Qu'est-ce qui ne constitue PAS une démarche générale (réponse au niveau global) face aux risques évalués d'anomalies significatives provenant de fraudes ?",
+   "options": [
+    "Évaluer si un biais introduit par la direction peut être constaté dans les estimations comptables",
+    "Affecter les collaborateurs en tenant compte de la connaissance, de l'expertise et des aptitudes",
+    "Évaluer si le choix et l'application des méthodes comptables trahissent une présentation mensongère",
+    "Introduire un élément d'imprévisibilité dans la nature, le calendrier et l'étendue des procédures"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'examen des biais de la direction dans les estimations comptables est une procédure SPÉCIFIQUE, imposée en réponse au risque de contournement des contrôles — l'une des trois procédures minimales avec le test des écritures de journal et l'analyse des transactions hors cadre normal (ISA-CH 240.32 ; mémento §14) — et non une démarche générale.",
+    "C'est bien une démarche générale (ISA-CH 240.29) : affecter les collaborateurs en fonction de leurs connaissances, de leur expertise et de leurs aptitudes.",
+    "C'est bien une démarche générale : porter un regard critique sur le choix et l'application des méthodes comptables, susceptibles de trahir une présentation mensongère.",
+    "C'est bien une démarche générale : introduire un élément d'imprévisibilité dans la nature, le calendrier et l'étendue des procédures d'audit."
+   ]
+  },
+  {
+   "id": "CRA-190",
+   "champ": "Fiabilité des éléments probants",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Parmi ces possibilités, laquelle ne permet PAS d'obtenir des éléments probants plus fiables au niveau des assertions ?",
+   "options": [
+    "Recours aux confirmations externes",
+    "Observations physiques / inspection",
+    "Demandes d'informations plus détaillées",
+    "Réalisation de procédures analytiques avec plus de précision"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux (elle améliore la fiabilité) : les confirmations externes proviennent de tiers indépendants de l'entité — l'une des sources les plus fiables.",
+    "Faux : l'observation physique et l'inspection fournissent des éléments probants obtenus directement par l'auditeur, donc très fiables.",
+    "Exact : la demande d'informations (inquiry), même plus détaillée, reste l'élément probant le MOINS fiable — source interne à l'entité, non corroborée ; en contexte de fraude, elle doit toujours être corroborée par d'autres procédures (hiérarchie de fiabilité, ISA-CH 500). Hiérarchie non détaillée dans le mémento — §14 est la section la plus proche.",
+    "Faux : des procédures analytiques plus précises (attentes plus fines, données désagrégées) renforcent la valeur probante obtenue."
+   ]
+  },
+  {
+   "id": "CRA-191",
+   "champ": "Contournement des contrôles = toujours risque important",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant le contournement des contrôles par la direction et les procédures à mettre en œuvre est FAUSSE ?",
+   "options": [
+    "Ce risque existe dans chaque organisation mais varie selon les circonstances : il n'entraîne donc pas toujours un risque important",
+    "En réponse : contrôler les écritures, évaluer les biais dans les estimations, apprécier la logique des opérations hors cadre normal",
+    "L'examen rétrospectif des estimations exigé par l'ISA-CH 240 peut être combiné avec l'exigence correspondante de l'ISA-CH 540",
+    "L'absence d'implication du conseil d'administration peut signaler une transaction hors cadre normal"
+   ],
+   "correct": 0,
+   "piege": "présomption jamais réfutable",
+   "explications": [
+    "C'est l'affirmation fausse : le risque de contournement des contrôles par la direction est TOUJOURS un risque important, quelle que soit l'organisation — présomption NON réfutable, contrairement à celle sur les revenus (ISA-CH 240.31-32 ; mémento §14, piège).",
+    "Affirmation exacte : les trois procédures minimales en réponse au contournement sont le test des écritures de journal, l'examen des biais dans les estimations et l'appréciation de la logique économique des opérations hors cadre normal (mémento §14).",
+    "Affirmation exacte : l'examen rétrospectif des estimations (ISA-CH 240) peut être combiné avec l'examen rétrospectif exigé par l'ISA-CH 540.",
+    "Affirmation exacte : l'absence d'implication du conseil d'administration dans une opération importante peut signaler une transaction hors du cadre normal des activités."
+   ]
+  },
+  {
+   "id": "CRA-192",
+   "champ": "Évaluation des éléments probants",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant l'évaluation des éléments probants dans un contexte de fraude est FAUSSE ?",
+   "options": [
+    "Si la direction est impliquée, les éléments probants antérieurs doivent aussi être réévalués",
+    "Toute anomalie doit être évaluée pour déterminer si elle résulte d'une fraude",
+    "Le refus de l'entité de traiter une fraude détectée peut motiver la démission du mandat",
+    "Si la fraude est clairement insignifiante, aucune autre procédure d'audit n'est nécessaire"
+   ],
+   "correct": 3,
+   "explications": [
+    "Affirmation exacte : si la direction est impliquée, la fiabilité de TOUS les éléments probants déjà obtenus (déclarations, documents fournis) doit être reconsidérée.",
+    "Affirmation exacte : toute anomalie identifiée doit être évaluée pour déterminer si elle est l'indice d'une fraude (caractère intentionnel).",
+    "Affirmation exacte : le refus de l'entité de traiter une fraude détectée peut justifier la démission du mandat (ISA-CH 240.38).",
+    "C'est l'affirmation fausse : une FRAUDE n'est jamais « clairement insignifiante » — contrairement à une simple erreur, même un montant minime met en cause l'intégrité de son auteur (voire de la direction) et impose d'en évaluer les implications sur le reste de l'audit, avec un scepticisme renforcé (ISA-CH 240.35 ss ; mémento §14)."
+   ]
+  },
+  {
+   "id": "CRA-193",
+   "champ": "Constatations ASR sur les écritures de journal",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle a été une constatation importante de l'ASR concernant le contrôle des écritures comptables ?",
+   "options": [
+    "Les demandes d'informations sur les activités inappropriées ou inhabituelles n'ont pas été faites",
+    "Les écritures à haut risque ont été contrôlées par échantillonnage au lieu de l'ensemble de la population",
+    "Les écritures ont été vérifiées sur toute la période et pas seulement à la date de clôture",
+    "Trop d'écritures ont été sélectionnées"
+   ],
+   "correct": 1,
+   "piege": "haut risque = population entière",
+   "explications": [
+    "Grief distinct de l'ASR (demandes d'informations insuffisantes), mais il ne porte pas sur le contrôle des écritures comptables visé par la question.",
+    "Exact : l'ASR a constaté que des écritures présentant des critères à haut risque étaient contrôlées par ÉCHANTILLONNAGE, alors qu'elles doivent être testées sur l'ENSEMBLE de la population concernée (ISA-CH 240.32, test des écritures de journal ; mémento §14). Constat ASR issu du support de cours, non détaillé dans le mémento.",
+    "Décrit une BONNE pratique, pas un manquement : les écritures doivent être examinées sur toute la période, pas seulement au bouclement.",
+    "Sélectionner « trop » d'écritures serait un excès de prudence, pas une constatation critique de l'ASR."
+   ]
+  },
+  {
+   "id": "CRA-194",
+   "champ": "Auditions relatives à la fraude",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Outre la direction et d'autres personnes de l'entité, quelle fonction (si elle existe) doit être interrogée séparément selon l'ISA-CH 240 sur la connaissance de fraudes avérées, suspectées ou alléguées ?",
+   "options": [
+    "La fonction d'audit interne",
+    "Le Chief Ethics Officer",
+    "Le personnel du service juridique",
+    "Le chef d'équipe de production"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'ISA-CH 240 impose des demandes d'informations spécifiques et séparées auprès de la fonction d'AUDIT INTERNE, lorsqu'elle existe, sur les fraudes avérées, suspectées ou alléguées (ISA-CH 240.19 ; mémento §14 : « interroger notamment l'audit interne »).",
+    "Interlocuteur possible au titre des « autres personnes de l'entité », mais ce n'est pas la fonction expressément désignée par la norme pour une interrogation séparée.",
+    "Le service juridique peut être interrogé au cas par cas (litiges, allégations), mais la norme ne l'impose pas comme fonction à interroger séparément.",
+    "Le chef d'équipe de production n'est visé par aucune exigence spécifique de la norme."
+   ]
+  },
+  {
+   "id": "CRA-195",
+   "champ": "Réponse spécifique au contournement des contrôles",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Parmi ces réponses d'audit, laquelle traite SPÉCIFIQUEMENT du risque de contournement des contrôles par la direction ?",
+   "options": [
+    "Évaluer les estimations de la direction pour déceler un biais pouvant constituer un RMM provenant de fraudes",
+    "Examiner l'efficacité des contrôles relatifs à la comptabilisation du chiffre d'affaires",
+    "Affecter des personnes expérimentées aux domaines à risque de fraude",
+    "Contrôler un solde de compte inférieur au seuil de signification, normalement non contrôlé"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : l'examen des estimations de la direction pour y déceler un biais est l'une des trois procédures visant SPÉCIFIQUEMENT le contournement des contrôles — avec le test des écritures de journal et l'analyse des opérations hors cadre normal (ISA-CH 240.32 ; mémento §14).",
+    "Faux : tester les contrôles sur la comptabilisation du chiffre d'affaires répond à la présomption de fraude sur les REVENUS, pas au risque de contournement des contrôles.",
+    "Faux : l'affectation de personnes expérimentées est une démarche GÉNÉRALE (ISA-CH 240.29), pas une réponse spécifique au contournement.",
+    "Faux : contrôler un solde habituellement non contrôlé relève de l'élément d'IMPRÉVISIBILITÉ (démarche générale), pas des trois procédures anti-contournement."
+   ]
+  },
+  {
+   "id": "CRA-196",
+   "champ": "Réfutation de la présomption sur le chiffre d'affaires",
+   "memento": "§14",
+   "difficulte": 3,
+   "question": "Client exploitant une salle de concerts : quel flux de revenus est le plus susceptible de justifier la RÉFUTATION de la présomption de risque de fraude sur le chiffre d'affaires ?",
+   "options": [
+    "Vente à emporter (sandwiches/boissons) encaissée en espèces, CA = 3× le seuil de planification",
+    "Vente de billets sur son propre site, uniquement en paiement d'avance (carte/virement), CA = 7× le seuil",
+    "Recettes régulières de sponsors, contrats de 3 ans, CA = 7× le seuil",
+    "Location de la salle à divers utilisateurs (événements, mariages), CA = 4× le seuil"
+   ],
+   "correct": 1,
+   "piege": "matérialité ≠ obstacle à la réfutation",
+   "explications": [
+    "Faux : des ventes encaissées en ESPÈCES constituent un flux à haut risque de fraude (recettes non enregistrées, skimming) — la présomption ne peut pas y être réfutée.",
+    "Exact : billetterie en ligne exclusivement prépayée (carte/virement) — flux simple, automatisé, sans espèces ni créances, entièrement traçable : le risque de manipulation y est faible et la présomption peut être réfutée, en le documentant (ISA-CH 240.26 ; mémento §14 : présomption « réfutable, mais à documenter »). Le volume (7× le seuil) ne s'y oppose pas : la réfutation porte sur la NATURE du risque, pas sur la matérialité.",
+    "Faux : des contrats de sponsoring pluriannuels posent des questions de rattachement des produits aux périodes (cut-off) — un risque de manipulation du chiffre d'affaires subsiste.",
+    "Faux : des locations à des utilisateurs variés forment un flux hétérogène, en partie négocié au cas par cas, moins traçable — la présomption y reste difficile à réfuter."
+   ]
+  },
+  {
+   "id": "CRA-197",
+   "champ": "Contrôle des écritures de journal",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant le contrôle des écritures de journal est CORRECTE ?",
+   "options": [
+    "En raison du faible risque, les écritures automatiques ne doivent pas être contrôlées",
+    "L'auditeur doit acquérir une compréhension de la conception et de la mise en œuvre des contrôles relatifs aux écritures de journal",
+    "Le contrôle des écritures comportant des critères à haut risque peut se faire par échantillonnage",
+    "La population sous-jacente des écritures de journal correspond aux seules écritures de bouclement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les écritures automatiques ne sont pas exemptées — elles peuvent précisément être paramétrées ou manipulées ; la population à considérer les inclut.",
+    "Exact : l'auditeur doit acquérir une compréhension de la conception et de la mise en œuvre des contrôles relatifs aux écritures de journal et au processus d'établissement des comptes (ISA-CH 240.32 ; mémento §14 : le test des écritures de journal est une procédure minimale contre le contournement).",
+    "Faux : les écritures présentant des critères à haut risque doivent être testées de manière EXHAUSTIVE, pas par échantillonnage — grief récurrent de l'ASR.",
+    "Faux : la population des écritures couvre TOUTES les écritures de l'exercice (courantes et automatiques comprises), pas seulement celles de bouclement."
+   ]
+  },
+  {
+   "id": "CRA-198",
+   "champ": "Facteurs de risque ≠ risques importants",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant les facteurs de risque de fraude est ERRONÉE ?",
+   "options": [
+    "Les facteurs de risque de fraude doivent être classés comme risques importants",
+    "Un seul facteur de risque peut suffire à entraîner un RMM provenant de fraudes",
+    "Les facteurs se classent en trois catégories : incitations/pression, opportunités, attitudes/justifications",
+    "Un système de contrôle interne faible peut constituer un facteur de risque de fraude"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'affirmation erronée : un facteur de risque de fraude n'est qu'un INDICE — il ne doit pas être classé automatiquement comme risque important ; c'est le RMM provenant de fraudes qui en résulte qui est traité comme risque important (mémento §14, piège).",
+    "Affirmation exacte : un seul facteur de risque (ex. forte pression sur les résultats) peut suffire à faire naître un RMM provenant de fraudes.",
+    "Affirmation exacte : c'est le triangle de la fraude — incitations/pression, opportunités, attitudes/justifications (mémento §14).",
+    "Affirmation exacte : un SCI faible crée une OPPORTUNITÉ, l'une des trois branches du triangle de la fraude."
+   ]
+  },
+  {
+   "id": "CRA-199",
+   "champ": "Risques important obligatoires ou non",
+   "memento": "§14 / §15 / §16",
+   "difficulte": 3,
+   "question": "Quel état de fait n'entraîne PAS obligatoirement un risque important ?",
+   "options": [
+    "Le contournement des contrôles par la direction",
+    "Les anomalies frauduleuses liées à la comptabilisation du chiffre d'affaires",
+    "Les opérations importantes avec des parties liées hors cadre normal des activités",
+    "Un degré élevé de subjectivité dans l'évaluation des informations financières sous-jacentes"
+   ],
+   "correct": 3,
+   "piege": "subjectivité = facteur, pas automatisme",
+   "explications": [
+    "Entraîne obligatoirement un risque important : le contournement des contrôles par la direction est une présomption NON réfutable (ISA-CH 240 ; mémento §14).",
+    "Traité comme risque important : la présomption de fraude sur la comptabilisation des produits est certes réfutable, mais tant qu'elle n'est pas réfutée (et documentée), le risque est retenu (ISA-CH 240.26 ; mémento §14).",
+    "Entraîne obligatoirement un risque important : les transactions importantes avec des parties liées hors du cadre normal des activités le sont TOUJOURS (ISA-CH 550.18 ; mémento §15).",
+    "Exact : un degré élevé de subjectivité est un FACTEUR de risque inhérent (spectre du risque inhérent, ISA-CH 540/315 ; mémento §16) — il augmente le risque mais n'entraîne pas automatiquement sa qualification en risque important."
+   ]
+  }
+ ]
+}

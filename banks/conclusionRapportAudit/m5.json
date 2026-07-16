@@ -1,0 +1,232 @@
+{
+ "module": "M5",
+ "titre": "5. KAM & autres informations (701/710/720)",
+ "questions": [
+  {
+   "id": "CRA-068",
+   "champ": "Autres informations (720) — le hors-catégorie",
+   "memento": "§8.2",
+   "difficulte": 3,
+   "question": "Qu'est-ce qui n'est PAS qualifié d'« autres informations » (ISA-CH 720) dans le rapport de révision ?",
+   "options": [
+    "Business Review",
+    "Rapport sur la gouvernance d'entreprise",
+    "Rapport sur le développement durable",
+    "Le rapport sur les indicateurs clés de performance (KPI)"
+   ],
+   "correct": 2,
+   "explications": [
+    "Fait partie des « autres informations » : la business review est un élément du rapport annuel hors états financiers audités, que l'auditeur lit sans le certifier (ISA-CH 720 ; mémento §8.2).",
+    "Fait partie des « autres informations » : le rapport sur la gouvernance d'entreprise accompagne les comptes dans le rapport annuel (mémento §8.2).",
+    "Réponse retenue : le rapport sur le développement durable relève, depuis la révision du CO, d'un régime propre (art. 964a ss CO — approbation dédiée et, le cas échéant, vérification propre) ; publié séparément, il sort du périmètre des « autres informations » lues au titre du 720. Attention : le mémento §8.2 cite encore la durabilité parmi les autres informations ; la clé, reconstituée sur la base du régime 964a ss, reste marquée [À VÉRIFIER] (divergences.md D.1).",
+    "Fait partie des « autres informations » : les indicateurs clés de performance (KPI) du rapport annuel sont typiquement des autres informations — cf. le piège du KPI erroné (mémento §8.2)."
+   ]
+  },
+  {
+   "id": "CRA-069",
+   "champ": "Paragraphe « autres points » — énoncé faux",
+   "memento": "§7.2 · §8.1",
+   "difficulte": 3,
+   "question": "Concernant le paragraphe relatif à d'autres points, quelle déclaration n'est PAS correcte selon les normes suisses d'audit ?",
+   "options": [
+    "Il n'y a pas de violation à indiquer pour celles liées à l'établissement des comptes annuels (articles sur la tenue des comptes).",
+    "Le non-respect de la restitution des versements (art. 680 al. 2 CO) est un exemple de paragraphe « autres points » (information sur une violation de la loi).",
+    "Un changement d'auditeur responsable est un exemple de paragraphe « autres points » selon l'ISA-CH 710.",
+    "Le changement de président du conseil d'administration doit être indiqué dans un paragraphe « autres points »."
+   ],
+   "correct": 3,
+   "explications": [
+    "Déclaration correcte (donc pas la réponse) : les violations liées à l'établissement des comptes se traduisent par une anomalie qui passe par l'OPINION, pas par une mention « violation de la loi » séparée (mémento §5.4 · §6.1).",
+    "Déclaration correcte : le remboursement prohibé des versements (art. 680 al. 2 CO) figure parmi les violations de la loi à signaler, véhiculées par le paragraphe « autres points » / autres obligations de communication (mémento §7.2 · §10.1).",
+    "Déclaration correcte : le changement d'auditeur responsable (comme l'audit de la période précédente par un autre auditeur) est un exemple d'« autres points » rattaché à l'ISA-CH 710 (mémento §8.1).",
+    "Juste (déclaration INCORRECTE) : un changement de président du conseil d'administration est un simple fait de gouvernance — il n'entre dans aucun des cas d'« autres points » (chiffres comparatifs 710, type de contrôle, violations de la loi ; mémento §7.2 · §8.1)."
+   ],
+   "piege": "gouvernance ∉ autres points"
+  },
+  {
+   "id": "CRA-070",
+   "champ": "Nature d'un point clé d'audit (701)",
+   "memento": "§7.3",
+   "difficulte": 2,
+   "question": "Quelle exigence est la plus proche de la notion de point clé d'audit selon l'ISA-CH 701 ?",
+   "options": [
+    "Le remplacement d'une opinion d'audit modifiée",
+    "Un changement au sein du conseil d'administration",
+    "Le lissage des résultats",
+    "L'impact d'un événement significatif de l'exercice"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : un KAM ne REMPLACE jamais une opinion modifiée — c'est le piège central de l'ISA-CH 701 (mémento §7.3 · §7.4).",
+    "Faux : un changement au sein du CA est un fait de gouvernance — il ne constitue pas une zone d'audit délicate à décrire en KAM.",
+    "Faux : le lissage des résultats est une manipulation comptable (anomalie, voire fraude ISA-CH 240) — il appelle une correction ou une modification de l'opinion, pas un KAM.",
+    "Juste : les KAM (obligatoires pour les sociétés cotées) proviennent des domaines à risque élevé, à forte appréciation de la direction, ou marqués par un événement significatif de l'exercice (ISA-CH 701 ; mémento §7.3)."
+   ],
+   "piege": "KAM ≠ opinion modifiée"
+  },
+  {
+   "id": "CRA-071",
+   "champ": "KAM ne remplace jamais une opinion défavorable",
+   "memento": "§7.3",
+   "difficulte": 3,
+   "question": "Peter Geisser (Zetta SA, cotée, consolidés Swiss GAAP RPC) : l'auditeur calcule une dépréciation du goodwill (position significative) plus élevée que le client, qui souhaite y renoncer. L'anomalie est significative ET diffuse ; les CP baissent de 4 % et le résultat consolidé deviendrait négatif. Qu'est-ce qui est autorisé ?",
+   "options": [
+    "Expliquer la dépréciation en KAM et renoncer à une opinion avec réserve",
+    "Expliquer la dépréciation en KAM et renoncer à une opinion défavorable",
+    "Expliquer le goodwill en KAM et renoncer à une opinion avec réserve",
+    "Un KAM sur la dépréciation n'est pas nécessaire et ne remplace pas une opinion défavorable"
+   ],
+   "correct": 3,
+   "explications": [
+    "Interdit : utiliser un KAM pour éviter une réserve revient à substituer une description à l'opinion, ce que l'ISA-CH 701 prohibe (mémento §7.3) ; de plus, l'anomalie étant diffuse, même la réserve serait insuffisante.",
+    "Interdit à plus forte raison : l'anomalie significative ET diffuse (résultat consolidé qui bascule en négatif) impose l'opinion DÉFAVORABLE (ISA-CH 705 ; mémento §6.2) ; aucun KAM ne s'y substitue.",
+    "Interdit : reformuler le KAM sur « le goodwill » plutôt que sur la dépréciation ne change rien — aucun KAM ne dispense d'une opinion modifiée justifiée (mémento §7.3).",
+    "Juste : l'anomalie significative et diffuse exige une opinion défavorable ; le KAM ne remplace jamais une opinion modifiée — en cas d'opinion modifiée, le rapport renvoie aux sections dédiées (fondement de l'opinion) plutôt qu'à un KAM (ISA-CH 701/705 ; mémento §7.3 · §7.4)."
+   ],
+   "piege": "KAM ≠ opinion modifiée"
+  },
+  {
+   "id": "CRA-072",
+   "champ": "Contenu d'un KAM — élément manquant",
+   "memento": "§7.3",
+   "difficulte": 2,
+   "question": "Angelika Helfenberger (Glenca SA, consolidés IFRS) propose ce KAM sur les provisions : « Provisions selon les IFRS : elles requièrent des évaluations significatives ; les provisions pour garanties reposent sur des valeurs empiriques (meilleure estimation) ; dans notre approche d'audit, nous avons testé leur comptabilisation. » Que manque-t-il selon les NA-CH ?",
+   "options": [
+    "La référence aux comptes annuels, où le point est présenté",
+    "Le montant des provisions",
+    "La description des risques",
+    "La description des conséquences en cas d'erreur d'estimation"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : un KAM doit contenir un titre, le RENVOI à la présentation du point dans les états financiers, la justification de son choix comme KAM et la description des risques/procédures/observations (ISA-CH 701 ; mémento §7.3) ; la formulation proposée ne renvoie à aucune note des comptes.",
+    "Faux : le montant des provisions n'est pas une mention obligatoire du KAM.",
+    "Faux : les risques sont déjà esquissés (« évaluations significatives », recours à des valeurs empiriques) — c'est l'élément le moins manquant.",
+    "Faux : la description des conséquences d'une erreur d'estimation n'est pas une composante requise d'un KAM."
+   ]
+  },
+  {
+   "id": "CRA-073",
+   "champ": "Thèmes KAM dominants (SMI 2021)",
+   "memento": "§7.3",
+   "difficulte": 2,
+   "question": "Quels sont les trois principaux thèmes des KAM en 2021, dans la pratique suisse, pour les sociétés cotées (SMI) ?",
+   "options": [
+    "Comptabilisation du chiffre d'affaires, stocks de marchandises, goodwill",
+    "Goodwill, comptabilisation du chiffre d'affaires et impôts différés",
+    "Goodwill, instruments financiers, impôts différés",
+    "Instruments financiers, comptabilisation du chiffre d'affaires, stocks de marchandises"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les stocks de marchandises ne figurent pas dans le trio de tête des KAM du SMI — le goodwill et le chiffre d'affaires cités sont justes, mais il manque les impôts différés.",
+    "Réponse retenue : goodwill, comptabilisation du chiffre d'affaires (produits) et impôts différés sont les trois thèmes dominants des KAM 2021 pour les sociétés du SMI. NB : le mémento §7.3 cite « goodwill, impôts, comptabilisation des produits, instruments financiers » sans hiérarchie — le classement précis (trio de tête) provient du support de cours.",
+    "Faux : les instruments financiers sont un thème récurrent mais hors du trio de tête ; la comptabilisation du chiffre d'affaires y figure à leur place.",
+    "Faux : combine deux thèmes secondaires (instruments financiers, stocks de marchandises) et omet le goodwill — thème n° 1 — ainsi que les impôts différés."
+   ]
+  },
+  {
+   "id": "CRA-074",
+   "champ": "Impossibilité → suppression des « autres informations »",
+   "memento": "§8.2",
+   "difficulte": 2,
+   "question": "Que se passe-t-il lorsque l'auditeur indique « Impossibilité d'exprimer une opinion » ?",
+   "options": [
+    "Opinion avec réserve concernant les « autres informations »",
+    "Recommandation d'approbation conditionnelle",
+    "Description des motifs dans le paragraphe « éléments clés de l'audit »",
+    "Suppression du paragraphe « autres informations »"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : il n'existe pas d'« opinion avec réserve » sur les autres informations — l'opinion d'audit ne les couvre pas (ISA-CH 720 ; mémento §8.2).",
+    "Faux : l'impossibilité d'exprimer une opinion s'accompagne d'une recommandation de RENVOI des comptes, pas d'une approbation conditionnelle — celle-ci est réservée aux cas de continuité incertaine à conditions définies (mémento §6.4).",
+    "Faux : les motifs figurent dans la section « fondement de l'impossibilité d'exprimer une opinion » ; les KAM ne servent pas à cela et sont d'ailleurs abandonnés en cas d'impossibilité (ISA-CH 701/705).",
+    "Juste : en cas d'impossibilité d'exprimer une opinion, la section « autres informations » est supprimée du rapport (ISA-CH 720/705 ; mémento §8.2)."
+   ],
+   "piege": "impossibilité → renvoi, pas conditionnelle"
+  },
+  {
+   "id": "CRA-075",
+   "champ": "Exercice précédent (autre auditeur / opinion modifiée levée) → autres points",
+   "memento": "§8.1 · §7.2",
+   "difficulte": 2,
+   "question": "Rebecca Raschle (Geisser SA, contrôle ordinaire) : l'exercice précédent a été audité par une autre société d'audit, avec une opinion modifiée pour doutes sur la continuité. Cette année, la continuité n'est plus menacée. Quelle conséquence pour le rapport d'audit de cette année ?",
+   "options": [
+    "Opinion avec réserve",
+    "Mention dans un paragraphe d'observation",
+    "Mention dans un paragraphe relatif à d'autres points",
+    "Doutes relatifs à la continuité de l'exploitation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : aucune anomalie ni limitation n'affecte l'exercice courant — la continuité est rétablie ; rien ne justifie une réserve.",
+    "Faux : le paragraphe d'observation renvoie à un fait présenté dans les états financiers de l'exercice (mémento §7.1) ; la situation de l'exercice précédent n'en fait pas partie.",
+    "Juste : période précédente auditée par un autre auditeur et/ou ayant reçu une opinion modifiée → paragraphe relatif à d'autres points (ISA-CH 710/706 ; mémento §8.1 · §7.2), sans effet sur l'opinion de l'exercice courant.",
+    "Faux : la continuité n'est plus menacée cette année — pas de section « Incertitude significative liée à la continuité » (ISA-CH 570)."
+   ]
+  },
+  {
+   "id": "CRA-076",
+   "champ": "KPI erroné dans le rapport annuel → communication au CA",
+   "memento": "§8.2",
+   "difficulte": 2,
+   "question": "Sabrina Haller (Alpha SA, contrôle ordinaire) constate que le rapport annuel présente de manière erronée les stocks et les charges de marchandises, données utilisées pour un KPI. Quelle est la PREMIÈRE chose à faire ?",
+   "options": [
+    "Communiquer avec le conseil d'administration",
+    "Remettre une opinion avec réserve",
+    "Limiter les « autres informations » dans le rapport d'audit",
+    "Mettre en évidence l'état de fait (observation)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : un KPI erroné dans le rapport annuel est une anomalie des « autres informations » (ISA-CH 720) ; la première démarche est la communication au conseil d'administration — responsable de ces informations — en vue d'une correction (mémento §8.2, piège explicite sur ce cas des stocks/charges de marchandises).",
+    "Faux : l'opinion d'audit ne couvre pas les autres informations — une erreur de KPI dans le rapport annuel ne justifie pas une réserve sur les comptes (mémento §8.2).",
+    "Faux : signaler l'anomalie dans la section « autres informations » du rapport n'intervient que si elle n'est pas corrigée — ce n'est pas la PREMIÈRE étape.",
+    "Faux : le paragraphe d'observation vise un fait des états financiers eux-mêmes (ISA-CH 706 ; mémento §7.1), pas le rapport annuel."
+   ],
+   "piege": "autres infos ≠ opinion"
+  },
+  {
+   "id": "CRA-077",
+   "champ": "Chiffres comparatifs — autre auditeur (710)",
+   "memento": "§8.1 · §7.2",
+   "difficulte": 2,
+   "question": "Les comptes de l'exercice précédent ont été audités par un AUTRE organe de révision. Comment cela se traduit-il dans le rapport de l'exercice courant ?",
+   "options": [
+    "Par une opinion avec réserve sur les chiffres comparatifs.",
+    "Par un paragraphe relatif à d'autres points (ISA-CH 710).",
+    "Par un paragraphe d'observation.",
+    "Par un point clé de l'audit (KAM)."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les chiffres comparatifs font partie des comptes (mémento §8.1), mais l'audit par un prédécesseur n'est pas une anomalie — aucune réserve n'est justifiée.",
+    "Juste : la période précédente auditée par un autre organe de révision se signale dans un paragraphe relatif à d'autres points (ISA-CH 710/706 ; mémento §8.1 · §7.2), sans modifier l'opinion.",
+    "Faux : le paragraphe d'observation renvoie à un fait correctement présenté DANS les états financiers (mémento §7.1) ; le changement d'auditeur est extérieur aux comptes.",
+    "Faux : les KAM (ISA-CH 701) sont réservés aux sociétés cotées et décrivent des zones d'audit délicates de l'exercice — pas la situation des chiffres comparatifs (mémento §7.3)."
+   ]
+  },
+  {
+   "id": "CRA-078",
+   "champ": "Autres informations (720)",
+   "memento": "§8.2",
+   "difficulte": 2,
+   "question": "Concernant les « autres informations » du rapport annuel (rapport de gestion, gouvernance, durabilité) au sens de l'ISA-CH 720, quelle affirmation est correcte ?",
+   "options": [
+    "L'opinion d'audit couvre et certifie ces autres informations.",
+    "L'auditeur les lit pour détecter une incohérence significative avec les comptes ; il ne les certifie pas.",
+    "Une incohérence entraîne toujours une opinion défavorable sur les comptes.",
+    "Elles relèvent de la responsabilité de l'organe de révision."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'opinion d'audit ne couvre PAS les autres informations — l'auditeur ne les certifie jamais (ISA-CH 720 ; mémento §8.2).",
+    "Juste : l'auditeur lit les autres informations pour détecter une incohérence significative avec les comptes ou avec sa connaissance de l'entité ; si une anomalie n'est pas corrigée, il la signale (section « autres informations » / communication au CA), mais il ne certifie rien (ISA-CH 720 ; mémento §8.2).",
+    "Faux : une incohérence déclenche d'abord une communication au CA, puis un signalement dans le rapport si elle n'est pas corrigée — pas automatiquement une opinion défavorable sur les comptes (mémento §8.2).",
+    "Faux : les autres informations relèvent de la responsabilité du conseil d'administration, pas de l'organe de révision (mémento §8.2)."
+   ],
+   "piege": "lire ≠ certifier"
+  }
+ ]
+}

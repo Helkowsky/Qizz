@@ -1,0 +1,583 @@
+{
+ "module": "M7",
+ "titre": "7. Continuité (570)",
+ "questions": [
+  {
+   "id": "CRA-084",
+   "champ": "Continuité conditionnée à une augmentation de capital",
+   "memento": "§4.3 / §6.4",
+   "difficulte": 3,
+   "question": "La continuité n'est plus assurée pour les douze prochains mois et dépend uniquement d'une augmentation de capital. Quelle variante est appropriée pour le rapport d'audit ?",
+   "options": [
+    "Recommandation de renvoi en cas d'opinion sans réserve",
+    "Recommandation de renvoi en cas d'opinion avec réserve",
+    "Recommandation d'approbation conditionnelle en cas d'opinion défavorable",
+    "Recommandation d'approbation en cas d'opinion défavorable"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : appariement incohérent — une opinion sans réserve s'accompagne d'une recommandation d'APPROBATION, jamais d'un renvoi (mémento §6.4, tableau des formulations).",
+    "Faux : même incohérence — l'opinion avec réserve s'accompagne elle aussi d'une recommandation d'approbation ; seules l'opinion défavorable et l'impossibilité entraînent le renvoi (mémento §6.4, piège « réserve → approbation »).",
+    "Exact : c'est la seule variante qui porte l'APPROBATION CONDITIONNELLE, réservée précisément aux cas de continuité incertaine subordonnée à des conditions clairement définies — ici l'augmentation de capital (ISA-CH 570 ; mémento §6.4). L'appariement avec « opinion défavorable » reste bancal dans l'énoncé : la notion réellement testée est l'approbation conditionnelle (question signalée en divergence).",
+    "Faux : « approbation » simple combinée à une « opinion défavorable » est contradictoire — l'opinion défavorable entraîne la recommandation de RENVOI (mémento §6.4)."
+   ],
+   "piege": "réserve → approbation, pas renvoi"
+  },
+  {
+   "id": "CRA-085",
+   "champ": "Continuité menacée, aucune publication → défavorable",
+   "memento": "§4.3",
+   "difficulte": 3,
+   "question": "Heinzer Sàrl (contrôle ordinaire) : la continuité n'est pas assurée (liquidités insuffisantes). Le CA demande une opinion sans réserve pour éviter la résiliation des crédits et ne publiera RIEN dans l'annexe sur la continuité. Quelles conséquences pour le rapport ?",
+   "options": [
+    "Paragraphe d'observation",
+    "Opinion avec réserve",
+    "Opinion défavorable",
+    "Impossibilité d'exprimer une opinion"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le paragraphe d'observation renvoie à un fait correctement présenté dans les comptes (mémento §7.1) ; il ne peut pas couvrir une information sur la continuité totalement absente de l'annexe.",
+    "Faux : la réserve sanctionne une description INSUFFISANTE mais existante de l'incertitude ; ici le CA refuse de publier quoi que ce soit (mémento §4.3, 2e cas).",
+    "Exact : incertitude significative sur la continuité (ISA-CH 570) et information TOTALEMENT ABSENTE de l'annexe → opinion DÉFAVORABLE. Le mémento distingue précisément « annexe insuffisante → réserve » de « information totalement absente → défavorable » (mémento §4.3).",
+    "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION de l'étendue (l'auditeur ne peut pas conclure) ; ici l'auditeur SAIT que l'information manque — c'est une anomalie de présentation, pas une limitation (mémento §6.1, piège)."
+   ],
+   "piege": "annexe absente → défavorable"
+  },
+  {
+   "id": "CRA-086",
+   "champ": "Évaluation — rôles",
+   "memento": "§4.1",
+   "difficulte": 1,
+   "question": "Quelle affirmation est exacte concernant l'évaluation de la continuité de l'exploitation ?",
+   "options": [
+    "La direction n'a pas besoin d'évaluer sa capacité à poursuivre l'exploitation ; cette tâche incombe à l'auditeur.",
+    "S'il est évident que la société sera dissoute dans les trois à cinq prochaines années, il faut utiliser des valeurs de liquidation dès la prochaine clôture.",
+    "En l'absence de perte de capital ou de surendettement, la poursuite de l'exploitation est confirmée.",
+    "La direction a l'obligation légale de vérifier la continuité de l'exploitation lors de l'établissement des comptes annuels."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : c'est exactement l'inverse des rôles — la DIRECTION évalue la capacité à poursuivre, l'auditeur remet cette évaluation en question sans s'y substituer (mémento §4.1, tableau des rôles).",
+    "Faux : l'horizon légal est de 12 mois — les valeurs de liquidation s'imposent si la cessation est envisagée ou inévitable dans les 12 mois (art. 958a al. 2 CO) ; une dissolution attendue à 3-5 ans n'impose pas des valeurs de liquidation dès la prochaine clôture (mémento §4.1).",
+    "Faux : l'absence de perte de capital ou de surendettement ne dispense PAS d'apprécier la continuité — ex. la perte d'un client représentant 70 % du CA menace la continuité sans toucher les fonds propres (mémento §4.1, piège).",
+    "Exact : la continuité est un principe de présentation des comptes (art. 958a al. 1 CO) — la direction doit apprécier à chaque bouclement la capacité à poursuivre l'exploitation et choisir la base d'évaluation (mémento §4.1)."
+   ],
+   "piege": "pas de 725a/b ≠ continuité acquise"
+  },
+  {
+   "id": "CRA-087",
+   "champ": "Devoirs de la direction",
+   "memento": "§4.1 / §10.3",
+   "difficulte": 2,
+   "question": "Laquelle des affirmations suivantes n'est PAS un devoir incombant à la direction ?",
+   "options": [
+    "Documenter en détail son évaluation de la continuité de l'exploitation.",
+    "Établir les comptes en valeurs de liquidation lorsque la continuité n'est assurée que pour une durée inférieure à un an.",
+    "Aviser le juge dès que des valeurs de liquidation deviennent nécessaires.",
+    "Informer l'auditeur sans restriction en matière de continuité et de son évaluation."
+   ],
+   "correct": 2,
+   "explications": [
+    "Pas la bonne réponse : documenter son évaluation est bien un devoir — la direction fournit une évaluation DOCUMENTÉE de la capacité à poursuivre sur au moins 12 mois (mémento §4.1, tableau des rôles).",
+    "Pas la bonne réponse : c'est bien un devoir — si la cessation est envisagée ou inévitable dans les 12 mois, les comptes sont dressés aux valeurs de liquidation, avec provisions pour charges de cessation (art. 958a al. 2 CO ; mémento §4.1).",
+    "Exact (ce n'est PAS un devoir tel que formulé) : l'avis au juge n'est pas déclenché par le simple recours aux valeurs de liquidation, mais par le SURENDETTEMENT constaté dans les comptes intermédiaires, sans postposition ni assainissement à 90 jours (art. 725b al. 3 CO) — lier mécaniquement « valeurs de liquidation » et « avis au juge » est la confusion exploitée (mémento §10.3).",
+    "Pas la bonne réponse : c'est bien un devoir — la direction doit informer l'organe de révision sans restriction ; une rétention d'informations constituerait une limitation de l'étendue (mémento §4.1 ; cf. §4.3, 4e cas)."
+   ],
+   "piege": "valeurs de liquidation ≠ avis au juge"
+  },
+  {
+   "id": "CRA-088",
+   "champ": "Obligations de l'auditeur",
+   "memento": "§4.1",
+   "difficulte": 1,
+   "question": "Quelle affirmation est exacte concernant l'évaluation de la continuité par l'auditeur ?",
+   "options": [
+    "L'auditeur n'évalue la continuité que si celle-ci est déjà critique.",
+    "Lorsque le CA évalue la continuité différemment de l'auditeur, l'évaluation du CA prime.",
+    "L'auditeur doit mettre en place et documenter ses procédures d'évaluation de la continuité.",
+    "Les procédures d'audit de la continuité diffèrent peu d'un mandat à l'autre."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la continuité s'apprécie dans TOUS les mandats, pas seulement quand elle est déjà critique — l'auditeur obtient des éléments probants sur le caractère approprié de l'hypothèse à chaque audit (ISA-CH 570 ; mémento §4.1).",
+    "Faux : aucune évaluation ne « prime » d'office — l'auditeur doit précisément remettre en question l'évaluation de la direction : « il ne doit pas en savoir plus que la direction, mais doit questionner son évaluation » (mémento §4.1, tableau des rôles).",
+    "Exact : l'auditeur met en place des procédures d'évaluation de la continuité et les DOCUMENTE, dans tous les mandats (ISA-CH 570 ; mémento §4.1, tableau des rôles : « documenter ses procédures »).",
+    "Faux : les procédures varient fortement selon la situation — pour une société saine un budget suffit, pour une société en difficulté il faut plans de trésorerie, covenants, PV, comptes intermédiaires (mémento §4.1 et §4.2)."
+   ]
+  },
+  {
+   "id": "CRA-089",
+   "champ": "Refus d'évaluer de la direction",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Que se passe-t-il si la direction refuse d'évaluer la continuité de l'exploitation ?",
+   "options": [
+    "L'auditeur procède à sa propre évaluation et fonde son opinion sur celle-ci.",
+    "Le rapport de l'auditeur est modifié.",
+    "L'auditeur se retire du mandat.",
+    "L'auditeur n'a d'autre choix que d'aviser le juge."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'auditeur ne fait pas l'évaluation à la place de la direction — il ne doit pas en savoir plus qu'elle, il questionne son évaluation (mémento §4.1, tableau des rôles et piège).",
+    "Exact : le mémento le dit expressément — « si la direction refuse d'évaluer la continuité, l'auditeur ne fait pas l'évaluation à sa place : le rapport est MODIFIÉ » (mémento §4.1, piège ; ISA-CH 570).",
+    "Faux : la démission n'est pas la réponse imposée par la norme ; l'auditeur traite le refus comme une limitation et en tire les conséquences dans son rapport (mémento §4.1 ; cf. §6.1 pour la mécanique limitation → réserve/impossibilité).",
+    "Faux : l'avis au juge relève du SURENDETTEMENT (art. 725b al. 3 CO), pas d'un refus d'évaluer la continuité (mémento §10.3)."
+   ],
+   "piege": "l'auditeur ne se substitue pas"
+  },
+  {
+   "id": "CRA-090",
+   "champ": "Indicateurs de doute",
+   "memento": "§4.2",
+   "difficulte": 2,
+   "question": "Quel état de fait n'est PAS révélateur d'un doute sur la continuité de l'exploitation ?",
+   "options": [
+    "Selon la banque, le crédit d'investissement en blanc n'est plus renouvelé sauf garanties.",
+    "L'actif circulant net est négatif et il n'y a pas de limite de crédit supplémentaire.",
+    "Chute plus importante des ventes due à l'arrivée d'un nouveau concurrent.",
+    "La société détient plus d'actions propres que ce qui est autorisé (violation de la loi)."
+   ],
+   "correct": 3,
+   "explications": [
+    "Pas la bonne réponse : le non-renouvellement d'un crédit en blanc sauf garanties est un indicateur FINANCIER typique — prêts échus non renouvelés, retrait du soutien des créanciers (mémento §4.2).",
+    "Pas la bonne réponse : un actif circulant net négatif sans limite de crédit supplémentaire est l'indicateur financier classique du doute sur la continuité (mémento §4.2).",
+    "Pas la bonne réponse : la chute des ventes due à un concurrent agressif est un indicateur OPÉRATIONNEL cité par le mémento (mémento §4.2).",
+    "Exact : la détention excessive d'actions propres est une violation légale, mais elle ne menace pas en soi la capacité à poursuivre l'exploitation — ce n'est pas un indicateur de doute au sens de l'ISA-CH 570 (les « violations d'exigences de fonds propres » listées en indicateurs « autres » visent la substance financière, mémento §4.2) ; une violation de la loi relève des autres obligations de communication (mémento §10.1)."
+   ],
+   "piege": "violation légale ≠ doute continuité"
+  },
+  {
+   "id": "CRA-091",
+   "champ": "Sources d'indicateurs",
+   "memento": "§4.2",
+   "difficulte": 1,
+   "question": "Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "Des indicateurs de continuité peuvent être trouvés dans les procès-verbaux du Conseil d'administration.",
+    "L'analyse des comptes annuels suffit à apprécier la continuité.",
+    "Les modifications législatives ne peuvent pas mettre en péril la continuité, car elles concernent toutes les entreprises de la même manière.",
+    "La volonté de poursuivre l'exploitation n'est pas pertinente tant que la poursuite est financièrement et juridiquement possible."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : les indicateurs opérationnels (intention de liquider, perte de cadres, de clients ou de licences clés…) ne figurent normalement pas dans les états financiers — on les trouve dans les PV du CA ou la matrice des risques (mémento §4.2).",
+    "Faux : l'analyse des seuls comptes annuels ne suffit pas — les procédures s'étendent aux cash-flows et liquidités prévisionnels, comptes intermédiaires, covenants, PV, avis des conseillers juridiques (mémento §4.2).",
+    "Faux : les changements réglementaires figurent parmi les indicateurs « autres » du mémento — une modification législative peut parfaitement menacer une entreprise donnée, même si elle s'applique à toutes (mémento §4.2).",
+    "Faux : la volonté de poursuivre EST pertinente — l'« intention de liquider » est précisément un indicateur opérationnel (mémento §4.2) ; dans les cas peu clairs, elle devient même l'élément décisif (précision du cours, au-delà du mémento)."
+   ]
+  },
+  {
+   "id": "CRA-092",
+   "champ": "Procédures sans incidence",
+   "memento": "§4.2",
+   "difficulte": 2,
+   "question": "Parmi ces procédures d'audit, laquelle n'a aucune influence sur l'évaluation de la continuité ?",
+   "options": [
+    "Audit des événements postérieurs à la date du bilan.",
+    "Analyse et audition relatives aux derniers comptes intermédiaires.",
+    "Vérifier si le bénéfice a été réparti conformément à la décision de l'Assemblée générale.",
+    "Analyse et discussion du budget."
+   ],
+   "correct": 2,
+   "explications": [
+    "Pas la bonne réponse : l'audit des événements postérieurs nourrit l'appréciation de la continuité — un fait postérieur peut révéler une menace sur le going concern (mémento §3.2, connexion avec §4).",
+    "Pas la bonne réponse : l'analyse des derniers comptes intermédiaires fait partie des procédures complémentaires en cas de doute (mémento §4.2).",
+    "Exact : contrôler que le bénéfice a été réparti conformément à la décision de l'AG porte sur l'EMPLOI du bénéfice passé (conformité — art. 728a al. 1 ch. 2 CO, mémento §5.3) ; cela n'apporte rien sur la capacité FUTURE à poursuivre l'exploitation (mémento §4.2, a contrario).",
+    "Pas la bonne réponse : l'analyse et la discussion du budget (cash-flows et liquidités prévisionnels) sont au cœur des procédures de continuité (mémento §4.2)."
+   ]
+  },
+  {
+   "id": "CRA-093",
+   "champ": "Procédures — problème de liquidités",
+   "memento": "§4.2",
+   "difficulte": 3,
+   "question": "Une société connaît des problèmes de liquidités. Parmi les procédures suivantes, laquelle est la MOINS importante pour l'évaluation de la continuité ?",
+   "options": [
+    "Examen et discussion de la planification des flux de trésorerie, y compris les liquidités actuelles.",
+    "Analyse et discussion des derniers comptes intermédiaires.",
+    "Applicabilité des contrats de collecte de fonds.",
+    "Examen critique des conditions régissant les engagements financiers (covenants)."
+   ],
+   "correct": 1,
+   "explications": [
+    "Pas la bonne réponse : la planification des flux de trésorerie, y compris les liquidités actuelles, est LA procédure centrale face à une crise de liquidité — prospective par nature (mémento §4.2, procédures complémentaires).",
+    "Exact (la moins importante) : l'analyse des derniers comptes intermédiaires est la plus rétrospective des quatre — utile, notamment pour détecter un surendettement (mémento §10.3), mais moins déterminante que les procédures prospectives pour projeter la solvabilité (mémento §4.2). Question de degré : le choix entre cette option et les contrats de collecte de fonds est serré (question signalée en divergence).",
+    "Pas la réponse retenue : la disponibilité effective des financements conditionne directement la survie — procédure prospective importante ; ce distracteur reste le second choix défendable de cette question de degré (mémento §4.2).",
+    "Pas la bonne réponse : l'examen des covenants est essentiel — leur violation peut rendre les dettes immédiatement exigibles et précipiter l'insolvabilité (mémento §4.2, indicateurs financiers : violation de covenants)."
+   ]
+  },
+  {
+   "id": "CRA-094",
+   "champ": "Entreprises en difficulté — budgets",
+   "memento": "§4.2 / §14",
+   "difficulte": 1,
+   "question": "Parmi les affirmations suivantes sur les entreprises en difficulté, laquelle n'est PAS correcte ?",
+   "options": [
+    "Le risque de fraude est plus élevé pour les sociétés en difficulté.",
+    "Le risque est plus élevé pour les organes, y compris l'organe de révision.",
+    "Lors de l'établissement des budgets, les entreprises en difficulté peuvent planifier avec un optimisme sain.",
+    "Lors de l'établissement des budgets, les entreprises en difficulté doivent faire preuve de prudence (pessimisme)."
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation correcte (donc pas la réponse) : le risque de fraude est plus élevé en situation de difficulté — l'incitation/pression est l'un des trois côtés du triangle de la fraude (ISA-CH 240 ; mémento §14).",
+    "Affirmation correcte (donc pas la réponse) : le risque augmente aussi pour les organes, y compris l'organe de révision — cf. sa responsabilité si l'avis au juge est omis ou si une postposition se révèle invalide (mémento §10.4, piège).",
+    "Exact (affirmation NON correcte) : une entreprise en difficulté ne peut pas budgéter avec « un optimisme sain » — la prudence impose des hypothèses prudentes, voire pessimistes, pour évaluer la continuité. Règle issue du cours : le mémento ne traite pas expressément la prudence des budgets (procédures budgétaires : §4.2).",
+    "Affirmation correcte (donc pas la réponse) : miroir exact de l'option précédente — les budgets des entreprises en difficulté s'établissent avec prudence (pessimisme) (cours ; procédures : mémento §4.2)."
+   ],
+   "piege": "prudence, pas optimisme"
+  },
+  {
+   "id": "CRA-095",
+   "champ": "Entreprises en difficulté — attention particulière",
+   "memento": "§14 / §4.2",
+   "difficulte": 2,
+   "question": "Quel fait requiert une attention particulière dans le cas des entreprises en difficulté ?",
+   "options": [
+    "Délimitation (cut-off) du chiffre d'affaires.",
+    "Réconciliation de la comptabilité salariale avec la comptabilité générale.",
+    "Exhaustivité de l'annexe.",
+    "Obtention de confirmations bancaires."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : une société en difficulté est incitée à gonfler son résultat en anticipant la reconnaissance du chiffre d'affaires ; la présomption de risque de fraude sur la comptabilisation des produits (ISA-CH 240) rend le cut-off du CA particulièrement sensible (mémento §14).",
+    "Faux : la réconciliation comptabilité salariale / comptabilité générale est un contrôle de routine, sans lien spécifique avec le risque accru de manipulation du résultat des sociétés en difficulté (mémento §14, a contrario).",
+    "Faux : l'exhaustivité de l'annexe est toujours importante (et l'annexe sur la continuité est cruciale, mémento §4.3), mais elle n'est pas le point de manipulation du RÉSULTAT visé ici — la question cible le risque de fraude sur les produits (mémento §14).",
+    "Faux : les confirmations bancaires relèvent des éléments probants de routine de la phase de RÉALISATION (mémento §1.2, piège) — pas une attention propre aux entreprises en difficulté."
+   ],
+   "piege": "cut-off = fraude sur les produits"
+  },
+  {
+   "id": "CRA-096",
+   "champ": "Nature de l'audit de continuité",
+   "memento": "§4.1",
+   "difficulte": 1,
+   "question": "Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "La continuité est généralement contrôlée à la toute fin des travaux, quand toutes les informations sont disponibles.",
+    "Ce domaine se prête bien à la délégation à de nouveaux collaborateurs.",
+    "Dans les cas peu clairs, c'est un domaine d'audit stimulant, même pour des auditeurs expérimentés.",
+    "Si aucune incertitude n'apparaît lors de la planification, il n'est pas nécessaire de procéder à d'autres vérifications."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la continuité s'apprécie tout au long de la mission — les indicateurs se captent dès la planification et jusqu'aux événements postérieurs (mémento §4.2 et §3.2), pas seulement « à la toute fin ».",
+    "Faux : domaine à fort jugement professionnel et à risque élevé pour l'auditeur — il ne se prête pas à la délégation à de nouveaux collaborateurs (cours ; rôle exigeant de l'auditeur : mémento §4.1).",
+    "Exact : dans les cas peu clairs, l'appréciation de la continuité est exigeante (« stimulante ») même pour des auditeurs expérimentés — formulation du cours ; le mémento en garde la substance : un jugement sur une évaluation prospective qu'il faut remettre en question (mémento §4.1).",
+    "Faux : l'absence d'incertitude en planification n'exonère pas de vigilance ultérieure — des indicateurs peuvent surgir en cours d'audit ou parmi les événements postérieurs (mémento §4.2 et §3.2)."
+   ]
+  },
+  {
+   "id": "CRA-097",
+   "champ": "Rôles & assistance",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Quelle affirmation est correcte ?",
+   "options": [
+    "La direction comprenant mieux le business, on peut présumer que ses hypothèses sont réalistes.",
+    "L'auditeur peut demander une assistance (recours à un spécialiste) si nécessaire.",
+    "Cette thématique doit être examinée et documentée séparément de la perte de capital et du surendettement.",
+    "Dès qu'un cas complexe excède ses capacités, l'auditeur devrait démissionner."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : présumer les hypothèses de la direction réalistes est contraire au scepticisme professionnel — l'auditeur doit précisément remettre en question l'évaluation de la direction (mémento §4.1, tableau des rôles).",
+    "Exact : face à un cas complexe, l'auditeur peut recourir à une assistance / un spécialiste (ISA-CH 620) tout en restant responsable de son opinion — précision du cours, non reprise en tant que telle dans le mémento (rôle de l'auditeur : §4.1).",
+    "Faux : continuité, perte de capital et surendettement s'apprécient de manière LIÉE — l'auditeur évalue l'effet de la continuité sur les obligations des art. 725a / 725b CO (mémento §4.1, tableau des rôles, et §10.3) ; pas de cloisonnement.",
+    "Faux : la complexité appelle l'assistance, pas la démission ; démissionner n'exonérerait d'ailleurs pas des obligations de rapport en cours (cours ; cf. mémento §4.1)."
+   ]
+  },
+  {
+   "id": "CRA-098",
+   "champ": "Scénarios de conclusion",
+   "memento": "§4.3",
+   "difficulte": 1,
+   "question": "Laquelle n'est PAS une conclusion que l'auditeur peut tirer sur la continuité ?",
+   "options": [
+    "Continuité non assurée.",
+    "Continuité assurée.",
+    "Continuité incertaine mais possible.",
+    "La continuité n'a pas été clarifiée."
+   ],
+   "correct": 3,
+   "explications": [
+    "Pas la bonne réponse : « continuité non assurée » est une conclusion admissible — elle impose les valeurs de liquidation (art. 958a al. 2 CO ; mémento §4.1) et, si les comptes restent en continuité, l'opinion défavorable (mémento §4.3, 3e cas).",
+    "Pas la bonne réponse : « continuité assurée » est la conclusion standard — pas d'incertitude significative, texte de rapport standard (mémento §4.3, arbre).",
+    "Pas la bonne réponse : « incertaine mais possible » correspond à l'incertitude significative — son traitement dépend ensuite de la qualité de la publication en annexe (mémento §4.3, les 4 cas).",
+    "Exact : « la continuité n'a pas été clarifiée » n'est pas une conclusion admissible — l'auditeur doit conclure ; s'il ne peut pas obtenir d'éléments probants suffisants, la conséquence est l'impossibilité d'exprimer une opinion, qui reste une conclusion de rapport (mémento §4.3, 4e cas)."
+   ],
+   "piege": "l'auditeur doit conclure"
+  },
+  {
+   "id": "CRA-099",
+   "champ": "Indice menacée-mais-possible",
+   "memento": "§4.2 / §4.3",
+   "difficulte": 3,
+   "question": "Quel indice ne convient pas à une situation où la poursuite est menacée mais n'est pas impossible ?",
+   "options": [
+    "Il n'y a pas de volonté de continuer l'exploitation de la part des actionnaires.",
+    "Problèmes de liquidité.",
+    "L'entreprise est encore totalement opérationnelle.",
+    "Le financement n'est pas assuré, mais semble possible."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact (indice qui ne convient PAS) : l'absence de volonté des actionnaires de poursuivre rend la continuité IMPOSSIBLE — c'est une décision de fait de cesser, non une simple menace ; le mémento range l'« intention de liquider » parmi les indicateurs opérationnels de cessation (mémento §4.2). La grille « menacée mais possible » vient du cours ; le mémento n'en traite que les incidences sur l'opinion (§4.3).",
+    "Pas la bonne réponse : des problèmes de liquidité sont l'indicateur financier type d'une continuité menacée mais pas nécessairement condamnée (mémento §4.2).",
+    "Pas la bonne réponse : une entreprise encore totalement opérationnelle malgré la tension financière cadre précisément avec « menacée mais possible » (cours ; indicateurs : mémento §4.2).",
+    "Pas la bonne réponse : un financement non assuré mais qui semble possible est l'exemple même de l'incertitude significative — menace réelle, issue ouverte (mémento §4.2 et §4.3)."
+   ],
+   "piege": "absence de volonté = impossible"
+  },
+  {
+   "id": "CRA-100",
+   "champ": "Cas peu clair — critère décisif",
+   "memento": "§4.2",
+   "difficulte": 2,
+   "question": "Dans les cas peu clairs, quel est l'aspect principal de la capacité à poursuivre l'exploitation ?",
+   "options": [
+    "Les liquidités.",
+    "La volonté de poursuivre.",
+    "Le rendement ou la marge.",
+    "La capitalisation."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : les liquidités sont un indicateur financier majeur, mais dans un cas PEU CLAIR (poursuite financièrement et juridiquement encore possible), elles ne tranchent pas à elles seules (mémento §4.2).",
+    "Exact : lorsque la poursuite reste financièrement et juridiquement possible, l'élément décisif est la VOLONTÉ de poursuivre — enseignement du cours ; le mémento y fait écho par l'indicateur « intention de liquider » (mémento §4.2), sans énoncer la règle en tant que telle.",
+    "Faux : rendement et marge éclairent la viabilité à terme, mais ne constituent pas le critère décisif d'un cas ambigu (mémento §4.2).",
+    "Faux : la capitalisation renvoie à la perte de capital / au surendettement — or l'absence de ces situations ne garantit pas la continuité, et leur présence ne la condamne pas d'office (mémento §4.1, piège)."
+   ]
+  },
+  {
+   "id": "CRA-101",
+   "champ": "Erreur d'appréciation & responsabilité",
+   "memento": "§4.3",
+   "difficulte": 3,
+   "question": "Concernant l'évaluation de la capacité à poursuivre l'exploitation, quelle affirmation est correcte ?",
+   "options": [
+    "Si la matrice des risques liste des risques mortels, la continuité ne peut plus être considérée comme acquise.",
+    "Juger à tort la poursuite « compromise mais possible » alors qu'elle est impossible peut avoir des conséquences juridiques pour l'auditeur.",
+    "Si les liquidités ne sont pas assurées pour les 12 prochains mois, la poursuite est impossible.",
+    "Les budgets établis pour évaluer la continuité doivent être plus pessimistes (prudence)."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la matrice des risques est une SOURCE d'indicateurs (mémento §4.2) ; lister des risques, même graves, n'annule pas automatiquement l'hypothèse de continuité — il faut apprécier leur probabilité et leurs effets.",
+    "Exact : juger la poursuite « compromise mais possible » alors qu'elle est impossible revient à cautionner des comptes établis sur une base de continuité INAPPROPRIÉE — cas qui exige l'opinion défavorable (ISA-CH 570.21 ; mémento §4.3, 3e cas) ; une telle erreur d'appréciation expose l'auditeur à une responsabilité juridique.",
+    "Faux : des liquidités non assurées à 12 mois créent une MENACE à apprécier, pas une impossibilité de plein droit — la poursuite peut rester possible (financement en discussion, soutien d'actionnaires…) (mémento §4.2 et §4.3).",
+    "Faux dans sa généralité : la prudence s'impose surtout aux sociétés en difficulté ; en règle générale, les budgets doivent d'abord être RÉALISTES — c'est ce réalisme que l'auditeur questionne (mémento §4.1)."
+   ]
+  },
+  {
+   "id": "CRA-102",
+   "champ": "Rapport — CA ne publie rien",
+   "memento": "§4.3 / §6.1",
+   "difficulte": 3,
+   "question": "L'organe de révision conclut que la continuité est menacée, mais le CA l'estime assurée et ne publie donc rien. Quelle affirmation est correcte ?",
+   "options": [
+    "L'organe de révision ajoute un paragraphe d'observation exposant la nature de l'incertitude.",
+    "L'organe de révision émet une opinion défavorable, car l'absence de cette information a une incidence considérable sur les états financiers.",
+    "L'organe de révision ne remet pas de rapport tant que ce n'est pas clarifié.",
+    "Ce désaccord entraîne une limitation de l'étendue et donc une impossibilité d'exprimer une opinion."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le paragraphe d'observation renvoie à un fait correctement présenté DANS les états financiers (mémento §7.1) ; il ne peut pas exposer une incertitude que l'annexe tait complètement.",
+    "Exact : l'information sur l'incertitude est TOTALEMENT absente de l'annexe → anomalie de présentation significative et DIFFUSE → opinion DÉFAVORABLE (mémento §4.3 : « annexe totalement absente → défavorable » ; ISA-CH 705).",
+    "Faux : l'auditeur doit rapporter — il n'existe pas de droit de rétention du rapport en cas de désaccord avec le CA ; l'AG a d'ailleurs besoin du rapport pour statuer (art. 731 CO ; mémento §11).",
+    "Faux : il s'agit d'un DÉSACCORD sur la présentation (anomalie), pas d'une limitation de l'étendue — l'auditeur sait que l'information manque ; anomalie diffuse → défavorable, limitation diffuse → impossibilité, ne pas intervertir (mémento §6.1, piège)."
+   ],
+   "piege": "anomalie diffuse ≠ limitation diffuse"
+  },
+  {
+   "id": "CRA-103",
+   "champ": "Rapport — refus du plan mensuel",
+   "memento": "§4.3 / §6.1",
+   "difficulte": 3,
+   "question": "Continuité jugée menacée par les deux parties ; l'organe de révision exige un plan de liquidités mensuel, le CA juge suffisant son plan annuel (positif) et refuse. Quelle affirmation est correcte ?",
+   "options": [
+    "L'organe de révision élabore lui-même le plan de liquidités mensuel.",
+    "L'organe de révision devrait démissionner pour ne pas devoir rapporter.",
+    "Si le CA maintient sa position, on s'attend à une opinion avec réserve.",
+    "Si le CA maintient sa position, on envisage une impossibilité d'exprimer une opinion."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : élaborer le plan de liquidités relève de la direction ; l'auditeur qui s'en chargerait auditerait ensuite son propre travail (indépendance) — il ne se substitue pas au CA (mémento §4.1).",
+    "Faux : démissionner n'exonère pas de l'obligation de rapporter et ne résout rien ; la norme prévoit la conséquence dans le rapport, pas la fuite (mémento §4.1 et §4.3).",
+    "Faux : la réserve suppose une incidence significative mais NON diffuse ; or la continuité conditionne la base d'évaluation de l'ENSEMBLE des comptes — la limitation est ici diffuse (mémento §6.1).",
+    "Exact : sans plan de trésorerie mensuel dans une société aux liquidités tendues, l'auditeur ne peut pas obtenir d'éléments probants suffisants sur un élément fondamental → LIMITATION de l'étendue significative et diffuse → impossibilité d'exprimer une opinion (mémento §4.3, 4e cas, et §6.1)."
+   ],
+   "piege": "limitation diffuse → impossibilité"
+  },
+  {
+   "id": "CRA-104",
+   "champ": "Rapport — annexe insuffisante",
+   "memento": "§4.3 / §6.4",
+   "difficulte": 2,
+   "question": "Continuité menacée, mentionnée en annexe, mais l'organe de révision estime que certaines informations manquent. Quelle affirmation est correcte ?",
+   "options": [
+    "Une publication inappropriée est une présentation erronée qui conduit toujours à une opinion défavorable.",
+    "Une publication inappropriée est une présentation erronée qui peut donner lieu à une opinion avec réserve, assortie d'une recommandation d'approbation.",
+    "Ce manquement du CA doit être porté aux autres informations obligatoires.",
+    "Cela peut être expliqué, entre autres, dans les autres informations obligatoires."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : « toujours défavorable » est excessif — l'opinion défavorable sanctionne l'information TOTALEMENT absente ; une annexe existante mais incomplète appelle la réserve (mémento §4.3, 2e cas).",
+    "Exact : l'incertitude est mentionnée mais la description est insuffisante → anomalie significative non diffuse → opinion avec RÉSERVE, laquelle s'accompagne toujours d'une recommandation d'APPROBATION (mémento §4.3 et §6.4, piège « réserve → approbation »).",
+    "Faux : les « autres obligations de communication » (art. 728c CO) visent les violations de la loi signalées à l'AG (mémento §10.1) — une annexe insuffisante sur la continuité est une anomalie des comptes, traitée par la modification de l'opinion (mémento §4.3).",
+    "Faux : même logique — un paragraphe hors opinion ne remplace jamais la modification de l'opinion lorsque les comptes eux-mêmes sont défectueux (mémento §7.4 : seule la ligne 705 modifie l'opinion)."
+   ],
+   "piege": "réserve → approbation"
+  },
+  {
+   "id": "CRA-105",
+   "champ": "Base d'évaluation — liquidation décidée",
+   "memento": "§4.1 / §3.1",
+   "difficulte": 3,
+   "question": "Le CA décide la liquidation après la clôture mais avant l'établissement des comptes. Quelle affirmation est correcte ?",
+   "options": [
+    "Les comptes doivent être établis en valeurs de liquidation, la décision étant antérieure à l'établissement du bilan ; à défaut, il s'agit d'une anomalie.",
+    "Les comptes doivent être établis en valeurs de liquidation ; à défaut, il s'agit d'une limitation de l'étendue.",
+    "À la clôture la liquidation n'était pas décidée, donc les comptes sont établis en valeurs d'exploitation.",
+    "Comptes en valeurs d'exploitation ; s'il n'est pas publié comme événement postérieur, il s'agit d'une présentation erronée."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la continuité s'apprécie jusqu'à la date d'ÉTABLISSEMENT des comptes ; la liquidation décidée avant ce moment rend la cessation inévitable dans les 12 mois → valeurs de liquidation obligatoires (art. 958a al. 2 CO ; mémento §4.1). Des comptes maintenus en valeurs d'exploitation constituent une ANOMALIE — base de continuité inappropriée → opinion défavorable (ISA-CH 570.21 ; mémento §4.3, 3e cas).",
+    "Faux : l'auditeur SAIT que la base d'évaluation est erronée — c'est une anomalie, pas une limitation de l'étendue (rien ne l'empêche d'obtenir des éléments probants) (mémento §6.1, piège).",
+    "Faux : le critère n'est pas la situation au seul jour de clôture — l'appréciation de la continuité se poursuit jusqu'à l'établissement des comptes, et la décision de liquidation, antérieure à cet établissement, s'impose au choix de la base d'évaluation (mémento §4.1 ; cf. §3.1, le fait postérieur éclaire le traitement).",
+    "Faux : une simple mention en événement postérieur ne suffit pas — la décision de liquider change la BASE MÊME d'évaluation (valeurs de liquidation), pas seulement le contenu de l'annexe (art. 958a al. 2 CO ; mémento §4.1 et §3.1)."
+   ],
+   "piege": "appréciation jusqu'à l'établissement"
+  },
+  {
+   "id": "CRA-106",
+   "champ": "Obligations de l'auditeur (NA-CH)",
+   "memento": "§4.1 / §4.2",
+   "difficulte": 2,
+   "question": "Selon les Normes suisses d'audit, qu'est-ce qui n'est PAS une obligation de l'auditeur en matière de continuité ?",
+   "options": [
+    "Analyser les indicateurs de risque relatifs à la continuité.",
+    "Vérifier le caractère complet et réaliste de l'évaluation faite par la société.",
+    "Examiner la période d'évaluation de la continuité choisie par la société.",
+    "Vérifier les événements individuels qui ont une influence sur la continuité."
+   ],
+   "correct": 3,
+   "explications": [
+    "C'est une obligation (donc pas la réponse) : l'analyse des indicateurs de risque — financiers, opérationnels, autres — est au cœur de l'ISA-CH 570 (mémento §4.2).",
+    "C'est une obligation (donc pas la réponse) : l'auditeur obtient des éléments probants sur le caractère approprié de l'hypothèse et remet en question l'évaluation de la direction — donc son caractère complet et réaliste (mémento §4.1, tableau des rôles).",
+    "C'est une obligation (donc pas la réponse) : l'auditeur examine la période retenue — l'horizon doit couvrir AU MOINS 12 mois (art. 958a CO ; mémento §4, but).",
+    "Exact (ce n'est PAS une obligation telle que formulée) : l'auditeur apprécie GLOBALEMENT si l'évaluation de la direction est complète et réaliste et si toutes les informations pertinentes ont été prises en compte ; il n'a pas à « vérifier » isolément chaque événement individuel influant sur la continuité (ISA-CH 570 ; mémento §4.1). Nuance de formulation issue du cours, non détaillée dans le mémento."
+   ]
+  },
+  {
+   "id": "CRA-107",
+   "champ": "Périmètre & horizon",
+   "memento": "§4.1 / §10.3",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant la continuité de l'exploitation est correcte ?",
+   "options": [
+    "Lorsqu'une société n'est ni surendettée ni en perte de capital, la continuité n'est pas remise en cause.",
+    "La continuité doit être évaluée pour une durée de 12 mois exactement ; aucune autre durée n'est autorisée.",
+    "Un surendettement des comptes consolidés CO n'est pas pertinent au sens de l'art. 725b al. 1, mais doit susciter des réflexions sur la continuité.",
+    "Dans tous les cas, la société doit procéder à une analyse et une planification détaillées de sa capacité à poursuivre."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'absence de perte de capital ou de surendettement ne garantit pas la continuité — ex. la perte d'un client à 70 % du CA la menace sans toucher les fonds propres (mémento §4.1, piège).",
+    "Faux : l'horizon est d'AU MOINS 12 mois, pas « exactement » — un horizon plus long peut s'imposer selon les circonstances (mémento §4, but : « sur au moins 12 mois »).",
+    "Exact : l'art. 725b CO vise l'entité juridique INDIVIDUELLE — un surendettement apparaissant seulement dans les comptes consolidés ne déclenche pas ses obligations (comptes intermédiaires, avis au juge), mais doit susciter des réflexions sur la continuité du groupe et de ses entités. Précision du cours ; le mécanisme 725b est au mémento §10.3.",
+    "Faux : « dans tous les cas » est excessif — pour une entreprise saine, rentable et bien financée, un BUDGET suffit (mémento §4.1, tableau des rôles)."
+   ],
+   "piege": "725b vise l'entité individuelle"
+  },
+  {
+   "id": "CRA-108",
+   "champ": "Rapport — impossibilité de conclure",
+   "memento": "§4.3 / §6.1",
+   "difficulte": 2,
+   "question": "Si l'auditeur ne peut pas se faire une opinion suffisante sur la continuité à partir des documents disponibles, il procède comment ?",
+   "options": [
+    "En l'absence d'autres éléments probants suffisants, il indique dans le rapport l'impossibilité d'exprimer une opinion.",
+    "Si l'annexe explique suffisamment l'absence d'autres documents, il l'indique dans un paragraphe d'observation.",
+    "C'est une violation de la loi à traiter dans les autres obligations ; les comptes sont recommandés pour approbation.",
+    "Aucun rapport n'est remis tant qu'il n'y a pas suffisamment d'éléments probants."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : documents insuffisants et impossibilité de conclure sur la continuité = LIMITATION de l'étendue sur un élément fondamental, donc diffuse → impossibilité d'exprimer une opinion, indiquée dans le rapport (mémento §4.3, 4e cas, et §6.1).",
+    "Faux : une explication en annexe ne « guérit » pas une limitation de l'étendue — et le paragraphe d'observation est réservé aux faits correctement présentés dans les comptes (mémento §7.1), pas aux éléments probants manquants.",
+    "Faux : les « autres obligations » (art. 728c CO) servent à signaler des violations de la loi (mémento §10.1) ; elles ne remplacent pas la conséquence sur l'opinion — et l'impossibilité s'accompagne d'une recommandation de RENVOI, pas d'approbation (mémento §6.4).",
+    "Faux : l'auditeur doit rapporter — l'AG ne peut statuer qu'après réception du rapport (art. 731 CO ; mémento §11) ; il rapporte l'impossibilité, il ne retient pas son rapport."
+   ],
+   "piege": "annexe ne guérit pas la limitation"
+  },
+  {
+   "id": "CRA-109",
+   "champ": "Responsabilité de l'évaluation",
+   "memento": "§4.1",
+   "difficulte": 1,
+   "question": "Quelle affirmation concernant la continuité de l'exploitation est correcte ?",
+   "options": [
+    "Lorsqu'une société n'est ni surendettée ni en perte de capital, la continuité n'est pas remise en cause.",
+    "Si l'évaluation de l'an dernier fondée sur la continuité se révèle erronée, il s'agit d'une erreur du CA.",
+    "Dans un groupe, il suffit d'évaluer la capacité à poursuivre au niveau consolidé.",
+    "Il incombe au conseil d'administration d'évaluer l'hypothèse de continuité."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : ni la perte de capital ni le surendettement ne sont des conditions nécessaires du doute — leur absence ne dispense pas d'apprécier la continuité (mémento §4.1, piège).",
+    "Faux : une appréciation prospective faite de bonne foi qui se révèle inexacte après coup n'est pas automatiquement une « erreur » du CA — l'évaluation se juge sur la base des informations disponibles à l'établissement des comptes (cours ; rôles : mémento §4.1).",
+    "Faux : l'évaluation doit aussi être menée au niveau de chaque entité — le consolidé ne suffit pas ; l'art. 725b vise d'ailleurs l'entité individuelle (mémento §10.3 et cours).",
+    "Exact : l'évaluation de l'hypothèse de continuité incombe au CA / à la direction, qui fournit une évaluation documentée sur au moins 12 mois et choisit la base d'évaluation (art. 958a CO ; mémento §4.1, tableau des rôles)."
+   ]
+  },
+  {
+   "id": "CRA-110",
+   "champ": "Rôles — demande d'analyse au CA",
+   "memento": "§4.1",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant la continuité de l'exploitation est correcte ?",
+   "options": [
+    "S'il a des doutes, l'auditeur peut dans tous les cas demander au CA une analyse de sa capacité à poursuivre.",
+    "Le CA doit dans tous les cas établir une planification détaillée des liquidités pour les 12 mois suivants.",
+    "En cas d'incertitude sur les liquidités, une planification annuelle des liquidités suffit.",
+    "Si le CA n'est pas compétent en planification, il peut charger l'auditeur de cette tâche (mandat séparé)."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : en cas de doute, l'auditeur peut toujours exiger de la direction une analyse documentée de la capacité à poursuivre — fournir cette évaluation documentée est précisément l'obligation de la direction (ISA-CH 570 ; mémento §4.1, tableau des rôles).",
+    "Faux : « dans tous les cas » est excessif — pour une entreprise saine, rentable et bien financée, un budget suffit (mémento §4.1).",
+    "Faux : en cas d'incertitude sur les liquidités, une planification ANNUELLE ne suffit pas — un suivi plus fin (plan mensuel) est nécessaire, faute de quoi l'auditeur se retrouve en limitation de l'étendue (cf. le cas du refus du plan mensuel → impossibilité, mémento §4.3).",
+    "Faux : l'auditeur ne peut pas assumer la planification à la place de la direction — il auditerait son propre travail, en violation de son indépendance (art. 728 CO ; mémento §4.1)."
+   ]
+  },
+  {
+   "id": "CRA-111",
+   "champ": "Obligation de l'auditeur (NA-CH)",
+   "memento": "§4.1 / §10.3",
+   "difficulte": 2,
+   "question": "Selon les Normes suisses d'audit (NA-CH), quelle est l'obligation de l'auditeur en matière de continuité ?",
+   "options": [
+    "Pendant le sursis concordataire, l'organe de révision a les mêmes obligations de continuité et d'avis au juge.",
+    "En cas de raisons sérieuses d'admettre un surendettement, l'organe de révision a l'obligation subsidiaire d'informer le tribunal.",
+    "L'organe de révision doit évaluer si toutes les informations pertinentes ont été prises en compte dans l'évaluation de la continuité.",
+    "Surveiller les liquidités de la société lorsque la capacité à poursuivre est menacée."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : pendant un sursis concordataire, le régime ordinaire de l'avis au juge est modifié / suspendu — les obligations ne sont pas « les mêmes » (précision du cours, hors mémento ; cadre 725b : mémento §10.3).",
+    "Faux : de simples « raisons sérieuses » de surendettement déclenchent les devoirs du CA (comptes intermédiaires) ; l'obligation SUBSIDIAIRE de l'organe de révision d'aviser le tribunal ne naît que d'un surendettement MANIFESTE avec inaction du CA (art. 728c al. 3 / 729c CO ; mémento §10.3).",
+    "Exact : en matière de continuité, l'obligation de l'auditeur est d'apprécier si l'évaluation de la société est complète et réaliste — donc si TOUTES les informations pertinentes ont été prises en compte (ISA-CH 570 ; mémento §4.1, tableau des rôles).",
+    "Faux : surveiller ou gérer les liquidités relève de la direction ; l'auditeur évalue et questionne, il ne pilote pas la trésorerie de l'entité (mémento §4.1)."
+   ],
+   "piege": "manifeste ≠ raisons sérieuses"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "module": "M6",
+ "titre": "6. Contrôle restreint (729b/NCR)",
+ "questions": [
+  {
+   "id": "CRA-079",
+   "champ": "Régime d'audit selon seuils art. 727 CO (cas Heidel AG)",
+   "memento": "§9.2 / §9.3 (comparé au §5.1)",
+   "difficulte": 3,
+   "question": "La société Heidel AG présente un total de bilan de CHF 5 mio, 20 employés à plein temps et un produit net des ventes et prestations de CHF 9 mio ; les chiffres de l'exercice précédent sont identiques. Qu'est-ce qui est le plus juste ?",
+   "options": [
+    "Il n'est pas nécessaire de désigner un organe de révision.",
+    "Le rapport de l'organe de révision doit rendre compte du résultat de l'audit.",
+    "Un rapport détaillé complet doit être présenté au conseil d'administration.",
+    "Le responsable de la révision doit être un expert-réviseur agréé."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : avec 20 emplois à plein temps (plus de 10 EPT en moyenne annuelle), l'opting-out de l'art. 727a al. 2 CO est exclu — Heidel AG doit désigner un organe de révision (contrôle restreint). Précision légale au-delà du mémento : la limite des 10 EPT ne figure pas dans le mémento, qui traite le régime restreint au §9.",
+    "Exact : aucun des trois seuils de l'art. 727 al. 1 ch. 2 CO (total du bilan 20 mio, chiffre d'affaires 40 mio, 250 EPT) n'est atteint — Heidel AG relève du contrôle RESTREINT (art. 727a CO). Or, quel que soit le régime, le rapport de l'organe de révision rend compte du résultat de son contrôle : en restreint, sous forme d'assurance négative (art. 729b CO ; mémento §9.1-§9.2).",
+    "Faux : le rapport détaillé complet au conseil d'administration est propre au contrôle ORDINAIRE (art. 728b al. 1 CO) ; le contrôle restreint ne produit qu'un rapport succinct à l'AG, sans rapport détaillé au CA (mémento §9.3, tableau des différences, et §5.1).",
+    "Faux : l'expert-réviseur agréé n'est exigé qu'en contrôle ordinaire (art. 727b CO) ; en contrôle restreint, un réviseur agréé suffit (art. 729a CO ; mémento §9.3)."
+   ],
+   "piege": "régime restreint ≠ ordinaire"
+  },
+  {
+   "id": "CRA-080",
+   "champ": "Assurance négative",
+   "memento": "§9.1",
+   "difficulte": 2,
+   "question": "Quelle formulation caractérise la conclusion délivrée dans un rapport de contrôle restreint (NCR) ?",
+   "options": [
+    "« Les comptes annuels sont conformes à la loi et aux statuts » — affirmation positive.",
+    "« Nous n'avons pas rencontré d'élément nous permettant de conclure que les comptes ne sont pas conformes à la loi et aux statuts » — assurance négative.",
+    "« Les comptes annuels ne sont pas conformes à la loi et aux statuts » — opinion défavorable.",
+    "« Nous ne sommes pas en mesure d'exprimer une opinion »."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : « les comptes sont conformes à la loi et aux statuts » est l'affirmation POSITIVE du contrôle ordinaire (art. 728 CO), fondée sur une assurance raisonnable — pas la formulation du contrôle restreint (mémento §9.1 et §9.3, ligne « Assurance »).",
+    "Exact : le contrôle restreint (art. 729-729c CO, norme NCR) délivre une assurance négative (modérée) : le réviseur atteste n'avoir PAS rencontré d'éléments lui laissant penser que les comptes ne sont pas conformes à la loi et aux statuts (art. 729b CO ; mémento §9.1).",
+    "Faux : « les comptes ne sont pas conformes » est l'opinion DÉFAVORABLE de l'ISA-CH 705, propre au contrôle ordinaire ; le contrôle restreint ne connaît pas les opinions modifiées (mémento §9.1, piège).",
+    "Faux : « pas en mesure d'exprimer une opinion » est l'impossibilité d'exprimer une opinion (ISA-CH 705), elle aussi étrangère au contrôle restreint (mémento §9.1 et §6.4)."
+   ],
+   "piege": "assurance négative ≠ positive"
+  },
+  {
+   "id": "CRA-081",
+   "champ": "Élément propre au contrôle ordinaire",
+   "memento": "§9.3 / §5.3",
+   "difficulte": 2,
+   "question": "Quel élément fait partie du contrôle ORDINAIRE mais PAS du contrôle restreint ?",
+   "options": [
+    "La recommandation d'approbation des comptes à l'assemblée générale.",
+    "L'attestation de l'existence du système de contrôle interne (art. 728a al. 1 ch. 3 CO / NAS-CH 890).",
+    "La mention de la personne responsable et des informations sur l'indépendance.",
+    "Une conclusion sur la conformité des comptes à la loi et aux statuts."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la recommandation d'approbation des comptes figure dans les DEUX régimes — rapport succinct à l'AG en ordinaire (art. 728b al. 2 CO) comme rapport de contrôle restreint (art. 729b CO) ; c'est même une spécificité du droit suisse, requise en ordinaire ET en restreint (mémento §9.2 et §11).",
+    "Exact : l'attestation de l'existence du SCI (art. 728a al. 1 ch. 3 CO / NAS-CH 890) est propre au contrôle ORDINAIRE — le tableau des différences du mémento la marque « Non » en restreint, tout comme le rapport détaillé au CA (mémento §9.3 et §5.3).",
+    "Faux : la mention de la personne responsable (et de ses compétences) ainsi que les informations sur l'indépendance figurent dans les deux rapports (art. 728b al. 2 et 729b CO ; mémento §9.2).",
+    "Faux : une conclusion sur la conformité à la loi et aux statuts existe dans les deux régimes — sous forme positive en ordinaire, sous forme d'assurance négative en restreint (mémento §9.1 et §9.3)."
+   ],
+   "piege": "éléments communs aux deux rapports"
+  },
+  {
+   "id": "CRA-082",
+   "champ": "Agrément requis",
+   "memento": "§9.3",
+   "difficulte": 2,
+   "question": "Une SA soumise au contrôle restreint désigne son organe de révision. Quel agrément le réviseur responsable doit-il au minimum détenir ?",
+   "options": [
+    "Réviseur agréé (ASR).",
+    "Expert-réviseur agréé.",
+    "Aucun agrément n'est requis en contrôle restreint.",
+    "Le titre d'expert-comptable diplômé, obligatoirement."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le contrôle restreint exige un réviseur agréé — agrément ASR selon la LSR (art. 4-5), art. 729a CO ; c'est l'agrément minimal, que le tableau des différences du mémento oppose à l'expert-réviseur agréé du contrôle ordinaire (mémento §9.3).",
+    "Faux : l'expert-réviseur agréé est l'exigence du contrôle ORDINAIRE (art. 727b CO) ; l'exiger en restreint serait sur-qualifier (mémento §9.3, ligne « Agrément requis »).",
+    "Faux : le contrôle restreint n'est pas dispensé d'agrément — un agrément ASR de réviseur agréé est toujours requis (art. 729a CO ; mémento §9.3).",
+    "Faux : la loi exige l'agrément ASR, pas un titre déterminé ; le diplôme d'expert-comptable est une voie d'accès à l'agrément, pas la condition légale elle-même (LSR art. 4-5 — précision au-delà du mémento, qui ne détaille que le type d'agrément, §9.3)."
+   ],
+   "piege": "réviseur ≠ expert-réviseur"
+  },
+  {
+   "id": "CRA-083",
+   "champ": "« Complément » NCR ≠ réserve",
+   "memento": "§9.1",
+   "difficulte": 3,
+   "question": "En contrôle restreint, l'organe de révision veut attirer l'attention sur une incertitude liée à la continuité, correctement présentée en annexe. Que fait-il ?",
+   "options": [
+    "Il émet une opinion avec réserve.",
+    "Il ajoute un « complément » à son rapport, équivalent du paragraphe d'observation.",
+    "L'assurance négative vaut déjà réserve : rien à ajouter.",
+    "Il doit basculer en contrôle ordinaire."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le contrôle restreint ne connaît pas les opinions modifiées de l'ISA-CH 705 (réserve, défavorable, impossibilité) ; une incertitude correctement présentée en annexe n'appellerait d'ailleurs pas de réserve, même en contrôle ordinaire (mémento §9.1, piège, et §4.3, 1er cas).",
+    "Exact : la NCR prévoit un « complément », équivalent du paragraphe d'observation de l'ISA-CH 706, pour attirer l'attention sur un fait correctement présenté — ici l'incertitude de continuité décrite en annexe — sans modifier la conclusion à assurance négative (art. 729b CO ; mémento §9.1, piège).",
+    "Faux : l'assurance négative est le régime NORMAL du contrôle restreint, pas une opinion dégradée ni une réserve implicite — c'est le faux ami classique de ce module (mémento §9.1, piège, et §13).",
+    "Faux : rien n'impose de basculer en contrôle ordinaire ; le régime dépend des seuils de l'art. 727 CO (ou d'un opting-up volontaire), pas de l'existence d'une incertitude à signaler (mémento §9)."
+   ],
+   "piege": "complément ≠ réserve"
+  }
+ ]
+}

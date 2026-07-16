@@ -1,0 +1,459 @@
+{
+ "module": "M8",
+ "titre": "8. Perte de capital (725a)",
+ "questions": [
+  {
+   "id": "CRA-112",
+   "champ": "Valeur de référence — entreprise commerciale",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Capital-actions 200 · réserve légale issue du bénéfice 60 · réserve légale issue du capital 80 · report de pertes −140 · perte de l'exercice −10 · total CP 190. Quel est le montant de la valeur de référence (seuil de perte de capital) ?",
+   "options": [
+    "135",
+    "260",
+    "150",
+    "170"
+   ],
+   "correct": 2,
+   "piege": "plafonnement des réserves légales",
+   "explications": [
+    "Faux. 135 ne correspond à aucun calcul cohérent : ni le capital (200), ni les réserves légales plafonnées (100), ni leur demi-somme (150) ne conduisent à ce montant.",
+    "Faux. 260 = capital 200 + réserve légale issue du bénéfice 60 non plafonnée : on ne cumule pas ainsi — les DEUX réserves légales (60 + 80) entrent dans la base, mais plafonnées ensemble à 50 % du capital, et le seuil est la MOITIÉ de cette base.",
+    "Juste. Réserves légales 60 + 80 = 140, plafonnées à 50 % du capital = 50 % × 200 = 100 (art. 671 CO). Base = capital 200 + réserves légales plafonnées 100 = 300. Seuil de perte de capital = ½ × 300 = 150 (dans ce type d'exercice, la « valeur de référence » demandée est ce seuil). Le mémento §10.2 traite exactement cet exemple chiffré. Base légale : art. 725a al. 1 CO.",
+    "Faux. 170 = ½ × (200 + 140) : c'est le résultat obtenu en oubliant le plafonnement des réserves légales à 50 % du capital — les 140 doivent être ramenés à 100 avant de diviser par deux."
+   ]
+  },
+  {
+   "id": "CRA-113",
+   "champ": "Existence d'une perte de capital — CP 190",
+   "memento": "§10.2",
+   "difficulte": 1,
+   "question": "Mêmes comptes (capital 200 · rés. lég. bénéfice 60 · rés. lég. capital 80 · report −140 · perte −10 · CP 190). Existe-t-il une perte de la moitié du capital ?",
+   "options": [
+    "Les informations disponibles sont insuffisantes.",
+    "La situation n'est pas claire.",
+    "Oui",
+    "Non"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Tous les postes des fonds propres sont donnés : le calcul de la valeur de référence et la comparaison avec les CP sont entièrement déterminés. C'est un faux-fuyant.",
+    "Faux. Une fois le seuil calculé (150), la situation est parfaitement claire : 190 > 150, la réponse est univoque.",
+    "Faux. Il n'y aurait perte de capital que si les capitaux propres étaient inférieurs à 150 (la moitié de la valeur de référence de 300) ; or CP = 190 > 150 : la moitié est encore couverte.",
+    "Juste. Seuil = ½ × (capital 200 + réserves légales plafonnées 100) = 150. CP 190 > 150 → la moitié de la valeur de référence reste couverte : PAS de perte de capital au sens de l'art. 725a al. 1 CO. Le mémento §10.2 conclut sur ces mêmes chiffres : « CP 190 > 150 → pas de perte de capital »."
+   ]
+  },
+  {
+   "id": "CRA-114",
+   "champ": "Cas limite — CP exactement au seuil",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Mêmes comptes mais perte de l'exercice −50 → CP 150. Existe-t-il une perte de la moitié du capital ?",
+   "options": [
+    "Oui",
+    "Non",
+    "La situation n'est pas claire.",
+    "Les informations disponibles sont insuffisantes."
+   ],
+   "correct": 1,
+   "piege": "inégalité stricte au seuil",
+   "explications": [
+    "Faux. Répondre « Oui » suppose une inégalité large (CP ≤ seuil). Or l'art. 725a al. 1 CO exige que l'actif « ne couvre plus » la moitié de la valeur de référence : il faut que les CP soient STRICTEMENT inférieurs au seuil.",
+    "Juste. Valeur de référence inchangée : capital 200 + réserves légales plafonnées 100 = 300 ; seuil = ½ × 300 = 150. CP = 150 = exactement la moitié : elle est encore couverte, donc PAS de perte de capital (perte de capital ⇔ CP < ½ × valeur de référence, mémento §10.2). Base légale : art. 725a al. 1 CO.",
+    "Faux. Le cas limite est tranché par le texte légal (« ne couvre plus la moitié » = inégalité stricte) : la situation est juridiquement déterminée.",
+    "Faux. Toutes les données nécessaires (postes des fonds propres) sont fournies ; le calcul est complet."
+   ]
+  },
+  {
+   "id": "CRA-115",
+   "champ": "Valeur de référence — holding (plafond 20 %)",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Société holding : capital-actions 200 · réserve légale issue du bénéfice 500 · réserve légale issue du capital 100 · report −380 · perte −200 · CP 220. Quel est le montant de la valeur de référence (seuil) ?",
+   "options": [
+    "120",
+    "400",
+    "100",
+    "350"
+   ],
+   "correct": 0,
+   "piege": "plafond holding 20 %",
+   "explications": [
+    "Juste. Pour une holding, les réserves légales sont plafonnées à 20 % du capital (et non 50 %, art. 671 CO ; mémento §10.2, tableau) : 20 % × 200 = 40 — les 600 de réserves légales (500 + 100) sont ramenés à 40. Base = 200 + 40 = 240 ; seuil = ½ × 240 = 120. Base légale : art. 725a al. 1 CO.",
+    "Faux. 400 = ½ × (200 + 600) : les réserves légales sont retenues intégralement, en ignorant le plafond — erreur double puisque même le plafond ordinaire de 50 % (= 100) aurait dû s'appliquer.",
+    "Faux. 100 = ½ × 200 : le capital seul est retenu, en oubliant que les réserves légales entrent dans la base (à hauteur du plafond de 20 % pour une holding, soit 40).",
+    "Faux. 350 ne correspond à aucun calcul cohérent à partir des postes donnés."
+   ]
+  },
+  {
+   "id": "CRA-116",
+   "champ": "Valeur de référence — industrielle (actions propres, statutaires exclues)",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Capital-actions 200 · rés. lég. bénéfice 60 · rés. lég. capital 80 · réserves statutaires 110 · réserve pour actions propres 30 · report −300 · perte −30 · CP 150. Quel est le montant de la valeur de référence (seuil) ?",
+   "options": [
+    "165",
+    "150",
+    "240",
+    "200"
+   ],
+   "correct": 0,
+   "piege": "réserves statutaires exclues",
+   "explications": [
+    "Juste. Réserves légales 60 + 80 = 140, plafonnées à 50 % × 200 = 100 (art. 671 CO). La réserve pour actions propres (30) entre pour son montant INTÉGRAL ; les réserves statutaires (110) sont EXCLUES (mémento §10.2, tableau des postes). Base = 200 + 100 + 30 = 330 ; seuil = ½ × 330 = 165. Base légale : art. 725a al. 1 CO.",
+    "Faux. 150 = ½ × (200 + 100) : le calcul oublie la réserve pour actions propres (30), qui entre pourtant intégralement dans la base.",
+    "Faux. 240 = ½ × (200 + 140 + 110 + 30) : les réserves statutaires sont incluses à tort ET le plafonnement des réserves légales est ignoré.",
+    "Faux. 200 ne résulte d'aucune combinaison correcte des postes : il mélange l'inclusion à tort des statutaires et l'oubli d'autres éléments."
+   ]
+  },
+  {
+   "id": "CRA-117",
+   "champ": "Valeur de référence — services, capital libéré à 50 %",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Entreprise de services : capital-actions (libéré à 50 %) 200 · capital-participations 100 · réserve légale issue du capital 150 · report −200 · perte −70 · CP 180. Quel est le montant de la valeur de référence (seuil) ?",
+   "options": [
+    "200",
+    "150",
+    "125",
+    "225"
+   ],
+   "correct": 3,
+   "piege": "capital non libéré au nominal",
+   "explications": [
+    "Faux. 200 = ½ × (200 + 100 + 100) : le plafond des réserves légales est calculé à tort sur le seul capital-actions (50 % × 200 = 100) au lieu du capital total actions + participations (50 % × 300 = 150).",
+    "Faux. 150 est le résultat trompeur obtenu en ne comptant que le capital LIBÉRÉ (100) : ½ × (100 + 100 + 100). Or la valeur de référence retient le capital au NOMINAL — la part non libérée figure à l'actif comme créance de libération et n'est pas déduite.",
+    "Faux. 125 ne correspond à aucun calcul cohérent à partir des postes donnés.",
+    "Juste. La base retient le capital-actions au NOMINAL (200), le capital-participations (100) et la réserve légale issue du capital plafonnée à 50 % du capital total = 50 % × (200 + 100) = 150 — les 150 sont donc entièrement retenus (art. 671 CO). Base = 200 + 100 + 150 = 450 ; seuil = ½ × 450 = 225. La mention « libéré à 50 % » est le piège : le capital non libéré n'est PAS exclu (mémento §10.2 : capital-actions et capital-participation au nominal, montant intégral). Base légale : art. 725a al. 1 CO."
+   ]
+  },
+  {
+   "id": "CRA-118",
+   "champ": "Augmentation de capital minimale pour sortir de la perte de capital",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Capital-actions 200 · report −80 · perte −70 · CP 50. Quel est le montant minimal de l'augmentation de capital (frais négligés) pour éviter toute perte de capital au sens de la loi ?",
+   "options": [
+    "125",
+    "100",
+    "75",
+    "50"
+   ],
+   "correct": 1,
+   "piege": "l'augmentation relève aussi le seuil",
+   "explications": [
+    "Faux. 125 est excessif : avec X = 125, capital 325, seuil ½ × 325 = 162,5 et CP 175 > 162,5 — la condition est remplie avec une marge inutile, ce n'est pas le MINIMUM demandé.",
+    "Juste. Sans réserves légales, valeur de référence = capital 200, seuil = 100 ; CP 50 < 100 → perte de capital. Une augmentation de X accroît À LA FOIS les CP (50 + X) et le capital (200 + X), donc le seuil : ½ × (200 + X) = 100 + X/2. Condition : 50 + X ≥ 100 + X/2 ⟺ X/2 ≥ 50 ⟺ X ≥ 100. Vérification : X = 100 → capital 300, seuil 150, CP 150 = la moitié exactement couverte → plus de perte de capital (inégalité stricte, mémento §10.2). Base légale : art. 725a al. 1 CO.",
+    "Faux. 75 est insuffisant : capital 275, seuil 137,5, CP 125 < 137,5 — la perte de capital subsiste.",
+    "Faux. 50 correspond au seul « manque » apparent (100 − 50), en oubliant que l'augmentation relève AUSSI le seuil : capital 250, seuil 125, CP 100 < 125 — la perte de capital subsiste."
+   ]
+  },
+  {
+   "id": "CRA-119",
+   "champ": "Dissolution de réserves latentes — part minimale",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Capital-actions 200 · report −80 · perte −70 · CP 50. L'entreprise dispose de réserves latentes de 80. Quelle part minimale faut-il dissoudre pour supprimer la perte de capital ?",
+   "options": [
+    "100 seraient nécessaires, donc les réserves latentes ne suffisent pas.",
+    "80",
+    "60",
+    "50"
+   ],
+   "correct": 3,
+   "piege": "réserves latentes : seuil inchangé",
+   "explications": [
+    "Faux. Ce raisonnement transpose la logique de l'augmentation de capital (où le seuil monte avec l'apport) ou d'une réévaluation au sens de l'art. 725c CO (dont la réserve de réévaluation entre dans la valeur de référence). Ici, la dissolution de réserves latentes passe par le RÉSULTAT et ne modifie pas la valeur de référence : 50 suffisent.",
+    "Faux. Dissoudre les 80 disponibles dépasse le strict nécessaire : dès 50, les CP atteignent le seuil de 100.",
+    "Faux. 60 dépasse aussi le minimum : le manque à combler n'est que de 50 (100 − 50).",
+    "Juste. Valeur de référence = capital 200, seuil = 100 ; CP 50 → il manque 50. La dissolution de réserves latentes majore les CP (produit au compte de résultat) SANS modifier la valeur de référence (ni nouveau capital, ni nouvelle réserve légale) : le seuil reste 100. Dissoudre 50 porte les CP à 100 = moitié exactement couverte → plus de perte de capital ; les 80 disponibles suffisent largement. Base légale : art. 725a al. 1 CO ; mémento §10.2."
+   ]
+  },
+  {
+   "id": "CRA-120",
+   "champ": "Moment de constatation juridique",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "À quel moment une perte de capital est-elle pertinente sur le plan juridique ?",
+   "options": [
+    "à tout moment",
+    "à la fin de l'exercice",
+    "à chaque fois que sont établis les comptes intermédiaires et les comptes annuels",
+    "à la fin d'une année civile"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. « À tout moment » décrit le SURENDETTEMENT (art. 725b CO : dès qu'il existe des raisons sérieuses, en cours d'année). La perte de capital, elle, s'apprécie sur des comptes ÉTABLIS.",
+    "Faux. Trop restrictif : des comptes intermédiaires établis en cours d'année peuvent aussi révéler la perte de capital et la rendre juridiquement pertinente.",
+    "Juste. La perte de capital s'apprécie sur des comptes établis : l'art. 725a al. 1 CO vise les « derniers comptes annuels » (cas type retenu par le mémento §10.2, tableau : « derniers comptes annuels (fin d'exercice) »), mais des comptes intermédiaires établis qui la révèlent imposent également au CA d'agir.",
+    "Faux. Cette option confond l'exercice social avec l'année civile : la clôture ne tombe pas nécessairement au 31 décembre."
+   ]
+  },
+  {
+   "id": "CRA-121",
+   "champ": "Postes exclus de la valeur de référence",
+   "memento": "§10.2",
+   "difficulte": 1,
+   "question": "Quel poste des fonds propres n'est PAS pris en compte dans le calcul de la valeur de référence ?",
+   "options": [
+    "Capital-participations",
+    "Capital-actions non libéré",
+    "Réserves statutaires",
+    "Réserves de réévaluation"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Le capital-participations entre dans la valeur de référence pour son montant intégral, au nominal (mémento §10.2, tableau des postes).",
+    "Faux. Le capital-actions non libéré compte aussi : le capital est retenu au NOMINAL, la part non libérée figurant à l'actif comme créance de libération.",
+    "Juste. Les réserves statutaires — comme les réserves facultatives issues du bénéfice — sont EXCLUES de la valeur de référence (mémento §10.2, tableau : « Réserves statutaires · réserves facultatives issues du bénéfice → Non »). Base légale : art. 725a al. 1 CO ; plafonds des réserves légales : art. 671 CO.",
+    "Faux. La réserve de réévaluation (immeubles / participations, art. 725c CO) entre pour son montant intégral dans la valeur de référence."
+   ]
+  },
+  {
+   "id": "CRA-122",
+   "champ": "Ordre de compensation des pertes avec les réserves (art. 674)",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Capital-actions 200 · rés. lég. bénéfice 60 · rés. lég. capital 80 · bénéfice reporté 50 · réserves facultatives issues du bénéfice 50 · perte de l'exercice −180 · CP 260. Le CA veut proposer à l'AG de compenser la perte avec les réserves : laquelle des demandes est conforme à la loi ?",
+   "options": [
+    "Le bénéfice reporté et les réserves facultatives issues du bénéfice sont entièrement compensés avec la perte ; le montant restant (80) est compensé avec la réserve légale issue du capital.",
+    "Le bénéfice reporté, les réserves facultatives issues du bénéfice et la réserve légale issue du bénéfice sont entièrement compensés ; sur la réserve légale issue du capital, seuls 20 sont compensés.",
+    "Toutes les propositions citées sont conformes à la loi.",
+    "La perte de l'exercice doit être répartie proportionnellement entre les postes."
+   ],
+   "correct": 1,
+   "piege": "ordre légal de compensation",
+   "explications": [
+    "Faux. Cette proposition saute la réserve légale issue du bénéfice (60) et impute 80 directement sur la réserve légale issue du capital : l'ordre impératif de l'art. 674 CO est violé — la réserve légale issue du bénéfice doit être épuisée AVANT de toucher à celle issue du capital.",
+    "Juste. L'art. 674 CO (droit révisé, 1.1.2023) impose un ORDRE de compensation des pertes : 1) bénéfice reporté (50), 2) réserves facultatives issues du bénéfice (50), 3) réserve légale issue du bénéfice (60), 4) réserve légale issue du capital. Perte 180 : 50 + 50 + 60 = 160, puis 20 seulement sur la réserve légale issue du capital. Le mémento renvoie à cet ordre (§10.4, Connexions : art. 674 CO, compensation des réserves décidée par l'AG) sans le détailler poste par poste.",
+    "Faux. Les propositions ne sont pas équivalentes : depuis le 1.1.2023, l'ordre légal est impératif — la libre imputation d'avant 2023 n'a plus cours.",
+    "Faux. Aucune répartition proportionnelle n'est prévue par la loi : l'art. 674 CO fixe une séquence, pas une clé de répartition."
+   ]
+  },
+  {
+   "id": "CRA-123",
+   "champ": "Mesure d'assainissement soumise à l'accord préalable de l'AG",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Quelle mesure d'assainissement le Conseil d'administration ne peut-il réaliser qu'avec l'accord préalable de l'Assemblée générale ?",
+   "options": [
+    "Réévaluation de participations (valeur vénale au maximum)",
+    "Mise en œuvre d'une augmentation autorisée du capital",
+    "Dissolution de réserves latentes",
+    "Compensation des réserves légales issues du bénéfice avec les pertes (aucune modification des fonds propres sans l'accord des actionnaires)"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La réévaluation (art. 725c CO) est décidée par le CA, avec confirmation écrite (attestation) d'un réviseur agréé — aucun vote de l'AG n'est requis (mémento §10.3, Réévaluation).",
+    "Faux. L'augmentation « AUTORISÉE » du capital a précisément déjà été consentie par l'AG : le CA l'exécute dans le cadre fixé, sans nouvelle décision des actionnaires.",
+    "Faux. La dissolution de réserves latentes est une mesure d'évaluation qui relève de la compétence du CA (établissement des comptes).",
+    "Juste. Compenser les réserves légales issues du bénéfice avec les pertes modifie la structure des fonds propres : cela relève de la décision de l'AG statuant sur les comptes et l'emploi du résultat (art. 674 / 698 CO) → accord préalable de l'AG requis. Cohérent avec le mémento (§10.4, Connexions : art. 674 CO — ordre de compensation des réserves décidé par l'AG ; §10.2 : le CA ne propose à l'AG que les mesures qui relèvent d'elle)."
+   ]
+  },
+  {
+   "id": "CRA-124",
+   "champ": "Où la perte de capital est-elle visible dans les comptes",
+   "memento": "§10.2",
+   "difficulte": 1,
+   "question": "Dans quel élément des comptes annuels audités le lecteur doit-il pouvoir reconnaître la perte de capital ?",
+   "options": [
+    "Bilan ou annexe",
+    "Compte de résultat",
+    "Rapport de l'auditeur",
+    "Bilan et rapport de l'auditeur"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste. La perte de capital se lit dans la structure des fonds propres au BILAN (report de pertes / perte de l'exercice ramenant les CP sous la moitié de la valeur de référence), le cas échéant précisée dans l'ANNEXE. C'est la comparaison CP < ½ × valeur de référence du mémento §10.2. Base légale : art. 725a al. 1 CO.",
+    "Faux. Le compte de résultat ne montre que la perte de la PÉRIODE, pas la situation cumulée des fonds propres par rapport à la valeur de référence.",
+    "Faux. Le rapport de l'auditeur n'exprime pas la perte de capital dans l'opinion (elle ne modifie jamais l'opinion, mémento §10.2, Piège) ; elle n'y apparaît, en paragraphe « autres obligations », qu'en cas d'inaction du CA (art. 728c al. 2 CO).",
+    "Faux. La moitié de cette réponse est erronée : le rapport de l'auditeur n'est pas le lieu normal de constatation de la perte de capital (voir option précédente)."
+   ]
+  },
+  {
+   "id": "CRA-125",
+   "champ": "Incidence sur le rapport de l'organe de révision",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Quelle incidence la perte de capital a-t-elle sur le rapport de l'organe de révision, et quelle modification s'impose ?",
+   "options": [
+    "Ajout d'un paragraphe relatif à d'autres points et présence obligatoire de l'organe de révision à l'Assemblée générale",
+    "Ajout d'un paragraphe relatif à d'autres points et rapport supplémentaire obligatoire au Conseil d'administration",
+    "Ajout d'un paragraphe relatif à d'autres points et explication verbale obligatoire de l'organe de révision à l'Assemblée générale",
+    "Ajout d'un paragraphe relatif à d'autres points et, le cas échéant, mention d'une violation de la loi (en cas d'inaction du Conseil d'administration)"
+   ],
+   "correct": 3,
+   "piege": "réflexe de l'ancien droit",
+   "explications": [
+    "Faux. La « présence obligatoire à l'AG » relève de l'ANCIEN droit (art. 725 aCO) : le nouvel art. 725a CO ne l'exige plus, et l'organe de révision ne convoque ni n'intervient d'office à l'AG (mémento §10.2, encadré « changement de norme »).",
+    "Faux. Un « rapport supplémentaire obligatoire au CA » n'est pas la conséquence prévue d'une perte de capital ; le rapport détaillé au CA existe en contrôle ordinaire indépendamment de cette situation.",
+    "Faux. L'« explication verbale obligatoire à l'AG » est, comme l'option A, un vestige de l'ancien droit — supprimé par la révision du 1.1.2023.",
+    "Juste. La perte de capital NE modifie PAS l'opinion : elle est signalée dans un paragraphe relatif à d'autres points / autres obligations de communication. Ce qui peut constituer une violation de la loi à mentionner, c'est l'INACTION du CA (mesures non prises, avis omis) — art. 728c al. 2 CO (mémento §10.2, Piège : « la perte de capital ne modifie PAS l'opinion »). Base légale : art. 725a, art. 728c al. 2 CO."
+   ]
+  },
+  {
+   "id": "CRA-126",
+   "champ": "Type de contrôle où la perte de capital est pertinente",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Pour lequel de ces contrôles une perte de capital est-elle pertinente ?",
+   "options": [
+    "Contrôle ordinaire des comptes semestriels d'une société cotée",
+    "Contrôle restreint d'une entreprise commerciale",
+    "Contrôle ordinaire de comptes consolidés",
+    "Revue limitée des « reporting packages » d'une entreprise selon les IFRS"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La constatation légale de la perte de capital se fonde sur les derniers comptes ANNUELS statutaires (art. 725a al. 1 CO), pas sur des comptes semestriels.",
+    "Juste. La perte de capital (art. 725a CO) s'apprécie sur les comptes annuels STATUTAIRES individuels d'une société de capitaux suisse : elle est donc pertinente quel que soit le régime de révision, y compris dans un contrôle restreint (art. 729 ss CO) d'une entreprise commerciale. Le mémento §10.2 rattache la perte de capital aux « derniers comptes annuels » de la société.",
+    "Faux. Les comptes CONSOLIDÉS ne servent pas au calcul de la perte de capital : le concept est lié aux comptes statutaires individuels de la société.",
+    "Faux. Une revue de reporting packages IFRS n'est pas un contrôle de comptes statutaires suisses : l'art. 725a CO n'y trouve pas application."
+   ]
+  },
+  {
+   "id": "CRA-127",
+   "champ": "Forme juridique concernée par la perte de moitié du capital",
+   "memento": "§10.2",
+   "difficulte": 1,
+   "question": "Pour l'examen de quelle forme juridique la perte de la moitié du capital est-elle pertinente ?",
+   "options": [
+    "Association",
+    "Sàrl",
+    "Fondation",
+    "Société en nom collectif"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'association n'a pas de capital-actions : le mécanisme de la perte de la moitié du capital (art. 725a CO) ne lui est pas applicable.",
+    "Juste. La perte de capital (art. 725a CO) vise la SA ; l'art. 820 CO renvoie à ces règles pour la Sàrl, dotée d'un capital social. Le renvoi de l'art. 820 CO n'est pas détaillé dans le mémento (qui traite le mécanisme 725a pour la SA, §10.2) — il provient du corrigé d'origine.",
+    "Faux. La fondation n'a pas de capital protégé au sens de l'art. 725a CO (elle relève de la surveillance des fondations en cas de difficultés financières).",
+    "Faux. Dans la société en nom collectif, les associés répondent personnellement et solidairement : il n'y a pas de capital-actions protégé au sens de l'art. 725a CO."
+   ]
+  },
+  {
+   "id": "CRA-128",
+   "champ": "Réévaluation (725c) en cas de perte de capital",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Quelle affirmation sur la réévaluation dans le contexte d'une perte de capital est correcte ?",
+   "options": [
+    "La réévaluation doit être approuvée par l'AG et ne peut être décidée qu'à l'Assemblée générale.",
+    "Une réévaluation des participations et des immeubles est autorisée jusqu'à concurrence de la valeur comptable.",
+    "La réévaluation est comptabilisée dans le compte de résultat, si bien que la valeur de référence ne change pas.",
+    "La réévaluation est contrôlée par l'organe de révision, qui doit également en attester."
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. La réévaluation est décidée par le CA (avec confirmation écrite d'un réviseur agréé), elle n'est pas réservée à l'AG.",
+    "Faux. La réévaluation va jusqu'à la valeur RÉELLE (vénale) au maximum — donc au-dessus de la valeur comptable, sinon elle serait sans effet (mémento §10.3 : « jusqu'à leur valeur réelle au maximum »).",
+    "Faux. La plus-value est portée à une RÉSERVE de réévaluation (fonds propres), pas au compte de résultat, et cette réserve ENTRE dans la valeur de référence pour son montant intégral (mémento §10.2, tableau) : la valeur de référence augmente donc.",
+    "Juste. L'art. 725c CO exige qu'un réviseur agréé confirme par ÉCRIT (atteste) le respect des dispositions légales pour la réévaluation des immeubles et participations (mémento §10.3, Réévaluation)."
+   ]
+  },
+  {
+   "id": "CRA-129",
+   "champ": "Mesure inefficace contre la perte de capital — postposition",
+   "memento": "§10.2 · §10.4",
+   "difficulte": 2,
+   "question": "Parmi ces mesures, laquelle ne constitue PAS une mesure efficace contre une perte de capital ?",
+   "options": [
+    "Augmentation du capital",
+    "Obtention d'une postposition",
+    "Dissolution de réserves latentes",
+    "Compensation des pertes"
+   ],
+   "correct": 1,
+   "piege": "postposition ≠ assainissement",
+   "explications": [
+    "Faux (mesure efficace). L'augmentation du capital apporte des fonds propres : elle relève à la fois les CP et le seuil, avec un effet net positif dès que l'apport est suffisant (cf. le calcul du minimum, mémento §10.2).",
+    "Juste (mesure inefficace). La postposition (art. 725b al. 4 ch. 1 CO) n'a d'effet que sur le SURENDETTEMENT : elle dispense d'aviser le tribunal mais n'augmente pas les fonds propres — le mémento §10.4 le dit expressément : « ce n'est PAS une mesure d'assainissement (elle ne réduit pas le surendettement, elle donne du temps) ». Elle ne réduit donc en rien une perte de capital (art. 725a CO).",
+    "Faux (mesure efficace). La dissolution de réserves latentes majore les CP via le résultat, sans toucher à la valeur de référence : elle résorbe la perte de capital.",
+    "Faux (mesure efficace). La compensation des pertes avec les réserves (ordre de l'art. 674 CO) assainit la structure des fonds propres."
+   ]
+  },
+  {
+   "id": "CRA-130",
+   "champ": "Perte de capital — mesures",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Le CA constate une perte de capital au sens de l'art. 725a al. 1 CO. Quelle affirmation est correcte ?",
+   "options": [
+    "La société tient des comptes CO et des comptes IFRS ; l'art. 725a n'est pertinent que si les deux bilans présentent une perte de capital.",
+    "Pour une société cotée publiant des comptes semestriels, le CA doit légalement agir dès qu'une perte de capital apparaît dans les comptes semestriels.",
+    "Le CA doit convoquer une assemblée d'assainissement ; s'il l'omet, l'organe de révision la convoque à sa place.",
+    "S'il existe des réserves latentes, elles peuvent être intégralement dissoutes (au-delà de la seule résorption de la perte), la dissolution étant publiée en annexe."
+   ],
+   "correct": 3,
+   "piege": "ancien droit : assemblée d'assainissement",
+   "explications": [
+    "Faux. L'art. 725a CO se fonde sur les comptes individuels statutaires CO — il n'existe aucune « double condition » CO/IFRS : la perte de capital dans les comptes CO suffit.",
+    "Faux. La perte de capital s'apprécie sur les DERNIERS COMPTES ANNUELS (art. 725a al. 1 CO), non sur des comptes semestriels de publication.",
+    "Faux (ancien droit). Sous le nouvel art. 725a CO, il n'y a plus de convocation automatique d'« assemblée d'assainissement », et l'organe de révision ne convoque JAMAIS l'AG à la place du CA (ancien art. 725 al. 1 aCO abrogé) — mémento §10.2, encadré « changement de norme ».",
+    "Juste. Les réserves latentes réelles peuvent être intégralement dissoutes (réévaluation des actifs sous-évalués, au-delà de la seule résorption de la perte), la dissolution nette étant publiée en annexe (art. 959c al. 1 ch. 3 CO — précision issue du corrigé, le mémento §10.2 traitant la dissolution de réserves latentes comme mesure du CA sans détailler la publication)."
+   ]
+  },
+  {
+   "id": "CRA-131",
+   "champ": "Calcul — holding Group SA",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Group SA (holding) — capital-actions 200, capital-participations 100, réserve légale issue du bénéfice 120, réserve légale issue du capital 80, réserves statutaires issues du bénéfice 110, report de pertes −120, perte au bilan −250. Quelle réponse est correcte ?",
+   "options": [
+    "Il y a perte de capital (art. 725a al. 1 CO) et la valeur de référence est de 300.",
+    "Il n'y a pas de perte de capital (art. 725a al. 1 CO) et la valeur de référence est de 180.",
+    "Il y a perte de capital (art. 725a al. 1 CO) et la valeur de référence est de 225.",
+    "Il n'y a pas de perte de capital (art. 725a al. 1 CO) et la valeur de référence est de 210."
+   ],
+   "correct": 1,
+   "piege": "plafond holding 20 %",
+   "explications": [
+    "Faux. 300 correspond au seul capital (200 + 100), sans les réserves légales plafonnées ; et la conclusion « perte de capital » est erronée puisque CP 240 > seuil 180.",
+    "Juste. Holding → réserves légales plafonnées à 20 % du capital (art. 671 CO ; mémento §10.2, tableau). Capital = 200 + 100 = 300 ; plafond = 20 % × 300 = 60 (les réserves légales 120 + 80 = 200 sont ramenées à 60 ; les statutaires 110 sont exclues). Base = 300 + 60 = 360 ; seuil = ½ × 360 = 180 (la « valeur de référence » au sens de l'exercice). CP = 200 + 100 + 120 + 80 + 110 − 120 − 250 = 240 > 180 → PAS de perte de capital. Base légale : art. 725a al. 1 CO.",
+    "Faux. 225 provient de l'application du plafond ordinaire de 50 % (50 % × 300 = 150 ; ½ × 450 = 225) : le régime HOLDING impose 20 %.",
+    "Faux. 210 ne correspond à aucun calcul cohérent avec les postes donnés — la conclusion « pas de perte » est certes bonne, mais le montant est faux."
+   ]
+  },
+  {
+   "id": "CRA-132",
+   "champ": "Calcul — seuil holding Herrli",
+   "memento": "§10.2",
+   "difficulte": 3,
+   "question": "Herrli International SA (holding pure) — capital-actions 300, capital-participations 50, réserve légale issue du bénéfice 78, réserve légale issue du capital 32. À partir de quel total des capitaux propres (KCHF, arrondis) existe-t-il une perte de capital au sens de l'art. 725a al. 1 CO ?",
+   "options": [
+    "210",
+    "209",
+    "230",
+    "229"
+   ],
+   "correct": 1,
+   "piege": "inégalité stricte au seuil",
+   "explications": [
+    "Faux. 210 est le seuil exact — mais à CP = 210, la moitié de la valeur de référence est EXACTEMENT couverte : il n'y a pas encore de perte de capital (l'art. 725a al. 1 CO exige que l'actif « ne couvre plus » la moitié → inégalité stricte).",
+    "Juste. Holding → plafond des réserves légales = 20 % du capital (art. 671 CO). Capital = 300 + 50 = 350 ; plafond = 20 % × 350 = 70 (réserves légales 78 + 32 = 110 ramenées à 70). Base = 350 + 70 = 420 ; seuil = ½ × 420 = 210. Perte de capital lorsque CP < 210 ; en KCHF arrondis, elle apparaît donc à partir de 209. Base : art. 725a al. 1 CO ; mémento §10.2 (formule CP < ½ × valeur de référence et plafond holding 20 %).",
+    "Faux. 230 = ½ × (350 + 110) : les réserves légales sont retenues intégralement (le plafond de 20 % holding est ignoré — 110 < 50 % × 350, d'où l'illusion qu'aucun plafond ne joue).",
+    "Faux. 229 combine l'erreur de plafond (base 460 au lieu de 420) avec le raisonnement — correct en soi — de l'inégalité stricte : le point de départ est faux."
+   ]
+  },
+  {
+   "id": "CRA-133",
+   "champ": "Changement de norme — ancien vs nouveau 725",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Sous le droit de la SA en vigueur depuis le 1.1.2023, quelle affirmation est correcte concernant l'architecture des art. 725 ss CO ?",
+   "options": [
+    "L'ancien art. 725 aCO unique (perte de capital à l'al. 1, surendettement à l'al. 2) reste applicable.",
+    "Le régime est éclaté : art. 725 (insolvabilité), 725a (perte de capital), 725b (surendettement), 725c (réévaluation) ; la perte de capital ne déclenche plus la convocation automatique de l'AG.",
+    "La perte de capital impose toujours au CA de convoquer immédiatement une assemblée d'assainissement.",
+    "En cas d'inaction du CA, l'organe de révision convoque l'AG à sa place."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'ancien art. 725 aCO unique a été abrogé au 1.1.2023 : il est remplacé par quatre dispositions distinctes.",
+    "Juste. Le droit révisé éclate le régime : art. 725 (insolvabilité imminente), 725a (perte de capital), 725b (surendettement), 725c (réévaluation) — mémento §10 (intro : « insolvabilité (725), perte de capital (725a), surendettement (725b), réévaluation (725c) »). Sous l'art. 725a, la perte de capital n'impose plus la convocation automatique de l'AG : le CA prend les mesures de sa compétence et ne propose à l'AG que celles qui relèvent d'elle (mémento §10.2, encadré « changement de norme »).",
+    "Faux (ancien droit). L'« assemblée d'assainissement » obligatoire relevait de l'ancien art. 725 al. 1 aCO ; le nouvel art. 725a CO ne l'exige plus.",
+    "Faux. L'organe de révision ne se substitue JAMAIS au CA pour convoquer l'AG — c'était un enseignement de l'ancien droit, expressément écarté par le mémento (§10.2)."
+   ]
+  }
+ ]
+}

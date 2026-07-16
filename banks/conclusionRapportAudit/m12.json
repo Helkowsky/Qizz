@@ -1,0 +1,129 @@
+{
+ "module": "M12",
+ "titre": "12. Parties liées (550)",
+ "questions": [
+  {
+   "id": "CRA-200",
+   "champ": "Transactions sans risque accru",
+   "memento": "§15",
+   "difficulte": 2,
+   "question": "Quel type de transaction avec des parties liées n'entraîne généralement PAS de risques accrus ?",
+   "options": [
+    "Large éventail de liens et structures complexes",
+    "Systèmes d'information inefficaces pour identifier les transactions entre parties liées",
+    "Facturation de prestations RH internes au groupe à des conditions conformes au marché",
+    "Transactions effectuées à des conditions de marché non habituelles"
+   ],
+   "correct": 2,
+   "explications": [
+    "Facteur de risque accru : un large éventail de liens et des structures complexes rendent difficile l'identification des parties liées et le suivi des flux entre elles (ISA-CH 550).",
+    "Facteur de risque accru : des systèmes d'information inefficaces empêchent l'entité d'identifier et de récapituler les transactions avec ses parties liées.",
+    "Exact : une facturation intragroupe de prestations RH effectuée à des conditions CONFORMES au marché, dans le cadre normal des activités, n'entraîne généralement pas de risque accru — c'est précisément la conformité au marché qui neutralise le risque, celui-ci naissant des flux non conformes (distributions dissimulées, avantages indus ; mémento §15).",
+    "Facteur de risque accru : des conditions de marché non habituelles sont l'indice type d'un avantage indu consenti à une partie liée — possible distribution dissimulée (art. 678 CO ; mémento §15)."
+   ]
+  },
+  {
+   "id": "CRA-201",
+   "champ": "Définition des parties liées",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "Quelle affirmation concernant les parties liées selon l'ISA-CH 550 est FAUSSE ?",
+   "options": [
+    "La définition de l'ISA-CH 550 n'est pas pertinente si le référentiel comptable dispose de ses propres directives",
+    "Sont notamment parties liées les personnes/entités exerçant (in)directement un contrôle ou une influence notable sur le mandant",
+    "Le Code des obligations définit les parties liées et impose des exigences de publication",
+    "Si le droit comptable ne donne pas d'indication, la définition de l'ISA-CH 550 s'applique"
+   ],
+   "correct": 2,
+   "piege": "publication CO ≠ définition",
+   "explications": [
+    "Affirmation exacte : si le référentiel comptable applicable contient ses propres règles sur les parties liées, elles priment — la définition de l'ISA-CH 550 n'est que subsidiaire (ISA-CH 550.10 ; mémento §15 : définition « par le référentiel comptable, ou à défaut par l'ISA-CH 550 »).",
+    "Affirmation exacte : la définition subsidiaire de l'ISA-CH 550 couvre notamment les personnes ou entités exerçant, directement ou indirectement, un contrôle ou une influence notable sur l'entité auditée.",
+    "C'est l'affirmation fausse : le Code des obligations impose certes des exigences de PUBLICATION (art. 959c CO — participations, créances et dettes envers les organes) mais ne contient PAS de véritable définition des parties liées. La confusion entre obligation de publication et définition est le piège (mémento §15 : base CO art. 959a al. 4 / 959c).",
+    "Affirmation exacte : à défaut d'indication du droit comptable, la définition subsidiaire de l'ISA-CH 550 s'applique (mémento §15)."
+   ]
+  },
+  {
+   "id": "CRA-202",
+   "champ": "Compréhension des contrôles internes",
+   "memento": "§15",
+   "difficulte": 2,
+   "question": "Sur quel point l'auditeur n'a PAS besoin de comprendre les contrôles internes de l'entité relatifs aux parties liées ?",
+   "options": [
+    "Le contrôle du respect des conditions de marché lors des transactions",
+    "L'identification des parties liées et des transactions avec celles-ci",
+    "L'autorisation et l'approbation des transactions importantes avec des parties liées",
+    "L'autorisation et l'approbation des transactions importantes sortant du cadre normal des activités"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : la vérification du respect des conditions de marché n'est PAS l'un des domaines de contrôles internes que l'ISA-CH 550.14 impose de comprendre — la démonstration de la conformité au marché incombe à la direction (charge de la preuve, mémento §15), l'auditeur ne l'examinant que lorsque la direction l'affirme dans les comptes. Détail des trois domaines de l'ISA-CH 550.14 non repris dans le mémento.",
+    "Domaine visé par l'ISA-CH 550.14 : les contrôles permettant d'identifier les parties liées et de recenser les transactions conclues avec elles.",
+    "Domaine visé par l'ISA-CH 550.14 : l'autorisation et l'approbation des transactions importantes avec des parties liées.",
+    "Domaine visé par l'ISA-CH 550.14 : l'autorisation et l'approbation des transactions importantes sortant du cadre normal des activités."
+   ]
+  },
+  {
+   "id": "CRA-203",
+   "champ": "Transaction hors cadre normal = risque important",
+   "memento": "§15",
+   "difficulte": 2,
+   "question": "Quelle assertion relative à l'évaluation des risques liés aux parties liées et aux réponses est CORRECTE ?",
+   "options": [
+    "Les transactions importantes hors cadre normal sont traitées de la même manière, qu'elles impliquent ou non des parties liées",
+    "Les transactions importantes avec parties liées hors cadre normal entraînent toujours des risques importants",
+    "Des procédures doivent toujours être mises en œuvre pour vérifier que les transactions avec parties liées sont aux conditions du marché",
+    "Face à des parties liées non divulguées, il suffit d'informer la direction et de n'agir que si des indices de fraude existent"
+   ],
+   "correct": 1,
+   "piege": "hors cadre normal = toujours important",
+   "explications": [
+    "Faux : lorsqu'une transaction importante hors cadre normal implique une PARTIE LIÉE, elle est automatiquement classée en risque important — le traitement n'est donc pas identique à celui d'une transaction avec un tiers.",
+    "Exact : les transactions importantes avec des parties liées sortant du cadre normal des activités doivent TOUJOURS être traitées comme des risques importants (ISA-CH 550.18 ; mémento §15 : « transactions hors cadre normal de l'activité = risques importants »).",
+    "Faux : la vérification systématique du caractère arm's length n'est pas exigée — l'auditeur n'examine les conditions de marché que lorsque la direction l'affirme dans les comptes ou qu'un risque identifié l'impose ; la charge de la preuve incombe à la direction (mémento §15).",
+    "Faux : la découverte de parties liées non divulguées déclenche des procédures obligatoires (contrôles de substance, réévaluation du risque, demande d'identification exhaustive — mémento §15) ; informer la direction et attendre des indices de fraude ne suffit pas."
+   ]
+  },
+  {
+   "id": "CRA-204",
+   "champ": "Parties liées non identifiées",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "Lorsque l'auditeur identifie des parties liées non encore déclarées, qu'est-ce qui n'est PAS (inconditionnellement) exigé ?",
+   "options": [
+    "Réaliser des contrôles de substance appropriés concernant ces nouvelles parties liées",
+    "Détecter un risque d'anomalies significatives résultant de fraudes lié à l'identification des parties liées",
+    "Demander à la direction d'identifier toutes les transactions avec la partie liée nouvellement identifiée",
+    "Reconsidérer le risque qu'il puisse exister d'autres parties liées non identifiées"
+   ],
+   "correct": 1,
+   "piege": "exigence conditionnelle vs inconditionnelle",
+   "explications": [
+    "Exigence inconditionnelle (ISA-CH 550.22) : réaliser des contrôles de substance appropriés concernant les parties liées nouvellement identifiées et leurs transactions (mémento §15).",
+    "Exact : l'évaluation des implications sous l'angle de la FRAUDE n'est requise QUE si la non-divulgation par la direction paraît intentionnelle — exigence conditionnelle, non inconditionnelle (ISA-CH 550.22-23). Nuance : le mémento §15 cite la « ré-évaluation du risque de fraude » parmi les réponses sans préciser ce caractère conditionnel.",
+    "Exigence inconditionnelle : demander à la direction d'identifier TOUTES les transactions avec la partie liée nouvellement identifiée (mémento §15 : demande d'identification exhaustive).",
+    "Exigence inconditionnelle : reconsidérer le risque que d'autres parties liées non identifiées puissent exister."
+   ]
+  },
+  {
+   "id": "CRA-205",
+   "champ": "Conditions de marché — charge de la preuve",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "Lors d'un contrôle ordinaire de comptes établis selon le CO, quelle affirmation liée au respect des conditions de marché lors de transactions avec des parties liées est CORRECTE ?",
+   "options": [
+    "Les transactions non conformes aux conditions du marché peuvent donner lieu à une anomalie.",
+    "La direction n'est pas tenue de prouver le respect des conditions du marché.",
+    "De telles transactions doivent obligatoirement figurer dans un paragraphe d'observation du rapport.",
+    "Les transactions avec des parties liées sont interdites par le Code des obligations."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : une transaction avec une partie liée conclue à des conditions non conformes au marché peut constituer une anomalie (évaluation, présentation) et, dans les cas graves, révéler une distribution dissimulée (art. 678 CO), voire une violation de la loi (ISA-CH 550 ; mémento §15 : « transactions non conformes au marché → possible anomalie voire violation de la loi »).",
+    "Faux : c'est l'inverse — la charge de la preuve du respect des conditions de marché incombe à la DIRECTION (mémento §15).",
+    "Faux : aucun paragraphe d'observation n'est automatiquement obligatoire — l'observation (ISA-CH 706) renvoie à un fait correctement présenté dans les comptes et d'importance essentielle ; ce n'est pas un traitement par défaut des transactions avec parties liées.",
+    "Faux : le CO n'interdit pas les transactions avec des parties liées — il exige qu'elles soient conformes (à défaut, restitution selon l'art. 678 CO) et publiées (art. 959c CO ; mémento §15)."
+   ]
+  }
+ ]
+}

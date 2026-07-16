@@ -1,0 +1,192 @@
+{
+ "module": "M10",
+ "titre": "10. Avis obligatoires & violations (728c)",
+ "questions": [
+  {
+   "id": "CRA-171",
+   "champ": "Comptes consolidés omis → autres obligations (terminologie)",
+   "memento": "§10.1 / §5.2",
+   "difficulte": 2,
+   "question": "Zwahlen SA ne souhaite pas établir de comptes consolidés bien qu'elle y soit tenue par la loi. Quelle en est la conséquence pour le rapport d'audit (contrôle ordinaire) ?",
+   "options": [
+    "Autres points selon la NAS-CH 700",
+    "Autres obligations de communication selon la NAS-CH 700",
+    "Autres points selon l'ISA-CH 700",
+    "Autres obligations de communication selon l'ISA-CH 700"
+   ],
+   "correct": 1,
+   "piege": "NAS-CH 700 vs ISA-CH 700",
+   "explications": [
+    "Faux sur le fond : le paragraphe « autres points » est réservé aux faits hors états financiers utiles à la compréhension de l'audit (ISA-CH 706) — autre auditeur l'exercice précédent, changement de type de contrôle. L'omission de comptes consolidés obligatoires est une violation de la loi, qui ne se loge pas là.",
+    "Exact : l'absence de comptes consolidés pourtant obligatoires (art. 963a CO) est une violation de la loi, signalée à l'AG dans les « autres obligations de communication » (art. 728c al. 2 CO). Et en contrôle ordinaire d'une clôture selon le CO, la norme de rapport applicable est la NAS-CH 700 (mémento §10.1 et §5.2).",
+    "Double erreur : mauvais véhicule (« autres points » ne sert pas à signaler une violation de la loi) et mauvaise norme (l'ISA-CH 700 vise l'audit sur mandat, pas le contrôle ordinaire selon le CO — mémento §5.2).",
+    "Bon véhicule (autres obligations de communication, art. 728c CO) mais mauvaise norme : le rapport du contrôle ordinaire d'une clôture CO suit la NAS-CH 700 ; l'ISA-CH 700 est réservée aux audits sur mandat."
+   ]
+  },
+  {
+   "id": "CRA-172",
+   "champ": "Fait générateur d'une violation de la loi",
+   "memento": "§10.1",
+   "difficulte": 2,
+   "question": "Quel fait est le plus susceptible de conduire à une violation de la loi à signaler dans le rapport de l'organe de révision (contrôle ordinaire) ?",
+   "options": [
+    "Les comptes consolidés ne sont pas établis alors que les critères sont clairement remplis.",
+    "La société est surendettée et une assemblée générale « d'assainissement » est convoquée.",
+    "L'assemblée générale est convoquée dans les six mois.",
+    "L'assemblée générale a décidé de verser un dividende conforme à la loi."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : lorsque les critères de consolidation sont clairement remplis, l'absence de comptes consolidés (art. 963a CO) est une violation de la loi que l'organe de révision signale — avertissement écrit au CA, puis information de l'AG si la violation est grave ou si le CA n'agit pas (art. 728c al. 1 et 2 CO ; mémento §10.1).",
+    "Faux : sous le droit révisé (art. 725a/725b CO, en vigueur depuis le 1.1.2023), la notion d'« assemblée d'assainissement » n'existe plus ; et convoquer une AG n'est de toute façon pas une violation — ce qui pourrait le devenir, c'est l'inaction du CA (comptes intermédiaires non établis, avis au juge omis).",
+    "Faux : la tenue de l'AG dans les six mois suivant la clôture est précisément ce que la loi exige (art. 699 al. 2 CO) — c'est un comportement conforme, pas une violation. Le piège inverse (AG non tenue dans les 6 mois) serait, lui, une violation à signaler.",
+    "Faux : un dividende décidé conformément à la loi ne viole rien. Seul un emploi du bénéfice non conforme (art. 671/677 CO) ou une distribution dissimulée (art. 678 CO) serait une violation à signaler (mémento §10.1)."
+   ]
+  },
+  {
+   "id": "CRA-173",
+   "champ": "Perte de capital → autres obligations, pas l'opinion",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Maria Giovanni (contrôle ordinaire) constate une perte significative de capital. Les comptes annuels sont conformes à la loi et aux statuts. Qu'est-ce qui s'applique ?",
+   "options": [
+    "La modification de l'opinion d'audit est nécessaire.",
+    "Il convient de compléter l'annexe avec cette information.",
+    "C'est un exemple possible d'autres obligations de communication à inclure dans le rapport.",
+    "C'est un exemple de point clé d'audit (KAM) à intégrer dans le rapport."
+   ],
+   "correct": 2,
+   "piege": "perte de capital ≠ opinion modifiée",
+   "explications": [
+    "Faux : les comptes étant conformes à la loi et aux statuts, aucune anomalie ne fonde une modification de l'opinion. La perte de capital, en tant que telle, ne modifie JAMAIS l'opinion d'audit (mémento §10.2, piège).",
+    "Faux : l'annexe n'a pas à être complétée — les comptes sont déjà conformes, la perte de capital ressort du bilan. Ce qui pourrait devenir une violation à signaler, c'est l'inaction du CA (mesures non prises), pas la perte de capital elle-même.",
+    "Exact : la perte de capital (art. 725a CO) est l'exemple type d'un fait signalé dans les « autres obligations de communication » du rapport (art. 728c CO), sans aucune incidence sur l'opinion (mémento §10.2).",
+    "Faux : un KAM (ISA-CH 701) décrit une zone d'audit délicate des sociétés cotées ; il ne sert pas de véhicule aux avis obligatoires et ne remplace jamais une communication exigée par la loi."
+   ]
+  },
+  {
+   "id": "CRA-174",
+   "champ": "Violations constatées → ordre d'information (CA d'abord)",
+   "memento": "§10.1",
+   "difficulte": 2,
+   "question": "Bettina Gigax (contrôle ordinaire) découvre par hasard des infractions importantes au droit fiscal et à la loi sur la concurrence. Qu'est-ce qui s'applique ?",
+   "options": [
+    "Il n'y a rien à faire.",
+    "Il convient d'informer l'assemblée générale en premier.",
+    "Il convient d'informer le conseil d'administration en premier.",
+    "L'organe de révision doit informer le ministère public."
+   ],
+   "correct": 2,
+   "piege": "CA d'abord, AG ensuite",
+   "explications": [
+    "Faux : une violation de la loi constatée lors de l'audit déclenche au minimum un avertissement écrit — l'organe de révision ne peut pas rester passif (art. 728c al. 1 CO).",
+    "Faux : l'AG n'est pas le premier destinataire ; elle n'est informée que dans un second temps, si la violation est grave ou si le CA reste inactif (art. 728c al. 2 CO).",
+    "Exact : le mécanisme de l'art. 728c CO est en deux étapes — d'abord l'avertissement écrit au conseil d'administration (al. 1), puis l'information de l'AG seulement si la violation est grave ou si le CA n'agit pas (al. 2) (mémento §10.1).",
+    "Faux : l'organe de révision n'a pas d'obligation générale de dénonciation pénale — aucun avis au ministère public n'est prévu pour des infractions fiscales ou de concurrence. Le seul tiers destinataire prévu par la loi est le tribunal, en cas de surendettement (art. 728c al. 3 CO)."
+   ]
+  },
+  {
+   "id": "CRA-175",
+   "champ": "Prêt à l'actionnaire déprécié → violation de la loi",
+   "memento": "§10.1",
+   "difficulte": 3,
+   "question": "Munch SA : prêt à l'actionnaire majoritaire de CHF 3 mio (taux 3 %, garanties, plan d'amortissement obligatoire) ; la réviseuse constate une correction de valeur de CHF 1 mio sur ce prêt. Les capitaux propres comptabilisés valent CHF 1 mio. Le CA laisse la situation en l'état ; l'écriture est correcte. Que contient le rapport d'audit ?",
+   "options": [
+    "Opinion avec réserve",
+    "Opinion défavorable",
+    "Autres points",
+    "Violation de la loi"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'écriture (correction de valeur de CHF 1 mio) est correcte, donc les comptes ne contiennent pas d'anomalie — rien ne fonde une réserve (ISA-CH 705).",
+    "Faux : a fortiori, sans anomalie il ne peut pas y avoir d'opinion défavorable, réservée aux anomalies significatives ET diffuses.",
+    "Faux : le paragraphe « autres points » (ISA-CH 706) vise des faits hors états financiers sans caractère de violation ; ici, le fait à signaler a précisément le caractère d'une violation de la loi.",
+    "Exact : un prêt à l'actionnaire majoritaire déprécié de CHF 1 mio alors que les capitaux propres ne valent que CHF 1 mio revient économiquement à une restitution non récupérable de fonds à l'actionnaire au détriment du capital — cela évoque une distribution dissimulée / un remboursement prohibé du capital (art. 678 / 680 al. 2 CO), à signaler comme violation de la loi via les autres obligations de communication (art. 728c CO ; mémento §10.1). Qualification juridique discutée — voir divergences.md."
+   ]
+  },
+  {
+   "id": "CRA-176",
+   "champ": "Perte de capital/surendettement → section autres obligations",
+   "memento": "§10.2 / §5.3",
+   "difficulte": 3,
+   "question": "Contrôle ordinaire : perte annuelle CHF 4 mio, capital-actions CHF 1 mio, réserves légales issues du bénéfice CHF 2 mio, aucune autre position de fonds propres, total du bilan CHF 19 mio. Aucune constatation d'audit à clarifier. Que contient le rapport d'audit ?",
+   "options": [
+    "Un paragraphe relatif à d'autres points",
+    "Un paragraphe relatif à des violations de la loi",
+    "Une opinion défavorable",
+    "Une section « Rapport sur les autres obligations légales et réglementaires »"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : « autres points » (ISA-CH 706) vise des faits hors états financiers utiles à comprendre l'audit ; la perte de capital et le surendettement relèvent des avis obligatoires, logés dans la section légale dédiée du rapport NAS-CH 700.",
+    "Faux : une violation supposerait par exemple l'inaction du CA (mesures non prises, comptes intermédiaires non établis) ; l'énoncé n'établit rien de tel — la situation de perte de capital n'est pas en soi une violation (mémento §10.2).",
+    "Faux : « aucune constatation d'audit à clarifier » signifie que les comptes sont conformes — l'opinion reste non modifiée. La perte de capital et le surendettement ne modifient jamais l'opinion.",
+    "Exact : CP = 1 + 2 − 4 = −1 mio → perte de capital (art. 725a CO) et, les capitaux propres étant négatifs, indice de surendettement (art. 725b CO). Ces avis obligatoires prennent place dans la section « Rapport sur les autres obligations légales et réglementaires » du rapport NAS-CH 700 (art. 728c CO ; mémento §5.3 et §10.2)."
+   ]
+  },
+  {
+   "id": "CRA-177",
+   "champ": "Devoir d'information — destinataire de l'avis",
+   "memento": "§10.1",
+   "difficulte": 1,
+   "question": "Qui l'organe de révision doit-il informer d'une perte de capital selon la loi ?",
+   "options": [
+    "Conseil d'administration",
+    "Assemblée générale",
+    "Juge",
+    "Créancier"
+   ],
+   "correct": 0,
+   "piege": "juge = surendettement seulement",
+   "explications": [
+    "Exact : en cas de perte de capital, l'organe de révision adresse un avertissement écrit au CONSEIL D'ADMINISTRATION (art. 728c al. 1 CO) : c'est le CA qui prend les mesures et propose à l'AG celles qui relèvent d'elle (art. 725a CO ; mémento §10.1).",
+    "Faux : l'AG n'est pas le destinataire direct de l'avis ; elle n'est informée, via le rapport (section autres obligations), que si la violation est grave ou si le CA reste inactif — et l'organe de révision ne la convoque jamais à la place du CA (mémento §10.2).",
+    "Faux : le juge (tribunal) n'est avisé qu'en cas de SURENDETTEMENT, et seulement si le CA omet de le faire (art. 725b al. 3, art. 728c al. 3 CO ; mémento §10.3) — jamais pour une simple perte de capital.",
+    "Faux : les créanciers ne sont jamais destinataires d'un avis de l'organe de révision ; leur protection passe par les devoirs du CA et, en cas de surendettement, par l'avis au tribunal."
+   ]
+  },
+  {
+   "id": "CRA-178",
+   "champ": "CA n'informe pas l'AG — que fait l'organe de révision",
+   "memento": "§10.1 / §10.2",
+   "difficulte": 2,
+   "question": "Que fait l'organe de révision si le Conseil d'administration n'informe pas l'Assemblée générale de la perte de capital avec la diligence requise ?",
+   "options": [
+    "Il informe le CA par écrit puis informe lui-même l'Assemblée générale avec la diligence requise.",
+    "Il informe l'office du registre du commerce afin que l'information paraisse dans la FOSC.",
+    "Il attire l'attention sur la perte de capital dans son rapport d'audit destiné à l'Assemblée générale ; il n'y a pas d'autres devoirs d'information.",
+    "Il informe lui-même les actionnaires par écrit."
+   ],
+   "correct": 2,
+   "piege": "substitution au CA = ancien droit",
+   "explications": [
+    "Faux : c'est le réflexe de l'ANCIEN droit (art. 725 al. 1 aCO), où l'organe de révision se substituait au CA défaillant. Sous le droit révisé (art. 725a CO), l'organe de révision n'informe ni ne convoque jamais l'AG à la place du CA (mémento §10.2, changement de norme).",
+    "Faux : aucune publication au registre du commerce ni dans la FOSC n'est prévue pour la perte de capital ; cette voie n'existe pas dans le mécanisme des art. 725a/728c CO.",
+    "Exact : sous le droit révisé, l'organe de révision ne se substitue pas au CA — il attire l'attention sur la perte de capital dans son RAPPORT destiné à l'AG (section autres obligations ; l'inaction du CA pouvant être signalée comme violation de la loi, art. 728c al. 2 CO), sans autre devoir d'information (mémento §10.1 et §10.2).",
+    "Faux : informer directement les actionnaires par écrit n'est prévu par aucune disposition ; la communication de l'organe de révision passe exclusivement par le rapport présenté à l'AG."
+   ]
+  },
+  {
+   "id": "CRA-179",
+   "champ": "Distribution dissimulée de bénéfices",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "En présence d'une distribution dissimulée de bénéfices, quelle condition n'est PAS requise pour qu'un rapport sans réserve ni autres informations obligatoires reste néanmoins justifié ?",
+   "options": [
+    "Le conseil d'administration a été informé par écrit",
+    "Les intérêts des actionnaires minoritaires n'ont pas été lésés",
+    "Les intérêts des créanciers n'ont pas été lésés",
+    "Le bénéficiaire a restitué la distribution à la date du rapport"
+   ],
+   "correct": 3,
+   "piege": "la restitution n'est pas exigée",
+   "explications": [
+    "Cette condition EST requise : l'information écrite du conseil d'administration est la première des trois conditions cumulatives permettant de maintenir un rapport sans réserve malgré une distribution dissimulée (mémento §15, piège).",
+    "Cette condition EST requise : l'absence de lésion des intérêts des actionnaires minoritaires est la deuxième condition cumulative (mémento §15).",
+    "Cette condition EST requise : l'absence de lésion des intérêts des créanciers est la troisième condition cumulative (mémento §15).",
+    "Exact — c'est la condition NON requise : la restitution effective de la distribution à la date du rapport n'est pas exigée pour qu'un rapport sans réserve reste justifié. Seules comptent les trois conditions cumulatives (CA informé par écrit, minoritaires non lésés, créanciers non lésés) ; dans les cas graves, l'opinion devient défavorable (art. 678 CO ; mémento §15)."
+   ]
+  }
+ ]
+}

@@ -10,7 +10,7 @@ window.QCM_BANK["conclusionRapportAudit"] = {
     {
      "id": "CRA-001",
      "champ": "Fait non publiable (perte d'un collaborateur)",
-     "memento": "§3",
+     "memento": "§3.1",
      "difficulte": 2,
      "question": "Almer GmbH (contrôle restreint) déplore, après la date de clôture, le départ d'un collaborateur important du département recherche. Qu'est-ce qui s'applique ?",
      "options": [
@@ -20,12 +20,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une modification des comptes s'impose."
      ],
      "correct": 1,
-     "explication": "B est juste : le départ d'un collaborateur, même clé, est un fait opérationnel né après la clôture ; il n'a pas d'incidence chiffrable sur l'image fidèle et ne fait pas partie des événements postérieurs à publier au sens de l'art. 959c al. 2 ch. 13 CO. A est faux : tout fait postérieur n'est pas publiable, seuls ceux d'importance pour l'appréciation de la situation le sont. C est faux : un ajustement suppose une situation qui existait DÉJÀ à la clôture (créance douteuse, litige pendant) — ici la cause naît après. D est faux : aucune valeur au bilan n'est affectée, donc pas de modification des comptes. Base : art. 959c al. 2 ch. 13 CO (PRIMAIRE), ISA-CH 560. → voir §3 du mémento."
+     "explications": [
+      "Faux : tout fait postérieur n'est pas publiable — seuls les événements d'importance pour l'appréciation de la situation doivent figurer en annexe (art. 959c al. 2 ch. 13 CO). Le départ d'un collaborateur, même clé, n'atteint pas ce seuil.",
+      "Juste : le départ d'un collaborateur est bien un fait né après la clôture, mais c'est un événement opérationnel sans incidence chiffrable sur l'image fidèle ; il ne fait pas partie des événements postérieurs à publier (art. 959c al. 2 ch. 13 CO ; ISA-CH 560 ; mémento §3.1).",
+      "Faux : un ajustement suppose une situation qui existait DÉJÀ à la date de clôture (créance douteuse, litige pendant) et que le fait postérieur ne fait que confirmer — ici la cause naît après la clôture.",
+      "Faux : aucune valeur au bilan n'est affectée par ce départ ; une modification des comptes n'a donc pas d'objet."
+     ]
     },
     {
      "id": "CRA-002",
      "champ": "Sinistre postérieur & doute sur la continuité",
-     "memento": "§3",
+     "memento": "§3.1 · §4.2",
      "difficulte": 2,
      "question": "Beta Sàrl (contrôle ordinaire) subit, après la clôture, la destruction par la foudre d'un atelier de production important ; l'assurance ne couvre que 10 % de la perte. Qu'est-ce qui est le plus juste ?",
      "options": [
@@ -35,12 +40,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il peut y avoir un doute sur la continuité de l'exploitation."
      ],
      "correct": 3,
-     "explication": "D est juste : la perte d'un outil de production majeur non couvert par l'assurance (90 % à charge) peut menacer l'hypothèse de continuité (ISA-CH 570) — au-delà de la simple mention. A est faux : un fait survenu après la clôture EST un événement postérieur (c'est justement sa définition), la cause naissant après la clôture impose une mention en annexe. B est faux : l'art. 959c al. 2 ch. 13 CO oblige à publier les événements postérieurs importants. C est faux : les Swiss GAAP RPC (cadre conceptuel) exigent aussi la publication ; le CO et les RPC sont ici concordants. Base : art. 959c al. 2 ch. 13 CO (PRIMAIRE), ISA-CH 560/570. → voir §3 (et §4 continuité) du mémento."
+     "explications": [
+      "Faux : c'est précisément la définition d'un événement postérieur — un fait survenu APRÈS la date de clôture ; la cause née après la clôture impose une mention en annexe (nature + estimation financière).",
+      "Faux : l'art. 959c al. 2 ch. 13 CO oblige à publier les événements postérieurs importants — un sinistre majeur couvert à 10 % seulement en fait partie.",
+      "Faux : les Swiss GAAP RPC (cadre conceptuel pt 28) exigent aussi la publication ; CO et RPC sont ici concordants, il n'y a pas d'écart entre les deux référentiels.",
+      "Juste : la destruction d'un outil de production majeur dont 90 % de la perte reste à charge est un indicateur d'incertitude type « catastrophe non/sous-assurée » (mémento §4.2) : elle peut menacer l'hypothèse de continuité de l'exploitation (ISA-CH 570), au-delà de la simple mention en annexe (ISA-CH 560)."
+     ]
     },
     {
      "id": "CRA-003",
      "champ": "Rachat postérieur à publier / rôle de l'auditeur",
-     "memento": "§3",
+     "memento": "§3.1",
      "difficulte": 2,
      "question": "Kobolt Sàrl (contrôle ordinaire) rachète un concurrent (financement bancaire), décision prise immédiatement après la clôture. La direction ne veut informer qu'à la prochaine AG (dans un an). Qu'est-ce qui est le plus juste ?",
      "options": [
@@ -50,12 +60,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il n'est pas nécessaire de vérifier si une modification de l'opinion s'impose."
      ],
      "correct": 0,
-     "explication": "A est juste : un rachat de concurrent décidé après la clôture est un événement postérieur donnant lieu à MENTION en annexe (cause née après la clôture, importance manifeste) ; il doit être publié dans les comptes, la direction ne peut pas le différer d'un an. B est faux : c'est précisément le cas d'école d'un événement à mentionner. C est faux : l'organe de révision contrôle et rend compte, il n'APPROUVE jamais les décisions de gestion (compétence de la direction/AG). D est faux : l'auditeur doit toujours apprécier l'incidence sur son opinion — si la direction refuse la mention requise, l'opinion peut devoir être modifiée (ISA-CH 705). Base : art. 959c al. 2 ch. 13 CO (PRIMAIRE), ISA-CH 560. → voir §3 du mémento."
+     "explications": [
+      "Juste : le rachat d'un concurrent décidé après la clôture est l'exemple type de l'événement donnant lieu à MENTION en annexe — cause née après la clôture, importance manifeste (financement bancaire) ; il doit être publié dans les comptes (art. 959c al. 2 ch. 13 CO ; ISA-CH 560), la direction ne peut pas différer l'information d'un an jusqu'à la prochaine AG.",
+      "Faux : c'est précisément le cas d'école d'un événement postérieur à mentionner — situation née après la clôture et significative pour le lecteur des comptes.",
+      "Faux : l'organe de révision contrôle et rend compte, il n'APPROUVE jamais les décisions de gestion — le rachat relève de la compétence de la direction / du CA (et de l'AG le cas échéant).",
+      "Faux : l'auditeur doit toujours apprécier l'incidence d'un tel fait sur son opinion ; si la direction refuse la mention requise en annexe, l'opinion peut devoir être modifiée (ISA-CH 705)."
+     ]
     },
     {
      "id": "CRA-004",
      "champ": "Ce qui N'EST PAS un événement postérieur (perte de client)",
-     "memento": "§3",
+     "memento": "§3.1 · §4.2",
      "difficulte": 2,
      "question": "Survenant après la clôture mais avant la date du rapport d'audit, quel fait n'est PAS qualifié d'événement postérieur à la date de clôture ?",
      "options": [
@@ -65,12 +80,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'échec d'un appel d'offres pour l'acquisition d'un groupe."
      ],
      "correct": 0,
-     "explication": "A est la réponse : la perte d'un client important n'est pas traitée comme un événement postérieur au sens de l'ISA-CH 560 mais comme un indice affectant les activités FUTURES — donc un possible doute sur la continuité (ISA-CH 570), pas une mention/ajustement de 560. B est un événement postérieur type (destruction d'un actif après clôture → mention en annexe). C : une chute de production consécutive à un événement externe majeur postérieur constitue un fait à apprécier au titre de 560/570. D : l'issue défavorable d'une opération de croissance décidée est un fait postérieur à évaluer. Le critère décisif reste la cause/survenance, non le type d'acteur. Base : ISA-CH 560, art. 959c al. 2 ch. 13 CO (PRIMAIRE) ; continuité ISA-CH 570. → voir §3 (piège) du mémento."
+     "explications": [
+      "C'est la réponse : la perte d'un client important n'est pas traitée comme un événement postérieur au sens de l'ISA-CH 560, mais comme un indice affectant les activités FUTURES — donc un possible doute sur la continuité (ISA-CH 570 ; indicateur opérationnel « perte de clients clés », mémento §4.2). Nuance : le mémento traite expressément la perte d'un client survenue AVANT la clôture (§3.1) ; l'extension au cas post-clôture repose sur la logique 560/570 et va un cran au-delà du mémento.",
+      "Est un événement postérieur type : destruction d'un actif après la clôture → mention en annexe (nature + estimation financière), exemple cité au §3.1 du mémento.",
+      "Est un fait postérieur à apprécier : une chute de production due à un événement externe majeur né après la clôture relève de l'ISA-CH 560 (mention) et, le cas échéant, de 570 (continuité).",
+      "Est un fait postérieur à évaluer : l'issue défavorable d'une opération de croissance engagée est un fait nouveau né après la clôture, à apprécier au titre de l'ISA-CH 560."
+     ],
+     "piege": "Perte de client → continuité (570)"
     },
     {
      "id": "CRA-005",
      "champ": "Critère d'appréciation = cause/survenance",
-     "memento": "§3",
+     "memento": "§3.1",
      "difficulte": 1,
      "question": "Qu'est-ce qui s'applique aux événements postérieurs à la date de clôture ?",
      "options": [
@@ -80,12 +101,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Selon les RPC, l'existence d'un événement postérieur s'apprécie en fonction de sa cause / de sa survenance."
      ],
      "correct": 3,
-     "explication": "D est juste : le critère décisif d'un événement postérieur est la CAUSE appréciée selon sa survenance — la situation existait-elle déjà à la clôture (ajustement) ou est-elle née après (mention) ? A est faux : les événements favorables comme défavorables se mentionnent. B est faux : ce sont les faits POSTÉRIEURS (non antérieurs) qui déclenchent l'annexe, et seulement s'ils sont d'importance. C est faux : une Sàrl est dirigée par ses gérants (gérance), pas par un « conseil d'administration » ; la formulation est trompeuse. Base : ISA-CH 560, RPC (cadre conceptuel), art. 959c al. 2 ch. 13 CO (PRIMAIRE). → voir §3 du mémento."
+     "explications": [
+      "Faux : les événements favorables comme défavorables se mentionnent — le critère est l'importance du fait pour l'appréciation de la situation, pas son caractère bon ou mauvais.",
+      "Faux : ce sont les faits POSTÉRIEURS à la clôture (et non antérieurs) qui déclenchent la publication en annexe, et seulement s'ils sont d'importance (art. 959c al. 2 ch. 13 CO).",
+      "Faux : une Sàrl est dirigée par ses gérants (gérance), pas par un « conseil d'administration » — la formulation est trompeuse ; aucune « approbation » de la publication par un CA n'est prévue.",
+      "Juste : le critère décisif d'un événement postérieur est sa CAUSE, appréciée selon sa survenance — la situation existait-elle déjà à la clôture (ajustement) ou est-elle née après (mention) ? (mémento §3.1 ; ISA-CH 560 ; RPC cadre conceptuel pt 28)."
+     ]
     },
     {
      "id": "CRA-006",
      "champ": "Phase 2 (auditeur informé) — action la moins correcte",
-     "memento": "§3 (renvoi §2 déclaration d'intégralité)",
+     "memento": "§3.2 · §2.2",
      "difficulte": 3,
      "question": "Gähwiler SA (contrôle ordinaire) : rapport daté du 14 mars, opinion sans réserve, envoi prévu le 1er avril. Le 29 mars, une plainte substantielle devient hautement probable (sortie de fonds importante), comptabilisée en passif éventuel et non en provision. L'organe de révision en est informé le 29 mars. Qu'est-ce qui est le MOINS juste ?",
      "options": [
@@ -95,12 +121,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision doit discuter de la nécessité de modifier les états financiers."
      ],
      "correct": 0,
-     "explication": "A est le MOINS juste : la déclaration d'intégralité est datée au plus proche de la date du rapport (ici le 14 mars) et ne peut pas être « rouverte » pour y insérer un fait connu le 29 mars — la chronologie l'interdit (déclaration ≤ date du rapport ≤ publication). B, C et D décrivent exactement l'obligation PASSIVE de la phase 2 (entre date du rapport et publication) : dès qu'un fait vient à sa connaissance, l'auditeur (1) en détermine l'influence, (2) en discute avec la direction, (3) apprécie la nécessité de modifier les comptes — d'autant que passer d'un passif éventuel à une provision peut s'imposer si la sortie est hautement probable. Base : ISA-CH 560, ISA-CH 580 & art. 730b al. 1 CO (déclaration d'intégralité, PRIMAIRE). → voir §3 (et §2 pour les dates) du mémento."
+     "explications": [
+      "C'est l'action la MOINS juste : la déclaration d'intégralité est datée au plus proche de la date du rapport et jamais après elle (déclaration ≤ rapport ≤ publication, mémento §2.2) — ici le 14 mars ; elle ne peut pas être « rouverte » pour y insérer un fait connu le 29 mars, la chronologie l'interdit (ISA-CH 580 ; art. 730b al. 1 CO).",
+      "Action correcte de la phase 2 (entre la date du rapport et la publication, mémento §3.2) : dès qu'un fait vient à sa connaissance, l'auditeur doit en déterminer l'influence (ISA-CH 560).",
+      "Action correcte : en phase d'obligation passive, l'auditeur informé doit discuter du fait avec la direction (ISA-CH 560).",
+      "Action correcte : l'auditeur doit apprécier la nécessité de modifier les comptes — d'autant que le passage d'un passif éventuel à une provision peut s'imposer si la sortie de fonds est hautement probable."
+     ],
+     "piege": "Déclaration jamais après le rapport"
     },
     {
      "id": "CRA-007",
      "champ": "Phase 2 — fait non porté à connaissance malgré demande",
-     "memento": "§3",
+     "memento": "§3.2",
      "difficulte": 3,
      "question": "Même cas Gähwiler SA. Malgré sa demande, l'organe de révision n'a pas eu connaissance du fait (plainte du 29 mars) avant l'assemblée générale. Qu'est-ce qui s'applique ?",
      "options": [
@@ -110,12 +142,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision doit discuter de la nécessité de modifier les états financiers."
      ],
      "correct": 0,
-     "explication": "A est juste : après la date de son rapport, l'auditeur n'a qu'une obligation PASSIVE — aucune procédure supplémentaire n'est requise ; il ne réagit que si un fait vient effectivement à sa connaissance. Ici il a demandé l'information (diligence remplie) mais ne l'a pas obtenue : ne connaissant pas le fait, il ne peut ni ne doit agir. B, C et D supposent que l'auditeur SAIT — ce sont les actes corrects de la phase 2 lorsqu'il est informé (cf. question précédente), mais ils n'ont pas d'objet ici puisqu'il ignore le fait. Base : ISA-CH 560 (obligation passive après la date du rapport). → voir §3 du mémento."
+     "explications": [
+      "Juste : après la date de son rapport, l'auditeur n'a qu'une obligation PASSIVE — aucune procédure supplémentaire n'est requise (mémento §3.2) ; il ne réagit que si un fait vient effectivement à sa connaissance. Ici, il a demandé l'information (diligence remplie) sans l'obtenir : ne connaissant pas le fait, il ne peut ni ne doit agir (ISA-CH 560).",
+      "Faux ici : déterminer l'influence du fait suppose que l'auditeur en AIT connaissance — c'est l'acte correct de la phase 2 lorsqu'il est informé, sans objet lorsqu'il ignore le fait.",
+      "Faux ici : discuter avec la direction n'a pas d'objet tant que le fait n'est pas venu à la connaissance de l'auditeur.",
+      "Faux ici : apprécier une modification des états financiers présuppose la connaissance du fait — obligation de la phase 2 seulement si l'auditeur est informé."
+     ]
     },
     {
      "id": "CRA-008",
      "champ": "Phase 3 — comptes modifiés après le rapport, retrait envisagé",
-     "memento": "§3",
+     "memento": "§3.2",
      "difficulte": 3,
      "question": "Même cas Gähwiler SA. Peu avant l'AG, l'organe de révision apprend le fait par le président du CA, qui a aussi modifié le rapport annuel en conséquence. Qu'est-ce qui s'applique ?",
      "options": [
@@ -125,12 +162,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision doit envisager de se retirer."
      ],
      "correct": 3,
-     "explication": "D est la réponse la plus défendable : les documents ont été modifiés APRÈS la date du rapport d'audit sans que l'auditeur ait pu conduire de nouvelles procédures ni émettre un nouveau rapport ; par ailleurs la plainte, hautement probable avec sortie de fonds importante, relèverait d'une provision et non d'un simple passif éventuel — l'opinion sans réserve du 14 mars n'est donc plus adaptée. Ne pouvant plus couvrir des documents amendés dans son dos, l'auditeur doit à tout le moins envisager de se retirer. B est faux : le fait EST désormais présenté (le rapport annuel a été modifié), l'auditeur ne peut affirmer le contraire à l'AG. C est faux : l'AG ne peut se tenir « normalement » sur des comptes/rapports modifiés hors du champ de l'audit. A est faux : l'auditeur doit réagir à une modification postérieure à son rapport (normalement : nouvelles procédures + nouveau rapport avec § d'observation). Base : ISA-CH 560 (comptes modifiés après la date du rapport), ISA-CH 705/706. → voir §3 du mémento."
+     "explications": [
+      "Faux : l'auditeur doit réagir à une modification des comptes postérieure à son rapport — le schéma normal est : nouvelles procédures d'audit + nouveau rapport avec paragraphe d'observation renvoyant au premier rapport (mémento §3.2).",
+      "Faux : le fait EST désormais présenté — le président du CA a modifié le rapport annuel en conséquence ; l'auditeur ne peut pas affirmer le contraire devant l'AG.",
+      "Faux : l'AG ne peut pas se tenir « normalement » sur des comptes et un rapport annuel modifiés hors du champ de l'audit, couverts par une opinion devenue caduque.",
+      "Réponse la plus défendable : les documents ont été modifiés APRÈS la date du rapport sans que l'auditeur ait pu conduire de nouvelles procédures ni émettre un nouveau rapport ; de plus, une plainte hautement probable avec sortie de fonds importante relèverait d'une provision et non d'un passif éventuel — l'opinion sans réserve du 14 mars n'est plus adaptée. Ne pouvant plus couvrir des documents amendés dans son dos, l'auditeur doit à tout le moins envisager de se retirer (ISA-CH 560 ; 705/706). Le « retrait » n'est pas traité tel quel dans le mémento (§3.2 prévoit : nouvelles procédures + nouveau rapport ; prévenir la gouvernance ; empêcher l'usage par des tiers) — la question va un cran au-delà."
+     ]
     },
     {
      "id": "CRA-009",
      "champ": "Source d'appréciation appropriée",
-     "memento": "§3",
+     "memento": "§3.1 · §4.2",
      "difficulte": 2,
      "question": "Quelle est la source de données appropriée pour évaluer les événements postérieurs à la date de clôture ?",
      "options": [
@@ -140,12 +182,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les Normes suisses d'audit des états financiers (NA-CH)."
      ],
      "correct": 2,
-     "explication": "C est juste : la position du conseiller juridique (lettre de l'avocat) est un élément probant pertinent pour apprécier des faits postérieurs tels que litiges, plaintes et prétentions — typiquement la plainte du cas Gähwiler. A et B sont faux : budgets et prévisions de trésorerie portent sur l'AVENIR estimé, non sur la cause/survenance d'un fait déjà réalisé après la clôture ; ils n'appuient pas l'appréciation d'un événement postérieur. D est faux : la NA-CH est la NORME qui encadre la démarche, pas une SOURCE de données probantes sur les faits eux-mêmes. Base : ISA-CH 560 (éléments probants sur les événements postérieurs), ISA-CH 501/560 (confirmations juridiques). → voir §3 du mémento."
+     "explications": [
+      "Faux : les budgets portent sur l'AVENIR estimé ; l'appréciation d'un événement postérieur repose sur la cause/survenance d'un fait déjà réalisé, pas sur des projections — le mémento (§3.1, piège) exclut expressément le budget comme source d'appréciation.",
+      "Faux : même raison — les prévisions de trésorerie sont des données prospectives ; elles servent à l'analyse de la continuité, pas à qualifier un fait postérieur survenu.",
+      "Juste : la prise de position du conseiller juridique (lettre d'avocat) est un élément probant pertinent pour apprécier des faits postérieurs tels que litiges, plaintes et prétentions — cf. « avis des conseillers juridiques » parmi les procédures citées au §4.2 du mémento (ISA-CH 560 ; ISA-CH 501, confirmations juridiques).",
+      "Faux : les NA-CH sont la NORME qui encadre la démarche de l'auditeur, pas une SOURCE de données probantes sur les faits eux-mêmes."
+     ]
     },
     {
      "id": "CRA-010",
      "champ": "Qualification : variation de change postérieure",
-     "memento": "§3",
+     "memento": "§3.1",
      "difficulte": 2,
      "question": "Quel fait peut être qualifié d'événement postérieur à la date de clôture ?",
      "options": [
@@ -155,12 +202,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une forte réduction de l'amortissement des immobilisations corporelles du nouvel exercice."
      ],
      "correct": 2,
-     "explication": "C est juste : une variation de change significative survenant APRÈS la clôture, née après le 31.12, est un événement postérieur donnant lieu à mention en annexe (nature + effet estimé). A est faux : un lancement survenu durant l'exercice précédent est ANTÉRIEUR à la clôture, il relève des comptes de l'exercice. B est faux : des cessions « peu avant la clôture » sont également antérieures — pas des faits postérieurs. D est faux : une baisse d'amortissement du nouvel exercice est une évolution ORDINAIRE et attendue de la gestion, pas un événement postérieur à publier. Le critère reste la survenance après la clôture. Base : ISA-CH 560, art. 959c al. 2 ch. 13 CO (PRIMAIRE). → voir §3 du mémento."
+     "explications": [
+      "Faux : un lancement survenu durant l'exercice précédent est ANTÉRIEUR à la clôture ; il relève des comptes de l'exercice lui-même, pas des événements postérieurs.",
+      "Faux : des cessions d'actifs « peu avant la clôture » sont également antérieures au 31.12 — ce ne sont pas des faits postérieurs.",
+      "Juste : une variation de change significative née APRÈS le 31.12 est un événement postérieur donnant lieu à mention en annexe (nature + effet estimé) — exemple cité tel quel au §3.1 du mémento (ISA-CH 560 ; art. 959c al. 2 ch. 13 CO).",
+      "Faux : une baisse d'amortissement du nouvel exercice est une évolution ORDINAIRE et attendue de la gestion, pas un événement postérieur à publier (mémento §3.1, piège)."
+     ]
     },
     {
      "id": "CRA-011",
      "champ": "Obligations de l'auditeur — proposition correcte",
-     "memento": "§3",
+     "memento": "§3.2",
      "difficulte": 2,
      "question": "Quelle proposition concernant les événements postérieurs à la date de clôture de l'exercice est correcte ?",
      "options": [
@@ -170,12 +222,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le responsable de l'audit doit, lorsque cela est nécessaire, s'exprimer devant l'assemblée générale sur les événements survenus après la date de clôture."
      ],
      "correct": 3,
-     "explication": "Correcte : D. En phase postérieure à la publication et avant l'AG, si le conseil n'informe pas correctement, le représentant de l'organe de révision attire l'attention de l'AG sur le fait — le responsable de l'audit peut donc devoir s'exprimer à l'AG sur ces événements. A est fausse : après signature, l'auditeur conserve une obligation PASSIVE (s'il a connaissance d'un fait : en déterminer l'influence, en discuter avec la direction, apprécier une modification des comptes). B est fausse : les faits « au cours de l'exercice » sont saisis par les comptes eux-mêmes ; les événements POSTÉRIEURS sont ceux survenus après la clôture. C est fausse : un événement postérieur est traité dans les COMPTES (ajustement ou annexe), pas dans le texte du rapport de révision (sauf nouveau rapport avec § d'observation si la direction modifie les comptes). Base : ISA-CH 560 ; art. 959c al. 2 ch. 13 CO. → voir §3 du mémento."
+     "explications": [
+      "Fausse : après la signature du rapport, l'auditeur conserve une obligation PASSIVE — si un fait vient à sa connaissance, il en détermine l'influence, en discute avec la direction et apprécie une modification des comptes (mémento §3.2).",
+      "Fausse : les événements survenus AU COURS de l'exercice sont saisis par les comptes eux-mêmes ; les événements postérieurs sont, par définition, survenus après la date de clôture (ISA-CH 560).",
+      "Fausse : un événement postérieur correctement traité s'inscrit dans les COMPTES (ajustement ou annexe), pas dans le texte du rapport de révision — sauf nouveau rapport avec paragraphe d'observation si la direction modifie les comptes après coup (mémento §3.2, piège).",
+      "Correcte : en phase 3 (après la publication, avant l'AG), si le CA ne communique pas correctement le fait dans le rapport annuel et/ou à l'AG, le représentant de l'organe de révision attire l'attention de l'AG sur cette omission — spécificité suisse (mémento §3.2) ; le responsable de l'audit peut donc devoir s'exprimer devant l'AG (ISA-CH 560)."
+     ]
     },
     {
      "id": "CRA-012",
      "champ": "Fait pré-clôture / doute sur la continuité (cas Hilber GmbH)",
-     "memento": "§3 (lien §4 continuité)",
+     "memento": "§3.1 · §4.1",
      "difficulte": 2,
      "question": "Hilber GmbH (contrôle ordinaire) perd, PEU AVANT la date de clôture de l'exercice, un client important représentant environ 70 % de son chiffre d'affaires annuel. Qu'est-ce qui s'applique ?",
      "options": [
@@ -185,12 +242,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il n'y a aucune information à divulguer dans les comptes annuels."
      ],
      "correct": 2,
-     "explication": "Correcte : C. La perte survenant PEU AVANT la clôture n'est pas un événement postérieur ; elle affecte l'exercice lui-même et, vu son ampleur (70 % du CA), peut jeter un doute sur la continuité de l'exploitation, à décrire en annexe (ISA-CH 570 ; art. 958a CO). A est fausse : le fait est pré-clôture, donc pas un événement postérieur (ISA-CH 560). B est fausse : il n'existe pas de rubrique « événements antérieurs à la date de clôture ». D est fausse : une menace de cette ampleur doit au contraire être divulguée. Base : art. 958a CO (continuité) ; ISA-CH 570 ; ISA-CH 560 (a contrario). → voir §3 du mémento (et §4 pour la continuité)."
+     "explications": [
+      "Fausse : le fait survient PEU AVANT le 31.12, il est donc pré-clôture — pas un événement postérieur (ISA-CH 560 a contrario ; mémento §3.1, piège).",
+      "Fausse : il n'existe pas de rubrique « Événements antérieurs à la date de clôture » en annexe — cette catégorie est inventée.",
+      "Correcte : la perte affecte l'exercice lui-même et, vu son ampleur (70 % du CA), peut jeter un doute sur la continuité de l'exploitation, à décrire en annexe (ISA-CH 570 ; art. 958a CO) — l'exemple du client à 70 % du CA figure tel quel au §4.1 du mémento.",
+      "Fausse : une menace de cette ampleur doit au contraire être divulguée dans les comptes annuels."
+     ],
+     "piege": "Fait pré-clôture ≠ événement postérieur"
     },
     {
      "id": "CRA-013",
      "champ": "Distinguer ce qui n'est PAS un événement postérieur",
-     "memento": "§3",
+     "memento": "§3.1",
      "difficulte": 2,
      "question": "Dans une entreprise soumise au contrôle ordinaire, lequel de ces faits survenant peu APRÈS la date de clôture ne constitue PAS un événement postérieur à publier ?",
      "options": [
@@ -200,7 +263,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La destruction d'un actif immobilisé essentiel"
      ],
      "correct": 2,
-     "explication": "Correcte : C. Une hausse des ventes de 2 % est une évolution ORDINAIRE et attendue de l'activité, non un événement postérieur à publier au sens d'ISA-CH 560. A (décès du CEO), B (rachat d'un concurrent par augmentation de capital) et D (destruction d'un actif essentiel) sont des faits nouveaux, nés après la clôture, significatifs et sans lien avec la situation à la date de clôture : ce sont des événements postérieurs donnant lieu à MENTION en annexe (nature + estimation financière). Base : ISA-CH 560 ; art. 959c al. 2 ch. 13 CO. → voir §3 du mémento."
+     "explications": [
+      "Est un événement postérieur : le décès du CEO est un fait nouveau, né après la clôture, significatif et sans lien avec la situation au 31.12 → mention en annexe (nature + estimation financière) (ISA-CH 560).",
+      "Est un événement postérieur : le rachat d'un concurrent est l'exemple type de la mention en annexe (mémento §3.1), quel qu'en soit le mode de financement (augmentation de capital).",
+      "Correcte : une hausse des ventes de 2 % est une évolution ORDINAIRE et attendue de l'activité, pas un événement postérieur à publier — exemple cité tel quel dans le piège du §3.1 (ISA-CH 560 ; art. 959c al. 2 ch. 13 CO).",
+      "Est un événement postérieur : la destruction d'un actif essentiel après la clôture donne lieu à mention en annexe (exemple du §3.1)."
+     ],
+     "piege": "Évolution ordinaire ≠ événement postérieur"
     },
     {
      "id": "CRA-014",
@@ -215,7 +284,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Mentionner le fait dans les comptes de l'année suivante"
      ],
      "correct": 2,
-     "explication": "Le fait survient APRÈS la date du rapport (20.2) mais AVANT l'AG (15.4) → phase d'obligation passive (ISA-CH 560) : l'auditeur, informé, doit en déterminer l'influence, en discuter avec la direction et apprécier une éventuelle modification des comptes/rapport. La première mesure est donc l'EXAMEN de l'impact (c). b) faux : un client à 65 % du CA a un impact potentiel majeur (continuité). a) « rappel du rapport » : mesure ultérieure éventuelle, seulement si les comptes doivent être modifiés. d) faux : on ne renvoie pas d'office à l'exercice suivant sans avoir apprécié l'incidence. Base : ISA-CH 560. → voir §3.2 du mémento."
+     "explications": [
+      "Faux à ce stade : le « rappel » du rapport est une mesure ultérieure éventuelle, envisageable seulement s'il s'avère que les comptes ou le rapport doivent être modifiés — pas la première réaction.",
+      "Faux : un client représentant 65 % du CA a un impact potentiel majeur (doute sur la continuité, ISA-CH 570) ; l'inaction n'est pas défendable.",
+      "Juste : le fait survient APRÈS la date du rapport (20.2) mais AVANT l'AG (15.4) → obligation passive (mémento §3.2) : l'auditeur informé doit déterminer l'influence du fait, en discuter avec la direction et apprécier une éventuelle modification des comptes/du rapport — la première mesure est donc l'EXAMEN de l'impact (ISA-CH 560).",
+      "Faux : on ne renvoie pas d'office le traitement à l'exercice suivant sans avoir apprécié l'incidence sur les comptes 20X0 et sur le rapport."
+     ]
     }
    ]
   },
@@ -226,7 +300,7 @@ window.QCM_BANK["conclusionRapportAudit"] = {
     {
      "id": "CRA-015",
      "champ": "Activités de clôture obligatoires (contrôle ordinaire)",
-     "memento": "§1",
+     "memento": "§1.2",
      "difficulte": 2,
      "question": "Selon les Normes suisses d'audit des états financiers (NA-CH), quelle activité doit obligatoirement être exécutée lors de la phase de clôture d'un contrôle ordinaire, lorsqu'il n'existe aucun doute sur la continuité de l'exploitation ?",
      "options": [
@@ -236,12 +310,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un entretien clé avec le président du conseil d'administration"
      ],
      "correct": 0,
-     "explication": "Correcte : les procédures analytiques finales sont une activité de clôture obligatoire (cohérence d'ensemble des comptes avec la connaissance de l'entité, attentes définies à l'avance) — ISA-CH 520.6. B (confirmation de mission) est un acte d'acceptation/planification, pas de clôture. C (examen des contrôles inefficaces) relève des tests de contrôle en phase de réalisation, non de la clôture. D (entretien avec le président du CA) n'est pas une activité de clôture obligatoire. À la clôture on consolide et on conclut, on ne relance pas les tests de détail. Base : ISA-CH 520 ; art. 728a CO (contrôle ordinaire). → voir §1 du mémento."
+     "explications": [
+      "Juste : les procédures analytiques finales sont une activité de clôture obligatoire — cohérence d'ensemble des comptes avec la connaissance de l'entité, attentes définies à l'avance (ISA-CH 520.6 ; mémento §1.2 ; art. 728a CO pour le contrôle ordinaire).",
+      "Faux : le contrôle de la lettre de confirmation de la mission relève de l'acceptation/planification de la mission, pas de la phase de clôture.",
+      "Faux : l'examen des contrôles internes jugés inefficaces relève des tests de contrôle de la phase de RÉALISATION — le mémento le cite expressément parmi ce qui n'est PAS une activité de clôture (§1.2, piège).",
+      "Faux : un « entretien clé avec le président du CA » n'est pas une activité de clôture obligatoire (§1.2, piège) ; à la clôture, on consolide et on conclut, on ne relance pas les tests."
+     ],
+     "piege": "Clôture ≠ réalisation"
     },
     {
      "id": "CRA-016",
      "champ": "Procédures analytiques finales (520) — proposition fausse",
-     "memento": "§1",
+     "memento": "§1.1",
      "difficulte": 2,
      "question": "Quelle proposition concernant les procédures analytiques finales est FAUSSE ?",
      "options": [
@@ -251,12 +331,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il convient de définir à l'avance les attentes (valeurs attendues)."
      ],
      "correct": 2,
-     "explication": "La proposition fausse est C : à la clôture, les procédures analytiques portent précisément sur la COHÉRENCE D'ENSEMBLE des comptes annuels, et non sur quelques champs isolés ; elles aident à conclure sur les états financiers pris dans leur globalité. A est vraie (obligatoires en phase de clôture, ISA-CH 520.6). B est vraie (c'est bien la norme ISA-CH 520 qui régit les procédures analytiques). D est vraie : la méthode exige de définir les attentes à l'avance, puis de comparer aux valeurs constatées. Base : ISA-CH 520.6. → voir §1 du mémento."
+     "explications": [
+      "Proposition vraie (donc pas la réponse) : les procédures analytiques finales sont obligatoires en phase de clôture (ISA-CH 520.6 ; mémento §1.1).",
+      "Proposition vraie : c'est bien la norme ISA-CH 520 qui régit les procédures analytiques.",
+      "C'est la proposition FAUSSE recherchée : à la clôture, les procédures analytiques portent précisément sur la COHÉRENCE D'ENSEMBLE des comptes annuels avec la connaissance de l'entité, et non sur quelques champs isolés — elles aident à conclure sur les états financiers pris dans leur globalité (ISA-CH 520.6 ; mémento §1.1).",
+      "Proposition vraie : la méthode exige de définir les attentes (valeurs attendues) à l'avance, puis de les comparer aux valeurs constatées (mémento §1.1)."
+     ]
     },
     {
      "id": "CRA-017",
      "champ": "Objectifs de la revue de la documentation d'audit",
-     "memento": "§1",
+     "memento": "§1.1",
      "difficulte": 2,
      "question": "Quel objectif ne fait PAS partie de la revue (examen) de la documentation d'audit à la clôture ?",
      "options": [
@@ -266,12 +351,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Combler l'écart d'attentes (expectation gap) des différentes parties prenantes"
      ],
      "correct": 3,
-     "explication": "Correcte : D. Combler l'« expectation gap » est un enjeu général de la profession d'audit (décalage entre ce que le public attend et ce que l'audit garantit), et non un objectif de la revue interne des dossiers. A est un objectif : la revue par l'associé responsable matérialise le principe des quatre yeux (ISA-CH 220.29/.31). B est un objectif : s'assurer que des éléments probants suffisants et appropriés ont été réunis contribue à ramener le risque d'audit à un niveau acceptable. C est un objectif : la revue est un dispositif d'assurance qualité de la mission. Base : ISA-CH 220 (contrôle qualité de la mission). → voir §1 du mémento."
+     "explications": [
+      "Est un objectif de la revue : la revue critique par l'associé responsable matérialise le principe des « quatre yeux » (ISA-CH 220.29/.31 ; mémento §1.1).",
+      "Est un objectif : s'assurer que des éléments probants suffisants et appropriés ont été réunis contribue à ramener le risque d'audit à un niveau acceptable.",
+      "Est un objectif : la revue de la documentation est un dispositif d'assurance qualité de la mission (ISA-CH 220).",
+      "C'est la réponse : combler l'« expectation gap » (décalage entre ce que le public attend de l'audit et ce que l'audit garantit) est un enjeu général de la profession, pas un objectif de la revue interne des dossiers. La notion d'expectation gap n'apparaît pas dans le mémento (la revue « quatre yeux » y figure au §1.1) — elle relève du cours général."
+     ]
     },
     {
      "id": "CRA-018",
      "champ": "Activités de clôture — ce qui n'en fait pas partie (cas Müller AG)",
-     "memento": "§1",
+     "memento": "§1.2",
      "difficulte": 2,
      "question": "Angelika Huber est responsable du mandat de contrôle ordinaire de Müller AG. Laquelle de ces activités NE fait PAS partie de ses tâches obligatoires de fin d'audit (clôture) ?",
      "options": [
@@ -281,12 +371,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'évaluation des événements postérieurs à la date de clôture de l'exercice"
      ],
      "correct": 1,
-     "explication": "Correcte : B. La demande de confirmations bancaires est une procédure d'obtention d'éléments probants de la phase de RÉALISATION (validation des soldes), et non une activité de clôture. A (procédures analytiques finales), C (revue de la documentation — principe des quatre yeux, ISA-CH 220) et D (évaluation des événements postérieurs, ISA-CH 560) sont, elles, des activités obligatoires de clôture en contrôle ordinaire. Piège classique : à la clôture on consolide et on conclut, on ne relance pas les tests de substance. Base : ISA-CH 505 (confirmations externes, phase de réalisation) vs ISA-CH 520/560/220 (clôture). → voir §1 du mémento."
+     "explications": [
+      "Activité de clôture obligatoire : les procédures analytiques finales portent sur la cohérence d'ensemble des comptes (ISA-CH 520 ; mémento §1.2).",
+      "C'est la réponse : la demande de confirmations bancaires est une procédure d'obtention d'éléments probants de la phase de RÉALISATION (validation des soldes, ISA-CH 505) — le mémento le cite expressément comme piège (§1.2 : à la clôture, on consolide et on conclut, on ne relance pas les tests de substance).",
+      "Activité de clôture obligatoire : la revue de la documentation d'audit matérialise le principe des quatre yeux (ISA-CH 220 ; mémento §1.2).",
+      "Activité de clôture obligatoire : l'évaluation des événements postérieurs fait partie des travaux de fin de mission (ISA-CH 560 ; mémento §1.2)."
+     ],
+     "piege": "Clôture ≠ réalisation"
     },
     {
      "id": "CRA-019",
      "champ": "Déclaration d'intégralité (580) — règle des dates (cas Helfenberger)",
-     "memento": "§2",
+     "memento": "§2.2",
      "difficulte": 2,
      "question": "Peter Helfenberger est responsable d'un mandat de contrôle ordinaire. Le rapport d'audit porte la date du 5 mai et la déclaration d'intégralité celle du 8 mai. Qu'est-ce qui est le plus juste ?",
      "options": [
@@ -296,12 +392,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La date de la déclaration d'intégralité doit être postérieure à celle du rapport d'audit."
      ],
      "correct": 2,
-     "explication": "Règle : date de la déclaration d'intégralité ≤ date du rapport d'audit ≤ date de publication. Le rapport ne peut pas être signé AVANT l'obtention des déclarations écrites de la direction. C est donc juste : le rapport est daté le même jour que la déclaration ou après. Ici, rapport le 5 mai et déclaration le 8 mai est une situation INCORRECTE (le rapport précède la déclaration). A est fausse (les dates sont un point de contrôle). B est fausse : elles peuvent différer, la déclaration devant seulement être au plus proche et jamais postérieure au rapport. D inverse la règle : la déclaration ne doit jamais être postérieure au rapport. Base : ISA-CH 580.9 ; art. 730b al. 1 CO. → voir §2 du mémento."
+     "explications": [
+      "Fausse : les dates sont un point de contrôle essentiel — la chaîne est : date de la déclaration d'intégralité ≤ date du rapport d'audit ≤ date de publication (mémento §2.2). Ici (rapport 5 mai, déclaration 8 mai), la situation est incorrecte.",
+      "Fausse : les deux dates peuvent différer ; la déclaration doit seulement être datée au plus proche du rapport, jamais après lui.",
+      "Juste : le rapport ne peut pas être signé AVANT d'avoir obtenu les déclarations écrites de la direction — il est donc daté le même jour que la déclaration ou plus tard (ISA-CH 580.9 ; art. 730b al. 1 CO ; mémento §2.2). Le cas décrit (rapport avant déclaration) viole cette règle.",
+      "Fausse : cette option inverse la règle — la déclaration d'intégralité ne doit JAMAIS être postérieure au rapport d'audit."
+     ],
+     "piege": "Déclaration jamais après le rapport"
     },
     {
      "id": "CRA-020",
      "champ": "Revue analytique finale / écritures complémentaires (cas Serto AG)",
-     "memento": "§2 (lien §1)",
+     "memento": "§2.1 · §1.1",
      "difficulte": 2,
      "question": "Chez Serto AG, vous constatez que les créances résultant de livraisons et de prestations demeurent à CHF 90 mio alors qu'une correction de valeur importante de CHF 10 mio était nécessaire (issue des écritures complémentaires). Qu'est-ce qui s'applique ?",
      "options": [
@@ -311,12 +413,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une correction de valeur étant un élément subjectif, elle peut être ignorée."
      ],
      "correct": 1,
-     "explication": "Correcte : B. Une correction de valeur nécessaire de CHF 10 mio non comptabilisée constitue une anomalie ; sa détection et le suivi de sa comptabilisation effective relèvent précisément de la revue analytique finale et de l'évaluation des anomalies à la clôture (ISA-CH 520 / 450). A est fausse : une anomalie de CHF 10 mio sur des créances est manifestement pertinente. C est fausse : une anomalie significative de l'exercice ne se reporte pas sur l'exercice suivant, elle doit être corrigée ou évaluée maintenant. D est fausse : le caractère estimatif ne permet pas d'ignorer une correction de valeur requise (ISA-CH 540 encadre au contraire son appréciation). Base : ISA-CH 520 (procédures analytiques) ; ISA-CH 450 (évaluation des anomalies). → voir §2 du mémento."
+     "explications": [
+      "Fausse : une correction de valeur nécessaire de CHF 10 mio sur des créances de CHF 90 mio est manifestement pertinente — c'est une anomalie à évaluer.",
+      "Correcte : la détection de l'anomalie et le suivi de la comptabilisation effective des écritures complémentaires relèvent précisément de la revue analytique finale et de l'évaluation des anomalies à la clôture (ISA-CH 520 ; ISA-CH 450) — le mémento le formule ainsi : « la direction passe les écritures complémentaires ; l'auditeur vérifie la correction » (§2.1).",
+      "Fausse : une anomalie significative de l'exercice ne se reporte pas sur l'exercice suivant ; elle doit être corrigée ou évaluée maintenant (ISA-CH 450).",
+      "Fausse : le caractère estimatif ne permet pas d'ignorer une correction de valeur requise — l'ISA-CH 540 encadre au contraire l'appréciation des estimations."
+     ]
     },
     {
      "id": "CRA-021",
      "champ": "Refus de la déclaration d'intégralité (580) — conséquence sur l'opinion (cas Glaco AG)",
-     "memento": "§2 (lien §6)",
+     "memento": "§2.2 · §6.1",
      "difficulte": 2,
      "question": "Vous êtes responsable du mandat de contrôle ordinaire de Glaco AG. L'assemblée générale est prévue dans quatre semaines et la déclaration d'intégralité manque toujours : la direction refuse de la signer. Quelle en est la conséquence directe pour vous ?",
      "options": [
@@ -326,7 +433,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le rapport d'audit est remis avec une impossibilité d'exprimer une opinion d'audit."
      ],
      "correct": 3,
-     "explication": "Correcte : D. Le refus de la direction de fournir la déclaration d'intégralité constitue une limitation de l'étendue des travaux de caractère DIFFUS (elle met en cause la fiabilité d'ensemble des déclarations de la direction) : l'auditeur émet une impossibilité d'exprimer une opinion. A est fausse : le refus a une conséquence directe majeure. B est fausse : la réserve vise une limitation significative mais NON diffuse ; ici l'atteinte est diffuse. C est fausse : sans cet élément probant essentiel, une opinion sans réserve est exclue. Piège : limitation diffuse -> impossibilité (l'auditeur ne sait pas), à distinguer de l'anomalie diffuse -> opinion défavorable. Base : ISA-CH 580 ; ISA-CH 705 ; art. 730b al. 1 CO. → voir §2 du mémento (et §6 pour l'arbre 705)."
+     "explications": [
+      "Fausse : le refus de la direction a une conséquence directe majeure sur l'opinion — il met en cause la fiabilité d'ensemble de ses déclarations.",
+      "Fausse : la réserve sanctionne une limitation significative mais NON diffuse (mémento §6.1) ; ici l'atteinte est diffuse, la réserve ne suffit pas.",
+      "Fausse : sans cet élément probant essentiel (art. 730b al. 1 CO ; ISA-CH 580), une opinion sans réserve est exclue.",
+      "Juste : le refus de fournir la déclaration d'intégralité constitue une limitation de l'étendue des travaux au caractère DIFFUS → impossibilité d'exprimer une opinion (mémento §2.2, piège ; grille de l'ISA-CH 705, §6.1). À distinguer de l'anomalie diffuse, qui mène à l'opinion défavorable."
+     ],
+     "piege": "Limitation diffuse → impossibilité"
     },
     {
      "id": "CRA-022",
@@ -341,7 +454,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "20 janvier"
      ],
      "correct": 1,
-     "explication": "La déclaration d'intégralité doit être datée AUSSI PROCHE QUE POSSIBLE de la date du rapport d'audit, sans lui être postérieure, et APRÈS l'approbation des comptes par le CA (25 janvier), puisqu'elle confirme les comptes finalisés. Le 26 janvier (b) respecte ces contraintes : après le 25.1, avant l'AG. a) 19 janvier : avant même la fin des travaux (20.1) et l'approbation des comptes → trop tôt. d) 20 janvier : les comptes ne sont pas encore validés par le CA. c) 15 février : c'est la date de l'AG, bien postérieure au rapport → trop tard. Base : ISA-CH 580 ; art. 730b al. 1 CO. → voir §2.2 du mémento."
+     "explications": [
+      "Trop tôt : le 19 janvier, les travaux d'audit ne sont même pas achevés (20.1) et les comptes ne sont pas validés — la déclaration doit confirmer des comptes finalisés.",
+      "Juste : le 26 janvier se situe après la validation des comptes par le CA (25.1), au plus proche du rapport d'audit et avant l'AG — il respecte la chaîne : déclaration ≤ rapport ≤ publication (ISA-CH 580 ; art. 730b al. 1 CO ; mémento §2.2). Précision : la contrainte « après l'approbation des comptes par le CA » n'est pas formulée telle quelle au §2.2 ; elle découle de la logique des responsabilités (le rapport est daté à la fin des dernières opérations d'audit, sur des comptes assumés par le CA — §5.1).",
+      "Trop tard : le 15 février est la date de l'AG, bien postérieure au rapport — la déclaration ne peut jamais être postérieure au rapport d'audit.",
+      "Trop tôt : le 20 janvier, les comptes ne sont pas encore validés par le CA — la déclaration porterait sur des comptes non assumés par lui."
+     ]
     }
    ]
   },
@@ -362,7 +480,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Dans des circonstances simples, le rapport peut être présenté oralement à l'AG si tous les actionnaires sont d'accord"
      ],
      "correct": 0,
-     "explication": "A (juste) : le rapport succinct à l'AG contient obligatoirement une recommandation d'approbation ou de renvoi des comptes (art. 728b al. 2 CO). B : l'évaluation de la situation financière relève du CA (gestion), pas du rapport de l'organe de révision. C : aucune obligation de contrôler spécifiquement les charges de personnel. D : faux — le rapport de révision est écrit ; la présentation orale et la renonciation sont exclues, même en circonstances simples. Base : art. 728b al. 2 CO. → voir §5.1 du mémento."
+     "explications": [
+      "Juste : la recommandation d'approbation ou de renvoi des comptes est un contenu obligatoire du rapport succinct à l'AG (art. 728b al. 2 CO ; mémento §5.1).",
+      "Faux : l'évaluation de la situation financière relève de la gestion (CA/direction), pas du contenu du rapport de l'organe de révision à l'AG.",
+      "Faux : aucune obligation légale n'impose de contrôler spécifiquement les charges de personnel dans le rapport à l'AG.",
+      "Faux : le rapport de révision est obligatoirement ÉCRIT ; la présentation orale et la renonciation sont exclues, même dans des circonstances simples (mémento §5.1, piège)."
+     ]
     },
     {
      "id": "CRA-024",
@@ -377,7 +500,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "… le tableau des flux de trésorerie, pourtant exigé, n'apparaît pas"
      ],
      "correct": 2,
-     "explication": "C (juste) : l'audit fournit une assurance RAISONNABLE, non absolue ; des éléments probants suffisants et appropriés couvrant les positions significatives permettent une opinion non modifiée, sans qu'il faille des preuves sur chaque poste (§5.4, cond. 1-2). A : rapport de gestion manquant légalement dû = violation de la loi (autres obligations) et non un motif d'opinion sans réserve. B : impossibilité de démontrer TOUTES les estimations = limitation de l'étendue → réserve/impossibilité. D : absence d'un tableau des flux de trésorerie exigé = anomalie modifiant l'opinion. Base : ISA-CH 700 · art. 728a CO. → voir §5.4 du mémento."
+     "explications": [
+      "Faux : un rapport annuel/de gestion qui fait défaut alors qu'il est légalement dû est une violation de la loi (art. 961 CO), à traiter dans les « autres obligations » (mémento §5.4, piège) — ce n'est pas une situation compatible avec une opinion sans réserve pure et simple.",
+      "Faux : l'impossibilité de démontrer TOUTES les estimations constitue une limitation de l'étendue des travaux → réserve ou impossibilité selon le caractère diffus (§6.1), pas une opinion sans réserve.",
+      "Juste : l'audit fournit une assurance RAISONNABLE, non absolue ; des éléments probants suffisants et appropriés couvrant les positions significatives permettent une opinion non modifiée, sans qu'il faille des preuves sur chaque poste (ISA-CH 700 ; art. 728a CO ; mémento §5.4, conditions 1-2).",
+      "Faux : l'absence d'un tableau des flux de trésorerie pourtant exigé est une ANOMALIE qui peut modifier l'opinion (mémento §5.4, piège)."
+     ]
     },
     {
      "id": "CRA-025",
@@ -392,7 +520,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Rapport sur les autres obligations légales et réglementaires"
      ],
      "correct": 3,
-     "explication": "D (juste) : « Rapport sur les autres obligations légales et réglementaires » est l'élément 10 de la structure NAS-CH 700 (SCI, emploi du bénéfice, recommandation, communications). A est une formulation approximative/inexacte du titre. B : l'élément s'intitule « Fondement de l'opinion », pas « base du rapport ». C : faux — l'auditeur n'exprime pas de « perspectives pour l'exercice suivant » (pas de jugement prospectif). Base : NAS-CH 700. → voir §5.2 du mémento."
+     "explications": [
+      "Faux : formulation approximative — le titre exact est « Rapport sur les autres obligations légales et réglementaires », pas « rapport sur d'autres dispositions légales ».",
+      "Faux : l'élément correspondant s'intitule « Fondement de l'opinion », pas « base du rapport d'audit ».",
+      "Faux : l'auditeur n'exprime aucune « perspective pour l'exercice suivant » — le rapport ne contient pas de jugement prospectif.",
+      "Juste : « Rapport sur les autres obligations légales et réglementaires » est un des 13 éléments de la structure NAS-CH 700 (mémento §5.2) ; il regroupe l'attestation du SCI, la conformité de l'emploi du bénéfice, la recommandation et les autres communications (§5.3)."
+     ]
     },
     {
      "id": "CRA-026",
@@ -407,12 +540,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "En cas d'opinion défavorable, aucune recommandation de renvoi n'est nécessaire."
      ],
      "correct": 2,
-     "explication": "C est juste : la recommandation d'approbation (ou de renvoi) fait partie du rapport à l'AG en contrôle ordinaire (art. 728b al. 2 CO) comme en contrôle restreint (art. 729b CO) ; c'est une spécificité du droit suisse. A est faux : la recommandation ne lie pas l'AG (art. 731 CO). B est faux : elle émane de l'organe de révision, pas du CA. D est faux : une opinion défavorable s'accompagne d'une recommandation de renvoi. Base : art. 728b al. 2 / 729b / 731 CO (PRIMAIRE). → voir §11 du mémento."
+     "explications": [
+      "Faux : la recommandation guide l'AG mais ne la lie pas — l'AG reste libre de sa décision (art. 731 CO ; mémento §11).",
+      "Faux : la recommandation est un contenu du rapport de l'ORGANE DE RÉVISION (art. 728b al. 2 / 729b CO), pas une compétence du CA.",
+      "Juste : la recommandation d'approbation ou de renvoi est requise en contrôle ordinaire (art. 728b al. 2 CO) COMME en contrôle restreint (art. 729b CO) ; c'est une spécificité du droit suisse (mémento §11 et §9.2).",
+      "Faux : une opinion défavorable s'accompagne au contraire d'une recommandation de RENVOI des comptes (mémento §6.4)."
+     ]
     },
     {
      "id": "CRA-027",
      "champ": "Renvoi non requis si le fait est corrigé",
-     "memento": "§6.4",
+     "memento": "§6.4 · §2.1",
      "difficulte": 2,
      "question": "L'auditeur n'est pas tenu d'exprimer une recommandation de renvoi si…",
      "options": [
@@ -422,12 +560,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "… le fait a des conséquences juridiques pour la société"
      ],
      "correct": 2,
-     "explication": "C (juste) : si le défaut a été corrigé, les comptes sont conformes → opinion non modifiée et recommandation d'approbation ; aucun renvoi. A : une continuité non assurée mal reflétée peut au contraire imposer une modification/renvoi. B : signer la déclaration d'intégralité ne corrige aucun défaut de fond. D : des conséquences juridiques ne dispensent pas du renvoi si le défaut subsiste. Base : art. 728b al. 2 CO · ISA-CH 705. → voir §6.4 du mémento."
+     "explications": [
+      "Faux : une continuité non assurée et mal reflétée dans les comptes peut au contraire imposer une opinion modifiée (base de continuité inappropriée → défavorable, §4.3) et donc un renvoi.",
+      "Faux : signer la déclaration d'intégralité (§2.2) ne corrige aucun défaut de fond des comptes — cela ne dispense pas du renvoi si le défaut subsiste.",
+      "Juste : si le défaut a été corrigé (écritures passées et correction vérifiée par l'auditeur, mémento §2.1), les comptes sont conformes → opinion non modifiée et recommandation d'APPROBATION ; aucun renvoi (art. 728b al. 2 CO ; ISA-CH 705 ; §6.4).",
+      "Faux : des conséquences juridiques pour la société ne dispensent pas du renvoi tant que le défaut demeure dans les comptes."
+     ]
     },
     {
      "id": "CRA-028",
      "champ": "Anomalie immatérielle → recommandation d'approbation",
-     "memento": "§6.4",
+     "memento": "§6.4 · §2.1",
      "difficulte": 2,
      "question": "Zwellweger AG (contrôle ordinaire) : les amortissements sont légèrement sous-estimés, mais en dessous du seuil de matérialité ; l'impact sur les fonds propres et le bénéfice est marginal. Que s'applique-t-il ?",
      "options": [
@@ -437,7 +580,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision ne peut ni approuver ni renvoyer les comptes."
      ],
      "correct": 1,
-     "explication": "B est juste : la recommandation est un élément obligatoire du rapport à l'AG (art. 728b al. 2 CO) ; l'anomalie étant immatérielle, l'opinion reste non modifiée et la recommandation est nécessairement l'approbation. A est faux : la recommandation ne peut être omise. C est faux : pas de renvoi pour une anomalie non significative. D est faux : une recommandation est toujours requise. Base : art. 728b al. 2 CO (PRIMAIRE) · ISA-CH 450/705. → voir §11 du mémento."
+     "explications": [
+      "Faux : la recommandation est un contenu OBLIGATOIRE du rapport à l'AG (art. 728b al. 2 CO) ; elle ne peut jamais être omise, même quand l'anomalie est immatérielle.",
+      "Juste : l'anomalie étant sous le seuil de signification, l'opinion reste non modifiée (mémento §2.1 : une anomalie non significative permet une opinion non modifiée) et la recommandation est nécessairement l'APPROBATION (§6.4 ; art. 728b al. 2 CO ; ISA-CH 450/705).",
+      "Faux : le renvoi accompagne l'opinion défavorable ou l'impossibilité d'exprimer une opinion (§6.4), pas une anomalie non significative.",
+      "Faux : l'organe de révision formule toujours une recommandation — approbation ou renvoi ; il n'existe pas de troisième voie « ni-ni »."
+     ],
+     "piege": "Recommandation jamais omise"
     },
     {
      "id": "CRA-029",
@@ -452,7 +601,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une recommandation sur l'emploi du bénéfice fait partie intégrante du rapport au conseil d'administration"
      ],
      "correct": 2,
-     "explication": "C (juste) : l'organe de révision vérifie que la proposition d'emploi du bénéfice du CA est conforme (art. 728a al. 1 ch. 2 CO), mais il n'émet pas lui-même de recommandation sur le report du bénéfice — ce n'est pas un contenu de son rapport à l'AG. A : faux — une proposition non conforme est signalée au titre des autres obligations (et peut fonder un renvoi), elle ne « déclenche » pas mécaniquement une réserve sur l'opinion des comptes. B : faux — la vérification de l'emploi du bénéfice n'a pas lieu en contrôle restreint. D : faux — l'auditeur ne formule pas de recommandation d'emploi du bénéfice au CA. Base : art. 728a al. 1 ch. 2 CO. → voir §5.3 du mémento."
+     "explications": [
+      "Faux : une proposition d'emploi du bénéfice non conforme est traitée dans le « Rapport sur les autres obligations légales et réglementaires » (art. 728a al. 1 ch. 2 CO ; mémento §5.3) et peut fonder un renvoi de la proposition — elle ne déclenche pas mécaniquement une réserve sur l'opinion relative aux comptes.",
+      "Réputée fausse par le corrigé d'origine (« la vérification de l'emploi du bénéfice n'a pas lieu en contrôle restreint »). Réserve : l'art. 729a al. 1 ch. 2 CO inclut la proposition d'emploi du bénéfice dans l'objet du contrôle restreint ; le mémento (§9.2) ne tranche pas ce point — divergence signalée, la clé de la question reste C.",
+      "Correcte : l'organe de révision VÉRIFIE la conformité de la proposition d'emploi du bénéfice du CA (art. 728a al. 1 ch. 2 CO ; mémento §5.3), mais il n'émet pas lui-même de recommandation sur le report du bénéfice — une telle recommandation ne fait pas partie du contenu du rapport à l'AG (§5.1).",
+      "Faux : l'auditeur ne formule pas de recommandation d'affectation du bénéfice au CA ; le rapport détaillé (art. 728b al. 1 CO) contient des constatations (comptes, SCI, réalisation/résultat), pas des recommandations d'emploi du bénéfice."
+     ]
     },
     {
      "id": "CRA-030",
@@ -467,12 +621,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organisation de la comptabilité et du contrôle financier."
      ],
      "correct": 0,
-     "explication": "A est juste : la gestion (opérationnelle) est délégable à une direction (art. 716b CO) — ce n'est PAS une attribution intransmissible. B, C et D sont des attributions intransmissibles et inaliénables du conseil d'administration (art. 716a al. 1 CO : fixer l'organisation ; haute surveillance ; organisation de la comptabilité et du contrôle financier). Base : art. 716a / 716b CO (PRIMAIRE). → voir §11 du mémento."
+     "explications": [
+      "Juste : la gestion opérationnelle courante est délégable à une direction (art. 716b CO) — ce n'est donc PAS une attribution intransmissible. À noter : les art. 716a/716b CO ne sont pas traités dans le mémento (question de droit de la SA rattachée au module) ; le §11 est la section la plus proche (rôles des organes).",
+      "Est une attribution intransmissible et inaliénable du CA : fixer l'organisation de la société (art. 716a al. 1 CO).",
+      "Est une attribution intransmissible : la haute surveillance des personnes chargées de la gestion (art. 716a al. 1 CO).",
+      "Est une attribution intransmissible : l'organisation de la comptabilité et du contrôle financier (art. 716a al. 1 CO)."
+     ]
     },
     {
      "id": "CRA-031",
      "champ": "Anomalie corrigée par la direction → approbation",
-     "memento": "§6.4",
+     "memento": "§2.1 · §6.4",
      "difficulte": 2,
      "question": "Tick AG (contrôle ordinaire) : des provisions significatives (CHF 3 mio) manquent ; le bénéfice avant écritures est de CHF 1 mio, les fonds propres de CHF 2 mio. La direction est disposée à passer les écritures complémentaires. Que faut-il conclure ?",
      "options": [
@@ -482,7 +641,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'impossibilité d'exprimer une opinion est indiquée"
      ],
      "correct": 1,
-     "explication": "B (juste) : la direction acceptant de passer les écritures, l'anomalie est corrigée ; les comptes deviennent conformes → opinion non modifiée et recommandation d'approbation. A : faux — plus d'anomalie une fois corrigée. C : faux — le constat est déjà établi, aucune procédure additionnelle n'est requise pour trancher. D : faux — l'impossibilité vise une limitation diffuse, pas une anomalie corrigée. Base : art. 728b al. 2 CO · ISA-CH 705. → voir §6.4 du mémento."
+     "explications": [
+      "Faux : une fois les écritures complémentaires passées, l'anomalie est corrigée — il n'y a plus d'obstacle à l'approbation.",
+      "Juste : la direction acceptant de passer les écritures, l'anomalie est corrigée et vérifiée par l'auditeur (mémento §2.1) ; les comptes deviennent conformes → opinion non modifiée et recommandation d'APPROBATION (art. 728b al. 2 CO ; ISA-CH 705 ; §6.4).",
+      "Faux : le constat est déjà établi et chiffré (provisions manquantes de CHF 3 mio) ; il ne manque pas d'éléments probants, il manquait des écritures — aucune procédure additionnelle n'est requise pour trancher.",
+      "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION diffuse de l'étendue des travaux (§6.1), pas une anomalie corrigée."
+     ]
     },
     {
      "id": "CRA-032",
@@ -497,7 +661,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un rapport détaillé doit être présenté au conseil d'administration."
      ],
      "correct": 3,
-     "explication": "En contrôle ordinaire, l'organe de révision remet TOUJOURS deux rapports : un rapport détaillé au CA (art. 728b al. 1 CO) et un rapport succinct à l'AG (art. 728b al. 2 CO) — d) est donc toujours vrai. a) faux : le rapport succinct à l'AG est obligatoire, on n'y renonce pas. b) faux : des difficultés d'exploitation ne modifient pas automatiquement l'opinion ; il faut d'abord une anomalie ou une limitation (ISA-CH 705). c) faux : les faits décrits jettent au contraire un doute sur la continuité à examiner (ISA-CH 570), on ne peut pas la « confirmer » d'office. Base : art. 728b al. 1 CO. → voir §5.1 du mémento."
+     "explications": [
+      "Faux : le rapport succinct à l'AG est obligatoire en contrôle ordinaire (art. 728b al. 2 CO) ; on n'y renonce pas.",
+      "Faux : des difficultés d'exploitation ne modifient pas automatiquement l'opinion — il faut une anomalie ou une limitation significative (ISA-CH 705 ; mémento §6.1).",
+      "Faux : les faits décrits (pandémie, faillites de clients, départs de cadres clés) sont des indicateurs d'incertitude qui imposent d'EXAMINER la continuité (ISA-CH 570 ; mémento §4.2) — on ne peut pas la « confirmer » d'office.",
+      "Juste : en contrôle ordinaire, l'organe de révision remet TOUJOURS deux rapports : un rapport détaillé au CA (art. 728b al. 1 CO) et un rapport succinct à l'AG (al. 2) — mémento §5.1 ; cette proposition est vraie quelles que soient les circonstances."
+     ]
     },
     {
      "id": "CRA-033",
@@ -512,7 +681,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les informations sur les comptes de l'entreprise + la recommandation d'approbation"
      ],
      "correct": 0,
-     "explication": "Le rapport succinct à l'AG (art. 728b al. 2 CO) contient : le résultat de l'audit, un avis sur ce résultat, les informations sur l'indépendance, la personne responsable et ses compétences, et la recommandation d'approbation ou de renvoi. a) réunit deux éléments effectivement présents (indépendance + résultat). b) et c) invoquent des « informations sur la société d'audit » détaillées, qui ne figurent pas dans le rapport succinct (c'est le responsable + ses compétences qui y figurent). d) « informations sur les comptes de l'entreprise » = le déroulement/technique relève du rapport détaillé au CA, pas du succinct. Base : art. 728b al. 2 CO. → voir §5.1 du mémento."
+     "explications": [
+      "Juste : le rapport succinct à l'AG contient le résultat de l'audit, un avis sur ce résultat, les informations sur l'INDÉPENDANCE, la personne responsable et ses compétences, et la recommandation d'approbation ou de renvoi (art. 728b al. 2 CO ; mémento §5.1) — indépendance + résultat sont bien deux contenus effectifs.",
+      "Faux : des « informations sur la société d'audit » détaillées ne figurent pas dans le rapport succinct — c'est la PERSONNE responsable et ses compétences qui y figurent.",
+      "Faux : la recommandation est bien un contenu, mais « informations sur la société d'audit » n'en est pas un — même défaut que l'option B.",
+      "Faux : les « informations sur les comptes » (constatations, déroulement de l'audit) relèvent du rapport DÉTAILLÉ au CA (art. 728b al. 1 CO), pas du succinct — piège classique synthèse ≠ complet (§5.1)."
+     ]
     },
     {
      "id": "CRA-034",
@@ -527,7 +701,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'obtention d'une garantie sur la continuité de l'exploitation"
      ],
      "correct": 0,
-     "explication": "Une opinion non modifiée suppose notamment des éléments probants suffisants et appropriés (ISA-CH 700) → a) juste. b) faux : une violation de la loi étrangère à l'établissement des comptes ne dégrade pas l'opinion — elle est traitée sous « autres obligations de communication » (728c). c) faux : les anomalies non significatives ne DOIVENT pas être corrigées pour une opinion sans réserve (il suffit qu'elles restent non significatives, y compris cumulées). d) faux : on n'exige pas une « garantie » de continuité, mais seulement le caractère approprié de l'hypothèse (ISA-CH 570) ; une incertitude bien décrite ne modifie pas l'opinion. Base : art. 728b CO ; ISA-CH 700. → voir §5.4 du mémento."
+     "explications": [
+      "Juste : l'obtention d'éléments probants suffisants et appropriés est une des conditions cumulatives d'une opinion non modifiée (ISA-CH 700 ; art. 728b CO ; mémento §5.4, condition 2).",
+      "Faux : une violation de la loi étrangère à l'établissement des comptes ne dégrade pas l'opinion sur les comptes — elle est traitée dans les « autres obligations de communication » (art. 728c CO ; mémento §5.3 et §10.1).",
+      "Faux : les anomalies NON significatives n'ont pas à être corrigées pour permettre une opinion sans réserve — il suffit qu'elles restent non significatives, y compris cumulées (mémento §5.4, condition 3 ; §2.1).",
+      "Faux : on n'exige aucune « garantie » de continuité — seulement le caractère approprié de l'hypothèse (ISA-CH 570) ; une incertitude bien décrite en annexe ne modifie même pas l'opinion (§4.3)."
+     ]
     },
     {
      "id": "CRA-035",
@@ -542,7 +721,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Des informations sur les membres du conseil d'administration de la société contrôlée"
      ],
      "correct": 3,
-     "explication": "La structure standard du rapport (NAS-CH 700) comprend l'opinion (a), la section « autres informations » 720 (b) et, le cas échéant, la section continuité 570 (c) — tous des éléments prévus. d) n'en fait pas partie : le rapport mentionne les « responsabilités du CA relatives aux comptes », mais pas des informations sur les personnes/membres du conseil d'administration. Base : NAS-CH 700 (13 éléments). → voir §5.2 du mémento."
+     "explications": [
+      "Fait partie du rapport : l'opinion d'audit figure en tête de la structure NAS-CH 700, avant même le fondement (mémento §5.2).",
+      "Fait partie du rapport : la section « Autres informations » (ISA-CH 720) est un élément prévu de la structure (§5.2).",
+      "Fait partie du rapport, le cas échéant : la section « Continuité de l'exploitation » (ISA-CH 570) est prévue lorsqu'elle est applicable (§5.2).",
+      "C'est la réponse : le rapport mentionne les « responsabilités du CA relatives aux comptes », mais AUCUNE information sur les personnes/membres du conseil d'administration de la société contrôlée — cet élément ne figure pas parmi les 13 éléments de la NAS-CH 700 (§5.2)."
+     ]
     },
     {
      "id": "CRA-036",
@@ -557,7 +741,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "a, b, f"
      ],
      "correct": 2,
-     "explication": "L'art. 728b al. 1 CO impose au rapport détaillé au CA : les constatations sur l'établissement des comptes (a), les constatations sur le SCI (c), ainsi que la réalisation ET le résultat de l'audit (d) → a, c, d = option c). b) l'indépendance figure au rapport succinct à l'AG (728b al. 2), pas dans la liste obligatoire du détaillé. e) les violations de la loi sont signalées via l'avis (728c), pas comme rubrique obligatoire de 728b al. 1. f) la continuité n'est pas une rubrique obligatoire distincte du rapport détaillé. Base : art. 728b al. 1 CO. → voir §5.1 du mémento."
+     "explications": [
+      "Faux à cause de e) : les violations de la loi sont signalées par la voie de l'avis au CA puis, si nécessaire, à l'AG (art. 728c CO ; mémento §10.1) — ce n'est pas une rubrique obligatoire de l'art. 728b al. 1 CO.",
+      "Faux à cause de f) : la continuité n'est pas une rubrique légale distincte du rapport détaillé au CA (elle est traitée dans l'audit via l'ISA-CH 570 et, le cas échéant, dans le rapport à l'AG).",
+      "Juste : l'art. 728b al. 1 CO impose au rapport détaillé au CA les constatations sur l'établissement des comptes (a), les constatations sur le SCI (c) et la réalisation ET le résultat de l'audit (d) — mémento §5.1.",
+      "Faux à cause de b) : les informations sur l'indépendance figurent dans le rapport SUCCINCT à l'AG (art. 728b al. 2 CO), pas dans la liste obligatoire de l'al. 1."
+     ]
     },
     {
      "id": "CRA-037",
@@ -572,7 +761,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Aucune conséquence : le rapport peut être présenté après coup."
      ],
      "correct": 1,
-     "explication": "B est juste : pour une société soumise à révision, l'AG ne peut approuver les comptes ni statuer sur l'emploi du bénéfice qu'après réception du rapport de révision ; à défaut, la décision est nulle (art. 731 al. 2 et 3 CO). A, C et D sont faux : ce n'est ni une question de majorité, ni une simple annulabilité, ni régularisable a posteriori. Base : art. 731 CO. → voir §11 du mémento."
+     "explications": [
+      "Faux : la validité ne dépend pas de la majorité — sans rapport de révision, la décision est nulle quelle que soit la majorité réunie.",
+      "Juste : pour une société soumise à révision, l'AG ne peut approuver les comptes ni statuer sur l'emploi du bénéfice qu'après réception du rapport de révision ; à défaut, la décision est NULLE (art. 731 al. 2 et 3 CO ; mémento §11).",
+      "Faux : l'art. 731 al. 3 CO prévoit la NULLITÉ, pas une simple annulabilité soumise à un délai de deux mois — c'est une confusion avec l'action en annulation des décisions de l'AG.",
+      "Faux : la présentation préalable du rapport est une condition de validité de la décision — elle n'est pas régularisable a posteriori (§11)."
+     ]
     },
     {
      "id": "CRA-038",
@@ -587,7 +781,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Elle perd le droit d'approuver les comptes pour cet exercice."
      ],
      "correct": 1,
-     "explication": "B est juste : la recommandation d'approbation ou de renvoi guide l'AG mais ne la lie pas ; l'AG statue librement (et doit se tenir dans les 6 mois de la clôture, art. 699 al. 2 CO). A, C et D sont faux. Base : art. 728b al. 2 / 699 al. 2 / 731 CO. → voir §11 du mémento."
+     "explications": [
+      "Faux : la recommandation de l'organe de révision guide l'AG mais ne la lie jamais juridiquement (mémento §11 ; art. 728b al. 2 CO).",
+      "Juste : l'AG reste libre de sa décision — la recommandation, même de renvoi sur opinion défavorable, ne la lie pas (mémento §11 ; art. 728b al. 2 / 731 CO).",
+      "Faux : aucun délai de deux mois pour une nouvelle assemblée n'existe ; la seule contrainte temporelle est la tenue de l'AG dans les 6 mois suivant la clôture (art. 699 al. 2 CO ; §11).",
+      "Faux : l'AG conserve son droit d'approuver les comptes ; la seule condition de validité est d'avoir reçu le rapport de révision (art. 731 al. 2 CO ; §11)."
+     ]
     }
    ]
   },
@@ -598,7 +797,7 @@ window.QCM_BANK["conclusionRapportAudit"] = {
     {
      "id": "CRA-039",
      "champ": "Fait entraînant une modification · évaluation CO",
-     "memento": "§6.1",
+     "memento": "§6.1 · §5.4",
      "difficulte": 2,
      "question": "Quel fait entraîne une modification de l'opinion d'audit ?",
      "options": [
@@ -608,7 +807,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le rapport annuel (rapport de gestion) fait défaut"
      ],
      "correct": 0,
-     "explication": "A (juste) : le CO impose l'évaluation au plus au coût d'acquisition (art. 960a al. 2 CO) ; comptabiliser un immeuble au-dessus du coût d'acquisition est une violation des règles d'évaluation, donc une anomalie qui modifie l'opinion (705). B et C décrivent des situations conformes, sans impact sur l'opinion. D : l'absence de rapport de gestion légalement dû est une violation de la loi (art. 958/961 CO) traitée en « autres obligations légales », pas une modification de l'opinion sur les comptes. Base : art. 960a al. 2 CO. → voir §6.1 du mémento."
+     "explications": [
+      "Juste : le CO impose l'évaluation au plus au coût d'acquisition (art. 960a al. 2 CO). Porter un immeuble à la valeur vénale, au-dessus de ce coût, viole les règles d'évaluation : les comptes sont erronés → anomalie, cause de modification de l'opinion (ISA-CH 705 ; mémento §6.1).",
+      "Faux : une annexe respectant la structure minimale est une situation conforme — aucune anomalie, donc aucune raison de modifier l'opinion.",
+      "Faux : si aucune règle d'évaluation n'est enfreinte, les comptes ne sont pas erronés ; l'opinion reste non modifiée.",
+      "Faux : le rapport de gestion manquant alors qu'il est légalement dû est une violation de la loi (art. 961 CO) traitée dans les « autres obligations légales », pas une anomalie des comptes — il ne modifie donc pas l'opinion (mémento §5.4, piège explicite)."
+     ],
+     "piege": "anomalie ≠ violation de la loi"
     },
     {
      "id": "CRA-040",
@@ -623,12 +828,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une violation substantielle des règles d'évaluation peut être divulguée par un paragraphe relatif à d'autres points"
      ],
      "correct": 1,
-     "explication": "B (juste) : seules les anomalies significatives (individuellement ou cumulées, > matérialité) modifient l'opinion (705) ; en dessous du seuil, texte standard. A : faux — le paragraphe d'observation (706) n'influence PAS l'opinion (piège 706 ≠ 705). C : faux — une limitation de l'étendue peut mener à une réserve ou à l'impossibilité d'exprimer une opinion. D : faux — une violation substantielle des règles d'évaluation est une anomalie qui modifie l'opinion, elle ne se règle pas par un paragraphe « autres points ». Base : ISA-CH 705 · ISA-CH 320. → voir §6.2 du mémento."
+     "explications": [
+      "Faux : le paragraphe d'observation (ISA-CH 706) attire l'attention sur un fait correctement présenté dans les comptes ; il n'influence PAS l'opinion — confusion classique 706 ≠ 705 (mémento §7.1 · §7.4).",
+      "Juste : seules les anomalies significatives — individuellement ou cumulées au-delà de la matérialité (ISA-CH 320) — entraînent une modification de l'opinion (ISA-CH 705) ; en dessous du seuil, le texte standard reste possible (mémento §6.2 · §2.1).",
+      "Faux : la limitation de l'étendue est précisément l'une des deux causes de modification — réserve si significative, impossibilité d'exprimer une opinion si l'effet est diffus (mémento §6.1).",
+      "Faux : une violation substantielle des règles d'évaluation est une anomalie qui passe par l'opinion (réserve/défavorable) ; le paragraphe « autres points » est réservé aux faits HORS des états financiers (mémento §7.2)."
+     ],
+     "piege": "observation ≠ opinion modifiée"
     },
     {
      "id": "CRA-041",
      "champ": "Anomalie non significative · refus de correction",
-     "memento": "§6.2",
+     "memento": "§2.1 · §6.2",
      "difficulte": 1,
      "question": "Gebert SA (contrôle ordinaire) : les stocks devraient être dépréciés de CHF 4 mio, ce qui n'est PAS significatif ; la direction refuse de corriger. Un rapport non modifié est-il possible ?",
      "options": [
@@ -638,7 +849,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Oui, car les stocks ne font pas partie de la structure minimale selon le CO"
      ],
      "correct": 2,
-     "explication": "C (juste) : une anomalie non corrigée mais inférieure au seuil de signification permet une opinion non modifiée, même si la direction refuse de la corriger ; l'auditeur la documente (450). A et B : la correction est demandée mais son absence ne modifie pas l'opinion tant que l'anomalie reste non significative. D : faux — les stocks font partie du bilan ; le motif n'est pas la structure minimale mais le caractère non significatif. Base : ISA-CH 450 · ISA-CH 705. → voir §6.2 du mémento."
+     "explications": [
+      "Faux : l'auditeur demande la correction, mais le refus de la direction ne modifie l'opinion que si l'anomalie est significative — ici elle reste sous le seuil (ISA-CH 450 · 705).",
+      "Faux : il y a bien une entorse au droit comptable, mais non significative — elle ne rend pas les comptes trompeurs dans leur ensemble ; l'opinion peut rester non modifiée.",
+      "Juste : une anomalie non corrigée mais inférieure au seuil de signification permet une opinion non modifiée, même en cas de refus de la direction ; l'auditeur la documente et peut la reprendre dans le rapport détaillé au CA (ISA-CH 450 · 705 ; mémento §2.1 — l'exemple des CHF 4 mio de stock y figure textuellement).",
+      "Faux : les stocks font partie du bilan et doivent être évalués correctement (art. 960c CO) ; ce qui sauve le rapport non modifié n'est pas la structure minimale mais le caractère non significatif du montant."
+     ],
+     "piege": "sous le seuil = opinion inchangée"
     },
     {
      "id": "CRA-042",
@@ -653,7 +870,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Non, car toutes les écritures supplémentaires doivent toujours être passées"
      ],
      "correct": 2,
-     "explication": "C (juste) : une provision manquante de 15 mio sur un bénéfice de 10 mio fait basculer le bénéfice en perte → critère de « diffus » (§6.2). L'anomalie est donc significative ET diffuse → opinion défavorable si non corrigée. A est incomplet (significatif mais pas seulement : c'est aussi diffus). B est faux : 15 > 10, largement au-dessus du seuil. D est un principe trop absolu (toutes les anomalies ne sont pas systématiquement corrigées). Base : ISA-CH 705 (définition de « diffus »). → voir §6.2 du mémento."
+     "explications": [
+      "Incomplet : l'anomalie est bien significative (15 mio, largement au-dessus de toute matérialité), mais la qualification s'arrête à mi-chemin — elle est aussi diffuse, ce qui fait basculer la réserve vers l'opinion défavorable (mémento §6.1).",
+      "Faux : 15 mio de provisions manquantes pour un bénéfice avant impôts de 10 mio dépassent largement tout seuil de signification fondé sur le bénéfice.",
+      "Juste : la correction ferait passer le bénéfice de 10 mio à une perte — le passage bénéfice→perte est un critère de « diffus » (mémento §6.2). Anomalie significative ET diffuse non corrigée → opinion défavorable (ISA-CH 705).",
+      "Faux : principe trop absolu — les anomalies clairement insignifiantes ne sont pas toutes corrigées ; c'est le caractère significatif (et diffus) qui commande, pas une règle mécanique (mémento §2.1)."
+     ],
+     "piege": "bénéfice→perte = diffus"
     },
     {
      "id": "CRA-043",
@@ -668,7 +891,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Oui, car ces dettes sont incluses dans les engagements conditionnels"
      ],
      "correct": 1,
-     "explication": "B (juste) : des dettes non enregistrées violent le principe d'exhaustivité (art. 958c al. 1 ch. 2 CO) → anomalie qui, si elle est significative et non corrigée, modifie l'opinion. A : l'intégrité (fraude, 240) exige des indices d'intention non établis ici. C : faux — les écritures ne sont justement PAS passées (la direction refuse). D : faux — des dettes existantes ne sont pas des engagements conditionnels. Base : art. 958c CO · ISA-CH 705. → voir §6.1 du mémento."
+     "explications": [
+      "Faux : invoquer l'intégrité (fraude, ISA-CH 240) supposerait des indices d'intention ; un refus de corriger ne suffit pas, à lui seul, à l'établir.",
+      "Juste : des dettes de CHF 20 mio non enregistrées violent le principe d'exhaustivité (art. 958c al. 1 ch. 2 CO) : les comptes sont erronés → anomalie qui, significative et non corrigée, exclut le rapport non modifié (ISA-CH 705 ; mémento §6.1).",
+      "Faux : la condition n'est justement pas remplie — la direction refuse de passer les écritures complémentaires.",
+      "Faux : des dettes existantes et certaines sont des passifs à porter au bilan ; les engagements conditionnels ne visent que des obligations potentielles."
+     ]
     },
     {
      "id": "CRA-044",
@@ -683,7 +911,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Non, il s'agit d'une limitation de l'étendue de l'audit"
      ],
      "correct": 3,
-     "explication": "D (juste) : le refus d'accès à la comptabilité empêche d'obtenir des éléments probants suffisants → limitation de l'étendue (705) menant à une réserve, voire à l'impossibilité d'exprimer une opinion si l'effet est diffus. A : ce n'est pas une simple erreur, encore moins « sans importance ». B : jamais admis dans la pratique. C : une confirmation écrite ne remplace pas l'accès aux pièces probantes. Base : ISA-CH 705. → voir §6.1 du mémento."
+     "explications": [
+      "Faux : il n'y a pas de présentation erronée constatée — l'auditrice ne peut justement rien vérifier ; et rien ne permet de dire que c'est « sans importance ».",
+      "Faux : refuser l'accès à la comptabilité n'est jamais une pratique admise ; l'audit repose sur le libre accès aux livres et pièces (art. 730b CO).",
+      "Faux : une confirmation écrite de la direction (ISA-CH 580) complète les éléments probants mais ne les remplace jamais ; elle ne lève pas le refus d'accès.",
+      "Juste : l'impossibilité d'obtenir des éléments probants suffisants et appropriés constitue une limitation de l'étendue de l'audit (ISA-CH 705 ; mémento §6.1) → réserve si significative, impossibilité d'exprimer une opinion si l'effet est diffus — jamais un rapport non modifié."
+     ],
+     "piege": "limitation ≠ anomalie"
     },
     {
      "id": "CRA-045",
@@ -698,12 +932,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Non, car l'annexe n'est pas correcte"
      ],
      "correct": 2,
-     "explication": "C (juste) : une anomalie significative non corrigée impose une modification de l'opinion (705) ; ici l'effet fait basculer le résultat en perte (diffus). A : le rapport de gestion n'est pas en cause. B : l'anomalie est établie, ce n'est pas un manque de preuves (pas une limitation). D : le problème est l'incomplétude des comptes eux-mêmes, pas seulement l'annexe. Base : ISA-CH 705. → voir §6.3 du mémento."
+     "explications": [
+      "Faux : le problème siège dans les comptes annuels (régularisations passives incomplètes), pas dans le rapport de gestion.",
+      "Faux : l'anomalie est établie et chiffrée — ce n'est pas un manque d'éléments probants, donc pas une limitation de l'étendue.",
+      "Juste : une anomalie significative non corrigée impose une modification de l'opinion (ISA-CH 705 ; mémento §6.3 — arbre de l'opinion) ; l'écriture ferait de surcroît basculer le résultat en perte, critère de diffus qui orienterait vers l'opinion défavorable (mémento §6.2).",
+      "Faux : ce sont les comptes de régularisation au passif — donc le bilan lui-même — qui sont incomplets, pas seulement l'annexe."
+     ]
     },
     {
      "id": "CRA-046",
      "champ": "Types d'opinions en contrôle ordinaire",
-     "memento": "§6.1",
+     "memento": "§6.4 · §9.1",
      "difficulte": 2,
      "question": "Quel type d'opinion l'organe de révision ne peut-il PAS émettre dans le rapport de contrôle ordinaire ?",
      "options": [
@@ -713,7 +952,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Opinion (assurance) de contrôle négative"
      ],
      "correct": 3,
-     "explication": "D (juste) : les quatre opinions possibles en contrôle ordinaire sont : sans réserve, avec réserve, défavorable, impossibilité d'exprimer une opinion. L'assurance « négative » n'existe PAS en ordinaire : c'est le régime du contrôle RESTREINT (art. 729b CO). A, B, C sont toutes des opinions valides du contrôle ordinaire. Base : ISA-CH 705 (ordinaire) vs art. 729b CO (restreint). → voir §6.1 du mémento."
+     "explications": [
+      "Possible en ordinaire : l'opinion sans réserve est l'issue standard (« conformes à la loi et aux statuts » ; mémento §6.4).",
+      "Possible en ordinaire : l'opinion défavorable sanctionne une anomalie significative et diffuse (mémento §6.1).",
+      "Possible en ordinaire : l'opinion avec réserve traite l'anomalie ou la limitation significative mais non diffuse (mémento §6.1).",
+      "Juste (impossible en ordinaire) : l'assurance négative — « rien rencontré laissant penser que les comptes ne sont pas conformes » — est le régime du contrôle RESTREINT (art. 729b CO ; mémento §9.1). Le contrôle ordinaire délivre une assurance raisonnable avec quatre opinions possibles : sans réserve, avec réserve, défavorable, impossibilité d'exprimer une opinion (ISA-CH 705 ; mémento §6.4)."
+     ],
+     "piege": "assurance négative = contrôle restreint"
     },
     {
      "id": "CRA-047",
@@ -728,7 +973,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un élément diffus donne toujours lieu à une opinion défavorable."
      ],
      "correct": 1,
-     "explication": "B est juste : le caractère diffus (pervasive) désigne des effets non limités à certains éléments/comptes/postes, ou une part importante des états financiers (ISA-CH 705). A est faux : la définition figure dans l'ISA-CH 705, pas 706. C est faux : le diffus est qualitatif (conséquence juridique 725a/b, bénéfice→perte, part importante des comptes), il ne se réduit pas au seuil chiffré. D est faux : un élément diffus mène à une opinion défavorable pour une ANOMALIE, mais à une impossibilité d'exprimer une opinion pour une LIMITATION. Base : ISA-CH 705 (SECONDAIRE). → voir §6.2 du mémento."
+     "explications": [
+      "Faux : la définition de « diffus » (pervasive) figure dans l'ISA-CH 705, qui régit les opinions modifiées — pas dans la 706 (observation/autres points) ; le mémento le souligne expressément (§6.2).",
+      "Juste : est diffuse une incidence non limitée à certains éléments, comptes ou postes, ou qui concerne une partie importante des états financiers, ou fondamentale pour leur compréhension (ISA-CH 705 ; mémento §6.2).",
+      "Faux : le diffus est qualitatif, il ne se réduit pas au dépassement chiffré du seuil — conséquence juridique directe (perte de capital/surendettement, art. 725a/725b CO), passage bénéfice→perte, impossibilité de distribuer le dividende proposé (mémento §6.2).",
+      "Faux : diffus + ANOMALIE → opinion défavorable, mais diffus + LIMITATION → impossibilité d'exprimer une opinion ; « toujours défavorable » confond les deux causes (mémento §6.1)."
+     ],
+     "piege": "diffus : 705, pas 706"
     },
     {
      "id": "CRA-048",
@@ -743,7 +994,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le total des jours de révision effectués"
      ],
      "correct": 0,
-     "explication": "A (juste) : le test « diffus / non diffus » repose notamment sur la suffisance des fonds propres ET des liquidités (§6.2) ; les liquidités éclairent aussi la continuité et la capacité à distribuer un dividende, éléments qui pèsent sur l'opinion. B, C : rémunération et qualification relèvent de la gouvernance, sans effet sur l'opinion. D : le nombre de jours de révision est un input, pas un critère d'évaluation de l'opinion. Base : ISA-CH 705 · ISA-CH 570. → voir §6.2 du mémento."
+     "explications": [
+      "Juste : le test « non diffus » suppose des fonds propres suffisants ET des liquidités suffisantes (mémento §6.2) ; les liquidités éclairent en outre la continuité de l'exploitation (ISA-CH 570) et la capacité à distribuer le dividende proposé — autant d'éléments qui pèsent sur l'opinion (ISA-CH 705).",
+      "Faux : la rémunération du CA relève de la gouvernance et de la transparence ; elle n'est pas un critère du test significatif/diffus.",
+      "Faux : la qualification du comité d'audit intéresse le SCI et la gouvernance, pas la qualification de l'anomalie ni le type d'opinion.",
+      "Faux : le nombre de jours de révision est une donnée d'organisation de la mission, pas un critère d'évaluation de l'opinion."
+     ]
     },
     {
      "id": "CRA-049",
@@ -758,7 +1014,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il y a violation de la loi"
      ],
      "correct": 2,
-     "explication": "C (juste) : le refus de fournir des informations sur un poste significatif empêche d'obtenir des éléments probants → limitation de l'étendue (705). A : une présentation erronée suppose une anomalie constatée dans les comptes, or ici l'auditeur ne peut pas vérifier. B et D : l'intégrité (fraude) ou la violation de la loi exigeraient des indices supplémentaires non établis. Base : ISA-CH 705. → voir §6.1 du mémento."
+     "explications": [
+      "Faux : une présentation erronée supposerait une anomalie constatée dans les comptes ; ici l'auditeur ne peut justement pas vérifier le poste — il ne sait pas si les comptes sont faux.",
+      "Faux : la violation de l'intégrité (fraude, ISA-CH 240) exigerait des indices d'intention qu'un simple refus d'information n'établit pas.",
+      "Juste : le refus de fournir des informations sur un poste significatif empêche d'obtenir des éléments probants suffisants → limitation de l'étendue (ISA-CH 705 ; mémento §6.1) ; selon le caractère diffus, réserve ou impossibilité d'exprimer une opinion.",
+      "Faux : aucune violation légale n'est démontrée à ce stade ; le fait établi est l'impossibilité de vérifier, pas une infraction."
+     ]
     },
     {
      "id": "CRA-050",
@@ -773,7 +1034,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Cette information n'est ni diffuse ni significative"
      ],
      "correct": 1,
-     "explication": "B (juste) : l'information est significative (déterminante pour la banque prêteuse) et diffuse car « fondamentale pour la compréhension » des comptes et du modèle d'affaires — l'un des critères de « diffus » (§6.2). A et D sont exclus car l'information EST significative. C est le principal concurrent (défaut circonscrit à la présentation des dettes), mais l'énoncé insiste sur le caractère fondamental à la compréhension, qui bascule vers « diffus ». Base : ISA-CH 705. → voir §6.2 du mémento."
+     "explications": [
+      "Faux : l'information est expressément significative — déterminante pour la banque prêteuse d'une société fortement endettée ; nier le significatif est intenable.",
+      "Juste : significative (décisive pour le principal créancier) ET diffuse, car fondamentale pour la compréhension des comptes et du modèle d'affaires — l'un des critères qualitatifs de « diffus » (ISA-CH 705 ; mémento §6.2).",
+      "Concurrent sérieux mais faux ici : le défaut paraît circonscrit à la présentation des dettes, mais l'énoncé insiste sur son caractère fondamental pour la compréhension — critère qui fait basculer vers « diffus » (mémento §6.2).",
+      "Faux : l'information est à la fois significative et diffuse ; cette option nie les deux qualifications."
+     ],
+     "piege": "fondamental pour la compréhension = diffus"
     },
     {
      "id": "CRA-051",
@@ -788,12 +1055,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Cette information n'est pas diffuse"
      ],
      "correct": 0,
-     "explication": "A (juste) : l'écriture dépasse nettement le seuil de signification ET fait basculer le bénéfice en perte → significative (et même diffuse). B : faux — l'écriture doit être passée, pas supprimée. C : faux — elle influence l'opinion si la direction refuse de corriger. D : faux — le passage bénéfice→perte est précisément un critère de « diffus » (§6.2). Base : ISA-CH 705. → voir §6.2 du mémento."
+     "explications": [
+      "Juste : l'écriture omise dépasse nettement le seuil de signification → significative (ISA-CH 705 ; mémento §6.2) ; elle ferait de surcroît basculer le bénéfice en perte, ce qui remplit aussi un critère de diffus.",
+      "Faux : la délimitation périodique des charges d'intérêts est requise (art. 958b CO) ; l'écriture doit être passée, pas supprimée.",
+      "Faux : si la direction refuse de corriger, cette anomalie significative modifie l'opinion (réserve, voire défavorable si le caractère diffus est retenu).",
+      "Faux : le passage d'un bénéfice à une perte est précisément l'un des critères de « diffus » (mémento §6.2) — l'information est donc aussi diffuse."
+     ]
     },
     {
      "id": "CRA-052",
      "champ": "Facteur pouvant influencer l'opinion",
-     "memento": "§6.1",
+     "memento": "§4.3 · §6.1",
      "difficulte": 2,
      "question": "Quelle information peut être un facteur d'influence sur l'opinion d'audit ?",
      "options": [
@@ -803,7 +1075,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La composition du conseil d'administration"
      ],
      "correct": 0,
-     "explication": "A (juste) : la situation économique globale peut menacer la continuité (ISA-CH 570) et, si elle est mal reflétée dans les comptes/annexe, influencer l'opinion. B, C, D relèvent de la qualité opérationnelle ou de la gouvernance et ne modifient pas, en tant que tels, l'opinion d'audit. Base : ISA-CH 570 · ISA-CH 705. → voir §6.1 du mémento."
+     "explications": [
+      "Juste : la situation économique globale peut menacer la continuité de l'exploitation (ISA-CH 570) ; si l'incertitude est mal publiée en annexe ou si la base de continuité est inappropriée, l'opinion est modifiée (mémento §4.3) — c'est donc un facteur susceptible d'influencer l'opinion (ISA-CH 705 ; mémento §6.1).",
+      "Faux : la qualité des produits relève de la performance opérationnelle ; elle n'affecte l'opinion que si elle se traduit par une anomalie comptable (ex. stocks invendables non dépréciés).",
+      "Faux : la qualification de l'encadrement intéresse l'évaluation des risques, pas directement l'opinion sur les comptes.",
+      "Faux : la composition du CA est une question de gouvernance ; elle ne modifie pas, en tant que telle, l'opinion d'audit."
+     ]
     },
     {
      "id": "CRA-053",
@@ -818,7 +1095,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il y a une limitation de l'étendue des travaux d'audit"
      ],
      "correct": 3,
-     "explication": "D (juste, = ce qui NE s'applique pas) : l'auditeur a CONSTATÉ l'omission des dettes ; il n'y a donc pas de limitation de l'étendue (il a pu voir le problème), mais une anomalie. A : c'est bien une présentation erronée. C : c'est une violation de l'exhaustivité (art. 958c CO). B : la répétition d'omissions de passifs peut relever d'un faux dans les titres (art. 251 CP). Base : art. 958c CO · art. 251 CP · ISA-CH 705. → voir §6.1 du mémento."
+     "explications": [
+      "S'applique (donc pas la réponse) : des dettes fournisseurs absentes du bilan constituent une présentation erronée — les comptes sont faux.",
+      "S'applique : l'omission répétée de passifs importants, dans un contexte d'art. 725 CO, peut réaliser un faux dans les titres (art. 251 CP), les comptes annuels étant des titres.",
+      "S'applique : l'omission de dettes viole le principe d'exhaustivité (art. 958c al. 1 ch. 2 CO).",
+      "Juste (ce qui NE s'applique PAS) : l'auditeur a pu CONSTATER l'omission — il dispose des éléments probants ; il n'y a donc aucune limitation de l'étendue, mais une anomalie (mémento §6.1 : la limitation est l'impossibilité d'obtenir des éléments probants, pas la découverte d'une erreur)."
+     ],
+     "piege": "anomalie constatée ≠ limitation"
     },
     {
      "id": "CRA-054",
@@ -833,7 +1116,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Cette information n'est pas diffuse."
      ],
      "correct": 0,
-     "explication": "A est juste : la correction omise (CHF 3 mio) dépasse les fonds propres (1 mio) et le bénéfice (0,5 mio) → l'anomalie est significative ET diffuse (elle transformerait les capitaux propres et le résultat). B est faux : une mention en annexe ne régularise pas une anomalie d'évaluation. C est faux : les stocks doivent être évalués correctement (art. 960c CO), qu'ils figurent ou non dans la structure minimale. D est faux : c'est précisément un cas diffus. Anomalie significative et diffuse → opinion défavorable. Base : art. 960c CO · ISA-CH 705. → voir §6 du mémento."
+     "explications": [
+      "Juste : la correction omise (CHF 3 mio) dépasse à la fois les fonds propres (1 mio) et le bénéfice (0,5 mio) : anomalie significative — et même diffuse, car elle épuiserait les fonds propres et renverserait le résultat (conséquence juridique possible, art. 725a/725b CO ; mémento §6.2) → opinion défavorable si rien n'est corrigé (ISA-CH 705).",
+      "Faux : une mention en annexe ne régularise pas une évaluation erronée ; les stocks invendables doivent être dépréciés dans les comptes eux-mêmes (art. 960c CO).",
+      "Faux : l'évaluation correcte des stocks s'impose indépendamment de la structure minimale (art. 960c CO) ; l'argument est un leurre.",
+      "Faux : c'est précisément un cas diffus — l'effet dépasse les fonds propres et fait basculer le résultat (mémento §6.2)."
+     ]
     },
     {
      "id": "CRA-055",
@@ -848,12 +1136,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision doit exprimer une impossibilité d'exprimer une opinion"
      ],
      "correct": 0,
-     "explication": "A (retenu) : le fait qu'une correction ferait basculer le résultat en perte est un critère de « diffus » (§6.2), quelle que soit la mention « non significative » de l'énoncé. B : faux — l'écriture doit au contraire être clarifiée (aucune information disponible). C : faux — un effet bénéfice→perte importe aux destinataires. D est défendable (l'absence d'information = limitation ; si diffuse → impossibilité), d'où l'ambiguïté signalée. Base : ISA-CH 705 (définition de « diffus »). → voir §6.2 du mémento."
+     "explications": [
+      "Réponse retenue : une correction qui ferait basculer le résultat en perte remplit un critère de « diffus » (mémento §6.2), quelle que soit la qualification donnée par l'énoncé ; l'absence de toute information complémentaire aggrave encore le cas.",
+      "Faux : une écriture inhabituelle (reprise de provision adossée à des produits éventuels envers des tiers) sans justificatif doit impérativement être clarifiée avant de conclure.",
+      "Faux : un effet bénéfice→perte est par nature important pour les destinataires du rapport (banques, actionnaires, fisc).",
+      "Défendable mais non retenu : l'absence totale d'information s'analyse aussi en limitation de l'étendue qui, si elle est diffuse, mène à l'impossibilité d'exprimer une opinion (mémento §6.1) ; l'énoncé étant ambigu, la clé reconstituée privilégie la qualification « diffus » du fait (divergence documentée — divergences.md D.1)."
+     ],
+     "piege": "bénéfice→perte = diffus"
     },
     {
      "id": "CRA-056",
      "champ": "Anomalie diffuse (bénéfice→perte) → défavorable",
-     "memento": "§6.2",
+     "memento": "§6.2 · §6.3",
      "difficulte": 3,
      "question": "Susanne Gubler (contrôle ordinaire) constate que la structure minimale du CO n'est pas respectée (provisions LT et CT dans un seul poste, actifs immobilisés en poste collectif). La direction refuse de corriger ; une correction transformerait le bénéfice en perte. Quelle opinion est la plus pertinente ?",
      "options": [
@@ -863,7 +1157,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Opinion d'audit sans réserve"
      ],
      "correct": 2,
-     "explication": "Il s'agit d'une ANOMALIE (présentation non conforme à la structure minimale, art. 959a CO), non d'une limitation. Le refus de corriger, combiné au passage du bénéfice à une perte, rend l'anomalie DIFFUSE (§6.2) → opinion défavorable (c). b) réserve : réservée à une anomalie significative NON diffuse. a) impossibilité : réservée aux limitations diffuses (l'auditeur ne sait pas) — ici il sait que c'est faux. d) sans réserve : exclu, la direction refuse de corriger une anomalie significative. Base : ISA-CH 705 ; art. 959a CO. → voir §6.2/6.3 du mémento."
+     "explications": [
+      "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION diffuse (l'auditeur ne sait pas) ; ici il sait que la présentation est non conforme — c'est une anomalie (mémento §6.1, piège limitation vs anomalie).",
+      "Faux : la réserve conviendrait à une anomalie significative NON diffuse ; le passage du bénéfice à la perte rend l'anomalie diffuse (mémento §6.2).",
+      "Juste : présentation non conforme à la structure minimale (art. 959a CO) = anomalie ; refus de corriger + résultat qui bascule en perte = anomalie significative ET diffuse → opinion défavorable (ISA-CH 705 ; mémento §6.2 · §6.3 — arbre de l'opinion).",
+      "Faux : le texte standard est exclu lorsque la direction refuse de corriger une anomalie significative."
+     ],
+     "piege": "anomalie diffuse → défavorable"
     },
     {
      "id": "CRA-057",
@@ -878,7 +1178,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Paragraphe d'observation"
      ],
      "correct": 3,
-     "explication": "Le fait est CORRECTEMENT présenté dans les comptes (provision + annexe conformes) mais essentiel à leur compréhension → paragraphe d'observation (ISA-CH 706), qui ne modifie pas l'opinion (d). a)/b) exclus : les comptes ne sont pas erronés, donc pas d'anomalie justifiant réserve ou défavorable. c) « autres faits/autres points » vise les éléments HORS des états financiers ; ici le litige est bien dans les comptes → observation, pas autres points. Base : ISA-CH 706. → voir §7.1 du mémento."
+     "explications": [
+      "Faux : les comptes ne sont pas erronés (provision constituée, annexe conforme) ; aucune anomalie ne justifie une opinion défavorable.",
+      "Faux : la réserve suppose une anomalie ou une limitation significative ; ici le litige est correctement traité dans les comptes.",
+      "Faux : le paragraphe « autres points/autres faits » vise des éléments HORS des états financiers (ex. exercice précédent, ISA-CH 710) ; ce litige figure dans les comptes (mémento §7.2 · §7.4).",
+      "Juste : fait correctement présenté dans les états financiers mais essentiel à leur compréhension (litige inhabituel à issue incertaine) → paragraphe d'observation (ISA-CH 706 ; mémento §7.1), sans modification de l'opinion."
+     ],
+     "piege": "observation ≠ réserve"
     },
     {
      "id": "CRA-058",
@@ -893,12 +1199,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une incertitude en matière de litige"
      ],
      "correct": 1,
-     "explication": "Le paragraphe d'observation renvoie à un fait CORRECTEMENT présenté dans les comptes. b) la surévaluation d'une participation est une ANOMALIE (comptes erronés) → elle exige une modification de l'opinion (réserve/défavorable), jamais une simple observation. a) l'application anticipée d'une norme, correctement mentionnée, est un exemple typique d'observation. d) une incertitude en matière de litige, correctement provisionnée/mentionnée, se traite en observation. c) le doute sur la continuité bien décrit fait l'objet d'une section dédiée 570 (piège proche), mais il est signalable — l'intrus le plus clair reste l'anomalie (b). Base : ISA-CH 706 ; ISA-CH 705. → voir §7.1 du mémento."
+     "explications": [
+      "Résoluble par observation : l'application anticipée d'une nouvelle norme, correctement mentionnée dans les comptes, est un exemple typique de paragraphe d'observation (mémento §7.1).",
+      "Juste (non résoluble) : la surévaluation d'une participation rend les comptes ERRONÉS — c'est une anomalie qui exige une modification de l'opinion (réserve/défavorable, ISA-CH 705) ; un paragraphe d'observation ne « répare » jamais une anomalie (mémento §7.1, piège explicite).",
+      "Cas voisin mais signalable : le doute sur la continuité correctement décrit fait l'objet d'une section dédiée « Incertitude significative liée à la continuité » (ISA-CH 570), et non d'une observation ordinaire — il reste toutefois signalé sans modifier l'opinion (mémento §7.1 · §4.3) ; l'intrus le plus net demeure l'anomalie (option B).",
+      "Résoluble par observation : une incertitude de litige correctement provisionnée et mentionnée est l'exemple classique du paragraphe d'observation (ISA-CH 706 ; mémento §7.1)."
+     ],
+     "piege": "anomalie ≠ observation"
     },
     {
      "id": "CRA-059",
      "champ": "Ce qui peut influencer l'opinion",
-     "memento": "§6",
+     "memento": "§6.1",
      "difficulte": 2,
      "question": "Dans quelle situation un fait peut-il influencer l'opinion d'audit ?",
      "options": [
@@ -908,7 +1220,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une limitation des rapports sur la durabilité"
      ],
      "correct": 2,
-     "explication": "Seuls les faits touchant les états financiers eux-mêmes influencent l'opinion. c) une infraction aux règles comptables fausse les comptes → anomalie modifiant l'opinion (ISA-CH 705). a) une limitation INSIGNIFIANTE ne franchit pas le seuil → sans effet. b) une infraction environnementale relève des « autres obligations de communication » (violation étrangère aux comptes), pas de l'opinion. d) une limitation sur les rapports de durabilité concerne les « autres informations » (720), non couvertes par l'opinion. Base : ISA-CH 705 ; art. 728c CO. → voir §6 du mémento."
+     "explications": [
+      "Faux : une limitation INSIGNIFIANTE ne franchit pas le seuil de signification — elle reste sans effet sur l'opinion (mémento §6.3 : en dessous du significatif → texte standard).",
+      "Faux : une infraction environnementale est étrangère à l'établissement des comptes ; elle relève, le cas échéant, des autres obligations de communication (art. 728c CO ; mémento §10.1), pas de l'opinion.",
+      "Juste : une infraction aux règles comptables fausse les états financiers → anomalie susceptible de modifier l'opinion si elle est significative (ISA-CH 705 ; mémento §6.1).",
+      "Faux : les rapports de durabilité relèvent des « autres informations » (ISA-CH 720), que l'opinion d'audit ne couvre pas (mémento §8.2)."
+     ]
     },
     {
      "id": "CRA-060",
@@ -923,12 +1240,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il convient de vérifier avec la direction que ce fait soit divulgué en annexe."
      ],
      "correct": 1,
-     "explication": "Pour une société cotée, le tableau des flux de trésorerie est un composant obligatoire des comptes (art. 961/961b CO). Son absence est une ANOMALIE dans les états financiers → modification de l'opinion (b). Piège classique : à distinguer de l'absence de rapport de gestion (violation de la loi, art. 961, traitée en « autres obligations ») — le tableau de flux manquant, lui, est une anomalie qui modifie l'opinion, d'où a) écarté. c) faux : les comptes ne sont pas conformes. d) faux : ce n'est pas une simple mention en annexe, c'est un état financier manquant. Base : art. 961/961b CO ; ISA-CH 705. → voir §5.4 du mémento."
+     "explications": [
+      "Faux — c'est le piège : c'est l'absence de RAPPORT DE GESTION qui constitue une violation de la loi traitée en « autres obligations » (art. 961 CO) ; le tableau des flux de trésorerie, lui, est un COMPOSANT obligatoire des comptes d'une société cotée (art. 961 ch. 2 / 961b CO) — son absence est une anomalie des états financiers (mémento §5.4, piège explicite).",
+      "Juste : pour une société cotée en contrôle ordinaire, le tableau des flux de trésorerie fait partie intégrante des comptes annuels ; son absence est une anomalie significative → modification de l'opinion (ISA-CH 705 ; mémento §5.4).",
+      "Faux : sans le tableau des flux exigé par la loi, les comptes annuels ne sont pas conformes.",
+      "Faux : un état financier manquant ne se répare pas par une mention en annexe — il doit être établi."
+     ],
+     "piege": "flux manquant ≠ rapport de gestion"
     },
     {
      "id": "CRA-061",
      "champ": "Dépréciation nécessaire refusée → opinion modifiée",
-     "memento": "§6",
+     "memento": "§6.1",
      "difficulte": 2,
      "question": "Malea Winter (contrôle ordinaire) : la direction refuse de comptabiliser une dépréciation nécessaire et significative sur une participation, malgré des entretiens avec l'organe de révision. Qu'est-ce qui s'applique ?",
      "options": [
@@ -938,12 +1261,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il convient de vérifier avec la direction que ce fait soit divulgué en annexe."
      ],
      "correct": 1,
-     "explication": "Une dépréciation nécessaire non comptabilisée surévalue l'actif → ANOMALIE significative dans les comptes → modification de l'opinion (b), au minimum une réserve (défavorable si l'effet devient diffus). a) faux : ce n'est pas une « violation » séparée à signaler en autres obligations, mais une anomalie des comptes affectant l'opinion. c) faux : les comptes ne sont pas conformes (principe de prudence, art. 960a al. 3 / 960 CO). d) faux : une mention en annexe ne corrige pas une évaluation erronée. Base : art. 960/960a CO ; ISA-CH 705. → voir §6 du mémento."
+     "explications": [
+      "Faux : la surévaluation n'est pas une violation « étrangère » aux comptes à signaler dans les autres obligations de communication — elle est DANS les comptes et passe par l'opinion (mémento §7.4 · §10.1 pour la distinction).",
+      "Juste : une dépréciation nécessaire et significative non comptabilisée laisse la participation surévaluée → anomalie significative (violation du principe de prudence, art. 960 al. 2 / 960a al. 3 CO) → opinion modifiée : réserve, ou défavorable si l'effet devient diffus (ISA-CH 705 ; mémento §6.1).",
+      "Faux : les comptes ne sont pas conformes — l'actif est surévalué.",
+      "Faux : une mention en annexe ne corrige pas une évaluation erronée dans le bilan."
+     ]
     },
     {
      "id": "CRA-062",
      "champ": "Violations des principes comptables → opinion modifiée",
-     "memento": "§6 / §5.4",
+     "memento": "§6.1 · §5.4",
      "difficulte": 2,
      "question": "Sabrina Vetsch (contrôle ordinaire) constate des infractions importantes aux principes de présentation des comptes ; la direction refuse de corriger. Qu'est-ce qui est le plus juste ?",
      "options": [
@@ -953,12 +1281,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Adresser le point au CA, pour autant que les principes de comptabilité soient respectés."
      ],
      "correct": 0,
-     "explication": "Les infractions aux principes de PRÉSENTATION/établissement des comptes touchent directement les états financiers → ANOMALIE non corrigée → modification de l'opinion (a). c) est le piège : les « autres obligations de communication » visent les violations ÉTRANGÈRES à l'établissement des comptes ; ici la violation EST dans les comptes → elle passe par l'opinion, pas par une remarque séparée. b) faux : un KAM ne corrige pas une anomalie. d) incohérent (les principes ne sont précisément pas respectés). Base : art. 958 ss CO ; ISA-CH 705. → voir §6/5.4 du mémento."
+     "explications": [
+      "Juste : des infractions importantes aux principes d'établissement et de présentation des comptes rendent les états financiers erronés → anomalie non corrigée → modification de l'opinion (ISA-CH 705 ; mémento §6.1).",
+      "Faux : un point clé d'audit (KAM, ISA-CH 701) décrit une zone d'audit délicate d'une société cotée ; il ne corrige ni ne remplace jamais une opinion modifiée (mémento §7.3).",
+      "Faux — piège classique : la mention « violation de la loi » (autres obligations, art. 728c CO) vise les violations ÉTRANGÈRES à l'établissement des comptes ; quand la violation est dans les comptes, elle passe par l'opinion (mémento §5.4 · §10.1).",
+      "Faux : l'option se contredit — les principes de comptabilité ne sont précisément pas respectés ; une simple communication au CA ne suffit pas."
+     ],
+     "piege": "opinion ≠ autres obligations"
     },
     {
      "id": "CRA-063",
      "champ": "Comptabilisation anticipée / amortissements → anomalies",
-     "memento": "§6",
+     "memento": "§6.1",
      "difficulte": 2,
      "question": "Alex Stauffer (responsable de mandat, Muller SA, contrôle ordinaire) : pour afficher des bénéfices plus élevés, le chiffre d'affaires est comptabilisé de façon anticipée et la durée d'amortissement fortement raccourcie. Les éléments probants sont suffisants. Pourquoi une opinion modifiée peut-elle être rendue ?",
      "options": [
@@ -968,7 +1302,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Informations incompréhensibles"
      ],
      "correct": 2,
-     "explication": "La comptabilisation anticipée du CA et le raccourcissement injustifié des durées d'amortissement sont des ANOMALIES comptables (comptes erronés) → cause de modification de l'opinion (c). b) faux : l'énoncé précise que les éléments probants sont suffisants → ce n'est pas une limitation. a) « estimations non acceptables » : les durées d'amortissement relèvent d'estimations, mais ici la cause générique retenue par la grille 705 est l'anomalie ; l'intitulé « estimations non acceptables » n'est pas la catégorie de l'ISA-CH 705. d) faux : les informations sont compréhensibles, elles sont fausses. Base : ISA-CH 705. → voir §6 du mémento."
+     "explications": [
+      "Trompeur : les durées d'amortissement relèvent certes d'estimations, et une estimation inacceptable EST une anomalie (mémento §16) ; mais la catégorie générique de la grille ISA-CH 705 est « anomalie » — l'option C englobe les deux constats (CA anticipé + amortissements).",
+      "Faux : l'énoncé précise que les éléments probants sont suffisants — il n'y a donc pas de limitation de l'étendue.",
+      "Juste : la comptabilisation anticipée du chiffre d'affaires (violation de la délimitation périodique, art. 958b CO) et le raccourcissement injustifié des durées d'amortissement rendent les comptes erronés → anomalies, cause de modification de l'opinion (ISA-CH 705 ; mémento §6.1).",
+      "Faux : les informations sont compréhensibles — elles sont fausses ; le problème est l'exactitude, pas l'intelligibilité."
+     ]
     },
     {
      "id": "CRA-064",
@@ -983,7 +1322,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Opinion sans réserve"
      ],
      "correct": 2,
-     "explication": "Provisions manquantes 15 mio = ANOMALIE. Effet : le bénéfice de 13 mio devient une perte de ~2 mio → passage bénéfice→perte, donc anomalie DIFFUSE (§6.2) → opinion défavorable (c). b) réserve : réservée à une anomalie significative NON diffuse — écartée ici par le renversement du résultat. a) impossibilité : réservée aux limitations diffuses ; ici l'auditeur SAIT que c'est faux. d) sans réserve : exclu. Base : ISA-CH 705 ; art. 960e CO (provisions). → voir §6.2 du mémento."
+     "explications": [
+      "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION diffuse ; ici l'auditeur SAIT que les provisions manquent — c'est une anomalie (mémento §6.1).",
+      "Faux : la réserve vaudrait pour une anomalie significative NON diffuse ; or la correction renverse le résultat (13 mio → perte d'environ 2 mio) — critère de diffus (mémento §6.2).",
+      "Juste : provisions manquantes de 15 mio (art. 960e CO) = anomalie ; le bénéfice de 13 mio deviendrait une perte d'environ 2 mio → passage bénéfice→perte = anomalie significative ET diffuse → opinion défavorable, avec recommandation de renvoi (ISA-CH 705 ; mémento §6.2 · §6.4).",
+      "Faux : exclu — la direction et le CA refusent de corriger une anomalie majeure."
+     ],
+     "piege": "bénéfice→perte = diffus"
     },
     {
      "id": "CRA-065",
@@ -998,12 +1343,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le rapport doit contenir une opinion modifiée du fait d'une anomalie."
      ],
      "correct": 2,
-     "explication": "L'écriture contourne le compte de résultat (produit comptabilisé directement en réserves) : c'est une ANOMALIE → une opinion modifiée peut s'imposer (d s'applique), une information sur une possible distribution dissimulée (art. 678 CO) peut être requise (b s'applique) et un paragraphe « autres points » reste envisageable (a). En revanche, un PARAGRAPHE D'OBSERVATION (c) suppose un fait CORRECTEMENT présenté dans les comptes ; face à une écriture anormale/erronée, il ne s'applique pas → c'est l'affirmation la moins pertinente. Base : ISA-CH 706 ; art. 678 CO. → voir §7.1 du mémento. [Incertitude : voir divergence.]"
+     "explications": [
+      "S'applique potentiellement : un paragraphe « autres points » peut porter des informations utiles à la compréhension de l'audit et sert de véhicule aux autres obligations de communication (mémento §7.2).",
+      "S'applique potentiellement : une écriture qui crédite directement les réserves depuis les créances peut masquer une distribution dissimulée de bénéfices (art. 678 CO), à signaler (mémento §10.1 · §15).",
+      "Juste (la MOINS applicable) : le paragraphe d'observation suppose un fait CORRECTEMENT présenté dans les états financiers (mémento §7.1) ; or cette écriture contourne le compte de résultat — elle est anormale/erronée, donc l'observation ne convient pas. Clé reconstituée sur un énoncé imprécis : divergence documentée (divergences.md D.1).",
+      "S'applique : comptabiliser un produit directement en réserves fausse le résultat → anomalie pouvant imposer une opinion modifiée (ISA-CH 705 ; mémento §6.1)."
+     ],
+     "piege": "observation = fait correctement présenté"
     },
     {
      "id": "CRA-066",
      "champ": "Litige peu probable → engagement conditionnel + observation",
-     "memento": "§7.1 / §3.1",
+     "memento": "§7.1",
      "difficulte": 3,
      "question": "Gallus Sàrl (contrôle ordinaire) est impliquée dans un litige important ; les avocats jugent une condamnation très peu probable. Dommages max CHF 14 mio, fonds propres CHF 25 mio. Première plainte le 20 décembre, litige non mentionné au 31 décembre. Quel traitement est correct dans les comptes et le rapport ?",
      "options": [
@@ -1013,7 +1364,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Mention comme engagement conditionnel et opinion défavorable"
      ],
      "correct": 2,
-     "explication": "Une condamnation « très peu probable » ne remplit pas le critère de sortie probable de ressources → pas de PROVISION, mais un ENGAGEMENT CONDITIONNEL à mentionner en annexe (art. 959c al. 2 ch. 10 CO). Le litige, né le 20 décembre (avant clôture), doit être présenté ; une fois correctement mentionné, un paragraphe d'observation attire l'attention sur ce litige à issue incertaine → c). a)/b) faux : pas de provision (condamnation improbable). d) défavorable : disproportionné (14 mio < 25 mio de FP, pas de caractère diffus). Base : art. 959c CO ; ISA-CH 706. → voir §7.1/3.1 du mémento."
+     "explications": [
+      "Faux : une provision suppose une sortie de ressources probable (art. 960e al. 2 CO) ; une condamnation jugée « très peu probable » ne la justifie pas.",
+      "Faux sur les deux volets : pas de provision (condamnation improbable), et pas de réserve — une fois le litige correctement présenté, les comptes ne sont pas erronés.",
+      "Juste : condamnation très peu probable → pas de provision, mais mention de l'engagement conditionnel en annexe (art. 959c al. 2 ch. 10 CO), le litige étant né le 20 décembre, avant la clôture. Correctement mentionné, ce litige à issue incertaine justifie un paragraphe d'observation (ISA-CH 706 ; mémento §7.1). NB : la distinction provision/engagement conditionnel n'est pas détaillée dans le mémento — elle relève du droit comptable général.",
+      "Faux : la mention en engagement conditionnel est correcte, mais l'opinion défavorable est disproportionnée — le fait est correctement présenté et non diffus (dommage max 14 mio < fonds propres 25 mio)."
+     ],
+     "piege": "improbable → pas de provision"
     },
     {
      "id": "CRA-067",
@@ -1028,7 +1385,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Recommandation d'approbation conditionnelle en cas d'opinion défavorable"
      ],
      "correct": 2,
-     "explication": "Cumul des anomalies = 0,5 + 0,4 + 0,7 = 1,6 mio. Rapportées aux CAPITAUX PROPRES (21 mio) → ~7,6 % : significatif, mais NON diffus (les CP restent nettement positifs, pas de perte de capital, pas d'effondrement d'un poste fondamental) → opinion avec réserve (c). Piège : si la référence avait été le BÉNÉFICE (1,5 mio), les 1,6 mio le transformeraient en perte → caractère diffus → défavorable. L'énoncé impose la référence « capitaux propres », donc réserve. a) défavorable : supposerait le caractère diffus. b) impossibilité : réservée aux limitations. d) incohérent. Base : ISA-CH 705 (test significatif/diffus). → voir §6.2 du mémento."
+     "explications": [
+      "Faux avec la référence imposée : rapportées aux capitaux propres (21 mio), les anomalies cumulées (1,6 mio ≈ 7,6 %) ne rendent pas les comptes globalement trompeurs — pas de perte de capital, fonds propres largement positifs → pas de caractère diffus, donc pas d'opinion défavorable (mémento §6.2).",
+      "Faux : l'impossibilité d'exprimer une opinion sanctionne une limitation de l'étendue diffuse ; ici les anomalies sont connues et chiffrées (mémento §6.1).",
+      "Juste : cumul des anomalies = 0,5 + 0,4 + 0,7 = 1,6 mio → significatif par rapport aux capitaux propres (21 mio), mais NON diffus (les CP restent nettement positifs) → opinion avec réserve, assortie d'une recommandation d'approbation (ISA-CH 705 ; mémento §6.2 · §6.4). Piège : rapportées au bénéfice (1,5 mio), les mêmes anomalies le renverseraient en perte → diffus → défavorable ; l'énoncé impose la référence « capitaux propres ».",
+      "Faux : l'approbation conditionnelle est réservée aux cas de continuité incertaine à conditions clairement définies ; une opinion défavorable s'accompagne d'une recommandation de renvoi (mémento §6.4)."
+     ],
+     "piege": "référence : CP vs bénéfice"
     }
    ]
   },
@@ -1049,12 +1412,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le rapport sur les indicateurs clés de performance (KPI)"
      ],
      "correct": 2,
-     "explication": "Les « autres informations » (ISA-CH 720) sont les éléments du rapport annuel accompagnant les états financiers audités : business review (a), rapport de gouvernance (b), indicateurs KPI (d) — l'auditeur les lit sans les certifier. Le rapport sur le développement durable (c) relève, depuis la révision du CO, d'un régime propre (art. 964a ss CO, avec le cas échéant sa propre assurance) et, lorsqu'il est publié séparément, sort du périmètre des « autres informations » lues au titre du 720. Base : ISA-CH 720 ; art. 964a ss CO. → voir §8.2 du mémento. [Incertitude : voir divergence.]"
+     "explications": [
+      "Fait partie des « autres informations » : la business review est un élément du rapport annuel hors états financiers audités, que l'auditeur lit sans le certifier (ISA-CH 720 ; mémento §8.2).",
+      "Fait partie des « autres informations » : le rapport sur la gouvernance d'entreprise accompagne les comptes dans le rapport annuel (mémento §8.2).",
+      "Réponse retenue : le rapport sur le développement durable relève, depuis la révision du CO, d'un régime propre (art. 964a ss CO — approbation dédiée et, le cas échéant, vérification propre) ; publié séparément, il sort du périmètre des « autres informations » lues au titre du 720. Attention : le mémento §8.2 cite encore la durabilité parmi les autres informations ; la clé, reconstituée sur la base du régime 964a ss, reste marquée [À VÉRIFIER] (divergences.md D.1).",
+      "Fait partie des « autres informations » : les indicateurs clés de performance (KPI) du rapport annuel sont typiquement des autres informations — cf. le piège du KPI erroné (mémento §8.2)."
+     ]
     },
     {
      "id": "CRA-069",
      "champ": "Paragraphe « autres points » — énoncé faux",
-     "memento": "§7.2",
+     "memento": "§7.2 · §8.1",
      "difficulte": 3,
      "question": "Concernant le paragraphe relatif à d'autres points, quelle déclaration n'est PAS correcte selon les normes suisses d'audit ?",
      "options": [
@@ -1064,7 +1432,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le changement de président du conseil d'administration doit être indiqué dans un paragraphe « autres points »."
      ],
      "correct": 3,
-     "explication": "d) est FAUX : un changement de président du CA n'a pas à figurer dans un paragraphe « autres points ». a) vrai : les violations relatives à l'établissement des comptes se traduisent par une anomalie affectant l'opinion, pas par une mention « violation » séparée. b) vrai : le non-respect de la restitution des versements (art. 680 al. 2 CO) est un exemple d'information sur une violation. c) vrai : un changement d'auditeur responsable / de la période précédente relève des « autres points » (ISA-CH 710). Base : ISA-CH 706/710 ; art. 680 al. 2 CO. → voir §7.2 du mémento."
+     "explications": [
+      "Déclaration correcte (donc pas la réponse) : les violations liées à l'établissement des comptes se traduisent par une anomalie qui passe par l'OPINION, pas par une mention « violation de la loi » séparée (mémento §5.4 · §6.1).",
+      "Déclaration correcte : le remboursement prohibé des versements (art. 680 al. 2 CO) figure parmi les violations de la loi à signaler, véhiculées par le paragraphe « autres points » / autres obligations de communication (mémento §7.2 · §10.1).",
+      "Déclaration correcte : le changement d'auditeur responsable (comme l'audit de la période précédente par un autre auditeur) est un exemple d'« autres points » rattaché à l'ISA-CH 710 (mémento §8.1).",
+      "Juste (déclaration INCORRECTE) : un changement de président du conseil d'administration est un simple fait de gouvernance — il n'entre dans aucun des cas d'« autres points » (chiffres comparatifs 710, type de contrôle, violations de la loi ; mémento §7.2 · §8.1)."
+     ],
+     "piege": "gouvernance ∉ autres points"
     },
     {
      "id": "CRA-070",
@@ -1079,7 +1453,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'impact d'un événement significatif de l'exercice"
      ],
      "correct": 3,
-     "explication": "Les KAM (ISA-CH 701, cotées) portent sur les domaines à risque élevé, à forte appréciation ou marqués par un événement significatif de l'exercice → d). a) faux : un KAM ne REMPLACE jamais une opinion modifiée (piège central). b) faux : un changement au sein du CA relève des « autres points », pas d'un KAM. c) faux : le lissage des résultats est une manipulation (anomalie/fraude), pas un KAM. Base : ISA-CH 701. → voir §7.3 du mémento."
+     "explications": [
+      "Faux : un KAM ne REMPLACE jamais une opinion modifiée — c'est le piège central de l'ISA-CH 701 (mémento §7.3 · §7.4).",
+      "Faux : un changement au sein du CA est un fait de gouvernance — il ne constitue pas une zone d'audit délicate à décrire en KAM.",
+      "Faux : le lissage des résultats est une manipulation comptable (anomalie, voire fraude ISA-CH 240) — il appelle une correction ou une modification de l'opinion, pas un KAM.",
+      "Juste : les KAM (obligatoires pour les sociétés cotées) proviennent des domaines à risque élevé, à forte appréciation de la direction, ou marqués par un événement significatif de l'exercice (ISA-CH 701 ; mémento §7.3)."
+     ],
+     "piege": "KAM ≠ opinion modifiée"
     },
     {
      "id": "CRA-071",
@@ -1094,7 +1474,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un KAM sur la dépréciation n'est pas nécessaire et ne remplace pas une opinion défavorable"
      ],
      "correct": 3,
-     "explication": "L'anomalie est significative ET diffuse (résultat qui bascule en perte) → opinion DÉFAVORABLE obligatoire (ISA-CH 705). Un KAM (ISA-CH 701) ne REMPLACE jamais une opinion modifiée → d) est la seule option autorisée. a), b) et c) utilisent toutes le KAM pour éviter une réserve ou un défavorable, ce qui est interdit. Base : ISA-CH 701 et 705. → voir §7.3 du mémento."
+     "explications": [
+      "Interdit : utiliser un KAM pour éviter une réserve revient à substituer une description à l'opinion, ce que l'ISA-CH 701 prohibe (mémento §7.3) ; de plus, l'anomalie étant diffuse, même la réserve serait insuffisante.",
+      "Interdit à plus forte raison : l'anomalie significative ET diffuse (résultat consolidé qui bascule en négatif) impose l'opinion DÉFAVORABLE (ISA-CH 705 ; mémento §6.2) ; aucun KAM ne s'y substitue.",
+      "Interdit : reformuler le KAM sur « le goodwill » plutôt que sur la dépréciation ne change rien — aucun KAM ne dispense d'une opinion modifiée justifiée (mémento §7.3).",
+      "Juste : l'anomalie significative et diffuse exige une opinion défavorable ; le KAM ne remplace jamais une opinion modifiée — en cas d'opinion modifiée, le rapport renvoie aux sections dédiées (fondement de l'opinion) plutôt qu'à un KAM (ISA-CH 701/705 ; mémento §7.3 · §7.4)."
+     ],
+     "piege": "KAM ≠ opinion modifiée"
     },
     {
      "id": "CRA-072",
@@ -1109,7 +1495,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La description des conséquences en cas d'erreur d'estimation"
      ],
      "correct": 0,
-     "explication": "Un KAM doit comporter : un titre, le RENVOI à la présentation du point dans les états financiers, la justification du choix, et la description des risques/procédures/observations. La formulation décrit l'approche et les procédures mais ne contient AUCUN renvoi à la note des comptes → a) est l'élément manquant. b) le montant n'est pas une mention obligatoire du KAM. c) les risques sont partiellement esquissés (« évaluations significatives »). d) la description des conséquences d'une erreur n'est pas un élément requis autonome. Base : ISA-CH 701. → voir §7.3 du mémento."
+     "explications": [
+      "Juste : un KAM doit contenir un titre, le RENVOI à la présentation du point dans les états financiers, la justification de son choix comme KAM et la description des risques/procédures/observations (ISA-CH 701 ; mémento §7.3) ; la formulation proposée ne renvoie à aucune note des comptes.",
+      "Faux : le montant des provisions n'est pas une mention obligatoire du KAM.",
+      "Faux : les risques sont déjà esquissés (« évaluations significatives », recours à des valeurs empiriques) — c'est l'élément le moins manquant.",
+      "Faux : la description des conséquences d'une erreur d'estimation n'est pas une composante requise d'un KAM."
+     ]
     },
     {
      "id": "CRA-073",
@@ -1124,7 +1515,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Instruments financiers, comptabilisation du chiffre d'affaires, stocks de marchandises"
      ],
      "correct": 1,
-     "explication": "Les thèmes de KAM les plus fréquents pour les cotées suisses (SMI, 2021) sont le goodwill, la comptabilisation des produits (chiffre d'affaires) et les impôts différés → b). Les instruments financiers figurent parmi les thèmes récurrents mais n'entrent pas dans le trio de tête ; les stocks de marchandises sont moins dominants pour le SMI. a), c) et d) écartent l'un des trois thèmes majeurs. Base : ISA-CH 701 (pratique SMI). → voir §7.3 du mémento."
+     "explications": [
+      "Faux : les stocks de marchandises ne figurent pas dans le trio de tête des KAM du SMI — le goodwill et le chiffre d'affaires cités sont justes, mais il manque les impôts différés.",
+      "Réponse retenue : goodwill, comptabilisation du chiffre d'affaires (produits) et impôts différés sont les trois thèmes dominants des KAM 2021 pour les sociétés du SMI. NB : le mémento §7.3 cite « goodwill, impôts, comptabilisation des produits, instruments financiers » sans hiérarchie — le classement précis (trio de tête) provient du support de cours.",
+      "Faux : les instruments financiers sont un thème récurrent mais hors du trio de tête ; la comptabilisation du chiffre d'affaires y figure à leur place.",
+      "Faux : combine deux thèmes secondaires (instruments financiers, stocks de marchandises) et omet le goodwill — thème n° 1 — ainsi que les impôts différés."
+     ]
     },
     {
      "id": "CRA-074",
@@ -1139,12 +1535,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Suppression du paragraphe « autres informations »"
      ],
      "correct": 3,
-     "explication": "En cas d'impossibilité d'exprimer une opinion, la section « autres informations » (ISA-CH 720) est SUPPRIMÉE → d). a) faux : on n'émet pas d'« opinion avec réserve » sur les autres informations. b) faux : l'impossibilité conduit à un RENVOI, pas à une approbation conditionnelle. c) faux : les motifs de l'impossibilité figurent dans le « fondement de l'impossibilité », et les KAM ne servent pas à cela (ils sont d'ailleurs écartés en cas d'impossibilité). Base : ISA-CH 720/705. → voir §8.2 du mémento."
+     "explications": [
+      "Faux : il n'existe pas d'« opinion avec réserve » sur les autres informations — l'opinion d'audit ne les couvre pas (ISA-CH 720 ; mémento §8.2).",
+      "Faux : l'impossibilité d'exprimer une opinion s'accompagne d'une recommandation de RENVOI des comptes, pas d'une approbation conditionnelle — celle-ci est réservée aux cas de continuité incertaine à conditions définies (mémento §6.4).",
+      "Faux : les motifs figurent dans la section « fondement de l'impossibilité d'exprimer une opinion » ; les KAM ne servent pas à cela et sont d'ailleurs abandonnés en cas d'impossibilité (ISA-CH 701/705).",
+      "Juste : en cas d'impossibilité d'exprimer une opinion, la section « autres informations » est supprimée du rapport (ISA-CH 720/705 ; mémento §8.2)."
+     ],
+     "piege": "impossibilité → renvoi, pas conditionnelle"
     },
     {
      "id": "CRA-075",
      "champ": "Exercice précédent (autre auditeur / opinion modifiée levée) → autres points",
-     "memento": "§8.1 / §7.2",
+     "memento": "§8.1 · §7.2",
      "difficulte": 2,
      "question": "Rebecca Raschle (Geisser SA, contrôle ordinaire) : l'exercice précédent a été audité par une autre société d'audit, avec une opinion modifiée pour doutes sur la continuité. Cette année, la continuité n'est plus menacée. Quelle conséquence pour le rapport d'audit de cette année ?",
      "options": [
@@ -1154,7 +1556,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Doutes relatifs à la continuité de l'exploitation"
      ],
      "correct": 2,
-     "explication": "Les faits relatifs à la PÉRIODE PRÉCÉDENTE — auditée par un autre auditeur et/ou ayant reçu une opinion modifiée — se signalent dans un paragraphe relatif à d'AUTRES POINTS (ISA-CH 710) → c). a) faux : aucune anomalie de l'exercice courant ne justifie une réserve. b) faux : l'observation vise un fait présent dans les EF de l'exercice, pas la comparaison avec le passé. d) faux : la continuité n'est plus menacée cette année. Base : ISA-CH 710/706. → voir §8.1/7.2 du mémento."
+     "explications": [
+      "Faux : aucune anomalie ni limitation n'affecte l'exercice courant — la continuité est rétablie ; rien ne justifie une réserve.",
+      "Faux : le paragraphe d'observation renvoie à un fait présenté dans les états financiers de l'exercice (mémento §7.1) ; la situation de l'exercice précédent n'en fait pas partie.",
+      "Juste : période précédente auditée par un autre auditeur et/ou ayant reçu une opinion modifiée → paragraphe relatif à d'autres points (ISA-CH 710/706 ; mémento §8.1 · §7.2), sans effet sur l'opinion de l'exercice courant.",
+      "Faux : la continuité n'est plus menacée cette année — pas de section « Incertitude significative liée à la continuité » (ISA-CH 570)."
+     ]
     },
     {
      "id": "CRA-076",
@@ -1169,12 +1576,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Mettre en évidence l'état de fait (observation)"
      ],
      "correct": 0,
-     "explication": "Une incohérence dans les « autres informations » (ici un KPI du rapport annuel, ISA-CH 720) déclenche d'abord une COMMUNICATION au conseil d'administration en vue d'une correction → a). b) faux : l'opinion d'audit ne couvre pas les autres informations, donc pas de réserve sur les comptes pour ce motif. c) et d) faux : ce ne sont pas les premières étapes ; la démarche commence par la demande de correction auprès du CA. Base : ISA-CH 720. → voir §8.2 du mémento."
+     "explications": [
+      "Juste : un KPI erroné dans le rapport annuel est une anomalie des « autres informations » (ISA-CH 720) ; la première démarche est la communication au conseil d'administration — responsable de ces informations — en vue d'une correction (mémento §8.2, piège explicite sur ce cas des stocks/charges de marchandises).",
+      "Faux : l'opinion d'audit ne couvre pas les autres informations — une erreur de KPI dans le rapport annuel ne justifie pas une réserve sur les comptes (mémento §8.2).",
+      "Faux : signaler l'anomalie dans la section « autres informations » du rapport n'intervient que si elle n'est pas corrigée — ce n'est pas la PREMIÈRE étape.",
+      "Faux : le paragraphe d'observation vise un fait des états financiers eux-mêmes (ISA-CH 706 ; mémento §7.1), pas le rapport annuel."
+     ],
+     "piege": "autres infos ≠ opinion"
     },
     {
      "id": "CRA-077",
      "champ": "Chiffres comparatifs — autre auditeur (710)",
-     "memento": "§8",
+     "memento": "§8.1 · §7.2",
      "difficulte": 2,
      "question": "Les comptes de l'exercice précédent ont été audités par un AUTRE organe de révision. Comment cela se traduit-il dans le rapport de l'exercice courant ?",
      "options": [
@@ -1184,12 +1597,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Par un point clé de l'audit (KAM)."
      ],
      "correct": 1,
-     "explication": "B est juste : l'audit de la période précédente par un autre auditeur se signale dans un paragraphe relatif à d'autres points (ISA-CH 710 / 706), sans modifier l'opinion. A est faux (pas une réserve). C est faux : l'observation vise un fait présenté DANS les comptes. D est faux : les KAM sont réservés aux cotées et visent des zones d'audit délicates. Base : ISA-CH 710 / 706. → voir §8 du mémento."
+     "explications": [
+      "Faux : les chiffres comparatifs font partie des comptes (mémento §8.1), mais l'audit par un prédécesseur n'est pas une anomalie — aucune réserve n'est justifiée.",
+      "Juste : la période précédente auditée par un autre organe de révision se signale dans un paragraphe relatif à d'autres points (ISA-CH 710/706 ; mémento §8.1 · §7.2), sans modifier l'opinion.",
+      "Faux : le paragraphe d'observation renvoie à un fait correctement présenté DANS les états financiers (mémento §7.1) ; le changement d'auditeur est extérieur aux comptes.",
+      "Faux : les KAM (ISA-CH 701) sont réservés aux sociétés cotées et décrivent des zones d'audit délicates de l'exercice — pas la situation des chiffres comparatifs (mémento §7.3)."
+     ]
     },
     {
      "id": "CRA-078",
      "champ": "Autres informations (720)",
-     "memento": "§8",
+     "memento": "§8.2",
      "difficulte": 2,
      "question": "Concernant les « autres informations » du rapport annuel (rapport de gestion, gouvernance, durabilité) au sens de l'ISA-CH 720, quelle affirmation est correcte ?",
      "options": [
@@ -1199,7 +1617,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Elles relèvent de la responsabilité de l'organe de révision."
      ],
      "correct": 1,
-     "explication": "B est juste : la responsabilité des autres informations incombe au conseil d'administration ; l'opinion d'audit ne les couvre pas ; l'auditeur les lit pour repérer une incohérence significative avec les comptes et la signale le cas échéant. A et D sont faux (responsabilité du CA, informations non couvertes). C est faux : une incohérence n'entraîne pas automatiquement une opinion défavorable sur les comptes. Base : ISA-CH 720. → voir §8 du mémento."
+     "explications": [
+      "Faux : l'opinion d'audit ne couvre PAS les autres informations — l'auditeur ne les certifie jamais (ISA-CH 720 ; mémento §8.2).",
+      "Juste : l'auditeur lit les autres informations pour détecter une incohérence significative avec les comptes ou avec sa connaissance de l'entité ; si une anomalie n'est pas corrigée, il la signale (section « autres informations » / communication au CA), mais il ne certifie rien (ISA-CH 720 ; mémento §8.2).",
+      "Faux : une incohérence déclenche d'abord une communication au CA, puis un signalement dans le rapport si elle n'est pas corrigée — pas automatiquement une opinion défavorable sur les comptes (mémento §8.2).",
+      "Faux : les autres informations relèvent de la responsabilité du conseil d'administration, pas de l'organe de révision (mémento §8.2)."
+     ],
+     "piege": "lire ≠ certifier"
     }
    ]
   },
@@ -1210,7 +1634,7 @@ window.QCM_BANK["conclusionRapportAudit"] = {
     {
      "id": "CRA-079",
      "champ": "Régime d'audit selon seuils art. 727 CO (cas Heidel AG)",
-     "memento": "§9 (comparé au §5)",
+     "memento": "§9.2 / §9.3 (comparé au §5.1)",
      "difficulte": 3,
      "question": "La société Heidel AG présente un total de bilan de CHF 5 mio, 20 employés à plein temps et un produit net des ventes et prestations de CHF 9 mio ; les chiffres de l'exercice précédent sont identiques. Qu'est-ce qui est le plus juste ?",
      "options": [
@@ -1220,12 +1644,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le responsable de la révision doit être un expert-réviseur agréé."
      ],
      "correct": 1,
-     "explication": "Aucun des trois seuils de l'art. 727 al. 1 ch. 2 CO (total du bilan 20 mio, chiffre d'affaires 40 mio, 250 EPT) n'est atteint sur deux exercices successifs : Heidel relève donc du contrôle RESTREINT (art. 727a CO), et non ordinaire. B est juste : quel que soit le régime, le rapport de l'organe de révision rend compte du résultat de son contrôle (en restreint, conclusion à assurance négative, art. 729b CO). A est fausse : avec 20 EPT (> 10), l'opting-out de l'art. 727a al. 2 CO est exclu — un réviseur agréé doit être désigné. C est fausse : le rapport détaillé complet au CA est propre au contrôle ordinaire (art. 728b al. 1 CO) ; le contrôle restreint n'émet qu'un rapport succinct à l'AG. D est fausse : le contrôle restreint requiert un réviseur agréé, pas un expert-réviseur (exigé seulement en contrôle ordinaire, art. 727b CO). Base : art. 727 / 727a / 729b CO. → voir §9 du mémento (et §5 pour la comparaison ordinaire)."
+     "explications": [
+      "Faux : avec 20 emplois à plein temps (plus de 10 EPT en moyenne annuelle), l'opting-out de l'art. 727a al. 2 CO est exclu — Heidel AG doit désigner un organe de révision (contrôle restreint). Précision légale au-delà du mémento : la limite des 10 EPT ne figure pas dans le mémento, qui traite le régime restreint au §9.",
+      "Exact : aucun des trois seuils de l'art. 727 al. 1 ch. 2 CO (total du bilan 20 mio, chiffre d'affaires 40 mio, 250 EPT) n'est atteint — Heidel AG relève du contrôle RESTREINT (art. 727a CO). Or, quel que soit le régime, le rapport de l'organe de révision rend compte du résultat de son contrôle : en restreint, sous forme d'assurance négative (art. 729b CO ; mémento §9.1-§9.2).",
+      "Faux : le rapport détaillé complet au conseil d'administration est propre au contrôle ORDINAIRE (art. 728b al. 1 CO) ; le contrôle restreint ne produit qu'un rapport succinct à l'AG, sans rapport détaillé au CA (mémento §9.3, tableau des différences, et §5.1).",
+      "Faux : l'expert-réviseur agréé n'est exigé qu'en contrôle ordinaire (art. 727b CO) ; en contrôle restreint, un réviseur agréé suffit (art. 729a CO ; mémento §9.3)."
+     ],
+     "piege": "régime restreint ≠ ordinaire"
     },
     {
      "id": "CRA-080",
      "champ": "Assurance négative",
-     "memento": "§9",
+     "memento": "§9.1",
      "difficulte": 2,
      "question": "Quelle formulation caractérise la conclusion délivrée dans un rapport de contrôle restreint (NCR) ?",
      "options": [
@@ -1235,12 +1665,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "« Nous ne sommes pas en mesure d'exprimer une opinion »."
      ],
      "correct": 1,
-     "explication": "B est juste : le contrôle restreint (art. 729-729c CO, norme NCR) délivre une assurance négative (modérée), formulée « nous n'avons pas rencontré d'élément… ». A décrit l'opinion positive du contrôle ordinaire (art. 728 CO). C et D sont des opinions modifiées de l'ISA-CH 705, qui n'existent pas en contrôle restreint. Base : art. 729b CO · NCR. → voir §9 du mémento."
+     "explications": [
+      "Faux : « les comptes sont conformes à la loi et aux statuts » est l'affirmation POSITIVE du contrôle ordinaire (art. 728 CO), fondée sur une assurance raisonnable — pas la formulation du contrôle restreint (mémento §9.1 et §9.3, ligne « Assurance »).",
+      "Exact : le contrôle restreint (art. 729-729c CO, norme NCR) délivre une assurance négative (modérée) : le réviseur atteste n'avoir PAS rencontré d'éléments lui laissant penser que les comptes ne sont pas conformes à la loi et aux statuts (art. 729b CO ; mémento §9.1).",
+      "Faux : « les comptes ne sont pas conformes » est l'opinion DÉFAVORABLE de l'ISA-CH 705, propre au contrôle ordinaire ; le contrôle restreint ne connaît pas les opinions modifiées (mémento §9.1, piège).",
+      "Faux : « pas en mesure d'exprimer une opinion » est l'impossibilité d'exprimer une opinion (ISA-CH 705), elle aussi étrangère au contrôle restreint (mémento §9.1 et §6.4)."
+     ],
+     "piege": "assurance négative ≠ positive"
     },
     {
      "id": "CRA-081",
      "champ": "Élément propre au contrôle ordinaire",
-     "memento": "§9",
+     "memento": "§9.3 / §5.3",
      "difficulte": 2,
      "question": "Quel élément fait partie du contrôle ORDINAIRE mais PAS du contrôle restreint ?",
      "options": [
@@ -1250,12 +1686,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une conclusion sur la conformité des comptes à la loi et aux statuts."
      ],
      "correct": 1,
-     "explication": "B est juste : l'attestation de l'existence du SCI (art. 728a al. 1 ch. 3 CO, NAS-CH 890) et le rapport détaillé au CA (art. 728b al. 1) sont propres au contrôle ordinaire. A (recommandation d'approbation) et C (personne responsable, indépendance) figurent dans les DEUX rapports (art. 728b al. 2 / 729b CO). D existe dans les deux, sous forme positive (ordinaire) ou négative (restreint). Base : art. 728a / 728b / 729b CO. → voir §9 du mémento."
+     "explications": [
+      "Faux : la recommandation d'approbation des comptes figure dans les DEUX régimes — rapport succinct à l'AG en ordinaire (art. 728b al. 2 CO) comme rapport de contrôle restreint (art. 729b CO) ; c'est même une spécificité du droit suisse, requise en ordinaire ET en restreint (mémento §9.2 et §11).",
+      "Exact : l'attestation de l'existence du SCI (art. 728a al. 1 ch. 3 CO / NAS-CH 890) est propre au contrôle ORDINAIRE — le tableau des différences du mémento la marque « Non » en restreint, tout comme le rapport détaillé au CA (mémento §9.3 et §5.3).",
+      "Faux : la mention de la personne responsable (et de ses compétences) ainsi que les informations sur l'indépendance figurent dans les deux rapports (art. 728b al. 2 et 729b CO ; mémento §9.2).",
+      "Faux : une conclusion sur la conformité à la loi et aux statuts existe dans les deux régimes — sous forme positive en ordinaire, sous forme d'assurance négative en restreint (mémento §9.1 et §9.3)."
+     ],
+     "piege": "éléments communs aux deux rapports"
     },
     {
      "id": "CRA-082",
      "champ": "Agrément requis",
-     "memento": "§9",
+     "memento": "§9.3",
      "difficulte": 2,
      "question": "Une SA soumise au contrôle restreint désigne son organe de révision. Quel agrément le réviseur responsable doit-il au minimum détenir ?",
      "options": [
@@ -1265,12 +1707,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le titre d'expert-comptable diplômé, obligatoirement."
      ],
      "correct": 0,
-     "explication": "A est juste : le contrôle restreint requiert un réviseur agréé. Le contrôle ordinaire, lui, exige un expert-réviseur agréé (B décrit le régime ordinaire). C est faux : un agrément ASR est toujours requis. D est faux : le diplôme n'est pas la condition légale d'agrément (c'est l'agrément ASR qui l'est). Base : LSR (art. 4-5) · art. 727b / 729a CO. → voir §9 du mémento."
+     "explications": [
+      "Exact : le contrôle restreint exige un réviseur agréé — agrément ASR selon la LSR (art. 4-5), art. 729a CO ; c'est l'agrément minimal, que le tableau des différences du mémento oppose à l'expert-réviseur agréé du contrôle ordinaire (mémento §9.3).",
+      "Faux : l'expert-réviseur agréé est l'exigence du contrôle ORDINAIRE (art. 727b CO) ; l'exiger en restreint serait sur-qualifier (mémento §9.3, ligne « Agrément requis »).",
+      "Faux : le contrôle restreint n'est pas dispensé d'agrément — un agrément ASR de réviseur agréé est toujours requis (art. 729a CO ; mémento §9.3).",
+      "Faux : la loi exige l'agrément ASR, pas un titre déterminé ; le diplôme d'expert-comptable est une voie d'accès à l'agrément, pas la condition légale elle-même (LSR art. 4-5 — précision au-delà du mémento, qui ne détaille que le type d'agrément, §9.3)."
+     ],
+     "piege": "réviseur ≠ expert-réviseur"
     },
     {
      "id": "CRA-083",
      "champ": "« Complément » NCR ≠ réserve",
-     "memento": "§9",
+     "memento": "§9.1",
      "difficulte": 3,
      "question": "En contrôle restreint, l'organe de révision veut attirer l'attention sur une incertitude liée à la continuité, correctement présentée en annexe. Que fait-il ?",
      "options": [
@@ -1280,7 +1728,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il doit basculer en contrôle ordinaire."
      ],
      "correct": 1,
-     "explication": "B est juste : la NCR prévoit un « complément » (équivalent du paragraphe d'observation de l'ISA-CH 706) pour signaler un fait correctement présenté sans modifier la conclusion. A est faux : le contrôle restreint ne connaît pas les opinions modifiées de l'ISA-CH 705. C est faux — l'assurance négative n'est pas une réserve (piège classique). D est faux. Base : NCR · art. 729b CO. → voir §9 du mémento."
+     "explications": [
+      "Faux : le contrôle restreint ne connaît pas les opinions modifiées de l'ISA-CH 705 (réserve, défavorable, impossibilité) ; une incertitude correctement présentée en annexe n'appellerait d'ailleurs pas de réserve, même en contrôle ordinaire (mémento §9.1, piège, et §4.3, 1er cas).",
+      "Exact : la NCR prévoit un « complément », équivalent du paragraphe d'observation de l'ISA-CH 706, pour attirer l'attention sur un fait correctement présenté — ici l'incertitude de continuité décrite en annexe — sans modifier la conclusion à assurance négative (art. 729b CO ; mémento §9.1, piège).",
+      "Faux : l'assurance négative est le régime NORMAL du contrôle restreint, pas une opinion dégradée ni une réserve implicite — c'est le faux ami classique de ce module (mémento §9.1, piège, et §13).",
+      "Faux : rien n'impose de basculer en contrôle ordinaire ; le régime dépend des seuils de l'art. 727 CO (ou d'un opting-up volontaire), pas de l'existence d'une incertitude à signaler (mémento §9)."
+     ],
+     "piege": "complément ≠ réserve"
     }
    ]
   },
@@ -1301,7 +1755,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Recommandation d'approbation en cas d'opinion défavorable"
      ],
      "correct": 2,
-     "explication": "Lorsqu'une incertitude de continuité repose sur une CONDITION clairement définie (ici l'augmentation de capital), la recommandation appropriée est l'APPROBATION CONDITIONNELLE (§6.4) → l'option c) est la seule à la porter. a) incohérent : une opinion sans réserve va avec une approbation, pas un renvoi. b) incohérent : une réserve s'accompagne d'une approbation, pas d'un renvoi. d) « approbation » simple avec « défavorable » est contradictoire (le défavorable entraîne le renvoi). Base : ISA-CH 570 ; art. 728b CO. → voir §4.3/6.4 du mémento. [Incertitude : voir divergence.]"
+     "explications": [
+      "Faux : appariement incohérent — une opinion sans réserve s'accompagne d'une recommandation d'APPROBATION, jamais d'un renvoi (mémento §6.4, tableau des formulations).",
+      "Faux : même incohérence — l'opinion avec réserve s'accompagne elle aussi d'une recommandation d'approbation ; seules l'opinion défavorable et l'impossibilité entraînent le renvoi (mémento §6.4, piège « réserve → approbation »).",
+      "Exact : c'est la seule variante qui porte l'APPROBATION CONDITIONNELLE, réservée précisément aux cas de continuité incertaine subordonnée à des conditions clairement définies — ici l'augmentation de capital (ISA-CH 570 ; mémento §6.4). L'appariement avec « opinion défavorable » reste bancal dans l'énoncé : la notion réellement testée est l'approbation conditionnelle (question signalée en divergence).",
+      "Faux : « approbation » simple combinée à une « opinion défavorable » est contradictoire — l'opinion défavorable entraîne la recommandation de RENVOI (mémento §6.4)."
+     ],
+     "piege": "réserve → approbation, pas renvoi"
     },
     {
      "id": "CRA-085",
@@ -1316,12 +1776,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Impossibilité d'exprimer une opinion"
      ],
      "correct": 2,
-     "explication": "Il existe une incertitude significative sur la continuité (ISA-CH 570). Le critère décisif est la qualité de la publication : une annexe INSUFFISANTE → réserve ; une annexe TOTALEMENT ABSENTE → opinion défavorable. Ici le CA ne publie rien → défavorable (c). a) faux : une observation ne couvre pas une information manquante. b) réserve : réservée à une description insuffisante mais existante. d) impossibilité : réservée à une limitation diffuse (auditeur qui ne peut conclure) — ici l'auditeur SAIT que l'information manque. Base : ISA-CH 570. → voir §4.3 du mémento."
+     "explications": [
+      "Faux : le paragraphe d'observation renvoie à un fait correctement présenté dans les comptes (mémento §7.1) ; il ne peut pas couvrir une information sur la continuité totalement absente de l'annexe.",
+      "Faux : la réserve sanctionne une description INSUFFISANTE mais existante de l'incertitude ; ici le CA refuse de publier quoi que ce soit (mémento §4.3, 2e cas).",
+      "Exact : incertitude significative sur la continuité (ISA-CH 570) et information TOTALEMENT ABSENTE de l'annexe → opinion DÉFAVORABLE. Le mémento distingue précisément « annexe insuffisante → réserve » de « information totalement absente → défavorable » (mémento §4.3).",
+      "Faux : l'impossibilité d'exprimer une opinion sanctionne une LIMITATION de l'étendue (l'auditeur ne peut pas conclure) ; ici l'auditeur SAIT que l'information manque — c'est une anomalie de présentation, pas une limitation (mémento §6.1, piège)."
+     ],
+     "piege": "annexe absente → défavorable"
     },
     {
      "id": "CRA-086",
      "champ": "Évaluation — rôles",
-     "memento": "§4",
+     "memento": "§4.1",
      "difficulte": 1,
      "question": "Quelle affirmation est exacte concernant l'évaluation de la continuité de l'exploitation ?",
      "options": [
@@ -1331,12 +1797,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La direction a l'obligation légale de vérifier la continuité de l'exploitation lors de l'établissement des comptes annuels."
      ],
      "correct": 3,
-     "explication": "La continuité est un principe de présentation des comptes que la direction doit apprécier à chaque bouclement (bonne réponse). Faux : (1) c'est la DIRECTION qui évalue, l'auditeur remet en question ; (2) l'horizon légal est de 12 mois, une dissolution à 3-5 ans n'impose pas des valeurs de liquidation dès la prochaine clôture ; (3) piège classique — l'absence de perte de capital/surendettement ne dispense PAS d'apprécier la continuité (ex. perte d'un client à 70 % du CA). Base : art. 958a al. 1 CO. → voir §4 du mémento."
+     "explications": [
+      "Faux : c'est exactement l'inverse des rôles — la DIRECTION évalue la capacité à poursuivre, l'auditeur remet cette évaluation en question sans s'y substituer (mémento §4.1, tableau des rôles).",
+      "Faux : l'horizon légal est de 12 mois — les valeurs de liquidation s'imposent si la cessation est envisagée ou inévitable dans les 12 mois (art. 958a al. 2 CO) ; une dissolution attendue à 3-5 ans n'impose pas des valeurs de liquidation dès la prochaine clôture (mémento §4.1).",
+      "Faux : l'absence de perte de capital ou de surendettement ne dispense PAS d'apprécier la continuité — ex. la perte d'un client représentant 70 % du CA menace la continuité sans toucher les fonds propres (mémento §4.1, piège).",
+      "Exact : la continuité est un principe de présentation des comptes (art. 958a al. 1 CO) — la direction doit apprécier à chaque bouclement la capacité à poursuivre l'exploitation et choisir la base d'évaluation (mémento §4.1)."
+     ],
+     "piege": "pas de 725a/b ≠ continuité acquise"
     },
     {
      "id": "CRA-087",
      "champ": "Devoirs de la direction",
-     "memento": "§4",
+     "memento": "§4.1 / §10.3",
      "difficulte": 2,
      "question": "Laquelle des affirmations suivantes n'est PAS un devoir incombant à la direction ?",
      "options": [
@@ -1346,12 +1818,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Informer l'auditeur sans restriction en matière de continuité et de son évaluation."
      ],
      "correct": 2,
-     "explication": "L'avis au juge n'est PAS déclenché par le recours aux valeurs de liquidation, mais par le SURENDETTEMENT (art. 725b al. 3) : lier « valeurs de liquidation » et « avis au juge » est une confusion, donc ce n'est pas un devoir tel que formulé (bonne réponse). Les autres sont bien des devoirs : (1) évaluation documentée, (2) valeurs de liquidation si la continuité n'est pas assurée sur 12 mois — art. 958a al. 2 CO, (4) obligation d'information sans restriction envers l'organe de révision. Base : art. 958a / 725b CO. → voir §4 et §10.3 du mémento."
+     "explications": [
+      "Pas la bonne réponse : documenter son évaluation est bien un devoir — la direction fournit une évaluation DOCUMENTÉE de la capacité à poursuivre sur au moins 12 mois (mémento §4.1, tableau des rôles).",
+      "Pas la bonne réponse : c'est bien un devoir — si la cessation est envisagée ou inévitable dans les 12 mois, les comptes sont dressés aux valeurs de liquidation, avec provisions pour charges de cessation (art. 958a al. 2 CO ; mémento §4.1).",
+      "Exact (ce n'est PAS un devoir tel que formulé) : l'avis au juge n'est pas déclenché par le simple recours aux valeurs de liquidation, mais par le SURENDETTEMENT constaté dans les comptes intermédiaires, sans postposition ni assainissement à 90 jours (art. 725b al. 3 CO) — lier mécaniquement « valeurs de liquidation » et « avis au juge » est la confusion exploitée (mémento §10.3).",
+      "Pas la bonne réponse : c'est bien un devoir — la direction doit informer l'organe de révision sans restriction ; une rétention d'informations constituerait une limitation de l'étendue (mémento §4.1 ; cf. §4.3, 4e cas)."
+     ],
+     "piege": "valeurs de liquidation ≠ avis au juge"
     },
     {
      "id": "CRA-088",
      "champ": "Obligations de l'auditeur",
-     "memento": "§4",
+     "memento": "§4.1",
      "difficulte": 1,
      "question": "Quelle affirmation est exacte concernant l'évaluation de la continuité par l'auditeur ?",
      "options": [
@@ -1361,12 +1839,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les procédures d'audit de la continuité diffèrent peu d'un mandat à l'autre."
      ],
      "correct": 2,
-     "explication": "L'auditeur obtient des éléments probants et documente ses procédures dans TOUS les mandats (bonne réponse). Faux : (1) la continuité s'apprécie systématiquement, pas seulement en situation critique ; (2) l'auditeur doit remettre en question l'évaluation du CA, aucune ne « prime » sans examen ; (4) c'est un domaine très variable, « stimulant même pour les auditeurs expérimentés ». Base : ISA-CH 570. → voir §4 du mémento."
+     "explications": [
+      "Faux : la continuité s'apprécie dans TOUS les mandats, pas seulement quand elle est déjà critique — l'auditeur obtient des éléments probants sur le caractère approprié de l'hypothèse à chaque audit (ISA-CH 570 ; mémento §4.1).",
+      "Faux : aucune évaluation ne « prime » d'office — l'auditeur doit précisément remettre en question l'évaluation de la direction : « il ne doit pas en savoir plus que la direction, mais doit questionner son évaluation » (mémento §4.1, tableau des rôles).",
+      "Exact : l'auditeur met en place des procédures d'évaluation de la continuité et les DOCUMENTE, dans tous les mandats (ISA-CH 570 ; mémento §4.1, tableau des rôles : « documenter ses procédures »).",
+      "Faux : les procédures varient fortement selon la situation — pour une société saine un budget suffit, pour une société en difficulté il faut plans de trésorerie, covenants, PV, comptes intermédiaires (mémento §4.1 et §4.2)."
+     ]
     },
     {
      "id": "CRA-089",
      "champ": "Refus d'évaluer de la direction",
-     "memento": "§4",
+     "memento": "§4.1",
      "difficulte": 2,
      "question": "Que se passe-t-il si la direction refuse d'évaluer la continuité de l'exploitation ?",
      "options": [
@@ -1376,12 +1859,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'auditeur n'a d'autre choix que d'aviser le juge."
      ],
      "correct": 1,
-     "explication": "L'auditeur ne fait pas l'évaluation à la place de la direction : le refus est une limitation qui conduit à un RAPPORT MODIFIÉ (bonne réponse). Faux : (1) l'auditeur ne se substitue pas à la direction ; (3) le retrait n'est pas la réponse imposée ; (4) l'avis au juge relève du surendettement, pas d'un refus d'évaluer la continuité. Base : ISA-CH 570 ; art. 958a CO. → voir §4 du mémento."
+     "explications": [
+      "Faux : l'auditeur ne fait pas l'évaluation à la place de la direction — il ne doit pas en savoir plus qu'elle, il questionne son évaluation (mémento §4.1, tableau des rôles et piège).",
+      "Exact : le mémento le dit expressément — « si la direction refuse d'évaluer la continuité, l'auditeur ne fait pas l'évaluation à sa place : le rapport est MODIFIÉ » (mémento §4.1, piège ; ISA-CH 570).",
+      "Faux : la démission n'est pas la réponse imposée par la norme ; l'auditeur traite le refus comme une limitation et en tire les conséquences dans son rapport (mémento §4.1 ; cf. §6.1 pour la mécanique limitation → réserve/impossibilité).",
+      "Faux : l'avis au juge relève du SURENDETTEMENT (art. 725b al. 3 CO), pas d'un refus d'évaluer la continuité (mémento §10.3)."
+     ],
+     "piege": "l'auditeur ne se substitue pas"
     },
     {
      "id": "CRA-090",
      "champ": "Indicateurs de doute",
-     "memento": "§4",
+     "memento": "§4.2",
      "difficulte": 2,
      "question": "Quel état de fait n'est PAS révélateur d'un doute sur la continuité de l'exploitation ?",
      "options": [
@@ -1391,12 +1880,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La société détient plus d'actions propres que ce qui est autorisé (violation de la loi)."
      ],
      "correct": 3,
-     "explication": "La détention excessive d'actions propres est une violation légale, mais pas en soi un indicateur de menace sur la continuité (bonne réponse). Les autres sont des indicateurs typiques : (1) financier — retrait/non-renouvellement de crédit ; (2) financier — actif circulant net négatif sans crédit ; (3) opérationnel — chute des ventes / concurrence. Base : ISA-CH 570 (indicateurs financiers et opérationnels). → voir §4.2 du mémento."
+     "explications": [
+      "Pas la bonne réponse : le non-renouvellement d'un crédit en blanc sauf garanties est un indicateur FINANCIER typique — prêts échus non renouvelés, retrait du soutien des créanciers (mémento §4.2).",
+      "Pas la bonne réponse : un actif circulant net négatif sans limite de crédit supplémentaire est l'indicateur financier classique du doute sur la continuité (mémento §4.2).",
+      "Pas la bonne réponse : la chute des ventes due à un concurrent agressif est un indicateur OPÉRATIONNEL cité par le mémento (mémento §4.2).",
+      "Exact : la détention excessive d'actions propres est une violation légale, mais elle ne menace pas en soi la capacité à poursuivre l'exploitation — ce n'est pas un indicateur de doute au sens de l'ISA-CH 570 (les « violations d'exigences de fonds propres » listées en indicateurs « autres » visent la substance financière, mémento §4.2) ; une violation de la loi relève des autres obligations de communication (mémento §10.1)."
+     ],
+     "piege": "violation légale ≠ doute continuité"
     },
     {
      "id": "CRA-091",
      "champ": "Sources d'indicateurs",
-     "memento": "§4",
+     "memento": "§4.2",
      "difficulte": 1,
      "question": "Laquelle des affirmations suivantes est correcte ?",
      "options": [
@@ -1406,12 +1901,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La volonté de poursuivre l'exploitation n'est pas pertinente tant que la poursuite est financièrement et juridiquement possible."
      ],
      "correct": 0,
-     "explication": "Les indicateurs opérationnels (intention de liquider, pertes de clients/cadres) se trouvent souvent hors des états financiers, notamment dans les PV du CA (bonne réponse). Faux : (2) les seuls comptes annuels ne suffisent pas (budgets, PV, comptes intermédiaires nécessaires) ; (3) une modification législative peut parfaitement menacer une entreprise donnée ; (4) la volonté de poursuivre EST pertinente, surtout dans les cas peu clairs. Base : ISA-CH 570. → voir §4.2 du mémento."
+     "explications": [
+      "Exact : les indicateurs opérationnels (intention de liquider, perte de cadres, de clients ou de licences clés…) ne figurent normalement pas dans les états financiers — on les trouve dans les PV du CA ou la matrice des risques (mémento §4.2).",
+      "Faux : l'analyse des seuls comptes annuels ne suffit pas — les procédures s'étendent aux cash-flows et liquidités prévisionnels, comptes intermédiaires, covenants, PV, avis des conseillers juridiques (mémento §4.2).",
+      "Faux : les changements réglementaires figurent parmi les indicateurs « autres » du mémento — une modification législative peut parfaitement menacer une entreprise donnée, même si elle s'applique à toutes (mémento §4.2).",
+      "Faux : la volonté de poursuivre EST pertinente — l'« intention de liquider » est précisément un indicateur opérationnel (mémento §4.2) ; dans les cas peu clairs, elle devient même l'élément décisif (précision du cours, au-delà du mémento)."
+     ]
     },
     {
      "id": "CRA-092",
      "champ": "Procédures sans incidence",
-     "memento": "§4",
+     "memento": "§4.2",
      "difficulte": 2,
      "question": "Parmi ces procédures d'audit, laquelle n'a aucune influence sur l'évaluation de la continuité ?",
      "options": [
@@ -1421,12 +1921,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Analyse et discussion du budget."
      ],
      "correct": 2,
-     "explication": "Le contrôle de la répartition du bénéfice conforme à la décision de l'AG porte sur l'emploi du bénéfice, sans lien avec la capacité future à poursuivre l'exploitation (bonne réponse). Les autres nourrissent l'appréciation de la continuité : (1) événements postérieurs, (2) comptes intermédiaires, (4) budget/flux prévisionnels. Base : ISA-CH 570. → voir §4.2 du mémento."
+     "explications": [
+      "Pas la bonne réponse : l'audit des événements postérieurs nourrit l'appréciation de la continuité — un fait postérieur peut révéler une menace sur le going concern (mémento §3.2, connexion avec §4).",
+      "Pas la bonne réponse : l'analyse des derniers comptes intermédiaires fait partie des procédures complémentaires en cas de doute (mémento §4.2).",
+      "Exact : contrôler que le bénéfice a été réparti conformément à la décision de l'AG porte sur l'EMPLOI du bénéfice passé (conformité — art. 728a al. 1 ch. 2 CO, mémento §5.3) ; cela n'apporte rien sur la capacité FUTURE à poursuivre l'exploitation (mémento §4.2, a contrario).",
+      "Pas la bonne réponse : l'analyse et la discussion du budget (cash-flows et liquidités prévisionnels) sont au cœur des procédures de continuité (mémento §4.2)."
+     ]
     },
     {
      "id": "CRA-093",
      "champ": "Procédures — problème de liquidités",
-     "memento": "§4",
+     "memento": "§4.2",
      "difficulte": 3,
      "question": "Une société connaît des problèmes de liquidités. Parmi les procédures suivantes, laquelle est la MOINS importante pour l'évaluation de la continuité ?",
      "options": [
@@ -1436,12 +1941,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Examen critique des conditions régissant les engagements financiers (covenants)."
      ],
      "correct": 1,
-     "explication": "Face à une crise de liquidité, les procédures les plus décisives sont prospectives : planification des flux (1), disponibilité des financements (3) et clauses des engagements dont la violation accélère les dettes (4). L'analyse des derniers comptes intermédiaires (2), plus rétrospective/instantanée, est la moins déterminante pour projeter la solvabilité — bien qu'elle reste utile (surendettement). Base : ISA-CH 570 (procédures complémentaires en cas de doute). → voir §4.2 du mémento."
+     "explications": [
+      "Pas la bonne réponse : la planification des flux de trésorerie, y compris les liquidités actuelles, est LA procédure centrale face à une crise de liquidité — prospective par nature (mémento §4.2, procédures complémentaires).",
+      "Exact (la moins importante) : l'analyse des derniers comptes intermédiaires est la plus rétrospective des quatre — utile, notamment pour détecter un surendettement (mémento §10.3), mais moins déterminante que les procédures prospectives pour projeter la solvabilité (mémento §4.2). Question de degré : le choix entre cette option et les contrats de collecte de fonds est serré (question signalée en divergence).",
+      "Pas la réponse retenue : la disponibilité effective des financements conditionne directement la survie — procédure prospective importante ; ce distracteur reste le second choix défendable de cette question de degré (mémento §4.2).",
+      "Pas la bonne réponse : l'examen des covenants est essentiel — leur violation peut rendre les dettes immédiatement exigibles et précipiter l'insolvabilité (mémento §4.2, indicateurs financiers : violation de covenants)."
+     ]
     },
     {
      "id": "CRA-094",
      "champ": "Entreprises en difficulté — budgets",
-     "memento": "§4",
+     "memento": "§4.2 / §14",
      "difficulte": 1,
      "question": "Parmi les affirmations suivantes sur les entreprises en difficulté, laquelle n'est PAS correcte ?",
      "options": [
@@ -1451,12 +1961,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Lors de l'établissement des budgets, les entreprises en difficulté doivent faire preuve de prudence (pessimisme)."
      ],
      "correct": 2,
-     "explication": "Une entreprise en difficulté ne doit PAS budgéter avec « optimisme » : le principe de prudence impose des hypothèses pessimistes (affirmation incorrecte = bonne réponse). Les autres sont correctes : (1) risque de fraude accru, (2) risque accru pour les organes (dont l'organe de révision), (4) prudence/pessimisme requis. Base : ISA-CH 240/570. → voir §4 du mémento."
+     "explications": [
+      "Affirmation correcte (donc pas la réponse) : le risque de fraude est plus élevé en situation de difficulté — l'incitation/pression est l'un des trois côtés du triangle de la fraude (ISA-CH 240 ; mémento §14).",
+      "Affirmation correcte (donc pas la réponse) : le risque augmente aussi pour les organes, y compris l'organe de révision — cf. sa responsabilité si l'avis au juge est omis ou si une postposition se révèle invalide (mémento §10.4, piège).",
+      "Exact (affirmation NON correcte) : une entreprise en difficulté ne peut pas budgéter avec « un optimisme sain » — la prudence impose des hypothèses prudentes, voire pessimistes, pour évaluer la continuité. Règle issue du cours : le mémento ne traite pas expressément la prudence des budgets (procédures budgétaires : §4.2).",
+      "Affirmation correcte (donc pas la réponse) : miroir exact de l'option précédente — les budgets des entreprises en difficulté s'établissent avec prudence (pessimisme) (cours ; procédures : mémento §4.2)."
+     ],
+     "piege": "prudence, pas optimisme"
     },
     {
      "id": "CRA-095",
      "champ": "Entreprises en difficulté — attention particulière",
-     "memento": "§4",
+     "memento": "§14 / §4.2",
      "difficulte": 2,
      "question": "Quel fait requiert une attention particulière dans le cas des entreprises en difficulté ?",
      "options": [
@@ -1466,12 +1982,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Obtention de confirmations bancaires."
      ],
      "correct": 0,
-     "explication": "Les sociétés en difficulté sont incitées à anticiper la reconnaissance du chiffre d'affaires pour améliorer leur résultat : la délimitation (cut-off) du CA est un point de fraude sensible qui exige une attention particulière (bonne réponse). (2) et (4) sont des contrôles de routine sans spécificité « difficulté ». (3) l'exhaustivité de l'annexe est importante mais moins ciblée par le risque de manipulation du résultat. Base : ISA-CH 240/570. → voir §4 et §14 du mémento."
+     "explications": [
+      "Exact : une société en difficulté est incitée à gonfler son résultat en anticipant la reconnaissance du chiffre d'affaires ; la présomption de risque de fraude sur la comptabilisation des produits (ISA-CH 240) rend le cut-off du CA particulièrement sensible (mémento §14).",
+      "Faux : la réconciliation comptabilité salariale / comptabilité générale est un contrôle de routine, sans lien spécifique avec le risque accru de manipulation du résultat des sociétés en difficulté (mémento §14, a contrario).",
+      "Faux : l'exhaustivité de l'annexe est toujours importante (et l'annexe sur la continuité est cruciale, mémento §4.3), mais elle n'est pas le point de manipulation du RÉSULTAT visé ici — la question cible le risque de fraude sur les produits (mémento §14).",
+      "Faux : les confirmations bancaires relèvent des éléments probants de routine de la phase de RÉALISATION (mémento §1.2, piège) — pas une attention propre aux entreprises en difficulté."
+     ],
+     "piege": "cut-off = fraude sur les produits"
     },
     {
      "id": "CRA-096",
      "champ": "Nature de l'audit de continuité",
-     "memento": "§4",
+     "memento": "§4.1",
      "difficulte": 1,
      "question": "Laquelle des affirmations suivantes est correcte ?",
      "options": [
@@ -1481,12 +2003,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si aucune incertitude n'apparaît lors de la planification, il n'est pas nécessaire de procéder à d'autres vérifications."
      ],
      "correct": 2,
-     "explication": "L'appréciation de la continuité, dans les cas peu clairs, est exigeante même pour des professionnels chevronnés (bonne réponse). Faux : (1) la continuité s'apprécie tout au long de la mission, pas seulement à la fin ; (2) domaine à risque, à ne pas déléguer à des débutants ; (4) l'absence d'indice en planification n'exonère pas de vigilance ultérieure. Base : ISA-CH 570. → voir §4 du mémento."
+     "explications": [
+      "Faux : la continuité s'apprécie tout au long de la mission — les indicateurs se captent dès la planification et jusqu'aux événements postérieurs (mémento §4.2 et §3.2), pas seulement « à la toute fin ».",
+      "Faux : domaine à fort jugement professionnel et à risque élevé pour l'auditeur — il ne se prête pas à la délégation à de nouveaux collaborateurs (cours ; rôle exigeant de l'auditeur : mémento §4.1).",
+      "Exact : dans les cas peu clairs, l'appréciation de la continuité est exigeante (« stimulante ») même pour des auditeurs expérimentés — formulation du cours ; le mémento en garde la substance : un jugement sur une évaluation prospective qu'il faut remettre en question (mémento §4.1).",
+      "Faux : l'absence d'incertitude en planification n'exonère pas de vigilance ultérieure — des indicateurs peuvent surgir en cours d'audit ou parmi les événements postérieurs (mémento §4.2 et §3.2)."
+     ]
     },
     {
      "id": "CRA-097",
      "champ": "Rôles & assistance",
-     "memento": "§4",
+     "memento": "§4.1",
      "difficulte": 2,
      "question": "Quelle affirmation est correcte ?",
      "options": [
@@ -1496,12 +2023,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Dès qu'un cas complexe excède ses capacités, l'auditeur devrait démissionner."
      ],
      "correct": 1,
-     "explication": "Face à un cas complexe, l'auditeur peut recourir à une assistance/un spécialiste (bonne réponse). Faux : (1) l'auditeur doit remettre en question les hypothèses, non les présumer réalistes ; (3) continuité, perte de capital et surendettement s'apprécient de manière liée, pas cloisonnée ; (4) l'assistance, non la démission, est la réponse à la complexité. Base : ISA-CH 570 ; art. 725a/725b CO. → voir §4 du mémento."
+     "explications": [
+      "Faux : présumer les hypothèses de la direction réalistes est contraire au scepticisme professionnel — l'auditeur doit précisément remettre en question l'évaluation de la direction (mémento §4.1, tableau des rôles).",
+      "Exact : face à un cas complexe, l'auditeur peut recourir à une assistance / un spécialiste (ISA-CH 620) tout en restant responsable de son opinion — précision du cours, non reprise en tant que telle dans le mémento (rôle de l'auditeur : §4.1).",
+      "Faux : continuité, perte de capital et surendettement s'apprécient de manière LIÉE — l'auditeur évalue l'effet de la continuité sur les obligations des art. 725a / 725b CO (mémento §4.1, tableau des rôles, et §10.3) ; pas de cloisonnement.",
+      "Faux : la complexité appelle l'assistance, pas la démission ; démissionner n'exonérerait d'ailleurs pas des obligations de rapport en cours (cours ; cf. mémento §4.1)."
+     ]
     },
     {
      "id": "CRA-098",
      "champ": "Scénarios de conclusion",
-     "memento": "§4",
+     "memento": "§4.3",
      "difficulte": 1,
      "question": "Laquelle n'est PAS une conclusion que l'auditeur peut tirer sur la continuité ?",
      "options": [
@@ -1511,12 +2043,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La continuité n'a pas été clarifiée."
      ],
      "correct": 3,
-     "explication": "Les trois conclusions possibles sont : assurée, non assurée, incertaine mais possible. « Non clarifiée » n'est pas une conclusion admissible : l'auditeur doit conclure (bonne réponse). Base : ISA-CH 570. → voir §4.3 du mémento."
+     "explications": [
+      "Pas la bonne réponse : « continuité non assurée » est une conclusion admissible — elle impose les valeurs de liquidation (art. 958a al. 2 CO ; mémento §4.1) et, si les comptes restent en continuité, l'opinion défavorable (mémento §4.3, 3e cas).",
+      "Pas la bonne réponse : « continuité assurée » est la conclusion standard — pas d'incertitude significative, texte de rapport standard (mémento §4.3, arbre).",
+      "Pas la bonne réponse : « incertaine mais possible » correspond à l'incertitude significative — son traitement dépend ensuite de la qualité de la publication en annexe (mémento §4.3, les 4 cas).",
+      "Exact : « la continuité n'a pas été clarifiée » n'est pas une conclusion admissible — l'auditeur doit conclure ; s'il ne peut pas obtenir d'éléments probants suffisants, la conséquence est l'impossibilité d'exprimer une opinion, qui reste une conclusion de rapport (mémento §4.3, 4e cas)."
+     ],
+     "piege": "l'auditeur doit conclure"
     },
     {
      "id": "CRA-099",
      "champ": "Indice menacée-mais-possible",
-     "memento": "§4",
+     "memento": "§4.2 / §4.3",
      "difficulte": 3,
      "question": "Quel indice ne convient pas à une situation où la poursuite est menacée mais n'est pas impossible ?",
      "options": [
@@ -1526,12 +2064,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le financement n'est pas assuré, mais semble possible."
      ],
      "correct": 0,
-     "explication": "L'absence de volonté des actionnaires de poursuivre rend la continuité IMPOSSIBLE (décision de fait de cesser), et non simplement « menacée mais possible » (bonne réponse). Les autres cadrent avec « menacée mais possible » : (2) difficultés de liquidité, (4) financement incertain mais envisageable, (3) exploitation encore opérationnelle malgré la tension financière. Base : ISA-CH 570 — la volonté de poursuivre est décisive. → voir §4.3 du mémento."
+     "explications": [
+      "Exact (indice qui ne convient PAS) : l'absence de volonté des actionnaires de poursuivre rend la continuité IMPOSSIBLE — c'est une décision de fait de cesser, non une simple menace ; le mémento range l'« intention de liquider » parmi les indicateurs opérationnels de cessation (mémento §4.2). La grille « menacée mais possible » vient du cours ; le mémento n'en traite que les incidences sur l'opinion (§4.3).",
+      "Pas la bonne réponse : des problèmes de liquidité sont l'indicateur financier type d'une continuité menacée mais pas nécessairement condamnée (mémento §4.2).",
+      "Pas la bonne réponse : une entreprise encore totalement opérationnelle malgré la tension financière cadre précisément avec « menacée mais possible » (cours ; indicateurs : mémento §4.2).",
+      "Pas la bonne réponse : un financement non assuré mais qui semble possible est l'exemple même de l'incertitude significative — menace réelle, issue ouverte (mémento §4.2 et §4.3)."
+     ],
+     "piege": "absence de volonté = impossible"
     },
     {
      "id": "CRA-100",
      "champ": "Cas peu clair — critère décisif",
-     "memento": "§4",
+     "memento": "§4.2",
      "difficulte": 2,
      "question": "Dans les cas peu clairs, quel est l'aspect principal de la capacité à poursuivre l'exploitation ?",
      "options": [
@@ -1541,12 +2085,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La capitalisation."
      ],
      "correct": 1,
-     "explication": "Lorsque la poursuite reste financièrement et juridiquement possible, l'élément décisif dans les cas peu clairs est la VOLONTÉ de poursuivre (bonne réponse). Les liquidités, la marge et la capitalisation sont des indicateurs, mais ne tranchent pas à eux seuls un cas ambigu. Base : ISA-CH 570. → voir §4.3 du mémento."
+     "explications": [
+      "Faux : les liquidités sont un indicateur financier majeur, mais dans un cas PEU CLAIR (poursuite financièrement et juridiquement encore possible), elles ne tranchent pas à elles seules (mémento §4.2).",
+      "Exact : lorsque la poursuite reste financièrement et juridiquement possible, l'élément décisif est la VOLONTÉ de poursuivre — enseignement du cours ; le mémento y fait écho par l'indicateur « intention de liquider » (mémento §4.2), sans énoncer la règle en tant que telle.",
+      "Faux : rendement et marge éclairent la viabilité à terme, mais ne constituent pas le critère décisif d'un cas ambigu (mémento §4.2).",
+      "Faux : la capitalisation renvoie à la perte de capital / au surendettement — or l'absence de ces situations ne garantit pas la continuité, et leur présence ne la condamne pas d'office (mémento §4.1, piège)."
+     ]
     },
     {
      "id": "CRA-101",
      "champ": "Erreur d'appréciation & responsabilité",
-     "memento": "§4",
+     "memento": "§4.3",
      "difficulte": 3,
      "question": "Concernant l'évaluation de la capacité à poursuivre l'exploitation, quelle affirmation est correcte ?",
      "options": [
@@ -1556,12 +2105,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les budgets établis pour évaluer la continuité doivent être plus pessimistes (prudence)."
      ],
      "correct": 1,
-     "explication": "Classer la continuité « possible » alors qu'il fallait retenir des valeurs de liquidation (base inappropriée → opinion défavorable) expose l'auditeur à une responsabilité juridique (bonne réponse). Faux : (1) lister des risques n'annule pas automatiquement la continuité ; (3) l'absence de liquidités à 12 mois n'implique pas « impossible » de plein droit (menace, à apprécier) ; (4) partiellement vrai pour les sociétés en difficulté, mais surestimé comme règle générale (les budgets doivent surtout être réalistes). Base : ISA-CH 570.21 ; art. 958a CO. → voir §4.3 du mémento."
+     "explications": [
+      "Faux : la matrice des risques est une SOURCE d'indicateurs (mémento §4.2) ; lister des risques, même graves, n'annule pas automatiquement l'hypothèse de continuité — il faut apprécier leur probabilité et leurs effets.",
+      "Exact : juger la poursuite « compromise mais possible » alors qu'elle est impossible revient à cautionner des comptes établis sur une base de continuité INAPPROPRIÉE — cas qui exige l'opinion défavorable (ISA-CH 570.21 ; mémento §4.3, 3e cas) ; une telle erreur d'appréciation expose l'auditeur à une responsabilité juridique.",
+      "Faux : des liquidités non assurées à 12 mois créent une MENACE à apprécier, pas une impossibilité de plein droit — la poursuite peut rester possible (financement en discussion, soutien d'actionnaires…) (mémento §4.2 et §4.3).",
+      "Faux dans sa généralité : la prudence s'impose surtout aux sociétés en difficulté ; en règle générale, les budgets doivent d'abord être RÉALISTES — c'est ce réalisme que l'auditeur questionne (mémento §4.1)."
+     ]
     },
     {
      "id": "CRA-102",
      "champ": "Rapport — CA ne publie rien",
-     "memento": "§4.3",
+     "memento": "§4.3 / §6.1",
      "difficulte": 3,
      "question": "L'organe de révision conclut que la continuité est menacée, mais le CA l'estime assurée et ne publie donc rien. Quelle affirmation est correcte ?",
      "options": [
@@ -1571,12 +2125,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Ce désaccord entraîne une limitation de l'étendue et donc une impossibilité d'exprimer une opinion."
      ],
      "correct": 1,
-     "explication": "L'information sur l'incertitude étant TOTALEMENT absente de l'annexe, l'anomalie de présentation est significative et diffuse → OPINION DÉFAVORABLE (bonne réponse). Faux : (1) un paragraphe d'observation ne remplace pas une information manquante ; (3) l'auditeur doit rapporter ; (4) il s'agit d'une ANOMALIE (désaccord), pas d'une limitation de l'étendue, donc pas d'impossibilité. Piège : anomalie diffuse → défavorable, limitation diffuse → impossibilité. Base : ISA-CH 705 ; ISA-CH 570. → voir §4.3 et §6 du mémento."
+     "explications": [
+      "Faux : le paragraphe d'observation renvoie à un fait correctement présenté DANS les états financiers (mémento §7.1) ; il ne peut pas exposer une incertitude que l'annexe tait complètement.",
+      "Exact : l'information sur l'incertitude est TOTALEMENT absente de l'annexe → anomalie de présentation significative et DIFFUSE → opinion DÉFAVORABLE (mémento §4.3 : « annexe totalement absente → défavorable » ; ISA-CH 705).",
+      "Faux : l'auditeur doit rapporter — il n'existe pas de droit de rétention du rapport en cas de désaccord avec le CA ; l'AG a d'ailleurs besoin du rapport pour statuer (art. 731 CO ; mémento §11).",
+      "Faux : il s'agit d'un DÉSACCORD sur la présentation (anomalie), pas d'une limitation de l'étendue — l'auditeur sait que l'information manque ; anomalie diffuse → défavorable, limitation diffuse → impossibilité, ne pas intervertir (mémento §6.1, piège)."
+     ],
+     "piege": "anomalie diffuse ≠ limitation diffuse"
     },
     {
      "id": "CRA-103",
      "champ": "Rapport — refus du plan mensuel",
-     "memento": "§4.3",
+     "memento": "§4.3 / §6.1",
      "difficulte": 3,
      "question": "Continuité jugée menacée par les deux parties ; l'organe de révision exige un plan de liquidités mensuel, le CA juge suffisant son plan annuel (positif) et refuse. Quelle affirmation est correcte ?",
      "options": [
@@ -1586,12 +2146,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si le CA maintient sa position, on envisage une impossibilité d'exprimer une opinion."
      ],
      "correct": 3,
-     "explication": "Sans le plan mensuel, l'auditeur ne peut obtenir d'éléments suffisants sur la trésorerie d'une société à liquidités tendues ; la continuité étant fondamentale pour la base d'évaluation des comptes, cette limitation est diffuse → IMPOSSIBILITÉ d'exprimer une opinion (bonne réponse). Faux : (1) l'auditeur ne fait pas le travail de la direction ; (2) la démission n'exonère pas de l'obligation de rapporter ; (3) une réserve suppose une limitation non diffuse, or ici l'incidence touche l'ensemble. Base : ISA-CH 705 ; ISA-CH 570. → voir §4.3 et §6 du mémento."
+     "explications": [
+      "Faux : élaborer le plan de liquidités relève de la direction ; l'auditeur qui s'en chargerait auditerait ensuite son propre travail (indépendance) — il ne se substitue pas au CA (mémento §4.1).",
+      "Faux : démissionner n'exonère pas de l'obligation de rapporter et ne résout rien ; la norme prévoit la conséquence dans le rapport, pas la fuite (mémento §4.1 et §4.3).",
+      "Faux : la réserve suppose une incidence significative mais NON diffuse ; or la continuité conditionne la base d'évaluation de l'ENSEMBLE des comptes — la limitation est ici diffuse (mémento §6.1).",
+      "Exact : sans plan de trésorerie mensuel dans une société aux liquidités tendues, l'auditeur ne peut pas obtenir d'éléments probants suffisants sur un élément fondamental → LIMITATION de l'étendue significative et diffuse → impossibilité d'exprimer une opinion (mémento §4.3, 4e cas, et §6.1)."
+     ],
+     "piege": "limitation diffuse → impossibilité"
     },
     {
      "id": "CRA-104",
      "champ": "Rapport — annexe insuffisante",
-     "memento": "§4.3",
+     "memento": "§4.3 / §6.4",
      "difficulte": 2,
      "question": "Continuité menacée, mentionnée en annexe, mais l'organe de révision estime que certaines informations manquent. Quelle affirmation est correcte ?",
      "options": [
@@ -1601,12 +2167,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Cela peut être expliqué, entre autres, dans les autres informations obligatoires."
      ],
      "correct": 1,
-     "explication": "L'annexe existe mais est insuffisante : anomalie significative non diffuse → opinion avec RÉSERVE, laquelle s'accompagne d'une recommandation d'approbation (bonne réponse). Faux : (1) « toujours défavorable » est faux — le défavorable vise l'absence totale d'information ; (3)-(4) il ne s'agit pas d'un point à reléguer aux « autres obligations » mais d'une modification de l'opinion. Base : ISA-CH 705 ; ISA-CH 570. → voir §4.3, §6 et §7 du mémento."
+     "explications": [
+      "Faux : « toujours défavorable » est excessif — l'opinion défavorable sanctionne l'information TOTALEMENT absente ; une annexe existante mais incomplète appelle la réserve (mémento §4.3, 2e cas).",
+      "Exact : l'incertitude est mentionnée mais la description est insuffisante → anomalie significative non diffuse → opinion avec RÉSERVE, laquelle s'accompagne toujours d'une recommandation d'APPROBATION (mémento §4.3 et §6.4, piège « réserve → approbation »).",
+      "Faux : les « autres obligations de communication » (art. 728c CO) visent les violations de la loi signalées à l'AG (mémento §10.1) — une annexe insuffisante sur la continuité est une anomalie des comptes, traitée par la modification de l'opinion (mémento §4.3).",
+      "Faux : même logique — un paragraphe hors opinion ne remplace jamais la modification de l'opinion lorsque les comptes eux-mêmes sont défectueux (mémento §7.4 : seule la ligne 705 modifie l'opinion)."
+     ],
+     "piege": "réserve → approbation"
     },
     {
      "id": "CRA-105",
      "champ": "Base d'évaluation — liquidation décidée",
-     "memento": "§4.1",
+     "memento": "§4.1 / §3.1",
      "difficulte": 3,
      "question": "Le CA décide la liquidation après la clôture mais avant l'établissement des comptes. Quelle affirmation est correcte ?",
      "options": [
@@ -1616,12 +2188,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Comptes en valeurs d'exploitation ; s'il n'est pas publié comme événement postérieur, il s'agit d'une présentation erronée."
      ],
      "correct": 0,
-     "explication": "La continuité s'apprécie jusqu'à l'établissement des comptes : une liquidation décidée avant ce moment impose les valeurs de liquidation ; ne pas le faire est une ANOMALIE (bonne réponse). Faux : (2) c'est une anomalie, pas une limitation de l'étendue ; (3)-(4) la base ne reste pas « valeurs d'exploitation » — l'événement ne se règle pas par une simple mention en annexe puisque la base même d'évaluation change. Base : art. 958a al. 2 CO ; ISA-CH 570.21. → voir §4.1 et §3 du mémento."
+     "explications": [
+      "Exact : la continuité s'apprécie jusqu'à la date d'ÉTABLISSEMENT des comptes ; la liquidation décidée avant ce moment rend la cessation inévitable dans les 12 mois → valeurs de liquidation obligatoires (art. 958a al. 2 CO ; mémento §4.1). Des comptes maintenus en valeurs d'exploitation constituent une ANOMALIE — base de continuité inappropriée → opinion défavorable (ISA-CH 570.21 ; mémento §4.3, 3e cas).",
+      "Faux : l'auditeur SAIT que la base d'évaluation est erronée — c'est une anomalie, pas une limitation de l'étendue (rien ne l'empêche d'obtenir des éléments probants) (mémento §6.1, piège).",
+      "Faux : le critère n'est pas la situation au seul jour de clôture — l'appréciation de la continuité se poursuit jusqu'à l'établissement des comptes, et la décision de liquidation, antérieure à cet établissement, s'impose au choix de la base d'évaluation (mémento §4.1 ; cf. §3.1, le fait postérieur éclaire le traitement).",
+      "Faux : une simple mention en événement postérieur ne suffit pas — la décision de liquider change la BASE MÊME d'évaluation (valeurs de liquidation), pas seulement le contenu de l'annexe (art. 958a al. 2 CO ; mémento §4.1 et §3.1)."
+     ],
+     "piege": "appréciation jusqu'à l'établissement"
     },
     {
      "id": "CRA-106",
      "champ": "Obligations de l'auditeur (NA-CH)",
-     "memento": "§4",
+     "memento": "§4.1 / §4.2",
      "difficulte": 2,
      "question": "Selon les Normes suisses d'audit, qu'est-ce qui n'est PAS une obligation de l'auditeur en matière de continuité ?",
      "options": [
@@ -1631,12 +2209,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Vérifier les événements individuels qui ont une influence sur la continuité."
      ],
      "correct": 3,
-     "explication": "L'auditeur apprécie globalement si l'évaluation de la société est complète et réaliste et si toutes les informations pertinentes ont été prises en compte ; il ne « vérifie » pas isolément chaque événement individuel (bonne réponse). Les autres sont des obligations : (1) analyse des indicateurs de risque, (2) contrôle du caractère complet/réaliste de l'évaluation, (3) examen de la période retenue (≥ 12 mois). Base : ISA-CH 570. → voir §4 du mémento."
+     "explications": [
+      "C'est une obligation (donc pas la réponse) : l'analyse des indicateurs de risque — financiers, opérationnels, autres — est au cœur de l'ISA-CH 570 (mémento §4.2).",
+      "C'est une obligation (donc pas la réponse) : l'auditeur obtient des éléments probants sur le caractère approprié de l'hypothèse et remet en question l'évaluation de la direction — donc son caractère complet et réaliste (mémento §4.1, tableau des rôles).",
+      "C'est une obligation (donc pas la réponse) : l'auditeur examine la période retenue — l'horizon doit couvrir AU MOINS 12 mois (art. 958a CO ; mémento §4, but).",
+      "Exact (ce n'est PAS une obligation telle que formulée) : l'auditeur apprécie GLOBALEMENT si l'évaluation de la direction est complète et réaliste et si toutes les informations pertinentes ont été prises en compte ; il n'a pas à « vérifier » isolément chaque événement individuel influant sur la continuité (ISA-CH 570 ; mémento §4.1). Nuance de formulation issue du cours, non détaillée dans le mémento."
+     ]
     },
     {
      "id": "CRA-107",
      "champ": "Périmètre & horizon",
-     "memento": "§4",
+     "memento": "§4.1 / §10.3",
      "difficulte": 2,
      "question": "Quelle affirmation concernant la continuité de l'exploitation est correcte ?",
      "options": [
@@ -1646,12 +2229,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Dans tous les cas, la société doit procéder à une analyse et une planification détaillées de sa capacité à poursuivre."
      ],
      "correct": 2,
-     "explication": "L'art. 725b vise l'entité individuelle : un surendettement au niveau CONSOLIDÉ n'entraîne pas les obligations de 725b, mais doit alerter sur la continuité (bonne réponse). Faux : (1) l'absence de perte/surendettement ne garantit pas la continuité ; (2) l'horizon est d'AU MOINS 12 mois, pas « exactement » ; (4) une société saine peut se contenter d'un budget, pas d'une planification détaillée « dans tous les cas ». Base : art. 725b al. 1 CO ; ISA-CH 570. → voir §4 et §10.3 du mémento."
+     "explications": [
+      "Faux : l'absence de perte de capital ou de surendettement ne garantit pas la continuité — ex. la perte d'un client à 70 % du CA la menace sans toucher les fonds propres (mémento §4.1, piège).",
+      "Faux : l'horizon est d'AU MOINS 12 mois, pas « exactement » — un horizon plus long peut s'imposer selon les circonstances (mémento §4, but : « sur au moins 12 mois »).",
+      "Exact : l'art. 725b CO vise l'entité juridique INDIVIDUELLE — un surendettement apparaissant seulement dans les comptes consolidés ne déclenche pas ses obligations (comptes intermédiaires, avis au juge), mais doit susciter des réflexions sur la continuité du groupe et de ses entités. Précision du cours ; le mécanisme 725b est au mémento §10.3.",
+      "Faux : « dans tous les cas » est excessif — pour une entreprise saine, rentable et bien financée, un BUDGET suffit (mémento §4.1, tableau des rôles)."
+     ],
+     "piege": "725b vise l'entité individuelle"
     },
     {
      "id": "CRA-108",
      "champ": "Rapport — impossibilité de conclure",
-     "memento": "§4.3",
+     "memento": "§4.3 / §6.1",
      "difficulte": 2,
      "question": "Si l'auditeur ne peut pas se faire une opinion suffisante sur la continuité à partir des documents disponibles, il procède comment ?",
      "options": [
@@ -1661,12 +2250,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Aucun rapport n'est remis tant qu'il n'y a pas suffisamment d'éléments probants."
      ],
      "correct": 0,
-     "explication": "Une limitation de l'étendue sur un élément fondamental (continuité), sans éléments probants suffisants, conduit à l'IMPOSSIBILITÉ d'exprimer une opinion (bonne réponse). Faux : (2) une explication en annexe ne guérit pas une limitation de l'étendue ; (3) ce n'est pas une simple mention aux autres obligations avec approbation ; (4) l'auditeur doit tout de même rapporter. Base : ISA-CH 705 ; ISA-CH 570. → voir §4.3 et §6 du mémento."
+     "explications": [
+      "Exact : documents insuffisants et impossibilité de conclure sur la continuité = LIMITATION de l'étendue sur un élément fondamental, donc diffuse → impossibilité d'exprimer une opinion, indiquée dans le rapport (mémento §4.3, 4e cas, et §6.1).",
+      "Faux : une explication en annexe ne « guérit » pas une limitation de l'étendue — et le paragraphe d'observation est réservé aux faits correctement présentés dans les comptes (mémento §7.1), pas aux éléments probants manquants.",
+      "Faux : les « autres obligations » (art. 728c CO) servent à signaler des violations de la loi (mémento §10.1) ; elles ne remplacent pas la conséquence sur l'opinion — et l'impossibilité s'accompagne d'une recommandation de RENVOI, pas d'approbation (mémento §6.4).",
+      "Faux : l'auditeur doit rapporter — l'AG ne peut statuer qu'après réception du rapport (art. 731 CO ; mémento §11) ; il rapporte l'impossibilité, il ne retient pas son rapport."
+     ],
+     "piege": "annexe ne guérit pas la limitation"
     },
     {
      "id": "CRA-109",
      "champ": "Responsabilité de l'évaluation",
-     "memento": "§4",
+     "memento": "§4.1",
      "difficulte": 1,
      "question": "Quelle affirmation concernant la continuité de l'exploitation est correcte ?",
      "options": [
@@ -1676,7 +2271,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il incombe au conseil d'administration d'évaluer l'hypothèse de continuité."
      ],
      "correct": 3,
-     "explication": "L'évaluation de la continuité incombe au CA/la direction (bonne réponse). Faux : (1) l'absence de perte/surendettement ne dispense pas d'apprécier la continuité ; (2) une appréciation prospective de bonne foi qui se révèle inexacte n'est pas automatiquement une « erreur » du CA ; (3) l'évaluation doit aussi se faire au niveau des entités, pas uniquement en consolidé. Base : art. 958a CO ; ISA-CH 570. → voir §4.1 du mémento."
+     "explications": [
+      "Faux : ni la perte de capital ni le surendettement ne sont des conditions nécessaires du doute — leur absence ne dispense pas d'apprécier la continuité (mémento §4.1, piège).",
+      "Faux : une appréciation prospective faite de bonne foi qui se révèle inexacte après coup n'est pas automatiquement une « erreur » du CA — l'évaluation se juge sur la base des informations disponibles à l'établissement des comptes (cours ; rôles : mémento §4.1).",
+      "Faux : l'évaluation doit aussi être menée au niveau de chaque entité — le consolidé ne suffit pas ; l'art. 725b vise d'ailleurs l'entité individuelle (mémento §10.3 et cours).",
+      "Exact : l'évaluation de l'hypothèse de continuité incombe au CA / à la direction, qui fournit une évaluation documentée sur au moins 12 mois et choisit la base d'évaluation (art. 958a CO ; mémento §4.1, tableau des rôles)."
+     ]
     },
     {
      "id": "CRA-110",
@@ -1691,12 +2291,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si le CA n'est pas compétent en planification, il peut charger l'auditeur de cette tâche (mandat séparé)."
      ],
      "correct": 0,
-     "explication": "En cas de doute, l'auditeur peut toujours exiger de la direction une analyse documentée de la capacité à poursuivre (bonne réponse). Faux : (2) une planification détaillée n'est pas requise « dans tous les cas » (un budget suffit pour une société saine) ; (3) en cas de tension, un plan mensuel, pas seulement annuel, est nécessaire ; (4) l'auditeur ne peut pas assumer la planification à la place de la direction (indépendance). Base : ISA-CH 570 ; art. 728 CO (indépendance). → voir §4.1 du mémento."
+     "explications": [
+      "Exact : en cas de doute, l'auditeur peut toujours exiger de la direction une analyse documentée de la capacité à poursuivre — fournir cette évaluation documentée est précisément l'obligation de la direction (ISA-CH 570 ; mémento §4.1, tableau des rôles).",
+      "Faux : « dans tous les cas » est excessif — pour une entreprise saine, rentable et bien financée, un budget suffit (mémento §4.1).",
+      "Faux : en cas d'incertitude sur les liquidités, une planification ANNUELLE ne suffit pas — un suivi plus fin (plan mensuel) est nécessaire, faute de quoi l'auditeur se retrouve en limitation de l'étendue (cf. le cas du refus du plan mensuel → impossibilité, mémento §4.3).",
+      "Faux : l'auditeur ne peut pas assumer la planification à la place de la direction — il auditerait son propre travail, en violation de son indépendance (art. 728 CO ; mémento §4.1)."
+     ]
     },
     {
      "id": "CRA-111",
      "champ": "Obligation de l'auditeur (NA-CH)",
-     "memento": "§4",
+     "memento": "§4.1 / §10.3",
      "difficulte": 2,
      "question": "Selon les Normes suisses d'audit (NA-CH), quelle est l'obligation de l'auditeur en matière de continuité ?",
      "options": [
@@ -1706,7 +2311,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Surveiller les liquidités de la société lorsque la capacité à poursuivre est menacée."
      ],
      "correct": 2,
-     "explication": "L'obligation propre à la continuité est d'apprécier si l'évaluation de la société est complète — toutes les informations pertinentes prises en compte (bonne réponse). Faux : (1) pendant un sursis concordataire, le régime d'avis au juge est modifié/suspendu, pas identique ; (2) l'obligation subsidiaire de l'organe de révision naît d'un surendettement MANIFESTE avec inaction du CA, non de simples « raisons sérieuses » ; (4) surveiller/gérer les liquidités relève de la direction, pas de l'auditeur. Base : ISA-CH 570 ; art. 725b al. 3 / 728c al. 3 CO. → voir §4 et §10.3 du mémento."
+     "explications": [
+      "Faux : pendant un sursis concordataire, le régime ordinaire de l'avis au juge est modifié / suspendu — les obligations ne sont pas « les mêmes » (précision du cours, hors mémento ; cadre 725b : mémento §10.3).",
+      "Faux : de simples « raisons sérieuses » de surendettement déclenchent les devoirs du CA (comptes intermédiaires) ; l'obligation SUBSIDIAIRE de l'organe de révision d'aviser le tribunal ne naît que d'un surendettement MANIFESTE avec inaction du CA (art. 728c al. 3 / 729c CO ; mémento §10.3).",
+      "Exact : en matière de continuité, l'obligation de l'auditeur est d'apprécier si l'évaluation de la société est complète et réaliste — donc si TOUTES les informations pertinentes ont été prises en compte (ISA-CH 570 ; mémento §4.1, tableau des rôles).",
+      "Faux : surveiller ou gérer les liquidités relève de la direction ; l'auditeur évalue et questionne, il ne pilote pas la trésorerie de l'entité (mémento §4.1)."
+     ],
+     "piege": "manifeste ≠ raisons sérieuses"
     }
    ]
   },
@@ -1727,7 +2338,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "170"
      ],
      "correct": 2,
-     "explication": "Calcul : réserves légales 60 + 80 = 140, plafonnées à 50 % du capital = 50 % × 200 = 100. Somme = capital 200 + réserves légales plafonnées 100 = 300. Le seuil de perte de capital = ½ × 300 = 150 (dans les exercices Rappaz la « valeur de référence » demandée est ce seuil). 150 est juste. 135 et 170 ne correspondent à aucun calcul. 260 = capital + réserve légale bénéfice non plafonnée (200 + 60) — erreur : on ne cumule pas ainsi et on ignore le plafonnement. Base : art. 725a al. 1 et art. 671 CO. → voir §10.2 du mémento."
+     "piege": "plafonnement des réserves légales",
+     "explications": [
+      "Faux. 135 ne correspond à aucun calcul cohérent : ni le capital (200), ni les réserves légales plafonnées (100), ni leur demi-somme (150) ne conduisent à ce montant.",
+      "Faux. 260 = capital 200 + réserve légale issue du bénéfice 60 non plafonnée : on ne cumule pas ainsi — les DEUX réserves légales (60 + 80) entrent dans la base, mais plafonnées ensemble à 50 % du capital, et le seuil est la MOITIÉ de cette base.",
+      "Juste. Réserves légales 60 + 80 = 140, plafonnées à 50 % du capital = 50 % × 200 = 100 (art. 671 CO). Base = capital 200 + réserves légales plafonnées 100 = 300. Seuil de perte de capital = ½ × 300 = 150 (dans ce type d'exercice, la « valeur de référence » demandée est ce seuil). Le mémento §10.2 traite exactement cet exemple chiffré. Base légale : art. 725a al. 1 CO.",
+      "Faux. 170 = ½ × (200 + 140) : c'est le résultat obtenu en oubliant le plafonnement des réserves légales à 50 % du capital — les 140 doivent être ramenés à 100 avant de diviser par deux."
+     ]
     },
     {
      "id": "CRA-113",
@@ -1742,7 +2359,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Non"
      ],
      "correct": 3,
-     "explication": "Seuil = ½ × (200 + 100) = 150. CP 190 > 150 → il y a perte de capital seulement si CP < ½ valeur de référence, or 190 > 150 : PAS de perte de capital → « Non ». Les informations sont complètes (postes des fonds propres donnés) et la situation est claire : les deux premières options sont des faux-fuyants. « Oui » est faux car les capitaux propres couvrent plus de la moitié de la valeur de référence. Base : art. 725a al. 1 CO. → voir §10.2 du mémento."
+     "explications": [
+      "Faux. Tous les postes des fonds propres sont donnés : le calcul de la valeur de référence et la comparaison avec les CP sont entièrement déterminés. C'est un faux-fuyant.",
+      "Faux. Une fois le seuil calculé (150), la situation est parfaitement claire : 190 > 150, la réponse est univoque.",
+      "Faux. Il n'y aurait perte de capital que si les capitaux propres étaient inférieurs à 150 (la moitié de la valeur de référence de 300) ; or CP = 190 > 150 : la moitié est encore couverte.",
+      "Juste. Seuil = ½ × (capital 200 + réserves légales plafonnées 100) = 150. CP 190 > 150 → la moitié de la valeur de référence reste couverte : PAS de perte de capital au sens de l'art. 725a al. 1 CO. Le mémento §10.2 conclut sur ces mêmes chiffres : « CP 190 > 150 → pas de perte de capital »."
+     ]
     },
     {
      "id": "CRA-114",
@@ -1757,7 +2379,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les informations disponibles sont insuffisantes."
      ],
      "correct": 1,
-     "explication": "Valeur de référence inchangée : 200 + 100 (réserves légales plafonnées) = 300 ; seuil = 150. CP = 150 = exactement la moitié. L'art. 725a exige que l'actif « ne couvre plus la moitié » (capitaux propres STRICTEMENT inférieurs à ½) : à 150 = 150, la moitié est encore couverte → « Non ». « Oui » suppose à tort une inégalité large (≤). Les informations sont complètes et la situation est déterminée : les deux dernières options sont écartées. Base : art. 725a al. 1 CO. → voir §10.2 du mémento."
+     "piege": "inégalité stricte au seuil",
+     "explications": [
+      "Faux. Répondre « Oui » suppose une inégalité large (CP ≤ seuil). Or l'art. 725a al. 1 CO exige que l'actif « ne couvre plus » la moitié de la valeur de référence : il faut que les CP soient STRICTEMENT inférieurs au seuil.",
+      "Juste. Valeur de référence inchangée : capital 200 + réserves légales plafonnées 100 = 300 ; seuil = ½ × 300 = 150. CP = 150 = exactement la moitié : elle est encore couverte, donc PAS de perte de capital (perte de capital ⇔ CP < ½ × valeur de référence, mémento §10.2). Base légale : art. 725a al. 1 CO.",
+      "Faux. Le cas limite est tranché par le texte légal (« ne couvre plus la moitié » = inégalité stricte) : la situation est juridiquement déterminée.",
+      "Faux. Toutes les données nécessaires (postes des fonds propres) sont fournies ; le calcul est complet."
+     ]
     },
     {
      "id": "CRA-115",
@@ -1772,7 +2400,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "350"
      ],
      "correct": 0,
-     "explication": "Pour une holding, les réserves légales sont plafonnées à 20 % du capital (et non 50 %) : 20 % × 200 = 40 (les 600 de réserves légales sont ramenés à 40). Somme = 200 + 40 = 240 ; seuil = ½ × 240 = 120. 120 est juste. 100 = ½ × 200 (oubli des réserves légales plafonnées). 400 = ½ × (200 + 600) (plafond de 20 % ignoré). 350 ne correspond à aucun calcul. Base : art. 725a al. 1 et art. 671 CO (plafond 20 % holding). → voir §10.2 du mémento."
+     "piege": "plafond holding 20 %",
+     "explications": [
+      "Juste. Pour une holding, les réserves légales sont plafonnées à 20 % du capital (et non 50 %, art. 671 CO ; mémento §10.2, tableau) : 20 % × 200 = 40 — les 600 de réserves légales (500 + 100) sont ramenés à 40. Base = 200 + 40 = 240 ; seuil = ½ × 240 = 120. Base légale : art. 725a al. 1 CO.",
+      "Faux. 400 = ½ × (200 + 600) : les réserves légales sont retenues intégralement, en ignorant le plafond — erreur double puisque même le plafond ordinaire de 50 % (= 100) aurait dû s'appliquer.",
+      "Faux. 100 = ½ × 200 : le capital seul est retenu, en oubliant que les réserves légales entrent dans la base (à hauteur du plafond de 20 % pour une holding, soit 40).",
+      "Faux. 350 ne correspond à aucun calcul cohérent à partir des postes donnés."
+     ]
     },
     {
      "id": "CRA-116",
@@ -1787,7 +2421,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "200"
      ],
      "correct": 0,
-     "explication": "Réserves légales 60 + 80 = 140, plafonnées à 50 % × 200 = 100. La réserve pour actions propres (30) entre pour son montant intégral. Les réserves statutaires (110) sont EXCLUES. Somme = 200 + 100 + 30 = 330 ; seuil = ½ × 330 = 165. 165 est juste. 150 = ½ × (200 + 100) oublie les actions propres. 240 et 200 incluent/excluent à tort les statutaires ou l'action propre. Base : art. 725a al. 1, art. 671 CO. → voir §10.2 du mémento (actions propres = oui intégral ; statutaires = non)."
+     "piege": "réserves statutaires exclues",
+     "explications": [
+      "Juste. Réserves légales 60 + 80 = 140, plafonnées à 50 % × 200 = 100 (art. 671 CO). La réserve pour actions propres (30) entre pour son montant INTÉGRAL ; les réserves statutaires (110) sont EXCLUES (mémento §10.2, tableau des postes). Base = 200 + 100 + 30 = 330 ; seuil = ½ × 330 = 165. Base légale : art. 725a al. 1 CO.",
+      "Faux. 150 = ½ × (200 + 100) : le calcul oublie la réserve pour actions propres (30), qui entre pourtant intégralement dans la base.",
+      "Faux. 240 = ½ × (200 + 140 + 110 + 30) : les réserves statutaires sont incluses à tort ET le plafonnement des réserves légales est ignoré.",
+      "Faux. 200 ne résulte d'aucune combinaison correcte des postes : il mélange l'inclusion à tort des statutaires et l'oubli d'autres éléments."
+     ]
     },
     {
      "id": "CRA-117",
@@ -1802,7 +2442,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "225"
      ],
      "correct": 3,
-     "explication": "La valeur de référence retient le capital-actions au NOMINAL (200), le capital-participation (100) et la réserve légale issue du capital plafonnée à 50 % du capital total = 50 % × (200 + 100) = 150 (les 150 sont donc entièrement retenus). Somme = 200 + 100 + 150 = 450 ; seuil = ½ × 450 = 225. La mention « libéré à 50 % » est un piège : le capital non libéré représente une créance de libération (un actif) et compte au nominal (cf. Q10 : « capital-actions non libéré » n'est PAS exclu). 150 (option b) est le résultat trompeur obtenu en ne comptant que le capital libéré (100). 200 et 125 ne correspondent à aucun calcul cohérent. Base : art. 725a al. 1, art. 671 CO. → voir §10.2 du mémento."
+     "piege": "capital non libéré au nominal",
+     "explications": [
+      "Faux. 200 = ½ × (200 + 100 + 100) : le plafond des réserves légales est calculé à tort sur le seul capital-actions (50 % × 200 = 100) au lieu du capital total actions + participations (50 % × 300 = 150).",
+      "Faux. 150 est le résultat trompeur obtenu en ne comptant que le capital LIBÉRÉ (100) : ½ × (100 + 100 + 100). Or la valeur de référence retient le capital au NOMINAL — la part non libérée figure à l'actif comme créance de libération et n'est pas déduite.",
+      "Faux. 125 ne correspond à aucun calcul cohérent à partir des postes donnés.",
+      "Juste. La base retient le capital-actions au NOMINAL (200), le capital-participations (100) et la réserve légale issue du capital plafonnée à 50 % du capital total = 50 % × (200 + 100) = 150 — les 150 sont donc entièrement retenus (art. 671 CO). Base = 200 + 100 + 150 = 450 ; seuil = ½ × 450 = 225. La mention « libéré à 50 % » est le piège : le capital non libéré n'est PAS exclu (mémento §10.2 : capital-actions et capital-participation au nominal, montant intégral). Base légale : art. 725a al. 1 CO."
+     ]
     },
     {
      "id": "CRA-118",
@@ -1817,7 +2463,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "50"
      ],
      "correct": 1,
-     "explication": "Sans réserves légales, valeur de référence = capital 200, seuil = 100 ; CP 50 < 100 → perte de capital. Une augmentation de X accroît à la fois le capital (200 + X) et les CP (50 + X). Nouveau seuil = ½ × (200 + X) = 100 + X/2. Condition : 50 + X ≥ 100 + X/2 ⟺ X/2 ≥ 50 ⟺ X ≥ 100. Vérification : X = 100 → capital 300, seuil 150, CP 150 (couvre exactement la moitié → plus de perte). 100 est juste. 50 ne couvre pas (X/2 = 25 < 50). 75 insuffisant. 125 excessif. Le piège est d'oublier que l'augmentation relève AUSSI le seuil (le capital augmente). Base : art. 725a al. 1 CO. → voir §10.2 du mémento."
+     "piege": "l'augmentation relève aussi le seuil",
+     "explications": [
+      "Faux. 125 est excessif : avec X = 125, capital 325, seuil ½ × 325 = 162,5 et CP 175 > 162,5 — la condition est remplie avec une marge inutile, ce n'est pas le MINIMUM demandé.",
+      "Juste. Sans réserves légales, valeur de référence = capital 200, seuil = 100 ; CP 50 < 100 → perte de capital. Une augmentation de X accroît À LA FOIS les CP (50 + X) et le capital (200 + X), donc le seuil : ½ × (200 + X) = 100 + X/2. Condition : 50 + X ≥ 100 + X/2 ⟺ X/2 ≥ 50 ⟺ X ≥ 100. Vérification : X = 100 → capital 300, seuil 150, CP 150 = la moitié exactement couverte → plus de perte de capital (inégalité stricte, mémento §10.2). Base légale : art. 725a al. 1 CO.",
+      "Faux. 75 est insuffisant : capital 275, seuil 137,5, CP 125 < 137,5 — la perte de capital subsiste.",
+      "Faux. 50 correspond au seul « manque » apparent (100 − 50), en oubliant que l'augmentation relève AUSSI le seuil : capital 250, seuil 125, CP 100 < 125 — la perte de capital subsiste."
+     ]
     },
     {
      "id": "CRA-119",
@@ -1832,7 +2484,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "50"
      ],
      "correct": 3,
-     "explication": "Valeur de référence = capital 200, seuil = 100 ; CP 50 → manque 50 pour atteindre le seuil. La dissolution de réserves latentes majore les CP (produit au compte de résultat) SANS modifier la valeur de référence (pas de nouveau capital ni de réserve légale) : le seuil reste 100. Il suffit donc de dissoudre 50 (les 80 disponibles suffisent). 50 est juste. « 100 nécessaires » relève de la logique d'une réévaluation 725c (qui relève AUSSI le seuil) — inapplicable ici. 80 et 60 dépassent le strict nécessaire. Base : art. 725a al. 1 CO. → voir §10.2 du mémento."
+     "piege": "réserves latentes : seuil inchangé",
+     "explications": [
+      "Faux. Ce raisonnement transpose la logique de l'augmentation de capital (où le seuil monte avec l'apport) ou d'une réévaluation au sens de l'art. 725c CO (dont la réserve de réévaluation entre dans la valeur de référence). Ici, la dissolution de réserves latentes passe par le RÉSULTAT et ne modifie pas la valeur de référence : 50 suffisent.",
+      "Faux. Dissoudre les 80 disponibles dépasse le strict nécessaire : dès 50, les CP atteignent le seuil de 100.",
+      "Faux. 60 dépasse aussi le minimum : le manque à combler n'est que de 50 (100 − 50).",
+      "Juste. Valeur de référence = capital 200, seuil = 100 ; CP 50 → il manque 50. La dissolution de réserves latentes majore les CP (produit au compte de résultat) SANS modifier la valeur de référence (ni nouveau capital, ni nouvelle réserve légale) : le seuil reste 100. Dissoudre 50 porte les CP à 100 = moitié exactement couverte → plus de perte de capital ; les 80 disponibles suffisent largement. Base légale : art. 725a al. 1 CO ; mémento §10.2."
+     ]
     },
     {
      "id": "CRA-120",
@@ -1847,7 +2505,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "à la fin d'une année civile"
      ],
      "correct": 2,
-     "explication": "La perte de capital s'apprécie sur des comptes établis : elle devient juridiquement pertinente chaque fois que des comptes — intermédiaires ou annuels — la révèlent, imposant alors au CA d'agir. « à tout moment » est faux (il faut des comptes établis). « à la fin de l'exercice » est trop restrictif (des comptes intermédiaires peuvent aussi la révéler). « à la fin d'une année civile » confond exercice social et année civile. Base : art. 725a al. 1 CO. → voir §10.2 du mémento."
+     "explications": [
+      "Faux. « À tout moment » décrit le SURENDETTEMENT (art. 725b CO : dès qu'il existe des raisons sérieuses, en cours d'année). La perte de capital, elle, s'apprécie sur des comptes ÉTABLIS.",
+      "Faux. Trop restrictif : des comptes intermédiaires établis en cours d'année peuvent aussi révéler la perte de capital et la rendre juridiquement pertinente.",
+      "Juste. La perte de capital s'apprécie sur des comptes établis : l'art. 725a al. 1 CO vise les « derniers comptes annuels » (cas type retenu par le mémento §10.2, tableau : « derniers comptes annuels (fin d'exercice) »), mais des comptes intermédiaires établis qui la révèlent imposent également au CA d'agir.",
+      "Faux. Cette option confond l'exercice social avec l'année civile : la clôture ne tombe pas nécessairement au 31 décembre."
+     ]
     },
     {
      "id": "CRA-121",
@@ -1862,7 +2525,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Réserves de réévaluation"
      ],
      "correct": 2,
-     "explication": "Les réserves statutaires (comme les réserves facultatives issues du bénéfice) sont EXCLUES de la valeur de référence. Le capital-participation entre au nominal ; le capital-actions non libéré compte aussi (créance de libération) ; la réserve de réévaluation (immeubles/participations) entre pour son montant intégral — ces trois postes SONT pris en compte. Base : art. 725a al. 1, art. 671 CO. → voir §10.2 du mémento (tableau des postes)."
+     "explications": [
+      "Faux. Le capital-participations entre dans la valeur de référence pour son montant intégral, au nominal (mémento §10.2, tableau des postes).",
+      "Faux. Le capital-actions non libéré compte aussi : le capital est retenu au NOMINAL, la part non libérée figurant à l'actif comme créance de libération.",
+      "Juste. Les réserves statutaires — comme les réserves facultatives issues du bénéfice — sont EXCLUES de la valeur de référence (mémento §10.2, tableau : « Réserves statutaires · réserves facultatives issues du bénéfice → Non »). Base légale : art. 725a al. 1 CO ; plafonds des réserves légales : art. 671 CO.",
+      "Faux. La réserve de réévaluation (immeubles / participations, art. 725c CO) entre pour son montant intégral dans la valeur de référence."
+     ]
     },
     {
      "id": "CRA-122",
@@ -1877,7 +2545,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La perte de l'exercice doit être répartie proportionnellement entre les postes."
      ],
      "correct": 1,
-     "explication": "L'art. 674 CO (révisé, 1.1.2023) impose un ORDRE de compensation des pertes : 1) bénéfice reporté (50), 2) réserves facultatives issues du bénéfice (50), 3) réserve légale issue du bénéfice (60), 4) réserve légale issue du capital. Perte 180 : 50 + 50 + 60 = 160, puis 20 seulement sur la réserve légale issue du capital → option 2 exacte. L'option 1 saute la réserve légale issue du bénéfice pour imputer 80 sur la réserve légale issue du capital : ordre violé. « Toutes conformes » et « répartition proportionnelle » ignorent l'ordre légal. Piège d'actualité : la libre imputation d'avant 2023 n'a plus cours. Base : art. 674 CO. → voir §10.2 du mémento."
+     "piege": "ordre légal de compensation",
+     "explications": [
+      "Faux. Cette proposition saute la réserve légale issue du bénéfice (60) et impute 80 directement sur la réserve légale issue du capital : l'ordre impératif de l'art. 674 CO est violé — la réserve légale issue du bénéfice doit être épuisée AVANT de toucher à celle issue du capital.",
+      "Juste. L'art. 674 CO (droit révisé, 1.1.2023) impose un ORDRE de compensation des pertes : 1) bénéfice reporté (50), 2) réserves facultatives issues du bénéfice (50), 3) réserve légale issue du bénéfice (60), 4) réserve légale issue du capital. Perte 180 : 50 + 50 + 60 = 160, puis 20 seulement sur la réserve légale issue du capital. Le mémento renvoie à cet ordre (§10.4, Connexions : art. 674 CO, compensation des réserves décidée par l'AG) sans le détailler poste par poste.",
+      "Faux. Les propositions ne sont pas équivalentes : depuis le 1.1.2023, l'ordre légal est impératif — la libre imputation d'avant 2023 n'a plus cours.",
+      "Faux. Aucune répartition proportionnelle n'est prévue par la loi : l'art. 674 CO fixe une séquence, pas une clé de répartition."
+     ]
     },
     {
      "id": "CRA-123",
@@ -1892,7 +2566,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Compensation des réserves légales issues du bénéfice avec les pertes (aucune modification des fonds propres sans l'accord des actionnaires)"
      ],
      "correct": 3,
-     "explication": "Compenser les réserves légales issues du bénéfice avec les pertes modifie la structure des fonds propres : cela relève de la décision de l'AG statuant sur les comptes et le traitement du résultat (art. 674 / 698 CO) → accord préalable de l'AG requis. La réévaluation (art. 725c) est décidée par le CA avec attestation d'un réviseur, sans vote de l'AG. L'augmentation « AUTORISÉE » du capital a précisément déjà été consentie par l'AG : le CA l'exécute sans nouvelle décision. La dissolution de réserves latentes est une mesure d'évaluation du CA. Base : art. 674 / 698 / 725c CO. → voir §10.2 du mémento."
+     "explications": [
+      "Faux. La réévaluation (art. 725c CO) est décidée par le CA, avec confirmation écrite (attestation) d'un réviseur agréé — aucun vote de l'AG n'est requis (mémento §10.3, Réévaluation).",
+      "Faux. L'augmentation « AUTORISÉE » du capital a précisément déjà été consentie par l'AG : le CA l'exécute dans le cadre fixé, sans nouvelle décision des actionnaires.",
+      "Faux. La dissolution de réserves latentes est une mesure d'évaluation qui relève de la compétence du CA (établissement des comptes).",
+      "Juste. Compenser les réserves légales issues du bénéfice avec les pertes modifie la structure des fonds propres : cela relève de la décision de l'AG statuant sur les comptes et l'emploi du résultat (art. 674 / 698 CO) → accord préalable de l'AG requis. Cohérent avec le mémento (§10.4, Connexions : art. 674 CO — ordre de compensation des réserves décidé par l'AG ; §10.2 : le CA ne propose à l'AG que les mesures qui relèvent d'elle)."
+     ]
     },
     {
      "id": "CRA-124",
@@ -1907,7 +2586,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Bilan et rapport de l'auditeur"
      ],
      "correct": 0,
-     "explication": "La perte de capital se lit dans la structure des fonds propres au BILAN (report de pertes / perte de l'exercice ramenant les CP sous le seuil), le cas échéant précisée dans l'ANNEXE. Le compte de résultat ne montre que la perte de la période, pas la situation cumulée des fonds propres. Le rapport de l'auditeur ne l'exprime PAS dans l'opinion (la perte de capital ne modifie pas l'opinion) : elle n'y apparaît, en paragraphe « autres obligations », qu'en cas d'inaction du CA. Les options citant le rapport de l'auditeur sont donc fausses. Base : art. 725a al. 1 CO ; art. 728c al. 2 CO. → voir §10.2 du mémento."
+     "explications": [
+      "Juste. La perte de capital se lit dans la structure des fonds propres au BILAN (report de pertes / perte de l'exercice ramenant les CP sous la moitié de la valeur de référence), le cas échéant précisée dans l'ANNEXE. C'est la comparaison CP < ½ × valeur de référence du mémento §10.2. Base légale : art. 725a al. 1 CO.",
+      "Faux. Le compte de résultat ne montre que la perte de la PÉRIODE, pas la situation cumulée des fonds propres par rapport à la valeur de référence.",
+      "Faux. Le rapport de l'auditeur n'exprime pas la perte de capital dans l'opinion (elle ne modifie jamais l'opinion, mémento §10.2, Piège) ; elle n'y apparaît, en paragraphe « autres obligations », qu'en cas d'inaction du CA (art. 728c al. 2 CO).",
+      "Faux. La moitié de cette réponse est erronée : le rapport de l'auditeur n'est pas le lieu normal de constatation de la perte de capital (voir option précédente)."
+     ]
     },
     {
      "id": "CRA-125",
@@ -1922,7 +2606,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Ajout d'un paragraphe relatif à d'autres points et, le cas échéant, mention d'une violation de la loi (en cas d'inaction du Conseil d'administration)"
      ],
      "correct": 3,
-     "explication": "La perte de capital NE modifie PAS l'opinion : elle est signalée dans un paragraphe « autres obligations de communication ». Ce qui peut constituer une violation de la loi à mentionner, c'est l'INACTION du CA (mesures non prises, avis omis — art. 728c al. 2) → option 4. Piège d'actualité (MIS À JOUR) : sous l'ancien art. 725 aCO on imposait la présence/l'intervention de l'organe de révision à l'AG ; le nouvel art. 725a ne l'exige plus et l'organe de révision ne convoque jamais l'AG (options 1 et 3 = ancien droit). Un « rapport supplémentaire obligatoire au CA » (option 2) n'est pas la conséquence générale prévue. Base : art. 725a, art. 728c al. 2 CO. → voir §10.2 du mémento."
+     "piege": "réflexe de l'ancien droit",
+     "explications": [
+      "Faux. La « présence obligatoire à l'AG » relève de l'ANCIEN droit (art. 725 aCO) : le nouvel art. 725a CO ne l'exige plus, et l'organe de révision ne convoque ni n'intervient d'office à l'AG (mémento §10.2, encadré « changement de norme »).",
+      "Faux. Un « rapport supplémentaire obligatoire au CA » n'est pas la conséquence prévue d'une perte de capital ; le rapport détaillé au CA existe en contrôle ordinaire indépendamment de cette situation.",
+      "Faux. L'« explication verbale obligatoire à l'AG » est, comme l'option A, un vestige de l'ancien droit — supprimé par la révision du 1.1.2023.",
+      "Juste. La perte de capital NE modifie PAS l'opinion : elle est signalée dans un paragraphe relatif à d'autres points / autres obligations de communication. Ce qui peut constituer une violation de la loi à mentionner, c'est l'INACTION du CA (mesures non prises, avis omis) — art. 728c al. 2 CO (mémento §10.2, Piège : « la perte de capital ne modifie PAS l'opinion »). Base légale : art. 725a, art. 728c al. 2 CO."
+     ]
     },
     {
      "id": "CRA-126",
@@ -1937,7 +2627,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Revue limitée des « reporting packages » d'une entreprise selon les IFRS"
      ],
      "correct": 1,
-     "explication": "La perte de capital (art. 725a) s'apprécie sur les comptes annuels STATUTAIRES individuels d'une société de capitaux suisse ; elle est donc pertinente aussi dans un contrôle restreint (art. 729 ss) d'une entreprise commerciale → option 2. Les comptes semestriels (option 1) ne fondent pas la constatation légale ; les comptes CONSOLIDÉS (option 3) ne servent pas au calcul de la perte de capital (concept lié aux comptes statutaires) ; une revue de reporting packages IFRS (option 4) n'est pas un contrôle de comptes statutaires suisses. Base : art. 725a al. 1 CO. → voir §10.2 du mémento."
+     "explications": [
+      "Faux. La constatation légale de la perte de capital se fonde sur les derniers comptes ANNUELS statutaires (art. 725a al. 1 CO), pas sur des comptes semestriels.",
+      "Juste. La perte de capital (art. 725a CO) s'apprécie sur les comptes annuels STATUTAIRES individuels d'une société de capitaux suisse : elle est donc pertinente quel que soit le régime de révision, y compris dans un contrôle restreint (art. 729 ss CO) d'une entreprise commerciale. Le mémento §10.2 rattache la perte de capital aux « derniers comptes annuels » de la société.",
+      "Faux. Les comptes CONSOLIDÉS ne servent pas au calcul de la perte de capital : le concept est lié aux comptes statutaires individuels de la société.",
+      "Faux. Une revue de reporting packages IFRS n'est pas un contrôle de comptes statutaires suisses : l'art. 725a CO n'y trouve pas application."
+     ]
     },
     {
      "id": "CRA-127",
@@ -1952,7 +2647,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Société en nom collectif"
      ],
      "correct": 1,
-     "explication": "La perte de capital (art. 725a) vise la SA ; l'art. 820 CO renvoie à ces règles pour la Sàrl (dotée d'un capital social) → option Sàrl. L'association et la fondation n'ont pas de capital-actions ; la société en nom collectif repose sur la responsabilité personnelle et solidaire des associés (pas de capital protégé au sens de 725a). Base : art. 725a, art. 820 CO. → voir §10.2 du mémento."
+     "explications": [
+      "Faux. L'association n'a pas de capital-actions : le mécanisme de la perte de la moitié du capital (art. 725a CO) ne lui est pas applicable.",
+      "Juste. La perte de capital (art. 725a CO) vise la SA ; l'art. 820 CO renvoie à ces règles pour la Sàrl, dotée d'un capital social. Le renvoi de l'art. 820 CO n'est pas détaillé dans le mémento (qui traite le mécanisme 725a pour la SA, §10.2) — il provient du corrigé d'origine.",
+      "Faux. La fondation n'a pas de capital protégé au sens de l'art. 725a CO (elle relève de la surveillance des fondations en cas de difficultés financières).",
+      "Faux. Dans la société en nom collectif, les associés répondent personnellement et solidairement : il n'y a pas de capital-actions protégé au sens de l'art. 725a CO."
+     ]
     },
     {
      "id": "CRA-128",
@@ -1967,12 +2667,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La réévaluation est contrôlée par l'organe de révision, qui doit également en attester."
      ],
      "correct": 3,
-     "explication": "L'art. 725c exige qu'un réviseur agréé ATTESTE par écrit la réévaluation (des immeubles et participations) → option 4 correcte. Option 1 fausse : la réévaluation est décidée par le CA (avec attestation du réviseur), non réservée à l'AG. Option 2 fausse : la réévaluation va jusqu'à la valeur RÉELLE/vénale au maximum (au-dessus de la valeur comptable, sinon elle serait sans effet). Option 3 fausse : la plus-value est portée à une RÉSERVE de réévaluation (pas au compte de résultat) et cette réserve ENTRE dans la valeur de référence (qui augmente donc). Base : art. 725c CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. La réévaluation est décidée par le CA (avec confirmation écrite d'un réviseur agréé), elle n'est pas réservée à l'AG.",
+      "Faux. La réévaluation va jusqu'à la valeur RÉELLE (vénale) au maximum — donc au-dessus de la valeur comptable, sinon elle serait sans effet (mémento §10.3 : « jusqu'à leur valeur réelle au maximum »).",
+      "Faux. La plus-value est portée à une RÉSERVE de réévaluation (fonds propres), pas au compte de résultat, et cette réserve ENTRE dans la valeur de référence pour son montant intégral (mémento §10.2, tableau) : la valeur de référence augmente donc.",
+      "Juste. L'art. 725c CO exige qu'un réviseur agréé confirme par ÉCRIT (atteste) le respect des dispositions légales pour la réévaluation des immeubles et participations (mémento §10.3, Réévaluation)."
+     ]
     },
     {
      "id": "CRA-129",
      "champ": "Mesure inefficace contre la perte de capital — postposition",
-     "memento": "§10.3",
+     "memento": "§10.2 · §10.4",
      "difficulte": 2,
      "question": "Parmi ces mesures, laquelle ne constitue PAS une mesure efficace contre une perte de capital ?",
      "options": [
@@ -1982,7 +2687,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Compensation des pertes"
      ],
      "correct": 1,
-     "explication": "La postposition (subordination de créances, art. 725b al. 4) n'a d'effet que sur le SURENDETTEMENT : elle dispense de l'avis au juge mais n'augmente pas les fonds propres, donc elle ne réduit en rien une perte de capital → option correcte. L'augmentation du capital (relève capital et CP), la dissolution de réserves latentes (majore les CP) et la compensation des pertes (assainit les fonds propres) agissent bien sur le rapport CP / valeur de référence et sont efficaces. Piège classique : postposition ≠ mesure d'assainissement de la perte de capital. Base : art. 725a, art. 725b al. 4 CO. → voir §10.3 et §10.4 du mémento."
+     "piege": "postposition ≠ assainissement",
+     "explications": [
+      "Faux (mesure efficace). L'augmentation du capital apporte des fonds propres : elle relève à la fois les CP et le seuil, avec un effet net positif dès que l'apport est suffisant (cf. le calcul du minimum, mémento §10.2).",
+      "Juste (mesure inefficace). La postposition (art. 725b al. 4 ch. 1 CO) n'a d'effet que sur le SURENDETTEMENT : elle dispense d'aviser le tribunal mais n'augmente pas les fonds propres — le mémento §10.4 le dit expressément : « ce n'est PAS une mesure d'assainissement (elle ne réduit pas le surendettement, elle donne du temps) ». Elle ne réduit donc en rien une perte de capital (art. 725a CO).",
+      "Faux (mesure efficace). La dissolution de réserves latentes majore les CP via le résultat, sans toucher à la valeur de référence : elle résorbe la perte de capital.",
+      "Faux (mesure efficace). La compensation des pertes avec les réserves (ordre de l'art. 674 CO) assainit la structure des fonds propres."
+     ]
     },
     {
      "id": "CRA-130",
@@ -1997,7 +2708,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "S'il existe des réserves latentes, elles peuvent être intégralement dissoutes (au-delà de la seule résorption de la perte), la dissolution étant publiée en annexe."
      ],
      "correct": 3,
-     "explication": "Les réserves latentes réelles peuvent être dissoutes (réévaluation jusqu'au coût des actifs sous-évalués), la dissolution nette étant publiée en annexe (bonne réponse). Faux : (1) l'art. 725a se fonde sur les comptes individuels statutaires CO, pas sur une double condition CO/IFRS ; (2) la perte de capital s'apprécie sur les DERNIERS COMPTES ANNUELS, non sur des comptes semestriels ; (3) MIS À JOUR — sous le nouvel art. 725a, plus de convocation automatique d'« assemblée d'assainissement », et l'organe de révision ne convoque JAMAIS l'AG à la place du CA (ancien art. 725 al. 1 aCO abrogé). Base : art. 725a al. 1 CO ; art. 959c al. 1 ch. 3 CO. → voir §10.2 du mémento."
+     "piege": "ancien droit : assemblée d'assainissement",
+     "explications": [
+      "Faux. L'art. 725a CO se fonde sur les comptes individuels statutaires CO — il n'existe aucune « double condition » CO/IFRS : la perte de capital dans les comptes CO suffit.",
+      "Faux. La perte de capital s'apprécie sur les DERNIERS COMPTES ANNUELS (art. 725a al. 1 CO), non sur des comptes semestriels de publication.",
+      "Faux (ancien droit). Sous le nouvel art. 725a CO, il n'y a plus de convocation automatique d'« assemblée d'assainissement », et l'organe de révision ne convoque JAMAIS l'AG à la place du CA (ancien art. 725 al. 1 aCO abrogé) — mémento §10.2, encadré « changement de norme ».",
+      "Juste. Les réserves latentes réelles peuvent être intégralement dissoutes (réévaluation des actifs sous-évalués, au-delà de la seule résorption de la perte), la dissolution nette étant publiée en annexe (art. 959c al. 1 ch. 3 CO — précision issue du corrigé, le mémento §10.2 traitant la dissolution de réserves latentes comme mesure du CA sans détailler la publication)."
+     ]
     },
     {
      "id": "CRA-131",
@@ -2012,7 +2729,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il n'y a pas de perte de capital (art. 725a al. 1 CO) et la valeur de référence est de 210."
      ],
      "correct": 1,
-     "explication": "Holding → réserves légales plafonnées à 20 % du capital. Capital = 200 + 100 = 300 ; plafond = 20 % × 300 = 60 (les réserves légales 120 + 80 = 200 sont ramenées à 60 ; réserves statutaires exclues). Somme = 300 + 60 = 360 ; seuil = ½ × 360 = 180 (la « valeur de référence » de l'exercice). Capitaux propres = 200 + 100 + 120 + 80 + 110 − 120 − 250 = 240 > 180 → PAS de perte de capital (bonne réponse). Distracteurs : (3) 225 provient de l'oubli du plafond holding (50 % au lieu de 20 %) ; (1) 300 = capital seul ; (4) 210 ne correspond à aucun calcul cohérent ici. Base : art. 725a al. 1 CO ; art. 671 CO (plafond 20 % holding). → voir §10.2 du mémento."
+     "piege": "plafond holding 20 %",
+     "explications": [
+      "Faux. 300 correspond au seul capital (200 + 100), sans les réserves légales plafonnées ; et la conclusion « perte de capital » est erronée puisque CP 240 > seuil 180.",
+      "Juste. Holding → réserves légales plafonnées à 20 % du capital (art. 671 CO ; mémento §10.2, tableau). Capital = 200 + 100 = 300 ; plafond = 20 % × 300 = 60 (les réserves légales 120 + 80 = 200 sont ramenées à 60 ; les statutaires 110 sont exclues). Base = 300 + 60 = 360 ; seuil = ½ × 360 = 180 (la « valeur de référence » au sens de l'exercice). CP = 200 + 100 + 120 + 80 + 110 − 120 − 250 = 240 > 180 → PAS de perte de capital. Base légale : art. 725a al. 1 CO.",
+      "Faux. 225 provient de l'application du plafond ordinaire de 50 % (50 % × 300 = 150 ; ½ × 450 = 225) : le régime HOLDING impose 20 %.",
+      "Faux. 210 ne correspond à aucun calcul cohérent avec les postes donnés — la conclusion « pas de perte » est certes bonne, mais le montant est faux."
+     ]
     },
     {
      "id": "CRA-132",
@@ -2027,7 +2750,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "229"
      ],
      "correct": 1,
-     "explication": "Holding → plafond des réserves légales = 20 % du capital. Capital = 300 + 50 = 350 ; plafond = 20 % × 350 = 70 (réserves légales 78 + 32 = 110 ramenées à 70). Somme = 350 + 70 = 420 ; seuil = ½ × 420 = 210. Il y a perte de capital lorsque les capitaux propres sont INFÉRIEURS à 210 ; à 210 pile, la moitié est exactement couverte (pas de perte). La perte apparaît donc à partir de 209 (bonne réponse). Distracteur (1) 210 teste l'inégalité stricte ; (3)/(4) proviennent d'un plafond à 50 % au lieu de 20 %. Base : art. 725a al. 1 CO ; art. 671 CO. → voir §10.2 du mémento."
+     "piege": "inégalité stricte au seuil",
+     "explications": [
+      "Faux. 210 est le seuil exact — mais à CP = 210, la moitié de la valeur de référence est EXACTEMENT couverte : il n'y a pas encore de perte de capital (l'art. 725a al. 1 CO exige que l'actif « ne couvre plus » la moitié → inégalité stricte).",
+      "Juste. Holding → plafond des réserves légales = 20 % du capital (art. 671 CO). Capital = 300 + 50 = 350 ; plafond = 20 % × 350 = 70 (réserves légales 78 + 32 = 110 ramenées à 70). Base = 350 + 70 = 420 ; seuil = ½ × 420 = 210. Perte de capital lorsque CP < 210 ; en KCHF arrondis, elle apparaît donc à partir de 209. Base : art. 725a al. 1 CO ; mémento §10.2 (formule CP < ½ × valeur de référence et plafond holding 20 %).",
+      "Faux. 230 = ½ × (350 + 110) : les réserves légales sont retenues intégralement (le plafond de 20 % holding est ignoré — 110 < 50 % × 350, d'où l'illusion qu'aucun plafond ne joue).",
+      "Faux. 229 combine l'erreur de plafond (base 460 au lieu de 420) avec le raisonnement — correct en soi — de l'inégalité stricte : le point de départ est faux."
+     ]
     },
     {
      "id": "CRA-133",
@@ -2042,7 +2771,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "En cas d'inaction du CA, l'organe de révision convoque l'AG à sa place."
      ],
      "correct": 1,
-     "explication": "B est juste : le droit révisé remplace l'ancien art. 725 aCO par quatre dispositions (725 / 725a / 725b / 725c) ; sous l'art. 725a, la perte de capital n'impose plus la convocation automatique de l'AG. A et C reflètent l'ANCIEN droit (avant 1.1.2023). D est faux : l'organe de révision ne se substitue jamais au CA pour convoquer l'AG. Base : art. 725-725c CO (droit de la SA révisé, 1.1.2023). → voir §10.2 du mémento."
+     "explications": [
+      "Faux. L'ancien art. 725 aCO unique a été abrogé au 1.1.2023 : il est remplacé par quatre dispositions distinctes.",
+      "Juste. Le droit révisé éclate le régime : art. 725 (insolvabilité imminente), 725a (perte de capital), 725b (surendettement), 725c (réévaluation) — mémento §10 (intro : « insolvabilité (725), perte de capital (725a), surendettement (725b), réévaluation (725c) »). Sous l'art. 725a, la perte de capital n'impose plus la convocation automatique de l'AG : le CA prend les mesures de sa compétence et ne propose à l'AG que celles qui relèvent d'elle (mémento §10.2, encadré « changement de norme »).",
+      "Faux (ancien droit). L'« assemblée d'assainissement » obligatoire relevait de l'ancien art. 725 al. 1 aCO ; le nouvel art. 725a CO ne l'exige plus.",
+      "Faux. L'organe de révision ne se substitue JAMAIS au CA pour convoquer l'AG — c'était un enseignement de l'ancien droit, expressément écarté par le mémento (§10.2)."
+     ]
     }
    ]
   },
@@ -2053,7 +2787,7 @@ window.QCM_BANK["conclusionRapportAudit"] = {
     {
      "id": "CRA-134",
      "champ": "Surendettement + postposition → pas de réserve",
-     "memento": "§10.3-10.4",
+     "memento": "§10.3 · §10.4",
      "difficulte": 3,
      "question": "Digital AG (contrôle ordinaire) : cash-flow négatif et surendettement manifeste ; le CA prend des mesures d'assainissement organisationnel et obtient une postposition, si bien qu'aucun bilan aux valeurs de liquidation n'est établi. Que faut-il conclure ?",
      "options": [
@@ -2063,7 +2797,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'approbation des comptes annuels est indiquée"
      ],
      "correct": 0,
-     "explication": "A (juste) : la postposition et les mesures d'assainissement justifient le maintien de la base de continuité (pas de bilan aux valeurs de liquidation) ; le surendettement en soi ne modifie pas l'opinion — il relève des « autres obligations » — donc aucune réserve n'est nécessaire tant que l'annexe est adéquate. B : ce n'est pas une limitation (l'auditeur dispose de l'information). C : le renvoi supposerait une opinion défavorable/impossibilité, non justifiée ici. D est plausible mais dépend de la qualité de la description, non confirmée. Base : art. 725b CO · ISA-CH 570 · ISA-CH 705. → voir §10.3-10.4 du mémento."
+     "explications": [
+      "Juste. La postposition et les mesures d'assainissement justifient le maintien de la base de continuité (d'où la renonciation au bilan aux valeurs de liquidation, art. 725b al. 1 CO) ; le surendettement en soi ne modifie JAMAIS l'opinion — il relève du paragraphe « autres obligations » (mémento §10.3, tableau : « Incidence sur l'opinion : aucune ») — et la postposition dispense de l'avis au juge (art. 725b al. 4 ch. 1 ; mémento §10.4). Aucune réserve n'est donc nécessaire tant que l'annexe décrit adéquatement la situation (ISA-CH 570).",
+      "Faux. Il n'y a pas de limitation de l'étendue des travaux : l'auditeur dispose de toute l'information nécessaire — une limitation supposerait des éléments probants inaccessibles (ISA-CH 705).",
+      "Faux. La recommandation de renvoi accompagnerait une opinion défavorable ou une impossibilité d'exprimer une opinion, que rien ne justifie ici.",
+      "Faux (ou du moins non démontré). L'approbation supposerait acquise la qualité de la description de la situation dans l'annexe, que l'énoncé ne confirme pas : on ne peut pas l'affirmer avec certitude."
+     ]
     },
     {
      "id": "CRA-135",
@@ -2078,7 +2817,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "À la fin de l'exercice ou sur demande de l'organe de révision"
      ],
      "correct": 0,
-     "explication": "Le surendettement (art. 725b CO) n'est pas lié à une date de clôture, contrairement à la perte de capital (725a) qui s'apprécie sur les derniers comptes annuels : dès qu'il existe des raisons sérieuses d'admettre que les dettes ne sont plus couvertes, le CA doit agir immédiatement (option A), d'où une vigilance permanente. B et C confondent surendettement et perte de capital, laquelle s'apprécie à la clôture. D est faux : l'obligation ne dépend pas d'une demande de l'organe de révision, elle naît du fait objectif. Base : art. 725b al. 1 CO. → voir §10.3 du mémento."
+     "piege": "surendettement ≠ perte de capital",
+     "explications": [
+      "Juste. Le surendettement (art. 725b al. 1 CO) n'est lié à aucune date de clôture : dès qu'il existe des raisons sérieuses d'admettre que les dettes ne sont plus couvertes par les actifs, le CA doit immédiatement établir des comptes intermédiaires — d'où une vigilance permanente (mémento §10.3, tableau : « Moment pertinent : dès raisons sérieuses (en cours d'année) »).",
+      "Faux. « Uniquement à la fin de l'exercice » décrit la PERTE DE CAPITAL (art. 725a CO, derniers comptes annuels), pas le surendettement.",
+      "Faux. Même confusion avec la perte de capital, aggravée par l'assimilation de l'exercice social à l'année civile.",
+      "Faux. L'obligation du CA naît du fait objectif (raisons sérieuses de surendettement), pas d'une demande de l'organe de révision."
+     ]
     },
     {
      "id": "CRA-136",
@@ -2093,7 +2838,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Parce que la poursuite de l'exploitation est assurée (crédit transitoire) et qu'un assainissement est possible et sérieusement envisagé"
      ],
      "correct": 3,
-     "explication": "On peut renoncer aux valeurs de liquidation lorsque la poursuite de l'exploitation est réaliste ET que les valeurs d'exploitation ne révèlent pas de surendettement : l'option D décrit précisément cette situation (continuité assurée par un crédit transitoire, assainissement sérieusement envisagé). A est un raccourci faux : le caractère plus défavorable des valeurs de liquidation ne dispense pas de les établir. B repose sur une simple conviction, insuffisante. C est faux : la renonciation est prévue par la loi. Base : art. 725b al. 1 CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. Le caractère généralement plus défavorable des valeurs de liquidation est un argument de commodité sans base légale : il ne dispense pas de les établir.",
+      "Faux. Une simple conviction du CA ne suffit pas : la renonciation exige des éléments concrets et objectifs de continuité (financement assuré, assainissement sérieux).",
+      "Faux. La renonciation est expressément prévue : le mémento §10.3 la mentionne (« renonciation aux valeurs de liquidation possible si la poursuite de l'exploitation est envisagée et que les valeurs d'exploitation ne montrent pas de surendettement »).",
+      "Juste. La renonciation aux valeurs de liquidation est admise lorsque la poursuite de l'exploitation est réaliste (ici assurée par un crédit transitoire) et qu'un assainissement est possible et sérieusement envisagé — conditions décrites au mémento §10.3. Base légale : art. 725b al. 1 CO."
+     ]
     },
     {
      "id": "CRA-137",
@@ -2108,7 +2858,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Convoquer une assemblée générale extraordinaire pour informer les actionnaires"
      ],
      "correct": 0,
-     "explication": "Le surendettement n'est ici qu'anticipé, pas encore établi par des comptes intermédiaires : l'organe de révision attire l'attention du CA et sollicite sa prise de position écrite (option A), le CA devant ensuite établir immédiatement les comptes intermédiaires. B et C présument à tort un surendettement « manifeste » et déjà avéré : l'avis au juge (ou la sommation d'y procéder) est prématuré. D est faux : l'organe de révision ne convoque jamais l'AG à la place du CA. Base : art. 725b al. 1 et 3, art. 728c al. 3 CO. → voir §10.3 du mémento."
+     "explications": [
+      "Juste. Le surendettement n'est ici qu'ANTICIPÉ (raisons sérieuses), pas encore établi par des comptes intermédiaires : l'organe de révision attire l'attention du CA et sollicite sa prise de position écrite, le CA devant alors établir immédiatement des comptes intermédiaires aux valeurs d'exploitation et de liquidation (art. 725b al. 1 CO ; mémento §10.3, arbre : « Raisons sérieuses → comptes intermédiaires »). La forme précise de cette démarche (prise de position écrite) vient du corrigé d'origine, le mémento ne détaillant que la cascade légale.",
+      "Faux. Prématuré : le surendettement n'est pas « manifeste » tant que les comptes intermédiaires ne l'établissent pas dans les deux bases — la sommation d'aviser le tribunal suppose ce constat.",
+      "Faux. L'avis subsidiaire de l'organe de révision (art. 728c al. 3 CO) suppose un surendettement MANIFESTE et l'inaction du CA après sommation ; ni l'un ni l'autre n'est acquis ici.",
+      "Faux. L'organe de révision ne convoque jamais l'AG à la place du CA (mémento §10.2, encadré)."
+     ]
     },
     {
      "id": "CRA-138",
@@ -2123,7 +2878,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'élaboration des mesures dure depuis 1 mois et l'organe de révision est confiant dans leur aboutissement"
      ],
      "correct": 1,
-     "explication": "La renonciation à l'avis au juge n'est admise que si l'assainissement est réaliste dans un délai raisonnable, au plus tard 90 jours après l'établissement des comptes intermédiaires (725b al. 4 ch. 2). Des mesures étalées sur 12 mois (option B) excèdent nettement ce délai : l'organe de révision doit intervenir. C (≈ 2 mois) et D (1 mois, perspective concrète) restent dans le délai raisonnable, donc pas d'intervention. A est un piège : informer l'AG ne supprime pas le surendettement et ne dispense pas de l'avis, mais l'option testée ici est le dépassement du délai. Base : art. 725b al. 3 et 4 ch. 2 CO. → voir §10.3 du mémento."
+     "piege": "délai maximal 90 jours",
+     "explications": [
+      "Faux (pas le cas net d'intervention). Informer l'AG ne supprime certes pas le surendettement, mais cette démarche d'information n'est pas en soi une renonciation abusive à l'avis — le cas testé ici est le dépassement du délai d'assainissement.",
+      "Juste. La renonciation à l'avis au juge n'est admise que si l'assainissement apparaît réaliste dans un délai raisonnable, au plus tard 90 JOURS après l'établissement des comptes intermédiaires (art. 725b al. 4 ch. 2 CO ; mémento §10.3 : « assainissement sérieux ≤ 90 jours → PAS d'avis »). Des mesures étalées sur 12 mois excèdent nettement ce cadre : l'organe de révision doit intervenir (sommation, puis avis subsidiaire, art. 728c al. 3 CO).",
+      "Faux. Un assainissement à ≈ 2 mois (≈ 60 jours) reste dans le délai raisonnable de 90 jours : pas d'intervention requise.",
+      "Faux. Un mois d'élaboration avec une perspective concrète d'aboutissement reste dans le cadre des 90 jours : pas d'intervention requise."
+     ]
     },
     {
      "id": "CRA-139",
@@ -2138,7 +2899,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le mandat ne peut être exécuté que par un expert-réviseur agréé"
      ],
      "correct": 2,
-     "explication": "Même en opting-out, la vérification des comptes intermédiaires en cas de surendettement se fait selon les NA-CH (jamais la NCR), par un réviseur agréé (option C) : l'exigence de qualification est le réviseur agréé, pas l'expert-réviseur (D faux). B est faux : ce n'est pas un contrôle restreint des comptes annuels qui est requis, mais la vérification NA-CH des comptes intermédiaires. A est faux : l'indépendance n'empêche pas en soi d'accepter ce mandat. Base : art. 725b al. 2 CO ; NA-CH. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. L'indépendance n'empêche pas en soi le réviseur volontaire habituel d'accepter ce mandat (un audit volontaire annuel ne crée pas d'incompatibilité de type autorévision).",
+      "Faux. Ce ne sont pas les comptes ANNUELS ni un contrôle restreint qui sont visés : la loi exige la vérification des comptes INTERMÉDIAIRES établis en raison du surendettement.",
+      "Juste. Même en opting-out, la vérification des comptes intermédiaires en cas de surendettement se fait par un réviseur agréé, toujours selon les NA-CH — jamais la NCR (art. 725b al. 2 CO ; mémento §10.3 : « vérification par l'organe de révision ou, à défaut, un réviseur agréé — toujours selon les NA-CH, jamais la NCR »).",
+      "Faux. L'exigence légale de qualification est le RÉVISEUR AGRÉÉ ; l'expert-réviseur agréé n'est pas requis pour cette vérification."
+     ]
     },
     {
      "id": "CRA-140",
@@ -2153,7 +2919,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La société d'audit doit effectuer un contrôle ordinaire conformément à la loi"
      ],
      "correct": 1,
-     "explication": "L'obligation subsidiaire d'aviser le tribunal (art. 728c al. 3 / 729c CO) appartient à l'organe de révision inscrit. Un simple mandataire, non-organe, ne l'assume pas : il se borne à attirer l'attention du CA sur son devoir (option B). C est donc faux : pas d'avis subsidiaire pour un non-organe. A est inutile (opting-out, pas de désignation obligatoire). D est faux : le mandat porte sur la vérification NA-CH des comptes intermédiaires, non sur un contrôle ordinaire complet. Base : art. 725b al. 3, 728c al. 3 CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. En opting-out, aucune désignation d'organe de révision n'est nécessaire pour cette vérification : la loi permet de mandater un réviseur agréé (art. 725b al. 2 CO ; mémento §10.3 : « l'organe de révision ou, à défaut, un réviseur agréé »).",
+      "Juste. L'obligation SUBSIDIAIRE d'aviser le tribunal (art. 728c al. 3 / 729c CO) appartient à l'ORGANE DE RÉVISION inscrit ; un simple mandataire non-organe ne l'assume pas — il se borne à attirer l'attention du CA sur son devoir d'aviser (art. 725b al. 3 CO). Cette nuance mandataire/organe provient du corrigé d'origine : le mémento §10.3 rattache l'avis subsidiaire à l'« organe de révision » sans traiter expressément le cas du mandataire.",
+      "Faux. Précisément parce qu'elle n'est PAS un organe de révision inscrit, la société d'audit mandatée n'a pas d'obligation subsidiaire d'avis au tribunal.",
+      "Faux. Le mandat porte sur la vérification des comptes intermédiaires selon les NA-CH, non sur un contrôle ordinaire complet des comptes annuels."
+     ]
     },
     {
      "id": "CRA-141",
@@ -2168,7 +2939,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les DEUX comptes intermédiaires (valeurs d'exploitation ET de liquidation) font apparaître un surendettement"
      ],
      "correct": 3,
-     "explication": "L'avis au tribunal n'est dû que si le surendettement apparaît dans les DEUX jeux de comptes intermédiaires (option D, art. 725b al. 3). A décrit seulement le déclencheur de l'établissement des comptes intermédiaires, pas de l'avis. B et C : un surendettement dans un seul des deux comptes ne suffit pas — s'il n'apparaît qu'aux valeurs de liquidation mais que la continuité tient, ou qu'aux valeurs d'exploitation avec liquidation envisagée, la conclusion diffère. Base : art. 725b al. 1 et 3 CO. → voir §10.3 du mémento."
+     "piege": "surendettement dans les deux bases",
+     "explications": [
+      "Faux. Les « raisons sérieuses » déclenchent l'établissement immédiat des comptes intermédiaires (art. 725b al. 1 CO), pas encore l'avis au juge.",
+      "Faux. Un surendettement aux seules valeurs de liquidation ne suffit pas : si la continuité tient et que les valeurs d'exploitation ne montrent pas de surendettement, il n'y a pas d'avis.",
+      "Faux. Un surendettement aux seules valeurs d'exploitation ne suffit pas non plus : si les valeurs de liquidation n'en montrent pas, l'avis n'est pas dû.",
+      "Juste. L'avis au tribunal (art. 725b al. 3 CO) n'est dû que si le surendettement apparaît dans les DEUX jeux de comptes intermédiaires — mémento §10.3, arbre : « surendettement dans les DEUX … ni postposition ni assainissement → AVIS AU TRIBUNAL (725b al. 3) »."
+     ]
     },
     {
      "id": "CRA-142",
@@ -2183,7 +2960,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Société en nom collectif"
      ],
      "correct": 3,
-     "explication": "Dans la société en nom collectif (option D), les associés répondent solidairement et indéfiniment sur leur fortune personnelle : il n'existe pas d'obligation d'aviser le juge pour surendettement de la manière prévue pour les personnes morales à responsabilité limitée. La Sàrl (renvoi de l'art. 820 CO à 725b), la fondation (art. 84a CC) et l'association soumise à révision connaissent le mécanisme du surendettement. Base : art. 725b, 820 CO ; art. 84a CC. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. L'association soumise à révision connaît elle aussi un mécanisme d'avis en cas de surendettement (renvoi du droit des personnes morales aux règles de la SA).",
+      "Faux. La Sàrl connaît le mécanisme du surendettement : l'art. 820 CO renvoie à l'art. 725b CO.",
+      "Faux. La fondation connaît un mécanisme analogue : en cas de surendettement, avis à l'autorité de surveillance (art. 84a CC).",
+      "Juste. Dans la société en nom collectif, les associés répondent solidairement et INDÉFINIMENT sur leur fortune personnelle : les créanciers ne dépendent pas d'un capital social protégé, et il n'existe pas d'obligation d'aviser le juge du type de l'art. 725b CO. NB : ces renvois par forme juridique (820 CO, 84a CC) proviennent du corrigé d'origine ; le mémento §10.3 traite le mécanisme 725b pour la SA sans ce panorama."
+     ]
     },
     {
      "id": "CRA-143",
@@ -2198,7 +2980,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Compensation des pertes reportées avec le bénéfice reporté"
      ],
      "correct": 3,
-     "explication": "Compenser les pertes reportées par le bénéfice reporté (option D) n'est qu'une reclassification à l'intérieur des capitaux propres : les fonds propres nets et le surendettement restent inchangés, aucun effet économique. L'augmentation de capital apporte des fonds, l'abandon de créance réduit le passif, la dissolution de réserves latentes (réévaluation, 725c) améliore le bilan : ce sont des mesures efficaces. Base : art. 725b, 725c CO. → voir §10.3 du mémento."
+     "piege": "reclassement interne des capitaux propres",
+     "explications": [
+      "Faux (mesure efficace). L'augmentation du capital apporte des fonds propres frais et réduit le découvert : efficace contre le surendettement.",
+      "Faux (mesure efficace). L'abandon de créance réduit directement le passif exigible : le rapport dettes/actifs s'améliore réellement.",
+      "Faux (mesure efficace). La dissolution de réserves latentes — jusqu'à la réévaluation de l'art. 725c CO (mémento §10.3) — améliore le bilan en révélant de la substance.",
+      "Juste (mesure SANS effet). Compenser les pertes reportées avec le bénéfice reporté n'est qu'une RECLASSIFICATION à l'intérieur des capitaux propres : le total net des fonds propres — et donc le surendettement (dettes non couvertes par les actifs, art. 725b CO) — reste rigoureusement inchangé."
+     ]
     },
     {
      "id": "CRA-144",
@@ -2213,7 +3001,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le juge désigne l'organe de révision pour cet examen"
      ],
      "correct": 2,
-     "explication": "La vérification des comptes intermédiaires en cas de surendettement s'effectue selon les NA-CH (option C), jamais selon la NCR (B faux), et cela même pour une société habituellement soumise au contrôle restreint ou en opting-out. La qualification requise est le réviseur agréé, pas nécessairement l'expert-réviseur (A faux). C'est le CA qui mandate, non le juge (D faux). Base : art. 725b al. 2 CO ; NA-CH. → voir §10.3 du mémento."
+     "piege": "NA-CH, jamais la NCR",
+     "explications": [
+      "Faux. La qualification requise est le RÉVISEUR AGRÉÉ ; l'expert-réviseur agréé n'est pas exigé pour cette vérification.",
+      "Faux. Jamais la NCR : même pour une société habituellement en contrôle restreint ou en opting-out, la vérification des comptes intermédiaires en surendettement suit les NA-CH.",
+      "Juste. La vérification des comptes intermédiaires en cas de surendettement s'effectue selon les NA-CH (art. 725b al. 2 CO) — mémento §10.3 : « vérification … toujours selon les NA-CH, jamais la NCR ».",
+      "Faux. C'est le CA qui mandate le réviseur agréé (à défaut d'organe de révision), pas le juge."
+     ]
     },
     {
      "id": "CRA-145",
@@ -2228,7 +3022,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision somme le CA, sans réponse informe le tribunal par écrit en joignant des comptes intermédiaires (valeurs d'exploitation ET de liquidation) établis en procédure simplifiée, qui font tous deux état d'un surendettement, puis démissionne"
      ],
      "correct": 3,
-     "explication": "La procédure correcte : sommation écrite du CA, puis, faute de réaction, avis écrit au tribunal appuyé sur des comptes intermédiaires étayant le surendettement dans les deux évaluations — c'est l'option D. B saute l'étape de la sommation et se fonde sur une simple présomption, sans comptes intermédiaires. C avise sans support probant (pas de comptes intermédiaires). A respecte la sommation mais reste moins complète que D (aucun comptes intermédiaires mentionnés). Base : art. 725b al. 3, 728c al. 3 CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux (moins bonne variante). La sommation est respectée, mais l'avis n'est appuyé sur aucun comptes intermédiaires : le dossier remis au tribunal est incomplet par rapport à la variante D.",
+      "Faux. Cette variante saute l'étape de la SOMMATION du CA et se fonde sur une simple présomption (fermeture d'une filiale) sans comptes intermédiaires : ni la procédure ni la preuve ne sont respectées.",
+      "Faux. Aviser sans support probant (aucun comptes intermédiaires) affaiblit l'avis : le surendettement doit être étayé dans les deux évaluations.",
+      "Juste. La procédure correcte s'enchaîne ainsi : sommation écrite du CA → faute de réaction, avis ÉCRIT au tribunal appuyé sur des comptes intermédiaires aux valeurs d'exploitation ET de liquidation montrant tous deux le surendettement (établis au besoin en procédure simplifiée) → démission éventuelle. Base : art. 725b al. 3 CO (avis si les deux bases montrent le surendettement, mémento §10.3) et art. 728c al. 3 CO (avis subsidiaire). Le détail « procédure simplifiée » vient du corrigé d'origine, non du mémento."
+     ]
     },
     {
      "id": "CRA-146",
@@ -2243,7 +3042,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si, à la date de l'AG, les mesures sont insuffisantes, l'organe de révision doit seulement en aviser immédiatement le conseil d'administration"
      ],
      "correct": 1,
-     "explication": "L'obligation subsidiaire de l'organe de révision (728c al. 3 / 729c) subsiste même si l'AG a été informée : après sommation restée sans effet, il doit aviser le tribunal avec célérité si l'assainissement est insuffisant, sans postposition suffisante et si le CA n'a pas déjà agi (option B). A est faux : l'information de l'AG ne libère pas l'organe de révision. C est faux : le délai de 90 jours est celui de l'assainissement (725b al. 4 ch. 2), pas un délai de tolérance pour l'organe de révision, qui doit agir avec célérité. D est incomplète : l'avis final va au tribunal, pas seulement au CA. Base : art. 725b al. 3 et 4, 728c al. 3 CO. → voir §10.3 du mémento."
+     "piege": "informer l'AG ne libère pas",
+     "explications": [
+      "Faux. L'information de l'AG ne libère PAS l'organe de révision : le mémento §10.3 le dit expressément — l'obligation subsidiaire « subsiste même si l'AG a été informée » (art. 728c al. 3 / 729c CO).",
+      "Juste. L'obligation subsidiaire de l'organe de révision (art. 728c al. 3 / 729c CO) subsiste malgré l'information de l'AG : après sommation restée sans effet, il avise le tribunal avec célérité si l'assainissement est insuffisant, s'il n'existe pas de postposition suffisante et si le CA n'a pas déjà agi (mémento §10.3, arbre : « CA inactif → organe de révision avise »).",
+      "Faux. Les 90 jours (art. 725b al. 4 ch. 2 CO) sont le délai maximal d'ASSAINISSEMENT justifiant la renonciation à l'avis, pas un délai de tolérance accordé à l'organe de révision, qui doit agir avec célérité.",
+      "Faux (incomplet). Aviser le CA ne suffit pas : si le CA n'agit pas, l'avis final va au TRIBUNAL — c'est le cœur de l'obligation subsidiaire."
+     ]
     },
     {
      "id": "CRA-147",
@@ -2258,7 +3063,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Jusqu'à 90 jours lorsque ce délai est nécessaire pour préparer et mettre en œuvre des mesures d'assainissement réalistes"
      ],
      "correct": 3,
-     "explication": "Le délai de 90 jours (725b al. 4 ch. 2) n'est pas un sursis automatique : il ne s'ouvre que s'il existe une perspective d'assainissement réaliste et concrète à mettre en œuvre dans ce laps de temps (option D). C est le piège classique : le CA ne dispose pas de 90 jours « quoi qu'il arrive ». A et B fixent des échéances non prévues par la loi. Base : art. 725b al. 3 et 4 ch. 2 CO. → voir §10.3 du mémento."
+     "piege": "90 jours non automatiques",
+     "explications": [
+      "Faux. Aucune règle ne permet d'attendre la prochaine date de bilan : le surendettement impose d'agir immédiatement.",
+      "Faux. Le délai de « 4 à 6 semaines » n'existe pas dans la loi.",
+      "Faux (piège classique). Les 90 jours ne sont PAS un sursis automatique « quoi qu'il arrive » : sans perspective d'assainissement réaliste, l'avis est dû sans délai.",
+      "Juste. La renonciation temporaire à l'avis n'est admise que s'il existe des raisons sérieuses d'admettre un assainissement dans un délai raisonnable — au plus tard 90 jours après l'établissement des comptes intermédiaires — et ce délai n'est utilisable que s'il est NÉCESSAIRE à des mesures réalistes (art. 725b al. 4 ch. 2 CO ; mémento §10.3 : « assainissement sérieux ≤ 90 jours → PAS d'avis »)."
+     ]
     },
     {
      "id": "CRA-148",
@@ -2273,7 +3084,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Jusqu'à 90 jours s'il existe une perspective d'assainissement raisonnable et concrète et que le surendettement ne s'aggrave pas de manière significative durant cette période"
      ],
      "correct": 3,
-     "explication": "Comme pour le CA, la marge de 90 jours de l'organe de révision est conditionnelle : elle suppose une perspective d'assainissement raisonnable et concrète et l'absence d'aggravation significative (option D). C est le piège (délai inconditionnel). A et B inventent des échéances non prévues. Passé ce cadre, l'organe de révision avise sans délai. Base : art. 725b al. 4 ch. 2, 728c al. 3 CO. → voir §10.3 du mémento."
+     "piege": "90 jours conditionnels",
+     "explications": [
+      "Faux. Attendre la prochaine AG n'a aucune base légale — et informer l'AG ne libère de toute façon pas l'organe de révision (mémento §10.3).",
+      "Faux. Le délai de 60 jours n'existe pas dans la loi.",
+      "Faux (piège du délai inconditionnel). Sans perspective d'assainissement, l'organe de révision doit agir avec célérité : les 90 jours ne courent pas « quoi qu'il arrive ».",
+      "Juste. Comme pour le CA, la marge alignée sur les 90 jours (art. 725b al. 4 ch. 2 CO ; mémento §10.3) est CONDITIONNELLE : perspective d'assainissement raisonnable et concrète, et — précision du corrigé d'origine — absence d'aggravation significative du surendettement pendant la période. À défaut, avis subsidiaire sans délai (art. 728c al. 3 CO)."
+     ]
     },
     {
      "id": "CRA-149",
@@ -2288,7 +3105,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si les mesures sont insuffisantes, le CA peut demander à l'organe de révision de lui proposer d'autres mesures d'assainissement"
      ],
      "correct": 0,
-     "explication": "La renonciation à l'avis suppose un assainissement réaliste dans un délai raisonnable (au plus tard 90 jours) : l'organe de révision ne crédite donc que les mesures à effet rapide (option A) ; une fois le tribunal saisi, la restructuration à moyen/long terme se poursuit sous protection judiciaire (sursis concordataire). C est le piège : le délai de référence n'est pas 12 mois mais 90 jours (725b al. 4 ch. 2). B est faux : le refus de l'AG n'empêche pas — au contraire — l'avis au juge si le surendettement persiste. D est faux : l'organe de révision ne conçoit pas les mesures d'assainissement (indépendance). Base : art. 725b al. 3 et 4 ch. 2 CO. → voir §10.3 du mémento."
+     "piege": "12 mois ≠ 90 jours",
+     "explications": [
+      "Juste. La renonciation à l'avis suppose un assainissement réaliste dans un délai raisonnable — au plus tard 90 jours (art. 725b al. 4 ch. 2 CO ; mémento §10.3) : l'organe de révision ne peut donc créditer que les mesures à effet rapide. Une fois le tribunal saisi, la restructuration à moyen/long terme se poursuit sous protection judiciaire (sursis concordataire — mémento §10.3 : demande de sursis concordataire).",
+      "Faux. Le refus de l'AG n'empêche pas l'avis au juge — au contraire : si le surendettement persiste faute de mesures, l'avis s'impose.",
+      "Faux (piège chiffré). Le délai de référence pour renoncer à l'avis n'est pas 12 mois mais 90 JOURS (art. 725b al. 4 ch. 2 CO) : des mesures à 12 mois ne peuvent pas être créditées.",
+      "Faux. L'organe de révision ÉVALUE les mesures mais ne les conçoit pas : proposer des mesures d'assainissement compromettrait son indépendance."
+     ]
     },
     {
      "id": "CRA-150",
@@ -2303,7 +3126,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Augmentation de capital par compensation"
      ],
      "correct": 1,
-     "explication": "L'abandon de créances (option B) réduit directement et définitivement le passif, fait disparaître le découvert et n'exige ni apport de liquidités ni émission d'actions : c'est la mesure la plus bénéfique. L'augmentation par compensation (D) est également efficace (conversion de dette en fonds propres), mais transforme le créancier en actionnaire. L'augmentation ordinaire (C) suppose des apports frais parfois difficiles à réunir. La dissolution de réserves latentes (A) ne fait que révéler une valeur existante, à effet limité et ponctuel. Base : art. 725b, 725c CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. La dissolution de réserves latentes ne fait que RÉVÉLER une valeur déjà existante : effet ponctuel et limité au stock de réserves disponible, sans apport nouveau.",
+      "Juste. L'abandon de créances réduit directement et DÉFINITIVEMENT le passif : le découvert disparaît sans apport de liquidités ni émission d'actions — c'est généralement la mesure la plus bénéfique. NB : cette hiérarchie des mesures provient du corrigé d'origine ; le mémento §10.3 traite les mesures d'assainissement (réévaluation 725c, sursis) sans les classer.",
+      "Faux. L'augmentation ordinaire du capital est efficace mais suppose des apports frais, souvent difficiles à réunir pour une société en crise.",
+      "Faux. L'augmentation par compensation (conversion de dettes en fonds propres) est également efficace, mais elle transforme le créancier en actionnaire — moins « bénéfique » que l'abandon pur et simple."
+     ]
     },
     {
      "id": "CRA-151",
@@ -2318,7 +3146,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Aviser le juge, vérifier les comptes annuels"
      ],
      "correct": 1,
-     "explication": "L'option B est la plus complète et exacte : surveillance de l'action du CA, examen des mesures d'assainissement, avis subsidiaire au tribunal, information de l'AG et vérification des comptes intermédiaires. A introduit une « notification aux créanciers » qui n'incombe pas à l'organe de révision. C omet l'avis au tribunal, pièce maîtresse du dispositif. D est réductrice et vise à tort les comptes annuels au lieu des comptes intermédiaires. Base : art. 725b al. 3, 728c al. 3, 729c CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. La « notification aux créanciers » n'incombe pas à l'organe de révision — c'est un ajout étranger à ses attributions légales.",
+      "Juste. C'est le panorama le plus complet et exact : surveillance de l'action du CA, examen des mesures d'assainissement, avis SUBSIDIAIRE au tribunal en cas d'inaction ou d'insuffisance (art. 728c al. 3 / 729c CO), information de l'AG et vérification des comptes intermédiaires (art. 725b al. 2 et 3 CO ; mémento §10.3 : vérification NA-CH + obligation subsidiaire d'avis).",
+      "Faux (incomplet). Cette liste omet l'avis au tribunal — pièce maîtresse du dispositif de protection des créanciers.",
+      "Faux (réducteur). L'avis au juge y est, mais la vérification vise les comptes INTERMÉDIAIRES, pas les comptes annuels, et toutes les autres obligations manquent."
+     ]
     },
     {
      "id": "CRA-152",
@@ -2333,7 +3166,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le sursis concordataire n'accorde que du temps, sans autre utilité"
      ],
      "correct": 0,
-     "explication": "Un concordat mené à bien (dividende concordataire) permet à la société de se libérer d'une partie de ses dettes anciennes contre paiement partiel (option A). B est faux : l'avis au juge n'ouvre pas automatiquement un sursis — le tribunal instruit puis décide (faillite ou sursis). C est faux : le sursis n'élargit pas les obligations de l'organe de révision (un commissaire au sursis intervient). D est faux : le sursis n'est pas qu'un délai, il ouvre la voie à un assainissement/concordat sous protection. Base : art. 725 al. 4, 293 ss LP. → voir §10.3 du mémento."
+     "explications": [
+      "Juste. Un concordat mené à bien permet à la société de se libérer d'une partie de ses anciennes dettes contre paiement partiel (dividende concordataire) : c'est l'instrument d'assainissement sous protection judiciaire. NB : le mémento ne mentionne le sursis concordataire que comme option du CA en cas d'insolvabilité imminente (§10.3, art. 725 CO) ; le fonctionnement du concordat (art. 293 ss LP) provient du corrigé d'origine.",
+      "Faux. L'avis au juge n'ouvre pas automatiquement un sursis : le tribunal instruit puis décide (faillite, ajournement ou sursis) — le sursis suppose une demande et des conditions.",
+      "Faux. Le sursis n'élargit pas les obligations de l'organe de révision : c'est un COMMISSAIRE au sursis, désigné par le juge, qui surveille la société.",
+      "Faux. Le sursis n'est pas qu'un délai : il ouvre la voie à un assainissement / concordat sous protection judiciaire."
+     ]
     },
     {
      "id": "CRA-153",
@@ -2348,7 +3186,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le juge ouvre d'office le sursis concordataire"
      ],
      "correct": 2,
-     "explication": "Une fois avisé, le tribunal instruit : il auditionne le CA et exige les documents nécessaires (comptes intermédiaires, mesures envisagées) avant de décider (option C). A est faux : la faillite n'est pas automatique, elle peut être ajournée. B est faux : le juge n'attend pas l'AG. D est faux : le sursis n'est pas ouvert d'office, il suppose une demande et des conditions. Base : art. 725b al. 3 CO ; art. 173a, 293 ss LP. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. La faillite n'est pas automatique : le juge peut notamment l'ajourner si un assainissement paraît possible.",
+      "Faux. Le juge n'attend pas l'AG : la procédure judiciaire est indépendante du calendrier social.",
+      "Juste. Une fois avisé, le tribunal INSTRUIT : il auditionne le CA et se fait remettre les documents nécessaires (comptes intermédiaires, mesures envisagées) avant de statuer — faillite, ajournement ou sursis. NB : cette étape procédurale provient du corrigé d'origine ; le mémento §10.3 s'arrête à l'avis au tribunal (art. 725b al. 3 CO).",
+      "Faux. Le sursis concordataire n'est pas ouvert d'office : il suppose une demande et la réalisation de conditions."
+     ]
     },
     {
      "id": "CRA-154",
@@ -2363,7 +3206,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Sur l'application de la même méthode d'évaluation dans les deux comptes intermédiaires"
      ],
      "correct": 0,
-     "explication": "La vérification vise avant tout à déterminer s'il existe ou non un surendettement, question de nature bilancielle : l'attention porte donc en particulier sur le bilan (option A). B est faux : l'examen n'est pas réparti de manière uniforme, il se concentre sur le surendettement. C est faux : le SCI n'est pas l'objet de cette vérification. D est faux : les deux comptes utilisent précisément des méthodes d'évaluation différentes (valeurs d'exploitation vs valeurs de liquidation). Base : art. 725b al. 1 et 2 CO. → voir §10.3 du mémento."
+     "explications": [
+      "Juste. La vérification (art. 725b al. 2 CO, selon les NA-CH — mémento §10.3) vise avant tout à déterminer s'il existe ou non un surendettement : question de nature BILANCIELLE (dettes couvertes ou non par les actifs), d'où une attention concentrée sur le bilan.",
+      "Faux. L'examen n'est pas réparti uniformément : il est ciblé sur la question du surendettement, donc sur le bilan.",
+      "Faux. Le SCI n'est pas l'objet de cette vérification ponctuelle — il relève du contrôle ordinaire des comptes annuels.",
+      "Faux. Les deux comptes intermédiaires utilisent PAR DÉFINITION des méthodes d'évaluation différentes : valeurs d'exploitation d'un côté, valeurs de liquidation de l'autre (mémento §10.3)."
+     ]
     },
     {
      "id": "CRA-155",
@@ -2378,7 +3226,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Porter au moins sur l'ajournement du remboursement du montant concerné, intérêts compris"
      ],
      "correct": 1,
-     "explication": "Une postposition doit être de durée INDÉTERMINÉE (elle ne se dénoue que lorsqu'un réviseur atteste l'absence de surendettement) : une durée « limitée à 12 mois » (option B) est précisément ce qu'elle ne doit pas comporter. Elle doit être irrévocable (A, requis), inconditionnelle (C, requis) et couvrir l'ajournement du remboursement du prêt et des intérêts (D, requis). Base : art. 725b al. 4 ch. 1 CO. → voir §10.4 du mémento."
+     "piege": "durée indéterminée requise",
+     "explications": [
+      "Faux (critère requis). L'irrévocabilité est une condition de validité de la postposition (mémento §10.4, tableau : « Irrévocable & inconditionnelle »).",
+      "Juste (critère à NE PAS remplir). La postposition doit être de durée INDÉTERMINÉE : elle ne se dissout que lorsqu'un réviseur atteste l'absence de surendettement (mémento §10.4, tableau : « Durée indéterminée »). Une durée « limitée à 12 mois » contredit cette exigence — ne pas confondre avec la marge de sécurité du MONTANT, qui doit couvrir ≥ 12 mois. Base légale : art. 725b al. 4 ch. 1 CO.",
+      "Faux (critère requis). L'absence de toute autre condition (inconditionnalité) est exigée pour que la postposition soit efficace.",
+      "Faux (critère requis). La postposition doit porter sur l'ajournement du remboursement du prêt ET des intérêts (mémento §10.4, tableau : « Sursis du remboursement du prêt ET des intérêts »)."
+     ]
     },
     {
      "id": "CRA-156",
@@ -2393,7 +3247,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Contacter l'actionnaire pour clarifier la situation"
      ],
      "correct": 2,
-     "explication": "La renonciation en cas de faillite est un élément essentiel de la postposition (le créancier accepte un rang inférieur et renonce en cas de faillite) : son absence rend la postposition invalide, réputée nulle dès l'origine. Le surendettement n'étant alors pas couvert, l'organe de révision, après sommation restée sans effet, doit aviser le tribunal (option C). A est le piège : nier toute suite possible ignore l'obligation subsidiaire d'avis. B est insuffisant : informer l'AG ne remplace pas l'avis au juge. D n'est pas le rôle de l'organe de révision (négocier avec l'actionnaire). Base : art. 725b al. 3 et 4 ch. 1, 728c al. 3 CO. → voir §10.4 du mémento."
+     "piege": "postposition viciée, nulle d'origine",
+     "explications": [
+      "Faux. « Ne rien pouvoir faire d'autre » ignore l'obligation SUBSIDIAIRE d'avis au tribunal (art. 728c al. 3 CO) qui pèse sur l'organe de révision en cas d'inaction du CA.",
+      "Faux (insuffisant). Informer l'AG ne remplace pas l'avis au juge — l'obligation subsidiaire subsiste même si l'AG a été informée (mémento §10.3).",
+      "Juste. La renonciation à la créance en cas de faillite (avec acceptation d'un rang inférieur) est un élément ESSENTIEL de la postposition (mémento §10.4, tableau : « Rang / renonciation ») : son absence rend la postposition invalide, réputée nulle dès l'origine (mémento §10.4, Piège). Le surendettement n'étant alors pas couvert, l'organe de révision — après sommation restée sans effet — doit aviser le tribunal (art. 725b al. 3 et 4 ch. 1, art. 728c al. 3 CO).",
+      "Faux. Négocier avec l'actionnaire n'est pas le rôle de l'organe de révision : la correction du contrat relève du CA et du créancier."
+     ]
     },
     {
      "id": "CRA-157",
@@ -2408,7 +3268,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Elle n'est pertinente qu'au moment de l'octroi de la postposition"
      ],
      "correct": 3,
-     "explication": "Le créancier doit pouvoir supporter la perte totale, et cette solvabilité s'apprécie à la date d'octroi de la postposition (option D). A est faux : une confirmation contractuelle ne dispense pas l'organe de révision de son appréciation. B est faux : on ne renonce pas à l'examen sous prétexte de difficulté. C est faux (piège tentant) : le critère se fixe à l'octroi, il n'y a pas de réappréciation à chaque bilan tant que la postposition reste inchangée. Base : art. 725b al. 4 ch. 1 CO. → voir §10.4 du mémento."
+     "piege": "solvabilité appréciée à l'octroi",
+     "explications": [
+      "Faux. Une confirmation contractuelle des parties ne dispense pas l'organe de révision de sa propre appréciation de la capacité du créancier à supporter la perte.",
+      "Faux. La difficulté du contrôle n'autorise pas à y renoncer : l'examen de la solvabilité fait partie des conditions d'efficacité de la postposition.",
+      "Faux (piège tentant). Il n'y a pas de réappréciation systématique à chaque date de bilan tant que la postposition reste inchangée — un nouveau contrôle n'intervient qu'en cas de modification (p. ex. réduction, mémento §10.4).",
+      "Juste. Le créancier doit pouvoir supporter la perte totale, et cette solvabilité s'apprécie À LA DATE D'OCTROI de la postposition (mémento §10.4, tableau : « Solvabilité du créancier … appréciée à la date d'octroi »). Base légale : art. 725b al. 4 ch. 1 CO."
+     ]
     },
     {
      "id": "CRA-158",
@@ -2423,7 +3289,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Aujourd'hui (en 202X)"
      ],
      "correct": 1,
-     "explication": "La postposition entachée d'un vice de forme est réputée nulle dès l'origine : elle n'a donc jamais valablement dispensé de l'avis. Le 5 avril 202X-5, les mesures d'assainissement se révèlent insuffisantes et seule cette postposition (invalide) restait : c'est le moment où l'organe de révision aurait dû aviser le juge, point de départ de sa responsabilité pour le préjudice postérieur (option B). A (5 mars) correspond à la constatation du surendettement, alors que les perspectives étaient encore bonnes. C (90 jours après) est un délai non applicable ici. D (aujourd'hui) confond la découverte du vice avec le moment déterminant, alors que la nullité est rétroactive. Base : art. 725b al. 3 et 4, 755 CO. → voir §10.4 du mémento."
+     "piege": "nullité rétroactive de la postposition",
+     "explications": [
+      "Faux. Le 5 mars, le surendettement est constaté mais les perspectives d'assainissement paraissaient bonnes : la renonciation temporaire à l'avis (art. 725b al. 4 ch. 2 CO) était alors défendable — l'avis n'était pas encore dû.",
+      "Juste. La postposition entachée d'un vice de forme est réputée NULLE DÈS L'ORIGINE (mémento §10.4, Piège : « réputée nulle dès l'origine ») : elle n'a jamais valablement couvert le surendettement. Le 5 avril 202X-5, les mesures se révèlent insuffisantes et seule restait cette postposition invalide : c'est à ce moment que l'avis au juge était dû — point de départ de la responsabilité de l'organe de révision pour le préjudice postérieur (mémento §10.4 : « responsable du préjudice postérieur au moment où il aurait dû aviser le juge » ; art. 755 CO).",
+      "Faux. Le délai de 90 jours (art. 725b al. 4 ch. 2 CO) suppose une perspective d'assainissement réaliste — condition tombée le 5 avril : il ne s'applique pas ici.",
+      "Faux. La découverte du vice ne fixe pas le moment déterminant : la nullité rétroagit au jour de la conclusion — la responsabilité court depuis le moment où l'avis aurait dû être donné."
+     ]
     },
     {
      "id": "CRA-159",
@@ -2438,7 +3310,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "De l'augmentation du surendettement survenue depuis le 11 novembre 202X-3"
      ],
      "correct": 3,
-     "explication": "La responsabilité de l'organe de révision porte sur le préjudice causé par le retard, c'est-à-dire l'aggravation du surendettement postérieure au moment où l'avis au juge était dû — soit dès le 11 novembre 202X-3, date à laquelle les mesures se sont révélées insuffisantes et où seule subsistait une postposition invalide (option D). A est faux : le montant de la postposition n'est pas la mesure du dommage. B (surendettement au 9 septembre) est le point de constatation, non le préjudice réparable. C (surendettement au 11 novembre) est le niveau atteint, pas son accroissement ultérieur, seul imputable au retard. Base : art. 725b al. 3, 754-755 CO. → voir §10.4 du mémento."
+     "piege": "dommage = aggravation du découvert",
+     "explications": [
+      "Faux. Le montant de la postposition n'est pas la mesure du dommage : la responsabilité se calcule sur le préjudice causé, pas sur le contrat vicié.",
+      "Faux. Le surendettement au 9 septembre est le CONSTAT initial — à cette date, l'avis n'était pas encore dû (perspectives d'assainissement encore ouvertes) : ce stock n'est pas un préjudice imputable à l'organe de révision.",
+      "Faux. Le surendettement au 11 novembre est le NIVEAU ATTEINT au moment où l'avis devenait dû — ce stock existait déjà et n'a pas été causé par le retard ; seul son accroissement ultérieur est imputable.",
+      "Juste. La responsabilité de l'organe de révision porte sur le dommage causé par le RETARD de l'avis : l'AGGRAVATION du surendettement postérieure au 11 novembre 202X-3, date à laquelle les mesures se sont révélées insuffisantes et où seule subsistait une postposition nulle dès l'origine (mémento §10.4, Piège : « responsable du préjudice postérieur au moment où il aurait dû aviser le juge »). Base légale : art. 725b al. 3, art. 754-755 CO."
+     ]
     },
     {
      "id": "CRA-160",
@@ -2453,7 +3331,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "En cas de réduction, l'organe de révision ne réexamine pas la solvabilité s'il s'agit du même créancier"
      ],
      "correct": 2,
-     "explication": "La réduction est admise si des comptes audités (selon les NA-CH) établissent que le surendettement a diminué à due concurrence, qu'aucune perte n'est prévisible sur 12 mois et que les autres postposants ne sont pas lésés (option C). A invente une condition (postposition de rang égal simultanée). B est faux : la réduction obéit à des conditions objectives, ce n'est pas une simple tolérance. D est faux : un nouveau contrôle, incluant la solvabilité du créancier, est requis même pour le même créancier. Base : art. 725b al. 4 ch. 1 CO ; NA-CH. → voir §10.4 du mémento."
+     "explications": [
+      "Faux. Cette condition (postposition de rang égal conclue simultanément) est inventée : rien de tel n'est exigé.",
+      "Faux. La réduction obéit à des conditions objectives et vérifiables — ce n'est pas une simple tolérance de la pratique EXPERTsuisse.",
+      "Juste. La réduction est admise lorsque des comptes audités (selon les NA-CH) établissent que le surendettement a diminué à due concurrence et que les autres postposants ne sont pas lésés (mémento §10.4, « Réduction / annulation ») ; la condition supplémentaire « aucune perte prévisible dans les 12 prochains mois » vient du corrigé d'origine (le mémento ne la chiffre pas). Base légale : art. 725b al. 4 ch. 1 CO.",
+      "Faux. Un NOUVEAU contrôle est requis, incluant la solvabilité du créancier — même s'il s'agit du même créancier (mémento §10.4 : « nouveau contrôle (dont solvabilité du créancier) »)."
+     ]
     },
     {
      "id": "CRA-161",
@@ -2468,7 +3351,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le CA a réévalué une participation, supprimant le surendettement au bilan, la nouvelle valeur comptable restant inférieure à la valeur de marché"
      ],
      "correct": 0,
-     "explication": "Remplacer l'organe de révision pour empêcher l'avis (option A) ne dispense de rien : l'obligation suit la fonction et le surendettement subsiste — c'est l'affirmation incorrecte recherchée. B dispense : la saisine du tribunal par une demande de sursis rend l'avis superflu. C dispense : une postposition suffisante permet de renoncer à l'avis (725b al. 4 ch. 1). D dispense : une réévaluation licite (725c, valeur comptable inférieure au marché) qui supprime le surendettement au bilan écarte l'obligation. Base : art. 725b al. 3 et 4, 725c, 728c al. 3 CO. → voir §10.3 du mémento."
+     "piege": "changer d'organe ne dispense pas",
+     "explications": [
+      "Juste (c'est l'affirmation incorrecte recherchée). Remplacer l'organe de révision pour empêcher l'avis ne dispense de rien : le surendettement subsiste et l'obligation subsidiaire (art. 728c al. 3 CO) suit la FONCTION — l'organe sortant comme le nouvel organe y sont tenus. Manœuvre inopérante.",
+      "Faux (dispense réellement). La demande de sursis concordataire saisit déjà le tribunal : un avis séparé pour surendettement devient superflu (le mémento §10.3 cite la demande de sursis concordataire parmi les issues).",
+      "Faux (dispense réellement). Une postposition suffisante permet de renoncer à l'avis (art. 725b al. 4 ch. 1 CO ; mémento §10.3, arbre : « postposition suffisante → PAS d'avis »).",
+      "Faux (dispense réellement). Une réévaluation licite (art. 725c CO : jusqu'à la valeur réelle au maximum — ici la valeur comptable reste inférieure au marché) qui supprime le surendettement au bilan écarte l'obligation d'aviser (mémento §10.3, Réévaluation)."
+     ]
     },
     {
      "id": "CRA-162",
@@ -2483,7 +3372,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les montants issus de déclarations de soutien peuvent être ajoutés au montant de la postposition"
      ],
      "correct": 1,
-     "explication": "Le montant de la postposition doit couvrir le découvert établi par les comptes intermédiaires pertinents : si la poursuite de l'exploitation n'est pas impossible, on se fonde sur les valeurs d'exploitation (option B). A est faux : les valeurs de liquidation ne s'imposent pas « toujours ». C invente un seuil chiffré : la marge doit couvrir au moins ~12 mois, sans pourcentage fixe de 10 %. D est faux : une déclaration de soutien / lettre de garantie ne remplace pas une postposition et ne s'y additionne pas. Base : art. 725b al. 4 ch. 1 CO. → voir §10.4 du mémento."
+     "piege": "déclaration de soutien ≠ postposition",
+     "explications": [
+      "Faux. « Toujours » est excessif : les valeurs de liquidation ne s'imposent que lorsque la poursuite de l'exploitation n'est plus envisagée (mémento §10.3).",
+      "Juste. Le montant de la postposition doit couvrir le découvert établi par les comptes intermédiaires PERTINENTS : si la poursuite de l'exploitation n'est pas impossible, on se fonde sur les valeurs d'exploitation. Il couvre au moins le découvert + intérêts, avec une marge de sécurité pour ≥ 12 mois (mémento §10.4, tableau « Montant » ; art. 725b al. 4 ch. 1 CO : postposition « à concurrence du découvert + intérêts », mémento §10.3).",
+      "Faux (seuil inventé). Aucun pourcentage légal de 10 % n'existe : la marge de sécurité se définit par la couverture des besoins sur ≥ 12 mois (mémento §10.4), pas par un taux du découvert.",
+      "Faux. Une déclaration de soutien / lettre de garantie NE remplace PAS une postposition et ne s'y additionne pas (mémento §10.4, Piège : « ne remplace pas une postposition et ne dispense pas le CA d'aviser »)."
+     ]
     },
     {
      "id": "CRA-163",
@@ -2498,7 +3393,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Obtention d'une postposition"
      ],
      "correct": 3,
-     "explication": "La postposition (option D) n'est pas une mesure d'assainissement : elle ne réduit pas le surendettement, elle ne fait que dispenser de l'avis au juge en donnant du temps. L'augmentation de capital (A) et la contribution à fonds perdu (B) apportent des fonds propres ; la réévaluation (C, art. 725c) supprime le surendettement au bilan. Ces trois-là améliorent réellement la situation, contrairement à la postposition. Base : art. 725b al. 4 ch. 1, 725c CO. → voir §10.4 du mémento."
+     "piege": "postposition n'assainit pas",
+     "explications": [
+      "Faux (vraie mesure d'assainissement). L'augmentation ordinaire du capital apporte des fonds propres frais et réduit le découvert.",
+      "Faux (vraie mesure d'assainissement). La contribution à fonds perdu est un apport sans contrepartie qui augmente directement les fonds propres.",
+      "Faux (vraie mesure d'assainissement). La réévaluation des participations jusqu'à leur valeur réelle (art. 725c CO ; mémento §10.3) supprime le surendettement au bilan.",
+      "Juste. La postposition n'est PAS une mesure d'assainissement : elle ne réduit pas le surendettement, elle ne fait que dispenser d'aviser le tribunal en donnant du temps — le mémento §10.4 le dit mot pour mot (« ce n'est PAS une mesure d'assainissement (elle ne réduit pas le surendettement, elle donne du temps) »). Base légale : art. 725b al. 4 ch. 1 CO."
+     ]
     },
     {
      "id": "CRA-164",
@@ -2513,7 +3414,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Comme c'est un contrôle selon les NA-CH, seul un expert-réviseur agréé peut l'effectuer"
      ],
      "correct": 1,
-     "explication": "La vérification des comptes intermédiaires en surendettement se fait selon les NA-CH : ce sont donc les exigences d'indépendance du contrôle ordinaire qui s'appliquent, plus strictes, prohibant l'autorévision. La fiduciaire qui tient la comptabilité — toléré en contrôle restreint — ne peut donc pas vérifier ces comptes ; il faut un autre réviseur agréé (option B). A est faux : NA-CH, jamais la NCR. C est faux : les règles souples du restreint ne s'appliquent pas à cette vérification NA-CH. D est faux : un réviseur agréé suffit, l'expert-réviseur n'est pas exigé. Base : art. 725b al. 2, 728-728a CO ; NA-CH. → voir §10.3 du mémento."
+     "piege": "indépendance du contrôle ordinaire",
+     "explications": [
+      "Faux. La vérification des comptes intermédiaires en surendettement se fait selon les NA-CH, JAMAIS la NCR — même pour une société en contrôle restreint (mémento §10.3).",
+      "Juste. Vérification selon les NA-CH (art. 725b al. 2 CO) → ce sont les exigences d'indépendance du contrôle ORDINAIRE (art. 728-728a CO) qui s'appliquent, plus strictes que celles du restreint : l'autorévision est prohibée. La fiduciaire qui tient la comptabilité — coopération tolérée en contrôle restreint (art. 729 CO) — ne peut donc pas vérifier ces comptes intermédiaires : il faut mandater un autre réviseur agréé. Le rattachement exprès aux règles d'indépendance du contrôle ordinaire vient du corrigé d'origine ; le mémento §10.3 pose le principe « NA-CH, jamais la NCR ».",
+      "Faux. Les règles souples du restreint (qui tolèrent la participation à la tenue de la comptabilité) ne s'appliquent pas à cette vérification NA-CH.",
+      "Faux. Un réviseur agréé suffit : l'expert-réviseur agréé n'est pas exigé pour la vérification des comptes intermédiaires."
+     ]
     },
     {
      "id": "CRA-165",
@@ -2528,12 +3435,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un surendettement n'est pertinent qu'à la fin de l'exercice ; les comptes intermédiaires sont donc inutiles."
      ],
      "correct": 0,
-     "explication": "L'avis au tribunal (725b al. 3) n'est requis que si le surendettement apparaît dans les DEUX bases ; si les valeurs de liquidation ne montrent pas de surendettement, pas d'avis (bonne réponse). Faux : (2) on n'omet pas des comptes parce qu'ils seraient plus mauvais ; (3) ici les valeurs d'exploitation montrent déjà le surendettement, on ne peut donc pas renoncer aux valeurs de liquidation ; (4) le surendettement est pertinent dès qu'il existe des raisons sérieuses, en cours d'année. Base : art. 725b al. 1 et 3 CO. → voir §10.3 du mémento."
+     "piege": "avis exige les deux bases",
+     "explications": [
+      "Juste. L'avis au tribunal (art. 725b al. 3 CO) n'est requis que si le surendettement apparaît dans les DEUX bases : si les valeurs de liquidation n'en montrent pas, pas d'avis (mémento §10.3, arbre : « pas de surendettement dans les deux → pas d'avis »).",
+      "Faux. On n'omet pas des comptes au motif qu'ils seraient plus mauvais : ce serait se soustraire au constat que la loi impose.",
+      "Faux. La renonciation aux valeurs de liquidation suppose que les valeurs d'EXPLOITATION ne montrent PAS de surendettement (mémento §10.3) ; or ici elles le montrent — les deux bases sont donc requises.",
+      "Faux. Le surendettement est pertinent dès qu'il existe des raisons sérieuses, EN COURS D'ANNÉE (art. 725b al. 1 CO) : les comptes intermédiaires sont précisément l'instrument légal du constat."
+     ]
     },
     {
      "id": "CRA-166",
      "champ": "Dispense d'aviser le juge",
-     "memento": "§10.4",
+     "memento": "§10.3 · §10.4",
      "difficulte": 3,
      "question": "Dans quelle situation le CA est-il dispensé de l'obligation d'informer le juge ?",
      "options": [
@@ -2543,7 +3456,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La société est en liquidation ; pendant cette phase, un surendettement n'est plus pertinent."
      ],
      "correct": 1,
-     "explication": "La solvabilité du créancier postposant s'apprécie À LA DATE D'OCTROI ; une faillite postérieure n'invalide pas rétroactivement une postposition valablement conclue, qui continue de dispenser de l'avis au juge (bonne réponse). Faux : (1) une garantie/lettre de soutien ne remplace pas une postposition et ne dispense pas d'aviser ; (3) le délai d'assainissement est de 90 jours au maximum, sans prolongation à 120 jours ; (4) en liquidation, un surendettement reste pertinent (les liquidateurs doivent aviser le juge). Base : art. 725b al. 3 et 4 ch. 1 CO ; art. 743 al. 2 CO. → voir §10.3 et §10.4 du mémento."
+     "piege": "faillite ultérieure du postposant",
+     "explications": [
+      "Faux. Une garantie / lettre de soutien NE remplace PAS une postposition et ne dispense pas d'aviser le tribunal (mémento §10.4, Piège), quelle que soit la solvabilité du garant.",
+      "Juste. La solvabilité du créancier postposant s'apprécie À LA DATE D'OCTROI (mémento §10.4, tableau) : une faillite POSTÉRIEURE n'invalide pas rétroactivement une postposition valablement conclue — celle-ci continue de couvrir le découvert et de dispenser de l'avis au juge (art. 725b al. 4 ch. 1 CO).",
+      "Faux. Le délai d'assainissement est de 90 jours AU MAXIMUM (art. 725b al. 4 ch. 2 CO ; mémento §10.3) : aucune prolongation à 120 jours n'est prévue, même sur demande écrite.",
+      "Faux. En liquidation, le surendettement reste pertinent : les liquidateurs doivent aviser le juge (art. 743 al. 2 CO — précision issue du corrigé d'origine, non traitée dans le mémento)."
+     ]
     },
     {
      "id": "CRA-167",
@@ -2558,7 +3477,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Comme la société est manifestement surendettée, le CA doit informer le juge dans les 90 jours si aucune mesure d'assainissement n'est prise."
      ],
      "correct": 1,
-     "explication": "La réserve latente du terrain (+850) dépasse largement le surendettement (253) : le CA peut réévaluer l'immeuble jusqu'à sa valeur réelle pour supprimer le surendettement (art. 725c), à condition qu'un réviseur agréé confirme par écrit le respect des dispositions — d'où un rapport/attestation distinct (bonne réponse). Faux : (3) une telle réévaluation exige justement l'attestation du réviseur, elle n'est pas « sans rapport » ; (1) décrit la procédure générale mais ignore la solution de réévaluation offerte par l'énoncé ; (4) le délai de 90 jours concerne l'assainissement/l'avis, non applicable ici puisque le surendettement peut être résorbé. Base : art. 725c CO ; art. 725b CO. → voir §10.3 du mémento."
+     "piege": "réévaluation exige une attestation",
+     "explications": [
+      "Faux (réponse incomplète). Elle décrit la procédure générale mais ignore la solution que l'énoncé offre : la réserve latente du terrain (≥ 850) dépasse largement le découvert (253) et permet de résorber le surendettement par réévaluation.",
+      "Juste. Le CA peut réévaluer l'immeuble jusqu'à sa valeur réelle au maximum (art. 725c CO) : la réserve latente d'au moins KCHF 850 couvre largement le surendettement de KCHF 253. Condition impérative : un réviseur agréé confirme PAR ÉCRIT le respect des dispositions légales — d'où un rapport / une attestation distincts (mémento §10.3, Réévaluation : « à condition qu'un réviseur agréé confirme par écrit le respect des dispositions légales »).",
+      "Faux. C'est précisément l'inverse : la réévaluation au sens de l'art. 725c CO EXIGE l'attestation écrite d'un réviseur agréé — elle n'est jamais « sans rapport séparé ».",
+      "Faux. Le délai de 90 jours (art. 725b al. 4 ch. 2 CO) concerne la renonciation à l'avis en cas de perspective d'assainissement ; il est sans objet ici puisque la réévaluation peut résorber immédiatement le surendettement."
+     ]
     },
     {
      "id": "CRA-168",
@@ -2573,7 +3498,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Comme l'une des deux variantes fait apparaître un surendettement, le CA doit informer le juge."
      ],
      "correct": 1,
-     "explication": "L'avis au tribunal (725b al. 3) suppose un surendettement dans les DEUX bases. Ici les valeurs de liquidation ne montrent manifestement pas de surendettement → aucune obligation d'aviser le juge, même en cas d'inaction du CA (bonne réponse). Faux : (1) les valeurs d'exploitation montrent un surendettement, on ne peut donc s'en tenir à elles seules, et l'organe de révision n'avise pas le juge puisque les deux bases ne concordent pas ; (3) une réévaluation exige une attestation, pas un rapport « standard » ; (4) un surendettement dans une seule base ne déclenche pas l'avis. Base : art. 725b al. 1 et 3 CO. → voir §10.3 du mémento."
+     "piege": "avis exige les deux bases",
+     "explications": [
+      "Faux. Les valeurs d'exploitation montrent ici un surendettement : on ne peut pas s'en tenir à elles seules ; et l'organe de révision n'a pas à informer le juge, puisque les deux bases ne concordent pas (liquidation sans surendettement).",
+      "Juste. L'avis au tribunal (art. 725b al. 3 CO) suppose un surendettement dans les DEUX bases (mémento §10.3, arbre). Ici, les valeurs de liquidation ne présenteront manifestement pas de surendettement (le terrain vaut ≥ 850 de plus que sa valeur comptable, découvert de 253 largement couvert) → NI le CA NI l'organe de révision n'ont l'obligation d'aviser le juge, même en cas d'inaction du CA.",
+      "Faux. La dissolution des réserves latentes par réévaluation (art. 725c CO) exige une ATTESTATION écrite d'un réviseur agréé — pas un simple rapport d'audit standard (mémento §10.3, Réévaluation).",
+      "Faux. Un surendettement dans UNE SEULE des deux bases ne déclenche pas l'avis au juge."
+     ]
     },
     {
      "id": "CRA-169",
@@ -2588,7 +3519,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Aucune obligation tant qu'il n'y a pas de surendettement au bilan."
      ],
      "correct": 1,
-     "explication": "B est juste : la menace d'insolvabilité (dimension liquidités, horizon ≈ 12 mois) relève de l'art. 725 CO — le CA prend les mesures assurant la solvabilité, propose au besoin des mesures à l'AG, voire demande un sursis concordataire. A vise le surendettement (art. 725b, dettes > actifs), pas le cas ici. C vise la perte de capital (725a). D est faux : le devoir de veiller à la solvabilité existe en amont du surendettement. Base : art. 725 CO. → voir §10.3 du mémento."
+     "explications": [
+      "Faux. L'art. 725b CO vise le SURENDETTEMENT (dettes non couvertes par les actifs — dimension bilan) ; ici la société n'est pas surendettée, seule la trésorerie est menacée.",
+      "Juste. La menace d'insolvabilité (dimension LIQUIDITÉS, horizon ≈ 12 mois) relève de l'art. 725 CO : le CA prend les mesures garantissant la solvabilité, propose au besoin des mesures supplémentaires à l'AG, voire dépose une demande de sursis concordataire — mémento §10.3, Insolvabilité imminente (725).",
+      "Faux. L'art. 725a CO vise la PERTE DE CAPITAL ; de plus, l'« assemblée d'assainissement » automatique relève de l'ancien droit, abrogé au 1.1.2023 (mémento §10.2, encadré).",
+      "Faux. Le devoir de veiller à la solvabilité (art. 725 CO) existe précisément EN AMONT du surendettement : l'absence de surendettement au bilan ne dispense de rien."
+     ]
     },
     {
      "id": "CRA-170",
@@ -2603,7 +3539,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "725 ne s'applique qu'aux sociétés cotées."
      ],
      "correct": 0,
-     "explication": "A est juste : l'art. 725 traite l'insolvabilité imminente (dimension liquidités / trésorerie) ; l'art. 725b traite le surendettement (dimension bilan : dettes non couvertes par les actifs), avec comptes intermédiaires et, à défaut de postposition ou d'assainissement, avis au tribunal. B inverse les deux notions. C est faux : l'avis au tribunal est propre au surendettement (725b). D est faux. Base : art. 725 / 725b CO. → voir §10.3 du mémento."
+     "explications": [
+      "Juste. L'art. 725 CO traite l'insolvabilité imminente : dimension LIQUIDITÉS / trésorerie (risque de ne plus honorer les dettes à l'échéance, horizon ≈ 12 mois) ; l'art. 725b CO traite le surendettement : dimension BILAN (dettes non couvertes par les actifs), avec comptes intermédiaires aux deux valeurs et, à défaut de postposition ou d'assainissement, avis au tribunal — mémento §10.3 (Insolvabilité imminente + Surendettement).",
+      "Faux. Cette option INVERSE les deux notions : c'est 725b qui concerne le bilan et 725 la trésorerie.",
+      "Faux. L'avis au tribunal est propre au SURENDETTEMENT (art. 725b al. 3 CO) ; l'insolvabilité imminente appelle des mesures de solvabilité, des propositions à l'AG ou un sursis concordataire — pas d'avis obligatoire.",
+      "Faux. L'art. 725 CO s'applique à toutes les SA (et par renvoi aux Sàrl), pas seulement aux sociétés cotées."
+     ]
     }
    ]
   },
@@ -2614,7 +3555,7 @@ window.QCM_BANK["conclusionRapportAudit"] = {
     {
      "id": "CRA-171",
      "champ": "Comptes consolidés omis → autres obligations (terminologie)",
-     "memento": "§10.1",
+     "memento": "§10.1 / §5.2",
      "difficulte": 2,
      "question": "Zwahlen SA ne souhaite pas établir de comptes consolidés bien qu'elle y soit tenue par la loi. Quelle en est la conséquence pour le rapport d'audit (contrôle ordinaire) ?",
      "options": [
@@ -2624,7 +3565,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Autres obligations de communication selon l'ISA-CH 700"
      ],
      "correct": 1,
-     "explication": "L'absence de comptes consolidés pourtant obligatoires (art. 963a CO) est une VIOLATION DE LA LOI → elle se signale dans les « autres obligations de communication » (art. 728c CO), pas dans un paragraphe « autres points » (réservé aux faits hors EF utiles à comprendre l'audit). En contrôle ordinaire selon le CO, la norme applicable est la NAS-CH 700 (et non l'ISA-CH 700, réservée aux audits sur mandat). Donc b). a) mauvais fond (autres points). c)/d) mauvaise norme (ISA-CH). Base : art. 963a et 728c CO ; NAS-CH 700. → voir §10.1/5.3 du mémento."
+     "piege": "NAS-CH 700 vs ISA-CH 700",
+     "explications": [
+      "Faux sur le fond : le paragraphe « autres points » est réservé aux faits hors états financiers utiles à la compréhension de l'audit (ISA-CH 706) — autre auditeur l'exercice précédent, changement de type de contrôle. L'omission de comptes consolidés obligatoires est une violation de la loi, qui ne se loge pas là.",
+      "Exact : l'absence de comptes consolidés pourtant obligatoires (art. 963a CO) est une violation de la loi, signalée à l'AG dans les « autres obligations de communication » (art. 728c al. 2 CO). Et en contrôle ordinaire d'une clôture selon le CO, la norme de rapport applicable est la NAS-CH 700 (mémento §10.1 et §5.2).",
+      "Double erreur : mauvais véhicule (« autres points » ne sert pas à signaler une violation de la loi) et mauvaise norme (l'ISA-CH 700 vise l'audit sur mandat, pas le contrôle ordinaire selon le CO — mémento §5.2).",
+      "Bon véhicule (autres obligations de communication, art. 728c CO) mais mauvaise norme : le rapport du contrôle ordinaire d'une clôture CO suit la NAS-CH 700 ; l'ISA-CH 700 est réservée aux audits sur mandat."
+     ]
     },
     {
      "id": "CRA-172",
@@ -2639,7 +3586,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'assemblée générale a décidé de verser un dividende conforme à la loi."
      ],
      "correct": 0,
-     "explication": "L'absence de comptes consolidés pourtant obligatoires (art. 963a CO) est une violation de la loi à signaler (art. 728c al. 2 CO) → a). b) MIS À JOUR : sous le droit révisé (art. 725a/725b CO en vigueur au 1.1.2023), la notion d'« assemblée d'assainissement » n'existe plus ; convoquer l'AG n'est de toute façon pas une violation. c) l'AG dans les 6 mois est CONFORME (art. 699 al. 2 CO), donc pas une violation. d) un dividende conforme à la loi n'est pas une violation. Base : art. 963a et 728c CO. → voir §10.1 du mémento."
+     "explications": [
+      "Exact : lorsque les critères de consolidation sont clairement remplis, l'absence de comptes consolidés (art. 963a CO) est une violation de la loi que l'organe de révision signale — avertissement écrit au CA, puis information de l'AG si la violation est grave ou si le CA n'agit pas (art. 728c al. 1 et 2 CO ; mémento §10.1).",
+      "Faux : sous le droit révisé (art. 725a/725b CO, en vigueur depuis le 1.1.2023), la notion d'« assemblée d'assainissement » n'existe plus ; et convoquer une AG n'est de toute façon pas une violation — ce qui pourrait le devenir, c'est l'inaction du CA (comptes intermédiaires non établis, avis au juge omis).",
+      "Faux : la tenue de l'AG dans les six mois suivant la clôture est précisément ce que la loi exige (art. 699 al. 2 CO) — c'est un comportement conforme, pas une violation. Le piège inverse (AG non tenue dans les 6 mois) serait, lui, une violation à signaler.",
+      "Faux : un dividende décidé conformément à la loi ne viole rien. Seul un emploi du bénéfice non conforme (art. 671/677 CO) ou une distribution dissimulée (art. 678 CO) serait une violation à signaler (mémento §10.1)."
+     ]
     },
     {
      "id": "CRA-173",
@@ -2654,7 +3606,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "C'est un exemple de point clé d'audit (KAM) à intégrer dans le rapport."
      ],
      "correct": 2,
-     "explication": "La perte de capital (art. 725a CO) ne modifie JAMAIS l'opinion d'audit : elle se signale dans un paragraphe « autres obligations de communication / autres points » → c). a) faux : les comptes étant conformes, aucune anomalie n'affecte l'opinion. b) faux : l'annexe est déjà complète (comptes conformes) ; ce qui pourrait devenir une violation, c'est l'inaction du CA, pas la perte de capital elle-même. d) faux : ce n'est pas un KAM (le KAM ne remplace ni ne se substitue à un avis obligatoire). Base : art. 725a et 728c CO. → voir §10.2 du mémento."
+     "piege": "perte de capital ≠ opinion modifiée",
+     "explications": [
+      "Faux : les comptes étant conformes à la loi et aux statuts, aucune anomalie ne fonde une modification de l'opinion. La perte de capital, en tant que telle, ne modifie JAMAIS l'opinion d'audit (mémento §10.2, piège).",
+      "Faux : l'annexe n'a pas à être complétée — les comptes sont déjà conformes, la perte de capital ressort du bilan. Ce qui pourrait devenir une violation à signaler, c'est l'inaction du CA (mesures non prises), pas la perte de capital elle-même.",
+      "Exact : la perte de capital (art. 725a CO) est l'exemple type d'un fait signalé dans les « autres obligations de communication » du rapport (art. 728c CO), sans aucune incidence sur l'opinion (mémento §10.2).",
+      "Faux : un KAM (ISA-CH 701) décrit une zone d'audit délicate des sociétés cotées ; il ne sert pas de véhicule aux avis obligatoires et ne remplace jamais une communication exigée par la loi."
+     ]
     },
     {
      "id": "CRA-174",
@@ -2669,7 +3627,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'organe de révision doit informer le ministère public."
      ],
      "correct": 2,
-     "explication": "Face à une violation de la loi, l'organe de révision avertit d'abord PAR ÉCRIT le conseil d'administration (art. 728c al. 1 CO) → c) ; il n'informe l'AG que si la violation est grave ou si le CA reste inactif (al. 2). a) faux : une violation constatée impose au moins l'avertissement au CA. b) faux : l'AG n'est pas le premier destinataire. d) faux : l'organe de révision n'a pas d'obligation générale de dénonciation pénale au ministère public pour des infractions fiscales ou de concurrence. Base : art. 728c al. 1 et 2 CO. → voir §10.1 du mémento."
+     "piege": "CA d'abord, AG ensuite",
+     "explications": [
+      "Faux : une violation de la loi constatée lors de l'audit déclenche au minimum un avertissement écrit — l'organe de révision ne peut pas rester passif (art. 728c al. 1 CO).",
+      "Faux : l'AG n'est pas le premier destinataire ; elle n'est informée que dans un second temps, si la violation est grave ou si le CA reste inactif (art. 728c al. 2 CO).",
+      "Exact : le mécanisme de l'art. 728c CO est en deux étapes — d'abord l'avertissement écrit au conseil d'administration (al. 1), puis l'information de l'AG seulement si la violation est grave ou si le CA n'agit pas (al. 2) (mémento §10.1).",
+      "Faux : l'organe de révision n'a pas d'obligation générale de dénonciation pénale — aucun avis au ministère public n'est prévu pour des infractions fiscales ou de concurrence. Le seul tiers destinataire prévu par la loi est le tribunal, en cas de surendettement (art. 728c al. 3 CO)."
+     ]
     },
     {
      "id": "CRA-175",
@@ -2684,7 +3648,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Violation de la loi"
      ],
      "correct": 3,
-     "explication": "L'écriture étant correcte, il n'y a pas d'anomalie → ni réserve (a) ni défavorable (b). Mais un prêt à l'actionnaire majoritaire déprécié de 1 mio, alors que les capitaux propres ne valent que 1 mio, revient à une restitution non recouvrable de fonds à l'actionnaire au détriment du capital : cela évoque une distribution dissimulée / un remboursement prohibé du capital (art. 678 / 680 al. 2 CO) → à signaler comme VIOLATION DE LA LOI (d), via les autres obligations de communication (728c). c) « autres points » vise des faits hors EF sans caractère de violation. Base : art. 678, 680 al. 2, 728c CO. → voir §10.1 du mémento. [Incertitude : voir divergence.]"
+     "explications": [
+      "Faux : l'écriture (correction de valeur de CHF 1 mio) est correcte, donc les comptes ne contiennent pas d'anomalie — rien ne fonde une réserve (ISA-CH 705).",
+      "Faux : a fortiori, sans anomalie il ne peut pas y avoir d'opinion défavorable, réservée aux anomalies significatives ET diffuses.",
+      "Faux : le paragraphe « autres points » (ISA-CH 706) vise des faits hors états financiers sans caractère de violation ; ici, le fait à signaler a précisément le caractère d'une violation de la loi.",
+      "Exact : un prêt à l'actionnaire majoritaire déprécié de CHF 1 mio alors que les capitaux propres ne valent que CHF 1 mio revient économiquement à une restitution non récupérable de fonds à l'actionnaire au détriment du capital — cela évoque une distribution dissimulée / un remboursement prohibé du capital (art. 678 / 680 al. 2 CO), à signaler comme violation de la loi via les autres obligations de communication (art. 728c CO ; mémento §10.1). Qualification juridique discutée — voir divergences.md."
+     ]
     },
     {
      "id": "CRA-176",
@@ -2699,7 +3668,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Une section « Rapport sur les autres obligations légales et réglementaires »"
      ],
      "correct": 3,
-     "explication": "Capitaux propres = 1 + 2 − 4 = −1 mio → perte de capital (art. 725a) et, les CP étant négatifs sur un bilan de 19 mio, indice de surendettement (725b). Aucune constatation d'audit → opinion NON modifiée (donc c) défavorable est exclu). Ces avis obligatoires se logent dans la section « Rapport sur les autres obligations légales et réglementaires » (d). a) « autres points » vise des faits hors EF ; ici il s'agit d'obligations légales → section dédiée. b) « violation de la loi » supposerait une inaction du CA, non établie par l'énoncé. Base : art. 725a/725b et 728c CO ; NAS-CH 700. → voir §10.2/5.3 du mémento."
+     "explications": [
+      "Faux : « autres points » (ISA-CH 706) vise des faits hors états financiers utiles à comprendre l'audit ; la perte de capital et le surendettement relèvent des avis obligatoires, logés dans la section légale dédiée du rapport NAS-CH 700.",
+      "Faux : une violation supposerait par exemple l'inaction du CA (mesures non prises, comptes intermédiaires non établis) ; l'énoncé n'établit rien de tel — la situation de perte de capital n'est pas en soi une violation (mémento §10.2).",
+      "Faux : « aucune constatation d'audit à clarifier » signifie que les comptes sont conformes — l'opinion reste non modifiée. La perte de capital et le surendettement ne modifient jamais l'opinion.",
+      "Exact : CP = 1 + 2 − 4 = −1 mio → perte de capital (art. 725a CO) et, les capitaux propres étant négatifs, indice de surendettement (art. 725b CO). Ces avis obligatoires prennent place dans la section « Rapport sur les autres obligations légales et réglementaires » du rapport NAS-CH 700 (art. 728c CO ; mémento §5.3 et §10.2)."
+     ]
     },
     {
      "id": "CRA-177",
@@ -2714,12 +3688,18 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Créancier"
      ],
      "correct": 0,
-     "explication": "En cas de perte de capital, l'organe de révision informe le CONSEIL D'ADMINISTRATION (avertissement écrit, art. 728c al. 1) : c'est au CA de prendre les mesures et de proposer à l'AG celles qui la concernent. Il n'informe pas directement l'AG (il ne la convoque jamais à la place du CA). Le juge n'est saisi qu'en cas de SURENDETTEMENT (art. 725b), non de perte de capital. Le créancier n'est jamais destinataire d'un tel avis. Base : art. 725a, art. 728c al. 1 CO. → voir §10.1 du mémento."
+     "piege": "juge = surendettement seulement",
+     "explications": [
+      "Exact : en cas de perte de capital, l'organe de révision adresse un avertissement écrit au CONSEIL D'ADMINISTRATION (art. 728c al. 1 CO) : c'est le CA qui prend les mesures et propose à l'AG celles qui relèvent d'elle (art. 725a CO ; mémento §10.1).",
+      "Faux : l'AG n'est pas le destinataire direct de l'avis ; elle n'est informée, via le rapport (section autres obligations), que si la violation est grave ou si le CA reste inactif — et l'organe de révision ne la convoque jamais à la place du CA (mémento §10.2).",
+      "Faux : le juge (tribunal) n'est avisé qu'en cas de SURENDETTEMENT, et seulement si le CA omet de le faire (art. 725b al. 3, art. 728c al. 3 CO ; mémento §10.3) — jamais pour une simple perte de capital.",
+      "Faux : les créanciers ne sont jamais destinataires d'un avis de l'organe de révision ; leur protection passe par les devoirs du CA et, en cas de surendettement, par l'avis au tribunal."
+     ]
     },
     {
      "id": "CRA-178",
      "champ": "CA n'informe pas l'AG — que fait l'organe de révision",
-     "memento": "§10.1",
+     "memento": "§10.1 / §10.2",
      "difficulte": 2,
      "question": "Que fait l'organe de révision si le Conseil d'administration n'informe pas l'Assemblée générale de la perte de capital avec la diligence requise ?",
      "options": [
@@ -2729,7 +3709,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Il informe lui-même les actionnaires par écrit."
      ],
      "correct": 2,
-     "explication": "Sous le droit révisé, l'organe de révision ne se substitue pas au CA : il signale la perte de capital dans son RAPPORT à l'AG (paragraphe autres obligations / mention de la violation de la loi si le CA reste inactif) et n'a pas d'autre devoir d'information → option 3. Option 1 = ancien droit (l'organe de révision « convoquait/informait l'AG à la place du CA ») : écartée (MIS À JOUR). Option 2 confond avec la publication au registre / FOSC, non prévue ici. Option 4 (informer directement les actionnaires par écrit) n'est pas prévu par la loi. Base : art. 725a, art. 728c al. 2 CO. → voir §10.1 et §10.2 du mémento."
+     "piege": "substitution au CA = ancien droit",
+     "explications": [
+      "Faux : c'est le réflexe de l'ANCIEN droit (art. 725 al. 1 aCO), où l'organe de révision se substituait au CA défaillant. Sous le droit révisé (art. 725a CO), l'organe de révision n'informe ni ne convoque jamais l'AG à la place du CA (mémento §10.2, changement de norme).",
+      "Faux : aucune publication au registre du commerce ni dans la FOSC n'est prévue pour la perte de capital ; cette voie n'existe pas dans le mécanisme des art. 725a/728c CO.",
+      "Exact : sous le droit révisé, l'organe de révision ne se substitue pas au CA — il attire l'attention sur la perte de capital dans son RAPPORT destiné à l'AG (section autres obligations ; l'inaction du CA pouvant être signalée comme violation de la loi, art. 728c al. 2 CO), sans autre devoir d'information (mémento §10.1 et §10.2).",
+      "Faux : informer directement les actionnaires par écrit n'est prévu par aucune disposition ; la communication de l'organe de révision passe exclusivement par le rapport présenté à l'AG."
+     ]
     },
     {
      "id": "CRA-179",
@@ -2744,7 +3730,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le bénéficiaire a restitué la distribution à la date du rapport"
      ],
      "correct": 3,
-     "explication": "La bonne réponse est D : la restitution effective à la date du rapport n'est PAS une condition requise. Les trois conditions cumulatives sont A (CA informé par écrit), B (minoritaires non lésés) et C (créanciers non lésés) ; à défaut, l'opinion devient défavorable dans les cas graves. Base : art. 678 CO ; pratique de conclusion. → voir §15 du mémento."
+     "piege": "la restitution n'est pas exigée",
+     "explications": [
+      "Cette condition EST requise : l'information écrite du conseil d'administration est la première des trois conditions cumulatives permettant de maintenir un rapport sans réserve malgré une distribution dissimulée (mémento §15, piège).",
+      "Cette condition EST requise : l'absence de lésion des intérêts des actionnaires minoritaires est la deuxième condition cumulative (mémento §15).",
+      "Cette condition EST requise : l'absence de lésion des intérêts des créanciers est la troisième condition cumulative (mémento §15).",
+      "Exact — c'est la condition NON requise : la restitution effective de la distribution à la date du rapport n'est pas exigée pour qu'un rapport sans réserve reste justifié. Seules comptent les trois conditions cumulatives (CA informé par écrit, minoritaires non lésés, créanciers non lésés) ; dans les cas graves, l'opinion devient défavorable (art. 678 CO ; mémento §15)."
+     ]
     }
    ]
   },
@@ -2765,7 +3757,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Utiliser les actifs de l'entité à des fins personnelles"
      ],
      "correct": 0,
-     "explication": "La bonne réponse est A : la présentation d'états financiers mensongers vise le reporting (manipulation intentionnelle des principes comptables). B, C et D décrivent au contraire le détournement d'actifs (vol/abus au préjudice de l'entité), le second des deux types de fraude de l'ISA-CH 240. Base : ISA-CH 240 (deux types : états financiers mensongers vs détournement d'actifs). → voir §14 du mémento."
+     "explications": [
+      "Exact : la présentation d'états financiers mensongers vise le REPORTING — une manipulation intentionnelle, dont l'application volontairement incorrecte des principes de présentation des comptes est l'exemple type (ISA-CH 240 ; mémento §14, deux types de fraude).",
+      "Faux : s'approprier des recettes est un DÉTOURNEMENT D'ACTIFS (vol/abus de confiance au préjudice de l'entité), le second type de fraude — pas une falsification du reporting.",
+      "Faux : faire payer par l'entité des biens dont elle n'a pas bénéficié est un détournement d'actifs (dépenses fictives), pas une présentation mensongère des états financiers.",
+      "Faux : utiliser les actifs de l'entité à des fins personnelles relève aussi du détournement d'actifs — l'entité est spoliée, mais le reporting n'est pas l'objet premier de la fraude."
+     ]
     },
     {
      "id": "CRA-181",
@@ -2780,7 +3777,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Elle peut aider à identifier les facteurs de risque de fraude et les risques d'anomalies significatives provenant de fraudes"
      ],
      "correct": 0,
-     "explication": "La bonne réponse (l'affirmation fausse) est A : l'analyse forensique est un outil d'aiguillage et d'investigation, elle ne rend pas l'évaluation du risque « plus précise » au sens d'une mesure — c'est une surpromesse. B (cibler les écritures), C (investiguer sur indices) et D (identifier facteurs et RMM) correspondent aux usages reconnus de l'analyse forensique. Base : ISA-CH 240 ; le mémento retient cibler / évaluer / investiguer. → voir §14 du mémento."
+     "explications": [
+      "C'est l'affirmation fausse : l'analyse forensique est un outil d'aiguillage et d'investigation — elle aide à cibler et à identifier, mais ne rend pas l'évaluation du risque « plus précise » au sens d'une mesure : la formulation est une surpromesse. Nuance fine : le mémento §14 résume ses usages par « cibler / évaluer / investiguer » sans ce degré de précision — la distinction porte sur le mot « plus précisément ».",
+      "Affirmation exacte : l'analyse forensique aide à sélectionner les écritures comptables à vérifier (ciblage des écritures présentant des critères à haut risque ; mémento §14).",
+      "Affirmation exacte : en présence d'indices de fraude, l'analyse forensique peut appuyer une investigation (mémento §14).",
+      "Affirmation exacte : elle aide à identifier les facteurs de risque de fraude et les risques d'anomalies significatives provenant de fraudes."
+     ]
     },
     {
      "id": "CRA-182",
@@ -2795,7 +3797,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Sa surveillance consiste notamment à prendre en considération la possibilité que des contrôles soient contournés"
      ],
      "correct": 2,
-     "explication": "La bonne réponse (fausse) est C : aucun SCI ne peut prévenir « toute » fraude — le contrôle interne n'offre qu'une assurance raisonnable et reste exposé au contournement par la direction elle-même. A (responsabilité première gouvernance + direction), B (culture d'honnêteté) et D (prise en compte du contournement) sont exactes. Base : ISA-CH 240 ; limites inhérentes du contrôle interne. → voir §14 du mémento."
+     "explications": [
+      "Affirmation exacte : la responsabilité première de la prévention et de la détection des fraudes incombe à la gouvernance (CA) et à la direction — pas à l'auditeur, qui n'apporte qu'une assurance raisonnable (ISA-CH 240).",
+      "Affirmation exacte : développer une culture d'honnêteté et de comportement éthique fait partie du rôle du conseil d'administration.",
+      "C'est l'affirmation fausse : aucun système de contrôle interne ne peut prévenir TOUTE fraude — le SCI n'offre qu'une assurance raisonnable et reste exposé au contournement par la direction elle-même, risque toujours présent (mémento §14, contournement des contrôles). L'absolu « toute fraude » est le signal d'alerte.",
+      "Affirmation exacte : la surveillance du CA inclut la prise en considération du risque que les contrôles soient contournés."
+     ]
     },
     {
      "id": "CRA-183",
@@ -2810,7 +3817,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Demandes d'informations insuffisantes"
      ],
      "correct": 2,
-     "explication": "La bonne réponse est C : le testing insuffisant des écritures de journal est la constatation la plus fréquente de l'ASR (population non exhaustive, écritures à haut risque échantillonnées). A, B et D sont des griefs réels mais moins récurrents. Base : rapports d'activité ASR ; ISA-CH 240.32. → voir §14 du mémento."
+     "explications": [
+      "Grief réel de l'ASR (réfutations non fondées ou non documentées de la présomption sur le chiffre d'affaires), mais moins fréquent que les manquements relatifs aux écritures comptables.",
+      "Grief également relevé (éléments d'imprévisibilité absents ou insuffisants), mais ce n'est pas le domaine le plus fréquent des constatations.",
+      "Exact : le testing absent ou insuffisant des écritures comptables est le domaine où l'ASR a fait le plus de constatations — population testée non exhaustive, écritures à haut risque seulement échantillonnées, alors que le test des écritures de journal est une procédure minimale contre le contournement des contrôles (ISA-CH 240.32 ; mémento §14). Statistique ASR issue du support de cours, non reprise en détail dans le mémento.",
+      "Grief existant (demandes d'informations insuffisantes auprès de la direction et d'autres personnes), mais pas le plus récurrent."
+     ]
     },
     {
      "id": "CRA-184",
@@ -2825,7 +3837,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La plupart des fraudes sont le fait de personnes de niveau collaborateur"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : les études de référence (KPMG) montrent qu'une majorité de fraudes impliquent une collusion entre plusieurs personnes. A est faux (les fraudeurs ont en général une longue ancienneté), C est faux (tranche typique plus large, 36-55 ans), D est faux (le plus souvent cadres/direction, disposant des accès et de l'autorité). Base : études statistiques sur le profil du fraudeur. → voir §14 du mémento."
+     "explications": [
+      "Faux : les fraudeurs typiques ont au contraire une LONGUE ancienneté — c'est elle qui procure la confiance de l'entourage et les accès nécessaires pour contourner les contrôles.",
+      "Exact : selon les études « Profile of a Fraudster » (KPMG), la majorité des fraudes reposent sur la collaboration de deux personnes ou plus (collusion) — ce qui explique aussi pourquoi la séparation des fonctions peut être mise en échec. Donnée statistique issue du support de cours ; le mémento §14 n'en reprend pas le détail.",
+      "Faux : la tranche d'âge typique du fraudeur est plus large (environ 36-55 ans) ; « 36 à 45 ans » est trop étroit.",
+      "Faux : les fraudes importantes sont le plus souvent le fait de CADRES ou de membres de la direction, qui disposent de l'autorité et des accès — pas du niveau collaborateur."
+     ]
     },
     {
      "id": "CRA-185",
@@ -2840,7 +3857,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La détection est plus facile lorsque la direction est impliquée dans la fraude"
      ],
      "correct": 3,
-     "explication": "La bonne réponse (fausse) est D : l'implication de la direction rend la détection PLUS difficile (contournement des contrôles, dissimulation, collusion). A (tips/whistleblowers en tête), B (l'audit externe découvre rarement la fraude) et C (difficile sans recherche ciblée) sont exactes. Base : ISA-CH 240 ; statistiques de détection. → voir §14 du mémento."
+     "piege": "direction impliquée = détection plus dure",
+     "explications": [
+      "Affirmation exacte : la majorité des fraudes sont découvertes grâce à des signalements (whistleblowers) ou par les contrôles internes — rarement par l'audit externe.",
+      "Affirmation exacte : il est statistiquement peu probable que l'organe de révision externe découvre une fraude (limites inhérentes de l'audit face à un acte intentionnel et dissimulé).",
+      "Affirmation exacte : la fraude étant intentionnelle et souvent dissimulée (mémento §14), elle est difficile à détecter sans recherche ciblée sur la base d'indices.",
+      "C'est l'affirmation fausse : l'implication de la direction rend la détection PLUS DIFFICILE, pas plus facile — la direction peut contourner les contrôles, dissimuler des éléments et organiser la collusion (mémento §14, contournement des contrôles)."
+     ]
     },
     {
      "id": "CRA-186",
@@ -2855,7 +3878,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Soutenir financièrement une fondation environnementale et l'utiliser à des fins de marketing"
      ],
      "correct": 2,
-     "explication": "La bonne réponse est C : le greenwashing = allégations de durabilité (environnementale) non vérifiables, cas emblématique visé par la FINMA pour les produits financiers. A porte sur la responsabilité « sociale » (relève du bluewashing). B est une divulgation transparente, pas un mensonge. D décrit un soutien réel exploité en communication, non une allégation trompeuse. Base : pratique FINMA en matière de durabilité. → voir §14 du mémento."
+     "explications": [
+      "Faux dans ce contexte : des tactiques trompeuses sur la responsabilité SOCIALE relèvent du « bluewashing » (dimension sociale) ; le greenwashing vise spécifiquement les allégations environnementales / de durabilité.",
+      "Faux : une divulgation transparente sur sa propre consommation d'électricité est l'inverse du greenwashing — il n'y a aucune tromperie.",
+      "Exact : le greenwashing typique consiste en des affirmations NON VÉRIFIABLES sur la durabilité — cas emblématique visé par la pratique de la FINMA pour les produits financiers des prestataires. Thème « criminalité économique » du support de cours ; le mémento §14 ne le développe pas.",
+      "Faux : soutenir réellement une fondation environnementale et le faire savoir n'est pas en soi une allégation trompeuse — la tromperie suppose un écart entre la communication et la réalité."
+     ]
     },
     {
      "id": "CRA-187",
@@ -2870,7 +3898,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les facteurs de risque sont eux-mêmes des risques d'anomalies significatives"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : un facteur de risque est un simple INDICE d'un risque d'anomalies significatives, à apprécier. A est faux (« toujours » — pas d'automatisme), C est faux (il y a bien un lien), D est faux (un facteur n'EST pas un RMM). Base : ISA-CH 240 (facteurs de risque = indices). → voir §14 du mémento."
+     "piege": "facteur = indice, pas risque",
+     "explications": [
+      "Faux : « toujours » est trop fort — un facteur de risque n'entraîne pas automatiquement un risque d'anomalies significatives ; il doit être apprécié dans son contexte.",
+      "Exact : les facteurs de risque de fraude constituent un INDICE de risques d'anomalies significatives — ils signalent un risque possible sans le constituer eux-mêmes (ISA-CH 240 ; mémento §14, piège : « les facteurs de risque ne sont pas eux-mêmes des risques importants : ils en sont un indice »).",
+      "Faux : il existe bien un lien — les facteurs de risque servent précisément à identifier les RMM provenant de fraudes.",
+      "Faux : un facteur de risque n'EST pas lui-même un risque d'anomalies significatives ; il en est le signal, que l'auditeur doit évaluer."
+     ]
     },
     {
      "id": "CRA-188",
@@ -2885,7 +3919,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "En présence d'un RMM provenant de fraudes, il faut toujours prendre connaissance des contrôles pertinents"
      ],
      "correct": 2,
-     "explication": "La bonne réponse (fausse) est C : un RMM provenant de fraudes EST traité comme un risque important — ce n'est pas un simple indice qu'il faudrait encore « valider » via l'ISA-CH 315. A (documenter l'absence de RMM issu d'un facteur) et B (présomption réfutable mais documentée sur les produits) sont exactes ; D est exacte (connaissance des contrôles requise). Base : ISA-CH 240.27 / 315. → voir §14 du mémento."
+     "explications": [
+      "Affirmation exacte : si un facteur de risque identifié ne conduit pas à retenir un RMM, ce jugement doit être justifié et documenté.",
+      "Affirmation exacte : la présomption de RMM provenant de fraudes sur la comptabilisation des produits est réfutable, mais sa réfutation doit être documentée (ISA-CH 240.26 ; mémento §14 : « réfutable, mais à documenter »).",
+      "C'est l'affirmation fausse : un RMM provenant de fraudes EST traité d'office comme un risque important (ISA-CH 240.27) — il n'y a pas de réévaluation supplémentaire via l'ISA-CH 315 pour « confirmer » ce statut. L'énoncé transpose à tort aux RMM ce qui vaut pour les FACTEURS de risque, qui, eux, ne sont que des indices (mémento §14).",
+      "Affirmation exacte : pour tout RMM provenant de fraudes, l'auditeur doit prendre connaissance des contrôles pertinents de l'entité."
+     ]
     },
     {
      "id": "CRA-189",
@@ -2900,7 +3939,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Introduire un élément d'imprévisibilité dans la nature, le calendrier et l'étendue des procédures"
      ],
      "correct": 0,
-     "explication": "La bonne réponse est A : l'évaluation d'un biais dans les estimations est une procédure SPÉCIFIQUE (réponse au contournement des contrôles / ISA-CH 540), non une réponse au niveau global. B (affectation des équipes), C (regard critique sur les méthodes comptables) et D (imprévisibilité) sont les réponses générales de l'ISA-CH 240.29. Base : ISA-CH 240.29. → voir §14 du mémento."
+     "explications": [
+      "Exact : l'examen des biais de la direction dans les estimations comptables est une procédure SPÉCIFIQUE, imposée en réponse au risque de contournement des contrôles — l'une des trois procédures minimales avec le test des écritures de journal et l'analyse des transactions hors cadre normal (ISA-CH 240.32 ; mémento §14) — et non une démarche générale.",
+      "C'est bien une démarche générale (ISA-CH 240.29) : affecter les collaborateurs en fonction de leurs connaissances, de leur expertise et de leurs aptitudes.",
+      "C'est bien une démarche générale : porter un regard critique sur le choix et l'application des méthodes comptables, susceptibles de trahir une présentation mensongère.",
+      "C'est bien une démarche générale : introduire un élément d'imprévisibilité dans la nature, le calendrier et l'étendue des procédures d'audit."
+     ]
     },
     {
      "id": "CRA-190",
@@ -2915,7 +3959,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Réalisation de procédures analytiques avec plus de précision"
      ],
      "correct": 2,
-     "explication": "La bonne réponse est C : la demande d'informations (inquiry), même détaillée, est l'élément probant le MOINS fiable (source interne, non corroborée). A (confirmations externes), B (inspection/observation) et D (analytiques plus précises) renforcent la fiabilité. Base : ISA-CH 500 (hiérarchie de fiabilité des éléments probants). → voir §14 du mémento."
+     "explications": [
+      "Faux (elle améliore la fiabilité) : les confirmations externes proviennent de tiers indépendants de l'entité — l'une des sources les plus fiables.",
+      "Faux : l'observation physique et l'inspection fournissent des éléments probants obtenus directement par l'auditeur, donc très fiables.",
+      "Exact : la demande d'informations (inquiry), même plus détaillée, reste l'élément probant le MOINS fiable — source interne à l'entité, non corroborée ; en contexte de fraude, elle doit toujours être corroborée par d'autres procédures (hiérarchie de fiabilité, ISA-CH 500). Hiérarchie non détaillée dans le mémento — §14 est la section la plus proche.",
+      "Faux : des procédures analytiques plus précises (attentes plus fines, données désagrégées) renforcent la valeur probante obtenue."
+     ]
     },
     {
      "id": "CRA-191",
@@ -2930,7 +3979,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'absence d'implication du conseil d'administration peut signaler une transaction hors cadre normal"
      ],
      "correct": 0,
-     "explication": "La bonne réponse (fausse) est A : le contournement des contrôles par la direction est TOUJOURS un risque important (présomption NON réfutable), quelle que soit l'organisation. B énonce les trois procédures minimales obligatoires, C (examen rétrospectif mutualisé 240/540) et D sont exactes. Base : ISA-CH 240.31-32. → voir §14 du mémento."
+     "piege": "présomption jamais réfutable",
+     "explications": [
+      "C'est l'affirmation fausse : le risque de contournement des contrôles par la direction est TOUJOURS un risque important, quelle que soit l'organisation — présomption NON réfutable, contrairement à celle sur les revenus (ISA-CH 240.31-32 ; mémento §14, piège).",
+      "Affirmation exacte : les trois procédures minimales en réponse au contournement sont le test des écritures de journal, l'examen des biais dans les estimations et l'appréciation de la logique économique des opérations hors cadre normal (mémento §14).",
+      "Affirmation exacte : l'examen rétrospectif des estimations (ISA-CH 240) peut être combiné avec l'examen rétrospectif exigé par l'ISA-CH 540.",
+      "Affirmation exacte : l'absence d'implication du conseil d'administration dans une opération importante peut signaler une transaction hors du cadre normal des activités."
+     ]
     },
     {
      "id": "CRA-192",
@@ -2945,7 +4000,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si la fraude est clairement insignifiante, aucune autre procédure d'audit n'est nécessaire"
      ],
      "correct": 3,
-     "explication": "La bonne réponse (fausse) est D : une fraude n'est jamais « clairement insignifiante » — même minime, elle interroge l'intégrité de la direction et peut révéler un problème plus large, imposant d'en évaluer les implications. A, B et C sont exactes. Base : ISA-CH 240.35-38. → voir §14 du mémento."
+     "explications": [
+      "Affirmation exacte : si la direction est impliquée, la fiabilité de TOUS les éléments probants déjà obtenus (déclarations, documents fournis) doit être reconsidérée.",
+      "Affirmation exacte : toute anomalie identifiée doit être évaluée pour déterminer si elle est l'indice d'une fraude (caractère intentionnel).",
+      "Affirmation exacte : le refus de l'entité de traiter une fraude détectée peut justifier la démission du mandat (ISA-CH 240.38).",
+      "C'est l'affirmation fausse : une FRAUDE n'est jamais « clairement insignifiante » — contrairement à une simple erreur, même un montant minime met en cause l'intégrité de son auteur (voire de la direction) et impose d'en évaluer les implications sur le reste de l'audit, avec un scepticisme renforcé (ISA-CH 240.35 ss ; mémento §14)."
+     ]
     },
     {
      "id": "CRA-193",
@@ -2960,7 +4020,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Trop d'écritures ont été sélectionnées"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : l'ASR a relevé que des écritures à haut risque étaient échantillonnées au lieu d'être testées sur l'ensemble de la population — insuffisance récurrente. A est un autre grief mais hors sujet « écritures », C décrit une bonne pratique (et non un manquement), D serait un excès de prudence, pas une constatation critique. Base : rapports ASR ; ISA-CH 240.32. → voir §14 du mémento."
+     "piege": "haut risque = population entière",
+     "explications": [
+      "Grief distinct de l'ASR (demandes d'informations insuffisantes), mais il ne porte pas sur le contrôle des écritures comptables visé par la question.",
+      "Exact : l'ASR a constaté que des écritures présentant des critères à haut risque étaient contrôlées par ÉCHANTILLONNAGE, alors qu'elles doivent être testées sur l'ENSEMBLE de la population concernée (ISA-CH 240.32, test des écritures de journal ; mémento §14). Constat ASR issu du support de cours, non détaillé dans le mémento.",
+      "Décrit une BONNE pratique, pas un manquement : les écritures doivent être examinées sur toute la période, pas seulement au bouclement.",
+      "Sélectionner « trop » d'écritures serait un excès de prudence, pas une constatation critique de l'ASR."
+     ]
     },
     {
      "id": "CRA-194",
@@ -2975,7 +4041,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Le chef d'équipe de production"
      ],
      "correct": 0,
-     "explication": "La bonne réponse est A : l'ISA-CH 240 impose des demandes d'informations spécifiques auprès de la fonction d'audit interne (lorsqu'elle existe). B, C et D peuvent être des interlocuteurs utiles mais ne sont pas la fonction expressément visée par la norme pour un traitement séparé. Base : ISA-CH 240.19-20. → voir §14 du mémento."
+     "explications": [
+      "Exact : l'ISA-CH 240 impose des demandes d'informations spécifiques et séparées auprès de la fonction d'AUDIT INTERNE, lorsqu'elle existe, sur les fraudes avérées, suspectées ou alléguées (ISA-CH 240.19 ; mémento §14 : « interroger notamment l'audit interne »).",
+      "Interlocuteur possible au titre des « autres personnes de l'entité », mais ce n'est pas la fonction expressément désignée par la norme pour une interrogation séparée.",
+      "Le service juridique peut être interrogé au cas par cas (litiges, allégations), mais la norme ne l'impose pas comme fonction à interroger séparément.",
+      "Le chef d'équipe de production n'est visé par aucune exigence spécifique de la norme."
+     ]
     },
     {
      "id": "CRA-195",
@@ -2990,7 +4061,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Contrôler un solde de compte inférieur au seuil de signification, normalement non contrôlé"
      ],
      "correct": 0,
-     "explication": "La bonne réponse est A : l'examen du biais dans les estimations est l'une des trois procédures spécifiques au contournement des contrôles (avec le test des écritures et l'analyse des opérations hors cadre normal). B est une procédure sur les revenus, C une réponse générale (affectation), D relève de l'imprévisibilité. Base : ISA-CH 240.32. → voir §14 du mémento."
+     "explications": [
+      "Exact : l'examen des estimations de la direction pour y déceler un biais est l'une des trois procédures visant SPÉCIFIQUEMENT le contournement des contrôles — avec le test des écritures de journal et l'analyse des opérations hors cadre normal (ISA-CH 240.32 ; mémento §14).",
+      "Faux : tester les contrôles sur la comptabilisation du chiffre d'affaires répond à la présomption de fraude sur les REVENUS, pas au risque de contournement des contrôles.",
+      "Faux : l'affectation de personnes expérimentées est une démarche GÉNÉRALE (ISA-CH 240.29), pas une réponse spécifique au contournement.",
+      "Faux : contrôler un solde habituellement non contrôlé relève de l'élément d'IMPRÉVISIBILITÉ (démarche générale), pas des trois procédures anti-contournement."
+     ]
     },
     {
      "id": "CRA-196",
@@ -3005,7 +4081,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Location de la salle à divers utilisateurs (événements, mariages), CA = 4× le seuil"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : billets vendus en ligne, exclusivement prépayés (carte/virement), sans espèces ni créances — flux simple, automatisé et entièrement traçable, où le risque de manipulation est faible : la présomption peut être réfutée (et documentée). A (espèces) est au contraire à haut risque, C (contrats pluriannuels) pose un enjeu de cut-off/rattachement, D (locations variées) reste hétérogène. La matérialité (7×) ne fait pas obstacle à la réfutation, qui porte sur la nature du risque. Base : ISA-CH 240.26 (présomption réfutable, à documenter). → voir §14 du mémento."
+     "piege": "matérialité ≠ obstacle à la réfutation",
+     "explications": [
+      "Faux : des ventes encaissées en ESPÈCES constituent un flux à haut risque de fraude (recettes non enregistrées, skimming) — la présomption ne peut pas y être réfutée.",
+      "Exact : billetterie en ligne exclusivement prépayée (carte/virement) — flux simple, automatisé, sans espèces ni créances, entièrement traçable : le risque de manipulation y est faible et la présomption peut être réfutée, en le documentant (ISA-CH 240.26 ; mémento §14 : présomption « réfutable, mais à documenter »). Le volume (7× le seuil) ne s'y oppose pas : la réfutation porte sur la NATURE du risque, pas sur la matérialité.",
+      "Faux : des contrats de sponsoring pluriannuels posent des questions de rattachement des produits aux périodes (cut-off) — un risque de manipulation du chiffre d'affaires subsiste.",
+      "Faux : des locations à des utilisateurs variés forment un flux hétérogène, en partie négocié au cas par cas, moins traçable — la présomption y reste difficile à réfuter."
+     ]
     },
     {
      "id": "CRA-197",
@@ -3020,7 +4102,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La population sous-jacente des écritures de journal correspond aux seules écritures de bouclement"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : l'auditeur doit comprendre la conception et la mise en œuvre des contrôles portant sur les écritures de journal (processus de reporting). A est faux (les écritures automatiques ne sont pas exemptées), C est faux (les écritures à haut risque appellent un contrôle exhaustif, grief ASR récurrent), D est faux (la population couvre toutes les écritures, pas seulement le bouclement). Base : ISA-CH 240.32 ; ISA-CH 315. → voir §14 du mémento."
+     "explications": [
+      "Faux : les écritures automatiques ne sont pas exemptées — elles peuvent précisément être paramétrées ou manipulées ; la population à considérer les inclut.",
+      "Exact : l'auditeur doit acquérir une compréhension de la conception et de la mise en œuvre des contrôles relatifs aux écritures de journal et au processus d'établissement des comptes (ISA-CH 240.32 ; mémento §14 : le test des écritures de journal est une procédure minimale contre le contournement).",
+      "Faux : les écritures présentant des critères à haut risque doivent être testées de manière EXHAUSTIVE, pas par échantillonnage — grief récurrent de l'ASR.",
+      "Faux : la population des écritures couvre TOUTES les écritures de l'exercice (courantes et automatiques comprises), pas seulement celles de bouclement."
+     ]
     },
     {
      "id": "CRA-198",
@@ -3035,12 +4122,17 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un système de contrôle interne faible peut constituer un facteur de risque de fraude"
      ],
      "correct": 0,
-     "explication": "La bonne réponse (erronée) est A : un facteur de risque n'est qu'un INDICE — il ne doit pas être classé automatiquement comme risque important. B (un seul facteur peut suffire), C (le triangle de la fraude) et D (SCI faible = facteur) sont exactes. Base : ISA-CH 240 (facteurs = indices ; triangle de la fraude). → voir §14 du mémento."
+     "explications": [
+      "C'est l'affirmation erronée : un facteur de risque de fraude n'est qu'un INDICE — il ne doit pas être classé automatiquement comme risque important ; c'est le RMM provenant de fraudes qui en résulte qui est traité comme risque important (mémento §14, piège).",
+      "Affirmation exacte : un seul facteur de risque (ex. forte pression sur les résultats) peut suffire à faire naître un RMM provenant de fraudes.",
+      "Affirmation exacte : c'est le triangle de la fraude — incitations/pression, opportunités, attitudes/justifications (mémento §14).",
+      "Affirmation exacte : un SCI faible crée une OPPORTUNITÉ, l'une des trois branches du triangle de la fraude."
+     ]
     },
     {
      "id": "CRA-199",
      "champ": "Risques important obligatoires ou non",
-     "memento": "§14",
+     "memento": "§14 / §15 / §16",
      "difficulte": 3,
      "question": "Quel état de fait n'entraîne PAS obligatoirement un risque important ?",
      "options": [
@@ -3050,7 +4142,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Un degré élevé de subjectivité dans l'évaluation des informations financières sous-jacentes"
      ],
      "correct": 3,
-     "explication": "La bonne réponse est D : un degré élevé de subjectivité est un FACTEUR de risque inhérent sur le spectre, mais n'atteint pas obligatoirement le niveau de risque important. A (contournement) et C (parties liées hors cadre) sont des risques importants automatiques ; B (fraude sur les revenus) est une présomption forte. Base : ISA-CH 315/240 ; ISA-CH 550.18. → voir §14 du mémento."
+     "piege": "subjectivité = facteur, pas automatisme",
+     "explications": [
+      "Entraîne obligatoirement un risque important : le contournement des contrôles par la direction est une présomption NON réfutable (ISA-CH 240 ; mémento §14).",
+      "Traité comme risque important : la présomption de fraude sur la comptabilisation des produits est certes réfutable, mais tant qu'elle n'est pas réfutée (et documentée), le risque est retenu (ISA-CH 240.26 ; mémento §14).",
+      "Entraîne obligatoirement un risque important : les transactions importantes avec des parties liées hors du cadre normal des activités le sont TOUJOURS (ISA-CH 550.18 ; mémento §15).",
+      "Exact : un degré élevé de subjectivité est un FACTEUR de risque inhérent (spectre du risque inhérent, ISA-CH 540/315 ; mémento §16) — il augmente le risque mais n'entraîne pas automatiquement sa qualification en risque important."
+     ]
     }
    ]
   },
@@ -3071,7 +4169,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Transactions effectuées à des conditions de marché non habituelles"
      ],
      "correct": 2,
-     "explication": "La bonne réponse est C : une facturation intragroupe (RH) réalisée aux conditions du marché, dans le cadre normal, n'accroît pas le risque. A (complexité des structures), B (SI défaillants) et D (conditions non conformes au marché) sont autant de facteurs qui augmentent le risque. Base : ISA-CH 550 (facteurs de risque parties liées). → voir §15 du mémento."
+     "explications": [
+      "Facteur de risque accru : un large éventail de liens et des structures complexes rendent difficile l'identification des parties liées et le suivi des flux entre elles (ISA-CH 550).",
+      "Facteur de risque accru : des systèmes d'information inefficaces empêchent l'entité d'identifier et de récapituler les transactions avec ses parties liées.",
+      "Exact : une facturation intragroupe de prestations RH effectuée à des conditions CONFORMES au marché, dans le cadre normal des activités, n'entraîne généralement pas de risque accru — c'est précisément la conformité au marché qui neutralise le risque, celui-ci naissant des flux non conformes (distributions dissimulées, avantages indus ; mémento §15).",
+      "Facteur de risque accru : des conditions de marché non habituelles sont l'indice type d'un avantage indu consenti à une partie liée — possible distribution dissimulée (art. 678 CO ; mémento §15)."
+     ]
     },
     {
      "id": "CRA-201",
@@ -3086,7 +4189,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Si le droit comptable ne donne pas d'indication, la définition de l'ISA-CH 550 s'applique"
      ],
      "correct": 2,
-     "explication": "La bonne réponse (fausse) est C : le CO impose certes des obligations de PUBLICATION (art. 959c CO — créances/dettes envers les organes et participations) mais ne fournit pas de véritable DÉFINITION des parties liées. A est exacte : selon l'ISA-CH 550.10, la définition du référentiel comptable prime, l'ISA n'étant que subsidiaire (d'où aussi D). B reprend fidèlement la définition subsidiaire de l'ISA. Base : ISA-CH 550.10 ; art. 959a al. 4 / 959c CO. → voir §15 du mémento."
+     "piege": "publication CO ≠ définition",
+     "explications": [
+      "Affirmation exacte : si le référentiel comptable applicable contient ses propres règles sur les parties liées, elles priment — la définition de l'ISA-CH 550 n'est que subsidiaire (ISA-CH 550.10 ; mémento §15 : définition « par le référentiel comptable, ou à défaut par l'ISA-CH 550 »).",
+      "Affirmation exacte : la définition subsidiaire de l'ISA-CH 550 couvre notamment les personnes ou entités exerçant, directement ou indirectement, un contrôle ou une influence notable sur l'entité auditée.",
+      "C'est l'affirmation fausse : le Code des obligations impose certes des exigences de PUBLICATION (art. 959c CO — participations, créances et dettes envers les organes) mais ne contient PAS de véritable définition des parties liées. La confusion entre obligation de publication et définition est le piège (mémento §15 : base CO art. 959a al. 4 / 959c).",
+      "Affirmation exacte : à défaut d'indication du droit comptable, la définition subsidiaire de l'ISA-CH 550 s'applique (mémento §15)."
+     ]
     },
     {
      "id": "CRA-202",
@@ -3101,7 +4210,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "L'autorisation et l'approbation des transactions importantes sortant du cadre normal des activités"
      ],
      "correct": 0,
-     "explication": "La bonne réponse est A : l'ISA-CH 550.14 vise la compréhension des contrôles portant sur l'identification (B), l'autorisation des transactions importantes avec parties liées (C) et l'autorisation des transactions hors cadre normal (D). La vérification du respect des conditions de marché n'est pas un de ces trois domaines de compréhension des contrôles. Base : ISA-CH 550.14. → voir §15 du mémento."
+     "explications": [
+      "Exact : la vérification du respect des conditions de marché n'est PAS l'un des domaines de contrôles internes que l'ISA-CH 550.14 impose de comprendre — la démonstration de la conformité au marché incombe à la direction (charge de la preuve, mémento §15), l'auditeur ne l'examinant que lorsque la direction l'affirme dans les comptes. Détail des trois domaines de l'ISA-CH 550.14 non repris dans le mémento.",
+      "Domaine visé par l'ISA-CH 550.14 : les contrôles permettant d'identifier les parties liées et de recenser les transactions conclues avec elles.",
+      "Domaine visé par l'ISA-CH 550.14 : l'autorisation et l'approbation des transactions importantes avec des parties liées.",
+      "Domaine visé par l'ISA-CH 550.14 : l'autorisation et l'approbation des transactions importantes sortant du cadre normal des activités."
+     ]
     },
     {
      "id": "CRA-203",
@@ -3116,7 +4230,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Face à des parties liées non divulguées, il suffit d'informer la direction et de n'agir que si des indices de fraude existent"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : les transactions importantes avec parties liées sortant du cadre normal des activités constituent toujours des risques importants (ISA-CH 550.18). A est faux (les transactions avec parties liées appellent une vigilance accrue), C est faux (la vérification arm's length n'est pas systématique), D est faux (des procédures complémentaires sont requises, pas de simple information). Base : ISA-CH 550.18. → voir §15 du mémento."
+     "piege": "hors cadre normal = toujours important",
+     "explications": [
+      "Faux : lorsqu'une transaction importante hors cadre normal implique une PARTIE LIÉE, elle est automatiquement classée en risque important — le traitement n'est donc pas identique à celui d'une transaction avec un tiers.",
+      "Exact : les transactions importantes avec des parties liées sortant du cadre normal des activités doivent TOUJOURS être traitées comme des risques importants (ISA-CH 550.18 ; mémento §15 : « transactions hors cadre normal de l'activité = risques importants »).",
+      "Faux : la vérification systématique du caractère arm's length n'est pas exigée — l'auditeur n'examine les conditions de marché que lorsque la direction l'affirme dans les comptes ou qu'un risque identifié l'impose ; la charge de la preuve incombe à la direction (mémento §15).",
+      "Faux : la découverte de parties liées non divulguées déclenche des procédures obligatoires (contrôles de substance, réévaluation du risque, demande d'identification exhaustive — mémento §15) ; informer la direction et attendre des indices de fraude ne suffit pas."
+     ]
     },
     {
      "id": "CRA-204",
@@ -3131,7 +4251,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Reconsidérer le risque qu'il puisse exister d'autres parties liées non identifiées"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : l'évaluation des implications sous l'angle de la fraude n'est requise que si la non-divulgation paraît intentionnelle (exigence conditionnelle, ISA-CH 550.22(f)). A (contrôles de substance), C (demande d'identification exhaustive à la direction) et D (reconsidérer d'autres parties liées) sont des exigences inconditionnelles de l'ISA-CH 550.22. Base : ISA-CH 550.22-23. → voir §15 du mémento."
+     "piege": "exigence conditionnelle vs inconditionnelle",
+     "explications": [
+      "Exigence inconditionnelle (ISA-CH 550.22) : réaliser des contrôles de substance appropriés concernant les parties liées nouvellement identifiées et leurs transactions (mémento §15).",
+      "Exact : l'évaluation des implications sous l'angle de la FRAUDE n'est requise QUE si la non-divulgation par la direction paraît intentionnelle — exigence conditionnelle, non inconditionnelle (ISA-CH 550.22-23). Nuance : le mémento §15 cite la « ré-évaluation du risque de fraude » parmi les réponses sans préciser ce caractère conditionnel.",
+      "Exigence inconditionnelle : demander à la direction d'identifier TOUTES les transactions avec la partie liée nouvellement identifiée (mémento §15 : demande d'identification exhaustive).",
+      "Exigence inconditionnelle : reconsidérer le risque que d'autres parties liées non identifiées puissent exister."
+     ]
     },
     {
      "id": "CRA-205",
@@ -3146,7 +4272,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les transactions avec des parties liées sont interdites par le Code des obligations."
      ],
      "correct": 0,
-     "explication": "A est juste : une transaction avec une partie liée non conforme aux conditions du marché peut constituer une anomalie (évaluation/présentation) et, selon la gravité, révéler une distribution dissimulée (art. 678 CO). B est faux : la charge de la preuve des conditions de marché incombe à la direction. C est faux : aucun paragraphe d'observation obligatoire n'en découle automatiquement. D est faux : ces transactions ne sont pas interdites, elles doivent être conformes au marché et publiées (art. 959c CO). Base : ISA-CH 550 · art. 678 / 959c CO. → voir §15 du mémento."
+     "explications": [
+      "Exact : une transaction avec une partie liée conclue à des conditions non conformes au marché peut constituer une anomalie (évaluation, présentation) et, dans les cas graves, révéler une distribution dissimulée (art. 678 CO), voire une violation de la loi (ISA-CH 550 ; mémento §15 : « transactions non conformes au marché → possible anomalie voire violation de la loi »).",
+      "Faux : c'est l'inverse — la charge de la preuve du respect des conditions de marché incombe à la DIRECTION (mémento §15).",
+      "Faux : aucun paragraphe d'observation n'est automatiquement obligatoire — l'observation (ISA-CH 706) renvoie à un fait correctement présenté dans les comptes et d'importance essentielle ; ce n'est pas un traitement par défaut des transactions avec parties liées.",
+      "Faux : le CO n'interdit pas les transactions avec des parties liées — il exige qu'elles soient conformes (à défaut, restitution selon l'art. 678 CO) et publiées (art. 959c CO ; mémento §15)."
+     ]
     }
    ]
   },
@@ -3167,7 +4298,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Les critères d'exigence (compétence) pour la personne qui établit l'estimation"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : « l'estimation par la direction des résultats futurs » est un jugement/estimation, pas une composante du SCI. A (systèmes d'information), C (processus de détermination des estimations) et D (compétence des personnes) font partie de la compréhension du SCI selon l'ISA-CH 540.13. Base : ISA-CH 540.13. → voir §16 du mémento."
+     "explications": [
+      "Composante visée : les systèmes d'information de l'entité, en tant qu'ils traitent les données et modèles servant aux estimations (ISA-CH 540.13).",
+      "Exact : « l'estimation par la direction des résultats futurs » est un jugement d'évaluation, pas une composante du système de contrôle interne — le SCI encadre le PROCESSUS d'estimation, il ne fait pas l'estimation elle-même. Détail de l'ISA-CH 540.13 non repris dans le mémento (§16 est la section la plus proche).",
+      "Composante visée : le processus de détermination des estimations comptables (méthodes, données, hypothèses).",
+      "Composante visée : les exigences de compétence applicables aux personnes qui établissent les estimations."
+     ]
     },
     {
      "id": "CRA-207",
@@ -3182,7 +4318,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Engagements envers les banques (ou les clients) à montant contractuel fixe"
      ],
      "correct": 3,
-     "explication": "La bonne réponse est D : un engagement à montant contractuel fixe (dette bancaire, dette client déterminée) est une valeur certaine, pas une estimation. A (pertes de crédit attendues), B (corrections de valeur, amortissements) et C (produits de contrats à long terme, % d'avancement) supposent tous une part d'incertitude/jugement et sont des estimations. Base : ISA-CH 540 (définition). → voir §16 du mémento."
+     "piege": "montant fixe ≠ estimation",
+     "explications": [
+      "C'est une estimation : la provision pour pertes de crédit attendues repose sur des hypothèses et des probabilités de défaut — incertitude d'évaluation typique.",
+      "Ce sont des estimations : corrections de valeur et amortissements supposent un jugement (durée d'utilité, valeur récupérable).",
+      "C'est une estimation : les produits tirés de contrats à long terme (degré d'avancement) comportent une incertitude d'évaluation et une part de jugement.",
+      "Exact : un engagement à montant contractuel FIXE (dette envers une banque ou un client à valeur déterminée) est une valeur certaine, sans incertitude d'évaluation — ce n'est pas une estimation comptable (ISA-CH 540 ; mémento §16 : « ne constituent pas une estimation : les engagements à montant contractuel fixe »)."
+     ]
     },
     {
      "id": "CRA-208",
@@ -3197,7 +4339,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "toutes les réponses ci-dessus sont correctes"
      ],
      "correct": 3,
-     "explication": "La bonne réponse est D : les trois réponses sont admissibles. L'auditeur peut communiquer/évaluer une déficience du contrôle interne (A), demander à la direction des procédures complémentaires (B) et, à défaut, développer sa propre estimation ponctuelle ou fourchette pour évaluer celle de la direction (C). Base : ISA-CH 540 (réponses à l'incertitude d'estimation). → voir §16 du mémento."
+     "explications": [
+      "Réponse admissible, mais incomplète seule : une incertitude d'estimation mal traitée par la direction peut révéler une déficience du contrôle interne, à évaluer et à communiquer.",
+      "Réponse admissible, mais incomplète seule : l'auditeur peut demander à la direction de mettre en œuvre des procédures supplémentaires pour comprendre et traiter l'incertitude.",
+      "Réponse admissible, mais incomplète seule : à défaut, l'auditeur développe sa propre estimation ponctuelle ou une fourchette pour évaluer celle de la direction (mémento §16 : « estimation propre de l'auditeur (ponctuelle ou fourchette) » parmi les approches de test).",
+      "Exact : les trois réponses (évaluer une déficience du SCI, demander des procédures supplémentaires à la direction, établir sa propre estimation ponctuelle ou fourchette) sont toutes prévues par l'ISA-CH 540 face à une incertitude d'estimation insuffisamment traitée (mémento §16)."
+     ]
     },
     {
      "id": "CRA-209",
@@ -3212,7 +4359,13 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "La grande quantité de données traitées"
      ],
      "correct": 2,
-     "explication": "La bonne réponse est C : un traitement manuel n'oblige pas à tester les contrôles — les contrôles de substance restent praticables. À l'inverse, A (grand nombre de petits soldes), B (modèles complexes) et D (volumes importants) impliquent un traitement automatisé/à haut volume où les contrôles de substance seuls ne suffisent pas, d'où le test des contrôles. Base : ISA-CH 330 ; ISA-CH 540. → voir §16 du mémento."
+     "piege": "manuel ≠ test des contrôles obligatoire",
+     "explications": [
+      "Mène à tester les contrôles : de nombreux petits soldes issus d'un grand volume de transactions rendent les contrôles de substance seuls impraticables.",
+      "Mène à tester les contrôles : la grande complexité des modèles (calculs automatisés) oblige à s'appuyer sur les contrôles applicatifs et le SCI.",
+      "Exact : un traitement MANUEL des informations n'oblige pas à tester les contrôles — les contrôles de substance restent praticables sur des opérations déclenchées et enregistrées manuellement ; c'est au contraire le traitement automatisé à haut volume qui rend la substance seule insuffisante (ISA-CH 330). Critère non détaillé dans le mémento (§16 est la section la plus proche).",
+      "Mène à tester les contrôles : de grandes quantités de données traitées supposent un environnement automatisé où les contrôles de substance seuls ne suffisent pas."
+     ]
     },
     {
      "id": "CRA-210",
@@ -3227,7 +4380,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Risque d'audit"
      ],
      "correct": 1,
-     "explication": "La bonne réponse est B : l'ISA-CH 540.16 exige d'évaluer SÉPARÉMENT le risque inhérent ET le risque de contrôle. Le « risque résiduel » (A), le « risque d'estimation » (C) et le « risque d'audit » (D) ne sont pas des composantes que la norme demande d'évaluer distinctement à ce titre. Base : ISA-CH 540.16. → voir §16 du mémento."
+     "explications": [
+      "Faux : le « risque résiduel » n'est pas une composante que l'ISA-CH 540 demande d'évaluer séparément pour les estimations.",
+      "Exact : pour les estimations comptables, l'ISA-CH 540 exige une évaluation SÉPARÉE du risque inhérent et du risque de CONTRÔLE (mémento §16 : « évaluation séparée du risque inhérent et du risque de contrôle »).",
+      "Faux : le « risque d'estimation » n'existe pas comme composante normée — le distracteur joue sur le vocabulaire du thème.",
+      "Faux : le risque d'audit est le risque global (RMM × risque de non-détection) ; ce n'est pas l'objet de l'évaluation séparée exigée ici."
+     ]
     },
     {
      "id": "CRA-211",
@@ -3242,7 +4400,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Engagement envers les banques"
      ],
      "correct": 0,
-     "explication": "La bonne réponse est A : les pertes de crédit attendues reposent sur une population volumineuse de contrats traités via les systèmes — les contrôles de substance seuls n'y suffisent pas, imposant de tester les contrôles. B (risques judiciaires) est peu volumineux et jugemental (substance possible), C (niveau 2) s'apprécie par ré-évaluation/expert, D (engagement bancaire) n'est pas une estimation. Base : ISA-CH 330 / 540. → voir §16 du mémento."
+     "explications": [
+      "Exact : une provision pour pertes de crédit attendues repose sur une population volumineuse de contrats traités par les systèmes (modèles, données massives) — les contrôles de substance seuls n'y suffisent pas, il faut tester les contrôles (ISA-CH 330/540). Application concrète non détaillée dans le mémento (§16 est la section la plus proche).",
+      "Faux : une provision pour risques judiciaires porte sur un petit nombre de dossiers, très jugementale — les contrôles de substance (avis des conseillers juridiques, analyse des dossiers) suffisent.",
+      "Faux : l'évaluation d'instruments financiers de niveau 2 se vérifie par ré-exécution à partir de données de marché observables ou avec un expert — la substance reste praticable.",
+      "Faux : un engagement envers les banques à montant contractuel fixe n'est même pas une estimation comptable (mémento §16) — la question du test des contrôles liée à une estimation ne se pose pas."
+     ]
     },
     {
      "id": "CRA-212",
@@ -3257,7 +4420,12 @@ window.QCM_BANK["conclusionRapportAudit"] = {
       "Incertitude liée à l'évaluation"
      ],
      "correct": 2,
-     "explication": "La bonne réponse est C : le « référentiel comptable applicable » n'est pas un facteur de risque inhérent au sens de l'ISA-CH 540. Les facteurs visés sont l'incertitude d'évaluation (D), la complexité (B), la subjectivité et les autres facteurs de risque inhérents (A). Base : ISA-CH 540 (facteurs de risque inhérent). → voir §16 du mémento."
+     "explications": [
+      "Facteur mentionné : les « autres facteurs de risque inhérents » complètent la liste ouverte de la norme (mémento §16).",
+      "Facteur mentionné : la complexité (des méthodes, des modèles, des données) est l'un des facteurs de risque inhérent (mémento §16).",
+      "Exact : le « référentiel comptable applicable » n'est pas un facteur de risque inhérent au sens de l'ISA-CH 540 — les facteurs sont l'incertitude d'évaluation, la complexité, la subjectivité et les autres facteurs de risque inhérents (mémento §16). Le référentiel est le CADRE qui définit l'estimation exigée, pas un facteur de risque.",
+      "Facteur mentionné : l'incertitude liée à l'évaluation est le facteur central des estimations comptables (mémento §16)."
+     ]
     }
    ]
   }

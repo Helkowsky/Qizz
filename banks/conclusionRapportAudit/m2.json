@@ -1,0 +1,170 @@
+{
+ "module": "M2",
+ "titre": "2. Clôture & anomalies (450/520/580)",
+ "questions": [
+  {
+   "id": "CRA-015",
+   "champ": "Activités de clôture obligatoires (contrôle ordinaire)",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Selon les Normes suisses d'audit des états financiers (NA-CH), quelle activité doit obligatoirement être exécutée lors de la phase de clôture d'un contrôle ordinaire, lorsqu'il n'existe aucun doute sur la continuité de l'exploitation ?",
+   "options": [
+    "Les procédures analytiques finales",
+    "Le contrôle de la lettre de confirmation de la mission",
+    "L'examen critique des contrôles internes jugés inefficaces",
+    "Un entretien clé avec le président du conseil d'administration"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : les procédures analytiques finales sont une activité de clôture obligatoire — cohérence d'ensemble des comptes avec la connaissance de l'entité, attentes définies à l'avance (ISA-CH 520.6 ; mémento §1.2 ; art. 728a CO pour le contrôle ordinaire).",
+    "Faux : le contrôle de la lettre de confirmation de la mission relève de l'acceptation/planification de la mission, pas de la phase de clôture.",
+    "Faux : l'examen des contrôles internes jugés inefficaces relève des tests de contrôle de la phase de RÉALISATION — le mémento le cite expressément parmi ce qui n'est PAS une activité de clôture (§1.2, piège).",
+    "Faux : un « entretien clé avec le président du CA » n'est pas une activité de clôture obligatoire (§1.2, piège) ; à la clôture, on consolide et on conclut, on ne relance pas les tests."
+   ],
+   "piege": "Clôture ≠ réalisation"
+  },
+  {
+   "id": "CRA-016",
+   "champ": "Procédures analytiques finales (520) — proposition fausse",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "Quelle proposition concernant les procédures analytiques finales est FAUSSE ?",
+   "options": [
+    "Elles doivent être effectuées au cours de la phase de clôture de l'audit.",
+    "La norme ISA-CH 520 s'applique.",
+    "L'accent n'est mis que sur certains champs de contrôle et non sur les comptes annuels dans leur ensemble.",
+    "Il convient de définir à l'avance les attentes (valeurs attendues)."
+   ],
+   "correct": 2,
+   "explications": [
+    "Proposition vraie (donc pas la réponse) : les procédures analytiques finales sont obligatoires en phase de clôture (ISA-CH 520.6 ; mémento §1.1).",
+    "Proposition vraie : c'est bien la norme ISA-CH 520 qui régit les procédures analytiques.",
+    "C'est la proposition FAUSSE recherchée : à la clôture, les procédures analytiques portent précisément sur la COHÉRENCE D'ENSEMBLE des comptes annuels avec la connaissance de l'entité, et non sur quelques champs isolés — elles aident à conclure sur les états financiers pris dans leur globalité (ISA-CH 520.6 ; mémento §1.1).",
+    "Proposition vraie : la méthode exige de définir les attentes (valeurs attendues) à l'avance, puis de les comparer aux valeurs constatées (mémento §1.1)."
+   ]
+  },
+  {
+   "id": "CRA-017",
+   "champ": "Objectifs de la revue de la documentation d'audit",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "Quel objectif ne fait PAS partie de la revue (examen) de la documentation d'audit à la clôture ?",
+   "options": [
+    "Le respect du principe du double contrôle (quatre yeux)",
+    "La réduction du risque d'audit",
+    "L'assurance qualité des travaux effectués",
+    "Combler l'écart d'attentes (expectation gap) des différentes parties prenantes"
+   ],
+   "correct": 3,
+   "explications": [
+    "Est un objectif de la revue : la revue critique par l'associé responsable matérialise le principe des « quatre yeux » (ISA-CH 220.29/.31 ; mémento §1.1).",
+    "Est un objectif : s'assurer que des éléments probants suffisants et appropriés ont été réunis contribue à ramener le risque d'audit à un niveau acceptable.",
+    "Est un objectif : la revue de la documentation est un dispositif d'assurance qualité de la mission (ISA-CH 220).",
+    "C'est la réponse : combler l'« expectation gap » (décalage entre ce que le public attend de l'audit et ce que l'audit garantit) est un enjeu général de la profession, pas un objectif de la revue interne des dossiers. La notion d'expectation gap n'apparaît pas dans le mémento (la revue « quatre yeux » y figure au §1.1) — elle relève du cours général."
+   ]
+  },
+  {
+   "id": "CRA-018",
+   "champ": "Activités de clôture — ce qui n'en fait pas partie (cas Müller AG)",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Angelika Huber est responsable du mandat de contrôle ordinaire de Müller AG. Laquelle de ces activités NE fait PAS partie de ses tâches obligatoires de fin d'audit (clôture) ?",
+   "options": [
+    "Les procédures analytiques finales sur l'ensemble des comptes annuels",
+    "La demande de confirmations bancaires",
+    "La revue de la documentation d'audit",
+    "L'évaluation des événements postérieurs à la date de clôture de l'exercice"
+   ],
+   "correct": 1,
+   "explications": [
+    "Activité de clôture obligatoire : les procédures analytiques finales portent sur la cohérence d'ensemble des comptes (ISA-CH 520 ; mémento §1.2).",
+    "C'est la réponse : la demande de confirmations bancaires est une procédure d'obtention d'éléments probants de la phase de RÉALISATION (validation des soldes, ISA-CH 505) — le mémento le cite expressément comme piège (§1.2 : à la clôture, on consolide et on conclut, on ne relance pas les tests de substance).",
+    "Activité de clôture obligatoire : la revue de la documentation d'audit matérialise le principe des quatre yeux (ISA-CH 220 ; mémento §1.2).",
+    "Activité de clôture obligatoire : l'évaluation des événements postérieurs fait partie des travaux de fin de mission (ISA-CH 560 ; mémento §1.2)."
+   ],
+   "piege": "Clôture ≠ réalisation"
+  },
+  {
+   "id": "CRA-019",
+   "champ": "Déclaration d'intégralité (580) — règle des dates (cas Helfenberger)",
+   "memento": "§2.2",
+   "difficulte": 2,
+   "question": "Peter Helfenberger est responsable d'un mandat de contrôle ordinaire. Le rapport d'audit porte la date du 5 mai et la déclaration d'intégralité celle du 8 mai. Qu'est-ce qui est le plus juste ?",
+   "options": [
+    "Dans ce cas, les dates n'ont pas d'importance.",
+    "Le rapport d'audit et la déclaration d'intégralité doivent obligatoirement porter la même date.",
+    "Le rapport de révision doit être signé le même jour que la déclaration d'intégralité, ou plus tard.",
+    "La date de la déclaration d'intégralité doit être postérieure à celle du rapport d'audit."
+   ],
+   "correct": 2,
+   "explications": [
+    "Fausse : les dates sont un point de contrôle essentiel — la chaîne est : date de la déclaration d'intégralité ≤ date du rapport d'audit ≤ date de publication (mémento §2.2). Ici (rapport 5 mai, déclaration 8 mai), la situation est incorrecte.",
+    "Fausse : les deux dates peuvent différer ; la déclaration doit seulement être datée au plus proche du rapport, jamais après lui.",
+    "Juste : le rapport ne peut pas être signé AVANT d'avoir obtenu les déclarations écrites de la direction — il est donc daté le même jour que la déclaration ou plus tard (ISA-CH 580.9 ; art. 730b al. 1 CO ; mémento §2.2). Le cas décrit (rapport avant déclaration) viole cette règle.",
+    "Fausse : cette option inverse la règle — la déclaration d'intégralité ne doit JAMAIS être postérieure au rapport d'audit."
+   ],
+   "piege": "Déclaration jamais après le rapport"
+  },
+  {
+   "id": "CRA-020",
+   "champ": "Revue analytique finale / écritures complémentaires (cas Serto AG)",
+   "memento": "§2.1 · §1.1",
+   "difficulte": 2,
+   "question": "Chez Serto AG, vous constatez que les créances résultant de livraisons et de prestations demeurent à CHF 90 mio alors qu'une correction de valeur importante de CHF 10 mio était nécessaire (issue des écritures complémentaires). Qu'est-ce qui s'applique ?",
+   "options": [
+    "Cette information n'est pas pertinente.",
+    "Vérifier la constatation et la comptabilisation effective des écritures complémentaires fait partie de la revue analytique finale.",
+    "L'information peut être reportée comme point en suspens sur l'exercice suivant.",
+    "Une correction de valeur étant un élément subjectif, elle peut être ignorée."
+   ],
+   "correct": 1,
+   "explications": [
+    "Fausse : une correction de valeur nécessaire de CHF 10 mio sur des créances de CHF 90 mio est manifestement pertinente — c'est une anomalie à évaluer.",
+    "Correcte : la détection de l'anomalie et le suivi de la comptabilisation effective des écritures complémentaires relèvent précisément de la revue analytique finale et de l'évaluation des anomalies à la clôture (ISA-CH 520 ; ISA-CH 450) — le mémento le formule ainsi : « la direction passe les écritures complémentaires ; l'auditeur vérifie la correction » (§2.1).",
+    "Fausse : une anomalie significative de l'exercice ne se reporte pas sur l'exercice suivant ; elle doit être corrigée ou évaluée maintenant (ISA-CH 450).",
+    "Fausse : le caractère estimatif ne permet pas d'ignorer une correction de valeur requise — l'ISA-CH 540 encadre au contraire l'appréciation des estimations."
+   ]
+  },
+  {
+   "id": "CRA-021",
+   "champ": "Refus de la déclaration d'intégralité (580) — conséquence sur l'opinion (cas Glaco AG)",
+   "memento": "§2.2 · §6.1",
+   "difficulte": 2,
+   "question": "Vous êtes responsable du mandat de contrôle ordinaire de Glaco AG. L'assemblée générale est prévue dans quatre semaines et la déclaration d'intégralité manque toujours : la direction refuse de la signer. Quelle en est la conséquence directe pour vous ?",
+   "options": [
+    "Aucune conséquence.",
+    "Le rapport d'audit est remis avec une opinion avec réserve.",
+    "Le rapport d'audit est remis avec une opinion sans réserve.",
+    "Le rapport d'audit est remis avec une impossibilité d'exprimer une opinion d'audit."
+   ],
+   "correct": 3,
+   "explications": [
+    "Fausse : le refus de la direction a une conséquence directe majeure sur l'opinion — il met en cause la fiabilité d'ensemble de ses déclarations.",
+    "Fausse : la réserve sanctionne une limitation significative mais NON diffuse (mémento §6.1) ; ici l'atteinte est diffuse, la réserve ne suffit pas.",
+    "Fausse : sans cet élément probant essentiel (art. 730b al. 1 CO ; ISA-CH 580), une opinion sans réserve est exclue.",
+    "Juste : le refus de fournir la déclaration d'intégralité constitue une limitation de l'étendue des travaux au caractère DIFFUS → impossibilité d'exprimer une opinion (mémento §2.2, piège ; grille de l'ISA-CH 705, §6.1). À distinguer de l'anomalie diffuse, qui mène à l'opinion défavorable."
+   ],
+   "piege": "Limitation diffuse → impossibilité"
+  },
+  {
+   "id": "CRA-022",
+   "champ": "Datation de la déclaration d'intégralité",
+   "memento": "§2.2",
+   "difficulte": 3,
+   "question": "Ursula Graf (Wuller SA, contrôle ordinaire) : travaux d'audit achevés le 20 janvier, comptes validés par le CA le 25 janvier, AG le 15 février. À quelle date la déclaration d'intégralité (lettre d'affirmation) peut-elle être datée ?",
+   "options": [
+    "19 janvier",
+    "26 janvier",
+    "15 février",
+    "20 janvier"
+   ],
+   "correct": 1,
+   "explications": [
+    "Trop tôt : le 19 janvier, les travaux d'audit ne sont même pas achevés (20.1) et les comptes ne sont pas validés — la déclaration doit confirmer des comptes finalisés.",
+    "Juste : le 26 janvier se situe après la validation des comptes par le CA (25.1), au plus proche du rapport d'audit et avant l'AG — il respecte la chaîne : déclaration ≤ rapport ≤ publication (ISA-CH 580 ; art. 730b al. 1 CO ; mémento §2.2). Précision : la contrainte « après l'approbation des comptes par le CA » n'est pas formulée telle quelle au §2.2 ; elle découle de la logique des responsabilités (le rapport est daté à la fin des dernières opérations d'audit, sur des comptes assumés par le CA — §5.1).",
+    "Trop tard : le 15 février est la date de l'AG, bien postérieure au rapport — la déclaration ne peut jamais être postérieure au rapport d'audit.",
+    "Trop tôt : le 20 janvier, les comptes ne sont pas encore validés par le CA — la déclaration porterait sur des comptes non assumés par lui."
+   ]
+  }
+ ]
+}

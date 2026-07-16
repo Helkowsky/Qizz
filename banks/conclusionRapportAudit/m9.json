@@ -1,0 +1,768 @@
+{
+ "module": "M9",
+ "titre": "9. Surendettement & postposition (725b)",
+ "questions": [
+  {
+   "id": "CRA-134",
+   "champ": "Surendettement + postposition → pas de réserve",
+   "memento": "§10.3 · §10.4",
+   "difficulte": 3,
+   "question": "Digital AG (contrôle ordinaire) : cash-flow négatif et surendettement manifeste ; le CA prend des mesures d'assainissement organisationnel et obtient une postposition, si bien qu'aucun bilan aux valeurs de liquidation n'est établi. Que faut-il conclure ?",
+   "options": [
+    "Une opinion avec réserve n'est pas nécessaire",
+    "Il y a une limitation de l'étendue des travaux d'audit",
+    "La recommandation de renvoi des comptes est indiquée",
+    "L'approbation des comptes annuels est indiquée"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste. La postposition et les mesures d'assainissement justifient le maintien de la base de continuité (d'où la renonciation au bilan aux valeurs de liquidation, art. 725b al. 1 CO) ; le surendettement en soi ne modifie JAMAIS l'opinion — il relève du paragraphe « autres obligations » (mémento §10.3, tableau : « Incidence sur l'opinion : aucune ») — et la postposition dispense de l'avis au juge (art. 725b al. 4 ch. 1 ; mémento §10.4). Aucune réserve n'est donc nécessaire tant que l'annexe décrit adéquatement la situation (ISA-CH 570).",
+    "Faux. Il n'y a pas de limitation de l'étendue des travaux : l'auditeur dispose de toute l'information nécessaire — une limitation supposerait des éléments probants inaccessibles (ISA-CH 705).",
+    "Faux. La recommandation de renvoi accompagnerait une opinion défavorable ou une impossibilité d'exprimer une opinion, que rien ne justifie ici.",
+    "Faux (ou du moins non démontré). L'approbation supposerait acquise la qualité de la description de la situation dans l'annexe, que l'énoncé ne confirme pas : on ne peut pas l'affirmer avec certitude."
+   ]
+  },
+  {
+   "id": "CRA-135",
+   "champ": "Moment pertinent",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "À quel moment le surendettement peut-il déclencher des obligations juridiques pour le conseil d'administration ?",
+   "options": [
+    "En permanence : dès qu'il existe des raisons sérieuses d'admettre un surendettement (à tout moment de l'année)",
+    "Uniquement à la fin de l'exercice",
+    "Uniquement à la fin d'une année civile",
+    "À la fin de l'exercice ou sur demande de l'organe de révision"
+   ],
+   "correct": 0,
+   "piege": "surendettement ≠ perte de capital",
+   "explications": [
+    "Juste. Le surendettement (art. 725b al. 1 CO) n'est lié à aucune date de clôture : dès qu'il existe des raisons sérieuses d'admettre que les dettes ne sont plus couvertes par les actifs, le CA doit immédiatement établir des comptes intermédiaires — d'où une vigilance permanente (mémento §10.3, tableau : « Moment pertinent : dès raisons sérieuses (en cours d'année) »).",
+    "Faux. « Uniquement à la fin de l'exercice » décrit la PERTE DE CAPITAL (art. 725a CO, derniers comptes annuels), pas le surendettement.",
+    "Faux. Même confusion avec la perte de capital, aggravée par l'assimilation de l'exercice social à l'année civile.",
+    "Faux. L'obligation du CA naît du fait objectif (raisons sérieuses de surendettement), pas d'une demande de l'organe de révision."
+   ]
+  },
+  {
+   "id": "CRA-136",
+   "champ": "Renonciation aux valeurs de liquidation",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Pour quelle raison le conseil d'administration peut-il renoncer à l'établissement de comptes intermédiaires aux valeurs de liquidation ?",
+   "options": [
+    "Parce que les valeurs de liquidation sont généralement plus défavorables, il est inutile en pratique de les établir",
+    "Parce que la société ne doit pas faire faillite à cause de contrats en cours et que le CA est convaincu de trouver une solution",
+    "Il ne peut jamais y renoncer",
+    "Parce que la poursuite de l'exploitation est assurée (crédit transitoire) et qu'un assainissement est possible et sérieusement envisagé"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le caractère généralement plus défavorable des valeurs de liquidation est un argument de commodité sans base légale : il ne dispense pas de les établir.",
+    "Faux. Une simple conviction du CA ne suffit pas : la renonciation exige des éléments concrets et objectifs de continuité (financement assuré, assainissement sérieux).",
+    "Faux. La renonciation est expressément prévue : le mémento §10.3 la mentionne (« renonciation aux valeurs de liquidation possible si la poursuite de l'exploitation est envisagée et que les valeurs d'exploitation ne montrent pas de surendettement »).",
+    "Juste. La renonciation aux valeurs de liquidation est admise lorsque la poursuite de l'exploitation est réaliste (ici assurée par un crédit transitoire) et qu'un assainissement est possible et sérieusement envisagé — conditions décrites au mémento §10.3. Base légale : art. 725b al. 1 CO."
+   ]
+  },
+  {
+   "id": "CRA-137",
+   "champ": "Réaction de l'organe de révision (surendettement anticipé)",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "L'organe de révision apprend du directeur financier qu'un client important a fait faillite ; la créance devra être entièrement dépréciée et, d'après l'audit des derniers comptes, cela devrait entraîner un surendettement. Que doit-il entreprendre ?",
+   "options": [
+    "Demander au conseil d'administration une prise de position écrite sur la situation",
+    "Demander au conseil d'administration d'aviser le tribunal en raison du surendettement manifeste",
+    "Informer lui-même le tribunal en raison du surendettement manifeste",
+    "Convoquer une assemblée générale extraordinaire pour informer les actionnaires"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste. Le surendettement n'est ici qu'ANTICIPÉ (raisons sérieuses), pas encore établi par des comptes intermédiaires : l'organe de révision attire l'attention du CA et sollicite sa prise de position écrite, le CA devant alors établir immédiatement des comptes intermédiaires aux valeurs d'exploitation et de liquidation (art. 725b al. 1 CO ; mémento §10.3, arbre : « Raisons sérieuses → comptes intermédiaires »). La forme précise de cette démarche (prise de position écrite) vient du corrigé d'origine, le mémento ne détaillant que la cascade légale.",
+    "Faux. Prématuré : le surendettement n'est pas « manifeste » tant que les comptes intermédiaires ne l'établissent pas dans les deux bases — la sommation d'aviser le tribunal suppose ce constat.",
+    "Faux. L'avis subsidiaire de l'organe de révision (art. 728c al. 3 CO) suppose un surendettement MANIFESTE et l'inaction du CA après sommation ; ni l'un ni l'autre n'est acquis ici.",
+    "Faux. L'organe de révision ne convoque jamais l'AG à la place du CA (mémento §10.2, encadré)."
+   ]
+  },
+  {
+   "id": "CRA-138",
+   "champ": "Délai d'assainissement (90 jours)",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Dans lequel de ces cas l'organe de révision doit-il intervenir (car la renonciation à l'avis au juge n'est pas justifiée) ?",
+   "options": [
+    "Le CA convoque immédiatement une AG extraordinaire pour informer les actionnaires",
+    "Le CA a pris des mesures d'assainissement qui élimineront le surendettement au cours des 12 prochains mois",
+    "Le CA a pris des mesures d'assainissement qui élimineront le surendettement au cours des 2 prochains mois",
+    "L'élaboration des mesures dure depuis 1 mois et l'organe de révision est confiant dans leur aboutissement"
+   ],
+   "correct": 1,
+   "piege": "délai maximal 90 jours",
+   "explications": [
+    "Faux (pas le cas net d'intervention). Informer l'AG ne supprime certes pas le surendettement, mais cette démarche d'information n'est pas en soi une renonciation abusive à l'avis — le cas testé ici est le dépassement du délai d'assainissement.",
+    "Juste. La renonciation à l'avis au juge n'est admise que si l'assainissement apparaît réaliste dans un délai raisonnable, au plus tard 90 JOURS après l'établissement des comptes intermédiaires (art. 725b al. 4 ch. 2 CO ; mémento §10.3 : « assainissement sérieux ≤ 90 jours → PAS d'avis »). Des mesures étalées sur 12 mois excèdent nettement ce cadre : l'organe de révision doit intervenir (sommation, puis avis subsidiaire, art. 728c al. 3 CO).",
+    "Faux. Un assainissement à ≈ 2 mois (≈ 60 jours) reste dans le délai raisonnable de 90 jours : pas d'intervention requise.",
+    "Faux. Un mois d'élaboration avec une perspective concrète d'aboutissement reste dans le cadre des 90 jours : pas d'intervention requise."
+   ]
+  },
+  {
+   "id": "CRA-139",
+   "champ": "Comptes intermédiaires en opting-out (norme applicable)",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Une petite société en opting-out (aucun organe de révision inscrit) fait auditer volontairement ses comptes par Treu SA (réviseur agréé) chaque année. Elle tombe en surendettement et ses comptes intermédiaires doivent être vérifiés. Quelle affirmation est correcte ?",
+   "options": [
+    "Pour des raisons d'indépendance, Treu SA ne peut accepter le mandat de vérification des comptes intermédiaires",
+    "Le CA doit charger un réviseur agréé d'un contrôle restreint des comptes annuels",
+    "Le CA doit faire vérifier les comptes intermédiaires par un réviseur agréé conformément aux Normes suisses d'audit (NA-CH)",
+    "Le mandat ne peut être exécuté que par un expert-réviseur agréé"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'indépendance n'empêche pas en soi le réviseur volontaire habituel d'accepter ce mandat (un audit volontaire annuel ne crée pas d'incompatibilité de type autorévision).",
+    "Faux. Ce ne sont pas les comptes ANNUELS ni un contrôle restreint qui sont visés : la loi exige la vérification des comptes INTERMÉDIAIRES établis en raison du surendettement.",
+    "Juste. Même en opting-out, la vérification des comptes intermédiaires en cas de surendettement se fait par un réviseur agréé, toujours selon les NA-CH — jamais la NCR (art. 725b al. 2 CO ; mémento §10.3 : « vérification par l'organe de révision ou, à défaut, un réviseur agréé — toujours selon les NA-CH, jamais la NCR »).",
+    "Faux. L'exigence légale de qualification est le RÉVISEUR AGRÉÉ ; l'expert-réviseur agréé n'est pas requis pour cette vérification."
+   ]
+  },
+  {
+   "id": "CRA-140",
+   "champ": "Absence d'obligation subsidiaire d'un mandataire non-organe",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Une société d'audit a accepté, sur mandat, la vérification des comptes intermédiaires d'une entreprise sans organe de révision (opting-out). Quelle affirmation est correcte ?",
+   "options": [
+    "L'AG doit d'abord désigner l'organe de révision qui procédera à l'examen",
+    "La société d'audit agit sur mandat : si le surendettement est confirmé aux valeurs d'exploitation ET de liquidation, elle attire l'attention du CA sur son obligation d'aviser le tribunal, sans pouvoir informer le juge à sa place (elle n'est pas un organe de révision inscrit)",
+    "La société d'audit doit, à titre subsidiaire, informer elle-même le tribunal bien qu'elle ne soit pas un organe de révision inscrit",
+    "La société d'audit doit effectuer un contrôle ordinaire conformément à la loi"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. En opting-out, aucune désignation d'organe de révision n'est nécessaire pour cette vérification : la loi permet de mandater un réviseur agréé (art. 725b al. 2 CO ; mémento §10.3 : « l'organe de révision ou, à défaut, un réviseur agréé »).",
+    "Juste. L'obligation SUBSIDIAIRE d'aviser le tribunal (art. 728c al. 3 / 729c CO) appartient à l'ORGANE DE RÉVISION inscrit ; un simple mandataire non-organe ne l'assume pas — il se borne à attirer l'attention du CA sur son devoir d'aviser (art. 725b al. 3 CO). Cette nuance mandataire/organe provient du corrigé d'origine : le mémento §10.3 rattache l'avis subsidiaire à l'« organe de révision » sans traiter expressément le cas du mandataire.",
+    "Faux. Précisément parce qu'elle n'est PAS un organe de révision inscrit, la société d'audit mandatée n'a pas d'obligation subsidiaire d'avis au tribunal.",
+    "Faux. Le mandat porte sur la vérification des comptes intermédiaires selon les NA-CH, non sur un contrôle ordinaire complet des comptes annuels."
+   ]
+  },
+  {
+   "id": "CRA-141",
+   "champ": "Condition de l'avis au juge : les DEUX comptes",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "La continuité est menacée ; il n'existe ni postposition ni mesure d'assainissement. Dans quel cas le conseil d'administration doit-il aviser le juge ?",
+   "options": [
+    "Il existe des raisons sérieuses d'admettre un surendettement à la suite d'un événement",
+    "Seuls les comptes intermédiaires aux valeurs de liquidation font apparaître un surendettement",
+    "Seuls les comptes intermédiaires aux valeurs d'exploitation font apparaître un surendettement",
+    "Les DEUX comptes intermédiaires (valeurs d'exploitation ET de liquidation) font apparaître un surendettement"
+   ],
+   "correct": 3,
+   "piege": "surendettement dans les deux bases",
+   "explications": [
+    "Faux. Les « raisons sérieuses » déclenchent l'établissement immédiat des comptes intermédiaires (art. 725b al. 1 CO), pas encore l'avis au juge.",
+    "Faux. Un surendettement aux seules valeurs de liquidation ne suffit pas : si la continuité tient et que les valeurs d'exploitation ne montrent pas de surendettement, il n'y a pas d'avis.",
+    "Faux. Un surendettement aux seules valeurs d'exploitation ne suffit pas non plus : si les valeurs de liquidation n'en montrent pas, l'avis n'est pas dû.",
+    "Juste. L'avis au tribunal (art. 725b al. 3 CO) n'est dû que si le surendettement apparaît dans les DEUX jeux de comptes intermédiaires — mémento §10.3, arbre : « surendettement dans les DEUX … ni postposition ni assainissement → AVIS AU TRIBUNAL (725b al. 3) »."
+   ]
+  },
+  {
+   "id": "CRA-142",
+   "champ": "Pertinence selon la forme juridique",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Pour l'examen de quelle forme juridique le surendettement n'est-il pas pertinent (pas d'avis au juge de type 725b) ?",
+   "options": [
+    "Association (soumise à révision)",
+    "Sàrl",
+    "Fondation",
+    "Société en nom collectif"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. L'association soumise à révision connaît elle aussi un mécanisme d'avis en cas de surendettement (renvoi du droit des personnes morales aux règles de la SA).",
+    "Faux. La Sàrl connaît le mécanisme du surendettement : l'art. 820 CO renvoie à l'art. 725b CO.",
+    "Faux. La fondation connaît un mécanisme analogue : en cas de surendettement, avis à l'autorité de surveillance (art. 84a CC).",
+    "Juste. Dans la société en nom collectif, les associés répondent solidairement et INDÉFINIMENT sur leur fortune personnelle : les créanciers ne dépendent pas d'un capital social protégé, et il n'existe pas d'obligation d'aviser le juge du type de l'art. 725b CO. NB : ces renvois par forme juridique (820 CO, 84a CC) proviennent du corrigé d'origine ; le mémento §10.3 traite le mécanisme 725b pour la SA sans ce panorama."
+   ]
+  },
+  {
+   "id": "CRA-143",
+   "champ": "Mesure d'assainissement sans effet réel",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Parmi ces mesures, laquelle ne constitue pas une mesure d'assainissement efficace en cas de surendettement ?",
+   "options": [
+    "Augmentation du capital",
+    "Abandon de créance par les créanciers",
+    "Dissolution de réserves latentes",
+    "Compensation des pertes reportées avec le bénéfice reporté"
+   ],
+   "correct": 3,
+   "piege": "reclassement interne des capitaux propres",
+   "explications": [
+    "Faux (mesure efficace). L'augmentation du capital apporte des fonds propres frais et réduit le découvert : efficace contre le surendettement.",
+    "Faux (mesure efficace). L'abandon de créance réduit directement le passif exigible : le rapport dettes/actifs s'améliore réellement.",
+    "Faux (mesure efficace). La dissolution de réserves latentes — jusqu'à la réévaluation de l'art. 725c CO (mémento §10.3) — améliore le bilan en révélant de la substance.",
+    "Juste (mesure SANS effet). Compenser les pertes reportées avec le bénéfice reporté n'est qu'une RECLASSIFICATION à l'intérieur des capitaux propres : le total net des fonds propres — et donc le surendettement (dettes non couvertes par les actifs, art. 725b CO) — reste rigoureusement inchangé."
+   ]
+  },
+  {
+   "id": "CRA-144",
+   "champ": "Norme de vérification des comptes intermédiaires (opting-out)",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Concernant la vérification des comptes intermédiaires d'une société surendettée en opting-out, quelle affirmation est correcte ?",
+   "options": [
+    "Le contrôle doit être réalisé par un expert-réviseur agréé",
+    "L'examen à effectuer est un contrôle restreint (NCR)",
+    "L'examen à effectuer est un contrôle selon les NA-CH",
+    "Le juge désigne l'organe de révision pour cet examen"
+   ],
+   "correct": 2,
+   "piege": "NA-CH, jamais la NCR",
+   "explications": [
+    "Faux. La qualification requise est le RÉVISEUR AGRÉÉ ; l'expert-réviseur agréé n'est pas exigé pour cette vérification.",
+    "Faux. Jamais la NCR : même pour une société habituellement en contrôle restreint ou en opting-out, la vérification des comptes intermédiaires en surendettement suit les NA-CH.",
+    "Juste. La vérification des comptes intermédiaires en cas de surendettement s'effectue selon les NA-CH (art. 725b al. 2 CO) — mémento §10.3 : « vérification … toujours selon les NA-CH, jamais la NCR ».",
+    "Faux. C'est le CA qui mandate le réviseur agréé (à défaut d'organe de révision), pas le juge."
+   ]
+  },
+  {
+   "id": "CRA-145",
+   "champ": "Meilleure façon d'informer le tribunal",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Quelle variante décrit la meilleure façon d'informer le tribunal (société manifestement surendettée dans tous les cas) ?",
+   "options": [
+    "L'organe de révision somme par écrit le CA d'aviser, sans réponse informe le tribunal par écrit, puis démissionne le même jour",
+    "Estimant la société manifestement surendettée après la fermeture d'une filiale, l'organe de révision informe directement le tribunal en raison de l'urgence",
+    "L'organe de révision somme le CA, sans réponse informe le tribunal, mais sans joindre de comptes intermédiaires (le CA ne les a pas établis)",
+    "L'organe de révision somme le CA, sans réponse informe le tribunal par écrit en joignant des comptes intermédiaires (valeurs d'exploitation ET de liquidation) établis en procédure simplifiée, qui font tous deux état d'un surendettement, puis démissionne"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux (moins bonne variante). La sommation est respectée, mais l'avis n'est appuyé sur aucun comptes intermédiaires : le dossier remis au tribunal est incomplet par rapport à la variante D.",
+    "Faux. Cette variante saute l'étape de la SOMMATION du CA et se fonde sur une simple présomption (fermeture d'une filiale) sans comptes intermédiaires : ni la procédure ni la preuve ne sont respectées.",
+    "Faux. Aviser sans support probant (aucun comptes intermédiaires) affaiblit l'avis : le surendettement doit être étayé dans les deux évaluations.",
+    "Juste. La procédure correcte s'enchaîne ainsi : sommation écrite du CA → faute de réaction, avis ÉCRIT au tribunal appuyé sur des comptes intermédiaires aux valeurs d'exploitation ET de liquidation montrant tous deux le surendettement (établis au besoin en procédure simplifiée) → démission éventuelle. Base : art. 725b al. 3 CO (avis si les deux bases montrent le surendettement, mémento §10.3) et art. 728c al. 3 CO (avis subsidiaire). Le détail « procédure simplifiée » vient du corrigé d'origine, non du mémento."
+   ]
+  },
+  {
+   "id": "CRA-146",
+   "champ": "Obligation subsidiaire malgré information de l'AG",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "À la clôture, le CA constate un surendettement ; 10 jours plus tard l'organe de révision remet son rapport de contrôle restreint avec un paragraphe « autres points » sur le surendettement ; l'AG a lieu 20 jours plus tard ; aucun comptes intermédiaires n'est établi. Quelle affirmation est correcte ?",
+   "options": [
+    "L'AG ayant eu connaissance du surendettement et du paragraphe avant l'expiration du délai de 90 jours, l'organe de révision n'a plus d'obligations",
+    "Après sommation infructueuse du CA, l'organe de révision doit aviser le tribunal avec célérité si les mesures d'assainissement sont insuffisantes, s'il n'existe pas de postposition suffisante et si le CA n'a pas déjà avisé le tribunal",
+    "L'organe de révision dispose d'un délai de 90 jours qui court dès que le CA a constaté le surendettement",
+    "Si, à la date de l'AG, les mesures sont insuffisantes, l'organe de révision doit seulement en aviser immédiatement le conseil d'administration"
+   ],
+   "correct": 1,
+   "piege": "informer l'AG ne libère pas",
+   "explications": [
+    "Faux. L'information de l'AG ne libère PAS l'organe de révision : le mémento §10.3 le dit expressément — l'obligation subsidiaire « subsiste même si l'AG a été informée » (art. 728c al. 3 / 729c CO).",
+    "Juste. L'obligation subsidiaire de l'organe de révision (art. 728c al. 3 / 729c CO) subsiste malgré l'information de l'AG : après sommation restée sans effet, il avise le tribunal avec célérité si l'assainissement est insuffisant, s'il n'existe pas de postposition suffisante et si le CA n'a pas déjà agi (mémento §10.3, arbre : « CA inactif → organe de révision avise »).",
+    "Faux. Les 90 jours (art. 725b al. 4 ch. 2 CO) sont le délai maximal d'ASSAINISSEMENT justifiant la renonciation à l'avis, pas un délai de tolérance accordé à l'organe de révision, qui doit agir avec célérité.",
+    "Faux (incomplet). Aviser le CA ne suffit pas : si le CA n'agit pas, l'avis final va au TRIBUNAL — c'est le cœur de l'obligation subsidiaire."
+   ]
+  },
+  {
+   "id": "CRA-147",
+   "champ": "Délai du conseil d'administration",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "De combien de temps le conseil d'administration dispose-t-il pour aviser le tribunal ?",
+   "options": [
+    "Jusqu'à la prochaine date de bilan",
+    "Dans les 4 à 6 semaines",
+    "90 jours, que le conseil d'administration agisse ou non",
+    "Jusqu'à 90 jours lorsque ce délai est nécessaire pour préparer et mettre en œuvre des mesures d'assainissement réalistes"
+   ],
+   "correct": 3,
+   "piege": "90 jours non automatiques",
+   "explications": [
+    "Faux. Aucune règle ne permet d'attendre la prochaine date de bilan : le surendettement impose d'agir immédiatement.",
+    "Faux. Le délai de « 4 à 6 semaines » n'existe pas dans la loi.",
+    "Faux (piège classique). Les 90 jours ne sont PAS un sursis automatique « quoi qu'il arrive » : sans perspective d'assainissement réaliste, l'avis est dû sans délai.",
+    "Juste. La renonciation temporaire à l'avis n'est admise que s'il existe des raisons sérieuses d'admettre un assainissement dans un délai raisonnable — au plus tard 90 jours après l'établissement des comptes intermédiaires — et ce délai n'est utilisable que s'il est NÉCESSAIRE à des mesures réalistes (art. 725b al. 4 ch. 2 CO ; mémento §10.3 : « assainissement sérieux ≤ 90 jours → PAS d'avis »)."
+   ]
+  },
+  {
+   "id": "CRA-148",
+   "champ": "Délai de l'organe de révision",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "De combien de temps l'organe de révision dispose-t-il pour aviser le tribunal ?",
+   "options": [
+    "Jusqu'à la prochaine assemblée générale",
+    "60 jours",
+    "90 jours, que le conseil d'administration agisse ou non",
+    "Jusqu'à 90 jours s'il existe une perspective d'assainissement raisonnable et concrète et que le surendettement ne s'aggrave pas de manière significative durant cette période"
+   ],
+   "correct": 3,
+   "piege": "90 jours conditionnels",
+   "explications": [
+    "Faux. Attendre la prochaine AG n'a aucune base légale — et informer l'AG ne libère de toute façon pas l'organe de révision (mémento §10.3).",
+    "Faux. Le délai de 60 jours n'existe pas dans la loi.",
+    "Faux (piège du délai inconditionnel). Sans perspective d'assainissement, l'organe de révision doit agir avec célérité : les 90 jours ne courent pas « quoi qu'il arrive ».",
+    "Juste. Comme pour le CA, la marge alignée sur les 90 jours (art. 725b al. 4 ch. 2 CO ; mémento §10.3) est CONDITIONNELLE : perspective d'assainissement raisonnable et concrète, et — précision du corrigé d'origine — absence d'aggravation significative du surendettement pendant la période. À défaut, avis subsidiaire sans délai (art. 728c al. 3 CO)."
+   ]
+  },
+  {
+   "id": "CRA-149",
+   "champ": "Évaluation des mesures d'assainissement",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Concernant l'évaluation par l'organe de révision des mesures d'assainissement, quelle affirmation est correcte ?",
+   "options": [
+    "L'organe de révision ne crédite que les mesures d'assainissement efficaces à court terme ; l'appréciation des mesures à moyen et long terme relève du tribunal (via le sursis concordataire)",
+    "Si l'AG n'approuve pas les mesures (p. ex. augmentation de capital), l'organe de révision ne peut aviser le juge, les actionnaires ne pouvant être contraints",
+    "L'organe de révision doit prendre en considération toutes les mesures d'assainissement qui prendront effet dans les 12 mois avant d'aviser le juge",
+    "Si les mesures sont insuffisantes, le CA peut demander à l'organe de révision de lui proposer d'autres mesures d'assainissement"
+   ],
+   "correct": 0,
+   "piege": "12 mois ≠ 90 jours",
+   "explications": [
+    "Juste. La renonciation à l'avis suppose un assainissement réaliste dans un délai raisonnable — au plus tard 90 jours (art. 725b al. 4 ch. 2 CO ; mémento §10.3) : l'organe de révision ne peut donc créditer que les mesures à effet rapide. Une fois le tribunal saisi, la restructuration à moyen/long terme se poursuit sous protection judiciaire (sursis concordataire — mémento §10.3 : demande de sursis concordataire).",
+    "Faux. Le refus de l'AG n'empêche pas l'avis au juge — au contraire : si le surendettement persiste faute de mesures, l'avis s'impose.",
+    "Faux (piège chiffré). Le délai de référence pour renoncer à l'avis n'est pas 12 mois mais 90 JOURS (art. 725b al. 4 ch. 2 CO) : des mesures à 12 mois ne peuvent pas être créditées.",
+    "Faux. L'organe de révision ÉVALUE les mesures mais ne les conçoit pas : proposer des mesures d'assainissement compromettrait son indépendance."
+   ]
+  },
+  {
+   "id": "CRA-150",
+   "champ": "Mesure d'assainissement la plus bénéfique",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Quelle mesure d'assainissement est généralement la plus bénéfique en cas de surendettement ?",
+   "options": [
+    "Dissolution de réserves latentes",
+    "Abandon de créances par les créanciers",
+    "Augmentation ordinaire du capital",
+    "Augmentation de capital par compensation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La dissolution de réserves latentes ne fait que RÉVÉLER une valeur déjà existante : effet ponctuel et limité au stock de réserves disponible, sans apport nouveau.",
+    "Juste. L'abandon de créances réduit directement et DÉFINITIVEMENT le passif : le découvert disparaît sans apport de liquidités ni émission d'actions — c'est généralement la mesure la plus bénéfique. NB : cette hiérarchie des mesures provient du corrigé d'origine ; le mémento §10.3 traite les mesures d'assainissement (réévaluation 725c, sursis) sans les classer.",
+    "Faux. L'augmentation ordinaire du capital est efficace mais suppose des apports frais, souvent difficiles à réunir pour une société en crise.",
+    "Faux. L'augmentation par compensation (conversion de dettes en fonds propres) est également efficace, mais elle transforme le créancier en actionnaire — moins « bénéfique » que l'abandon pur et simple."
+   ]
+  },
+  {
+   "id": "CRA-151",
+   "champ": "Panorama des obligations de l'organe de révision",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Quelle réponse décrit le plus complètement les obligations de l'organe de révision d'une société surendettée ?",
+   "options": [
+    "Surveillance de la liquidité, avis au juge en cas d'inaction du CA, notification aux créanciers",
+    "Surveiller l'action du CA, examiner les mesures d'assainissement, aviser le tribunal en cas d'inaction ou d'insuffisance de l'action du CA, informer l'AG, vérifier les comptes intermédiaires",
+    "Examiner les mesures d'assainissement, surveiller l'action du CA, informer l'AG, vérifier les comptes intermédiaires",
+    "Aviser le juge, vérifier les comptes annuels"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. La « notification aux créanciers » n'incombe pas à l'organe de révision — c'est un ajout étranger à ses attributions légales.",
+    "Juste. C'est le panorama le plus complet et exact : surveillance de l'action du CA, examen des mesures d'assainissement, avis SUBSIDIAIRE au tribunal en cas d'inaction ou d'insuffisance (art. 728c al. 3 / 729c CO), information de l'AG et vérification des comptes intermédiaires (art. 725b al. 2 et 3 CO ; mémento §10.3 : vérification NA-CH + obligation subsidiaire d'avis).",
+    "Faux (incomplet). Cette liste omet l'avis au tribunal — pièce maîtresse du dispositif de protection des créanciers.",
+    "Faux (réducteur). L'avis au juge y est, mais la vérification vise les comptes INTERMÉDIAIRES, pas les comptes annuels, et toutes les autres obligations manquent."
+   ]
+  },
+  {
+   "id": "CRA-152",
+   "champ": "Sursis concordataire",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Concernant le sursis concordataire, quelle affirmation est correcte ?",
+   "options": [
+    "Un concordat réussi permet en règle générale de se libérer d'anciennes dettes en n'en payant qu'une partie",
+    "Si le juge est avisé d'un surendettement, un sursis concordataire est automatiquement ouvert",
+    "Pendant le sursis concordataire, l'organe de révision a des obligations élargies",
+    "Le sursis concordataire n'accorde que du temps, sans autre utilité"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste. Un concordat mené à bien permet à la société de se libérer d'une partie de ses anciennes dettes contre paiement partiel (dividende concordataire) : c'est l'instrument d'assainissement sous protection judiciaire. NB : le mémento ne mentionne le sursis concordataire que comme option du CA en cas d'insolvabilité imminente (§10.3, art. 725 CO) ; le fonctionnement du concordat (art. 293 ss LP) provient du corrigé d'origine.",
+    "Faux. L'avis au juge n'ouvre pas automatiquement un sursis : le tribunal instruit puis décide (faillite, ajournement ou sursis) — le sursis suppose une demande et des conditions.",
+    "Faux. Le sursis n'élargit pas les obligations de l'organe de révision : c'est un COMMISSAIRE au sursis, désigné par le juge, qui surveille la société.",
+    "Faux. Le sursis n'est pas qu'un délai : il ouvre la voie à un assainissement / concordat sous protection judiciaire."
+   ]
+  },
+  {
+   "id": "CRA-153",
+   "champ": "Suite de l'avis au tribunal",
+   "memento": "§10.3",
+   "difficulte": 1,
+   "question": "Que se passe-t-il après que le tribunal a été avisé d'un surendettement par l'organe de révision ?",
+   "options": [
+    "Le juge ouvre immédiatement la procédure de faillite",
+    "Le juge attend la prochaine assemblée générale",
+    "Le tribunal auditionne le conseil d'administration et se fait remettre des documents avant de statuer",
+    "Le juge ouvre d'office le sursis concordataire"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. La faillite n'est pas automatique : le juge peut notamment l'ajourner si un assainissement paraît possible.",
+    "Faux. Le juge n'attend pas l'AG : la procédure judiciaire est indépendante du calendrier social.",
+    "Juste. Une fois avisé, le tribunal INSTRUIT : il auditionne le CA et se fait remettre les documents nécessaires (comptes intermédiaires, mesures envisagées) avant de statuer — faillite, ajournement ou sursis. NB : cette étape procédurale provient du corrigé d'origine ; le mémento §10.3 s'arrête à l'avis au tribunal (art. 725b al. 3 CO).",
+    "Faux. Le sursis concordataire n'est pas ouvert d'office : il suppose une demande et la réalisation de conditions."
+   ]
+  },
+  {
+   "id": "CRA-154",
+   "champ": "Objet de la vérification des comptes intermédiaires",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Sur quoi l'attention doit-elle porter lors de la vérification des comptes intermédiaires ?",
+   "options": [
+    "En particulier sur le bilan et l'existence ou non d'un surendettement manifeste",
+    "Sur toutes les parties (bilan, compte de résultat, annexe) de manière identique",
+    "Sur le SCI et les comptes intermédiaires dans leur ensemble",
+    "Sur l'application de la même méthode d'évaluation dans les deux comptes intermédiaires"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste. La vérification (art. 725b al. 2 CO, selon les NA-CH — mémento §10.3) vise avant tout à déterminer s'il existe ou non un surendettement : question de nature BILANCIELLE (dettes couvertes ou non par les actifs), d'où une attention concentrée sur le bilan.",
+    "Faux. L'examen n'est pas réparti uniformément : il est ciblé sur la question du surendettement, donc sur le bilan.",
+    "Faux. Le SCI n'est pas l'objet de cette vérification ponctuelle — il relève du contrôle ordinaire des comptes annuels.",
+    "Faux. Les deux comptes intermédiaires utilisent PAR DÉFINITION des méthodes d'évaluation différentes : valeurs d'exploitation d'un côté, valeurs de liquidation de l'autre (mémento §10.3)."
+   ]
+  },
+  {
+   "id": "CRA-155",
+   "champ": "Critères de la postposition",
+   "memento": "§10.4",
+   "difficulte": 2,
+   "question": "Lequel de ces critères une postposition ne doit-elle PAS remplir ?",
+   "options": [
+    "Être irrévocable",
+    "Avoir une durée limitée à 12 mois au maximum",
+    "N'être assortie d'aucune autre condition (quant à sa validité et son efficacité)",
+    "Porter au moins sur l'ajournement du remboursement du montant concerné, intérêts compris"
+   ],
+   "correct": 1,
+   "piege": "durée indéterminée requise",
+   "explications": [
+    "Faux (critère requis). L'irrévocabilité est une condition de validité de la postposition (mémento §10.4, tableau : « Irrévocable & inconditionnelle »).",
+    "Juste (critère à NE PAS remplir). La postposition doit être de durée INDÉTERMINÉE : elle ne se dissout que lorsqu'un réviseur atteste l'absence de surendettement (mémento §10.4, tableau : « Durée indéterminée »). Une durée « limitée à 12 mois » contredit cette exigence — ne pas confondre avec la marge de sécurité du MONTANT, qui doit couvrir ≥ 12 mois. Base légale : art. 725b al. 4 ch. 1 CO.",
+    "Faux (critère requis). L'absence de toute autre condition (inconditionnalité) est exigée pour que la postposition soit efficace.",
+    "Faux (critère requis). La postposition doit porter sur l'ajournement du remboursement du prêt ET des intérêts (mémento §10.4, tableau : « Sursis du remboursement du prêt ET des intérêts »)."
+   ]
+  },
+  {
+   "id": "CRA-156",
+   "champ": "Postposition invalide (clause de faillite manquante)",
+   "memento": "§10.4",
+   "difficulte": 3,
+   "question": "Le CA a conclu une postposition avec un actionnaire ; toutes les conditions formelles sont réunies sauf le passage par lequel le créancier renonce à sa créance en cas de faillite (le modèle EXPERTsuisse n'a pas été suivi). Le CA refuse d'obtenir une postposition corrigée. Que peut faire l'organe de révision ?",
+   "options": [
+    "Attirer par écrit l'attention du CA sur les risques ; si le CA maintient sa position, il ne peut rien faire d'autre",
+    "Informer par écrit l'assemblée générale de l'irrégularité (mention d'une violation de la loi)",
+    "Aviser le juge dans le délai imparti, la postposition étant non conforme aux conditions légales et donc invalide (surendettement non couvert)",
+    "Contacter l'actionnaire pour clarifier la situation"
+   ],
+   "correct": 2,
+   "piege": "postposition viciée, nulle d'origine",
+   "explications": [
+    "Faux. « Ne rien pouvoir faire d'autre » ignore l'obligation SUBSIDIAIRE d'avis au tribunal (art. 728c al. 3 CO) qui pèse sur l'organe de révision en cas d'inaction du CA.",
+    "Faux (insuffisant). Informer l'AG ne remplace pas l'avis au juge — l'obligation subsidiaire subsiste même si l'AG a été informée (mémento §10.3).",
+    "Juste. La renonciation à la créance en cas de faillite (avec acceptation d'un rang inférieur) est un élément ESSENTIEL de la postposition (mémento §10.4, tableau : « Rang / renonciation ») : son absence rend la postposition invalide, réputée nulle dès l'origine (mémento §10.4, Piège). Le surendettement n'étant alors pas couvert, l'organe de révision — après sommation restée sans effet — doit aviser le tribunal (art. 725b al. 3 et 4 ch. 1, art. 728c al. 3 CO).",
+    "Faux. Négocier avec l'actionnaire n'est pas le rôle de l'organe de révision : la correction du contrat relève du CA et du créancier."
+   ]
+  },
+  {
+   "id": "CRA-157",
+   "champ": "Solvabilité du créancier postposant",
+   "memento": "§10.4",
+   "difficulte": 2,
+   "question": "Quelle affirmation concernant la solvabilité du créancier postposant est correcte ?",
+   "options": [
+    "Confirmée par les deux parties dans le modèle EXPERTsuisse, un examen plus poussé est superflu",
+    "La solvabilité des particuliers ne pouvant être contrôlée définitivement, on peut y renoncer",
+    "Elle doit être appréciée à l'octroi de la postposition ET à chaque date de bilan ultérieure",
+    "Elle n'est pertinente qu'au moment de l'octroi de la postposition"
+   ],
+   "correct": 3,
+   "piege": "solvabilité appréciée à l'octroi",
+   "explications": [
+    "Faux. Une confirmation contractuelle des parties ne dispense pas l'organe de révision de sa propre appréciation de la capacité du créancier à supporter la perte.",
+    "Faux. La difficulté du contrôle n'autorise pas à y renoncer : l'examen de la solvabilité fait partie des conditions d'efficacité de la postposition.",
+    "Faux (piège tentant). Il n'y a pas de réappréciation systématique à chaque date de bilan tant que la postposition reste inchangée — un nouveau contrôle n'intervient qu'en cas de modification (p. ex. réduction, mémento §10.4).",
+    "Juste. Le créancier doit pouvoir supporter la perte totale, et cette solvabilité s'apprécie À LA DATE D'OCTROI de la postposition (mémento §10.4, tableau : « Solvabilité du créancier … appréciée à la date d'octroi »). Base légale : art. 725b al. 4 ch. 1 CO."
+   ]
+  },
+  {
+   "id": "CRA-158",
+   "champ": "Point de départ de la responsabilité",
+   "memento": "§10.4",
+   "difficulte": 3,
+   "question": "Le 5 mars 202X-5, le CA dispose de comptes intermédiaires audités révélant un surendettement (compris dès le 1er mars). Les perspectives d'assainissement paraissaient bonnes, mais le 5 avril 202X-5 le CA présente des mesures insuffisantes ; une postposition « suffisante » est fournie à titre subsidiaire pour éviter l'avis. Des années plus tard, on découvre que cette postposition était nulle (vice de forme). À partir de quand l'organe de révision est-il responsable ?",
+   "options": [
+    "5 mars 202X-5",
+    "5 avril 202X-5",
+    "90 jours après le 5 mars",
+    "Aujourd'hui (en 202X)"
+   ],
+   "correct": 1,
+   "piege": "nullité rétroactive de la postposition",
+   "explications": [
+    "Faux. Le 5 mars, le surendettement est constaté mais les perspectives d'assainissement paraissaient bonnes : la renonciation temporaire à l'avis (art. 725b al. 4 ch. 2 CO) était alors défendable — l'avis n'était pas encore dû.",
+    "Juste. La postposition entachée d'un vice de forme est réputée NULLE DÈS L'ORIGINE (mémento §10.4, Piège : « réputée nulle dès l'origine ») : elle n'a jamais valablement couvert le surendettement. Le 5 avril 202X-5, les mesures se révèlent insuffisantes et seule restait cette postposition invalide : c'est à ce moment que l'avis au juge était dû — point de départ de la responsabilité de l'organe de révision pour le préjudice postérieur (mémento §10.4 : « responsable du préjudice postérieur au moment où il aurait dû aviser le juge » ; art. 755 CO).",
+    "Faux. Le délai de 90 jours (art. 725b al. 4 ch. 2 CO) suppose une perspective d'assainissement réaliste — condition tombée le 5 avril : il ne s'applique pas ici.",
+    "Faux. La découverte du vice ne fixe pas le moment déterminant : la nullité rétroagit au jour de la conclusion — la responsabilité court depuis le moment où l'avis aurait dû être donné."
+   ]
+  },
+  {
+   "id": "CRA-159",
+   "champ": "Montant de la responsabilité",
+   "memento": "§10.4",
+   "difficulte": 3,
+   "question": "Le 9 septembre 202X-3, le CA dispose de comptes intermédiaires audités révélant un surendettement (compris dès le 1er septembre) ; le 11 novembre 202X-3, il présente des mesures insuffisantes, complétées à titre subsidiaire par une postposition « suffisante » plus tard reconnue nulle (vice de forme). Depuis quand et pour quel montant l'organe de révision est-il responsable ?",
+   "options": [
+    "Du montant de la postposition",
+    "Du montant du surendettement au 9 septembre 202X-3",
+    "Du montant du surendettement au 11 novembre 202X-3",
+    "De l'augmentation du surendettement survenue depuis le 11 novembre 202X-3"
+   ],
+   "correct": 3,
+   "piege": "dommage = aggravation du découvert",
+   "explications": [
+    "Faux. Le montant de la postposition n'est pas la mesure du dommage : la responsabilité se calcule sur le préjudice causé, pas sur le contrat vicié.",
+    "Faux. Le surendettement au 9 septembre est le CONSTAT initial — à cette date, l'avis n'était pas encore dû (perspectives d'assainissement encore ouvertes) : ce stock n'est pas un préjudice imputable à l'organe de révision.",
+    "Faux. Le surendettement au 11 novembre est le NIVEAU ATTEINT au moment où l'avis devenait dû — ce stock existait déjà et n'a pas été causé par le retard ; seul son accroissement ultérieur est imputable.",
+    "Juste. La responsabilité de l'organe de révision porte sur le dommage causé par le RETARD de l'avis : l'AGGRAVATION du surendettement postérieure au 11 novembre 202X-3, date à laquelle les mesures se sont révélées insuffisantes et où seule subsistait une postposition nulle dès l'origine (mémento §10.4, Piège : « responsable du préjudice postérieur au moment où il aurait dû aviser le juge »). Base légale : art. 725b al. 3, art. 754-755 CO."
+   ]
+  },
+  {
+   "id": "CRA-160",
+   "champ": "Réduction de la postposition",
+   "memento": "§10.4",
+   "difficulte": 3,
+   "question": "Quelle affirmation concernant la réduction d'une postposition est correcte ?",
+   "options": [
+    "Une postposition ne peut être réduite que si une postposition de rang au moins égal est conclue simultanément",
+    "La réduction n'est pas prévue par la loi mais tolérée par EXPERTsuisse dans certaines circonstances",
+    "Elle peut être réduite lorsque des comptes (intermédiaires) audités montrent que le surendettement a diminué d'au moins autant, qu'aucune perte n'est prévisible dans les 12 prochains mois et que les autres postposants ne sont pas désavantagés",
+    "En cas de réduction, l'organe de révision ne réexamine pas la solvabilité s'il s'agit du même créancier"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Cette condition (postposition de rang égal conclue simultanément) est inventée : rien de tel n'est exigé.",
+    "Faux. La réduction obéit à des conditions objectives et vérifiables — ce n'est pas une simple tolérance de la pratique EXPERTsuisse.",
+    "Juste. La réduction est admise lorsque des comptes audités (selon les NA-CH) établissent que le surendettement a diminué à due concurrence et que les autres postposants ne sont pas lésés (mémento §10.4, « Réduction / annulation ») ; la condition supplémentaire « aucune perte prévisible dans les 12 prochains mois » vient du corrigé d'origine (le mémento ne la chiffre pas). Base légale : art. 725b al. 4 ch. 1 CO.",
+    "Faux. Un NOUVEAU contrôle est requis, incluant la solvabilité du créancier — même s'il s'agit du même créancier (mémento §10.4 : « nouveau contrôle (dont solvabilité du créancier) »)."
+   ]
+  },
+  {
+   "id": "CRA-161",
+   "champ": "Cas ne dispensant pas de l'avis",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Parmi ces situations censées dispenser l'organe de révision d'aviser le juge, laquelle n'est PAS correcte (ne dispense pas) ?",
+   "options": [
+    "L'AG élit un nouvel organe de révision parce que le CA refuse que l'organe existant informe le juge",
+    "Le CA a déposé une demande de sursis concordataire auprès du tribunal",
+    "Il existe une postposition suffisante",
+    "Le CA a réévalué une participation, supprimant le surendettement au bilan, la nouvelle valeur comptable restant inférieure à la valeur de marché"
+   ],
+   "correct": 0,
+   "piege": "changer d'organe ne dispense pas",
+   "explications": [
+    "Juste (c'est l'affirmation incorrecte recherchée). Remplacer l'organe de révision pour empêcher l'avis ne dispense de rien : le surendettement subsiste et l'obligation subsidiaire (art. 728c al. 3 CO) suit la FONCTION — l'organe sortant comme le nouvel organe y sont tenus. Manœuvre inopérante.",
+    "Faux (dispense réellement). La demande de sursis concordataire saisit déjà le tribunal : un avis séparé pour surendettement devient superflu (le mémento §10.3 cite la demande de sursis concordataire parmi les issues).",
+    "Faux (dispense réellement). Une postposition suffisante permet de renoncer à l'avis (art. 725b al. 4 ch. 1 CO ; mémento §10.3, arbre : « postposition suffisante → PAS d'avis »).",
+    "Faux (dispense réellement). Une réévaluation licite (art. 725c CO : jusqu'à la valeur réelle au maximum — ici la valeur comptable reste inférieure au marché) qui supprime le surendettement au bilan écarte l'obligation d'aviser (mémento §10.3, Réévaluation)."
+   ]
+  },
+  {
+   "id": "CRA-162",
+   "champ": "Montant de la postposition",
+   "memento": "§10.4",
+   "difficulte": 3,
+   "question": "Quelle affirmation concernant le montant de la postposition est correcte ?",
+   "options": [
+    "Le montant doit toujours se fonder sur les comptes intermédiaires aux valeurs de liquidation",
+    "Le montant peut se fonder sur les comptes intermédiaires aux valeurs d'exploitation si la continuité n'est pas impossible",
+    "La marge de sécurité doit représenter au moins 10 % du découvert",
+    "Les montants issus de déclarations de soutien peuvent être ajoutés au montant de la postposition"
+   ],
+   "correct": 1,
+   "piege": "déclaration de soutien ≠ postposition",
+   "explications": [
+    "Faux. « Toujours » est excessif : les valeurs de liquidation ne s'imposent que lorsque la poursuite de l'exploitation n'est plus envisagée (mémento §10.3).",
+    "Juste. Le montant de la postposition doit couvrir le découvert établi par les comptes intermédiaires PERTINENTS : si la poursuite de l'exploitation n'est pas impossible, on se fonde sur les valeurs d'exploitation. Il couvre au moins le découvert + intérêts, avec une marge de sécurité pour ≥ 12 mois (mémento §10.4, tableau « Montant » ; art. 725b al. 4 ch. 1 CO : postposition « à concurrence du découvert + intérêts », mémento §10.3).",
+    "Faux (seuil inventé). Aucun pourcentage légal de 10 % n'existe : la marge de sécurité se définit par la couverture des besoins sur ≥ 12 mois (mémento §10.4), pas par un taux du découvert.",
+    "Faux. Une déclaration de soutien / lettre de garantie NE remplace PAS une postposition et ne s'y additionne pas (mémento §10.4, Piège : « ne remplace pas une postposition et ne dispense pas le CA d'aviser »)."
+   ]
+  },
+  {
+   "id": "CRA-163",
+   "champ": "Postposition n'est pas une mesure d'assainissement",
+   "memento": "§10.4",
+   "difficulte": 2,
+   "question": "Laquelle de ces mesures n'est PAS une mesure d'assainissement ?",
+   "options": [
+    "Augmentation ordinaire du capital",
+    "Contribution à fonds perdu",
+    "Réévaluation des participations à leur valeur de marché",
+    "Obtention d'une postposition"
+   ],
+   "correct": 3,
+   "piege": "postposition n'assainit pas",
+   "explications": [
+    "Faux (vraie mesure d'assainissement). L'augmentation ordinaire du capital apporte des fonds propres frais et réduit le découvert.",
+    "Faux (vraie mesure d'assainissement). La contribution à fonds perdu est un apport sans contrepartie qui augmente directement les fonds propres.",
+    "Faux (vraie mesure d'assainissement). La réévaluation des participations jusqu'à leur valeur réelle (art. 725c CO ; mémento §10.3) supprime le surendettement au bilan.",
+    "Juste. La postposition n'est PAS une mesure d'assainissement : elle ne réduit pas le surendettement, elle ne fait que dispenser d'aviser le tribunal en donnant du temps — le mémento §10.4 le dit mot pour mot (« ce n'est PAS une mesure d'assainissement (elle ne réduit pas le surendettement, elle donne du temps) »). Base légale : art. 725b al. 4 ch. 1 CO."
+   ]
+  },
+  {
+   "id": "CRA-164",
+   "champ": "Indépendance : comptes intermédiaires vérifiés selon NA-CH",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Une petite société commerciale a confié la comptabilité ET la révision (contrôle restreint) à la même fiduciaire, dans le respect des règles d'indépendance du restreint. Elle tombe en surendettement et ses comptes intermédiaires doivent être vérifiés. Quelle affirmation est correcte ?",
+   "options": [
+    "La société étant en contrôle restreint, les comptes intermédiaires doivent être vérifiés selon la NCR",
+    "Les règles d'indépendance habituelles (contrôle ordinaire) s'appliquent, non celles du restreint : il faut mandater un autre réviseur (ou expert-réviseur) agréé",
+    "Les règles d'indépendance du contrôle restreint s'appliquent et l'organe de révision en place est habilité à procéder",
+    "Comme c'est un contrôle selon les NA-CH, seul un expert-réviseur agréé peut l'effectuer"
+   ],
+   "correct": 1,
+   "piege": "indépendance du contrôle ordinaire",
+   "explications": [
+    "Faux. La vérification des comptes intermédiaires en surendettement se fait selon les NA-CH, JAMAIS la NCR — même pour une société en contrôle restreint (mémento §10.3).",
+    "Juste. Vérification selon les NA-CH (art. 725b al. 2 CO) → ce sont les exigences d'indépendance du contrôle ORDINAIRE (art. 728-728a CO) qui s'appliquent, plus strictes que celles du restreint : l'autorévision est prohibée. La fiduciaire qui tient la comptabilité — coopération tolérée en contrôle restreint (art. 729 CO) — ne peut donc pas vérifier ces comptes intermédiaires : il faut mandater un autre réviseur agréé. Le rattachement exprès aux règles d'indépendance du contrôle ordinaire vient du corrigé d'origine ; le mémento §10.3 pose le principe « NA-CH, jamais la NCR ».",
+    "Faux. Les règles souples du restreint (qui tolèrent la participation à la tenue de la comptabilité) ne s'appliquent pas à cette vérification NA-CH.",
+    "Faux. Un réviseur agréé suffit : l'expert-réviseur agréé n'est pas exigé pour la vérification des comptes intermédiaires."
+   ]
+  },
+  {
+   "id": "CRA-165",
+   "champ": "Comptes intermédiaires — deux bases",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Le CA établit, en cours d'année, des comptes intermédiaires aux valeurs d'exploitation qui font apparaître un surendettement manifeste. Quelle affirmation est exacte ?",
+   "options": [
+    "Si les comptes aux valeurs de liquidation ne font pas apparaître de surendettement, le CA n'est pas tenu d'informer le tribunal.",
+    "Si les comptes aux valeurs de liquidation sont manifestement plus mauvais, ils ne doivent pas être établis.",
+    "Si la continuité semble possible, on peut renoncer aux comptes aux valeurs de liquidation.",
+    "Un surendettement n'est pertinent qu'à la fin de l'exercice ; les comptes intermédiaires sont donc inutiles."
+   ],
+   "correct": 0,
+   "piege": "avis exige les deux bases",
+   "explications": [
+    "Juste. L'avis au tribunal (art. 725b al. 3 CO) n'est requis que si le surendettement apparaît dans les DEUX bases : si les valeurs de liquidation n'en montrent pas, pas d'avis (mémento §10.3, arbre : « pas de surendettement dans les deux → pas d'avis »).",
+    "Faux. On n'omet pas des comptes au motif qu'ils seraient plus mauvais : ce serait se soustraire au constat que la loi impose.",
+    "Faux. La renonciation aux valeurs de liquidation suppose que les valeurs d'EXPLOITATION ne montrent PAS de surendettement (mémento §10.3) ; or ici elles le montrent — les deux bases sont donc requises.",
+    "Faux. Le surendettement est pertinent dès qu'il existe des raisons sérieuses, EN COURS D'ANNÉE (art. 725b al. 1 CO) : les comptes intermédiaires sont précisément l'instrument légal du constat."
+   ]
+  },
+  {
+   "id": "CRA-166",
+   "champ": "Dispense d'aviser le juge",
+   "memento": "§10.3 · §10.4",
+   "difficulte": 3,
+   "question": "Dans quelle situation le CA est-il dispensé de l'obligation d'informer le juge ?",
+   "options": [
+    "Le CA reçoit des garanties suffisantes en faveur de la société ; le garant est solvable.",
+    "La société est surendettée depuis l'an dernier et dispose encore d'une postposition suffisante ; le créancier postposant vient de faire faillite.",
+    "L'assainissement s'avère impossible dans les 90 jours ; le CA a demandé par écrit une prolongation de 30 jours, les perspectives entre 90 et 120 jours étant bonnes.",
+    "La société est en liquidation ; pendant cette phase, un surendettement n'est plus pertinent."
+   ],
+   "correct": 1,
+   "piege": "faillite ultérieure du postposant",
+   "explications": [
+    "Faux. Une garantie / lettre de soutien NE remplace PAS une postposition et ne dispense pas d'aviser le tribunal (mémento §10.4, Piège), quelle que soit la solvabilité du garant.",
+    "Juste. La solvabilité du créancier postposant s'apprécie À LA DATE D'OCTROI (mémento §10.4, tableau) : une faillite POSTÉRIEURE n'invalide pas rétroactivement une postposition valablement conclue — celle-ci continue de couvrir le découvert et de dispenser de l'avis au juge (art. 725b al. 4 ch. 1 CO).",
+    "Faux. Le délai d'assainissement est de 90 jours AU MAXIMUM (art. 725b al. 4 ch. 2 CO ; mémento §10.3) : aucune prolongation à 120 jours n'est prévue, même sur demande écrite.",
+    "Faux. En liquidation, le surendettement reste pertinent : les liquidateurs doivent aviser le juge (art. 743 al. 2 CO — précision issue du corrigé d'origine, non traitée dans le mémento)."
+   ]
+  },
+  {
+   "id": "CRA-167",
+   "champ": "Surendettement — réévaluation du terrain",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Comptes aux valeurs de continuation : surendettement de KCHF 253. Un terrain a une valeur de marché supérieure d'au moins KCHF 850 à sa valeur comptable (expertise sérieuse). Quelle réponse est correcte ?",
+   "options": [
+    "La société est surendettée ; des comptes intermédiaires aux deux bases doivent être établis et contrôlés, faute de quoi l'organe de révision informe le juge.",
+    "Le CA peut réévaluer le terrain pour couvrir le surendettement ; cela nécessite un rapport (attestation) distinct de l'organe de révision / d'un réviseur agréé.",
+    "Le CA peut dissoudre les réserves latentes sur le terrain et supprimer le surendettement, sans rapport séparé de l'organe de révision.",
+    "Comme la société est manifestement surendettée, le CA doit informer le juge dans les 90 jours si aucune mesure d'assainissement n'est prise."
+   ],
+   "correct": 1,
+   "piege": "réévaluation exige une attestation",
+   "explications": [
+    "Faux (réponse incomplète). Elle décrit la procédure générale mais ignore la solution que l'énoncé offre : la réserve latente du terrain (≥ 850) dépasse largement le découvert (253) et permet de résorber le surendettement par réévaluation.",
+    "Juste. Le CA peut réévaluer l'immeuble jusqu'à sa valeur réelle au maximum (art. 725c CO) : la réserve latente d'au moins KCHF 850 couvre largement le surendettement de KCHF 253. Condition impérative : un réviseur agréé confirme PAR ÉCRIT le respect des dispositions légales — d'où un rapport / une attestation distincts (mémento §10.3, Réévaluation : « à condition qu'un réviseur agréé confirme par écrit le respect des dispositions légales »).",
+    "Faux. C'est précisément l'inverse : la réévaluation au sens de l'art. 725c CO EXIGE l'attestation écrite d'un réviseur agréé — elle n'est jamais « sans rapport séparé ».",
+    "Faux. Le délai de 90 jours (art. 725b al. 4 ch. 2 CO) concerne la renonciation à l'avis en cas de perspective d'assainissement ; il est sans objet ici puisque la réévaluation peut résorber immédiatement le surendettement."
+   ]
+  },
+  {
+   "id": "CRA-168",
+   "champ": "Surendettement — deux bases & avis",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Comptes aux valeurs d'exploitation : surendettement de KCHF 253. Terrain valant au moins KCHF 850 de plus que sa valeur comptable ; société sans activité, terrain + banque comme seuls actifs ; il est évident que les valeurs de liquidation ne présenteront pas de surendettement. Quelle réponse est correcte ?",
+   "options": [
+    "Si la continuité est assurée par les liquidités, seuls les comptes aux valeurs d'exploitation sont pertinents ; si le CA n'agit pas, l'organe de révision informe le juge.",
+    "Comme il est manifeste que les comptes en valeurs de liquidation ne présentent pas de surendettement, l'organe de révision n'a pas l'obligation d'informer le juge, même si le CA ne l'informe pas.",
+    "Lorsque le CA dissout les réserves latentes du terrain, l'organe de révision peut émettre un rapport d'audit standard.",
+    "Comme l'une des deux variantes fait apparaître un surendettement, le CA doit informer le juge."
+   ],
+   "correct": 1,
+   "piege": "avis exige les deux bases",
+   "explications": [
+    "Faux. Les valeurs d'exploitation montrent ici un surendettement : on ne peut pas s'en tenir à elles seules ; et l'organe de révision n'a pas à informer le juge, puisque les deux bases ne concordent pas (liquidation sans surendettement).",
+    "Juste. L'avis au tribunal (art. 725b al. 3 CO) suppose un surendettement dans les DEUX bases (mémento §10.3, arbre). Ici, les valeurs de liquidation ne présenteront manifestement pas de surendettement (le terrain vaut ≥ 850 de plus que sa valeur comptable, découvert de 253 largement couvert) → NI le CA NI l'organe de révision n'ont l'obligation d'aviser le juge, même en cas d'inaction du CA.",
+    "Faux. La dissolution des réserves latentes par réévaluation (art. 725c CO) exige une ATTESTATION écrite d'un réviseur agréé — pas un simple rapport d'audit standard (mémento §10.3, Réévaluation).",
+    "Faux. Un surendettement dans UNE SEULE des deux bases ne déclenche pas l'avis au juge."
+   ]
+  },
+  {
+   "id": "CRA-169",
+   "champ": "Insolvabilité imminente (art. 725)",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Une société risque de ne plus pouvoir honorer ses dettes à leur échéance (menace sur les liquidités) dans les prochains mois, sans être surendettée au bilan. Quel régime s'applique ?",
+   "options": [
+    "Art. 725b CO : établir des comptes intermédiaires aux deux valeurs et aviser le tribunal.",
+    "Art. 725 CO : le CA prend les mesures garantissant la solvabilité, propose au besoin des mesures à l'AG ou demande un sursis concordataire.",
+    "Art. 725a CO : convoquer une assemblée d'assainissement.",
+    "Aucune obligation tant qu'il n'y a pas de surendettement au bilan."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. L'art. 725b CO vise le SURENDETTEMENT (dettes non couvertes par les actifs — dimension bilan) ; ici la société n'est pas surendettée, seule la trésorerie est menacée.",
+    "Juste. La menace d'insolvabilité (dimension LIQUIDITÉS, horizon ≈ 12 mois) relève de l'art. 725 CO : le CA prend les mesures garantissant la solvabilité, propose au besoin des mesures supplémentaires à l'AG, voire dépose une demande de sursis concordataire — mémento §10.3, Insolvabilité imminente (725).",
+    "Faux. L'art. 725a CO vise la PERTE DE CAPITAL ; de plus, l'« assemblée d'assainissement » automatique relève de l'ancien droit, abrogé au 1.1.2023 (mémento §10.2, encadré).",
+    "Faux. Le devoir de veiller à la solvabilité (art. 725 CO) existe précisément EN AMONT du surendettement : l'absence de surendettement au bilan ne dispense de rien."
+   ]
+  },
+  {
+   "id": "CRA-170",
+   "champ": "Insolvabilité (725) vs surendettement (725b)",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Comment distinguer l'art. 725 (menace d'insolvabilité) de l'art. 725b (surendettement) ?",
+   "options": [
+    "725 vise un manque de LIQUIDITÉS (dettes exigibles non honorées à l'échéance) ; 725b vise un excédent des DETTES sur les actifs (dimension bilan).",
+    "725 concerne le bilan, 725b la trésorerie.",
+    "Les deux imposent l'avis immédiat au tribunal.",
+    "725 ne s'applique qu'aux sociétés cotées."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste. L'art. 725 CO traite l'insolvabilité imminente : dimension LIQUIDITÉS / trésorerie (risque de ne plus honorer les dettes à l'échéance, horizon ≈ 12 mois) ; l'art. 725b CO traite le surendettement : dimension BILAN (dettes non couvertes par les actifs), avec comptes intermédiaires aux deux valeurs et, à défaut de postposition ou d'assainissement, avis au tribunal — mémento §10.3 (Insolvabilité imminente + Surendettement).",
+    "Faux. Cette option INVERSE les deux notions : c'est 725b qui concerne le bilan et 725 la trésorerie.",
+    "Faux. L'avis au tribunal est propre au SURENDETTEMENT (art. 725b al. 3 CO) ; l'insolvabilité imminente appelle des mesures de solvabilité, des propositions à l'AG ou un sursis concordataire — pas d'avis obligatoire.",
+    "Faux. L'art. 725 CO s'applique à toutes les SA (et par renvoi aux Sàrl), pas seulement aux sociétés cotées."
+   ]
+  }
+ ]
+}
