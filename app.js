@@ -286,7 +286,18 @@
       li.innerHTML = '<span class="k">' + keysOf(cset) + ".</span>" + esc(q.explication);
       ul.appendChild(li);
     }
-    el("tags").innerHTML = '<span class="tag mem">Mémento ' + esc(q.memento || "—") + "</span>" +
+    var memLabel = "Mémento " + esc(q.memento || "—");
+    var memUrl = state.course && state.course.mementoUrl;
+    var memTag;
+    if (memUrl && q.memento) {           // badge cliquable -> ouvre le mémento à la section citée
+      var ma = /(\d+)(?:\.(\d+))?/.exec(q.memento);
+      var anchor = ma ? "#s" + ma[1] + (ma[2] ? "-" + ma[2] : "") : "";
+      memTag = '<a class="tag mem" href="' + memUrl + anchor +
+        '" target="_blank" rel="noopener" title="Ouvrir le mémento à cette section">' + memLabel + " ↗</a>";
+    } else {
+      memTag = '<span class="tag mem">' + memLabel + "</span>";
+    }
+    el("tags").innerHTML = memTag +
       (q.piege ? '<span class="tag piege">piège : ' + esc(q.piege) + "</span>" : "");
     el("corr").classList.remove("hidden");
   }

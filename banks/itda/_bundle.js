@@ -2839,5 +2839,6 @@ window.QCM_BANK["itda"] = {
     }
    ]
   }
- ]
+ ],
+ "mementoUrl": "banks/itda/memento-it-analyse-donnees.html"
 };

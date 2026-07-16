@@ -114,6 +114,8 @@ h2{color:var(--navy);font-size:21px;margin:0 0 4px;font-weight:700}
 .tags{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
 .tag{font-size:12px;font-weight:600;padding:5px 11px;border-radius:8px}
 .tag.mem{background:#fff5e0;color:#8a6a12;border:1px solid #ecd79a}
+a.tag.mem{text-decoration:none;cursor:pointer}
+a.tag.mem:hover{background:#ffedc2;border-color:#d9bd6e}
 .tag.piege{background:#f3ecfb;color:var(--violet);border:1px solid #ddccef}
 
 .actions{display:flex;justify-content:flex-end;margin-top:22px}

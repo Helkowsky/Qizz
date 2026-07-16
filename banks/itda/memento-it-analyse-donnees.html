@@ -1,0 +1,1536 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mémento — IT et analyse de données</title>
+<style>
+/* ============================================================
+   charte.css — DA unique du cursus Expert-Comptable
+   Réutilisée à l'identique des modules TVA / Planification /
+   Conclusion. Badges de source, callouts, tableaux, arbres.
+   Ne pas surcharger localement.
+   ============================================================ */
+@page { size: A4; margin: 2cm 1.8cm;
+  @bottom-right { content: counter(page) " / " counter(pages); font-size: 8pt; color: #888; }
+  @top-left { content: string(chapitre); font-size: 8pt; color: #888; } }
+
+body { font-family: "Source Sans Pro","Segoe UI",system-ui,sans-serif;
+  font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
+
+h1 { string-set: chapitre content(); font-size: 20pt; color: #0f3d5c;
+     border-bottom: 3px solid #0f3d5c; padding-bottom: 4pt; page-break-before: always; }
+h2 { font-size: 14pt; color: #0f3d5c; margin-top: 18pt; }
+h3 { font-size: 11.5pt; color: #333; margin-bottom: 3pt; }
+
+/* ---- Badges de niveau de source ---- */
+.primaire, .secondaire, .avalider {
+  font-size: 7.5pt; font-weight: 700; padding: 0 5pt; border-radius: 3pt; letter-spacing: .3pt; }
+.primaire  { background: #e2f3e5; color: #1b6e2a; }
+.secondaire{ background: #e3edf7; color: #14538c; }
+.avalider  { background: #fdeede; color: #b25b12; }
+.ref-norme { font-weight: 700; color: #0f3d5c; white-space: nowrap; }
+
+/* ---- Callouts standardisés (bloc) ---- */
+.but, .piege, .connexions, .autotest, .norme {
+  display: block; border-left: 4pt solid; padding: 6pt 10pt; margin: 10pt 0;
+  border-radius: 0 4pt 4pt 0; page-break-inside: avoid; }
+.but        { border-color: #1b6e2a; background: #f4faf5; }
+.piege      { border-color: #c0392b; background: #fdf3f2; }
+.connexions { border-color: #8e44ad; background: #f9f4fc; }
+.autotest   { border-color: #14538c; background: #f2f7fc; }
+.norme      { border-color: #b25b12; background: #fdf6ee; }
+.callout-titre { font-weight: 700; font-size: 9pt; text-transform: uppercase;
+                 letter-spacing: .5pt; margin-bottom: 3pt; }
+
+/* ---- Tableaux ---- */
+table { border-collapse: collapse; margin: 8pt 0; width: 100%; }
+th { background: #eef2f5; padding: 5pt 8pt; text-align: left; font-size: 9.5pt; }
+td { padding: 4pt 8pt; border-bottom: .5pt solid #e0e5ea; vertical-align: top; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+thead { display: table-header-group; }
+table.compare th:first-child { width: 26%; }
+td.oui { color:#1b6e2a; font-weight:600; } td.non { color:#c0392b; font-weight:600; }
+td.num { text-align:right; font-variant-numeric: tabular-nums; }
+td.code { font:11px ui-monospace,Consolas,monospace; color:#0f3d5c; font-weight:700; white-space:nowrap; }
+
+/* ---- Arbre décisionnel en bloc code (format du module) ---- */
+pre.arbre { background:#0f3d5c; color:#eaf1f6; font:11px/1.5 ui-monospace,"Cascadia Code",Consolas,monospace;
+  padding:12pt 14pt; border-radius:6pt; overflow-x:auto; margin:10pt 0; page-break-inside:avoid;
+  border-left:4pt solid #14538c; }
+figure.arbre-fig { margin:10pt 0; page-break-inside:avoid; }
+figure.arbre-fig figcaption { font-size:8.5pt; color:#666; margin-top:3pt; }
+
+/* ---- Réf. sur ligne séparée ---- */
+.ref-sous { display:block; font-size:8pt; color:#777; margin:1pt 0 5pt; padding-left:2pt;
+            border-left:2pt solid #dfe4e8; }
+.chapo { font-size:10pt; color:#3a3a3a; background:#f5f8fa; border-left:3pt solid #0f3d5c;
+         padding:6pt 10pt; margin:6pt 0 12pt; border-radius:0 4pt 4pt 0; }
+.formule { background:#f2f7fc; border:1pt solid #cfe0f0; border-radius:5pt; padding:8pt 12pt;
+           font-size:12pt; text-align:center; margin:10pt 0; color:#0f3d5c; font-weight:600; }
+.reponses { font-size:9pt; color:#444; border-top:1pt dashed #aaa; margin-top:10pt; padding-top:6pt; }
+
+/* ---- Page de garde & TOC ---- */
+.page-garde { page-break-after: always; text-align:center; display:flex; flex-direction:column;
+              justify-content:center; min-height:22cm; }
+.page-garde h1 { page-break-before: avoid; border:none; string-set:none; font-size:38pt;
+                 color:#0f3d5c; margin:6pt 0; }
+.pg-kicker { text-transform:uppercase; letter-spacing:2pt; font-size:11pt; color:#14538c; }
+.pg-soustitre { font-size:15pt; color:#333; margin-top:4pt; }
+.pg-desc { font-size:11pt; color:#555; margin-top:18pt; }
+.pg-legende { font-size:9pt; color:#555; margin-top:26pt; line-height:2; }
+.pg-pied { font-size:9pt; color:#888; margin-top:22pt; }
+.toc-h { page-break-before: always; font-size:18pt; color:#0f3d5c; border-bottom:2pt solid #0f3d5c;
+         padding-bottom:3pt; }
+nav.toc ul { list-style:none; padding-left:0; margin:0; }
+nav.toc li.lvl1 { margin-top:7pt; font-weight:700; color:#0f3d5c; }
+nav.toc li.lvl2 { margin-left:14pt; font-weight:400; color:#333; font-size:9.7pt; }
+nav.toc a { text-decoration:none; color:inherit; }
+
+@media screen {
+  body { max-width: 21cm; margin: 1.5rem auto; padding: 0 1.2cm; background:#fff;
+         box-shadow:0 0 12px rgba(0,0,0,.08); }
+  h1 { page-break-before: auto; }
+  nav.toc a:hover { color:#14538c; text-decoration:underline; }
+}
+@media print { * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; } }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE DE GARDE ===================== -->
+<section class="page-garde">
+  <div class="pg-kicker">Expert-Comptable diplômé · ExpertSuisse</div>
+  <h1>IT et analyse de données</h1>
+  <div class="pg-soustitre">Mémento d'examen — Module 6</div>
+  <div class="pg-desc">Environnement IT &amp; ISA-CH 315 (Révisée) · système d'information<br>
+    contrôles IT généraux (ITGC) · contrôles applicatifs · stratégie d'audit<br>
+    Data Analytics · fiabilité des données (IPE) · Journal Entry Testing<br>
+    sociétés de services · cybersécurité · conservation électronique</div>
+  <div class="pg-legende">
+    <span class="primaire">PRIMAIRE</span> source officielle (Fedlex / COSO) &nbsp;·&nbsp;
+    <span class="secondaire">SECONDAIRE</span> norme d'audit / guide corroboré (ISA-CH, NAS-CH, EXPERTsuisse) &nbsp;·&nbsp;
+    <span class="avalider">À VALIDER</span> à confirmer selon l'édition
+  </div>
+  <div class="pg-pied">Édition 2025-2026 · ISA-CH 315 (Révisée) en vigueur pour les exercices ouverts dès le 15.12.2024 (comptes 2025)</div>
+</section>
+
+<!-- ===================== AVERTISSEMENT ===================== -->
+<section>
+  <div class="piege">
+    <div class="callout-titre">⚠️ Terminologie &amp; numérotation — point d'examen</div>
+    <b>« ISA-CH 315 (Révisée) » = « ISA-CH 315R »</b> sont des désignations équivalentes. On ne dit
+    <b>plus « NAS-CH 315 » ni « NA-CH 315 »</b>. Taxonomie suisse : <b>NA-CH</b> = tout le corpus ;
+    à l'intérieur, <b>NAS-CH</b> = normes suisses <i>indépendantes</i> (p. ex. 890) et <b>ISA-CH</b> =
+    normes internationales <i>adoptées</i> (315, 240, 330, 500, 520, 402…). Ce mémento écrit
+    <b>« GITC / ITGC »</b> (contrôles IT généraux), <b>« ITAC »</b> (contrôles applicatifs
+    automatisés), <b>« ITDM »</b> (contrôles manuels dépendants de l'IT), <b>« Data Analytics / DA »</b>
+    (jamais « ADA »), <b>« IPE »</b> et <b>« EUC »</b> (jamais « IUC »). Vérifie toujours l'édition des
+    NAS-CH / ISA-CH en vigueur pour ta session.
+  </div>
+</section>
+
+<!-- ===================== TABLE DES MATIÈRES ===================== -->
+<h2 class="toc-h">Table des matières</h2>
+<nav class="toc">
+<ul>
+  <li class="lvl1"><a href="#s1">1 · L'IT dans l'audit — ISA-CH 315 (Révisée)</a></li>
+    <li class="lvl2"><a href="#s1-1">1.1 Pourquoi l'IT pèse sur l'audit · risques liés à l'IT</a></li>
+    <li class="lvl2"><a href="#s1-2">1.2 L'ISA-CH 315 (Révisée) · environnement IT</a></li>
+    <li class="lvl2"><a href="#s1-3">1.3 Les catégories de risques liés à l'IT</a></li>
+    <li class="lvl2"><a href="#s1-4">1.4 Incidence sur le risque de contrôle</a></li>
+  <li class="lvl1"><a href="#s2">2 · Comprendre le système d'information</a></li>
+    <li class="lvl2"><a href="#s2-1">2.1 ERP, sous-systèmes &amp; données de base</a></li>
+    <li class="lvl2"><a href="#s2-2">2.2 Le modèle en 4 couches</a></li>
+    <li class="lvl2"><a href="#s2-3">2.3 Interfaces &amp; infrastructure</a></li>
+    <li class="lvl2"><a href="#s2-4">2.4 Applications « pertinentes » pour l'audit</a></li>
+  <li class="lvl1"><a href="#s3">3 · ITGC — contrôles IT généraux</a></li>
+    <li class="lvl2"><a href="#s3-1">3.1 Définition &amp; rôle · ce que les ITGC ne font pas</a></li>
+    <li class="lvl2"><a href="#s3-2">3.2 Les 5 domaines / 18 contrôles (Guide EXPERTsuisse 2024)</a></li>
+    <li class="lvl2"><a href="#s3-3">3.3 Les 3 processus d'ITGC de la 315R · NAS-CH 890</a></li>
+    <li class="lvl2"><a href="#s3-4">3.4 Existence vs efficacité du SCI</a></li>
+  <li class="lvl1"><a href="#s4">4 · Contrôles applicatifs · ITGC vs applicatifs</a></li>
+    <li class="lvl2"><a href="#s4-1">4.1 Typologie : TYPE × OBJECTIF</a></li>
+    <li class="lvl2"><a href="#s4-2">4.2 Le tableau ITGC vs contrôles applicatifs</a></li>
+    <li class="lvl2"><a href="#s4-3">4.3 « Test of one » &amp; walk-through</a></li>
+  <li class="lvl1"><a href="#s5">5 · Stratégie d'audit &amp; IT · recours au spécialiste</a></li>
+    <li class="lvl2"><a href="#s5-1">5.1 Tester les contrôles IT ou rester substantif (ISA-CH 330)</a></li>
+    <li class="lvl2"><a href="#s5-2">5.2 Le modèle de procédure d'audit informatique</a></li>
+    <li class="lvl2"><a href="#s5-3">5.3 Recours à un spécialiste IT (ISA-CH 620)</a></li>
+  <li class="lvl1"><a href="#s6">6 · Interprétation des déficiences ITGC</a></li>
+    <li class="lvl2"><a href="#s6-1">6.1 Écart · déficience · déficit significatif (ISA-CH 265)</a></li>
+    <li class="lvl2"><a href="#s6-2">6.2 Conséquence d'ITGC déficients</a></li>
+    <li class="lvl2"><a href="#s6-3">6.3 Contrôles compensatoires &amp; leaver testing</a></li>
+  <li class="lvl1"><a href="#s7">7 · Data Analytics — typologie &amp; cycle</a></li>
+    <li class="lvl2"><a href="#s7-1">7.1 Le cycle DA en 5 étapes</a></li>
+    <li class="lvl2"><a href="#s7-2">7.2 Évaluation des risques vs procédure d'audit</a></li>
+    <li class="lvl2"><a href="#s7-3">7.3 Typologie par phase &amp; exemples d'analyses</a></li>
+  <li class="lvl1"><a href="#s8">8 · Extraction / transmission / fiabilité des données</a></li>
+    <li class="lvl2"><a href="#s8-1">8.1 Extraction : automatique vs manuelle</a></li>
+    <li class="lvl2"><a href="#s8-2">8.2 Transfert &amp; 4 risques de qualité</a></li>
+    <li class="lvl2"><a href="#s8-3">8.3 Exhaustivité, exactitude &amp; réconciliation</a></li>
+  <li class="lvl1"><a href="#s9">9 · Valeurs aberrantes / faux positifs</a></li>
+    <li class="lvl2"><a href="#s9-1">9.1 Définition &amp; arbre de décision</a></li>
+    <li class="lvl2"><a href="#s9-2">9.2 Faux positifs / faux négatifs</a></li>
+  <li class="lvl1"><a href="#s10">10 · IPE / EUC · rapports standard vs personnalisés</a></li>
+    <li class="lvl2"><a href="#s10-1">10.1 IPE &amp; EUC (ISA-CH 500.9)</a></li>
+    <li class="lvl2"><a href="#s10-2">10.2 Les 5 risques IPE &amp; réconciliation</a></li>
+    <li class="lvl2"><a href="#s10-3">10.3 Rapports standard vs personnalisés</a></li>
+  <li class="lvl1"><a href="#s11">11 · Journal Entry Testing (ISA-CH 240)</a></li>
+    <li class="lvl2"><a href="#s11-1">11.1 But &amp; obligation (management override)</a></li>
+    <li class="lvl2"><a href="#s11-2">11.2 Critères de sélection à risque</a></li>
+    <li class="lvl2"><a href="#s11-3">11.3 Intégralité des données &amp; exécution</a></li>
+  <li class="lvl1"><a href="#s12">12 · Sociétés de services &amp; externalisation</a></li>
+    <li class="lvl2"><a href="#s12-1">12.1 Le schéma SOC · CUEC / CSOC</a></li>
+    <li class="lvl2"><a href="#s12-2">12.2 SOC 1/2/3 · Type 1 vs Type 2</a></li>
+    <li class="lvl2"><a href="#s12-3">12.3 Gouvernance d'un service cloud · mesures de l'entité</a></li>
+    <li class="lvl2"><a href="#s12-4">12.4 Continuité &amp; résilience — BCM vs ORM (RTO/RPO)</a></li>
+  <li class="lvl1"><a href="#s13">13 · Cybersécurité</a></li>
+  <li class="lvl1"><a href="#s14">14 · Conservation électronique &amp; cadre suisse</a></li>
+  <li class="lvl1"><a href="#s15">15 · Arbre de décision global</a></li>
+  <li class="lvl1"><a href="#s16">16 · Faux amis / pièges d'examen</a></li>
+</ul>
+</nav>
+
+<!-- ============================================================
+     SECTION 1
+     ============================================================ -->
+<h1 id="s1">1 · L'IT dans l'audit — ISA-CH 315 (Révisée)</h1>
+<p class="chapo">Le mode de fonctionnement des entreprises repose sur des processus d'affaires
+<b>informatisés ou entièrement automatisés</b>. L'auditeur ne peut donc plus se prononcer sur les
+comptes sans <b>comprendre l'environnement informatique</b> qui produit et traite l'information
+financière. C'est l'objet de l'<b>ISA-CH 315 (Révisée)</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Si les transactions naissent, se calculent et se comptabilisent dans des systèmes, alors une
+  faiblesse du système devient une <b>source d'anomalie significative</b>. La norme oblige l'auditeur
+  à identifier <b>où l'informatique crée du risque</b> pour y répondre — soit en testant les contrôles
+  IT, soit en renforçant les contrôles de substance. Comprendre l'IT n'est pas une fin en soi :
+  c'est la condition pour <b>évaluer correctement le risque</b>.
+</div>
+
+<h2 id="s1-1">1.1 · Pourquoi l'IT pèse sur l'audit · risques liés à l'IT</h2>
+<p>L'informatique gagne en importance dans l'audit parce que <b>le fonctionnement même de l'entité
+auditée dépend de processus d'affaires informatisés ou automatisés</b> — et non parce que
+« l'extraction est rapide » ou qu'« on pourrait renoncer à contrôler les données d'entrée » (au
+contraire, plus c'est automatisé, plus les contrôles IT importent).</p>
+<table class="compare">
+  <thead><tr><th>Bénéfice d'un ERP</th><th>Risque d'audit corrélé</th></tr></thead>
+  <tbody>
+    <tr><td>Traitement automatisé, rapports précis et complets facilitant planification et prévisions</td><td>Un contrôle automatisé <b>mal conçu se trompe à chaque fois</b> (systématique, pas aléatoire)</td></tr>
+    <tr><td>Base de données centralisée, cohérence des flux</td><td><b>Changements non autorisés</b> apportés aux systèmes ou aux programmes</td></tr>
+    <tr><td>Accès multi-utilisateurs, séparation possible des tâches</td><td>Accès trop larges ; <b>tout utilisateur ne doit pas pouvoir passer des écritures</b></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Rôle de l'auditeur face à l'IT — ISA-CH 315 (Révisée) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — distracteurs classiques</div>
+  Ne sont <b>pas</b> de vraies raisons de l'importance de l'IT : « avec l'IT, plus aucune vérification
+  des données d'entrée n'est nécessaire » (faux), « la connexion de l'ERP du client à l'ERP de
+  l'auditeur » (fantaisiste). Le risque « les imprimantes ne fonctionnent pas » ou « des mesures de
+  sécurité <i>élevées</i> » ne sont pas des risques d'audit : une sécurité élevée <b>réduit</b> le
+  risque.
+</div>
+
+<h2 id="s1-2">1.2 · L'ISA-CH 315 (Révisée) · l'environnement informatique</h2>
+<p>La norme impose d'acquérir une connaissance de l'entité, de son système d'information et de son
+contrôle interne <b>y compris l'environnement informatique</b>, pour identifier et évaluer les risques
+d'anomalies significatives (RAS) au niveau des <b>assertions</b>.</p>
+<table class="compare">
+  <thead><tr><th>Apport de la version révisée</th><th>Contenu</th></tr></thead>
+  <tbody>
+    <tr><td><b>Environnement informatique</b> (déf.)</td><td>Applications informatiques + infrastructure (réseau, OS, bases de données, matériel/logiciels) + <b>processus informatiques</b> + <b>personnel</b> — pas seulement l'infrastructure</td></tr>
+    <tr><td>Risque inhérent (RI) et risque lié au contrôle (RC) <b>évalués séparément</b></td><td>Introduction de l'« échelle de risque inhérent » et des <b>facteurs de risque inhérent</b> : complexité, subjectivité, changement, incertitude, biais</td></tr>
+    <tr><td>Approche <b>ciblée</b> des applications</td><td>On n'examine que les applications <b>sujettes aux risques provenant du recours à l'informatique</b> (§2.4)</td></tr>
+    <tr><td>Contrôles sur les <b>écritures de journal</b></td><td>À comprendre (par. 26(a)(ii)) en lien avec la fraude — <b>ISA-CH 240</b> (§11)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 (Révisée), par. 25-26 &amp; Annexes 5-6 <span class="secondaire">SECONDAIRE</span></span>
+
+<div class="norme">
+  <div class="callout-titre">📌 Changement de norme — à connaître</div>
+  L'ISA-CH 315 (Révisée) s'applique aux exercices <b>ouverts dès le 15 décembre 2024</b> (comptes
+  <b>2025</b>), application anticipée possible. Parcours du nom : <b>NAS 315</b> (2013) →
+  <b>ISA-CH 315</b> (base ISA 2013) → <b>ISA-CH 315 (Révisée)</b> (base ISA <b>2019</b>). Les versions
+  <b>220R et 600R</b> entrent en vigueur en même temps. L'<b>ISQM-CH 1/2</b> remplace l'ISQC-CH 1 pour
+  les exercices ouverts dès le <b>15.12.2025</b> (d'ici là, ISQC-CH 1 reste en vigueur).
+</div>
+
+<h2 id="s1-3">1.3 · Les catégories de risques liés à l'IT</h2>
+<p>Les risques liés au recours à l'informatique se rangent selon les <b>domaines d'ITGC</b> qu'ils
+mettent en jeu :</p>
+<table>
+  <thead><tr><th>Catégorie de risque IT</th><th>Exemple concret</th></tr></thead>
+  <tbody>
+    <tr><td><b>Accès aux programmes et aux données</b></td><td>Droits trop larges, superutilisateur (SAP_ALL), séparation des tâches non respectée</td></tr>
+    <tr><td><b>Gestion des modifications</b> (changements)</td><td>Modification d'un programme mise en production sans test ni autorisation</td></tr>
+    <tr><td><b>Opérations informatiques</b></td><td>Traitement batch non surveillé, sauvegarde non testée</td></tr>
+    <tr><td><b>Développement / acquisition</b> de systèmes</td><td>Nouveau système ou reprise de données mal paramétré</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Catalogue des risques IT par domaine — ISA-CH 315 (Révisée), Annexe 6 <span class="secondaire">SECONDAIRE</span></span>
+<p>Deux grilles de lecture complètent l'analyse (support EXPERTsuisse) : la <b>complexité IT</b>
+(6 caractéristiques : automatisation, changement, personnalisation, modèle d'affaires, appui sur les
+rapports système, technologies émergentes) et les <b>dépendances IT</b> (5 types : contrôles
+automatisés, rapports, calculs, interfaces, sécurité/séparation des tâches). La question directrice
+reste : <b>« What could go wrong? »</b></p>
+
+<h2 id="s1-4">1.4 · Incidence sur le risque de contrôle</h2>
+<p>Un environnement IT bien maîtrisé <b>réduit</b> le risque de contrôle et permet à l'auditeur de
+<b>s'appuyer</b> sur les contrôles automatisés ; un environnement mal maîtrisé l'oblige à des
+<b>contrôles de substance</b> renforcés. C'est le fil conducteur de tout le module.</p>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'évaluation de l'environnement IT alimente le <b>risque de contrôle</b> du modèle du risque
+  (<i>Module 5 — Planification</i>, RA = RI × RC × RND). Elle débouche sur la <b>stratégie d'audit</b>
+  (§5, ISA-CH 330) et conditionne l'usage de la <b>Data Analytics</b> (§7). Les contrôles sur les
+  écritures de journal renvoient au <b>Journal Entry Testing</b> (§11, ISA-CH 240).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Pourquoi l'IT gagne-t-elle en importance dans l'audit ? (la <i>vraie</i> raison)</li>
+    <li>Quelle est la désignation actuelle de la norme sur l'identification des risques ? À partir de quel exercice ?</li>
+    <li>Que recouvre la notion d'« environnement informatique » selon la 315R (au-delà de l'infrastructure) ?</li>
+    <li><i>(Rappel Module 5)</i> Dans RA = RI × RC × RND, quelle composante l'environnement IT influence-t-il directement ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Parce que le fonctionnement de l'entité dépend de processus informatisés/automatisés. 2) <b>ISA-CH 315 (Révisée)</b>, exercices ouverts dès le <b>15.12.2024</b> (comptes 2025). 3) Applications + infrastructure + <b>processus informatiques</b> + <b>personnel</b>. 4) Le <b>risque de contrôle (RC)</b>.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 2
+     ============================================================ -->
+<h1 id="s2">2 · Comprendre le système d'information</h1>
+<p class="chapo">Avant d'évaluer les contrôles, l'auditeur cartographie <b>par où passe l'information
+financière</b> : quels progiciels, quelle architecture, quelles interfaces, quelles données. On ne
+peut tester que ce qu'on a d'abord compris.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Localiser les <b>systèmes et applications pertinents</b> pour les comptes permet de concentrer le
+  travail : inutile d'auditer toute l'informatique, seulement celle qui <b>porte un risque
+  d'anomalie significative</b>.
+</div>
+
+<h2 id="s2-1">2.1 · ERP, sous-systèmes &amp; données de base</h2>
+<p>Un <b>ERP</b> (Enterprise Resource Planning) représente les processus d'affaires autour d'une
+<b>base de données centrale</b> (Finance, Controlling, Production, RH, Logistique…). À distinguer :
+<b>SAP ERP</b> (transactionnel) vs <b>SAP BW</b> (Business Warehouse — analyses, tableaux de bord
+décisionnels). Un <b>sous-système</b> est une application périphérique (RH, gestion des stocks,
+consolidation, reporting IFRS).</p>
+<table class="compare">
+  <thead><tr><th>Les 5 données de base (Master Data)</th><th>Enjeu</th></tr></thead>
+  <tbody>
+    <tr><td>Articles / matériels · Fournisseurs · Clients · Comptes généraux · Collaborateurs</td>
+        <td>Base de <b>toute</b> transaction, utilisées par tous les modules ; qualité (pas de doublons) essentielle. Risque principal = <b>modification non autorisée</b> (p. ex. changement de relation bancaire d'un fournisseur)</td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — composants d'un ERP</div>
+  Sont des composants/modules d'un ERP : <b>Production</b>, comptabilité, logistique, RH… Ne le sont
+  <b>pas</b> : un « cybermodule », une « signature numérique » (fonction de sécurité, pas un module
+  ERP). Le poste de travail est du matériel, pas un module.
+</div>
+
+<h2 id="s2-2">2.2 · Le modèle en 4 couches</h2>
+<p>L'environnement IT s'analyse en <b>quatre niveaux empilés</b>, chacun porteur de risques et de
+contrôles :</p>
+<figure class="arbre-fig">
+<pre class="arbre">
+Modèle en couches (de haut en bas)
+│
+├─ 1. APPLICATION        ← progiciels financiers (SAP, Abacus, Oracle Financials…)
+│                          ► contrôles applicatifs (ITAC) + contrôles secondaires
+├─ 2. BASE DE DONNÉES    ← SQL, Oracle DB… (tables, intégrité des données)
+├─ 3. SYSTÈME D'EXPLOIT. ← Windows, Unix/Linux
+└─ 4. RÉSEAU / PHYSIQUE  ← infrastructure, connectivité
+        └─ couches 2-3-4 (+ accès/changements/opérations) = terrain des ITGC
+</pre>
+<figcaption>Arbre — l'environnement IT en 4 couches ; les ITAC vivent en couche 1, les ITGC soutiennent l'ensemble.</figcaption>
+</figure>
+<p>Un même contrôle applicatif (couche 1) n'est fiable que si les couches sous-jacentes sont
+maîtrisées : c'est <b>tout le lien ITGC → ITAC</b> (§3-4). Niveaux « pertinents » = ceux où réside le
+contrôle automatisé, ou où sont stockées les données servant au contrôle.</p>
+
+<h2 id="s2-3">2.3 · Interfaces &amp; infrastructure</h2>
+<table class="compare">
+  <thead><tr><th>Type d'interface</th><th>Transfert</th><th>Besoin de contrôles IT</th></tr></thead>
+  <tbody>
+    <tr><td><b>Manuelle</b></td><td>100 % humain (p. ex. ressaisie Excel)</td><td>Faible côté système, mais risque d'erreur humaine élevé</td></tr>
+    <tr><td><b>Semi-automatique</b></td><td>Transfert automatique, <b>lancé manuellement</b></td><td>Intermédiaire</td></tr>
+    <tr><td><b>Automatique</b></td><td>Échange auto (calendrier/événement) ; intégralité, exactitude et moment gérés par le système</td><td class="oui"><b>Élevé</b> — plus c'est automatique, plus il faut des ITGC</td></tr>
+  </tbody>
+</table>
+<p><b>Infrastructure</b> (Tool box EXPERTsuisse) : réseau (Ethernet / WLAN / 5G), serveurs (inhouse /
+cloud privé / cloud / hybride), services de base (Active Directory, sauvegarde), postes (propres /
+loués / <b>BYOD</b> + <b>MDM</b>). Protection minimale par <b>pare-feu</b>, accès externe par
+<b>VPN</b>. Les <b>sauvegardes</b> obéissent aux délais légaux de conservation
+<span class="ref-norme">Olico</span> <span class="primaire">PRIMAIRE</span> ; la restauration doit être
+<b>testée régulièrement</b> (une sauvegarde jamais restaurée n'a aucune valeur).</p>
+<p><b>Exemple SAP — modules &amp; couche de présentation.</b> Autour de la base de données centrale,
+chaque <b>module</b> (Achats, Ventes, Stocks, Finance…) alimente les autres : une <b>vente saisie
+dans le module opérationnel</b> déclenche automatiquement l'<b>écriture comptable dans le module
+financier « FI »</b> (Poste « Chiffre d'affaires » → Output « Factures », processus Vente). C'est
+une dépendance de type <b>interface</b> (cf. §1.3 et §2.4). Le <b>SAP GUI</b> n'est que
+l'<b>interface utilisateur</b> — la <b>couche de présentation</b> de la couche Application (§2.2) :
+on y saisit et on y lit, mais les contrôles et les données vivent <i>sous</i> cette surface.</p>
+<span class="ref-sous">SAP GUI = interface utilisateur (couche Application) · module <b>FI</b> = application
+financière du processus de vente <span class="secondaire">SECONDAIRE</span> · le sigle
+<b>« SD » (Sales &amp; Distribution)</b> n'apparaît pas dans le cours détaillé
+<span class="avalider">À VALIDER</span></span>
+
+<h2 id="s2-4">2.4 · Applications « pertinentes » pour l'audit</h2>
+<p>L'auditeur identifie uniquement les applications <b>sujettes aux risques provenant du recours à
+l'informatique</b>. Dès qu'il veut <b>s'appuyer</b> sur un contrôle applicatif ou sur des données
+produites par le système, il doit identifier et tester les <b>ITGC</b> correspondants.</p>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le modèle en couches structure les <b>ITGC</b> (§3) et les <b>contrôles applicatifs</b> (§4). Les
+  interfaces et données de base réapparaissent dans l'<b>extraction / fiabilité des données</b> (§8)
+  et l'<b>IPE</b> (§10). L'externalisation d'une couche mène aux <b>sociétés de services</b> (§12).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Citez les 4 couches du modèle, de haut en bas.</li>
+    <li>Quel type d'interface exige le plus de contrôles IT, et pourquoi ?</li>
+    <li>Citez 3 des 5 données de base ; quel est leur risque principal ?</li>
+    <li><i>(Espacement §1)</i> Pour s'appuyer sur un contrôle applicatif, que faut-il d'abord tester ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Application → Base de données → Système d'exploitation → Réseau/physique. 2) L'interface <b>automatique</b> (l'intégralité/exactitude sont gérées par le système). 3) p. ex. clients, fournisseurs, articles (aussi comptes généraux, collaborateurs) ; risque = <b>modification non autorisée</b>. 4) Les <b>ITGC</b> correspondants.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 3
+     ============================================================ -->
+<h1 id="s3">3 · ITGC — contrôles IT généraux</h1>
+<p class="chapo">Les <b>contrôles IT généraux</b> (ITGC / GITC) sont les contrôles de l'environnement
+informatique qui assurent une <b>exploitation sûre</b> des infrastructures, applications et données
+financières. Ils sont le <b>socle</b> sur lequel reposent les contrôles applicatifs.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Un contrôle applicatif automatisé n'est fiable dans la durée que si <b>personne ne peut le
+  contourner, le modifier sans autorisation, ni corrompre ses données</b>. Les ITGC garantissent
+  précisément cela : ils ne préviennent/détectent pas eux-mêmes une anomalie, mais <b>sans eux, on ne
+  peut pas se fier à l'automatisé</b>.
+</div>
+
+<h2 id="s3-1">3.1 · Définition &amp; rôle · ce que les ITGC ne font pas</h2>
+<p>Un <b>contrôle</b> = mesure technique/organisationnelle pour éviter, détecter ou corriger une
+erreur. Le <b>SCI</b> est l'ensemble de ces mesures, mis en œuvre par la direction (avec le CA), pour
+une assurance suffisante sur l'efficacité des opérations, la fiabilité du rapport financier et la
+conformité aux lois — cadre de référence <span class="ref-norme">COSO</span>
+<span class="primaire">PRIMAIRE</span>.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège central</div>
+  Les ITGC <b>n'empêchent pas directement</b> une anomalie significative dans les comptes. Mais des
+  ITGC <b>inefficaces</b> → les contrôles automatisés ne sont plus fiables → une anomalie peut passer
+  <b>inaperçue</b>. Retenir : <b>« ITGC déficient » n'implique pas « anomalie », mais interdit de
+  s'appuyer sur l'automatisé »</b> (voir §6 et §16). L'archivage, le plan de reprise et les contrôles
+  d'application <i>spécifiques</i> ne font pas partie des ITGC.
+</div>
+
+<h2 id="s3-2">3.2 · Les 5 domaines / 18 contrôles (Guide pratique EXPERTsuisse 2024)</h2>
+<p>Référentiel structurant du module — <b>Guide pratique « Contrôles IT généraux (ITGC) » du
+19.11.2024</b> :</p>
+<table>
+  <thead><tr><th>Code</th><th>Domaine</th><th>Contrôles</th></tr></thead>
+  <tbody>
+    <tr><td class="code">BE</td><td><b>Exploitation IT</b></td><td>BE-1 Gestion des incidents · BE-2 Sauvegardes · BE-3 Test de restauration</td></tr>
+    <tr><td class="code">AN</td><td><b>Contrôles secondaires d'application</b></td><td>AN-1 Mise à jour des données de base · AN-2 Planification/surveillance des traitements automatiques · AN-3 Protection des enregistrements</td></tr>
+    <tr><td class="code">ZU</td><td><b>Protection des accès</b></td><td>ZU-1 Authentification · ZU-2 Administration des droits · ZU-3 Contrôle des droits · ZU-4 Comptes impersonnels · ZU-5 Restriction des fonctions IT privilégiées</td></tr>
+    <tr><td class="code">SI</td><td><b>Sécurité physique et IT</b></td><td>SI-1 Accès physique · SI-2 Protection anti-logiciels malveillants · SI-3 Protection &amp; segmentation du réseau</td></tr>
+    <tr><td class="code">CM</td><td><b>Change Management</b></td><td>CM-1 Séparation développement/production · CM-2 Tests des changements · CM-3 Mise en service (autorisation) · CM-4 Tests de migration des données</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Guide pratique EXPERTsuisse ITGC, 19.11.2024 <span class="secondaire">SECONDAIRE</span> · appui NAS-CH 890 / MSA III.3.11</span>
+<p>Chaque contrôle se documente par : le <b>Contrôle</b> + son <b>Objectif</b> + les <b>Preuves
+possibles</b> (directives, descriptions de processus, listes, procès-verbaux).</p>
+
+<h2 id="s3-3">3.3 · Les 3 processus d'ITGC de la 315R · le rôle de la NAS-CH 890</h2>
+<p>L'<b>Annexe 6 de l'ISA-CH 315 (Révisée)</b> regroupe les ITGC en <b>trois processus</b> — grille à
+connaître en parallèle des 5 domaines EXPERTsuisse :</p>
+<table class="compare">
+  <thead><tr><th>Processus (315R, Annexe 6)</th><th>Contenu</th><th>≈ domaines EXPERTsuisse</th></tr></thead>
+  <tbody>
+    <tr><td><b>Gestion des accès</b></td><td>Authentification, autorisation, attribution/révocation, accès privilégié, revue des accès, accès physique</td><td>ZU, SI</td></tr>
+    <tr><td><b>Gestion des changements</b></td><td>Change management, séparation dev/prod, <b>développement/acquisition</b> des systèmes, conversion des données</td><td>CM</td></tr>
+    <tr><td><b>Gestion des opérations IT</b></td><td>Planification des travaux (batch), suivi, sauvegarde/récupération, détection des intrusions</td><td>BE (, AN)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 (Révisée), Annexe 6 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — le 3ᵉ domaine &amp; le développement</div>
+  Le troisième processus est <b>« opérations IT »</b>, pas « développement ». Le
+  <b>développement/acquisition</b> de systèmes est rangé <b>sous la gestion des changements</b>. Erreur
+  d'examen fréquente.
+</div>
+<div class="norme">
+  <div class="callout-titre">📌 Changement de norme — NAS-CH 890 ≠ norme des ITGC</div>
+  La <b>NAS-CH 890</b> existe toujours en 2026, mais elle régit la <b>confirmation de l'existence du
+  SCI</b> <span class="ref-norme">art. 728a al. 1 ch. 3 CO</span> <span class="primaire">PRIMAIRE</span> —
+  <b>pas</b> le détail des ITGC. Depuis la 315R, les ITGC sont portés par l'<b>ISA-CH 315 (Révisée)
+  (Annexe 6) + le Guide EXPERTsuisse</b>. Les deux coexistent : la 890 n'a <b>pas</b> été absorbée par
+  la 315R. (Le support emploie tantôt « NAS 890 », « NAS-CH 890 », « NA-CH 890 » : même norme.)
+</div>
+
+<h2 id="s3-4">3.4 · Existence vs efficacité du SCI</h2>
+<table class="compare">
+  <thead><tr><th></th><th>Existence (Design &amp; Implementation)</th><th>Efficacité opérationnelle (durable)</th></tr></thead>
+  <tbody>
+    <tr><td>Question</td><td>Le SCI est-il conçu et mis en place à une <b>date</b> donnée ?</td><td>A-t-il fonctionné <b>tout au long</b> de la période ?</td></tr>
+    <tr><td>Obligation légale</td><td class="oui">Oui — vérification de l'<b>existence</b> (art. 728a al. 1 ch. 3 CO / NAS-CH 890)</td><td>Seulement si l'auditeur veut <b>s'appuyer</b> sur le SCI</td></tr>
+    <tr><td>Type d'audit IT</td><td>Sans ITAC identifié → audit « NAS-CH 890 » (existence seule)</td><td>Avec ITAC identifié → <b>approche basée sur l'informatique</b> (D&amp;I + efficacité)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">art. 728a al. 1 ch. 3 CO <span class="primaire">PRIMAIRE</span> · NAS-CH 890 <span class="secondaire">SECONDAIRE</span></span>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'existence du SCI (contrôle ordinaire) prolonge le <b>Module 5</b> (art. 728a CO). Les 5 domaines
+  d'ITGC soutiennent les <b>contrôles applicatifs</b> (§4). Leur test conditionne la <b>stratégie
+  d'audit</b> (§5) ; leurs déficiences se traitent au §6.
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Citez les 5 domaines d'ITGC du Guide EXPERTsuisse (codes BE/AN/ZU/SI/CM).</li>
+    <li>Quel est le 3ᵉ processus d'ITGC de la 315R, et où est rangé le développement de systèmes ?</li>
+    <li>La NAS-CH 890 est-elle la norme des ITGC ? Que régit-elle ?</li>
+    <li><i>(Espacement §1)</i> Un ITGC déficient prouve-t-il qu'il y a une anomalie dans les comptes ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Exploitation IT · contrôles secondaires d'application · protection des accès · sécurité physique &amp; IT · Change Management. 2) <b>Opérations IT</b> ; le développement est sous la <b>gestion des changements</b>. 3) <b>Non</b> — elle régit la <b>vérification de l'existence du SCI</b> (art. 728a al. 1 ch. 3 CO) ; les ITGC relèvent de la 315R + Guide EXPERTsuisse. 4) <b>Non</b> — mais il interdit de s'appuyer sur les contrôles automatisés.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 4
+     ============================================================ -->
+<h1 id="s4">4 · Contrôles applicatifs · ITGC vs applicatifs</h1>
+<p class="chapo">Les <b>contrôles applicatifs</b> agissent au niveau d'une application, sur une
+transaction ou un traitement précis (saisie, calcul, restitution). Les distinguer des <b>ITGC</b> —
+et comprendre leur dépendance mutuelle — est <b>le</b> point d'examen du module.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Un contrôle applicatif bien conçu, s'il tourne sur un environnement IT sain, offre une assurance
+  <b>très économique</b> : testé une fois (« test of one »), il vaut pour toute la période. Encore
+  faut-il que les <b>ITGC</b> garantissent qu'il n'a pas été modifié ni contourné.
+</div>
+
+<h2 id="s4-1">4.1 · Typologie : TYPE × OBJECTIF</h2>
+<p>Deux axes se croisent. <b>Par le TYPE</b> (degré d'automatisation) et <b>par l'OBJECTIF</b> (moment
+d'action) :</p>
+<table class="compare">
+  <thead><tr><th>Par le TYPE</th><th>Définition</th><th>Dépend des ITGC ?</th></tr></thead>
+  <tbody>
+    <tr><td><b>Contrôle manuel</b></td><td>100 % humain, sans appui sur l'environnement IT</td><td class="non">Non</td></tr>
+    <tr><td><b>ITDM</b> (manuel dépendant de l'IT)</td><td>(1) contrôle manuel utilisant une info produite par une application ; (2) activité applicative nécessitant une action manuelle (approbation, rapprochement, revue d'un message d'erreur)</td><td class="oui">Oui</td></tr>
+    <tr><td><b>ITAC</b> (contrôle applicatif automatisé)</td><td>Autonome et programmé ; s'il est correct une fois, il agit toujours pareil</td><td class="oui">Oui — pleinement</td></tr>
+  </tbody>
+</table>
+<table class="compare">
+  <thead><tr><th>Par l'OBJECTIF</th><th>Rôle</th></tr></thead>
+  <tbody>
+    <tr><td><b>Préventif</b></td><td>Empêcher l'information erronée <i>avant</i> qu'elle se produise (p. ex. blocage de saisie)</td></tr>
+    <tr><td><b>Détectif</b></td><td>Identifier et corriger l'information erronée <i>après</i> (p. ex. rapprochement)</td></tr>
+  </tbody>
+</table>
+<p>Les <b>5 sous-types d'ITAC</b> : <b>Edit checks</b> · <b>Validations</b> (p. ex. three-way-match) ·
+<b>Calculations</b> · <b>Interfaces</b> · <b>Authorizations</b>. Échelle de fiabilité décroissante :
+préventif automatisé &gt; détectif basé système &gt; préventif manuel &gt; <b>détectif manuel</b> (le moins
+fiable).</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — l'attribution des droits n'est pas un ITAC</div>
+  L'<b>attribution des droits d'accès</b> n'est pas une « configuration » applicative : c'est un ITGC
+  (domaine <b>accès</b>). Ne pas la classer parmi les contrôles applicatifs automatisés.
+</div>
+
+<h2 id="s4-2">4.2 · Le tableau ITGC vs contrôles applicatifs ⭐</h2>
+<table class="compare">
+  <thead><tr><th>Critère</th><th>ITGC (contrôles généraux)</th><th>Contrôles applicatifs (ITAC)</th></tr></thead>
+  <tbody>
+    <tr><td>Portée</td><td><b>Tout l'environnement IT</b> (transversal, plusieurs applications)</td><td><b>Une application / un traitement</b> précis</td></tr>
+    <tr><td>Objet</td><td>Accès, changements, opérations, développement</td><td>Saisie (input), traitement, restitution (output) d'une transaction</td></tr>
+    <tr><td>Effet sur une anomalie</td><td class="non">Indirect — ne prévient/détecte pas lui-même l'anomalie</td><td class="oui">Direct — prévient/détecte l'anomalie sur la transaction</td></tr>
+    <tr><td>Exemple</td><td>Gestion des droits d'accès, change management, sauvegardes</td><td>Three-way-match, contrôle de cohérence de saisie, calcul automatique de TVA</td></tr>
+    <tr><td>Dépendance</td><td>Socle : conditionne la fiabilité des ITAC</td><td class="non">S'effondre si les ITGC sous-jacents sont déficients</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 315 (Révisée) · Guide EXPERTsuisse ITGC 2024 <span class="secondaire">SECONDAIRE</span></span>
+<figure class="arbre-fig">
+<pre class="arbre">
+Peut-on s'appuyer sur un contrôle applicatif automatisé (ITAC) ?
+│
+├─ Les ITGC sous-jacents sont-ils EFFICACES ? ─── NON ─▶ NON : l'ITAC n'est pas fiable
+│   (accès · changements · opérations)                    ► renforcer les contrôles de substance
+│
+└─ OUI
+     │
+     └─ L'ITAC a-t-il été modifié pendant la période ? ─ OUI ─▶ re-tester (pas de « test of one »)
+             │
+             └─ NON ─▶ « TEST OF ONE » : un seul test suffit pour toute la période
+</pre>
+<figcaption>Arbre — condition d'appui sur un contrôle applicatif automatisé.</figcaption>
+</figure>
+
+<h2 id="s4-3">4.3 · « Test of one » &amp; walk-through</h2>
+<p>Un ITAC, étant déterministe, peut être testé par un <b>« test of one »</b> : un seul cas
+correctement traité prouve l'efficacité <b>pour toute la période</b>, à deux conditions — (1) les
+<b>ITGC</b> sous-jacents fonctionnent, (2) le contrôle n'a <b>pas été modifié</b> durant la période.
+Le <b>walk-through</b> (test de cheminement) suit une transaction de bout en bout pour confirmer la
+<b>conception et la mise en œuvre</b> ; il <b>ne teste pas l'efficacité durable</b>. La vérification de
+l'efficacité opérationnelle suit l'<span class="ref-norme">ISA-CH 330</span>
+<span class="secondaire">SECONDAIRE</span> : demande d'informations <b>+</b> inspection/réexécution
+<b>+</b> observation — la <b>demande d'informations seule ne suffit jamais</b>.</p>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le walk-through est l'étape 4 du <b>modèle de procédure d'audit informatique</b> (§5). La fiabilité
+  des ITAC dépend des <b>ITGC</b> (§3) ; leur défaillance se traite au §6. Le three-way-match
+  (validation) reparaît en <b>Data Analytics</b> (§7).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Différence entre un ITGC et un contrôle applicatif ? Donnez un exemple de chaque.</li>
+    <li>Qu'est-ce qu'un contrôle ITDM ? Dépend-il des ITGC ?</li>
+    <li>À quelles conditions un « test of one » suffit-il ?</li>
+    <li><i>(Espacement §3)</i> Le walk-through teste-t-il l'efficacité durable d'un contrôle ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) ITGC = transversal, indirect (p. ex. gestion des accès) ; applicatif = sur une transaction, direct (p. ex. three-way-match). 2) Contrôle manuel s'appuyant sur une info produite par l'IT (ou activité applicative avec action manuelle) ; <b>oui</b>, il dépend des ITGC. 3) ITGC efficaces <b>et</b> aucune modification du contrôle durant la période. 4) <b>Non</b> — seulement conception + mise en œuvre.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 5
+     ============================================================ -->
+<h1 id="s5">5 · Stratégie d'audit &amp; IT · recours au spécialiste</h1>
+<p class="chapo">Une fois l'environnement IT compris et les contrôles identifiés, l'auditeur choisit
+<b>sa réponse</b> : tester les contrôles IT pour s'appuyer dessus, ou rester <b>substantif</b>. Ce
+choix suit l'<b>ISA-CH 330</b> et s'appuie souvent sur un <b>spécialiste IT</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Tester les contrôles IT n'a de sens que si l'auditeur veut <b>réduire ses contrôles de substance</b>
+  en s'appuyant sur eux. Sinon, une approche <b>purement substantive</b> peut être plus efficiente.
+  La stratégie doit être fixée <b>tôt</b>, car tester les ITGC exige de le faire <b>avant l'audit des
+  comptes annuels</b>.
+</div>
+
+<h2 id="s5-1">5.1 · Tester les contrôles IT ou rester substantif (ISA-CH 330)</h2>
+<table class="compare">
+  <thead><tr><th>Situation</th><th>Réponse d'audit</th></tr></thead>
+  <tbody>
+    <tr><td>Forte dépendance aux processus IT + volonté de s'<b>appuyer</b> sur l'automatisé</td><td class="oui">Tester les <b>ITGC + ITAC</b> (approche basée sur l'informatique) ; efficacité opérationnelle</td></tr>
+    <tr><td>ITGC déficients / faible dépendance / test non rentable</td><td>Approche <b>substantive</b> renforcée (+ Data Analytics, §7)</td></tr>
+    <tr><td>Contrôle automatisé stable, ITGC solides</td><td>« <b>Test of one</b> » + éventuel <b>benchmarking</b> du contrôle automatisé sur plusieurs exercices</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 330 (réponses de l'auditeur aux risques évalués) <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s5-2">5.2 · Le modèle de procédure d'audit informatique</h2>
+<figure class="arbre-fig">
+<pre class="arbre">
+Modèle de procédure d'audit informatique (étapes)
+│
+1. Analyse du bilan / compte de résultat (domaines significatifs)
+2. Identification des processus &amp; flux de données
+3. Applications de base + interfaces (systèmes pertinents)
+4. Risques &amp; contrôles-clés
+5. WALK-THROUGH (test de cheminement)
+6. Évaluation de la CONCEPTION des contrôles
+7. Évaluation de l'EFFICACITÉ de mise en œuvre
+        └─▶ Appréciation globale → risque de contrôle → étendue des contrôles de substance
+</pre>
+<figcaption>Arbre — de l'analyse des comptes à la conclusion sur le risque de contrôle.</figcaption>
+</figure>
+<p>La démarche est <b>descendante</b> : on part des postes significatifs des comptes, on remonte aux
+processus, puis aux applications et contrôles — on n'audite jamais « l'informatique en général ».</p>
+<table class="compare">
+  <thead><tr><th>Modèle de procédure — 4 couches « métier »</th><th>Contrôles qui s'y logent</th></tr></thead>
+  <tbody>
+    <tr><td><b>1. Processus d'affaires</b> (processus manuels pertinents)</td><td>Contrôles manuels · base du modèle des contrôles applicatifs</td></tr>
+    <tr><td><b>2. Applications</b> (éléments automatisés / applications IT)</td><td>Contrôles applicatifs automatisés (ITAC) · ITDM</td></tr>
+    <tr><td><b>3. Systèmes de base</b> (SGBD SQL/Oracle, SAP Basis, middleware — BD + OS)</td><td class="oui">ITGC (modèle d'analyse des risques IT)</td></tr>
+    <tr><td><b>4. Infrastructure IT</b> (matériel, réseau, surveillance technique)</td><td class="oui">ITGC</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Modèle de procédure d'audit IT, 4 couches métier <span class="secondaire">SECONDAIRE</span></span>
+<p>C'est le <b>même empilement</b> que le modèle <i>Application → Base de données → OS → Réseau</i>
+du §2.2, présenté sous l'angle de la <b>procédure</b> : les <b>2 couches basses</b> (systèmes de base
++ infrastructure) sont le <b>terrain des ITGC</b>, les 2 couches hautes celui des contrôles
+applicatifs. Deux présentations d'une seule et même pile.</p>
+<p>Le support (podcast EXPERTsuisse, Module 6 Partie 7) nomme <b>4 phases</b> — ce sont les quatre
+intitulés de ses sections :</p>
+<table class="compare">
+  <thead><tr><th>Phase (nom du support)</th><th>Étapes</th></tr></thead>
+  <tbody>
+    <tr><td><b>I · Planification &amp; identification des risques</b></td><td>1-3 (processus &amp; flux · applications &amp; interfaces · risques &amp; contrôles-clés)</td></tr>
+    <tr><td><b>II · Stratégie &amp; évaluation des risques</b></td><td>4-5 (walk-through · évaluation de la <i>conception</i>)</td></tr>
+    <tr><td><b>III · Manifestation / mise en œuvre</b></td><td>6 (évaluation de l'<i>efficacité</i> opérationnelle)</td></tr>
+    <tr><td><b>IV · Conclusion &amp; rapport d'audit</b></td><td>7 (appréciation globale → risque de contrôle)</td></tr>
+  </tbody>
+</table>
+<div class="norme">
+  <div class="callout-titre">📌 4 phases, mais un résumé en cite 3</div>
+  Le support énonce <b>4 phases nommées</b> (I-IV ci-dessus) ; c'est le décompte à retenir. Attention :
+  une <b>phrase de résumé</b> du même podcast regroupe les étapes 4-6 en une seule phase, ce qui donne
+  alors <b>3 phases</b> (1-3 / 4-6 / 7) — découpage alternatif défendable. Ne pas confondre les
+  <b>phases</b> (4) avec les <b>7 étapes</b>.
+</div>
+
+<h2 id="s5-3">5.3 · Recours à un spécialiste IT (ISA-CH 620)</h2>
+<p>Quand l'environnement IT est complexe, l'auditeur recourt à un <b>spécialiste</b>
+<span class="ref-norme">ISA-CH 620</span> <span class="secondaire">SECONDAIRE</span> — mais la
+<b>responsabilité de l'opinion reste à l'auditeur financier</b>.</p>
+<table class="compare">
+  <thead><tr><th>Condition (ISA-CH 620)</th><th>Détail</th></tr></thead>
+  <tbody>
+    <tr><td><b>Objectivité</b></td><td>Mêmes exigences d'indépendance que l'équipe d'audit</td></tr>
+    <tr><td><b>Compétence / aptitudes</b></td><td>Profil type : expérience en IT Assurance/Risk Advisory + certifications <b>CISA et CISM</b></td></tr>
+    <tr><td><b>Implication précoce</b></td><td>Associé à la <b>planification</b> ; ses dossiers = documentation d'audit à revoir et comprendre</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 620, par. 7 ss / 9 / 10-11 <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — le choix ne dépend pas de la taille</div>
+  Le recours au spécialiste dépend de la <b>nature et de la complexité de l'environnement IT</b>, pas
+  de la taille de l'entreprise. Et il ne <b>transfère jamais</b> la responsabilité : l'auditeur reste
+  responsable de l'opinion.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La stratégie découle de l'évaluation des risques IT (§1) et du test des ITGC/ITAC (§3-4). Un
+  résultat déficient fait basculer vers le substantif (§6) et vers la <b>Data Analytics</b> (§7). Le
+  benchmarking prolonge le « test of one » (§4).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quand décide-t-on de tester les contrôles IT plutôt que de rester substantif ?</li>
+    <li>Pourquoi faut-il tester les ITGC avant l'audit des comptes annuels ?</li>
+    <li>Le recours à un spécialiste IT transfère-t-il la responsabilité de l'opinion ? De quoi dépend-il ?</li>
+    <li><i>(Espacement §4)</i> Quelle étape du modèle de procédure correspond au walk-through ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Lorsqu'on veut <b>s'appuyer</b> sur les contrôles automatisés pour réduire le substantif. 2) Pour pouvoir mettre en place les contrôles réducteurs si les ITGC se révèlent inefficaces. 3) <b>Non</b>, la responsabilité reste à l'auditeur ; le recours dépend de la <b>complexité de l'environnement IT</b>. 4) L'étape 5.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 6
+     ============================================================ -->
+<h1 id="s6">6 · Interprétation des déficiences ITGC</h1>
+<p class="chapo">Un test d'ITGC qui échoue ne clôt pas l'audit : il faut <b>qualifier</b> la faiblesse
+(écart, déficience, déficit significatif), en mesurer la <b>conséquence</b> sur l'appui aux contrôles
+applicatifs, et décider des <b>mesures</b> (contrôles compensatoires, substance, communication).</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Toutes les faiblesses ne se valent pas. Distinguer un simple <b>écart</b> d'un <b>déficit
+  significatif</b> évite deux erreurs symétriques : dramatiser un incident isolé, ou négliger une
+  faille structurelle qui prive l'auditeur de tout appui sur l'automatisé.
+</div>
+
+<h2 id="s6-1">6.1 · Écart · déficience · déficit significatif (ISA-CH 265)</h2>
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Définition</th></tr></thead>
+  <tbody>
+    <tr><td><b>Écart</b> (deviation)</td><td>Un ou plusieurs manquements empêchant de prévenir/déceler une erreur significative. <i>Un écart ne constitue pas toujours une déficience — mais y conduit généralement.</i></td></tr>
+    <tr><td><b>Déficience</b> (control deficiency)</td><td>Contrôle conçu/mis en œuvre de façon à <b>ne pas</b> prévenir/détecter/corriger en temps utile, ou contrôle <b>absent</b></td></tr>
+    <tr><td><b>Déficit significatif</b></td><td>Déficience (ou cumul) suffisamment importante pour mériter l'<b>attention des responsables de la gouvernance</b></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 265.6(a) (communication des déficiences du contrôle interne) <span class="secondaire">SECONDAIRE</span></span>
+<div class="norme">
+  <div class="callout-titre">📌 Forme de la communication — ISA-CH 265</div>
+  Un <b>déficit significatif</b> se communique <b>par écrit</b>, en temps utile, aux
+  <b>responsables de la gouvernance</b> et à la <b>direction</b> (les déficiences moindres pouvant
+  l'être oralement). <span class="avalider">À VALIDER</span> — la <b>forme écrite</b> relève du
+  standard d'examen <span class="ref-norme">ISA-CH 265</span> mais n'est <b>pas explicitée dans le
+  cours détaillé</b>, qui ne mobilise l'<span class="ref-norme">ISA-CH 265.6(a)</span> que pour la
+  <i>définition</i> des notions. À confirmer sur ton support.
+</div>
+
+<h2 id="s6-2">6.2 · Conséquence d'ITGC déficients</h2>
+<p>Des ITGC inefficaces rejaillissent sur la <b>qualité des données</b> et l'<b>appui</b> sur
+l'automatisé. Les <b>4 risques liés à la qualité des données</b> :</p>
+<table>
+  <thead><tr><th>Risque</th><th>Où</th><th>ITGC pertinents ?</th></tr></thead>
+  <tbody>
+    <tr><td><b>Data Input Risk</b></td><td>Saisie</td><td>Influencé indirectement</td></tr>
+    <tr><td><b>Data Integrity Risk</b></td><td>Traitement</td><td class="oui">Oui</td></tr>
+    <tr><td><b>Data Extraction Risk</b></td><td>Téléchargement par le client</td><td class="oui">Oui</td></tr>
+    <tr><td><b>Data Manipulation Risk</b></td><td>Manipulation par le client</td><td>Contrôles complémentaires</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Support EXPERTsuisse (exercices GITC) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — déficient ≠ anomalie, mais…</div>
+  Un ITGC déficient <b>n'établit pas</b> qu'il y a une anomalie dans les comptes ; en revanche il
+  <b>interdit de se fier</b> aux contrôles automatisés et à l'exhaustivité/exactitude des données
+  extraites → sans mesures supplémentaires, on ne peut pas non plus s'appuyer sur les analyses de
+  données (§7-8).
+</div>
+
+<h2 id="s6-3">6.3 · Contrôles compensatoires &amp; leaver testing</h2>
+<p>Cinq options face à une faiblesse d'ITGC : (1) procédures d'audit supplémentaires ; (2) contrôles
+<b>compensatoires</b> ; (3) tests répétés des contrôles automatisés ; (4) vérification d'autres
+contrôles manuels des finances ; (5) <b>réévaluation</b> de l'appréciation combinée des risques.</p>
+<p>Un <b>contrôle compensatoire</b> n'élimine pas la faiblesse mais en <b>minimise le risque</b> ; il
+s'évalue comme tout contrôle (conception + efficacité opérationnelle)
+<span class="ref-norme">ISA-CH 330.17</span> <span class="secondaire">SECONDAIRE</span>. Exemple type,
+le <b>leaver testing</b> : vérifier qu'un collaborateur parti n'a plus de compte actif ni de
+connexion après son départ, et qu'il n'a pas saisi d'écriture à incidence financière.</p>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — compensatoire ≠ préventif d'accès</div>
+  Pour un accès administrateur <b>déjà accordé à tort</b>, le seul contrôle compensatoire valable est
+  la <b>vérification substantielle des journaux (logs)</b> — s'assurer que l'accès n'a pas eu
+  d'incidence financière. Renforcer <i>a posteriori</i> les contrôles préventifs d'accès ne
+  « compense » pas l'accès déjà ouvert.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La qualification des déficiences prolonge l'appréciation SCI du <b>Module 5</b> (ISA-CH 265). Les
+  4 risques de qualité des données commandent la <b>fiabilité des données</b> (§8) et l'<b>IPE</b>
+  (§10). La réévaluation combinée renvoie à la <b>stratégie</b> (§5) ; la communication à la
+  gouvernance, au <b>Module 9</b> (rapport).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Distinguez « écart », « déficience » et « déficit significatif ».</li>
+    <li>Un ITGC déficient prouve-t-il une anomalie ? Quelle en est la vraie conséquence ?</li>
+    <li>Pour un accès admin accordé à tort, quel contrôle compensatoire est valable ?</li>
+    <li><i>(Espacement §4)</i> Si les ITGC sont inefficaces, peut-on encore faire un « test of one » sur l'ITAC ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Écart = manquement ponctuel (pas toujours une déficience) ; déficience = contrôle inapte ou absent ; déficit significatif = mérite l'attention de la gouvernance. 2) <b>Non</b> — mais il interdit de s'appuyer sur l'automatisé et sur l'exhaustivité/exactitude des données. 3) La <b>vérification substantielle des journaux (logs)</b>. 4) <b>Non</b> — le « test of one » suppose des ITGC efficaces.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 7
+     ============================================================ -->
+<h1 id="s7">7 · Data Analytics — typologie &amp; cycle</h1>
+<p class="chapo">La <b>Data Analytics (DA)</b> exploite les données de l'entité — souvent la
+<b>population entière</b> plutôt qu'un échantillon — à chaque stade de l'audit. Les NA-CH ne
+l'imposent ni ne l'interdisent : elle est <b>transversale</b> aux catégories d'ISA (tests de
+contrôles, de substance, procédures analytiques).</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Analyser <b>100 % des transactions</b> concentre l'attention là où le risque est réel (valeurs
+  aberrantes, écritures inhabituelles) au lieu de projeter un échantillon. La DA <b>oriente</b> le
+  risque et <b>exécute</b> des procédures — mais elle ne remplace pas le jugement : une couverture de
+  100 % de la population n'est pas une assurance de 100 % (§16).
+</div>
+
+<p><b>Facteurs qui conditionnent une analyse de données.</b> Le choix et le déroulement d'une DA
+dépendent de <b>quatre familles de facteurs</b> :</p>
+<table class="compare">
+  <thead><tr><th>Famille</th><th>Facteurs déterminants</th></tr></thead>
+  <tbody>
+    <tr><td><b>Le client</b></td><td>Environnement IT ; volonté et capacité de fournir les données ; <b>volume et qualité</b> des données</td></tr>
+    <tr><td><b>Les outils</b></td><td>Complexité ; <b>redevances de licence</b> ; <b>capacité des serveurs / du stockage</b></td></tr>
+    <tr><td><b>L'expert-comptable</b></td><td>Connaissance des outils ; facteur <b>temps</b> ; recours à des experts DA</td></tr>
+    <tr><td><b>Les prescriptions légales</b></td><td>Normes d'audit ; <b>protection des données</b></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Facteurs de faisabilité d'une DA — support EXPERTsuisse (podcasts DA) <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s7-1">7.1 · Le cycle DA en 5 étapes</h2>
+<figure class="arbre-fig">
+<pre class="arbre">
+Cycle Data Analytics
+│
+1. PLANIFICATION      ← définir l'objectif, l'hypothèse, la population
+2. EXTRACTION         ← auto (SAP) ou manuelle (Abacus) — §8
+3. TRAITEMENT         ← mapping des comptes aux processus, granularité
+4. ANALYSE & REPORTING← stratification, outliers, procédures analytiques
+5. CONCLUSION         ← corroboration, documentation, suite d'audit
+</pre>
+<figcaption>Arbre — les 5 étapes du processus de Data Analytics.</figcaption>
+</figure>
+
+<h2 id="s7-2">7.2 · Évaluation des risques vs procédure d'audit</h2>
+<p>Une <b>même</b> analyse peut servir à deux fins distinctes — distinction très testée :</p>
+<table class="compare">
+  <thead><tr><th>Usage</th><th>Quand</th><th>Exemple</th></tr></thead>
+  <tbody>
+    <tr><td><b>Évaluation des risques</b></td><td>Planification (ISA-CH 300 ss / 315)</td><td>Analyse du grand livre pour cibler les comptes à risque, <b>stratifier</b> la population, formuler la stratégie</td></tr>
+    <tr><td><b>Procédure d'audit</b> (substantive)</td><td>Réalisation</td><td>Test de détail (3-way-match rejoué, écritures au crédit) ou <b>procédure analytique substantive</b> (ISA-CH 520)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 300 ss / 315 (évaluation des risques) · ISA-CH 500 ss (tests de détail) · ISA-CH 520 (procédures analytiques) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — analytique ≠ test de détail</div>
+  Une <b>procédure analytique</b> (ISA-CH 520 : construire une <i>attente</i> et mesurer l'écart) n'est
+  pas un <b>test de détail</b> (vérifier des pièces une à une). Une même donnée traitée en DA peut
+  relever de l'un ou de l'autre selon l'<b>objectif</b>.
+</div>
+
+<h2 id="s7-3">7.3 · Typologie par phase &amp; exemples d'analyses</h2>
+<table>
+  <thead><tr><th>Phase d'usage</th><th>Norme pivot</th><th>Exemples d'analyses</th></tr></thead>
+  <tbody>
+    <tr><td>Exploratoire / planification</td><td>ISA-CH 210 · 300 ss · 315</td><td>Données publiques (notations) + internes ; process mining des livres auxiliaires ; stratification</td></tr>
+    <tr><td>Tests de détail (substantifs)</td><td>ISA-CH 500 ss</td><td>3-way-match rejoué, mutations de données de base, limites de crédit, écritures au crédit</td></tr>
+    <tr><td>Procédures analytiques substantives</td><td>ISA-CH 520</td><td>CA / marges / créances comparés (N-1, pays, produit) ; attente + seuil de tolérance</td></tr>
+    <tr><td>Procédures finales (achèvement)</td><td>ISA-CH 520 §6 · 330 §25</td><td>Corroboration des conclusions, évaluation globale des états financiers</td></tr>
+  </tbody>
+</table>
+<p>Familles d'analyses (complexité croissante) : <b>Descriptive → Diagnostic → Predictive →
+Prescriptive</b>. Exemples récurrents : <b>three-way-match</b> (facture / réception / commande),
+<b>récalcul de masse</b> (amortissements rejoués et comparés au livre auxiliaire), <b>stratification</b>
+(tranches de risque), <b>process mining</b> (reconstruction des processus via les <i>event logs</i>),
+<b>mapping</b> (affectation des comptes aux processus P2P/O2C…), <b>predictive analytics</b>
+(prévision par Data Mining).</p>
+<div class="norme">
+  <div class="callout-titre">📌 Définition — Big Data <span class="avalider">À VALIDER</span></div>
+  <b>Big Data</b> = ensembles de données trop volumineux, trop rapides ou trop variés pour les outils
+  classiques. On les caractérise par les « <b>V</b> » : <b>Volume</b> (masse de données), <b>Vélocité</b>
+  (vitesse de production et de traitement) et <b>Variété</b> (formats hétérogènes : structurés,
+  semi- et non structurés) — souvent complétés par la <b>Véracité</b> (fiabilité des données) et la
+  <b>Valeur</b> (utilité extraite). <span class="avalider">À VALIDER</span> : notion de culture générale
+  IT, <b>non développée dans tes supports de cours</b> — à confirmer sur ton support si elle est au programme.
+</div>
+<div class="norme">
+  <div class="callout-titre">📌 Assertions visées par une analyse de données</div>
+  Utilisée comme <b>procédure substantive</b>, une DA apporte des éléments probants sur des
+  <b>assertions précises</b> : un <b>three-way-match</b> ou un test des écritures teste la <b>réalité /
+  exactitude</b> des opérations ; un <b>récalcul de masse</b> (amortissements rejoués) teste
+  l'<b>exactitude</b> ; travailler sur <b>100 % de la population</b> teste l'<b>exhaustivité</b> ; une
+  analyse de <b>marges / valeurs</b> teste l'<b>évaluation</b>. Préalable indispensable : la
+  <b>fiabilité des données</b> elles-mêmes (exhaustivité + exactitude de l'IPE, §8 &amp; §10) — sinon
+  l'analyse ne prouve rien.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'usage de la DA suppose des <b>ITGC</b> efficaces (§3-6) et des <b>données fiables</b> (§8) ; sinon
+  ses résultats ne valent pas. Les procédures analytiques renvoient au <b>Module 5</b> (ISA-CH 520) ;
+  les procédures finales, au <b>Module 9</b> (achèvement / rapport).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Citez les 5 étapes du cycle DA.</li>
+    <li>Une analyse de stratification du grand livre : évaluation des risques ou procédure d'audit ?</li>
+    <li>Différence entre une procédure analytique et un test de détail ?</li>
+    <li><i>(Espacement §6)</i> Peut-on se fier aux résultats d'une DA si les ITGC sont inefficaces ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Planification → Extraction → Traitement → Analyse &amp; reporting → Conclusion. 2) Typiquement <b>évaluation des risques</b> (elle cible et oriente la stratégie). 3) L'analytique construit une <b>attente</b> et mesure l'écart (ISA-CH 520) ; le test de détail vérifie des <b>pièces</b> une à une. 4) <b>Non</b> — sans mesures supplémentaires, l'exhaustivité/exactitude des données n'est pas garantie.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 8
+     ============================================================ -->
+<h1 id="s8">8 · Extraction / transmission / fiabilité des données</h1>
+<p class="chapo">Toute analyse ne vaut que ce que valent <b>les données qui l'alimentent</b>. L'auditeur
+doit maîtriser <b>comment les données sont extraites, transmises, puis réconciliées</b> avec la
+comptabilité avant de s'en servir comme éléments probants.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Des données incomplètes ou altérées produisent des conclusions fausses avec une apparence de
+  rigueur. Prouver l'<b>exhaustivité</b> et l'<b>exactitude</b> de l'extraction est la condition
+  d'admissibilité de toute DA.
+</div>
+
+<h2 id="s8-1">8.1 · Extraction : automatique vs manuelle</h2>
+<table class="compare">
+  <thead><tr><th>Mode</th><th>Typique</th><th>Avantages / limites</th></tr></thead>
+  <tbody>
+    <tr><td><b>Manuelle — téléchargement direct</b></td><td>Abacus</td><td>Aucun investissement ; mais output dépendant du système, non optimisé DA, charge manuelle</td></tr>
+    <tr><td><b>Manuelle — copie de base de données</b></td><td>Petits systèmes</td><td>Bloc complet + dictionnaire de données ; mais volume énorme + enjeux de protection des données</td></tr>
+    <tr><td><b>Automatique — installation de programme</b></td><td>SAP</td><td class="oui">Output optimisé, rapide, contrôles de validation, réutilisable ; mais installation + coûts</td></tr>
+  </tbody>
+</table>
+
+<h2 id="s8-2">8.2 · Transfert &amp; 4 risques de qualité</h2>
+<p><b>Transfert</b> : support externe (memory stick — simple mais risque de perte) vs plateforme
+<b>sécurisée</b> de la société d'audit (sûre, mais flux peu documenté). Les <b>4 catégories de risque</b>
+de qualité des données (rappel §6) :</p>
+<table>
+  <thead><tr><th>#</th><th>Risque</th><th>Responsable typique</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Saisie des données (input)</td><td>Équipe audit / IT</td></tr>
+    <tr><td>2</td><td>Intégrité des données (traitement)</td><td>Équipe IT</td></tr>
+    <tr><td>3</td><td>Extraction</td><td>Spécialiste DA / équipe audit</td></tr>
+    <tr><td>4</td><td>Manipulation des données</td><td>Spécialiste DA / équipe audit</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Support EXPERTsuisse (extraction/transfert DA) <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s8-3">8.3 · Exhaustivité, exactitude &amp; réconciliation</h2>
+<table class="compare">
+  <thead><tr><th>Assertion</th><th>Comment la prouver</th></tr></thead>
+  <tbody>
+    <tr><td><b>Exhaustivité</b></td><td>Rapprocher le <b>total extrait</b> avec le <b>solde des comptes</b> au jour de l'extraction ; contrôle de la séquence des numéros</td></tr>
+    <tr><td><b>Exactitude</b></td><td>Rapprocher des <b>postes individuels</b> (échantillon aléatoire) avec des <b>pièces justificatives</b> externes / relevés bancaires ; observer l'extraction</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 500 (fiabilité des éléments probants) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — un « mois manquant » n'est pas un problème d'exactitude</div>
+  Si une extraction (p. ex. dans Power BI) fait apparaître un <b>mois absent</b>, le défaut porte sur
+  l'<b>exhaustivité</b> (intégralité) des données, pas sur leur exactitude. Bien nommer l'assertion
+  touchée.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Ces contrôles prolongent les <b>4 risques de qualité</b> des ITGC déficients (§6) et fondent la
+  fiabilité de l'<b>IPE</b> (§10). L'extraction alimente le <b>cycle DA</b> (§7) et le <b>JET</b> (§11).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quels avantages de l'extraction automatique (SAP) sur le téléchargement manuel (Abacus) ?</li>
+    <li>Comment prouve-t-on l'exhaustivité d'une extraction ? Et l'exactitude ?</li>
+    <li>Un mois manquant dans l'extraction touche quelle assertion ?</li>
+    <li><i>(Espacement §6)</i> Quel risque de qualité des données les ITGC couvrent-ils le plus directement ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Output optimisé, rapide, contrôles de validation, réutilisable sur plusieurs exercices. 2) Exhaustivité = rapprocher le total avec le solde des comptes ; exactitude = rapprocher des postes individuels avec des pièces. 3) L'<b>exhaustivité</b> (intégralité). 4) L'intégrité (traitement) et l'extraction.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 9
+     ============================================================ -->
+<h1 id="s9">9 · Valeurs aberrantes / faux positifs</h1>
+<p class="chapo">La DA permet d'isoler les <b>valeurs aberrantes</b> (outliers) — les points qui ne
+s'intègrent pas dans une série ou s'écartent des prédictions. Encore faut-il les <b>qualifier</b>
+(erreur ? faux signal ?) et éviter les pièges des faux positifs / faux négatifs.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Une aberration n'est pas une anomalie : c'est un <b>signal à investiguer</b>. La démarche compare
+  chaque aberration à un <b>montant tolérable</b> (seuil de non-détection) et à des <b>facteurs
+  qualitatifs</b>, pour décider s'il faut approfondir.
+</div>
+
+<h2 id="s9-1">9.1 · Définition &amp; arbre de décision</h2>
+<p>Définition <b>statistique</b> : est aberrante toute valeur <b>&gt; Q3 + 1,5 × IQR</b> ou
+<b>&lt; Q1 − 1,5 × IQR</b> (avec <b>IQR = Q3 − Q1</b>) ; visualisation par <i>Box &amp; Whisker</i>.
+La condition d'analyse est de disposer d'une <b>hypothèse et/ou d'une prédiction</b>.</p>
+<figure class="arbre-fig">
+<pre class="arbre">
+Traitement des valeurs aberrantes
+│
+├─ Aucune aberration ──────────────────────────▶ pas d'autre opération
+│
+├─ Aberration > MONTANT TOLÉRABLE ─▶ opérations complémentaires
+│        └─ anomalie ? ── OUI ─▶ réévaluer les risques + COMMUNIQUER
+│                       └─ NON ─▶ population non erronée
+│
+└─ Aberration < MONTANT TOLÉRABLE ─▶ examiner les facteurs QUALITATIFS
+         └─ risque potentiel ? ─ OUI ─▶ réévaluer risques + opérations
+                               └─ NON ─▶ rien
+</pre>
+<figcaption>Arbre — de l'outlier à la décision d'audit (montant tolérable = seuil de non-détection).</figcaption>
+</figure>
+<p>Exemple chiffré : seuil de tolérance <b>CHF 100 000</b> ; écart d'amortissement de
+<b>CHF 400 000</b> (Machine B : linéaire 1 000 000 vs calculé 600 000) → &gt; seuil → opérations
+complémentaires.</p>
+
+<h2 id="s9-2">9.2 · Faux positifs / faux négatifs</h2>
+<table class="compare">
+  <thead><tr><th></th><th>Définition</th><th>Exemple &amp; conséquence</th></tr></thead>
+  <tbody>
+    <tr><td><b>Faux positif</b></td><td>Le test signale <b>à tort</b> une condition (« malade alors que sain »)</td><td>Écart de 400 000 pris pour une anomalie, en fait un ajustement de durée d'utilité → temps perdu, mauvaise allocation des ressources</td></tr>
+    <tr><td><b>Faux négatif</b></td><td>Le test signale <b>à tort</b> l'absence de condition (« sain alors que malade »)</td><td>Aucune différence détectée malgré une anomalie réelle → la vraie aberrante <b>échappe</b> à l'audit</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Support EXPERTsuisse (détection des valeurs aberrantes) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — calibrer prudemment</div>
+  Le <b>faux négatif</b> est le plus dangereux : il masque une anomalie. Les outils doivent être
+  calibrés « <b>de manière prudente</b> ». Exclure une aberration (faux positif) exige
+  <b>jugement professionnel + documentation</b>, jamais un écartement silencieux.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le « montant tolérable » est le pendant DA du <b>seuil de signification</b> (Module 5, ISA-CH 320).
+  La réévaluation renvoie à la <b>stratégie</b> (§5) ; la communication d'une anomalie, au
+  <b>Module 9</b> (rapport).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Donnez la formule statistique d'une valeur aberrante.</li>
+    <li>Une aberration inférieure au montant tolérable : que fait l'auditeur ?</li>
+    <li>Différence entre faux positif et faux négatif ? Lequel est le plus risqué ?</li>
+    <li><i>(Espacement §5)</i> À quel seuil du Module 5 correspond le « montant tolérable » ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) &gt; Q3 + 1,5×IQR ou &lt; Q1 − 1,5×IQR (IQR = Q3−Q1). 2) Il examine les <b>facteurs qualitatifs</b> ; si risque potentiel → réévaluer + opérations, sinon rien. 3) Faux positif = alerte à tort (sain vu malade) ; faux négatif = manque une vraie anomalie (malade vu sain), le <b>plus risqué</b>. 4) Au <b>seuil de signification</b> (performance / global materiality).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 10
+     ============================================================ -->
+<h1 id="s10">10 · IPE / EUC · rapports standard vs personnalisés</h1>
+<p class="chapo">Dès que l'auditeur utilise une information <b>produite par l'entité</b> (IPE) — un
+rapport système, un fichier Excel — comme élément probant ou comme population, il doit en prouver
+l'<b>exhaustivité et l'exactitude</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Une donnée « sortie du système du client » n'est pas fiable par nature : elle a pu être filtrée,
+  paramétrée ou retouchée. L'ISA-CH 500 impose de <b>valider la source</b> avant de s'y fier.
+</div>
+
+<h2 id="s10-1">10.1 · IPE &amp; EUC (ISA-CH 500.9)</h2>
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Définition</th></tr></thead>
+  <tbody>
+    <tr><td><b>IPE</b> (Information Produced by the Entity)</td><td>Toute information créée par l'entreprise via ses applications, ses outils <b>EUC</b> ou manuellement, lorsqu'elle sert de base à un contrôle, d'élément probant ou de population de sélection</td></tr>
+    <tr><td><b>EUC</b> (End-User Computing)</td><td>Outil individuel autonome (typiquement <b>Excel</b>) ; risque que l'info créée/modifiée ne soit pas complète/exacte/pertinente</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 500.9 (fiabilité de l'information utilisée comme élément probant) <span class="secondaire">SECONDAIRE</span></span>
+<div class="norme">
+  <div class="callout-titre">📌 Quelles assertions pour une IPE ? (très testé)</div>
+  <table class="compare">
+    <thead><tr><th>Cas</th><th>Assertion(s) &amp; comment la couvrir</th></tr></thead>
+    <tbody>
+      <tr><td><b>Rapport système (IPE) + GITC</b></td><td>Les <b>GITC couvrent l'exhaustivité ET l'exactitude</b> : des GITC efficaces (accès, changements, exploitation) donnent l'assurance qu'un rapport produit par le système est complet et exact. À défaut → réconciliation directe (§10.2)</td></tr>
+      <tr><td><b>Fichier EUC (Excel)</b></td><td>L'EUC est <b>hors du périmètre des GITC</b> (outil individuel autonome) : son <b>exactitude</b> se prouve <b>directement</b> — revue des <b>formules</b> + contrôle de l'<b>exhaustivité des données saisies</b></td></tr>
+      <tr><td><b>Existence des actifs</b></td><td>Assertion <b>distincte</b> : vérifier la présence physique d'un objet (p. ex. objets de leasing) prouve l'<b>existence</b>, <b>pas</b> l'exactitude des calculs de l'Excel</td></tr>
+    </tbody>
+  </table>
+  <span class="ref-sous">Assertions d'une IPE : exhaustivité &amp; exactitude via GITC ; EUC vérifié directement · <span class="ref-norme">ISA-CH 500.9</span> <span class="secondaire">SECONDAIRE</span></span>
+</div>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — ne pas confondre IPE et « IUC »</div>
+  Ton corpus emploie <b>IPE</b> et <b>EUC</b>. Le sigle « IUC » (Information Used by Control) n'y figure
+  pas — s'il apparaît dans un distracteur, c'est un piège de vocabulaire importé.
+</div>
+
+<div class="norme">
+  <div class="callout-titre">📌 Si l'examen demande de définir « IUC »</div>
+  <b>IUC</b> = <i>Information Used by the entity in performing Controls</i> — l'information que
+  <b>l'entité elle-même utilise pour exécuter ses propres contrôles</b> (« le regard de l'entreprise
+  sur l'information »). Trois sigles à ne pas confondre :
+  <table class="compare">
+    <thead><tr><th>Sigle</th><th>De quoi s'agit-il</th></tr></thead>
+    <tbody>
+      <tr><td><b>IUC</b></td><td>Information dont <b>l'entité</b> se sert pour faire tourner <b>ses</b> contrôles internes</td></tr>
+      <tr><td><b>IPE</b></td><td>Information produite par l'entité que <b>l'auditeur</b> utilise comme élément probant → il doit en prouver exhaustivité/exactitude (<span class="ref-norme">ISA-CH 500.9</span> <span class="secondaire">SECONDAIRE</span>)</td></tr>
+      <tr><td><b>EUC</b></td><td>Un <b>type d'outil</b> individuel (Excel, Access…), pas une catégorie d'information</td></tr>
+    </tbody>
+  </table>
+  Ton corpus emploie <b>IPE</b> et <b>EUC</b> ; « IUC » reste un <b>faux-ami de vocabulaire</b> — à savoir
+  <b>définir</b> sans le confondre avec l'IPE.
+</div>
+
+<h2 id="s10-2">10.2 · Les 5 risques IPE &amp; réconciliation</h2>
+<p>Exemple fil rouge : une <b>liste d'ancienneté des créances</b>.</p>
+<table>
+  <thead><tr><th>#</th><th>Risque IPE</th><th>Illustration</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Données traitées non exhaustives / incorrectes</td><td>Le calcul source est faux</td></tr>
+    <tr><td>2</td><td>Extraction ≠ prévu (ou manipulation)</td><td>Lignes supprimées à l'extraction</td></tr>
+    <tr><td>3</td><td>Paramètres utilisateur inappropriés</td><td>Tranches 30/60/90 au lieu de celles du manuel groupe</td></tr>
+    <tr><td>4</td><td>Perte / modification au transfert entre applications</td><td>Interface manipulable</td></tr>
+    <tr><td>5</td><td>Retouche via l'outil (Excel)</td><td>Formule écrasée à la main</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Support EXPERTsuisse (podcast IPE) <span class="secondaire">SECONDAIRE</span></span>
+<p><b>Réconciliation</b> : exhaustivité = rapprocher le <b>total</b> avec le solde des comptes ;
+exactitude = rapprocher des <b>postes</b> aléatoires avec des pièces. Réponse d'audit = approche
+<b>combinée</b> (contrôles + substance), via un test de cheminement de la donnée.</p>
+
+<h2 id="s10-3">10.3 · Rapports standard vs personnalisés</h2>
+<table class="compare">
+  <thead><tr><th>Type de rapport</th><th>Définition</th><th>Traitement d'audit</th></tr></thead>
+  <tbody>
+    <tr><td><b>Standard</b></td><td>Fourni avec le système, ni modifié ni adapté (ex. SAP FBL3N)</td><td>Après confirmation des <b>ITGC</b>, confirmation du rapport standard pertinent</td></tr>
+    <tr><td><b>Personnalisé</b> (customized)</td><td>Rapport standard adapté ou rapport nouveau créé pour l'entreprise (ex. SAP Z_FB)</td><td class="non"><b>Procédures alternatives obligatoires</b> pour confirmer les points de données (= IPE)</td></tr>
+  </tbody>
+</table>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'IPE dépend directement des <b>ITGC</b> (§3-6) et de la <b>fiabilité des données</b> (§8). Elle sert
+  de population aux analyses (§7) et au <b>JET</b> (§11). Les rapports d'une société de services
+  relèvent du §12.
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Qu'est-ce qu'une IPE ? Que doit prouver l'auditeur à son sujet ?</li>
+    <li>Citez 3 des 5 risques IPE.</li>
+    <li>Quel traitement d'audit pour un rapport personnalisé (customized) ?</li>
+    <li><i>(Espacement §8)</i> Comment réconcilie-t-on l'exhaustivité d'une extraction ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Information produite par l'entité utilisée comme preuve/population ; prouver son <b>exhaustivité et exactitude</b> (ISA-CH 500.9). 2) p. ex. extraction incomplète, paramètres inappropriés, retouche Excel (aussi calcul source faux, perte au transfert). 3) <b>Procédures alternatives</b> pour confirmer les points de données. 4) Rapprocher le total extrait avec le solde des comptes.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 11
+     ============================================================ -->
+<h1 id="s11">11 · Journal Entry Testing (ISA-CH 240)</h1>
+<p class="chapo">Le <b>Journal Entry Testing (JET)</b> contrôle les écritures de journal pour détecter le
+<b>forçage des contrôles par la direction</b> (management override). C'est une <b>procédure
+obligatoire</b>, quelle que soit l'évaluation du risque de fraude.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  La plupart des fraudes passent par des <b>écritures de journal</b> : la direction, qui peut
+  contourner les contrôles, les utilise pour manipuler le résultat. La norme <b>exige</b> donc de
+  tester les écritures — c'est pourquoi le JET ne se limite jamais au seuil de signification.
+</div>
+
+<h2 id="s11-1">11.1 · But &amp; obligation (management override)</h2>
+<p>Base : <span class="ref-norme">ISA-CH 240</span> <span class="secondaire">SECONDAIRE</span>
+(responsabilité de l'auditeur face à la fraude). Le JET vise les écritures qui échappent aux contrôles
+récurrents et présentent un <b>risque accru de forçage par la direction</b>.</p>
+<div class="norme">
+  <div class="callout-titre">📌 Les deux formes de fraude (ISA-CH 240)</div>
+  L'<span class="ref-norme">ISA-CH 240</span> <span class="secondaire">SECONDAIRE</span> distingue
+  <b>deux formes de fraude</b> : <b>(1) l'information financière mensongère / frauduleuse</b>
+  (<i>fraudulent financial reporting</i> — manipuler les comptes pour tromper le lecteur) et
+  <b>(2) le détournement d'actifs</b> (<i>misappropriation of assets</i> — s'approprier indûment des
+  biens de l'entité). Le <b>JET</b> vise surtout la <b>première</b>, via le <b>contournement des
+  contrôles par la direction</b> (management override) ; en l'absence de justificatif approprié,
+  l'auditeur évalue la possibilité d'un <b>rapport frauduleux</b> ou d'un <b>abus de confiance</b>.
+</div>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — ne pas filtrer par le seuil</div>
+  Erreur classique : ne sélectionner que les écritures <b>supérieures à l'erreur tolérable (TE)</b>.
+  Le JET doit intégrer l'<b>imprévisibilité</b> (taille <i>et</i> type), inclure des écritures
+  routinières et quelques-unes <b>sous le seuil</b>. Un justificatif manquant ne s'abandonne
+  <b>jamais</b> pour motif de matérialité → enquête.
+</div>
+
+<h2 id="s11-2">11.2 · Critères de sélection à risque</h2>
+<table>
+  <thead><tr><th>Critère « à risque »</th><th>Illustration</th></tr></thead>
+  <tbody>
+    <tr><td><b>Écritures manuelles</b> hors marche normale</td><td>Écriture « Top Side » au niveau consolidation, non passée formellement</td></tr>
+    <tr><td><b>Fin de période / post-clôture</b></td><td>Écriture juste avant clôture, peu ou pas expliquée ; annulée début de période suivante</td></tr>
+    <tr><td><b>Utilisateurs inattendus</b></td><td>Écriture passée par un contrôleur de gestion ou le <b>CFO</b>, qui n'en créent pas d'habitude</td></tr>
+    <tr><td><b>Comptes / paires inhabituels</b></td><td>Débit d'actif / crédit de charges ; comptes rarement utilisés</td></tr>
+    <tr><td><b>Montants ronds</b> / numéro final unique</td><td>Écriture de 500 000,00 sans pièce</td></tr>
+    <tr><td>Écritures affectant les <b>recettes</b></td><td>Descriptions renvoyant à une instruction (« comme indiqué par… »)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 240 (caractéristiques évoquant une fraude) <span class="secondaire">SECONDAIRE</span></span>
+
+<h2 id="s11-3">11.3 · Intégralité des données &amp; exécution</h2>
+<p><b>Contrôle d'intégrité</b> du fichier reçu : nombre de <i>line items</i> = nombre convenu ; champs
+tous remplis ; <b>débit = crédit</b> (soldes à zéro) ; fourchette de dates / types de comptes / codes
+GL conformes aux attentes. <b>Exécution</b> : pour chaque écriture, vérifier qu'elle repose sur une
+opération réelle, correctement autorisée, passée et comptabilisée dans la bonne période — justificatif
++ discussion avec la direction. Approche : <b>« test of one »</b> pour comprendre, puis extension aux
+schémas suspects.</p>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le JET prolonge la fraude du <b>Module 5</b> (ISA-CH 240, triangle de la fraude) et la
+  <b>315R</b> (contrôles sur les écritures de journal, §1). Les critères s'exécutent en <b>Data
+  Analytics</b> (§7) sur des données dont la fiabilité vient du §8 / IPE §10.
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quel risque le JET adresse-t-il, et sous quelle norme est-il obligatoire ?</li>
+    <li>Citez 4 critères de sélection d'écritures à risque.</li>
+    <li>Peut-on limiter le JET aux écritures dépassant l'erreur tolérable ?</li>
+    <li><i>(Espacement §1)</i> Quel article de la 315R impose de comprendre les contrôles sur les écritures de journal ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Le <b>forçage des contrôles par la direction</b> (management override) ; <b>ISA-CH 240</b>. 2) p. ex. écritures manuelles, fin de période, utilisateurs inattendus (CFO), montants ronds (aussi paires inhabituelles, recettes). 3) <b>Non</b> — imprévisibilité + écritures sous le seuil. 4) Par. 26(a)(ii) (lien ISA-CH 240 par. 32).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 12
+     ============================================================ -->
+<h1 id="s12">12 · Sociétés de services &amp; externalisation</h1>
+<p class="chapo">Quand l'entité externalise une partie de son informatique (hébergement, cloud, SaaS,
+fiduciaire IT), une partie du contrôle interne <b>sort de son périmètre</b>. L'auditeur s'appuie alors
+sur un <b>rapport d'assurance</b> émis sur les contrôles de la société de services.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'auditeur ne peut pas auditer lui-même l'hébergeur de son client : il obtient un <b>rapport SOC /
+  ISAE 3402</b>. Encore faut-il vérifier qu'il est du <b>bon type</b> (efficacité, pas seulement
+  conception) et compléter par les <b>contrôles à la charge de l'entité utilisatrice (CUEC)</b>.</p>
+</div>
+
+<h2 id="s12-1">12.1 · Le schéma SOC · CUEC / CSOC</h2>
+<p>Chaîne : <b>entité utilisatrice</b> (et son auditeur) → <b>organisation de services</b> (et son
+auditeur, qui émet le <b>rapport SOC</b>) → <b>sous-traitants</b>. Deux jeux de contrôles
+complémentaires :</p>
+<table class="compare">
+  <thead><tr><th>Sigle</th><th>Signification</th></tr></thead>
+  <tbody>
+    <tr><td><b>CUEC</b></td><td>Complementary <b>User Entity</b> Controls — contrôles que <b>l'entité utilisatrice</b> doit exercer pour que le dispositif fonctionne</td></tr>
+    <tr><td><b>CSOC</b></td><td>Complementary <b>Subservice Organization</b> Controls — contrôles à la charge des <b>sous-traitants</b> (carve-out)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">ISA-CH 402 (audit d'une entité recourant à une société de services) <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — le rapport ne suffit pas seul</div>
+  Un rapport SOC ne couvre que les contrôles de la société de services : les <b>CUEC</b> restent à la
+  charge de l'entité utilisatrice. Si l'entité ne les exerce pas, le rapport, même « propre », ne
+  garantit rien pour l'audit.
+</div>
+
+<h2 id="s12-2">12.2 · SOC 1/2/3 · Type 1 vs Type 2</h2>
+<table class="compare">
+  <thead><tr><th>Rapport</th><th>Norme</th><th>Contenu</th></tr></thead>
+  <tbody>
+    <tr><td><b>SOC 1</b></td><td>ISAE 3402</td><td>Contrôles pertinents pour le <b>reporting financier</b> de l'entité utilisatrice</td></tr>
+    <tr><td><b>SOC 2</b></td><td>ISAE 3000</td><td>+ Confidentialité, protection des données ; usage élargi</td></tr>
+    <tr><td><b>SOC 3</b></td><td>ISAE 3000</td><td>Comme SOC 2 mais synthétique, usage général</td></tr>
+  </tbody>
+</table>
+<table class="compare">
+  <thead><tr><th></th><th>Type 1</th><th>Type 2</th></tr></thead>
+  <tbody>
+    <tr><td>Portée</td><td>Contrôles à <b>une date donnée</b></td><td>Contrôles sur une <b>période</b> (max 12 mois)</td></tr>
+    <tr><td>Ce qui est testé</td><td>Existence + <b>conception</b> (design) — <b>pas</b> l'efficacité</td><td class="oui">Conception <b>+ efficacité opérationnelle</b> (tests TOE)</td></tr>
+    <tr><td>Valeur pour l'auditeur</td><td>Faible — « rapport-relais » d'information</td><td class="oui">Base de confiance pour s'appuyer sur les contrôles</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">SOC 1 / ISAE 3402 · SOC 2 / ISAE 3000 <span class="secondaire">SECONDAIRE</span> · <span class="avalider">À VALIDER</span> — millésime de l'ISAE à confirmer selon l'édition</span>
+<p>Structure d'un rapport SOC (5 sections) : I Opinion · II Affirmation de la direction · III
+Description du système · IV Contrôles, tests et résultats · V Autres informations (non auditées).
+Opinions possibles : non qualifiée / qualifiée / <b>défavorable</b>.</p>
+<h2 id="s12-3">12.3 · Gouvernance d'un service cloud / externalisé — mesures de l'entité</h2>
+<p>S'appuyer sur un rapport SOC ne dispense pas l'entité utilisatrice de piloter elle-même la
+sécurité des données confiées au prestataire. Mesures attendues (souvent des <b>CUEC</b>, §12.1) :</p>
+<table class="compare">
+  <thead><tr><th>Mesure</th><th>Objet</th></tr></thead>
+  <tbody>
+    <tr><td><b>Gestion des accès</b></td><td>Identités, droits, MFA, séparation des fonctions côté client — relève du domaine <b>ZU</b> des ITGC (§3) et figure typiquement parmi les CUEC</td></tr>
+    <tr><td><b>Chiffrement des données</b></td><td>Protéger les données au repos et en transit (cryptage, authentification forte) contre le vol et l'altération</td></tr>
+    <tr><td><b>Localisation des données</b> <span class="avalider">À VALIDER</span></td><td>Pays / juridiction d'hébergement et de traitement ; enjeu des transferts de données hors du territoire — <i>notion de cadre standard, non développée dans tes supports</i></td></tr>
+    <tr><td><b>Classification des données</b> <span class="avalider">À VALIDER</span></td><td>Catégoriser les données selon leur sensibilité pour calibrer les mesures — <i>notion de cadre standard, absente des supports du module</i></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Rôle de l'auditeur : questionner <i>data security / storage / transmission / processing</i> · appui domaine ZU des ITGC <span class="secondaire">SECONDAIRE</span></span>
+<h2 id="s12-4">12.4 · Continuité &amp; résilience — BCM vs ORM (RTO / RPO)</h2>
+<p>Une interruption majeure menace la survie de l'entité (repère cité : ~80 % des entreprises dotées
+d'un BCM éprouvé survivraient, contre ~20 % sans). Deux périmètres emboîtés :</p>
+<table class="compare">
+  <thead><tr><th>Dispositif</th><th>Périmètre</th></tr></thead>
+  <tbody>
+    <tr><td><b>ORM</b> (Operational Resilience Management)</td><td>Mesures garantissant la <b>disponibilité opérationnelle de TOUS</b> les processus d'affaires et ressources — « l'hygiène de base » ; englobe aussi sécurité de l'information, fraude et sécurité</td></tr>
+    <tr><td><b>BCM</b> (Business Continuity Management)</td><td>Sous-ensemble ciblé : les processus et ressources qui doivent <b>rester utilisables en situation de crise</b> (personnes, installations, IT, partenaires). Le BCM est <b>intégré à l'ORM</b> et coordonné avec la gestion des risques</td></tr>
+  </tbody>
+</table>
+<p>Objectifs techniques de reprise : <b>RTO</b> (Recovery Time Objective — délai de rétablissement visé)
+et <b>RPO</b> (Recovery Point Objective — perte de données maximale admissible). Quatre plans à
+distinguer : gestion de <b>crise</b> · <b>urgence</b> · <b>continuité (BCP)</b> · <b>rétablissement</b>.</p>
+<div class="norme">
+  <div class="callout-titre">📌 Norme de référence</div>
+  Le BCM s'appuie sur l'<span class="ref-norme">ISO 22301</span> <span class="secondaire">SECONDAIRE</span>,
+  structurée selon le cycle <b>PLAN – DO – CHECK – ACT</b> (clauses 4 à 10) : connaître ses activités
+  critiques, tester les plans, les maintenir dans la durée.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'externalisation reprend les couches du <b>modèle IT</b> (§2 : Housing→IaaS→PaaS→SaaS) et
+  l'<b>ISA-CH 402</b> du <b>Module 5</b>. Le Type 1/Type 2 est le pendant « société de services » de la
+  distinction <b>existence vs efficacité</b> (§3.4).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Différence entre un rapport ISAE 3402 de Type 1 et de Type 2 ?</li>
+    <li>Que sont les CUEC ? Pourquoi un rapport SOC « propre » peut-il ne pas suffire ?</li>
+    <li>Quelle norme pour un SOC 1 ? Pour un SOC 2 ?</li>
+    <li><i>(Espacement §3)</i> À quelle distinction du §3 correspond Type 1 vs Type 2 ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Type 1 = conception à une date ; Type 2 = conception <b>+ efficacité</b> sur une période (max 12 mois). 2) Contrôles à la charge de l'<b>entité utilisatrice</b> ; sans eux, le dispositif ne fonctionne pas. 3) SOC 1 = <b>ISAE 3402</b> ; SOC 2 = <b>ISAE 3000</b>. 4) Existence (Type 1) vs efficacité durable (Type 2) du SCI.</div>
+</div>
+
+<!-- ============================================================
+     SECTION 13
+     ============================================================ -->
+<h1 id="s13">13 · Cybersécurité</h1>
+<p class="chapo">Le <b>cyberrisque</b> intéresse l'auditeur financier dans la seule mesure où un
+incident peut avoir une <b>incidence significative sur les états financiers</b> — il ne réalise
+<b>pas</b> un audit complet de la cybersécurité.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'auditeur évalue si une cybermenace peut compromettre l'information financière (disponibilité,
+  intégrité, confidentialité des données comptables), pas la sécurité informatique en général — cadre
+  <b>MSA III.1.1.1 / NAS-CH 890</b>.
+</div>
+
+<h2 id="s13-1">13.1 · Modèle du risque cyber &amp; rôle de l'auditeur</h2>
+<p>Modèle : <b>Menace</b> (acteur) → exploite → <b>Faille</b> (weakness) → provoque →
+<b>Incidence</b> (loss). Quantification par la <b>taxonomie FAIR</b> : Risque = fréquence probable ×
+ampleur probable (Loss Event Frequency = Threat Event Frequency × Vulnerability). L'auditeur évalue en
+planification via 4 axes : <b>Data security / storage / transmission / processing</b>. La gouvernance
+s'organise en 3 lignes (Executive / Risk Management / Business &amp; Cyber Defense).</p>
+<div class="norme">
+  <div class="callout-titre">📌 Étendue de l'audit cyber — primaire vs secondaire</div>
+  L'auditeur financier borne son <b>étendue primaire</b> aux <b>systèmes et données pertinents pour les
+  comptes annuels</b> — là où un incident cyber pourrait fausser l'information financière (disponibilité,
+  intégrité, confidentialité des données comptables). Le reste du cyberrisque (sécurité informatique au
+  sens large) n'est que <b>secondaire / contextuel</b> : pris en compte pour comprendre le risque, jamais
+  audité pour lui-même. <span class="avalider">À VALIDER</span> — la formulation « primaire / secondaire »
+  restitue le <b>principe de périmètre restreint aux comptes</b> ; le couple de termes n'apparaît pas tel
+  quel dans tes supports (reconstruit, cf. divergences IT-101).
+</div>
+<h3>Discriminer : menaces vs mesures</h3>
+<table class="compare">
+  <thead><tr><th>Exemples de MENACES (dangers)</th><th>Exemples de MESURES (défenses)</th></tr></thead>
+  <tbody>
+    <tr><td>Usage abusif du cloud · hameçonnage / ingénierie sociale · rançongiciel (ransomware) · accès ou manipulation non autorisés (interne ou externe) · violations de données · attaques sur la chaîne d'approvisionnement</td>
+        <td>Sécurité des mots de passe (MFA, pas de réutilisation) · sécurité des appareils (mises à jour, sauvegardes, destruction sécurisée) · pare-feu &amp; anti-malware · gestion active des accès + journalisation · chiffrement · sensibilisation des collaborateurs</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Dangers &amp; mesures de défense — support cyber du module <span class="secondaire">SECONDAIRE</span></span>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — ne pas confondre menace et mesure</div>
+  Une <b>menace</b> est un danger qui exploite une faille ; une <b>mesure</b> réduit ce risque. Un
+  distracteur classique présente une mesure (p. ex. « sauvegardes », « MFA ») comme si c'était un
+  risque — or une mesure <b>diminue</b> le risque, elle ne le crée pas (cf. §1.1).
+</div>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — le périmètre de l'auditeur financier</div>
+  L'auditeur <b>ne procède pas</b> à un test complet de cybersécurité ni de tests de pénétration
+  systématiques : il apprécie l'<b>impact potentiel sur les comptes</b>. Les cadres FAIR, NIST CSF, ISO
+  27001, DORA, NIS2 sont des <b>références (souvent étrangères)</b>, pas des obligations d'audit
+  suisses.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le cyber prolonge la <b>protection des accès</b> et la <b>sécurité IT</b> des ITGC (§3, domaines ZU/SI)
+  et l'<b>évaluation des risques IT</b> (§1). L'incidence sur les comptes rejoint la <b>continuité
+  d'exploitation</b> (Module 9).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Décrivez le modèle menace → faille → incidence.</li>
+    <li>L'auditeur financier réalise-t-il un audit complet de la cybersécurité ? Que fait-il ?</li>
+    <li>Que quantifie la taxonomie FAIR ?</li>
+    <li><i>(Espacement §3)</i> Quels domaines d'ITGC couvrent la dimension cyber ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) Un acteur (menace) exploite une faille (faiblesse) et provoque une incidence (perte). 2) <b>Non</b> — il évalue l'<b>impact potentiel sur les états financiers</b>. 3) Le risque = fréquence probable × ampleur probable des pertes. 4) Protection des accès (ZU) et sécurité physique/IT (SI).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 14
+     ============================================================ -->
+<h1 id="s14">14 · Conservation électronique &amp; cadre suisse</h1>
+<p class="chapo">La tenue et la conservation <b>électroniques</b> des livres sont admises, à condition de
+garantir la <b>régularité</b> (intégralité, exactitude, disponibilité, lisibilité) et la
+<b>traçabilité</b>. C'est le socle légal suisse de tout ce module.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Le droit suisse ne fige pas une technologie mais exige un résultat : que les enregistrements soient
+  <b>vérifiables et conservés</b> dans les délais légaux. Un contrôle interne satisfaisant remplace
+  l'ancienne obligation de signature électronique.
+</div>
+
+<h2 id="s14-1">14.1 · Tenue, conservation, migration</h2>
+<table class="compare">
+  <thead><tr><th>Exigence</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td>Tenue régulière (dont support électronique)</td><td><span class="ref-norme">art. 957a CO</span> <span class="primaire">PRIMAIRE</span></td></tr>
+    <tr><td><b>Traçabilité / piste de vérification</b> (vérifiabilité)</td><td><span class="ref-norme">art. 957a al. 2 ch. 5 CO</span> <span class="primaire">PRIMAIRE</span> <span class="avalider">À VALIDER</span> <span style="font-size:8pt;color:#777">(le support cite par erreur « 959a »)</span></td></tr>
+    <tr><td>Obligation et durée de conservation (10 ans)</td><td><span class="ref-norme">art. 958f CO</span> <span class="primaire">PRIMAIRE</span></td></tr>
+    <tr><td>Tenue &amp; conservation électroniques (intégrité, disponibilité)</td><td><span class="ref-norme">Olico</span> (RS 221.431) <span class="primaire">PRIMAIRE</span></td></tr>
+    <tr><td><b>Migration</b> de données (procès-verbal de transfert, intégralité/exactitude/disponibilité)</td><td><span class="ref-norme">art. 10 Olico</span> <span class="primaire">PRIMAIRE</span></td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — plus d'obligation de signature électronique</div>
+  L'ancienne <b>OeIDI</b> (signature électronique obligatoire) est <b>abrogée</b> : la liberté des
+  moyens de preuve prévaut, un contrôle interne satisfaisant suffit. Lors d'une <b>migration</b>, la
+  <b>piste de vérification</b> (traçabilité) doit être préservée et documentée par un procès-verbal.
+</div>
+<div class="norme">
+  <div class="callout-titre">📌 Protection des données — à confirmer selon tes supports</div>
+  Le cadre suisse actuel est la <b>nLPD (LPD révisée), en vigueur au 1ᵉʳ septembre 2023</b>. Tes
+  supports évoquent la « protection des données » comme facteur d'influence sans développer de base
+  légale datée — je ne l'introduis donc qu'<b>en repère</b> ; toute affirmation détaillée serait à
+  ajouter seulement si ton cours la traite.
+</div>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La conservation encadre les <b>sauvegardes</b> (§2, domaine BE des ITGC) et la <b>migration</b> lors
+  d'un changement d'ERP (§2). La traçabilité rejoint l'<b>IPE</b> (§10) et le <b>JET</b> (§11).
+</div>
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  <ol>
+    <li>Quelle est la durée légale de conservation, et sous quel article ?</li>
+    <li>Quelle ordonnance régit la migration de données, et qu'exige-t-elle ?</li>
+    <li>La signature électronique est-elle toujours obligatoire pour les livres électroniques ?</li>
+    <li><i>(Espacement §2)</i> Quel domaine d'ITGC couvre les sauvegardes ?</li>
+  </ol>
+  <div class="reponses"><b>Réponses :</b> 1) <b>10 ans</b>, art. 958f CO. 2) L'<b>Olico</b> (art. 10) : intégralité, exactitude, disponibilité + procès-verbal de transfert. 3) <b>Non</b> — OeIDI abrogée ; liberté des moyens de preuve + contrôle interne satisfaisant. 4) Le domaine <b>BE</b> (Exploitation IT : sauvegardes, test de restauration).</div>
+</div>
+
+<!-- ============================================================
+     SECTION 15
+     ============================================================ -->
+<h1 id="s15">15 · Arbre de décision global</h1>
+<p class="chapo">Toute la démarche du module tient en une question : <b>peut-on s'appuyer sur
+l'informatique de l'entité</b> pour réduire les contrôles de substance, et <b>où la Data Analytics</b>
+prend-elle le relais ?</p>
+<figure class="arbre-fig">
+<pre class="arbre">
+De la compréhension de l'environnement IT à la stratégie
+│
+1. Comprendre l'environnement IT (ISA-CH 315R) — applications pertinentes, 4 couches
+│
+2. Veut-on s'APPUYER sur les contrôles automatisés ?
+│      │
+│      ├─ NON ─▶ approche SUBSTANTIVE (+ Data Analytics substantive, §7-9)
+│      │
+│      └─ OUI
+│            │
+│            3. Les ITGC sont-ils EFFICACES ? (accès · changements · opérations)
+│                  │
+│                  ├─ NON ─▶ pas d'appui sur l'automatisé
+│                  │          ► contrôles compensatoires / substance renforcée (§6)
+│                  │          ► données non fiables sans mesures → prudence DA (§8)
+│                  │
+│                  └─ OUI ─▶ tester les contrôles applicatifs (ITAC)
+│                             ► « test of one » + éventuel benchmarking (§4-5)
+│                             ► s'appuyer sur l'automatisé → réduire la substance
+│
+4. Dans tous les cas : JET obligatoire (ISA-CH 240, §11)
+   + fiabilité des IPE (ISA-CH 500, §10)
+   + sociétés de services : rapport SOC Type 2 (§12)
+</pre>
+<figcaption>Arbre global — tests de contrôles IT vs approche substantive vs Data Analytics.</figcaption>
+</figure>
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Cet arbre synthétise §1 (315R) → §3-4 (ITGC/ITAC) → §5 (stratégie) → §6 (déficiences) → §7-9 (DA)
+  → §10-12 (IPE, JET, sociétés de services). Il se lit avec le modèle du risque du <b>Module 5</b>.
+</div>
+
+<!-- ============================================================
+     SECTION 16
+     ============================================================ -->
+<h1 id="s16">16 · Faux amis / pièges d'examen</h1>
+<p class="chapo">Tableau récapitulatif des confusions les plus fréquemment sanctionnées. À relire la
+veille de l'épreuve.</p>
+<table class="compare">
+  <thead><tr><th>Faux ami</th><th>Ce qu'il faut retenir</th></tr></thead>
+  <tbody>
+    <tr><td><b>ITGC ≠ contrôles applicatifs</b></td><td>ITGC = transversal, indirect (accès/changements/opérations) ; ITAC = sur une transaction, direct. Les ITGC sont le <b>socle</b> des ITAC (§3-4)</td></tr>
+    <tr><td><b>ITGC déficient ≠ anomalie</b></td><td>Un ITGC déficient ne prouve pas d'anomalie, mais <b>interdit de s'appuyer</b> sur l'automatisé et sur l'exhaustivité/exactitude des données (§6)</td></tr>
+    <tr><td><b>Procédure analytique ≠ test de détail</b></td><td>Analytique = construire une attente et mesurer l'écart (ISA-CH 520) ; test de détail = vérifier des pièces (ISA-CH 500) (§7)</td></tr>
+    <tr><td><b>ISAE Type 1 ≠ Type 2</b></td><td>Type 1 = conception à une date ; Type 2 = conception <b>+ efficacité</b> sur une période (§12)</td></tr>
+    <tr><td><b>100 % population ≠ 100 % assurance</b></td><td>Analyser toute la population ne donne pas une assurance absolue : jugement, fiabilité des données et faux négatifs subsistent (§7, §9)</td></tr>
+    <tr><td><b>NAS-CH 890 ≠ norme des ITGC</b></td><td>NAS-CH 890 = <b>existence du SCI</b> (art. 728a al.1 ch.3 CO) ; les ITGC relèvent de la 315R (Annexe 6) + Guide EXPERTsuisse (§3)</td></tr>
+    <tr><td><b>ISA-CH 315 (Révisée) ≠ « NAS-CH 315 »</b></td><td>Désignation actuelle = <b>ISA-CH 315 (Révisée) / 315R</b> (base ISA 2019, comptes 2025). « NAS 315 » = ancien nom (§1)</td></tr>
+    <tr><td><b>RI et RC séparés</b></td><td>La 315R évalue le risque inhérent <b>et</b> le risque de contrôle <b>séparément</b> (§1)</td></tr>
+    <tr><td><b>Existence ≠ efficacité du SCI</b></td><td>Contrôle ordinaire : seule l'<b>existence</b> est obligatoire ; l'efficacité se teste pour <b>s'appuyer</b> sur le SCI (§3.4)</td></tr>
+    <tr><td><b>IPE ≠ « IUC »</b></td><td>Ton corpus emploie <b>IPE</b> et <b>EUC</b> ; « IUC » n'y figure pas (§10)</td></tr>
+    <tr><td><b>3ᵉ domaine ITGC = opérations</b></td><td>Le 3ᵉ processus est <b>opérations IT</b> ; le développement est rangé sous la <b>gestion des changements</b> (§3)</td></tr>
+    <tr><td><b>Faux négatif &gt; faux positif (en risque)</b></td><td>Le faux négatif masque une vraie anomalie ; calibrer les outils prudemment (§9)</td></tr>
+  </tbody>
+</table>
+<div class="norme">
+  <div class="callout-titre">📌 Avant l'épreuve</div>
+  <b>Vérifie l'édition des NAS-CH / ISA-CH en vigueur pour ta session.</b> Les révisions se déploient
+  par « reprise dynamique » : la 315R (comptes 2025), les 220R / 600R en même temps, l'ISQM-CH 1/2 pour
+  les exercices ouverts dès le 15.12.2025. En cas de doute sur un numéro ou un millésime, cite la
+  version révisée et signale l'ancienne comme équivalent historique.
+</div>
+
+</body></html>
