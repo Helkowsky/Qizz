@@ -1,0 +1,128 @@
+{
+ "module": "M3",
+ "titre": "03 · Impôt sur les gains immobiliers (IGI)",
+ "questions": [
+  {
+   "id": "FE-024",
+   "champ": "Système dualiste",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Dans le système dualiste, l'impôt sur les gains immobiliers (identifiez la réponse correcte) :",
+   "options": [
+    "est appliqué sur la fortune commerciale des indépendants comme des salariés",
+    "est appliqué sur la fortune privée uniquement des salariés",
+    "est appliqué sur la fortune privée des salariés et des indépendants",
+    "est appliqué sur la fortune commerciale des indépendants"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : en système dualiste, les gains sur immeubles de la fortune COMMERCIALE relèvent de l'impôt ordinaire sur le revenu/bénéfice, pas de l'IGI (mémento §10.2). Et un salarié n'a par définition pas de fortune commerciale.",
+    "Faux : la fortune privée des INDÉPENDANTS est également visée — le critère est la nature du bien (fortune privée), pas le statut de son propriétaire.",
+    "Correct : en système DUALISTE (St-Gall, majorité des cantons), l'IGI ne frappe que les gains immobiliers de la fortune PRIVÉE — qu'ils soient réalisés par un salarié ou par un indépendant sur ses immeubles privés. La fortune commerciale relève de l'impôt sur le revenu/bénéfice (plus-value + amortissements récupérés). Base : art. 12 al. 1 et 4 LHID (mémento §10.2).",
+    "Faux : c'est l'inverse — en dualiste, les immeubles de la fortune commerciale de l'indépendant échappent à l'IGI et sont imposés comme revenu (art. 18 LIFD au fédéral, impôt ordinaire au cantonal)."
+   ]
+  },
+  {
+   "id": "FE-025",
+   "champ": "Art. 12 LHID",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "L'article 12 de la loi fédérale sur l'harmonisation des impôts directs (LHID) (identifiez la réponse fausse) :",
+   "options": [
+    "oblige les cantons à appliquer un taux progressif",
+    "laisse le choix quant au système moniste ou dualiste au sens de l'alinéa 4",
+    "permet une imposition différée en cas de transfert de propriété par succession",
+    "considère comme aliénation un transfert de la fortune privée à la fortune commerciale d'un contribuable"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'affirmation FAUSSE à cliquer : l'art. 12 LHID n'impose PAS de taux progressif — le barème reste de la compétence cantonale. La seule exigence tarifaire est d'imposer plus lourdement les gains à COURTE durée de possession (spéculation, art. 12 al. 5 LHID). (Cette liberté tarifaire n'est pas détaillée dans le mémento.)",
+    "Exacte (donc pas la réponse) : l'al. 4 permet au canton d'étendre l'IGI aux gains de la fortune commerciale — c'est le système moniste (Zurich) ; sinon, dualiste. Le choix existe donc bien (mémento §10.2).",
+    "Exacte : succession, avancement d'hoirie et donation sont des faits qui DIFFÈRENT l'imposition (report, art. 12 al. 3 LHID) — mémento §10.2, « faits différant l'imposition ».",
+    "Exacte : le passage d'un immeuble de la fortune privée à la fortune commerciale est assimilé à une aliénation (art. 12 al. 2 let. b LHID)."
+   ]
+  },
+  {
+   "id": "FE-026",
+   "champ": "Contribuable et for de l'IGI",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Dans l'impôt sur les bénéfices et gains immobiliers (IBGI) (identifiez la réponse correcte) :",
+   "options": [
+    "Le contribuable est le vendeur et est assujetti à son lieu de domicile",
+    "Le contribuable est l'acheteur et est assujetti à son lieu de domicile",
+    "Le contribuable est le vendeur et est assujetti au lieu de situation de l'immeuble",
+    "Le contribuable est l'acheteur et est assujetti au lieu de situation de l'immeuble"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux sur le for : l'IGI est un impôt RÉEL (impôt d'objet) — le rattachement est objectif, au lieu de situation de l'immeuble, indépendamment du domicile du vendeur.",
+    "Faux deux fois : l'acheteur ne réalise aucun gain (le contribuable est l'aliénateur), et le rattachement n'est pas le domicile mais le lieu de situation de l'immeuble.",
+    "Correct : l'IGI frappe le VENDEUR (l'aliénateur), qui réalise le gain, et il est perçu au LIEU DE SITUATION de l'immeuble — c'est un impôt réel cantonal/communal, sans IFD (art. 12 LHID ; mémento §10.2). (Le mémento qualifie l'IGI d'impôt réel cantonal/communal ; le for au lieu de situation en découle, sans y être énoncé mot à mot.)",
+    "Faux sur le contribuable : le for (lieu de situation) est exact, mais c'est le vendeur — pas l'acheteur — qui réalise la plus-value et doit l'impôt."
+   ]
+  },
+  {
+   "id": "FE-027",
+   "champ": "Calcul du gain — impenses",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Dans le calcul du bénéfice immobilier (identifiez la réponse correcte) :",
+   "options": [
+    "Les impenses doivent être ajoutées à la valeur de vente",
+    "Les impenses doivent être diminuées de la valeur de vente",
+    "Les impenses doivent être diminuées de la valeur d'acquisition",
+    "Les impenses ne peuvent pas être prises en compte"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : ajouter les impenses au produit de vente AUGMENTERAIT le gain imposable — effet exactement inverse de leur rôle (elles font partie du prix de revient).",
+    "Correct : gain immobilier = produit de l'aliénation − (prix d'acquisition + impenses). Retrancher les impenses de la valeur de vente aboutit au même résultat que les ajouter au prix de revient : le gain DIMINUE. Les impenses sont les dépenses qui augmentent durablement la valeur de l'immeuble (investissements apportant une plus-value). Base : art. 12 al. 1 LHID (mémento §10.2, calcul par le « prix de revient » ; le terme « impenses » n'y est pas explicité).",
+    "Faux : diminuer le prix d'ACQUISITION des impenses réduirait le prix de revient et GONFLERAIT donc le gain — c'est l'inverse de leur traitement.",
+    "Faux : les impenses sont bien prises en compte — elles s'ajoutent au prix d'acquisition pour former le prix de revient déductible du produit."
+   ]
+  },
+  {
+   "id": "FE-028",
+   "champ": "IGI dualiste — vente d'actions d'une société immobilière (aliénation économique)",
+   "memento": "§10.2",
+   "piege": "Aliénation économique = vente d'immeuble",
+   "difficulte": 3,
+   "question": "Henri Promo, domicilié à Genève, détient dans sa fortune privée l’ensemble du capital-actions de ImmoLoc SA, sise dans le même canton. Après 12 ans de détention, Henri Promo vend les actions de ImmoLoc SA pour un prix de CHF 9’000’000. La valeur d’acquisition de l’immeuble s’élevait à CHF 9’000’000 lors de l’achat des actions par Henri Promo en 2010. Le bilan de ImmoLoc SA est composé des éléments suivants : - Un immeuble genevois pour CHF 9’000’000 ; - D’autres actifs non immobiliers pour CHF 1’500’000 ; - Une hypothèque et d’autres fonds étrangers pour CHF 4’500’000. Quel est le montant soumis à l’impôt sur les gains immobiliers si le canton de Genève applique le système dualiste d’imposition des gains immobiliers ?",
+   "options": [
+    "CHF 3'000'000",
+    "CHF 0, car il s’agit d’un gain en capital exonéré d’impôt",
+    "CHF 2'000'000",
+    "CHF 0, car la plus-value soumise à l’impôt sur les gains immobiliers est nulle"
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : la vente de la totalité des actions d'une société immobilière est une ALIÉNATION ÉCONOMIQUE assimilée à la vente de l'immeuble (art. 12 al. 2 let. a LHID), imposée à l'IGI même en système dualiste. Produit imputé à l'immeuble = prix des actions 9 000 000 + fonds étrangers repris 4 500 000 − actifs non immobiliers 1 500 000 = 12 000 000. Gain IGI = 12 000 000 − prix de revient de l'immeuble 9 000 000 = 3 000 000 (mémento §10.2, exemple ImmoLoc SA).",
+    "Faux : c'est le piège du « simple transfert de titres mobiliers exonéré » (art. 16 al. 3 LIFD). L'aliénation économique d'une société immobilière neutralise ce raisonnement : le transfert du pouvoir de disposer de l'immeuble est imposé comme une vente de l'immeuble.",
+    "Erreur d'imputation : 2 000 000 s'obtient en oubliant une partie du mécanisme — p. ex. omettre une fraction des fonds étrangers repris ou déduire incorrectement les actifs non immobiliers du produit imputé à l'immeuble.",
+    "Faux : raisonner « prix des actions 9 mio = valeur d'acquisition 9 mio, donc plus-value nulle » ignore le mécanisme d'imputation à l'immeuble — il faut reconstituer le produit afférent à l'immeuble (+ fonds étrangers, − actifs non immobiliers), qui donne 12 mio et un gain de 3 mio."
+   ]
+  },
+  {
+   "id": "FE-029",
+   "champ": "Immeuble commercial en canton moniste — récupération d'amortissements vs plus-value",
+   "memento": "§10.2",
+   "piege": "Amortissements récupérés → impôt revenu",
+   "difficulte": 3,
+   "question": "Aline Waters, domiciliée à Genève (canton dualiste), est propriétaire d’un immeuble locatif sis dans le canton de Zurich (canton moniste) depuis une dizaine d’années. Cet immeuble fait partie de sa fortune commerciale et, suite à d’importants travaux de transformation, Aline Waters décide de le vendre à une caisse de pension en 2022. Laquelle des affirmations suivantes est correcte ?",
+   "options": [
+    "Il s’agit d’un gain en capital exonéré d’impôt",
+    "Les amortissements récupérés sont soumis à l’impôt sur le revenu au niveau fédéral, cantonal et communal",
+    "Les amortissements récupérés et la plus-value sont soumis à l’impôt sur les gains immobiliers au niveau cantonal et communal et à l’impôt sur le revenu au niveau fédéral",
+    "Les amortissements récupérés et la plus-value sont soumis à l’impôt sur le revenu au niveau fédéral, cantonal et communal"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'immeuble est en fortune COMMERCIALE (art. 18 LIFD) — l'exonération du gain en capital ne vaut que pour la fortune privée (art. 16 al. 3 LIFD).",
+    "Correct : règle constante — les amortissements récupérés (écart entre coût d'investissement et valeur comptable) sont TOUJOURS soumis à l'impôt sur le revenu, aux trois niveaux (fédéral, cantonal, communal), que le canton de situation soit moniste ou dualiste. En moniste (Zurich, art. 12 al. 4 LHID), seule la plus-value proprement dite va à l'IGI cantonal/communal (mémento §10.2, exemple Z SA : amortissements récupérés → impôt sur le bénéfice/revenu ; plus-value → IGI).",
+    "Faux : les amortissements récupérés ne vont JAMAIS à l'IGI — même en système moniste, l'IGI ne frappe que la plus-value (produit − coût d'investissement) ; la récupération d'amortissements relève de l'impôt sur le revenu, y compris au niveau cantonal.",
+    "Faux : c'est le traitement DUALISTE (tout le gain commercial à l'impôt sur le revenu). Or l'immeuble est sis en canton MONISTE (Zurich) : au niveau cantonal/communal, la plus-value relève de l'IGI, pas de l'impôt sur le revenu (au fédéral, en revanche, tout passe effectivement par l'impôt sur le revenu, faute d'IGI fédéral)."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,506 @@
+{
+ "module": "M9",
+ "titre": "09 · Réduction pour participations",
+ "questions": [
+  {
+   "id": "FE-082",
+   "champ": "Principe & seuil (LHID art. 28)",
+   "memento": "§6",
+   "difficulte": 1,
+   "question": "La LHID, à son article 28, prévoit : (identifiez la réponse correcte)",
+   "options": [
+    "la possibilité de supprimer la double imposition",
+    "la possibilité de réduire l'imposition multiple dès lors que la participation est supérieure ou égale à 10%",
+    "la possibilité de réduire l'imposition multiple dès lors que la participation est supérieure ou égale à 20%",
+    "la possibilité de réduire l'imposition multiple dès lors que la participation est supérieure ou égale à 50%"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le mécanisme ne « supprime » pas la double imposition économique, il l'ATTÉNUE — la réduction d'impôt est proportionnelle à la part du rendement net de participations dans le bénéfice, jamais une suppression garantie.",
+    "Exact : la réduction pour participations atténue l'imposition économique multiple des bénéfices au sein d'un groupe dès que la participation atteint 10 % — ou que sa valeur vénale atteint CHF 1 mio (art. 28 al. 1 LHID, correspondant aux art. 69-70 LIFD ; mémento §6).",
+    "Faux : 20 % n'est pas le seuil de la réduction pour participations — ne pas confondre avec le seuil de la liquidation partielle indirecte (≥ 20 %, mémento §10) ou du transfert intragroupe (art. 61 al. 3 LIFD).",
+    "Faux : 50 % n'a aucun fondement pour la réduction pour participations — le seuil légal est de 10 %."
+   ],
+   "piege": "seuil 10 % (ou VV ≥ 1 mio)"
+  },
+  {
+   "id": "FE-083",
+   "champ": "Gain en capital — durée de détention",
+   "memento": "§6",
+   "difficulte": 1,
+   "question": "Concernant les gains en capital (LIFD art. 70 / LHID art. 28), pour qu'une réduction soit possible sur une participation supérieure ou égale à 10 %, la participation : (identifiez la réponse correcte)",
+   "options": [
+    "doit être détenue pendant au moins 3 mois",
+    "doit être détenue pendant au moins 6 mois",
+    "doit être détenue pendant au moins 1 an",
+    "il n'y a pas de limitation liée au temps de détention"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la durée de 3 mois est inventée — aucune durée de ce type ne figure à l'art. 70 LIFD.",
+    "Faux : la durée de 6 mois est inventée elle aussi ; le législateur a fixé une année entière.",
+    "Exact : pour bénéficier de la réduction sur un GAIN EN CAPITAL, la participation aliénée doit représenter au moins 10 % ET avoir été détenue pendant au moins UN AN (art. 70 al. 4 let. b LIFD ; mémento §6).",
+    "Faux : contrairement au dividende (aucune durée exigée), le gain en capital est soumis à une condition de détention minimale d'un an — c'est l'une des différences clés entre les deux régimes."
+   ],
+   "piege": "dividende : pas de durée / gain : ≥ 1 an"
+  },
+  {
+   "id": "FE-084",
+   "champ": "Calcul du taux de réduction",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Rendement brut de la participation = 150 000 (dont 5 000 de coûts directement attribuables) ; bénéfice net de la société mère = 1 000 000 ; pas de frais de financement ; frais d'administration = 5 %. Le taux de la réduction est de : (identifiez la réponse correcte)",
+   "options": [
+    "10%",
+    "13.65%",
+    "13.75%",
+    "100%"
+   ],
+   "correct": 2,
+   "explications": [
+    "10 % = confusion avec le seuil de participation de 10 % (art. 69 LIFD) : le TAUX de réduction se calcule, lui, comme rendement net ÷ bénéfice net, il n'a rien d'un seuil fixe.",
+    "13,65 % (= rendement net de 136 500) est un distracteur de proximité : aucune combinaison conforme des déductions n'y aboutit (il suppose une base erronée du forfait de 5 % ou une déduction parasite d'environ 1 000).",
+    "Exact : rendement net = rendement brut − coûts directement attribuables − forfait d'administration de 5 % du BRUT − frais de financement = 150 000 − 5 000 − 7 500 (5 % × 150 000) − 0 = 137 500. Taux = 137 500 ÷ 1 000 000 = 13,75 % (art. 69-70 LIFD ; Circ. AFC n° 27 ; mémento §6).",
+    "100 % = confusion avec une exonération totale : la réduction est proportionnelle à la part du rendement net (137 500) dans le bénéfice (1 000 000), elle n'atteint 100 % que si le rendement net couvre tout le bénéfice."
+   ],
+   "piege": "forfait 5 % calculé sur le rendement brut"
+  },
+  {
+   "id": "FE-085",
+   "champ": "Calcul du rendement net",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Rendement brut de la participation = 250 000 (dont 30 000 de coûts directement attribuables) ; frais de financement = 10 000 ; frais d'administration = 5 %. Le rendement net de la participation est de : (identifiez la réponse correcte)",
+   "options": [
+    "250'000",
+    "197'500",
+    "199'000",
+    "199'500"
+   ],
+   "correct": 1,
+   "explications": [
+    "250 000 = rendement BRUT sans aucune déduction : oublie les coûts directs, les frais de financement et le forfait d'administration.",
+    "Exact : rendement net = 250 000 − 30 000 (coûts directement attribuables, art. 70 al. 3 LIFD) − 10 000 (frais de financement) − 12 500 (forfait de 5 % × 250 000, calculé sur le BRUT) = 197 500 (Circ. AFC n° 27 ; mémento §6).",
+    "199 000 = forfait de 5 % calculé sur 220 000 (brut − coûts directs), soit 11 000 au lieu de 12 500 : la base du forfait est le rendement brut, pas le rendement après coûts directs.",
+    "199 500 = forfait de 5 % calculé sur 210 000 (après coûts directs ET frais de financement), soit 10 500 au lieu de 12 500 : même erreur de base, aggravée."
+   ],
+   "piege": "5 % sur le brut, pas sur le net"
+  },
+  {
+   "id": "FE-086",
+   "champ": "Conditions du dividende (10% / bénéfice-réserves / 1 mio)",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Lesquels de ces cas de figure donnent droit à une réduction pour participations (dividendes) ? (1) Alpha SA : valeur vénale 500 000, participation au capital 22 %. (2) Beta SA : valeur vénale 990 000, participation au bénéfice et aux réserves 10 %. (3) Gamma SA : valeur vénale 1 100 000, participation au capital 8 %. (4) Delta SA : valeur vénale 800 000, participation au bénéfice et aux réserves 7 %.",
+   "options": [
+    "Seul le cas de figure no 1 donne droit à une réduction pour participations.",
+    "Seuls les cas de figure no 1 et 2 donnent droit à une réduction pour participations.",
+    "Seuls les cas de figure no 1, 2 et 3 donnent droit à une réduction pour participations.",
+    "Tous les cas de figure, no 1, 2, 3 et 4, donnent droit à une réduction pour participations."
+   ],
+   "correct": 2,
+   "explications": [
+    "Trop restrictif : oublie Beta (10 % du bénéfice et des réserves suffit, même avec une VV de 990 000 < 1 mio) et Gamma (8 % < 10 %, mais la VV de 1 100 000 ≥ 1 mio sauve le dividende).",
+    "Oublie Gamma : sa participation au capital (8 %) est certes insuffisante, mais sa valeur vénale (1 100 000) atteint le seuil de CHF 1 mio — les trois conditions de l'art. 69 LIFD sont ALTERNATIVES.",
+    "Exact : conditions alternatives pour les dividendes (art. 69 LIFD ; mémento §6) : ≥ 10 % du capital OU ≥ 10 % du bénéfice et des réserves OU valeur vénale ≥ CHF 1 mio. Cas 1 : 22 % du capital → oui. Cas 2 : 10 % du bénéfice/réserves → oui. Cas 3 : 8 % seulement, mais VV 1 100 000 ≥ 1 mio → oui. Cas 4 : 7 % et VV 800 000 < 1 mio → aucune condition remplie → non.",
+    "Inclut à tort Delta : 7 % < 10 % (capital comme bénéfice/réserves) et VV 800 000 < 1 mio — aucune des trois conditions alternatives n'est remplie."
+   ],
+   "piege": "seuil 10 % OU 1 mio — conditions alternatives"
+  },
+  {
+   "id": "FE-087",
+   "champ": "Calcul complet — dividende, admin & financement",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Strom SA détient une participation de 55 % dans Vertriebs SA. Actifs totaux 12 000 000 ; valeur comptable de la participation 2 000 000 ; prêt actif à Vertriebs SA 350 000 ; bénéfice net imposable 230 000 ; produit brut des dividendes de Vertriebs SA 140 000 ; produit des intérêts du prêt 17 000 ; charge d'intérêt totale (compte de résultat) 12 000. Pour les données manquantes, appliquer les forfaits légaux. Quel est le pourcentage de réduction de l'impôt pour Strom SA ?",
+   "options": [
+    "Pourcentage de réduction de l'impôt 52,61%",
+    "Pourcentage de réduction de l'impôt 56,96%",
+    "Pourcentage de réduction de l'impôt 64,35%",
+    "Pourcentage de réduction de l'impôt 0%"
+   ],
+   "correct": 1,
+   "explications": [
+    "52,61 % (= 121 000 ÷ 230 000) déduit la charge d'intérêt TOTALE (12 000) au lieu de la seule part proratisée (2 000) : 140 000 − 7 000 − 12 000 = 121 000. Les frais de financement se répartissent au prorata de la valeur comptable de la participation sur les actifs totaux.",
+    "Exact : seuls les DIVIDENDES sont un rendement de participation — les intérêts du prêt (17 000) sont un rendement ordinaire, exclus. Rendement brut = 140 000 ; frais d'administration forfaitaires = 5 % × 140 000 = 7 000 ; frais de financement = 12 000 × 2 000 000 ÷ 12 000 000 = 2 000. Rendement net = 131 000 ; réduction = 131 000 ÷ 230 000 = 56,96 % (art. 69-70 LIFD ; Circ. AFC n° 27 ; mémento §6).",
+    "64,35 % (= 148 000 ÷ 230 000) ajoute à tort les intérêts du prêt au rendement de participation : 140 000 + 17 000 − 7 000 − 2 000 = 148 000. Les intérêts d'un prêt à la filiale ne sont pas un rendement de participation.",
+    "0 % supposerait que la participation ne qualifie pas — faux : 55 % ≥ 10 % (art. 69 LIFD), la réduction est ouverte."
+   ],
+   "piege": "intérêts d'un prêt ≠ rendement de participation"
+  },
+  {
+   "id": "FE-088",
+   "champ": "Gain en capital — conditions (piège 1 mio)",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Si des sociétés de capitaux détiennent au moins 10 % du capital nominal d'une autre société de capitaux, ou si une telle participation a une valeur vénale d'au moins CHF 1 million, il est possible de prétendre à la réduction pour participations sur les gains en capital. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 1,
+   "explications": [
+    "« Vrai » confondrait les conditions du DIVIDENDE (≥ 10 % OU VV ≥ 1 mio, art. 69 LIFD) avec celles, plus strictes, du gain en capital — c'est exactement le piège tendu par l'énoncé.",
+    "Correct, l'énoncé est FAUX : pour les GAINS EN CAPITAL, la réduction suppose l'aliénation d'une participation d'au moins 10 % détenue depuis au moins un an (art. 70 al. 4 let. b LIFD). Le critère de la valeur vénale ≥ 1 mio ne vaut QUE pour les dividendes et ne sauve pas, en règle générale, le gain d'une participation inférieure à 10 % (seule exception étroite : le reliquat < 10 % issu d'une vente partielle, si sa VV atteignait 1 mio à la fin de l'année précédente). Mémento §6."
+   ],
+   "piege": "1 mio ne sauve que le dividende, pas le gain"
+  },
+  {
+   "id": "FE-089",
+   "champ": "Conditions du dividende — énoncé exact",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Si une société de capitaux détient au moins 10 % du capital nominal d'une autre société de capitaux, ou est intéressée pour au moins 10 % au bénéfice et aux réserves d'une autre société, ou si les droits de participation détenus ont une valeur vénale d'au moins CHF 1 million, il est possible de prétendre à la réduction pour participations sur les dividendes. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 0,
+   "explications": [
+    "VRAI : ce sont exactement les trois conditions ALTERNATIVES ouvrant la réduction pour participations sur les DIVIDENDES (art. 69 LIFD ; mémento §6) : ≥ 10 % du capital, OU ≥ 10 % du bénéfice et des réserves, OU valeur vénale ≥ CHF 1 million. Une seule suffit.",
+    "« Faux » serait erroné : ces seuils correspondent au texte légal pour les rendements sous forme de dividendes. À ne pas confondre avec le gain en capital, dont les conditions sont plus strictes (≥ 10 % aliéné ET détention ≥ 1 an, art. 70 al. 4 LIFD — cf. question précédente)."
+   ]
+  },
+  {
+   "id": "FE-090",
+   "champ": "Calcul complet — réduction & impôt dû",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "La société A SA présente un bénéfice net de 200. Les rendements de ses participations s'élèvent à 400. Les frais d'administration se montent à 20 et les intérêts débiteurs de la période à 800. Le total du bilan atteint 5 000 et les participations ont une valeur comptable de 2 000. Pour un taux d'imposition de 15 %, quels sont le taux de réduction pour participations et l'impôt dû ? (Question reformulée en choix unique : l'énoncé d'origine était à compléter.)",
+   "options": [
+    "Réduction 30 % ; impôt dû 21",
+    "Réduction 30 % ; impôt dû 30",
+    "Réduction 20 % ; impôt dû 24",
+    "Réduction 100 % ; impôt dû 0"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : frais de financement = intérêts débiteurs × valeur comptable des participations ÷ total du bilan = 800 × 2 000 ÷ 5 000 = 320. Rendement net = 400 − 20 (frais d'administration effectifs) − 320 = 60. Taux de réduction = 60 ÷ 200 = 30 %. Impôt avant réduction = 200 × 15 % = 30 ; impôt dû = 30 × (1 − 30 %) = 21 (art. 69-70 LIFD ; Circ. AFC n° 27 ; mémento §6).",
+    "Le taux de 30 % est correct, mais l'impôt de 30 correspond à l'impôt AVANT réduction (200 × 15 %) : cette option calcule la réduction puis oublie de l'appliquer au montant de l'impôt.",
+    "Réduction de 20 % et impôt de 24 sous-estiment les frais de financement (320) : avec la répartition correcte des intérêts débiteurs au prorata (2 000 ÷ 5 000 = 40 %), le rendement net tombe à 60 et le taux à 30 %.",
+    "100 % et impôt nul supposeraient le bénéfice entièrement couvert par le rendement net de participations — or celui-ci (60) est très inférieur au bénéfice (200) : la réduction n'est jamais une exonération automatique."
+   ],
+   "piege": "réduction d'IMPÔT — l'appliquer au montant de l'impôt"
+  },
+  {
+   "id": "FE-091",
+   "champ": "Rendements = revenus (réduction d'impôt, pas d'assiette)",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Les rendements de participations sont par principe considérés comme des revenus. Dans la mesure où il est possible de faire valoir la réduction pour participations, les rendements de participations ne sont toutefois pas à comptabiliser à titre de revenus. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 1,
+   "explications": [
+    "« Vrai » traduirait le contresens classique : croire que la réduction exclut les rendements de l'assiette. Or ils restent comptabilisés et pleinement intégrés au bénéfice imposable — c'est l'impôt qui est ensuite réduit.",
+    "Correct, l'énoncé est FAUX : les rendements de participations restent comptabilisés et imposés comme des produits — ils entrent dans le bénéfice net imposable. La réduction pour participations n'est PAS une exonération d'assiette mais une RÉDUCTION D'IMPÔT : l'impôt sur le bénéfice est diminué au prorata du rendement net de participations (art. 69 LIFD ; mémento §6 et §16, tableau des faux amis)."
+   ],
+   "piege": "réduction d'impôt ≠ réduction d'assiette"
+  },
+  {
+   "id": "FE-092",
+   "champ": "Gain en capital vs amortissement récupéré (coût d'investissement)",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "La société A SA a acheté en l'an 1 une participation de 100 % pour un prix de 100. En l'an 2, elle a amorti cette participation à 80 (réduction de 20) en raison d'une conjoncture défavorable. En l'an 3, A SA a vendu sa participation pour 140. Le bénéfice en capital comptable est de 60. Quelle part de ce bénéfice donne droit à la réduction pour participations (le solde étant pleinement imposé à titre d'amortissement récupéré) ? (Question reformulée en choix unique : l'énoncé d'origine était à compléter.)",
+   "options": [
+    "40 (le gain au-delà du coût d'investissement de 100) donne droit à la réduction ; 20 sont pleinement imposés comme amortissement récupéré",
+    "60 (la totalité du bénéfice comptable) donne droit à la réduction",
+    "20 (le montant amorti puis récupéré) donne droit à la réduction",
+    "0 (aucune part ne qualifie)"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : le bénéfice comptable de 60 (140 − 80) se décompose en deux parts. (a) La reprise de l'amortissement de 20 (de 80 à 100) est un AMORTISSEMENT RÉCUPÉRÉ, pleinement imposé sans réduction. (b) Le gain au-delà du coût d'investissement, 140 − 100 = 40, est seul éligible : le gain en capital se mesure sur le COÛT D'INVESTISSEMENT, non sur la valeur comptable (art. 70 al. 4 let. a LIFD ; mémento §6).",
+    "60 inclut à tort l'amortissement récupéré (20) : cette part ne fait que reconstituer une valeur antérieurement amortie en charge — elle est imposée ordinairement, sans réduction.",
+    "20 confond les deux composantes : c'est précisément le montant récupéré (pleinement imposé), pas le gain éligible (40).",
+    "0 nierait tout gain qualifiant : or le produit (140) excède le coût d'investissement (100) de 40, et la participation de 100 % détenue plus d'un an remplit les conditions."
+   ],
+   "piege": "gain mesuré sur le coût d'investissement, pas la valeur comptable"
+  },
+  {
+   "id": "FE-093",
+   "champ": "Réévaluation & coût d'investissement",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Aux termes de l'art. 670 CO, les immeubles et les participations peuvent exceptionnellement être réévalués jusqu'au prix d'acquisition ou au coût de revient. Comme cette réévaluation constitue simplement une réalisation comptable de réserves latentes, les coûts d'investissement des participations éventuellement réévaluées n'augmentent pas de ce fait. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 0,
+   "explications": [
+    "VRAI : une réévaluation (limitée au prix d'acquisition) n'est qu'une réalisation COMPTABLE de réserves latentes — elle reconstitue une valeur antérieurement amortie sans jamais dépasser le coût d'acquisition. Le COÛT D'INVESTISSEMENT (déterminant pour le gain éligible à la réduction) demeure la dépense historique et n'est pas majoré (art. 70 al. 4 et 62 al. 4 LIFD ; mémento §6). À jour 2026 : l'art. 670 CO a été ABROGÉ au 1.1.2023 (révision du droit de la SA), mais le principe fiscal reste valable pour toute réévaluation comptable (divergences.md §6).",
+    "« Faux » laisserait croire qu'une simple écriture de réévaluation majore le coût d'investissement fiscal — or seuls de véritables apports (versements, apports à fonds perdus) augmentent le coût d'investissement, jamais une réalisation purement comptable."
+   ]
+  },
+  {
+   "id": "FE-094",
+   "champ": "Réévaluation de participations & réduction",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Conformément à l'art. 58 al. 1 let. c LIFD, les bénéfices de réévaluation s'ajoutent au bénéfice imposable ; il en va de même de la réévaluation de participations. Si les conditions sont remplies, il est néanmoins possible de faire valoir la réduction pour participations pour les bénéfices de réévaluation réalisés sur les participations. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 1,
+   "explications": [
+    "« Vrai » assimilerait un bénéfice de réévaluation à un gain en capital d'aliénation — or la réduction sur les gains suppose une ALIÉNATION effective de la participation, ce qu'une réévaluation n'est pas.",
+    "Correct, l'énoncé est FAUX : le bénéfice de réévaluation d'une participation est certes ajouté au bénéfice imposable (art. 58 al. 1 let. c LIFD), mais il n'ouvre pas la réduction pour participations : la réduction sur les gains exige une aliénation (art. 70 al. 4 LIFD). De plus, la réévaluation (plafonnée au coût d'acquisition) ne fait que récupérer un amortissement antérieur — un amortissement récupéré pleinement imposé — sans augmenter le coût d'investissement. Précision 2026 : l'art. 670 CO a été abrogé au 1.1.2023, ce qui restreint encore la portée pratique de l'hypothèse (mémento §6 ; divergences.md §6)."
+   ],
+   "piege": "réévaluation ≠ aliénation"
+  },
+  {
+   "id": "FE-095",
+   "champ": "Réduction pour participations — gain en capital sur coût d'investissement",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "BeauTemps SA, dont le siège est en Argovie, possède depuis plusieurs années 10% du capital-actions de NiceCap SA dont la valeur déterminante pour l’impôt sur le bénéfice est de CHF 1’000’000 et son coût d’investissement de CHF 1’400’000. Durant la période fiscale 2022, BeauTemps SA aliène sa participation dans NiceCap SA pour un prix de CHF 2’000’000. Les frais d’administration s’élèvent à 5% et les intérêts passifs sont négligeables. Sachant que le bénéfice imposable de BeauTemps SA est de CHF 1’900’000 en 2022, à combien s’élève la réduction pour participations  ?",
+   "options": [
+    "0%",
+    "30%",
+    "50%",
+    "100%"
+   ],
+   "correct": 1,
+   "explications": [
+    "0 % supposerait la participation non qualifiante — faux : aliénation de 10 % (seuil atteint) détenue « depuis plusieurs années » (≥ 1 an), les conditions de l'art. 70 al. 4 LIFD sont remplies.",
+    "Exact : l'assiette éligible d'un gain = produit − COÛT D'INVESTISSEMENT (jamais la valeur comptable) : 2 000 000 − 1 400 000 = 600 000. Moins les frais d'administration de 5 % × 600 000 = 30 000 → rendement net = 570 000. Réduction = 570 000 ÷ 1 900 000 = 30 % (art. 69 et 70 al. 4 let. a LIFD ; mémento §6, exemple BeauTemps SA).",
+    "50 % provient d'une erreur d'assiette : calculer le gain sur la valeur comptable/fiscale (2 000 000 − 1 000 000 = 1 000 000) rapporté au bénéfice de 1 900 000 donne environ 50 % — mais le gain éligible se mesure sur le coût d'investissement.",
+    "100 % confond la réduction avec une exonération d'assiette : le rendement net (570 000) ne couvre qu'une partie du bénéfice (1 900 000), la réduction est donc proportionnelle."
+   ],
+   "piege": "coût d'investissement, pas valeur comptable"
+  },
+  {
+   "id": "FE-096",
+   "champ": "Réduction pour participations — rendement net d'un dividende (amort. de substance)",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "TouTemps SA, dont le siège est en Valais, possède la totalité du capital-actions de Parapluie SA dont la valeur déterminante pour l’impôt sur le bénéfice est de CHF 2’000’000, pour un total des actifs de TouTemps SA de CHF 8’000’000. Durant la période fiscale 2022, Parapluie SA verse un dividende de CHF 400’000, engendrant un amortissement de substance de CHF 200’000. Sachant que les frais d’administration s’élèvent à 5% et que les intérêts passifs totaux se montent à CHF 100’000, quel est le rendement net de participation déterminant pour le calcul de la réduction pour participations ? ",
+   "options": [
+    "CHF 280'000",
+    "CHF 90'000",
+    "CHF 165'000",
+    "CHF 355'000"
+   ],
+   "correct": 2,
+   "explications": [
+    "280 000 (= 400 000 − 20 000 − 100 000) déduit la TOTALITÉ des intérêts passifs au lieu de la part proratisée (25 000) et oublie l'amortissement de substance (200 000) : deux erreurs cumulées.",
+    "90 000 (= 200 000 − 10 000 − 100 000) retient bien l'amortissement de substance mais déduit ensuite la totalité des intérêts passifs (100 000) au lieu des seuls frais de financement proratisés (100 000 × 2 000 000 ÷ 8 000 000 = 25 000).",
+    "Réponse retenue : rendement brut 400 000 − amortissement de substance 200 000 (le dividende est prélevé sur la substance et provoque une correction de valeur de la participation : « amortissement lié à la distribution », art. 70 al. 3 LIFD) = 200 000 ; − frais d'administration 5 % × 200 000 = 10 000 ; − frais de financement 100 000 × 2 000 000 ÷ 8 000 000 = 25 000 → rendement net = 165 000 (Circ. AFC n° 27 ; mémento §6). NB : cette clé assoit le forfait de 5 % sur le rendement APRÈS amortissement de substance — seule lecture menant à une option proposée ; la Circ. 27 l'assoit en principe sur le brut (clé à confiance moyenne, voir divergences.md §3).",
+    "355 000 (= 400 000 − 20 000 − 25 000) oublie l'amortissement de substance : un dividende prélevé sur la substance ampute la valeur de la participation, et cet amortissement lié à la distribution se déduit du rendement (art. 70 al. 3 LIFD)."
+   ],
+   "piege": "dividende de substance → amortissement lié à déduire du rendement"
+  },
+  {
+   "id": "FE-097",
+   "champ": "Bénéficiaires de la réduction pour participations",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Qui peut bénéficier de la réduction pour participation?",
+   "options": [
+    "Fondations",
+    "Sociétés de personnes",
+    "Sociétés de capitaux et coopératives",
+    "Toutes les sociétés selon le CC/CO"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : les fondations (et associations) ne figurent pas à l'art. 69 LIFD, qui réserve la réduction aux sociétés de capitaux et aux sociétés coopératives.",
+    "Faux : les sociétés de personnes sont TRANSPARENTES (art. 10 LIFD, mémento §1) — leur résultat est imposé chez les associés à l'impôt sur le revenu ; elles ne sont pas sujettes à l'impôt sur le bénéfice et n'ont donc pas accès à la réduction.",
+    "Exact : la réduction pour participations est réservée aux sociétés de capitaux et aux sociétés coopératives (art. 69 LIFD ; mémento §6).",
+    "Trop large : « toutes les sociétés selon le CC/CO » inclurait les sociétés de personnes (transparentes) et d'autres entités non visées par l'art. 69 LIFD."
+   ]
+  },
+  {
+   "id": "FE-098",
+   "champ": "Réduction pour participations sur gain en capital — condition",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Lequel des critères doit être rempli afin de pouvoir faire valoir la réduction pour participations sur les gains en capital?",
+   "options": [
+    "Produit de l’aliénation > valeur comptable de la participation",
+    "Valeur comptable de la participation > CHF 1 mio.",
+    "Durée de détention de la participation aliénée > 5 ans",
+    "La participation aliénée représente au moins 10% du capital social d’une autre société"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : le seuil déterminant est le COÛT D'INVESTISSEMENT, pas la valeur comptable — l'excédent du produit sur la valeur comptable peut contenir des amortissements récupérés, pleinement imposés (art. 70 al. 4 let. a LIFD).",
+    "Faux : le seuil de CHF 1 mio (en valeur VÉNALE, du reste, pas comptable) ne concerne que les DIVIDENDES (art. 69 LIFD) ; il ne vaut pas pour les gains en capital.",
+    "Faux : la durée de détention exigée est d'au moins 1 AN, pas 5 ans — ne pas confondre avec le délai de blocage de 5 ans des restructurations (art. 61 al. 4 LIFD, mémento §9.2).",
+    "Exact : le gain en capital n'est éligible que si la participation ALIÉNÉE représente au moins 10 % du capital d'une autre société (art. 70 al. 4 let. b LIFD), avec détention ≥ 1 an et produit > coût d'investissement (mémento §6)."
+   ],
+   "piege": "gain : 10 % + 1 an + produit > coût d'investissement"
+  },
+  {
+   "id": "FE-099",
+   "champ": "Conditions de la réduction (dividende / gain / seuils)",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Waters Holding SA est une société holding dont le siège est en Suisse et qui détient de nombreuses participations dans des entreprises du monde entier. Le CFO de Waters Holding SA cherche à s'entretenir avec vous, car il n'est pas sûr de l'application de la réduction pour participations dans le cadre des participations suivantes: A SA: bons de jouissance donnant droit à 12% des bénéfices et des réserves, acquis en 2021; B SA: 60% des actions, acquisition en 2023; C SA: 8% des actions (valeur vénale de CHF 3 000 000), acquisition en 2021; D SA: 16% des actions, acquisition en 2023. Laquelle des déclarations suivantes du CFO est erronée en ce qui concerne l'impôt fédéral direct?",
+   "options": [
+    "La vente des actions de D SA en 2023 donne droit à la déduction pour participation",
+    "L'excédent de liquidation reçu de B SA en 2023 donne droit à la réduction pour participations",
+    "La distribution sur les bons de jouissance de A SA en 2023 donne droit à la réduction pour participations",
+    "La vente des actions de C SA en 2023 ne donne pas droit à la réduction pour participations"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est la déclaration ERRONÉE (à cocher) : D SA = 16 % (≥ 10 %), mais acquise ET vendue en 2023 → détention inférieure à un an → le gain en capital n'ouvre PAS la réduction (art. 70 al. 4 let. b LIFD : ≥ 10 % ET détention ≥ 1 an ; mémento §6).",
+    "Déclaration exacte, donc pas la réponse : avec 60 % du capital, l'excédent de liquidation reçu de B SA est assimilé à un rendement de participation et donne droit à la réduction (art. 69 LIFD) — aucune durée de détention n'est exigée pour les rendements.",
+    "Déclaration exacte, donc pas la réponse : les bons de jouissance donnent droit à 12 % du bénéfice et des réserves, soit ≥ 10 % — la condition alternative de l'art. 69 LIFD est remplie pour la distribution.",
+    "Déclaration exacte, donc pas la réponse : C SA = 8 % < 10 % ; pour un GAIN en capital, le critère de la valeur vénale ≥ 1 mio (ici 3 mio) ne vaut que pour les rendements — la vente ne donne donc effectivement pas droit à la réduction."
+   ],
+   "piege": "gain : seuil 10 % et durée ≥ 1 an s'apprécient sur la participation aliénée"
+  },
+  {
+   "id": "FE-100",
+   "champ": "Calcul du taux de réduction (rendement net / bénéfice)",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "La société B SA, sise en Suisse, détient 5% du capital-actions de Z SA et vous transmets les informations suivantes : Valeur comptable de la participation dans Z SA : CHF 1'500'000; Valeur déterminante pour l'impôt sur le bénéfice de la participation dans Z SA : CHF 1'800'000; Valeur vénale de la participation dans Z SA : CHF 2'500'000; Valeur comptable des actifs totaux de B SA : CHF 4'700'000; Frais d'administration pour la participation Z SA chez B SA : 5%; Intérêts passifs totaux de B SA : CHF 250'000; Bénéfice imposable de B SA : CHF 2'000'000. Durant la période fiscale 2023, B SA a reçu un dividende de CHF 300'000 de la part de Z SA. A combien s'élève la réduction pour participations chez B SA ?",
+   "options": [
+    "10.50%",
+    "10.26%",
+    "0%",
+    "9.75%"
+   ],
+   "correct": 1,
+   "explications": [
+    "10,50 % (= 210 000 ÷ 2 000 000) : 210 000 correspond à 70 % du dividende de 300 000 — confusion avec l'imposition partielle des dividendes qualifiés des personnes physiques (70 %, art. 20 al. 1bis LIFD, mémento §10), un mécanisme étranger à la réduction pour participations, qui exige de calculer un rendement NET (admin 5 % + frais de financement).",
+    "Réponse retenue : 5 % < 10 %, MAIS valeur vénale 2 500 000 ≥ 1 mio → la participation qualifie pour les rendements (art. 69 LIFD). Frais d'administration = 5 % × 300 000 = 15 000 ; frais de financement = 250 000 × (1 500 000 ÷ 4 700 000) = 79 787 — répartition en valeurs COMPTABLES. Rendement net = 300 000 − 15 000 − 79 787 = 205 213 ; réduction = 205 213 ÷ 2 000 000 = 10,26 % (Circ. AFC n° 27 ; mémento §6). NB : clé reconstruite — la répartition en valeurs comptables est la seule menant à une option proposée (confiance moyenne, voir divergences.md §3).",
+    "0 % supposerait la participation non qualifiante — faux : le critère alternatif de la valeur vénale ≥ CHF 1 mio (ici 2,5 mio) ouvre la réduction pour les dividendes malgré les 5 % de capital.",
+    "9,75 % (= rendement net d'environ 195 000) provient d'une clé de répartition des intérêts erronée (environ 90 000 de frais de financement au lieu de 79 787) — aucune répartition correcte (valeur comptable 1 500 000 ou valeur fiscale 1 800 000 sur actifs 4 700 000) n'y conduit exactement."
+   ],
+   "piege": "5 % < 10 % mais VV ≥ 1 mio → le dividende qualifie quand même"
+  },
+  {
+   "id": "FE-101",
+   "champ": "Taux de réduction avec plafonnement à 100 %",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Avec un total du bilan de CHF 10 mio., Z SA (CH) a deux participations suisses dans son bilan, à savoir T1 SA (taux de participation 8%; valeur comptable CHF 2 mio.) et T2 Sàrl (taux de participation 20%; valeur comptable CHF 1,5 mio.). Les charges financières s'élèvent à CHF 30 000 et le bénéfice net imposable à CHF 200 000. T1 SA verse un dividende de CHF 500 000, T2 Sàrl un dividende de CHF 225 000. Quel est le montant de la réduction pour participations en pourcentage du bénéfice net imposable?",
+   "options": [
+    "35,125%",
+    "40,375%",
+    "100%",
+    "36,175%"
+   ],
+   "correct": 2,
+   "explications": [
+    "35,125 % ne correspond à aucun cheminement conforme : il sous-estime massivement le rendement net qualifiant et ignore le plafonnement — or le rendement net total (678 250) dépasse largement le bénéfice (200 000).",
+    "40,375 % est du même type : même en ne retenant que T2 (rendement net 209 250), le ratio dépasserait déjà 100 % du bénéfice net imposable (200 000) — impossible d'aboutir à ~40 % par un calcul correct.",
+    "Exact : T2 (20 %) qualifie par le taux ; T1 (8 %) qualifie par la valeur ≥ 1 mio pour les dividendes (art. 69 LIFD). Rendements nets (5 % admin + financement proratisé) : T1 = 500 000 − 25 000 − 30 000 × (2 ÷ 10) = 469 000 ; T2 = 225 000 − 11 250 − 30 000 × (1,5 ÷ 10) = 209 250 ; total 678 250. Le rendement net excède le bénéfice net imposable (200 000) → la réduction, définie en % de l'impôt, est PLAFONNÉE à 100 % (Circ. AFC n° 27 ; mémento §6).",
+    "36,175 % relève des mêmes erreurs (base de calcul erronée, plafond ignoré) : dès que le rendement net dépasse le bénéfice, la seule réponse possible est 100 %."
+   ],
+   "piege": "réduction plafonnée à 100 % du bénéfice net"
+  },
+  {
+   "id": "FE-102",
+   "champ": "Rendement net sur gain de participation (coût d'investissement)",
+   "memento": "§6 · §3",
+   "difficulte": 3,
+   "question": "Au cours de l'année 2023, V SA, dont le siège est en Suisse, a vendu sa participation de 100% dans la société W SA au prix de CHF 3 500 000. Les informations suivantes sont disponibles sur la participation à la W SA: 2018: Acquisition de 100% de W SA pour CHF 2 000 000; 2019: Amortissement de la participation W SA d'un montant de CHF 200 000; 2020: Apport à fonds perdus de V SA à W SA de CHF 800 000; 2021: Amortissement de la participation W SA suite à un dividende prélevé sur la substance de CHF 300 000; 2022: Abandon de créance de V SA envers WSA de CHF 500 000. L'abandon de créance équivaut à un abandon de créance par des tiers. Supposons que les frais administratifs s'élèvent à 5% et que les intérêts passifs sont négligeables : quel est le rendement net des participations déterminant pour le calcul de la réduction pour participation?",
+   "options": [
+    "CHF 950 000",
+    "CHF 475 000",
+    "CHF 665 000",
+    "CHF 190 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : coût d'investissement = acquisition 2 000 000 + apport à fonds perdus 800 000 − dividende prélevé sur la substance 300 000 (il réduit le coût d'investissement) = 2 500 000. L'amortissement ordinaire de 2019 (200 000) ne modifie pas le coût — il sera repris comme récupération d'amortissement, imposée SANS réduction (cf. mémento §3). L'abandon de créance 2022, « équivalent à un abandon par des tiers », n'est PAS un apport et n'augmente pas le coût. Gain éligible = 3 500 000 − 2 500 000 = 1 000 000 ; − 5 % (50 000) → rendement net = 950 000 (art. 70 al. 4 let. b LIFD ; mémento §6).",
+    "475 000 (= 500 000 × 0,95) ajoute à tort l'abandon de créance (500 000) au coût d'investissement (→ 3 000 000) : un abandon « équivalent tiers » est un produit d'assainissement chez la fille, pas un apport du détenteur — il ne majore pas le coût.",
+    "665 000 (= 700 000 × 0,95) oublie que le dividende prélevé sur la substance RÉDUIT le coût d'investissement (calcule avec 2 800 000 au lieu de 2 500 000).",
+    "190 000 (= 200 000 × 0,95) ne retient que la récupération d'amortissement — soit précisément la part du gain qui est pleinement imposée et EXCLUE de la réduction."
+   ],
+   "piege": "apports ↑ le coût d'investissement, dividende de substance ↓ ; abandon « équivalent tiers » : neutre"
+  },
+  {
+   "id": "FE-103",
+   "champ": "Taux de réduction (fondation détentrice) avec frais de financement",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "La fondation Tempo, dont le siège est en Suisse, détient 100% du capital-actions d'Allegro SA. La valeur de l'impôt sur le bénéfice de la participation dans Allegro SA s'élève à CHF 800 000 et les actifs totaux de la fondation Tempo s'élèvent à CHF 4 000 000. Pour la période fiscale 2023, Allegro SA verse un dividende de CHF 100 000. Quel est le montant de la réduction pour participation en % si les frais administratifs s'élèvent à 5%, si le total des intérêts passifs s'élève à CHF 20 000 et si le bénéfice net imposable de la fondation Tempo est de CHF 1 000 000?",
+   "options": [
+    "7,50%",
+    "10%",
+    "0%",
+    "9,10%"
+   ],
+   "correct": 3,
+   "explications": [
+    "7,50 % surestime les déductions (rendement net de 75 000) : avec le forfait de 5 % (5 000) et le financement proratisé (4 000), le rendement net est de 91 000, pas de 75 000.",
+    "10 % (= 100 000 ÷ 1 000 000) rapporte le dividende BRUT au bénéfice, sans déduire ni les frais d'administration (5 000) ni les frais de financement (4 000).",
+    "0 % serait défendable sur le terrain du cercle des bénéficiaires : l'art. 69 LIFD réserve la réduction aux sociétés de capitaux et coopératives, dont une fondation ne fait pas partie (cf. FE-097). La clé suit toutefois le support et le mémento (§6, exemple A « fondation Tempo »), qui admettent le calcul — divergence signalée.",
+    "Réponse retenue : participation de 100 % → qualifiante. Frais d'administration = 5 % × 100 000 = 5 000 ; frais de financement = 20 000 × (800 000 ÷ 4 000 000) = 4 000. Rendement net = 100 000 − 5 000 − 4 000 = 91 000 ; réduction = 91 000 ÷ 1 000 000 = 9,10 % (Circ. AFC n° 27 ; mémento §6, exemple A)."
+   ]
+  },
+  {
+   "id": "FE-104",
+   "champ": "Bénéfice en capital — récupération d'amortissement",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "Z SA (CH) cède sa participation de 20% dans T Sàrl au prix de CHF 3,5 mio. La valeur pour l'impôt sur le bénéfice s'élève à CHF 2 mio. La participation a été acquise il y a trois ans au prix de CHF 2,5 mio. et amortie l'année dernière de CHF 0,5 mio. en raison d'une distribution de substance. Quel montant donne droit à la réduction pour participations ?",
+   "options": [
+    "CHF 1 mio.",
+    "CHF 0",
+    "CHF 1,5 mio.",
+    "CHF 0,5 mio."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : conditions remplies (20 % ≥ 10 %, détention 3 ans ≥ 1 an, art. 70 al. 4 let. b LIFD). Bénéfice comptable total = 3 500 000 − 2 000 000 = 1 500 000, dont : récupération d'amortissement = 2 500 000 − 2 000 000 = 500 000 (pleinement imposée, exclue de la réduction) et plus-value au-delà du coût = 3 500 000 − 2 500 000 = 1 000 000, seule part éligible (mémento §6).",
+    "CHF 0 nierait tout droit à la réduction — or la participation aliénée atteint 20 % et est détenue depuis 3 ans : la plus-value réelle (1 mio) qualifie.",
+    "1,5 mio inclut à tort la récupération d'amortissement (500 000) : cette part ne fait que reconstituer la valeur amortie après la distribution de substance et est imposée ordinairement.",
+    "0,5 mio est précisément la récupération d'amortissement — la part IMPOSÉE sans réduction, pas la part éligible."
+   ],
+   "piege": "récupération d'amortissement exclue de la réduction"
+  },
+  {
+   "id": "FE-105",
+   "champ": "Bénéfice en capital — conditions (≥10%, ≥1 an)",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "M SA (siège en Suisse) a vendu quatre participations en 2023 : T1 SA 30% avant la vente, vente de 30%, produit CHF 1,2 mio. (coût 1 mio.), acquise en 2023 ; T2 SA 12% avant la vente, vente de 4%, produit CHF 2,2 mio. (coût 2 mio.), acquise en 2008 ; T3 SA 11% avant la vente, vente de 11%, produit CHF 500 000 (coût 300 000), acquise en 2005 ; T4 SA 8% avant la vente, vente de 8%, produit CHF 950 000 (prix de revient 750 000), vente partielle de 22% des parts en 2018. Quelle participation donne droit à la réduction pour participations sur le bénéfice en capital ?",
+   "options": [
+    "T2",
+    "T1",
+    "T4",
+    "T3"
+   ],
+   "correct": 3,
+   "explications": [
+    "T2 échoue : seule une tranche de 4 % est aliénée, or le seuil de 10 % s'apprécie sur la participation VENDUE, pas sur la participation détenue avant la vente (12 %) — art. 70 al. 4 let. b LIFD.",
+    "T1 échoue : 30 % aliénés (seuil atteint), mais la participation a été acquise ET vendue en 2023 → durée de détention inférieure à un an.",
+    "T4 échoue doublement : la vente porte sur 8 % (< 10 %), et l'exception du reliquat issu d'une vente partielle antérieure (2018) exige une valeur vénale d'au moins 1 mio à la fin de l'année précédant l'aliénation — or le produit (950 000) montre que ce seuil n'est pas atteint (art. 70 al. 4 let. b LIFD).",
+    "Exact : T3 remplit toutes les conditions du gain (art. 70 al. 4 let. b LIFD ; mémento §6) : participation aliénée de 11 % ≥ 10 %, détenue depuis 2005 (≥ 1 an), produit 500 000 > coût d'investissement 300 000."
+   ],
+   "piege": "le seuil de 10 % s'apprécie sur la part aliénée"
+  },
+  {
+   "id": "FE-106",
+   "champ": "Réduction participations — gain en capital",
+   "memento": "§6",
+   "difficulte": 3,
+   "question": "B SA vend une participation de 20 % (coût d’investissement CHF 3 000 000, détenue depuis 4 ans) pour CHF 5 000 000. Frais d’administration forfaitaires 5 %, intérêts passifs négligeables. Bénéfice net imposable de B SA : CHF 4 000 000. À combien s’élève la réduction pour participations ?",
+   "options": [
+    "50 %",
+    "47,5 %",
+    "100 %",
+    "0 %"
+   ],
+   "correct": 1,
+   "explications": [
+    "50 % (= 2 000 000 ÷ 4 000 000) oublie de déduire les frais d'administration forfaitaires de 5 % du gain éligible.",
+    "Exact : conditions du gain remplies (20 % ≥ 10 %, détention 4 ans ≥ 1 an, produit > coût d'investissement). Assiette éligible = 5 000 000 − 3 000 000 = 2 000 000 (jamais la valeur comptable). Rendement net = 2 000 000 − 5 % × 2 000 000 = 1 900 000. Réduction = 1 900 000 ÷ 4 000 000 = 47,5 % (art. 70 al. 4 LIFD ; mémento §6).",
+    "100 % supposerait le gain intégralement exonéré ou un rendement net couvrant tout le bénéfice — or 1 900 000 ne représente que 47,5 % du bénéfice de 4 000 000.",
+    "0 % ignorerait que les conditions sont remplies (seuil, durée, produit > coût d'investissement) : la réduction est bien ouverte."
+   ]
+  }
+ ]
+}

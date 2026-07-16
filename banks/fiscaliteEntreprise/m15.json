@@ -1,0 +1,263 @@
+{
+ "module": "M15",
+ "titre": "15 · Droit de timbre d'émission",
+ "questions": [
+  {
+   "id": "FE-153",
+   "champ": "Taxonomie des droits de timbre",
+   "memento": "§12 · §13",
+   "difficulte": 2,
+   "question": "[REFORMULÉ] Lequel des éléments suivants n'est PAS un droit de timbre fédéral au sens de la LT ?",
+   "options": [
+    "Le droit de timbre de négociation",
+    "Le droit de timbre d'émission",
+    "Le droit de mutation",
+    "Le droit de timbre sur les primes d'assurance"
+   ],
+   "correct": 2,
+   "explications": [
+    "Le droit de négociation EST un droit de timbre fédéral : la LT le prévoit à l'art. 13 — il frappe le transfert à titre onéreux de documents imposables avec intervention d'un commerçant de titres (1,5 ‰ titres suisses / 3 ‰ titres étrangers, mémento §13). Affirmation vraie, donc pas la réponse cherchée.",
+    "Le droit d'émission EST un droit de timbre fédéral : art. 5 LT — il frappe à 1 % la création (ou l'augmentation) de droits de participation suisses, avec franchise de CHF 1 mio (mémento §12). Affirmation vraie, donc pas la réponse cherchée.",
+    "CORRECT — le droit de MUTATION n'est pas un droit de timbre fédéral : c'est un impôt CANTONAL frappant les transferts de propriété immobilière ; il ne figure pas dans la LT. La LT fédérale institue trois droits de timbre : émission (art. 5), négociation (art. 13) et primes d'assurance (art. 21). Question à choix multiple d'origine reformulée en réponse unique.",
+    "Le droit de timbre sur les primes d'assurance EST le troisième droit de timbre fédéral de la LT (art. 21 LT). Affirmation vraie, donc pas la réponse cherchée."
+   ]
+  },
+  {
+   "id": "FE-154",
+   "champ": "Franchise CHF 1 mio",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "[REFORMULÉ] En cas de fondation ou d'augmentation de capital à titre onéreux, une franchise de CHF 1 mio. est prévue. Identifiez l'affirmation CORRECTE :",
+   "options": [
+    "La franchise peut être utilisée une seule fois et expire ensuite, même si le montant de CHF 1 mio. n'a pas été entièrement utilisé.",
+    "Lors de chaque augmentation de capital après la fondation, il existe à nouveau une franchise de CHF 1 mio.",
+    "La franchise d'un montant total de CHF 1 mio. peut être utilisée pour la fondation et pour des augmentations de capital consécutives, sans limitation temporelle."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la franchise n'« expire » pas après une première utilisation partielle — le solde non utilisé reste disponible pour les augmentations de capital futures, sans limite dans le temps, tant que le plafond global de CHF 1 mio n'est pas épuisé.",
+    "Faux : il n'y a PAS une nouvelle franchise de CHF 1 mio à chaque augmentation. C'est une seule enveloppe TOTALE couvrant cumulativement la fondation et toutes les augmentations successives (art. 6 al. 1 let. h LT).",
+    "CORRECT : la franchise de CHF 1 mio (art. 6 al. 1 let. h LT) est un montant GLOBAL et UNIQUE — « utilisable une seule fois au total » (mémento §12) — couvrant fondation ET augmentations successives, sans limite temporelle, jusqu'à épuisement du plafond. Rappel : elle ne joue qu'à titre ONÉREUX, jamais pour les actions gratuites. Consigne d'origine absente, reconstituée en « affirmation correcte »."
+   ],
+   "piege": "Franchise 1 mio = enveloppe unique cumulée (fondation + augmentations)"
+  },
+  {
+   "id": "FE-155",
+   "champ": "Fondation par apport en espèces",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "Lors d'une fondation par apport en espèces avec un capital-actions de CHF 1.5 mio., le droit de timbre d'émission s'élève à :",
+   "options": [
+    "CHF 5000",
+    "CHF 15 000",
+    "CHF 10 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : apport en espèces AU PAIR — la contrepartie reçue par la société = 1 500 000 (pas d'agio, donc pas de correction ÷101). On déduit la franchise unique de CHF 1 mio (art. 6 al. 1 let. h LT) : 1 500 000 − 1 000 000 = 500 000. DTE = 1 % × 500 000 = CHF 5 000. Débiteur : la société (mémento §12).",
+    "Faux : CHF 15 000 = 1 % × 1 500 000, c'est-à-dire le calcul SANS la franchise de CHF 1 mio (art. 6 al. 1 let. h LT) — piège classique de la franchise oubliée.",
+    "Faux : CHF 10 000 = 1 % × 1 000 000, soit la franchise appliquée à l'envers — on taxerait le premier million (exonéré) au lieu de l'excédent de 500 000. La base correcte est 1 500 000 − 1 000 000 = 500 000."
+   ]
+  },
+  {
+   "id": "FE-156",
+   "champ": "Fondation par apport en nature",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "Dans le cas d'une fondation par apport en nature avec un capital-actions de CHF 2 mio. et une valeur vénale de l'apport en nature de CHF 2,5 mio. ainsi que des frais de fondation de CHF 10 000, le droit de timbre d'émission s'élève à :",
+   "options": [
+    "CHF 14 752,50",
+    "CHF 14 900",
+    "CHF 9900"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : base = valeur VÉNALE de la contrepartie reçue (art. 8 LT) = 2 500 000, réserves latentes comprises — pas le seul nominal de 2 000 000. On retranche la franchise 1 mio et les frais de fondation : 2 500 000 − 1 000 000 − 10 000 = 1 490 000. Émission AU-DESSUS DU PAIR (VV 2,5 mio > VN 2 mio) → le DTE se déduit de sa propre base : 1 490 000 ÷ 101 × 100 = 1 475 247,52 ; DTE = 1 % × 1 475 247,52 = CHF 14 752,48 ≈ CHF 14 752,50 (mémento §12).",
+    "Faux : CHF 14 900 = 1 % × 1 490 000 — bonne base (VV − franchise − frais) mais OUBLI du ÷101 : au-dessus du pair, le droit est déductible de sa propre base (montant net = base ÷ 101 × 100).",
+    "Faux : CHF 9900 = 1 % × (2 000 000 − 1 000 000 − 10 000) — base assise à tort sur le capital NOMINAL de 2 mio ; les réserves latentes de l'apport en nature (VV 2,5 mio) font partie de la base (art. 8 LT)."
+   ]
+  },
+  {
+   "id": "FE-157",
+   "champ": "Fondation en espèces vs en nature",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "[REFORMULÉ] Les sociétés peuvent être fondées par apport en espèces ou en nature. Identifiez l'affirmation ERRONÉE :",
+   "options": [
+    "Dans le cas d'une fondation par apport en nature, l'actionnaire détermine lui-même la valeur des actifs apportés et obtient en contrepartie des actions de la société.",
+    "Dans le cas d'une fondation par apport en nature, les actifs apportés sont évalués à la valeur vénale.",
+    "Dans le cas d'une fondation par apport en espèces, l'actionnaire obtient des actions contre de l'argent."
+   ],
+   "correct": 0,
+   "explications": [
+    "ERRONÉE (bonne réponse) : l'actionnaire ne fixe PAS librement la valeur de son apport. L'apport en nature s'évalue objectivement à la VALEUR VÉNALE (art. 8 LT ; pour une entreprise, méthode des praticiens — mémento §12), sous contrôle (rapport de fondation / vérification). Consigne d'origine absente, reconstituée.",
+    "Affirmation VRAIE, donc pas la réponse : les apports en nature sont évalués à la valeur vénale — c'est précisément la base de calcul du droit d'émission (art. 8 LT).",
+    "Affirmation VRAIE, donc pas la réponse : la fondation par apport en espèces consiste à recevoir des actions contre de l'argent — définition même de la libération en numéraire."
+   ]
+  },
+  {
+   "id": "FE-158",
+   "champ": "Fondation par apport en nature (calcul)",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "Une société se crée avec un capital-actions de CHF 5 millions par un apport en nature d'une valeur vénale de CHF 8 millions. Les frais de fondation s'élèvent à CHF 100'000. Le droit de timbre d'émission s'élève à :",
+   "options": [
+    "CHF 39'000",
+    "CHF 38'614",
+    "CHF 69'000",
+    "CHF 68'317"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 39 000 = 1 % × (5 000 000 − 1 000 000 − 100 000) — base assise sur le capital NOMINAL de 5 mio. Or la base est la valeur VÉNALE de la contrepartie (art. 8 LT) = 8 mio, réserves latentes comprises.",
+    "Faux : CHF 38 614 = 3 900 000 ÷ 101 × 100 × 1 % — applique bien le ÷101 mais sur la base nominale erronée de 5 mio ; il faut partir de la valeur vénale de 8 mio.",
+    "Faux : CHF 69 000 = 1 % × 6 900 000 — bonne base (8 000 000 − 1 000 000 − 100 000) mais SANS le ÷101 : en émission au-dessus du pair, le DTE est déductible de sa propre base. C'est le piège principal de la question.",
+    "CORRECT : base = valeur vénale 8 000 000 (art. 8 LT) − franchise 1 000 000 (art. 6 al. 1 let. h LT) − frais de fondation 100 000 = 6 900 000. Au-dessus du pair (VV 8 mio > VN 5 mio) → 6 900 000 ÷ 101 × 100 = 6 831 683,17 ; DTE = 1 % = CHF 68 316,83 ≈ CHF 68'317 (mémento §12)."
+   ],
+   "piege": "Au-dessus du pair : le droit se déduit de sa propre base (÷101)"
+  },
+  {
+   "id": "FE-159",
+   "champ": "Fondation par apport en espèces (calcul)",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "Une société se crée avec un capital-actions de CHF 5 millions libéré en espèces. Les frais de fondation s'élèvent à CHF 100'000.-. Le droit de timbre d'émission s'élève à :",
+   "options": [
+    "il n'y a pas de droit d'émission",
+    "CHF 50'000",
+    "CHF 40'000",
+    "CHF 39'000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la création de droits de participation d'une société suisse contre apport de fonds propres est l'objet même du droit d'émission (art. 5 LT) — un droit est bien dû ici.",
+    "Faux : CHF 50 000 = 1 % × 5 000 000 — oublie la franchise de CHF 1 mio (art. 6 al. 1 let. h LT) et la déduction des frais de fondation.",
+    "Faux : CHF 40 000 = 1 % × (5 000 000 − 1 000 000) — applique la franchise mais oublie de déduire les frais de fondation de 100 000 (cohérence avec les autres calculs de la série, qui les déduisent de la base).",
+    "CORRECT : apport en espèces AU PAIR (5 mio cash = 5 mio nominal) → pas d'agio, donc PAS de correction ÷101. Base = 5 000 000 − franchise 1 000 000 (art. 6 al. 1 let. h LT) − frais de fondation 100 000 = 3 900 000 ; DTE = 1 % = CHF 39'000 (mémento §12)."
+   ]
+  },
+  {
+   "id": "FE-160",
+   "champ": "Règles de base du DTE",
+   "memento": "§12",
+   "difficulte": 1,
+   "question": "Identifiez l'affirmation erronée :",
+   "options": [
+    "L'abattement pour les augmentations de capital est de CHF 1 million",
+    "pour les apports en nature, les objets sont estimés à la valeur comptable",
+    "pour les apports en nature, les objets sont estimés à la valeur vénale",
+    "Le taux d'imposition est de 1%"
+   ],
+   "correct": 1,
+   "explications": [
+    "Affirmation VRAIE, donc pas la réponse : la franchise (abattement) est bien de CHF 1 mio (art. 6 al. 1 let. h LT), enveloppe unique couvrant fondation et augmentations à titre onéreux.",
+    "ERRONÉE (bonne réponse) : les apports en nature s'estiment à la VALEUR VÉNALE (art. 8 LT), jamais à la valeur comptable — retenir la valeur comptable ignorerait les réserves latentes, qui font partie de la base du droit d'émission.",
+    "Affirmation VRAIE, donc pas la réponse : c'est la formulation correcte — base = valeur vénale de la contrepartie reçue (art. 8 LT ; mémento §12).",
+    "Affirmation VRAIE, donc pas la réponse : le taux du droit d'émission est de 1 % (art. 8 LT)."
+   ]
+  },
+  {
+   "id": "FE-161",
+   "champ": "Objet du droit d'émission (art. 5)",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "Au sens de l'article 5 de la LT, est soumis au droit d'émission (identifiez la réponse erronée) :",
+   "options": [
+    "l'augmentation de la valeur nominale de droits de participation à titre gratuit",
+    "l'augmentation de la valeur nominale de droits de participation à titre onéreux",
+    "la création de capital à la valeur nominale moins les frais de fondation",
+    "la création de capital à la valeur nominale"
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation VRAIE, donc pas la réponse : l'art. 5 LT vise la création ou l'augmentation de la valeur nominale de droits de participation, y compris À TITRE GRATUIT (actions gratuites) — c'est la franchise de 1 mio qui ne s'applique pas au gratuit, pas l'objet du droit.",
+    "Affirmation VRAIE, donc pas la réponse : l'augmentation de la valeur nominale à titre onéreux relève pleinement de l'objet du droit d'émission (art. 5 LT).",
+    "ERRONÉE (bonne réponse) : « moins les frais de fondation » ne relève pas de l'OBJET du droit (art. 5 LT) mais de la BASE de calcul (art. 8 LT). L'objet imposé est la création de droits de participation ; la déduction des frais est une opération ultérieure sur la base. La formule mélange à tort objet et base.",
+    "Affirmation VRAIE, donc pas la réponse : la création de capital (émission de droits de participation à la valeur nominale) est l'objet même du droit d'émission (art. 5 LT)."
+   ]
+  },
+  {
+   "id": "FE-162",
+   "champ": "DTE — émission au-dessus du pair, franchise 1 mio et déduction du droit de sa propre base",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "La société NewCo SA est nouvellement fondée et émet 500 000 droits de participation (valeur nominale CHF 1) au prix de CHF 10 chacun. Quel est le montant du droit d’émission dû?",
+   "options": [
+    "CHF 39 604",
+    "CHF 50 000",
+    "CHF 40 000",
+    "CHF 49 505"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : apport total = 500 000 × 10 = 5 000 000 (nominal 500 000 + agio 4 500 000). Base = valeur vénale de la contrepartie 5 000 000 − franchise 1 000 000 (art. 6 al. 1 let. h LT) = 4 000 000. Émission au-dessus du pair → le droit se déduit de sa propre base : 4 000 000 ÷ 101 × 100 = 3 960 396 ; × 1 % = CHF 39 604 (art. 5 al. 1 let. a, 6 al. 1 let. h, 8 LT ; mémento §12).",
+    "Faux : CHF 50 000 = 5 000 000 × 1 % — NI franchise NI ÷101 : les deux mécanismes sont oubliés.",
+    "Faux : CHF 40 000 = 4 000 000 × 1 % — la franchise est appliquée mais le ÷101 est oublié : au-dessus du pair, le droit est déductible de sa propre base.",
+    "Faux : CHF 49 505 = 5 000 000 ÷ 101 × 100 × 1 % — le ÷101 est appliqué mais la FRANCHISE de CHF 1 mio est oubliée (art. 6 al. 1 let. h LT)."
+   ],
+   "piege": "Deux réflexes cumulés : franchise 1 mio PUIS ÷101"
+  },
+  {
+   "id": "FE-163",
+   "champ": "DTE — base de calcul en cas d'apport en nature (valeur vénale)",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "Sur quel montant le droit de timbre d’émission est-il calculé en cas de libération au moyen d’apports en nature?",
+   "options": [
+    "Sur la valeur comptabilisée de la contre-prestation des droits de participation",
+    "Sur le capital inscrit/enregistré",
+    "Sur la valeur nominale créée",
+    "Sur la valeur vénale de la contre-prestation des droits de participation"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux — c'est le piège de la question : on ne retient pas la valeur au bilan (valeur comptabilisée) mais la valeur VÉNALE, qui inclut les réserves latentes de l'apport (art. 8 LT ; pour une entreprise : méthode des praticiens, cf. mémento §15).",
+    "Faux : le capital inscrit au registre du commerce ignore l'agio et les réserves latentes de l'apport — il ne constitue pas la base du droit d'émission.",
+    "Faux : la valeur nominale créée ignore également l'agio et les réserves latentes ; elle définit l'objet du droit (art. 5 LT) mais pas sa base de calcul.",
+    "CORRECT : en cas de libération par apport en nature, la base du droit d'émission est la VALEUR VÉNALE de la contre-prestation des droits de participation, réserves latentes de l'apport comprises (art. 8 LT ; mémento §12)."
+   ]
+  },
+  {
+   "id": "FE-164",
+   "champ": "DTE — augmentation de capital au-dessus du pair (apport en nature)",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "Permafrost SA, dont le siège est à Schaffhouse, a un capital-actions de CHF 600’000. Dans le cadre de l’entrée au capital d’un nouvel investisseur en 2022, ce dernier souscrit à une augmentation du capital-actions de CHF 400’000 avec un agio de CHF 1’200’000, libérée par l’apport d’un brevet d’une valeur vénale de CHF 1’800’000. Sachant que les frais de notaire et du registre du commerce s’élèvent à CHF 20’000, quel est le montant du droit de timbre d’émission dû par Permafrost SA ?",
+   "options": [
+    "CHF 11'683.15",
+    "CHF 13'800",
+    "CHF 13'663.35",
+    "CHF 11'800"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 11 683.15 = 1 180 000 ÷ 101 × 100 × 1 % — base fondée sur capital + agio (1 600 000) au lieu de la valeur vénale du brevet (1 800 000) : les 200 000 de réserve latente de l'apport en nature sont oubliés (art. 8 LT).",
+    "Faux : CHF 13 800 = 1 380 000 × 1 % — bonne base nette mais OUBLI du ÷101 : en émission au-dessus du pair, le droit se déduit de sa propre base.",
+    "CORRECT : base = valeur vénale de la contrepartie (art. 8 LT) = brevet 1 800 000 (capital 400 000 + agio 1 200 000 + 200 000 de réserve latente). Franchise (art. 6 al. 1 let. h LT) : la fondation onéreuse (capital 600 000) a déjà consommé 600 000 de l'enveloppe unique de 1 mio → franchise RÉSIDUELLE 400 000. Base nette = 1 800 000 − 400 000 − 20 000 (frais) = 1 380 000 ; au-dessus du pair : ÷ 101 × 100 = 1 366 337 ; × 1 % = CHF 13 663.35. NB : clé reconstruite (hypothèse franchise déjà entamée — seule hypothèse produisant une option existante, cf. divergences.md §5).",
+    "Faux : CHF 11 800 = 1 180 000 × 1 % — double erreur : réserve latente de 200 000 oubliée ET ÷101 non appliqué."
+   ],
+   "piege": "Franchise résiduelle : déduire ce que la fondation a déjà consommé de l'enveloppe de 1 mio"
+  },
+  {
+   "id": "FE-165",
+   "champ": "Apport en nature financé partiellement par compte courant",
+   "memento": "§12 · §13",
+   "difficulte": 3,
+   "question": "U Holding SA, dont le siège est en Suisse, possède un capital-actions de CHF 200 000 et détient depuis de nombreuses années des participations dans d'autres sociétés anonymes pour une valeur de CHF 12 000 000. Au cours de l'année 2023, l'actionnaire unique de U Holding SA décide de transférer à cette dernière une participation de 20% dans une autre société suisse qu'il détient dans son patrimoine privé. Le transfert a lieu à la valeur vénale de CHF 4 000 000, contre une augmentation du capital-actions de CHF 400 000, un agio de CHF 1 400 000 et une bonification du compte courant d'actionnaire de CHF 2 200 000. Concernant les droits de timbre, laquelle des assertions suivantes est correcte?",
+   "options": [
+    "U Holding SA doit un droit de timbre de négociation de CHF 6 000.",
+    "U Holding SA est redevable d'un droit de timbre d'émission de CHF 9 901 et d'un droit de timbre de négociation de CHF 3 300.",
+    "U Holding SA doit un droit de timbre d'émission de CHF 10 000 ainsi qu'un droit de timbre de négociation de CHF 6 600.",
+    "U Holding SA doit un droit de timbre d'émission de CHF 31 683."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : cette réponse ignore le droit d'ÉMISSION pourtant dû sur la partie apportée contre capital + agio, et son montant de négociation est erroné (le bon calcul donne 1,5 ‰ × 2 200 000 = 3 300, pas 6 000).",
+    "CORRECT — opération MIXTE. (1) Droit d'ÉMISSION (art. 5 al. 1 let. a LT) sur la partie émise : capital 400 000 + agio 1 400 000 = 1 800 000 ; franchise résiduelle = 1 000 000 − 200 000 déjà consommés à la fondation = 800 000 ; base nette = 1 000 000 ; au-dessus du pair ÷ 101 × 100 = 990 099 ; × 1 % = CHF 9 901. (2) Droit de NÉGOCIATION sur la partie payée par bonification du COMPTE COURANT (2 200 000) : ce n'est pas un apport mais une contrepartie d'ACHAT ; U Holding est commerçante de titres (> 10 mio de documents imposables à l'actif, art. 13 al. 3 let. d LT) et le titre est suisse → 1,5 ‰ × 2 200 000 = CHF 3 300 (les deux demi-droits, l'actionnaire privé n'étant ni commerçant ni exonéré ; cf. mémento §13, exemple identique).",
+    "Faux : DTE 10 000 = 1 000 000 × 1 % SANS le ÷101 (au-dessus du pair, le droit se déduit de sa base) ; négociation 6 600 = 3 ‰ × 2 200 000, soit le taux ÉTRANGER appliqué à tort à un titre suisse (1,5 ‰).",
+    "Faux : CHF 31 683 = (4 000 000 − 800 000) ÷ 101 × 100 × 1 % — taxe la TOTALITÉ des 4 mio au droit d'émission, y compris la part payée par compte courant. Or seule la partie émise contre capital + agio est un apport ; la part réglée en compte courant est un achat soumis au droit de négociation."
+   ],
+   "piege": "Part payée en compte courant = achat (négociation), pas apport (émission)"
+  }
+ ]
+}

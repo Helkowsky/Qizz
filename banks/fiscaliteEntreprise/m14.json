@@ -1,0 +1,426 @@
+{
+ "module": "M14",
+ "titre": "14 · Impôt anticipé (LIA)",
+ "questions": [
+  {
+   "id": "FE-132",
+   "champ": "Droit au remboursement — bénéficiaires (art. 21-24 LIA)",
+   "memento": "§11.2",
+   "difficulte": 2,
+   "question": "Le droit au remboursement de l'impôt anticipé est réservé (identifiez la réponse ERRONÉE) :",
+   "options": [
+    "aux cantons si les valeurs qui ont produit le rendement soumis à l'impôt apparaissent dans les comptes et s'ils ont le droit de jouissance au moment de l'échéance",
+    "aux personnes physiques domiciliées en Suisse, si elles ont le droit de jouissance au moment de l'échéance",
+    "aux personnes morales dont le siège est en Suisse",
+    "aux personnes morales dont le siège est en Suisse, si elles ont le droit de jouissance au moment de l'échéance"
+   ],
+   "correct": 2,
+   "explications": [
+    "Énoncé exact — donc pas la réponse : les collectivités publiques (cantons) ont droit au remboursement si les valeurs figurent dans leurs comptes et qu'elles détiennent le droit de jouissance au moment de l'échéance (art. 21 LIA).",
+    "Énoncé exact — donc pas la réponse : personne physique domiciliée en Suisse (art. 22 LIA) + droit de jouissance à l'échéance (art. 21 al. 1 let. a LIA) = conditions du remboursement.",
+    "C'est l'énoncé ERRONÉ à cocher : il est incomplet, donc inexact. Le siège en Suisse (art. 24 LIA) ne suffit PAS — il faut aussi le droit de jouissance au moment de l'échéance (art. 21 al. 1 let. a LIA), condition exigée de tous les ayants droit. Comparer avec l'énoncé suivant, qui est la version complète.",
+    "Énoncé exact — donc pas la réponse : siège en Suisse (art. 24 LIA) AVEC droit de jouissance à l'échéance — formulation complète qui sert de « miroir » et révèle la lacune de l'énoncé précédent."
+   ]
+  },
+  {
+   "id": "FE-133",
+   "champ": "Objet de l'impôt anticipé — art. 4 LIA",
+   "memento": "§11",
+   "difficulte": 1,
+   "question": "Au sens de l'article 4 de la LIA, l'impôt anticipé porte sur tous les intérêts, rentes, participations aux bénéfices et autres rendements (identifiez la réponse ERRONÉE) :",
+   "options": [
+    "des sociétés anonymes",
+    "des coopératives",
+    "des sociétés à responsabilité limitée",
+    "des fondations"
+   ],
+   "correct": 3,
+   "explications": [
+    "Visée par la loi — donc pas la réponse : les rendements des actions de sociétés anonymes suisses sont l'objet type de l'IA (art. 4 al. 1 let. b LIA).",
+    "Visée par la loi — donc pas la réponse : les parts de sociétés coopératives figurent expressément à l'art. 4 al. 1 let. b LIA.",
+    "Visée par la loi — donc pas la réponse : les parts sociales de Sàrl figurent expressément à l'art. 4 al. 1 let. b LIA.",
+    "Réponse erronée à cocher : les FONDATIONS n'ont pas de capital divisé en parts et ne distribuent pas de rendements de participation — elles ne sont pas visées par l'art. 4 al. 1 let. b LIA, qui ne concerne que les entités à capital-parts (SA, Sàrl, coopératives, bons de participation)."
+   ]
+  },
+  {
+   "id": "FE-134",
+   "champ": "Rendement imposable selon l'OIA — remboursement de capital exclu",
+   "memento": "§11 · §9",
+   "difficulte": 2,
+   "question": "Selon l'OIA, est considéré comme rendement imposable (identifiez la réponse ERRONÉE) :",
+   "options": [
+    "les dividendes",
+    "les remboursements de capital",
+    "les actions gratuites",
+    "les excédents de liquidation"
+   ],
+   "correct": 1,
+   "explications": [
+    "Rendement imposable — donc pas la réponse : le dividende est le rendement type visé par l'art. 20 OIA (toute prestation appréciable en argent aux détenteurs de parts).",
+    "Réponse erronée à cocher : le REMBOURSEMENT DE CAPITAL n'est pas un rendement mais une restitution d'apport — franc d'IA. Cela vaut pour le capital-actions nominal et, depuis 2011, pour les réserves issues d'apports de capital constituées après le 31.12.1996 (art. 5 al. 1bis LIA ; principe de l'apport en capital, art. 20 al. 3 LIFD).",
+    "Rendement imposable — donc pas la réponse : les actions gratuites procurent un avantage appréciable en argent aux détenteurs de parts sans versement en espèces ; elles sont soumises à l'IA (art. 20 OIA).",
+    "Rendement imposable — donc pas la réponse : l'excédent de liquidation (ce qui revient aux actionnaires au-delà du capital libéré et des RAC) est un rendement soumis à l'IA (art. 20 OIA)."
+   ]
+  },
+  {
+   "id": "FE-135",
+   "champ": "Procédure de déclaration — champ d'application (OIA)",
+   "memento": "§11.1",
+   "difficulte": 2,
+   "question": "L'OIA prévoit que l'impôt anticipé ne doit pas être transféré et payé, mais peut être remplacé par une déclaration écrite pour (identifiez la réponse ERRONÉE) :",
+   "options": [
+    "les actions gratuites",
+    "les dividendes en nature",
+    "tous les dividendes",
+    "les dividendes versés au sein d'un groupe"
+   ],
+   "correct": 2,
+   "explications": [
+    "Cas admis — donc pas la réponse : pour les actions gratuites (et les augmentations gratuites de la valeur nominale), il n'y a pas de flux d'espèces sur lequel prélever les 35 % — la déclaration remplace le paiement (art. 24 OIA).",
+    "Cas admis — donc pas la réponse : les dividendes en nature peuvent être déclarés au lieu d'être payés, à condition de ne pas dépasser 20 bénéficiaires domiciliés en Suisse (art. 24 al. 1 let. c OIA).",
+    "Réponse erronée à cocher : la procédure de déclaration n'est PAS ouverte pour « tous les dividendes ». Le dividende ordinaire en espèces versé à des personnes physiques exige le transfert et le paiement effectif de l'IA (art. 14 LIA) ; la déclaration reste une exception limitée aux cas prévus par l'OIA.",
+    "Cas admis — donc pas la réponse : les dividendes versés au sein d'un groupe bénéficient de la procédure de déclaration lorsque la société bénéficiaire détient une participation d'au moins 10 % (art. 26a OIA)."
+   ]
+  },
+  {
+   "id": "FE-136",
+   "champ": "Objet de l'impôt anticipé — revenus soumis [REFORMULÉ]",
+   "memento": "§11",
+   "difficulte": 1,
+   "question": "[REFORMULÉ — choix unique] Parmi les revenus suivants, lequel N'EST PAS soumis à l'impôt anticipé ?",
+   "options": [
+    "Revenus de l'activité lucrative",
+    "Revenus de capitaux mobiliers",
+    "Prestations d'assurance",
+    "Gains de loterie et de jeux d'argent"
+   ],
+   "correct": 0,
+   "explications": [
+    "Bonne réponse : les revenus de l'activité lucrative (salaires) ne sont PAS soumis à l'impôt anticipé — ils relèvent de l'impôt sur le revenu (ou de l'imposition à la source du revenu du travail), pas de l'art. 1 LIA.",
+    "Soumis à l'IA — donc pas la réponse : les rendements de capitaux mobiliers suisses (dividendes, intérêts d'obligations, avoirs de clients au-delà du seuil) sont l'objet principal de l'impôt anticipé (art. 4 LIA, taux 35 %).",
+    "Soumises à l'IA — donc pas la réponse : certaines prestations d'assurance sont visées par la LIA (taux réduits : 15 % rentes viagères, 8 % autres prestations d'assurance, art. 13 LIA).",
+    "Soumis à l'IA — donc pas la réponse : les gains provenant de loteries et de jeux d'argent font partie de l'objet de l'impôt anticipé (art. 1 LIA, taux 35 %)."
+   ]
+  },
+  {
+   "id": "FE-137",
+   "champ": "Procédure de déclaration — cas exclu [REFORMULÉ]",
+   "memento": "§11.1",
+   "difficulte": 2,
+   "question": "[REFORMULÉ — choix unique] Dans lequel de ces cas la procédure de déclaration ne peut JAMAIS être appliquée (le paiement effectif de l'impôt anticipé est obligatoire) ?",
+   "options": [
+    "Actions gratuites et dividendes en nature",
+    "Dividendes versés au sein d'un groupe (participation ≥ 10 %)",
+    "Dividendes en espèces à des personnes physiques",
+    "Dividendes en nature à ≤ 20 bénéficiaires domiciliés en Suisse"
+   ],
+   "correct": 2,
+   "explications": [
+    "Cas ouvrant la déclaration — donc pas la réponse : actions gratuites et dividendes en nature sont des cas prévus par l'OIA (pas de flux d'espèces à amputer de 35 %, art. 24 OIA).",
+    "Cas ouvrant la déclaration — donc pas la réponse : le dividende intragroupe avec participation ≥ 10 % bénéficie de la procédure de déclaration (art. 26a OIA, formulaire 106).",
+    "Bonne réponse : un dividende ordinaire EN ESPÈCES versé à des personnes physiques exige toujours le transfert (déduction des 35 %) et le paiement effectif à l'AFC (art. 14 LIA) — la procédure de déclaration n'y est jamais ouverte.",
+    "Cas ouvrant la déclaration — donc pas la réponse : le dividende en nature versé à 20 bénéficiaires au plus, domiciliés en Suisse, est précisément le cas de l'art. 24 al. 1 let. c OIA."
+   ]
+  },
+  {
+   "id": "FE-138",
+   "champ": "Transfert de l'impôt anticipé (art. 14 LIA)",
+   "memento": "§11",
+   "difficulte": 2,
+   "question": "Le transfert de l'impôt anticipé signifie que :",
+   "options": [
+    "Le débiteur de la prestation imposable doit déduire de celle-ci le montant de l'impôt anticipé lors du versement.",
+    "Le bénéficiaire de la prestation imposable doit déclarer celle-ci à l'administration fédérale des contributions.",
+    "Le bénéficiaire de la prestation imposable doit payer l'impôt anticipé à l'administration fédérale des contributions."
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct. Le transfert est l'obligation faite au DÉBITEUR de la prestation imposable (la société qui distribue) de répercuter l'impôt sur le bénéficiaire en DÉDUISANT les 35 % du montant versé (art. 14 al. 1 LIA). Le bénéficiaire ne reçoit que le net (65 %).",
+    "Faux. La déclaration du rendement par le bénéficiaire est une condition du REMBOURSEMENT de l'IA (art. 23 LIA), pas la définition du transfert.",
+    "Faux. C'est le DÉBITEUR de la prestation (la société), et non le bénéficiaire, qui est le contribuable de l'IA et qui verse l'impôt à l'AFC (art. 10 LIA) ; le bénéficiaire supporte l'impôt économiquement via la déduction."
+   ]
+  },
+  {
+   "id": "FE-139",
+   "champ": "Conditions du remboursement de l'IA (art. 21-23 LIA)",
+   "memento": "§11.2",
+   "difficulte": 2,
+   "question": "Quelle affirmation est FAUSSE ? Les conditions requises pour le remboursement de l'impôt anticipé selon la loi fédérale sur l'impôt anticipé sont les suivantes :",
+   "options": [
+    "Droit de jouissance sur les valeurs qui ont produit le rendement soumis à l'impôt.",
+    "Domicile ou siège en Suisse ou dans un État avec lequel la Suisse a conclu une convention en vue d'éviter les doubles impositions.",
+    "Déclaration ou comptabilisation en bonne et due forme et dans les délais du rendement soumis à l'impôt anticipé."
+   ],
+   "correct": 1,
+   "explications": [
+    "Vraie condition — donc pas la réponse : le droit de jouissance sur les valeurs au moment de l'échéance est exigé de tous les ayants droit (art. 21 al. 1 let. a LIA).",
+    "Affirmation FAUSSE à cocher : le remboursement fondé sur la LIA (droit interne) exige le DOMICILE ou le SIÈGE EN SUISSE (art. 22 LIA pour les personnes physiques, art. 24 LIA pour les personnes morales). Le résident d'un État conventionné n'obtient pas un remboursement au titre de la LIA, mais un dégrèvement (souvent partiel) au titre de la CDI — procédure distincte.",
+    "Vraie condition — donc pas la réponse : déclaration régulière du rendement pour les personnes physiques (art. 23 LIA — le défaut entraîne la déchéance du droit) et comptabilisation en bonne et due forme pour les personnes morales (art. 25 LIA)."
+   ]
+  },
+  {
+   "id": "FE-140",
+   "champ": "IA — prestation à une personne proche : théorie du triangle (relation familiale)",
+   "memento": "§7 · §11",
+   "difficulte": 3,
+   "piege": "IA : triangle exceptionnel si motif purement familial",
+   "question": "Le capital-actions de Croisières SA, dont le siège est à Neuchâtel, est détenu intégralement par Céline Portier, domiciliée dans le canton du Jura. Durant la période fiscale 2022, Croisières SA a comptabilisé dans son compte de résultat un voyage autour du monde d’un montant de CHF 100’000 que Céline Portier a offert à sa soeur Marine Portier, domiciliée dans le canton de Fribourg. Laquelle des affirmations suivantes est correcte en matière d’impôt anticipé ?",
+   "options": [
+    "Si le transfert de l’impôt anticipé au bénéficiaire n’est pas possible, le taux applicable est de 35% ",
+    "La procédure de déclaration est applicable",
+    "Le bénéficiaire de la prestation est Marine Portier conformément à la théorie du bénéficiaire direct",
+    "Le bénéficiaire de la prestation est Céline Portier conformément à la théorie du triangle"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Si le transfert de l'IA est impossible, la prestation versée est réputée nette : calcul « brut pour net » (÷ 65 × 35), soit un taux effectif de 53,8 % de la prestation nette — pas 35 % (art. 14 LIA).",
+    "Faux. Une prestation appréciable en argent dissimulée (voyage comptabilisé en charge) découverte a posteriori relève du paiement de l'IA (voire de la soustraction) ; la procédure de déclaration suppose un cas prévu par l'OIA et une prestation régulièrement déclarée.",
+    "Faux ici. La théorie du bénéficiaire direct est certes la NORME en matière d'IA (Notice AFC S-02.141), mais elle est écartée lorsque la prestation repose sur une relation purement familiale ou amicale — exactement le cas du cadeau à la sœur.",
+    "Correct. Pour les prestations octroyées à un proche sur pur motif familial, l'IA applique exceptionnellement la théorie du TRIANGLE : la société n'est qu'un instrument de libéralité de l'actionnaire — le bénéficiaire retenu est Céline Portier, l'actionnaire unique, qui dispose ensuite privément du montant en faveur de sa sœur (art. 4 al. 1 let. b, 14 LIA ; Notice AFC S-02.141)."
+   ]
+  },
+  {
+   "id": "FE-141",
+   "champ": "But de l'impôt anticipé — impôt de garantie",
+   "memento": "§11",
+   "difficulte": 2,
+   "question": "Quel est le but de l’impôt anticipé du point de vue fiscal?",
+   "options": [
+    "Il garantit la substance fiscale en matière d’impôt",
+    "Impôt supplémentaire pour les résidents",
+    "Taxes incitatives",
+    "Empêche les dividendes transfrontaliers"
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct. L'impôt anticipé est un impôt de GARANTIE : il sécurise la perception des impôts directs, car il n'est remboursé qu'à celui qui déclare correctement le revenu grevé (art. 1 LIA). Pour qui dissimule, les 35 % deviennent une charge définitive.",
+    "Faux. Pour le résident honnête, l'IA est neutre : il est remboursé ou imputé sur ses impôts après déclaration régulière — ce n'est pas un impôt supplémentaire.",
+    "Faux. L'IA n'a aucune vocation incitative ou d'orientation des comportements : c'est un instrument de sûreté fiscale, pas une taxe d'incitation.",
+    "Faux. L'IA n'interdit pas les dividendes transfrontaliers : le bénéficiaire étranger peut obtenir un dégrèvement total ou partiel selon la convention de double imposition applicable."
+   ]
+  },
+  {
+   "id": "FE-142",
+   "champ": "IA non transféré — calcul brut pour net (÷65×35)",
+   "memento": "§11",
+   "difficulte": 2,
+   "piege": "prestation nette → ÷ 65 × 35 (taux effectif 53,8 %)",
+   "question": "Un dividende de CHF 100 000 provenant des réserves issues du bénéfice est distribué sans déduction de l’impôt anticipé, un transfert ultérieur ou une déclaration n’est pas (plus) possible. Quel est le montant facturé par l’Administration fédérale des contributions (AFC)?",
+   "options": [
+    "CHF 65 000",
+    "CHF 53 846",
+    "CHF 5 000 (amende)",
+    "CHF 35 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 65 000 correspond aux 65 % — c'est la part NETTE d'une prestation brute, pas le montant de l'impôt.",
+    "Correct. Le dividende versé sans déduction de l'IA, sans transfert ni déclaration possibles, est réputé NET d'un impôt à reconstituer (« brut pour net ») : IA = 100 000 ÷ 65 × 35 = CHF 53 846 (art. 14 al. 1, art. 4 al. 1 let. b LIA). Le taux effectif passe de 35 % à 53,8 % de la prestation nette.",
+    "Faux. Une amende n'est pas le mode de calcul de l'IA (une amende d'ordre peut s'ajouter dans certains cas de déclaration tardive, mais c'est une autre question).",
+    "Faux. 35 000 = 35 % × 100 000 traite le montant versé comme un BRUT : or, le transfert étant impossible, les 100 000 versés sont déjà nets — il faut reconstituer le brut (÷ 65 × 35)."
+   ]
+  },
+  {
+   "id": "FE-143",
+   "champ": "Nature de l'impôt anticipé — impôt à la source",
+   "memento": "§11",
+   "difficulte": 2,
+   "question": "Quelle assertion concernant l’impôt anticipé est correcte? L’impôt anticipé..",
+   "options": [
+    "...se calcule sur le revenu net du bénéficiaire",
+    "...est réglementé au niveau cantonal",
+    "...s’élève à 8,5%",
+    "...est un impôt à la source"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. L'IA se calcule sur le montant BRUT de la prestation imposable (art. 13 LIA), sans égard à la situation personnelle ou au revenu net du bénéficiaire — c'est un impôt objectif, anonyme à la perception.",
+    "Faux. L'impôt anticipé est un impôt FÉDÉRAL, régi par la LIA — pas une réglementation cantonale.",
+    "Faux. 8,5 % est le taux de l'impôt fédéral direct sur le BÉNÉFICE des personnes morales (art. 68 LIFD) ; l'IA sur les rendements de capitaux mobiliers s'élève à 35 % (art. 13 LIA).",
+    "Correct. L'impôt anticipé est un impôt À LA SOURCE : il est prélevé par le débiteur suisse de la prestation imposable au moment de son échéance, avant que le bénéficiaire ne touche le rendement (art. 1, 13, 14 LIA)."
+   ]
+  },
+  {
+   "id": "FE-144",
+   "champ": "Procédure de déclaration — cas des actions gratuites",
+   "memento": "§11.1",
+   "difficulte": 2,
+   "question": "Dans quels cas l’impôt anticipé peut-il, en règle générale, être déclaré (au lieu d’être acquitté)?",
+   "options": [
+    "En cas de dividendes en espèces",
+    "En cas d’actions gratuites",
+    "En cas de bénéficiaires étrangers",
+    "En cas de dividendes en nature versés à plus de 20 bénéficiaires"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le dividende en espèces est le cas normal du prélèvement : l'IA est déduit (transfert, art. 14 LIA) puis acquitté à l'AFC — pas de déclaration en remplacement.",
+    "Correct. Pour les ACTIONS GRATUITES (et les augmentations gratuites de la valeur nominale), il n'existe pas de prestation en espèces sur laquelle prélever puis répercuter les 35 % : la procédure de déclaration remplace le paiement (art. 24 OIA).",
+    "Faux. Pour les bénéficiaires étrangers, la règle générale est le paiement de l'IA puis le dégrèvement selon la CDI ; la déclaration n'est pas la règle (elle est réservée notamment aux groupes internationaux remplissant les conditions, formulaire 108).",
+    "Faux. La déclaration d'un dividende en nature suppose AU MAXIMUM 20 bénéficiaires domiciliés en Suisse (art. 24 al. 1 let. c OIA) — « plus de 20 » est précisément le cas exclu."
+   ]
+  },
+  {
+   "id": "FE-145",
+   "champ": "Procédure de déclaration & droit au remboursement",
+   "memento": "§11.1 · §11.2",
+   "difficulte": 3,
+   "question": "Le capital-actions de Titan SA, dont le siège se situe dans le canton des Grisons, se décompose comme suit :\n- 1/3 : Reiner Brown, domicilié à Zurich\n- 1/3 : Hoover SA, dont le siège est à Genève\n- 1/3 : Annie CoeurdeLion, domiciliée à Monaco.\nLors de l’Assemblée générale ordinaire du 1er mai 2022, Titan SA décide de verser un dividende en espèces de CHF 3 millions, prélevé sur les autres réserves. Laquelle des affirmations suivantes est correcte en matière d’impôt anticipé ?",
+   "options": [
+    "Hoover SA a droit à la procédure de déclaration et Annie CœurdeLion a droit au remboursement de l’impôt anticipé",
+    "Reiner Brown et Hoover SA ont droit à la procédure de déclaration",
+    "Hoover SA n’a pas droit à la procédure de déclaration et Annie CœurdeLion n’a pas droit au remboursement de l’impôt anticipé",
+    "Reiner Brown a droit au remboursement de l’impôt anticipé et Hoover SA a droit à la procédure de déclaration"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux pour la seconde moitié : Hoover SA (33 % ≥ 10 %) a bien droit à la procédure de déclaration (art. 26a OIA), mais Annie CœurdeLion, domiciliée à Monaco (État sans CDI avec la Suisse), n'a PAS droit au remboursement — l'IA de 35 % reste définitif pour elle.",
+    "Faux pour Reiner Brown : une personne physique n'a pas accès à la procédure de déclaration pour un dividende en espèces — elle passe par le remboursement (art. 22-23 LIA). Seule Hoover SA (PM, ≥ 10 %) peut déclarer.",
+    "Faux pour la première moitié : Hoover SA détient 33 % ≥ 10 % et a donc bien droit à la procédure de déclaration intragroupe (art. 26a OIA, formulaire 106). (La seconde moitié, elle, est vraie : Annie n'a pas droit au remboursement.)",
+    "Correct. Reiner Brown (PP domiciliée à Zurich, avec droit de jouissance et déclaration régulière) → droit au REMBOURSEMENT (art. 21-23 LIA). Hoover SA (PM suisse, participation 33 % ≥ 10 %) → droit à la PROCÉDURE DE DÉCLARATION intragroupe (art. 26a OIA). Annie CœurdeLion (Monaco, pas de CDI) supporte l'IA à titre définitif."
+   ]
+  },
+  {
+   "id": "FE-146",
+   "champ": "Actions gratuites — IA + droit de timbre d'émission",
+   "memento": "§11 · §12",
+   "difficulte": 3,
+   "piege": "franchise 1 mio jamais sur actions gratuites ; RAC exonérées d'IA",
+   "question": "Le bilan de E SA, dont le siège est en Suisse, présente un capital-actions de CHF 100 000, des réserves issues d'apports de capital de CHF 400 000 (reconnues par l'AFC) et des réserves issues du bénéfice de CHF 800 000. En 2023, l'assemblée générale de E SA décide de procéder à une augmentation de capital de CHF 400 000 (augmentation du capital-actions à CHF 500 000) par l'émission d'actions gratuites à charge des réserves issues d'apports en capital de CHF 250 000 et des réserves issues du bénéfice de CHF 150 000. Laquelle des assertions suivantes est correcte en ce qui concerne l'impôt anticipé et le droit de timbre d'émission?",
+   "options": [
+    "Droit de timbre d'émission de CHF 1500. Impôt anticipé de CHF 52 500, dans la mesure où l'impôt anticipé n'est pas transféré au bénéficiaire de la prestation",
+    "Pas de droit de timbre d'émission. Impôt anticipé de CHF 80 769, dans la mesure où l'impôt anticipé n'est pas transféré au bénéficiaire de la prestation",
+    "Pas de droit de timbre d'émission. Impôt anticipé de CHF 52 500, dans la mesure où l'impôt anticipé est transféré au bénéficiaire de la prestation",
+    "Droit de timbre d'émission de CHF 1500. Impôt anticipé de CHF 80 769, dans la mesure où l'impôt anticipé n'est pas transféré au bénéficiaire de la prestation"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux sur l'IA. Le DTE de 1 500 est exact, mais 52 500 = 35 % × 150 000 ne vaut que si l'IA est TRANSFÉRÉ au bénéficiaire — contradictoire avec la mention « non transféré », qui impose le calcul brut pour net (150 000 ÷ 65 × 35 = 80 769).",
+    "Faux sur le DTE. L'IA de 80 769 est exact (part sur réserves de bénéfice, non transféré), mais l'augmentation gratuite de la valeur nominale est bien soumise au droit d'émission (art. 5 al. 1 let. a LT) : base = 400 000 − 250 000 de RAC ayant déjà supporté le droit (art. 6 al. 1 let. d LT) = 150 000 → DTE 1 500.",
+    "Faux sur le DTE. L'IA de 52 500 (35 % × 150 000) est cohérent avec un transfert au bénéficiaire, mais l'assertion supprime à tort le droit d'émission : l'augmentation gratuite de VN est imposable (art. 5 al. 1 let. a LT), et la franchise de 1 mio ne s'applique pas aux émissions à titre gratuit.",
+    "Correct. IMPÔT ANTICIPÉ : les actions gratuites sont un rendement imposable (art. 4 al. 1 let. b LIA ; art. 20 OIA), SAUF la part financée par des RAC reconnues (art. 5 al. 1bis LIA) → base = 150 000 (part sur réserves de bénéfice) ; non transféré → brut pour net : 150 000 ÷ 65 × 35 = CHF 80 769. DROIT D'ÉMISSION : augmentation gratuite de la VN imposable (art. 5 al. 1 let. a LT), déduction des 250 000 de RAC ayant déjà supporté le droit (art. 6 al. 1 let. d LT), pas de franchise (émission à titre gratuit) → 1 % × 150 000 = CHF 1 500."
+   ]
+  },
+  {
+   "id": "FE-147",
+   "champ": "Imputation/remboursement de l'IA par l'actionnaire",
+   "memento": "§11.2",
+   "difficulte": 1,
+   "question": "A SA, dont le siège est en Suisse, distribue un dividende en espèces d'un montant total de CHF 10 mio. (avant déduction éventuelle de l'impôt anticipé). Quel montant d'impôt anticipé son actionnaire principal, Monsieur B (participation de 30%), domicilié en Suisse, peut-il éventuellement réclamer ou imputer sur son impôt sur le revenu?",
+   "options": [
+    "CHF 3 500 000",
+    "CHF 3 000 000",
+    "CHF 0.-",
+    "CHF 1 050 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. 3 500 000 = 35 % du dividende TOTAL de 10 mio : c'est l'IA prélevé sur l'ensemble des actionnaires, pas seulement sur la part de Monsieur B.",
+    "Faux. 3 000 000 est le dividende BRUT revenant à Monsieur B (30 % × 10 mio), pas l'impôt anticipé qui le grève.",
+    "Faux. 0 supposerait la déchéance du droit au remboursement : domicilié en Suisse, Monsieur B y a droit s'il a le droit de jouissance et déclare régulièrement le rendement (art. 21-23 LIA).",
+    "Correct. Part de Monsieur B = 30 % × 10 000 000 = 3 000 000 (dividende brut) ; IA correspondant = 35 % × 3 000 000 = CHF 1 050 000 — montant qu'il peut réclamer en remboursement ou imputer sur son impôt sur le revenu s'il déclare le rendement (art. 21-23 LIA)."
+   ]
+  },
+  {
+   "id": "FE-148",
+   "champ": "IA total sur dividende + prestations appréciables en argent (multi-actionnaires)",
+   "memento": "§11 · §7",
+   "difficulte": 3,
+   "piege": "un mode par bénéficiaire : transfert 35 % vs brut-pour-net",
+   "question": "La société W SA a son siège en Suisse. L'actionnariat se compose comme suit : 80% : Monsieur A, domicilié en Suisse; 10% : F SA, domiciliée en Suisse; 10% : Madame G, domiciliée à Monaco. W SA vous fournit les informations suivantes en relation avec la période fiscale 2023 : W SA a versé un dividende total de CHF 1'000'000 aux actionnaires. Monsieur A a reçu un salaire de W SA de CHF 400'000. Un tiers indépendant aurait reçu CHF 250'000 pour des prestations identiques. Des dépenses du meilleur ami de Madame G (qui est domicilié en Suisse) ont été comptabilisés dans les comptes de charges de W SA pour un montant de CHF 200'000. L'impôt anticipé est répercuté sur le ou la bénéficiaire de la prestation, sauf si le ou la bénéficiaire est Madame G. Quel est le montant d'impôt anticipé dû par W SA ?",
+   "options": [
+    "CHF 249'038",
+    "CHF 421'346",
+    "CHF 472'500",
+    "CHF 494'038"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Ce montant n'est atteignable qu'en omettant une partie des prestations imposables (ou en écartant à tort un bénéficiaire) : le périmètre complet comprend le dividende, le salaire excessif de M. A et les dépenses de l'ami de Mme G.",
+    "Faux. Combinaison partielle : mauvaise affectation du mode de calcul (35 % au lieu du brut-pour-net, ou l'inverse) à l'un des bénéficiaires, ou prestation oubliée — le calcul complet donne 494 038.",
+    "Faux. 472 500 = 35 % × 1 350 000 : applique 35 % à toutes les prestations, en ignorant la procédure de déclaration de F SA (art. 26a OIA, aucun IA en espèces) et le brut-pour-net pour Mme G (IA non répercuté).",
+    "Correct. Prestations (art. 4 al. 1 let. b LIA) : dividende 1 000 000 (800 000 à A, 100 000 à F SA, 100 000 à G) ; salaire excessif 400 000 − 250 000 = 150 000 (PAA à M. A) ; dépenses de l'ami de Mme G = 200 000 (PAA attribuée à G — proche, théorie du triangle). Traitement : F SA (PM suisse, 10 %) → procédure de déclaration, pas d'IA à payer ; M. A (transfert) : (800 000 + 150 000) × 35 % = 332 500 ; Mme G (IA non répercuté → brut pour net) : (100 000 + 200 000) ÷ 65 × 35 = 161 538. Total = CHF 494 038."
+   ]
+  },
+  {
+   "id": "FE-149",
+   "champ": "IA sur distribution dissimulée — brut-pour-net",
+   "memento": "§11 · §7",
+   "difficulte": 2,
+   "question": "La société V Sàrl (CH) a procédé à une distribution dissimulée de bénéfices d'un montant de CHF 200 000 à son actionnaire, Madame E, domiciliée en Suisse. Quel montant d'impôt anticipé doit-elle verser à l'AFC si un transfert de l'impôt n'est plus possible?",
+   "options": [
+    "KCHF 107,7",
+    "KCHF 70",
+    "KCHF 130",
+    "KCHF 0"
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct. La distribution dissimulée est un rendement imposable (art. 4 al. 1 let. b LIA). Le transfert n'étant plus possible, les 200 000 versés sont réputés NETS d'un IA à reconstituer : brut pour net (art. 14 LIA) → 200 000 ÷ 65 × 35 = 107 692 ≈ KCHF 107,7 (exemple V Sàrl du mémento).",
+    "Faux. 70 = 35 % × 200 000 : ce montant ne vaudrait que si l'IA pouvait encore être transféré (les 200 000 traités comme prestation brute).",
+    "Faux. 130 = 65 % × 200 000 : c'est la part nette d'une prestation brute de 200 000 — une grandeur sans signification ici, pas un montant d'impôt.",
+    "Faux. 0 nierait l'assujettissement : la distribution dissimulée est bien soumise à l'IA, découverte a posteriori ou non."
+   ]
+  },
+  {
+   "id": "FE-150",
+   "champ": "Bénéficiaire de la prestation (proche) et remboursement",
+   "memento": "§7 · §11.2",
+   "difficulte": 3,
+   "question": "La société Berger SA, dont le siège est en Suisse, est entièrement détenue par Madame Loup, domiciliée en Suisse. Durant la période fiscale 2023, Berger SA a comptabilisé des dépenses privées de Madame Loup pour un montant de CHF 50 000 et des dépenses privées de son frère, domicilié aux Bermudes (pas de CDI), pour un montant de CHF 80 000. Ce dernier n'est pas employé par Berger SA. Laquelle des assertions suivantes est correcte en ce qui concerne l'impôt anticipé?",
+   "options": [
+    "Les bénéficiaires de la prestation sont Madame Loup pour un montant de CHF 50 000 et son frère pour un montant de CHF 80 000. Madame Loup peut demander le remboursement de l'impôt anticipé, pour autant que les conditions soient remplies.",
+    "Le bénéficiaire de la prestation est Madame Loup pour le montant total de CHF 130 000. L'impôt anticipé s'élève à CHF 45 500, pour autant qu'il ne soit pas transféré à Madame Loup.",
+    "Le bénéficiaire de la prestation est Madame Loup pour le montant total de CHF 130 000. Madame Loup peut demander le remboursement de l'impôt anticipé, pour autant que les conditions soient remplies.",
+    "Les bénéficiaires de la prestation sont Madame Loup pour le montant de CHF 50 000 et son frère pour le montant de CHF 80 000. L'impôt anticipé de ce dernier s'élève à CHF 28 000, pour autant que l'impôt anticipé lui soit transféré."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. Cette assertion scinde les bénéficiaires : or les dépenses privées du frère (un proche, non employé, motif purement familial) sont imputées à l'ACTIONNAIRE par la théorie du triangle — Madame Loup est bénéficiaire de la totalité (130 000), pas seulement de ses propres 50 000.",
+    "Faux. Le bénéficiaire (Mme Loup, 130 000) est correct, mais le chiffre est incohérent : 45 500 = 35 % × 130 000 suppose le TRANSFERT de l'IA ; « non transféré » exigerait le brut pour net, soit 130 000 ÷ 65 × 35 = 70 000.",
+    "Correct. Théorie du triangle (relation purement familiale) : Madame Loup est la bénéficiaire de l'intégralité de la prestation appréciable en argent (50 000 + 80 000 = 130 000). Domiciliée en Suisse, elle peut demander le remboursement de l'IA pour autant que les conditions soient remplies — droit de jouissance et déclaration régulière du rendement (art. 21-23 LIA).",
+    "Faux. Le frère n'est pas le bénéficiaire retenu (théorie du triangle) ; et même dans la logique de l'assertion, un remboursement en sa faveur serait exclu (Bermudes, aucune CDI → IA définitif) — 28 000 (35 % × 80 000) ne lui serait jamais restitué."
+   ]
+  },
+  {
+   "id": "FE-151",
+   "champ": "Procédure de déclaration vs remboursement",
+   "memento": "§11.1 · §11.2",
+   "difficulte": 2,
+   "question": "Le capital-actions de H SA (siège en Suisse) est détenu par : 76% Madame A (résidant en Suisse), 16% B SA (établie en Suisse), 8% C SA (établie en Suisse). En 2023, H SA distribue un dividende en espèces à partir des réserves issues du bénéfice. Laquelle des assertions suivantes est correcte en ce qui concerne l'impôt anticipé ?",
+   "options": [
+    "B SA et C SA ont droit à la procédure de déclaration",
+    "B SA a droit à la procédure de déclaration et C SA au remboursement de l'impôt anticipé",
+    "Madame A a droit au remboursement de l'impôt anticipé et C SA à la procédure de déclaration",
+    "Madame A a droit à la procédure de déclaration et B SA au remboursement de l'impôt anticipé"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. C SA ne détient que 8 % < 10 % : elle n'atteint pas le seuil de la participation qualifiée exigé pour la procédure de déclaration intragroupe (art. 26a OIA).",
+    "Correct. B SA (16 % ≥ 10 %, société de capitaux suisse) → procédure de DÉCLARATION intragroupe (art. 26a OIA). C SA (8 % < 10 %) → pas de déclaration, mais droit au REMBOURSEMENT de l'IA en tant que PM suisse (art. 24 LIA) : une PM < 10 % a droit au remboursement mais pas à la procédure de déclaration.",
+    "Faux pour C SA : avec 8 % < 10 %, elle n'a pas droit à la procédure de déclaration (la partie sur Madame A — remboursement — serait exacte, mais l'assertion entière tombe).",
+    "Faux pour Madame A : une personne physique n'a JAMAIS accès à la procédure de déclaration pour un dividende en espèces — elle obtient le remboursement après déclaration régulière (art. 22-23 LIA)."
+   ]
+  },
+  {
+   "id": "FE-152",
+   "champ": "Excédent de liquidation",
+   "memento": "§11 · §9",
+   "difficulte": 2,
+   "question": "La société L SA (CH) doit être liquidée. Les actifs ont été cédés : il ne reste qu'un compte bancaire de CHF 6 mio. à l'actif. Au passif : fonds étrangers CHF 2 mio., bénéfice reporté CHF 0,8 mio., réserve libre issue du bénéfice CHF 0,5 mio., réserves issues d'apports en capital CHF 1,7 mio. et capital-actions CHF 1 mio. Quel est le montant de l'excédent de liquidation ?",
+   "options": [
+    "CHF 4 mio.",
+    "CHF 2,7 mio.",
+    "CHF 1,3 mio.",
+    "CHF 0"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. 4 mio = actif net revenant aux actionnaires (6 − 2 de fonds étrangers), sans déduire ni le capital-actions libéré ni les RAC — deux éléments remboursables francs d'IA.",
+    "Faux. 2,7 mio déduit le capital-actions (1 mio) mais oublie les réserves issues d'apports de capital (1,7 mio), remboursables franches d'impôt anticipé (art. 5 al. 1bis LIA).",
+    "Correct. Excédent de liquidation soumis à l'IA de 35 % (art. 4 al. 1 let. b LIA) = ce qui revient aux actionnaires au-delà du capital-actions libéré ET des RAC : 6 − 2 (fonds étrangers) − 1 (capital-actions) − 1,7 (RAC) = CHF 1,3 mio — soit exactement le bénéfice reporté 0,8 + la réserve libre 0,5.",
+    "Faux. 0 nierait l'imposition des réserves issues du bénéfice distribuées en liquidation : seuls le capital libéré et les RAC échappent à l'IA."
+   ]
+  }
+ ]
+}

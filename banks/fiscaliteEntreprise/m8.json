@@ -1,0 +1,90 @@
+{
+ "module": "M8",
+ "titre": "08 · Report de pertes",
+ "questions": [
+  {
+   "id": "FE-078",
+   "champ": "Report de pertes 7 ans — expiration de la perte la plus ancienne",
+   "memento": "§5",
+   "difficulte": 3,
+   "question": "La société Vamal SA, dont le siège est à Berne, réalise des résultats irréguliers depuis plusieurs années et a supporté des pertes en 2019 de CHF (1’200’000) et en 2021 de CHF (400’000). En 2020, Vamal SA a réalisé un résultat nul. Après avoir pris certaines mesures pour améliorer sa rentabilité, Vamal SA a réalisé un résultat fiscal de CHF 200’000 en 2022 et estime qu’elle réalisera un résultat équivalent les années suivantes. Dans une telle hypothèse, quelle serait le montant des pertes reportables en matière d’impôt fédéral direct en 2027 (après compensation avec le résultat 2027) ?",
+   "options": [
+    "CHF 200'000",
+    "CHF 600'000",
+    "CHF 400'000",
+    "CHF 0"
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact : report sur 7 exercices, la perte la plus ancienne d'abord (art. 67 al. 1 LIFD). La perte 2019 (1 200 000) s'impute de 2022 à 2026 (5 × 200 000 = 1 000 000) ; le solde de 200 000 expire fin 2026 (dernier exercice où la perte 2019 est reportable) et est définitivement perdu. En 2027, le bénéfice de 200 000 s'impute sur la perte 2021 (400 000) → pertes reportables restantes = 200 000 (mémento §5, exemple Vamal SA).",
+    "600 000 = addition des soldes (200 000 de la perte 2019 + 400 000 de la perte 2021) sans tenir compte ni de l'expiration de la perte 2019 fin 2026, ni de la compensation du bénéfice 2027 avec la perte 2021.",
+    "400 000 = perte 2021 entière : oublie que le bénéfice 2027 (200 000) s'impute dessus après l'expiration de la perte 2019 — il reste 200 000, pas 400 000.",
+    "CHF 0 croirait tout compensé : or les bénéfices cumulés 2022-2027 (6 × 200 000 = 1 200 000) ne couvrent pas 1 600 000 de pertes, et le solde de la perte 2019 expire sans avoir pu être utilisé — il reste bien un report de 200 000 sur la perte 2021."
+   ],
+   "piege": "7 exercices — la perte la plus ancienne expire d'abord"
+  },
+  {
+   "id": "FE-079",
+   "champ": "Report sur 7 ans — expiration (art. 67 LIFD)",
+   "memento": "§5",
+   "difficulte": 3,
+   "question": "La société C SA (siège en Suisse) a réalisé : 2014 (120 000) perte ; 2015 (240 000) perte ; 2016 10 000 bénéfice ; 2017 (130 000) perte ; 2018 (100 000) perte ; 2019 80 000 bénéfice ; 2020 (20 000) perte ; 2021 (50 000) perte ; 2022 200 000 bénéfice. Supposons qu'elle réalise un bénéfice de CHF 50 000 en 2023 : quel est le montant des pertes reportées pour l'impôt fédéral direct au 1er janvier 2024 (art. 67 al. 1 LIFD) ?",
+   "options": [
+    "CHF (170 000)",
+    "CHF (320 000)",
+    "CHF (300 000)",
+    "CHF (250 000)"
+   ],
+   "correct": 2,
+   "explications": [
+    "(170 000) résulte d'une erreur d'imputation qui surestime les compensations (comme si les bénéfices avaient absorbé une tranche de plus) — aucun cheminement conforme n'y aboutit.",
+    "(320 000) additionne à tort la tranche 2015 résiduelle (20 000), pourtant PÉRIMÉE au 1.1.2024 : la fenêtre de 7 exercices pour la période 2024 couvre 2017-2023, la perte 2015 en est sortie.",
+    "Réponse retenue : imputation de la plus ancienne d'abord (art. 67 al. 1 LIFD ; mémento §5). 2016 (+10 000) et 2019 (+80 000) s'imputent sur la perte 2014 (120 000 → solde 30 000) ; 2022 (+200 000) résorbe ce solde 2014 (30 000) puis entame 2015 (240 000 → 70 000) ; 2023 (+50 000) réduit 2015 à 20 000, tranche qui expire au 1.1.2024. Restent : 2017 (130 000) + 2018 (100 000) + 2020 (20 000) + 2021 (50 000) = 300 000. NB : une lecture stricte du délai (perte 2014 imputable en dernier lieu sur la période 2021, perte 2015 sur 2022) aboutirait à 250 000 — clé reconstruite à confiance moyenne, voir divergences.md §9.",
+    "(250 000) correspond à l'application STRICTE de la fenêtre des 7 exercices : le solde 2014 (30 000) expire avant 2022 et le solde 2015 avant 2023, si bien que 2022 s'impute sur 2015 (240 000 → 40 000, périmé ensuite) et 2023 sur 2017 (130 000 → 80 000) ; report = 80 000 + 100 000 + 20 000 + 50 000 = 250 000. Cette variante est défendable mais n'est pas la clé retenue par la source (voir divergences.md)."
+   ],
+   "piege": "fenêtre de 7 ans — vérifier l'expiration année par année"
+  },
+  {
+   "id": "FE-080",
+   "champ": "Report 7 ans — imputation année par année",
+   "memento": "§5",
+   "difficulte": 3,
+   "question": "La société V SA (Zoug), fondée en 2010, a réalisé selon le droit commercial : 2010 (50) ; 2011 (40) ; 2012 (30) ; 2013 (20) ; 2014 (10) ; 2015 0 ; 2016 (50) ; 2017 40 ; 2018 0 ; 2019 (70) ; 2020 40 ; 2021 0 ; 2022 20. Quel est le montant des pertes reportées au 01.01.2023 ?",
+   "options": [
+    "0",
+    "(20) Report de pertes",
+    "(70) Report de pertes",
+    "(90) Report de pertes"
+   ],
+   "correct": 3,
+   "explications": [
+    "0 est faux : les pertes 2016 et 2019 subsistent partiellement dans la fenêtre 2016-2022 — les bénéfices cumulés (40 + 40 + 20 = 100) sont loin d'avoir absorbé toutes les pertes encore reportables.",
+    "(20) résulte de la méthode « globale » erronée : sommer les pertes récentes (2016 + 2019 = 120) puis soustraire TOUS les bénéfices (100), y compris ceux qui ont en réalité été absorbés par des pertes anciennes aujourd'hui périmées (2010, 2013, 2014). Chaque bénéfice s'impute au moment où il est réalisé, sur la perte la plus ancienne encore reportable.",
+    "(70) retient la perte 2019 mais oublie le solde 2016 de 20 (50 amortis par 2020 à hauteur de 10 puis par 2022 à hauteur de 20 → il reste 20).",
+    "Exact (art. 67 al. 1 LIFD ; mémento §5) : 2017 (+40) s'impute sur la perte 2010 (50 → 10). 2020 (+40) : les pertes 2010-2012 sont périmées ; il s'impute sur 2013 (20), 2014 (10) puis 2016 (50 → 40). 2022 (+20) s'impute sur 2016 (40 → 20). Au 1.1.2023, dans la fenêtre 2016-2022 : 2016 (20) + 2019 (70) = 90."
+   ],
+   "piege": "chaque bénéfice s'impute sur la plus ancienne perte ENCORE reportable à ce moment-là"
+  },
+  {
+   "id": "FE-081",
+   "champ": "Assainissement — compensation extraordinaire",
+   "memento": "§5 · §9",
+   "difficulte": 2,
+   "question": "Une société dispose d’un report de pertes de CHF 500 000 datant de 9 ans (au-delà du délai de 7 ans). Un créancier tiers lui abandonne une créance de CHF 500 000 dans le cadre d’un assainissement. Peut-elle compenser ?",
+   "options": [
+    "Non, le délai de 7 ans est dépassé et le report est définitivement perdu",
+    "Oui, les prestations d’assainissement permettent une compensation extraordinaire, sans limite de 7 ans",
+    "Non, un abandon de créance n’est jamais un produit imposable",
+    "Oui, mais seulement à hauteur de 50 % de l’abandon"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la compensation EXTRAORDINAIRE de l'art. 67 al. 2 LIFD déroge précisément au délai ordinaire de 7 ans — en présence de prestations d'assainissement, des pertes anciennes hors délai redeviennent compensables.",
+    "Exact : l'abandon de créance d'un TIERS est un produit d'assainissement imposable, et l'art. 67 al. 2 LIFD autorise une compensation extraordinaire des pertes, y compris au-delà du délai ordinaire de 7 ans (mémento §5 et §9).",
+    "Faux : l'abandon de créance d'un tiers EST un produit imposable. Seul l'abandon de créance de l'ACTIONNAIRE (« abandon improprement dit ») est traité comme un apport sans influence sur le résultat (art. 60 let. a LIFD) — c'est le faux ami classique (mémento §16).",
+    "Faux : aucune limite de 50 % n'existe — ce plafond est inventé. La compensation extraordinaire porte sur l'intégralité des prestations d'assainissement, dans la mesure des pertes disponibles."
+   ],
+   "piege": "abandon de créance : tiers = produit imposable / actionnaire = apport"
+  }
+ ]
+}

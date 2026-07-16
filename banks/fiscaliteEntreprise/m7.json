@@ -1,0 +1,355 @@
+{
+ "module": "M7",
+ "titre": "07 · Remploi",
+ "questions": [
+  {
+   "id": "FE-060",
+   "champ": "Champ d'application du remploi",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "Les possibilités d'application du concept de remploi concernent : (identifiez la réponse correcte)",
+   "options": [
+    "uniquement la fortune des personnes morales",
+    "uniquement la fortune des personnes physiques",
+    "toute la fortune des personnes physiques et morales",
+    "uniquement la fortune commerciale des personnes physiques et toute la fortune des personnes morales"
+   ],
+   "correct": 3,
+   "explications": [
+    "Trop restrictif : le remploi ne se limite pas aux personnes morales. La fortune COMMERCIALE des personnes physiques (indépendants) y a également accès — un actif immobilisé nécessaire à l'exploitation peut appartenir à un indépendant comme à une société.",
+    "Trop restrictif dans l'autre sens : les personnes morales bénéficient elles aussi du remploi, et chez la personne physique seule la fortune commerciale entre en ligne de compte, jamais la fortune privée.",
+    "Faux, car cette formulation inclut la fortune PRIVÉE des personnes physiques. Or le remploi ne vise que les actifs immobilisés nécessaires à l'exploitation : la fortune privée d'une personne physique n'ouvre jamais droit au remploi.",
+    "Exact. Le remploi (art. 64 al. 1 et 3 LIFD ; mémento §4) ne vise que les actifs immobilisés nécessaires à l'exploitation. Pour une personne physique, seule sa fortune commerciale entre en ligne de compte ; pour une personne morale, tous les actifs sont par nature commerciaux, donc toute sa fortune est concernée."
+   ]
+  },
+  {
+   "id": "FE-061",
+   "champ": "Conditions du report (localisation, délai, fonction)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "Au sens de l'art. 64 LIFD, les réserves latentes des biens immobiliers nécessaires à l'exploitation peuvent être reportées sur les biens immobilisés acquis en remploi : (identifiez la réponse erronée)",
+   "options": [
+    "si ces biens se situent dans le même canton",
+    "si ces biens se trouvent en Suisse",
+    "si ces biens sont acquis dans un délai raisonnable",
+    "si ces biens sont nécessaires à la nouvelle exploitation"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est bien l'affirmation erronée (à cocher) : le remploi n'exige nullement que le bien de remplacement se trouve dans le MÊME CANTON. La seule exigence territoriale de l'art. 64 al. 1 LIFD est une localisation EN SUISSE — un remploi Genève → Vaud est parfaitement admis (mémento §4).",
+    "Véritable condition, donc pas la réponse : le bien de remplacement doit être situé en Suisse (art. 64 al. 1 LIFD) ; un remplacement à l'étranger fait échouer le remploi.",
+    "Véritable condition, donc pas la réponse : l'acquisition doit intervenir dans un délai raisonnable (≈ 2 ans en pratique), avec provision possible si le remploi n'a pas lieu la même période (art. 64 al. 2 LIFD).",
+    "Véritable condition, donc pas la réponse : le bien acquis doit être un actif immobilisé nécessaire à l'exploitation (art. 64 al. 1 et 3 LIFD) — un placement ne qualifie pas."
+   ],
+   "piege": "en Suisse, pas « même canton »"
+  },
+  {
+   "id": "FE-062",
+   "champ": "Provision pour remploi — délai",
+   "memento": "§4",
+   "difficulte": 1,
+   "question": "Lorsque le remploi n'intervient pas dans le même exercice, la provision créée doit être utilisée ou dissoute : (identifiez la réponse correcte)",
+   "options": [
+    "dans un délai d'une année",
+    "dans un délai de 5 ans",
+    "dans un délai raisonnable",
+    "il n'y a pas de limite temporelle"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la loi ne fixe aucun délai d'une année. L'art. 64 al. 2 LIFD parle de délai raisonnable, que la pratique situe vers 2 ans.",
+    "Faux : aucun délai de 5 ans pour la provision de remploi. Ne pas confondre avec le délai de blocage de 5 ans des restructurations (art. 61 al. 4 LIFD, mémento §9.2).",
+    "Exact : la provision pour remploi (art. 64 al. 2 LIFD ; mémento §4) doit être utilisée (report sur le bien acquis) ou dissoute (avec effet imposable) dans un DÉLAI RAISONNABLE, estimé à environ 2 ans par la pratique.",
+    "Faux : un report indéfini viderait le remploi de sa fonction. À défaut d'acquisition dans un délai raisonnable, la provision est dissoute et les réserves latentes sont imposées."
+   ],
+   "piege": "délai raisonnable (≈ 2 ans), pas de délai fixe"
+  },
+  {
+   "id": "FE-063",
+   "champ": "Mécanisme du report d'impôt",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "Comment le report de l'impôt est-il obtenu en présence d'un remploi ?",
+   "options": [
+    "Le report de l'impôt est obtenu en ce sens que les réserves latentes réalisées pourront être imposées à une date ultérieure choisie à sa convenance par l'entreprise. Le destin de l'objet du remploi n'a aucune incidence sur le choix de la date d'imposition.",
+    "Le report de l'impôt est obtenu en ce sens que les réserves latentes du bien sorti seront transférées sur le bien objet du remploi.",
+    "Le report de l'impôt est obtenu en ce sens que l'imposition ne sera effective qu'à la liquidation de l'entreprise et sera différée jusqu'à ce moment-là."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : l'entreprise ne choisit pas librement la date d'imposition. Le sort du bien de remplacement est au contraire décisif : le report cesse dès que ce bien est revendu sans nouveau remploi ou sort de l'exploitation.",
+    "Exact : le remploi TRANSFÈRE les réserves latentes du bien aliéné sur le bien de remplacement (art. 64 al. 1 LIFD ; mémento §4). Sous la méthode absolue, le nouveau bien est inscrit à son coût diminué des réserves latentes reportées — l'impôt est différé, pas supprimé.",
+    "Faux : l'imposition n'est pas nécessairement différée jusqu'à la liquidation. Elle intervient dès que le bien de remplacement est aliéné sans nouveau remploi ou quitte l'exploitation — potentiellement bien avant toute liquidation, ou par le biais d'amortissements moindres sur une valeur comptable réduite."
+   ]
+  },
+  {
+   "id": "FE-064",
+   "champ": "Nature du report (réalisation authentique)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "En cas de remploi, le report de l'impôt est accordé malgré la réalisation authentique de réserves latentes. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 0,
+   "explications": [
+    "VRAI : l'aliénation du bien remplacé est bel et bien une réalisation authentique des réserves latentes (vente effective contre un produit), qui déclencherait normalement l'imposition immédiate. L'art. 64 LIFD y déroge en accordant un REPORT — et non une exonération — tant que le produit est réinvesti dans un actif d'exploitation situé en Suisse (mémento §4).",
+    "« Faux » méconnaîtrait que la vente contre un produit est un véritable fait réalisateur : c'est précisément MALGRÉ cette réalisation authentique que le législateur accorde le report, pour ne pas pénaliser le renouvellement de l'outil de production."
+   ]
+  },
+  {
+   "id": "FE-065",
+   "champ": "Étendue — réinvestissement partiel",
+   "memento": "§4",
+   "difficulte": 3,
+   "question": "Dans la mesure où le produit de l'aliénation n'est pas réinvesti, les réserves latentes sont réalisées sans possibilité de report d'imposition. La valeur comptable du bien objet du remploi équivaut alors toujours au minimum à la valeur comptable de l'actif sorti. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 0,
+   "explications": [
+    "VRAI. Dans le scénario posé (la part du produit non réinvestie est imposée immédiatement — remploi partiel), on ne reporte que les réserves latentes couvertes par le réinvestissement. Corollaire arithmétique : nouveau bien = coût − RL reportées, et RL reportées ≤ coût − ancienne valeur comptable, donc la valeur du nouveau bien reste au MINIMUM égale à celle de l'actif sorti. Contrôle chiffré : valeur fiscale 3 mio, vendu 5 mio (RL 2 mio), réinvesti 4,5 mio → 0,5 mio imposé, RL reportées 1,5 mio, nouveau bien 4,5 − 1,5 = 3 mio = ancienne valeur (art. 64 al. 1 LIFD ; mémento §4).",
+    "« Faux » supposerait que le nouveau bien puisse être inscrit en dessous de l'ancienne valeur comptable alors même que la part non réinvestie du gain est imposée — les deux effets s'excluent : soit les RL sont comprimées dans le bien (report), soit elles sont imposées, jamais les deux."
+   ]
+  },
+  {
+   "id": "FE-066",
+   "champ": "Remploi à l'étranger — refus",
+   "memento": "§4",
+   "difficulte": 1,
+   "question": "Vrai ou faux ? Les réserves latentes peuvent également être transférées sur des biens qui ne relèvent pas de la souveraineté fiscale suisse (opération dite de remploi à l'étranger) ; inversement, des réserves latentes peuvent être transférées de l'étranger en Suisse (remploi à destination de la Suisse), de sorte que le substrat d'impôt suisse ne s'en trouve pas modifié de façon considérable.",
+   "options": [
+    "Vrai",
+    "Faux"
+   ],
+   "correct": 1,
+   "explications": [
+    "« Vrai » accepterait un transfert de réserves latentes hors de Suisse, ce que l'art. 64 al. 1 LIFD exclut. L'énoncé exploite la symétrie apparente (départ/arrivée) pour suggérer une neutralité globale du substrat fiscal, mais le sens « CH → étranger » fait sortir les réserves latentes de la souveraineté fiscale suisse et déclenche l'imposition.",
+    "Correct, l'affirmation est FAUSSE : le remploi n'admet le report des réserves latentes que si le bien de remplacement est SITUÉ EN SUISSE (art. 64 al. 1 LIFD ; mémento §4, cas Meubles SA). Le « remploi à l'étranger » est refusé : les réserves latentes réalisées sont alors imposées en totalité."
+   ],
+   "piege": "remplacement à l'étranger = remploi refusé"
+  },
+  {
+   "id": "FE-067",
+   "champ": "Conditions du fait constitutif de remploi (art. 64)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "Parmi les affirmations suivantes, laquelle n'est PAS une condition du fait constitutif de remploi au sens de l'art. 64 LIFD (droit en vigueur) ?",
+   "options": [
+    "Le bien aliéné doit faire partie des actifs immobilisés nécessaires à l'exploitation.",
+    "Le bien acquis en remploi doit relever de la souveraineté fiscale suisse (être situé en Suisse).",
+    "Le bien objet du remploi doit impérativement avoir la même fonction économique que le bien aliéné.",
+    "Le bien objet du remploi doit être acquis dans un délai raisonnable."
+   ],
+   "correct": 2,
+   "explications": [
+    "Véritable condition, donc pas la réponse : le bien aliéné doit être un actif immobilisé nécessaire à l'exploitation (art. 64 al. 1 et 3 LIFD).",
+    "Véritable condition, donc pas la réponse : le bien de remplacement doit se trouver en Suisse (art. 64 al. 1 LIFD) — le remploi à l'étranger est refusé.",
+    "C'est la bonne réponse : depuis la réforme de l'imposition des entreprises II (en vigueur dès 2011), l'art. 64 al. 1 LIFD n'exige PLUS que le bien de remplacement remplisse la même fonction économique que le bien aliéné. Il suffit d'un actif immobilisé nécessaire à l'exploitation, situé en Suisse, acquis dans un délai raisonnable. Limite subsistante : pas de report d'un immeuble vers un bien mobilier (mémento §4).",
+    "Véritable condition, donc pas la réponse : acquisition dans un délai raisonnable, avec provision possible en cas de décalage d'exercice (art. 64 al. 2 LIFD)."
+   ],
+   "piege": "l'exigence de fonction identique est tombée en 2011"
+  },
+  {
+   "id": "FE-068",
+   "champ": "Calcul — remploi total (méthode absolue)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "La société A. SA exploite une entreprise de construction. Un poids-lourd (valeur déterminante pour l'impôt sur le bénéfice CHF 50 000) est vendu CHF 70 000 à une autre entreprise de construction. Le poids-lourd neuf coûte CHF 210 000. À quelle valeur déterminante pour l'impôt sur le bénéfice le camion neuf figurera-t-il au bilan fiscal après comptabilisation du remploi ?",
+   "options": [
+    "210'000",
+    "140'000",
+    "50'000",
+    "190'000",
+    "70'000"
+   ],
+   "correct": 3,
+   "explications": [
+    "210 000 = coût d'acquisition brut, sans report des réserves latentes : oublie de « comprimer » les 20 000 de RL dans le nouveau bien, ce qui est tout l'objet du remploi.",
+    "140 000 = 210 000 − 70 000 : soustrait le prix de vente entier au lieu des seules réserves latentes (20 000). Seules les RL se reportent, pas le produit.",
+    "50 000 = ancienne valeur fiscale : le nouveau bien ne reprend pas telle quelle la valeur de l'ancien lorsque le réinvestissement dépasse l'ancien coût — ce sont les RL qui se transfèrent.",
+    "Exact (méthode absolue) : réserves latentes = produit − valeur fiscale = 70 000 − 50 000 = 20 000. Le réinvestissement (210 000) dépasse le produit (70 000) → remploi TOTAL, toutes les RL sont reportées. Valeur fiscale du neuf = coût − RL reportées = 210 000 − 20 000 = 190 000 (art. 64 al. 1 LIFD ; mémento §4, exemple Hofer I).",
+    "70 000 = prix de vente de l'ancien camion : c'est le produit d'aliénation, pas une valeur de bilan du bien neuf."
+   ]
+  },
+  {
+   "id": "FE-069",
+   "champ": "Calcul — remploi partiel (réinvest. < produit)",
+   "memento": "§4",
+   "difficulte": 3,
+   "question": "La société A. SA exploite une entreprise de construction. Un poids-lourd (valeur déterminante pour l'impôt sur le bénéfice CHF 50 000) est vendu CHF 180 000 à une autre entreprise de construction. Le camion neuf coûte CHF 170 000. À quelle valeur déterminante pour l'impôt sur le bénéfice le véhicule neuf figurera-t-il au bilan fiscal après comptabilisation du remploi ?",
+   "options": [
+    "170'000",
+    "180'000",
+    "40'000",
+    "50'000"
+   ],
+   "correct": 2,
+   "explications": [
+    "170 000 = coût d'acquisition sans aucun report de réserves latentes : ignore le mécanisme même du remploi.",
+    "180 000 = prix de vente de l'ancien camion : confusion entre produit d'aliénation et valeur de bilan du bien neuf.",
+    "Exact (méthode absolue, celle du support) : RL = prix de vente − valeur fiscale = 180 000 − 50 000 = 130 000. Le prix du remplacement (170 000) dépasse la valeur fiscale de l'ancien bien (50 000) → report INTÉGRAL des RL, rien d'imposé maintenant. Nouveau camion = 170 000 − 130 000 = 40 000 (art. 64 al. 1 LIFD ; mémento §4, exemple Hofer II).",
+    "50 000 = résultat de la méthode différentielle : elle imposerait les 10 000 non réinvestis et ne transférerait que 120 000 de RL (170 000 − 120 000 = 50 000). Cette méthode n'est pas celle retenue par le support (voir divergences.md §1)."
+   ],
+   "piege": "méthode absolue ≠ méthode différentielle"
+  },
+  {
+   "id": "FE-070",
+   "champ": "Calcul — réinvestissement hors exploitation",
+   "memento": "§4",
+   "difficulte": 3,
+   "question": "La société A. SA (entreprise de construction). Un poids-lourd (valeur déterminante pour l'impôt sur le bénéfice CHF 100 000) est vendu CHF 200 000 à une autre entreprise de construction. Le camion neuf coûte CHF 170 000. Pour le solde de CHF 30 000 du produit de la vente, A. SA acquiert des parts de fonds de placement non nécessaires à l'exploitation. À quelle valeur déterminante pour l'impôt sur le bénéfice le véhicule neuf figurera-t-il au bilan fiscal après comptabilisation du remploi ?",
+   "options": [
+    "70'000",
+    "170'000",
+    "200'000",
+    "100'000"
+   ],
+   "correct": 3,
+   "explications": [
+    "70 000 = 170 000 − 100 000 : reporterait la TOTALITÉ des RL en ignorant que 30 000 du produit sont placés hors exploitation. Or seul le réinvestissement dans un actif nécessaire à l'exploitation ouvre le remploi — la part investie en fonds de placement ne qualifie pas.",
+    "170 000 = coût brut du camion sans aucun report de réserves latentes.",
+    "200 000 = produit de la vente, pas une valeur de bilan.",
+    "Exact : RL = 200 000 − 100 000 = 100 000. Les parts de fonds de placement (30 000) ne sont PAS nécessaires à l'exploitation → cette part du produit est réputée non réinvestie et les RL correspondantes (30 000) sont imposées immédiatement. RL reportées = 100 000 − 30 000 = 70 000. Camion neuf = 170 000 − 70 000 = 100 000, soit l'ancienne valeur fiscale (art. 64 al. 1 et 3 LIFD ; mémento §4)."
+   ],
+   "piege": "réinvestissement hors exploitation exclu du remploi"
+  },
+  {
+   "id": "FE-071",
+   "champ": "Réalisation involontaire (sinistre / assurance)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "Un bâtiment nécessaire à l'exploitation appartenant à la société X SA a été entièrement détruit par un incendie l'an dernier. X SA a fait reconstruire ce bâtiment peu de temps après. Y a-t-il en l'espèce un fait constitutif de remploi ?",
+   "options": [
+    "Oui. L'incendie peut donner lieu à la réalisation de réserves latentes suite au paiement par l'assurance. Sachant que le bâtiment reconstruit à neuf est lui aussi nécessaire à l'exploitation, on est bien en présence d'un fait constitutif de remploi.",
+    "Non. La reconstruction à neuf du bâtiment ne constitue nullement un fait constitutif de réalisation en raison de son identité économique avec le bâtiment détruit par le feu, et donc pas non plus un fait constitutif de remploi."
+   ],
+   "correct": 0,
+   "explications": [
+    "OUI, exact : l'indemnité d'assurance versée à la suite du sinistre peut excéder la valeur fiscale du bâtiment détruit et réalise ainsi des réserves latentes (réalisation dite involontaire). Le bâtiment reconstruit étant lui aussi nécessaire à l'exploitation et situé en Suisse, les conditions du remploi sont réunies : les RL réalisées par l'indemnité sont reportées sur le bâtiment reconstruit (art. 64 al. 1 LIFD ; mémento §4).",
+    "Faux : il n'existe pas d'« identité économique » qui neutraliserait toute réalisation. L'assurance a versé une indemnité (un produit) — il y a donc bien réalisation des réserves latentes, puis report de celles-ci par le mécanisme du remploi. Nier la réalisation reviendrait à nier la nécessité même du remploi dans ce cas."
+   ]
+  },
+  {
+   "id": "FE-072",
+   "champ": "Provision pour remploi différé",
+   "memento": "§4",
+   "difficulte": 1,
+   "question": "Si le remploi n'a pas lieu durant la même période fiscale que l'aliénation du bien à remplacer, il est possible de constituer une provision pour remploi à hauteur des réserves latentes réalisées. Cette provision devra être dissoute à l'acquisition du bien en remploi. Vrai ou faux ?",
+   "options": [
+    "vrai",
+    "faux"
+   ],
+   "correct": 0,
+   "explications": [
+    "VRAI : lorsque le remploi est différé, l'art. 64 al. 2 LIFD autorise la constitution d'une PROVISION pour remploi égale aux réserves latentes réalisées, ce qui neutralise leur imposition immédiate. À l'acquisition du bien de remplacement, la provision est dissoute et les RL sont reportées sur ce bien ; à défaut d'acquisition dans un délai raisonnable, elle est dissoute avec effet imposable (mémento §4).",
+    "« Faux » ignorerait le mécanisme légal exprès de l'art. 64 al. 2 LIFD, précisément conçu pour couvrir le décalage d'exercice entre l'aliénation et le réinvestissement."
+   ]
+  },
+  {
+   "id": "FE-073",
+   "champ": "Calcul — valeur du bien de remploi après report",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "La société A. SA (aviation). L'avion à remplacer a une valeur déterminante pour l'impôt sur le bénéfice de CHF 1 million ; il est revendu CHF 2,5 millions à une compagnie aérienne étrangère. L'avion neuf est acquis pour CHF 8 millions. Avant même sa mise en service, A. SA est mise en faillite ; le fournisseur est disposé à le reprendre pour CHF 7 millions. À quelle valeur déterminante pour l'impôt sur le bénéfice l'appareil neuf (après comptabilisation du remploi) figurera-t-il au bilan fiscal avant la revente au fournisseur ?",
+   "options": [
+    "CHF 7'000'000",
+    "CHF 6'500'000",
+    "CHF 8'000'000",
+    "CHF 5'500'000"
+   ],
+   "correct": 1,
+   "explications": [
+    "7 000 000 = prix de reprise futur par le fournisseur : sans effet ici, la question porte sur la valeur AVANT cette revente. (Que l'ancien avion ait été vendu à une compagnie étrangère est sans importance : c'est le bien de REMPLACEMENT qui doit être en Suisse.)",
+    "Exact : RL sur l'ancien avion = 2 500 000 − 1 000 000 = 1 500 000. Le réinvestissement (8 mio) dépasse le produit (2,5 mio) → remploi TOTAL, les 1,5 mio de RL sont reportés. Valeur fiscale du neuf = 8 000 000 − 1 500 000 = 6 500 000 (art. 64 al. 1 LIFD ; mémento §4).",
+    "8 000 000 = coût d'acquisition sans report des réserves latentes : oublie la compression des RL dans le nouveau bien.",
+    "5 500 000 = 7 000 000 − 1 500 000 : mélange erroné du prix de reprise futur avec les RL — la valeur au bilan fiscal se calcule sur le coût d'acquisition (8 mio), pas sur un prix de revente ultérieur."
+   ]
+  },
+  {
+   "id": "FE-074",
+   "champ": "Calcul — RL réalisées à la revente avec perte",
+   "memento": "§4",
+   "difficulte": 3,
+   "question": "Même état de fait : l'avion neuf, dont la valeur fiscale après remploi est de CHF 6,5 millions, est repris par le fournisseur pour CHF 7 millions. Pour quel montant les réserves latentes seront-elles réalisées ?",
+   "options": [
+    "CHF 1'500'000",
+    "CHF 500'000",
+    "CHF 2'500'000",
+    "CHF 1'000'000"
+   ],
+   "correct": 1,
+   "explications": [
+    "1 500 000 = RL initialement reportées : ignore la perte économique. L'appareil ne vaut plus que 7 mio (pour un coût de 8 mio) — une partie des RL reportées a été absorbée par cette perte de valeur et ne sera jamais réalisée.",
+    "Exact : la revente ne réalise que l'écart entre le prix obtenu et la valeur fiscale : 7 000 000 − 6 500 000 = 500 000. Le solde des RL reportées (1 mio) est absorbé par la perte de valeur économique de l'avion et n'est pas réalisé (art. 64 al. 1 LIFD ; mémento §4).",
+    "2 500 000 = produit de la première vente (l'ancien avion) : sans rapport avec la réalisation lors de la reprise par le fournisseur.",
+    "1 000 000 = ancienne valeur fiscale de l'avion d'origine : ce n'est ni une RL ni un montant réalisé ici."
+   ]
+  },
+  {
+   "id": "FE-075",
+   "champ": "Remploi immobilier — méthode absolue, réinvestissement inférieur au coût initial",
+   "memento": "§4",
+   "difficulte": 3,
+   "question": "Printer SA, dont le siège est à Genève, est propriétaire d’un entrepôt sis dans le même canton qui a été acquis au prix de CHF 6’500’000 et dont la valeur déterminante pour l’impôt sur le bénéfice actuelle est de CHF 4’000’000. Afin de faire face à une demande croissante, Printer SA va vendre son entrepôt en 2022 et en acquérir un nouveau plus spacieux en 2023 dans le canton de Vaud pour le prix de CHF 6’200’000. Quel est le montant du remploi maximum que Printer SA peut faire valoir en matière d’impôt fédéral direct ?",
+   "options": [
+    "CHF 300'000",
+    "CHF 2'200'000",
+    "CHF 0",
+    "CHF 2'500'000"
+   ],
+   "correct": 1,
+   "explications": [
+    "300 000 = 6 500 000 − 6 200 000, soit la part du produit NON couverte par le réinvestissement : c'est précisément ce qui reste imposé immédiatement, pas le remploi maximal.",
+    "Exact : Genève → Vaud, le bien de remplacement est en SUISSE, donc le remploi est admis (le changement de canton est indifférent, art. 64 al. 1 LIFD). Le remploi maximal correspond aux réserves latentes que le réinvestissement peut abriter au-dessus de l'ancienne valeur fiscale : 6 200 000 − 4 000 000 = 2 200 000 (le nouvel entrepôt est alors inscrit à 4 000 000). Sur des RL totales de 2 500 000, les 300 000 non couverts restent imposés (mémento §4).",
+    "CHF 0 supposerait le remploi refusé — faux : Vaud est en Suisse ; seul un remplacement à l'étranger ferait échouer le remploi.",
+    "2 500 000 = réserves latentes maximales (6 500 000 − 4 000 000), sans voir que le réinvestissement (6 200 000) est inférieur au coût initial (6 500 000) : la part non réinvestie ne peut pas être abritée par le remploi."
+   ],
+   "piege": "changement de canton ≠ remploi refusé"
+  },
+  {
+   "id": "FE-076",
+   "champ": "Remploi refusé (remplacement à l’étranger)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "La société Meubles SA, dont le siège se situe dans le canton de Vaud, est propriétaire d’un entrepôt sis dans le canton du siège, dont la valeur de marché est de CHF 12’000’000 et dont la valeur déterminante pour l’impôt sur le bénéfice actuelle est de CHF 8’000’000. Afin d’augmenter ses capacités de production et de réduire les coûts de personnel, Meubles SA vend son entrepôt et en acquiert un nouveau la même année en Haute-Savoie (France) pour un prix de EUR 14’000’000 (montant équivalent en CHF).\n\nA combien s’élève le gain soumis à l’impôt sur le bénéfice en matière d’impôt fédéral direct si Meubles SA fait valoir un remploi le plus élevé possible ?",
+   "options": [
+    "CHF 0",
+    "CHF 4'000'000",
+    "CHF 6'000'000",
+    "CHF 2'000'000"
+   ],
+   "correct": 1,
+   "explications": [
+    "CHF 0 supposerait un remploi accepté : faux, le bien de remplacement est acquis en Haute-Savoie (France), hors de la souveraineté fiscale suisse — le remploi est intégralement refusé, quel que soit le montant réinvesti (14 mio).",
+    "Exact : le remploi exige un bien de remplacement SITUÉ EN SUISSE (art. 64 al. 1 LIFD). Remplacement en France → remploi REFUSÉ : la totalité des réserves latentes est réalisée et imposée. RL = valeur de marché 12 000 000 − valeur déterminante pour l'impôt 8 000 000 = 4 000 000 (mémento §4, cas Meubles SA).",
+    "6 000 000 n'a aucune base de calcul : surestime les réserves latentes (le gain se mesure entre la valeur de marché de 12 mio et la valeur fiscale de 8 mio, pas sur le prix du bien français).",
+    "2 000 000 correspondrait à un remploi partiel arbitraire : le refus du remploi à l'étranger est TOTAL, il n'y a pas de report partiel possible."
+   ],
+   "piege": "remplacement à l'étranger = remploi refusé en totalité"
+  },
+  {
+   "id": "FE-077",
+   "champ": "Remploi partiel — part imposable des réserves latentes",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "La société X SA (CH) souhaitait acquérir un nouveau tunnelier, mais un peu plus petit, car l'ancien est devenu obsolète. La valeur comptable (= valeur déterminante pour l'impôt sur le bénéfice) de l'ancienne machine s'élève à CHF 3 mio. Elle peut être vendue pour CHF 5 mio. La nouvelle machine a été achetée la même année pour CHF 4,5 mio. Quel montant est soumis à l'impôt sur le bénéfice si la transaction est qualifiée d'acquisition de remplacement (remploi)?",
+   "options": [
+    "CHF 1 500 000",
+    "CHF 2 000 000",
+    "CHF 500 000",
+    "CHF 0"
+   ],
+   "correct": 3,
+   "explications": [
+    "1 500 000 = RL nettes de la part non réinvestie (2 000 000 − 500 000) : mélange les deux méthodes — sous la méthode absolue rien n'est imposé, sous la différentielle seuls 500 000 le seraient.",
+    "2 000 000 imposerait la totalité des réserves latentes comme si le remploi était refusé — or toutes les conditions sont remplies (actif d'exploitation, remplacement en Suisse, même année).",
+    "500 000 = 5 000 000 − 4 500 000 : résultat de la méthode DIFFÉRENTIELLE (imposition du produit non réinvesti), non retenue par le support (voir divergences.md §1).",
+    "Exact (méthode absolue, celle du support) : RL = 5 000 000 − 3 000 000 = 2 000 000. Le prix du remplacement (4 500 000) dépasse la valeur fiscale de l'ancien bien (3 000 000) → report INTÉGRAL des RL, RIEN n'est imposé maintenant. Le nouveau tunnelier est inscrit à 4 500 000 − 2 000 000 = 2 500 000 (art. 64 al. 1 LIFD ; mémento §4)."
+   ],
+   "piege": "méthode absolue ≠ méthode différentielle"
+  }
+ ]
+}

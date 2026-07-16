@@ -1,0 +1,67 @@
+{
+ "module": "M6",
+ "titre": "06 · Amortissements, provisions, réserves latentes",
+ "questions": [
+  {
+   "id": "FE-057",
+   "champ": "Amortissements — régime fiscal",
+   "memento": "§3",
+   "difficulte": 2,
+   "question": "Quelle assertion concernant les amortissements est correcte du point de vue fiscal?",
+   "options": [
+    "L’amortissement doit être linéaire",
+    "Les amortissements immédiats sont interdits",
+    "Les amortissements sont en général définitifs",
+    "Les amortissements doivent être effectués conformément à la notice de l’AFC"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la méthode linéaire n'est pas imposée — l'amortissement dégressif est également admis (la notice AFC prévoit des taux dégressifs) ; l'art. 62 LIFD exige seulement un amortissement selon l'usure et le temps (mémento §3).",
+    "Faux : l'amortissement immédiat est admis par la pratique de nombreuses administrations fiscales ; il n'existe pas d'interdiction de principe. NB : le mémento §3 pose les conditions générales (comptabilisé + justifié par l'usage commercial) sans traiter expressément l'amortissement immédiat.",
+    "Juste : l'amortissement fiscalement reconnu est en règle générale une opération DÉFINITIVE (mémento §3 : « opération définitive ») — exception : les amortissements sur participations qualifiées (≥ 10 %) sont réintégrés au bénéfice dès qu'ils ne sont plus justifiés (art. 62 al. 4 LIFD).",
+    "Faux : la notice AFC fixe des taux MAXIMAUX admis sans justificatif particulier ; elle n'impose pas une méthode obligatoire — un amortissement différent reste possible s'il est justifié par l'usage commercial."
+   ]
+  },
+  {
+   "id": "FE-058",
+   "champ": "Provisions & réserve sur stock",
+   "memento": "§3",
+   "difficulte": 3,
+   "question": "Evazyon SA, dont le siège est en Valais, a réalisé un bénéfice comptable de CHF 750’000 durant la période fiscale 2022. Les états financiers de Evazyon SA font apparaître les provisions/réserves suivantes :\n- Réserve sur stock de CHF 300’000, correspondant à 40% du prix de revient du stock ;\n- Provision pour risque de procès de CHF 200’000. Evazyon SA a gagné le procès en 2022 et a décidé de renoncer à dissoudre la provision (art. 960e al. 4 CO) ;\n- Provision pour futurs mandats de R&D confiés à des tiers de CHF 100’000, constituée pour la première fois en 2022.\nQuel est le bénéfice imposable de Evazyon SA en matière d’impôt fédéral direct ?",
+   "options": [
+    "CHF 1'000'000",
+    "CHF 818'182",
+    "CHF 1'050'000",
+    "CHF 1'350'000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste (mémento §3, exemple A « Evazyon SA ») : (1) réserve sur stock : le forfait admis est limité à 1/3 du prix de revient ; réserve de 300 000 = 40 % → prix de revient = 300 000 ÷ 0,40 = 750 000 ; part admise = 1/3 × 750 000 = 250 000 ; excédent repris = +50 000. (2) Provision pour le procès GAGNÉ en 2022 et non dissoute : plus justifiée par l'usage commercial → reprise +200 000, même si l'art. 960e al. 4 CO permet de la conserver au bilan. (3) Provision R&D pour futurs mandats confiés à des tiers : expressément admise (art. 63 al. 1 let. d LIFD) → 0. Bénéfice imposable = 750 000 + 50 000 + 200 000 = CHF 1 000 000.",
+    "Faux : CHF 818 182 résulte d'un calcul erroné du forfait sur stock (taux appliqué « en dedans ») ; le calcul correct part du prix de revient : 300 000 ÷ 0,40 = 750 000, dont 1/3 admis (250 000), soit une reprise de l'excédent de 50 000 seulement.",
+    "Faux : 750 000 + 200 000 + 100 000 = 1 050 000 reprend à tort la provision R&D pour futurs mandats confiés à des tiers (pourtant admise, art. 63 al. 1 let. d LIFD) et oublie l'excédent de la réserve sur stock (+50 000).",
+    "Faux : 750 000 + 300 000 + 200 000 + 100 000 = 1 350 000 reprend la TOTALITÉ des trois postes ; or la réserve sur stock est admise à hauteur d'un tiers du prix de revient (250 000) et la provision R&D est admise en plein."
+   ],
+   "piege": "Provision conservée au bilan (960e al. 4 CO) ≠ admise fiscalement"
+  },
+  {
+   "id": "FE-059",
+   "champ": "Récupération d'amortissements sur participations (art. 62 al. 4)",
+   "memento": "§3",
+   "difficulte": 3,
+   "question": "La société X SA (CH) a réduit la valeur comptable de certaines de ses participations en 2022 au moyen des écritures suivantes (entre parenthèses: taux de participation): Amortissement de la participation T1 (25%) de CHF 30 000; Amortissement de la participation T2 (8%) de CHF 12 000; Amortissement de la participation T3 (80%) de CHF 50 000; Amortissement de la participation T4 (75%) de CHF 300 000, en raison de la cessation d'activité. La déclaration d'impôt a été définitivement taxée en 2022. Quels amortissements de participations peuvent être repris fiscalement dans les périodes fiscales à venir?",
+   "options": [
+    "T2, T4",
+    "T1, T3, T4",
+    "T1, T2",
+    "T1, T3"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : T2 (8 %) est sous le seuil de 10 % — amortissement ordinaire, hors du champ de l'art. 62 al. 4 LIFD ; et T4, amorti en raison de la cessation d'activité, correspond à une perte DÉFINITIVE dont la valeur ne se reconstituera pas.",
+    "Faux : T1 et T3 sont corrects, mais T4 (75 %) doit être écarté : l'amortissement lié à la cessation d'activité traduit une perte définitive — aucune reprise de valeur n'est envisageable.",
+    "Faux : T1 est correct, mais T2 (8 %) n'atteint pas le seuil de 10 % de l'art. 62 al. 4 LIFD ; son amortissement n'est pas susceptible de réintégration future.",
+    "Juste : la réintégration de l'art. 62 al. 4 LIFD vise les participations QUALIFIÉES (≥ 10 %) dont l'amortissement n'est plus justifié parce que la valeur peut se reconstituer. T1 (25 %) et T3 (80 %) remplissent les conditions ; T2 (8 %) est sous le seuil ; T4 (75 %) est une perte définitive (cessation d'activité) → T1 et T3 (mémento §3, exemple B « X SA », qui reprend ce cas à l'identique)."
+   ]
+  }
+ ]
+}

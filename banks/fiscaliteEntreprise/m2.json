@@ -1,0 +1,372 @@
+{
+ "module": "M2",
+ "titre": "02 · Personnes physiques — revenus & déductions",
+ "questions": [
+  {
+   "id": "FE-006",
+   "champ": "Réserves latentes de l'indépendant",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "Pour un-e indépendant-e, au sens de la LIFD, il y a réalisation de réserves latentes lors de l'aliénation d'un actif de la fortune commerciale (identifiez la réponse erronée) :",
+   "options": [
+    "dans tous les cas d'aliénation",
+    "uniquement s'il n'y a pas de remploi",
+    "même si l'appréciation est comptabilisée sans impact sur le compte de résultat selon le droit commercial",
+    "dans les cas de systématique fiscale lors du transfert dans la fortune privée"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'affirmation FAUSSE à cliquer : « dans tous les cas » ignore le remploi. Si l'indépendant réinvestit le produit dans un actif immobilisé nécessaire à l'exploitation situé en Suisse, l'imposition des réserves latentes est REPORTÉE sur le bien de remplacement (art. 30 LIFD, pendant de l'art. 64 pour les PM — mémento §4) : pas de réalisation imposable immédiate.",
+    "Exacte (donc pas la réponse) : hors remploi, l'aliénation réalise les réserves latentes ; avec remploi, elles sont reportées sur le bien de remplacement — c'est l'énoncé fidèle du mécanisme (mémento §4).",
+    "Exacte : c'est l'aliénation effective qui réalise les réserves latentes, quel que soit le traitement comptable de l'appréciation — le fait générateur fiscal est la vente, pas l'écriture au compte de résultat.",
+    "Exacte : le transfert d'un actif de la fortune commerciale vers la fortune privée est une réalisation SYSTÉMATIQUE des réserves latentes (art. 18 al. 2 LIFD). (Réalisation systématique non détaillée dans le mémento, axé PM.)"
+   ]
+  },
+  {
+   "id": "FE-007",
+   "champ": "Gains en capital (art. 16 LIFD)",
+   "memento": "§10",
+   "difficulte": 2,
+   "question": "Au sens de l'article 16 de la LIFD (identifiez la réponse correcte) :",
+   "options": [
+    "Les gains en capital ne sont pas soumis pour toutes les personnes physiques",
+    "Les gains en capital sont soumis pour toutes les personnes physiques",
+    "Les gains en capital sur la fortune privée et commerciale sont soumis pour les indépendants",
+    "Les gains en capital sur la fortune commerciale sont soumis pour les indépendants"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : on ne peut pas dire « pas soumis pour toutes les PP » — le gain sur la fortune PRIVÉE est exonéré (art. 16 al. 3 LIFD), mais le gain sur la fortune COMMERCIALE est bel et bien imposé (art. 18 al. 2 LIFD). L'affirmation est trop absolue.",
+    "Faux dans l'autre sens : le gain en capital sur la fortune mobilière privée est expressément EXONÉRÉ (art. 16 al. 3 LIFD) — il n'est donc pas « soumis pour toutes les PP ».",
+    "Faux : chez l'indépendant aussi, le gain sur la fortune PRIVÉE reste exonéré (art. 16 al. 3) ; seule la fortune commerciale est imposée. Mettre les deux masses sur le même plan est l'erreur.",
+    "Correct : les gains en capital sur la fortune COMMERCIALE des indépendants sont imposables (art. 18 al. 2 LIFD), alors que le gain en capital privé est exonéré (art. 16 al. 3 LIFD) — c'est le principe rappelé au mémento §10 (But : le gain en capital privé est en principe exonéré)."
+   ]
+  },
+  {
+   "id": "FE-008",
+   "champ": "Autres revenus (art. 23 LIFD)",
+   "memento": "§10.2",
+   "difficulte": 2,
+   "question": "Au sens de l'article 23 de la LIFD, sont considérés comme des « autres revenus » (identifiez la réponse erronée) :",
+   "options": [
+    "les gains réalisés sur la vente de biens immobiliers",
+    "les indemnités de départ lors d'une cessation d'activité",
+    "les prestations d'assurance risque pur du 3e pilier b",
+    "les pensions alimentaires versées au conjoint et aux enfants"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'affirmation FAUSSE à cliquer : les gains sur la vente de biens IMMOBILIERS ne figurent pas à l'art. 23 LIFD. En fortune privée, le gain immobilier est exonéré à l'IFD au titre du gain en capital privé (art. 16 al. 3) et soumis à l'impôt cantonal sur les gains immobiliers (art. 12 LHID — mémento §10.2) ; en fortune commerciale, il relève de l'art. 18.",
+    "Exacte (donc pas la réponse) : les indemnités obtenues lors de la cessation d'une activité ou de la renonciation à son exercice sont des « autres revenus » (art. 23 let. c LIFD).",
+    "Exacte : les sommes uniques ou périodiques obtenues en cas de décès ou d'atteinte durable à la santé — y compris l'assurance risque pur du pilier 3b — sont des « autres revenus » (art. 23 let. b LIFD).",
+    "Exacte : la pension alimentaire obtenue par le contribuable divorcé/séparé et les contributions d'entretien pour les enfants sous son autorité parentale sont des « autres revenus » (art. 23 let. f LIFD). (La liste de l'art. 23 n'est pas reprise dans le mémento.)"
+   ]
+  },
+  {
+   "id": "FE-009",
+   "champ": "Revenus exonérés (art. 24 LIFD)",
+   "memento": "§10",
+   "piege": "Exonération plafonnée à 1 million",
+   "difficulte": 2,
+   "question": "Sont considérés comme exonérés au sens de la LIFD (identifiez la réponse erronée) :",
+   "options": [
+    "Les gains de casinos en ligne inférieurs à 1 million de CHF",
+    "Tous les gains de loterie",
+    "Les gains de loterie non soumise à la LJAr inférieurs à CHF 1'000.-",
+    "La solde militaire"
+   ],
+   "correct": 1,
+   "explications": [
+    "Exacte (donc pas la réponse) : les gains des jeux de casino en ligne autorisés par la LJAr sont exonérés jusqu'à CHF 1 million (art. 24 let. ibis LIFD).",
+    "C'est l'affirmation FAUSSE à cliquer : « tous » est excessif. Les gains des jeux de grande envergure (loteries, paris sportifs au sens de la LJAr) ne sont exonérés que JUSQU'À CHF 1'000'000 par gain ; la part excédentaire est imposable (art. 24 let. j LIFD).",
+    "Exacte : les petits gains des loteries et jeux d'adresse destinés à promouvoir les ventes, non soumis à la LJAr, sont exonérés en dessous du seuil de CHF 1'000 (art. 24 LIFD).",
+    "Exacte : la solde du service militaire (et l'indemnité pour service de protection civile) est exonérée (art. 24 LIFD). (Le catalogue de l'art. 24 n'est pas repris dans le mémento, axé PM ; §10 = section PP la plus proche.)"
+   ]
+  },
+  {
+   "id": "FE-010",
+   "champ": "Imposition partielle des dividendes (PP)",
+   "memento": "§10.1",
+   "difficulte": 2,
+   "question": "La procédure d'imposition partielle concernant des droits de participation dans la fortune privée prévoit (identifiez la réponse correcte) :",
+   "options": [
+    "Une imposition partielle à 50% en cas de participation supérieure ou égale à 50%",
+    "Une imposition partielle à 50% en cas de participation supérieure ou égale à 10%",
+    "Une imposition partielle à 70% en cas de participation supérieure ou égale à 50%",
+    "Une imposition partielle à 70% en cas de participation supérieure ou égale à 10%"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux sur les deux paramètres : à l'IFD le taux d'imposition partielle est 70 % (pas 50 %) et le seuil de participation qualifiée est 10 % (pas 50 %) — art. 20 al. 1bis LIFD (mémento §10.1).",
+    "Faux sur le taux : 50 % correspond au PLANCHER cantonal de l'art. 7 al. 1 LHID (les cantons doivent imposer au moins 50 %), pas au taux fédéral, qui est de 70 %. Le seuil de 10 % est, lui, exact.",
+    "Faux sur le seuil : 10 % suffit — 50 % n'est requis nulle part. Le taux de 70 % est, lui, exact pour l'IFD.",
+    "Correct : à l'IFD, le dividende d'une participation d'au moins 10 % du capital détenue en fortune privée est imposé à 70 % (art. 20 al. 1bis LIFD, taux relevé de 60 % à 70 % par la RFFA au 1.1.2020) — mémento §10.1."
+   ]
+  },
+  {
+   "id": "FE-011",
+   "champ": "Imposition partielle — condition",
+   "memento": "§10.1",
+   "difficulte": 1,
+   "question": "Pour une personne physique possédant des droits de participation dans son patrimoine privé, l'imposition partielle (identifiez la réponse correcte) :",
+   "options": [
+    "est toujours possible quel que soit le taux de participation",
+    "est possible uniquement si la participation est supérieure ou égale à 50%",
+    "est possible uniquement si la participation est supérieure ou égale à 10%",
+    "n'est pas possible"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'imposition partielle n'est pas « toujours » possible — elle exige une participation QUALIFIÉE d'au moins 10 % du capital ; en dessous, le dividende est imposé à 100 %.",
+    "Faux : le seuil légal est 10 %, pas 50 % (confusion avec un seuil de contrôle) — art. 20 al. 1bis LIFD.",
+    "Correct : l'imposition partielle (70 % à l'IFD) suppose une participation d'au moins 10 % du capital-actions ou du capital social (art. 20 al. 1bis LIFD) — mémento §10.1.",
+    "Faux : l'imposition partielle existe bel et bien pour les participations qualifiées de la fortune privée depuis la réforme de l'imposition des entreprises (art. 20 al. 1bis LIFD)."
+   ]
+  },
+  {
+   "id": "FE-012",
+   "champ": "Réduction pour participations (PM)",
+   "memento": "§6",
+   "difficulte": 2,
+   "question": "Pour une personne morale, la réduction pour participation est (identifiez la réponse correcte) :",
+   "options": [
+    "possible dans tous les cas",
+    "possible si le taux de participation est supérieur ou égal à 10% OU la valeur de la participation supérieure ou égale à CHF 1 million",
+    "possible si le taux de participation est supérieur ou égal à 10% ET la valeur de la participation supérieure ou égale à CHF 1 million",
+    "n'est jamais possible"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : des conditions existent — la réduction pour participations est réservée aux sociétés de capitaux et coopératives détenant une participation qualifiée (art. 69 LIFD, mémento §6).",
+    "Correct : pour les dividendes, les conditions sont ALTERNATIVES — au moins 10 % du capital, OU au moins 10 % du bénéfice et des réserves, OU une valeur vénale d'au moins CHF 1 million (art. 69 LIFD, mémento §6). Une seule condition suffit (« OU »).",
+    "Faux : cette option exige le CUMUL (« ET ») des deux critères, alors que la loi les pose en alternative — exiger les deux à la fois est précisément l'erreur classique.",
+    "Faux : la réduction pour participations existe toujours — ce n'est pas un statut aboli par la RFFA (seuls les statuts cantonaux holding/domicile/mixte ont disparu)."
+   ]
+  },
+  {
+   "id": "FE-013",
+   "champ": "Frais professionnels du salarié (art. 26)",
+   "memento": "§10",
+   "difficulte": 2,
+   "question": "Pour les personnes physiques salariées, sont déductibles (au sens de la LIFD - article 26) (identifiez la réponse erronée) :",
+   "options": [
+    "Les frais de déplacement en train",
+    "L'amortissement d'une voiture",
+    "Les frais de repas pris hors du domicile",
+    "les frais de formation professionnelle"
+   ],
+   "correct": 1,
+   "explications": [
+    "Exacte (donc pas la réponse) : les frais de déplacement nécessaires entre le domicile et le travail (transports publics, montant plafonné) sont déductibles — art. 26 al. 1 let. a LIFD.",
+    "C'est l'affirmation FAUSSE à cliquer : l'amortissement est une notion propre à la fortune COMMERCIALE (indépendant). Le salarié déduit ses frais de déplacement (transports publics ou, à défaut, forfait kilométrique), mais jamais l'amortissement d'un actif — il n'a pas de fortune commerciale.",
+    "Exacte : les frais supplémentaires de repas pris hors du domicile sont déductibles — art. 26 al. 1 let. b LIFD.",
+    "Exacte : les frais de formation et de perfectionnement à des fins professionnelles sont déductibles (aujourd'hui via l'art. 33 al. 1 let. j LIFD, jusqu'à env. CHF 12'000/an). (L'art. 26 n'est pas repris dans le mémento, axé PM ; §10 = section PP la plus proche.)"
+   ]
+  },
+  {
+   "id": "FE-014",
+   "champ": "Intérêts passifs (art. 33)",
+   "memento": "§10",
+   "piege": "Supplément 50 000, pas plafond",
+   "difficulte": 2,
+   "question": "Au sens de l'article 33, les intérêts passifs (identifiez la réponse correcte) :",
+   "options": [
+    "ne sont pas déductibles",
+    "sont déductibles pour un montant indéfini",
+    "ne sont pas déductibles au-delà d'un montant de CHF 50'000.-",
+    "sont déductibles à hauteur du rendement imposable de la fortune"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les intérêts passifs privés SONT déductibles — mais de manière plafonnée (art. 33 al. 1 let. a LIFD).",
+    "Faux : la déduction n'est pas illimitée — elle est plafonnée au rendement imposable de la fortune, augmenté de CHF 50'000.",
+    "Faux/incomplet : les CHF 50'000 ne sont pas un plafond absolu — ils constituent un SUPPLÉMENT qui s'ajoute au rendement imposable de la fortune pour former le plafond.",
+    "Correct : les intérêts passifs privés sont déductibles à concurrence du rendement imposable de la fortune (art. 20, 20a et 21 LIFD), augmenté de CHF 50'000 (art. 33 al. 1 let. a LIFD). Le cœur de la règle est bien le plafonnement au rendement de la fortune. (Déductions PP absentes du mémento, axé PM ; §10 = section PP la plus proche.)"
+   ]
+  },
+  {
+   "id": "FE-015",
+   "champ": "Frais non déductibles (art. 34)",
+   "memento": "§10",
+   "difficulte": 2,
+   "question": "Au sens de l'article 34 de la LIFD, ne sont pas déductibles (identifiez la réponse erronée) :",
+   "options": [
+    "Les dépenses de base alimentaires",
+    "Les vacances",
+    "Les frais de formation professionnels",
+    "Le remboursement des dettes"
+   ],
+   "correct": 2,
+   "explications": [
+    "Exacte (donc pas la réponse) : les frais d'entretien du contribuable et de sa famille — dépenses de base — sont bien NON déductibles (art. 34 let. a LIFD).",
+    "Exacte : les vacances sont des dépenses privées non déductibles (art. 34 let. a LIFD).",
+    "C'est l'affirmation FAUSSE à cliquer : depuis 2016, les frais de formation et de perfectionnement à des fins professionnelles SONT déductibles (art. 33 al. 1 let. j LIFD, jusqu'à env. CHF 12'000/an) — ils figurent donc à tort dans la liste des non-déductibles.",
+    "Exacte : le remboursement du CAPITAL d'une dette n'est pas une charge déductible — seuls les intérêts passifs le sont (art. 33 al. 1 let. a LIFD). (L'art. 34 n'est pas repris dans le mémento, axé PM ; §10 = section PP la plus proche.)"
+   ]
+  },
+  {
+   "id": "FE-016",
+   "champ": "Déduction max. des intérêts de dette",
+   "memento": "§10",
+   "piege": "Exclure le gain en capital exonéré",
+   "difficulte": 3,
+   "question": "Gains en capital réalisés lors de l'aliénation de titres détenus dans la fortune privée de CHF 80 000, revenus bruts issus de la fortune mobilière de CHF 60 000, frais de gestion de fortune de CHF 11 000, revenus immobiliers tirés de la location d'un immeuble collectif de CHF 90 000, frais d'entretien et de réparation de l'immeuble collectif de CHF 70 000, valeur locative d'une maison individuelle de CHF 30 000, intérêts sur crédit de construction de CHF 90 000, intérêts hypothécaires et autres intérêts passifs de CHF 250 000 au total. À quel montant s'élève la déduction maximale de l'intérêt de la dette autorisée en vertu de la LIFD ?",
+   "options": [
+    "340 000",
+    "250 000",
+    "230 000",
+    "180 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Erreur : 340 000 = total des intérêts effectivement payés (crédit de construction 90 000 + hypothécaires/autres 250 000), en croyant tout déductible. Or les intérêts sur crédit de construction sont un coût d'investissement (non déductibles comme intérêts passifs) et le solde est plafonné.",
+    "Erreur : 250 000 = les seuls intérêts hypothécaires et autres intérêts passifs payés — c'est le montant versé, pas le plafond de déduction, qui est ici inférieur (230 000).",
+    "Correct : plafond = rendement imposable BRUT de la fortune + CHF 50'000 (art. 33 al. 1 let. a LIFD). Rendement = fortune mobilière 60 000 + revenus locatifs 90 000 + valeur locative 30 000 = 180 000 ; plafond = 180 000 + 50 000 = 230 000. On EXCLUT le gain en capital privé de 80 000 (exonéré, art. 16 al. 3 — hors rendement imposable) ; les frais (gestion 11 000, entretien 70 000) ne réduisent pas le plafond, calculé sur le rendement brut. Les intérêts payés (250 000) dépassent → déduction limitée à 230 000. (Calcul absent du mémento, axé PM ; l'exonération du gain privé est au §10.)",
+    "Erreur : 180 000 = rendement brut de la fortune sans le SUPPLÉMENT de CHF 50'000 prévu par l'art. 33 al. 1 let. a LIFD."
+   ]
+  },
+  {
+   "id": "FE-017",
+   "champ": "Déduction pour double revenu (art. 33 al. 2)",
+   "memento": "§10",
+   "piege": "Déduction limitée au revenu effectif",
+   "difficulte": 3,
+   "question": "Helen Muster perçoit un revenu d'activité lucrative déterminant conformément à l'art. 33, al. 2 LIFD (revenu d'activité lucrative, déduction faite des déductions correspondantes) de CHF 5 000, son époux, Rolf Muster, un revenu de même nature de CHF 150 000. À quel montant s'élève la déduction pour activité lucrative des deux époux en vertu de la LIFD que le couple Muster peut faire valoir ?",
+   "options": [
+    "15 000",
+    "13 600",
+    "5000",
+    "2500"
+   ],
+   "correct": 2,
+   "explications": [
+    "Erreur : 15 000 n'a aucun fondement dans la règle — ni 50 % du revenu le plus bas, ni un plafond légal ne mènent à ce chiffre.",
+    "Erreur : 13 600 ≈ le PLAFOND de la déduction, appliqué à tort — le plafond ne joue que si 50 % du revenu le plus bas le dépasse, ce qui n'est pas le cas ici.",
+    "Correct : art. 33 al. 2 LIFD — déduction = 50 % du revenu d'activité le plus bas, avec un plancher (env. CHF 8'100) et un plafond (env. CHF 13'400), MAIS jamais plus que le revenu le plus bas lui-même. Ici : 50 % × 5 000 = 2 500 ; le plancher voudrait env. 8 100, mais la déduction est limitée au revenu effectivement gagné → 5 000. (Calcul absent du mémento, axé PM ; §10 = section PP la plus proche.)",
+    "Erreur : 2 500 = 50 % du revenu le plus bas SANS appliquer le plancher (relevé à concurrence du revenu effectif) — étape oubliée."
+   ]
+  },
+  {
+   "id": "FE-018",
+   "champ": "Déduction pour primes d'assurance (art. 33 al. 1 let. g)",
+   "memento": "§10",
+   "difficulte": 3,
+   "question": "Monsieur Urs Halter, âgé de 75 ans, veuf et retraité, verse chaque mois CHF 600 de primes d'assurance maladie. Les autres primes d'assurance (responsabilité individuelle, etc.) s'élèvent à CHF 3 000 par an. À quel montant s'élève la déduction pour les assurances en vertu de la LIFD ?",
+   "options": [
+    "1800",
+    "2700",
+    "3600",
+    "10 200"
+   ],
+   "correct": 1,
+   "explications": [
+    "Erreur : 1 800 = plafond de base d'une personne seule SANS la majoration de moitié — or Urs Halter, retraité, ne cotise ni au 2e pilier ni au pilier 3a, ce qui déclenche la majoration de 50 % (art. 33 al. 1bis LIFD).",
+    "Correct : les primes d'assurance sont déductibles jusqu'à un PLAFOND forfaitaire (art. 33 al. 1 let. g LIFD), pas à hauteur des primes payées. Personne seule : plafond de base env. CHF 1'800, majoré de moitié pour qui ne cotise ni au 2e pilier ni au pilier 3a (art. 33 al. 1bis) — retraité : 1 800 × 1,5 = 2 700. Les primes effectives (600 × 12 + 3 000 = 10 200) dépassent largement → déduction limitée à 2 700. (Calcul absent du mémento, axé PM.)",
+    "Erreur : 3 600 = plafond des couples MARIÉS — mauvaise catégorie, Urs Halter est veuf (personne seule).",
+    "Erreur : 10 200 = total des primes effectivement versées (7 200 maladie + 3 000 autres) — sans appliquer le plafond forfaitaire, qui limite la déduction à 2 700."
+   ]
+  },
+  {
+   "id": "FE-019",
+   "champ": "Contributions d'entretien (art. 33 al. 1 let. c)",
+   "memento": "§10",
+   "piege": "Enfant majeur non déductible",
+   "difficulte": 3,
+   "question": "Reto Huber verse les contributions d'entretien annuelles suivantes : à son ex-femme, Madame Susanne Schmid, CHF 15 000 ; à sa fille de 12 ans Anna (qui vit sous l'autorité parentale de Susanne Schmid) CHF 12 000 ; à son fils Kévin étudiant de 21 ans CHF 18 000. Quel est le montant total des contributions d'entretien déductibles en vertu de la LIFD ?",
+   "options": [
+    "0",
+    "15 000",
+    "27 000",
+    "45 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Erreur : les contributions d'entretien ne sont pas toutes exclues — la pension au conjoint divorcé/séparé et les contributions pour un enfant mineur sous l'autorité parentale de l'autre parent sont déductibles (art. 33 al. 1 let. c LIFD).",
+    "Erreur : 15 000 = la seule pension à l'ex-épouse — oubli de la contribution pour Anna (12 ans, mineure sous autorité de la mère), également déductible (12 000).",
+    "Correct : art. 33 al. 1 let. c LIFD — déductibles : ex-épouse 15 000 + Anna (mineure, sous autorité parentale de la mère) 12 000 = 27 000. La contribution à Kévin (21 ans, MAJEUR) n'est PAS déductible : l'entretien d'un enfant majeur ne relève pas de l'art. 33 al. 1 let. c (tout au plus une déduction sociale pour enfant en formation, art. 35). (Calcul absent du mémento, axé PM.)",
+    "Erreur : 45 000 = tout additionner, y compris les 18 000 versés à l'enfant majeur, non déductibles au titre des contributions d'entretien."
+   ]
+  },
+  {
+   "id": "FE-020",
+   "champ": "Déductions sociales (art. 35) — dénomination",
+   "memento": "§10",
+   "difficulte": 1,
+   "question": "Comment s'appellent les déductions sociales en vertu de la LIFD ?",
+   "options": [
+    "Déduction pour les frais de garde des enfants, déduction pour personne à charge, déduction de double revenu",
+    "Déduction pour frais d'invalidité, déduction pour contributions aux partis politiques, déduction pour personnes mariées",
+    "Déduction pour contributions d'entretien, contributions de prévoyance et d'assurance, déduction pour frais de maladie et d'accident",
+    "Déduction pour enfants, déduction pour personne à charge, déduction pour personnes mariées"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : mélange — les frais de garde des enfants (art. 33 al. 3) et la déduction pour double revenu (art. 33 al. 2) sont des déductions GÉNÉRALES/anorganiques ; seule « personne à charge » est une déduction sociale.",
+    "Faux : les frais liés à un handicap/invalidité et les contributions aux partis politiques relèvent de l'art. 33 (déductions générales) ; seule « personnes mariées » est une déduction sociale.",
+    "Faux : contributions d'entretien, primes de prévoyance/assurance et frais de maladie et d'accident sont toutes des déductions GÉNÉRALES de l'art. 33 — aucune n'est une déduction sociale.",
+    "Correct : les déductions SOCIALES de l'art. 35 LIFD sont la déduction pour enfant (al. 1 let. a), la déduction pour personne nécessiteuse à charge (al. 1 let. b) et la déduction pour couple marié (al. 1 let. c). Elles tiennent compte de la situation personnelle, pas de dépenses effectives. (L'art. 35 n'est pas repris dans le mémento, axé PM ; §10 = section PP la plus proche.)"
+   ]
+  },
+  {
+   "id": "FE-021",
+   "champ": "Déductions sociales — cas Hohl",
+   "memento": "§10",
+   "difficulte": 3,
+   "question": "Roland et Jasmin Hohl sont mariés et ont quatre enfants. Silvia (14 ans, lycéenne), Jan (8 ans, écolier) et Lukas (21 ans, employé commercial d'une banque) vivent chez leurs parents Roland et Jasmin Hohl. La fille de 23 ans, Susanne, étudie à l'université de Saint-Gall et est aidée par ses parents à hauteur de CHF 18 000 par an. Roland et Jasmin Hohl aident par ailleurs financièrement le père invalide de Roland Hohl à hauteur de CHF 10 000 par an. De quel montant de déductions sociales Roland et Jasmin Hohl disposent-ils en vertu de la LIFD ?",
+   "options": [
+    "36 300",
+    "29 600",
+    "26 800",
+    "22 900"
+   ],
+   "correct": 1,
+   "explications": [
+    "Erreur : 36 300 = 29 600 + 6 700 — compte en plus Lukas (21 ans, employé de banque), qui subvient à ses propres besoins et n'ouvre droit à aucune déduction.",
+    "Correct : art. 35 LIFD — enfants à charge : Silvia (14, lycéenne), Jan (8, écolier) et Susanne (23, en formation, soutenue à 18 000) = 3 × 6 700 = 20 100 ; père invalide soutenu à 10 000 (≥ montant de la déduction) = personne nécessiteuse à charge, 6 700 ; couple marié 2 800. Total = 20 100 + 6 700 + 2 800 = 29 600. Lukas (21 ans, salarié) est exclu. Montants IFD de la période considérée. (Calcul absent du mémento, axé PM.)",
+    "Erreur : 26 800 = 4 × 6 700 — compte Lukas à tort comme enfant à charge, et oublie le père nécessiteux ainsi que la déduction pour couple marié.",
+    "Erreur : 22 900 = 3 × 6 700 + 2 800 — bons enfants et déduction mariés, mais oubli du père invalide soutenu (personne nécessiteuse à charge, 6 700)."
+   ]
+  },
+  {
+   "id": "FE-022",
+   "champ": "Déductions sociales — parents séparés",
+   "memento": "§10",
+   "difficulte": 3,
+   "question": "Le père et la mère sont séparés et vivent dans des lieux différents. La fille mineure vit chez sa mère, qui en a la garde. Le père verse des pensions alimentaires pour la mère et la fille mineure. Laquelle des assertions concernant la déduction sociale en vertu de la LIFD est exacte ?",
+   "options": [
+    "La mère peut faire valoir une déduction sociale totale de CHF 13 200 (déduction pour enfant et déduction pour personne à charge).",
+    "Le père peut faire valoir une déduction sociale totale de CHF 13 200 (déduction pour enfant et déduction pour personne à charge).",
+    "La mère peut faire valoir une déduction pour enfant de CHF 6600.",
+    "La mère comme le père peuvent faire valoir une déduction pour enfant de CHF 6600 chacun."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le cumul est interdit — l'art. 35 al. 1 let. b LIFD exclut la déduction pour personne à charge pour l'enfant qui ouvre déjà droit à la déduction pour enfant. La mère n'a droit qu'à la déduction pour enfant (6 600), pas au double (13 200).",
+    "Faux : le père DÉDUIT les pensions versées (art. 33 al. 1 let. c LIFD) ; il n'obtient donc ni déduction pour enfant, ni déduction pour personne à charge — pas de double avantage.",
+    "Correct : la mère, qui a la garde et perçoit les pensions alimentaires (imposables chez elle, art. 23 let. f LIFD), fait valoir la déduction pour enfant (CHF 6 600) et bénéficie du barème parental (art. 35 al. 1 let. a LIFD). (Cas absent du mémento, axé PM ; §10 = section PP la plus proche.)",
+    "Faux : une seule déduction pour enfant est accordée par enfant — lorsque des pensions sont versées, elle revient au parent gardien qui les perçoit (la mère), pas à chacun des deux parents."
+   ]
+  },
+  {
+   "id": "FE-023",
+   "champ": "Imposition partielle du dividende (fortune privée)",
+   "memento": "§10.1",
+   "piege": "Base = dividende brut",
+   "difficulte": 1,
+   "question": "Madame M, domiciliée en Suisse, détient une participation de 15% dans Muller SA (CH) dans sa fortune privée. Muller SA lui verse un dividende de CHF 10 000 (avant déduction de l'impôt anticipé). Quel montant doit être imposé comme revenu chez Madame M dans le cadre de l'impôt fédéral direct ?",
+   "options": [
+    "CHF 10 000",
+    "CHF 7 000",
+    "CHF 4 550",
+    "CHF 6 500"
+   ],
+   "correct": 1,
+   "explications": [
+    "Erreur : 10 000 = imposition à 100 % — applicable seulement si la participation est INFÉRIEURE à 10 % ; ici 15 % ≥ 10 %, l'imposition partielle s'applique.",
+    "Correct : participation de 15 % ≥ 10 % détenue en fortune privée → imposition partielle à 70 % (art. 20 al. 1bis LIFD, mémento §10.1) : 10 000 × 70 % = 7 000. La base est le dividende BRUT, avant impôt anticipé.",
+    "Erreur : 4 550 = 10 000 × 65 % × 70 % — cumule à tort la déduction de l'impôt anticipé (35 %) ET l'imposition partielle ; l'IA n'entame pas la base imposable (il est remboursé si le revenu est déclaré, mémento §11).",
+    "Erreur : 6 500 = 10 000 × 65 % — retient le dividende net d'impôt anticipé ; faux, la base imposable est le montant BRUT, l'IA étant remboursable au contribuable qui déclare."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "module": "M13",
+ "titre": "13 · Transposition & liquidation partielle indirecte",
+ "questions": [
+  {
+   "id": "FE-128",
+   "champ": "Transposition — cas chiffré",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "piege": "transposition : imposé = prix − (VN + RAC)",
+   "question": "Marc détient dans sa fortune privée 100 % de A SA (capital-actions nominal CHF 100 000, aucune réserve d’apport de capital ; valeur vénale CHF 900 000). Il vend l’intégralité de A SA à B SA, une société qu’il détient lui-même à 100 %, au prix de CHF 900 000. Quel montant est imposé chez Marc à titre de rendement (transposition) ?",
+   "options": [
+    "CHF 0 — gain en capital privé exonéré",
+    "CHF 800 000",
+    "CHF 900 000",
+    "CHF 100 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux — c'est le piège classique. Le gain en capital privé est en principe exonéré (art. 16 al. 3 LIFD), mais Marc « se vend à lui-même » : la transposition (art. 20a al. 1 let. b LIFD) requalifie le surplus en rendement de fortune imposable.",
+    "Correct. Transposition : participation ≥ 5 % en fortune privée, vendue à une société contrôlée par le vendeur à ≥ 50 %, à un prix supérieur à la valeur nominale + réserves d'apports de capital. Surplus imposé comme rendement = 900 000 − (100 000 VN + 0 RAC) = CHF 800 000 (art. 20a al. 1 let. b LIFD).",
+    "Faux. 900 000 imposerait tout le prix de vente : seule la part excédant la valeur nominale + RAC est requalifiée en rendement.",
+    "Faux. 100 000 est la valeur nominale — précisément la part NON imposée (elle représente la restitution du capital)."
+   ]
+  },
+  {
+   "id": "FE-129",
+   "champ": "Transposition — conditions",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "piege": "transposition ≠ LPI (5 %/contrôle ≥ 50 % vs 20 %/distribution 5 ans)",
+   "question": "Quelle affirmation décrit correctement une condition de la transposition (art. 20a al. 1 let. b LIFD) ?",
+   "options": [
+    "La participation vendue doit représenter au moins 20 % du capital",
+    "La participation (≥ 5 %) est vendue à une société contrôlée par le vendeur à ≥ 50 %, à un prix supérieur à la valeur nominale + RAC",
+    "La société doit distribuer sa substance dans les 5 ans suivant la vente",
+    "Le vendeur doit détenir la participation dans sa fortune commerciale"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le seuil de 20 % est celui de la LIQUIDATION PARTIELLE INDIRECTE (art. 20a al. 1 let. a LIFD) ; la transposition se contente d'une participation d'au moins 5 %.",
+    "Correct. Conditions de la transposition : participation ≥ 5 % détenue en fortune privée, vendue à une société que le vendeur domine à ≥ 50 %, pour un prix supérieur à la valeur nominale + réserves d'apports de capital ; le surplus est un rendement imposable (art. 20a al. 1 let. b LIFD).",
+    "Faux. La distribution de substance dans les 5 ans est le DÉCLENCHEUR de la liquidation partielle indirecte (let. a), pas une condition de la transposition — c'est le piège de confusion entre les deux mécanismes.",
+    "Faux. La transposition vise une participation de la fortune PRIVÉE : c'est le transfert vers une société contrôlée (auto-vente) qui fonde la requalification."
+   ]
+  },
+  {
+   "id": "FE-130",
+   "champ": "LPI — cas chiffré",
+   "memento": "§10.3",
+   "difficulte": 3,
+   "question": "Éric vend 100 % de C SA (détenue dans sa fortune privée) à D SA, qui l’inscrit dans sa fortune commerciale, pour CHF 2 000 000. Au moment de la vente, C SA dispose de CHF 700 000 de substance distribuable non nécessaire à l’exploitation. Dans les trois ans, D SA fait distribuer ces CHF 700 000 par C SA, avec la collaboration d’Éric. Quel montant est imposé chez Éric ?",
+   "options": [
+    "CHF 0 — gain en capital privé exonéré",
+    "CHF 700 000",
+    "CHF 2 000 000",
+    "CHF 1 300 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux — piège du gain en capital. Toutes les conditions de la liquidation partielle indirecte sont réunies : le « gain privé exonéré » est requalifié en rendement à concurrence de la substance distribuée (art. 20a al. 1 let. a LIFD).",
+    "Correct. LPI (art. 20a al. 1 let. a LIFD) : participation ≥ 20 % transférée de la fortune privée vers la fortune commerciale de l'acheteur ; substance non nécessaire à l'exploitation, existante et distribuable au moment de la vente, distribuée dans les 5 ans avec la participation du vendeur. Éric est imposé sur le revenu à concurrence de la substance distribuée = CHF 700 000.",
+    "Faux. 2 000 000 imposerait l'intégralité du prix de vente : l'assiette de la LPI est limitée à la substance distribuée (700 000).",
+    "Faux. 1 300 000 = prix − substance : soustraction inversée, sans fondement — c'est la substance distribuée elle-même (700 000) qui est imposée, pas le solde."
+   ]
+  },
+  {
+   "id": "FE-131",
+   "champ": "LPI — conditions",
+   "memento": "§10.3",
+   "difficulte": 2,
+   "question": "Laquelle n’est PAS une condition de la liquidation partielle indirecte (art. 20a al. 1 let. a LIFD) ?",
+   "options": [
+    "Participation d’au moins 20 % transférée",
+    "Passage de la fortune privée du vendeur à la fortune commerciale de l’acheteur",
+    "Distribution de substance non nécessaire à l’exploitation dans les 5 ans",
+    "La société acquéreuse doit être contrôlée par le vendeur à au moins 50 %"
+   ],
+   "correct": 3,
+   "explications": [
+    "Condition réelle de la LPI — donc pas la réponse : la vente doit porter sur une participation d'au moins 20 % du capital (art. 20a al. 1 let. a LIFD).",
+    "Condition réelle de la LPI — donc pas la réponse : le titre passe de la fortune privée du vendeur (où le gain serait exonéré) à la fortune commerciale de l'acheteur — c'est ce changement de système qui justifie le mécanisme.",
+    "Condition réelle de la LPI — donc pas la réponse : la distribution, dans les 5 ans, de substance non nécessaire à l'exploitation, existante et distribuable au moment de la vente, avec la participation du vendeur, déclenche l'imposition.",
+    "Réponse : ce N'EST PAS une condition de la LPI. Le contrôle de l'acquéreur par le vendeur (≥ 50 %) est une condition de la TRANSPOSITION (art. 20a al. 1 let. b LIFD) — distracteur qui exploite la confusion entre les deux mécanismes ; dans la LPI, l'acheteur est typiquement un tiers."
+   ]
+  }
+ ]
+}

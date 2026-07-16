@@ -1,0 +1,251 @@
+{
+ "module": "M12",
+ "titre": "12 · Apport en capital & assainissement",
+ "questions": [
+  {
+   "id": "FE-116",
+   "champ": "Principe de l'apport en capital",
+   "memento": "§9",
+   "difficulte": 3,
+   "question": "L'impôt sur le revenu pour les personnes physiques est basé (identifiez la réponse correcte) :",
+   "options": [
+    "sur le principe de la valeur nominale pour la fortune privée et le patrimoine social",
+    "sur le principe de l'apport en capital pour la fortune privée et la valeur comptable pour le patrimoine social",
+    "sur le principe de la valeur comptable pour la fortune privée et la valeur comptable pour le patrimoine social",
+    "sur le principe de l'apport en capital pour la fortune privée et pour le patrimoine social"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. Le principe de la valeur nominale (Nennwertprinzip) est l'ancien droit, abandonné au 1.1.2011 au profit du principe de l'apport en capital (art. 20 al. 3 LIFD) : il ne survit dans les QCM que comme distracteur.",
+    "Non retenu par la clé. Depuis 2011, le remboursement d'apports, d'agios et de versements supplémentaires effectués après le 31.12.1996 est franc d'impôt aussi bien en fortune privée qu'en fortune commerciale ; en fortune commerciale, le remboursement réduit techniquement la valeur comptable de la participation, mais la clé retenue rattache les deux masses au principe de l'apport en capital. NB : certains supports opposent apport en capital (fortune privée) et valeur comptable (fortune commerciale) — clé à recouper.",
+    "Faux. Aucune « valeur comptable » ne gouverne la fortune privée : le remboursement de réserves issues d'apports de capital y est franc d'impôt en vertu du principe de l'apport en capital (art. 20 al. 3 LIFD).",
+    "Réponse retenue. Depuis le 1.1.2011, le principe de l'APPORT EN CAPITAL a remplacé le principe de la valeur nominale : le remboursement des apports, agios et versements supplémentaires postérieurs au 31.12.1996 (comptabilisés et déclarés) n'est pas un rendement imposable, que la participation soit détenue en fortune privée ou dans le patrimoine social. Base : art. 20 al. 3 LIFD."
+   ]
+  },
+  {
+   "id": "FE-117",
+   "champ": "Remboursement d'apports — exonération",
+   "memento": "§9",
+   "difficulte": 2,
+   "question": "Il n'y a pas d'impôt sur le revenu (identifiez la réponse correcte) :",
+   "options": [
+    "lors de remboursement d'apports ou d'agios pour les personnes morales",
+    "lors de remboursement d'apports ou d'agios pour les personnes physiques si cela concerne leur fortune privée",
+    "lors de remboursement d'apports ou d'agios pour les personnes physiques si cela concerne leur fortune commerciale",
+    "il y a toujours un impôt sur le revenu"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux / piège de formulation : les personnes morales ne sont pas soumises à l'impôt sur le REVENU — elles paient l'impôt sur le BÉNÉFICE. Chez elles, un remboursement d'apport est de toute façon sans influence sur le résultat (art. 60 let. a LIFD), mais l'énoncé est hors sujet.",
+    "Correct. Pour une personne physique détenant la participation en FORTUNE PRIVÉE, le remboursement de réserves issues d'apports de capital (apports et agios postérieurs au 31.12.1996, comptabilisés et déclarés) n'est pas un rendement imposable : il est traité comme un remboursement de capital (art. 20 al. 3 LIFD).",
+    "Écarté. En fortune COMMERCIALE, le remboursement réduit la valeur comptable / d'investissement de la participation et peut avoir des effets sur le résultat commercial : l'exonération « nette » que vise la question caractérise le cas de la fortune privée.",
+    "Faux. Le remboursement d'apports est précisément le contre-exemple : depuis 2011, il n'est PAS imposé au revenu (principe de l'apport en capital)."
+   ]
+  },
+  {
+   "id": "FE-118",
+   "champ": "RFFA — restrictions au remboursement exonéré",
+   "memento": "§9",
+   "difficulte": 3,
+   "question": "Avec la mise en place de la RFFA, le remboursement exonéré d'impôt a été restreint, à l'exception (identifiez la réponse erronée) :",
+   "options": [
+    "de la liquidation partielle directe de personnes morales cotées en Suisse",
+    "en cas de réserves issues d'apport de capital à l'étranger",
+    "en cas de déplacement du siège à l'étranger",
+    "en cas de liquidation d'une société coopérative à l'étranger"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'affirmation ERRONÉE à cocher (l'« exception » qui n'en est pas une). La restriction RFFA — règle 50/50, dès 2020 — vise précisément les personnes morales COTÉES en bourse suisse : leur remboursement de RAC n'est franc d'impôt que si une distribution au moins équivalente de réserves imposables l'accompagne (art. 20 al. 4 LIFD ; art. 5 al. 1ter LIA). Une liquidation partielle directe d'une telle société n'échappe donc pas à la restriction.",
+    "Exacte — donc pas la réponse : les réserves issues d'apports de capital d'origine étrangère font partie des dérogations où la logique 50/50 est écartée (art. 20 al. 4-7 LIFD ; art. 5 al. 1ter-1quater LIA).",
+    "Exacte — donc pas la réponse : le transfert du siège à l'étranger figure parmi les dérogations prévues à la règle 50/50 (art. 20 al. 4-7 LIFD ; art. 5 al. 1ter-1quater LIA).",
+    "Exacte — donc pas la réponse : les cas de liquidation (éléments à l'étranger) font partie des dérogations prévues à la règle 50/50 (art. 20 al. 4-7 LIFD ; art. 5 al. 1ter-1quater LIA)."
+   ]
+  },
+  {
+   "id": "FE-119",
+   "champ": "Apport en nature au-dessus de la valeur vénale (non-valeur)",
+   "memento": "§9 · §6",
+   "difficulte": 3,
+   "question": "N SA, une société établie en Suisse, détient la totalité des actions de O SA, également établie en Suisse. Au cours de la période fiscale 2023, N SA apporte un brevet pour une valeur de CHF 10 000 000 à O SA. La valeur déterminante pour l'impôt sur le bénéfice du brevet auprès de N SA au moment de l'apport s'élève à CHF 4 000 000. Supposons que la valeur vénale du brevet s'élève à CHF 8 000 000 au moment de l'apport, laquelle des assertions suivantes est fausse en ce qui concerne l'impôt fédéral direct?",
+   "options": [
+    "Un éventuel amortissement du brevet chez O SA serait refusé sur la non-valeur de CHF 2 000 000.",
+    "Le capital propre imposable de O SA se réduit d'un montant de CHF 2 000 000.",
+    "Le montant de CHF 2 000 000 est qualifié de prestation appréciable en argent de O SA à N SA. La réduction pour participation est applicable.",
+    "Des réserves issues d'apports en capital d'un montant de CHF 8 000 000 peuvent être constituées dans la société O SA."
+   ],
+   "correct": 2,
+   "explications": [
+    "Assertion vraie — donc pas la réponse. Le brevet est inscrit à 10 000 000 pour une valeur vénale de 8 000 000 : l'excédent de 2 000 000 est une NON-VALEUR (actif fictif) ; tout amortissement portant sur cette part est refusé fiscalement, faute de justification commerciale.",
+    "Assertion vraie — donc pas la réponse. La non-valeur est éliminée du bilan fiscal : le capital propre imposable de O SA diminue de 2 000 000 par rapport aux fonds propres comptabilisés.",
+    "Assertion FAUSSE — à cocher. Si les 2 000 000 constituent bien une prestation appréciable en argent de O SA à sa mère N SA (surévaluation de l'apport), la RÉDUCTION POUR PARTICIPATIONS (art. 69-70 LIFD) n'est PAS applicable : elle suppose un rendement de participation (dividende, gain qualifié), pas la correction d'un apport surévalué.",
+    "Assertion vraie — donc pas la réponse. L'apport réel correspond à la valeur vénale du brevet : des réserves issues d'apports de capital peuvent être constituées à hauteur de 8 000 000 (art. 20 al. 3 LIFD ; art. 5 al. 1bis LIA)."
+   ]
+  },
+  {
+   "id": "FE-120",
+   "champ": "Prêt simulé à un proche de l'actionnaire (actif fictif)",
+   "memento": "§7",
+   "difficulte": 3,
+   "piege": "prêt simulé = distribution immédiate ; intérêts fictifs neutralisés",
+   "question": "La société G SA, dont le siège est en Suisse et qui est entièrement détenue par Monsieur G, a accordé au fils de ce dernier, au cours de l'année 2023, un prêt de CHF 500 000. Il n'y a pas de garantie ni de plan de remboursement pour ce prêt, qui porte un taux d'intérêt de 4%. De plus, le fils de Monsieur G n'est pas solvable et sa subsistance est assurée par des membres de la famille. Laquelle des assertions suivantes est erronée en ce qui concerne l'impôt fédéral direct?",
+   "options": [
+    "Un éventuel amortissement ultérieur du prêt n'est pas autorisé fiscalement pour l'impôt sur le bénéfice",
+    "Le prêt est considéré comme un actif fictif et le montant de CHF 500 000 réduit le capital propre imposable de G SA",
+    "Les intérêts sur le prêt simulé sont soumis à l'impôt sur le bénéfice",
+    "Le prêt simulé de CHF 500 000 est considéré comme un revenu imposable chez Monsieur G"
+   ],
+   "correct": 2,
+   "explications": [
+    "Assertion vraie — donc pas la réponse. Pas de garantie, pas de plan de remboursement, débiteur insolvable, proche de l'actionnaire : le prêt est SIMULÉ et réputé distribué dès son octroi ; un amortissement ultérieur ne serait pas justifié par l'usage commercial (art. 58 al. 1 let. b LIFD).",
+    "Assertion vraie — donc pas la réponse. Le prêt simulé est un actif FICTIF : écarté du bilan fiscal, il réduit le capital propre imposable de G SA de 500 000.",
+    "Assertion ERRONÉE — à cocher. Les intérêts (4 %) comptabilisés sur un prêt simulé sont eux-mêmes fictifs : ils ne constituent pas un produit réel et sont neutralisés — ils ne sont donc PAS soumis à l'impôt sur le bénéfice.",
+    "Assertion vraie — donc pas la réponse. Le prêt accordé au fils (un proche, non employé) est une prestation appréciable en argent imputée à l'actionnaire par la théorie du triangle : les 500 000 sont un revenu imposable (dividende dissimulé) chez Monsieur G."
+   ]
+  },
+  {
+   "id": "FE-121",
+   "champ": "Société cotée — règle 50/50 RAC / réserves de bénéfice",
+   "memento": "§9",
+   "difficulte": 3,
+   "piege": "société cotée : moitié de la différence RAC − bénéfice requalifiée",
+   "question": "La société D SA, cotée à la bourse suisse, souhaite distribuer un dividende composé à 60% de réserves issues d'apports de capital et à 40% de réserves libres issues de bénéfices. L'actionnaire A (participation de 3%) domicilié en Suisse reçoit un dividende (total et brut) de CHF 10 000. Quelle assertion est correcte ?",
+   "options": [
+    "CHF 2 800 sont soumis à l'impôt sur le revenu, CHF 4 000 à l'impôt anticipé",
+    "CHF 4 000 sont soumis à l'impôt sur le revenu, CHF 4 000 à l'impôt anticipé",
+    "CHF 6 500 sont soumis à l'impôt sur le revenu, CHF 10 000 à l'impôt anticipé",
+    "CHF 5 000 sont soumis à l'impôt sur le revenu, CHF 5 000 à l'impôt anticipé"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. 2 800 = 4 000 × 70 % : applique l'imposition partielle à un actionnaire détenant 3 % — or elle exige une participation d'au moins 10 % (art. 20 al. 1bis LIFD) ; ici, 100 % du dividende imposable est soumis au revenu.",
+    "Faux. 4 000/4 000 taxe les seules réserves de bénéfice sans appliquer la règle 50/50 des sociétés cotées : une partie de l'excédent de RAC doit être requalifiée en dividende imposable.",
+    "Faux. 6 500/10 000 taxe la quasi-totalité de la distribution : la part de RAC restant dans la limite de la règle 50/50 (5 000) demeure franche d'impôt sur le revenu et d'IA.",
+    "Correct. Règle 50/50 des sociétés cotées (art. 20 al. 4 LIFD ; art. 5 al. 1ter LIA) : RAC distribuées 6 000 vs réserves imposables 4 000 → différence 2 000, dont la MOITIÉ (1 000) est requalifiée en dividende imposable. Imposable = 4 000 + 1 000 = 5 000 ; RAC franches d'impôt = 5 000. Participation 3 % < 10 % → pas d'imposition partielle (100 % imposé) ; IA 35 % sur les mêmes 5 000."
+   ]
+  },
+  {
+   "id": "FE-122",
+   "champ": "Droit de timbre d'émission — apport en nature",
+   "memento": "§12",
+   "difficulte": 3,
+   "question": "Monsieur C (domicilié en Suisse) souhaite constituer la société immobilière C SA par apport en nature : capital-actions de CHF 900 000 ; libération par l'apport d'un immeuble d'une valeur de CHF 1 500 000 et reprise de la dette hypothécaire de CHF 600 000 ; valeur vénale de l'immeuble : CHF 1 800 000 ; frais de notaire et du RC : CHF 10 000 ; inscription au registre du commerce le 30 avril 2024. Laquelle des affirmations suivantes est correcte en matière de droit de timbre d'émission ?",
+   "options": [
+    "C SA ne doit aucun droit de timbre d'émission",
+    "C SA doit un droit de timbre d'émission de CHF 1 881 et l'échéance de la créance fiscale est le 30 juillet 2024",
+    "C SA doit un droit de timbre d'émission de CHF 1 881 et l'échéance de la créance fiscale est le 30 mai 2024",
+    "C SA doit un droit de timbre d'émission de CHF 1 900 et l'échéance de la créance fiscale est le 30 juin 2024"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Ce résultat retient l'apport comptable (900 000 < franchise de 1 mio) en ignorant la valeur VÉNALE : la base du droit est la contre-prestation à la valeur vénale (art. 8 LT), soit 1 800 000 − dette reprise 600 000 = 1 200 000, qui dépasse la franchise.",
+    "Juste. Base = valeur vénale nette de l'apport : 1 800 000 − dette reprise 600 000 = 1 200 000 ; − franchise 1 000 000 (art. 6 al. 1 let. h LT) − frais déductibles 10 000 = 190 000 ; le droit est déductible de sa propre base : 190 000 ÷ 101 ≈ CHF 1 881 (art. 8 LT). Échéance : la créance naît à l'inscription au RC (30.4.2024, art. 7 LT) et, pour les DROITS DE PARTICIPATION, échoit 30 jours après la FIN DU TRIMESTRE de naissance (art. 11 let. b LT ; mémento §12) : fin T2 = 30.6.2024 → échéance 30 juillet 2024.",
+    "Faux. Le montant de 1 881 est exact, mais l'échéance au 30 mai applique la règle résiduelle « 30 jours après la naissance de la créance » (art. 11 let. c LT), qui ne vaut PAS pour les droits de participation : pour eux, l'art. 11 let. b LT impose 30 jours après la fin du trimestre → 30 juillet 2024. (Ancienne clé reconstruite, corrigée au vu de l'art. 11 LT et du mémento §12.)",
+    "Faux. 1 900 = 1 % × 190 000 sans déduire le droit de sa propre base (÷ 101) ; et l'échéance au 30 juin ne correspond à aucune règle de l'art. 11 LT."
+   ],
+   "piege": "échéance DTE : 30 j. après le TRIMESTRE"
+  },
+  {
+   "id": "FE-123",
+   "champ": "Droit de timbre d'émission — augmentation de capital",
+   "memento": "§12",
+   "difficulte": 2,
+   "piege": "franchise 1 mio unique et cumulative (fondation + augmentations)",
+   "question": "T SA (CH) a un capital-actions de CHF 5 mio. (500 000 actions d'une valeur nominale de CHF 10 chacune). Il est décidé d'augmenter le capital par l'émission de 10 000 nouvelles actions, au prix de CHF 30 par action. Quel est le montant du droit de timbre d'émission ?",
+   "options": [
+    "CHF 0",
+    "CHF 2 970",
+    "CHF 3 000",
+    "CHF 3 145"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. 0 applique la franchise de 1 mio à l'augmentation (300 000 < 1 mio) : or la franchise est un plafond CUMULATIF unique (fondation + augmentations, art. 6 al. 1 let. h LT), déjà entièrement consommé par le capital de 5 mio libéré à la fondation.",
+    "Faux selon la clé. 2 970 = 300 000 ÷ 101 : la déduction du droit de sa propre base ne se justifie que si le montant reçu est réputé net du droit (société prenant le DTE à sa charge) ; la clé traite ici les 300 000 comme la contre-prestation brute.",
+    "Correct. Contre-prestation reçue = 10 000 × 30 = 300 000 (nominal 100 000 + agio 200 000). Franchise de 1 mio déjà épuisée → droit d'émission = 300 000 × 1 % = CHF 3 000 (art. 8 LT).",
+    "Faux. 3 145 ne découle d'aucune base cohérente (ni 1 % de la contre-prestation, ni variante impôt-compris)."
+   ]
+  },
+  {
+   "id": "FE-124",
+   "champ": "Droit de timbre d'émission — fondation avec agio",
+   "memento": "§12",
+   "difficulte": 2,
+   "question": "N SA (CH) est fondée. 100 000 actions (valeur nominale de CHF 100 par action) sont émises au prix de CHF 300 chacune. Quel est le montant du droit de timbre d'émission ?",
+   "options": [
+    "CHF 297 030",
+    "CHF 287 129",
+    "CHF 290 000",
+    "CHF 300 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. 297 030 = 30 000 000 ÷ 101 × 1 % : combine une variante « impôt compris » avec l'oubli de la franchise de 1 mio — doublement incohérent.",
+    "Faux selon la clé. 287 129 = 29 000 000 ÷ 101 × 1 % : applique la déduction du droit de sa propre base (÷ 101), qui ne se justifie que si le prix d'émission est réputé net du droit ; la clé retient ici la contre-prestation brute (variante documentée comme ambiguë — cf. divergences).",
+    "Correct (clé retenue). Contre-prestation totale reçue = 100 000 × 300 = 30 000 000 (nominal 10 mio + agio 20 mio) ; − franchise de 1 mio à la fondation (art. 6 al. 1 let. h LT) = 29 000 000 ; droit d'émission = 29 000 000 × 1 % = CHF 290 000 (art. 8 LT).",
+    "Faux. 300 000 = 1 % de 30 mio : oublie la franchise de CHF 1 mio applicable à cette fondation (émission à titre onéreux)."
+   ]
+  },
+  {
+   "id": "FE-125",
+   "champ": "Restructuration — neutralité",
+   "memento": "§9.2",
+   "difficulte": 2,
+   "piege": "neutralité = valeurs fiscales, jamais la valeur vénale",
+   "question": "À quelle condition une fusion est-elle fiscalement neutre (art. 61 LIFD) ?",
+   "options": [
+    "Les actifs sont repris à leur valeur vénale",
+    "L’assujettissement en Suisse subsiste et les valeurs déterminantes pour l’impôt sont reprises",
+    "La société reprenante distribue un dividende de fusion",
+    "Les participations reçues sont aliénées immédiatement"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux — et c'est le piège : reprendre les actifs à la valeur VÉNALE réaliserait les réserves latentes et déclencherait précisément l'imposition que la neutralité veut éviter. La neutralité exige la reprise des valeurs fiscales.",
+    "Correct. La neutralité fiscale d'une restructuration suppose deux conditions cumulatives (art. 61 al. 1 LIFD) : (1) l'assujettissement à l'impôt en Suisse subsiste ; (2) les valeurs déterminantes pour l'impôt (valeurs fiscales) sont reprises.",
+    "Faux. Un dividende de fusion n'est pas une condition de neutralité — c'est au contraire un rendement imposable chez son bénéficiaire (et soumis à l'impôt anticipé).",
+    "Faux. L'aliénation immédiate des participations reçues violerait le délai de blocage de 5 ans (art. 61 al. 4 LIFD) et entraînerait l'imposition rétroactive des réserves latentes transférées."
+   ]
+  },
+  {
+   "id": "FE-126",
+   "champ": "Restructuration — délai de blocage",
+   "memento": "§9.2",
+   "difficulte": 2,
+   "question": "Après une scission fiscalement neutre, dans quel délai l’aliénation des participations reçues entraîne-t-elle l’imposition rétroactive des réserves latentes transférées ?",
+   "options": [
+    "2 ans",
+    "5 ans",
+    "7 ans",
+    "10 ans"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 2 ans est le délai indicatif (« délai raisonnable ») du REMPLOI (art. 64 LIFD) — pas le délai de blocage des restructurations.",
+    "Correct. Les restructurations neutres sont assorties d'un délai de blocage de 5 ans : l'aliénation des participations transférées ou reçues durant ce délai entraîne l'imposition rétroactive (rappel) des réserves latentes reportées (art. 61 al. 4 LIFD).",
+    "Faux. 7 ans est l'horizon du REPORT DE PERTES (art. 67 LIFD) — confusion de délais classique.",
+    "Faux. 10 ans ne correspond à aucun délai des restructurations en LIFD."
+   ]
+  },
+  {
+   "id": "FE-127",
+   "champ": "Restructuration — transfert intragroupe",
+   "memento": "§9.2",
+   "difficulte": 3,
+   "question": "Une société suisse transfère un immeuble d’exploitation (réserves latentes de CHF 3 mio) à une filiale suisse détenue à 100 %, à la valeur déterminante pour l’impôt. Quelle affirmation est correcte (art. 61 al. 3 LIFD) ?",
+   "options": [
+    "Le transfert réalise immédiatement les CHF 3 mio de réserves latentes",
+    "Le transfert est neutre, mais l’aliénation de la filiale (ou de l’immeuble) dans les 5 ans entraîne l’imposition rétroactive des réserves latentes",
+    "Le transfert est neutre et définitif, sans aucune condition ultérieure",
+    "Le transfert est soumis au droit de timbre de négociation de 1,5 ‰"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. Le transfert s'effectue à la valeur déterminante pour l'impôt : aucune réserve latente n'est réalisée au moment du transfert — c'est justement la condition de la neutralité.",
+    "Correct. Le transfert de patrimoine entre sociétés suisses d'un même groupe (art. 61 al. 3 LIFD), à la valeur fiscale, est neutre — mais sous délai de blocage : l'aliénation de la filiale ou du bien transféré dans les 5 ans déclenche l'imposition rétroactive des réserves latentes (art. 61 al. 4 LIFD).",
+    "Faux. La neutralité est CONDITIONNELLE : elle reste suspendue au respect du délai de blocage de 5 ans — elle n'est pas acquise définitivement au jour du transfert.",
+    "Faux. Les restructurations sont exonérées du droit de timbre de négociation (art. 14 LT) — l'exception évite de taxer la réorganisation interne du groupe."
+   ]
+  }
+ ]
+}

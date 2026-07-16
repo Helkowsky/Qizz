@@ -1,0 +1,149 @@
+{
+ "module": "M10",
+ "titre": "10 · Distributions dissimulées & prestations appréciables en argent",
+ "questions": [
+  {
+   "id": "FE-107",
+   "champ": "Définition de la distribution dissimulée (prestation appréciable en argent)",
+   "memento": "§7",
+   "difficulte": 2,
+   "question": "Les distributions dissimulées de bénéfices sont :",
+   "options": [
+    "des prestations sans contrepartie correspondante au détenteur de parts ou à des personnes proches.",
+    "identiques à des distributions ouvertes de bénéfices.",
+    "des distributions de bénéfices par prélèvement sur les réserves issues d'apports de capital.",
+    "des prestations à des tiers."
+   ],
+   "correct": 0,
+   "explications": [
+    "Exact. La distribution dissimulée est une prestation appréciable en argent : un avantage accordé au détenteur de parts ou à une personne proche SANS contre-prestation correspondante, motivé par le rapport de participation et dans une disproportion reconnaissable par les organes — ce que la société n'aurait jamais consenti à un tiers indépendant (dealing at arm's length, art. 58 al. 1 let. b LIFD).",
+    "Faux. Elle n'est justement PAS identique à une distribution ouverte : elle n'est ni décidée par l'assemblée générale ni comptabilisée comme dividende — elle se cache dans une charge excessive ou une renonciation à un produit. Seules les conséquences fiscales (reprise au bénéfice, revenu chez l'actionnaire, IA) rejoignent celles d'un dividende.",
+    "Faux. Le prélèvement sur les réserves issues d'apports de capital (RAC) est l'inverse d'une distribution de bénéfice : c'est un remboursement d'apport, franc d'impôt sur le revenu et d'impôt anticipé (art. 20 al. 3 LIFD ; art. 5 al. 1bis LIA), pas une distribution dissimulée.",
+    "Faux. Une prestation à un tiers indépendant aux conditions du marché est une charge commerciale ordinaire. La distribution dissimulée vise le détenteur de parts ou ses proches : c'est le rapport de participation qui motive l'avantage."
+   ]
+  },
+  {
+   "id": "FE-108",
+   "champ": "Théorie du triangle modifié (sociétés sœurs)",
+   "memento": "§7",
+   "difficulte": 3,
+   "question": "Body SA, dont le siège est à Zoug, est l’actionnaire unique de Arms SA et de Legs SA, toutes deux domiciliées dans le canton de Zoug. Durant la période fiscale 2022, Arms SA a facturé à Legs SA des prestations pour un montant de CHF 200’000, alors qu’un montant de CHF 500’000 aurait été conforme au principe de pleine concurrence. Body SA ne comptabilise aucune écriture dans ses comptes suite à la transaction. Laquelle des affirmations suivantes est correcte en matière d’impôt fédéral direct ?",
+   "options": [
+    "Il n’y a aucune conséquence fiscale pour Body SA en vertu de la théorie du triangle modifiée",
+    "Il n’y a aucune conséquence fiscale pour Body SA en vertu de la théorie du triangle",
+    "Il n’y a aucune conséquence fiscale pour Arms SA en vertu de la théorie du triangle modifiée",
+    "Le résultat de Body SA est augmenté d’un montant de CHF 300’000"
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct. Sous-facturation de 300 000 (500 000 − 200 000) entre deux sociétés SŒURS, sociétés de capitaux dont les participations sont en fortune commerciale de la mère : champ exact de la théorie du triangle MODIFIÉ. La correction se fait au niveau des sœurs (reprise chez Arms SA, apport dissimulé chez Legs SA), SANS aucune écriture ni reprise chez la société mère — c'est précisément le trait distinctif de cette théorie.",
+    "Faux. La conclusion (pas de conséquence pour Body SA) est bonne, mais le fondement est erroné : le triangle SIMPLE imputerait au contraire la prestation à l'actionnaire (Body SA recevrait un rendement de participation de 300 000, suivi d'un apport à Legs SA). C'est le triangle modifié — et lui seul — qui neutralise le passage par la mère.",
+    "Faux. Arms SA est justement celle qui subit la correction : elle a renoncé à un produit de 300 000 → reprise au bénéfice imposable (art. 58 LIFD), quelle que soit la théorie d'imputation retenue.",
+    "Faux. Aucune reprise chez la mère : sous le triangle modifié, la correction reste cantonnée aux sociétés sœurs (Arms +300 000) ; éviter la remontée chez Body SA est précisément l'objet de cette théorie."
+   ]
+  },
+  {
+   "id": "FE-109",
+   "champ": "Prestation appréciable en argent à un proche de l’actionnaire",
+   "memento": "§7",
+   "difficulte": 3,
+   "piege": "IFD = théorie du triangle ; bénéficiaire direct = norme de l'IA",
+   "question": "Géraldine Koch, domiciliée au Tessin, est l’actionnaire unique et la dirigeante de Bijoux SA, sise dans le même canton. En 2022, Géraldine Koch décide d’offrir à sa colocataire, qui n’est pas salariée de Bijoux SA, un collier d’une valeur de CHF 100’000. Bijoux SA comptabilise ce cadeau en tant que frais de marketing. Laquelle des affirmations suivantes n’est pas correcte en matière d’impôt fédéral direct ?",
+   "options": [
+    "Les frais de marketing de CHF 100’000 sont ajoutés au bénéfice imposable de Bijoux SA",
+    "La colocataire de Géraldine Koch n’est pas soumise à l’impôt sur le revenu sur le montant de CHF 100’000",
+    "Le destinataire de la prestation est la colocataire de Géraldine Koch en vertu de la théorie du bénéficiaire direct",
+    "Géraldine Koch est soumise à l’impôt sur le revenu sur le montant de CHF 100’000 en vertu de la théorie du triangle"
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation exacte — donc pas la réponse. Le cadeau privé de 100 000 comptabilisé en « frais de marketing » est une charge non justifiée par l'usage commercial : elle est reprise au bénéfice imposable de Bijoux SA (art. 58 al. 1 let. b LIFD).",
+    "Affirmation exacte — donc pas la réponse. Pour l'IFD, la théorie du triangle fait de l'actionnaire la bénéficiaire de la prestation ; la colocataire ne reçoit de Géraldine qu'une donation (hors impôt sur le revenu), pas un rendement.",
+    "C'est l'affirmation INCORRECTE à cocher : la théorie du bénéficiaire direct est la norme en matière d'IMPÔT ANTICIPÉ (Notice AFC S-02.141), pas d'impôt fédéral direct. Pour l'IFD, c'est la théorie du triangle qui s'applique : le destinataire de la prestation est l'actionnaire (Géraldine Koch), non la colocataire.",
+    "Affirmation exacte — donc pas la réponse. Le dividende dissimulé est imputé à l'actionnaire par la théorie du triangle : Géraldine est imposée sur le revenu de fortune mobilière (avec imposition partielle à 70 % si la participation ≥ 10 % est en fortune privée, art. 20 al. 1bis LIFD)."
+   ]
+  },
+  {
+   "id": "FE-110",
+   "champ": "Prêt sans intérêt entre sœurs — théorie du triangle",
+   "memento": "§7",
+   "difficulte": 3,
+   "question": "Madame A, domiciliée en Suisse, est l'actionnaire unique des sociétés B SA et C SA (siège en Suisse). En 2023, B SA a accordé à sa société sœur C SA un prêt sans intérêt de CHF 2 000 000. Sachant que le taux d'intérêt fiscalement déterminant est de 2% et que le taux de l'IFD sur le revenu de Madame A est de 10%, laquelle des assertions suivantes est erronée en ce qui concerne l'impôt fédéral direct ?",
+   "options": [
+    "Selon la théorie du triangle modifiée, l'impôt sur le revenu dû par Madame A s'élève à CHF 2 800",
+    "Selon la théorie du triangle, l'impôt sur le revenu dû par Madame A s'élève à CHF 2 800",
+    "Le bénéfice net imposable de B SA augmente de CHF 40 000",
+    "Le bénéfice net imposable de C SA est réduit de CHF 40 000, pour autant que la déduction soit admise"
+   ],
+   "correct": 0,
+   "explications": [
+    "C'est l'assertion ERRONÉE à cocher : sous la théorie du triangle MODIFIÉE, la prestation entre sociétés sœurs (intérêt abandonné : 2 000 000 × 2 % = 40 000) est corrigée au niveau des sociétés, SANS passage par l'actionnaire — l'impôt sur le revenu de Madame A serait de CHF 0, pas de 2 800.",
+    "Assertion exacte. Sous le triangle classique, Madame A est réputée recevoir un rendement de 40 000, imposé partiellement à 70 % (participation ≥ 10 % en fortune privée, art. 20 al. 1bis LIFD) : 40 000 × 70 % = 28 000 ; × taux de 10 % = CHF 2 800.",
+    "Assertion exacte. B SA a renoncé à un produit d'intérêt de 40 000 (2 000 000 × 2 %) → reprise au bénéfice net imposable (art. 58 LIFD).",
+    "Assertion exacte. Chez C SA, l'avantage reçu (intérêt non payé) constitue un apport dissimulé, sans influence sur le résultat (art. 60 let. a LIFD) : la déduction correspondante de 40 000 est neutralisée fiscalement, ce qui réduit d'autant le bénéfice imposable."
+   ]
+  },
+  {
+   "id": "FE-111",
+   "champ": "Prestation entre sœurs — théorie du bénéficiaire direct",
+   "memento": "§7",
+   "difficulte": 3,
+   "question": "La société X SA (siège en Suisse) est l'actionnaire unique des sociétés A SA et B SA (siège en Suisse). Lors de l'exercice 2023, A SA a rendu des services à sa société sœur B SA facturés CHF 500 000, alors qu'un tiers indépendant aurait demandé CHF 900 000 pour des prestations identiques. Laquelle des affirmations suivantes est correcte en matière d'impôt fédéral direct ?",
+   "options": [
+    "L'apport de capital de CHF 400 000 à B SA constitue des réserves issues d'apports de capital",
+    "Dans la mesure où les prestations de services entre les sociétés sœurs ne donnent lieu à aucune écriture comptable chez X SA, il n'y a pas de conséquences fiscales pour X SA",
+    "Il n'y a aucune conséquence fiscale pour X SA en vertu de la théorie du bénéficiaire direct",
+    "La prestation appréciable en argent de CHF 400 000 représente un apport de capital imposable pour B SA"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux. L'avantage reçu par B SA (900 000 − 500 000 = 400 000) est un apport DISSIMULÉ : faute de comptabilisation ouverte sur un compte séparé et de déclaration à l'AFC, il ne constitue PAS des réserves issues d'apports de capital remboursables franches d'impôt (art. 20 al. 3 LIFD ; art. 5 al. 1bis LIA).",
+    "Faux dans sa motivation : ce n'est pas l'absence d'écriture comptable qui protège X SA — une prestation appréciable en argent existe indépendamment des écritures (la requalification est fiscale). Si X SA échappe aux conséquences, c'est en vertu de la théorie d'imputation applicable entre sœurs, pas de sa comptabilité.",
+    "Correct. La sous-facturation de 400 000 est attribuée directement de A SA (reprise du produit abandonné, art. 58 LIFD) à B SA (apport dissimulé, art. 60 let. a LIFD), sans transiter par l'actionnaire : aucune conséquence fiscale pour X SA.",
+    "Faux et contradictoire dans les termes : un apport de capital est précisément SANS influence sur le résultat imposable de la société qui le reçoit (art. 60 let. a LIFD). « Apport imposable » n'existe pas — chez B SA, les 400 000 sont neutralisés."
+   ]
+  },
+  {
+   "id": "FE-112",
+   "champ": "Distribution dissimulée — 3 niveaux",
+   "memento": "§7 · §10.1",
+   "difficulte": 3,
+   "piege": "3 niveaux : 70 % (revenu) ≠ 35 % (IA)",
+   "question": "Une SA verse à son actionnaire unique (participation 100 % en fortune privée) un « salaire » de CHF 250 000 alors qu’un tiers aurait reçu CHF 150 000 pour la même fonction. L’excédent est requalifié en distribution dissimulée. Quel montant l’actionnaire doit-il ajouter à son revenu imposable à l’impôt fédéral direct au titre de cette distribution ?",
+   "options": [
+    "CHF 100 000",
+    "CHF 70 000",
+    "CHF 35 000",
+    "CHF 53 846"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 100 000 est bien la prestation appréciable en argent (250 000 − 150 000), mais ce montant oublie l'imposition partielle : le dividende dissimulé d'une participation ≥ 10 % en fortune privée n'est imposé qu'à 70 % à l'IFD (art. 20 al. 1bis LIFD).",
+    "Correct. Excédent requalifié = 250 000 − 150 000 = 100 000. Chez l'actionnaire personne physique détenant ≥ 10 % en fortune privée, imposition partielle à 70 % (art. 20 al. 1bis LIFD) : 100 000 × 70 % = CHF 70 000 à ajouter au revenu imposable.",
+    "Faux. 35 000 = 35 % × 100 000 : c'est le taux de l'IMPÔT ANTICIPÉ (niveau 3 de la distribution dissimulée), pas l'assiette du revenu imposable de l'actionnaire — confusion de niveau.",
+    "Faux. 53 846 = 100 000 ÷ 65 × 35 : c'est le calcul « brut pour net » de l'IA lorsque l'impôt n'est pas transféré au bénéficiaire — encore une grandeur d'impôt anticipé, pas un revenu imposable."
+   ]
+  },
+  {
+   "id": "FE-113",
+   "champ": "Prix de faveur — brut pour net",
+   "memento": "§7 · §11",
+   "difficulte": 3,
+   "piege": "IA non transféré → brut pour net (÷ 65 × 35)",
+   "question": "Une SA vend à son actionnaire un véhicule de collection (valeur vénale CHF 200 000) pour CHF 50 000. L’AFC constate la prestation appréciable en argent lors d’un contrôle ; l’impôt anticipé ne peut plus être transféré à l’actionnaire. Quel montant d’impôt anticipé la société doit-elle verser ?",
+   "options": [
+    "CHF 52 500",
+    "CHF 80 769",
+    "CHF 150 000",
+    "CHF 45 500"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 52 500 = 35 % × 150 000 : ce montant ne vaut que si l'IA est TRANSFÉRÉ à l'actionnaire (retenue sur la prestation brute). Ici le transfert n'est plus possible : la prestation versée est réputée nette et il faut reconstituer le brut.",
+    "Correct. Prestation appréciable en argent = 200 000 − 50 000 = 150 000. Le transfert de l'IA étant impossible, calcul « brut pour net » : 150 000 ÷ 65 × 35 = CHF 80 769 (art. 14 LIA ; le taux effectif passe de 35 % à 53,8 % de la prestation nette).",
+    "Faux. 150 000 est l'ASSIETTE (la prestation appréciable en argent, art. 4 al. 1 let. b LIA), pas le montant de l'impôt anticipé.",
+    "Faux. 45 500 = 35 % appliqué à un montant erroné (130 000) : ni l'assiette correcte (150 000), ni le mode de calcul correct (brut pour net) ne sont respectés."
+   ]
+  }
+ ]
+}

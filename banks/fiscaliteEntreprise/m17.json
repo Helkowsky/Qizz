@@ -1,0 +1,130 @@
+{
+ "module": "M17",
+ "titre": "17 · Imposition du capital & STAF",
+ "questions": [
+  {
+   "id": "FE-180",
+   "champ": "Capital imposable cantonal (art. 2 al. 1 let. b LHID) — capital-actions non libéré + provision non admise",
+   "memento": "§14",
+   "difficulte": 3,
+   "question": "Müller Werkzeuge SA. Bilan au 31 décembre en CHF — Actifs : Liquidités 77 000 ; Créances 180 000 ; Stocks 85 000 ; Compte de régularisation actif 8 000 ; Participations 150 000 ; Immobilisations corporelles 24 000 ; Biens incorporels 26 000 ; Capital-actions non libéré 50 000 ; Total 600 000. Passifs : Dettes achat de biens/services 173 000 ; Passifs de régularisation 25 000 ; Dettes à long terme (non rémunérées) 37 000 ; Provisions 70 000 ; Capital-actions 100 000 ; Réserve légale issue du bénéfice 50 000 ; Réserves facultatives issues du bénéfice 140 000 ; Bénéfice de l'exercice 5 000 ; Total 600 000. La provision pour garantie de 70 000 n'est justifiée commercialement qu'à hauteur de 50 000 (l'autorité fiscale n'admet que 50 000). Quel est le capital imposable selon l'art. 2, al. 1, let. b LHID de Müller Werkzeuge SA pour la période fiscale actuelle ?",
+   "options": [
+    "Le capital imposable s'élève à CHF 265 000",
+    "Le capital imposable s'élève à CHF 245 000",
+    "Le capital imposable s'élève à CHF 295 000",
+    "Le capital imposable s'élève à CHF 315 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : capital imposable (art. 2 al. 1 let. b LHID ; mémento §14) = capital-actions LIBÉRÉ + réserves ouvertes + réserves latentes imposées. (1) Capital libéré = 100 000 − 50 000 non libérés = 50 000 (le capital non libéré, créance de libération à l'actif, n'entre PAS dans le capital imposable). (2) Réserves ouvertes = 50 000 + 140 000 + bénéfice 5 000 = 195 000. (3) Provision non admise = 70 000 − 50 000 = 20 000 de réserve latente imposée (déjà reprise au bénéfice), à ajouter. Total = 50 000 + 195 000 + 20 000 = CHF 265 000.",
+    "Faux : CHF 245 000 = 50 000 + 195 000 — oublie d'ajouter la provision non admise de 20 000, qui constitue une réserve latente IMPOSÉE entrant dans le capital imposable.",
+    "Faux : CHF 295 000 = 100 000 + 195 000 — double erreur : retient le capital-actions ENTIER (sans retrancher les 50 000 non libérés) et oublie la provision non admise de 20 000.",
+    "Faux : CHF 315 000 = 100 000 + 195 000 + 20 000 — ajoute correctement la provision non admise mais retient le capital-actions ENTIER : seul le capital LIBÉRÉ compte (les 50 000 non libérés sont exclus)."
+   ],
+   "piege": "Capital NON libéré exclu ; provision non admise (reprise) incluse"
+  },
+  {
+   "id": "FE-181",
+   "champ": "Actions propres et capital imposable (art. 2 al. 1 let. b LHID)",
+   "memento": "§14",
+   "difficulte": 3,
+   "question": "Durant l'exercice actuel, Säntis SA a acquis auprès de son actionnaire Peter Appenzell des actions à hauteur de 5 % du capital-actions nominal, à la valeur de marché actuelle de KCHF 60 (valeur nominale KCHF 20). Bilan fiscal de Säntis SA au 31.12 en KCHF — Actif : Actif circulant 1 300 ; Autre actif immobilisé 1 600 ; Participation Hoher Kasten SA 300 ; Immobiliers 1 600 ; Liquidités 240 ; Propres actions 60 (portées en déduction des fonds propres). Passif : Capitaux étrangers à long terme 3 000 ; Capitaux étrangers à court terme 1 000 ; Capital-actions 400 ; Réserves légales 50 ; Réserves ouvertes 550 ; Bénéfice reporté 50 ; Réserves latentes imposées (correction de valeur refusée sur participations) 50 ; Total 5 040. Comment se mesure le capital imposable de Säntis SA au 31.12 ?",
+   "options": [
+    "Le capital imposable est de CHF 1 100",
+    "Le capital imposable s'élève à CHF 1 160",
+    "Le capital imposable est de CHF 1 040",
+    "Le capital imposable est de CHF 1 050"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : capital imposable (art. 2 al. 1 let. b LHID ; mémento §14) = capital-actions libéré 400 + réserves légales 50 + réserves ouvertes 550 + bénéfice reporté 50 + réserves latentes imposées 50 = KCHF 1 100. Les propres actions (60), portées en DÉDUCTION des fonds propres au bilan (art. 959a CO), ne réduisent PAS le capital imposable : elles sont réintégrées (1 040 comptables + 60 = 1 100).",
+    "Faux : KCHF 1 160 = 1 100 + 60 — DOUBLE comptage des propres actions : on les réintègre une fois (annulation de la déduction comptable), on ne les ajoute pas en plus.",
+    "Faux : KCHF 1 040 = fonds propres comptables nets, après déduction des propres actions — erreur classique : pour l'impôt sur le capital, les propres actions déduites au bilan doivent être RÉINTÉGRÉES.",
+    "Faux : KCHF 1 050 = oubli d'un poste de 50 (bénéfice reporté ou réserves latentes imposées) dans l'addition des fonds propres."
+   ],
+   "piege": "Propres actions déduites au bilan : réintégrées au capital imposable"
+  },
+  {
+   "id": "FE-182",
+   "champ": "Détermination du capital propre imposable (reprises)",
+   "memento": "§14 · §8",
+   "difficulte": 3,
+   "question": "Z SA, dont le siège est en Suisse, vous demande conseil et vous transmet les données financières suivantes pour la période fiscale 2023: Capital-actions de CHF 300 000; Réserves au bilan, y compris le bénéfice reporté, de CHF 4 250 000; Les immobilisations corporelles ont été acquises au 1er janvier 2023 pour CHF 600 000 et amorties au taux de 30%. L'amortissement fiscalement admissible est de 20% (pas d'application de la procédure d'amortissement unique/immédiat dans le cas présent). La provision pour risques judiciaires de CHF 120 000 a été dissoute en 2023. Comme la provision n'était déjà plus justifiée par l'usage commercial au cours des années précédentes, les autorités fiscales l'avaient déjà corrigée en 2021. Les dépenses privées de l'actionnaire, d'un montant de CHF 12 000, ont été comptabilisées comme charges. La dette de Z SA envers l'actionnaire, d'un montant de CHF 1 200 000, est qualifiée de capitaux propres dissimulés à hauteur de CHF 200 000. Quel est le montant des fonds propres imposables de Z SA au 31 décembre 2023?",
+   "options": [
+    "CHF 4 810 000",
+    "CHF 4 730 000",
+    "CHF 4 942 000",
+    "CHF 4 750 000"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : capital imposable = fonds propres comptables + réserves latentes IMPOSÉES + capital propre dissimulé (mémento §14.1). Base comptable = 300 000 + 4 250 000 = 4 550 000. (+) Suramortissement : (30 % − 20 %) × 600 000 = 60 000 repris → réserve latente imposée : +60 000. (+) Capital propre dissimulé (mémento §8) : +200 000. SANS effet : dépenses privées 12 000 (l'argent est sorti = prélèvement, aucune réserve latente ne subsiste) ; provision dissoute 120 000 déjà reprise en 2021 (elle était déjà comptée comme réserve latente imposée et rejoint simplement les réserves au bilan : pas de double comptage). Total = 4 550 000 + 60 000 + 200 000 = CHF 4 810 000.",
+    "Faux : CHF 4 730 000 = 4 550 000 + 60 000 + 120 000 — réintègre à tort la provision dissoute (déjà reprise en 2021, donc déjà dans les fonds propres fiscaux) et omet le capital propre dissimulé de 200 000.",
+    "Faux : CHF 4 942 000 = 4 810 000 + 120 000 + 12 000 — ajoute à tort la provision dissoute (double comptage : déjà reprise en 2021) et les dépenses privées (qui sont un prélèvement définitif, sans réserve latente subsistante au bilan).",
+    "Faux : CHF 4 750 000 = 4 550 000 + 200 000 — retient le capital propre dissimulé mais OUBLIE le suramortissement de 60 000 (10 % × 600 000), qui est une réserve latente imposée entrant dans le capital."
+   ],
+   "piege": "Provision déjà reprise en 2021 : sa dissolution est neutre (pas de double comptage)"
+  },
+  {
+   "id": "FE-183",
+   "champ": "Patent box",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Un canton applique la réduction maximale du patent box. Une société réalise un bénéfice net des brevets de CHF 1 000 000. Quel montant de ce bénéfice reste imposable au titre du patent box (avant limite de décharge) ?",
+   "options": [
+    "CHF 0",
+    "CHF 100 000",
+    "CHF 900 000",
+    "CHF 1 000 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : une exonération TOTALE n'est pas prévue — la réduction maximale du patent box est de 90 % du bénéfice net des brevets, jamais 100 % (art. 24a-24b LHID).",
+    "CORRECT : le patent box (art. 24a-24b LHID ; mémento §14) réduit le bénéfice net des brevets jusqu'à 90 % (plafond fédéral, taux effectif fixé par le canton) : 1 000 000 × (1 − 90 %) = CHF 100 000 restent imposables. Ce résultat demeure ensuite soumis à la limite de décharge de l'art. 25b LHID.",
+    "Faux : CHF 900 000 est le montant de la RÉDUCTION (90 % × 1 000 000), pas le solde restant imposable — l'option inverse les deux grandeurs.",
+    "Faux : CHF 1 000 000 ignore purement et simplement le patent box appliqué au maximum par le canton."
+   ]
+  },
+  {
+   "id": "FE-184",
+   "champ": "Limite de décharge",
+   "memento": "§14",
+   "difficulte": 3,
+   "question": "Une société a un bénéfice imposable de CHF 2 000 000 avant outils STAF. Les réductions calculées (patent box + surdéduction R&D) totalisent CHF 1 600 000. Compte tenu de la limite de décharge, quel est le bénéfice imposable minimal ?",
+   "options": [
+    "CHF 400 000",
+    "CHF 600 000",
+    "CHF 0",
+    "CHF 1 600 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 400 000 = 2 000 000 − 1 600 000, c'est-à-dire l'application des réductions calculées SANS le plafond — or la limite de décharge (art. 25b LHID) ramène la réduction admissible à 70 % × 2 000 000 = 1 400 000.",
+    "CORRECT : la limite de décharge (art. 25b LHID ; mémento §14) plafonne le cumul des réductions STAF à 70 % du bénéfice : réduction maximale = 70 % × 2 000 000 = 1 400 000 (les 200 000 excédentaires sont perdus, sous réserve d'un report cantonal). Bénéfice imposable minimal = 2 000 000 − 1 400 000 = CHF 600 000 — au moins 30 % du bénéfice reste toujours imposé.",
+    "Faux : CHF 0 supposerait une exonération totale — interdite précisément par la limite de décharge : au moins 30 % du bénéfice reste imposable (art. 25b LHID).",
+    "Faux : CHF 1 600 000 confond le montant des RÉDUCTIONS calculées avec le bénéfice restant imposable."
+   ],
+   "piege": "Limite de décharge : au moins 30 % du bénéfice reste imposé"
+  },
+  {
+   "id": "FE-185",
+   "champ": "Surdéduction R&D",
+   "memento": "§14",
+   "difficulte": 2,
+   "question": "Une société engage CHF 500 000 de dépenses de recherche et développement en Suisse. Le canton autorise la surdéduction R&D maximale. Quel montant total peut-elle déduire fiscalement à ce titre ?",
+   "options": [
+    "CHF 500 000",
+    "CHF 750 000",
+    "CHF 250 000",
+    "CHF 1 000 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 500 000 correspond aux seules charges effectives — la question porte sur la déduction TOTALE, surdéduction comprise (charges + 50 % supplémentaires).",
+    "CORRECT : la surdéduction R&D (art. 25a LHID ; mémento §14) autorise une déduction SUPPLÉMENTAIRE jusqu'à 50 % des dépenses de R&D réalisées en Suisse, en plus des charges effectives : 500 000 + 50 % × 500 000 = CHF 750 000 (plafond fédéral ; taux effectif cantonal, et résultat soumis à la limite de décharge de l'art. 25b LHID).",
+    "Faux : CHF 250 000 ne retient que la SURDÉDUCTION (50 % × 500 000) en oubliant les charges effectives de 500 000, elles aussi déductibles.",
+    "Faux : CHF 1 000 000 doublerait la déduction (surdéduction de 100 %) — le maximum légal de la surdéduction est de 50 % des dépenses (art. 25a LHID)."
+   ]
+  }
+ ]
+}

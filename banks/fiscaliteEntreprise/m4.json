@@ -1,0 +1,350 @@
+{
+ "module": "M4",
+ "titre": "04 · Assujettissement des personnes morales",
+ "questions": [
+  {
+   "id": "FE-030",
+   "champ": "Rattachement personnel — administration effective",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "Consult Ltd a son siège statutaire aux Bermudes. La majorité des collaborateurs de Consult Ltd travaillent dans les deux succursales de Hong Kong et Sidney. Une équipe de cinq personnes travaille à Zurich. Elle s'occupe des activités européennes en cours de développement de Consult Ltd. La société est dirigée par quatre membres de la direction, domiciliés en Suisse. Ces derniers se déplacent souvent en Asie, mais tiennent régulièrement des réunions de direction en Suisse. Quelle appréciation est correcte ?",
+   "options": [
+    "Consult Ltd a son siège statutaire aux Bermudes. Par conséquent, la société ne possède pas de rattachement fiscal en Suisse.",
+    "Les membres de la direction générale ont leur domicile en Suisse et tiennent régulièrement des réunions de direction. Si l'on part du principe que les décisions essentielles de l'entreprise sont prises ici aussi en Suisse, la société Consult Ltd a un rattachement personnel à la Suisse, conformément à l'art. 50 LIFD.",
+    "Étant donné que Consult Ltd a son siège statutaire aux Bermudes, cela ne saurait justifier un rattachement personnel au sens de l'art. 50 LIFD. Reste à savoir si une équipe de cinq personnes en Suisse justifiera un rattachement économique.",
+    "Les séances de direction se tiennent en Suisse. Toutefois, la grande majorité des employés de Consult Ltd travaillent dans des bureaux à Hong Kong et Sidney. Le siège de l'administration effective se trouve à l'endroit où se trouvent les employés. Étant donné que relativement peu de collaborateurs travaillent en Suisse, le lieu du rattachement personnel se trouve soit à Hong Kong, soit à Sidney."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le siège statutaire aux Bermudes n'exclut nullement un rattachement fiscal en Suisse. L'art. 50 LIFD prévoit DEUX critères alternatifs de rattachement personnel : le siège OU l'administration effective en Suisse (mémento §1.1). Cette option ignore le second critère.",
+    "Juste : les quatre membres de la direction sont domiciliés en Suisse et y tiennent régulièrement les réunions de direction ; si les décisions essentielles de l'entreprise y sont prises, l'administration effective se situe en Suisse → rattachement personnel (art. 50 LIFD) et assujettissement illimité (mémento §1.1).",
+    "Faux : cette option écarte à tort le rattachement personnel pour ne retenir qu'un éventuel rattachement économique (art. 51 LIFD) de l'équipe zurichoise. Or l'administration effective en Suisse ouvre déjà le rattachement personnel — plus large (assujettissement illimité) — sans qu'il faille passer par l'art. 51.",
+    "Faux : l'administration effective se situe au lieu où se prennent les décisions essentielles de gestion (la direction), pas là où travaille la masse des employés opérationnels. La présence de la majorité du personnel à Hong Kong et Sidney est sans pertinence pour l'art. 50 LIFD."
+   ],
+   "piege": "Administration effective = lieu de décision, pas des employés"
+  },
+  {
+   "id": "FE-031",
+   "champ": "Collectivité de personnes étrangère — imposition transparente",
+   "memento": "§1.1",
+   "difficulte": 3,
+   "question": "La société Müller und Söhne KGaA, établie en Allemagne et active dans le commerce du sport, possède un établissement stable en Suisse. Les associés sont M. Müller Senior et M. Müller Junior. M. Müller Senior réside à Zurich, M. Müller Junior réside avec sa famille à Munich. Müller und Söhne KGaA correspond à une société suisse en commandite par actions. L'établissement stable (Sporthandel Schweiz) détient une participation de 40 % dans Unihockey AG, qui distribue un dividende de 100 000 à ses actionnaires. Quel traitement fiscal suisse est correct ?",
+   "options": [
+    "Müller und Söhne KGaA est assimilée, sur le plan fiscal, à la personne morale suisse qui lui est la plus proche en droit ou en fait. En Suisse, elle doit par conséquent être traitée fiscalement comme une société de capitaux. La participation dans Unihockey AG doit être rattachée à l'établissement stable en raison de ses relations économiques. Le dividende (40 %) d'Unihockey AG représente un bénéfice imposable de l'établissement stable.",
+    "Müller und Söhne KGaA est une société de droit allemand. Toutefois, la société est imposée de manière transparente. De même, les bénéfices sont imposables chez les associés. En l'espèce, seul M. Müller Senior a son domicile en Suisse. Le dividende représente donc pour lui un rendement imposable de la fortune.",
+    "Müller und Söhne KGaA est une société de droit allemand. Toutefois, la société est imposée de manière transparente. De même, les bénéfices sont imposables chez les associés. En vertu de l'art. 51, al. 1, LIFD, les deux associés sont associés à une entreprise établie en Suisse. Ils sont soumis à l'impôt en Suisse en raison de leur rattachement économique. Les dividendes constituent donc pour eux des rendements imposables de la fortune.",
+    "Müller und Söhne KGaA est assimilée, sur le plan fiscal, à la personne morale suisse qui lui est la plus proche en droit ou en fait. En Suisse, elle doit par conséquent être traitée fiscalement comme une société de capitaux. La participation dans Unihockey AG est attribuée à Müller und Söhne KGaA. Le dividende (40 %) d'Unihockey AG ne constitue pas un bénéfice imposable de l'établissement stable."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : cette option traite la KGaA comme une société de capitaux OPAQUE et impose le dividende comme bénéfice de l'établissement stable. La clé retenue suit la logique inverse : la collectivité de personnes étrangère est imposée de manière TRANSPARENTE, chez les associés (art. 10 LIFD ; mémento §1.1, piège « sociétés de personnes = transparentes »).",
+    "Faux : la transparence est correcte, mais cette option n'impose QUE M. Müller Senior (domicilié à Zurich) et oublie M. Müller Junior : l'établissement stable suisse crée un rattachement ÉCONOMIQUE (art. 51 al. 1 LIFD) qui frappe aussi l'associé domicilié à l'étranger. Confusion entre domicile (rattachement personnel) et établissement stable (rattachement économique).",
+    "Juste : la société est imposée de manière transparente (art. 10 LIFD ; mémento §1.1) : les DEUX associés — Senior à Zurich et Junior à Munich — sont assujettis en Suisse en raison de leur rattachement économique à une entreprise établie en Suisse via l'établissement stable (art. 51 al. 1 LIFD). La participation de 40 % étant rattachée à l'établissement stable, le dividende d'Unihockey AG constitue chez chacun d'eux un rendement imposable de la fortune.",
+    "Faux : même prémisse erronée d'opacité (traitement en société de capitaux) ; conclure de surcroît que le dividende n'est pas un bénéfice imposable de l'établissement stable évoque la réduction pour participations, sans pertinence ici puisque l'entité est traitée de façon transparente et que les associés, personnes physiques, sont imposés sur le rendement de fortune."
+   ]
+  },
+  {
+   "id": "FE-032",
+   "champ": "Étendue — perte d'ES et d'immeuble à l'étranger (art. 52)",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Invest SA, dont le siège se trouve à Saint-Gall, possède une succursale à Constance (DE) et un immeuble de placement à Rome (IT). Le bénéfice imposable de Invest SA est de CHF 300 000. Ce montant comprend une perte de CHF 200 000 de l'établissement de Constance, qui n'a pas pu être compensée en Allemagne, ainsi qu'une perte de CHF 100 000 pour l'immeuble de placement situé à Rome. Quel bénéfice Invest SA doit-elle imposer en Suisse ?",
+   "options": [
+    "Bénéfice imposable CHF 200 000",
+    "Bénéfice imposable CHF 300 000",
+    "Bénéfice imposable CHF 400 000",
+    "Bénéfice imposable CHF 500 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : 300 000 − 100 000 = 200 000 déduit une seconde fois la perte de l'immeuble de Rome, alors qu'elle est déjà comprise dans le résultat ET qu'elle n'est de toute façon PAS déductible en Suisse (immeuble étranger hors du champ de l'assujettissement, art. 52 al. 1 LIFD ; mémento §1.2).",
+    "Faux : laisser le résultat de 300 000 sans retraitement revient à admettre la déduction de la perte de l'immeuble de Rome ; or la perte d'un immeuble à l'étranger n'est PAS déductible en Suisse (art. 52 al. 1 LIFD ; mémento §1.2) — elle doit être neutralisée (+100 000).",
+    "Juste : traitement asymétrique de l'art. 52 LIFD (mémento §1.2). Perte de l'ES de Constance (200 000) : déductible en Suisse à titre provisoire puisqu'elle n'a pas pu être compensée en Allemagne (art. 52 al. 3 LIFD, sous réserve de reprise si l'ES redevient bénéficiaire) → conservée, aucun ajustement. Perte de l'immeuble de Rome (100 000) : non déductible → neutralisée. Calcul : 300 000 + 100 000 = CHF 400 000.",
+    "Faux : 300 000 + 200 000 = 500 000 inverse l'asymétrie : ce calcul neutralise la perte de l'ES de Constance (pourtant déductible en Suisse faute de compensation en Allemagne, art. 52 al. 3 LIFD) et laisse déduite la perte immobilière de Rome (pourtant non déductible)."
+   ]
+  },
+  {
+   "id": "FE-033",
+   "champ": "Association à buts idéaux — bénéfice net imposable (art. 66 / 66a LIFD)",
+   "memento": "§1.2",
+   "difficulte": 3,
+   "question": "Le club de gymnastique «TV Super», assujetti, exploite, outre les activités sportives un restaurant de club ouvert aux adhérents et aux spectateurs. Durant l'exercice actuel, un événement a été organisé à l'occasion du centième anniversaire du club, avec des spectacles de gymnastique, une tombola et de la restauration. Le compte de résultat actuel se présente comme suit : Charges générales de l'association 15 000 ; Cotisations des membres passifs 50 000 ; Dépenses du restaurant du club 25 000 ; Recettes du restaurant du club 40 000 ; Dépenses liées au centième anniversaire 12 000 ; Recettes liées au centième anniversaire 18 000 ; Dons et donations 10 000 ; Bénéfice 71 000 ; Produits d'intérêts sur immobilisations 5 000 ; Total 123 000. Quel est le montant du bénéfice net imposable du club de gymnastique TV Super au cours de la période fiscale actuelle ?",
+   "options": [
+    "Le bénéfice net imposable s'élève à CHF 71 000",
+    "Le bénéfice net imposable s'élève à CHF 21 000",
+    "Le bénéfice net imposable s'élève à CHF 86 000",
+    "Le bénéfice net imposable s'élève à CHF 26 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 71 000 est le bénéfice comptable brut ; il traite à tort les cotisations des membres (50 000, non imposables, art. 66 al. 1 LIFD) et les dons (10 000, augmentation de fortune par donation, art. 60 let. c LIFD) comme des produits imposables, et laisse déduites des charges générales non déductibles.",
+    "Faux : CHF 21 000 (= 26 000 − 5 000) oublie les produits d'intérêts sur immobilisations — piège : les rendements de la fortune sont des produits IMPOSABLES pour une association.",
+    "Faux : CHF 86 000 (= 71 000 + 15 000) réintègre correctement les charges générales non déductibles mais omet de retrancher les produits non imposables (cotisations 50 000 et dons 10 000).",
+    "Juste : 71 000 − cotisations 50 000 (non imposables, art. 66 al. 1 LIFD) − dons 10 000 (art. 60 let. c LIFD) + charges générales 15 000 (non déductibles : les « autres dépenses » ne sont déductibles que dans la mesure où elles excèdent les cotisations des membres, 15 000 < 50 000, art. 66 al. 2 LIFD) = CHF 26 000. Contre-preuve par les produits imposables : restaurant 40 000 − 25 000 = 15 000 ; centenaire 18 000 − 12 000 = 6 000 ; intérêts 5 000 → total 26 000. La franchise de 20 000 pour les buts idéaux (art. 66a LIFD ; mémento §1.2) ne s'appliquerait qu'ENSUITE — la question ne demande que le bénéfice net imposable."
+   ]
+  },
+  {
+   "id": "FE-034",
+   "champ": "Fondation non exonérée — résultat fiscal (art. 56 let. g / art. 66 LIFD)",
+   "memento": "§1.2 · §2.2",
+   "difficulte": 3,
+   "question": "La fondation Fussballarena FC 1879 possède le stade de football FC 1879, qu'elle loue à Verwaltungs SA. Verwaltungs SA organise les matchs du FC 1879 et d'autres grands événements dans le stade de football. Le compte de résultat actuel en KCHF de la fondation se présente comme suit : Dépenses immobilières 2 000 (charge) ; Loyers du stade de football 2 000 (recette) ; Frais administratifs 400 (charge) ; Contributions des Amis du FC 1879 500 (recette) ; Bénéfice 100 ; Total 2 500 / 2 500. Quel est le montant du résultat fiscal de la fondation Fussballarena FC 1879 ?",
+   "options": [
+    "La fondation Fussballarena FC 1879 réalise une perte de KCHF 400",
+    "La fondation Fussballarena FC 1879 réalise un bénéfice imposable de KCHF 100",
+    "La fondation Fussballarena FC 1879 est exonérée d'impôt en vertu de l'art. 56, let. g, LIFD",
+    "La fondation Fussballarena FC 1879 réalise un bénéfice imposable de KCHF 500"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : les « Contributions des Amis du FC 1879 » (KCHF 500) sont des dons reçus = augmentation de fortune par donation, NON imposable (art. 60 let. c LIFD ; mémento §2.2). Résultat fiscal = loyers 2 000 − dépenses immobilières 2 000 − frais administratifs 400 = perte de KCHF 400.",
+    "Faux : KCHF 100 est le bénéfice comptable, qui traite à tort le don de 500 comme un produit imposable ; une fois le don retranché (art. 60 let. c LIFD), le résultat fiscal devient une perte de 400.",
+    "Faux : la fondation se borne à louer commercialement le stade à une SA d'exploitation ; elle ne poursuit pas un but de service public ou d'utilité publique avec affectation exclusive et irrévocable — conditions de l'exonération de l'art. 56 let. g LIFD (mémento §1.2) → pas d'exonération.",
+    "Faux : KCHF 500 confond le résultat fiscal avec le montant du don reçu ; le don n'est ni un produit imposable ni le résultat."
+   ]
+  },
+  {
+   "id": "FE-035",
+   "champ": "Fin de l'assujettissement d'une personne morale",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "Quand l’assujettissement d’une personne morale prend-il fin?",
+   "options": [
+    "Avec le paiement de toutes les dettes fiscales",
+    "Avec l’inscription «en liquidation» au registre du commerce",
+    "Avec la clôture de la liquidation",
+    "Avec la radiation du registre du commerce"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : le paiement des dettes fiscales n'est pas un critère de fin d'assujettissement ; une société reste assujettie tant que la liquidation n'est pas close, dettes payées ou non.",
+    "Faux : la simple inscription « en liquidation » au registre du commerce ne met pas fin à l'assujettissement : la société subsiste et réalise encore des résultats (bénéfices de liquidation) pendant la liquidation (mémento §1.2, piège « fin de l'assujettissement »).",
+    "Juste : l'assujettissement prend fin avec la CLÔTURE de la liquidation (art. 54 al. 2 LIFD ; mémento §1.2) — comme il prend fin, alternativement, par le transfert du siège/de l'administration à l'étranger ou la disparition de l'élément imposable.",
+    "Faux : la radiation du RC coïncide généralement avec la fin de l'assujettissement, mais le critère légal déterminant est la clôture de la liquidation (art. 54 al. 2 LIFD), pas l'acte formel de radiation."
+   ],
+   "piege": "« En liquidation » ≠ fin de l'assujettissement"
+  },
+  {
+   "id": "FE-036",
+   "champ": "Établissement stable suisse d'une société de personnes étrangère (transparence)",
+   "memento": "§1.1",
+   "difficulte": 3,
+   "question": "La société de personnes Gasser & Cie, dont le siège est en Allemagne, dispose d’un établissement stable dans le canton de Saint-Gall. Durant l’année 2022, l’activité déployée en Suisse a permis de réaliser un bénéfice de CHF 200’000 attribuable à l’établissement stable. Laquelle des affirmations suivantes est correcte en matière d’impôt fédéral direct ?",
+   "options": [
+    "Le résultat de l’établissement stable n’est pas soumis à l’impôt en Suisse",
+    "Le résultat de l’établissement stable est soumis à l’impôt sur le bénéfice",
+    "Le résultat de l’établissement stable est soumis à l’impôt sur le revenu au taux applicable au résultat mondial de la société de personnes",
+    "Le résultat de l’établissement stable est soumis à l’impôt sur le revenu au taux applicable au résultat de l’établissement stable"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : l'établissement stable de Saint-Gall crée un rattachement économique en Suisse (art. 51 LIFD) → son résultat y est bel et bien imposé, chez les associés.",
+    "Faux : une société de personnes n'est pas un sujet fiscal (art. 10 LIFD ; mémento §1.1) ; elle n'est donc pas soumise à l'impôt sur le BÉNÉFICE — ce sont les associés qui sont imposés, à l'impôt sur le revenu.",
+    "Faux : l'assujettissement fondé sur le rattachement économique est LIMITÉ : selon le mémento (§1.1, piège), l'imposition se fait au taux applicable au résultat de l'établissement stable, pas au taux du résultat mondial de la société de personnes.",
+    "Juste : société de personnes = transparente (art. 10 LIFD) ; l'établissement stable suisse crée un rattachement économique (art. 51 LIFD) → les associés sont imposés à l'impôt sur le REVENU, au taux applicable au résultat de l'établissement stable (mémento §1.1, piège « sociétés de personnes = transparentes », qui traite exactement ce cas)."
+   ],
+   "piege": "Société de personnes = transparente (pas d'impôt sur le bénéfice)"
+  },
+  {
+   "id": "FE-037",
+   "champ": "Étendue de l'assujettissement — exonération ES / non-déductibilité perte immeuble étranger",
+   "memento": "§1.2",
+   "difficulte": 3,
+   "question": "Le siège statutaire et le lieu de la direction effective de Ryckon SA se situent dans le canton de Fribourg. Ryckon SA dispose d’un établissement stable à Lyon (France) et d’un immeuble locatif à Munich (Allemagne). Durant la période fiscale 2022, Ryckon SA a réalisé un résultat global de CHF 800’000, incluant un bénéfice de l’établissement stable de CHF 200’000 et une perte de CHF (150’000) sur l’immeuble locatif. A combien s’élève le bénéfice imposable en Suisse en matière d’impôt fédéral direct ?",
+   "options": [
+    "CHF 800'000",
+    "CHF 750'000",
+    "CHF 450'000",
+    "CHF 950'000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 800 000 n'opère aucun retraitement ; or le bénéfice de l'ES de Lyon est exonéré (à retirer) et la perte de l'immeuble de Munich non déductible (à neutraliser) — art. 52 al. 1 LIFD.",
+    "Juste : 800 000 − 200 000 (bénéfice de l'ES de Lyon, exonéré, art. 52 al. 1 LIFD) + 150 000 (perte de l'immeuble de Munich, non déductible → neutralisée) = CHF 750 000. C'est l'exemple « Ryckon SA » du mémento §1.2 (cas A).",
+    "Faux : 800 − 200 − 150 = 450 retire AUSSI la perte immobilière au lieu de la neutraliser : une perte déjà comprise dans le résultat et non déductible doit être RAJOUTÉE, pas retranchée une seconde fois.",
+    "Faux : 800 + 150 = 950 neutralise correctement la perte immobilière mais oublie de retirer le bénéfice exonéré de l'ES de Lyon (−200)."
+   ]
+  },
+  {
+   "id": "FE-038",
+   "champ": "Rattachement personnel — administration effective",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "Qu’est-ce qui justifie l’assujettissement illimité d’une personne morale en Suisse?",
+   "options": [
+    "Entreprises commerciales en Suisse",
+    "Membres du conseil d’administration de nationalité suisse",
+    "Biens immobiliers en Suisse",
+    "Lieu de l’administration effective en Suisse"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : une entreprise exploitée en Suisse fonde un rattachement ÉCONOMIQUE → assujettissement LIMITÉ (art. 51 LIFD), pas illimité.",
+    "Faux : la nationalité des membres du conseil d'administration est sans pertinence ; ce qui compte est le LIEU où se prennent les décisions essentielles (administration effective), pas le passeport des administrateurs.",
+    "Faux : les biens immobiliers en Suisse fondent un rattachement ÉCONOMIQUE → assujettissement LIMITÉ (art. 51 LIFD).",
+    "Juste : le rattachement PERSONNEL — siège statutaire OU lieu de l'administration effective en Suisse — fonde l'assujettissement ILLIMITÉ (art. 50 LIFD ; mémento §1.1)."
+   ]
+  },
+  {
+   "id": "FE-039",
+   "champ": "Établissement stable",
+   "memento": "§1.1",
+   "difficulte": 1,
+   "question": "Quel élément est qualifié d’établissement stable?",
+   "options": [
+    "Succursale",
+    "Chantier de construction (<12 mois)",
+    "Stocks de marchandises",
+    "Salle d’exposition"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : la succursale est une installation fixe où s'exerce une partie de l'activité de l'entreprise → établissement stable (art. 51 al. 2 LIFD ; mémento §1.1, qui cite succursale, usine, atelier, point de vente).",
+    "Faux : un chantier de construction n'est un établissement stable qu'à partir de 12 MOIS (art. 51 al. 2 LIFD ; mémento §1.1) ; en deçà de ce seuil, ce n'en est pas un.",
+    "Faux : un simple stock de marchandises relève de l'entreposage, sans exercice d'une activité → pas une installation fixe d'exploitation, donc pas d'établissement stable.",
+    "Faux : une salle d'exposition sert à la simple présentation, sans exercice de l'activité (pas de conclusion d'affaires) → pas d'établissement stable."
+   ]
+  },
+  {
+   "id": "FE-040",
+   "champ": "Sociétés de personnes vs sociétés de capitaux",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "En quoi les sociétés de personnes diffèrent-elles des sociétés de capitaux sur le plan fiscal?",
+   "options": [
+    "Compensation ordinaire des pertes",
+    "Possibilités d’amortissement",
+    "Taux d’imposition",
+    "Règle relative au remploi"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la compensation ordinaire des pertes est comparable des deux côtés (report sur les 7 exercices précédents ; mémento §5) — chez l'associé pour la société de personnes, chez la société pour la société de capitaux.",
+    "Faux : les possibilités d'amortissement obéissent aux mêmes exigences des deux côtés : comptabilisation + justification par l'usage commercial (mémento §3).",
+    "Juste : les sociétés de personnes sont TRANSPARENTES (art. 10 LIFD ; mémento §1.1) : leur résultat est imposé chez les associés à l'impôt sur le REVENU, au barème progressif de leur situation ; la société de capitaux est un sujet fiscal distinct, imposée à l'impôt sur le bénéfice au taux PROPORTIONNEL de 8,5 % (art. 68 LIFD ; mémento §1.1).",
+    "Faux : la règle du remploi (art. 64 LIFD ; mémento §4) s'applique de manière analogue aux deux formes d'entreprise."
+   ]
+  },
+  {
+   "id": "FE-041",
+   "champ": "Assujettissement limité (rattachement économique)",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "Qu’est-ce qui justifie l’assujettissement limité d’une personne morale en Suisse?",
+   "options": [
+    "Administration effective en Suisse",
+    "Stocks de marchandises en Suisse",
+    "Biens immobiliers en Suisse",
+    "Siège statutaire en Suisse"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : l'administration effective en Suisse est un rattachement PERSONNEL → assujettissement ILLIMITÉ (art. 50 LIFD).",
+    "Faux : un simple stock de marchandises (entreposage) n'est pas un établissement stable et ne crée pas de rattachement économique.",
+    "Juste : un immeuble en Suisse (alors que siège et administration sont à l'étranger) fonde un rattachement ÉCONOMIQUE → assujettissement LIMITÉ (art. 51 LIFD ; mémento §1.1).",
+    "Faux : le siège statutaire en Suisse est un rattachement PERSONNEL → assujettissement ILLIMITÉ (art. 50 LIFD)."
+   ]
+  },
+  {
+   "id": "FE-042",
+   "champ": "Répartition intercantonale (immeuble de placement / entrepôt)",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "A SA a son siège principal dans le canton de Zurich (90 employés), un entrepôt de marchandises (sans activité de vente) dans le canton de Schwyz (8 employés) et un immeuble de placement dans le canton de Zoug (2 employés pour l'administration). A SA réalise un bénéfice net de CHF 10 mio., dont CHF 2 mio. de bénéfice sur l'immeuble de placement de Zoug. Qu'est-ce qui est imposé et où?",
+   "options": [
+    "CHF 8 mio. dans le canton de Zurich, CHF 2 mio. dans le canton de Zoug",
+    "CHF 10 mio. dans le canton de Zurich",
+    "CHF 9 mio. dans le canton de Zurich, CHF 0,8 mio. dans le canton de Schwyz, CHF 0,2 mio. dans le canton de Zoug",
+    "CHF 7,35 mio. dans le canton de Zurich, CHF 0,65 mio. dans le canton de Schwyz, CHF 2 mio. dans le canton de Zoug"
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : l'immeuble de PLACEMENT crée un for spécial (rattachement économique) au lieu de sa situation : son bénéfice de CHF 2 mio est imposé à Zoug. L'entrepôt de Schwyz, SANS activité de vente, est un simple lieu de stockage : pas d'établissement stable (mémento §1.1 : l'ES suppose une installation fixe où s'EXERCE l'activité) → aucun for à Schwyz. Le solde de CHF 8 mio revient au canton du siège, Zurich. NB : la répartition intercantonale n'est pas traitée en tant que telle dans le mémento ; seules les notions d'ES et d'immeuble (§1.1) la fondent ici.",
+    "Faux : tout attribuer à Zurich ignore le for spécial de l'immeuble de placement : le bénéfice immobilier est imposé au canton de situation de l'immeuble (Zoug).",
+    "Faux : cette répartition attribue une quote-part à Schwyz ; or l'entrepôt sans activité de vente n'est pas un établissement stable et ne crée aucun for fiscal.",
+    "Faux : même erreur — l'entrepôt de Schwyz n'étant pas un établissement stable, aucune quote-part ne lui revient ; la répartition à trois fors est sans fondement."
+   ],
+   "piege": "Entrepôt sans activité de vente ≠ établissement stable"
+  },
+  {
+   "id": "FE-043",
+   "champ": "Étendue de l'assujettissement — pertes étrangères (ES / immeuble)",
+   "memento": "§1.2",
+   "difficulte": 3,
+   "question": "La société Mercantil SA a son siège en Allemagne, alors que le lieu de l'administration effective se trouve en Suisse. Elle possède également un établissement stable en Autriche et un immeuble d'habitation en Italie. Au cours de la période fiscale 2023, Mercantil SA a réalisé un résultat mondial de CHF 2 500 000, comprenant une perte de l'établissement stable de CHF (600 000) et une perte de l'immeuble d'habitation de CHF (400 000). L'Autriche et l'Italie n'ont pas pris en charge ces pertes. Quel est le montant du bénéfice imposable en Suisse en ce qui concerne l'impôt fédéral direct?",
+   "options": [
+    "CHF 0",
+    "CHF 3 100 000",
+    "CHF 2 900 000",
+    "CHF 2 500 000"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 0 est sans fondement — l'administration effective en Suisse fonde un assujettissement illimité (art. 50 LIFD) et le résultat mondial retraité reste largement positif.",
+    "Faux : 2 500 000 + 600 000 = 3 100 000 reprend AUSSI la perte de l'établissement stable autrichien ; or la perte d'un ES étranger non prise en charge par l'État étranger est déductible provisoirement en Suisse (art. 52 al. 3 LIFD, sous réserve de reprise ultérieure).",
+    "Juste : administration effective en Suisse → assujettissement ILLIMITÉ (art. 50 LIFD), qui ne s'étend toutefois pas aux ES et immeubles étrangers (art. 52 al. 1 LIFD). Perte de l'ES autrichien (600 000), non reprise par l'Autriche → déductible provisoirement en Suisse (art. 52 al. 3 LIFD) → conservée. Perte de l'immeuble italien (400 000) → NON déductible → neutralisée : 2 500 000 + 400 000 = CHF 2 900 000. C'est l'exemple « Mercantil SA » du mémento §1.2 (cas B).",
+    "Faux : CHF 2 500 000 sans retraitement laisse en déduction la perte de l'immeuble d'habitation italien, pourtant non déductible en Suisse (immeuble étranger hors du champ de l'assujettissement, art. 52 al. 1 LIFD)."
+   ]
+  },
+  {
+   "id": "FE-044",
+   "champ": "Étendue de l'assujettissement — ES et immeuble étrangers",
+   "memento": "§1.2",
+   "difficulte": 2,
+   "question": "B SA a son siège à Berne. Elle possède une succursale en Italie, un bien immobilier (placement de capitaux) en Autriche et un compte bancaire / dépôt de titres auprès d'une banque aux États-Unis. B SA réalise un bénéfice net global de CHF 7 mio., dont CHF 4 mio. de son activité en Suisse, CHF 1,5 mio. de son activité en Italie, CHF 0,8 mio. de plus-values immobilières en Autriche et CHF 0,7 mio. de revenus du capital du compte / dépôt de titres. À combien s'élève le bénéfice imposable en Suisse ?",
+   "options": [
+    "CHF 6,2 mio.",
+    "CHF 4,7 mio.",
+    "CHF 4 mio.",
+    "CHF 7 mio."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : 7 − 0,8 = 6,2 n'exonère que l'immeuble autrichien et oublie d'exonérer aussi le bénéfice de la succursale (ES) italienne de 1,5 mio (art. 52 al. 1 LIFD).",
+    "Juste : art. 52 al. 1 LIFD (mémento §1.2) — le bénéfice de la succursale (ES) italienne (1,5 mio) est exonéré ; le bénéfice de l'immeuble autrichien (0,8 mio) est exonéré ; les revenus du compte/dépôt de titres américain (0,7 mio) restent imposables en Suisse (fortune mobilière : ni entreprise, ni ES, ni immeuble). Bénéfice imposable = 4 + 0,7 = CHF 4,7 mio.",
+    "Faux : CHF 4 mio exonère à tort aussi les revenus de capitaux mobiliers étrangers ; l'exonération de l'art. 52 al. 1 LIFD ne vise que les entreprises, établissements stables et immeubles étrangers, pas les avoirs bancaires ou dépôts de titres.",
+    "Faux : CHF 7 mio impose le résultat mondial sans exonérer ni l'ES italien ni l'immeuble autrichien (art. 52 al. 1 LIFD)."
+   ]
+  },
+  {
+   "id": "FE-045",
+   "champ": "Généralités PM — affirmation fausse",
+   "memento": "§1.1 · §3",
+   "difficulte": 2,
+   "question": "Laquelle des affirmations suivantes concernant l'impôt fédéral direct est fausse ?",
+   "options": [
+    "Au début de l'assujettissement d'une personne morale, les réserves latentes sur une participation qualifiée (plus de 10% du capital) ne peuvent pas être déclarées dans le bilan fiscal",
+    "Les pertes subies par une entreprise alors que son siège se trouvait à l'étranger peuvent être déduites des bénéfices réalisés par cette entreprise après le transfert de son siège en Suisse",
+    "Les placements collectifs de capitaux avec propriété foncière directe sont imposés comme des personnes morales",
+    "Les résultats des établissements stables des sociétés de personnes étrangères sont soumis à l'impôt sur le bénéfice"
+   ],
+   "correct": 1,
+   "explications": [
+    "Affirmation exacte (donc pas la réponse cherchée) : lors du step-up à l'entrée en assujettissement (art. 61a LIFD ; mémento §3, « réserves latentes — début »), les réserves latentes peuvent être déclarées, à l'EXCEPTION de celles afférentes aux participations qualifiées (plus de 10 % du capital).",
+    "C'est l'affirmation FAUSSE, donc la bonne réponse : les pertes subies alors que le siège était à l'étranger — c'est-à-dire AVANT l'assujettissement en Suisse — ne sont pas déductibles des bénéfices réalisés après le transfert du siège en Suisse. Le report de pertes suppose un assujettissement suisse pendant les exercices où la perte est née.",
+    "Affirmation exacte : les placements collectifs de capitaux qui possèdent des immeubles en propriété directe sont assimilés aux personnes morales (art. 49 al. 2 LIFD ; mémento §1.1, définition de la PM).",
+    "Affirmation exacte selon la clé retenue : en vertu de l'art. 11 LIFD, les sociétés de personnes étrangères assujetties en raison d'un rattachement économique sont imposables conformément aux dispositions applicables aux personnes morales. Attention : le mémento §1.1 (piège) retient pour ce même cas une imposition transparente à l'impôt sur le revenu chez les associés (cf. FE-036) — tension entre les deux clés, signalée dans divergences.md."
+   ]
+  },
+  {
+   "id": "FE-046",
+   "champ": "Étendue de l'assujettissement — perte ES étranger déductible",
+   "memento": "§1.2",
+   "difficulte": 3,
+   "question": "C SA a son siège à Coire. Elle possède une succursale en Allemagne, un bien immobilier (placement de capitaux) en Autriche et un compte bancaire/dépôt de titres auprès d'une banque en France. C SA réalise un bénéfice net global de CHF 4,5 mio., dont CHF 5 mio. de son activité en Suisse, CHF 2 mio. de pertes liées à l'activité en Allemagne, CHF 0,8 mio. de bénéfices de l'immeuble de placement autrichien et CHF 0,7 mio. provenant de rendements de capitaux du compte bancaire / dépôt de titres. À combien s'élève le bénéfice imposable en Suisse de C SA ?",
+   "options": [
+    "CHF 3,7 mio.",
+    "CHF 4,5 mio.",
+    "CHF 5 mio.",
+    "CHF 5,7 mio."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : perte de la succursale (ES) allemande (−2 mio) : déductible provisoirement en Suisse faute d'imputation à l'étranger (art. 52 al. 3 LIFD, sous réserve de reprise ultérieure) → conservée ; bénéfice de l'immeuble autrichien (+0,8 mio) : exonéré → neutralisé ; rendements de capitaux français (+0,7 mio) : imposables (fortune mobilière). Bénéfice imposable = 5 − 2 + 0,7 = CHF 3,7 mio (mémento §1.2 : ES étranger → perte déductible / bénéfice exonéré ; immeuble étranger → bénéfice exonéré).",
+    "Faux : CHF 4,5 mio est le résultat global sans retraitement — il faut encore neutraliser le bénéfice exonéré de l'immeuble autrichien (−0,8 mio).",
+    "Faux : CHF 5 mio (= 4,5 + 2 − 0,8 − 0,7) ne garde que l'activité suisse : il neutralise À TORT la perte de l'ES allemand (pourtant déductible, art. 52 al. 3 LIFD) et exonère à tort les rendements de capitaux mobiliers.",
+    "Faux : CHF 5,7 mio (= 4,5 + 2 − 0,8) exonère correctement l'immeuble mais neutralise la perte de l'ES allemand comme si elle n'était pas déductible : l'asymétrie de l'art. 52 LIFD est prise à l'envers pour l'établissement stable."
+   ]
+  }
+ ]
+}

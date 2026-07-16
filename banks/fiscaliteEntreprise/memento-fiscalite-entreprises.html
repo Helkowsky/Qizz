@@ -1,0 +1,1470 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mémento — Fiscalité des entreprises</title>
+<style>
+/* ============================================================
+   charte.css — DA unique du cursus Expert-Comptable
+   Réutilisée à l'identique des modules TVA / Planification /
+   Conclusion & rapport d'audit. Badges de source, callouts,
+   tableaux, arbres. Ne pas surcharger.
+   ============================================================ */
+@page { size: A4; margin: 2cm 1.8cm;
+  @bottom-right { content: counter(page) " / " counter(pages); font-size: 8pt; color: #888; }
+  @top-left { content: string(chapitre); font-size: 8pt; color: #888; } }
+
+body { font-family: "Source Sans Pro","Segoe UI",system-ui,sans-serif;
+  font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
+
+h1 { string-set: chapitre content(); font-size: 20pt; color: #0f3d5c;
+     border-bottom: 3px solid #0f3d5c; padding-bottom: 4pt; page-break-before: always; }
+h2 { font-size: 14pt; color: #0f3d5c; margin-top: 18pt; }
+h3 { font-size: 11.5pt; color: #333; margin-bottom: 3pt; }
+
+/* ---- Badges de niveau de source ---- */
+.primaire, .secondaire, .avalider {
+  font-size: 7.5pt; font-weight: 700; padding: 0 5pt; border-radius: 3pt; letter-spacing: .3pt; }
+.primaire  { background: #e2f3e5; color: #1b6e2a; }
+.secondaire{ background: #e3edf7; color: #14538c; }
+.avalider  { background: #fdeede; color: #b25b12; }
+.ref-norme { font-weight: 700; color: #0f3d5c; white-space: nowrap; }
+
+/* ---- Callouts standardisés (bloc) ---- */
+.but, .piege, .connexions, .autotest, .changement, .apport {
+  display: block; border-left: 4pt solid; padding: 6pt 10pt; margin: 10pt 0;
+  border-radius: 0 4pt 4pt 0; page-break-inside: avoid; }
+.but        { border-color: #1b6e2a; background: #f4faf5; }
+.piege      { border-color: #c0392b; background: #fdf3f2; }
+.connexions { border-color: #8e44ad; background: #f9f4fc; }
+.autotest   { border-color: #14538c; background: #f2f7fc; }
+.changement { border-color: #b25b12; background: #fdf4ea; }
+.apport     { border-color: #6b7280; background: #f6f7f8; }
+.callout-titre { font-weight: 700; font-size: 9pt; text-transform: uppercase;
+                 letter-spacing: .5pt; margin-bottom: 3pt; }
+
+/* ---- Tableaux ---- */
+table { border-collapse: collapse; margin: 8pt 0; width: 100%; }
+th { background: #eef2f5; padding: 5pt 8pt; text-align: left; font-size: 9.5pt; }
+td { padding: 4pt 8pt; border-bottom: .5pt solid #e0e5ea; vertical-align: top; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+thead { display: table-header-group; }
+table.compare th:first-child { width: 26%; }
+td.oui { color:#1b6e2a; font-weight:600; } td.non { color:#c0392b; font-weight:600; }
+td.num { text-align:right; font-variant-numeric: tabular-nums; white-space:nowrap; }
+th.num { text-align:right; }
+
+/* ---- Tableau d'écriture comptable ---- */
+table.ecriture td { font-size:9.5pt; }
+table.ecriture td.cpt { font-weight:600; color:#0f3d5c; }
+
+/* ---- Arbre décisionnel en bloc code (format du cursus) ---- */
+pre.arbre { background:#0f3d5c; color:#eaf1f6; font:11px/1.5 ui-monospace,"Cascadia Code",Consolas,monospace;
+  padding:12pt 14pt; border-radius:6pt; overflow-x:auto; margin:10pt 0; page-break-inside:avoid;
+  border-left:4pt solid #14538c; }
+
+/* ---- Réf. sur ligne séparée & divers ---- */
+.ref-sous { display:block; font-size:8pt; color:#777; margin:1pt 0 5pt; padding-left:2pt;
+            border-left:2pt solid #dfe4e8; }
+.chapo { font-size:10pt; color:#3a3a3a; background:#f5f8fa; border-left:3pt solid #0f3d5c;
+         padding:6pt 10pt; margin:6pt 0 12pt; border-radius:0 4pt 4pt 0; }
+.formule { background:#f2f7fc; border:1pt solid #cfe0f0; border-radius:5pt; padding:8pt 12pt;
+           font-size:11.5pt; text-align:center; margin:10pt 0; color:#0f3d5c; font-weight:600; }
+.formule small { display:block; font-size:8.5pt; color:#555; font-weight:400; margin-top:3pt; }
+.reponses { font-size:9pt; color:#444; border-top:1pt dashed #aaa; margin-top:10pt; padding-top:6pt; }
+
+/* ---- Page de garde & TOC ---- */
+.page-garde { page-break-after: always; text-align:center; display:flex; flex-direction:column;
+              justify-content:center; min-height:22cm; }
+.page-garde h1 { page-break-before: avoid; border:none; string-set:none; font-size:38pt;
+                 color:#0f3d5c; margin:6pt 0; }
+.pg-kicker { text-transform:uppercase; letter-spacing:2pt; font-size:11pt; color:#14538c; }
+.pg-soustitre { font-size:15pt; color:#333; margin-top:4pt; }
+.pg-desc { font-size:11pt; color:#555; margin-top:18pt; }
+.pg-legende { font-size:9pt; color:#555; margin-top:26pt; line-height:2; }
+.pg-pied { font-size:9pt; color:#888; margin-top:22pt; }
+.toc-h { page-break-before: always; font-size:18pt; color:#0f3d5c; border-bottom:2pt solid #0f3d5c;
+         padding-bottom:3pt; }
+nav.toc ul { list-style:none; padding-left:0; margin:0; }
+nav.toc li.lvl1 { margin-top:7pt; font-weight:700; color:#0f3d5c; }
+nav.toc li.lvl2 { margin-left:14pt; font-weight:400; color:#333; font-size:9.7pt; }
+nav.toc a { text-decoration:none; color:inherit; }
+
+@media screen {
+  body { max-width: 21cm; margin: 1.5rem auto; padding: 0 1.2cm; background:#fff;
+         box-shadow:0 0 12px rgba(0,0,0,.08); }
+  h1 { page-break-before: auto; }
+  nav.toc a:hover { color:#14538c; text-decoration:underline; }
+}
+@media print { * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; } }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE DE GARDE ===================== -->
+<section class="page-garde">
+  <div class="pg-kicker">Expert-Comptable diplômé · ExpertSuisse</div>
+  <h1>Fiscalité des entreprises</h1>
+  <div class="pg-soustitre">Mémento d'examen — Module 8</div>
+  <div class="pg-desc">Assujettissement des personnes morales · principe de déterminance (58) · amortissements &amp; provisions (62-63) ·
+    remploi (64) · report de pertes (67) · réduction pour participations (69-70)<br>
+    distributions dissimulées &amp; prestations appréciables en argent · capital propre dissimulé (65)<br>
+    principe de l'apport en capital (20 al. 3) · dividendes qualifiés · transposition &amp; LPI (20a) ·
+    impôt anticipé (LIA) · droits de timbre (LT) · imposition du capital &amp; outils STAF</div>
+  <div class="pg-legende">
+    <span class="primaire">PRIMAIRE</span> source officielle Fedlex (LIFD · LHID · LIA · LT · OIA · OT · CO) &nbsp;·&nbsp;
+    <span class="secondaire">SECONDAIRE</span> pratique AFC corroborée (circulaires, notices, Circ. CSI 28) &nbsp;·&nbsp;
+    <span class="avalider">À VÉRIFIER</span> à confirmer selon la session
+  </div>
+  <div class="pg-pied">Édition 2026 · État du droit au 1.1.2026 · post-RFFA/STAF (1.1.2020) · droit de la SA révisé (1.1.2023)</div>
+</section>
+
+<!-- ===================== AVERTISSEMENTS ===================== -->
+<section>
+  <div class="changement">
+    <div class="callout-titre">🔄 Changement de norme — RFFA / STAF (en vigueur 1.1.2020)</div>
+    La réforme fiscale et financement de l'AVS a <b>supprimé les statuts fiscaux cantonaux privilégiés</b>
+    (holding, société de domicile, société mixte — anciens art. 28 al. 2-4 aLHID). Toute question d'ancien
+    examen fondée sur ces statuts est <b>périmée</b> : la notion est désormais traitée via les outils STAF
+    (<b>patent box</b> art. 24a-24b LHID, <b>surdéduction R&amp;D</b> 25a, <b>limite de décharge</b> 25b,
+    <b>step-up</b>). Attention : dans ce module, le mot « holding » désigne une <b>fonction</b> (société
+    détentrice de participations) et non le statut aboli. La <b>réduction pour participations</b> (69-70 LIFD)
+    n'est <b>pas</b> un statut : elle subsiste et s'applique à toutes les sociétés de capitaux.
+  </div>
+  <div class="changement">
+    <div class="callout-titre">🔄 Changement de norme — principe de l'apport en capital (depuis 2011) &amp; sociétés cotées (depuis 2020)</div>
+    L'ancien <b>principe de la valeur nominale</b> (Nennwertprinzip) a été remplacé au 1.1.2011 par le
+    <b>principe de l'apport en capital</b> : le remboursement de <b>réserves issues d'apports de capital
+    (RAC)</b> constituées après le 31.12.1996 n'est pas soumis à l'impôt sur le revenu ni à l'impôt anticipé
+    (<span class="ref-norme">art. 20 al. 3 LIFD</span>, <span class="ref-norme">art. 5 al. 1bis LIA</span>).
+    Depuis le <b>1.1.2020</b>, pour les <b>sociétés cotées en bourse suisse</b>, le remboursement de RAC
+    n'est franc d'impôt que si un montant <b>au moins équivalent</b> de réserves imposables (bénéfices) est
+    distribué en parallèle — règle « <b>50/50 » de la double distribution</b>
+    (<span class="ref-norme">art. 20 al. 4 LIFD</span>, <span class="ref-norme">art. 5 al. 1ter LIA</span>).
+  </div>
+  <div class="piege">
+    <div class="callout-titre">⚠️ Taux, franchises &amp; circulaires — à revérifier pour la session</div>
+    Valeurs de référence utilisées ici : <b>IFD sur le bénéfice 8,5 %</b> (art. 68) · <b>4,25 %</b> pour
+    associations/fondations (art. 71) · <b>impôt anticipé 35 %</b> · <b>droit d'émission 1 %</b>, franchise
+    <b>CHF 1 mio</b> · <b>droit de négociation 1,5 ‰</b> (titres suisses) / <b>3 ‰</b> (titres étrangers) ·
+    <b>taux d'intérêt AFC</b> sur avances aux actionnaires selon la <b>lettre-circulaire annuelle</b>
+    (p. ex. 3 % jusqu'à CHF 1 mio, 1 % au-delà — immeubles/exploitation). <b>Confirme les valeurs et
+    circulaires en vigueur pour ta session.</b>
+  </div>
+</section>
+
+<!-- ===================== TABLE DES MATIÈRES ===================== -->
+<h2 class="toc-h">Table des matières</h2>
+<nav class="toc">
+<ul>
+  <li class="lvl1"><a href="#s1">1 · Assujettissement des personnes morales (49-56, 66a)</a></li>
+    <li class="lvl2"><a href="#s1-1">1.1 Souveraineté &amp; rattachement personnel / économique</a></li>
+    <li class="lvl2"><a href="#s1-2">1.2 Étendue · début / fin · exonérations · transparence</a></li>
+  <li class="lvl1"><a href="#s2">2 · Bénéfice imposable &amp; principe de déterminance (58-60)</a></li>
+    <li class="lvl2"><a href="#s2-1">2.1 Le schéma bénéfice comptable → bénéfice imposable</a></li>
+    <li class="lvl2"><a href="#s2-2">2.2 Charges justifiées (59) · éléments sans influence (60)</a></li>
+  <li class="lvl1"><a href="#s3">3 · Amortissements, provisions, réserves latentes (61-63)</a></li>
+  <li class="lvl1"><a href="#s4">4 · Remploi (64) — report des réserves latentes</a></li>
+  <li class="lvl1"><a href="#s5">5 · Report de pertes (67) — 7 ans</a></li>
+  <li class="lvl1"><a href="#s6">6 · Réduction pour participations (69-70) — LE calcul</a></li>
+  <li class="lvl1"><a href="#s7">7 · Distributions dissimulées / prestations appréciables en argent</a></li>
+  <li class="lvl1"><a href="#s8">8 · Capital propre dissimulé (65)</a></li>
+  <li class="lvl1"><a href="#s9">9 · Apport en capital (20 al. 3) · assainissement · restructurations (61)</a></li>
+  <li class="lvl1"><a href="#s10">10 · Personnes physiques : dividendes qualifiés, IGI, transposition &amp; LPI (20a)</a></li>
+  <li class="lvl1"><a href="#s11">11 · Impôt anticipé (LIA)</a></li>
+  <li class="lvl1"><a href="#s12">12 · Droit de timbre d'émission (LT)</a></li>
+  <li class="lvl1"><a href="#s13">13 · Droit de timbre de négociation (LT)</a></li>
+  <li class="lvl1"><a href="#s14">14 · Imposition du capital &amp; outils STAF</a></li>
+  <li class="lvl1"><a href="#s15">15 · Évaluation des titres non cotés (Circ. CSI n° 28)</a></li>
+  <li class="lvl1"><a href="#s16">16 · Procédure &amp; tableau des faux amis</a></li>
+  <li class="lvl1"><a href="#s17">17 · Arbres de décision</a></li>
+</ul>
+</nav>
+
+<!-- ============================================================
+     SECTION 1
+     ============================================================ -->
+<h1 id="s1">1 · Assujettissement des personnes morales</h1>
+<p class="chapo">Avant de calculer un bénéfice, il faut établir <b>qui</b> est imposable, <b>où</b> et
+<b>sur quoi</b>. Deux rattachements : <b>personnel</b> (siège ou administration effective en Suisse →
+assujettissement <b>illimité</b>) et <b>économique</b> (établissement stable, immeuble → assujettissement
+<b>limité</b>). L'impôt sur le bénéfice frappe la personne morale ; les sociétés de personnes sont
+<b>transparentes</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'impôt sur le bénéfice existe parce que la <b>personne morale a une capacité contributive propre</b>,
+  distincte de celle de ses associés — d'où la <b>double imposition économique</b> (bénéfice chez la société,
+  puis dividende chez l'actionnaire), atténuée par l'imposition partielle et la réduction pour participations.
+  Le rattachement délimite jusqu'où le fisc suisse peut aller : la Suisse <b>exonère unilatéralement</b> les
+  entreprises, établissements stables et immeubles situés à l'étranger.
+</div>
+
+<h2 id="s1-1">1.1 · Souveraineté &amp; rattachement</h2>
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Contenu</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Souveraineté Confédération</b></td><td>Impôt sur le bénéfice, taux maximal <b>8,5 %</b> du bénéfice net</td><td><span class="ref-norme">art. 128 al. 1 Cst</span> · <span class="ref-norme">art. 1 let. b, 68 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Définition de la PM</b></td><td>Sociétés de capitaux (SA, Sàrl, SCA), coopératives, associations, fondations ; assimilées : placements collectifs à immeubles en propriété directe, SICAF, communautés étrangères</td><td><span class="ref-norme">art. 49 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Rattachement personnel</b></td><td><b>Siège</b> OU <b>administration effective</b> en Suisse → assujettissement <b>illimité</b></td><td><span class="ref-norme">art. 50 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Rattachement économique</b></td><td>Entreprise, <b>établissement stable</b>, immeuble en Suisse (siège/admin. à l'étranger) → assujettissement <b>limité</b></td><td><span class="ref-norme">art. 51 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Établissement stable</b></td><td>Installation fixe où s'exerce tout ou partie de l'activité (succursale, usine, atelier, point de vente) ; chantier <b>≥ 12 mois</b></td><td><span class="ref-norme">art. 51 al. 2 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — sociétés de personnes = transparentes</div>
+  Une <b>société en nom collectif / en commandite / simple</b> et une <b>communauté héréditaire</b> ne sont
+  <b>pas</b> des sujets fiscaux (<span class="ref-norme">art. 10 LIFD</span>) : leur résultat est imposé
+  <b>chez les associés</b>, à l'impôt sur le <b>revenu</b>, au taux applicable à leur situation. Un
+  établissement stable suisse d'une société de personnes <b>étrangère</b> est donc imposé à l'impôt sur le
+  <b>revenu</b> chez les associés (au taux du résultat de l'établissement stable), <b>pas</b> à l'impôt sur
+  le bénéfice.
+</div>
+
+<h2 id="s1-2">1.2 · Étendue de l'assujettissement — le mécanisme d'exonération</h2>
+<p>L'assujettissement illimité <b>ne s'étend pas</b> aux entreprises, établissements stables et immeubles
+<b>à l'étranger</b> (<span class="ref-norme">art. 52 al. 1 LIFD</span>). Traitement <b>asymétrique</b> des
+éléments étrangers :</p>
+<table class="compare">
+  <thead><tr><th>Élément étranger</th><th>Bénéfice</th><th>Perte</th></tr></thead>
+  <tbody>
+    <tr><td><b>Établissement stable</b></td><td class="non">Exonéré (retiré du résultat CH)</td><td class="oui">Déductible en CH (temporaire, <b>reprise dans les 7 ans</b> si l'ES redevient bénéficiaire)</td></tr>
+    <tr><td><b>Immeuble à l'étranger</b></td><td class="non">Exonéré</td><td class="non">Non déductible — <b>sauf</b> immeuble de placement avec ES maintenu dans le pays</td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré — étendue de l'assujettissement (deux cas)</div>
+  <b>Cas A — Ryckon SA</b> (siège + admin. effective à Fribourg → illimité). Résultat mondial
+  <b>CHF 800 000</b>, incluant un <b>bénéfice</b> d'ES à Lyon de +200 000 et une <b>perte</b> sur immeuble
+  locatif à Munich de −150 000.
+  <table>
+    <tbody>
+      <tr><td>Résultat mondial</td><td class="num">800 000</td></tr>
+      <tr><td>./. Bénéfice ES Lyon (exonéré, art. 52 al. 1)</td><td class="num">− 200 000</td></tr>
+      <tr><td>+ Perte immeuble Munich (non déductible → neutralisée)</td><td class="num">+ 150 000</td></tr>
+      <tr><td><b>Bénéfice imposable en Suisse (IFD)</b></td><td class="num"><b>750 000</b></td></tr>
+    </tbody>
+  </table>
+  <b>Cas B — Mercantil SA</b> (siège en Allemagne, <b>admin. effective en Suisse → illimité</b>). Résultat
+  mondial +2 500 000, incluant une <b>perte</b> d'ES en Autriche de −600 000 et une <b>perte</b> immeuble en
+  Italie de −400 000 (ni l'Autriche ni l'Italie ne les ont reprises).
+  <table>
+    <tbody>
+      <tr><td>Résultat mondial</td><td class="num">2 500 000</td></tr>
+      <tr><td>Perte ES Autriche : <b>déductible</b> en CH (art. 52 al. 1) → conservée</td><td class="num">0</td></tr>
+      <tr><td>+ Perte immeuble Italie (non déductible → neutralisée)</td><td class="num">+ 400 000</td></tr>
+      <tr><td><b>Bénéfice imposable en Suisse (IFD)</b></td><td class="num"><b>2 900 000</b></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Retenir : ES étranger → <b>perte déductible</b> / bénéfice exonéré ; immeuble étranger → <b>perte NON déductible</b> / bénéfice exonéré.</span>
+</div>
+
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Règle</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Début</b></td><td>Fondation, transfert du siège/admin. en Suisse, ou acquisition d'un élément imposable ; inscription au RC déterminante</td><td><span class="ref-norme">art. 54 al. 1 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Fin</b></td><td><b>Clôture de la liquidation</b>, transfert du siège/admin. à l'étranger, ou disparition de l'élément imposable</td><td><span class="ref-norme">art. 54 al. 2 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Exonérations</b></td><td>Collectivités publiques, prévoyance professionnelle, PM de service public / utilité publique / cultuelles (affectation exclusive &amp; irrévocable)</td><td><span class="ref-norme">art. 56 LIFD</span> · <span class="ref-norme">Circ. AFC n° 12</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Buts idéaux</b></td><td>Bénéfice exonéré <b>jusqu'à CHF 20 000</b> (franchise, pas limite d'exonération), si affecté exclusivement à ces buts</td><td><span class="ref-norme">art. 66a LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — fin de l'assujettissement</div>
+  L'assujettissement finit avec la <b>clôture de la liquidation</b> (généralement la radiation du RC), <b>pas</b>
+  avec la simple mention « en liquidation », ni avec le paiement des dettes fiscales.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'exonération des associations/fondations (§1) rejoint le calcul de leur bénéfice imposable
+  (<span class="ref-norme">art. 66a</span> franchise 20 000 ; taux <b>4,25 %</b>, <span class="ref-norme">art. 71</span>
+  avec limite d'exonération à 5 000 pour associations/fondations) — testé par les cas « club TV Super » et
+  « Fussballarena » (voir QCM). La distinction <b>franchise</b> (on n'impose que l'excédent) vs <b>limite
+  d'exonération</b> (au-delà, tout est imposé) est un piège récurrent.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Une SA a son siège à Vaud, son administration effective à Fribourg, un ES au Valais. Où l'assujettissement est-il <b>illimité</b> ? Sur quelle base ?<br>
+  2. La perte d'un immeuble locatif en France d'une SA suisse est-elle déductible en Suisse ? Et la perte d'un établissement stable en France ?<br>
+  3. Une société en nom collectif ayant son siège à Zoug est-elle assujettie à l'impôt sur le <i>bénéfice</i> ? Pourquoi ?<br>
+  4. Franchise vs limite d'exonération : lequel des deux s'applique aux buts idéaux (art. 66a) ?
+</div>
+
+<!-- ============================================================
+     SECTION 2
+     ============================================================ -->
+<h1 id="s2">2 · Bénéfice imposable &amp; principe de déterminance</h1>
+<p class="chapo">Le <b>bilan commercial</b> conforme au droit commercial est le <b>point de départ</b> du bénéfice
+imposable : c'est le <b>principe de déterminance</b> (<span class="ref-norme">art. 58 al. 1 let. a LIFD</span>).
+Le fisc <b>corrige</b> ensuite : il <b>ajoute</b> les charges non justifiées et les produits non comptabilisés,
+et <b>retire</b> les éléments sans influence (apports).</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  La déterminance garantit la <b>sécurité</b> : les comptes approuvés par l'AG lient <b>aussi bien</b> le
+  contribuable que le fisc (<b>effet protecteur du bilan commercial</b>). Le fisc ne s'en écarte que si les
+  comptes violent le droit commercial ou si une <b>règle fiscale</b> le prévoit expressément. C'est un
+  filtre à double sens : valeurs <b>maximales</b> côté droit commercial, valeurs <b>minimales</b> côté fiscal.
+</div>
+
+<h2 id="s2-1">2.1 · Le schéma de correction</h2>
+<div class="formule">
+  Bénéfice net comptable (58 al. 1 let. a)<br>
+  + charges non justifiées par l'usage commercial (58 al. 1 let. b)<br>
+  + produits imposables non comptabilisés (58 al. 1 let. c)<br>
+  − éléments sans influence sur le résultat : apports (art. 60)<br>
+  − pertes reportées imputables (art. 67)<br>
+  <b>= bénéfice net imposable</b>
+</div>
+
+<table class="compare">
+  <thead><tr><th>Poste</th><th>Traitement</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Charges non justifiées</b> (58 al. 1 let. b)</td><td>Reprises : frais privés de l'actionnaire, amort./prov. injustifiés, distributions ouvertes &amp; dissimulées, avantages à des tiers non commerciaux</td><td><span class="ref-norme">art. 58 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Produits non comptabilisés</b> (58 al. 1 let. c)</td><td>Gains en capital, bénéfices de réévaluation, bénéfices de liquidation</td><td><span class="ref-norme">art. 58 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Distribution dissimulée</b> (au sens strict)</td><td>Charge excessive dans l'intérêt du détenteur de parts (voir §7)</td><td><span class="ref-norme">art. 58 al. 1 let. b</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Correction</b> vs <b>modification</b> de bilan</td><td><b>Correction</b> : d'un bilan <i>non conforme</i> → conforme (imposée par le fisc, admise). <b>Modification</b> : d'un bilan <i>conforme</i> → un autre bilan conforme (par le contribuable, en principe <b>refusée</b> après dépôt)</td><td><span class="ref-norme">art. 58 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="changement">
+  <div class="callout-titre">🔄 Modification de bilan — jusqu'à quand ?</div>
+  Le contribuable ne peut requalifier une écriture (p. ex. voyage privé → salaire) que <b>jusqu'au dépôt de
+  la déclaration</b> auprès de l'autorité compétente. Après, la modification est en principe exclue (le fisc
+  ne concède qu'une <b>correction</b> d'erreurs de droit commercial).
+</div>
+
+<h2 id="s2-2">2.2 · Charges justifiées (59) · éléments sans influence (60)</h2>
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Contenu</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Charges justifiées</b></td><td>Notamment : impôts fédéraux/cantonaux/communaux, versements de prévoyance en faveur du personnel, versements à des institutions d'utilité publique. Liste des charges <b>exclues</b> à l'al. 2 (amendes, commissions occultes…)</td><td><span class="ref-norme">art. 59 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Éléments sans influence</b></td><td>Apports en capital, <b>agios</b>, versements à fonds perdu, abandons de créance improprement dits, augmentations de fortune par succession/donation → <b>pas de bénéfice imposable</b></td><td><span class="ref-norme">art. 60 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Apport dissimulé de capital</b></td><td>Apport « à titre gratuit » ou en deçà de la valeur ; déclarable sans conséquence l'année de l'apport ; réévaluations ultérieures imposables (58 al. 1 let. c)</td><td><span class="ref-norme">art. 60 let. a LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré — bénéfice imposable (Fabric SA)</div>
+  Résultat comptable <b>CHF 90 000</b>. Retraitements :
+  <table>
+    <tbody>
+      <tr><td>Résultat comptable</td><td class="num">90 000</td></tr>
+      <tr><td>+ Voyage de noces de l'actionnaire (charge privée non justifiée, 58 al. 1 let. b)</td><td class="num">+ 50 000</td></tr>
+      <tr><td>− Apport de l'actionnaire comptabilisé <b>en produit</b> (élément sans influence, art. 60)</td><td class="num">− 60 000</td></tr>
+      <tr><td>− Dissolution d'une provision <b>déjà corrigée fiscalement en 2021</b> (produit comptable non imposable, sinon double imposition)</td><td class="num">− 200 000</td></tr>
+      <tr><td>+ Intérêts sur la part de <b>capital propre dissimulé</b> (200 000 × 3,75 %, voir §8)</td><td class="num">+ 7 500</td></tr>
+      <tr><td><b>Bénéfice net imposable (IFD)</b></td><td class="num"><b>(112 500)</b> perte</td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Trois réflexes : l'apport en produit se <b>retire</b> (60) ; une provision déjà reprise se dissout <b>hors résultat fiscal</b> ; les intérêts sur le CP dissimulé se <b>rajoutent</b> (65).</span>
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le retrait d'un apport comptabilisé en produit (art. 60) est le <b>miroir</b> de la reprise d'une charge
+  privée (art. 58 al. 1 let. b) : dans les deux cas, on <b>rétablit le bénéfice économique réel</b>. La
+  provision « déjà corrigée » relie ce §2 au §3 (provisions) : une fois reprise fiscalement, sa dissolution
+  future est neutre.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Un agio versé lors d'une augmentation de capital est-il un bénéfice imposable ? Base légale ?<br>
+  2. Le fisc peut-il s'écarter d'un bilan commercial conforme au droit commercial ? Dans quels cas ?<br>
+  3. Une provision non admise fiscalement en année N, dissoute en N+2 : la dissolution est-elle imposable ?<br>
+  4. <i>(rappel §1)</i> Sur quel critère une SA au siège étranger devient-elle illimitée en Suisse ?
+</div>
+
+<!-- ============================================================
+     SECTION 3
+     ============================================================ -->
+<h1 id="s3">3 · Amortissements, provisions, réserves latentes</h1>
+<p class="chapo">Amortissements (<span class="ref-norme">62</span>) et provisions (<span class="ref-norme">63</span>)
+sont reconnus fiscalement à <b>double condition</b> : <b>comptabilisés</b> (plan formel) <b>et</b> justifiés
+par l'usage commercial (plan matériel). Ils sont <b>repris</b> dès qu'ils ne se justifient plus.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'amortissement traduit une <b>perte de valeur définitive</b> ; la provision, une <b>charge future
+  probable mais incertaine</b>. Le fisc admet la prudence commerciale, mais refuse qu'elle serve à
+  <b>constituer des réserves latentes non justifiées</b> qui différeraient indûment l'impôt.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Instrument</th><th>Règle fiscale</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Amortissements</b></td><td>Sur l'actif immobilisé, selon l'usure et le temps ; <b>comptabilisés</b> pour être reconnus ; opération <b>définitive</b>. Suramortissement = repris au bénéfice <b>et</b> au capital (réserve latente imposée)</td><td><span class="ref-norme">art. 62 LIFD</span> · <span class="ref-norme">Notice AFC A/1995</span> <span class="secondaire">SEC.</span></td></tr>
+    <tr><td><b>Amort. de participations qualifiées</b></td><td>Les amortissements/corrections de valeur sont <b>réintégrés</b> au bénéfice dès qu'ils ne sont plus justifiés</td><td><span class="ref-norme">art. 62 al. 4 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Provisions</b></td><td>Conditions (960e al. 2 CO) : événement passé, perte future attendue, évaluation fiable. <b>Provision R&amp;D</b> pour futurs mandats confiés à des tiers <b>admise</b></td><td><span class="ref-norme">art. 63 LIFD</span> · <span class="ref-norme">art. 63 al. 1 let. d</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Réserve privilégiée sur stock</b> (« tiers marchandises »)</td><td>Sous-évaluation forfaitaire du stock admise jusqu'à <b>1/3</b> de sa valeur ; l'excédent est repris</td><td><span class="ref-norme">Pratique AFC</span> <span class="secondaire">SEC.</span> <span class="avalider">à vérifier session</span></td></tr>
+    <tr><td><b>Réserves latentes — début (step-up)</b></td><td>Déclaration à l'entrée en assujettissement (droit d'option : droit commercial sans goodwill / droit fiscal)</td><td><span class="ref-norme">art. 61a LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Réserves latentes — fin</b></td><td>Imposition à la sortie (sauf éléments restant liés à un assujettissement limité en CH)</td><td><span class="ref-norme">art. 61b LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré A — provisions &amp; réserves (Evazyon SA)</div>
+  Bénéfice comptable <b>CHF 750 000</b>.
+  <table>
+    <tbody>
+      <tr><td>Bénéfice comptable</td><td class="num">750 000</td></tr>
+      <tr><td>+ Réserve sur stock à 40 % : excédent au-delà du 1/3 admis (300 000 − 250 000)</td><td class="num">+ 50 000</td></tr>
+      <tr><td>+ Provision pour risque de procès <b>gagné en 2022</b> mais non dissoute (plus justifiée → reprise, même si 960e al. 4 CO permet de la garder au bilan)</td><td class="num">+ 200 000</td></tr>
+      <tr><td>Provision R&amp;D futurs mandats tiers (art. 63 al. 1 let. d) : <b>admise</b> → pas de reprise</td><td class="num">0</td></tr>
+      <tr><td><b>Bénéfice net imposable (IFD)</b></td><td class="num"><b>1 000 000</b></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Piège 960e al. 4 CO : une provision devenue injustifiée reste <b>reprise fiscalement</b> même si le droit commercial autorise à la conserver.</span>
+</div>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré B — amortissements de participations récupérables (X SA)</div>
+  Amortissements comptabilisés en 2022 (taux de participation entre parenthèses), taxation 2022 définitive.
+  Lesquels peuvent être <b>repris fiscalement</b> à l'avenir (art. 62 al. 4) ?
+  <table class="compare">
+    <thead><tr><th>Participation</th><th>Amort.</th><th>Reprise future possible ?</th></tr></thead>
+    <tbody>
+      <tr><td>T1 (25 %)</td><td class="num">30 000</td><td class="oui">Oui — participation qualifiée, valeur récupérable</td></tr>
+      <tr><td>T2 (8 %)</td><td class="num">12 000</td><td class="non">Non — &lt; 10 %, amort. ordinaire (hors 62 al. 4)</td></tr>
+      <tr><td>T3 (80 %)</td><td class="num">50 000</td><td class="oui">Oui — participation qualifiée, valeur récupérable</td></tr>
+      <tr><td>T4 (75 %)</td><td class="num">300 000</td><td class="non">Non — cessation d'activité = perte <b>définitive</b></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Réponse : <b>T1 et T3</b>. La reprise ne vise que les participations <b>qualifiées</b> dont la valeur peut se <b>reconstituer</b> ; une perte définitive (T4) ou une participation non qualifiée (T2) en est exclue.</span>
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — dissolution de provision</div>
+  Provision pour garantie de 100 constituée en N ; sinistres de 80 réglés en N+1. Il faut <b>dissoudre les
+  20 excédentaires</b> avec effet sur le résultat (la part utilisée, 80, est consommée ; le solde n'est plus
+  justifié).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'amortissement d'une participation qualifiée (62 al. 4) prépare le §6 : lorsqu'il est <b>lié à une
+  distribution</b> (dividende prélevé sur la substance), il <b>réduit le coût d'investissement</b> et le
+  rendement net déterminant pour la réduction pour participations.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Quelles sont les deux conditions cumulatives pour qu'un amortissement soit reconnu fiscalement ?<br>
+  2. Une provision pour un procès finalement gagné : que devient-elle fiscalement, même si l'entreprise la garde au bilan (960e al. 4 CO) ?<br>
+  3. Un amortissement de 12 000 sur une participation de 8 % peut-il être repris à l'avenir au sens de l'art. 62 al. 4 ?<br>
+  4. <i>(rappel §2)</i> Où s'arrête la possibilité de <i>modifier</i> un bilan conforme au droit commercial ?
+</div>
+
+<!-- ============================================================
+     SECTION 4
+     ============================================================ -->
+<h1 id="s4">4 · Remploi — report des réserves latentes (64)</h1>
+<p class="chapo">Le remploi permet de <b>reporter</b> les réserves latentes d'un actif immobilisé
+<b>nécessaire à l'exploitation</b> sur le <b>bien acquis en remplacement</b>, au lieu de les imposer
+immédiatement à la vente. Application de la <b>méthode absolue</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Ne pas <b>pénaliser fiscalement le renouvellement de l'outil de production</b> : tant que l'entreprise
+  réinvestit dans un actif d'exploitation, les réserves latentes ne sont pas « réalisées » mais transférées.
+  C'est un <b>report</b>, pas une exonération.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Condition</th><th>Détail</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Actif d'exploitation</b></td><td>Immobilisé <b>nécessaire à l'exploitation</b> (pas un placement)</td><td><span class="ref-norme">art. 64 al. 1 &amp; 3 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Remplacement en Suisse</b></td><td>Le bien de remplacement doit être <b>situé en Suisse</b></td><td><span class="ref-norme">art. 64 al. 1 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Même nature</b></td><td>Immobilier → mobilier <b>exclu</b> (pas de report des RL immobilières vers du mobilier)</td><td><span class="ref-norme">art. 64 al. 1 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Délai</b></td><td>Délai raisonnable (≈ <b>2 ans</b>) ; <b>provision</b> possible si le remploi n'a pas lieu la même période</td><td><span class="ref-norme">art. 64 al. 2 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Remploi sur participations</b></td><td>Participation ≥ <b>10 %</b>, détenue ≥ <b>1 an</b>, par une société de capitaux/coopérative ; délai <b>3 ans</b></td><td><span class="ref-norme">art. 64 al. 1bis LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemples chiffrés — méthode absolue (Hofer SA)</div>
+  Camion, valeur déterminante pour l'impôt <b>50 000</b> (réserves latentes = prix de vente − valeur fiscale).
+  Sous la <b>méthode absolue</b> (celle du support), les RL se reportent <b>intégralement</b> et <b>rien n'est
+  imposé</b> tant que le prix du bien de remplacement ≥ <b>valeur fiscale de l'ancien bien (50 000)</b> ; le
+  nouveau bien reçoit alors la valeur fiscale = coût − RL.
+  <table class="compare">
+    <thead><tr><th>Variante</th><th>Prix de vente</th><th>Nouveau bien</th><th>RL</th><th>Valeur fiscale du nouveau bien</th><th>Imposé</th></tr></thead>
+    <tbody>
+      <tr><td><b>I</b></td><td class="num">70 000</td><td class="num">210 000</td><td class="num">20 000</td><td class="num"><b>190 000</b> = 210 000 − 20 000</td><td class="num">0</td></tr>
+      <tr><td><b>II</b></td><td class="num">180 000</td><td class="num">170 000</td><td class="num">130 000</td><td class="num"><b>40 000</b> = 170 000 − 130 000</td><td class="num">0</td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Variante II : le remplacement (170 000) est inférieur au <i>produit</i> (180 000) mais reste supérieur à la <i>valeur fiscale de l'ancien bien</i> (50 000) → report intégral des 130 000 de RL, <b>rien d'imposé maintenant</b> ; les RL se retrouvent « comprimées » dans un bien inscrit à 40 000 (imposées plus tard, via des amortissements moindres).</span>
+</div>
+
+<div class="apport">
+  <div class="callout-titre">📎 Méthode absolue vs différentielle — à vérifier avec ton cours</div>
+  Sous la <b>méthode absolue</b> (retenue ici, conforme au support), le fait de ne pas réinvestir la
+  <i>totalité</i> du produit n'est <b>pas</b> imposé tant que le remplacement ≥ valeur fiscale de l'ancien
+  bien. Certains supports appliquent la <b>méthode différentielle</b> (minoritaire), qui impose la part du
+  produit non réinvestie (produit − prix du remplacement). <b>Confirme la méthode enseignée</b> : elle change
+  le montant imposé du remploi partiel (voir <code>divergences.md</code>).
+</div>
+
+<div class="but">
+  <div class="callout-titre">🧮 Remploi à l'étranger &amp; remploi partiel</div>
+  <b>Tunnelier (X SA)</b> : valeur fiscale 3 mio, vendu 5 mio (RL 2 mio), nouveau 4,5 mio. Réinvestissement
+  4,5 mio ≥ valeur fiscale 3 mio → <b>méthode absolue : rien d'imposé (0)</b>, nouveau bien inscrit à
+  4,5 − 2 = <b>2,5 mio</b>. <i>(Méthode différentielle : 5 − 4,5 = 0,5 mio serait imposé.)</i><br>
+  <b>Meubles SA</b> : entrepôt valeur fiscale 8 mio, vendu, racheté en <b>France</b> (Haute-Savoie) 14 mio.
+  Le remplacement n'est <b>pas en Suisse</b> → <b>remploi refusé</b> : la totalité des réserves latentes
+  (valeur marché 12 − valeur fiscale 8 = <b>4 mio</b>) est imposée.
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — remploi</div>
+  (1) <b>Remplacement à l'étranger</b> → remploi refusé, RL entièrement imposées. (2) Sous la méthode
+  absolue, l'imposition n'intervient que si le prix du bien de remplacement est <b>inférieur à la valeur
+  fiscale de l'ancien bien</b> (rare). Et le remploi ne joue
+  <b>jamais</b> d'un immeuble vers un bien mobilier.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le remploi (64) est le pendant « actif d'exploitation » du report d'imposition ; à comparer avec l'IGI
+  (report en cas d'acquisition de remplacement d'un immeuble, §10) et avec le remploi sur <b>participations</b>
+  (64 al. 1bis), proche des conditions de la réduction pour participations (§6 : ≥ 10 %, ≥ 1 an).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Un camion (valeur fiscale 50 000) est vendu 70 000 et remplacé par un neuf à 210 000 : à quelle valeur fiscale le nouveau camion est-il inscrit ?<br>
+  2. Une SA vend son entrepôt suisse et en rachète un en France : que devient le remploi ?<br>
+  3. Peut-on reporter les réserves latentes d'un immeuble sur l'achat d'une machine ?<br>
+  4. <i>(rappel §1)</i> Le bien de remplacement doit-il être en Suisse ? Même article que l'exonération des ES étrangers ?
+</div>
+
+<!-- ============================================================
+     SECTION 5
+     ============================================================ -->
+<h1 id="s5">5 · Report de pertes (67) — 7 ans</h1>
+<p class="chapo">Les pertes des <b>7 exercices précédents</b> se déduisent du bénéfice de la période, dans
+l'ordre où elles ont été subies (<b>la plus ancienne d'abord</b>). Pas de report en arrière.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Lisser l'imposition d'une entreprise aux résultats <b>irréguliers</b> : on ne taxe le bénéfice que dans la
+  mesure où il excède les pertes récentes encore reportables. Au-delà de 7 ans, une perte non compensée est
+  <b>définitivement perdue</b>.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Règle</th><th>Détail</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Horizon</b></td><td>Pertes des <b>7 exercices</b> précédant la période fiscale</td><td><span class="ref-norme">art. 67 al. 1 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Ordre</b></td><td>Imputation de la <b>plus ancienne</b> d'abord ; report en arrière <b>impossible</b></td><td><span class="ref-norme">art. 67 al. 1 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Assainissement</b></td><td>Compensation <b>extraordinaire</b> avec des prestations d'assainissement (non-apports au sens de 60 let. a) — pertes anciennes hors délai récupérables</td><td><span class="ref-norme">art. 67 al. 2 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Limites</b></td><td>Réévaluations (62 al. 3), rattrapage d'amortissements omis, <b>vente de manteau d'actions</b> (= liquidation + création → pertes perdues)</td><td><span class="ref-norme">art. 62 al. 3, 67 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré — expiration à 7 ans (Vamal SA)</div>
+  Pertes : <b>2019 : −1 200 000</b> · 2020 : 0 · <b>2021 : −400 000</b>. Bénéfices : 2022 à 2027 = <b>+200 000</b>/an.
+  Quelles pertes restent reportables <b>fin 2027</b> ?
+  <table class="compare">
+    <thead><tr><th>Année</th><th>Bénéfice</th><th>Imputé sur</th><th>Solde perte 2019</th><th>Solde perte 2021</th></tr></thead>
+    <tbody>
+      <tr><td>2022</td><td class="num">+200</td><td>P2019</td><td class="num">1 000</td><td class="num">400</td></tr>
+      <tr><td>2023</td><td class="num">+200</td><td>P2019</td><td class="num">800</td><td class="num">400</td></tr>
+      <tr><td>2024</td><td class="num">+200</td><td>P2019</td><td class="num">600</td><td class="num">400</td></tr>
+      <tr><td>2025</td><td class="num">+200</td><td>P2019</td><td class="num">400</td><td class="num">400</td></tr>
+      <tr><td>2026 <small>(dernier délai P2019)</small></td><td class="num">+200</td><td>P2019</td><td class="num">200 → <b>expire</b></td><td class="num">400</td></tr>
+      <tr><td>2027</td><td class="num">+200</td><td>P2021</td><td class="num">—</td><td class="num"><b>200</b></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Fin 2027, pertes reportables = <b>CHF 200 000</b> (solde de la perte 2021). Le solde de 200 de la perte 2019 est <b>perdu</b> (7 ans : 2019 imputable jusqu'en 2026 inclus). Piège classique : oublier l'expiration de la perte la plus ancienne.</span>
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — manteau d'actions</div>
+  La vente d'un <b>manteau d'actions</b> (société vidée de sa substance, actions cédées à un tiers qui y
+  loge une nouvelle activité) équivaut fiscalement à une <b>liquidation suivie d'une création</b> : les
+  <b>reports de pertes disparaissent</b>.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le report de pertes (67) interagit avec l'assainissement (§9) : les abandons de créance d'assainissement
+  permettent une compensation <b>extraordinaire</b> (67 al. 2) au-delà des 7 ans, à distinguer d'un apport
+  (art. 60 let. a, sans influence sur le résultat).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Sur combien d'exercices une perte est-elle reportable, et dans quel ordre s'impute-t-elle ?<br>
+  2. Le report <i>en arrière</i> des pertes est-il admis en LIFD ?<br>
+  3. Que deviennent les reports de pertes en cas de vente d'un manteau d'actions ?<br>
+  4. <i>(rappel §3)</i> Une réévaluation d'actif pour compenser une perte permet-elle ensuite d'amortir librement ce bien ?
+</div>
+
+<!-- ============================================================
+     SECTION 6
+     ============================================================ -->
+<h1 id="s6">6 · Réduction pour participations (69-70) — LE calcul</h1>
+<p class="chapo">La réduction pour participations atténue la <b>double imposition économique</b> dans les
+groupes. <b>Point capital</b> : c'est une <b>réduction d'IMPÔT</b> (un pourcentage de l'impôt sur le bénéfice),
+<b>pas</b> une réduction de l'assiette. Réservée aux <b>sociétés de capitaux et coopératives</b>.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Éviter qu'un même bénéfice soit imposé <b>en cascade</b> à chaque étage d'un groupe. La réduction ne
+  « défiscalise » pas directement le rendement : elle réduit l'impôt <b>proportionnellement</b> à la part du
+  rendement net de participations dans le bénéfice total. En cas de <b>perte</b>, pas de réduction
+  (exonération <b>indirecte</b>). Calcul toujours <b>à la date du bilan</b>.
+</div>
+
+<div class="formule">
+  Réduction (%) = Rendement net des participations ÷ Bénéfice net imposable total × 100
+  <small>art. 69 LIFD — la réduction s'applique au montant de l'impôt sur le bénéfice</small>
+</div>
+
+<h3>Conditions</h3>
+<table class="compare">
+  <thead><tr><th>Type de rendement</th><th>Conditions</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Dividendes</b></td><td>≥ <b>10 %</b> du capital, OU ≥ <b>10 %</b> du bénéfice/réserves, OU valeur vénale ≥ <b>CHF 1 mio</b></td><td><span class="ref-norme">art. 69 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Gain en capital</b></td><td>Produit &gt; <b>coût d'investissement</b> ; aliénation ≥ <b>10 %</b> ; détention ≥ <b>1 an</b> ; (si &lt; 10 % après vente partielle : VV ≥ 1 mio l'année précédente)</td><td><span class="ref-norme">art. 70 al. 4 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<h3>Rendement net</h3>
+<div class="formule">
+  Rendement brut de participation<br>
+  − amortissements liés à la distribution (70 al. 3)<br>
+  − frais d'administration (forfait <b>5 %</b> du rendement brut)<br>
+  − frais de financement (intérêts passifs × valeur fiscale participation ÷ total des actifs)<br>
+  <b>= rendement net de participation</b>
+  <small>Circ. AFC n° 27 du 17.12.2009 — seuls les rendements nets <b>positifs</b> sont pris en compte</small>
+</div>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré A — dividende (fondation Tempo)</div>
+  Participation 100 % dans Allegro SA (valeur fiscale 800 000) ; total actifs 4 000 000 ; dividende reçu
+  100 000 ; intérêts passifs totaux 20 000 ; bénéfice net imposable 1 000 000.
+  <table>
+    <tbody>
+      <tr><td>Rendement brut (dividende)</td><td class="num">100 000</td></tr>
+      <tr><td>− Frais d'administration (5 % × 100 000)</td><td class="num">− 5 000</td></tr>
+      <tr><td>− Frais de financement (20 000 × 800 000 ÷ 4 000 000 = 20 000 × 20 %)</td><td class="num">− 4 000</td></tr>
+      <tr><td><b>Rendement net</b></td><td class="num"><b>91 000</b></td></tr>
+      <tr><td><b>Réduction = 91 000 ÷ 1 000 000</b></td><td class="num"><b>9,10 %</b></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré B — gain en capital (BeauTemps SA)</div>
+  Participation 10 % dans NiceCap SA, valeur fiscale 1 000 000, <b>coût d'investissement 1 400 000</b>,
+  aliénée 2 000 000 ; frais d'administration 5 % ; intérêts négligeables ; bénéfice imposable 1 900 000.
+  <table>
+    <tbody>
+      <tr><td>Gain éligible = produit − coût d'investissement (2 000 000 − 1 400 000)</td><td class="num">600 000</td></tr>
+      <tr><td>− Frais d'administration (5 % × 600 000)</td><td class="num">− 30 000</td></tr>
+      <tr><td><b>Rendement net</b></td><td class="num"><b>570 000</b></td></tr>
+      <tr><td><b>Réduction = 570 000 ÷ 1 900 000</b></td><td class="num"><b>30 %</b></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Sur le gain, seul l'excédent du produit sur le <b>coût d'investissement</b> qualifie (art. 70 al. 4 let. a) — jamais sur la valeur comptable. Ici, un produit de 2 000 000 sur un coût de 1 400 000 ne donne que 600 000 d'assiette éligible.</span>
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Pièges — réduction pour participations</div>
+  • <b>Réduction d'impôt, pas d'assiette</b> : le rendement net n'est pas « exonéré » directement.<br>
+  • <b>Gain en capital</b> : mesuré sur le <b>coût d'investissement</b>, pas la valeur comptable.<br>
+  • Une participation à rendement net <b>négatif</b> est ignorée (ne réduit pas les autres).<br>
+  • <b>Bons de jouissance</b> donnant droit à ≥ 10 % du bénéfice/réserves : qualifient (dividendes). Un gain sur <b>8 %</b> détenu ne qualifie pas, même si VV ≥ 1 mio (le seuil 1 mio ne sauve que le dividende, pas le gain d'une participation &lt; 10 %).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Le <b>coût d'investissement</b> (§6) se construit à partir des apports (art. 60, §2), augmenté des
+  subventions d'assainissement (§9) et <b>diminué</b> des désinvestissements (amortissements liés à un
+  dividende sur la substance, §3, art. 62 al. 4). Une distribution dissimulée reçue (§7) peut aussi
+  constituer un rendement de participation si elle a été reprise chez la société distributrice.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. La réduction pour participations réduit-elle l'assiette ou l'impôt ?<br>
+  2. Dividende de 100 000, frais admin 5 %, intérêts passifs 20 000, participation 800 000 / actifs 4 000 000, bénéfice 1 000 000 : quelle réduction en % ?<br>
+  3. Un gain en capital se calcule-t-il sur la valeur comptable ou le coût d'investissement ?<br>
+  4. <i>(rappel §1)</i> Quelles PM peuvent bénéficier de la réduction : une fondation le peut-elle sur ses dividendes de participation ?
+</div>
+
+<!-- ============================================================
+     SECTION 7
+     ============================================================ -->
+<h1 id="s7">7 · Distributions dissimulées / prestations appréciables en argent</h1>
+<p class="chapo">Une <b>prestation appréciable en argent</b> (PAA) est un avantage accordé au détenteur de
+parts (ou à un proche) <b>sans contre-prestation équivalente</b>, motivé par le rapport de participation.
+Conséquences aux <b>trois niveaux</b> : société, actionnaire, impôt anticipé.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Empêcher qu'un actionnaire <b>vide le bénéfice</b> de sa société sous forme de charges privées ou de
+  renonciations à des produits, pour échapper à la double imposition. Le fisc <b>rétablit</b> le résultat
+  « de pleine concurrence » (<b>dealing at arm's length</b>).
+</div>
+
+<h3>Conditions (jurisprudence du Tribunal fédéral) — cumulatives</h3>
+<table class="compare">
+  <thead><tr><th>#</th><th>Condition</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Prestation <b>sans contre-prestation</b> correspondante</td></tr>
+    <tr><td>2</td><td>Avantage au <b>titulaire de parts</b> ou à une <b>partie liée</b></td></tr>
+    <tr><td>3</td><td><b>Disproportion manifeste</b> prestation / contre-prestation</td></tr>
+    <tr><td>4</td><td>Caractère inhabituel <b>reconnaissable</b> par les organes (avantage octroyé sciemment)</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Formes : distribution dissimulée au sens strict (charge excessive) · prélèvement anticipé de bénéfice (renonciation à un produit) · achat surfait · transfert d'actif à prix trop bas.</span>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré aux 3 niveaux — loyer de faveur (Wenk SA)</div>
+  L'actionnaire Fritz Wenk (100 % en fortune privée) loue un attique de sa société <b>1 000/mois</b> alors
+  que le loyer de marché est <b>3 000/mois</b>. PAA = (3 000 − 1 000) × 12 = <b>CHF 24 000/an</b>.
+  <table class="compare">
+    <thead><tr><th>Niveau</th><th>Conséquence</th><th>Base légale</th></tr></thead>
+    <tbody>
+      <tr><td><b>1. Société (Wenk SA)</b></td><td>Renonciation à un gain → <b>+24 000</b> repris au bénéfice imposable</td><td><span class="ref-norme">art. 58 al. 1 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+      <tr><td><b>2. Actionnaire (F. Wenk)</b></td><td>Revenu de fortune mobilière +24 000, imposé à <b>70 %</b> (part ≥ 10 %, fortune privée) = <b>16 800</b> IFD</td><td><span class="ref-norme">art. 20 al. 1<sup>bis</sup> LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+      <tr><td><b>3. Impôt anticipé</b></td><td>35 % × 24 000 = <b>8 400</b>, à transférer à l'actionnaire ; si non transféré, calcul « brut pour net » : 24 000 ÷ 65 × 35 = <b>12 923</b></td><td><span class="ref-norme">art. 4 al. 1 let. b, 14 LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Réflexe d'examen : toujours dérouler <b>société → actionnaire → IA</b>. Imposition partielle 70 % (revenu) ≠ 35 % (IA) : ne pas confondre.</span>
+</div>
+
+<h3>À qui imputer la prestation ? Les trois théories</h3>
+<table class="compare">
+  <thead><tr><th>Théorie</th><th>Bénéficiaire retenu</th><th>Champ</th></tr></thead>
+  <tbody>
+    <tr><td><b>Bénéficiaire direct</b></td><td>Le <b>proche</b> qui reçoit effectivement</td><td><b>Norme en matière d'IA</b> (Notice AFC S-02.141)</td></tr>
+    <tr><td><b>Triangle</b></td><td>Le <b>détenteur de parts</b> (la société n'est qu'un instrument de donation)</td><td>Principe pour l'impôt sur le revenu / bénéfice ; exception en IA (relations purement familiales/amicales)</td></tr>
+    <tr><td><b>Triangle modifié</b></td><td>Correction chez la <b>société sœur</b> bénéficiaire (participations en fortune commerciale)</td><td>Impôt sur le bénéfice ; les deux sociétés sont des sociétés de capitaux/coopératives</td></tr>
+  </tbody>
+</table>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — proche vs actionnaire (Croisières SA)</div>
+  Un voyage de 100 000 offert par la société à la <b>sœur</b> de l'actionnaire unique, sur pur motif
+  familial : pour l'<b>IA</b>, la théorie du <b>triangle</b> s'applique exceptionnellement → le bénéficiaire
+  est l'<b>actionnaire</b> (Céline), non la sœur. Si le transfert de l'IA est impossible, le taux effectif
+  n'est <b>pas</b> 35 % mais <b>53,8 %</b> (brut pour net). Distribution/salaire dissimulé : le salaire
+  dissimulé n'est <b>pas</b> soumis à l'IA ni à l'imposition partielle, mais aux <b>charges sociales</b>.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  La PAA (§7) est la source de la plupart des reprises du §2 (charges privées) et alimente l'impôt anticipé
+  (§11) et le capital propre dissimulé (§8, où les intérêts excédentaires sur le prêt d'actionnaire <b>sont</b>
+  une distribution dissimulée). Le <b>prix de transfert</b> entre sociétés d'un groupe (dealing at arm's
+  length) est une PAA analysée via le triangle modifié.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Cite les 3 niveaux de conséquences d'une distribution dissimulée et le taux à chacun.<br>
+  2. Loyer de faveur : diff. 24 000/an, participation privée 100 % — combien est imposé chez l'actionnaire à l'IFD ?<br>
+  3. Pour l'impôt anticipé, quelle théorie est la <i>norme</i> : bénéficiaire direct ou triangle ?<br>
+  4. <i>(rappel §6)</i> Une distribution dissimulée <i>reçue</i> par une société mère peut-elle constituer un rendement de participation ?
+</div>
+
+<!-- ============================================================
+     SECTION 8
+     ============================================================ -->
+<h1 id="s8">8 · Capital propre dissimulé (65)</h1>
+<p class="chapo">Quand les actionnaires financent la société par des <b>prêts d'une ampleur inhabituelle</b>
+(au lieu de fonds propres), le fisc requalifie l'excédent en <b>capital propre dissimulé</b> : il est ajouté
+au capital imposable et les <b>intérêts correspondants</b> deviennent une distribution dissimulée.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Un prêt d'actionnaire génère des <b>intérêts déductibles</b> ; un dividende, non. Sur-endetter la société
+  envers son actionnaire permettrait de <b>transformer du bénéfice en charges d'intérêts</b> et d'éviter la
+  double imposition. La circulaire fixe un <b>endettement maximal admissible</b> par catégorie d'actifs
+  (à leur valeur vénale) ; au-delà, c'est du capital propre déguisé.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Catégorie d'actif (valeur vénale)</th><th class="num">Endettement max. admis</th></tr></thead>
+  <tbody>
+    <tr><td>Liquidités</td><td class="num">100 %</td></tr>
+    <tr><td>Créances / débiteurs, stocks, autres actifs circulants</td><td class="num">85 %</td></tr>
+    <tr><td>Immeubles (d'exploitation)</td><td class="num">70 %</td></tr>
+    <tr><td>Participations</td><td class="num">70 %</td></tr>
+    <tr><td>Mobilier / installations / autres immobilisations</td><td class="num">50 %</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous"><span class="ref-norme">art. 65 LIFD</span> <span class="primaire">PRIM.</span> · Circ. AFC n° 6a du 10.10.2024 <span class="secondaire">SEC.</span> — taux indicatifs, <span class="avalider">à vérifier pour la session</span>.</span>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré — capital propre dissimulé (Rex SA)</div>
+  Étape 1 — endettement maximal admissible (actifs à la valeur vénale) :
+  <table class="compare">
+    <thead><tr><th>Actif (VV)</th><th class="num">Valeur vénale</th><th class="num">Taux</th><th class="num">CE max</th></tr></thead>
+    <tbody>
+      <tr><td>Liquidités</td><td class="num">470 000</td><td class="num">100 %</td><td class="num">470 000</td></tr>
+      <tr><td>Débiteurs</td><td class="num">480 000</td><td class="num">85 %</td><td class="num">408 000</td></tr>
+      <tr><td>Stocks</td><td class="num">750 000</td><td class="num">85 %</td><td class="num">637 500</td></tr>
+      <tr><td>Autres actifs circulants</td><td class="num">400 000</td><td class="num">85 %</td><td class="num">340 000</td></tr>
+      <tr><td>Mobilier</td><td class="num">1 400 000</td><td class="num">50 %</td><td class="num">700 000</td></tr>
+      <tr><td>Immeubles</td><td class="num">7 000 000</td><td class="num">70 %</td><td class="num">4 900 000</td></tr>
+      <tr><td><b>Endettement maximal admis</b></td><td class="num"></td><td class="num"></td><td class="num"><b>7 455 500</b></td></tr>
+    </tbody>
+  </table>
+  Étape 2 — comparaison avec les fonds étrangers effectifs :
+  <table>
+    <tbody>
+      <tr><td>Capitaux étrangers au bilan (créanciers 80 + banque 20 + prêt actionnaire 7 500 + hypothèques 250)</td><td class="num">7 850 000</td></tr>
+      <tr><td>− Endettement maximal admis</td><td class="num">− 7 455 500</td></tr>
+      <tr><td><b>Capital propre dissimulé</b> (imputé au capital imposable)</td><td class="num"><b>394 500</b></td></tr>
+    </tbody>
+  </table>
+  Étape 3 — intérêts admis sur le prêt fiscalement reconnu (7 500 000 − 394 500 = 7 105 500) :
+  <table>
+    <tbody>
+      <tr><td>Sur le 1<sup>er</sup> million à 3 %</td><td class="num">30 000</td></tr>
+      <tr><td>Sur 6 105 500 à 1 %</td><td class="num">61 055</td></tr>
+      <tr><td><b>Intérêt justifié par l'usage commercial</b></td><td class="num"><b>91 055</b></td></tr>
+    </tbody>
+  </table>
+  <span class="reponses">Les intérêts comptabilisés <b>au-delà de 91 055</b> sont une <b>distribution dissimulée</b> (reprise au bénéfice + IA). Le capital propre dissimulé (394 500) s'ajoute au <b>capital imposable</b> cantonal.</span>
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — deux corrections distinctes</div>
+  Le CP dissimulé produit <b>deux</b> effets à ne pas confondre : (1) au niveau du <b>capital</b> imposable
+  (la part dissimulée s'y ajoute) ; (2) au niveau du <b>bénéfice</b> (les intérêts excédentaires sont repris
+  comme distribution dissimulée, avec IA de 35 %).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Les intérêts excédentaires du §8 sont une <b>distribution dissimulée</b> (§7) → mêmes conséquences à
+  3 niveaux. Le CP dissimulé rejoint aussi le <b>calcul du capital imposable</b> (§14) et se combine, dans
+  les cas d'examen, avec les autres reprises de déterminance (§2, cf. Fabric SA).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Quel est l'endettement maximal admis sur des immeubles ? sur du mobilier ?<br>
+  2. Le capital propre dissimulé produit deux corrections : lesquelles ?<br>
+  3. Prêt d'actionnaire de 7,5 mio, CP dissimulé 394 500 : sur quel montant les intérêts sont-ils admis ?<br>
+  4. <i>(rappel §7)</i> Les intérêts excédentaires sur le prêt : quelle qualification, et sont-ils soumis à l'IA ?
+</div>
+
+<!-- ============================================================
+     SECTION 9
+     ============================================================ -->
+<h1 id="s9">9 · Principe de l'apport en capital (20 al. 3) &amp; assainissement</h1>
+<p class="chapo">Depuis 2011, le remboursement de <b>réserves issues d'apports de capital (RAC)</b> constituées
+après le 31.12.1996, <b>comptabilisées et déclarées ouvertement</b>, est franc d'impôt sur le revenu et
+d'impôt anticipé — comme un remboursement de capital-actions.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  L'apporteur qui a versé du capital (capital-actions, agio, versement supplémentaire) doit pouvoir le
+  <b>récupérer sans être imposé</b> : ce n'est pas un rendement, c'est la restitution de sa mise. À l'inverse,
+  distribuer des <b>réserves de bénéfice</b> reste un dividende imposable. D'où l'enjeu : distinguer
+  strictement <b>RAC</b> et <b>réserves issues du bénéfice</b>.</div>
+
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Traitement</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Remboursement de RAC</b></td><td>Non soumis à l'impôt sur le revenu ni à l'IA (apports post-31.12.1996, comptabilisés &amp; déclarés)</td><td><span class="ref-norme">art. 20 al. 3 LIFD</span> · <span class="ref-norme">art. 5 al. 1bis LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Agio pré-1997</b></td><td>Charge fiscale latente : son remboursement <b>reste</b> imposable (revenu + IA) ; la seule comptabilisation en RAC n'y change rien</td><td><span class="ref-norme">art. 20 al. 1 let. c LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Sociétés cotées — règle 50/50</b></td><td>Le remboursement de RAC doit s'accompagner d'une distribution d'au moins autant de <b>réserves imposables</b> ; sinon l'excédent de RAC est requalifié en dividende</td><td><span class="ref-norme">art. 20 al. 4 LIFD</span> · <span class="ref-norme">art. 5 al. 1ter LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Exception PM ≥ 10 %</b></td><td>La règle 50/50 (IA) ne s'applique pas aux PM détenant ≥ 10 % du capital</td><td><span class="ref-norme">art. 5 al. 1quater let. c LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Apport dissimulé</b></td><td>Le remboursement d'un apport <b>dissimulé</b> n'est en principe pas soumis à l'impôt sur le revenu, même sans compte séparé (ATF 9C_678/2021, 17.3.2023)</td><td><span class="ref-norme">art. 20 al. 3 LIFD</span> <span class="secondaire">SEC.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple chiffré — société cotée, règle 50/50 (Z SA)</div>
+  Z SA (cotée SIX) décide un dividende de <b>800</b> KCHF à charge des RAC. Actionnaire A. Ltd (Qatar, PM) détient
+  <b>15 %</b> ; les 85 % restants sont d'autres actionnaires.
+  <table>
+    <tbody>
+      <tr><td>Part A. Ltd (PM ≥ 10 % → hors règle 50/50, RAC pure)</td><td class="num">120</td></tr>
+      <tr><td>Part autres actionnaires (85 %)</td><td class="num">680</td></tr>
+      <tr><td>&nbsp;&nbsp;→ dont RAC (50 %)</td><td class="num">340</td></tr>
+      <tr><td>&nbsp;&nbsp;→ dont réserves de bénéfice imposables (50 %)</td><td class="num">340</td></tr>
+      <tr><td><b>Total RAC (franc d'impôt)</b> = 120 + 340</td><td class="num"><b>460</b></td></tr>
+      <tr><td><b>Distribution imposable (bénéfice)</b></td><td class="num"><b>340</b></td></tr>
+      <tr><td>Impôt anticipé 35 % × 340</td><td class="num">119</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Assainissement</h3>
+<table class="compare">
+  <thead><tr><th>Situation</th><th>Traitement fiscal</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Abandon de créance d'un TIERS</b></td><td>Produit d'assainissement <b>imposable</b>, compensable avec les pertes (y compris compensation <b>extraordinaire</b> hors délai de 7 ans)</td><td><span class="ref-norme">art. 67 al. 2 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Abandon de créance de l'ACTIONNAIRE</b></td><td>« Abandon improprement dit » = <b>apport</b> → sans influence sur le résultat (pas de produit imposable)</td><td><span class="ref-norme">art. 60 let. a LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Droit de timbre d'émission</b></td><td>Versement supplémentaire soumis au DTE 1 % ; <b>franchise CHF 10 mio</b> en cas d'assainissement</td><td><span class="ref-norme">art. 5 al. 2 let. a, 6 al. 1 let. k LT</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — compenser une perte par des RAC</div>
+  Comptabiliser une perte de l'exercice <b>à la charge des RAC</b> réduit <b>définitivement</b> les RAC
+  remboursables francs d'impôt. Il est fiscalement préférable de compenser la perte par des <b>réserves de
+  bénéfice</b> ou de la <b>reporter</b> (art. 67), pour préserver le « substrat » RAC.
+</div>
+
+<h2 id="s9-2">9.2 · Restructurations (61) — neutralité fiscale</h2>
+<p>Fusion, scission, transformation et transfert de patrimoine peuvent être <b>fiscalement neutres</b>
+(report des réserves latentes, pas d'imposition) si les conditions de l'<span class="ref-norme">art. 61 LIFD</span>
+<span class="primaire">PRIM.</span> sont réunies.</p>
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Règle</th></tr></thead>
+  <tbody>
+    <tr><td><b>Conditions de neutralité</b></td><td>(1) L'assujettissement en Suisse <b>subsiste</b> ; (2) les <b>valeurs déterminantes pour l'impôt</b> (valeurs fiscales, pas la valeur vénale) sont <b>reprises</b></td></tr>
+    <tr><td><b>Formes visées</b></td><td>Fusion, scission, transformation (61 al. 1) ; transfert de patrimoine entre sociétés suisses d'un <b>groupe</b> (61 al. 3, participation ≥ 20 % ou détention commune)</td></tr>
+    <tr><td><b>Délai de blocage</b></td><td><b>5 ans</b> : si les participations transférées/reçues sont <b>aliénées</b> dans ce délai, les réserves latentes transférées sont <b>imposées rétroactivement</b> (rappel) — art. 61 al. 4</td></tr>
+  </tbody>
+</table>
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — restructurations</div>
+  Neutralité = <b>reprise des valeurs fiscales</b> (jamais réévaluation à la valeur vénale, qui déclencherait
+  l'impôt). La violation du <b>délai de blocage de 5 ans</b> ne « punit » que la restructuration concernée :
+  les réserves latentes alors réalisées sont imposées, avec effet rétroactif.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  Les RAC (§9) alimentent le <b>coût d'investissement</b> de la participation (§6) et modulent l'imposition
+  du dividende chez l'actionnaire PP (§10). L'abandon de créance d'un tiers rejoint le report de pertes (§5,
+  compensation extraordinaire 67 al. 2). Les restructurations neutres (61) reprennent aussi les
+  <b>valeurs fiscales</b> — même logique que le remploi (§4) et le step-up (§3).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Le remboursement d'un agio versé en 1995 est-il franc d'impôt ? Pourquoi ?<br>
+  2. Société cotée : que se passe-t-il si elle distribue uniquement des RAC sans réserves imposables en parallèle ?<br>
+  3. Abandon de créance : distingue les conséquences selon qu'il vient d'un tiers ou de l'actionnaire.<br>
+  4. <i>(rappel §5)</i> Sur combien d'années une perte ordinaire se reporte-t-elle, et l'assainissement change-t-il cela ?
+</div>
+
+<!-- ============================================================
+     SECTION 10
+     ============================================================ -->
+<h1 id="s10">10 · Personnes physiques : dividendes qualifiés, IGI, transposition &amp; LPI</h1>
+<p class="chapo">Chez l'actionnaire <b>personne physique</b>, le dividende qualifié est <b>partiellement imposé</b> ;
+la vente d'un immeuble déclenche l'IGI ; et deux mécanismes anti-abus — <b>transposition</b> et <b>liquidation
+partielle indirecte (LPI)</b> — requalifient certains « gains en capital » en revenu.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Le gain en capital privé est en principe <b>exonéré</b> (art. 16 al. 3 LIFD) — c'est une incitation forte à
+  déguiser un dividende en gain. Transposition et LPI ferment ces deux portes ; l'imposition partielle atténue
+  la double imposition du <b>vrai</b> dividende.
+</div>
+
+<h3>10.1 · Dividendes qualifiés &amp; imposition partielle</h3>
+<table class="compare">
+  <thead><tr><th>Situation</th><th>Imposition</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td>Dividende, participation ≥ 10 % en <b>fortune privée</b></td><td>Imposé à <b>70 %</b> (IFD)</td><td><span class="ref-norme">art. 20 al. 1bis LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td>Dividende, participation ≥ 10 % en <b>fortune commerciale</b></td><td>Imposé à <b>70 %</b> (IFD)</td><td><span class="ref-norme">art. 18b LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td>Niveau cantonal</td><td>Imposition partielle à <b>≥ 50 %</b> (marge cantonale)</td><td><span class="ref-norme">art. 7 al. 1 LHID</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<h3>10.2 · Impôt sur les gains immobiliers (IGI)</h3>
+<table class="compare">
+  <thead><tr><th>Système</th><th>Fortune privée</th><th>Fortune commerciale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Dualiste</b> (St-Gall, majorité des cantons)</td><td>IGI</td><td>Impôt sur le bénéfice / revenu (plus-value + amort. récupérés)</td></tr>
+    <tr><td><b>Moniste</b> (Zurich, art. 12 al. 4 LHID)</td><td>IGI</td><td><b>IGI</b> sur la plus-value <b>+ impôt sur le bénéfice</b> sur les amortissements récupérés</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous"><span class="ref-norme">art. 12 LHID</span> <span class="primaire">PRIM.</span> — l'IGI est un impôt <b>réel</b> cantonal/communal (pas d'IFD sur l'IGI). Faits différant l'imposition (report) : succession, donation, aliénation entre époux, remaniement, remploi (art. 12 al. 3 LHID).</span>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemples chiffrés — IGI</div>
+  <b>Système moniste (Z SA, ZH)</b> : immeuble d'exploitation, valeur comptable 150, frais d'investissement 170,
+  vente 200. → <b>Amortissements récupérés 20</b> (170 − 150) imposés à l'<b>impôt sur le bénéfice</b> ;
+  <b>plus-value 30</b> (200 − 170) soumise à l'<b>IGI</b>.<br>
+  <b>Vente d'actions d'une société immobilière (ImmoLoc SA, GE dualiste)</b> — aliénation économique (art. 12
+  al. 2 LHID) :
+  <table>
+    <tbody>
+      <tr><td>Prix de vente des actions</td><td class="num">9 000 000</td></tr>
+      <tr><td>+ Fonds étrangers (hypothèque, etc.)</td><td class="num">+ 4 500 000</td></tr>
+      <tr><td>− Actifs non immobiliers</td><td class="num">− 1 500 000</td></tr>
+      <tr><td>= Produit d'aliénation imputé à l'immeuble</td><td class="num">12 000 000</td></tr>
+      <tr><td>− Prix de revient de l'immeuble</td><td class="num">− 9 000 000</td></tr>
+      <tr><td><b>Gain soumis à l'IGI</b></td><td class="num"><b>3 000 000</b></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>10.3 · Transposition &amp; liquidation partielle indirecte (20a LIFD)</h3>
+<div class="apport">
+  <div class="callout-titre">📎 Apport hors support — à confirmer pour la session</div>
+  Ces deux mécanismes ne figurent <b>pas</b> dans les supports de cours ; ils sont ajoutés depuis les
+  référentiels (<span class="ref-norme">art. 20a LIFD</span> <span class="primaire">PRIM.</span> ; Circ. AFC
+  n° 5a « restructurations » &amp; pratique LPI <span class="avalider">à vérifier</span>) car ce sont des
+  classiques d'examen.
+</div>
+<table class="compare">
+  <thead><tr><th></th><th>Transposition (20a al. 1 let. b)</th><th>Liquidation partielle indirecte (20a al. 1 let. a)</th></tr></thead>
+  <tbody>
+    <tr><td><b>Opération</b></td><td>PP vend sa participation à une <b>société qu'elle contrôle</b>, au-dessus de (VN + RAC)</td><td>PP (FP) vend sa participation à un acheteur qui la loge en <b>fortune commerciale</b></td></tr>
+    <tr><td><b>Seuil</b></td><td>Participation ≥ <b>5 %</b> ; société acquéreuse dominée à ≥ <b>50 %</b></td><td>Participation ≥ <b>20 %</b></td></tr>
+    <tr><td><b>Déclencheur</b></td><td>Prix &gt; valeur nominale + RAC (« surplus de substance »)</td><td>Distribution de <b>substance non nécessaire à l'exploitation</b>, existante &amp; distribuable, dans les <b>5 ans</b>, avec participation/connaissance du vendeur</td></tr>
+    <tr><td><b>Conséquence</b></td><td>Le surplus est un <b>rendement imposable</b> chez le vendeur</td><td>Le vendeur est imposé (revenu) à concurrence de la substance distribuée</td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemples chiffrés (illustratifs)</div>
+  <b>Transposition</b> : M. X détient 100 % de A SA en FP (capital nominal 100 000, RAC 0). Il vend A SA à sa
+  propre B SA pour <b>1 000 000</b>. → Surplus imposable = 1 000 000 − 100 000 = <b>900 000</b> (rendement).<br>
+  <b>LPI</b> : M. Y vend 100 % de C SA (FP) à D SA (qui la met en FC) pour 2 000 000. C SA détient 800 000 de
+  <b>substance distribuable non nécessaire à l'exploitation</b>. Dans les 5 ans, D SA la fait distribuer.
+  → M. Y est imposé sur <b>800 000</b> (revenu), bien que la vente ait paru être un gain en capital exonéré.
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — transposition ≠ LPI</div>
+  <b>Transposition</b> : « je me vends à moi-même » (à une société que je contrôle), surplus imposé <b>tout de
+  suite</b>. <b>LPI</b> : « je vends à un tiers » (FP → FC), imposé <b>si</b> la substance est ensuite distribuée
+  dans les 5 ans. Seuils différents (5 % vs 20 %).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Un dividende de participation privée ≥ 10 % : à quel pourcentage est-il imposé à l'IFD ?<br>
+  2. Vente d'un immeuble d'exploitation en système moniste : quels deux impôts, sur quelles assiettes ?<br>
+  3. Transposition : quel est le seuil de participation, et à quelle société le vendeur cède-t-il ?<br>
+  4. <i>(rappel §9)</i> Le remboursement de RAC est-il un revenu imposable pour l'actionnaire PP ?
+</div>
+
+<!-- ============================================================
+     SECTION 11
+     ============================================================ -->
+<h1 id="s11">11 · Impôt anticipé (LIA)</h1>
+<p class="chapo">L'impôt anticipé est un <b>impôt à la source de 35 %</b> sur les rendements de capitaux
+mobiliers suisses. <b>Anonyme</b> à la perception, il est <b>remboursé</b> à qui déclare correctement le
+revenu — d'où sa fonction de <b>garantie</b> contre la soustraction.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Inciter le contribuable à <b>déclarer</b> ses revenus de capitaux : l'IA prélevé n'est remboursé que si le
+  revenu est régulièrement déclaré. Pour le résident honnête, c'est neutre (remboursement/imputation) ; pour
+  celui qui dissimule, c'est une charge définitive.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Contenu</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Objet</b></td><td>Rendements de capitaux mobiliers suisses (dividendes, intérêts d'obligations, avoirs de clients &gt; seuil), gains de loterie, prestations d'assurance</td><td><span class="ref-norme">art. 4 LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Taux</b></td><td><b>35 %</b> (capitaux, jeux) · 15 % (rentes viagères) · 8 % (autres assurances)</td><td><span class="ref-norme">art. 13 LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Transfert obligatoire</b></td><td>Le débiteur <b>doit</b> répercuter l'IA sur le bénéficiaire</td><td><span class="ref-norme">art. 14 al. 1 LIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Naissance / échéance</b></td><td>Créance à l'échéance de la prestation ; IA dû 30 j. après ; intérêt moratoire sans sommation</td><td><span class="ref-norme">art. 12, 16 LIA</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 « Brut pour net » — IA non transféré</div>
+  Si l'IA n'est pas transféré au bénéficiaire, la prestation nette versée est réputée nette d'un IA à
+  reconstituer :
+  <div class="formule">IA = Prestation ÷ 65 × 35<small>le taux effectif passe de 35 % à 53,8 % de la prestation nette</small></div>
+  Exemples : distribution de 100 000 non transférée → 100 000 ÷ 65 × 35 = <b>53 846</b>. Distribution
+  dissimulée de 200 000 (V Sàrl) → 200 000 ÷ 65 × 35 = <b>107 692</b>.
+</div>
+
+<h3>11.1 · Procédure de déclaration (au lieu du paiement)</h3>
+<table class="compare">
+  <thead><tr><th>Cas</th><th>Formulaire</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td>Dividende <b>intragroupe</b>, participation ≥ 10 %</td><td>103 + <b>106</b></td><td><span class="ref-norme">art. 26a OIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td>Dividende <b>en nature</b>, ≤ 20 bénéficiaires <b>domiciliés en CH</b></td><td>—</td><td><span class="ref-norme">art. 24 al. 1 let. c OIA</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td>Groupe <b>international</b> (CDI / EAR-UE)</td><td><b>108</b></td><td><span class="ref-norme">art. 3 OIA int.</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td>Prestation appréciable en argent déclarée (form. général)</td><td>102 · 105 (intérêts)</td><td><span class="ref-norme">art. 24 al. 1 let. a OIA</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+<span class="ref-sous">Déclaration tardive : la procédure reste admise si les conditions <b>matérielles</b> sont remplies ; pas d'intérêt moratoire (art. 16 al. 2bis LIA), amende d'ordre ≤ 5 000 réservée.</span>
+
+<h3>11.2 · Remboursement</h3>
+<table class="compare">
+  <thead><tr><th>Condition</th><th>Personne physique</th><th>Personne morale</th></tr></thead>
+  <tbody>
+    <tr><td>Droit de jouissance à l'échéance</td><td class="oui">art. 21 al. 1 let. a</td><td class="oui">art. 21 al. 1 let. a</td></tr>
+    <tr><td>Rattachement</td><td><b>Domicile</b> en CH (art. 22)</td><td><b>Siège</b> en CH (art. 24)</td></tr>
+    <tr><td>Formalité</td><td>Déclaration régulière du revenu (art. 23)</td><td>Comptabilisation en bonne et due forme (art. 25)</td></tr>
+    <tr><td>Délai</td><td colspan="2">Dans le délai imparti (art. 32) ; réserve de l'évasion fiscale (art. 21 al. 2)</td></tr>
+  </tbody>
+</table>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Piège — déchéance du droit au remboursement</div>
+  Ne <b>pas déclarer</b> le rendement grevé de l'IA fait <b>perdre</b> le droit au remboursement (art. 23
+  al. 1). Exception : simple <b>négligence</b>, si le revenu est déclaré avant l'entrée en force (art. 23
+  al. 2). Une distribution dissimulée non déclarée = pas de remboursement (tentative de soustraction).
+  Théorie du <b>bénéficiaire direct</b> = la <b>norme</b> en IA ; la théorie du triangle est l'exception
+  (relations purement familiales/amicales).
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  L'IA est le troisième niveau de toute distribution dissimulée (§7). Le seuil « PM ≥ 10 % » pour la
+  procédure de déclaration recoupe celui de la réduction pour participations (§6). Une PM détenant &lt; 10 %
+  a droit au <b>remboursement</b> mais <b>pas</b> à la procédure de déclaration.
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Dividende de 100 000 versé sans transfert de l'IA : quel montant l'AFC réclame-t-elle ?<br>
+  2. Une PM détenant 8 % du capital : procédure de déclaration ou remboursement ?<br>
+  3. Distribution dissimulée non déclarée par l'actionnaire : l'IA est-il remboursable ?<br>
+  4. <i>(rappel §7)</i> Voyage offert à la sœur de l'actionnaire, motif familial : qui est le bénéficiaire pour l'IA ?
+</div>
+
+<!-- ============================================================
+     SECTION 12
+     ============================================================ -->
+<h1 id="s12">12 · Droit de timbre d'émission (LT)</h1>
+<p class="chapo">Le droit d'émission frappe à <b>1 %</b> la création (ou l'augmentation) de <b>droits de
+participation</b> suisses et les <b>versements supplémentaires</b>. L'obligation fiscale incombe à la
+<b>société</b> qui reçoit le capital.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Taxer l'<b>apport de fonds propres</b> à une société suisse. Depuis 2012, plus de droit d'émission sur les
+  capitaux <b>étrangers</b> (obligations). Une franchise générale de <b>CHF 1 mio</b> protège la petite
+  capitalisation.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Règle</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Objet</b></td><td>Création/augmentation de la VN de droits de participation ; versements supplémentaires ; manteau d'actions</td><td><span class="ref-norme">art. 5 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Base de calcul</b></td><td><b>Valeur vénale</b> de la contrepartie reçue (apport en nature : valeur d'entreprise, méthode des praticiens)</td><td><span class="ref-norme">art. 8 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Franchise</b></td><td><b>CHF 1 mio</b> (uniquement à titre <b>onéreux</b>) ; utilisable une seule fois au total (fondation + augmentations)</td><td><span class="ref-norme">art. 6 al. 1 let. h LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Au-dessus du pair</b></td><td>Le DTE est déductible de sa propre base : montant net = base ÷ 101 × 100, puis 1 %</td><td><span class="ref-norme">art. 8 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Exceptions</b></td><td>Restructurations ; franchise <b>10 mio</b> assainissement ; remise en cas de rigueur</td><td><span class="ref-norme">art. 6, 12 LT</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemples chiffrés</div>
+  <b>Fondation par apport en nature (Nuovo SA)</b> : capital 600 000, immeuble VV 3 000 000, hypothèque
+  1 300 000, frais 15 000.
+  <table>
+    <tbody>
+      <tr><td>Contrepartie = VV immeuble − hypothèque (3 000 000 − 1 300 000)</td><td class="num">1 700 000</td></tr>
+      <tr><td>− Franchise (art. 6 al. 1 let. h)</td><td class="num">− 1 000 000</td></tr>
+      <tr><td>− Frais de notaire / RC</td><td class="num">− 15 000</td></tr>
+      <tr><td>Total intermédiaire · net = 685 000 ÷ 101 × 100</td><td class="num">678 218</td></tr>
+      <tr><td><b>DTE 1 %</b></td><td class="num"><b>6 782</b></td></tr>
+    </tbody>
+  </table>
+  <b>Apport d'un immeuble (C SA, attestation AFC)</b> : capital 900 000, VV immeuble 1 800 000, hypothèque
+  600 000, frais 10 000. Libération = 900 000 + réserves latentes 300 000 = 1 200 000 ; − franchise 1 000 000
+  − frais 10 000 = 190 000 ; DTE = 190 000 ÷ 101 = <b>1 881</b>. Échéance : 30 j. après le trimestre de
+  naissance de la créance.<br>
+  <b>Actions gratuites (Luma SA)</b> : augmentation VN gratuite 400 000, dont 300 000 par d'anciens agios
+  (DTE déjà payé, art. 6 al. 1 let. d) → base 100 000. <b>DTE 1 000</b>. La franchise 1 mio ne joue <b>pas</b>
+  (émission à titre <b>gratuit</b>).
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Pièges — droit d'émission</div>
+  • La <b>franchise 1 mio</b> ne s'applique qu'aux émissions <b>à titre onéreux</b> — jamais aux actions
+  gratuites.<br>
+  • Base = <b>valeur vénale</b> de la contrepartie, y compris les <b>réserves latentes</b> de l'apport en
+  nature (pas la seule valeur nominale).<br>
+  • Au-dessus du pair, ne pas oublier de « nettoyer » le DTE de lui-même (÷ 101).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. La franchise de 1 mio s'applique-t-elle aux actions gratuites ?<br>
+  2. Apport en nature d'un immeuble VV 1 800 000 pour un capital de 900 000 : quelle base pour le DTE ?<br>
+  3. Qui est débiteur du droit d'émission ?<br>
+  4. <i>(rappel §9)</i> Un abandon de créance de l'actionnaire (versement supplémentaire) est-il soumis au DTE ? Quelle franchise en assainissement ?
+</div>
+
+<!-- ============================================================
+     SECTION 13
+     ============================================================ -->
+<h1 id="s13">13 · Droit de timbre de négociation (LT)</h1>
+<p class="chapo">Le droit de négociation frappe le <b>transfert à titre onéreux</b> de <b>documents
+imposables</b> lorsqu'un <b>commerçant de titres</b> suisse y participe. Il se calcule <b>par moitié</b> pour
+chaque partie.</p>
+
+<div class="but">
+  <div class="callout-titre">🎯 But</div>
+  Taxer la <b>circulation</b> des titres passant par un intermédiaire suisse. Le commerçant de titres est le
+  débiteur ; chaque partie qui n'est ni commerçant enregistré ni investisseur exonéré supporte <b>un demi-droit</b>.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Élément</th><th>Règle</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Conditions (cumulatives)</b></td><td>Transfert de propriété · de documents imposables · à titre onéreux · avec un commerçant de titres (partie ou intermédiaire)</td><td><span class="ref-norme">art. 13 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Commerçant de titres</b></td><td>Banques, négociants, conseillers/gérants ; <b>et</b> sociétés dont l'actif contient &gt; <b>10 mio</b> de documents imposables (let. d)</td><td><span class="ref-norme">art. 13 al. 3 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Taux</b></td><td><b>1,5 ‰</b> titres suisses · <b>3 ‰</b> titres étrangers ; <b>½ droit</b> par partie</td><td><span class="ref-norme">art. 16 al. 1 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Pas de demi-droit</b></td><td>Partie qui est commerçant enregistré, investisseur exonéré (17a), ou banque étrangère (19)</td><td><span class="ref-norme">art. 17, 17a, 19 LT</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Exceptions</b></td><td>Émission (évite le cumul avec DTE), papiers monétaires étrangers court terme, restructurations, stock du négociant</td><td><span class="ref-norme">art. 14 LT</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemples chiffrés (holding A SA, commerçant de titres art. 13 al. 3 let. d)</div>
+  <table class="compare">
+    <thead><tr><th>Opération</th><th>Calcul</th><th>DTN</th></tr></thead>
+    <tbody>
+      <tr><td>Achat d'obligations <b>étrangères</b> 8 mio à UBS</td><td>3 ‰ × 8 mio × ½ (UBS = commerçant enregistré, pas de ½ droit)</td><td class="num">12 000</td></tr>
+      <tr><td>Achat 100 % d'E SA (étrangère) 22 mio à une famille</td><td>3 ‰ × 22 mio × ½ + ½ (deux parties non exonérées)</td><td class="num">66 000</td></tr>
+      <tr><td>Idem, mais vendeur = groupe coté (investisseur exonéré 17a)</td><td>3 ‰ × 22 mio × ½ (une seule moitié due)</td><td class="num">33 000</td></tr>
+      <tr><td>Transfert de participation, part réglée en CC actionnaire 2,2 mio (titre suisse)</td><td>1,5 ‰ × 2 200 000</td><td class="num">3 300</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="piege">
+  <div class="callout-titre">⚠️ Pièges — droit de négociation</div>
+  • Une <b>émission</b> (souscription d'actions nouvelles) n'est <b>pas</b> soumise au DTN (art. 14, évite le
+  cumul avec le DTE).<br>
+  • Un simple <b>changement de forme juridique</b> (Sàrl → SA) n'est pas un transfert → pas de DTN.<br>
+  • Une <b>donation</b> (jubilé, cadeau) n'est pas à titre onéreux → pas de DTN.<br>
+  • Un <b>échange</b> de titres = <b>double opération</b> (une vente + un achat), chacune taxée.
+</div>
+
+<div class="connexions">
+  <div class="callout-titre">🔗 Connexions</div>
+  DTE et DTN peuvent se rencontrer sur la même opération : lors d'un apport de participation à une holding
+  contre capital + agio + CC actionnaire, le DTE frappe l'apport (capital + agio) et le DTN la part réglée en
+  compte courant (voir U Holding, §12 et §13).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Quel taux pour un titre suisse ? étranger ? Et combien chaque partie supporte-t-elle ?<br>
+  2. Une société dont le bilan contient 12 mio de titres est-elle commerçant de titres ?<br>
+  3. Un échange d'actions X contre actions Y : combien d'opérations taxables ?<br>
+  4. <i>(rappel §12)</i> Émission d'actions nouvelles : DTE, DTN, ou les deux ?
+</div>
+
+<!-- ============================================================
+     SECTION 14
+     ============================================================ -->
+<h1 id="s14">14 · Imposition du capital &amp; outils STAF</h1>
+<p class="chapo">L'impôt sur le <b>capital</b> est <b>cantonal</b> (supprimé au niveau fédéral depuis 1998).
+Les outils <b>STAF</b> (patent box, R&amp;D, step-up) réduisent le bénéfice imposable, dans la limite d'une
+<b>décharge maximale</b>.</p>
+
+<h3>14.1 · Capital propre imposable</h3>
+<div class="formule">
+  Capital-actions libéré + réserves ouvertes<br>
+  + réserves latentes imposées (bénéfice reporté, provisions non admises…)<br>
+  + capital propre dissimulé (§8)<br>
+  <b>= capital propre imposable</b> (cantonal)
+  <small>art. 2 al. 1 let. b LHID — assiette cantonale ; taux variables selon les cantons</small>
+</div>
+<span class="ref-sous">Piège récurrent : le <b>capital-actions non libéré</b> ne compte pas ; les <b>propres actions</b> et les provisions non justifiées (déjà reprises au bénéfice) augmentent le capital imposable.</span>
+
+<h3>14.2 · Outils STAF (RFFA, en vigueur 1.1.2020)</h3>
+<div class="apport">
+  <div class="callout-titre">📎 Apport partiel hors support</div>
+  Seule la <b>surdéduction R&amp;D</b> figure dans tes supports (cas Partie 5). Patent box, step-up et limite
+  de décharge sont ajoutés depuis les référentiels <span class="ref-norme">art. 24a-25b LHID</span>
+  <span class="primaire">PRIM.</span> <span class="avalider">taux cantonaux à vérifier</span>.
+</div>
+<table class="compare">
+  <thead><tr><th>Outil</th><th>Mécanique</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Patent box</b></td><td>Bénéfice net des brevets réduit jusqu'à <b>90 %</b> (décision cantonale)</td><td><span class="ref-norme">art. 24a-24b LHID</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Surdéduction R&amp;D</b></td><td>Déduction <b>supplémentaire</b> jusqu'à <b>50 %</b> des dépenses R&amp;D suisses (au-delà des charges effectives)</td><td><span class="ref-norme">art. 25a LHID</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Step-up</b></td><td>Déclaration de réserves latentes à l'arrivée / fin d'un statut, amortissables</td><td><span class="ref-norme">art. 78g LHID</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Limite de décharge</b></td><td>Le cumul des réductions (patent box + R&amp;D + step-up) ne peut réduire le bénéfice imposable de plus de <b>70 %</b> → au moins <b>30 %</b> reste imposé</td><td><span class="ref-norme">art. 25b LHID</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple simple — limite de décharge</div>
+  Bénéfice avant outils <b>1 000 000</b>. Réductions calculées : patent box 500 000 + surdéduction R&amp;D
+  300 000 = 800 000. La <b>limite de décharge</b> (art. 25b) plafonne la réduction à 70 % × 1 000 000 =
+  <b>700 000</b>. → Bénéfice imposable cantonal minimal = <b>300 000</b> (100 000 de réduction « perdue »,
+  reportable selon les cantons).
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Le capital-actions <i>non libéré</i> entre-t-il dans le capital imposable ?<br>
+  2. Patent box : quelle réduction maximale du bénéfice des brevets ?<br>
+  3. Limite de décharge : quel pourcentage minimal du bénéfice reste imposable ?<br>
+  4. <i>(rappel §8)</i> Le capital propre dissimulé s'ajoute-t-il au capital imposable ?
+</div>
+
+<!-- ============================================================
+     SECTION 15
+     ============================================================ -->
+<h1 id="s15">15 · Évaluation des titres non cotés (Circ. CSI n° 28)</h1>
+<p class="chapo">Pour l'<b>impôt sur la fortune</b> de l'actionnaire, les actions non cotées se valorisent selon
+la <b>Circulaire CSI n° 28</b> : en règle générale, moyenne pondérée <b>valeur de rendement (×2) + valeur
+substantielle (×1)</b>, divisée par 3.</p>
+
+<div class="apport">
+  <div class="callout-titre">📎 Complément — testé en examen, hors théorie des supports</div>
+  Cette méthode n'est pas exposée dans la théorie des supports, mais plusieurs cas d'examen l'utilisent.
+  <span class="ref-norme">Circ. CSI n° 28</span> <span class="secondaire">SEC.</span>
+  <span class="avalider">taux &amp; modèle à vérifier pour la session</span>.
+</div>
+
+<table class="compare">
+  <thead><tr><th>Type de société</th><th>Valeur retenue</th></tr></thead>
+  <tbody>
+    <tr><td><b>Société commerciale / industrielle</b></td><td>(2 × valeur de rendement + 1 × valeur substantielle) ÷ 3</td></tr>
+    <tr><td><b>Société holding pure / de gérance de fortune / immobilière</b></td><td><b>Valeur substantielle</b> uniquement</td></tr>
+    <tr><td><b>Société nouvellement fondée</b></td><td>Valeur substantielle</td></tr>
+  </tbody>
+</table>
+<span class="ref-sous"><b>Valeur de rendement</b> = bénéfice net capitalisé au taux de la circulaire (modèle 1 : moyenne des 2 derniers exercices ; modèle 2 : moyenne pondérée des 3 derniers). <b>Valeur substantielle</b> = fonds propres + réserves latentes nettes de l'impôt latent.</span>
+
+<div class="but">
+  <div class="callout-titre">🧮 Exemple — société immobilière (Immo SA)</div>
+  Société immobilière → <b>valeur substantielle</b> seule. Capital 1 000 000 + réserves 12 000 000 = FP
+  13 000 000 ; immeubles VV 16 000 000 / valeur fiscale 12 000 000 → réserve latente 4 000 000, moins impôt
+  latent (p. ex. 15 %) 600 000.
+  <div class="formule">13 000 000 + 4 000 000 − 600 000 = <b>16 400 000</b><small>valeur fiscale des actions pour l'impôt sur la fortune</small></div>
+  <span class="reponses">Pour une société <b>immobilière</b>, on ne capitalise <b>pas</b> le rendement : seule la substance compte (immeubles réévalués à la valeur vénale, sous déduction de l'impôt latent).</span>
+</div>
+
+<div class="autotest">
+  <div class="callout-titre">✍️ Auto-test</div>
+  1. Pondération générale rendement / substance dans la Circ. 28 ?<br>
+  2. Comment évalue-t-on une société purement immobilière ?<br>
+  3. La valeur substantielle inclut-elle les réserves latentes ? Sous quelle déduction ?
+</div>
+
+<!-- ============================================================
+     SECTION 16
+     ============================================================ -->
+<h1 id="s16">16 · Procédure &amp; tableau des faux amis</h1>
+<p class="chapo">Quelques réflexes de procédure, puis le tableau des <b>confusions classiques</b> — chacune est un
+point d'examen.</p>
+
+<table class="compare">
+  <thead><tr><th>Notion</th><th>Contenu</th><th>Base légale</th></tr></thead>
+  <tbody>
+    <tr><td><b>Annexes obligatoires</b></td><td>État des titres, relevé des participations qualifiées, etc. joints à la déclaration</td><td><span class="ref-norme">art. 125 al. 3 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Rappel d'impôt</b></td><td>Reprise d'une taxation entrée en force sur faits/moyens nouveaux</td><td><span class="ref-norme">art. 151 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+    <tr><td><b>Soustraction</b></td><td>Soustraction consommée (175) / tentative ; <b>fraude fiscale</b> = usage de faux (186)</td><td><span class="ref-norme">art. 175, 186 LIFD</span> <span class="primaire">PRIM.</span></td></tr>
+  </tbody>
+</table>
+
+<h2>Tableau des faux amis</h2>
+<table class="compare">
+  <thead><tr><th>À ne pas confondre</th><th>Distinction décisive</th></tr></thead>
+  <tbody>
+    <tr><td><b>Réduction pour participations</b> vs réduction d'assiette</td><td>C'est une réduction d'<b>IMPÔT</b> (% de l'impôt), pas de l'assiette imposable</td></tr>
+    <tr><td><b>RAC (apport en capital)</b> vs réserve issue du bénéfice</td><td>RAC = remboursable franc d'impôt (20 al. 3) ; réserve de bénéfice = dividende imposable</td></tr>
+    <tr><td><b>Transposition</b> vs <b>LPI</b></td><td>Transposition : vente à une société qu'on <b>contrôle</b> (≥ 5 %). LPI : vente à un <b>tiers</b> (FP→FC, ≥ 20 %) suivie d'une distribution de substance dans 5 ans</td></tr>
+    <tr><td><b>Abandon de créance : tiers</b> vs <b>actionnaire</b></td><td>Tiers = produit imposable (compensable) ; actionnaire = apport (art. 60, sans influence sur le résultat)</td></tr>
+    <tr><td><b>Distribution dissimulée</b> vs <b>salaire dissimulé</b></td><td>Distribution : IA <b>oui</b> + imposition partielle. Salaire : charges <b>sociales</b>, pas d'IA ni d'imposition partielle</td></tr>
+    <tr><td><b>Franchise</b> vs <b>limite d'exonération</b></td><td>Franchise (66a : 20 000) → on n'impose que l'<b>excédent</b>. Limite d'exonération (71 : 5 000) → au-delà, <b>tout</b> est imposé</td></tr>
+    <tr><td><b>Théorie du triangle</b> vs <b>bénéficiaire direct</b></td><td>Bénéficiaire direct = norme <b>IA</b> (le proche). Triangle = norme <b>revenu/bénéfice</b> (l'actionnaire) ; exception IA si motif purement familial</td></tr>
+    <tr><td><b>Déterminance</b> vs <b>déterminance inversée</b></td><td>Déterminance : le bilan commercial lie le fisc. Inversée : une déduction fiscale exige sa comptabilisation préalable (amort./prov. : 62, 63)</td></tr>
+    <tr><td><b>Remploi partiel</b> vs <b>total</b> · <b>étranger</b></td><td>Réinvestissement &lt; produit → partiel (écart imposé). Remplacement à l'<b>étranger</b> → remploi <b>refusé</b></td></tr>
+    <tr><td><b>Correction</b> vs <b>modification</b> de bilan</td><td>Correction (non conforme → conforme) admise ; modification (conforme → conforme) exclue après dépôt</td></tr>
+  </tbody>
+</table>
+
+<!-- ============================================================
+     SECTION 17
+     ============================================================ -->
+<h1 id="s17">17 · Arbres de décision</h1>
+<p class="chapo">Quatre arbres à mémoriser. Le texte ordonné des critères précède l'arbre (double codage).</p>
+
+<h2>17.1 · Prestation appréciable en argent ?</h2>
+<p>Critères cumulatifs : (1) prestation sans contre-prestation ; (2) au détenteur de parts ou à un proche ;
+(3) disproportion manifeste ; (4) reconnaissable par les organes.</p>
+<pre class="arbre">
+Prestation de la société à l'actionnaire / un proche
+│
+├─ Contre-prestation équivalente ? ───── OUI ─► PAS de PAA (opération commerciale)
+│                                        NON
+│                                         ▼
+├─ Motivée par le rapport de participation (pas de tiers) ? ─ NON ─► charge commerciale
+│                                        OUI
+│                                         ▼
+└─ PRESTATION APPRÉCIABLE EN ARGENT
+       ├─ Société : reprise au bénéfice (58) + IA 35 % (transfert 14 ; sinon 53,8 %)
+       ├─ Actionnaire : revenu imposé à 70 % si part ≥ 10 % (20 al. 1bis)
+       └─ Bénéficiaire : proche (IA) / actionnaire (revenu, triangle)
+</pre>
+
+<h2>17.2 · Remploi neutre (64) ?</h2>
+<pre class="arbre">
+Vente d'un actif avec réserves latentes
+│
+├─ Actif immobilisé NÉCESSAIRE à l'exploitation ? ── NON ─► RL imposées
+│                          OUI
+├─ Bien de remplacement EN SUISSE ? ──────────────── NON ─► RL imposées (remploi refusé)
+│                          OUI
+├─ Même nature (pas immeuble → mobilier) ? ───────── NON ─► RL imposées
+│                          OUI
+├─ Prix du remplacement ≥ valeur fiscale de l'ancien bien ? ── NON ─► RL imposées (à concurrence)
+│                          OUI
+└─ REMPLOI NEUTRE (méthode absolue) : RL reportées EN ENTIER, 0 imposé ;
+       nouveau bien = coût − RL  (délai ≈ 2 ans ; participations : ≥ 10 %, ≥ 1 an, 3 ans)
+       [méthode différentielle éventuelle : produit non réinvesti imposé]
+</pre>
+
+<h2>17.3 · Réduction pour participations (69-70) ?</h2>
+<pre class="arbre">
+Rendement d'une participation
+│
+├─ DIVIDENDE : part ≥ 10 % capital OU ≥ 10 % bénéfice/réserves OU VV ≥ 1 mio ?
+│        └─ NON ─► pas de réduction        OUI ─► éligible
+│
+├─ GAIN EN CAPITAL : part aliénée ≥ 10 % ET détenue ≥ 1 an ET produit > coût d'invest. ?
+│        └─ NON ─► pas de réduction        OUI ─► éligible (assiette = produit − coût d'invest.)
+│
+└─ Rendement NET = brut − amort. liés (70 al.3) − 5 % admin − frais financement
+       Réduction (%) = rendement net positif ÷ bénéfice net imposable × 100
+       (si perte : pas de réduction — exonération indirecte)
+</pre>
+
+<h2>17.4 · Procédure de déclaration de l'IA admissible ?</h2>
+<pre class="arbre">
+IA dû sur une prestation
+│
+├─ Prestation régulièrement DÉCLARÉE / pas de soustraction ? ── NON ─► paiement + transfert (14)
+│                          OUI
+├─ Cas prévu par l'OIA ?
+│     ├─ Dividende intragroupe, part ≥ 10 %      ► form. 103 + 106 (26a OIA)
+│     ├─ Dividende en nature, ≤ 20 bénéf. en CH  ► 24 al. 1 let. c OIA
+│     └─ Groupe international (CDI / EAR-UE)      ► form. 108
+│                          OUI
+└─ PROCÉDURE DE DÉCLARATION admise (tardive : conditions matérielles ; amende ≤ 5 000)
+</pre>
+
+<div class="changement">
+  <div class="callout-titre">🔄 Avant la session — points de vigilance</div>
+  <b>(1)</b> Revérifier les <b>taux et franchises</b> (IFD 8,5 % ; DTE 1 %/franchise 1 mio ; DTN 1,5 ‰/3 ‰ ;
+  taux d'intérêt AFC de la lettre-circulaire de l'année). <b>(2)</b> Confirmer l'édition en vigueur de la
+  <b>Circ. CSI n° 28</b> (§15). <b>(3)</b> <b>Imposition minimale OCDE (pilier 2 / impôt complémentaire
+  suisse, QDMTT)</b> : en vigueur mais <b>hors périmètre</b> de tes supports — à ne traiter que si la session
+  l'exige explicitement. <b>(4)</b> Vérifier que les cas d'examen ne reposent pas sur des <b>statuts cantonaux
+  abolis</b> (RFFA) ni sur l'<b>ancien principe de la valeur nominale</b> (remplacé en 2011).
+</div>
+
+</body>
+</html>

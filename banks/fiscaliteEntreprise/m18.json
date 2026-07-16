@@ -1,0 +1,69 @@
+{
+ "module": "M18",
+ "titre": "18 · Évaluation des titres non cotés (Circ. 28)",
+ "questions": [
+  {
+   "id": "FE-186",
+   "champ": "Estimation des titres non cotés — modèle 1",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "Lianna Velaryon, domiciliée à Genève, est actionnaire unique de la société commerciale Velaryon SA, dont le siège est à Genève. Le comptable de la société vous remet les données financières suivantes concernant Velaryon SA :\n- Résultat fiscal 2020 et 2021 de CHF (150’000) [perte] et de CHF 200’000 [bénéfice] respectivement ;\n- Capital-actions de CHF 100’000 ;\n- Réserves ouvertes, y compris bénéfice reporté, de CHF 900’000 ;\n- Immeuble commercial dont la valeur déterminante pour l’impôt sur le bénéfice est de CHF 800’000 et la valeur fiscale de CHF 1’000’000.\nSachant que le taux de capitalisation applicable est de 9.5%, quelle est la valeur déterminante pour l’impôt sur la fortune des actions de Velaryon SA selon la Circulaire n° 28 CSI (modèle 1) en 2022 ?",
+   "options": [
+    "CHF 974'795",
+    "CHF 2'144'386",
+    "CHF 2'087'719",
+    "CHF 918'129"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : société COMMERCIALE → valeur = (2 × valeur de rendement + 1 × valeur substantielle) ÷ 3 (Circ. CSI n° 28, méthode des praticiens ; mémento §15). VR (modèle 1, dernière année comptant double) : R̄ = (2 × 200 000 + (−150 000)) ÷ 3 = 83 333 ; capitalisé à 9,5 % → 83 333 ÷ 0,095 = 877 193. VS : fonds propres 100 000 + 900 000 = 1 000 000 ; réserve latente immeuble = 1 000 000 − 800 000 = 200 000, nette de l'impôt latent 15 % → +170 000 ; VS = 1 170 000. Valeur = (2 × 877 193 + 1 170 000) ÷ 3 = CHF 974 795. NB : clé reconstruite sous hypothèses modèle 1 + impôt latent 15 % (cf. divergences.md §4).",
+    "Faux : CHF 2 144 386 = même erreur que l'option suivante (rendement moyen NON divisé par 3 : R̄ pris à 250 000 → VR = 2 631 579) mais avec la réserve latente correctement incluse dans la VS (1 170 000) : (2 × 2 631 579 + 1 170 000) ÷ 3.",
+    "Faux : CHF 2 087 719 = (2 × 2 631 579 + 1 000 000) ÷ 3 — erreur classique du modèle 1 : la somme pondérée des résultats (2 × 200 000 − 150 000 = 250 000) n'est pas divisée par 3 avant capitalisation, ET la réserve latente sur l'immeuble est omise de la VS.",
+    "Faux : CHF 918 129 = (2 × 877 193 + 1 000 000) ÷ 3 — la valeur de rendement est correcte mais la VS omet la réserve latente nette sur l'immeuble (+170 000 après impôt latent de 15 %)."
+   ],
+   "piege": "Modèle 1 : la dernière année compte double, puis on divise par 3"
+  },
+  {
+   "id": "FE-187",
+   "champ": "Société commerciale avec participation — modèle 2",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "Monsieur Y, domicilié en Suisse, est l'unique actionnaire de la société commerciale Y SA. Pour l'établissement de sa déclaration d'impôt 2023, il vous transmet les données financières suivantes concernant Y SA: Résultats fiscaux: Année 2021: CHF 500 000 [bénéfice]; Année 2022: (CHF 902 000) [perte]; Année 2023: CHF 300 000 [bénéfice]; Capital-actions: CHF 200 000; Réserves issues d'apports en capital: CHF 1 400 000; Réserves issues du bénéfice, y compris bénéfices reportés: CHF 3 000 000; Depuis de nombreuses années, Y SA détient une participation de 100% dans Z SA, dont la valeur déterminante pour l'impôt sur le bénéfice s'élève à CHF 2 000 000 et la valeur vénale à CHF 4 000 000. Supposons que le taux de capitalisation applicable soit de 8,5%: à combien s'élève la valeur fiscale pour l'impôt sur la fortune des actions de Y SA qui doit être indiquée dans la déclaration d'impôt 2023 de Monsieur Y conformément à la circulaire n° 28 de la CSI (modèle 2)?",
+   "options": [
+    "CHF 1 833 333",
+    "CHF 2 100 000",
+    "CHF 1 933 333",
+    "CHF 2 200 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 1 833 333 = (2 × (−400 000) + 6 300 000) ÷ 3 — capitalise la moyenne NÉGATIVE (−34 000 ÷ 8,5 % = −400 000) au lieu de la ramener à 0 : une valeur de rendement négative est toujours ramenée à zéro, elle ne vient pas diminuer la substance.",
+    "CORRECT : société commerciale → (2 × VR + VS) ÷ 3 (Circ. CSI n° 28 ; mémento §15). VR (modèle 2, moyenne des 3 exercices) : (500 000 − 902 000 + 300 000) ÷ 3 = −34 000 < 0 → ramenée à 0. VS = fonds propres (200 000 + 1 400 000 + 3 000 000 = 4 600 000) + réserve latente sur la participation (4 000 000 − 2 000 000 = 2 000 000, nette de l'impôt latent 15 % → +1 700 000) = 6 300 000. Valeur = (2 × 0 + 6 300 000) ÷ 3 = CHF 2 100 000. NB : clé reconstruite (hypothèse impôt latent 15 %, cf. divergences.md §4).",
+    "Faux : CHF 1 933 333 = (2 × (−400 000) + 6 600 000) ÷ 3 — cumule deux erreurs : valeur de rendement négative conservée (au lieu de 0) ET substance sans déduction de l'impôt latent de 15 % sur la réserve latente.",
+    "Faux : CHF 2 200 000 = 6 600 000 ÷ 3 — la VR est bien ramenée à 0 mais la substance omet l'impôt LATENT : réserve latente brute 2 000 000 retenue en entier au lieu de 1 700 000 net (déduction de 15 %, soit 300 000)."
+   ],
+   "piege": "Valeur de rendement négative → ramenée à 0 (jamais soustraite)"
+  },
+  {
+   "id": "FE-188",
+   "champ": "Société immobilière — valeur substantielle uniquement",
+   "memento": "§15",
+   "difficulte": 3,
+   "question": "Madame A, domiciliée en Suisse, est l'unique actionnaire de la société immobilière lmmo SA qui possède exclusivement des immeubles d'habitation en Suisse. Dans le cadre de l'établissement de sa déclaration d'impôt 2023, Madame A vous communique les informations suivantes concernant lmmo SA: Résultat comptable annuel moyen des années 2023, 2022 et 2021 de CHF 935 000; Capital-actions de CHF 1 000 000; Réserves apparentes, y compris bénéfice reporté, de CHF 12 000 000; Les biens immobiliers ont une valeur déterminante pour l'impôt sur le bénéfice de CHF 12 000 000 et une valeur vénale de CHF 16 000 000. Supposons que le taux de capitalisation applicable soit de 8,5%: à combien s'élève la valeur fiscale pour l'impôt sur la fortune des actions de lmmo SA qui doit être indiquée dans la déclaration d'impôt 2023 de Madame A conformément à la circulaire n° 28 de la CSI?",
+   "options": [
+    "CHF 13 700 000",
+    "CHF 16 400 000",
+    "CHF 12 800 000",
+    "CHF 13 000 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 13 700 000 = (11 000 000 + 16 400 000) ÷ 2 — moyenne simple entre une valeur de rendement capitalisée (935 000 ÷ 8,5 % = 11 000 000) et la substance. Or une société IMMOBILIÈRE s'évalue à la substance SEULE : on ne capitalise pas le rendement (Circ. CSI n° 28).",
+    "CORRECT : société IMMOBILIÈRE → valeur SUBSTANTIELLE seule, sans capitalisation du rendement (Circ. CSI n° 28 ; mémento §15) — le résultat moyen de 935 000 et le taux de 8,5 % sont des données PIÈGES. Fonds propres = 1 000 000 + 12 000 000 = 13 000 000 ; réserve latente sur immeubles = 16 000 000 − 12 000 000 = 4 000 000, sous déduction de l'impôt latent 15 % (600 000) → +3 400 000. Valeur = 13 000 000 + 3 400 000 = CHF 16 400 000. NB : clé reconstruite (hypothèse impôt latent 15 %, cf. divergences.md §4).",
+    "Faux : CHF 12 800 000 = (2 × 11 000 000 + 16 400 000) ÷ 3 — applique la formule générale des sociétés commerciales (2 × rendement + substance) ÷ 3 alors qu'une société immobilière s'évalue à la seule valeur substantielle.",
+    "Faux : CHF 13 000 000 = les seuls fonds propres comptables — oublie de réévaluer les immeubles à la valeur vénale : la réserve latente nette d'impôt latent (+3 400 000) fait partie de la valeur substantielle."
+   ],
+   "piege": "Société immobilière : substance seule — le rendement fourni est une donnée piège"
+  }
+ ]
+}

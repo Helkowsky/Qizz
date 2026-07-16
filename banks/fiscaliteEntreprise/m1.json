@@ -1,0 +1,108 @@
+{
+ "module": "M1",
+ "titre": "01 · Personnes physiques — souveraineté & assujettissement",
+ "questions": [
+  {
+   "id": "FE-001",
+   "champ": "Assujettissement PP — niveaux d'impôt",
+   "memento": "§1.1",
+   "piege": "Pas d'impôt fédéral sur la fortune",
+   "difficulte": 2,
+   "question": "En Suisse, les personnes physiques (identifiez la réponse correcte) :",
+   "options": [
+    "sont assujetties à l'impôt sur les revenus et la fortune au plan communal, cantonal et fédéral",
+    "ne sont jamais assujetties à l'impôt sur les revenus et la fortune sur leurs activités et avoirs à l'étranger",
+    "sont assujetties à l'impôt sur la fortune au plan communal, cantonal et fédéral",
+    "sont assujetties à l'impôt sur les revenus au plan communal, cantonal et fédéral"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : cette option ajoute un impôt fédéral sur la FORTUNE qui n'existe pas. La Confédération n'impose que le revenu des personnes physiques (art. 128 al. 1 Cst) ; la fortune n'est imposée qu'aux niveaux cantonal et communal (LHID).",
+    "Faux : le résident suisse est assujetti de manière ILLIMITÉE, donc sur son revenu mondial. Seuls les entreprises, établissements stables et immeubles situés à l'étranger sont exonérés unilatéralement — même mécanisme que pour les personnes morales (mémento §1.2). « Jamais » est donc excessif.",
+    "Faux : même erreur que l'option A — il n'existe aucun impôt fédéral sur la fortune des personnes physiques ; cet impôt est purement cantonal et communal.",
+    "Correct : l'impôt sur le REVENU est prélevé aux trois échelons — communal et cantonal (LHID/lois cantonales) et fédéral (IFD, art. 128 al. 1 Cst ; art. 3 LIFD pour l'assujettissement). L'impôt sur la fortune, lui, s'arrête au niveau cantonal/communal. (Règle PP non détaillée dans le mémento, axé personnes morales ; §1.1 traite la souveraineté côté PM.)"
+   ]
+  },
+  {
+   "id": "FE-002",
+   "champ": "Souveraineté fiscale",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "En termes de souveraineté fiscale (identifiez la réponse correcte) :",
+   "options": [
+    "Seuls les cantons jouissent de cette souveraineté",
+    "Seules les communes jouissent de cette souveraineté",
+    "Les communes ecclésiastiques reconnues par l'État jouissent de la souveraineté fiscale",
+    "Seuls les cantons et les communes politiques jouissent de cette souveraineté"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux par exclusivité (« seuls ») : la Confédération jouit aussi d'une souveraineté fiscale originaire (art. 128 Cst), et les communes d'une souveraineté déléguée par le canton.",
+    "Faux par exclusivité (« seules ») : cette option exclut la Confédération et les cantons, qui sont précisément les titulaires ORIGINAIRES de la souveraineté fiscale (art. 3 et 128 Cst).",
+    "Correct : les communes/paroisses ecclésiastiques reconnues de droit public jouissent d'une souveraineté fiscale déléguée — elles prélèvent l'impôt ecclésiastique sur leurs membres (et, dans plusieurs cantons, sur les personnes morales). Reconnaissance des Églises de droit public : droit cantonal. (Notion absente du mémento, qui ne traite la souveraineté que côté Confédération/PM — §1.1.)",
+    "Faux par exclusivité (« seuls ») : cette option exclut à tort la Confédération et les collectivités ecclésiastiques reconnues, qui disposent aussi de la souveraineté (originaire pour l'une, déléguée pour les autres)."
+   ]
+  },
+  {
+   "id": "FE-003",
+   "champ": "Coefficients d'imposition",
+   "memento": "§1.1",
+   "piege": "L'IFD n'a pas de coefficient",
+   "difficulte": 2,
+   "question": "Les coefficients d'imposition sur les revenus de l'ensemble des impôts communaux, cantonaux et fédéraux (identifiez la réponse correcte) :",
+   "options": [
+    "Sont fixés par la Confédération",
+    "Sont fixés par les cantons",
+    "Sont fixés par les cantons et les communes",
+    "Sont fixés par les communes, les cantons et la Confédération"
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : la Confédération ne fixe aucun coefficient — l'impôt fédéral direct n'a PAS de multiple annuel, ses taux sont inscrits directement dans la LIFD (barème légal).",
+    "Incomplet : le canton vote bien son coefficient (multiple annuel) pour l'impôt cantonal, mais les communes votent AUSSI le leur (centimes additionnels) — il manque un acteur.",
+    "Correct : le coefficient est fixé par le CANTON pour l'impôt cantonal et par la COMMUNE pour l'impôt communal (autonomie tarifaire) ; l'IFD, lui, applique un barème fixé dans la loi, sans coefficient. (Mécanique des coefficients non reprise dans le mémento, axé PM ; §1.1 le plus proche.)",
+    "Faux : cette option prête à la Confédération un « coefficient » qui n'existe pas pour l'IFD — le barème fédéral est légal, sans multiple annuel."
+   ]
+  },
+  {
+   "id": "FE-004",
+   "champ": "Barèmes cantonaux",
+   "memento": "§1.1",
+   "difficulte": 2,
+   "question": "Les taux d'imposition cantonaux (identifiez la réponse correcte) :",
+   "options": [
+    "peuvent être progressifs ou linéaires",
+    "sont obligatoirement progressifs",
+    "sont obligatoirement dégressifs",
+    "sont obligatoirement linéaires"
+   ],
+   "correct": 0,
+   "explications": [
+    "Correct : les barèmes cantonaux ne sont PAS harmonisés — l'art. 129 al. 2 Cst laisse les tarifs, taux et montants exonérés à la compétence des cantons. Un canton peut donc adopter un tarif progressif ou un tarif linéaire (flat tax avec minimum vital exonéré). (Point non repris dans le mémento, axé PM ; §1.1 le plus proche.)",
+    "Faux : aucune obligation de progressivité — un barème linéaire cantonal est admis (l'harmonisation ne touche pas les tarifs, art. 129 al. 2 Cst).",
+    "Faux, et même anticonstitutionnel : le tarif DÉGRESSIF a été jugé contraire à l'égalité et à l'imposition selon la capacité économique (art. 127 al. 2 Cst ; ATF 133 I 206, Obwald 2007).",
+    "Faux : le linéaire est permis, pas imposé — le canton reste libre de choisir un barème progressif."
+   ]
+  },
+  {
+   "id": "FE-005",
+   "champ": "Relation de droit fiscal",
+   "memento": "§1.1",
+   "difficulte": 1,
+   "question": "Quel élément ne fait pas partie de la relation fondée sur un droit fiscal entre l’assujetti et l’autorité fiscale?",
+   "options": [
+    "Taux de l’impôt",
+    "Sujet fiscal",
+    "Objet de l’impôt",
+    "Période fiscale"
+   ],
+   "correct": 3,
+   "explications": [
+    "Le taux (tarif applicable) est un élément CONSTITUTIF du rapport de droit fiscal, avec le sujet, l'objet et la base de calcul — il en fait partie, ce n'est donc pas la réponse.",
+    "Le sujet fiscal (qui est imposé) est un élément constitutif du rapport de droit fiscal — il en fait partie, ce n'est pas la réponse.",
+    "L'objet de l'impôt (sur quoi porte l'impôt) est un élément constitutif du rapport de droit fiscal — il en fait partie, ce n'est pas la réponse.",
+    "Correct : la période fiscale est une donnée TEMPORELLE de procédure (délimitation de l'assiette dans le temps), pas un élément constitutif du rapport de droit fiscal substantiel, qui se compose du sujet, de l'objet, de la base de calcul et du taux. (Théorie générale absente du mémento, axé PM ; §1.1 le plus proche.)"
+   ]
+  }
+ ]
+}

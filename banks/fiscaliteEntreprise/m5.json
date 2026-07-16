@@ -1,0 +1,196 @@
+{
+ "module": "M5",
+ "titre": "05 · Bénéfice imposable & déterminance",
+ "questions": [
+  {
+   "id": "FE-047",
+   "champ": "Déterminance — contrat de longue durée (achèvement)",
+   "memento": "§2",
+   "difficulte": 2,
+   "question": "Une société a conclu un contrat pour la construction d'un tunnel. La construction est planifiée sur 5 ans et prévue en une seule étape. Par prudence, la société n'enregistre aucun bénéfice durant les 4 premières années : elle active simplement les coûts dans les travaux en cours. L'autorité fiscale peut-elle redresser le bénéfice des quatre premières années pour imposer la marge au fur et à mesure de l'avancement des travaux ?",
+   "options": [
+    "Oui, car le bénéfice proposé par la société n'est pas conforme au droit commercial. Ce dernier exige que la marge soit réalisée au fur et à mesure de l'avancement des travaux.",
+    "Non, car le bénéfice proposé par la société est conforme au droit commercial et la LIFD ne contient aucune disposition permettant de procéder à une modification.",
+    "Oui, bien que le bénéfice proposé par la société soit conforme au droit commercial, la LIFD contient une disposition permettant de procéder à une modification."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : le droit commercial n'EXIGE pas la comptabilisation de la marge à l'avancement des travaux : pour un ouvrage réalisé en une seule étape, la méthode de l'achèvement — activer les coûts en travaux en cours et ne dégager la marge qu'à la livraison — est licite au regard du principe de prudence. L'avancement est une méthode possible, pas une obligation.",
+    "Juste : le bilan est conforme au droit commercial et le principe de déterminance (art. 58 al. 1 let. a LIFD ; mémento §2) LIE l'autorité fiscale : elle ne peut s'écarter d'un bilan conforme que si les comptes violent le droit commercial ou si une règle fiscale le prévoit expressément — aucune disposition de la LIFD ne permet ici d'imposer la marge à l'avancement.",
+    "Faux : aucune disposition de la LIFD n'autorise l'autorité à substituer sa propre méthode à un bilan conforme au droit commercial ; admettre le contraire viderait la déterminance de sa substance (mémento §2 : effet protecteur du bilan commercial)."
+   ]
+  },
+  {
+   "id": "FE-048",
+   "champ": "Définition du principe de déterminance",
+   "memento": "§2",
+   "difficulte": 1,
+   "question": "Le principe de déterminance signifie que :",
+   "options": [
+    "Le résultat conforme au droit commercial est repris en droit fiscal pour déterminer le bénéfice imposable.",
+    "Le droit fiscal est déterminant pour fixer le bénéfice imposable ; le droit fiscal contient toutes les règles nécessaires à l'évaluation du bénéfice.",
+    "La position de l'autorité fiscale est déterminante pour fixer le bénéfice imposable."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : la déterminance (art. 58 al. 1 let. a LIFD ; mémento §2) fait du résultat du bilan commercial conforme au droit commercial le POINT DE DÉPART obligatoire du bénéfice imposable, sous réserve des seules corrections prévues par le droit fiscal (art. 58 al. 1 let. b et c).",
+    "Faux : cette option inverse la logique — le droit fiscal ne contient pas un référentiel comptable complet et autonome ; il PART des comptes commerciaux et se borne à les corriger. Ne pas confondre avec la « déterminance inversée » : certaines déductions fiscales exigent une comptabilisation préalable (mémento §16, faux amis).",
+    "Faux : l'autorité fiscale n'a pas de pouvoir d'appréciation libre : elle est LIÉE par le bilan conforme approuvé par l'AG (effet protecteur du bilan commercial, mémento §2) et ne peut s'en écarter que sur base légale."
+   ]
+  },
+  {
+   "id": "FE-049",
+   "champ": "Définition — modification de bilan",
+   "memento": "§2.1",
+   "difficulte": 1,
+   "question": "Une « modification de bilan » est une opération qui :",
+   "options": [
+    "Modifie un bilan non conforme au droit commercial en un autre bilan conforme au droit commercial.",
+    "Modifie un bilan conforme au droit commercial en un autre bilan conforme au droit commercial.",
+    "Modifie un bilan conforme au droit commercial en un autre bilan non conforme au droit commercial."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : passer d'un bilan NON conforme à un bilan conforme est la définition de la CORRECTION de bilan (admise, voire imposée par le fisc) — pas de la modification (mémento §2.1, ligne « correction vs modification de bilan »).",
+    "Juste : la modification de bilan remplace un bilan conforme au droit commercial par un AUTRE bilan également conforme (choix entre deux traitements licites) ; elle est en principe refusée au contribuable après le dépôt de la déclaration (mémento §2.1).",
+    "Faux : aboutir à un bilan NON conforme au droit commercial n'est jamais admissible — ce n'est ni une correction ni une modification recevable."
+   ]
+  },
+  {
+   "id": "FE-050",
+   "champ": "États financiers annexés à la déclaration",
+   "memento": "§2.1",
+   "difficulte": 2,
+   "question": "Une société peut déposer en annexe de sa déclaration d'impôts :",
+   "options": [
+    "Uniquement les comptes admis par l'Assemblée générale.",
+    "Soit les états financiers admis par l'Assemblée générale, soit des états financiers « économiques » validés par le Conseil d'administration.",
+    "Soit les états financiers admis par l'Assemblée générale, soit des états financiers modifiés qui intègrent des déductions fiscales supplémentaires autorisées."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : « uniquement les comptes de l'AG » est trop restrictif — outre ces comptes, le contribuable peut faire valoir les déductions supplémentaires que le droit fiscal AUTORISE.",
+    "Faux : des états financiers « économiques » validés par le seul conseil d'administration ne constituent pas une base fiscale ; le CA n'a pas compétence pour substituer un jeu de comptes à celui approuvé par l'AG — le point de départ reste les comptes de l'AG (déterminance, art. 58 al. 1 let. a LIFD).",
+    "Juste : le point de départ est le bilan approuvé par l'AG (déterminance, mémento §2.1) ; le contribuable peut y joindre des états ajustés faisant valoir des déductions fiscales supplémentaires AUTORISÉES par la loi. NB : cette faculté n'est pas détaillée dans le mémento (le §2.1 traite du schéma de correction et de la limite de la modification de bilan)."
+   ]
+  },
+  {
+   "id": "FE-051",
+   "champ": "Modification de bilan par l'autorité fiscale",
+   "memento": "§2.1",
+   "difficulte": 2,
+   "question": "Une « modification de bilan » peut être effectuée par une autorité fiscale :",
+   "options": [
+    "Uniquement si le droit fiscal contient une disposition qui autorise une telle modification (sous réserve d'une évasion fiscale).",
+    "Dès que le résultat présenté contient des réserves latentes ou des distributions dissimulées de bénéfice.",
+    "Dès que le résultat présenté ne reflète pas la réalité économique."
+   ],
+   "correct": 0,
+   "explications": [
+    "Juste : le fisc étant lié par un bilan conforme (déterminance, art. 58 al. 1 let. a LIFD), il ne peut le modifier que si une disposition du droit fiscal l'y autorise expressément, la réserve générale de l'évasion fiscale mise à part (mémento §2 : le fisc ne s'écarte du bilan que si les comptes violent le droit commercial ou si une règle fiscale le prévoit).",
+    "Faux : la présence de réserves latentes dans un bilan conforme est licite et n'autorise en soi aucune intervention ; quant aux distributions dissimulées, leur reprise repose sur l'art. 58 al. 1 let. b LIFD (correction prévue par la loi, mémento §2.1), ce qui n'est pas une « modification » libre du bilan.",
+    "Faux : « ne reflète pas la réalité économique » est un critère vague, sans ancrage légal ; il ouvrirait un pouvoir d'appréciation contraire à la déterminance."
+   ]
+  },
+  {
+   "id": "FE-052",
+   "champ": "2e déclaration après dépôt — modification refusée",
+   "memento": "§2.1",
+   "difficulte": 2,
+   "question": "Une société dépose auprès de l'autorité fiscale une déclaration d'impôt avec les états financiers. Elle constate qu'elle a oublié d'enregistrer une provision forfaitaire sur stock de 33 %. Comme la société n'a pas encore été taxée, elle dépose une 2e déclaration d'impôts en revendiquant la provision sur stocks. L'autorité fiscale :",
+   "options": [
+    "N'acceptera pas la nouvelle déclaration car la société souhaite remplacer des états financiers conformes au droit fiscal par des états financiers non conformes au droit fiscal.",
+    "N'acceptera pas la nouvelle déclaration car la société souhaite remplacer des états financiers conformes au droit commercial par de nouveaux états financiers conformes au droit commercial.",
+    "Acceptera la nouvelle déclaration d'impôts car la société n'a pas encore été taxée."
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la qualification est erronée — les deux jeux d'états financiers sont conformes au droit COMMERCIAL (la provision forfaitaire sur stock est un choix licite, pas une obligation) ; il ne s'agit pas de remplacer du « conforme au droit fiscal » par du « non conforme ». Cette option confond correction (non conforme → conforme) et modification (conforme → conforme).",
+    "Juste : réclamer après coup la réserve forfaitaire sur stock — qui doit être COMPTABILISÉE pour être déduite (déterminance inversée, mémento §16) — revient à remplacer des états conformes au droit commercial par d'autres états également conformes : c'est une MODIFICATION de bilan, en principe refusée au contribuable après le dépôt de la déclaration (mémento §2.1).",
+    "Faux : l'absence de taxation n'ouvre pas la porte à la modification — le moment charnière est le DÉPÔT de la déclaration, pas la notification de la taxation (mémento §2.1, encadré « Modification de bilan — jusqu'à quand ? »)."
+   ],
+   "piege": "Dépôt de la déclaration = date charnière (pas la taxation)"
+  },
+  {
+   "id": "FE-053",
+   "champ": "Modification de bilan — délai (requalification frais privés en salaire)",
+   "memento": "§2.1",
+   "difficulte": 2,
+   "question": "ToutVoyages SA, dont le siège est à Genève, a comptabilisé en tant que charge le voyage en Laponie de l’actionnaire et de sa famille. Afin d’éviter que cette charge ne soit pas admise par les autorités fiscales genevoises, le comptable de l’entreprise décide de requalifier ces frais de voyages privés en tant que salaire. Jusqu’à quel moment ToutVoyages SA peut-elle faire valoir cette requalification en matière d’impôt fédéral direct ?",
+   "options": [
+    "Au plus tard avant la notification de la taxation",
+    "Au plus tard avant l’entrée en force de la taxation",
+    "Au plus tard après l’entrée en force de la taxation au moyen d’une révision",
+    "Au plus tard lors du dépôt de la déclaration fiscale auprès de l’autorité fiscale compétente"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : la notification de la taxation n'est pas le critère — la modification d'un bilan conforme est déjà exclue dès le dépôt de la déclaration, même si la taxation n'est pas encore notifiée.",
+    "Faux : l'entrée en force de la taxation concerne les voies de droit (réclamation, recours), pas la faculté de modifier le bilan, qui se ferme dès le dépôt de la déclaration.",
+    "Faux : la révision est une voie de droit extraordinaire contre une taxation entrée en force (faits ou moyens nouveaux) ; elle ne permet pas de revenir sur un choix comptable licite.",
+    "Juste : requalifier une écriture d'un bilan par ailleurs conforme (frais de voyage privés → salaire) est une MODIFICATION de bilan, admise seulement jusqu'au DÉPÔT de la déclaration auprès de l'autorité compétente ; après, le fisc ne concède qu'une CORRECTION d'un bilan non conforme au droit commercial. Base : art. 58 al. 1 LIFD (déterminance). Le mémento §2.1 (encadré « Modification de bilan — jusqu'à quand ? ») traite exactement cet exemple."
+   ],
+   "piege": "Jusqu'au dépôt de la déclaration, pas jusqu'à la taxation"
+  },
+  {
+   "id": "FE-054",
+   "champ": "Calcul du bénéfice net imposable (reprises de déterminance)",
+   "memento": "§2.2",
+   "difficulte": 3,
+   "question": "Fabric SA, dont le siège est en Suisse, vous demande conseil et vous transmet les données financières suivantes pour la période fiscale 2023: Résultat de l'entreprise de CHF 90 000; Le voyage de noces de l'actionnaire a été comptabilisé comme charge (CHF 50 000); Un apport de l'actionnaire a été comptabilisé en tant que produit dans le compte de résultat (CHF 60 000); La provision pour risques judiciaires de CHF 200 000 a été dissoute en 2023. Comme la provision n'était déjà plus justifiée par l'usage commercial au cours des années précédentes, les autorités fiscales l'avaient déjà corrigé en 2021; La dette de Fabric SA envers l'actionnaire, d'un montant de CHF 800 000, est qualifié de capitaux propres dissimulés à hauteur de CHF 200 000. Les intérêts comptabilisés sont calculés au taux maximum autorisé par la législation fiscale, soit 3,75%. À combien s'élève le bénéfice net imposable de Z SA en ce qui concerne l'impôt fédéral direct?",
+   "options": [
+    "CHF 72 500 [bénéfice]",
+    "CHF 102 500 [bénéfice]",
+    "CHF (52 500) [perte]",
+    "CHF (112 500) [perte]"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : 90 000 + 50 000 − 60 000 − 7 500 = 72 500 omet de neutraliser la dissolution de la provision déjà reprise en 2021 (−200 000) et DÉDUIT les intérêts sur le capital propre dissimulé au lieu de les reprendre (+7 500).",
+    "Faux : 90 000 + 50 000 − 60 000 + 22 500 = 102 500 omet la neutralisation de la provision (−200 000) et calcule la reprise d'intérêts sur la part de dette fiscalement reconnue (600 000 × 3,75 % = 22 500) au lieu de la part requalifiée en capital propre dissimulé (200 000 × 3,75 % = 7 500).",
+    "Faux : (52 500) = −112 500 + 60 000 : ce calcul laisse l'apport de l'actionnaire (60 000) en produit imposable au lieu de le retirer comme élément sans influence sur le résultat (art. 60 LIFD).",
+    "Juste : schéma de correction de l'art. 58 LIFD (mémento §2.2, exemple « Fabric SA » repris à l'identique) : 90 000 + 50 000 (voyage de noces = charge privée non justifiée, art. 58 al. 1 let. b LIFD) − 60 000 (apport de l'actionnaire comptabilisé en produit = élément sans influence, art. 60 LIFD) − 200 000 (dissolution d'une provision déjà reprise fiscalement en 2021 → neutralisée pour éviter une double imposition) + 7 500 (intérêts sur le capital propre dissimulé : 200 000 × 3,75 %, art. 65 LIFD) = perte de CHF (112 500)."
+   ]
+  },
+  {
+   "id": "FE-055",
+   "champ": "Remploi (report de réserves latentes)",
+   "memento": "§4",
+   "difficulte": 2,
+   "question": "La société T SA (Suisse), active dans l'aviation, remplace un avion par un modèle plus récent. L'avion a été acheté au prix de CHF 15 000 000, sa valeur déterminante pour l'impôt sur le bénéfice est de CHF 5 000 000 et il sera vendu au prix de CHF 8 000 000. Le prix du nouvel avion s'élève à CHF 12 000 000. Quelle est la valeur déterminante pour l'impôt sur le bénéfice du nouvel avion (IFD), T SA visant un remploi aussi élevé que possible ?",
+   "options": [
+    "CHF 12 000 000",
+    "CHF 5 000 000",
+    "CHF 8 000 000",
+    "CHF 9 000 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : inscrire le nouvel avion à son coût d'acquisition (12 000 000) ignore le report de la réserve latente : le remploi (art. 64 LIFD) transfère la réserve sur le bien de remplacement, ce qui ABAISSE sa valeur fiscale.",
+    "Faux : CHF 5 000 000 reprend simplement la valeur fiscale de l'ancien avion ; la valeur du nouveau bien se calcule coût − réserve latente reportée (12 000 000 − 3 000 000), pas par simple report de l'ancienne valeur.",
+    "Faux : CHF 8 000 000 est le prix de vente de l'ancien avion — sans pertinence pour la valeur fiscale du bien de remplacement.",
+    "Juste : réserve latente réalisée = prix de vente 8 000 000 − valeur déterminante 5 000 000 = 3 000 000. Le prix du nouvel avion (12 000 000) dépasse le produit de vente → remploi intégral de la réserve ; valeur fiscale du nouveau bien = coût − réserve latente reportée = 12 000 000 − 3 000 000 = CHF 9 000 000 (art. 64 LIFD ; mémento §4 : « nouveau bien = coût − RL »)."
+   ]
+  },
+  {
+   "id": "FE-056",
+   "champ": "Provision pour impôt sur le bénéfice",
+   "memento": "§2.2 · §1.1",
+   "difficulte": 3,
+   "question": "La société Beta SA a son siège à Zurich et réalise un bénéfice net imposable de CHF 4 mio. Le taux d'imposition cantonal et communal sur le bénéfice (taux statutaire) s'élève à 12%. Un montant de CHF 250 000 a déjà été provisionné pour les impôts sur le bénéfice de l'exercice en cours. De combien faut-il ajuster la provision ? (L'impôt sur le capital ne doit pas être pris en compte.)",
+   "options": [
+    "CHF 205 357",
+    "CHF 570 000",
+    "CHF 230 000",
+    "CHF 473 029"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : CHF 205 357 provient d'un calcul « impôt compris » erroné (grossissement du type base × taux ÷ (1 + taux)) ; or l'énoncé donne déjà le bénéfice net IMPOSABLE, sur lequel les taux statutaires s'appliquent directement.",
+    "Juste : la provision doit couvrir la charge fiscale totale sur le bénéfice net imposable de 4 mio : IFD 8,5 % (art. 68 LIFD ; mémento §1.1) + impôt cantonal/communal statutaire 12 % = 20,5 % → 4 000 000 × 20,5 % = 820 000. Provision déjà comptabilisée 250 000 → ajustement = 820 000 − 250 000 = CHF 570 000. Les impôts sont des charges justifiées par l'usage commercial (art. 59 LIFD ; mémento §2.2). NB : clé reconstruite (source sans corrigé), confiance faible selon divergences.md §9.",
+    "Faux : 4 000 000 × 12 % − 250 000 = 230 000 n'applique que l'impôt cantonal/communal et oublie l'IFD de 8,5 %.",
+    "Faux : CHF 473 029 provient d'un calcul « impôt compris » (bénéfice traité comme un montant avant déduction de l'impôt) ; le bénéfice net imposable étant donné, le calcul est direct."
+   ]
+  }
+ ]
+}

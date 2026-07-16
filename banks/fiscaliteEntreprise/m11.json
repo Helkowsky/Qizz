@@ -1,0 +1,47 @@
+{
+ "module": "M11",
+ "titre": "11 · Capital propre dissimulé",
+ "questions": [
+  {
+   "id": "FE-114",
+   "champ": "Intérêts non déductibles (capital propre dissimulé)",
+   "memento": "§8",
+   "difficulte": 3,
+   "piege": "actifs à la valeur vénale, pas comptable",
+   "question": "Bilan de K SA au 31.12.2023 : Liquidités CHF 500 000 (financement externe autorisé 100%) ; Débiteurs CHF 2 000 000 (85%) ; Immeubles locatifs CHF 5 000 000 (80%) ; Dette envers l'actionnaire CHF 7 200 000 (rémunérée à 3%) ; Capitaux propres CHF 300 000. Supposons que la valeur vénale des immeubles locatifs s'élève à CHF 5 500 000 et que le taux d'intérêt fiscalement admissible pour les prêts des actionnaires est de 2,5% : quel est le montant des intérêts non déductibles fiscalement en 2023 ?",
+   "options": [
+    "CHF 26 000",
+    "CHF 36 000",
+    "CHF 61 000",
+    "CHF 51 000"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux. 26 000 ne correspond qu'à une combinaison partielle des deux corrections (écart de taux appliqué à une base tronquée) : aucune lecture cohérente de la circulaire sur le capital propre dissimulé n'y aboutit.",
+    "Faux. 36 000 = 7 200 000 × 0,5 % : applique le seul écart de taux (3 % − 2,5 %) à l'ENSEMBLE de la dette, en oubliant que le capital propre dissimulé de 600 000 ne donne droit à AUCUN intérêt déductible (intérêts requalifiés en distribution dissimulée).",
+    "Faux. 61 000 retient la valeur COMPTABLE des immeubles (5 000 000 × 80 % → endettement admissible 6 200 000 ; 216 000 − 6 200 000 × 2,5 % = 61 000). Or la circulaire calcule l'endettement admissible sur la valeur VÉNALE des actifs (immeubles : 5 500 000).",
+    "Correct. Endettement admissible (valeurs vénales) : liquidités 500 000 × 100 % = 500 000 ; débiteurs 2 000 000 × 85 % = 1 700 000 ; immeubles 5 500 000 × 80 % = 4 400 000 → total 6 600 000. Dette actionnaire 7 200 000 → capital propre dissimulé 600 000. Intérêts non déductibles = intérêts payés − intérêts admissibles = 7 200 000 × 3 % − 6 600 000 × 2,5 % = 216 000 − 165 000 = CHF 51 000 (soit 6 600 000 × 0,5 % + 600 000 × 3 % = 33 000 + 18 000). Base : art. 65 LIFD ; Circ. AFC capital propre dissimulé."
+   ]
+  },
+  {
+   "id": "FE-115",
+   "champ": "Capital propre dissimulé — cas chiffré",
+   "memento": "§8",
+   "difficulte": 3,
+   "question": "Une SA présente, à la valeur vénale : immeuble d’exploitation CHF 5 000 000, participations CHF 2 000 000, liquidités CHF 500 000. Ses fonds étrangers effectifs (dont un important prêt de l’actionnaire) s’élèvent à CHF 6 000 000. Selon la circulaire AFC n° 6a (taux d’endettement maximal : immeubles 70 %, participations 70 %, liquidités 100 %), à combien s’élève le capital propre dissimulé ?",
+   "options": [
+    "CHF 0",
+    "CHF 600 000",
+    "CHF 1 000 000",
+    "CHF 6 000 000"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux. 0 supposerait que la totalité des fonds étrangers est admissible : or l'endettement maximal (5 400 000) est inférieur aux fonds étrangers effectifs (6 000 000) — il y a bien un excédent requalifié.",
+    "Correct. Endettement maximal admissible = 5 000 000 × 70 % + 2 000 000 × 70 % + 500 000 × 100 % = 3 500 000 + 1 400 000 + 500 000 = 5 400 000. Capital propre dissimulé = 6 000 000 − 5 400 000 = CHF 600 000 : il s'ajoute au capital imposable, et les intérêts qui le rémunèrent sont repris comme distribution dissimulée. Base : art. 65 LIFD ; Circ. AFC n° 6a.",
+    "Faux. 1 000 000 résulte d'un taux erroné (p. ex. participations financées à 50 % comme du mobilier, → admissible 5 000 000) : la donnée impose 70 % pour les participations.",
+    "Faux. 6 000 000 confond le capital propre dissimulé avec le TOTAL des fonds étrangers effectifs : seul l'excédent au-delà de l'endettement admissible est requalifié."
+   ]
+  }
+ ]
+}

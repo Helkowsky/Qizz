@@ -1,0 +1,291 @@
+{
+ "module": "M16",
+ "titre": "16 · Droit de timbre de négociation",
+ "questions": [
+  {
+   "id": "FE-166",
+   "champ": "Documents imposables (art. 13)",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "Au sens de l'article 13 de la LT, sont toujours des documents imposables (identifiez la réponse erronée) :",
+   "options": [
+    "les actions émises par une personne domiciliée en Suisse",
+    "les actions émises par une personne domiciliée à l'étranger",
+    "les bons de participation de sociétés coopératives émises par une personne domiciliée en Suisse",
+    "les parts sociales de sociétés à responsabilité limitée domiciliées en Suisse"
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation VRAIE, donc pas la réponse : les actions émises par une personne domiciliée en Suisse sont des documents imposables (art. 13 al. 2 LT) — titres suisses, taxés à 1,5 ‰ (mémento §13).",
+    "Affirmation VRAIE, donc pas la réponse : les actions d'un émetteur étranger sont aussi des documents imposables (art. 13 al. 2 LT) — titres étrangers, taxés à 3 ‰.",
+    "ERRONÉE (bonne réponse) : les « bons de participation » sont un instrument de la SA (art. 656a CO) ; la société coopérative émet des PARTS SOCIALES, pas des bons de participation — la formulation vise un titre inexistant sous cette forme.",
+    "Affirmation VRAIE, donc pas la réponse : les parts sociales de Sàrl (comme celles de coopératives) figurent parmi les documents imposables de l'art. 13 al. 2 LT."
+   ]
+  },
+  {
+   "id": "FE-167",
+   "champ": "Commerçants de titres (art. 13)",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Au sens de l'article 13 de la LT, ne sont pas des commerçants de titres (identifiez la réponse correcte) :",
+   "options": [
+    "les banques et les sociétés financières à caractère bancaire",
+    "les personnes physiques dont l'activité consiste pour une part essentielle à exercer pour le compte de tiers le commerce de documents imposables",
+    "les personnes morales dont l'activité consiste pour une part essentielle à s'entremettre en tant que conseiller en placement dans l'achat et la vente de documents",
+    "Les sociétés anonymes dont l'actif se compose dans le dernier bilan de plus de 1 million de francs de documents imposables"
+   ],
+   "correct": 3,
+   "explications": [
+    "Ne répond pas à la consigne : les banques et sociétés financières à caractère bancaire SONT des commerçants de titres par statut (art. 13 al. 3 let. a LT).",
+    "Ne répond pas à la consigne : les négociants pour le compte de tiers SONT des commerçants de titres (art. 13 al. 3 let. b LT).",
+    "Ne répond pas à la consigne : les conseillers en placement et gérants de fortune qui s'entremettent SONT des commerçants de titres (art. 13 al. 3 let. b LT).",
+    "CORRECTE : le seuil des sociétés « ordinaires » est fixé à plus de CHF 10 MILLIONS de documents imposables à l'actif du dernier bilan (art. 13 al. 3 let. d LT ; mémento §13). Une SA avec seulement 1 million n'atteint pas ce seuil et n'est donc PAS commerçante de titres."
+   ],
+   "piege": "Seuil commerçant « ordinaire » : > 10 mio de documents imposables, pas 1 mio"
+  },
+  {
+   "id": "FE-168",
+   "champ": "Taux (art. 16)",
+   "memento": "§13",
+   "difficulte": 1,
+   "question": "Au sens de l'article 16 de la LT, les taux d'imposition sont de (identifiez la réponse correcte) :",
+   "options": [
+    "1,5 ‰ pour les titres suisses et 3 ‰ pour les titres étrangers",
+    "1,5 ‰ pour les titres suisses et étrangers",
+    "3 ‰ pour les titres suisses et étrangers",
+    "3 ‰ pour les titres suisses et 1,5 ‰ pour les titres étrangers"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECTE : art. 16 al. 1 LT — 1,5 ‰ pour les documents émis par une personne domiciliée en SUISSE (let. a) et 3 ‰ pour les titres ÉTRANGERS (let. b). Le droit se calcule ensuite par moitié pour chaque partie non exonérée (mémento §13).",
+    "Faux : le taux de 1,5 ‰ ne vaut que pour les titres suisses — les titres étrangers sont taxés au double (3 ‰) ; il n'existe pas de taux unique.",
+    "Faux : 3 ‰ est le taux des seuls titres étrangers — les titres suisses sont à 1,5 ‰ ; il n'existe pas de taux unique.",
+    "Faux : inverse les deux taux — c'est 1,5 ‰ pour les titres suisses et 3 ‰ pour les titres étrangers (art. 16 al. 1 LT)."
+   ],
+   "piege": "Suisse 1,5 ‰ / étranger 3 ‰ (le double)"
+  },
+  {
+   "id": "FE-169",
+   "champ": "Calcul du droit de négociation",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "Un commerçant de titres achète pour 2 millions d'obligations suisses auprès d'une grande banque suisse. Quel montant doit le commerçant de titres comme droit de négociation ? (identifiez la réponse correcte)",
+   "options": [
+    "Il ne doit rien.",
+    "Il doit CHF 6'000.-",
+    "Il doit CHF 3'000",
+    "Il doit CHF 1'500"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : transfert à titre onéreux de documents imposables (obligations suisses) entre commerçants de titres → le droit de négociation est bien dû, à tout le moins le demi-droit de l'acheteur.",
+    "Faux : CHF 6 000 = 3 ‰ × 2 000 000 — applique le taux ÉTRANGER à des obligations SUISSES ; le bon taux est 1,5 ‰ (art. 16 al. 1 let. a LT).",
+    "Faux : CHF 3 000 = 1,5 ‰ × 2 000 000 = droit PLEIN — mais la contrepartie (grande banque suisse) est un commerçant de titres enregistré : son demi-droit n'est pas dû (art. 17 LT). Seul reste le demi-droit de l'acheteur.",
+    "CORRECT : obligations suisses → 1,5 ‰ × 2 000 000 = 3 000 de droit plein, soit un demi-droit de 1 500 par partie (mémento §13). La banque, commerçant enregistré, ne doit pas son demi-droit → le commerçant acheteur ne doit que le sien : CHF 1'500."
+   ]
+  },
+  {
+   "id": "FE-170",
+   "champ": "Commerçants de titres — seuil",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Au sens de l'article 13 de la LT, ne sont pas des commerçants de titres (identifiez la réponse erronée) :",
+   "options": [
+    "Les sociétés anonymes dont l'actif se compose dans le dernier bilan de plus de 1 million de francs de documents imposables",
+    "Les sociétés anonymes dont l'actif se compose dans le dernier bilan de plus de 5 millions de francs de documents imposables",
+    "Les sociétés anonymes dont l'actif se compose dans le dernier bilan de plus de 8 millions de francs de documents imposables",
+    "Les sociétés anonymes dont l'actif se compose dans le dernier bilan de plus de 10 millions de francs de documents imposables"
+   ],
+   "correct": 3,
+   "explications": [
+    "Affirmation EXACTE pour la consigne, donc pas la réponse : avec 1 mio de documents imposables, le seuil de 10 mio (art. 13 al. 3 let. d LT) n'est pas atteint → la SA n'est effectivement PAS commerçante de titres.",
+    "Affirmation EXACTE pour la consigne, donc pas la réponse : 5 mio reste en dessous du seuil de 10 mio → pas commerçante de titres.",
+    "Affirmation EXACTE pour la consigne, donc pas la réponse : 8 mio reste en dessous du seuil de 10 mio → pas commerçante de titres.",
+    "ERRONÉE (bonne réponse) : une SA dont l'actif contient PLUS de 10 mio de documents imposables EST précisément commerçante de titres (art. 13 al. 3 let. d LT ; mémento §13) — la ranger parmi celles qui « ne sont pas des commerçants » est faux."
+   ],
+   "piege": "Seuil commerçant : > 10 mio de documents imposables au dernier bilan"
+  },
+  {
+   "id": "FE-171",
+   "champ": "Début de l'assujettissement",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "L'assujettissement en tant que commerçant de titres débute (identifiez la réponse erronée) :",
+   "options": [
+    "Au début de l'activité commerciale pour une banque",
+    "Au début de l'activité commerciale pour une SA dont l'actif au bilan est constitué de plus de 10 millions de documents imposables",
+    "Au début de l'exercice qui suit celui pendant lequel pour une SA l'actif au bilan est constitué de plus de 10 millions de documents imposables",
+    "6 mois après la fin de l'exercice pendant lequel pour une SA l'actif au bilan est constitué de plus de 10 millions de documents imposables"
+   ],
+   "correct": 1,
+   "explications": [
+    "Affirmation VRAIE, donc pas la réponse : pour une banque, commerçante de titres par statut (art. 13 al. 3 let. a LT), l'assujettissement débute dès le début de l'activité commerciale.",
+    "ERRONÉE (bonne réponse) : elle applique à tort la règle de la banque (« dès le début de l'activité ») à une SA soumise au critère du seuil de 10 mio (art. 13 al. 3 let. d LT). Pour cette SA, l'assujettissement est DIFFÉRÉ : il ne commence pas immédiatement avec l'activité, mais seulement après l'exercice dont le bilan dépasse le seuil.",
+    "Affirmation retenue comme exacte par le corrigé, donc pas la réponse : pour la SA au seuil, l'assujettissement ne débute qu'APRÈS l'exercice de dépassement (début différé). NB : ce point de détail (début de l'exercice suivant vs 6 mois après la clôture) n'est pas repris dans le mémento — §13 est la section la plus proche.",
+    "Affirmation retenue comme exacte par le corrigé, donc pas la réponse : la LT prévoit également un début d'assujettissement différé, exprimé en délai de 6 mois après la fin de l'exercice déterminant. NB : point hors mémento (voir option précédente) ; l'essentiel pour l'examen est que la SA « au seuil » n'est PAS assujettie dès le début de son activité."
+   ]
+  },
+  {
+   "id": "FE-172",
+   "champ": "Délégation de l'obligation fiscale",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Peuvent déléguer l'obligation fiscale (identifiez la réponse erronée) :",
+   "options": [
+    "les petites banques suisses",
+    "les conseillers en placement et gérants",
+    "les sociétés coopératives",
+    "les institutions suisses de prévoyance professionnelle"
+   ],
+   "correct": 2,
+   "explications": [
+    "Affirmation VRAIE, donc pas la réponse : les petites banques suisses peuvent confier la perception et le décompte du droit de négociation à une autre banque (délégation de l'obligation fiscale).",
+    "Affirmation VRAIE, donc pas la réponse : les conseillers en placement et gérants de fortune sont des commerçants de titres (art. 13 al. 3 let. b LT) et peuvent déléguer leur obligation fiscale à une banque.",
+    "ERRONÉE (bonne réponse) : les « sociétés coopératives » ne constituent pas, comme telles, une catégorie de commerçants de titres habilitée à déléguer l'obligation fiscale — la forme juridique coopérative n'ouvre aucun droit particulier à la délégation. NB : la délégation n'est pas détaillée dans le mémento — §13 (commerçants de titres) est la section la plus proche.",
+    "Affirmation VRAIE, donc pas la réponse : les institutions suisses de prévoyance professionnelle sont des commerçantes de titres (art. 13 al. 3 let. f LT) et peuvent déléguer leur obligation fiscale."
+   ]
+  },
+  {
+   "id": "FE-173",
+   "champ": "Registre des négociations",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "Concernant le registre des négociations (identifiez la réponse erronée) :",
+   "options": [
+    "C'est l'article 21 de l'ordonnance qui régit les prescriptions",
+    "Les opérations doivent être enregistrées dans les 7 jours qui suivent la conclusion d'une opération",
+    "Les opérations avec des investisseurs exonérés doivent figurer dans le registre",
+    "Un gérant de fortune qui a délégué l'obligation fiscale doit tenir son propre registre de négociations s'il agit comme commerçant de titres vis-à-vis d'une banque suisse"
+   ],
+   "correct": 3,
+   "explications": [
+    "Affirmation VRAIE, donc pas la réponse : le registre des négociations est régi par l'art. 21 de l'ordonnance sur les droits de timbre (OT).",
+    "Affirmation retenue comme exacte par le corrigé, donc pas la réponse : les opérations doivent être inscrites au registre dans un bref délai suivant leur conclusion (7 jours selon l'énoncé). NB : ce délai n'est pas repris dans le mémento — §13 est la section la plus proche.",
+    "Affirmation VRAIE, donc pas la réponse : toutes les opérations, y compris celles conclues avec des investisseurs exonérés (art. 17a LT), doivent figurer au registre — c'est précisément ce qui documente et justifie l'exonération du demi-droit.",
+    "ERRONÉE (bonne réponse) : le gérant de fortune qui a DÉLÉGUÉ son obligation fiscale à la banque suisse n'a précisément PLUS à tenir son propre registre vis-à-vis de cette banque, qui assume la perception et le décompte. Affirmer le contraire inverse la logique même de la délégation."
+   ]
+  },
+  {
+   "id": "FE-174",
+   "champ": "DTN — transfert de titres étrangers via une banque suisse, deux parties non exonérées",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Marie Gèle est l’actionnaire unique de la société Froid SA, dont le siège se situe dans le canton de Lucerne. Afin d’étendre son activité commerciale au marché français, elle souhaite acquérir les actions de Bleu SA, dont le siège est en France, qui sont détenues par Jean Zéro. Marie Gèle a appris grâce à la X-Bank SA, chargée de la transaction, que les actions de Bleu SA étaient à vendre. Les parties se sont rapidement mises d’accord sur les modalités et Marie Gèle a acheté les actions de Bleu SA au prix de CHF 5’000’000. Quel est le montant du droit de timbre de négociation à acquitter dans le cadre de cette transaction ?",
+   "options": [
+    "Aucun droit de timbre de négociation n’est dû",
+    "CHF 15'000",
+    "CHF 3'750",
+    "CHF 7'500"
+   ],
+   "correct": 1,
+   "explications": [
+    "Faux : la X-Bank SA, chargée de la transaction, est un commerçant de titres suisse INTERMÉDIAIRE — les conditions du droit de négociation sont réunies (transfert à titre onéreux de documents imposables avec commerçant de titres, art. 13 LT). Un droit est donc bien dû.",
+    "CORRECT : actions de Bleu SA (siège en France) = titres ÉTRANGERS → taux 3 ‰ (art. 16 al. 1 let. b LT). Les DEUX parties — Marie Gèle (acheteuse) et Jean Zéro (vendeur) — sont non exonérées → un demi-droit chacune, acquitté par la banque intermédiaire : droit plein = 3 ‰ × 5 000 000 = CHF 15 000 (mémento §13).",
+    "Faux : CHF 3 750 = 1,5 ‰ × 5 000 000 × ½ — double erreur : taux SUISSE appliqué à un titre étranger ET une seule moitié retenue alors que les deux parties sont non exonérées.",
+    "Faux : CHF 7 500 = 3 ‰ × 5 000 000 × ½ — ne retient qu'UNE moitié du droit ; or ni l'acheteuse ni le vendeur n'est commerçant enregistré ou investisseur exonéré : les deux demi-droits sont dus."
+   ],
+   "piege": "Étranger 3 ‰ ; deux demi-droits si aucune partie n'est exonérée"
+  },
+  {
+   "id": "FE-175",
+   "champ": "Commerçant de titres",
+   "memento": "§13",
+   "difficulte": 2,
+   "question": "Qui est commerçant de titres (indépendamment de la structure du bilan)?",
+   "options": [
+    "Conseillers fiscaux",
+    "Sociétés de capitaux",
+    "Toutes les sociétés inscrites au registre du commerce",
+    "Banques conformément à la loi sur les banques"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : les conseillers FISCAUX ne sont pas visés en tant que tels par l'art. 13 al. 3 LT (à ne pas confondre avec les conseillers en PLACEMENT et gérants de fortune, qui le sont, let. b).",
+    "Faux : les sociétés de capitaux ne sont commerçantes de titres que si leur actif contient plus de 10 mio de documents imposables (art. 13 al. 3 let. d LT) — leur qualité DÉPEND de la structure du bilan, ce que l'énoncé exclut expressément.",
+    "Faux : l'inscription au registre du commerce ne confère aucune qualité générale de commerçant de titres — seules les catégories de l'art. 13 al. 3 LT sont visées.",
+    "CORRECT : les banques au sens de la loi sur les banques sont commerçantes de titres PAR STATUT (art. 13 al. 3 let. a LT), quelle que soit la structure de leur bilan (mémento §13)."
+   ]
+  },
+  {
+   "id": "FE-176",
+   "champ": "Négoce d'une participation suisse — contrepartie étrangère cotée",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "La société suisse Z SA (négociant en valeurs mobilières au sens de la loi sur les droits de timbre) acquiert une participation dans X SA (CH) directement auprès d'un vendeur, la société Y SA cotée en bourse avec siège à Munich, au prix de CHF 10 mio. Quelle assertion est correcte?",
+   "options": [
+    "Z SA et Y SA versent chacune CHF 7 500 à l'AFC",
+    "Z SA verse CHF 15 000 de droit de timbre de négociation à l'AFC",
+    "Le droit de timbre de négociation n'est pas dû",
+    "Z SA verse CHF 7 500 de droit de timbre de négociation à l'AFC"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : Y SA, société étrangère cotée en bourse, est un investisseur EXONÉRÉ (art. 17a LT) — son demi-droit tombe, et elle n'est de toute façon pas assujettie en Suisse : elle ne verse rien à l'AFC.",
+    "Faux : CHF 15 000 supposerait les DEUX demi-droits dus (1,5 ‰ × 10 mio). Or le demi-droit de la contrepartie n'est dû que si celle-ci n'est ni commerçant enregistré ni exonérée — ici Y SA est exonérée (art. 17a LT).",
+    "Faux : un titre SUISSE (X SA) est transféré à titre onéreux avec un négociant suisse partie à l'opération (Z SA) → les conditions de l'art. 13 LT sont réunies, le droit est dû (au moins le demi-droit de Z SA).",
+    "CORRECT : X SA = document imposable SUISSE → 1,5 ‰ (art. 16 al. 1 let. a LT). Droit théorique total = 10 000 000 × 1,5 ‰ = 15 000, soit deux demi-droits de 7 500. Z SA, négociant partie, doit son propre demi-droit = CHF 7 500 ; le demi-droit de Y SA, société étrangère cotée = investisseur exonéré (art. 17a LT), n'est pas dû (mémento §13, cas analogue « vendeur = groupe coté »)."
+   ]
+  },
+  {
+   "id": "FE-177",
+   "champ": "Négoce d'un titre étranger via banque intermédiaire",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "A SA (CH) est active dans le domaine de la fabrication de machines-outils et est un négociant en valeurs mobilières au sens de la loi sur les droits de timbre. Elle acquiert, par l'intermédiaire de la banque d'investissement d'UBS, une participation dans la société allemande T Sàrl au prix de CHF 40 mio. Le vendeur est la société danoise SNS. Quelle assertion est correcte (en partant du cas général)?",
+   "options": [
+    "A SA verse CHF 60 000 de droit de timbre de négociation à l'AFC.",
+    "A SA verse CHF 120 000 de droit de timbre de négociation à l'AFC.",
+    "A SA et UBS versent chacune CHF 60 000 de droit de timbre de négociation à l'AFC.",
+    "UBS verse CHF 120 000 de droit de timbre de négociation à l'AFC."
+   ],
+   "correct": 2,
+   "explications": [
+    "Faux : CHF 60 000 versés par la seule A SA oublie le demi-droit du VENDEUR SNS (société danoise ordinaire, non exonérée), que l'intermédiaire UBS doit acquitter (art. 17 al. 3 LT).",
+    "Faux : A SA ne doit que son PROPRE demi-droit (60 000) en tant que négociant partie ; le demi-droit du vendeur passe par l'intermédiaire UBS, pas par A SA.",
+    "CORRECT : T Sàrl = document imposable ÉTRANGER → 3 ‰ (art. 16 al. 1 let. b LT). Droit total = 40 000 000 × 3 ‰ = 120 000 = deux demi-droits de 60 000. A SA, négociant PARTIE, doit son propre demi-droit = 60 000 (art. 17 al. 2 LT) ; UBS, négociant INTERMÉDIAIRE, doit le demi-droit de la partie non-négociante et non-exonérée qu'elle sert, le vendeur SNS = 60 000 (art. 17 al. 3 LT). Total 120 000, réparti 60 000 + 60 000 (mémento §13).",
+    "Faux : attribuer les 120 000 à UBS ignore qu'A SA, négociant partie à l'opération, est elle-même débitrice de son propre demi-droit (art. 17 al. 2 LT) ; UBS ne doit que le demi-droit du vendeur."
+   ]
+  },
+  {
+   "id": "FE-178",
+   "champ": "Assiette du droit de négociation — opérations d'un commerçant de titres",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "La société H SA est une commerçante de titres au sens de l'article 13 al. 3 let. d LT. Durant la période fiscale 2023, elle a effectué les opérations suivantes : Vente d'une participation suisse au prix de CHF 1'000'000 à un tiers indépendant qui n'est pas un commerçant de titres enregistré; Achat de droits de souscription d'une société suisse au prix de CHF 100'000 à un tiers indépendant qui n'est pas un commerçant de titres enregistré; Achat de 10'000 actions Nestlé SA auprès de la société-mère de H SA (qui n'est pas un commerçant de titres enregistré) pour le prix de CHF 500'000. Le cours en bourse des actions Nestlé SA était de CHF 100 par action; Augmentation du capital d'une filiale étrangère de H SA pour CHF 2'000'000. Quelle est le montant dû par H SA en matière de droit de timbre de négociation ?",
+   "options": [
+    "CHF 2'400",
+    "CHF 3'000",
+    "CHF 9'000",
+    "CHF 2'250"
+   ],
+   "correct": 3,
+   "explications": [
+    "Faux : CHF 2 400 ajoute à tort un droit sur les droits de souscription (100 000 × 1,5 ‰ = 150) — or les droits de souscription ne sont PAS des documents imposables au sens de l'art. 13 al. 2 LT.",
+    "Faux : CHF 3 000 retient pour Nestlé le COURS BOURSIER (10 000 × 100 = 1 000 000 × 1,5 ‰ = 1 500 au lieu de 750) — or l'assiette est la contre-valeur effectivement CONVENUE (500 000), pas le cours.",
+    "Faux : CHF 9 000 taxe en plus l'augmentation de capital de la filiale étrangère (2 000 000 × 3 ‰ = 6 000) — or la souscription d'actions nouvellement émises relève du marché primaire (émission), hors droit de négociation (art. 14 LT, qui évite le cumul avec le droit d'émission).",
+    "CORRECT — qualification opération par opération : (1) vente d'une participation suisse 1 000 000 à un tiers non enregistré → H SA, négociante partie, doit son demi-droit ET celui de la contrepartie non exonérée (art. 17 al. 2 LT) : 1 000 000 × 1,5 ‰ = 1 500 ; (2) droits de souscription = PAS des documents imposables (art. 13 al. 2 LT) → 0 ; (3) actions Nestlé : assiette = contre-valeur CONVENUE 500 000 (pas le cours 1 000 000) × 1,5 ‰ = 750 (droit plein, la société-mère n'étant ni enregistrée ni exonérée) ; (4) augmentation de capital de la filiale = émission, hors DTN (art. 14 LT) → 0. Total = 1 500 + 750 = CHF 2 250 (mémento §13)."
+   ],
+   "piege": "Émission ≠ négociation ; assiette = contre-valeur convenue, pas le cours"
+  },
+  {
+   "id": "FE-179",
+   "champ": "DTN — commerçant de titres, titres étrangers",
+   "memento": "§13",
+   "difficulte": 3,
+   "question": "Franklin SA est une société holding (siège en Suisse) qui détient depuis de nombreuses années des participations dans d'autres sociétés de capitaux pour une valeur de CHF 40 000 000. En 2023, Franklin SA acquiert de Benjamin SA, une société tierce cotée à la bourse canadienne, une participation de 100% dans une société basée à Singapour. Le prix d'achat est de CHF 10 000 000. À combien s'élève le droit de timbre de négociation dû par Franklin SA dans le cadre de cette transaction ?",
+   "options": [
+    "CHF 15 000",
+    "CHF 30 000",
+    "CHF 7 500",
+    "CHF 0"
+   ],
+   "correct": 0,
+   "explications": [
+    "CORRECT : Franklin SA détient plus de 10 mio de documents imposables à l'actif → commerçante de titres (art. 13 al. 3 let. d LT). La participation acquise (société de Singapour) est un document ÉTRANGER → 3 ‰ (art. 16 al. 1 let. b LT). Droit total = 10 000 000 × 3 ‰ = 30 000, soit un demi-droit de 15 000 par partie. Franklin, négociante partie, doit son propre demi-droit = CHF 15 000 ; celui de Benjamin SA, société étrangère cotée en bourse (investisseur exonéré, art. 17a LT), n'est pas dû (mémento §13).",
+    "Faux : CHF 30 000 = les DEUX demi-droits — or la contrepartie Benjamin SA, société étrangère cotée, est un investisseur exonéré (art. 17a LT) : son demi-droit tombe.",
+    "Faux : CHF 7 500 = 1,5 ‰ × 10 000 000 × ½ — applique le taux SUISSE à un titre étranger (Singapour) ; le taux correct est 3 ‰.",
+    "Faux : CHF 0 supposerait une exonération totale — or Franklin SA est commerçante de titres (> 10 mio de titres à l'actif) et partie à l'opération : elle doit son propre demi-droit."
+   ]
+  }
+ ]
+}
