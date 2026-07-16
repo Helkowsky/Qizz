@@ -663,10 +663,11 @@ window.QCM_BANK["conclusionRapportAudit"] = {
      "correct": 3,
      "explications": [
       "Faux : le rapport succinct à l'AG est obligatoire en contrôle ordinaire (art. 728b al. 2 CO) ; on n'y renonce pas.",
-      "Faux : des difficultés d'exploitation ne modifient pas automatiquement l'opinion — il faut une anomalie ou une limitation significative (ISA-CH 705 ; mémento §6.1).",
-      "Faux : les faits décrits (pandémie, faillites de clients, départs de cadres clés) sont des indicateurs d'incertitude qui imposent d'EXAMINER la continuité (ISA-CH 570 ; mémento §4.2) — on ne peut pas la « confirmer » d'office.",
-      "Juste : en contrôle ordinaire, l'organe de révision remet TOUJOURS deux rapports : un rapport détaillé au CA (art. 728b al. 1 CO) et un rapport succinct à l'AG (al. 2) — mémento §5.1 ; cette proposition est vraie quelles que soient les circonstances."
-     ]
+      "Faux : des difficultés d'exploitation ne modifient pas automatiquement l'opinion — il faut une anomalie ou une limitation significative (ISA-CH 705 ; mémento §6.1). L'énoncé ne donne d'ailleurs pas assez d'éléments pour conclure à une modification.",
+      "Faux : les faits décrits (pandémie, faillites de clients, départs de cadres clés) sont des indicateurs d'incertitude qui imposent d'EXAMINER la continuité (ISA-CH 570 ; mémento §4.2) — on ne peut pas la « confirmer » d'office. Là aussi, l'énoncé ne suffit pas pour trancher.",
+      "Juste : en contrôle ordinaire, l'organe de révision remet TOUJOURS deux rapports : un rapport détaillé au CA (art. 728b al. 1 CO) et un rapport succinct à l'AG (al. 2) — mémento §5.1. MÉTHODE : l'énoncé est volontairement flou (c'est la formulation d'origine de l'examen) — quand « qu'est-ce qui est le plus juste ? » ne donne pas assez de faits pour évaluer B ou C, cherche l'affirmation vraie EN TOUTES circonstances : ici le double rapport, obligation légale inconditionnelle du contrôle ordinaire."
+     ],
+     "piege": "énoncé flou : cherche l'affirmation toujours vraie"
     },
     {
      "id": "CRA-033",
